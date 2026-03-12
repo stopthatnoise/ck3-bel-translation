@@ -1,0 +1,2338 @@
+[
+  {
+    "KEY": "tribute_mission_header",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Tribute Mission:",
+    "RUS": "Бремя данника:",
+    "POL": "Misja trybutowa:",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_suzerain_legitimacy_gain_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Gained Legitimacy from Tribute",
+    "RUS": "Легитимность повышается из-за дани",
+    "POL": "Zyskano legitymację za trybut",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_tributary_subject_standing_gain_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Gained [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]",
+    "RUS": "[ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] повышается",
+    "POL": "Zyskano status: [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')] [tributary_scope.Custom('SubjectStanding')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_tributary_subject_standing_gain_tt_minor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetShortUIName|U] gained some [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]",
+    "RUS": "[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] немного повышается",
+    "POL": "[tributary_scope.GetShortUINameNotMe] zyskuje nieco statusu: [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')] [tributary_scope.Custom('SubjectStanding')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_tributary_subject_standing_gain_tt_major",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetShortUIName|U] gained a #EMP lot#! of [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')]",
+    "RUS": "[ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')][tributary_scope.Custom('SubjectStanding')] [Select_CString(tributary_scope.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', tributary_scope.GetShortUIName))] #EMP значительно#! повышается",
+    "POL": "[tributary_scope.GetShortUINameNotMe] zyskuje #EMP dużo#! statusu: [ConcatIfNeitherEmpty(tributary_scope.Custom('SubjectStandingIcon'),' ')] [tributary_scope.Custom('SubjectStanding')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Paying Tribute",
+    "RUS": "$tribute_mission_header$ выплата дани",
+    "POL": "$tribute_mission_header$ złożenie daniny",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "We enter the grand hall of [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] and are greeted by",
+    "RUS": "Мы входим в роскошные чертоги владения [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip].",
+    "POL": "Wkraczamy do wielkiej sali w miejscu znanym jako [overlord_scope.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip], w której wita nas",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.intro.overlord",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[overlord_scope.GetTitledFirstName], regally motioning for us to approach.",
+    "RUS": "[overlord_scope.GetTitledFirstName|U] царственным жестом велит мне подойти поближе.",
+    "POL": "[overlord_scope.GetTitledFirstName], władczym ruchem zachęcając do podejścia bliżej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.intro.diarch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[overlord_scope.GetTitledFirstNamePossessive] [receiving_character.GetDiarchTitle], [receiving_character.GetTitledFirstName], motioning for us to approach.",
+    "RUS": "[receiving_character.GetDiarchTitle|U] [receiving_character.GetTitledFirstName], [Select_CString(receiving_character.IsFemale,'которой','которому')] [overlord_scope.GetTitledFirstName] [Select_CString(overlord_scope.IsFemale,'передала','передал')] часть своих полномочий, жестом велит мне подойти поближе.",
+    "POL": "[receiving_character.GetTitledFirstName], [receiving_character.GetDiarchTitle] osoby znanej jako [overlord_scope.GetTitledFirstName], i zachęca do podejścia bliżej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.intro.councillor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[overlord_scope.GetTitledFirstNamePossessive] [receiving_character.Custom('CouncilPosition')], [receiving_character.GetTitledFirstName], nodding [receiving_character.GetHerHis] head and motioning for us to approach.",
+    "RUS": "[overlord_scope.GetTitledFirstName] не снисходит до того, чтобы выйти к нам лично, так что нас встречает [Select_CString(overlord_scope.IsFemale,'ее','его')] [receiving_character.Custom('CouncilPosition')] [receiving_character.GetTitledFirstName]. Вежливо кивнув, [Select_CString(receiving_character.IsFemale,'она','он')] жестом велит мне подойти поближе.",
+    "POL": "[receiving_character.GetTitledFirstName], [receiving_character.Custom('CouncilPosition')|l] osoby znanej jako [overlord_scope.GetTitledFirstName], i kiwnięciem głowy zachęca nas do podejścia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.intro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "one of [overlord_scope.GetTitledFirstNamePossessive] high-ranking attendants, smiling apologetically and motioning for us to approach.",
+    "RUS": "[overlord_scope.GetTitledFirstName] не снисходит до того, чтобы выйти к нам лично, так что нас встречает кто-то из [Select_CString(overlord_scope.IsFemale,'ее','его')] высокопоставленных слуг. Виновато улыбнувшись, вельможа жестом велит мне подойти поближе.",
+    "POL": "wysoki rangą członek świty osoby znanej jako [overlord_scope.GetTitledFirstName] i, uśmiechając się przepraszająco, zachęca nas do podejścia bliżej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nWithout delay, I declare:",
+    "RUS": "\\n\\nНе теряя времени, я начинаю говорить:",
+    "POL": "\\n\\nBezzwłocznie oznajmiam:",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.bunga_mas",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Прошу, полюбуйтесь этими великолепными творениями! Эти изысканные деревья Бунга мас были изготовлены специально для вас, о [Select_CString(overlord_scope.IsFemale, 'великая', 'великий' )] [overlord_scope.GetTitledFirstNameNoTooltip]!» В этот момент по залу начинает разноситься шепот и удивленные вздохи толпы.",
+    "POL": " – Podziwiajcie tę wspaniałość. To najwyższej jakości zestaw drzew bunga mas, stworzony wyłącznie dla najwspanialszej osoby znanej jako [overlord_scope.GetTitledFirstNameNoTooltip]! – w oczach tłumu pojawia się zachwyt, a po sali rozchodzi się szmer.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.small_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Позвольте преподнести нашу скромную дань. Размер ее невелик, зато мы предлагаем ее от чистого сердца!» Я кланяюсь, пока слуги выносят небольшие ящики с товарами.",
+    "POL": " – Pozwól mi złożyć skromny trybut; mały, ale wielki niczym nasza wdzięczność! – Kłaniam się, kiedy moi słudzy przynoszą skrzynie pełne towarów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.adequate_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Мы доставили богатую дань, чтобы выразить уважение [Select_CString(overlord_scope.IsFemale, 'нашей госпоже', 'нашему господину')]!» Улыбнувшись, я киваю, и слуги вносят в зал множество амфор и корзин.",
+    "POL": "\\n\\n– Przybywam z wielkim trybutem dla wielkiego człowieka: niech żyje [overlord_scope.GetLadyLord] naszego ludu!\\n\\nUśmiecham się, kiwając głową, podczas gdy pomieszczenie wypełnia się obficie kolejnymi koszami i urnami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.excessive_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Только полюбуйтесь на эту красоту!» Все, кто присутствует в зале, ахают и охают, глядя на наши роскошные дары: бесчисленные ряды ящиков, амфор, корзин, статуй… Я не могу сдержать гордой усмешки.",
+    "POL": "\\n\\n– Proszę cieszyć oczy!\\n\\nUśmiecham się z dumą, gdy pomieszczenie wypełnia się #EMP ochami#! i #EMP achami#! na widok hojnego trybutu: istnej #EMP obfitości#! skrzyń, urn, koszy i posągów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.small_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Мы привели отборных животных из нашего стада. Пусть они послужат [Select_CString(overlord_scope.IsFemale, 'нашей госпоже', 'нашему господину')]!»",
+    "POL": "\\n\\n– Wybraliśmy najbardziej obiecujące osobniki z naszych stad – wszystkie gotowe do służby. Wierzę, że [overlord_scope.GetLadyLord] naszego ludu zrobi z nich dobry użytek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.adequate_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Загоны буквально забиты нашими животными, большими и малыми. Всё для [Select_CString(overlord_scope.IsFemale, 'нашей госпожи', 'нашего господина')]!»",
+    "POL": "\\n\\n– Stajnie są pełne naszych zwierząt, zarówno tych większych, jak i mniejszych. Wierzę, że [overlord_scope.GetLadyLord] naszego ludu zrobi z nich dobry użytek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.excessive_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Мы доставили [Select_CString(overlord_scope.IsFemale, 'нашей госпоже', 'нашему господину')] бессчетное множество животных — больших и малых, сильных и стремительных! Пусть они послужат [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ому двору!»",
+    "POL": "\\n\\n– [overlord_scope.GetLadyLord|U] naszego ludu otrzyma całe mnóstwo zwierząt – mniejszych, większych, silnych i szybkich. Będą one dobrze służyć dworowi w miejscu takim jak [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Перед вами [Select_CString(human_tribute.IsFemale, 'прелестная', 'прелестный')] [human_tribute.GetTitledFirstName]. Надеюсь, [Select_CString(human_tribute.IsFemale, 'она', 'он')] станет еще одним цветком в [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ом саду!» [human_tribute.GetTitledFirstNameNoTooltip] грациозно выступает вперед. Все взгляды в зале устремлены только на [Select_CString(human_tribute.IsFemale, 'нее', 'него')], щеки [Select_CString(human_tribute.IsFemale, 'женщины', 'мужчины')] становятся пунцовыми от смущения.",
+    "POL": "\\n\\n– Składam ci w darze, o [human_tribute.GetTitledFirstName] naszego ludu, kolejny zbiór z ogrodu w miejscu o nazwie [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]!\\n\\n[human_tribute.GetTitledFirstNameNoTooltip] występuje uprzejmie naprzód, rumieniąc się, gdy cała uwaga osób w pomieszczeniu skupia się właśnie na [human_tribute.Custom('PL_nim_niej')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": "«Это [human_tribute.GetTitledFirstName], многоопытный евнух, и [Select_CString(human_tribute.IsFemale, 'она', 'он')] почитает за честь служить [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ому двору!» [human_tribute.GetTitledFirstNameNoTooltip] делает шаг вперед, придворные немедленно начинают перешептываться.",
+    "POL": "\\n\\n– Oto ceniony eunuch, [human_tribute.GetTitledFirstName], w pełnej gotowości do dumnej dworskiej służby w miejscu o nazwie [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]!\\n\\nGdy [human_tribute.GetTitledFirstNameNoTooltip] występuje naprzód, po pomieszczeniu rozchodzi się szum szeptów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": " ",
+    "RUS": " «[artifact_to_tribute.Custom('ArtifactType')|U] — одна из самых ценных вещей, которыми я обладаю, и теперь ей владеет [overlord_scope.GetTitleAsNameNoTooltip] в знак нашего взаимоуважения».",
+    "POL": "\\n\\n– [artifact_to_tribute.Custom('ArtifactType')|U] to najcenniejszy z moich skarbów. Teraz [overlord_scope.GetTitleAsNameNoTooltip] jest w jego posiadaniu i niech to będzie symbol wzajemnego uznania. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.outro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nThe attendant ponders this for a moment, allowing me to preemptively chime in:",
+    "RUS": "\\n\\nВельможа на мгновение задумывается. Чтобы не упустить возможность, я продолжаю:",
+    "POL": "\\n\\nPomocnik zastanawia się przez chwilę, co daje mi okazję, by go uprzedzić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.outro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[receiving_character.GetTitledFirstNameNoTooltip] ponders this for a moment, allowing me to preemptively chime in:",
+    "RUS": "\\n\\n[receiving_character.GetTitledFirstNameNoTooltip|U] на мгновение задумывается. Чтобы не упустить возможность, я продолжаю:",
+    "POL": "\\n\\nPomocnik milczy przez chwilę w zadumie, mam więc okazję, by wtrącić coś od siebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы знаете, нам очень нравятся [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ие ткани. Они просто великолепны…»",
+    "POL": "– Tkaniny z miejsca o nazwie [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] są wprost olśniewające…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.success.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Success",
+    "RUS": "Успех",
+    "POL": "Sukces",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.success.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You successfully convince [receiving_character.GetHerHim]",
+    "RUS": "Вам удается [Select_CString(receiving_character.IsFemale, 'ее', 'его' )] убедить",
+    "POL": "Udaje ci się [receiving_character.Custom('PL_go_ja')] przekonać",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.failure.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Attempt Failed",
+    "RUS": "Попытка не удалась",
+    "POL": "Próba zakończona niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.failure.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Your attempt is ignored",
+    "RUS": "Ваши намеки игнорируются",
+    "POL": "Twoja próba zostaje zignorowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.failure.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[receiving_character.GetShortUIName] decides the gift",
+    "RUS": "[receiving_character.GetShortUIName] выбирает подарок",
+    "POL": "[receiving_character.GetShortUINameNotMe] uznaje, że podarunek",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[overlord_scope.GetCulture.GetCollectiveNounNoTooltip|U]ие творения — лучший подарок…»",
+    "POL": "– Rękodzieło, które stworzyli [overlord_scope.GetCulture.GetCollectiveNounNoTooltip], to naprawdę coś…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.artifact.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You gain a [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] [artifact|E]",
+    "RUS": "Вы получаете [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ий [Concept('artifact', 'артефакт')|E]",
+    "POL": "Zyskujesz [artifact|El] zbiorowości kulturowej znanej jako [overlord_scope.GetCulture.GetCollectiveNounNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Делиться знаниями — что может быть благороднее…»",
+    "POL": "– Dzielenie się wiedzą… Czy istnieje szczytniejszy cel?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.innovation.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You discover a new [innovation|E] to research or gain [fascination|E] progress",
+    "RUS": "Вы открываете возможность исследовать новую [Concept('innovation', 'инновацию')|E] или получаете прогресс [Concept('fascination', 'интереса')|E]",
+    "POL": "Odkrywasz nową [Concept('innovation', 'innowację')|E] do zbadania lub zyskujesz wzrost [Concept('fascination', 'fascynacji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы говорили, что [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] — непочатый край для торговли…»",
+    "POL": "– Jeśli chodzi o te niezagospodarowane rynki w miejscu znanym jako [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.monk.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[receiving_character.GetShortUIName] will gift you a [overlord_scope.GetFaith.GetAdjective] monk [courtier|E]",
+    "RUS": "[receiving_character.GetShortUIName] подарит вам [Concept('courtier', 'придворного')|E] — #L [overlord_scope.GetFaith.GetName|l]ого#! монаха",
+    "POL": "[receiving_character.GetShortUINameNotMe] przekaże ci w darze [Concept('courtier', 'dworzanina')|E] – mnicha wiary znanej jako [overlord_scope.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пусть [tributary_scope.GetFaith.HighGodName] дарует нам богатство и процветание!»",
+    "POL": "– Niechaj [tributary_scope.GetFaith.HighGodName] zapewni nam dobrobyt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.treasury.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Precious trade goods are bestowed",
+    "RUS": "Вам подарят драгоценные товары",
+    "POL": "Przyznane zostają cenne towary",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.artifact.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A marvelous artifact is created",
+    "RUS": "Для вас создадут великолепный артефакт",
+    "POL": "Powstaje cudowny artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.innovation.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Technological progress is shared",
+    "RUS": "С вами обменяются технологическими сведениями",
+    "POL": "Udostępnione zostają osiągnięcia technologiczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.development.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[overlord_scope.GetCulture.GetCollectiveNounNoTooltip] merchants are sent to your capital",
+    "RUS": "В вашу столицу отправятся [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ие купцы",
+    "POL": "Kupcy ze zbiorowości znanej jako [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] zostają wysłani do twojej stolicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.monk.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A [overlord_scope.GetFaith.GetAdjective] monk is bestowed upon you, to spread wisdom",
+    "RUS": "Вам отдадут мудрого #L [overlord_scope.GetFaith.GetName]ого#! монаха",
+    "POL": "Trafia do ciebie mnich, który reprezentuje wiarę znaną jako [overlord_scope.GetFaith.GetName|l] i będzie szerzyć słowa mądrości",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1000.abstain.legitimacy.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You are bestowed with extra blessings of legitimacy",
+    "RUS": "Вас одарят дополнительным благословением легитимности",
+    "POL": "Spływają na ciebie dodatkowe błogosławieństwa legitymacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ What Destiny Lies Ahead",
+    "RUS": "$tribute_mission_header$ что же нас ждет?",
+    "POL": "$tribute_mission_header$ co zapisane jest w przyszłości",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetTitledFirstName|U] enters the great hall with [tributary_scope.GetHerHis] entourage, eager to present [tributary_scope.GetHerHis] tribute.",
+    "RUS": "[tributary_scope.GetTitledFirstName|U] и [Select_CString(tributary_scope.IsFemale, 'ее', 'его')] свита ступают в тронный зал, спеша представить доставленную дань.",
+    "POL": "[tributary_scope.GetTitledFirstName] wkracza do wielkiej sali w otoczeniu swojej świty, wprost nie mogąc się doczekać zaprezentowania trybutu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A luscious concubine, presented as [human_tribute.GetTitledFirstName], by the looks of it.",
+    "RUS": "Судя по всему, это [Select_CString(human_tribute.IsFemale, 'наложница', 'наложник')] — [human_tribute.GetTitledFirstName], так мне [Select_CString(human_tribute.IsFemale, 'ее', 'его')] представили.",
+    "POL": "Najwyraźniej ma nim być atrakcyjna konkubina przedstawiona jako [human_tribute.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.desc.new_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A very uncomfortable eunuch, by the looks of it.\\n\\nThe [human_tribute.GetWomanMan], presented as [human_tribute.GetTitledFirstName], noticeably winces as [human_tribute.GetSheHe] stumbles up to me for closer inspection.",
+    "RUS": "Кажется, они привезли евнуха, и [Select_CString(human_tribute.IsFemale, 'она', 'он')] определенно чувствует себя не в своей тарелке.\\n\\nПриближаясь ко мне, [Select_CString(human_tribute.IsFemale, 'женщина', 'мужчина')] — [human_tribute.GetTitledFirstName], так [Select_CString(human_tribute.IsFemale, 'ее', 'его')] представили — делает кислую мину.",
+    "POL": "Najwyraźniej ma nim być eunuch.\\n\\n[human_tribute.GetWomanMan|U] – [human_tribute.GetTitledFirstName], jak przedstawia [human_tribute.Custom('PL_go_ja')] darczyńca – nie kryjąc dyskomfortu, zbliża się do mnie, by pozwolić się obejrzeć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A seasoned eunuch, by the looks of it.\\n\\nThe [human_tribute.GetWomanMan], presented as [human_tribute.GetTitledFirstName], exudes a peace and calm beyond [human_tribute.GetHerHis] years, and silently contemplates me as I inspect [human_tribute.GetHerHis] being.",
+    "RUS": "Кажется, они привезли евнуха, и очень неплохо обученного.\\n\\n[Select_CString(human_tribute.IsFemale, 'Женщина', 'Мужчина')] — [human_tribute.GetTitledFirstName], так [Select_CString(human_tribute.IsFemale, 'ее', 'его')] представили — смотрит на меня с молчаливым спокойствием, от [Select_CString(human_tribute.IsFemale, 'нее', 'него')] буквально исходит аура безмятежности, нехарактерная для человека [Select_CString(human_tribute.IsFemale, 'ее', 'его')] возраста.",
+    "POL": "Ma nim najwyraźniej być eunuch.\\n\\n[human_tribute.GetWomanMan|U] – [human_tribute.GetTitledFirstName], jak przedstawia [human_tribute.Custom('PL_go_ja')] darczyńca – jest osobą dojrzałą i doświadczoną, emanującą niezachwianym spokojem: milcząc, patrzy na mnie w zadumie, gdy uważnie [human_tribute.Custom('PL_go_ja')] oglądam.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.beauty.concubine.good",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[human_tribute.GetHerHis|U] hair shiny, fair skin, eyes glowing and body of a pleasing shape... I feast my eyes on [human_tribute.GetHerHis] figure, not getting quite full just yet.",
+    "RUS": "\\n\\nУ [Select_CString(human_tribute.IsFemale, 'нее', 'него')] блестящие волосы, гладкая кожа, сверкающие глаза и весьма аппетитная фигура… Я пялюсь на [Select_CString(human_tribute.IsFemale, 'ее', 'его')] великолепное тело и не могу оторвать глаз.",
+    "POL": "\\n\\nMa błyszczące oczy, jasną skórę i bardzo atrakcyjne kształty. Karmię oczy [human_tribute.GetHerHis] sylwetką, wprost nie mogąc się napatrzeć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.beauty.concubine.bad",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nTangled hair, spotty skin... the angle of the jaw. There are not many redeeming qualities in regards to [human_tribute.GetHerHis] looks. I purse my lips slightly.",
+    "RUS": "\\n\\nСпутанные волосы, неровная кожа, заостренный подбородок… Скажем прямо, [Select_CString(human_tribute.IsFemale, 'ее', 'его')] внешность оставляет желать лучшего. Я поджимаю губы.",
+    "POL": "\\n\\nPoplątane włosy, pryszcze, dziwna szczęka… Zaciskam nieznacznie wargi; naprawdę trudno znaleźć w [human_tribute.GetHerHis] wyglądzie coś atrakcyjnego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.physique.concubine.good",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nThe impressive physique of this [human_tribute.GetWomanMan] makes me feel healthier just looking at [human_tribute.GetHerHim]. I find myself quite enjoying it.",
+    "RUS": "\\n\\n[Select_CString(human_tribute.IsFemale, 'Ее', 'Его')] крепкое тело так и пышет здоровьем. От одного взгляда на [Select_CString(human_tribute.IsFemale, 'эту женщину', 'этого мужчину')] я и [Select_CString(ROOT.Char.IsFemale,'сама','сам')] будто [Select_CString(ROOT.Char.IsFemale,'помолодела','помолодел')]. Приятное ощущение…",
+    "POL": "\\n\\nOd samego patrzenia na [human_tribute.Custom('PL_jego_jej')] niesamowite ciało czuję przypływ witalności. Podoba mi się widok, który mam przed oczami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.physique.concubine.bad",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nThe constant clearing of the throat, the spindly arms... something feels off with [human_tribute.GetHerHis] physique, but it is difficult to pinpoint just what. It makes me feel slightly uncomfortable.",
+    "RUS": "\\n\\nРуки у [Select_CString(human_tribute.IsFemale, 'нее', 'него')] тонкие, как ветки, [Select_CString(human_tribute.IsFemale, 'она', 'он')] постоянно покашливает и в целом выглядит [Select_CString(human_tribute.IsFemale, 'какой-то нездоровой', 'каким-то нездоровым')]. Глядя на [Select_CString(human_tribute.IsFemale, 'эту женщину', 'этого мужчину')], я будто [Select_CString(ROOT.Char.IsFemale,'сама','сам')] ощущаю недомогание.",
+    "POL": "\\n\\nCiągłe chrząkanie, patykowate ręce… Z tą osobą jest coś nie tak, i choć nie potrafię stwierdzić, co dokładnie, wywołuje to we mnie pewien dyskomfort.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.exterior.plain",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[human_tribute.GetHerHis|U] looks may be nothing out of the ordinary, but the glint in [human_tribute.GetHerHis] eye still intrigues me.",
+    "RUS": "\\n\\nНа первый взгляд, в [Select_CString(human_tribute.IsFemale, 'ней', 'нем')] нет ничего примечательного, однако блеск в [Select_CString(human_tribute.IsFemale, 'ее', 'его')] глазах пробуждает во мне любопытство.",
+    "POL": "\\n\\nW wyglądzie tej osoby nie ma wprawdzie nic szczególnego, ale intryguje mnie błysk jej oczach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.personality.shy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[human_tribute.GetSheHe|U] flinches as a couple of guards pass by, too close. Trying to take as little space as possible, [human_tribute.GetSheHe] slumps [human_tribute.GetHerHis] shoulders slightly, not making much noise for [human_tribute.GetHerselfHimself].",
+    "RUS": "\\n\\n[Select_CString(human_tribute.IsFemale, 'Женщина', 'Мужчина')] нервно вздрагивает, когда возле [Select_CString(human_tribute.IsFemale, 'нее', 'него')] проходит пара стражников. [Select_CString(human_tribute.IsFemale, 'Она', 'Он')] чуть горбится, будто желая оставаться [Select_CString(human_tribute.IsFemale, 'незамеченной', 'незамеченным')], и старается издавать как можно меньше звуков.",
+    "POL": "\\n\\nWzdryga się, gdy kilku strażników przechodzi zbyt blisko. Starając się zajmować jak najmniej przestrzeni, zwiesza lekko ramiona. Nie wydaje z siebie żadnych dźwięków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.personality.bold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nA vigorous posture implies this [human_tribute.GetWomanMan] can stand [human_tribute.GetHerHis] ground, for better or for worse.",
+    "RUS": "\\n\\nСудя по горделивой осанке, [Select_CString(human_tribute.IsFemale, 'эта женщина всегда готова', 'этот мужчина всегда готов')] постоять за себя.",
+    "POL": "\\n\\nOsoba ta, sądząc po jej mocnej posturze, potrafi postawić na swoim – na dobre i na złe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.personality.cynical",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nA twitch at the corner of [human_tribute.GetHerHis] eye, as [human_tribute.GetHerHis] arms move up into a defensive pose, indicates that this [human_tribute.GetWomanMan] has a very particular view of the world.",
+    "RUS": "\\n\\nПрищуренные глаза, руки, сложенные на груди — [Select_CString(human_tribute.IsFemale, 'эта женщина', 'этот мужчина')] явно смотрит на мир с недоверием и пессимизмом.",
+    "POL": "\\n\\nWidzę, jak drga [human_tribute.Custom('PL_mu_jej')] kącik oka, gdy unosi ramiona, przyjmując postawę obronną. Wiele to mówi o sposobie, w jaki postrzega świat.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.personality.angry",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nAn increasingly deep crease between [human_tribute.GetHerHis] eyebrows tells the tale of a very opinionated [human_tribute.GetWomanMan].",
+    "RUS": "\\n\\nГлубокая морщина между бровями выдает в [Select_CString(human_tribute.IsFemale, 'ней', 'нем')] человека эмоционального и скорого на гнев.",
+    "POL": "\\n\\nSądząc po wyjątkowo dobrze zarysowanej zmarszczce między jej brwiami, jest to osoba niezwykle zdeterminowana.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.personality.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[human_tribute.GetFirstNameNoTooltip] darts [human_tribute.GetHerHis] eyes in my direction, then around the room, then back at me, as if looking for clues to solve a riddle.",
+    "RUS": "\\n\\n[Select_CString(human_tribute.IsFemale, 'Ее', 'Его')] взгляд мечется во все стороны, изучая каждый уголок зала. Затем [Select_CString(human_tribute.IsFemale, 'она', 'он')] вновь смотрит на меня, будто пытаясь найти ответ на какой-то очень важный вопрос.",
+    "POL": "\\n\\nRzuciwszy mi szybkie spojrzenie, [human_tribute.GetFirstNameNoTooltip] rozgląda się po pomieszczeniu – i znów spogląda na mnie, jak gdyby szukając wskazówek, które mogłyby naprowadzić [human_tribute.Custom('PL_go_ja')] na rozwiązanie zagadki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наверное, от [Select_CString(human_tribute.IsFemale, 'нее', 'него')] будет польза при дворе».",
+    "POL": "– Ktoś taki zapewne przyda się gdzieś na dworze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Думаю, мы точно найдем тебе #EMP применение…#!»",
+    "POL": "– Powinniśmy mianować cię #EMP od razu#!…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Isn't this a #EMP fine specimen#!...",
+    "RUS": "Какой #EMP превосходный#! образец…",
+    "POL": "Cóż za #EMP wspaniały okaz#!…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.c",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты будешь подчиняться лично мне».",
+    "POL": "– Będziesz pracować bezpośrednio dla mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.d",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Боюсь, что при дворе и так нет места».",
+    "POL": "– W tej chwili mamy chyba komplet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1002.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[human_tribute.GetShortUIName] is ushered back to [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]",
+    "RUS": "[human_tribute.GetShortUIName] вернется к #L [tributary_scope.GetCapitalLocation.GetTitle.GetAdjective|l]ому#! двору",
+    "POL": "[human_tribute.GetShortUINameNotMe] wraca do miejsca o nazwie [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ The Tribute",
+    "RUS": "$tribute_mission_header$ дань",
+    "POL": "$tribute_mission_header$ danina",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.ai.bunga_mas",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip]",
+    "RUS": "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip]",
+    "POL": "$tribute_mission_header$ [newly_created_bunga_mas.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.bunga_mas",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Golden Flowers",
+    "RUS": "$tribute_mission_header$ золотые цветы персонажа [tributary_scope.GetTitledFirstNamePossessiveNoTooltip]",
+    "POL": "$tribute_mission_header$ złote kwiaty osoby znanej jako [tributary_scope.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Gold",
+    "RUS": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает золото",
+    "POL": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] złoto",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Herd",
+    "RUS": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает стада",
+    "POL": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] stado",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Flowers",
+    "RUS": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает цветы",
+    "POL": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] kwiaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Wits",
+    "RUS": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает знания",
+    "POL": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] spryt",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.t.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNamePossessiveNoTooltip] Artifacts",
+    "RUS": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] предлагает артефакты",
+    "POL": "$tribute_mission_header$ [tributary_scope.GetTitledFirstNameNoTooltip] i [tributary_scope.Custom('PL_jego_jej')] artefakty",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.intro.human_tribute",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetTitledFirstName] starts shifting from foot to foot as [tributary_scope.GetSheHe] awaits my decision, throwing the occasional side-eye towards [human_tribute.GetTitledFirstName].",
+    "RUS": "[tributary_scope.GetTitledFirstName|U] переминается с ноги на ногу, ожидая моего решения. Время от времени [Select_CString(tributary_scope.IsFemale, 'она', 'он')] украдкой косится туда, где стоит [human_tribute.GetTitledFirstName].",
+    "POL": "W oczekiwaniu na moją decyzję [tributary_scope.GetTitledFirstName] zaczyna przestępować z nogi na nogę, od czasu do czasu zerkając z ukosa w kierunku miejsca, w którym stoi [human_tribute.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetTitledFirstName] strides into the great hall, saunters up to me and presents [tributary_scope.GetHerHis] tribute with a sycophantic smile:",
+    "RUS": "[tributary_scope.GetTitledFirstName|U] входит в тронный зал. Раболепно улыбаясь, [Select_CString(tributary_scope.IsFemale, 'она', 'он')] приближается ко мне и представляет свою дань:",
+    "POL": "[tributary_scope.GetTitledFirstName] wkracza do wielkiej sali, podchodzi do mnie i z pochlebczym uśmiechem prezentuje swój trybut:",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.bunga_mas",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nA golden flower tree! The exquisite artifact towers on top of the rest of the, by comparison menial, tribute. Small leaves catch the light and appears to emit a radiance, only matched by my own.\\n\\nI quickly gather myself, trying not to give too much away, as I ponder what benevolence to bestow in return for this magnificent gift...",
+    "RUS": "\\n\\nЗолотое дерево! По сравнению с этим роскошным артефактом другие подношения выглядят весьма скромно. Его маленькие листочки блестят так ярко, словно они сами излучают свет, сравнимый по красоте только с моей персоной.\\n\\nЯ быстро успокаиваюсь, стараясь не выдавать своего изумления, и начинаю размышлять, как мне наградить своего подданного за этот великолепный дар...",
+    "POL": "\\n\\nZłote, kwitnące drzewo! Ten przepiękny artefakt góruje nad pozostałymi, w porównaniu z nim nieistotnymi, darami. Małe liście odbijają światło i wydają się promieniować blaskiem, od którego wspanialszy jest jedynie ten mój.\\n\\nSzybko zbieram się w sobie, usiłując nie zdradzić zbyt wiele emocji i dumając, jak odwdzięczyć się za ten okazały dar…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.small_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nI raise an eyebrow as the servants examine the handful of coins and ornaments that constitute this minor tribute.\\n\\nIt won't fill our coffers — but at least [tributary_scope.GetTitledFirstNameNoTooltip] has fulfilled [tributary_scope.GetHerHis] tributary obligations. Now, what benevolence should I bestow in return...",
+    "RUS": "\\n\\nЯ приподнимаю бровь, пока слуги осматривают скромные дары — горсточку монет и мелких украшений.\\n\\nОни не заполнят наши сундуки, но по крайней мере [tributary_scope.GetTitledFirstNameNoTooltip] [Select_CString(tributary_scope.IsFemale, 'исполнила', 'исполнил')] свои обязательства данника. Какую же милость мне оказать взамен...",
+    "POL": "\\n\\nUnoszę brew, obserwując, jak słudzy dokonują oględzin skromnej daniny w postaci garstki monet i kilku dekoracji.\\n\\nTo nie napełni naszej kasy, ale przynajmniej [tributary_scope.GetTitledFirstNameNoTooltip] spełnia swoje zobowiązania jako trybutariusz. Pozostaje pytanie, jaką łaskę okazać w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.adequate_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nI nod slightly at the respectable tribute; the precious metals and fabrics occasionally catches the light, shimmering ever so slightly.\\n\\nNow onto the next order of business: what benevolence should I bestow in return...",
+    "RUS": "\\n\\nЯ слегка киваю при виде солидной дани. Драгоценные металлы и ткани поблескивают в редких лучах света.\\n\\nПришла очередь ответных жестов — какую же милость мне оказать взамен?..",
+    "POL": "\\n\\nZ ledwie dostrzegalnym skinieniem głowy przyjmuję ten szacowny trybut. Metale szlachetne i kosztowne tkaniny połyskują dyskretnie, odbijając światło.\\n\\nNadszedł czas, by rozważyć kolejną kwestię: jaką łaskę okazać w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.excessive_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nGold, fabrics, gemstones — a garish but #EMP delightful#! display of overflow greets me. I carefully monitor my expression, trying to not appear too impressed.\\n\\n This will do nicely. Now, how to reward this display of opulence...",
+    "RUS": "\\n\\nЗолото, ткани, самоцветы — безвкусное, но такое #EMP приятное#! зрелище. Я тщательно слежу за выражением своего лица, чтобы не выказать излишнего восхищения.\\n\\nПревосходно. А теперь надо вознаградить это изобилие…",
+    "POL": "\\n\\nZłoto, tkaniny i kamienie szlachetne witają mnie w formie krzykliwego, lecz #EMP urzekającego#! spektaklu przepychu. Zachowuję starannie wyważony wyraz twarzy, by nie okazywać zbytniego zachwytu.\\n\\nTo będzie w sam raz. Pozostaje rozważyć, jak wynagrodzić tę ofiarność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.small_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nThe small amount of animals bleat and look around anxiously as the servants examine them.\\n\\nIt's not a lot — but at least [tributary_scope.GetTitledFirstNameNoTooltip] has fulfilled [tributary_scope.GetHerHis] tributary obligations. Now, what benevolence should I bestow in return...",
+    "RUS": "\\n\\nНемногочисленные животные блеют и беспокойно смотрят по сторонам, пока слуги осматривают их.\\n\\nЭто немного, но, по крайней мере, [tributary_scope.GetTitledFirstNameNoTooltip] [Select_CString(tributary_scope.IsFemale, 'исполнила', 'исполнил')] свои обязательства данника. Какую же милость мне оказать взамен...",
+    "POL": "\\n\\nKilka zwierząt beczy niespokojnie i rozgląda się nerwowo, gdy słudzy dokonują oględzin.\\n\\nTo skromna ofiara, ale przynajmniej [tributary_scope.GetTitledFirstNameNoTooltip] spełnia swoje zobowiązania jako trybutariusz. Pozostaje pytanie, jaką łaskę okazać w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.adequate_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nAnimals of a respectable quality curiously look around the room as they're being examined by my servants.\\n\\nThese will make a nice addition. Now, how to reward this...",
+    "RUS": "\\n\\nПрисутствующие в приличном количестве животные любопытно осматриваются, пока мои слуги изучают их.\\n\\nНеплохое пополнение. А теперь насчет награды…",
+    "POL": "\\n\\nZwierzęta o szlachetnej renomie z zaciekawieniem lustrują pomieszczenie, gdy moi słudzy dokonują ich oględzin.\\n\\nStanowią wdzięczny dodatek do mojej kolekcji. Pozostaje rozważyć, jak wynagrodzić tę ofiarność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.excessive_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nSome of the most pristine livestock I've seen are showcased as tribute: gleaming coats, shiny eyes — and there are more of them waiting outside. Quite impressive tribute, indeed.\\n\\nNow, how to reward this display of opulence...",
+    "RUS": "\\n\\nНечасто мне доводилось видеть таких идеальных животных — блестящие шкуры, яркие глаза, и целое стадо их собратьев снаружи. Впечатляющая дань.\\n\\nИтак, как же вознаградить подобную роскошь…",
+    "POL": "\\n\\nJako trybut przekazywane są najwspanialsze zwierzęta hodowlane, jakie dane mi było ujrzeć – lśniące futra, błyszczące oczy… A na zewnątrz czeka ich jeszcze więcej! Doprawdy, imponujący gest.\\n\\nPozostaje rozważyć, jak wynagrodzić tę ofiarność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.rejected_concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nA despicable specimen, I purse my lips as I once again rest my eyes on this so-called tribute. And [tributary_scope.GetTitledFirstNameNoTooltip] deemed [human_tribute.GetHerHim] worthy of our attention. #EMP Hmph.#!\\n\\nNow, what should I bestow upon [tributary_scope.GetTitledFirstNameNoTooltip]...",
+    "RUS": "\\n\\nОтвратительное создание. Я еще раз бросаю взгляд на эту так называемую дань и кривлю губы. И [tributary_scope.GetTitledFirstNameNoTooltip] смеет заявлять, будто [Select_CString(human_tribute.IsFemale, 'она', 'он')] заслуживает нашего внимания. #EMP Пф.#!\\n\\nТеперь надо решить, что получит [tributary_scope.GetTitledFirstNameNoTooltip]...",
+    "POL": "\\n\\nParszywy okaz. Zaciskam wargi, spoglądając raz jeszcze na ten rzekomy trybut. A jednak [tributary_scope.GetTitledFirstNameNoTooltip] uznaje, że ten człowiek zasługuje na moją uwagę. #EMP Hmm.#!\\n\\nPozostaje tylko zdecydować, co [tributary_scope.GetTitledFirstNameNoTooltip] dostanie w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.appointed_concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nMy mind wanders slightly as I coyly linger on [human_tribute.GetHerHis] curves and #EMP attributes#!.\\n\\nAs the blood starts rushing to my cheeks; I force myself to focus on the matter at hand — what should I bestow upon [tributary_scope.GetTitledFirstNameNoTooltip] for bringing us this #EMP delicious#! tribute?",
+    "RUS": "\\n\\nМой разум слегка блуждает, пока я украдкой осматриваю [Select_CString(human_tribute.IsFemale, 'ее', 'его')] фигуру и #EMP достоинства#!.\\n\\nКровь приливает к моим щекам. Я заставляю себя сосредоточиться на текущих делах. Что [tributary_scope.GetTitledFirstNameNoTooltip] получит за такую #EMP аппетитную#! дань?",
+    "POL": "\\n\\nMoje myśli niepostrzeżenie błądzą, gdy z fałszywą wstydliwością przyglądam się [human_tribute.GetHerHis] krągłościom i #EMP atrybutom#!.\\n\\nRumieniec wstępuje mi na policzki, lecz zmuszam się do skupienia na tym, co istotne. Muszę zdecydować, co [tributary_scope.GetTitledFirstNameNoTooltip] dostanie w zamian za ten #EMP rozkoszny#! trybut.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nHaving added [human_tribute.GetHerHim] to our court, I am sure [human_tribute.GetSheHe] will turn out to be useful somewhere.\\n\\nIn light of this, I should decide on what to bestow upon [tributary_scope.GetTitledFirstNameNoTooltip]...",
+    "RUS": "\\n\\nТеперь [Select_CString(human_tribute.IsFemale, 'она одна', 'он один')] из наших придворных и наверняка где-нибудь пригодится.\\n\\nС учетом этого нужно решить, что получит [tributary_scope.GetTitledFirstNameNoTooltip]...",
+    "POL": "\\n\\nGdy już dołączy [human_tribute.GetSheHe] do naszego dworu, z pewnością okaże się, że może się na coś przydać.\\n\\nNadszedł więc czas, by rozważyć, co [tributary_scope.GetTitledFirstNameNoTooltip] dostanie w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.rejected_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.rejected_concubine$",
+    "RUS": "$tribute_mission.1005.desc.rejected_concubine$",
+    "POL": "$tribute_mission.1005.desc.rejected_concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.appointed_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nAs my new chief eunuch, [human_tribute.GetSheHe] will serve me well.\\n\\nI produce a faint smirk as I carefully consider what to bestow upon [tributary_scope.GetTitledFirstNameNoTooltip]...",
+    "RUS": "\\n\\nМой новый старший евнух хорошо мне послужит.\\n\\nС легкой усмешкой я раздумываю, что получит [tributary_scope.GetTitledFirstNameNoTooltip]…",
+    "POL": "\\n\\nBędzie mi [human_tribute.GetSheHe] służyć jako nowy naczelny eunuch.\\n\\nUśmiecham się lekko, rozważając, co [tributary_scope.GetTitledFirstNameNoTooltip] dostanie w zamian…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.concubine$",
+    "RUS": "$tribute_mission.1005.desc.concubine$",
+    "POL": "$tribute_mission.1005.desc.concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nThe [artifact_to_tribute.GetName] is a fine tribute, and I let my hand carefully run along its edge. A solid piece of work, no doubt.\\n\\nNow, how should I respond to this...",
+    "RUS": "\\n\\n[artifact_to_tribute.GetName] — хорошее подношение. Я слегка провожу рукой по вещице. Отличная работа.\\n\\nИтак, как же мне на это ответить…",
+    "POL": "\\n\\nPalcami wodząc po krawędziach tego dzieła, dochodzę do wniosku, że [artifact_to_tribute.GetName] to odpowiedni trybut. To niewątpliwie unikat.\\n\\nJaka powinna być moja reakcja?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nI carefully consider the presented tribute.\\n\\nNow, how should I respond to this...",
+    "RUS": "\\n\\nЯ внимательно изучаю представленную дань.\\n\\nИтак, чем же мне на это ответить…",
+    "POL": "\\n\\nZ namysłem przyglądam się przekazanemu trybutowi.\\n\\nJaka powinna być moja reakcja?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы отблагодарим вас за эту дань драгоценными товарами».",
+    "POL": "– Pozwól, że wynagrodzimy twój trybut cennymi towarami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«В знак нашей благодарности дарю вам шедевры [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]их мастеров».",
+    "POL": "– Pozwól, że obdarzę cię dziedzictwem, z jakiego słyną [overlord_scope.GetCulture.GetCollectiveNounNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.artifact.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You award [tributary_scope.GetShortUINameNoTooltip] with a [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] [artifact|E]",
+    "RUS": "[tributary_scope.GetShortUINameNoTooltip] получит из ваших рук [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ий [Concept('artifact', 'артефакт')|E]",
+    "POL": "[tributary_scope.GetShortUINameNotMeNoTooltip] otrzymuje od ciebie [artifact|El] zbiorowości kulturowej znanej jako [overlord_scope.GetCulture.GetCollectiveNounNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы обладаем последними техническим новинками и готовы поделиться ими с друзьями…»",
+    "POL": "– Możemy podzielić się pewnymi odkryciami technologicznymi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.innovation.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "You award [tributary_scope.GetShortUINameNoTooltip] with some technological advancements",
+    "RUS": "[tributary_scope.GetShortUINameNoTooltip] получит новые технологии",
+    "POL": "[tributary_scope.GetShortUINameNotMeNoTooltip] otrzymuje ode mnie w ramach nagrody pewne osiągnięcia technologiczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы согласны основать торговую факторию в вашей столице».",
+    "POL": "– Założymy w waszej stolicy fenomenalną placówkę handlową.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы будете получать наставления от мудрейшего из моих монахов».",
+    "POL": "– Poprowadzi cię jeden z moich najmądrzejszych mnichów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1005.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Сим подтверждаю, что вы являетесь истинным правителем владения [tributary_scope.GetCapitalLocation.GetCounty.GetName]».",
+    "POL": "– Ponownie uznaję twoje panowanie nad miejscem znanym jako [tributary_scope.GetCapitalLocation.GetCounty.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fervor_gain_suzerain_missionaries",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Suzerain Missionaries",
+    "RUS": "Миссионеры от повелителя",
+    "POL": "Misjonarze suzerena",
+    "BEL": ""
+  },
+  {
+    "KEY": "fervor_loss_suzerain_missionaries",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Missionaries Rejected",
+    "RUS": "Миссионеры отвергнуты",
+    "POL": "Odrzuceni misjonarze",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Departure",
+    "RUS": "$tribute_mission_header$ отъезд",
+    "POL": "$tribute_mission_header$ wyjazd",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] Trade Goods",
+    "RUS": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ие товары",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] i towary na handel",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip]'s Finest",
+    "RUS": "$tribute_mission_header$ шедевры [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]их мастеров",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] i to, co tam najlepsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] Fascinations",
+    "RUS": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ие чудеса",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] fascynują",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] Traders",
+    "RUS": "$tribute_mission_header$ [overlord_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ие купцы",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] i tamtejsi handlarze",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ The Wisdom of [overlord_scope.GetFaith.GetNameNoTooltip]",
+    "RUS": "$tribute_mission_header$ [overlord_scope.GetFaith.GetNameNoTooltip|l]ая премудрость",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetFaith.GetNameNoTooltip|l] i zbożne nauki",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.t.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ The Legitimacy of [overlord_scope.GetFaith.GetNameNoTooltip]",
+    "RUS": "$tribute_mission_header$ Легитимность [overlord_scope.GetFaith.GetNameNoTooltip|l]ой веры",
+    "POL": "$tribute_mission_header$ [overlord_scope.GetFaith.GetNameNoTooltip|l] i legitymacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.intro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "The attendant ponders a couple of moments longer before appearing to come to a decision.",
+    "RUS": "Подумав еще немного, вельможа явно приходит к какому-то решению и знаком подзывает слуг.",
+    "POL": "Pomocnik zastanawia się jeszcze chwilę, po czym najwyraźniej podejmuje decyzję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[receiving_character.GetTitledFirstName] sizes my tribute up and down before appearing to come to a decision.",
+    "RUS": "Оглядев мое подношение со всех сторон, [receiving_character.GetTitledFirstName] явно приходит к какому-то решению и знаком подзывает слуг.",
+    "POL": "[receiving_character.GetTitledFirstName] mierzy mój trybut wzrokiem z góry na dół, po czym najwyraźniej podejmuje decyzję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.intro.postseal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "As the solemn and legalistic $game_concept_seal_of_investiture$ ceremony concludes, [overlord_scope.GetPrimaryTitle.GetDefinitiveNamePossessiveNoTooltip] opulent wealth springs forth.",
+    "RUS": "По мере того как торжественная и каноническая церемония печати введения в должность завершается, [overlord_scope.GetPrimaryTitle.GetDefinitiveNamePossessiveNoTooltip] расцветает во всём своем богатстве и великолепии.",
+    "POL": "Gdy uroczysta i legalistyczna ceremonia pieczęci inwestytury dobiega końca, miejsce znane jako [overlord_scope.GetPrimaryTitle.GetNameNoTier] wchodzi w posiadanie ogromnego bogactwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\nMotioning towards the back of the room,",
+    "RUS": "\\n\\n",
+    "POL": "\\n\\nWskazuje w kierunku tyłów pomieszczenia,",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$ a plethora of containers loaded with precious fabrics, ingots and spices of [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] origin is rolled out in a display of splendor.",
+    "RUS": "Из дальнего конца зала выходит целая процессия, груженная множеством ящиков. Они полны роскошных тканей, самородков, специй и других бесценных [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]их сокровищ.",
+    "POL": "$tribute_mission.1010.segway$ po czym na olśniewający pokaz wystawione zostają liczne pudła wypełnione cennymi materiałami, sztabkami i przyprawami, z których słyną [overlord_scope.GetCulture.GetCollectiveNounNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$ a precious [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] artifact, [tribute_reward_type_artifact.GetName], is presented to me on a velvet pillow, contributing to its brilliance.",
+    "RUS": "Из дальнего конца зала лакей выносит роскошную бархатную подушку, на которой покоится драгоценный [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]ий артефакт. Это [tribute_reward_type_artifact.GetName]!",
+    "POL": "tribute_mission.1010.segway po czym na aksamitnej poduszce podkreślającej zjawiskowość daru zostaje mi ukazany cenny artefakt zbiorowości znanej jako [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] – to [tribute_reward_type_artifact.GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$ a group of monks approaches us, handing over a handful of scrolls containing new facts and revelations pertaining to their innovations.",
+    "RUS": "Из дальнего конца зала выходит группа монахов. Они вручают мне несколько свитков, на которых записаны их последние открытия и технические достижения.",
+    "POL": "tribute_mission.1010.segway po czym zbliża się do nas grupa mnichów, by wręczyć nam zwoje zawierające nowe fakty i opisy innowacji ich ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$ a scholarly servant approaches us, presenting me with a contract.\\nIn the contract, a trade agreement to set up [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] trading posts in [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip], contributing to the development and overall wealth of the region.",
+    "RUS": "К нам подходит ученый прислужник, протягивая мне договор на подпись.\\nВ договоре изложено соглашение о создании торговых факторий в [tributary_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ой столице. Приток [overlord_scope.GetCulture.GetCollectiveNounNoTooltip|l]их купцов должен поспособствовать развитию и процветанию всего региона.",
+    "POL": "tribute_mission.1010.segway po czym zbliża się do nas uczony sługa, by przedstawić mi kontrakt.\\nJest to porozumienie handlowe, dzięki któremu [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] będą mogli otworzyć w miejscu o nazwie [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] placówki handlowe, a w konsekwencji wzbogacić region i wnieść wkład w jego rozwój.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$ [new_monk.Custom('GetArticledAgeDescriptionGender')] emerges and introduces [new_monk.GetHerselfHimself] as [new_monk.GetTitledFirstName], a [overlord_scope.GetFaith.GetAdjectiveNoTooltip] monk. [new_monk.GetSheHe|U] sprightly informs me of [new_monk.GetHerHis] intentions to travel to [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] with me in order to offer [new_monk.GetHerHis] services.",
+    "RUS": "Из темноты выходит [new_monk.Custom('GetArticledAgeDescriptionGender')], по виду — [overlord_scope.GetFaith.GetNameNoTooltip|l][Select_CString(new_monk.IsFemale, 'ая монахиня', 'ий монах')]. [Select_CString(new_monk.IsFemale, 'Она', 'Он')] представляется как [new_monk.GetTitledFirstName] и объявляет о своем желании отправиться со мной в [tributary_scope.GetCapitalLocation.GetTitle.GetAdjectiveNoTooltip|l]ие земли, чтобы предложить свои услуги моей стране.",
+    "POL": "tribute_mission.1010.segway po czym zbliża się do nas [new_monk.Custom('GetArticledAgeDescriptionGender')]. Przedstawiwszy się jako [new_monk.GetTitledFirstName] – mnich wyznający wiarę o nazwie [overlord_scope.GetFaith.GetNameNoTooltip|l] – oznajmia entuzjastycznie, że pragnie udać się ze mną do miejsca znanego jako [tributary_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip], gdzie zaoferuje mi swoje usługi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.desc.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n[overlord_scope.GetSheHe|U] motions for me to come closer, then with majestic grace slowly steps down on the ground before me. I bow my head as the [overlord_scope.GetTitleAsNameNoTooltip] perform the ceremonial [overlord_scope.GetCulture.GetCollectiveNounNoTooltip] hand gestures.\\n\\nOnce finished, [overlord_scope.GetSheHe] proclaims in an imposing voice: ",
+    "RUS": "\\n\\n[Select_CString(overlord_scope.IsFemale, 'Она', 'Он')] знаком приглашает меня подойти ближе и с величавой грацией медленно спускается ко мне. Я склоняю голову, в то время как [overlord_scope.GetTitleAsNameNoTooltip] совершает церемониальные [overlord_scope.GetCulture.GetCollectiveNounNoTooltip]ие жесты.\\n\\nЗавершив, [Select_CString(overlord_scope.IsFemale, 'она', 'он')] провозглашает властным голосом: «Сим я подтверждаю твое право как истинного правителя владения [tributary_scope.GetCapitalLocation.GetCounty.GetName]. Ступай с миром».",
+    "POL": "\\n\\n[overlord_scope.GetTitleAsNameNoTooltip] daje mi znak, by podejść bliżej, a potem, z majestatyczną gracją, zstępuje na ziemię przede mną. Pochylam głowę, podczas gdy [overlord_scope.GetSheHe] wykonuje ceremonialne gesty dłoni, charakterystyczne dla ludu, którym są [overlord_scope.GetCulture.GetCollectiveNounNoTooltip].\\n\\nPo zakończeniu rytuału [overlord_scope.GetTitleAsNameNoTooltip] przemawia do mnie donośnym głosem:\\n\\n– Ponownie uznaję cię prawowitym władcą miejsca znanego jako [tributary_scope.GetCapitalLocation.GetCounty.GetName]. Odejdź w pokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.outro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] принимает ваш дар и отвечает взаимностью, [Select_CString(tributary_scope.IsFemale,'моя','мой')] [tributary_scope.GetTitleAsNameNoTooltip|l]. Доброго пути».",
+    "POL": "\\n\\n– Niech [tributary_scope.GetTitleAsNameNoTooltip] wie, że [overlord_scope.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] to miejsce ci przychylne. Bezpiecznej podróży!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1010.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Благословение вашему дому!»",
+    "POL": "– Bądźcie błogosławieni!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.t$",
+    "RUS": "$tribute_mission.1000.t$",
+    "POL": "$tribute_mission.1000.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.intro$",
+    "RUS": "$tribute_mission.1000.intro$",
+    "POL": "$tribute_mission.1000.intro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.intro.overlord",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.intro.overlord$",
+    "RUS": "$tribute_mission.1000.intro.overlord$",
+    "POL": "$tribute_mission.1000.intro.overlord$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.intro.diarch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.intro.diarch$",
+    "RUS": "$tribute_mission.1000.intro.diarch$",
+    "POL": "$tribute_mission.1000.intro.diarch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.intro.councillor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.intro.councillor$",
+    "RUS": "$tribute_mission.1000.intro.councillor$",
+    "POL": "$tribute_mission.1000.intro.councillor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.intro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.intro.attendant$",
+    "RUS": "$tribute_mission.1000.intro.attendant$",
+    "POL": "$tribute_mission.1000.intro.attendant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.segway$",
+    "RUS": "$tribute_mission.1000.desc.segway$",
+    "POL": "$tribute_mission.1000.desc.segway$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.bunga_mas",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.bunga_mas$",
+    "RUS": "$tribute_mission.1000.desc.bunga_mas$",
+    "POL": "$tribute_mission.1000.desc.bunga_mas$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.small_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.small_gold$",
+    "RUS": "$tribute_mission.1000.desc.small_gold$",
+    "POL": "$tribute_mission.1000.desc.small_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.adequate_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.adequate_gold$",
+    "RUS": "$tribute_mission.1000.desc.adequate_gold$",
+    "POL": "$tribute_mission.1000.desc.adequate_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.excessive_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.excessive_gold$",
+    "RUS": "$tribute_mission.1000.desc.excessive_gold$",
+    "POL": "$tribute_mission.1000.desc.excessive_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.small_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.small_herd$",
+    "RUS": "$tribute_mission.1000.desc.small_herd$",
+    "POL": "$tribute_mission.1000.desc.small_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.adequate_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.adequate_herd$",
+    "RUS": "$tribute_mission.1000.desc.adequate_herd$",
+    "POL": "$tribute_mission.1000.desc.adequate_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.excessive_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.excessive_herd$",
+    "RUS": "$tribute_mission.1000.desc.excessive_herd$",
+    "POL": "$tribute_mission.1000.desc.excessive_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.concubine$",
+    "RUS": "$tribute_mission.1000.desc.concubine$",
+    "POL": "$tribute_mission.1000.desc.concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.artifact$",
+    "RUS": "$tribute_mission.1000.desc.artifact$",
+    "POL": "$tribute_mission.1000.desc.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.desc.eunuch$",
+    "RUS": "$tribute_mission.1000.desc.eunuch$",
+    "POL": "$tribute_mission.1000.desc.eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.outro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.outro.attendant$",
+    "RUS": "$tribute_mission.1000.outro.attendant$",
+    "POL": "$tribute_mission.1000.outro.attendant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.outro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.outro$",
+    "RUS": "$tribute_mission.1000.outro$",
+    "POL": "$tribute_mission.1000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.treasury$",
+    "RUS": "$tribute_mission.1000.treasury$",
+    "POL": "$tribute_mission.1000.treasury$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.success.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.success.t$",
+    "RUS": "$tribute_mission.1000.success.t$",
+    "POL": "$tribute_mission.1000.success.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.success.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.success.desc$",
+    "RUS": "$tribute_mission.1000.success.desc$",
+    "POL": "$tribute_mission.1000.success.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.failure.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.failure.t$",
+    "RUS": "$tribute_mission.1000.failure.t$",
+    "POL": "$tribute_mission.1000.failure.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.failure.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.failure.desc$",
+    "RUS": "$tribute_mission.1000.failure.desc$",
+    "POL": "$tribute_mission.1000.failure.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.failure.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.failure.tt$",
+    "RUS": "$tribute_mission.1000.failure.tt$",
+    "POL": "$tribute_mission.1000.failure.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.artifact$",
+    "RUS": "$tribute_mission.1000.artifact$",
+    "POL": "$tribute_mission.1000.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.artifact.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.artifact.tt$",
+    "RUS": "$tribute_mission.1000.artifact.tt$",
+    "POL": "$tribute_mission.1000.artifact.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.innovation$",
+    "RUS": "$tribute_mission.1000.innovation$",
+    "POL": "$tribute_mission.1000.innovation$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.development$",
+    "RUS": "$tribute_mission.1000.development$",
+    "POL": "$tribute_mission.1000.development$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.monk.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.monk.tt$",
+    "RUS": "$tribute_mission.1000.monk.tt$",
+    "POL": "$tribute_mission.1000.monk.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain$",
+    "RUS": "$tribute_mission.1000.abstain$",
+    "POL": "$tribute_mission.1000.abstain$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain.treasury.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain.treasury.desc$",
+    "RUS": "$tribute_mission.1000.abstain.treasury.desc$",
+    "POL": "$tribute_mission.1000.abstain.treasury.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain.artifact.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain.artifact.desc$",
+    "RUS": "$tribute_mission.1000.abstain.artifact.desc$",
+    "POL": "$tribute_mission.1000.abstain.artifact.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain.innovation.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain.innovation.desc$",
+    "RUS": "$tribute_mission.1000.abstain.innovation.desc$",
+    "POL": "$tribute_mission.1000.abstain.innovation.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain.development.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain.development.desc$",
+    "RUS": "$tribute_mission.1000.abstain.development.desc$",
+    "POL": "$tribute_mission.1000.abstain.development.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3000.abstain.monk.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1000.abstain.monk.desc$",
+    "RUS": "$tribute_mission.1000.abstain.monk.desc$",
+    "POL": "$tribute_mission.1000.abstain.monk.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.t$",
+    "RUS": "$tribute_mission.1002.t$",
+    "POL": "$tribute_mission.1002.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.segway$",
+    "RUS": "$tribute_mission.1002.segway$",
+    "POL": "$tribute_mission.1002.segway$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.desc.concubine$",
+    "RUS": "$tribute_mission.1002.desc.concubine$",
+    "POL": "$tribute_mission.1002.desc.concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.desc.new_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.desc.new_eunuch$",
+    "RUS": "$tribute_mission.1002.desc.new_eunuch$",
+    "POL": "$tribute_mission.1002.desc.new_eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.desc.eunuch$",
+    "RUS": "$tribute_mission.1002.desc.eunuch$",
+    "POL": "$tribute_mission.1002.desc.eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.beauty.concubine.good",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.beauty.concubine.good$",
+    "RUS": "$tribute_mission.1002.beauty.concubine.good$",
+    "POL": "$tribute_mission.1002.beauty.concubine.good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.beauty.concubine.bad",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.beauty.concubine.bad$",
+    "RUS": "$tribute_mission.1002.beauty.concubine.bad$",
+    "POL": "$tribute_mission.1002.beauty.concubine.bad$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.physique.concubine.good",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.physique.concubine.good$",
+    "RUS": "$tribute_mission.1002.physique.concubine.good$",
+    "POL": "$tribute_mission.1002.physique.concubine.good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.physique.concubine.bad",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.physique.concubine.bad$",
+    "RUS": "$tribute_mission.1002.physique.concubine.bad$",
+    "POL": "$tribute_mission.1002.physique.concubine.bad$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.exterior.plain",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.exterior.plain$",
+    "RUS": "$tribute_mission.1002.exterior.plain$",
+    "POL": "$tribute_mission.1002.exterior.plain$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.personality.shy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.personality.shy$",
+    "RUS": "$tribute_mission.1002.personality.shy$",
+    "POL": "$tribute_mission.1002.personality.shy$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.personality.bold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.personality.bold$",
+    "RUS": "$tribute_mission.1002.personality.bold$",
+    "POL": "$tribute_mission.1002.personality.bold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.personality.cynical",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.personality.cynical$",
+    "RUS": "$tribute_mission.1002.personality.cynical$",
+    "POL": "$tribute_mission.1002.personality.cynical$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.personality.angry",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.personality.angry$",
+    "RUS": "$tribute_mission.1002.personality.angry$",
+    "POL": "$tribute_mission.1002.personality.angry$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.personality.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.personality.fallback$",
+    "RUS": "$tribute_mission.1002.personality.fallback$",
+    "POL": "$tribute_mission.1002.personality.fallback$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.a$",
+    "RUS": "$tribute_mission.1002.a$",
+    "POL": "$tribute_mission.1002.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.b$",
+    "RUS": "$tribute_mission.1002.b$",
+    "POL": "$tribute_mission.1002.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.b.flavor$",
+    "RUS": "$tribute_mission.1002.b.flavor$",
+    "POL": "$tribute_mission.1002.b.flavor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.c",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.c$",
+    "RUS": "$tribute_mission.1002.c$",
+    "POL": "$tribute_mission.1002.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.d",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.d$",
+    "RUS": "$tribute_mission.1002.d$",
+    "POL": "$tribute_mission.1002.d$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3002.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1002.d.tt$",
+    "RUS": "$tribute_mission.1002.d.tt$",
+    "POL": "$tribute_mission.1002.d.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t$",
+    "RUS": "$tribute_mission.1005.t$",
+    "POL": "$tribute_mission.1005.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t.gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t.gold$",
+    "RUS": "$tribute_mission.1005.t.gold$",
+    "POL": "$tribute_mission.1005.t.gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t.herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t.herd$",
+    "RUS": "$tribute_mission.1005.t.herd$",
+    "POL": "$tribute_mission.1005.t.herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t.concubine$",
+    "RUS": "$tribute_mission.1005.t.concubine$",
+    "POL": "$tribute_mission.1005.t.concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t.eunuch$",
+    "RUS": "$tribute_mission.1005.t.eunuch$",
+    "POL": "$tribute_mission.1005.t.eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.t.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.t.artifact$",
+    "RUS": "$tribute_mission.1005.t.artifact$",
+    "POL": "$tribute_mission.1005.t.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.intro.human_tribute",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.intro.human_tribute$",
+    "RUS": "$tribute_mission.1005.intro.human_tribute$",
+    "POL": "$tribute_mission.1005.intro.human_tribute$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.intro$",
+    "RUS": "$tribute_mission.1005.intro$",
+    "POL": "$tribute_mission.1005.intro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.small_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.small_gold$",
+    "RUS": "$tribute_mission.1005.desc.small_gold$",
+    "POL": "$tribute_mission.1005.desc.small_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.adequate_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.adequate_gold$",
+    "RUS": "$tribute_mission.1005.desc.adequate_gold$",
+    "POL": "$tribute_mission.1005.desc.adequate_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.excessive_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.excessive_gold$",
+    "RUS": "$tribute_mission.1005.desc.excessive_gold$",
+    "POL": "$tribute_mission.1005.desc.excessive_gold$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.small_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.small_herd$",
+    "RUS": "$tribute_mission.1005.desc.small_herd$",
+    "POL": "$tribute_mission.1005.desc.small_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.adequate_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.adequate_herd$",
+    "RUS": "$tribute_mission.1005.desc.adequate_herd$",
+    "POL": "$tribute_mission.1005.desc.adequate_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.excessive_herd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.excessive_herd$",
+    "RUS": "$tribute_mission.1005.desc.excessive_herd$",
+    "POL": "$tribute_mission.1005.desc.excessive_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.rejected_concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.rejected_concubine$",
+    "RUS": "$tribute_mission.1005.desc.rejected_concubine$",
+    "POL": "$tribute_mission.1005.desc.rejected_concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.appointed_concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.appointed_concubine$",
+    "RUS": "$tribute_mission.1005.desc.appointed_concubine$",
+    "POL": "$tribute_mission.1005.desc.appointed_concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.concubine",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.concubine$",
+    "RUS": "$tribute_mission.1005.desc.concubine$",
+    "POL": "$tribute_mission.1005.desc.concubine$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.rejected_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.rejected_eunuch$",
+    "RUS": "$tribute_mission.1005.desc.rejected_eunuch$",
+    "POL": "$tribute_mission.1005.desc.rejected_eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.appointed_eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.appointed_eunuch$",
+    "RUS": "$tribute_mission.1005.desc.appointed_eunuch$",
+    "POL": "$tribute_mission.1005.desc.appointed_eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.eunuch",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.eunuch$",
+    "RUS": "$tribute_mission.1005.desc.eunuch$",
+    "POL": "$tribute_mission.1005.desc.eunuch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc.artifact$",
+    "RUS": "$tribute_mission.1005.desc.artifact$",
+    "POL": "$tribute_mission.1005.desc.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.desc$",
+    "RUS": "$tribute_mission.1005.desc$",
+    "POL": "$tribute_mission.1005.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.treasury$",
+    "RUS": "$tribute_mission.1005.treasury$",
+    "POL": "$tribute_mission.1005.treasury$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.artifact$",
+    "RUS": "$tribute_mission.1005.artifact$",
+    "POL": "$tribute_mission.1005.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.artifact.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.artifact.tt$",
+    "RUS": "$tribute_mission.1005.artifact.tt$",
+    "POL": "$tribute_mission.1005.artifact.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.innovation$",
+    "RUS": "$tribute_mission.1005.innovation$",
+    "POL": "$tribute_mission.1005.innovation$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.development$",
+    "RUS": "$tribute_mission.1005.development$",
+    "POL": "$tribute_mission.1005.development$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.monk$",
+    "RUS": "$tribute_mission.1005.monk$",
+    "POL": "$tribute_mission.1005.monk$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3005.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1005.legitimacy$",
+    "RUS": "$tribute_mission.1005.legitimacy$",
+    "POL": "$tribute_mission.1005.legitimacy$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Seal of Investiture",
+    "RUS": "$tribute_mission_header$ Печать введения в должность",
+    "POL": "$tribute_mission_header$ pieczęć inwestytury",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetTitledFirstName|U] remains prostrated for what is starting to feel uncomfortably long. Is [tributary_scope.GetSheHe] expecting something else from me?\\n\\nI spot my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scribe_character'))] [scribe_character.GetShortUIName], the artisan crafting my official seals, waiting stoically on the sidelines of the crowded court.\\n\\nIs it time to grant [tributary_scope.GetTitledFirstNameNoTooltip] the Son of Heaven's official recognition?",
+    "RUS": "[tributary_scope.GetTitledFirstName|U] остается в поклоне уже неприлично долго. Неужели [Select_CString(tributary_scope.IsFemale, 'она', 'он')] ждет от меня чего-то еще?\\n\\n[Select_CString(scribe_character.IsFemale, 'Моя', 'Мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scribe_character'))] [scribe_character.GetShortUIName] — [Select_CString(scribe_character.IsFemale, 'мастерица', 'мастер')], [Select_CString(scribe_character.IsFemale, 'изготавливающая', 'изготавливающий')] мои официальные печати, — стоически ждет в стороне, среди толпы придворных.\\n\\nЗаслуживает ли [tributary_scope.GetTitledFirstNameNoTooltip] официального признания Сына Неба?",
+    "POL": "[tributary_scope.GetTitledFirstName|U] płaszczy się przede mną tak długo, że wywołuje we mnie zakłopotanie. Czy oczekuje ode mnie czegoś jeszcze?\\n\\nWidzę, jak [scribe_character.GetShortUINameNotMe], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scribe_character'))], osoba odpowiedzialna za moje oficjalne pieczęcie, czeka spokojnie na uboczu zatłoczonego dworu.\\n\\nCzy [tributary_scope.GetTitledFirstNameNoTooltip] zasługuje na oficjalne uznanie przez syna niebios?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.grant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "We will formalize this agreement for the ages.",
+    "RUS": "Мы узаконим это соглашение на веки вечные.",
+    "POL": "Sformalizujemy to porozumienie, by trwało przez wieki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.grant.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[scribe_character.GetShortUIName] will craft a [seal_of_investiture|E] for [tributary_scope.GetTitledFirstName]",
+    "RUS": "[scribe_character.GetShortUIName] создаст [Concept('seal_of_investiture', 'печать введения в должность')|E], владеть которой будет [tributary_scope.GetTitledFirstName]",
+    "POL": "[scribe_character.GetShortUINameNotMe] stworzy [seal_of_investiture|El] dla osoby, którą jest [tributary_scope.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.decline.no_money",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "The imperial treasury cannot bear the expense.",
+    "RUS": "Имперская казна не вынесет таких расходов.",
+    "POL": "Cesarski skarbiec nie udźwignie takich kosztów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1006.decline.dont_wanna",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[tributary_scope.GetSheHe|U] does not deserve such honor.",
+    "RUS": "[tributary_scope.GetSheHe|U] не заслуживает такой чести.",
+    "POL": "[tributary_scope.GetTitledFirstName] nie zasługuje na taki zaszczyt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "refused_seal_of_investiture_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Refused granting a [seal_of_investiture|E]",
+    "RUS": "Отказ даровать [Concept('seal_of_investiture', 'печать введения в должность')|E]",
+    "POL": "Odmówiono przyznania [Concept('seal_of_investiture', 'pieczęci inwestytury')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1007.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Seal of Investiture",
+    "RUS": "$tribute_mission_header$ Печать введения в должность",
+    "POL": "$tribute_mission_header$ pieczęć inwestytury",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1007.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "After a pregnant pause, [receiving_character.GetTitledFirstName] rises ceremoniously. On cue, the imperial scribe [scribe_character.GetShortUIName] emerges from the crowd, carrying a finely crafted $game_concept_seal_of_investiture$ — with my name on it!\\n\\n[receiving_character.GetTitledFirstName] retrieves it gingerly and begs me to rise. The audience is rapt in attention.\\n\\nAs I receive the Son of Heaven's blessing, a thought strikes me: what new doors might this precious contract open?",
+    "RUS": "После томительной паузы [receiving_character.GetTitledFirstName] церемонно поднимается. Как по сигналу, имперский писарь [scribe_character.GetShortUIName] выходит из толпы, держа в руках изысканно изготовленную печать введения в должность — с моим именем!\\n\\n[receiving_character.GetTitledFirstName|U] бережно принимает ее и просит меня подняться. Зал замер в ожидании.\\n\\nКогда я принимаю благословение Сына Неба, меня осеняет мысль: какие новые возможности откроет этот драгоценный договор?",
+    "POL": "Po wymownej pauzie [receiving_character.GetTitledFirstName] podnosi się uroczyście. Widząc to, cesarski skryba [scribe_character.GetShortUINameNotMe] wychodzi z tłumu, niosąc pieczołowicie wykonaną pieczęć inwestytury – z moim imieniem!\\n\\n[receiving_character.GetTitledFirstName] odbiera ją ostrożnie i prosi mnie o powstanie. Uczestnicy przyglądają się scenie z uwagą.\\n\\nGdy odbieram od syna niebios błogosławieństwo, w mojej głowie pojawia się myśl: jakie nowe drzwi otworzy przede mną ten cenny kontrakt?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1007.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "This changes everything.",
+    "RUS": "Это всё меняет.",
+    "POL": "To zmienia wszystko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1008.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Ongoing Tribute",
+    "RUS": "$tribute_mission_header$ Непрерывная дань",
+    "POL": "$tribute_mission_header$ nieprzerwana danina",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1008.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "As the gifts are exchanged in ceremony, I feel an anticipation build across the court as if certain words have been left unspoken. While never stated outright, the expectation on me slowly becomes plain.\\n\\n[receiving_character.GetTitledFirstNameNoTooltip] wishes for my vow to keep these gifts flowing, in return for [receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierPossessiveNoTooltip] benevolence.\\n\\nThere is still time to honorably decline the offer while retaining my independence, with all that may entail.",
+    "RUS": "Идет церемония обмена дарами, и я ощущаю, как при дворе нарастает нетерпение. Никто не высказывается открыто, но все вокруг явно чего-то от меня ждут.\\n\\n[receiving_character.GetTitledFirstNameNoTooltip|U] рассчитывает, что в обмен на #L [receiving_character.GetLiege.GetPrimaryTitle.GetAdjective|l]ое#! покровительство я дам клятву приносить дары и впредь.\\n\\nЕще есть время с честью отклонить предложение и сохранить независимость со всеми вытекающими последствиями.",
+    "POL": "Podczas ceremonii wymiany podarunków wyczuwam na dworze narastające napięcie – jakby pewne słowa wciąż pozostawały niewypowiedziane. Choć nikt nie odważył się wyrazić tego wprost, oczekiwania wobec mnie stają się coraz bardziej oczywiste.\\n\\n[receiving_character.GetTitledFirstNameNoTooltip] życzy sobie, że dam słowo, iż podarunki będą nieprzerwanie płynąć w zamian za życzliwość miejsca znanego jako [receiving_character.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\nA jednak wciąż mam wybór. Wciąż mogę z szacunkiem odrzucić tę ofertę, zachowując niezależność i wszystko, co się z nią wiąże.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1008.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...и, разумеется, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] продолжит регулярно отправлять дары в город [receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip]».",
+    "POL": "– …i oczywiście miejsce znane jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] regularnie będzie przekazywać podarunki do miejsca o nazwie [receiving_character.GetLiege.GetCapitalLocation.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.1008.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] shall not bend the knee.",
+    "RUS": "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] не склонится.",
+    "POL": "Miejsce znane jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] nie padnie na kolana.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.t$",
+    "RUS": "$tribute_mission.1006.t$",
+    "POL": "$tribute_mission.1006.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.desc$",
+    "RUS": "$tribute_mission.1006.desc$",
+    "POL": "$tribute_mission.1006.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.grant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.grant$",
+    "RUS": "$tribute_mission.1006.grant$",
+    "POL": "$tribute_mission.1006.grant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.grant.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.grant.tt$",
+    "RUS": "$tribute_mission.1006.grant.tt$",
+    "POL": "$tribute_mission.1006.grant.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.decline.no_money",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.decline.no_money$",
+    "RUS": "$tribute_mission.1006.decline.no_money$",
+    "POL": "$tribute_mission.1006.decline.no_money$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3006.decline.dont_wanna",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1006.decline.dont_wanna$",
+    "RUS": "$tribute_mission.1006.decline.dont_wanna$",
+    "POL": "$tribute_mission.1006.decline.dont_wanna$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3007.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1007.t$",
+    "RUS": "$tribute_mission.1007.t$",
+    "POL": "$tribute_mission.1007.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3007.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1007.desc$",
+    "RUS": "$tribute_mission.1007.desc$",
+    "POL": "$tribute_mission.1007.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3007.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1007.a$",
+    "RUS": "$tribute_mission.1007.a$",
+    "POL": "$tribute_mission.1007.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3008.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1008.t$",
+    "RUS": "$tribute_mission.1008.t$",
+    "POL": "$tribute_mission.1008.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3008.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1008.desc$",
+    "RUS": "$tribute_mission.1008.desc$",
+    "POL": "$tribute_mission.1008.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3008.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1008.a$",
+    "RUS": "$tribute_mission.1008.a$",
+    "POL": "$tribute_mission.1008.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3008.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1008.b$",
+    "RUS": "$tribute_mission.1008.b$",
+    "POL": "$tribute_mission.1008.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t$",
+    "RUS": "$tribute_mission.1010.t$",
+    "POL": "$tribute_mission.1010.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.treasury$",
+    "RUS": "$tribute_mission.1010.t.treasury$",
+    "POL": "$tribute_mission.1010.t.treasury$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.artifact$",
+    "RUS": "$tribute_mission.1010.t.artifact$",
+    "POL": "$tribute_mission.1010.t.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.innovation$",
+    "RUS": "$tribute_mission.1010.t.innovation$",
+    "POL": "$tribute_mission.1010.t.innovation$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.development$",
+    "RUS": "$tribute_mission.1010.t.development$",
+    "POL": "$tribute_mission.1010.t.development$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.monk$",
+    "RUS": "$tribute_mission.1010.t.monk$",
+    "POL": "$tribute_mission.1010.t.monk$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.t.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.t.legitimacy$",
+    "RUS": "$tribute_mission.1010.t.legitimacy$",
+    "POL": "$tribute_mission.1010.t.legitimacy$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.intro.attendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.intro.attendant$",
+    "RUS": "$tribute_mission.1010.intro.attendant$",
+    "POL": "$tribute_mission.1010.intro.attendant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.intro$",
+    "RUS": "$tribute_mission.1010.intro$",
+    "POL": "$tribute_mission.1010.intro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.intro.postseal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.intro.postseal$",
+    "RUS": "$tribute_mission.1010.intro.postseal$",
+    "POL": "$tribute_mission.1010.intro.postseal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.segway",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.segway$",
+    "RUS": "$tribute_mission.1010.segway$",
+    "POL": "$tribute_mission.1010.segway$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.treasury$",
+    "RUS": "$tribute_mission.1010.desc.treasury$",
+    "POL": "$tribute_mission.1010.desc.treasury$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.artifact$",
+    "RUS": "$tribute_mission.1010.desc.artifact$",
+    "POL": "$tribute_mission.1010.desc.artifact$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.innovation",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.innovation$",
+    "RUS": "$tribute_mission.1010.desc.innovation$",
+    "POL": "$tribute_mission.1010.desc.innovation$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.development",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.development$",
+    "RUS": "$tribute_mission.1010.desc.development$",
+    "POL": "$tribute_mission.1010.desc.development$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.monk",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.monk$",
+    "RUS": "$tribute_mission.1010.desc.monk$",
+    "POL": "$tribute_mission.1010.desc.monk$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.desc.legitimacy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.desc.legitimacy$",
+    "RUS": "$tribute_mission.1010.desc.legitimacy$",
+    "POL": "$tribute_mission.1010.desc.legitimacy$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.outro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.outro$",
+    "RUS": "$tribute_mission.1010.outro$",
+    "POL": "$tribute_mission.1010.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.3010.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.1010.a$",
+    "RUS": "$tribute_mission.1010.a$",
+    "POL": "$tribute_mission.1010.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9000.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Unfortunately I do not have the means to commit to a display of tribute at this time.\\n\\nI sincerely hope my [actor.GetTitleAsNameNoTooltip] will understand.",
+    "RUS": "Увы, на этот раз у меня нет возможности преподнести дань.\\n\\nНадеюсь, [actor.GetTitleAsNameNoTooltip|l] поймет.",
+    "POL": "Niestety nie mam chwilowo możliwości zorganizowania prezentacji trybutu.\\n\\nMam jednak szczerą nadzieję, że [actor.GetTitleAsNameNoTooltip] wykaże się zrozumieniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9000.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Is that so.",
+    "RUS": "Вот как.",
+    "POL": "Czyżby?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9010.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[recipient.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9010.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Of course we shall grant my [actor.GetTitleAsNameNoTooltip] the most exquisite tribute!\\n\\nOur journey begins; and our sights are set on [actor.GetCapitalLocation.GetName].",
+    "RUS": "Естественно, [actor.GetTitleAsNameNoTooltip|l] получит самую роскошную дань!\\n\\nНаше путешествие начинается, и [actor.GetCapitalLocation.GetName] является нашей целью.",
+    "POL": "Oczywiście [actor.GetTitleAsNameNoTooltip] otrzyma od nas w ramach trybutu to, co mamy najlepszego!\\n\\nWłaśnie wyruszamy w drogę, a wszystkie spojrzenia kierujemy w stronę miejsca znanego jako [actor.GetCapitalLocation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9010.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Excellent.",
+    "RUS": "Отлично.",
+    "POL": "Doskonale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9500.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[overlord.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[overlord.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[overlord.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9500.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "I though you were a [ROOT.Char.GetWomanMan] of your word. I gather that is not the case, tributary.\\n\\nYour recent failure to perform a tribute mission to my court has not gone unnoticed.",
+    "RUS": "Мне казалось, вы держите свое слово. Похоже, это не так, данник.\\n\\nНеспособность доставить дань к моему двору не осталась незамеченной.",
+    "POL": "Wydawało mi się, że można na Tobie polegać. Widzę jednak, że jest wręcz przeciwnie.\\n\\nNie udało ci się ostatnio uregulować trybutu należnego mojemu dworowi. Nie umknęło to mojej uwadze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9500.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "I see.",
+    "RUS": "Ясно…",
+    "POL": "Rozumiem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9750.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Tribute No More",
+    "RUS": "$tribute_mission_header$ потеря подарка",
+    "POL": "$tribute_mission_header$ koniec z trybutami",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9750.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Through a series of unfortunate events our tribute is no longer in our posse! [human_tribute.GetTitledFirstName|E], gone...\\n\\nI frown. Surely we should turn around and go back and regroup?",
+    "RUS": "В силу стечения неудачных обстоятельств мы утратили свою дань! [human_tribute.GetTitledFirstName|E] больше не с нами…\\n\\nЯ хмурюсь. Пожалуй, нам стоит вернуться назад и восполнить потери?",
+    "POL": "W wyniku serii niefortunnych zdarzeń nasz trybut zniknął z zasięgu naszych rąk! [human_tribute.GetTitledFirstName] znika…\\n\\nMarszczę brwi. Czy nie powinniśmy zawrócić, by zastanowić się, co dalej?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9750.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "No, we need to finish our tribute!",
+    "RUS": "Мы должны доставить хоть какую-то дань!",
+    "POL": "Nie! Musimy dopełnić trybutu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.adequate_reserved_gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Reserve @gold_icon!#V [THIS.Char.MakeScope.ScriptValue('adequate_gold_tribute_value')]#! for the [tribute|E]",
+    "RUS": "Выделить @gold_icon!#V [THIS.Char.MakeScope.ScriptValue('adequate_gold_tribute_value')]#! в качестве [Concept('tribute','дани')|E]",
+    "POL": "Zarezerwuj @gold_icon! #V [THIS.Char.MakeScope.ScriptValue('adequate_gold_tribute_value')]#! na poczet [Concept('tribute', 'trybutu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9750.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Better to just return home.",
+    "RUS": "Придется вернуться домой.",
+    "POL": "Lepiej będzie po prostu wrócić do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9750.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$CANCEL_TRAVEL_PLAN_EFFECT$",
+    "RUS": "$CANCEL_TRAVEL_PLAN_EFFECT$",
+    "POL": "$CANCEL_TRAVEL_PLAN_EFFECT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ The Escape",
+    "RUS": "$tribute_mission_header$ побег",
+    "POL": "$tribute_mission_header$ ucieczka",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.desc.vengeful",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "The chaos outside finally brings me back from my deep sleep. Barely awake, I reluctantly listen in and manage to make out the fragmented shouts #EMP ",
+    "RUS": "Шум и суета снаружи пробуждают меня от крепкого сна. С трудом продирая глаза, я вслушиваюсь в неразборчивые голоса. #EMP «Подношение сбежало! Найдите [Select_CString(escapee_eunuch.IsFemale, 'ее', 'его')]!»#! — кричат мои спутники, и тут в дверном проеме возникает темный силуэт.\\n\\n#EMP «[escapee_eunuch.GetFaith.HighGodName], прости меня, [Select_CString(escapee_eunuch.IsFemale, 'грешную', 'грешного')]!»#! — бормочет наше подношение, [escapee_eunuch.GetTitledFirstName]… и с воплем бросается на меня!\\n\\nСкатившись с постели, я с трудом уклоняюсь от первого удара и вскакиваю на ноги. Мы начинаем кружить друг вокруг друга…",
+    "POL": "Odgłosy zamieszania na zewnątrz wyrywają mnie w końcu z głębokiego snu. Półprzytomnie i mało entuzjastycznie zaczynam nasłuchiwać. Po chwili udaje mi się rozpoznać część wykrzykiwanych słów. #EMP – Trzeba [escapee_eunuch.Custom('PL_go_ja')] znaleźć!#! To nasz trybut, nie ma prawa tak sobie zniknąć!\\n\\nWtem w drzwiach mojego pokoju staje ciemna postać.\\n\\n– #EMP Niech łaska [escapee_eunuch.GetFaith.HighGodNamePossessive] sprawi, że mój grzech zostanie wybaczony!#! – krzyczy nasz trybut, [escapee_eunuch.GetTitledFirstName], i się na mnie rzuca.\\n\\nZ ledwością unikając pierwszego ciosu, zrywam się z posłania na równe nogi. Zaczynamy krążyć wokół siebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "I inexplicably wake for a brief moment. In my sleepy state, I look around my tent, only to see a shadow passing by my tent flaps. Wincing at the cool night air, I roll out of my cot and lumber over to peek outside.\\n\\nTo my surprise, I am greeted by none other than our human tribute, [escapee_eunuch.GetTitledFirstName], who has somehow managed to escape [escapee_eunuch.GetHerHis] attendants.\\n\\n[escapee_eunuch.GetHerHis|U] eyes widen in fear when [escapee_eunuch.GetSheHe] notices my presence. ",
+    "RUS": "Внезапно что-то пробуждает меня ото сна. Оглядываясь заспанными глазами, я замечаю тень, крадущуюся у входа в шатер. Вздрагивая от ночного холода, я выбираюсь из койки, чтобы посмотреть, что происходит снаружи.\\n\\nВыглянув за полог, я понимаю, что мой шатер [Select_CString(escapee_eunuch.IsFemale, 'навестила', 'навестил')] не кто [Select_CString(escapee_eunuch.IsFemale, 'иная', 'иной')], как наше подношение — [escapee_eunuch.GetTitledFirstName]. Каким-то образом [Select_CString(escapee_eunuch.IsFemale, 'ей', 'ему')] удалось сбежать от сопровождающих.\\n\\nКогда [Select_CString(escapee_eunuch.IsFemale, 'она', 'он')] замечает меня, [Select_CString(escapee_eunuch.IsFemale, 'ее', 'его')] зрачки расширяются от страха. «Прошу вас, [Select_CString(ROOT.Char.IsFemale,'моя','мой')] [escapee_eunuch.Custom2('RelationToMe', ROOT.Char )]… Я этого не переживу. Пожалуйста…» — умоляет [escapee_eunuch.GetTitledFirstNameNoTooltip], [Select_CString(escapee_eunuch.IsFemale, 'готовая', 'готовый')] броситься в бегство.",
+    "POL": "Z jakiegoś powodu nagle wybudzam się na chwilę i – półprzytomnie rozglądając się po namiocie – zauważam cień przemykający przy klapie. Krzywię się na chłód nocnego powietrza, ale podnoszę się z pryczy i człapię niezgrabnie do wyjścia, by zobaczyć, co się dzieje na zewnątrz.\\n\\nOsobą, którą ku swojemu zdumieniu napotykam, jest nasz trybut, [escapee_eunuch.GetTitledFirstName]. Nie wiem jak, ale najwyraźniej udało [escapee_eunuch.Custom('PL_mu_jej')] się uciec osobom sprawującym nad [escapee_eunuch.Custom('PL_nim_nia')] pieczę.\\n\\nNa mój widok [escapee_eunuch.Custom('PL_jego_jej')] oczy rozszerzają się w przerażeniu.\\n\\n– Proszę, niech okaże mi [escapee_eunuch.Custom2('RelationToMe', ROOT.Char )] łaskę… Nie mogę tak żyć. Błagam… – prosi mnie, szykując się do ucieczki w mrok.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "#EMP «Получай!»#!",
+    "POL": "– #EMP A masz!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.a.success",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[escapee_eunuch.GetShortUIName] is overpowered",
+    "RUS": "[escapee_eunuch.GetShortUIName] [Select_CString(escapee_eunuch.IsFemale, 'поймана', 'пойман')]",
+    "POL": "Osoba, którą jest [escapee_eunuch.GetShortUINameNotMe], zostaje obezwładniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.a.success.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[escapee_eunuch.GetShortUIName] is subdued, and the [tribute_mission|E] continues",
+    "RUS": "[escapee_eunuch.GetShortUIName] [Select_CString(escapee_eunuch.IsFemale, 'схвачена', 'схвачен')], [Concept('tribute_mission', 'задание данника')|E] может продолжаться",
+    "POL": "Osoba, którą jest [escapee_eunuch.GetShortUINameNotMe], zostaje obezwładniona, a [tribute_mission|El] trwa nadal",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.a.failure",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[escapee_eunuch.GetShortUIName] escapes and attempts to exact [escapee_eunuch.GetHerHis] vengeance",
+    "RUS": "[escapee_eunuch.GetShortUIName] убегает, мечтая о мести",
+    "POL": "[escapee_eunuch.GetShortUINameNotMe] ucieka i próbuje dokonać zemsty",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«#EMP Стража!#!»",
+    "POL": "– #EMP Straż!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission.9760.a.success$",
+    "RUS": "$tribute_mission.9760.a.success$",
+    "POL": "$tribute_mission.9760.a.success$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.b.failure",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[escapee_eunuch.GetShortUIName] escapes",
+    "RUS": "[escapee_eunuch.GetShortUIName] убегает",
+    "POL": "[escapee_eunuch.GetShortUINameNotMe] ucieka",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.b.critical_failure",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "[escapee_eunuch.GetShortUIName] is killed in the process",
+    "RUS": "[escapee_eunuch.GetShortUIName] гибнет в схватке",
+    "POL": "[escapee_eunuch.GetShortUINameNotMe] ginie w trakcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9760.c",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты [Select_CString(escapee_eunuch.IsFemale, 'свободна', 'свободен')]. Просто #EMP уходи#!!»",
+    "POL": "– Możesz odejść. Po prostu #EMP idź#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "$tribute_mission_header$ Change of Plans",
+    "RUS": "$tribute_mission_header$ Перемена планов",
+    "POL": "$tribute_mission_header$ zmiana planów",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.desc.suzerain_turned_liege",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "It would appear my tributary obligations have shifted, now that I am indeed a vassal of [ROOT.Char.GetLiege.GetTitledFirstName].\\n\\nIn light of this, there are a lot of other matters that need tending to back home, of which paying tribute is no longer one of them. Such a turn of events!",
+    "RUS": "Похоже, мои обязательства данника изменились, и теперь я вассал, а [ROOT.Char.GetLiege.GetTitledFirstName] мой сюзерен.\\n\\nВ связи с этим мне нужно заняться множеством дел у себя дома, и выплата дани не входит в их число. Вот это поворот событий!",
+    "POL": "Wygląda na to, że moje zobowiązania jako trybutariusza uległy zmianie – teraz to [ROOT.Char.GetLiege.GetTitledFirstName] jest moim seniorem, a ja jestem [ROOT.Char.GetLiege.GetHerHis] wasalem.\\n\\nW świetle tego jest wiele innych spraw w ojczyźnie, którymi trzeba się zająć, a płacenie trybutu przestało być jedną z nich. Co za niespodziewany zwrot wydarzeń!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.desc.no_longer_tributary",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Such a turn of events! I am reached by the news that we are under the shackles of tribute no more!\\n\\nSo many affairs and questions to address back home — of which dealing with this new independence is the main topic.",
+    "RUS": "Какой поворот событий! До меня дошли новости, что меня больше не связывают обязательства дани!\\n\\nНужно решить столько вопросов у себя дома, и главным среди них является новообретенная независимость.",
+    "POL": "Cóż za niespodziewany zwrot wydarzeń! Właśnie dotarła do mnie wieść, że nie jesteśmy już zniewoleni trybutem!\\n\\nPrzed nami ogrom spraw do omówienia w ojczyźnie, a w centrum uwagi jest jedno: nasza nowo odzyskana niepodległość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.desc.different_end_location",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "With the suzerain shift, it would appear as if [current_overlord.GetTitledFirstName] has [current_overlord.GetHerHis] capital in a different location.\\n\\nOur journey and tribute was slated for [old_overlord.GetTitledFirstName], and so my advisors insist that the wise decision would be to go back to [ROOT.Char.GetCapitalLocation.GetName] and regroup.",
+    "RUS": "Повелитель сменился и, похоже, [current_overlord.GetTitledFirstName] правит из иного места.\\n\\nНашу дань [Select_CString(current_overlord.IsFemale, 'должна была', 'должен был' )] получить [old_overlord.GetTitledFirstName], и мои советники настаивают, что нам стоит вернуться во владение [ROOT.Char.GetCapitalLocation.GetName] и всё обдумать.",
+    "POL": "Wygląda na to, że po zmianie suwerena [current_overlord.GetTitledFirstName] ma teraz stolicę w innym miejscu.\\n\\nWybraliśmy się w podróż z trybutem przeznaczonym dla osoby znanej jako [old_overlord.GetTitledFirstName], lecz w obecnych okolicznościach moi doradcy nalegają, że najrozsądniejszym krokiem będzie powrót do miejsca o nazwie [ROOT.Char.GetCapitalLocation.GetName] i zastanowienie się, co dalej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.desc.unable_to_accept_tribute",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "The murmurs of the road informs me that our new suzerain does not appear to be interested in the type of tribute I will be presenting.\\n\\nI would rather not risk angering our highness, so the wiser move would be to regroup back at [ROOT.Char.GetCapitalLocation.GetName].",
+    "RUS": "По дороге до меня дошли слухи, что наш новый повелитель не проявляет интереса к дани, которую я планирую доставить.\\n\\nНе стоит рисковать прогневать владыку, и разумнее будет вернуться во владение [ROOT.Char.GetCapitalLocation.GetName].",
+    "POL": "Okoliczne plotki głoszą, że nasz nowy suzeren nie wykazuje zainteresowania formą trybutu, który mam zamiar złożyć.\\n\\nNie chcąc ryzykować gniewu naszej wysokości, uznaję za rozsądne wycofać się do miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetName] i zastanowić się, co dalej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission.9800.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Let us return home in the meantime.",
+    "RUS": "Вернемся пока домой.",
+    "POL": "Póki co wracajmy do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_notification.new_overlord.title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Tribute Mission Suzerain Changed",
+    "RUS": "Повелитель данника изменился",
+    "POL": "Misja zapłaty trybutu – zmiana suzerena",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_notification.new_overlord.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Your [tribute_mission|E] Suzerain changed to [new_overlord.GetShortUIName]",
+    "RUS": "Повелитель вашего [Concept('tribute_mission', 'задания данника')|E] изменился, и теперь это [new_overlord.GetShortUIName]",
+    "POL": "Nowy suzeren, któremu przekazywany jest trybut w ramach [Concept('tribute_mission', 'misji zapłaty trybutu')|E], to [new_overlord.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "slated_for_castration_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Slated For Castration",
+    "RUS": "Предназначен для кастрации",
+    "POL": "Krytyka za kastrację",
+    "BEL": ""
+  },
+  {
+    "KEY": "suzerain_trade_post_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Suzerain Trade Posts",
+    "RUS": "Торговые фактории повелителя",
+    "POL": "Placówki handlowe suzerena",
+    "BEL": ""
+  },
+  {
+    "KEY": "suzerain_trade_post_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "This County is receiving a steady stream of merchants from the Suzerain's trade posts.",
+    "RUS": "В это графство регулярно прибывают купцы из торговых факторий, которые принадлежат его повелителю.",
+    "POL": "To hrabstwo cieszy się stałym napływem handlarzy dzięki placówkom handlowym suzerena.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_common_bunga_mas_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "A [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )], presented as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName].",
+    "RUS": "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName].",
+    "POL": "[Glossary( 'Bunga mas', 'BUNGA_MAS_GLOSS' )] zaprezentowane jako trybut osobie znanej jako [overlord_scope.GetTitledFirstName] przez osobę, którą jest [tributary_scope.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_masterwork_bunga_mas_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "First offered as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName], this fine set of [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] catches the light in a spectacular manner.",
+    "RUS": "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Эти изящные деревья из драгоценных металлов чарующе блестят на солнце.",
+    "POL": "Pierwotnie zaoferowany jako trybut osobie znanej jako [overlord_scope.GetTitledFirstName] przez osobę, którą jest [tributary_scope.GetTitledFirstName], ten wysokiej jakości zestaw [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )] efektownie odbija światło.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_famed_bunga_mas_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Two exquisite golden and silver trees, these [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] was presented to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName] as a tribute. The metalwork and carvings tell the tale of fine artistry.",
+    "RUS": "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Эти деревья из золота и серебра выполнены с высочайшим мастерством, о чем свидетельствуют их искусные резные узоры.",
+    "POL": "To [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] w formie dwóch przepięknych złoto-srebrnych drzew zostało zaprezentowane osobie znanej jako [overlord_scope.GetTitledFirstName] przez osobę, którą jest [tributary_scope.GetTitledFirstName], w formie trybutu. Ten rzeźbiony wyrób metaloplastyczny świadczy o wysokim kunszcie artystycznym jego twórcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribute_mission_illustrious_bunga_mas_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_tribute_mission_events_l_belarusian.json",
+    "ENG": "Offered as a tribute to [overlord_scope.GetTitledFirstName] by [tributary_scope.GetTitledFirstName], the [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] consists of a magnificent set of golden and silver trees, meticulously forged and carved from the finest metals; blossoms caught as perpetual flowers.",
+    "RUS": "[Glossary( 'Бунга мас', 'BUNGA_MAS_GLOSS' )], который [tributary_scope.GetTitledFirstName] [Select_CString(tributary_scope.IsFemale, 'привезла', 'привез' )] в качестве подношения персонажу [overlord_scope.GetTitledFirstName]. Изготовленные из чистейших драгоценных металлов, эти изысканные деревья украшены великолепными металлическими цветами, которые будут радовать глаз своей красотой в любое время года.",
+    "POL": "To [Glossary( 'bunga mas', 'BUNGA_MAS_GLOSS' )], zaoferowane jako trybut osobie znanej jako [overlord_scope.GetTitledFirstName] przez osobę, którą jest [tributary_scope.GetTitledFirstName], składa się ze wspaniałego zestawu złoto-srebrnych drzew, starannie wykutych i wyrzeźbionych z najlepszych metali. Wieczne kwiaty reprezentują zjawisko rozkwitu.",
+    "BEL": ""
+  }
+]

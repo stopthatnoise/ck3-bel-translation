@@ -1,0 +1,226 @@
+[
+  {
+    "KEY": "CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Can create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Может создать [Concept('faction', 'фракцию')|E] $TYPE|V$ против [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ')|l][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '')]",
+    "POL": "Można utworzyć [Concept( 'faction', 'frakcję' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Can #bold not#! create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "#bold Не#! может создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "#bold Nie#! można utworzyć [Concept( 'faction', 'frakcji' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You can create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы можете создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Możesz utworzyć [Concept( 'faction', 'frakcję' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You can #bold not#! create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы #bold не#! можете создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "#bold Nie#! możesz utworzyć [Concept( 'faction', 'frakcji' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] can create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')] может создать [Concept('faction', 'фракцию')|E] $TYPE|V$ против [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ')|l][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '')]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] może utworzyć [Concept( 'faction', 'frakcję' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_CAN_CREATE_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] can #bold not#! create a $TYPE|V$ [faction|E] against [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! может создать [Concept( 'faction', 'фракцию' )|E] $TYPE|V$ против [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! może utworzyć [Concept( 'faction', 'frakcji' )|E] „$TYPE|V$” przeciwko [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Can join the [FACTION.GetNameNoTooltip]",
+    "RUS": "Может вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "Można dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Can #bold not#! join the [FACTION.GetNameNoTooltip]",
+    "RUS": "#bold Не#! может вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "#bold Nie#! można dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You can join the [FACTION.GetNameNoTooltip]",
+    "RUS": "Вы можете вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "Możesz dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You can #bold not#! join the [FACTION.GetNameNoTooltip]",
+    "RUS": "Вы #bold не#! можете вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "#bold Nie#! możesz dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] can join the [FACTION.GetNameNoTooltip]",
+    "RUS": "[CHARACTER.GetShortUIName|U] может вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] może dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_CAN_JOIN_FACTION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] can #bold not#! join the [FACTION.GetNameNoTooltip]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! может вступить во фракцию [FACTION.GetNameNoTooltip]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! może dołączyć do [Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja niepodległościowa'), 'frakcji niepodległościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja wolnościowa'), 'frakcji wolnościowej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja pretendencka'), 'frakcji pretendenckiej', Select_CString(EqualTo_string(FACTION.GetNameNoTooltip, 'Frakcja dezintegracyjna'), 'frakcji dezintegracyjnej', FACTION.GetNameNoTooltip))))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WAS_BLOCKED_FROM_JOINING_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Was forbidden to join factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "RUS": "Не может вступать во фракции до [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "POL": "Ma zakaz dołączania do frakcji #weak (do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_WAS_BLOCKED_FROM_JOINING_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You were forbidden to join factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "RUS": "Вам запрещено вступать во фракции до [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "POL": "Zabroniono ci dołączania do frakcji #weak (do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_WAS_BLOCKED_FROM_JOINING_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] was forbidden to join factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может вступать во фракции до [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] ma zakaz dołączania do frakcji #weak (do [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[barons|E] cannot join [independence_factions|E]",
+    "RUS": "[independence_factions|E] закрыты для [Concept( 'barons', 'баронов' )|El]",
+    "POL": "[Concept( 'barons', 'Baronie' )|E] nie mogą dołączyć do [Concept( 'independence_factions', 'niezależnych frakcji' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANNOT_START_FACTION_AGAINST_CHARACTER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "It is not possible to start a [faction|E] against [CHARACTER.GetShortUIName]",
+    "RUS": "Не может быть сформирована [faction|El] против [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Nie można założyć [Concept( 'faction', 'frakcji' )|E] przeciwko [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [crown_authority|E]",
+    "RUS": "[CHARACTER.GetShortUIName] уже имеет самый низкий [Concept( 'crown_authority', 'авторитет короны' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] posiada już najniższy możliwy poziom [Concept('crown_authority', 'autorytetu korony')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [imperial_bureaucracy|E]",
+    "RUS": "[CHARACTER.GetShortUIName] уже имеет самый минимальный возможный показатель [Concept('imperial_bureaucracy', 'имперской бюрократии')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma już najniższy możliwy poziom [Concept('imperial_bureaucracy', 'biurokracji cesarskiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_TRIBAL_AUTHORITY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [tribal_authority|E]",
+    "RUS": "[CHARACTER.GetShortUIName] уже имеет самый низкий [Concept('tribal_authority', 'авторитет вождя')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma już najniższy możliwy poziom [Concept('tribal_authority', 'autorytetu władzy plemiennej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_CELESTIAL_BUREAUCRACY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [celestial_bureaucracy|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] уже имеет минимальный возможный показатель [Concept('celestial_bureaucracy', 'мандатной бюрократии')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma już najniższy możliwy poziom [Concept('celestial_bureaucracy', 'biurokracji niebiańskiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_MERITOCRATIC_BUREAUCRACY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [meritocratic_bureaucracy|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] уже имеет минимальный возможный показатель [Concept('meritocratic_bureaucracy', 'меритократической бюрократии')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma już najniższy możliwy poziom [Concept('meritocratic_bureaucracy', 'biurokracji merytokratycznej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_LOWER_JAPANESE_BUREAUCRACY",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] already has the lowest possible [japanese_bureaucracy|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] уже имеет минимальный возможный показатель [Concept('japanese_bureaucracy', 'японской бюрократии')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma już najniższy możliwy poziom [Concept('japanese_bureaucracy', 'biurokracji japońskiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "You have a [modifier|E] preventing you from being in a [faction|E]",
+    "RUS": "У вас есть [Concept( 'modifier', 'модификатор' )|E], препятствующий вступлению во [Concept( 'faction', 'фракцию' )|E]",
+    "POL": "Posiadasz [Concept( 'modifier', 'modyfikator' )|E] uniemożliwiający ci bycie we [Concept( 'faction', 'frakcji' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_A_FACTION_MEMBER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Is a faction member",
+    "RUS": "Является членом фракции",
+    "POL": "Jest członkiem frakcji",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_A_FACTION_MEMBER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! a faction member",
+    "RUS": "#bold Не#! является членом фракции",
+    "POL": "#bold Nie#! jest członkiem frakcji",
+    "BEL": ""
+  },
+  {
+    "KEY": "FACTION_CAN_PRESS_DEMANDS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Faction can press demands",
+    "RUS": "Фракция может выдвинуть требования",
+    "POL": "Frakcja może wysunąć żądania",
+    "BEL": ""
+  },
+  {
+    "KEY": "nation_fracturing_faction.can_character_create_ui.blocked_by_struggle",
+    "FILE_PATH": "localization/belarusian/triggers/faction_triggers_l_belarusian.json",
+    "ENG": "Your [liege|E] holds one or more [titles|E] that cannot be [dissolution_faction_dissolved|E] due to an ongoing [struggle|E]",
+    "RUS": "Ваш [Concept( 'liege', 'сюзерен' )|E] имеет один или несколько [Concept( 'titles', 'титулов' )|E], которые нельзя [Concept( 'dissolution_faction_dissolved', 'разделить' )|E] из-за продолжающейся [Concept( 'struggle', 'борьбы' )|E]",
+    "POL": "Twój [liege|El] posiada jeden lub więcej [Concept( 'titles', 'tytułów' )|E], które nie mogą zostać [Concept( 'dissolution_faction_dissolved', 'dezintegrowane' )|E] z powodu trwających [Concept( 'struggle', 'zmagań' )|E]",
+    "BEL": ""
+  }
+]

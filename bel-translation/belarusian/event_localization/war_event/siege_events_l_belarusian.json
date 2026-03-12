@@ -1,0 +1,346 @@
+[
+  {
+    "KEY": "siege.0002.one_captured.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Prisoner Taken in Siege",
+    "RUS": "Пленник захвачен при осаде",
+    "POL": "Więzień schwytany podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0002.several_captured.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Prisoners Taken in Siege",
+    "RUS": "Пленники захвачены при осаде",
+    "POL": "Więźniowie schwytani podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0002.one_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "You captured [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] during the [siege|E] of [barony.GetNameNoTier].",
+    "RUS": "При [Concept('siege', 'осаде')|E] владения [barony.GetNameNoTier] вами [Select_CString(prisoner_1.IsFemale, 'была схвачена', 'был схвачен')] [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))].",
+    "POL": "Podczas [Concept('siege', 'oblężenia')|E] miejsca o nazwie [barony.GetNameNoTier] udało ci się pojmać następującą osobę: [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0002.two_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "You captured [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] and [prisoner_2.Custom2('HerHisCharacterIntroduction', SCOPE.sC('holder'))] during the [siege|E] of [barony.GetNameNoTier].",
+    "RUS": "При [Concept('siege', 'осаде')|E] владения [barony.GetNameNoTier] вами были схвачены [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] и [prisoner_2.Custom2('HerHisCharacterIntroduction', SCOPE.sC('holder'))].",
+    "POL": "Podczas [Concept('siege', 'oblężenia')|E] miejsca o nazwie [barony.GetNameNoTier] udało ci się pojmać następujące osoby: [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] oraz [prisoner_2.Custom2('HerHisCharacterIntroduction', SCOPE.sC('holder'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0002.several_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "You captured [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] and [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] others during the [siege|E] of [barony.GetNameNoTier].",
+    "RUS": "При [Concept('siege', 'осаде')|E] владения [barony.GetNameNoTier] вами были схвачены [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] и [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] других пленных.",
+    "POL": "Podczas [Concept('siege', 'oblężenia')|E] miejsca o nazwie [barony.GetNameNoTier] udało ci się pojmać następujące osoby: [prisoner_1.Custom2('NamePossessiveCharacterIntroduction', SCOPE.sC('holder'))] oraz [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] innych wojowników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.one_captured.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Courtier Captured in Siege",
+    "RUS": "Придворный захвачен при осаде",
+    "POL": "Dworzanin schwytany podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.several_captured.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Courtiers Captured in Siege",
+    "RUS": "Придворный захвачен при осаде",
+    "POL": "Dworzanie schwytani podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.one_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[prisoner_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] was captured",
+    "RUS": "Похоже, [prisoner_1.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(prisoner_1.IsFemale, 'была захвачена', 'был захвачен' )] в плен",
+    "POL": "[prisoner_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] został[Select_CString( prisoner_1.IsFemale, 'a', '' )] schwytan[Select_CString( prisoner_1.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.two_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] and my [ROOT.Char.Custom2('RelationToMeShort', prisoner_2)] [prisoner_2.GetFirstName] were captured",
+    "RUS": "Мои [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] и [ROOT.Char.Custom2('RelationToMeShort', prisoner_2)] [prisoner_2.GetFirstName] были захвачены в плен",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] [prisoner_1.GetFirstName] oraz [ROOT.Char.Custom2('RelationToMeShort', prisoner_2)] [prisoner_2.GetFirstName] to osoby, które zostały pojmane",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.several_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] and [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] others were captured",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [prisoner_1.GetFirstName] и еще [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] других человек были захвачены в плен",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] [prisoner_1.GetFirstName] oraz [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] innych dworzan to osoby, które zostały pojmane",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0003.end",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "by [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)] during the [siege|E] of [barony.GetNameNoTier].",
+    "RUS": "при [Concept('siege', 'осаде')|E] владения [barony.GetNameNoTier], которую [Select_CString(occupant.IsFemale, 'возглавляла', 'возглавлял' )] [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)].",
+    "POL": "podczas [Concept('siege', 'oblężenia')|E] miejsca o nazwie [barony.GetNameNoTier] przez osobę znaną jako [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)].",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0004.relation_captured.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] Taken Prisoner",
+    "RUS": "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] [Select_CString(prisoner_1.IsFemale, 'взята', 'взят' )] в плен",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)|U] wzięt[Select_CString( prisoner_1.IsFemale, 'a', 'y' )] do niewoli",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0004.one_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0003.one_captured$",
+    "RUS": "$siege.0003.one_captured$",
+    "POL": "$siege.0003.one_captured$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0004.two_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0003.two_captured$",
+    "RUS": "$siege.0003.two_captured$",
+    "POL": "$siege.0003.two_captured$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0004.several_captured",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0003.several_captured$",
+    "RUS": "$siege.0003.several_captured$",
+    "POL": "$siege.0003.several_captured$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0004.end",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0003.end$",
+    "RUS": "$siege.0003.end$",
+    "POL": "$siege.0003.end$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.one_killed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Courtier Killed in Siege",
+    "RUS": "Придворный убит при осаде",
+    "POL": "Dworzanin zabity podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.several_killed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Courtiers Killed in Siege",
+    "RUS": "Придворные убиты при осаде",
+    "POL": "Dworzanie zabici podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.one_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "My courtier [casualty_1.GetFirstName] was killed",
+    "RUS": "[Select_CString(casualty_1.IsFemale, 'Моя придворная', 'Мой придворный' )] [casualty_1.GetFirstName] [Select_CString(casualty_1.IsFemale, 'была убита', 'был убит' )]",
+    "POL": "[Select_CString(casualty_1.IsFemale, 'Moja dworzanka', 'Mój dworzanin' )] [casualty_1.GetFirstName] został[Select_CString(casualty_1.IsFemale, 'a zabita', ' zabity' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.two_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "My courtiers [casualty_1.GetFirstName] and [casualty_2.GetFirstName] were killed",
+    "RUS": "Мои придворные [casualty_1.GetFirstName] и [casualty_2.GetFirstName] были убиты",
+    "POL": "[Select_CString( And( casualty_1.IsFemale, casualty_2.IsFemale), 'Moje dworzanki', 'Moi dworzanie' )] [casualty_1.GetFirstName] i [casualty_2.GetFirstName] zosta[Select_CString( And( casualty_1.IsFemale, casualty_2.IsFemale), 'ły zabite', 'li zabici' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.several_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[casualty_1.GetFirstName] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] of my other courtiers were killed",
+    "RUS": "[casualty_1.GetFirstName] и [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] других моих придворных были убиты",
+    "POL": "[casualty_1.GetFirstName] oraz [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] innych moich dworzan zostało zabitych",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0013.end",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0003.end$",
+    "RUS": "$siege.0003.end$",
+    "POL": "$siege.0003.end$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.one_killed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMeShort', casualty_1)|U] Killed in Siege",
+    "RUS": "При осаде погибает [ROOT.Char.Custom2('RelationToMeShort', casualty_1)]",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', casualty_1)|U] zabit[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.one_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] was killed",
+    "RUS": "Похоже, [casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(casualty_1.IsFemale, 'была убита', 'был убит' )]",
+    "POL": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] został[Select_CString( casualty_1.IsFemale, 'a', '' )] zabit[Select_CString( casualty_1.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.two_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [casualty_2.Custom2('MyCharacterIntroduction', ROOT.Char)] were killed",
+    "RUS": "Похоже, [casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)] и [casualty_2.Custom2('MyCharacterIntroduction', ROOT.Char)] были убиты",
+    "POL": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] i [casualty_2.Custom2('MyCharacterIntroduction', ROOT.Char)] zostali zabici",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.several_killed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "People Killed in Siege",
+    "RUS": "Люди убиты при осаде",
+    "POL": "Ludzie zabici podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.several_killed",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] others were killed",
+    "RUS": "Похоже, [casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)] и еще [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] других были убиты",
+    "POL": "[casualty_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] oraz [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] innych zostało zabitych",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0014.end",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0013.end$",
+    "RUS": "$siege.0013.end$",
+    "POL": "$siege.0013.end$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0102.title",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Siege of [barony.GetNameNoTierNoTooltip] Lost",
+    "RUS": "Осада владения [barony.GetNameNoTierNoTooltip] проиграна",
+    "POL": "Przegrano oblężenie miejsca znanego jako [barony.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0102.message.foe",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0103.message$",
+    "RUS": "$siege.0103.message$",
+    "POL": "$siege.0103.message$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0102.message.neutral",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "The Holding is now [occupied|E] by [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)] in the [war.GetName]",
+    "RUS": "Владение [Concept( 'occupied', 'занимает' )|E] [occupant.Custom2('MyCharacterIntroduction', ROOT.Char)] (война: [war.GetName])",
+    "POL": "[occupant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] od teraz [Concept( 'occupied', 'okupuje' )|E] tę posiadłość ([war.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0103.title",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.0102.title$",
+    "RUS": "$siege.0102.title$",
+    "POL": "$siege.0102.title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.0103.message",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "The Holding is now [occupied|E] by my foe [occupant.GetTitledFirstName] in the [war.GetName]",
+    "RUS": "Владение [Concept( 'occupied', 'занимает' )|E] мой враг [occupant.GetTitledFirstName] (война: [war.GetName])",
+    "POL": "Mój wróg, [occupant.GetTitledFirstName], od teraz [Concept( 'occupied', 'okupuje' )|E] tę posiadłość ([war.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1005.pow_toast.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Valuable Prisoner Captured",
+    "RUS": "Захвачен ценный узник",
+    "POL": "Schwytano wartościowego więźnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1005.pow_toast.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "I took [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] prisoner during the Siege of [barony.GetNameNoTier]",
+    "RUS": "[valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)|U] попадает ко мне в плен при осаде баронства [barony.GetNameNoTier]",
+    "POL": "[valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)|U] został[Select_CString( valuable_prisoner.IsFemale, 'a', '' )] przez ciebie wzięt[Select_CString( valuable_prisoner.IsFemale, 'a', 'y' )] jako więzień podczas oblężenia [barony.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1005.pow_toast.desc.primary",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "I took my foe [valuable_prisoner.GetTitledFirstName] prisoner during the Siege of [barony.GetNameNoTier]",
+    "RUS": "Мой враг [valuable_prisoner.GetTitledFirstName] становится [Select_CString(valuable_prisoner.IsFemale, 'моей пленницей', 'моим пленником')] при осаде баронства [barony.GetNameNoTier]",
+    "POL": "Mój wróg, [valuable_prisoner.GetTitledFirstName], został[Select_CString( valuable_prisoner.IsFemale, 'a', '' )] przeze mnie wzięt[Select_CString( valuable_prisoner.IsFemale, 'a', 'y' )] jako więzień podczas oblężenia [barony.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1006.pow_toast.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "Valuable Prisoner Taken",
+    "RUS": "Захвачен ценный узник",
+    "POL": "Schwytano wartościowego więźnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1006.pow_toast.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[occupant.GetTitledFirstName] took [valuable_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] prisoner after the Siege of [barony.GetNameNoTier]",
+    "RUS": "[occupant.GetTitledFirstName] [Select_CString(occupant.IsFemale, 'поживилась', 'поживился' )] при осаде баронства [barony.GetNameNoTier]: теперь [valuable_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] у [Select_CString(occupant.IsFemale, 'нее', 'него' )] в плену",
+    "POL": "[occupant.GetTitledFirstName] wzi[Select_CString( occupant.IsFemale, 'ęła', 'ął' )] [valuable_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] jako więźnia po oblężeniu [barony.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1007.pow_toast.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "$siege.1005.pow_toast.t$",
+    "RUS": "$siege.1005.pow_toast.t$",
+    "POL": "$siege.1005.pow_toast.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1007.pow_toast.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[occupant.GetTitledFirstName] took [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] prisoner after the Siege of [barony.GetNameNoTier]",
+    "RUS": "[occupant.GetTitledFirstName] [Select_CString(occupant.IsFemale, 'поживилась', 'поживился' )] при осаде баронства [barony.GetNameNoTier]: теперь [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] у [Select_CString(occupant.IsFemale, 'нее', 'него' )] в плену",
+    "POL": "[occupant.GetTitledFirstName] wzi[Select_CString(occupant.IsFemale, 'ęła', 'ął' )] [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_siege_defender)] jako więźnia po oblężeniu [barony.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "siege.1007.pow_toast.desc.primary",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "[occupant.GetTitledFirstName] took my foe [valuable_prisoner.GetTitledFirstName] prisoner after the Siege of [barony.GetNameNoTier]",
+    "RUS": "[occupant.GetTitledFirstName] [Select_CString(occupant.IsFemale, 'поживилась', 'поживился' )] при осаде баронства [barony.GetNameNoTier]: теперь мой враг [valuable_prisoner.GetTitledFirstName] у [Select_CString(occupant.IsFemale, 'нее', 'него' )] в плену",
+    "POL": "[occupant.GetTitledFirstName] wzi[Select_CString(occupant.IsFemale, 'ęła', 'ął' )] mojego wroga [valuable_prisoner.GetTitledFirstName] jako więźnia po oblężeniu [barony.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_siege",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "siege",
+    "RUS": "осада",
+    "POL": "oblężenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_raid",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/siege_events_l_belarusian.json",
+    "ENG": "raid",
+    "RUS": "налет",
+    "POL": "najazd",
+    "BEL": ""
+  }
+]

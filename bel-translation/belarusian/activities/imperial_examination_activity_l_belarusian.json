@@ -1,0 +1,946 @@
+[
+  {
+    "KEY": "activity_imperial_examination",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Capital Examination",
+    "RUS": "Столичный экзамен",
+    "POL": "Egzamin stołeczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_plural",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Capital Examinations",
+    "RUS": "Столичные экзамены",
+    "POL": "Egzaminy stołeczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_destination_selection",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "You can only host a $activity_imperial_examination$ in your [capital|E].",
+    "RUS": "Устроить государственный экзамен можно только в [Concept('capital', 'столице')|E].",
+    "POL": "Możesz organizować egzamin stołeczny tylko w swojej [Concept('capital', 'stolicy')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_not_hegemon",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "You do #bold not#! hold a [hegemony|E] tier [title|E]",
+    "RUS": "Вы #bold не#! владеете [Concept('title', 'титулом')|E] уровня [Concept('hegemony', 'гегемонии')|E]",
+    "POL": "#bold Nie#! posiadasz [Concept('title', 'tytułu')|E] na poziomie [Concept('hegemony', 'hegemonii')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_selection_tooltip",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Host the [GetActivityType('activity_imperial_examination').GetName] to evaluate the skill and [merit|E] of your subjects $activity_imperial_examination_host_rewards$",
+    "RUS": "Провести #TOOLTIP:ACTIVITY_TYPE,activity_imperial_examination #L государственный экзамен#!#!, чтобы оценить навыки и [Concept('merit', 'заслуги')|E] ваших подданных $activity_imperial_examination_host_rewards$",
+    "POL": "Zorganizuj [GetActivityType('activity_imperial_examination').GetName|l], aby ocenić umiejętności i [merit|El] twoich poddanych $activity_imperial_examination_host_rewards$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "It is our honor and duty to uphold the structure and arrange these examinations. They allow us to evaluate, determine and award [merit|E] to the most suited individuals — to ensure the future prosperity of the realm.",
+    "RUS": "На нас возложена почетная обязанность поддерживать государственное устройство и проводить эти экзамены. С их помощью мы можем оценить, определить и подчеркнуть [Concept('merit', 'заслуги')|E] наиболее подходящих личностей. Все ради будущего процветания державы.",
+    "POL": "Podtrzymywanie tej struktury poprzez zorganizowanie egzaminów to nasz obowiązek i przywilej. Egzaminy pozwalają nam ocenić i określić najlepsze jednostki oraz przyznać im [merit|El]. Tym sposobem dbamy o przyszłą pomyślność państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_host_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$",
+    "RUS": "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$",
+    "POL": "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_host_rewards",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]",
+    "RUS": "\\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]",
+    "POL": "\\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_guest_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$An opportunity to complete the @metropolitan_exam_icon! #V Metropolitan Examination#!\\n$BULLET_WITH_TAB$An opportunity to complete the @palace_exam_icon! #V Palace Examination#!\\n$BULLET_WITH_TAB$May increase your [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\\n$BULLET_WITH_TAB$May increase your [merit|E]\\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial If you do not know the [host.GetCulture.GetLanguage.GetName] [language|E], your chances of success are vastly lowered!#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]",
+    "RUS": "\\n$BULLET_WITH_TAB$Возможность завершить @metropolitan_exam_icon! #V муниципальный экзамен#!\\n$BULLET_WITH_TAB$Возможность завершить @palace_exam_icon! #V дворцовый экзамен#!\\n$BULLET_WITH_TAB$Можно получить [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('confucian_education').GetName( GetNullCharacter )]»\\n$BULLET_WITH_TAB$Можно получить [Concept('merit', 'заслуги')|E]\\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial Если вы не знаете [host.GetCulture.GetLanguage.GetName|l] [Concept('language', 'язык')|E], ваши шансы на успех значительно снизятся!#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]",
+    "POL": "\\n$BULLET_WITH_TAB$Okazja do ukończenia @metropolitan_exam_icon! #V egzaminu metropolitalnego#!\\n$BULLET_WITH_TAB$Okazja do ukończenia @palace_exam_icon! #V egzaminu pałacowego#!\\n$BULLET_WITH_TAB$Może zwiększyć twoje [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\\n$BULLET_WITH_TAB$Może zwiększyć twoje [merit|El]\\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial Jeśli [host.GetCulture.GetLanguage.GetName|l] nie jest znanym ci [Concept('language', 'językiem')|E], twoje szanse powodzenia będą znacznie obniżone!#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_warning",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red Since you have not passed the @provincial_exam_icon! [provincial_examination|E], you are likely to fail!#!",
+    "RUS": "\\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red Вы не сдали @provincial_exam_icon! [Concept('provincial_examinations', 'провинциальный экзамен')|E] и, скорее всего, потерпите неудачу!#!",
+    "POL": "\\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red Jako że nie udało ci się zdać @provincial_exam_icon! [Concept('provincial_examination', 'egzaminu prowincjonalnego')|E], najprawdopodobniej ci się nie powiedzie!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_guest_rewards",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$May recruit a highly skilled character\\n$BULLET_WITH_TAB$Participants may gain [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\\n$BULLET_WITH_TAB$Participants may gain [merit|E]",
+    "RUS": "\\n$BULLET_WITH_TAB$Может представиться возможность нанять очень умелого персонажа$BULLET_WITH_TAB$Участники могут получить [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('confucian_education').GetName( GetNullCharacter )]»\\n$BULLET_WITH_TAB$Участники могут получить [Concept('merit', 'заслуги')|E]",
+    "POL": "\\n$BULLET_WITH_TAB$Można rekrutować postacie o wysokich umiejętnościach\\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [merit|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_base_cost",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Base Cost",
+    "RUS": "Базовая стоимость",
+    "POL": "Koszt podstawowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_with_icon",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_imperial_examination$ @metropolitan_exam_icon! @palace_exam_icon!",
+    "RUS": "$activity_imperial_examination$ @metropolitan_exam_icon! @palace_exam_icon!",
+    "POL": "$activity_imperial_examination$ @metropolitan_exam_icon! @palace_exam_icon!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_can_complete_tt",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_imperial_examination_not_available_tt$",
+    "RUS": "$activity_imperial_examination_not_available_tt$",
+    "POL": "$activity_imperial_examination_not_available_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_expected_frequency",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Expected every #V 5#! years",
+    "RUS": "Ожидается раз в #V 5#! лет",
+    "POL": "Oczekiwany co #V 5#! lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_not_available_tt",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\\nAt this [activity|E], entrants can complete:\\n@metropolitan_exam_icon! Metropolitan Examination\\n@palace_exam_icon! Palace Examination\\n\\n$activity_imperial_examination_expected_frequency$",
+    "RUS": "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\\nУчастники этого [Concept('activity', 'занятия')|E] могут сдать:\\n@metropolitan_exam_icon! муниципальный экзамен\\n@palace_exam_icon! дворцовый экзамен\\n\\n$activity_imperial_examination_expected_frequency$",
+    "POL": "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\\nBiorąc udział w tej [Concept('activity', 'aktywności')|E], kandydaci mogą zdać:\\n@metropolitan_exam_icon! egzamin metropolitalny\\n@palace_exam_icon! egzamin pałacowy\\n\\n$activity_imperial_examination_expected_frequency$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_province_kaifeng_palace_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n#P ++ $building_type_kaifeng_palace_01$#!",
+    "RUS": "\\n#P ++ $building_type_kaifeng_palace_01$#!",
+    "POL": "\\n#P ++ $building_type_kaifeng_palace_01$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_province_examination_hall_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n#P ++ $building_type_examination_hall_01$#!",
+    "RUS": "\\n#P ++ $building_type_examination_hall_01$#!",
+    "POL": "\\n#P ++ $building_type_examination_hall_01$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_player_entrant_traveling",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_window_character_player_entrant$",
+    "RUS": "$activity_window_character_player_entrant$",
+    "POL": "$activity_window_character_player_entrant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_player_entrant",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_window_character_entrant$",
+    "RUS": "$activity_window_character_entrant$",
+    "POL": "$activity_window_character_entrant$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_entrant",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[entrant|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[entrant|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[entrant|E]\\n[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_examiner",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Examiner\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "Экзаменатор\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "Egzaminator\\n[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_minister_of_rites",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[minister_of_rites|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[minister_of_rites|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[minister_of_rites|E]\\n[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_guest_help_text",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Any [activity_guests|E] eligible for the examination can attempt the test. A passing grade means more [merit|E] to the entrant as well as more [prestige|E] for the [activity_host|E]. Although Guests are not allowed inside the examination hall, they may use their influence to support entrants in various ways.\\n\\nExaminations are the perfect occasion to form connections and impress the examiners, perhaps securing an elder.",
+    "RUS": "Все [Concept('activity_guests', 'гости')|E], соответствующие условиям отбора, могут попытаться сдать экзамен. Удовлетворительная оценка принесет больше [Concept('merit', 'заслуг')|E] гостю и больше [Concept('prestige', 'престижа')|E] [Concept('activity_host', 'устроителю')|E]. Гостям запрещается входить в экзаменационные залы, однако они могут использовать свое влияние, чтобы всячески поддерживать соискателей.\\n\\nЭкзамены дают возможность завести новые знакомства, произвести впечатление на экзаменаторов и даже получить покровительство старейшины.",
+    "POL": "Do testu mogą podejść wszyscy [activity_guests|El] kwalifikujący się do egzaminu. Ocena pozytywna przekłada się na większe [merit|El] dla kandydata, a także większy [prestige|El] dla [Concept('activity_host', 'gospodarza aktywności')|E]. Goście nie mają wprawdzie wstępu na salę egzaminacyjną, ale korzystając z wpływu, mogą wspierać kandydatów na różne sposoby.\\n\\nEgzaminy stanowią doskonałą sposobność do zawarcia znajomości i wywarcia wrażenia na egzaminatorach, a nawet zdobycia względów któregoś z przedstawicieli starszyzny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_imperial_exam_entrants",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Regional Nominees",
+    "RUS": "Региональные соискатели",
+    "POL": "Nominaci z regionu",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_imperial_exam_close_family",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Family Candidates",
+    "RUS": "Соискатели-родственники",
+    "POL": "Kandydaci z rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_local_exam_entrants",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Local Candidates",
+    "RUS": "Местные соискатели",
+    "POL": "Miejscowi kandydaci",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_family_heads_entrants",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Noble Family Heads",
+    "RUS": "Главы благородного семейства",
+    "POL": "Głowy rodzin szlacheckich",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_local_exam_close_family",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_invite_rule_imperial_exam_close_family$",
+    "RUS": "$activity_invite_rule_imperial_exam_close_family$",
+    "POL": "$activity_invite_rule_imperial_exam_close_family$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_imperial_exam_guests",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Guests",
+    "RUS": "Гости",
+    "POL": "Goście",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_local_exam_guests",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_invite_rule_imperial_exam_guests$",
+    "RUS": "$activity_invite_rule_imperial_exam_guests$",
+    "POL": "$activity_invite_rule_imperial_exam_guests$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_bloc_house_heads",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Bloc House Heads",
+    "RUS": "Главы дома блока",
+    "POL": "Głowy rodu w koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_bloc_members",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Other Bloc Members",
+    "RUS": "Другие члены блока",
+    "POL": "Inni członkowie koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_GUEST_FAILED_EXAMINATION_REASON",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetSheHe|U] has attempted a previous examination: $VALUE|=+0$",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Она пыталась', 'Он пытался' )] сдать предыдущий экзамен: $VALUE|=+0$",
+    "POL": "Ta postać przystąpiła do poprzedniego egzaminu: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_GUEST_IS_HEGEMON_REASON",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetSheHe|U] is not expected to be directly involved in local examinations: $VALUE|=+0$",
+    "RUS": "Не ожидается, что [Select_CString(ROOT.Char.IsFemale, 'она', 'он' )] будет напрямую участвовать в местных экзаменах: $VALUE|=+0$",
+    "POL": "Nie oczekuje się, że postać będzie uczestniczyć bezpośrednio w egzaminach lokalnych: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_GUEST_FORCED_BACK_REASON",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetSheHe|U] has been pressured to retake examination: $VALUE|=+0$",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Ее', 'Его' )] заставили пересдать экзамен: $VALUE|=+0$",
+    "POL": "Postać została zmuszona do ponownego podejścia do egzaminu: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_GUEST_IS_MINISTER_OF_RITES_REASON",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$game_concept_minister_of_rites$: $VALUE|=+0$",
+    "RUS": "$game_concept_minister_of_rites$: $VALUE|=+0$",
+    "POL": "$game_concept_minister_of_rites$: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_assembly",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Assembly",
+    "RUS": "Собрание",
+    "POL": "Zgromadzenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_assembly_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Searching high and low, all eligible entrants are making their way to the examination halls.",
+    "RUS": "Все подходящие соискатели, независимо от происхождения, направляются в экзаменационные залы.",
+    "POL": "Rozglądając się na wszystkie strony, kandydaci udają się do sal egzaminacyjnych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_preparation",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Preparation",
+    "RUS": "Подготовка",
+    "POL": "Przygotowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_preparation_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The entrants, as well as the host, bides their time, scrambling to make what preparations are available for the examinations.",
+    "RUS": "Соискатели и устроитель не теряют времени и делают все возможное для подготовки к экзаменам.",
+    "POL": "Kandydaci, a także gospodarz, wykorzystują każdą minutę, by przygotować się do egzaminów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_examination",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Metropolitan Examination",
+    "RUS": "Муниципальный экзамен",
+    "POL": "Egzamin metropolitalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_examination_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The metropolitan examination starts. Let the chips fall where they may.",
+    "RUS": "Начинается муниципальный экзамен. Будь что будет.",
+    "POL": "Rozpoczyna się egzamin metropolitalny. Co ma być, to będzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_palace_examination",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Palace Examination",
+    "RUS": "Дворцовый экзамен",
+    "POL": "Egzamin pałacowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_phase_palace_examination_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The palace examination starts. This is when the highest-achieving scholars prove themselves before the Emperor.",
+    "RUS": "Начинается дворцовый экзамен. Самым талантливым ученым предстоит проявить себя перед лицом императора.",
+    "POL": "Rozpoczyna się egzamin pałacowy. To tutaj najlepsi uczeni próbują dowieść swojej wartości przed cesarzem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Examination Focus",
+    "RUS": "Специализация экзаменуемых",
+    "POL": "Priorytet egzaminu",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_martial",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Military Strategists",
+    "RUS": "Военные стратеги",
+    "POL": "Stratedzy wojskowi",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_martial_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The exams will be more meritorious to entrants who excel in [martial|E]\\n\\n#weak ",
+    "RUS": "Лучше всего на этих экзаменах покажут себя соискатели, разбирающиеся в [Concept('martial', 'военном деле')|E]\\n\\n#weak «Знание военной стратегии — такое же достижение, как и любая другая наука».#!",
+    "POL": "Przebieg egzaminu będzie sprzyjał kandydatom, którzy wyróżniają się w [Concept('martial', 'walce')|E]\\n\\n#weak „Strategia wojskowa jest cnotą jak każda inna dziedzina nauki”.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_stewardship",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Efficient Governance",
+    "RUS": "Эффективные управляющие",
+    "POL": "Skuteczni zarządcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_stewardship_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The exams will be more meritorious to entrants who excel in [stewardship|E]\\n\\n#weak ",
+    "RUS": "Лучше всего на этих экзаменах покажут себя соискатели, разбирающиеся в [Concept('stewardship', 'управлении')|E]\\n\\n#weak «Есть большая разница между профессиональными пустословами и действительно полезными людьми».#!",
+    "POL": "Przebieg egzaminu będzie sprzyjał kandydatom, którzy wyróżniają się w [Concept('stewardship', 'zarządzaniu')|E]\\n\\n#weak „Istnieje zasadnicza różnica między tymi, którzy utrzymują się dzięki mówieniu, a ludźmi prawdziwie użytecznymi”.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_learning",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Insightful Scholars",
+    "RUS": "Проницательные ученые",
+    "POL": "Wnikliwi uczeni",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_focus_learning_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The exams will be more meritorious to entrants who excel in [learning|E]\\n\\n#weak ",
+    "RUS": "Лучше всего на этих экзаменах покажут себя соискатели, преуспевшие в [Concept('learning', 'учености')|E]\\n\\n#weak «Нам в удовольствие учиться и использовать полученные знания».#!",
+    "POL": "Przebieg egzaminu będzie sprzyjał kandydatom, którzy wyróżniają się w [Concept('learning', 'nauce')|E]\\n\\n#weak „Z przyjemnością uczymy się i robimy z nabytej wiedzy użytek”.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Examination Breadth",
+    "RUS": "Охват экзаменов",
+    "POL": "Skala egzaminu",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_exclusive",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Exclusive Summons",
+    "RUS": "Особые приглашения",
+    "POL": "Wezwania dla wybranych",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_exclusive_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The activity is open to a select few, excluding members of the general public\\n$EFFECT_LIST_BULLET$You will earn #EMP less#! [merit|E] on completion\\n\\n#weak I will let my subjects' most distinguished children serve in #EMP my#! realm.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Это занятие доступно только немногим избранным, простые смертные могут о нем забыть\\n$EFFECT_LIST_BULLET$Вы получите #EMP меньше#! [Concept('merit', 'заслуг')|E] по завершении\\n\\n#weak Я позволю самым одаренным детям моих подданных служить во благо #EMP моей#! державы.#!",
+    "POL": "$EFFECT_LIST_BULLET$Ta aktywność jest dostępna tylko dla wybranych, z wyłączeniem członków ogółu społeczeństwa\\n$EFFECT_LIST_BULLET$Po ukończeniu zyskasz #EMP mniej#! [Concept('merit', 'zasług')|E]\\n\\n#weak Pozwolę najwybitniejszym z dzieci moich poddanych służyć w #EMP moim#! państwie.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_restricted",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Restricted Summons",
+    "RUS": "Ограниченный доступ",
+    "POL": "Ograniczone wezwania",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_restricted_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$The entrants are limited to a modest crowd, allowing some members of the general public. \\n\\n#weak Prospective governors may emerge from the most humble roots.#!",
+    "RUS": "$EFFECT_LIST_BULLET$Допускается относительно небольшое количество соискателей, в том числе несколько представителей простого народа. \\n\\n#weak Потенциальные губернаторы могут иметь весьма скромное происхождение.#!",
+    "POL": "$EFFECT_LIST_BULLET$Liczba uczestników jest ograniczona do dość skromnego grona, ale dopuszcza niektórych członków ogółu społeczeństwa\\n\\n#weak Przyszli gubernatorzy mogą wyrosnąć nawet z najbardziej skromnych korzeni.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_open",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Open Summons",
+    "RUS": "Открытый доступ",
+    "POL": "Otwarte wezwania",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_breadth_open_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The activity is hosted at a large scale, introducing a lot of eager entrants\\n$EFFECT_LIST_BULLET$ You will earn #EMP more#! [legitimacy|E] on completion\\n\\n#weak Wisdom can come from all areas. Let us cast a wide net and see who will rise to the occasion.",
+    "RUS": "$EFFECT_LIST_BULLET$ Это масштабное занятие со множеством соискателей.\\n$EFFECT_LIST_BULLET$ По завершении вы получите #EMP больше#! [Concept('legitimacy', 'легитимности')|E]\\n\\n#weak Мудрость может проистекать из множества источников. Забросим сеть пошире и посмотрим, кто сумеет воспользоваться случаем.",
+    "POL": "$EFFECT_LIST_BULLET$Ta aktywność organizowana jest na dużą skalę i biorą w niej udział liczni, pełni entuzjazmu kandydaci.\\n$EFFECT_LIST_BULLET$Po ukończeniu zyskasz #EMP więcej#! [Concept('legitimacy', 'legitymacji')|E]\\n\\n#weak Wiedza może kryć się nawet w najciemniejszych zakątkach. Zarzućmy sieci szeroko i sprawdźmy, kto wykorzysta taką okazję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Examination Passing Grade",
+    "RUS": "Проходной балл",
+    "POL": "Ocena zapewniająca zdanie egzaminu",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_extreme",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Extreme Grade",
+    "RUS": "Оценка с отличием",
+    "POL": "Ocena celująca",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_extreme_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The passing grade for the exams is very high, eliminating #EMP a lot#! of entrants\\n$EFFECT_LIST_BULLET$ You will earn #EMP a lot more#! [legitimacy|E] on completion\\n\\n#weak Only the cream of the crop shall hold a passing grade and become #EMP my#! next government officials.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Проходной балл на этих экзамена необычайно высок, что отсеивает #EMP множество#! соискателей\\n$EFFECT_LIST_BULLET$ Вы получите #EMP намного больше#! [Concept('legitimacy', 'легитимности')|E] при завершении\\n\\n#weak Только лучшие из лучших получат проходной балл и станут #EMP моими#! новыми правительственными чиновниками.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Do zdania egzaminu wymagana jest bardzo wysoka ocena, co pozwala wyeliminować #EMP wielu#! kandydatów\\n$EFFECT_LIST_BULLET$ Po zakończeniu egzaminu uzyskasz #EMP dużo więcej#! [Concept('legitimacy', 'legitymacji')|E]\\n\\n#weak Jedynie najlepsi z najlepszych zdadzą egzamin i zostaną #EMP moimi#! nowymi urzędnikami państwowymi.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_high",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "High Grade",
+    "RUS": "Высокий балл",
+    "POL": "Ocena wysoka",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_high_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The passing grade for the exams is regular, eliminating an expected amount of entrants\\n$EFFECT_LIST_BULLET$ [legitimacy|E] rewards on completion are unaffected\\n\\n#weak My standards are high; but not unreasonable. If we want government officials based on merit, they need to reach a certain degree of excellence.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Проходной балл обычный, отсеивается ожидаемое количество соискателей\\n$EFFECT_LIST_BULLET$ Рост [Concept('legitimacy', 'легитимности')|E] за завершение остается неизменным\\n\\n#weak Мои стандарты высоки, но оправданны. Если мы хотим набирать государственных служащих по их заслугам, им нужно будет как-то проявить себя.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Do zdania egzaminu wymagana jest typowa, wysoka ocena, co pozwala wyeliminować spodziewaną liczbę kandydatów\\n$EFFECT_LIST_BULLET$ Po zakończeniu egzaminu przyznawana [legitimacy|El] pozostaje bez zmian\\n\\n#weak Moje standardy są wysokie, ale nie nieosiągalne. Jeśli chcemy wybierać urzędników rządowych na podstawie ich zasług, muszą wykazać się pewnym poziomem kompetencji.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_mediocre",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Mediocre Grade",
+    "RUS": "Средний балл",
+    "POL": "Ocena mierna",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_mediocre_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The passing grade for the exams is a tad relaxed, eliminating a #EMP smaller#! amount of entrants\\n$EFFECT_LIST_BULLET$ You will earn #EMP less#! [legitimacy|E] on completion\\n\\n#weak What's to say these entrants with humble beginnings won't learn on the job. As long as they have solid foundations, I say let them pass.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Проходной балл на экзаменах немного снижен, что отсеивает #EMP меньшее#! количество соискателей\\n$EFFECT_LIST_BULLET$ Вы получите #EMP меньше#! [Concept('legitimacy', 'легитимности')|E] за завершение\\n\\n#weak Кто сказал, что посредственные соискатели не смогут обучиться в процессе работы? Если у них крепкие базовые знания, будем считать, что испытание пройдено.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Do zdania egzaminu wymagana jest nieco niższa ocena, co pozwala wyeliminować #EMP mniejszą#! liczbę kandydatów\\n$EFFECT_LIST_BULLET$ Po zakończeniu egzaminu uzyskujesz #EMP mniej#! [Concept('legitimacy', 'legitymacji')|E]\\n\\n#weak Kto powiedział, że kandydaci skromnego pochodzenia nie mogą nauczyć się wszystkiego, służąc już na danym stanowisku? O ile tylko mają solidne fundamenty, przepuśćmy ich.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_low",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Low Grade",
+    "RUS": "Низкий балл",
+    "POL": "Ocena niska",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_passing_grade_low_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ The passing grade for the exams is very lax, eliminating a #EMP minute#! amount of entrants\\n$EFFECT_LIST_BULLET$ You will earn #EMP a lot less#! [legitimacy|E] on completion\\n\\n#weak We need these merited officials #EMP now#!. I make the rules and determine the standards; they follow. Such is my mandate.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Проходной балл на экзаменах очень низок, что отсеивает #EMP минимальное#! количество соискателей\\n$EFFECT_LIST_BULLET$ Вы получите #EMP намного меньше#! [Concept('legitimacy', 'легитимности')|E] за завершение\\n\\n#weak Нам нужны подходящие служащие #EMP прямо сейчас#!. Я устанавливаю правила и определяю стандарты, а они подчиняются. Таков мой мандат.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Do zdania egzaminu wymagana jest bardzo niska ocena, co pozwala wyeliminować #EMP znikomą#! liczbę kandydatów\\n$EFFECT_LIST_BULLET$ Po zakończeniu egzaminu uzyskujesz #EMP dużo mniej#! [Concept('legitimacy', 'legitymacji')|E]\\n\\n#weak Potrzebujemy urzędników z zasługami już #EMP teraz#!. To ja ustalam zasady i standardy – oni mają ich przestrzegać. Na tym polega mój mandat.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_imperial_examination_conclusion_desc",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The [GetActivityType( 'activity_imperial_examination' ).GetName] has concluded.",
+    "RUS": "[GetActivityType( 'activity_imperial_examination' ).GetName] завершен.",
+    "POL": "[GetActivityType( 'activity_imperial_examination' ).GetName] dobiegł końca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "The Examinations have at last drawn to a close.",
+    "RUS": "Экзамены наконец-то завершились.",
+    "POL": "Egzaminy nareszcie się zakończyły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.passing_grade.extreme",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_passing_grade_extreme$#! restrictions awarded an #BOL Extraordinary#! amount of [merit|E] to a #BOL Small#! number of [entrants|E].",
+    "RUS": "\\n\\nОтсечение по #BOL оценке с отличием#! принесло #BOL огромное#! количество [Concept('merit', 'заслуг')|E] #BOL малому#! количеству [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\nW związku z wymogami #BOL oceny celującej#! przyznano #BOL niezwykłe#! [merit|El] #BOL niewielkiej#! liczbie [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.passing_grade.high",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_passing_grade_high$#! restrictions awarded a #BOL High#! amount of [merit|E] to a #BOL Medium#! number of [entrants|E].",
+    "RUS": "\\n\\nОтсечение по #BOL высокому баллу#! принесло #BOL большое#! количество [Concept('merit', 'заслуг')|E] #BOL среднему#! количеству [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\nW związku z wymogami #BOL oceny wysokiej#! przyznano #BOL wysokie#! [merit|El] #BOL średniej#! liczbie [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.passing_grade.mediocre",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_passing_grade_mediocre$#! restrictions awarded a #BOL Medium#! amount of [merit|E] to a #BOL Large#! number of [entrants|E].",
+    "RUS": "\\n\\nОтсечение по #BOL среднему баллу#! принесло #BOL умеренное#! количество [Concept('merit', 'заслуг')|E] #BOL большому#! количеству [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\nW związku z wymogami #BOL oceny miernej#! przyznano #BOL średnie#! [merit|El] #BOL dużej#! liczbie [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.passing_grade.low",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_passing_grade_low$#! restrictions awarded a #BOL Low#! amount of [merit|E] to a #BOL Very High#! number of [entrants|E].",
+    "RUS": "\\n\\nОтсечение по #BOL низкому баллу#! принесло #BOL малое#! количество [Concept('merit', 'заслуг')|E] #BOL очень большому#! количеству [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\nW związku z wymogami #BOL oceny niskiej#! przyznano #BOL niskie#! [merit|El] #BOL bardzo dużej#! liczbie [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.breadth.imperial",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_breadth_open$#! of the invitation meant we had a #BOL Large#! number of total [entrants|E].",
+    "RUS": "\\n\\nПриглашения с #BOL широким охватом#! привлекли #BOL большое#! количество [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\n#BOL $imperial_examination_breadth_open$#! oznaczają, że do egzaminu przystąpiła #BOL duża#! liczba [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.breadth.grand",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_breadth_restricted$#! of the invitation meant we had a #BOL Decent#! number of total [entrants|E].",
+    "RUS": "\\n\\nПриглашения с #BOL ограниченным доступом#! привлекли #BOL умеренное#! количество [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\n#BOL $imperial_examination_breadth_restricted$#! oznaczają, że do egzaminu przystąpiła #BOL dostateczna#! liczba [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.intro.breadth.palace",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe #BOL $imperial_examination_breadth_exclusive$#! of the invitation meant we had a #BOL Small#! number of total [entrants|E].",
+    "RUS": "\\n\\n#BOL Особые приглашения#! привлекли #BOL малое#! количество [Concept('entrants', 'соискателей')|E].",
+    "POL": "\\n\\n#BOL $imperial_examination_breadth_exclusive$#! oznaczają, że do egzaminu przystąpiła #BOL mała#! liczba [Concept('entrants', 'kandydatów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.general",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nOut of a starting set of #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! [entrants|E], #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#! #EMP failed#! the Examination.\\n\\n[activity.MakeScope.Var('first_place_entrant').Char.GetShortUIName] was the most successful of the [entrants|E], with a [activity.Custom('ActivityGetExamScoreAdjective')] score of #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#!, followed by [activity.MakeScope.Var('second_place_entrant').Char.GetShortUIName] and [activity.MakeScope.Var('third_place_entrant').Char.GetShortUIName].",
+    "RUS": "\\n\\nИз начального количества в #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! [Concept('entrants', 'соискателей')|E] экзамен #EMP провалило#! #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#!.\\n\\n[activity.MakeScope.Var('first_place_entrant').Char.GetShortUIName] [Select_CString(activity.MakeScope.Var('first_place_entrant').Char.IsLocalPlayer, 'достигли', Select_CString(activity.MakeScope.Var('first_place_entrant').Char.IsFemale, 'достигла', 'достиг' ))] наибольшего успеха среди всех [Concept('entrants', 'соискателей')|E], получив [activity.Custom('ActivityGetExamScoreAdjective')]ый результат — #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#!. Далее идут [activity.MakeScope.Var('second_place_entrant').Char.GetShortUIName] и [activity.MakeScope.Var('third_place_entrant').Char.GetShortUIName].",
+    "POL": "\\n\\nZ początkowego grona #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! [Concept('entrants', 'kandydatów')|E] następująca liczba #EMP nie zdała#! egzaminu: #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#!.\\n\\nSpośród wszystkich [Concept('entrants', 'kandydatów')|E] [activity.MakeScope.Var('first_place_entrant').Char.GetShortUINameNotMe] uzyskuje najlepszy, [activity.Custom('ActivityGetExamScoreAdjective')], wynik: #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#! pkt. Kolejne miejsca zajmują [activity.MakeScope.Var('second_place_entrant').Char.GetShortUINameNotMe] i [activity.MakeScope.Var('third_place_entrant').Char.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.entrant_failee",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe examination finished in grave disappointment. I have to try harder next time.",
+    "RUS": "\\n\\nЭкзамен завершился чудовищным провалом. В следующий раз надо приложить больше усилий.",
+    "POL": "\\n\\nEgzamin zakończył się dla mnie głębokim rozczarowaniem. Następnym razem muszę bardziej się postarać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.entrant_passed",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nI passed the Metropolitan Examination, and my family can be proud of my accomplishments.",
+    "RUS": "\\n\\nМуниципальный экзамен пройден. Семья может мной гордиться.",
+    "POL": "\\n\\nUdało mi się zdać egzamin metropolitalny. Rodzina może być dumna z moich osiągnięć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_conclusion.entrant_passed_palace",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe empire now knows me as one of its best scholars, and the opportunities ahead of me are vast.",
+    "RUS": "\\n\\nТеперь в империи я числюсь среди лучших ученых умов. Будущее сулит широчайшие возможности.",
+    "POL": "\\n\\nUdało mi się zasłynąć w cesarstwie jako jeden z najlepszych uczonych. Otwiera to przede mną liczne możliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_examination_conclusion.entrant_passed",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "\\n\\nI passed the Provincial Examination today, and my family can be proud of my accomplishments.",
+    "RUS": "\\n\\nПровинциальный экзамен пройден. Семья может мной гордиться.",
+    "POL": "\\n\\nUdało mi się dzisiaj zdać egzamin prowincjonalny. Rodzina może być dumna z moich osiągnięć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_essay_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Marvelous Essay",
+    "RUS": "Выдающееся эссе",
+    "POL": "Wspaniałe wypracowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_essay_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] outshone everyone at the essay writing in [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'превзошли', Select_CString(CHARACTER.IsFemale, 'превзошла', 'превзошел' ))] всех при написании эссе во владении [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] przyćmiewa pozostałych kandydatów swoim wypracowaniem w miejscu o nazwie [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_classics_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Splendid Classics",
+    "RUS": "Великолепная классика",
+    "POL": "Wybitna znajomość klasyki",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_classics_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] outshone everyone at the classics exam in [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'превзошли', Select_CString(CHARACTER.IsFemale, 'превзошла', 'превзошел' ))] всех на классическом экзамене во владении [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] przyćmiewa pozostałych kandydatów na egzaminie z klasyki w miejscu o nazwie [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_poetry_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Stupendous Poetry",
+    "RUS": "Изумительная поэзия",
+    "POL": "Niesamowita poezja",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_poetry_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] outshone everyone at the poetry composing in [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'превзошли', Select_CString(CHARACTER.IsFemale, 'превзошла', 'превзошел' ))] всех в стихосложении во владении [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] przyćmiewa pozostałych kandydatów na egzaminie z pisania poezji w miejscu o nazwie [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_archery_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Impressive Shot",
+    "RUS": "Искусный стрелок",
+    "POL": "Imponujący strzał",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_archery_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] proved the top marksman at the archery contest in [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'превзошли', Select_CString(CHARACTER.IsFemale, 'превзошла', 'превзошел' ))] всех в состязании лучников во владении [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] okazuje się najlepszym strzelcem na zawodach łuczniczych w miejscu o nazwie [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_polearm_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Polearm Master",
+    "RUS": "Мастер древкового оружия",
+    "POL": "Mistrz broni drzewcowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_polearm_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] showed remarkable skill at the polearm demonstration in [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'продемонстрировали', Select_CString(CHARACTER.IsFemale, 'продемонстрировала', 'продемонстрировал' ))] свое мастерство обращения с древковым оружием во владении [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] wykazuje się wyjątkowymi umiejętnościami podczas demonstracji broni drzewcowej w miejscu o nazwie [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_riding_log_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Bow Riding Prodigy",
+    "RUS": "Мастер верховой стрельбы из лука",
+    "POL": "Geniusz łucznictwa konnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_ace_riding_log",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] demonstrated fine skills in horseback archery at examination",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'продемонстрировали', Select_CString(CHARACTER.IsFemale, 'продемонстрировала', 'продемонстрировал' ))] свое умение верховой стрельбы из лука во время экзамена",
+    "POL": "[CHARACTER.GetShortUINameNotMe] wykazuje się na egzaminie wybitnymi umiejętnościami w dziedzinie łucznictwa konnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_host_rewards_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "$activity_imperial_examination$ Held",
+    "RUS": "Проведен государственный экзамен",
+    "POL": "Zorganizowano cesarski egzamin",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_host_rewards",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Host Rewards",
+    "RUS": "Награды устроителя",
+    "POL": "Nagrody dla gospodarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_entrant_rewards_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Examination Undertaken",
+    "RUS": "Экзамен завершен",
+    "POL": "Wzięto udział w egzaminie",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_examination_entrant_rewards",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Interesting Entrant Rewards",
+    "RUS": "Награды примечательного соискателя",
+    "POL": "Nagrody dla interesującego kandydata",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_boasting_calligraphy_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUINamePossessive|U] calligraphy was praised by the examiners",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(first.IsLocalPlayer, 'впечатлили', Select_CString(first.IsFemale, 'впечатлила', 'впечатлил' ))] экзаменаторов своей каллиграфией",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], uzyskała od egzaminatorów pochwałę za swoją kaligrafię",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_overcome_with_stress_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUINamePossessive|U] fainted from shortness of breath, [first.GetHerHis] nerves getting the better of [first.GetHerHim]",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(first.IsLocalPlayer, 'потеряли', Select_CString(first.IsFemale, 'потеряла', 'потерял' ))] сознание от нехватки воздуха, нервы взяли верх",
+    "POL": "Osoba, którą jest, [first.GetShortUINameNotMe], dała się ponieść nerwom: nie może złapać tchu i traci przytomność",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_brought_huangdi_gift_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] sent an exquisite gift to [second.GetShortUIName|U]",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(first.IsLocalPlayer, 'отправили', Select_CString(first.IsFemale, 'отправила', 'отправил'))] изысканный подарок — [second.GetShortUIName|U] в восторге",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], wysłała wytworny prezent osobie znanej jako [second.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_impressive_shot_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] displayed masterful bow techniques",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(first.IsLocalPlayer, 'продемонстрировали', Select_CString(first.IsFemale, 'продемонстрировала', 'продемонстрировал'))] мастерское владение луком",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], wykazała się niesamowitą techniką łuczniczą",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_friendly_discussions_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] and [second.GetShortUIName|U] engaged in friendly debate",
+    "RUS": "[first.GetShortUIName|U] и [second.GetShortUIName|U] провели дружескую дискуссию",
+    "POL": "Osoby znane jako [first.GetShortUINameNotMe] i [second.GetShortUINameNotMe] zaangażowały się w przyjacielską debatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_high_tempers_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] came to blows with [first.GetHerHis] peers at the proving grounds",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(first.IsLocalPlayer, 'ввязались', Select_CString(first.IsFemale, 'ввязалась', 'ввязался'))] в потасовку с ровесниками на тренировочном поле",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], wdała się w bójkę z innymi uczestnikami na terenach ćwiczebnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_impressed_examiner_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] made an excellent impression on examiner [second.GetShortUIName|U]",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(Select_CString(first.IsLocalPlayer, 'произвели', first.IsFemale, 'произвела', 'произвел'))] прекрасное впечатление — экзаменатор [second.GetShortUIName|U] [Select_CString(second.IsFemale, 'довольна', 'доволен')]",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], zrobiła doskonałe pierwsze wrażenie na egzaminatorze imieniem [second.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_entrant_disagreement_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] and [second.GetShortUIName|U] argued over semantics",
+    "RUS": "[first.GetShortUIName|U] и [second.GetShortUIName|U] поспорили о семантике",
+    "POL": "Osoby znane jako [first.GetShortUINameNotMe] i [second.GetShortUINameNotMe] pokłóciły się o semantykę",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_burning_midnight_oil_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] stayed up all night preparing for the test",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(Select_CString(first.IsLocalPlayer, 'провели', Select_CString(first.IsFemale, 'провела', 'провел')))] всю ночь за подготовкой к экзамену",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], nie spała przez całą noc, przygotowując się do testu",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_found_disciple_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[second.GetShortUIName|U] became [first.GetShortUINamePossessive|U] Elder",
+    "RUS": "[second.GetShortUIName|U] [Select_CString(Select_CString(second.IsLocalPlayer, 'стали', Select_CString(second.IsFemale, 'стала', 'стал')))] старейшиной, а [first.GetShortUIName|U] — [Select_CString(first.IsFemale, 'ученицей', 'учеником')] старейшины",
+    "POL": "Osoba, którą jest [second.GetShortUINameNotMe], stała się starszym osoby imieniem [first.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_fruitful_debate_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] and [second.GetShortUIName|U] shared notes ahead of the test",
+    "RUS": "[first.GetShortUIName|U] и [second.GetShortUIName|U] обменялись заметками перед экзаменом",
+    "POL": "Osoby znane jako [first.GetShortUINameNotMe] i [second.GetShortUINameNotMe] podzieliły się notatkami przed egzaminem",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_confucian_fervor_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] wept with joy at examiner's praise",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(Select_CString(first.IsLocalPlayer, 'прослезились', Select_CString(first.IsFemale, 'прослезилась', 'прослезился')))] от радости при похвале экзаменатора",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], popłakała się z radości, słysząc pochwałę egzaminatora",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_floating_poetry_title",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "[first.GetShortUIName|U] has circulated [first.GetHerHis] poems among the examiners",
+    "RUS": "[first.GetShortUIName|U] [Select_CString(Select_CString(first.IsLocalPlayer, 'распространили', Select_CString(first.IsFemale, 'распространила', 'распространил')))] свои стихи среди экзаменаторов",
+    "POL": "Osoba, którą jest [first.GetShortUINameNotMe], rozprowadziła wśród egzaminatorów swoje wiersze",
+    "BEL": ""
+  },
+  {
+    "KEY": "ENTRANTS_WINDOW_LABEL",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Scoreboard",
+    "RUS": "Таблица результатов",
+    "POL": "Tablica wyników",
+    "BEL": ""
+  },
+  {
+    "KEY": "ENTRANTS_SORT_METHOD_PREDICTION",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Predicted Excellence",
+    "RUS": "Ожидаемый результат",
+    "POL": "Przewidywany wynik",
+    "BEL": ""
+  },
+  {
+    "KEY": "ENTRANTS_SORT_METHOD_SCORE",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Sorted by [exam_score|E]",
+    "RUS": "По [Concept('exam_score', 'оценке')|E]",
+    "POL": "Posortowano według [Concept('exam_score', 'wyników egzaminu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "no_available_family_candidates",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "No available family or disciple candidates",
+    "RUS": "Нет доступных соискателей из числа родственников или послушников",
+    "POL": "Brak dostępnych kandydatów będących członkami rodziny lub adeptami",
+    "BEL": ""
+  },
+  {
+    "KEY": "already_taken_exam_tooltip",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "Already passed examination",
+    "RUS": "Экзамен уже сдан",
+    "POL": "Egzamin został już zdany",
+    "BEL": ""
+  },
+  {
+    "KEY": "take_exam_tooltip",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "#alert_trial To stop being a governor, select the [GetDecision('renounce_governorship_decision').GetName] [decision|E]#!",
+    "RUS": "#alert_trial Чтобы прекратить быть губернатором, выберите [Concept('decision', 'решение')|E] «[GetDecision('renounce_governorship_decision').GetName]»#!",
+    "POL": "#alert_trial Aby przestać być gubernatorem, wybierz [Concept('decision', 'decyzję')|E] „[GetDecision('renounce_governorship_decision').GetName]”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "already_landed_tooltip",
+    "FILE_PATH": "localization/belarusian/activities/imperial_examination_activity_l_belarusian.json",
+    "ENG": "You are a [governor|E]",
+    "RUS": "Вы [Concept( 'governor', 'губернатор' )|E]",
+    "POL": "Jesteś [Concept('governor', 'gubernatorem')|E]",
+    "BEL": ""
+  }
+]

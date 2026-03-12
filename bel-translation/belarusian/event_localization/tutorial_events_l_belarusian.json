@@ -1,0 +1,178 @@
+[
+  {
+    "KEY": "tutorial.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "A Concerning Development in Ennis",
+    "RUS": "Тревожные вести из Энниса",
+    "POL": "Niepokojące wydarzenia w Ennis",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "Late one night, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName] comes knocking on my chamber door. I let [potential_ally.GetHerHim] in, and [potential_ally.GetSheHe] and he utters something troubling, [potential_ally.GetHerHim] expression entirely solemn. \\n\\n\\\"[GetPlayer.GetFirstNameNoTooltip], have you heard the news? [bad_guy.GetTitledFirstName] is in the midst of establishing a spurious claim on your lands. I am loath to say it, but I fear [bad_guy.GetSheHe] is preparing for war.\\\"",
+    "RUS": "Поздней ночью ко мне в покои стучится [Select_CString(potential_ally.IsFemale, 'моя', 'мой')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName]. Я впускаю [Select_CString(potential_ally.IsFemale, 'нежданную гостью', 'нежданного гостя')], и [Select_CString(potential_ally.IsFemale, 'та', 'тот')] с тревогой на лице начинает говорить. \\n\\n«[GetPlayer.GetFirstNameNoTooltip], ты знаешь новости? [bad_guy.GetTitledFirstName] готовит претензию на твои земли. Мне противна сама мысль об этом, но [Select_CString(bad_guy.IsFemale, 'она', 'он')] явно готовится к войне».",
+    "POL": "Pewnej nocy, późną porą, [potential_ally.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))], puka do drzwi mojej komnaty. Pozwalam [potential_ally.Custom('PL_mu_jej')] wejść. Mamrocze coś niepokojącego, zachowując przy tym poważny wyraz twarzy. \\n\\n– [GetPlayer.GetFirstNameNoTooltip], czy dotarły do ciebie najnowsze wieści? [bad_guy.GetTitledFirstName] składa właśnie bezzasadne roszczenia o twoje ziemie. Przykro mi to mówić, ale obawiam się, że to oznacza przygotowania do wojny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "I will speak to [bad_guy.GetTitledFirstNameNoTooltip].",
+    "RUS": "Я с [Select_CString(bad_guy.IsFemale, 'ней', 'ним' )] поговорю.",
+    "POL": "Porozmawiam z [bad_guy.Custom('PL_nim_nia')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.a_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT By choosing this option, you'll attempt to befriend [bad_guy.GetTitledFirstName], potentially making a new [friend|e] and avoiding a [war|e] entirely.#!",
+    "RUS": "#TUT Выберите этот вариант, чтобы попытаться подружиться с потенциальным противником. Если [bad_guy.GetTitledFirstName] станет [Select_CString(bad_guy.IsFemale, 'вашей', 'вашим' )] [Concept( 'friend', Select_CString(bad_guy.IsFemale, 'подругой', 'другом' ))|E], [Concept( 'war', 'война' )|E] не разразится вовсе.#!",
+    "POL": "#TUT Wybierając tę opcję, spróbujesz zaprzyjaźnić się z osobą, którą jest [bad_guy.GetTitledFirstName], potencjalnie zyskując nowego [Concept('friend', 'przyjaciela')|E] i całkowicie unikając [Concept('war', 'wojny')|E].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "I do not fear drunk fools.",
+    "RUS": "Пьяные дураки мне не страшны.",
+    "POL": "Nie boję się pijanych głupców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.b_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT By choosing this option, you declare that you aren't afraid of a potential [war|e] waged by [bad_guy.GetTitledFirstName]. This nets you a moderate amount of [prestige|e].",
+    "RUS": "#TUT Выберите этот вариант, чтобы заявить, что не боитесь возможной [Concept( 'war', 'войны' )|E], которую собирается развязать [bad_guy.GetTitledFirstName]. За это вы получите умеренное количество [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "#TUT Wybierając tę opcję, zadeklarujesz, że nie boisz się [Concept('war', 'wojny')|E], którą może wytoczyć [bad_guy.GetTitledFirstName]. Przyniesie ci to umiarkowaną ilość [Concept('prestige', 'prestiżu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "A small donation to the war chest is in order.",
+    "RUS": "Пора сделать небольшой вклад в военную казну.",
+    "POL": "Niewielki datek na fundusz wojenny będzie mile widziany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.c.tt.success",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You convince [potential_ally.GetTitledFirstNameNoTooltip]",
+    "RUS": "[potential_ally.GetTitledFirstNameNoTooltip] [Select_CString(potential_ally.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[potential_ally.GetTitledFirstNameNoTooltip] daje ci się przekonać",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.c.tt.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You offend [potential_ally.GetTitledFirstNameNoTooltip]",
+    "RUS": "[potential_ally.GetTitledFirstNameNoTooltip] [Select_CString(potential_ally.IsFemale, 'оскорблена', 'оскорблен' )]",
+    "POL": "Obrażasz postać, którą jest [potential_ally.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0001.c_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT This option lets you attempt to talk [potential_ally.GetTitledFirstName] into helping you financially. If you can convince [potential_ally.GetHerHim], the extra [gold|e] can be beneficial in preventing or winning a [war|e].#!",
+    "RUS": "#TUT При выборе этого варианта [potential_ally.GetTitledFirstName] может оказать вам финансовую помощь. Если вам удастся [Select_CString(potential_ally.IsFemale, 'ее', 'его' )] убедить, лишнее [Concept( 'gold', 'золото' )|E] пригодится, чтобы предотвратить или выиграть [Concept( 'war', 'войну' )|E].#!",
+    "POL": "#TUT Ta opcja pozwala ci przekonać osobę, którą jest [potential_ally.GetTitledFirstName], do tego, by pomogła ci finansowo. Jeśli uda ci się [potential_ally.Custom('PL_go_ja')] przekonać, dodatkowe [gold|El] może pomóc ci uniknąć [Concept('war', 'wojny')|E] lub ją wygrać.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "[bad_guy.GetTitledFirstNameNoTooltip] Prepares for War",
+    "RUS": "[bad_guy.GetTitledFirstNameNoTooltip] готовится к войне",
+    "POL": "[bad_guy.GetTitledFirstNameNoTooltip] szykuje się do wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "I am once again approached by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName], [potential_ally.GetHerHis] lips curled in a sheepish smile. [potential_ally.GetSheHe|U] clears his throat uncomfortably. \\n\\n\\\"[GetPlayer.GetFirstNameNoTooltip], my friend! There has been a small development in regards to [bad_guy.GetTitledFirstName]. You see, we were out drinking the other week, and I caught [bad_guy.GetHerHim] boasting about [bad_guy.GetHerHis] invasion plans.\\\"\\n\\n\\\"I fear you have little time before [bad_guy.GetSheHe] makes [bad_guy.GetHerHis] move.\\\"",
+    "RUS": "Ко мне вновь обращается [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] [potential_ally.GetFirstName], кривя губы в боязливой улыбке. [Select_CString(potential_ally.IsFemale, 'Она', 'Он' )] неловко прокашливается.\\n\\n«[GetPlayer.GetFirstNameNoTooltip], друг мой! Вы помните, что [bad_guy.GetTitledFirstName] [Select_CString(bad_guy.IsFemale, 'обещалась', 'обещался' )] пойти на вас войной? На прошлой неделе мы оказались за одним столом, и [Select_CString(bad_guy.IsFemale, 'она', 'он' )] без умолку [Select_CString(bad_guy.IsFemale, 'твердила', 'твердил' )] о предстоящем вторжении».\\n\\n«Боюсь, [Select_CString(bad_guy.IsFemale, 'она', 'он' )] нападет уже очень скоро».",
+    "POL": "Ponownie podchodzi do mnie [potential_ally.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))]. Odchrząkuje niezręcznie, a [potential_ally.Custom('PL_jego_jej')] wargi wykrzywiają się w uśmiechu zażenowania. \\n\\n– [GetPlayer.GetFirstNameNoTooltip]! Udało się poczynić pewne drobne postępy w kwestii osoby, którą jest [bad_guy.GetTitledFirstName]. Widzisz, parę tygodni temu, podczas popijawy, udało mi się usłyszeć, jak przechwala się planami swojej inwazji.\\n\\n– Obawiam się, że nie zostało ci wiele czasu, nim wykona następny ruch.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "There must be another way...",
+    "RUS": "Должен быть иной способ...",
+    "POL": "Musi być inny sposób…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT This option lets you attempt to talk things through with [bad_guy.GetTitledFirstName]. There's a chance [bad_guy.GetSheHe] will be receptive to your [diplomacy|e], but there's also a risk that [bad_guy.GetSheHe] will take offense.#!",
+    "RUS": "#TUT Выберите этот вариант, чтобы пойти на диалог с потенциальным врагом. Возможно, [bad_guy.GetTitledFirstName] прислушается к вашим [Concept( 'diplomacy', 'дипломатическим' )|E] увещеваниям, хотя есть риск, что они [Select_CString(bad_guy.IsFemale, 'ее', 'его' )] обидят.#!",
+    "POL": "#TUT Ta opcja pozwala ci spróbować porozmawiać z osobą, którą jest [bad_guy.GetTitledFirstName]. Istnieje szansa, że ustosunkuje się [bad_guy.GetSheHe] do twojej próby [Concept('diplomacy', 'dyplomacji')|E], ale istnieje też ryzyko, że propozycja ta [bad_guy.Custom('PL_go_ja')] urazi.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You enter an [alliance|e] with [bad_guy.GetTitledFirstName]",
+    "RUS": "Вы и [bad_guy.GetTitledFirstName] заключаете [Concept( 'alliance', 'союз' )|E]",
+    "POL": "Ty i [bad_guy.GetTitledFirstName] zawieracie [Concept('alliance', 'sojusz')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a.tt.crit_success",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You make a #EMP very#! compelling argument",
+    "RUS": "Вы приводите #EMP очень#! веский аргумент",
+    "POL": "Używasz #EMP bardzo#! kuszącego argumentu",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a.tt.success",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You make a decent case",
+    "RUS": "Вы весьма убедительны",
+    "POL": "Prawidłowo przedstawiasz sprawę",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "You offend [bad_guy.GetTitledFirstNameNoTooltip]",
+    "RUS": "[bad_guy.GetTitledFirstNameNoTooltip] [Select_CString(bad_guy.IsFemale, 'оскорблена', 'оскорблен' )]",
+    "POL": "Obrażasz postać, którą jest [bad_guy.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "Hah! A jokester, that [bad_guy.GetFirstNameNoTooltip].",
+    "RUS": "Ха! Ну что за [Select_CString(bad_guy.IsFemale, 'шутница эта', 'весельчак этот' )] [bad_guy.GetFirstNameNoTooltip].",
+    "POL": "Ha! [bad_guy.GetFirstNameNoTooltip] to trefniś.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.b_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT Because you are [friends|e] with [bad_guy.GetTitledFirstName], you know that while [bad_guy.GetSheHe] talks a big game, [bad_guy.GetSheHe] is not actually plotting anything.#!",
+    "RUS": "#TUT Поскольку теперь вы и [bad_guy.GetTitledFirstName] теперь [Concept( 'friends', 'друзья' )|E], вы понимаете, что, несмотря на грозные речи, на самом деле [Select_CString(bad_guy.IsFemale, 'она', 'он' )] не планирует никакого вторжения.#!",
+    "POL": "#TUT Jako że ty i [bad_guy.GetTitledFirstName] jesteście [Concept('friends', 'przyjaciółmi')|E], wiesz, że mimo tego, iż dużo gada, tak naprawdę niczego nie knuje.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "I tire of these games. [bad_guy.GetFirstNameNoTooltip] will submit to #EMP me. #!",
+    "RUS": "Довольно с меня этих игрищ. [bad_guy.GetFirstNameNoTooltip] покорится #EMP мне.#!",
+    "POL": "Mam dość tych gierek. [bad_guy.GetFirstNameNoTooltip] się mi #EMP podporządkuje. #!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tutorial.0002.c_flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/tutorial_events_l_belarusian.json",
+    "ENG": "#TUT This option will let you attempt to forcefully turn [bad_guy.GetTitledFirstNameNoTooltip] into a [vassal|e] under your rulership. In order to do this, you will have to win a [war|e] against [bad_guy.GetHerHim]!#!",
+    "RUS": "#TUT Выберите этот вариант, если хотите, чтобы [bad_guy.GetTitledFirstNameNoTooltip] [Select_CString(bad_guy.IsFemale, 'стала', 'стал' )] вашим [Concept( 'vassal', 'вассалом' )|E]. Для этого придется победить [Select_CString(bad_guy.IsFemale, 'ее', 'его' )] в [Concept( 'war', 'войне' )|E]!#!",
+    "POL": "#TUT Ta opcja pozwoli ci zmusić osobę, którą jest [bad_guy.GetTitledFirstNameNoTooltip], do zostania twoim [Concept('vassal', 'wasalem')|E]. By to zrobić, musisz wygrać z [bad_guy.Custom('PL_nim_nia')] w [Concept('war', 'wojnie')|E]!#!",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "KEY": "do_not_execute_assassination_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Do not attempt the assassination",
+    "RUS": "Не пытаться устранить",
+    "POL": "Nie próbuje dokonać zamachu",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "A Secret Sympathizer",
+    "RUS": "Тайный сторонник",
+    "POL": "Ukryt[Select_CString(assassin.IsFemale, 'a sympatyczka', 'y sympatyk' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "My assassin, [assassin.GetName], has discovered that [secret_sympathizer.GetName], one of [target.GetNamePossessive] courtiers, is somewhat sympathetic to our cause — if not practicing the [ROOT.Char.GetFaith.GetName] faith openly.\\n\\n",
+    "RUS": "Мой ассасин [assassin.GetName] [Select_CString(assassin.IsFemale, 'узнала', 'узнал' )], что [secret_sympathizer.GetName], [Select_CString(secret_sympathizer.IsFemale, 'одна', 'один' )] из придворных, которых держит при себе [target.GetName], отчасти симпатизирует нашему делу, пусть и не исповедует открыто #L [ROOT.Char.GetFaith.GetName|l]ую#! веру.\\n\\n«[secret_sympathizer.GetSheHe|U] желает помочь нам в этом заговоре, — объясняет [assassin.GetFirstNameNoTooltip]. — Но взамен хочет получить ваше благословение и ваше расположение как выдающийся [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]».",
+    "POL": "[Select_CString(assassin.IsFemale, 'Moja asasynka', 'Mój asasyn' )], [assassin.GetName], odkrył[Select_CString(assassin.IsFemale, 'a', '' )], że [secret_sympathizer.GetName], jed[Select_CString(secret_sympathizer.IsFemale, 'na z dworzanek', 'en z dworzan' )] przebywających na dworze, którym włada [target.GetName], jest w pewnym stopniu przychyln[Select_CString(target.IsFemale, 'a', 'y' )] naszej sprawie – nawet jeśli nie mówi, że otwarcie praktykuje [ROOT.Char.GetFaith.GetName|l].\\n\\n„Jest got[Select_CString(secret_sympathizer.IsFemale, 'owa', 'owy' )] pomóc nam w tym spisku” – wyjaśnia [assassin.GetFirstNameNoTooltip]. „Ale w zamian chce twojego błogosławieństwa i przychylności jako wybitny [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "I will speak well of [secret_sympathizer.GetHerHim] before [ROOT.Char.GetFaith.HighGodNameAlternate].",
+    "RUS": "Я упомяну [secret_sympathizer.GetHerHis], когда буду прославлять имя [ROOT.Char.GetFaith.HighGodNameAlternatePossessive].",
+    "POL": "Będę mówić o [Select_CString(secret_sympathizer.IsFemale, 'niej', 'nim' )] dobrze przed obliczem [ROOT.Char.GetFaith.HighGodNameAlternatePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "I cannot bless every hopeless stray you bring before me.",
+    "RUS": "Я не могу благословлять каждую заблудшую душу, что вы приводите ко мне.",
+    "POL": "Nie mogę błogosławić każdego beznadziejnego przybłędy, którego do mnie przyprowadzisz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_sympathizer_might_betray_you.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[secret_sympathizer.GetFirstNameNoTooltip] might hinder us, rather than help...",
+    "RUS": "[secret_sympathizer.GetFirstNameNoTooltip] может навредить нам вместо помощи...",
+    "POL": "[secret_sympathizer.GetFirstNameNoTooltip] może nam raczej zaszkodzić zamiast pomóc…",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Courting Fanatics",
+    "RUS": "Дружба с фанатиками",
+    "POL": "Zabieganie o fanatyków",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[assassin.GetName] has seemed stressed preparing for [assassin.GetHerHis] mission. I know, of course, that the prospect of agonizing death does not deter [assassin.GetHerHim], so it must be something else. When I ask, [assassin.GetSheHe] gets straight to the point.\\n\\n",
+    "RUS": "[assassin.GetName] не скрывает волнения, готовясь к заданию. Я знаю, что возможность мучительной смерти [assassin.GetHerHis] не страшит, поэтому дело должно быть в чем-то другом. Услышав мой вопрос [assassin.GetSheHe] переходит сразу к делу.\\n\\n«Мне нужно больше помощников, если мы хотим, чтобы [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'умерла', 'умер' )], — говорит мне [assassin.GetSheHe]. — В глуши мне встретились верные [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l], которых [Select_CString(ROOT.Char.IsFemale,'изгнала враждебная', 'изгнал враждебный')] нашему делу [Select_CString(ROOT.Char.IsFemale,'правительница', 'правитель')]. Они готовы помочь, если мы обеспечим их оружием и доспехами».",
+    "POL": "[assassin.GetName] wydawał[Select_CString(assassin.IsFemale, 'a', '' )] się być zestresowan[Select_CString(assassin.IsFemale, 'a', 'y' )] przygotowaniami do swojej misji. Wiem oczywiście, że perspektywa śmierci w męczarniach [Select_CString(assassin.IsFemale, 'jej', 'go' )] nie odstrasza, więc musi chodzić o coś innego. Kiedy pytam, od razu przechodzi do rzeczy.\\n\\n„Potrzebuję więcej współpracowników, jeśli chcemy, by [target.GetTitledFirstName] został[Select_CString(target.IsFemale, 'a wyeliminowana', ' wyeliminowany' )]” – powiedział[Select_CString(assassin.IsFemale, 'a', '' )]. „Na pustkowiu natkn[Select_CString(assassin.IsFemale, 'ęłam', 'ąłem' )] się na kilku wygnańców. Jak się okazało, byli to [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l] wypędzeni przez władc[Select_CString(ROOT.Char.IsFemale, 'zynię wrogą', 'ę wrogiego' )] naszej sprawie. Chętnie pomogą, jeśli dostarczymy im broń i zbroje”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Every man and woman among the faithful are welcome to aid us!",
+    "RUS": "Мы рады всем верным, желающим помочь нам!",
+    "POL": "Wszyscy wierni, którzy chcą nam pomóc, są mile widziani!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "I would rather not put my trust in these vagabonds...",
+    "RUS": "Не думаю, что нам стоит доверять этим проходимцам...",
+    "POL": "Wolał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] nie ufać tym włóczęgom…",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_title",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Gold and [owner.GetFaith.HighGodNameAlternate]",
+    "RUS": "Золото и [owner.GetFaith.HighGodNameAlternate]",
+    "POL": "Złoto i [owner.GetFaith.HighGodNameAlternate]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_not_usury_event_title",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "A Small Bag of Gold",
+    "RUS": "Небольшой мешочек золота",
+    "POL": "Mała sakiewka złota",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003_opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[assassin.GetName] seems to have found a weakness around [target.GetName] that we could exploit.\\n\\n",
+    "RUS": "[assassin.GetName], похоже, [Select_CString(assassin.IsFemale, 'нашла', 'нашел' )] слабое место, которое позволит приблизиться к цели.\\n\\n«Да, — говорит [assassin.GetSheHe], — я тайно [Select_CString(assassin.IsFemale, 'вышла', 'вышел' )] на",
+    "POL": "Wygląda na to, że [assassin.GetName] odkrył[Select_CString(assassin.IsFemale, 'a', '' )], że [target.GetName] ma słaby punkt, który możemy wykorzystać.\\n\\n„W rzeczy samej” – mówi. „potajemnie komunikował[Select_CString(assassin.IsFemale, 'am', 'em' )] się z",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_scullery_maid_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "a lowly but vengeful scullery maid",
+    "RUS": "безродную, но мстительную судомойку",
+    "POL": "skromną, ale mściwą pomywaczką",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_guard_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "a corrupt guard",
+    "RUS": "продажного стражника",
+    "POL": "skorumpowanym strażnikiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_harem_slave_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "an ambitious harem slave",
+    "RUS": "амбициозного гаремного раба",
+    "POL": "ambitną niewolnicą z haremu",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_gardener_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "an unassuming gardener that used to be one of the [owner.GetFaith.GetAdherentNameNoTooltip]",
+    "RUS": "незаметного садовника, который в прошлом был одним из нас",
+    "POL": "niepozornym ogrodnikiem, który kiedyś był jednym z nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_usury_event_minor_servant_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "a minor servant of little importance but great skill",
+    "RUS": "мелкого и незначительного, зато умелого слугу",
+    "POL": "podrzędnym sługą o niewielkim znaczeniu, ale wielkich umiejętnościach",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": " — and they are willing to give us information, but for a price. We must pay them in gold... discreetly.",
+    "RUS": " — этот человек готов предоставить нам информацию, но не бесплатно. Мы должны заплатить золотом... и тайно».\\n\\nМеня ненадолго охватывают сомнения. Да, услуги можно купить, но что насчет верности и доверия?",
+    "POL": "– osoba ta jest gotowa udzielić nam informacji, ale za pewną cenę. Musimy zapłacić złotem… dyskretnie”.\\n\\nPrzez chwilę mam wątpliwości. Usługi można kupić, owszem, ale co z lojalnością i zaufaniem?",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "To err is human...",
+    "RUS": "Человеку свойственно ошибаться...",
+    "POL": "Błądzić jest rzeczą ludzką…",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "I see no reason to hesitate!",
+    "RUS": "Не вижу причин для колебаний!",
+    "POL": "Nie widzę powodu, by się wahać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "No, I will #italic earn#! people's loyalty, not buy it.",
+    "RUS": "Нет, я #italic заслужу#! верность людей, но покупать ее не буду.",
+    "POL": "Nie, wolę #italic zdobyć#! lojalność ludzi, nie ją kupić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "A Moment of Doubt",
+    "RUS": "Мимолетное сомнение",
+    "POL": "Chwila zwątpienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0004_opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[assassin.GetName] seems uncharacteristically apprehensive, perhaps even despondent.\\n\\n",
+    "RUS": "[assassin.GetName] выглядит на удивление [Select_CString(assassin.IsFemale, 'боязливой', 'боязливым' )] и даже немного [Select_CString(assassin.IsFemale, 'подавленной', 'подавленным' )].\\n\\n«Да, — признается [assassin.GetSheHe] при моем приближении, — моя вера поколебалась, [ROOT.Char.Custom('FormOfAddressForLiege')]. Я сомневаюсь в обещанных посмертных наградах. Что, если умрет не только [target.Custom2('InsultAdjective', SCOPE.sC('assassin'))|l] [target.GetFirstName], но и я? Что, если [assassin.GetFaith.HighGodNameAlternate] не одобряет убийства #EMP всех#! неверующих?»\\n\\nГлядя на мастера-ассасина, я понимаю, что [Select_CString(assassin.IsFemale, 'ей', 'ему' )] нужно",
+    "POL": "[assassin.GetName] wydaje się czymś nietypowo martwić, a może nawet coś [assassin.Custom('PL_go_ja')] przygnębia.\\n\\n– Tak – wyznaje, gdy się zbliżam. – Moja wiara została zachwiana, wasza czcigodność. Zaczynam wątpić w obietnicę wielkich nagród w zaświatach. Co, jeśli nie tylko ta kanalia [target.GetFirstName] zginie, ale także ja? A jeśli wolą [assassin.GetFaith.HighGodNameAlternatePossessive] nie jest to, by życie stracili #EMP wszyscy#! niewierni?\\n\\nGdy patrzę na skonfliktowanego mistrza zabójców, zdaję sobie sprawę, że wszystko, czego potrzebuje, to",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_hashish_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "to calm down with some hashish, to become an empty vessel for the will of [assassin.GetFaith.HighGodName].",
+    "RUS": "успокоиться, принять немного гашиша и стать пустым сосудом воли [assassin.GetFaith.HighGodNamePossessive].",
+    "POL": "uspokoić się haszyszem i stać się pustym naczyniem dla woli [assassin.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_alcohol_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "to drink so heavily that [assassin.GetSheHe] may gaze into the world beyond.",
+    "RUS": "напиться так сильно, что [assassin.GetSheHe] увидит потусторонний мир.",
+    "POL": "upić się tak mocno, by móc spojrzeć w zaświaty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_food_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "to indulge for a moment in the pleasures only good food can bring.",
+    "RUS": "ненадолго познать удовольствие от хорошей еды.",
+    "POL": "przez chwilę oddać się przyjemnościom, jakie może przynieść tylko dobre jedzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_confide_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "someone who will listen to [assassin.GetHerHim] and reassure [assassin.GetHerHim].",
+    "RUS": "поговорить с кем-то, кто выслушает и ободрит [assassin.GetHerHis].",
+    "POL": "ktoś, kto [Select_CString(assassin.IsFemale, 'ją', 'go' )] wysłucha i uspokoi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_orgy_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "a life-affirming evening with concubines which I can gladly provide.",
+    "RUS": "провести живительный вечер с наложницами, что я охотно обеспечу.",
+    "POL": "afirmujący życie wieczór z konkubinami, który chętnie zapewnię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_doubt_event_meditation_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "a moment of solace and inner dialogue with [assassin.GetFaith.HighGodName].",
+    "RUS": "недолго побыть в уединении, чтобы ощутить присутствие [assassin.GetFaith.HighGodNamePossessive].",
+    "POL": "chwila w odosobnieniu, aby poczuć obecność [assassin.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassin_doubt_event_nothing_else",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "for me to reaffirm [assassin.GetHerHis] faith in [assassin.GetFaith.PositiveAfterLife3|U].",
+    "RUS": "получить от меня подтверждение, что [assassin.GetFaith.PositiveAfterLife|U] существует.",
+    "POL": "uzyskać ode mnie potwierdzenie, że [assassin.GetFaith.PositiveAfterLife|U] istnieje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_console.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You reassure [assassin.GetFirstNameNoTooltip]",
+    "RUS": "[assassin.GetFirstNameNoTooltip] получает ваши заверения",
+    "POL": "[assassin.GetFirstNameNoTooltip] zostaje przez ciebie uspokojon[Select_CString(assassin.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_console.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You fail to reassure [assassin.GetFirstNameNoTooltip]",
+    "RUS": "[assassin.GetFirstNameNoTooltip] не верит вашим заверениям",
+    "POL": "[assassin.GetFirstNameNoTooltip] nie wierzy w twoje zapewnienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_console_toast.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[assassin.GetFirstNameNoTooltip] hardens [assassin.GetHerHis] resolve",
+    "RUS": "[assassin.GetFirstNameNoTooltip] укрепляет свою решимость",
+    "POL": "[assassin.GetFirstNameNoTooltip] umacnia swoją determinację",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_console_toast.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "[assassin.GetFirstNameNoTooltip] continues to doubt",
+    "RUS": "[assassin.GetFirstNameNoTooltip] продолжает сомневаться",
+    "POL": "[assassin.GetFirstNameNoTooltip] nadal ma wątpliwości",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_hashish",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, eat some hashish cakes with me.",
+    "RUS": "Давайте поедим пирогов с гашишем.",
+    "POL": "Chodź, zjedz ze mną nieco ciastek z haszyszem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_alcohol",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, drink with me.",
+    "RUS": "Давайте выпьем.",
+    "POL": "Chodź, napij się ze mną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_food",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, let us eat together.",
+    "RUS": "Давайте поедим вместе.",
+    "POL": "Chodź, zjemy razem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_confide",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, confide in me.",
+    "RUS": "Ну же, поговорите со мной.",
+    "POL": "Chodź, zwierz mi się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_orgy",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, I'll arrange a preview of [assassin.GetFaith.PositiveAfterLife3|U]...",
+    "RUS": "Я покажу, что готовит вам [assassin.GetFaith.PositiveAfterLife|U]...",
+    "POL": "Chodź, pokażę ci jak będzie wyglądać [assassin.GetFaith.PositiveAfterLife3|U]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0003.c_meditation",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Come, let us meditate together.",
+    "RUS": "Давайте помедитируем вместе.",
+    "POL": "Choć, pomedytujmy razem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You must not falter. Put your trust in the wisdom of [assassin.GetFaith.HighGodName].",
+    "RUS": "Вы не должны колебаться. Доверьтесь мудрости [assassin.GetFaith.HighGodNamePossessive].",
+    "POL": "Nie wolno ci się zachwiać. Zaufaj mądrości [assassin.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0004.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Maybe we should reconsider this assassination...",
+    "RUS": "Возможно, нам не стоит проводить это устранение...",
+    "POL": "Może powinniśmy ponownie rozważyć ten zamach…",
+    "BEL": ""
+  },
+  {
+    "KEY": "high_risk_of_dying.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "@warning_icon! #X [assassin.GetNameNoTooltip] might become more likely to die during the assassination!#!",
+    "RUS": "@warning_icon! #X Есть шанс, что [assassin.GetNameNoTooltip] с большей вероятностью погибнет при попытке устранения!#!",
+    "POL": "@warning_icon! #X Istnieje większe prawdopodobieństwo, że [assassin.GetNameNoTooltip] zginie podczas próby zamachu!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Poison or Pestilence",
+    "RUS": "Яд или чума",
+    "POL": "Trucizna lub zaraza",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleTierName|l], — говорит [assassin.GetName], — нам нужно использовать все доступные преимущества, если мы хотим, чтобы [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'умерла', 'умер' )]. Мне известен яд, который в малых дозах употребляют восточные мистики, и я могу покрыть им свой клинок. Но он стоит дорого...»",
+    "POL": "– Proszę, niech [ROOT.Char.GetTitleTierName] mnie wysłucha – mówi [assassin.GetName] – jeśli chcemy sprawić, że [target.GetTitledFirstName] odejdzie z tego świata, musimy wykorzystać każdą dostępną nam przewagę. Istnieje pewna potężna trucizna, którą w niewielkich ilościach spożywają wschodni mistycy; mogę pokryć nią me ostrze, ale będzie to kosztowne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.a_you",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "There is no need. I can create a poison for you!",
+    "RUS": "В этом нет необходимости. Я могу изготовить для вас яд!",
+    "POL": "Nie ma takiej potrzeby. Mogę stworzyć dla ciebie truciznę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.a_them",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You are a skilled herbalist, make something yourself.",
+    "RUS": "Вы разбираетесь в травах, сделайте его сами.",
+    "POL": "Jesteś uzdolnion[Select_CString(assassin.IsFemale, 'ą zielarką', 'ym zielarzem' )], zrób coś sam.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "There is no price I wouldn't pay for the cause!",
+    "RUS": "Я уплачу любую цену ради праведного дела!",
+    "POL": "Nie ma ceny, której nie zapłacił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] za tę sprawę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Just soak the blade in a pit toilet overnight, that'll do it.",
+    "RUS": "Положите клинок на ночь в выгребную яму, этого будет достаточно.",
+    "POL": "Wystarczy umieścić ostrze w latrynie na noc – to załatwi sprawę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0005.d",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "No, this is a waste of time, and beneath us.",
+    "RUS": "Нет, это пустая трата времени, и нам не пристало так поступать.",
+    "POL": "Nie, to strata czasu poniżej naszej godności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Runaway Assassin",
+    "RUS": "Беглый ассасин",
+    "POL": "Zbiegł[Select_CString(dummy_assassin_gender.IsFemale, 'a asasynka', 'y asasyn' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "An attempt was made on [target.GetNamePossessive] life, but alas, just as my master assassin [assassin.GetName] saw an opening, one of [assassin.GetHerHis] associates was overcome with the fear of death and ran away.\\n\\nThe plan had to be aborted. Thankfully, [target.GetTitledFirstNameNoTooltip] seems none the wiser, and [assassin.GetFirstNameNoTooltip] has assured me that a new attempt can soon be made. The runaway assassin may still prove a liability, however, if we cannot find [dummy_assassin_gender.GetHerHim].",
+    "RUS": "Мы устроили покушение, целью которого [Select_CString(target.IsFemale, 'должна была', 'должен был' )] стать [target.GetName], но увы, когда мастер-ассасин [assassin.GetName] [Select_CString(assassin.IsFemale, 'увидела', 'увидел' )] возможность для атаки, один из [assassin.GetHerHis] помощников испугался смерти и убежал.\\n\\nПришлось срочно все прервать. К счастью, [target.GetTitledFirstNameNoTooltip] ничего не [Select_CString(target.IsFemale, 'заподозрила', 'заподозрил' )] и [assassin.GetFirstNameNoTooltip] [Select_CString(assassin.IsFemale, 'заверила', 'заверил' )] меня, что попытку вскоре можно будет повторить. Но беглый ассасин может поставить дело под угрозу, если мы не найдем [dummy_assassin_gender.GetHerHis].",
+    "POL": "Podjęto próbę zamachu na życie postaci imieniem [target.GetName], ale niestety, gdy [Select_CString(assassin.IsFemale, 'moja mistrzyni', 'mój mistrz' )] zabójców [assassin.GetName] dostrzegł[Select_CString(assassin.IsFemale, 'a', '' )] okazję, jed[Select_CString(dummy_assassin_gender.IsFemale, 'na', 'en' )] z [assassin.GetHerHis] wspólni[Select_CString(dummy_assassin_gender.IsFemale, 'czek', 'ków' )] ogarnął strach przed śmiercią i uciekł[Select_CString(dummy_assassin_gender.IsFemale, 'a', '' )].\\n\\nPlan musiał zostać przerwany. Na szczęście [target.GetTitledFirstNameNoTooltip] niczego nie odkrył[Select_CString(target.IsFemale, 'a', '' )], a [assassin.GetFirstNameNoTooltip] zapewnił[Select_CString(assassin.IsFemale, 'a', '' )] mnie, że wkrótce będzie można podjąć nową próbę. Zbiegł[Select_CString(dummy_assassin_gender.IsFemale, 'a asasynka', 'y asasyn' )] może jednak nadal stanowić zagrożenie, jeśli [Select_CString(dummy_assassin_gender.IsFemale, 'jej', 'go' )] nie znajdziemy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "We shall find [dummy_assassin_gender.GetHerHim] — and silence [dummy_assassin_gender.GetHerHim] for good.",
+    "RUS": "Мы найдем [dummy_assassin_gender.GetHerHis] и заставим умолкнуть навсегда.",
+    "POL": "Znajdziemy [Select_CString(dummy_assassin_gender.IsFemale, 'ją', 'go' )] – i uciszymy na dobre.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0006.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "We will have to live with that risk.",
+    "RUS": "Нам придется смириться с подобным риском.",
+    "POL": "Będziemy musieli pogodzić się z tym ryzykiem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_hunted_down_toast.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You silenced the renegade",
+    "RUS": "Вы устранили отступника",
+    "POL": "Uciszył[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] [Select_CString(dummy_assassin_gender.IsFemale, 'zdrajczynię', 'zdrajcę' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_hunted_down_toast.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You failed to find the renegade",
+    "RUS": "Вы не сумели найти отступника",
+    "POL": "Nie udało ci się znaleźć [Select_CString(dummy_assassin_gender.IsFemale, 'zdrajczyni', 'zdrajcy' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_hunted_down.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "The renegade assassin is hunted down and killed",
+    "RUS": "Беглый ассасин найден и убит",
+    "POL": "[Select_CString(dummy_assassin_gender.IsFemale, 'Zdrajczyni', 'Zdrajca' )] zostaje wytropion[Select_CString(dummy_assassin_gender.IsFemale, 'a i zabita', 'y i zabity' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_hunted_down.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You fail to hunt [dummy_assassin_gender.GetHerHim] down",
+    "RUS": "Вы не сумели выследить беглого ассасина",
+    "POL": "Nie udało ci się [Select_CString(dummy_assassin_gender.IsFemale, 'jej', 'go' )] dopaść",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0007.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "A [target.GetWomanMan|U] of Virtue?",
+    "RUS": "[Select_CString(target.IsFemale, 'Добродетельная женщина', 'Добродетельный мужчина' )]?",
+    "POL": "[Select_CString(target.IsFemale, 'Cnotliwa kobieta', 'Cnotliwy mężczyzna' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0007.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не могу этого сделать», — внезапно заявляет [assassin.GetFirstName] с на удивление тревожным видом.\\n\\n«Пусть [target.GetSheHe] и [Select_CString(target.IsFemale, 'еретичка', 'еретик' )], [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'известна', 'известен' )] своей добродетелью и верой в учение [assassin.GetFaith.HighGodNamePossessive]. Никто не назовет [Select_CString(target.IsFemale, 'ее продажной или несправедливой', 'его продажным или несправедливым' )]. Боюсь, что, если я убью [Select_CString(target.IsFemale, 'ее', 'его' )], [assassin.GetFaith.HighGodName] обрушит на меня кару, и после смерти меня будет ждать [ROOT.Char.GetFaith.NegativeAfterLife]».",
+    "POL": "– Nie mogę tego zrobić – oświadcza z nagłym zmartwieniem w oczach [assassin.GetFirstName], osoba pełniąca rolę mojego zabójcy.\\n\\n– Chociaż to postać o heretyckich poglądach, [target.GetTitledFirstName] to jednak [target.GetWomanMan] o wielkiej cnocie i silnej wierze w nauki, które przedstawia nam [assassin.GetFaith.HighGodName]. Nie znajdziesz w [target.Custom('PL_nim_niej')] zepsucia czy niesprawiedliwości. Jeśli [target.Custom('PL_go_ja')] zabiję, obawiam się, że [assassin.GetFaith.HighGodName] dosięgnie mnie swym gniewem i nie minie mnie straszliwa kara w miejscu wiecznej kaźni, które znamy jako [ROOT.Char.GetFaith.NegativeAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0007.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "You are an #italic assassin#!! I didn't employ you to hesitate!",
+    "RUS": "Вы же #italic ассасин#!! Вы служите мне не для того, чтобы сомневаться!",
+    "POL": "Jesteś #italic [Select_CString(assassin.IsFemale, 'asasynką', 'asasynem' )]#!, nie zatrudnił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] cię, żebyś się wahał[Select_CString(assassin.IsFemale, 'am', 'em' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "assassination_ongoing.0007.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/assassination_ongoing_events_l_belarusian.json",
+    "ENG": "Perhaps you are right... we shall stop for now.",
+    "RUS": "Возможно, вы правы... давайте прервемся.",
+    "POL": "Być może masz rację… Na razie zaprzestańmy.",
+    "BEL": ""
+  }
+]

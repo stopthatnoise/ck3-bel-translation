@@ -1,0 +1,82 @@
+[
+  {
+    "KEY": "I_TAKE_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] becomes your [hostage|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] становится вашим [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] zostaje two[Select_CString( TARGET_CHARACTER.IsFemale, 'ją', 'im' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_TAKE_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] becomes [CHARACTER.GetShortUINamePossessive] [hostage|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] становится [Concept( 'hostage', 'заложником' )|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] zostaje [Select_CString(CHARACTER.IsLocalPlayer, Select_CString(TARGET_CHARACTER.IsFemale, 'twoją ', 'twoim ' ), '' )][Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_TOOK_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] became your [hostage|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] теперь ваш [hostage|El]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] [Select_CString( TARGET_CHARACTER.IsFemale, ' została twoją', ' został twoim' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_TOOK_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] became [CHARACTER.GetShortUINamePossessive] [hostage|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] теперь [hostage|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] został[Select_CString(TARGET_CHARACTER.IsFemale, 'a', '' )][Select_CString(CHARACTER.IsLocalPlayer, Select_CString(TARGET_CHARACTER.IsFemale, ' twoją', ' twoim' ), '' )] [Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))] [Select_CString( CHARACTER.IsLocalPlayer, '', Concatenate(' postaci ', CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_RETURN_FROM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "I will no longer be a [hostage|E]",
+    "RUS": "Я больше не буду [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "Nie będę już [Select_CString(CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_RETURN_FROM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] will no longer be a [hostage|E]",
+    "RUS": "[CHARACTER.GetName] больше не будет [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "[CHARACTER.GetName] nie będzie już [Select_CString(CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_RETURNED_FROM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "I am no longer a [hostage|E]",
+    "RUS": "Я больше не [hostage|El]",
+    "POL": "Nie jestem już [Select_CString(CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_RETURNED_FROM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] is no longer a [hostage|E]",
+    "RUS": "[CHARACTER.GetName] больше не [hostage|El]",
+    "POL": "[CHARACTER.GetName] nie jest już [Select_CString(CHARACTER.IsFemale, Concept('hostage', 'zakładniczką'), Concept('hostage', 'zakładnikiem'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_ATTACK_TRUCE_HOSTAGE_FATE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "#X You decide fate of [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!",
+    "RUS": "#X Вы решаете судьбу [Concept( 'hostage', 'заложника' )|E]: [TARGET_CHARACTER.GetShortUIName|U]#!",
+    "POL": "#X Decydujesz o losie [Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczki'), Concept('hostage', 'zakładnika'))]: [TARGET_CHARACTER.GetShortUINameNotMe|U]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ATTACK_TRUCE_HOSTAGE_FATE",
+    "FILE_PATH": "localization/belarusian/effects/hostage_effects_l_belarusian.json",
+    "ENG": "#X Decides fate of [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!",
+    "RUS": "#X Решает судьбу [Concept( 'hostage', 'заложника' )|E]: [TARGET_CHARACTER.GetShortUIName|U]#!",
+    "POL": "#X Decyduje o losie [Select_CString(TARGET_CHARACTER.IsFemale, Concept('hostage', 'zakładniczki'), Concept('hostage', 'zakładnika'))]: [TARGET_CHARACTER.GetShortUINameNotMe|U]#!",
+    "BEL": ""
+  }
+]

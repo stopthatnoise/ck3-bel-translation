@@ -1,0 +1,602 @@
+[
+  {
+    "KEY": "LEGENDS_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Legends",
+    "RUS": "Легенды",
+    "POL": "Legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_LEGEND_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]",
+    "RUS": "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]",
+    "POL": "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_TRIGGERED_LEGEND_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]",
+    "RUS": "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]",
+    "POL": "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_HEADER_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\\n\\n#i Click to select and open Chronicle\\nRight-click to select and pan to Legend on map#!",
+    "RUS": "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\\n\\n#i Щелкните, чтобы выбрать и открыть хронику\\nЩелкните ПКМ, чтобы выбрать и переместиться к легенде на карте#!",
+    "POL": "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\\n\\n#i Kliknij, aby wybrać i otworzyć kronikę\\nKliknij PPM, aby wybrać i przejść do legendy na mapie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEED_LEGEND_HEADER_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]",
+    "RUS": "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]",
+    "POL": "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRIGGERED_LEGEND_SEED_HEADER_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]",
+    "RUS": "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]",
+    "POL": "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTE_LEGEND_BUTTON_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T Start Legend#![AddLine( SelectLocalization( IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ), 'PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT', 'PROMOTE_LEGEND_BUTTON_BLOCKED_TT' ) )]",
+    "RUS": "#T Начать легенду#![AddLine( SelectLocalization( IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ), 'PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT', 'PROMOTE_LEGEND_BUTTON_BLOCKED_TT' ) )]",
+    "POL": "#T Zapoczątkuj legendę#![AddLine( SelectLocalization( IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ), 'PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT', 'PROMOTE_LEGEND_BUTTON_BLOCKED_TT' ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Start [Legend.GetOwner.GetNamePossessive] legend.[AddLine( '#D what else do we put here?#!' )]",
+    "RUS": "Начать легенду, героем которой станет [Legend.GetOwner.GetName].[AddLine( '#D что еще здесь дописать?#!' )]",
+    "POL": "Zapoczątkuj legendę, której bohaterem będzie [Legend.GetOwner.GetName].[AddLine( '#D co jeszcze można tu umieścić?#!' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTE_LEGEND_BUTTON_BLOCKED_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Start [Legend.GetOwner.GetNamePossessive] legend.[AddLine( AddLine( '#X You cannot start this legend:#!' ) )][AddLine( GetCommandDesc( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]",
+    "RUS": "Начать легенду, героем которой станет [Legend.GetOwner.GetName].[AddLine( AddLine( '#X Вы не можете начать эту легенду:#!' ) )][AddLine( GetCommandDesc( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]",
+    "POL": "Zapoczątkuj legendę, której bohaterem będzie [Legend.GetOwner.GetName].[AddLine( AddLine( '#X Nie możesz rozpocząć tej legendy:#!' ) )][AddLine( GetCommandDesc( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OPEN_CHRONICLE_BUTTON_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T Open Chronicle#!",
+    "RUS": "#T Открыть хронику#!",
+    "POL": "#T Otwórz kronikę#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PAN_TO_LEGEND_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T Pan to Legend on map#!",
+    "RUS": "#T Переместиться к легенде на карте#!",
+    "POL": "#T Przejdź do legendy na mapie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_HEADER_SUBTITLE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[Legend.GetType.GetName] about [Legend.GetProtagonist.GetName]",
+    "RUS": "[Legend.GetProtagonist.GetName] и «[Legend.GetType.GetName]»",
+    "POL": "„[Legend.GetType.GetName]”, legenda opowiadająca o postaci, którą jest [Legend.GetProtagonist.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTED_LEGEND",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Promoting Legend",
+    "RUS": "Поддержка легенды",
+    "POL": "Promowanie legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTED_OWNED_LEGEND",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Promoting Own Legend",
+    "RUS": "Поддержка своей легенды",
+    "POL": "Promowanie własnej legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTED_LEGEND_EMPTY",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "You are not [promoting_legend|El] a [legend|E]",
+    "RUS": "Вы не [Concept( 'promoting_legend', 'покровительствуете' )|E] [Concept( 'legend', 'легенде' )|E]",
+    "POL": "Nie [Concept( 'promoting_legend', 'rozpowszechniasz' )|E] [legends|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROMOTED_LEGEND_EMPTY_INSTRUCTION",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Start forming a legend from the [legend_seeds|E] list below, or find an existing forming [legend|E] in that you want to promote.\\n\\nPromoting a [legend|E] will help it spread and will grant you benefits.",
+    "RUS": "Начните создание легенды, выбрав что-то из списка [Concept( 'legend_seeds', 'зарождающихся легенд' )|E],\\nили найдите существующую [Concept( 'legend', 'легенду' )|E], которой вы хотели бы покровительствовать.\\n\\nВаше покровительство поможет в распространении [Concept( 'legend', 'легенды' )|E] и даст вам бонусы.",
+    "POL": "Zapoczątkuj tworzenie legendy z poniższej listy [Concept( 'legend_seed', 'zalążków legend' )|E]\\nlub znajdź istniejącą [Concept( 'legend', 'legendę' )|E], którą chcesz promować.\\n\\nPromowanie [legends|El] pomoże jej się rozprzestrzeniać i zapewni ci korzyści.",
+    "BEL": ""
+  },
+  {
+    "KEY": "RETURN_TO_PROMOTED_LEGEND_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Go back to [promoted_legend|E]",
+    "RUS": "Вернуться к [Concept( 'promoted_legend', 'поддерживаемой легенде' )|E]",
+    "POL": "Wróć do [Concept( 'promoted_legend', 'promowanych legend' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FOCUSED_LEGEND",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Selected Legend",
+    "RUS": "Выбранная легенда",
+    "POL": "Wybrana legenda",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMPLETED_LEGEND",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Completed Legend",
+    "RUS": "Завершенная легенда",
+    "POL": "Ukończono legendę",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_LIBRARY_INSTRUCTION",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "$game_concept_legend_library_desc$",
+    "RUS": "$game_concept_legend_library_desc$",
+    "POL": "$game_concept_legend_library_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEEDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[legend_seeds|E] #weak ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )])#!",
+    "RUS": "[legend_seeds|E] #weak ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )])#!",
+    "POL": "[legend_seeds|E] #weak ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEEDS_EMPTY",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "You have no [legend_seeds|E]",
+    "RUS": "У вас нет [Concept( 'legend_seeds', 'зарождающихся легенд' )|E]",
+    "POL": "Nie masz [Concept( 'legend_seeds', 'zalążków legend' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGENDS_REALM_ACTIVE_LEGENDS_SECTION",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Forming Legends #weak ([GetDataModelSize( LegendsWindow.GetRealmActiveLegends )])#!",
+    "RUS": "Возникающие легенды #weak ([GetDataModelSize( LegendsWindow.GetRealmActiveLegends )])#!",
+    "POL": "Tworzenie legendy #weak ([GetDataModelSize( LegendsWindow.GetRealmActiveLegends )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGENDS_REALM_ACTIVE_LEGENDS_EMPTY",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "There are currently no [legends|E] being formed in your realm.",
+    "RUS": "В настоящее время в вашей державе не возникают [Concept( 'legends', 'легенды' )|E].",
+    "POL": "Obecnie w twoim państwie nie zapoczątkowano żadnych [Concept( 'legends', 'legend' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGENDS_DISTANT_ACTIVE_LEGENDS_SECTION",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Forming Legends #weak ([GetDataModelSize( LegendsWindow.GetDistantActiveLegends )])#!",
+    "RUS": "Возникающие легенды #weak ([GetDataModelSize( LegendsWindow.GetDistantActiveLegends )])#!",
+    "POL": "Tworzenie legendy #weak ([GetDataModelSize( LegendsWindow.GetDistantActiveLegends )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGENDS_DISTANT_ACTIVE_LEGENDS_EMPTY",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "There are currently no [legends|E] being formed in distant lands",
+    "RUS": "В настоящее время в далеких землях не возникают [Concept( 'legends', 'легенды' )|E].",
+    "POL": "Obecnie w odległych krainach nie zapoczątkowano żadnych [Concept( 'legends', 'legend' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROMOTERS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[legend_promoters|E]: #L [GetDataModelSize( Legend.GetPromoters )|V]#!",
+    "RUS": "[legend_promoters|E]: #L [GetDataModelSize( Legend.GetPromoters )|V]#!",
+    "POL": "[legend_promoters|E]: #L [GetDataModelSize( Legend.GetPromoters )|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROMOTERS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[legend_promoters|E]",
+    "RUS": "[legend_promoters|E]",
+    "POL": "[legend_promoters|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROTAGONIST_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[legend_protagonist|E]:",
+    "RUS": "[legend_protagonist|E]:",
+    "POL": "[legend_protagonist|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROTAGONIST",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[Legend.GetProtagonist.GetName]",
+    "RUS": "[Legend.GetProtagonist.GetName]",
+    "POL": "[Legend.GetProtagonist.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( Legend.HasImpactModifiers( 'province' ), 'LEGEND_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( Legend.HasImpactModifiers( 'county' ), 'LEGEND_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "RUS": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( Legend.HasImpactModifiers( 'province' ), 'LEGEND_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( Legend.HasImpactModifiers( 'county' ), 'LEGEND_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "POL": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( Legend.HasImpactModifiers( 'prowincja' ), 'LEGEND_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( Legend.HasImpactModifiers( 'hrabstwo' ), 'LEGEND_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_OWNER_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $OWNER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'owner' )]",
+    "RUS": "#T $OWNER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'owner' )]",
+    "POL": "#T $OWNER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'owner' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_PROMOTER_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'promoter' )]",
+    "RUS": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'promoter' )]",
+    "POL": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[Legend.GetImpactModifiers( 'promoter' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_OWNER_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $OWNER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'owner' )]",
+    "RUS": "#T $OWNER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'owner' )]",
+    "POL": "#T $OWNER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'owner' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_PROMOTER_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'promoter' )]",
+    "RUS": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'promoter' )]",
+    "POL": "#T $LEGEND_PROMOTER_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'promoter' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#S $PROVINCE_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'province' )]",
+    "RUS": "#S $PROVINCE_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'province' )]",
+    "POL": "#S $PROVINCE_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'province' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#S $COUNTY_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'county' )]",
+    "RUS": "#S $COUNTY_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'county' )]",
+    "POL": "#S $COUNTY_MODIFIERS$#!\\n[LegendSeed.GetImpactModifiers( 'county' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( LegendSeed.HasImpactModifiers( 'province' ), 'LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( LegendSeed.HasImpactModifiers( 'county' ), 'LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "RUS": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( LegendSeed.HasImpactModifiers( 'province' ), 'LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( LegendSeed.HasImpactModifiers( 'county' ), 'LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "POL": "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\\n[JoinText( '\\n\\n', AddLocalizationIf( LegendSeed.HasImpactModifiers( 'prowincja' ), 'LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( LegendSeed.HasImpactModifiers( 'hrabstwo' ), 'LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT' ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGENDS_CREATE_LEGEND",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Create Legend",
+    "RUS": "Создать легенду",
+    "POL": "Utwórz legendę",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_UPGRADE_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Upgrade:",
+    "RUS": "Улучшение:",
+    "POL": "Ulepszenie:",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_UPGRADE_COST",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[GetCostString( Legend.GetUpgradeCostDescription( Character.Self ) )]",
+    "RUS": "[GetCostString( Legend.GetUpgradeCostDescription( Character.Self ) )]",
+    "POL": "[GetCostString( Legend.GetUpgradeCostDescription( Character.Self ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_CREATION_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Creation:",
+    "RUS": "Создание:",
+    "POL": "Utworzenie:",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_CREATION_COST",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[GetCostString( LegendSeed.GetCreationCost( Character.Self ) )]",
+    "RUS": "[GetCostString( LegendSeed.GetCreationCost( Character.Self ) )]",
+    "POL": "[GetCostString( LegendSeed.GetCreationCost( Character.Self ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_MAINTENANCE_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Promoting:",
+    "RUS": "Покровительство:",
+    "POL": "Promowanie:",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SEED_MAINTENANCE_COST",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[GetIntervalCostString( LegendSeed.GetMaintenanceCost( Character.Self ), 'monthly' )]",
+    "RUS": "[GetIntervalCostString( LegendSeed.GetMaintenanceCost( Character.Self ), 'monthly' )]",
+    "POL": "[GetIntervalCostString( LegendSeed.GetMaintenanceCost( Character.Self ), 'miesięcznie' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_MAINTENANCE_COST",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[GetIntervalCostString( Legend.GetMaintenanceCost( Character.Self ), 'monthly' )]",
+    "RUS": "[GetIntervalCostString( Legend.GetMaintenanceCost( Character.Self ), 'monthly' )]",
+    "POL": "[GetIntervalCostString( Legend.GetMaintenanceCost( Character.Self ), 'miesięcznie' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HUD_LEGEND_SEEDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "You have [Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V] Seeds available",
+    "RUS": "Вам доступны зарождающиеся легенды ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V])",
+    "POL": "Masz dostępne tylko [Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V] zalążki legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMPLETE_LEGEND_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Complete [Legend.GetNameNoTooltip]",
+    "RUS": "Завершить легенду «[Legend.GetNameNoTooltip]»",
+    "POL": "Ukończ: [Legend.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMPLETE_LEGEND_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "$LEGEND_COMPLETE_LEGEND$",
+    "RUS": "$LEGEND_COMPLETE_LEGEND$",
+    "POL": "$LEGEND_COMPLETE_LEGEND$",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMPLETE_LEGEND_ACCEPT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Complete",
+    "RUS": "Завершить",
+    "POL": "Ukończ",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_PROMOTING_LEGEND_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Promote [Legend.GetNameNoTooltip]",
+    "RUS": "Поддержать легенду «[Legend.GetNameNoTooltip]»",
+    "POL": "Promuj: [Legend.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_PROMOTING_LEGEND_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Start [Concept( 'promoted_legend', 'Promoting' )|E] the spread of [Legend.GetName] owned by [Legend.GetOwner.GetShortUIName] within your [realm|E].\\n\\nMaintenance: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'monthly' )]",
+    "RUS": "Начать [Concept( 'promoted_legend', 'поддерживать' )|E] распространение в вашей [Concept( 'realm', 'державе' )|E] легенды «[Legend.GetName]», владелец которой — [Legend.GetOwner.GetShortUIName].\\n\\nСодержание: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'monthly' )]",
+    "POL": "Rozpocznij [Concept('promoted_legend', 'promowanie')|E] legendy „[Legend.GetName]”, której posiadaczem jest [Legend.GetOwner.GetShortUINameNotMe], w swoim [Concept('realm', 'państwie')|E].\\n\\nUtrzymanie: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'monthly' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_PROMOTING_LEGEND_ACCEPT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Promote",
+    "RUS": "Поддержать",
+    "POL": "Promuj",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_tab_realm",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Realm Legends",
+    "RUS": "Легенды державы",
+    "POL": "Legendy państwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_tab_distant",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Distant Legends",
+    "RUS": "Далекие легенды",
+    "POL": "Odległe legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_tab_library",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Legend Library",
+    "RUS": "Библиотека легенд",
+    "POL": "Zbiór legend",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_tab_seeds",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Legend Seeds",
+    "RUS": "Зарождающиеся легенды",
+    "POL": "Zalążki legend",
+    "BEL": ""
+  },
+  {
+    "KEY": "REALM_COMPLETED_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Completed Legends #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!",
+    "RUS": "Завершенные легенды #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!",
+    "POL": "Ukończone legendy #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "REALM_COMPLETED_LEGENDS_TT",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Completed Legends",
+    "RUS": "Завершенные легенды",
+    "POL": "Ukończone legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "NO_REALM_ACTIVE_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "There are no forming [legends|e] in your [realm|e] at this time",
+    "RUS": "В настоящее время в вашей [Concept( 'realm', 'державе' )|E] не возникают [Concept( 'legends', 'легенды' )|E].",
+    "POL": "W tej chwili nie ma żadnych tworzących się [Concept( 'legend', 'legend' )|E] w twoim [Concept( 'realm', 'państwie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NO_REALM_COMPLETED_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "You know of no completed [legends|e] in your [realm|e]",
+    "RUS": "Вам не известно ни об одной завершенной [Concept( 'legends', 'легенде' )|E] в вашей [Concept( 'realm', 'державе' )|E].",
+    "POL": "Nie znasz żadnych ukończonych [Concept( 'legends', 'legend' )|E] w swoim [Concept( 'realm', 'państwie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DISTANT_COMPLETED_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Completed Legends #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!",
+    "RUS": "Завершенные легенды #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!",
+    "POL": "Ukończone legendy #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "NO_DISTANT_ACTIVE_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "There are no [legends|e] forming outside of your [realm|e], yet",
+    "RUS": "За пределами вашей [Concept( 'realm', 'державы' )|E] не возникают [Concept( 'legends', 'легенды' )|E] — пока что.",
+    "POL": "Nie ma jeszcze żadnych tworzących się [Concept( 'legend', 'legend' )|E] poza twoim [Concept( 'realm', 'państwie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NO_DISTANT_COMPLETED_LEGENDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "You know of no completed [legends|e] outside of your [realm|e]",
+    "RUS": "Вам не известно ни об одной завершенной [Concept( 'legends', 'легенде' )|E] за пределами вашей [Concept( 'realm', 'державы' )|E].",
+    "POL": "Nie znasz żadnych ukończonych [Concept( 'legends', 'legend' )|e] poza twoim [Concept( 'realm', 'państwem' )|e]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SPREAD_UPGRADE_",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#weak (Upgrade [Concept( 'legend_quality', 'Quality' )|E] at [Legend.GetMaxNumProvinces|V])#!",
+    "RUS": "#weak (Улучшение [Concept( 'legend_quality', 'качества' )|E] при [Legend.GetMaxNumProvinces|V])#!",
+    "POL": "#weak (Zwiększ [Concept('legend_quality', 'wagę legendy')|E] w: [Legend.GetMaxNumProvinces|V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SPREAD_UPGRADE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_SPREAD",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Spread in [baronies|E]: [Legend.GetCurrentNumProvinces|V] [AddLocalizationIf( Not( Legend.HasQuality( 'mythical' ) ), 'LEGEND_SPREAD_UPGRADE' )]",
+    "RUS": "Распространение в [Concept( 'baronies', 'баронствах' )|E]: [Legend.GetCurrentNumProvinces|V] [AddLocalizationIf( Not( Legend.HasQuality( 'mythical' ) ), 'LEGEND_SPREAD_UPGRADE' )]",
+    "POL": "Rozpowszechnienie w [Concept( 'baronies', 'baroniach' )|E]: [Legend.GetCurrentNumProvinces|V] [AddLocalizationIf( Not( Legend.HasQuality( 'mythical' ) ), 'LEGEND_SPREAD_UPGRADE' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUMMARY_LEGEND_IS_COMPLETED",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "#weak This legend is completed and no longer actively promoted.#!",
+    "RUS": "#weak Эта легенда завершена и больше не получает активной поддержки.#!",
+    "POL": "#weak Ta legenda została ukończona i nie jest już aktywnie promowana.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_DURATION_ACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[Legend.GetCreationDate.GetYear] - ...",
+    "RUS": "[Legend.GetCreationDate.GetYear] – ...",
+    "POL": "[Legend.GetCreationDate.GetYear]–…",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_DURATION_COMPLETED",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "[Legend.GetCreationDate.GetYear] - [Legend.GetCompletionDate.GetYear]",
+    "RUS": "[Legend.GetCreationDate.GetYear] – [Legend.GetCompletionDate.GetYear]",
+    "POL": "[Legend.GetCreationDate.GetYear]–[Legend.GetCompletionDate.GetYear]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_LEGEND_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Create [LegendSeed.GetNameWithProtagonist( Character.Self, LegendCreationWindow.GetProtagonist.Self )]",
+    "RUS": "Создать: «[LegendSeed.GetNameWithProtagonist( Character.Self, LegendCreationWindow.GetProtagonist.Self )]»",
+    "POL": "Utwórz: [LegendSeed.GetNameWithProtagonist( Character.Self, LegendCreationWindow.GetProtagonist.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_LEGEND_DESC",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "This [legend_seed|E] is for a [LegendSeed.GetQualityLevel] [Concept( 'legend_type', LegendSeed.GetType.GetName )|E].\\n#I Select the [legend_protagonist|E] and create your [legend|E].#!\\n#weak Based on your chosen Protagonist you will received different rewards upon completing your Legend.#!\\n@alert_icon!#alert_trial You cannot complete the legend for [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "RUS": "Эта [Concept('legend_seed', 'зарождающаяся легенда')|E] — [LegendSeed.GetQualityLevel|l] [Concept('legend_type', LegendSeed.GetType.GetName )|El].\\n#I Выберите [Concept('legend_protagonist', 'героя')|E] и создайте свою [Concept('legend', 'легенду')|E].#!\\n#weak В зависимости от выбранного героя вы получите различные награды за завершение легенды.#!\\n@alert_icon!#alert_trial Вы не сможете завершить легенду в течение [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "POL": "Ten [legend_seed|El] dotyczy: [LegendSeed.GetQualityLevel|l] [Concept( 'legend_type', LegendSeed.GetType.GetName)|El].\\n#I Wybierz [Concept('legend_protagonist', 'główną postać legendy')|E] i utwórz swoją [Concept('legend', 'legendę')|E].#!\\n#weak W zależności od wybranego bohatera otrzymasz różne nagrody po ukończeniu legendy.#!\\n@alert_icon! #alert_trial Nie możesz ukończyć legendy przez [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_LEGEND_WARNING_DESC",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "@warning_icon!#X You cannot complete or abandon the legend for [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "RUS": "@warning_icon!#X Вы не сможете завершить или забросить легенду в течение [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "POL": "@warning_icon!#X Nie możesz ukończyć ani porzucić legendy przez [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_REWARDS",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Rewards upon completion",
+    "RUS": "Награды при завершении",
+    "POL": "Nagrody po ukończeniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "RELATIONSHIP",
+    "FILE_PATH": "localization/belarusian/gui/legends_window_l_belarusian.json",
+    "ENG": "Relationship",
+    "RUS": "Отношения",
+    "POL": "Relacja",
+    "BEL": ""
+  }
+]

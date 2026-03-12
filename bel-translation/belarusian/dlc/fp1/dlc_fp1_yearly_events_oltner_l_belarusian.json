@@ -1,0 +1,802 @@
+[
+  {
+    "KEY": "fp1_yearly.2000.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Wanderlust",
+    "RUS": "Жажда странствий",
+    "POL": "Żądza podróżowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я ухожу, [parent.GetMotherFather]. Я и [lover_of_child.GetFirstNameNoTooltip] #EMP любим#! друг друга!»\\n\\nЯ выразительно закатываю [ROOT.Char.Custom('EyeEyes')]. Что #EMP на этот раз#! [Select_CString(child_to_leave.IsFemale, 'задумала эта глупая девчонка', 'задумал этот глупый мальчишка' )]?\\n\\n«[lover_of_child.GetFirstNameNoTooltip] и я отправимся на поиски приключений! Мир велик, нас ждет слава! Я буду кричать #EMP «[child_to_leave.GetHouse.GetMotto]»#! так долго, пока мир не запомнит мое имя!»\\n\\nОчевидно, [Select_CString(child_to_leave.IsFemale, 'моя', 'мой' )] #EMP [Select_CString(child_to_leave.IsFemale, 'обожаемая', 'обожаемый' )]#! [child_to_leave.Custom('GetDaughterSon')] говорит серьезно. Мне придется что-то сделать.",
+    "POL": "– Odchodzę, [Select_CString(parent.IsFemale, 'matko', 'ojcze' )]. Ja i [lover_of_child.GetFirstNameNoTooltip] #EMP kochamy się#!!\\n\\nPrzewracam [Select_CString(EqualTo_string( ROOT.Char.Custom('EyeEyes'), 'oko' ), 'okiem', 'oczami' )]. Co [Select_CString(child_to_leave.IsFemale, 'ta głupia', 'ten głupi' )] [child_to_leave.GetFirstNameNoTooltip] wyprawia #EMP tym razem#!?\\n\\n– [lover_of_child.GetFirstNameNoTooltip] i ja będziemy szukać przygód! Świat jest ogromny i czeka nas chwała! Pragnę krzyczeć „#EMP [child_to_leave.GetHouse.GetMotto]#!” tak długo, aż świat zapamięta moje imię!\\n\\nWidać, że [Select_CString(child_to_leave.IsFemale, 'moja #EMP ukochana#! córka', 'mój #EMP ukochany#! syn' )] [child_to_leave.Custom('GetDaughterSon')] mówi poważnie. Będę musiał[Select_CString(parent.IsFemale, 'a', '' )] coś zrobić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Подойди, [child_to_leave.Custom('GetDaughterSon')]. Думаю, пора тебе отведать немного #EMP жестокой любви#!».",
+    "POL": "„Chodź tu, [Select_CString(child_to_leave.IsFemale, 'droga córko', 'drogi synu' )], myślę, że nadszedł czas na odrobine #EMP twardej miłości#!.”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Послушай, #EMP славу#! можно обрести и дома».",
+    "POL": "„Słuchaj, #EMP chwałę#! można zdobyć również w domu”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Возможно, #EMP это#! заставит тебя отказаться от ухода?»",
+    "POL": "„Może #EMP to#! sprawi, że zapomnisz o wyjeździe?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты вернешься. Вскоре ты поймешь, что я имею в виду...»",
+    "POL": "– Wrócisz, wkrótce się o tym przekonasz…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "#weak ",
+    "RUS": "#weak «...ты вспомнишь, что принадлежишь мне».#!",
+    "POL": "#weak „…będziesz pamiętać, że należysz do mnie”.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "#V Duel#! [child_to_leave.GetFirstName] to make [child_to_leave.GetHerHim] stay!\\n#weak This duel is NOT to the death.#!\\nIf you win, you will gain [prestige_i] [prestige|E]\\n\\nYour [prowess|E]: [prowess_i]#V [parent.GetProwess]#!\\n[child_to_leave.GetFirstNamePossessive] [prowess|E]: [prowess_i]#V [child_to_leave.GetProwess]#!",
+    "RUS": "#V Сразитесь#! с персонажем [child_to_leave.GetFirstName], чтобы заставить [child_to_leave.GetHerHis] остаться!\\n#weak Это поединок НЕ на смерть.#!\\nВ случае победы вы получите [prestige_i] [Concept( 'prestige', 'престиж' )|E]\\n\\nВаша [Concept( 'prowess', 'доблесть' )|E]: [prowess_i]#V [parent.GetProwess]#!\\n[prowess|E] персонажа [child_to_leave.GetFirstName]: [prowess_i]#V [child_to_leave.GetProwess]#!",
+    "POL": "Ty i [child_to_leave.GetFirstName] stoczycie #V pojedynek#!, aby przekonać [Select_CString(child_to_leave.IsFemale, 'ją', 'go' )] do zostania!\\n#weak To NIE jest pojedynek na śmierć i życie.#!\\nJeśli wygrasz, zyskasz [prestige_i] [prestige|El]\\n\\nTwoja [prowess|El]: [prowess_i]#V [parent.GetProwess]#!\\n[prowess|E] postaci [child_to_leave.GetFirstName]: [prowess_i]#V [child_to_leave.GetProwess]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[child_to_leave.GetFirstName] stays at your [court|E]",
+    "RUS": "[child_to_leave.GetFirstName] останется при [Concept( 'court', 'дворе' )|E]",
+    "POL": "[child_to_leave.GetFirstName] zostaje na twoim [Concept('court', 'dworze')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Stays at your [court|E]",
+    "RUS": "Остается при [Concept( 'court', 'дворе' )|E]",
+    "POL": "Zostaje na twoim [Concept('court', 'dworze')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "lust_for_adventure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Lust for Adventure",
+    "RUS": "Жажда приключений",
+    "POL": "Żądza przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "lust_for_adventure_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "This character is lusting for adventure and travel. They are unlikely to return to the court of their parents.",
+    "RUS": "Этот персонаж жаждет приключений и странствий. Он вряд ли вернется ко двору своих родителей.",
+    "POL": "Ta postać jest żądna przygód i podróży. Jest mało prawdopodobne, że powróci na dwór swoich rodziców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mellowed_spirit",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Mellowed Spirit",
+    "RUS": "Успокоившийся дух",
+    "POL": "Łagodny duch",
+    "BEL": ""
+  },
+  {
+    "KEY": "mellowed_spirit_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "This character has been convinced by a parent that adventure isn't for them, and that their place is at home.",
+    "RUS": "Родителю этого персонажа удалось убедить его, что его место не в поисках приключений, а дома.",
+    "POL": "Ta postać została przekonana przez rodzica, że wyprawy nie są jej przeznaczeniem i powinna zostać w domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2003.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Wanderlust: Tough Love",
+    "RUS": "Жажда странствий: жестокая любовь",
+    "POL": "Wanderlust: trudna miłość",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2003.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я сдаюсь! Я сдаюсь, [parent.GetMotherFather]! Довольно!» — кричит [Select_CString(child_to_leave.IsFemale, 'моя', 'мой' )] [child_to_leave.Custom('GetDaughterSon')].\\n\\n«Я останусь при дворе. [lover_of_child.GetFirstNameNoTooltip] ничто по сравнению с моей жизнью!» — говорит [child_to_leave.GetFirstNameNoTooltip], пока [lover_of_child.GetFirstNameNoTooltip] с разочарованным видом слушает.\\n\\nНаконец-то, [child_to_leave.GetFirstNameNoTooltip] прислушивается к голосу разума!",
+    "POL": "„Poddaję się! Poddaję się, [Select_CString(parent.IsFemale, 'matko', 'ojcze' )]! Nigdy więcej!” – krzyczy m[Select_CString( child_to_leave.IsFemale, 'oja', 'ój' )] [child_to_leave.Custom('GetDaughterSon')|l].\\n\\n„Zostanę tutaj, na dworze. [lover_of_child.GetFirstNameNoTooltip] nie jest dla mnie ważniejsz[Select_CString( lover_of_child.IsFemale, 'a', 'y' )] niż moje życie!” – mówi [child_to_leave.GetFirstNameNoTooltip], na co [lover_of_child.GetFirstNameNoTooltip] patrzy z dezaprobatą.\\n\\nNareszcie [child_to_leave.GetFirstNameNoTooltip] zaczyna rozumieć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2003.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[parent.GetMotherFather|U] лучше знает, что тебе нужно, [child_to_leave.Custom('GirlBoy')]».",
+    "POL": "„[parent.GetMotherFather|U] wie najlepiej, drog[Select_CString(child_to_leave.IsFemale, 'ie dziewczę', 'i chłopcze' )]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2003.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«А еще ты и [lover_of_child.GetFirstNameNoTooltip] больше не будете видеться!»",
+    "POL": "„Ponadto, ty i [lover_of_child.GetFirstNameNoTooltip] nigdy więcej się nie zobaczycie!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.trigger_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "My duel against [child_to_leave.GetFirstNameNoTooltip] has been invalidated",
+    "RUS": "Мой поединок с персонажем [child_to_leave.GetFirstNameNoTooltip] отменен",
+    "POL": "Mój pojedynek przeciwko postaci [child_to_leave.GetFirstNameNoTooltip] został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2004.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Wanderlust: Soundly Beaten",
+    "RUS": "Жажда странствий: горечь поражения",
+    "POL": "Wanderlust: solidne pobicie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2004.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "I am knocked down, weakened by the fighting, as [child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\\n\\n",
+    "RUS": "Я падаю на землю, устав от поединка, и [child_to_leave.GetFirstNameNoTooltip] приближается ко мне с оружием в руке.\\n\\n«Я уже [Select_CString(child_to_leave.IsFemale, 'сказала', 'сказал' )] тебе, [parent.GetMotherFather], я #EMP ухожу#!. За свои старания я возьму с собой часть твоей казны. [Select_CString(child_to_leave.IsFemale, 'Уверена', 'Уверен' )], ты понимаешь».\\n\\nМне остается лишь смотреть, как [child_to_leave.Custom('GetDaughterSon')] и [lover_of_child.GetFirstNameNoTooltip] уходят, прихватив с собой #EMP мое золото#!.",
+    "POL": "Padam na ziemię, zmęczon[Select_CString(parent.IsFemale, 'a', 'y' )] walką, a [child_to_leave.GetFirstNameNoTooltip] podchodzi do mnie z bronią w ręku.\\n\\n„[Select_CString(parent.IsFemale, 'Matko', 'Ojcze' )], już ci mówił[Select_CString(child_to_leave.IsFemale, 'am', 'em' )], że odchodzę. Z powodu moich kłopotów wezmę worek ze skarbca. Jestem pew[Select_CString(child_to_leave.IsFemale, 'na', 'ien' )], że rozumiesz”.\\n\\nNie mogę nic zrobić, tylko patrzeć, jak [Select_CString(child_to_leave.IsFemale, 'moja', 'mój' )] [child_to_leave.Custom('GetDaughterSon')] i [lover_of_child.GetFirstNameNoTooltip] odchodzą, zabierając ze sobą #EMP moje złoto#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2004.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Insolent child...",
+    "RUS": "Непокорное дитя...",
+    "POL": "Bezczelny dzieciak…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[child_to_leave.GetFirstNameNoTooltip] gives up on [child_to_leave.GetHerHis] hopes and dreams",
+    "RUS": "[child_to_leave.GetFirstNameNoTooltip] отказывается от своих надежд и мечтаний",
+    "POL": "[child_to_leave.GetFirstNameNoTooltip] rezygnuje ze swoich nadziei i marzeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2000.b.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[child_to_leave.GetFirstNameNoTooltip] is not convinced by your arguments",
+    "RUS": "[child_to_leave.GetFirstNameNoTooltip] не прислушивается к вашим аргументам",
+    "POL": "[child_to_leave.GetFirstNameNoTooltip] nie jest przekonan[Select_CString(child_to_leave.IsFemale, 'a', 'y' )] przez twoje argumenty",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Hearty Competition",
+    "RUS": "Сердечное соперничество",
+    "POL": "Sercowa rywalizacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]! Ты [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNoun', SCOPE.sC('lover_1'))]! [lover_2.Custom2('InsultSentence', SCOPE.sC('lover_1'))|U], ты, [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]!» — надрывается [lover_1.GetFirstName].\\n\\nПохоже, ваши любимые снова ссорятся.\\n\\n«[lover_1.Custom2('PointOfRidicule', SCOPE.sC('lover_2'))] внушает [lover_quarrel_target.GetHerHim] отвращение, ты, [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]. [lover_quarrel_target.GetFirstNameNoTooltip] не может любить тебя, ведь ты [lover_1.Custom2('InsultAdjective', SCOPE.sC('lover_2'))] [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]! #EMP [lover_quarrel_target.GetSheHe|U] принадлежит только мне!#!» — кричит [lover_2.GetFirstName], и [lover_2.Custom('signature_weapon')] перемещается из-за пояса в [lover_2.GetHerHis] руку...\\n\\nСкоро прольется кровь.",
+    "POL": "– Ale z ciebie [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]! Co za [lover_2.Custom2('InsultNoun', SCOPE.sC('lover_1'))]! [lover_2.Custom2('InsultSentence', SCOPE.sC('lover_1'))|U], ty gnido! [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))|U] z ciebie! – krzyczy [lover_1.GetFirstName] z całych sił.\\n\\nWygląda na to, że twoje miłości rzucają się sobie do gardeł.\\n\\n– Od twojego defektu, [lover_1.Custom2('PointOfRidicule', SCOPE.sC('lover_2'))], [lover_quarrel_target.GetFirstNameNoTooltip] rechocze z obrzydzenia! Cóż z ciebie za [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]! [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))|U] jak ty… Taka osoba nie może być przez kochana przez kogoś takiego jak [lover_quarrel_target.GetFirstNameNoTooltip]! #EMP [lover_quarrel_target.GetSheHe|U] będzie należeć tylko do mnie!#!– krzyczy [lover_2.GetFirstName], wyciągając zza pasa broń. [lover_2.Custom('signature_weapon')|U] połyskuje złowrogo…\\n\\nZapowiada się krwawa jatka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Bloody #EMP exciting!#! Yes! Fight for my love!",
+    "RUS": "#EMP Восхитительно!#! Да! Бейтесь за мою любовь!",
+    "POL": "Cholernie #EMP ekscytujące!#! Tak! Walczę o swoją miłość!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "This is #EMP madness!#! I beg of you, please stop this at once!",
+    "RUS": "Это #EMP безумие!#! Прошу вас, немедленно перестаньте!",
+    "POL": "To jest #EMP szaleństwo!#! Błagam, proszę natychmiast to przerwać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "I'll stop you myself!",
+    "RUS": "Я лично остановлю вас!",
+    "POL": "Sam[Select_CString(ROOT.Char.IsFemale, 'a', '' )] cię powstrzymam!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[lover_1.GetFirstName] and [lover_2.GetFirstName] #V Duel#! to the death.",
+    "RUS": "[lover_1.GetFirstName] и [lover_2.GetFirstName] устраивают #V поединок#! до смерти.",
+    "POL": "[lover_1.GetFirstName] i [lover_2.GetFirstName] toczą #V pojedynek#! na śmierć i życie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[lover_1.GetFirstName] and [lover_2.GetFirstName] cool down.",
+    "RUS": "[lover_1.GetFirstName] и [lover_2.GetFirstName] успокаиваются.",
+    "POL": "[lover_1.GetFirstName] i [lover_2.GetFirstName] uspokajają się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Hearty Competition: Broken Heart",
+    "RUS": "Сердечное соперничество: разбитое сердце",
+    "POL": "Sercowa rywalizacja: złamane serce",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Теперь ты принадлежишь лишь мне, [Select_CString(lover_quarrel_target.IsFemale, 'моя', 'мой' )] [lover_quarrel_target.Custom('RomanticComplimentAdjective')][Select_CString(lover_quarrel_target.IsFemale, 'ая', 'ый' )] [lover_quarrel_target.GetFirstNameNoTooltip]! [Select_CString(lover_2.IsFemale, 'Эта', 'Этот' )] [lover_2.Custom2('InsultNounSexual', SCOPE.sC('winning_lover'))] [losing_lover.GetFirstName] больше никогда не встанет между нами!» — шепчет [winning_lover.GetFirstName] сладким голосом, опуская оружие на землю.\\n\\n«Пойдем, [Select_CString(lover_quarrel_target.IsFemale, 'моя', 'мой' )] [lover_quarrel_target.Custom('RomanticComplimentAdjective')][Select_CString(lover_quarrel_target.IsFemale, 'ая', 'ый' )] [lover_quarrel_target.Custom('RomanticComplimentNoun')]. Этот фарс утомил меня. Почему бы нам не удалиться к тебе в [ROOT.Char.Custom('GetChamber')]?» — предлагает [winning_lover.GetFirstNameNoTooltip] соблазнительным голосом.",
+    "POL": "– Teraz należysz tylko do mnie, [lover_quarrel_target.GetFirstNameNoTooltip]! [losing_lover.GetFirstName] już nigdy nie stanie między nami – szepcze słodkim głosem [winning_lover.GetFirstName], kładąc na ziemi swą broń.\\n\\n– Chodź, skarbie. Ta farsa była męcząca, może udamy się do ciebie? – proponuje uwodzicielsko [winning_lover.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Oh, my [winning_lover.Custom('RomanticComplimentNoun')]! You know how to woo a [lover_quarrel_target.GetWomanMan]!",
+    "RUS": "О [Select_CString(winning_lover.IsFemale, 'моя', 'мой' )] [winning_lover.Custom('RomanticComplimentNoun')]! Ты знаешь, как завоевать сердце!",
+    "POL": "Och, [winning_lover.Custom('RomanticComplimentNoun')]! Wiesz, jak zdobyć [Select_CString(lover_quarrel_target.IsFemale, 'kobietę', 'mężczyznę' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[losing_lover.GetFirstNameNoTooltip], no! #EMP You will pay for this, [winning_lover.GetFirstNameNoTooltip]!#!",
+    "RUS": "[losing_lover.GetFirstNameNoTooltip], нет! #EMP Ты заплатишь за это, [winning_lover.GetFirstNameNoTooltip]!#!",
+    "POL": "[losing_lover.GetFirstNameNoTooltip], nie! #EMP Zapłacisz za to, [winning_lover.GetFirstNameNoTooltip]!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "A romp in the hay? Why not.",
+    "RUS": "Порезвиться в сене? Почему бы и нет.",
+    "POL": "Igraszki w sianie? Czemu nie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2101.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Just... leave me for now.",
+    "RUS": "Просто... оставь меня на время.",
+    "POL": "Po prostu… zostaw mnie na razie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Your loving words calm them both",
+    "RUS": "Ваши теплые слова успокаивают их",
+    "POL": "Twoje miłosne słowa uspokajają ich oboje",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.b.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Your words fall on deaf ears",
+    "RUS": "Они остаются глухи к вашим словам",
+    "POL": "Twoje słowa trafiają w próżnię",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.c.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "You break the quarrelers apart",
+    "RUS": "Вы разводите спорщиков в стороны",
+    "POL": "Rozdzielasz kłócących się",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.c.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "You do not make it in time",
+    "RUS": "Вы приходите слишком поздно",
+    "POL": "Nie zdążysz na czas",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2100.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "You stop [lover_1.GetFirstName] and [lover_2.GetFirstName] from fighting.",
+    "RUS": "Благодаря вам [lover_1.GetFirstName] и [lover_2.GetFirstName] отказываются от поединка.",
+    "POL": "Dzięki tobie [lover_1.GetFirstName] i [lover_2.GetFirstName] rezygnują z walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The Bored Berserker",
+    "RUS": "Скучающий берсерк",
+    "POL": "Znudzony berserk",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Узрите! Я [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))|U][Select_CString(new_berserker.IsFemale, 'ая', 'ый' )] [new_berserker.GetFirstNameNoTooltip]. Мне нужна кружка эля, [new_berserker.Custom('AttractionWomanManMultiple')] и [new_berserker.Custom('FavoriteTreatDemand')]! А не то на вас обрушится мой гнев!» — кричит [new_berserker.GetWomanMan] на собравшуюся толпу.\\n\\nОчевидно, [Select_CString(new_berserker.IsFemale, 'этой громадной воительнице', 'этому огромному воину' )] скучно и [Select_CString(new_berserker.IsFemale, 'она', 'он' )] ищет неприятностей. Возможно, в моих войсках [new_berserker.GetHerHis] ярости найдется лучшее применение?\\n\\n«Кто из вас посмеет сразиться со мной? Трусы! Я [Select_CString(new_berserker.IsFemale, 'готова', 'готов' )] на всё ради хорошей драки...»",
+    "POL": "„Podziwiajcie! Jestem [new_berserker.GetFirstNameNoTooltip] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))|U]! Przynieście mi kufle piwa, [Select_CString( new_berserker.IsFemale, 'mężczyzn', 'kobiety' )] i [new_berserker.Custom('FavoriteTreatDemand')]! Nie ważcie się kusić mojego gniewu!” – krzyczy [new_berserker.GetWomanMan] na zgromadzony tłum.\\n\\nNajwyraźniej [Select_CString(new_berserker.IsFemale, 'ta potężna wojowniczka', 'ten potężny wojownik' )] jest znudzon[Select_CString(new_berserker.IsFemale, 'a', 'y' )] i szuka zaczepki. Może [new_berserker.GetHerHis] gniew zostałby lepiej wykorzystany w moich szeregach?\\n\\n„Czy nie ma nikogo, kto odważyłby się stawić mi czoła? Tchórze! Czego bym nie dał[Select_CString(new_berserker.IsFemale, 'a', '' )] za dobrą bójkę…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "No one calls me a coward, you [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))] [new_berserker.Custom2('InsultNoun', ROOT.Char)]!",
+    "RUS": "Никто не смеет обвинить меня в трусости, ты, [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))][Select_CString(new_berserker.IsFemale, 'ая', 'ый' )] [new_berserker.Custom2('InsultNoun', ROOT.Char)]!",
+    "POL": "Nikt nie ośmiela się nazywać mnie tchórzem! [new_berserker.Custom2('InsultNoun', ROOT.Char)|U] z ciebie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "I'll bring you plenty of [new_berserker.Custom('FavoriteTreatDemand')] — if you join my ranks.",
+    "RUS": "Тебя ждут [new_berserker.Custom('FavoriteTreatDemand')], и много, если ты перейдешь ко мне на службу.",
+    "POL": "Oto [new_berserker.Custom('FavoriteTreatDemand')] – jeśli wstąpisz w moje szeregi, dostaniesz znacznie więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "We're going on a raid soon, why don't you join as my [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]?",
+    "RUS": "Мы собираемся в налет, ты можешь присоединиться к нему как мой [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')].",
+    "POL": "Niedługo wyruszamy na najazd, może dołączysz jako mój [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Guards! Stop that [new_berserker.GetWomanMan]!",
+    "RUS": "Стража! Остановите [new_berserker.GetHerHis]!",
+    "POL": "Straże! Zatrzymajcie [Select_CString(new_berserker.IsFemale, 'tę kobietę', 'tego mężczyznę' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "#V Duel#! [new_berserker.GetFirstName] to make [new_berserker.GetHerHim] serve as your [potential_employer.Custom('KnightCultureNoTooltipLowercase')]!\\n#weak This duel is NOT to the death.#!\\nEven if you lose, perhaps [new_berserker.GetFirstNamePossessiveNoTooltip] rage will be soothed...\\n\\nYour [prowess|E]: [prowess_i]#V [potential_employer.GetProwess]#!\\n[new_berserker.GetFirstNamePossessive] [prowess|E]: [prowess_i]#V [new_berserker.GetProwess]#!",
+    "RUS": "#V Сразитесь#! с персонажем [new_berserker.GetFirstName], и [new_berserker.GetSheHe] станет служить вам как [potential_employer.Custom('KnightCultureNoTooltipLowercase')]!\\n#weak Это поединок НЕ на смерть.#!\\nДаже если вы проиграете, возможно [new_berserker.GetFirstNameNoTooltip] умерит свой гнев...\\n\\nВаша [Concept( 'prowess', 'доблесть' )|E]: [prowess_i]#V [potential_employer.GetProwess]#!\\n[prowess|E] персонажа [new_berserker.GetFirstNameNoTooltip]: [prowess_i]#V [new_berserker.GetProwess]#!",
+    "POL": "#V Wyzwij#! [Select_CString(new_berserker.IsFemale, 'ją', 'go' )] na pojedynek, aby służył[Select_CString(new_berserker.IsFemale, 'a', '' )] jako [potential_employer.Custom('KnightCultureNoTooltipLowercase')]!\\n#weak To NIE jest pojedynek na śmierć i życie.#!\\nNawet jeśli przegrasz, może [new_berserker.GetFirstNameNoTooltip] poskromi swój gniew…\\n\\nTwoja [prowess|El]: [prowess_i]#V [potential_employer.GetProwess]#!\\n[prowess|E] postaci [new_berserker.GetFirstName]: [prowess_i]#V [new_berserker.GetProwess]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.c.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[new_berserker.GetFirstNameNoTooltip] agrees to join your ranks",
+    "RUS": "[new_berserker.GetFirstNameNoTooltip] соглашается присоединиться к вам",
+    "POL": "[new_berserker.GetFirstNameNoTooltip] zgadza się wstąpić w twoje szeregi",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.c.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[new_berserker.GetFirstNameNoTooltip] rampages through your court",
+    "RUS": "[new_berserker.GetFirstNameNoTooltip] опустошает ваш двор",
+    "POL": "[new_berserker.GetFirstNameNoTooltip] szaleje na twoim dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.fail.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[new_berserker.GetFirstNameNoTooltip] hurts [potential_victim.GetFirstName] in [new_berserker.GetHerHis] fury!",
+    "RUS": "[new_berserker.GetFirstNameNoTooltip] в ярости ранит персонажа [potential_victim.GetFirstName]!",
+    "POL": "[new_berserker.GetFirstNameNoTooltip] w napadzie szału rani [potential_victim.GetFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hurt_someone_close_to_me_crime",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Hurt Someone Close to Me",
+    "RUS": "Ранили близкого мне человека",
+    "POL": "Skrzywdzono kogoś mi bliskiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.d.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[new_berserker.GetFirstNameNoTooltip] is struck dead",
+    "RUS": "[new_berserker.GetFirstNameNoTooltip] погибает",
+    "POL": "[new_berserker.GetFirstNameNoTooltip] zostaje zabit[Select_CString(new_berserker.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2200.trigger_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "My duel against [new_berserker.GetFirstNameNoTooltip] has been invalidated",
+    "RUS": "Мой поединок с персонажем [new_berserker.GetFirstNameNoTooltip] отменен",
+    "POL": "Mój pojedynek przeciwko postaci [new_berserker.GetFirstNameNoTooltip] został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2203.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The Bored Berserker: Sated Rage",
+    "RUS": "Скучающий берсерк: успокоенный гнев",
+    "POL": "Znudzony berserk: zaspokojony gniew",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2203.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы крепче, чем кажетесь!» — сплевывает [new_berserker.GetFirstNameNoTooltip].\\n\\n[new_berserker.GetWomanMan|U] лежит на земле в крови, [new_berserker.GetHerHis] ярость утихла... на время.\\n\\n«Я с радостью буду биться бок о бок с вами, и тогда нас никто #EMP не остановит#!», — кричит [new_berserker.GetSheHe].",
+    "POL": "„Jesteś silniejsz[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] niż wyglądasz!” – bełkocze [new_berserker.GetFirstNameNoTooltip].\\n\\n[new_berserker.GetWomanMan|U] leży zakrwawion[Select_CString(new_berserker.IsFemale, 'a', 'y' )] na ziemi, [new_berserker.GetHerHis] gniew został zaspokojony… na razie.\\n\\n„Był[Select_CString(new_berserker.IsFemale, 'abym rada', 'bym rad' )] mogąc walczyć u twego boku, razem bylibyśmy #EMP niepowstrzymani!#!” – krzyczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2203.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне жаль, но ваш путь оборвется здесь».",
+    "POL": "„Przykro mi, ale twoja droga kończy się tutaj”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2203.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Для меня будет честью биться рядом с вами!»",
+    "POL": "„Był[Select_CString(ROOT.Char.IsFemale, 'a', '' )]bym zaszczycon[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] mogąc walczyć u twego boku!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2203.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы причинили достаточно вреда. Уходите, немедленно».",
+    "POL": "„Wyrządził[Select_CString(new_berserker.IsFemale, 'aś', 'eś' )] już wystarczająco dużo szkód. Odejdź, teraz”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2204.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The Bored Berserker: Gentle Giant",
+    "RUS": "Скучающий берсерк: добрый великан",
+    "POL": "Znudzony berserk: Łagodny gigant",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2204.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Простите, — с чувством произносит [new_berserker.GetFirstNameNoTooltip]. — Я злюсь на пустой желудок».\\n\\n[Select_CString(new_berserker.IsFemale, 'Огромная', 'Огромный' )] [new_berserker.GetWomanMan] протягивает руку, помогая мне встать. [new_berserker.GetHerHis|U] ярость утихла... на время.\\n\\n«Мне понравился наш бой. Я с радостью присоединюсь к вам и предлагаю свою дружбу», — говорит [new_berserker.GetSheHe].",
+    "POL": "„Wybacz” – [new_berserker.GetFirstNameNoTooltip] mówi emocjonalnym tonem. „Robię się zł[Select_CString(new_berserker.IsFemale, 'a', 'y' )], kiedy jestem głodn[Select_CString(new_berserker.IsFemale, 'a', 'y' )]”.\\n\\nOgromn[Select_CString(new_berserker.IsFemale, 'a', 'y' )] [new_berserker.GetWomanMan] podaje mi dłoń, aby pomóc mi wstać. [new_berserker.GetHerHis|U] gniew wydaje się być zaspokojony… na razie.\\n\\n„Podobała mi się nasza walka. Chętnie się do ciebie przyłączę, przyjaci[Select_CString(ROOT.Char.IsFemale, 'ółko', 'elu' )]” – mówi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2204.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«И я с радостью приму вашу дружбу!»",
+    "POL": "„A ja przyjmę cię z radością, [Select_CString(new_berserker.IsFemale, 'moja przyjaciółko', 'mój przyjacielu' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2204.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пожалуйста, просто уйдите...»",
+    "POL": "„Proszę, po prostu odejdź…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "grizzled_veterans",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Grizzled Veterans",
+    "RUS": "Седые ветераны",
+    "POL": "Szpakowaci weterani",
+    "BEL": ""
+  },
+  {
+    "KEY": "glory_seekers",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Glory Seekers",
+    "RUS": "Искатели славы",
+    "POL": "Poszukiwacze chwały",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Glory Seekers",
+    "RUS": "Искатели славы",
+    "POL": "Poszukiwacze chwały",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The taverns of [tavern_location.GetNameNoTier] have seen an influx of glory-seeking warriors as of late.\\n\\nAmong them — a group of old and battle-hardened veterans, huscarls looking for a new [recruiting_character.Custom('MistressMaster')].\\n\\nThere is also a whole host of enthusiastic young men that talk non-stop about finding glory on foreign shores.\\n\\nPerhaps I should seek to employ some of them?",
+    "RUS": "В последнее время в таверны владения [tavern_location.GetNameNoTier] прибывает множество воинов, жаждущих славы.\\n\\nВ их числе группа старых и закаленных боями ветеранов, хускарлов, которым требуется [Select_CString(recruiting_character.IsFemale, 'новая', 'новый' )] [recruiting_character.Custom('MistressMaster')].\\n\\nЗдесь же можно найти множество излучающей энтузиазм молодежи, без устали рассуждающей о походах за славой к чужим берегам.\\n\\nВозможно, мне стоит нанять кого-то из них?",
+    "POL": "Karczmy na ziemiach [tavern_location.GetAdjective] odnotowały ostatnio napływ wojowników żądnych chwały.\\n\\nWśród nich – grupa starych i zaprawionych w bojach weteranów, huskarlów szukających nowe[Select_CString(recruiting_character.IsFemale, 'j mistrzyni', 'go mistrza' )].\\n\\nJest też cała rzesza pełnych entuzjazmu młodych mężczyzn, którzy bez przerwy mówią o poszukiwaniu chwały u obcych brzegów.\\n\\nMoże warto rozważyć zatrudnienie niektórych z nich?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "I'll bring the huscarls into my household.",
+    "RUS": "Я приглашу на службу хускарлов.",
+    "POL": "Sprowadzę huskarlów do mojego domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The young men are inexperienced — but there are many of them!",
+    "RUS": "Молодежи не хватает опыта, но зато их много!",
+    "POL": "Młodzi mężczyźni są niedoświadczeni – ale jest ich wielu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Time to double the price of ale!",
+    "RUS": "Пора удвоить цены на эль!",
+    "POL": "Pora podwoić cenę piwa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2300.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Join me, brave warriors! I will lead you to victory!",
+    "RUS": "Присоединяйтесь ко мне, отважные воины! Я приведу вас к победе!",
+    "POL": "Dołączcie do mnie, dzielni wojownicy! Poprowadzę was do zwycięstwa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "huscarls_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "#F Huscarls are tough frontline fighters capable of inflicing a lot of damage to weaker troops#!",
+    "RUS": "#F Хускарлы — суровые бойцы первой линии, способные нанести огромный урон более слабым войскам#!",
+    "POL": "#F Huskarlowie są twardymi wojownikami na pierwszej linii frontu, zdolnymi do zadawania dużych obrażeń słabszym jednostkom#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bondi_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "#F Bondí are resilient and excel at fighting in the plains or farmlands of foreign shores#!",
+    "RUS": "#F Бонды выносливы и отлично сражаются на равнинах или пахотных землях чужбины#!",
+    "POL": "#F Bondí są odporni i doskonale radzą sobie z walkami na równinach lub polach uprawnych u obcych wybrzeży#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Preparations for the Hunt",
+    "RUS": "Подготовка к охоте",
+    "POL": "Przygotowania do polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "The wilderness is calling out to me. It's been too long since I last hunted. Out there, in the [ROOT.Char.Custom('TerrainType')] of [hunting_province.GetName], there are plenty of [ROOT.Char.Custom('GetAnimalAdjective')] [ROOT.Char.Custom('GetAnimalPlural')]. One of those would do well on my dinner table tonight!\\n\\nSomething is missing though. Are my hunting spears too old and dull? Or is it a companion I lack?\\n\\nI should make sure to prepare well.",
+    "RUS": "Меня манят дикие земли. С последней охоты прошло уже много времени. Там вдали — [ROOT.Char.Custom('TerrainType')] владения [hunting_province.GetName], где во множестве обитают [ROOT.Char.Custom('GetAnimalPlural')], и каждый из этих зверей [ROOT.Char.Custom('GetAnimalAdjective')]. Один из них украсит мой стол этим вечером!\\n\\nНо что-то не так. Мои охотничьи копья затупились со временем? Или мне не хватает спутника?\\n\\nМне стоит хорошо подготовиться.",
+    "POL": "Dzicz mnie wzywa. Minęło zbyt wiele czasu od mojego ostatniego polowania. [ROOT.Char.Custom('TerrainType')|U] ziem znanych jako [hunting_province.GetName] to miejsce, gdzie licznie występują [ROOT.Char.Custom('GetAnimalPlural')]. Jedna sztuka dobrze prezentowałaby się na moim stole obiadowym dziś wieczorem!\\n\\nCzegoś jednak brakuje. Czy moje włócznie myśliwskie są zbyt stare i stępione? A może brakuje mi towarzysza?\\n\\nMuszę się dobrze przygotować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "A new hunting dog is what I need!",
+    "RUS": "Мне нужна новая гончая!",
+    "POL": "Pies myśliwski jest tym, czego mi trzeba!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.eagle",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "A hunting eagle would serve me well!",
+    "RUS": "Мне нужен охотничий орел!",
+    "POL": "Przydałby mi się orzeł myśliwski!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Newly-forged spears, and arrows fletched with ravens' feather.",
+    "RUS": "Новые копья и стрелы с пером ворона.",
+    "POL": "Świeżo wykute włócznie i strzały z kruczym piórem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "What I have is enough. I just need time to prepare.",
+    "RUS": "Хватит и того, что есть. Но нужно время на подготовку.",
+    "POL": "To, co mam, wystarczy. Potrzebuję tylko czasu, żeby się przygotować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2400.free_hunt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Your next [GetActivityType('activity_hunt').GetName] will not cost any [gold|E]",
+    "RUS": "Ваша следующая [GetActivityType('activity_hunt').GetName] не потребует траты [Concept( 'gold', 'золота' )|E]",
+    "POL": "Twoje następne [GetActivityType('activity_hunt').GetName|l] nie będzie kosztować [Concept( 'gold', 'złota' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "brand_new_hunting_tools",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Brand New Hunting Tools",
+    "RUS": "Новые охотничьи инструменты",
+    "POL": "Nowe narzędzia myśliwskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "brand_new_hunting_tools_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "This character has spent a great deal of gold on new hunting equipment.",
+    "RUS": "Этот персонаж потратил много золота на новое охотничье снаряжение.",
+    "POL": "Ta wydała dużo złota na nowy sprzęt myśliwski.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2500.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Raunchy Runestone",
+    "RUS": "Оскверненный рунный камень",
+    "POL": "Obskurny kamień runiczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2500.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "After quite a trek through the [runestone_location.Custom('TerrainTypeCountyScope')] of [runestone_location.GetNameNoTier], I arrive at the site of my family's runestone. Though it seems I'm not alone, my guest [deviant_guest.GetTitledFirstName] is here too — how did [deviant_guest.GetSheHe] find this place!?\\n\\n",
+    "RUS": "После недолгой поездки по владению [runestone_location.GetNameNoTier] я прибываю на место, где стоит рунный камень моей семьи. Но, похоже, я тут не [Select_CString(ROOT.Char.IsFemale, 'одна', 'один' )], [Select_CString(deviant_guest.IsFemale, 'моя гостья', 'мой гость' )] [deviant_guest.GetTitledFirstName] тоже здесь. Как [deviant_guest.GetSheHe] [Select_CString(deviant_guest.IsFemale, 'нашла', 'нашел' )] это место?\\n\\n«Это не то, что вы думаете, [ROOT.Char.GetTitleTierName]!» — уверяет [deviant_guest.GetSheHe].\\n\\nНо тот факт, что [deviant_guest.GetSheHe] наполовину [Select_CString(deviant_guest.IsFemale, 'раздета', 'раздет' )] и яростно трется о #EMP рунный камень моей семьи#!, говорит, что это именно то, что я думаю.",
+    "POL": "Po dość długiej wędrówce przez tereny znane jako [runestone_location.Custom('TerrainTypeCountyScope')] na ziemiach o nazwie [runestone_location.GetNameNoTier] docieram do miejsca, w którym znajduje się mój rodowy kamień runiczny. Wygląda na to, że mam towarzystwo: mój gość, [deviant_guest.GetTitledFirstName], również tutaj jest. Jak udało [deviant_guest.Custom('PL_mu_jej')] się znaleźć to miejsce?!\\n\\n– [ROOT.Char.GetTitleTierName] raczy wysłuchać, to nie tak! – twierdzi [deviant_guest.GetTitledFirstName].\\n\\nFakt, że półnago i energicznie ociera się o #EMP mój rodowy kamień runiczny#!, mówi mi, że w rzeczywistości jest to dokładnie tak.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Fury of the Northmen",
+    "RUS": "Ярость северян",
+    "POL": "Gniew Normanów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.GetCharacter.GetFirstNameNoTooltip], вы великолепны на поле боя, но #EMP действительно#! ли враги боятся вас?» — говорит [berserker_teacher.GetFirstName].\\n\\nМне случалось видеть, как [berserker_teacher.GetFirstNameNoTooltip] с воем обрушивает нечеловеческую ярость на поле боя и как бесчисленные враги лежат у [berserker_teacher.GetHerHis] ног. [berserker_teacher.GetFirstNameNoTooltip] в ярости выглядит словно [ROOT.GetCharacter.GetFaith.HighGodHerselfHimself] [ROOT.GetCharacter.GetFaith.HighGodName].\\n\\n«Присядьте со мной у костра. Давайте разбудим в вас ярость», — приглашает [berserker_teacher.GetSheHe].",
+    "POL": "„[ROOT.GetCharacter.GetFirstNameNoTooltip], jesteś wielk[Select_CString(ROOT.Char.IsFemale, 'ą wojowniczką', 'im wojownikiem' )], ale czy twoi wrogowie naprawdę się ciebie boją?” – mówi [berserker_teacher.GetFirstName].\\n\\nWidział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], jak [berserker_teacher.GetFirstNameNoTooltip] doprowadza się do nieludzkiej furii na polu bitwy oraz, jak niezliczeni wrogowie uciekają przed [berserker_teacher.GetHerHis] wyjącą postacią. Ujrzenie, jak [berserker_teacher.GetFirstNameNoTooltip] znajduje się w szale berserka to jak bycie świadkiem furii [Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodNameSheHe, 'ona' ), 'samej', 'samego' )] [ROOT.GetCharacter.GetFaith.HighGodNamePossessive].\\n\\n„Dołącz do mnie przy ognisku. Pozwól nam uwolnić twoją furię” – woła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Let me fetch my bear pelt!",
+    "RUS": "Дайте только найду медвежью шкуру!",
+    "POL": "Wezmę swoje futro z niedźwiedzia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "No, I prefer to be in full control.",
+    "RUS": "Нет, я предпочитаю контролировать себя.",
+    "POL": "Nie, wolę mieć pełną kontrolę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Attempt to become a [GetTrait('berserker').GetName( GetNullCharacter )]\\n#weak There might be risks...#!",
+    "RUS": "Попытаться получить свойство «[GetTrait('berserker').GetName( GetNullCharacter )]»\\n#weak Возможны неожиданные последствия...#!",
+    "POL": "Spróbuję zyskać cechę: [GetTrait('berserker').GetName( GetNullCharacter )|l]\\n#weak To może być ryzykowne…#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2600.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Forfeit the opportunity to become a [GetTrait('berserker').GetName( GetNullCharacter )]",
+    "RUS": "Отказаться от возможности получить свойство «[GetTrait('berserker').GetName( GetNullCharacter )]»",
+    "POL": "Utrata możliwości zyskania cechy: [GetTrait('berserker').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "We sit by the fire, chanting words of great power — I grit my teeth and close my eyes. Shivers run through my body, something is stirring inside of me... embracing me.\\n\\nI wake up from my frenzy, ",
+    "RUS": "Мы сидим у костра и распеваем заклинания. Я сжимаю зубы и закрываю глаза. Тело охватывает дрожь. Что-то просыпается во мне... захватывает меня.\\n\\nЯ сбрасываю пелену бешенства, ",
+    "POL": "Siedzimy przy ognisku, śpiewając słowa o wielkiej mocy. Zaciskam zęby i zamykam oczy. Przez moje ciało przebiegają dreszcze, coś we mnie buzuje… ogarnia mnie.\\n\\nBudzę się z szału,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.success_no_one_harmed",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[berserker_teacher.GetFirstName] by my side.\\n\\n",
+    "RUS": "[berserker_teacher.GetFirstName] стоит рядом со мной.\\n\\n«Вы продемонстрировали отличную ярость! У бревен не было ни единого шанса!» — усмехается [berserker_teacher.GetFirstNameNoTooltip].\\n\\nОчевидно, бешенство заставило меня работать всю ночь! По крайней мере, дров нам хватит на несколько недель...",
+    "POL": "[berserker_teacher.GetFirstName] jest przy mnie.\\n\\n„Przywołał[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] naprawdę imponującą furię! Te kłody nie miały szans!” – uśmiecha się [berserker_teacher.GetFirstNameNoTooltip].\\n\\nNajwyraźniej pracował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] w szaleństwie przez całą noc! Przynajmniej nie będzie nam brakowało drewna na opał przez kilka tygodni…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.success_harm_close_one",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[berserker_teacher.GetFirstName] grappling me by the shoulders.\\n\\n",
+    "RUS": "[berserker_teacher.GetFirstName] держит меня за плечи.\\n\\n«Придите в себя! [harmed_victim.GetFirstName] не враг вам!» — кричит [berserker_teacher.GetFirstNameNoTooltip].\\n\\nО [ROOT.GetCharacter.GetFaith.HighGodName], что же я [Select_CString(ROOT.Char.IsFemale, 'наделала', 'наделал' )]?!",
+    "POL": "[berserker_teacher.GetFirstName] chwyta mnie za ramiona.\\n\\n„Opamiętaj się! [harmed_victim.GetFirstName] nie jest twoim wrogiem” – krzyczy [berserker_teacher.GetFirstNameNoTooltip].\\n\\nNa [ROOT.GetCharacter.GetFaith.HighGodNamePossessive], co ja zrobił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]!?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.success_kill_berserker",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "[berserker_teacher.GetFirstNamePossessive] mangled corpse by my side. I look at my clenched fists, both are gripping bloodied axes...\\n\\nBy [ROOT.GetCharacter.GetFaith.HighGodName], what have I done!?",
+    "RUS": "[berserker_teacher.GetFirstName] грудой изувеченной плоти лежит у моих ног. Я смотрю на свои руки, сжимающие два окровавленных топора...\\n\\nО [ROOT.GetCharacter.GetFaith.HighGodName], что же я [Select_CString(ROOT.Char.IsFemale, 'наделала', 'наделал' )]?!",
+    "POL": "obok mnie leżą zbezczeszczone zwłoki. To [berserker_teacher.GetFirstName]! Patrzę na swoje zaciśnięte pięści, obie trzymają zakrwawiony topór…\\n\\nNa [ROOT.GetCharacter.GetFaith.HighGodNamePossessive], co ja zrobił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]!?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.success_kill_everyone",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "blood is all around me. Everyone is dead. #EMP Everyone is dead.#!\\n\\n#EMP What have I done!?#!",
+    "RUS": "всё вокруг залито кровью. Все мертвы. #EMP Все мертвы.#!\\n\\n#EMP Что же я [Select_CString(ROOT.Char.IsFemale, 'наделала', 'наделал' )]?!#!",
+    "POL": "wokół mnie jest pełno krwi. Wszyscy nie żyją. #EMP Wszyscy są martwi.#!.\\n\\n#EMP Co ja zrobił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]!?#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.fail_fall_asleep",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "feeling as refreshed as a newborn babe! [berserker_teacher.GetFirstName] look at me with a disapproving look.\\n\\n",
+    "RUS": "чувствуя себя так, словно [Select_CString(ROOT.Char.IsFemale, 'родилась', 'родился' )] заново! [berserker_teacher.GetFirstName] разочарованно смотрит на меня.\\n\\n«Хорошо поспали? А мне казалось, что в вас есть искра...» — говорит [berserker_teacher.GetFirstNameNoTooltip], качая головой.\\n\\nПолагаю, пелена безумия оказалась лишь сном!",
+    "POL": "czuję się orzeźwion[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] jak nowo narodzone dziecko! [berserker_teacher.GetFirstName] spogląda na mnie z dezaprobatą.\\n\\n– Miał[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] przyjemną drzemkę? A ja myślał[Select_CString(berserker_teacher.IsFemale, 'a', 'e' )]m, że masz to w sobie… – mówi [berserker_teacher.GetFirstNameNoTooltip], kręcąc głową.\\n\\nPrzypuszczam, że moje szaleństwo było tylko snem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "I can't wait for the next battle!",
+    "RUS": "С нетерпением жду следующего боя!",
+    "POL": "Nie mogę się doczekać następnej bitwy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "This must have been the work of [ROOT.Char.GetFaith.TricksterGodName]...",
+    "RUS": "Наверняка это всё [ROOT.Char.GetFaith.TricksterGodName]...",
+    "POL": "To musiało być dziełem [ROOT.Char.GetFaith.TricksterGodNamePossessive]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_yearly.2601.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_yearly_events_oltner_l_belarusian.json",
+    "ENG": "Oh well! At least I feel great!",
+    "RUS": "Что ж, хотя бы я отлично себя чувствую!",
+    "POL": "No cóż! Przynajmniej czuję się świetnie!",
+    "BEL": ""
+  }
+]

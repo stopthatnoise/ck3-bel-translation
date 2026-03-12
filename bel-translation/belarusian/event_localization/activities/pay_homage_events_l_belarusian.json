@@ -1,0 +1,714 @@
+[
+  {
+    "KEY": "pay_homage_header",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Homage:",
+    "RUS": "Почести:",
+    "POL": "Hołd:",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "RUS": "[homage_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "POL": "[homage_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I have arrived in [homage_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] to pay homage to you, glorious [homage_liege.GetTitleAsNameNoTooltip], as a show of my loyalty. \\n\\n",
+    "RUS": "Я во владении [homage_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], чтобы воздать вам почести, о [Select_CString(homage_liege.IsFemale, 'славная', 'славный' )] [homage_liege.GetTitleAsNameNoTooltip|l], и показать мою преданность. \\n\\n",
+    "POL": "Przybył[Select_CString(homage_vassal.IsFemale, 'am', 'em' )] do miejsca znanego jako [homage_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], aby złożyć Ci hołd, chwalebn[Select_CString(homage_liege.IsFemale, 'a Pani', 'y Panie' )], na znak mojej lojalności.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I hope my pledge of submission alone is evidence enough of my honor.",
+    "RUS": "Надеюсь, выказанная мной покорность послужит достаточным доказательством моей чести.",
+    "POL": "Mam nadzieję, że posłuszeństwo, które okazał[Select_CString(homage_vassal.IsFemale, 'am', 'em' )], będzie wystarczającym dowodem mojego honoru.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I bring you rich gifts worthy of your majesty, as a token of my good will and servitude.",
+    "RUS": "В знак доброй воли и преданности я приношу вам богатые дары, достойные вашего величия.",
+    "POL": "Przynoszę Ci wspaniałe dary, godne Twego majestatu, jako dowód mojej dobrej woli i oddania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "You have my word that I will do whatever it is you wish of me, my [homage_liege.GetLadyLord].",
+    "RUS": "Даю слово, что исполню любое ваше пожелание, [homage_liege.GetLadyLord].",
+    "POL": "Masz moje słowo, że zrobię wszystko, czego ode mnie zażądasz, [Select_CString(homage_liege.IsFemale, 'moja Pani', 'mój Panie' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "To mark your dominion and my fealty to you, I will pledge greater obligations as your vassal.",
+    "RUS": "В знак признания вашей власти и моей верности я увеличу свои вассальные обязательства.",
+    "POL": "Aby podkreślić twoje panowanie i moją lojalność wobec ciebie, podejmę większe zobowiązania jako [Select_CString(homage_vassal.IsFemale, 'Twoja wasalka', 'Twój wasal' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Show [homage_vassal.GetTitledFirstNameNoTooltip] in at once.",
+    "RUS": "Немедленно проводите [homage_vassal.GetHerHis].",
+    "POL": "Natychmiast [Select_CString(homage_vassal.IsFemale, 'ją', 'go' )] wprowadźcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "You receive [homage_vassal.GetTitledFirstName]",
+    "RUS": "Вы принимаете [Select_CString(homage_vassal.IsFemale, 'ее', 'его' )]",
+    "POL": "Przed twoim obliczem staje [homage_vassal.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetHerHis|U] scraping means nothing to me.",
+    "RUS": "[homage_vassal.GetHerHis|U] подачки ничего не значат.",
+    "POL": "[homage_vassal.GetHerHis|U] umizgi nic dla mnie nie znaczą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0001.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "You send [homage_vassal.GetTitledFirstName] away",
+    "RUS": "[homage_vassal.GetTitledFirstName] уходит",
+    "POL": "[homage_vassal.GetTitledFirstName] zostaje przez ciebie odesłan[Select_CString(homage_vassal.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0009.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[homage_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[homage_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I am not fooled by your [homage_vassal.Custom2('InsultAdjective', SCOPE.sC('homage_liege'))] act; a pledge of homage from you would mean nothing to me.",
+    "RUS": "Меня не так просто одурачить, [homage_vassal.Custom2('InsultAdjective', SCOPE.sC('homage_liege'))] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!",
+    "POL": "Nie zmydlisz mi oczu tym żałosnym pokazem. Twój hołd nie ma dla mnie najmniejszego znaczenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Outrageous!",
+    "RUS": "Возмутительно!",
+    "POL": "Oburzające!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Taking the Knee",
+    "RUS": "$pay_homage_header$ Преклонение колена",
+    "POL": "$pay_homage_header$ uklęknięcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.t.language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Double Entendre",
+    "RUS": "$pay_homage_header$ Двойная двусмысленность",
+    "POL": "$pay_homage_header$ dwuznaczna uwaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.t.clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Mortified",
+    "RUS": "$pay_homage_header$ Унижение",
+    "POL": "$pay_homage_header$ poniżenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.t.infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Objectified",
+    "RUS": "$pay_homage_header$ Влечение",
+    "POL": "$pay_homage_header$ uprzedmiotowienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.t.delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Tongue-Tied",
+    "RUS": "$pay_homage_header$ Косноязычие",
+    "POL": "$pay_homage_header$ oniemienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I wait patiently on my throne for the arrival of [homage_vassal.GetTitledFirstName], who is soon announced and ushered before me. \\n\\n",
+    "RUS": "Восседая на своем троне, я терпеливо жду, когда прибудет [homage_vassal.GetTitledFirstName] и склонится передо мной.\\n\\n",
+    "POL": "Siedząc na swoim tronie, cierpliwie czekam, aż [homage_vassal.GetTitledFirstName] przybędzie i pokłoni się przede mną.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetSheHe|U] kneels in deference, offering nothing but [homage_vassal.GetHerHis] oath to faithfully serve as a vassal of the [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "[homage_vassal.GetSheHe|U] преклоняет колено, не предлагая ничего, кроме обещания, что [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] всегда может рассчитывать на [homage_vassal.GetHerHis] верность.\\n\\n",
+    "POL": "Klęka z szacunkiem, nie oferując nic poza obietnicą, że [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] zawsze może liczyć na [homage_vassal.GetHerHis] lojalność.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetSheHe|U] kneels in deference, as attendants bring forth [homage_vassal.GetHerHis] gifts of coin and precious objects. The oath is taken, and scribes record [homage_vassal.GetHerHis] pledges to serve [homage_liege.GetPrimaryTitle.GetNameNoTooltip].\\n\\n",
+    "RUS": "[homage_vassal.GetSheHe|U] преклоняет колено, а слуги вносят [homage_vassal.GetHerHis] дары в виде денег и драгоценностей. Клятва принесена, и писцы записывают клятву верности и заверения, что [homage_liege.GetPrimaryTitle.GetNameNoTooltip] всегда может рассчитывать на [homage_vassal.GetHerHis] службу.\\n\\n",
+    "POL": "Klęka z szacunkiem, a [homage_vassal.Custom('PL_jego_jej')] świta przynosi dary w postaci monet i cennych przedmiotów. Przysięga zostaje złożona, a skrybowie zapisują śluby wierności i zobowiązanie świadczące o tym, że ziemie znane jako [homage_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogły liczyć na [homage_vassal.Custom('PL_jego_jej')] służbę.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetSheHe|U] kneels in deference, and, among [homage_vassal.GetHerHis] other oaths to serve [homage_liege.GetPrimaryTitle.GetNameNoTooltip], puts [homage_vassal.GetHerselfHimself] at my disposal and in my debt.\\n\\n",
+    "RUS": "[homage_vassal.GetSheHe|U] преклоняет колено и в числе клятв и заверений, что [homage_liege.GetPrimaryTitle.GetNameNoTooltip] всегда может рассчитывать на [homage_vassal.GetHerHis] верность, [homage_vassal.GetSheHe] заявляет, что считает себя в долгу передо мной.\\n\\n",
+    "POL": "Klęka w pokorze i, wśród innych swoich przysiąg mówiących o tym, że ziemie znane jako [homage_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogły liczyć na [homage_vassal.Custom('PL_jego_jej')] służbę, oddaje się do mojej dyspozycji i przyjmuje wobec mnie dług.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetSheHe|U] kneels in deference, and, among [homage_vassal.GetHerHis] other oaths to serve [homage_liege.GetPrimaryTitle.GetNameNoTooltip], offers me greater contributions as a vassal lord of the [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "[homage_vassal.GetSheHe|U] преклоняет колено и в числе клятв и заверений, что [homage_liege.GetPrimaryTitle.GetNameNoTooltip] всегда может рассчитывать на [homage_vassal.GetHerHis] верность, предлагает увеличить свои обязательства по отношению ко мне.\\n\\n",
+    "POL": "Klęka w pokorze i, wśród innych swoich przysiąg mówiących o tym, że ziemie znane jako [homage_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogły liczyć na [homage_vassal.Custom('PL_jego_jej')] służbę, ofiaruje mi zwiększenie wkładów jako wasal w regionie, którym jest [homage_vassal.Custom('PL_jego_jej')] [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Though the [homage_vassal.GetTitleAsNameNoTooltip] has clearly practiced the [homage_liege.GetCourtLanguage.GetNameNoTooltip] vows, [homage_vassal.GetSheHe] mispronounces several sections, humorously changing their meaning and leaving my courtiers stifling titters.",
+    "RUS": "Хотя [homage_vassal.GetTitleAsNameNoTooltip|l] несомненно [Select_CString(homage_vassal.IsFemale, 'училась', 'учился')] произносить клятвы на [homage_liege.GetCulture.GetCollectiveNounNoTooltip|l]ом языке, [Select_CString(homage_vassal.IsFemale, 'она', 'он')] ошибается в нескольких местах, подменяя их смысл и вызывая сдавленные смешки у моих придворных.",
+    "POL": "Chociaż [homage_vassal.GetTitleAsNameNoTooltip|l] kilkukrotnie ćwiczył[Select_CString( homage_vassal.IsFemale, 'a', '' )] przysięgę w tym języku, to jednak [homage_liege.GetCourtLanguage.GetNameNoTooltip|l] nadal sprawia [homage_vassal.GetHerHim] nieco problemów. Błędnie wymawia kilka fragmentów, co w humorystyczny sposób zmienia ich znaczenie i sprawia, że moi dworzanie ledwo tłumią swój chichot.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "As [homage_vassal.GetTitledFirstNameNoTooltip] stands, [homage_vassal.GetSheHe] stumbles awkwardly. The court gasps in unison as [homage_vassal.GetSheHe] falls, ending sprawled at my feet, cheeks flushed with embarrassment.",
+    "RUS": "Вставая, [homage_vassal.GetTitledFirstNameNoTooltip] неловко спотыкается. Двор дружно ахает, когда [homage_vassal.GetSheHe] падает у моих ног, покраснев от стыда.",
+    "POL": "Wstając, [homage_vassal.GetTitledFirstNameNoTooltip] potyka się niezręcznie. Dwór jednogłośnie wstrzymuje oddech, a [homage_vassal.GetSheHe] pada u moich stóp, rumieniąc się z zażenowania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_vassal.GetTitledFirstNameNoTooltip] rises, looking awkward. From the corner of my eye I notice my [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] [homage_infatuation.GetFullName] swooning, clearly besotted by the [homage_vassal.GetTitleAsNameNoTooltip]!",
+    "RUS": "[homage_vassal.GetTitledFirstNameNoTooltip] встает с чувством неловкости. Краем глаза я замечаю, что [Select_CString(homage_infatuation.IsFemale, 'моя', 'мой' )] [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] [homage_infatuation.GetFullName] просто млеет, не сводя с [Select_CString(homage_vassal.IsFemale, 'нее', 'него' )] глаз!",
+    "POL": "[homage_vassal.GetTitledFirstNameNoTooltip] podnosi się, wyglądając nieco niezręcznie. Kątem oka dostrzegam, że m[Select_CString( homage_infatuation.IsFemale, 'oja', 'ój' )] [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))], [homage_infatuation.GetFullName], jest pod szczególnym wrażeniem, jakie wywarł[Select_CString( homage_vassal.IsFemale, 'a', '' )] na ni[Select_CString( homage_infatuation.IsFemale, 'ej', 'm' )] [homage_vassal.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Things do not go well from the outset. [homage_vassal.Custom('GetHomageDeliveryDescLiege')]",
+    "RUS": "С самого начала все пошло не так. [homage_vassal.Custom('GetHomageDeliveryDescLiege')]",
+    "POL": "Od samego początku sprawy nie układają się najlepiej. [homage_vassal.Custom('GetHomageDeliveryDescLiege')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.desc.success",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "At last I bid the [homage_vassal.GetTitleAsNameNoTooltip] arise, confirming my satisfaction, and [homage_vassal.GetFirstNamePossessiveNoTooltip] rights to the lands [homage_vassal.GetSheHe] rules in my stead.",
+    "RUS": "Наконец я велю, чтобы [homage_vassal.GetTitleAsNameNoTooltip|l] [Select_CString(homage_vassal.IsFemale, 'встала', 'встал' )], сообщаю о своем довольстве и подтверждаю [Select_CString(homage_vassal.IsFemale, 'ее', 'его' )] право править землями от моего имени.",
+    "POL": "Na moje polecenie, [homage_vassal.GetTitleAsNameNoTooltip|l] w końcu powstaje, a ja wyrażam swoje zadowolenie i potwierdzam [homage_vassal.GetHerHis] prawa do ziem, którymi włada w moim imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.smooth.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Служите мне верой и правдой, [homage_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "„Służ mi dobrze, [homage_vassal.GetTitledFirstNameNoTooltip]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.smooth.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я принимаю ваши щедрые дары, [homage_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "„Przyjmuję twoje szczodre dary, [homage_vassal.GetTitledFirstNameNoTooltip]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.smooth.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне приятно знать, что я могу рассчитывать на вас, [homage_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "„Cieszę się, że mogę na ciebie liczyć, [homage_vassal.GetTitledFirstNameNoTooltip]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.smooth.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ваша служба бесценна, [homage_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "„Twoja służba jest nieoceniona, [homage_vassal.GetTitledFirstNameNoTooltip]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.faux_pas.language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Отличная попытка, [homage_vassal.GetFirstNameNoTooltip]. Это непростой язык».",
+    "POL": "„Dobra próba [homage_vassal.GetFirstNameNoTooltip]; to nie jest łatwy język”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.faux_pas.clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне важны лишь ваши клятвы».",
+    "POL": "„Liczą się dla mnie tylko wasze przysięgi”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.faux_pas.infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Кхм... думаю, мы закончили».",
+    "POL": "„Ekhem… myślę, że już wszystko zakończyliśmy”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.faux_pas.delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Важна ваша верность, а не ваш язык».",
+    "POL": "„Twoja przemowa nie ma znaczenia, liczy się twoja lojalność”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.insult.language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы #EMP вообще#! представляете, что только что сказали?»",
+    "POL": "„Masz #EMP jakiekolwiek#! pojęcie, co właśnie powiedział[Select_CString(homage_vassal.IsFemale, 'aś', 'eś' )]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.insult.clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ну и бессмыслица».",
+    "POL": "„Co za szopka”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.insult.infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Да как вы #EMP смеете#!? Вон!»",
+    "POL": "„Jak #EMP śmiesz#!? Precz!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0101.insult.delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Что #EMP это#! было?»",
+    "POL": "„Co to #EMP było#!?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Servants usher me into [homage_liege.GetTitledFirstNamePossessiveRegnal] great hall in [homage_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip], where [homage_liege.GetSheHe] sits [homage_liege.GetHerHis] throne waiting to hear my pledge.\\n\\n",
+    "RUS": "Слуги проводят меня в главный зал владения [homage_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]. [homage_liege.GetTitledFirstNameRegnal|U] восседает на своем троне в ожидании моих изъявлений покорности.\\n\\n",
+    "POL": "Słudzy wprowadzają mnie do wielkiej sali na terenie miejsca znanego jako [homage_liege.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip], w której na tronie siedzi [homage_liege.GetTitledFirstNameRegnal] i wyczekuje, aż złożę hołd.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I kneel before [homage_liege.GetHerHim] and recite the [homage_liege.GetCourtLanguage.GetNameNoTooltip] oaths I have practiced, but the half-concealed chuckles of the court make it clear my tongue needs more practice in my liege's court language...\\n\\n",
+    "RUS": "Я преклоняю колено и повторяю клятвы, на заучивание которых у меня ушло столько времени, но приглушенные смешки придворных ясно показывают, что мне нужно еще попрактиковаться в языке, на котором говорит двор моего сюзерена и подучить [homage_liege.GetCourtLanguage.GetNameNoTooltip]...\\n\\n",
+    "POL": "Klękam przed ni[Select_CString( homage_liege.IsFemale, 'ą', 'm' )] i recytuję wyćwiczone przysięgi w języku dworu swojego seniora, jednakże na wpół skrywane śmiechy dworzan dają mi do zrozumienia, że muszę podszkolić język [homage_liege.GetCourtLanguage.GetNameNoTooltip|l]…\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I go to kneel before [homage_liege.GetHerHim], but in my haste awkwardly stumble in a heap at [homage_liege.GetHerHis] feet. I haul myself up and make the oaths all the same, my cheeks burning red before the assembled court...\\n\\n",
+    "RUS": "Я собираюсь преклонить колено, но спотыкаюсь и падаю у [homage_liege.GetHerHis] ног. Я все равно поднимаюсь и произношу клятву, но мои щеки пылают от стыда за случившееся на виду у всего двора...\\n\\n",
+    "POL": "Ruszam, by uklęknąć, ale w pośpiechu potykam się i padam na ziemię u [homage_liege.Custom('PL_jego_jej')] stóp. Podnoszę się i składam przysięgę, a moje policzki płoną czerwienią przed zgromadzonym dworem…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I kneel before [homage_liege.GetHerHim] and begin. As I recount the oaths, I catch the eye of [homage_infatuation.GetFullName], [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] to [homage_liege.GetFirstNameNoTooltip], who smiles invitingly, with a deliberate wink. Looking back at my liege, I am met with [homage_liege.GetHerHis] glare! I wrap up the speech, averting my eyes as the court mutters their gossip...\\n\\n",
+    "RUS": "Я преклоняю колено и начинаю произносить слова клятвы. На полуслове я замечаю, что [homage_infatuation.GetFullName], [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] моего сюзерена, приглашающе улыбается мне и подмигивает. Переводя глаза обратно на сюзерена, я сталкиваюсь с [homage_liege.GetHerHis] свирепым взглядом! Я скомканно заканчиваю речь и отвожу глаза, а придворные уже начинают перешептываться между собой...\\n\\n",
+    "POL": "Klękam przed [Select_CString( homage_liege.IsFemale, 'nią', 'nim' )] i zaczynam swoje przemówienie. W połowie składania przysiąg spostrzegam, że [homage_infatuation.GetFullName], [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] [Select_CString( homage_liege.IsFemale, 'mojej pani', 'mojego pana' )], uśmiecha się kusząco i puszcza do mnie oczko. Szybko odwracam wzrok, ale już widzę, że [homage_liege.GetFirstNameNoTooltip] przeszywa mnie gniewnym spojrzeniem! Kończę przemowę i spuszczam głowę, a obecni dworzanie już zaczynają szeptać między sobą…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I kneel before [homage_liege.GetHerHim] and begin uttering the oaths, but things quickly fall apart. [homage_vassal.Custom('GetHomageDeliveryDescVassal')]\\n\\n",
+    "RUS": "Я преклоняю колено и начинаю произносить клятвы, но все идет не по плану. [homage_vassal.Custom('GetHomageDeliveryDescVassal')]\\n\\n",
+    "POL": "Klękam przed ni[Select_CString( homage_liege.IsFemale, 'a', 'm' )] i zaczynam składać przysięgę, jednakże nie wszystko idzie zgodnie z planem. [homage_vassal.Custom('GetHomageDeliveryDescVassal')]\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.success",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I kneel at the feet of my [homage_liege.GetLadyLord] and pledge the many oaths of homage, as [homage_liege.GetHerHis] scribes record the event.\\n\\n",
+    "RUS": "Я преклоняю колено у ног [Select_CString(homage_liege.IsFemale, 'моей госпожи', 'моего господина' )] и произношу клятвы верности, а [homage_liege.GetHerHis] писцы тщательно все записывают.\\n\\n",
+    "POL": "Klękam u stóp moje[Select_CString( homage_liege.IsFemale, 'j pani', 'go pana' )] i składam liczne przyrzeczenia hołdu, podczas gdy [homage_liege.GetHerHis] skrybowie zapisują to wydarzenie.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "With that, the ceremony is complete; I have nothing to offer my [homage_liege.GetTitleAsNameNoTooltip] except my promise to faithfully serve as a vassal of the [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "На этом церемония завершается. Мне нечего предложить, кроме обещания быть верным вассалом.\\n\\n",
+    "POL": "W ten sposób ceremonia została zakończona. [homage_liege.GetTitleAsNameNoTooltip] otrzymuje ode mnie obietnicę, że będę wiernie służyć jako wasal, jakiego potrzebuje [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "My attendants then follow, presenting my rich gifts to the [homage_liege.GetTitleAsNameNoTooltip] before the assembled court.\\n\\n",
+    "RUS": "Затем подходит моя свита и преподносит богатые дары на виду у собравшихся придворных.\\n\\n",
+    "POL": "Następnie moi towarzysze podążają za nimi, by w obecności dworu złożyć moje obfite dary.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Then comes my promise, that [homage_liege.GetSheHe] may call on me for any favor, as a loyal supporter of the [homage_liege.GetTitleAsNameNoTooltip] in all [homage_liege.GetHerHis] endeavors.\\n\\n",
+    "RUS": "А затем я добавляю обещание, что [homage_liege.GetSheHe] может просить меня о любом одолжении, ведь [homage_liege.GetTitleAsNameNoTooltip|l] всегда найдет у меня поддержку любых начинаний.\\n\\n",
+    "POL": "Potem przychodzi moja obietnica, że będzie [Select_CString(homage_liege.IsFemale, 'mogła', 'mógł' )] poprosić mnie o jakąkolwiek przysługę, jako [Select_CString(homage_liege.IsFemale, 'swą lojalną popleczniczkę', 'swego lojalnego poplecznika' )] we wszystkich swoich przedsięwzięciach.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Then comes my gift; I affirm that will increase my contributions to the [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip] as a sign of my loyalty and for the good of the crown.\\n\\n",
+    "RUS": "Затем наступает время моего дара. Я заявляю, что увеличиваю свои вассальные обязательства в знак своей верности и ради блага короны.\\n\\n",
+    "POL": "I wtedy przekładam swój dar; zapewniam, że [homage_liege.GetPrimaryTitle.GetTierAsNameNoTooltip|l] może liczyć na moją lojalność i znak tego zwiększę swoje zobowiązania dla dobra korony.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.insult_language",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.GetFirstNameNoTooltip] looks at me sternly, then erupts with laughter, parroting my mispronounced pledges in a poor [homage_vassal.GetCulture.GetLanguage.GetNameNoTooltip] accent...",
+    "RUS": "[homage_liege.GetFirstNameNoTooltip] сурово смотрит на меня, а затем взрывается смехом, передразнивая мой [homage_vassal.GetCulture.GetLanguage.GetNameNoTooltip|l] акцент и неправильно произнесенные клятвы...",
+    "POL": "[homage_liege.GetFirstNameNoTooltip] patrzy na mnie surowo, a potem wybucha śmiechem, papugując mój [homage_vassal.GetCulture.GetLanguage.GetNameNoTooltip|l] akcent, w którym błędnie wymawiam swoje przyrzeczenia…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.insult_clumsy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.GetFirstNameNoTooltip] grins broadly behind [homage_liege.GetHerHis] hand, as the court slowly fills with laughter. This is how I will be remembered...",
+    "RUS": "[homage_liege.GetFirstNameNoTooltip] широко ухмыляется, прикрывая лицо ладонью, а по двору распространяется волна смеха. Вот, значит, как меня запомнят...",
+    "POL": "[homage_liege.GetFirstNameNoTooltip] uśmiecha się szeroko zza swojej dłoni, a dwór powoli wypełnia się śmiechem. Tak zostanę zapamiętan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.insult_infatuation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.GetFirstNameNoTooltip] looks at [homage_liege.GetHerHis] [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] angrily, and dismisses me from the chamber without recognition.",
+    "RUS": "[homage_liege.GetFirstNameNoTooltip] бросает сердитый взгляд в сторону, где стоит [homage_liege.GetHerHis] [SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))], а затем отсылает меня прочь, не обращая внимания на мои клятвы.",
+    "POL": "[SCOPE.sC('homage_liege').Custom2('RelationToMeShort', SCOPE.sC('homage_infatuation'))] ugina się pod gniewnym spojrzeniem, jakie rzuca [homage_liege.GetFirstNameNoTooltip]. Następnie wyprasza się mnie z komnat.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.insult_delivery",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.GetFirstNameNoTooltip] bowls over, cackling as [homage_liege.GetSheHe] recounts parts of my speech in detail...",
+    "RUS": "[homage_liege.GetFirstNameNoTooltip] сгибается от смеха и в подробностях пересказывает отдельные части моей речи...",
+    "POL": "[homage_liege.GetFirstNameNoTooltip] pochyla się do przodu chichocząc, gdy szczegółowo opowiada fragmenty mojego przemówienia…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.brush_off",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "To my surprise, [homage_liege.GetFirstNameNoTooltip] acts almost as if nothing had happened, and accepts my homage with grace.\\n\\n",
+    "RUS": "К моему изумлению, [homage_liege.GetFirstNameNoTooltip] делает вид, что ничего не произошло, и великодушно принимает мои клятвы.\\n\\n",
+    "POL": "Ku mojemu zaskoczeniu [homage_liege.GetFirstNameNoTooltip] zachowuje się niemal tak, jakby nic się nie stało i z wdziękiem przyjmuje mój hołd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[homage_liege.GetFirstNameNoTooltip] bids me to arise, and confirms [homage_liege.GetHerHis] satisfaction, along with my rights to the lands I rule in [homage_liege.GetHerHis] stead.",
+    "RUS": "[homage_liege.GetFirstNameNoTooltip] велит мне подняться и сообщает о своем довольстве, а также подтверждает мое право управлять землями от [homage_liege.GetHerHis] имени.",
+    "POL": "[homage_liege.GetFirstNameNoTooltip] rozkazuje mi wstać i potwierdza swoje zadowolenie, a także moje prawa do ziem, którymi władam w [homage_liege.GetHerHis] zastępstwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.smooth.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Hail the [homage_liege.GetTitleAsNameNoTooltip].",
+    "RUS": "Да здравствует [homage_liege.GetTitleAsNameNoTooltip|l].",
+    "POL": "Niech żyje [homage_liege.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.smooth.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "The price of fealty...",
+    "RUS": "Цена верности...",
+    "POL": "Cena za lojalność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.smooth.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Let us hope it is a small favor...",
+    "RUS": "Будем надеяться, что одолжение будет небольшим...",
+    "POL": "Oby to była drobna przysługa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.smooth.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "The burdens of service...",
+    "RUS": "Бремя службы...",
+    "POL": "Ciężar służby…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.faux_pas",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "A just liege after all.",
+    "RUS": "Все же сюзерен справедлив.",
+    "POL": "W końcu to sprawiedliwy władca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0201.insult",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I should never have come.",
+    "RUS": "Не стоило приходить сюда.",
+    "POL": "Nie powin[Select_CString( ROOT.Char.IsFemale, 'nam była', 'ienem był' )] przyjeżdżać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_stutter_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] barely reaches halfway through a sentence before [ROOT.Char.GetHerHis] stammer cuts [ROOT.Char.GetHerHim] short. My pained courtiers watch [ROOT.Char.GetHerHis] valiant attempts to conquer [ROOT.Char.GetHerHis] voice.",
+    "RUS": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] успевает произнести половину предложения, а затем [ROOT.Char.GetHerHis] речь обрывается заиканием. Мои придворные мучительно следят за [ROOT.Char.GetHerHis] отважными попытками совладать с собственным голосом.",
+    "POL": "[ROOT.Char.GetTitledFirstNameNoTooltip] ledwie dochodzi do połowy zdania, po czym przerywa swoją wypowiedź z powodu jąkania. Moi dworzanie z niepokojem obserwują [ROOT.Char.GetHerHis] dzielne próby opanowania głosu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_lisp_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] speech is... memorable. [ROOT.Char.GetHerHis] sigmatism takes the edge off its gravity, as [ROOT.Char.GetSheHe] navigates its many sibilant sounds, and tries to ignore the giggles of my less generous courtiers.",
+    "RUS": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] произносит речь, которая... запоминается. [ROOT.Char.GetHerHis] косноязычие снижает весомость речи, особенно когда [ROOT.Char.GetSheHe] пытается продраться через многочисленные шипящие звуки, игнорируя смешки моих менее снисходительных придворных.",
+    "POL": "[ROOT.Char.GetTitledFirstNameNoTooltip] przemawia w sposób… pamiętny. [ROOT.Char.GetHerHis] seplenienie odbiera powagi wypowiadanym przez [Select_CString( ROOT.Char.IsFemale, 'nią', 'niego' )] słowom, jednakże stara się ignorować szyderstwa ze strony moich mniej wielkodusznych dworzan.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_wheeze_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNameNoTooltip] is an interesting one. Clearly nervous of the spectacle, and excited by their hurried arrival, [ROOT.Char.GetSheHe] seems to struggle even to breath, rasping through the speech between breaks for air.",
+    "RUS": "[ROOT.Char.GetTitledFirstNameNoTooltip|U] явно нервничает, [Select_CString(ROOT.Char.IsFemale, 'ей', 'ему')] никак не прийти в себя после спешного прибытия. [Select_CString(ROOT.Char.IsFemale, 'Она', 'Он')] до сих пор не может перевести дух и после каждой фразы судорожно глотает воздух.",
+    "POL": "[ROOT.Char.GetTitledFirstNameNoTooltip] jest interesującym przypadkiem. Widać, że denerwuje się całym tym przedstawieniem i wciąż nie może się otrząsnąć po szybkim przybyciu na miejsce. Z trudem oddycha i między haustami powietrza wychrypuje strzępki zdań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_slow_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] speech is... not good. [ROOT.Char.GetSheHe] loses [ROOT.Char.GetHerHis] train of thought at several points, rambling into tangents, and misunderstanding or mispronouncing some of the most important words.",
+    "RUS": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] произносит речь... далекую от идеала. [ROOT.Char.GetSheHe] несколько раз сбивается с мысли, то и дело уходит в ненужные рассуждения и неправильно толкует и произносит несколько важных слов.",
+    "POL": "Przemówienie, które wygłosił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] [ROOT.Char.GetTitledFirstNameNoTooltip] jest… kiepskie. W kilku momentach gubi swój tok myślenia, miesza wątki i nie rozumie lub źle wymawia niektóre z najważniejszych słów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_inconceivable_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] speech is... interesting. [ROOT.Char.GetSheHe|U] inserts archaic language and weighty words [ROOT.Char.GetSheHe] clearly has no notion of the real meaning of, doubling the length and my more learned courtiers over.",
+    "RUS": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] произносит речь... интересным образом. [ROOT.Char.GetSheHe] вставляет цитаты на древнем языке, смысла которых явно не понимает, удваивая длину своей речи и заставляя моих более образованных придворных покатываться со смеху.",
+    "POL": "[ROOT.Char.GetTitledFirstNameNoTooltip] wygłasza przemówienie, które było… ciekawe. Przeplata archaiczne wyrażenia i ważkie słowa, których prawdziwego znaczenia najwyraźniej nie zna, co przedłuża [ROOT.Char.GetHerHis] mowę i jednocześnie sprawia, że moi bardziej wykształceni dworzanie niemalże turlają się ze śmiechu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_stutter_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I have barely begun the first pledge when my stammer cuts me short. I eventually push on as the court watches with mirth and embarrassment, but the day is marked by my affliction.",
+    "RUS": "Я едва успеваю произнести половину первого предложения, как начинаю заикаться. Пересилив себя, я продолжаю речь, а двор наблюдает за этим со смесью радости и смущения. Этот день запомнится моим прискорбным состоянием.",
+    "POL": "Ledwo udaje mi się przebrnąć przez połowę pierwszego zdania przysięgi, a już zaczynam się jąkać. Z trudem przełamuję blokadę i kontynuuję swoją mowę, podczas gdy cały dwór obserwuje to jednocześnie ze śmiechem i zażenowaniem. Ten dzień zostanie zapamiętany ze względu na mój niefortunny stan.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_lisp_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "My speech is punctuated by stifled giggles as I try my best to enunciate around my lisp, detracting from the weight of the ceremony and my pledge.",
+    "RUS": "Моя речь сопровождается приглушенными смешками, пока я пытаюсь совладать со своим пришепётыванием и не обращать внимания на важность церемонии и моих клятв.",
+    "POL": "Staram się mówić jak najlepiej potrafię, a mimo to moje przemówienie jest przerywane stłumionymi chichotami. Moje seplenienie umniejsza nie tylko wagę ceremonii, ale także składane przeze mnie przyrzeczenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_wheeze_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I struggle to find the breath as my heart races faster, and rushing to finish the speech only makes things worse. It is not a speech to remember.",
+    "RUS": "Я с трудом перевожу дыхание, а сердце бьется все чаще, и мои попытки поскорее покончить с речью только все портят. Это явно не лучшая из речей.",
+    "POL": "Walczę o oddech, serce bije mi coraz szybciej, a pośpiech, by jak najszybciej dokończyć przemówienie, tylko pogarsza sytuację. To nie jest mowa godna zapamiętania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_slow_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I do my best, but the raised eyebrows and looks of my liege and the court tell me my efforts have been amusing rather than momentous.",
+    "RUS": "Я прилагаю все усилия, но приподнятые брови и выражения лиц сюзерена и придворных показывают, что мои усилия скорее позабавили их, чем произвели впечатление.",
+    "POL": "Robię, co w mojej mocy, ale uniesione brwi i spojrzenia mojego seniora i dworu mówią mi, że moje wysiłki były raczej zabawne niż doniosłe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "homage_delivery_inconceivable_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "I pull out all the stops, meeting the occasion and impressing the court with my great vocabulary, though... the reaction is not exactly what I hoped for.",
+    "RUS": "Я даю волю языку и пытаюсь впечатлить собравшийся двор своим богатым словарным запасом, только вот... их реакция не соответствует моим ожиданиям.",
+    "POL": "Robię wszystko, co w mojej mocy, by sprostać okazji i zaimponować dworowi swoim wspaniałym słownictwem, choć… reakcja nie jest dokładnie taka, na jaką liczył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_header$ Invalidated",
+    "RUS": "$pay_homage_header$ — недействительно",
+    "POL": "$pay_homage_header$ unieważnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.court",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "With my coronation as [ROOT.Char.GetTitleAsNameNoTooltip] complete, my preparations to pay homage are no longer necessary...",
+    "RUS": "Теперь я [ROOT.Char.GetTitleAsNameNoTooltip|l], а это значит, что больше не нужно готовиться к воздаянию почестей...",
+    "POL": "Jako że tytułują mnie już jako [ROOT.Char.GetTitleAsNameNoTooltip|l], moje przygotowania do złożenia hołdu są już zbyteczne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] threw me into jail.",
+    "RUS": "$pay_homage.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] бросает меня в темницу",
+    "POL": "$pay_homage.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] wtrącił[Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'a', '' )] mnie do więzienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ I was captured by [ROOT.Char.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$pay_homage.0601_shared_intro$ Меня держит в плену [ROOT.Char.GetImprisonedBy.GetTitledFirstName].",
+    "POL": "$pay_homage.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] [Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'wzięła', 'wziął' )] mnie do niewoli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.liege_dead_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ I ended up killing [homage_liege.GetTitledFirstName]... \\n\\n",
+    "RUS": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] [Select_CString(homage_liege.IsFemale, 'пала', 'пал' )] от моей руки... \\n\\n",
+    "POL": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] zgin[Select_CString( homage_liege.IsFemale, 'ęła', 'ął' )] z mojej ręki…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.liege_dead",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] [homage_liege.GetDeathReasonHideKiller]... \\n\\n",
+    "RUS": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] [homage_liege.GetDeathReasonHideKiller]... \\n\\n",
+    "POL": "$pay_homage.0601_shared_intro$ osoba znana jako [homage_liege.GetTitledFirstName] [homage_liege.GetDeathReasonHideKiller]… \\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.liege_imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ I ended up capturing [homage_liege.GetTitledFirstName]!",
+    "RUS": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] теперь у меня в плену!",
+    "POL": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] jest teraz moim więźniem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.liege_imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] was captured by [homage_liege.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$pay_homage.0601_shared_intro$[homage_liege.GetTitledFirstName] находится в плену у персонажа [homage_liege.GetImprisonedBy.GetTitledFirstName].",
+    "POL": "$pay_homage.0601_shared_intro$ [homage_liege.GetTitledFirstName] jest trzyman[Select_CString( homage_liege.IsFemale, 'a', 'y' )] w niewoli przez postać [homage_liege.GetImprisonedBy.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc.new_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "If I am to pledge, it must be directed to my new liege, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "RUS": "Если я хочу воздать почести, то пусть их получает новый сюзерен, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "POL": "Jeśli mam złożyć przyrzeczenie, jego adresatem musi być mój nowy senior, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601_shared_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Just as I was putting the final touches on my oath of homage,",
+    "RUS": "Я вношу последние штрихи в свою клятву верности, когда",
+    "POL": "Kończę właśnie ostatnie przygotowania do złożenia hołdu, gdy nagle",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "\\n\\nThis certainly changes the situation.",
+    "RUS": "\\n\\nЭто определенно все меняет.",
+    "POL": "\\n\\nTo z pewnością zmienia sytuację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.a_court",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Onward, to greater things.",
+    "RUS": "Вперед к славе.",
+    "POL": "Naprzód ku chwale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.a_prison",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Drat.",
+    "RUS": "Тьфу ты.",
+    "POL": "A niech to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.a_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Most vexing...",
+    "RUS": "Весьма досадно...",
+    "POL": "Niezwykle irytujące…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage.0601.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "Time to rethink things...",
+    "RUS": "Пора все обдумать...",
+    "POL": "Czas przemyśleć pewne sprawy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_homage_costs_refunded",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pay_homage_events_l_belarusian.json",
+    "ENG": "$pay_homage_decision$ costs refunded",
+    "RUS": "$pay_homage_decision$ — затраты возмещены",
+    "POL": "Zwrot kosztów za decyzję „$pay_homage_decision$”",
+    "BEL": ""
+  }
+]

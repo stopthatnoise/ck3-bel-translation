@@ -1,0 +1,962 @@
+[
+  {
+    "KEY": "JAPANESE_REGENT_FACTION_WAR",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "War to Install [CLAIMANT.GetTitledFirstName] as Regent",
+    "RUS": "Война за установления персонажа [CLAIMANT.GetTitledFirstName] регентом",
+    "POL": "Wojna o obsadzenie osoby znanej jako [CLAIMANT.GetTitledFirstName] w roli regenta",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Install $game_concept_ceremonial_regent$",
+    "RUS": "Установление церемониального регента",
+    "POL": "Zwolennicy Obsadzenia Regenta Panującego",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$replace_ceremonial_regent_faction_war_name$",
+    "RUS": "$replace_ceremonial_regent_faction_war_name$",
+    "POL": "$replace_ceremonial_regent_faction_war_name$",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_victory_defender_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "You will be [imprisoned|E] and have all land confiscated by [attacker.GetShortUIName].",
+    "RUS": "Вы будете [Concept('imprisoned', 'арестованы')|E], и [attacker.GetShortUIName] конфискует все ваши земли",
+    "POL": "Czeka cię [Concept('imprisoned', 'uwięzienie')|E], a wszystkie twoje ziemie skonfiskuje [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will be [imprisoned|E] and have all land confiscated by [attacker.GetShortUIName].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'окажетесь', 'окажется')] [Concept('imprisoned', 'в заключении')|E], и [attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'конфискуете', 'конфискует' )] все [Select_CString(defender.IsLocalPlayer, 'ваши', Select_CString(defender.IsFemale, 'ее', 'его' ))] земли",
+    "POL": "Osoba znana jako [defender.GetShortUINameNotMe] będzie [Concept('imprisoned', 'więziona')|E], a wszystkie jej ziemie skonfiskuje [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_white_peace_defender_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "You keep your [titles|E] and get a [truce|E] with every rebelling [vassal|E].",
+    "RUS": "Вы сохраняете все [Concept('titles', 'титулы')|E] и заключаете [Concept('truce', 'перемирие')|E] со всеми мятежными [Concept('vassal', 'вассалами')|E].",
+    "POL": "Zachowujesz swoje [titles|El] i zawierasz [truce|El] z każdym zbuntowanym [Concept('vassal', 'wasalem')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] keeps [defender.GetHerHis] [titles|E]. A [revoke_title_reason|E] is given on every rebelling [vassal|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохранили', Select_CString(defender.IsFemale, 'сохранила', 'сохранил'))] свои [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'получили', Select_CString(defender.IsFemale, 'получила', 'получил'))] [revoke_title_reason|El] каждого мятежного [Concept('vassal', 'вассала')|E].",
+    "POL": "[defender.GetShortUINameNotMe] zachowuje wszystkie swoje [titles|El]. Przyznawany jest [revoke_title_reason|El] dotyczący każdego zbuntowanego [Concept('vassals', 'wasala')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_defeat_defender_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "You keep your [titles|E] and imprison all rebelling [vassals|E].",
+    "RUS": "Вы сохраняете [Concept('titles', 'титулы')|E] и заключаете всех мятежных [Concept('vassals', 'вассалов')|E] в тюрьму.",
+    "POL": "Zachowujesz wszystkie swoje [titles|El] i więzisz wszystkich zbuntowanych [Concept('vassals', 'wasali')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "replace_ceremonial_regent_faction_war_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] keeps [defender.GetHerHis] [titles|E] and imprisons all rebelling [vassals|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохранили', Select_CString(defender.IsFemale, 'сохранила', 'сохранил' ))] свои [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'заключили', Select_CString(defender.IsFemale, 'заключила', 'заключил' ))] всех мятежных [Concept('vassals', 'вассалов')|E] в тюрьму.",
+    "POL": "[defender.GetShortUINameNotMe] zachowuje swoje [titles|El] i więzi wszystkich zbuntowanych [Concept('vassals', 'wasali')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPANESE_RESTORE_EMPEROR_FACTION_WAR",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "War to Restore [CLAIMANT.GetTitledFirstName]",
+    "RUS": "Война за восстановление власти персонажа [CLAIMANT.GetTitledFirstName]",
+    "POL": "[CLAIMANT.GetTitledFirstName] i walka o [CLAIMANT.Custom('PL_jego_jej')] przywrócenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Restore $game_concept_ceremonial_liege$",
+    "RUS": "Восстановить церемониального сюзерена",
+    "POL": "Zwolennicy Przywrócenia Monarchy Ceremonialnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$restore_ceremonial_liege_faction_war_name$",
+    "RUS": "$restore_ceremonial_liege_faction_war_name$",
+    "POL": "$restore_ceremonial_liege_faction_war_name$",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will keep all [titles|E]. A [revoke_title_reason|E] is given on every rebelling [vassal|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохраните', 'сохранит')] свои [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'получите', 'получит')] [revoke_title_reason|El] каждого мятежного [Concept('vassal', 'вассала')|E].",
+    "POL": "[defender.GetShortUINameNotMe] zachowa wszystkie [titles|El]. Przyznawany jest [revoke_title_reason|El] dotyczący każdego zbuntowanego [Concept('vassals', 'wasala')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [faction|E] is disbanded, [attacker.GetShortUIName] and other rebels are [imprisoned|E]. [claimant.GetTitledFirstName] is deposed.",
+    "RUS": "[Concept('faction', 'Фракция')|E] распущена, [attacker.GetShortUIName] и остальные мятежники [Concept('imprisoned', 'отправлены в темницу')|E], а [claimant.GetShortUIName|U] [Concept('deposed', Select_CString(claimant.IsLocalPlayer, 'свергнуты', Select_CString(claimant.IsFemale, 'свергнута', 'свергнут' )))|E].",
+    "POL": "[faction|E] zostaje rozwiązana, a [attacker.GetShortUINameNotMe] i inni buntownicy zostają [Concept('imprisoned', 'uwięzieni')|E]. Osoba znana jako [claimant.GetTitledFirstName] traci swoje stanowisko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war_defeat_end_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[claimant.GetTitledFirstName] is deposed.",
+    "RUS": "[claimant.GetShortUIName|U] [Concept('deposed', Select_CString(claimant.IsLocalPlayer, 'свергнуты', Select_CString(claimant.IsFemale, 'свергнута', 'свергнут' )))|E].",
+    "POL": "Osoba znana jako [claimant.GetTitledFirstName] traci swoje stanowisko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_ceremonial_liege_faction_war_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will lose all [titles|E], be [imprisoned|E], and be deposed.",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'будете', 'будет')] [claimant.GetShortUIName|U] [Concept('deposed', Select_CString(defender.IsLocalPlayer, 'свергнуты', Select_CString(defender.IsFemale, 'свергнута', 'свергнут' )))|E], [Select_CString(defender.IsLocalPlayer, ' потеряете', 'потеряет')] все [Concept('titles', 'титулы')|E] и [Select_CString(defender.IsLocalPlayer, 'отправитесь', 'отправится')] [Concept('imprisoned', 'в темницу')|E].",
+    "POL": "Osoba znana jako [defender.GetShortUINameNotMe] straci wszystkie [titles|El] i stanowisko, a ponadto zostanie [Concept('imprisoned', 'uwięziona')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_install_bloc_member_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Bloc Expansion",
+    "RUS": "Расширение блока",
+    "POL": "Ekspansja koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_INSTALL_BLOC_MEMBER_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip] [bloc_expansion|E]",
+    "RUS": "[bloc_expansion|E] [ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip]",
+    "POL": "[bloc_expansion|E] rodu [ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetConfederation.GetName] Expansion War",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Война за расширение конфедерации [ATTACKER.GetConfederation.GetName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wojna o ekspansję (strona atakująca: [ATTACKER.GetConfederation.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_install_bloc_member_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] will seize the contested [titles|E] for the [attacker.GetConfederation.GetName], and decide how to distribute them.",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'захватите', 'захватит')] оспариваемые конфедерацией [attacker.GetConfederation.GetName] [Concept('titles', 'титулы')|E] и [Select_CString(attacker.IsLocalPlayer, 'решите', 'решит')], как распределять их.",
+    "POL": "[attacker.GetShortUINameNotMe] przejmie sporne [titles|El] dla konfederacji o nazwie [attacker.GetConfederation.GetName] i zadecyduje, jak je rozdysponować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_install_bloc_member_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will defend [defender.GetHerHis] lands.",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'будете', 'будет')] защищать свои земли.",
+    "POL": "[defender.GetShortUINameNotMe] będzie bronić swoich ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_install_bloc_member_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] [CharAreIs(attacker)] humiliated.",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'унижены', Select_CString(attacker.IsFemale, 'унижена', 'унижен' ))].",
+    "POL": "[attacker.GetShortUINameNotMe] doświadcza upokorzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_install_bloc_member_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_install_bloc_member_cb$ was invalidated",
+    "RUS": "Повод для войны «$japan_install_bloc_member_cb$» более не действителен",
+    "POL": "Cel „$japan_install_bloc_member_cb$” został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$",
+    "RUS": "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$",
+    "POL": "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_DUCHY_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_feudal_government$ [duchy|E] Conquest of [TITLE.GetBaseNameNoTier]",
+    "RUS": "$japan_feudal_government$: завоевание [Concept('duchy', 'герцогства')|E] [TITLE.GetBaseNameNoTier]",
+    "POL": "Podbój miejsca znanego jako [TITLE.GetBaseNameNoTier] przez [duchy|El] sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_COUNTY_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_feudal_government$ [county|E] Conquest of [TITLE.GetBaseNameNoTier]",
+    "RUS": "$japan_feudal_government$: завоевание [Concept('county', 'графства')|E] [TITLE.GetBaseNameNoTier]",
+    "POL": "Podbój miejsca znanego jako [TITLE.GetBaseNameNoTier] przez [county|El] sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_feudal_government$ Conquest",
+    "RUS": "$japan_feudal_government$: завоевание",
+    "POL": "Podbój sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! завоевание владения [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]podbój (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] kontra [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$ORDER$ [ATTACKER.GetHouse.GetName] Conquest of [TITLE.GetBaseNameNoTier]",
+    "RUS": "$ORDER$ [ATTACKER.GetHouse.GetName]: завоевание владения [TITLE.GetBaseNameNoTier]",
+    "POL": "$ORDER$ podbój (strona atakująca: [ATTACKER.GetHouse.GetName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_SORYO_CONQUEST_LANDLESS_COUNTY_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_feudal_government$ [county|E] Conquest of [TITLE.GetBaseNameNoTier]",
+    "RUS": "$japan_feudal_government$: завоевание [Concept('county', 'графства')|E] [TITLE.GetBaseNameNoTier]",
+    "POL": "Podbój miejsca znanego jako [TITLE.GetBaseNameNoTier] przez [county|El] sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_county_landless_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_soryo_conquest_cb$",
+    "RUS": "$japan_soryo_conquest_cb$",
+    "POL": "$japan_soryo_conquest_cb$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_county_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_soryo_conquest_cb$",
+    "RUS": "$japan_soryo_conquest_cb$",
+    "POL": "$japan_soryo_conquest_cb$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_duchy_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$japan_soryo_conquest_cb$",
+    "RUS": "$japan_soryo_conquest_cb$",
+    "POL": "$japan_soryo_conquest_cb$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$ was invalidated",
+    "RUS": "Повод для войны «$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$» более не действителен",
+    "POL": "Cel „$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$” został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_soryo_conquest_cb_admin_warning",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "\\n@warning_icon!#X Since [defender.GetShortUIName|U] is a [ritsuryo|E] [vassal|E], the [attacker.GetTopLiege.GetTitleAsName|V] will consider this a [crime_i|E][crime|E].",
+    "RUS": "\\n@warning_icon!#X Так как [defender.GetShortUIName|U] — [Concept('vassal', 'вассал')|E] [Concept('ritsuryo', 'рицурё')|E], [attacker.GetTopLiege.GetTitleAsName|V] сочтет это [crime_i|E][Concept('crime', 'преступлением')|E].",
+    "POL": "\\n@warning_icon!#X  Ponieważ [defender.GetShortUINameNotMe] to [vassal|El] [ritsuryo|El], [attacker.GetTopLiege.GetTitleAsName|V] uzna to za [crime_i|E] [crime|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_soryo_war_is_crime_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Crime Noted",
+    "RUS": "Участие в преступлениях",
+    "POL": "Odnotowano przestępstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_soryo_war_is_crime_kampaku_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Governorship Attacked",
+    "RUS": "Губернаторство атаковано",
+    "POL": "Zaatakowano gubernatorstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "admin_soryo_conquest_crime",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Attacked Governorship",
+    "RUS": "Нападки на губернаторство",
+    "POL": "Zaatakowane gubernatorstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforced_pacification_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Imperial Pacification",
+    "RUS": "Имперское усмирение",
+    "POL": "Cesarska pacyfikacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME$",
+    "RUS": "$JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME$",
+    "POL": "$JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Enforce Administrative Integration",
+    "RUS": "Навязать интеграцию управления",
+    "POL": "Wymuś integrację administracyjną",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Enforced Administrative Integration of [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! навязывание интеграции управления доменом [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wymuszona integracja administracyjna (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] kontra [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "All of [defender.GetShortUINamePossessive|U] lands will be confiscated and returned to the [attacker.GetTopLiege.GetTitleAsNameNoTooltip].",
+    "RUS": "Все земли [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))] будут конфискованы и возвращены персонажу [attacker.GetTopLiege.GetTitleAsNameNoTooltip].",
+    "POL": "Wszystkie ziemie należące do osoby znanej jako [defender.GetShortUINameNotMe] zostaną skonfiskowane i zwrócone osobie, którą jest [attacker.GetTopLiege.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_victory_vassal_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Your service to [attacker.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] will be recognized.",
+    "RUS": "[attacker.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] отметит вашу службу.",
+    "POL": "Twoja służba na rzecz miejsca znanego jako [attacker.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] zostanie doceniona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will remain a [soryo|E] [vassal|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'останетесь', 'останется')] [Concept('vassal', 'вассалом')|E] [Concept('soryo', 'Сорё')|E]",
+    "POL": "[defender.GetShortUINameNotMe] pozostanie [Concept('vassal', 'wasalem')|E] [soryo|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "As [attacker.GetShortUIName] [CharAreIs(attacker)] not the [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] will remain a [soryo|E] [vassal|E].",
+    "RUS": "Так как [attacker.GetShortUIName] — не [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] [Select_CString(defender.IsLocalPlayer, 'останетесь', 'останется')] [Concept('vassal', 'вассалом')|E] [Concept('soryo', 'сорё')|E].",
+    "POL": "Jako że [attacker.GetShortUINameNotMe] to nie [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [attacker.GetShortUINameNotMe] pozostanie [Concept('vassal', 'wasalem')|E] [soryo|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_defeat_desc_independence",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "As [attacker.GetShortUIName|U] is the [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] and any [allies|E] will become [independent|E] [soryo|E] [realms|E].",
+    "RUS": "Так как [attacker.GetShortUIName] — [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] со всеми [Concept('allies', 'союзниками')|E] станут [Concept('independent', 'независимыми')|E] [Concept('realms', 'державами')|E] [Concept('soryo', 'Сорё')|E].",
+    "POL": "Jako że [attacker.GetShortUINameNotMe] to [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUINameNotMe] i wszyscy [allies|El] staną się [Concept('independent', 'niezależnymi')|E] [Concept('realms', 'państwami')|E] [soryo|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_ended_invalid.desc.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [attacker.GetShortUIName] is not [ritsuryo|E]",
+    "RUS": "Война «[war.GetName]» окончена: [attacker.GetShortUIName] не [Select_CString(attacker.IsLocalPlayer, 'являетесь', 'является')] [Concept('ritsuryo', 'рицурё')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [attacker.GetShortUINameNotMe] nie jest [ritsuryo|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [defender.GetShortUIName] is not [soryo|E] or left the [realm|E]",
+    "RUS": "Война «[war.GetName]» окончена: [defender.GetShortUIName] не [Select_CString(defender.IsLocalPlayer, 'являетесь', 'является')] [Concept('soryo', 'сорё')|E] или [Select_CString(defender.IsLocalPlayer, 'покинули', Select_CString(defender.IsFemale, 'покинула', 'покинул' ))] [Concept('realm', 'державу')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [defender.GetShortUINameNotMe] nie jest [soryo|El] lub opuszcza [realm|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_demand_administrative_cb_warning_japan_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "@warning_icon! #X If you lose the [war|E], [recipient.GetShortUIName] and [recipient.GetHerHis] [allies|E] will become [independent|E] [soryo|E] [realms|E]",
+    "RUS": "@warning_icon! #X Если вы проиграете [Concept('war', 'войну')|E], [recipient.GetShortUIName] и все [Select_CString(recipient.IsFemale, 'ее', 'его' )] [Concept('allies', 'союзники')|E] станут [Concept('independent', 'независимыми')|E] [Concept('realms', 'державами')|E] [Concept('soryo', 'Сорё')|E].",
+    "POL": "@warning_icon! #X Jeśli przegrasz [Concept('war', 'wojnę')|E], [recipient.GetShortUINameNotMe] i [recipient.Custom('PL_jego_jej')] [allies|El] staną się [Concept('independent', 'niezależnymi')|E] [Concept('realms', 'państwami')|E] [soryo|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforced_administrative_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Enforced Administrative Integration",
+    "RUS": "Навязана интеграция управления",
+    "POL": "Wymuszono integrację administracyjną",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_IMPERIAL_EXPANSION_CB_NAME$",
+    "RUS": "$JAPAN_IMPERIAL_EXPANSION_CB_NAME$",
+    "POL": "$JAPAN_IMPERIAL_EXPANSION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_EXPANSION_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Imperial [county|E] Pacification",
+    "RUS": "Имперское усмирение [Concept('county', 'графства')|E]",
+    "POL": "Cesarska pacyfikacja [Concept('county', 'hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_EXPANSION_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Pacification of the [TITLE.GetBaseName]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] Усмирение домена [TITLE.GetBaseName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]pacyfikacja miejsca o nazwie [TITLE.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_EXPANSION_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] kontra [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_victory_desc_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The contested [title|E] will be seized by you.",
+    "RUS": "Вы захватите оспариваемый [Concept('title', 'титул')|E].",
+    "POL": "Sporny [title|El] zostanie przejęty przez ciebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The contested [title|E] will be seized by the [attacker.GetTopLiege.GetTitleAsNameNoTooltip].",
+    "RUS": "[attacker.GetTopLiege.GetTitleAsNameNoTooltip] захватит оспариваемый [Concept('title', 'титул')|E].",
+    "POL": "Sporny [title|El] zostanie przejęty przez osobę, którą jest [attacker.GetTopLiege.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_ended_invalid.desc.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [attacker.GetShortUIName] [CharAreIs(attacker)] not [ritsuryo|E] or [soryo|E], or there is no [ceremonial_liege|E]",
+    "RUS": "Война «[war.GetName]» окончена: [attacker.GetShortUIName] не [Select_CString(attacker.IsLocalPlayer, 'являетесь', 'является')] [Concept('ritsuryo', 'рицурё')|E] или [Concept('soryo', 'сорё')|E], либо отсутствует [Concept('ceremonial_liege', 'церемониальный сюзерен')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [attacker.GetShortUINameNotMe] nie jest [ritsuryo|El] ani [soryo|El] albo brakuje [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [defender.GetShortUIName] joined the [realm|E], or holds no valid target [county|E]",
+    "RUS": "Война «[war.GetName]» окончена: [defender.GetShortUIName] [Select_CString(defender.IsLocalPlayer, 'присоединились', Select_CString(defender.IsFemale, 'присоединилась', 'присоединился' ))] к [Concept('realm', 'державе')|E] или не [Select_CString(defender.IsLocalPlayer, 'владеете', 'владеет' )] подходящими [Concept('county', 'графствами')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [defender.GetShortUINameNotMe] dołącza do [Concept('realm', 'państwa')|E] lub nie dysponuje właściwym [Concept('county', 'hrabstwem')|E]-celem",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_warning_japan_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "@warning_icon! #X If you lose the [war|E], [recipient.GetShortUIName] and [recipient.GetHerHis] [allies|E] will become [independent|E] [soryo|E] [realms|E]",
+    "RUS": "@warning_icon! #X Если вы проиграете [Concept('war', 'войну')|E], [recipient.GetShortUIName] и все [Select_CString(recipient.IsFemale, 'ее', 'его' )] [Concept('allies', 'союзники')|E] станут [Concept('independent', 'независимыми')|E] [Concept('realms', 'державами')|E] [Concept('soryo', 'Сорё')|E].",
+    "POL": "@warning_icon! #X Jeśli przegrasz [Concept('war', 'wojnę')|E], [recipient.GetShortUINameNotMe] i [recipient.Custom('PL_jego_jej')] [allies|El] staną się [Concept('independent', 'niezależnymi')|E] [Concept('realms', 'państwami')|E] [soryo|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_expansion_cb_neighbour_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] does not hold a [county|E] that neighbors the [attacker.GetTopLiege.GetPrimaryTitle.GetName]",
+    "RUS": "[defender.GetShortUIName|U] не [Select_CString(defender.IsLocalPlayer, 'владеете', 'владеет')] [Concept('county', 'графством')|E] по соседству с доменом [attacker.GetTopLiege.GetPrimaryTitle.GetName]",
+    "POL": "[defender.GetShortUINameNotMe] nie posiada [Concept('county', 'hrabstwa')|E], które sąsiaduje z miejscem znanym jako [attacker.GetTopLiege.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CB_JAPANESE_GOVERNMENT",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Japanese [government|E]",
+    "RUS": "Японское [Concept('government', 'правительство')|E]",
+    "POL": "[government|E] japoński",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_pacification_war_valid_empire_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [target.GetBaseName] is not a [de_jure|E] part of the [GetTitleByKey('e_japan').GetBaseName]",
+    "RUS": "[target.GetBaseName] не является [Concept('de_jure', 'де-юре')|E] частью титула [GetTitleByKey('e_japan').GetBaseName]",
+    "POL": "[target.GetBaseName] nie jest częścią [de_jure|El] miejsca znanego jako [GetTitleByKey('e_japan').GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_pacification_war_valid_region_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [target.GetBaseName] is not in [GetGeographicalRegion('world_asia_japan').GetName] or [GetGeographicalRegion('world_asia_sakhalin_hokkaido').GetName]",
+    "RUS": "[target.GetBaseName] — не [GetGeographicalRegion('world_asia_japan').GetName] или [GetGeographicalRegion('world_asia_sakhalin_hokkaido').GetName]",
+    "POL": "[target.GetBaseName] nie leży w miejscu znanym jako [GetGeographicalRegion('world_asia_japan').GetName] ani [GetGeographicalRegion('world_asia_sakhalin_hokkaido').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$",
+    "RUS": "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$",
+    "POL": "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_RECONQUEST_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Imperial Reconquest of Japan #weak ([de_jure|E])#!",
+    "RUS": "Имперская реконкиста Японии #weak ([Concept('de_jure', 'де-юре')|E])#!",
+    "POL": "Ponowny cesarski podbój Japonii #weak ([de_jure|El])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_RECONQUEST_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Imperial Reconquest of Japan",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Имперская реконкиста Японии",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]ponowny cesarski podbój Japonii",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_IMPERIAL_RECONQUEST_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] kontra [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetTopLiege.GetShortUIName] seizes the contested [titles|E].",
+    "RUS": "[attacker.GetTopLiege.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'захватываете', 'захватывает')] оспариваемые [Concept('titles', 'титулы')|E].",
+    "POL": "[attacker.GetTopLiege.GetShortUINameNotMe] przejmuje sporne [titles|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_ended_invalid.desc.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [attacker.GetShortUIName] [CharAreIs(attacker)] not [ritsuryo|E] or [soryo|E], or there is no [ceremonial_liege|E]",
+    "RUS": "Война «[war.GetName]» окончена: [attacker.GetShortUIName] не [Select_CString(attacker.IsLocalPlayer, 'являетесь', 'является')] [Concept('ritsuryo', 'рицурё')|E] или [Concept('soryo', 'сорё')|E], либо отсутствует [Concept('ceremonial_liege', 'церемониальный сюзерен')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [attacker.GetShortUINameNotMe] nie jest [ritsuryo|El] ani [soryo|El] albo brakuje [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: [defender.GetShortUIName] joined the [realm|E], or holds no valid target [county|E]",
+    "RUS": "Война «[war.GetName]» окончена: [defender.GetShortUIName] [Select_CString(defender.IsLocalPlayer, 'присоединились', Select_CString(defender.IsFemale, 'присоединилась', 'присоединился' ))] к [Concept('realm', 'державе')|E] или не [Select_CString(defender.IsLocalPlayer, 'владеете', 'владеет' )] подходящими [Concept('county', 'графствами')|E]",
+    "POL": "[war.GetName] – ta wojna się skończyła: [defender.GetShortUINameNotMe] dołącza do [Concept('realm', 'państwa')|E] lub nie dysponuje właściwym [Concept('county', 'hrabstwem')|E]-celem",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_warning_japan_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "@warning_icon! #X If you lose the [war|E], [recipient.GetShortUIName] and [recipient.GetHerHis] [allies|E] will become [independent|E] [soryo|E] [realms|E]",
+    "RUS": "@warning_icon! #X Если вы проиграете [Concept('war', 'войну')|E], [recipient.GetShortUIName] и все [Select_CString(recipient.IsFemale, 'ее', 'его' )] [Concept('allies', 'союзники')|E] станут [Concept('independent', 'независимыми')|E] [Concept('realms', 'державами')|E] [Concept('soryo', 'Сорё')|E].",
+    "POL": "@warning_icon! #X Jeśli przegrasz [Concept('war', 'wojnę')|E], [recipient.GetShortUINameNotMe] i [recipient.Custom('PL_jego_jej')] [allies|El] staną się [Concept('independent', 'niezależnymi')|E] [Concept('realms', 'państwami')|E] [soryo|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_neighbour_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] does not hold a neighboring [county|E]",
+    "RUS": "[defender.GetShortUIName|U] не [Select_CString(defender.IsLocalPlayer, 'владеете', 'владеет')] [Concept('county', 'графством')|E] по соседству",
+    "POL": "[defender.GetShortUINameNotMe] nie posiada sąsiadującego [Concept('county', 'hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_reconquest_war_valid_de_jure_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Target must be a [de_jure|E] part of [GetTitleByKey('e_japan').GetDefinitiveName]",
+    "RUS": "Цель должна быть [Concept('de_jure', 'де-юре')|E] частью державы [GetTitleByKey('e_japan').GetDefinitiveName]",
+    "POL": "Cel musi być częścią [de_jure|El] miejsca o nazwie [GetTitleByKey('e_japan').GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_imperial_reconquest_cb_cost_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[counties|E]",
+    "RUS": "[Concept('counties', 'Графства')|E]",
+    "POL": "[counties|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_REFUSED_RITSURYO_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "War to Maintain $japan_feudal_government$ Government",
+    "RUS": "Война за сохранение правительства сорё",
+    "POL": "Wojna o zachowanie rządu sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_victory_desc_defender",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] becomes [ceremonial_regent|E].",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'становитесь', 'становится' )] [Concept('ceremonial_regent', 'церемониальным регентом')|E].",
+    "POL": "[attacker.GetShortUINameNotMe] zostaje [Concept('ceremonial_regent', 'regentem panującym')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] becomes [ceremonial_regent|E].",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'становитесь', 'становится' )] [Concept('ceremonial_regent', 'церемониальным регентом')|E].",
+    "POL": "[attacker.GetShortUINameNotMe] zostaje [Concept('ceremonial_regent', 'regentem panującym')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_white_peace_desc_defender",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "You establish a truce with [attacker.GetShortUIName] and gain a [revoke_title_reason|E] against them.",
+    "RUS": "Вы заключили мир с персонажем [attacker.GetShortUIName] и получили [Concept('revoke_title_reason', 'повод для лишения')|E] [Select_CString(attacker.IsFemale, 'ее', 'его' )] титула.",
+    "POL": "Zawierasz rozejm z osobą znaną jako [attacker.GetShortUINameNotMe] i uzyskujesz względem niej [Concept('revoke_title_reason', 'powód do odebrania tytułu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] and [defender.GetShortUIName] establish a truce. [defender.GetShortUIName|U] gets a [revoke_title_reason|E] against [attacker.GetShortUIName].",
+    "RUS": "[attacker.GetShortUIName|U] и [defender.GetShortUIName] заключили перемирие. [defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'получили', Select_CString(defender.IsFemale, 'получила', 'получил' ))] [revoke_title_reason|El] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetShortUINamePossessive][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )].",
+    "POL": "[attacker.GetShortUINameNotMe] i [defender.GetShortUINameNotMe] zawierają rozejm. [defender.GetShortUINameNotMe] uzyskuje [Concept('revoke_title_reason', 'powód do odebrania tytułu')|E] względem osoby, którą jest [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_defeat_desc_defender",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "You [imprison|E] [attacker.GetShortUIName].",
+    "RUS": "[attacker.GetShortUIName] попадает к вам в [Concept('imprison', 'в темницу')|E].",
+    "POL": "[Concept('imprison', 'Więzisz')|E] osobę, którą jest [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_refused_ritsuryo_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName].",
+    "RUS": "[defender.GetShortUIName|U] [Concept('imprisons', Select_CString(defender.IsLocalPlayer, 'заключаете в темницу', 'заключает в темницу' ) )|E] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )][attacker.GetShortUINamePossessive][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )].",
+    "POL": "[defender.GetShortUINameNotMe] [imprisons|El] osobę, którą jest [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "eradicate_house_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Eradicate Rival House",
+    "RUS": "Уничтожение дома соперника",
+    "POL": "Wyeliminuj ród rywali",
+    "BEL": ""
+  },
+  {
+    "KEY": "ERADICATE_HOUSE_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Eradicate House [DEFENDER.GetHouse.GetBaseName]",
+    "RUS": "Уничтожение дома [DEFENDER.GetHouse.GetBaseName]",
+    "POL": "Wyeliminuj ród [DEFENDER.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ERADICATE_HOUSE_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetHouse.GetBaseName] Attempts to Eradicate [DEFENDER.GetHouse.GetBaseName]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Попытка дома [ATTACKER.GetHouse.GetBaseName] уничтожить дом [DEFENDER.GetHouse.GetBaseName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]próby wyeliminowania rodu [DEFENDER.GetHouse.GetBaseName] przez ród [ATTACKER.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ERADICATE_HOUSE_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "eradicate_house_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "#X @warning_icon! [defender.GetShortUINamePossessive|U] [house|E] will be eradicated by [attacker.GetShortUINamePossessive] hand! #!",
+    "RUS": "#X @warning_icon! [Concept('house', 'Дом')|E] [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))] будет уничтожен рукой [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))].#!",
+    "POL": "#X @warning_icon! [attacker.GetShortUINameNotMe] wyeliminuje [house|E], do którego należy [defender.GetShortUINameNotMe].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "eradicate_house_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will preserve [defender.GetHerHis] honor.",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохраните', 'сохранит')] свою честь.",
+    "POL": "[defender.GetShortUINameNotMe] ochroni swój honor.",
+    "BEL": ""
+  },
+  {
+    "KEY": "eradicate_house_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUINamePossessive|U] [house|E] will be eradicated by [defender.GetShortUIName].",
+    "RUS": "[Concept('house', 'Дом')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))] будет уничтожен рукой [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))].",
+    "POL": "[defender.GetShortUINameNotMe] wyeliminuje [house|E], do którego należy [attacker.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "eradicate_house_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$ERADICATE_HOUSE_CB_NAME$ was invalidated",
+    "RUS": "Повод для войны «$ERADICATE_HOUSE_CB_NAME$» более не действителен",
+    "POL": "Cel „$ERADICATE_HOUSE_CB_NAME$” został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_close_family_house_member_in_court_cb_win_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Every [spouse|E] and [house|E] member in [defender.GetShortUINamePossessive] [court|E]",
+    "RUS": "Каждый [Concept('spouse', 'супруг')|E] и член [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(defender.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',defender.GetShortUIName))]",
+    "POL": "Każdy członek [Concept('house', 'rodu')|E] będący [Concept('spouse', 'małżonkiem')|E] na [Concept('court', 'dworze')|E] postaci znanej jako [defender.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_close_family_house_member_in_court_cb_lose_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Every [spouse|E] and [house|E] member in [attacker.GetShortUINamePossessive] [court|E]",
+    "RUS": "Каждый [Concept('spouse', 'супруг')|E] и член [Concept('house', 'дома')|E] при [Concept('court', 'дворе')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))]",
+    "POL": "Każdy członek [Concept('house', 'rodu')|E] będący [Concept('spouse', 'małżonkiem')|E] na [Concept('court', 'dworze')|E] postaci znanej jako [attacker.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_establish_soryo_administration_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$",
+    "RUS": "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$",
+    "POL": "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Establish Sōryō Administration",
+    "RUS": "Установить правление сорё",
+    "POL": "Powołaj administrację sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][DEFENDER.GetHouse.GetBaseNameNoTooltip] War to establish Sōryō Administration",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] Война дома [DEFENDER.GetHouse.GetBaseNameNoTooltip] за установление правления сорё",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wojna o powołanie administracji sōryō (cel: [DEFENDER.GetHouse.GetBaseNameNoTooltip])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_establish_soryo_administration_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] will replace [defender.GetShortUIName] as ruler of [defender.GetPrimaryTitle.GetBaseNameNoTier] and imprison all defenders.",
+    "RUS": "[attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'станете', 'станет' )] править державой [defender.GetPrimaryTitle.GetBaseNameNoTier] вместо [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetShortUINamePossessive][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )], а все защитники отправятся в тюрьму.",
+    "POL": "[attacker.GetShortUINameNotMe] zastąpi osobę znaną jako [defender.GetShortUINameNotMe] w roli władcy miejsca o nazwie [defender.GetPrimaryTitle.GetBaseNameNoTier] i uwięzi wszystkich, którzy brali udział w obronie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_establish_soryo_administration_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will remain [ritsuryo|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'останетесь', 'останется' )] [Concept('ritsuryo', 'рицурё')|E].",
+    "POL": "[defender.GetShortUINameNotMe] nadal będzie pełnić rolę [ritsuryo|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_establish_soryo_administration_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U], and all [bloc|E] members, will adopt [GetGovernment( 'japan_feudal_government' ).GetName] [government] and imprison all attackers.",
+    "RUS": "[defender.GetShortUIName|U] и все члены [Concept('bloc', 'блока')|E] [Select_CString(defender.IsLocalPlayer, 'примете', 'примут' )] форму [Concept('government', 'правления')|E] «[GetGovernment( 'japan_feudal_government' ).GetName]», а все атакующие отправятся в тюрьму.",
+    "POL": "[defender.GetShortUINameNotMe] i wszyscy członkowie [Concept('bloc', 'koalicji')|E] przyjmą następujący rodzaj [Concept('government', 'rządu')|E]: [GetGovernment( 'japan_feudal_government' ).GetName|l]. Uwiężą też wszystkich, którzy brali udział w ataku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_establish_soryo_administration_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$ was invalidated",
+    "RUS": "Повод для войны «$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$» более не действителен",
+    "POL": "Cel „$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$” został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_claimant_faction_war",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "Ceremonial Claimant Faction",
+    "RUS": "Фракция в поддержку церемониального претендента",
+    "POL": "Frakcja Zwolennicy Pretendenta Ceremonialnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "CEREMONIAL_CLAIMANT_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "War for [CLAIMANT.GetTitledFirstNamePossessive] Claim to [TITLE.GetDefinitiveName|l]",
+    "RUS": "Война по претензии на титул [TITLE.GetDefinitiveName|l], которой обладает [CLAIMANT.GetTitledFirstName]",
+    "POL": "Wojna związana z roszczeniem postaci znanej jako [CLAIMANT.GetTitledFirstName] względem ziem o nazwie [TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_claimant_faction_war_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [claimant|E] becomes the [ceremonial_liege|E].",
+    "RUS": "[Concept('claimant', 'Претендент')|E] становится [Concept('ceremonial_liege', 'церемониальным сюзереном')|E].",
+    "POL": "[claimant|E] zostaje [Concept('ceremonial_liege', 'monarchą ceremonialnym')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_claimant_faction_war_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [ceremonial_liege|E] remains unchanged. A [revoke_title_reason|E] is given on every rebelling vassal.",
+    "RUS": "[Concept('ceremonial_liege', 'Церемониальный сюзерен')|E] не изменяется и получает [Concept('revoke_title_reason', 'повод для лишения титула')|E] каждого мятежного вассала.",
+    "POL": "[ceremonial_liege|E] nie zostaje zmieniony. Przyznawany jest [revoke_title_reason|El] dotyczący każdego zbuntowanego wasala.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_claimant_faction_war_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "The [ceremonial_liege|E] remains unchanged. All rebelling [vassals|E] are [imprisoned|E].",
+    "RUS": "[Concept('ceremonial_liege', 'Церемониальный сюзерен')|E] не изменится. Все мятежные [Concept('vassals', 'вассалы')|E] окажутся [Concept('imprisoned', 'в заточении')|E].",
+    "POL": "[ceremonial_liege|E] nie zostaje zmieniony. Wszyscy zbuntowani [vassals|El] zostają [Concept('imprisoned', 'uwięzieni')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_BLOC_WAR_CB_NAME$",
+    "RUS": "$JAPAN_BLOC_WAR_CB_NAME$",
+    "POL": "$JAPAN_BLOC_WAR_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_BLOC_WAR_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]-[DEFENDER.GetConfederation.GetLeadingHouse.GetNameNoTooltip] [bloc_supremacy_war|E]",
+    "RUS": "[bloc_supremacy_war|E] между домами [ATTACKER.GetConfederation.GetLeadingHouse.GetNameNoTooltip] и [DEFENDER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]",
+    "POL": "[bloc_supremacy_war|E] rodów [ATTACKER.GetConfederation.GetLeadingHouse.GetNameNoTooltip] i [DEFENDER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_BLOC_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetConfederation.GetLeadingHouse.GetName]-[DEFENDER.GetConfederation.GetLeadingHouse.GetName] Bloc Supremacy War",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Война за превосходство в блоке между домами [ATTACKER.GetConfederation.GetLeadingHouse.GetName] и [DEFENDER.GetConfederation.GetLeadingHouse.GetName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]koalicyjna wojna o supremację (strona atakująca: ród [ATTACKER.GetConfederation.GetLeadingHouse.GetName]; cel: ród [DEFENDER.GetConfederation.GetLeadingHouse.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPAN_BLOC_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] [CharAreIs(defender)] forced to recognize the superiority of the [attacker.GetConfederation.GetName].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'вынуждены', Select_CString(defender.IsFemale, 'вынуждена', 'вынужден' ))] признать превосходство конфедерации [attacker.GetConfederation.GetName].",
+    "POL": "[defender.GetShortUINameNotMe] musi uznać wyższość konfederacji o nazwie [attacker.GetConfederation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will preserve the honor of the [defender.GetConfederation.GetName].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохраните', 'сохранит')] честь конфедерации [defender.GetConfederation.GetName].",
+    "POL": "[defender.GetShortUINameNotMe] ochroni honor konfederacji o nazwie [defender.GetConfederation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] [CharAreIs(attacker)] forced to recognize the superiority of the [defender.GetConfederation.GetName].",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'вынуждены', Select_CString(attacker.IsFemale, 'вынуждена', 'вынужден' ))] признать превосходство конфедерации [defender.GetConfederation.GetName].",
+    "POL": "[attacker.GetShortUINameNotMe] musi uznać wyższość konfederacji o nazwie [defender.GetConfederation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$JAPAN_BLOC_WAR_CB_NAME$ was invalidated",
+    "RUS": "Повод для войны «$JAPAN_BLOC_WAR_CB_NAME$» более не действителен",
+    "POL": "$JAPAN_BLOC_WAR_CB_NAME$ została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_war_defeat_member_description",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "[member_houses|E] of the defeated [bloc|E] who will recognize victor's [supremacy|E]:",
+    "RUS": "[member_houses|E] побежденного [Concept('bloc', 'блока')|E], признавшие [Concept('supremacy', 'превосходство')|E] победителя:",
+    "POL": "[member_houses|E] pokonanej [Concept('bloc', 'koalicji')|E], które uznają [Concept('supremacy', 'supremację')|E] zwycięzcy:",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_war_defeat_member_house_description",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "$BULLET_WITH_TAB$[CHARACTER.GetHouse.GetBaseName]",
+    "RUS": "$BULLET_WITH_TAB$[CHARACTER.GetHouse.GetBaseName]",
+    "POL": "$BULLET_WITH_TAB$[CHARACTER.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_bloc_war_cb_cohesion_requirement_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_wars_l_belarusian.json",
+    "ENG": "At least #V 25#! [cohesion|E] is required to start this [war|E] #weak (Current: [attacker.GetConfederation.GetCohesion|V0])#!",
+    "RUS": "Чтобы начать эту [Concept('war', 'войну')|E] требуется хотя бы #V 25#! [Concept('cohesion', 'сплоченности')|E] #weak (сейчас: [attacker.GetConfederation.GetCohesion|V0])#!",
+    "POL": "Rozpoczęcie tej [Concept('war', 'wojny')|E] wymaga co najmniej #V 25#! pkt [Concept('cohesion', 'spójności')|E] #weak (obecnie: [attacker.GetConfederation.GetCohesion|V0])#!",
+    "BEL": ""
+  }
+]

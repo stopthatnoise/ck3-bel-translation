@@ -1,0 +1,434 @@
+[
+  {
+    "KEY": "legitimize_bastard_interaction",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Legitimize Bastard #weak (House)#!",
+    "RUS": "Признать бастарда #weak (дом)#!",
+    "POL": "Uznaj bękarta #weak (Ród)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimize_bastard_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "$hook_extra_icon$",
+    "RUS": "$hook_extra_icon$",
+    "POL": "$hook_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimize_bastard_interaction_desc_house_head",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "$house_head_interaction_header$Declare [secondary_recipient.GetShortUINameNoTooltip] to be a [legitimized_bastard|E]\\n\\n#weak This is available because [secondary_recipient.GetSheHe] is a [bastard|E] of my [house|E]#!",
+    "RUS": "$house_head_interaction_header$ Объявить, что [secondary_recipient.GetShortUINameNoTooltip] — [legitimized_bastard|El]\\n\\n#weak Этот вариант доступен, потому что [secondary_recipient.GetSheHe] [bastard|El] моего [houses|El]#!",
+    "POL": "$house_head_interaction_header$Uznaj [Select_CString( secondary_recipient.IsLocalPlayer, 'siebie', secondary_recipient.GetShortUINameNotMeNoTooltip)] za [Concept('legitimized_bastard', 'bękarta legitymizowanego')|E]\\n\\n#weak Ta opcja jest dostępna, ponieważ ta postać jest [Concept('bastard', 'bękartem')|E] w moim [Concept( 'house', 'rodzie' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimize_bastard_interaction_desc_not_house_head",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Request that [recipient.GetShortUINameNoTooltip] acknowledges your [bastard|E] as [legitimate|E]\\n#weak ([recipient.GetShortUINameNoTooltip] is the [house_head_head|E] of your [house|E])#!",
+    "RUS": "Потребовать, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'объявила', 'объявил' )] вашего [Concept( 'bastard', 'бастарда' )|E] [Concept( 'legitimate', 'легитимным' )|E]\\n#weak ([recipient.GetShortUINameNoTooltip] — [house_head_head|E] вашего [houses|E])#!",
+    "POL": "Żądaj, aby [recipient.GetShortUINameNotMeNoTooltip] [Select_CString(recipient.IsFemale, Concept('legitimate', 'legitymizowała'), Concept('legitimate', 'legitymizował'))] twojego [Concept( 'bastard', 'bękarta')|E]\\n#weak ([recipient.GetShortUINameNotMeNoTooltip] jest [Concept( 'house_head_head', 'głową' )|E] twojego [Concept( 'house', 'rodu' )|E])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimize_bastard_interaction_notification",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Bastard Legitimized",
+    "RUS": "Бастард признан",
+    "POL": "Bękart uznany",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimize_bastard_interaction_decline_notification",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Bastard Not Legitimized",
+    "RUS": "Бастард не признан",
+    "POL": "Bękart nieuznany",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_HOUSE_HEAD_MODIFIER",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "As the House Head, I am free to decide",
+    "RUS": "Я глава дома и могу решать по своему усмотрению",
+    "POL": "Jako głowa rodu, mogę zadecydować",
+    "BEL": ""
+  },
+  {
+    "KEY": "PRESTIGOUS_IN_OUR_HOUSE",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Level of Fame: $VALUE|+0$",
+    "RUS": "Уровень репутации: $VALUE|+0$",
+    "POL": "Poziom sławy: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_bastard_was_legitimized",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "House Bastard Legitimized",
+    "RUS": "Признание бастардов домом",
+    "POL": "Rodowy bękart uznany",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynasty_bastard_was_legitimized",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Dynasty Bastard Legitimized",
+    "RUS": "Признание бастардов династией",
+    "POL": "Bękart dynastii uznany",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "House [actor.GetHouse.GetBaseName]",
+    "RUS": "Дом [actor.GetHouse.GetBaseName]",
+    "POL": "Ród [actor.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0001.desc.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "After all this time, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] has finally decided to give me the acceptance I have been longing for. From this day forward, I am [actor.GetHerHis] legitimate [secondary_recipient.Custom('DaughterSon')]. With naught but a few words [actor.GetSheHe] has radically altered the course of my future.",
+    "RUS": "Наконец [Select_CString(actor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] [Select_CString(actor.IsFemale, 'решила', 'решил' )] даровать мне столь желанное признание. С этого дня я — [actor.GetHerHis] [Select_CString(secondary_recipient.IsFemale, 'законная', 'законный' )] [secondary_recipient.Custom('DaughterSon')]. Всего лишь несколькими словами [actor.GetSheHe] кардинально [Select_CString(actor.IsFemale, 'изменила', 'изменил' )] всю мою жизнь.",
+    "POL": "Po tylu latach [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] zgadza się w końcu udzielić mi akceptacji, która od dawna mi się należała. Od dziś jestem osobą znaną jako [actor.Custom('PL_jego_jej')] [secondary_recipient.Custom('DaughterSon')], i to prawowicie! W ten sposób wskutek kilku zaledwie słów moja przyszłość została zmieniona na zawsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0001.desc.child",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] has 'legitimized' me — I am [actor.GetHerHis] true [secondary_recipient.Custom('DaughterSon')] now, [actor.GetSheHe] says. I am not quite sure what it means, but I have noticed that some people look at me differently. Most are nicer, some others not so much...",
+    "RUS": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor')) ] «[Select_CString(actor.IsFemale, 'признала', 'признал' )]» меня: теперь я [actor.GetHerHis] [Select_CString(secondary_recipient.IsFemale, 'законная', 'законный' )] [secondary_recipient.Custom('DaughterSon')], как [actor.GetSheHe] говорит. Не очень понимаю, что это значит, но некоторые люди стали смотреть на меня иначе. Большинство — благосклоннее, а некоторые — наоборот…",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] „uznaje” mnie – mówi, że odtąd jestem [actor.Custom('PL_jego_jej')] prawowitym dzieckiem. Nie do końca wiem, co to znaczy, ale nie umyka mojej uwadze, że niektórzy ludzie inaczej teraz na mnie patrzą. Niektórzy są milsi, lecz inni niekoniecznie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0001.a.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "All my dreams seem so much closer now.",
+    "RUS": "Мои мечты стали куда ближе.",
+    "POL": "Wszystkie moje marzenia wydają się być bliższe spełnieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0001.a.child",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] says this is a good thing.",
+    "RUS": "Это хорошо, как уверяет [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))].",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] mówi, że to dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Welcome to the Family",
+    "RUS": "Добро пожаловать в семью",
+    "POL": "Witaj w rodzinie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0002.house_head",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be my legitimate child and a member of House [actor.GetHouse.GetBaseName]. It has taken me a lot of thought to arrive at this conclusion, and while some might disagree, it was the right thing to do.",
+    "RUS": "Я [Select_CString(actor.IsFemale, 'объявила', 'объявил' )], что [Select_CString(legitimized_bastard.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] является моим законным отпрыском и членом дома [actor.GetHouse.GetBaseName]. Мне было нелегко принять это решение, но, думаю, я не [Select_CString(actor.IsFemale, 'ошиблась', 'ошибся' )], хотя некоторые могут со мной не согласиться.",
+    "POL": "Oświadczam, że m[Select_CString( legitimized_bastard.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] jest moim prawowitym dzieckiem i członkiem rodu [actor.GetHouse.GetBaseName]. Dojście do tego wniosku zajęło mi wiele przemyśleń i choć niektórzy mogą się z tym nie zgodzić, było to słuszne posunięcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0002.dynast",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be a legitimate scion of the [actor.GetDynasty.GetBaseName] Dynasty.",
+    "RUS": "Я [Select_CString(actor.IsFemale, 'объявила', 'объявил' )], что [Select_CString(legitimized_bastard.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] является законным отпрыском династии [actor.GetDynasty.GetBaseName].",
+    "POL": "Oświadczam że m[Select_CString( SCOPE.sC('legitimized_bastard').IsFemale, 'oja', 'ój' )] [legitimized_bastard.GetFirstName] jest prawowit[Select_CString( legitimized_bastard.IsFemale, 'ą potomkinią', 'ym potomkiem' )] dynastii [actor.GetDynasty.GetBaseName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0002.approved",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "I have declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] to be my legitimate child and a member of House [actor.GetHouse.GetBaseName]. It has taken me a lot of thought to arrive at this conclusion, and while some might disagree, it was the right thing to do.",
+    "RUS": "Я [Select_CString(actor.IsFemale, 'объявила', 'объявил' )], что [Select_CString(legitimized_bastard.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] является моим законным отпрыском и членом дома [actor.GetHouse.GetBaseName]. Мне было нелегко принять это решение, но, думаю, я не [Select_CString(actor.IsFemale, 'ошиблась', 'ошибся' )], хотя некоторые могут со мной не согласиться.",
+    "POL": "Oświadczam, że m[Select_CString( legitimized_bastard.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('legitimized_bastard'))] [legitimized_bastard.GetFirstName] jest moim prawowitym dzieckiem i członkiem rodu [actor.GetHouse.GetBaseName]. Dojście do tego wniosku zajęło mi wiele przemyśleń i choć niektórzy mogą się z tym nie zgodzić, było to słuszne posunięcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Your future is bright, [legitimized_bastard.GetFullNameNoTooltip].",
+    "RUS": "Тебя ждет яркое будущее, [legitimized_bastard.GetFullNameNoTooltip].",
+    "POL": "[legitimized_bastard.GetFullNameNoTooltip]… Masz świetlaną przyszłość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "All Is Well That Ends Well",
+    "RUS": "Хорошо то, что хорошо кончается",
+    "POL": "Wszystko dobre, co się dobrze kończy",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "It took [actor.GetHerHim] some time to arrive at the conclusion, but finally [actor.GetTitledFirstName] has legitimized our [secondary_recipient.Custom('DaughterSon')] [secondary_recipient.GetFirstName]. As a member of House [actor.GetHouse.GetBaseName] [secondary_recipient.GetFirstName] has a brighter future now than I had ever dared to hope for.",
+    "RUS": "Наконец-то [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'признала', 'признал' )], что [secondary_recipient.GetFirstName] — [Select_CString(secondary_recipient.IsFemale, 'наша', 'наш' )] [secondary_recipient.Custom('DaughterSon')], хотя это было непростое решение. [secondary_recipient.GetFirstName] теперь член дома [actor.GetHouse.GetBaseName], и [Select_CString(secondary_recipient.IsFemale, 'ее', 'его' )] ждет светлое будущее.",
+    "POL": "Zajęło [actor.GetHerHim] trochę czasu zanim dotarł[Select_CString( actor.IsFemale, 'a', '' )] do sedna, ale w końcu [actor.GetTitledFirstName] legitymizował[Select_CString( actor.IsFemale, 'a', '' )] nasz[Select_CString( secondary_recipient.IsFemale, 'ą', 'ego' )] [Select_CString( secondary_recipient.IsFemale, 'córkę', 'syna' )]. [secondary_recipient.GetFirstName] będzie teraz członkiem naszego rodu [actor.GetHouse.GetBaseName]. [secondary_recipient.GetFirstName] ma teraz bardziej świetlaną przyszłość niż kiedykolwiek o tym marzył[Select_CString( secondary_recipient.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Make us proud!",
+    "RUS": "Надеюсь, мы будем тобой гордиться",
+    "POL": "Daj nam powód do dumy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "An Old Ghost Returns",
+    "RUS": "Призрак прошлого возвращается",
+    "POL": "Stary duch powraca",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Foolishly, I had come to believe that [secondary_recipient.GetTitledFirstName] was a problem of the past, that [secondary_recipient.GetSheHe] would never come back to haunt me. How could I have failed to foresee my [actor.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] legitimizing [secondary_recipient.GetHerHim]? I thought I had suffered enough...",
+    "RUS": "Мне казалось, что [secondary_recipient.GetTitledFirstName] останется в прошлом и никогда больше не будет преследовать меня. Какая глупость с моей стороны! Можно было догадаться, что [Select_CString(actor.IsFemale, 'моя', 'мой' )] [actor.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] признает [SCOPE.sC('secondary_recipient').GetHerHis]? А мне казалось, мои страдания окончены...",
+    "POL": "Niemądrze było uwierzyć, iż [secondary_recipient.GetTitledFirstName] to problem przeszłości i że już nigdy nie wróci, żeby mnie prześladować. Do głowy by mi nie przyszło, że ta gnida, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] mojej osoby, [secondary_recipient.Custom('PL_go_ja')] legitymizuje. Za mało cierpię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0004.newborn_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Not only has [actor.GetFirstName] had a bastard child, but [actor.GetSheHe] has also chosen to legitimize it as [actor.GetHerHis] own!\\n\\nLittle [legitimized_bastard.GetTitledFirstName] will forever haunt my life...",
+    "RUS": "[actor.GetFirstName] не только [Select_CString(actor.IsFemale, 'обзавелась', 'обзавелся' )] бастардом, но и [Select_CString(actor.IsFemale, 'решила', 'решил' )] признать [actor.GetHerHis]!\\n\\n[Select_CString(legitimized_bastard.IsFemale, 'Мелкая тварь', 'Этот недоросток' )] [legitimized_bastard.GetTitledFirstName] будет вечно преследовать меня...",
+    "POL": "Nie dość, że [actor.GetFirstName] urodziła bękarta, to jeszcze postanowiła legitymizować go jako swoje własne dziecko!\\n\\nMał[Select_CString( legitimized_bastard.IsFemale, 'a', 'y' )] [legitimized_bastard.GetTitledFirstName] już zawsze będzie prześladować moje życie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "I shall not forget this betrayal.",
+    "RUS": "Я не забуду этого предательства.",
+    "POL": " Nie zapomnę tej zdrady.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetFirstNamePossessiveNoTooltip] Big Day",
+    "RUS": "Большой день",
+    "POL": "[secondary_recipient.GetFirstNameNoTooltip] i je[Select_CString( secondary_recipient.IsFemale, 'j', 'go' )] wielki dzień",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.desc.bastard",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] has decided to legitimize my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetTitledFirstName]. I cannot help but feeling a little bitter... Will I ever know the same acceptance?",
+    "RUS": "[Select_CString(actor.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] [Select_CString(actor.IsFemale, 'решила', 'решил' )], что [Select_CString(secondary_recipient.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetTitledFirstName] [Select_CString(secondary_recipient.IsFemale, 'достойна', 'достоин' )] признания. А я не могу избавиться от горького привкуса: признают ли когда-нибудь и меня?",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] postanawia legitymizować osobę, którą jest [secondary_recipient.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]. Nie mogę się oprzeć lekkiemu rozgoryczeniu… Czy kiedykolwiek doczekam się takiej samej akceptacji?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.desc.approve",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "This is a good day for [secondary_recipient.GetTitledFirstName]! Finally our [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] has come to [actor.GetHerHis] senses and legitimized my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))]. Now [secondary_recipient.GetSheHe|U] is truly a part of the family.",
+    "RUS": "[secondary_recipient.GetTitledFirstName], сегодня твой день! [Select_CString(actor.IsFemale, 'Наша', 'Наш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] наконец-то [Select_CString(actor.IsFemale, 'прислушалась', 'прислушался' )] к голосу разума и [Select_CString(actor.IsFemale, 'решила', 'решил' )], что [Select_CString(secondary_recipient.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] заслуживает признания и может по-настоящему стать частью семьи.",
+    "POL": "[secondary_recipient.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], ma dzisiaj dobry dzień! [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))|U] idzie w końcu po rozum do głowy i postanawia legitymizować tę osobę. Teraz naprawdę jest [secondary_recipient.GetSheHe] częścią rodziny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.desc.disapprove",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "I cannot believe it — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] has decided to legitimize [secondary_recipient.GetTitledFirstName]! With time, I had come to accept [secondary_recipient.GetHerHis] presence, but this is too much. Does [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] really expect me to welcome my bastard [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] to the family?",
+    "RUS": "Поверить не могу: [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] [Select_CString(actor.IsFemale, 'решила', 'решил' )], что [secondary_recipient.GetTitledFirstName] заслуживает признания! Мне удалось научиться терпеть присутствие бастарда, но признание — это уж слишком. Неужели [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] ждет, что я приму бастарда в нашей семье?",
+    "POL": "Nie mogę w to uwierzyć – [secondary_recipient.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], zyskuje legitymację, którą nadaje tej osobie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))]. Z czasem można by się było zapewne pogodzić z [secondary_recipient.Custom('PL_jego_jej')] obecnością na dworze, ale tego to już za wiele. Czy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] naprawdę oczekuje, że powitam [secondary_recipient.Custom('PL_go_ja')] w rodzinie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.a.approve",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Best of luck in your new life.",
+    "RUS": "Удачи в новой жизни.",
+    "POL": "Życzę powodzenia w nowym życiu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0005.a.disapprove",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Did [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] think of me at all?",
+    "RUS": "А обо мне [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] думает?",
+    "POL": "Czy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] w ogóle o mnie myśli?",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_child_adult_non_bastard_dislike",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "All of my non-bastard, adult children who dislike the bastard",
+    "RUS": "Все мои законные взрослые дети, не любящие бастарда",
+    "POL": "Wszystkie moje prawowite dorosłe dzieci, które nie przepadają za bękartem",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_child_adult_non_bastard_dislike_me",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "All of [THIS.Char.GetFirstNamePossessive] non-bastard, adult children who dislike me",
+    "RUS": "Все законные взрослые дети персонажа [THIS.Char.GetFirstNamePossessive], не любящие бастарда",
+    "POL": "Wszystkie dorosłe dzieci [THIS.Char.GetFirstName], które mnie nie lubią",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[legitimized_bastard.GetFirstNameNoTooltip] Legitimized",
+    "RUS": "[legitimized_bastard.GetFirstNameNoTooltip] [Select_CString(legitimized_bastard.IsFemale, 'признана', 'признан' )]",
+    "POL": "[legitimized_bastard.GetFirstNameNoTooltip] legitymowan[Select_CString( legitimized_bastard.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[legitimized_bastard.GetTitledFirstName] has been legitimized by the head of [legitimized_bastard.GetHerHis] house, [actor.GetTitledFirstName]!",
+    "RUS": "[legitimized_bastard.GetTitledFirstName] [Select_CString(legitimized_bastard.IsFemale, 'получила', 'получил' )] признание главы дома!",
+    "POL": "[legitimized_bastard.GetTitledFirstName] legitymowan[Select_CString( legitimized_bastard.IsFemale, 'a', 'y' )] przez głowę swojego rodu, którą jest [actor.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "At last, [legitimized_bastard.GetSheHe] has a family.",
+    "RUS": "Наконец-то у н[legitimized_bastard.GetSheHe] есть семья.",
+    "POL": "W końcu ma rodzinę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0007.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('parent'))] bastard [legitimized_bastard.Custom('GetDaughterSon')], [legitimized_bastard.GetTitledFirstName], has been legitimized by [actor.GetTitledFirstName], the head of [actor.GetHerHis] house.",
+    "RUS": "[Select_CString(legitimized_bastard.IsFemale, 'Незаконнорожденная дочь', 'Незаконнорожденный сын' )] [Select_CString(parent.IsFemale, 'моей матери', 'моего отца' )], [legitimized_bastard.GetTitledFirstName], [Select_CString(legitimized_bastard.IsFemale, 'получила признание', 'получил признание' )]: его [Select_CString(actor.IsFemale, 'даровала', 'даровал' )] [actor.GetTitledFirstName], глава дома.",
+    "POL": "[Select_CString( parent.IsFemale, 'Bękarcia córka', 'Bękarci syn' )] m[Select_CString( ROOT.Char.IsFemale, 'ojej', 'ojego' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('parent'))] został[Select_CString( legitimized_bastard.IsFemale, 'a legitymowana', ' legitymowany' )] przez głowę [actor.GetHerHis] rodu, którą jest [actor.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0007.newborn_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[parent.GetTitledFirstName] has brought a bastard child into this world, and it has been legitimized by [actor.GetTitledFirstName], [legitimized_bastard.GetHerHis] [legitimized_bastard.Custom2('RelationToMe', SCOPE.sC('actor'))].",
+    "RUS": "[parent.GetTitledFirstName] [Select_CString(parent.IsFemale, 'принесла', 'принес' )] в этот мир ребенка, и [actor.GetTitledFirstName], [legitimized_bastard.GetHerHis] [legitimized_bastard.Custom2('RelationToMe', SCOPE.sC('actor'))], [Select_CString(actor.IsFemale, 'признала', 'признал' )] [legitimized_bastard.GetHerHis].",
+    "POL": "[parent.GetTitledFirstName] sprowadził[Select_CString( parent.IsFemale, 'a', '' )] na świat bękarta, a legitymizuje go [actor.GetTitledFirstName], [legitimized_bastard.GetHerHis] [legitimized_bastard.Custom2('RelationToMe', SCOPE.sC('actor'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0007.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "May [legitimized_bastard.GetSheHe] be out of my life forever.",
+    "RUS": "Пусть [legitimized_bastard.GetSheHe] навеки уйдет из моей жизни.",
+    "POL": "Niech [legitimized_bastard.GetSheHe] zniknie z mojego życia na zawsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[legitimized_bastard.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('parent'))] bastard [legitimized_bastard.Custom('GetDaughterSon')], has been legitimized by the head of [legitimized_bastard.GetHerHis] new House!",
+    "RUS": "[legitimized_bastard.GetTitledFirstName], [Select_CString(legitimized_bastard.IsFemale, 'незаконнорожденная дочь', 'незаконнорожденный сын' )] [Select_CString(parent.IsFemale, 'моей матери', 'моего отца' )], [Select_CString(legitimized_bastard.IsFemale, 'была признана', 'был признан' )] главой [legitimized_bastard.GetHerHis] дома!",
+    "POL": "[legitimized_bastard.GetTitledFirstName], bękarc[Select_CString( legitimized_bastard.IsFemale, 'ia córka', 'i syn' )] m[Select_CString( parent.IsFemale, 'ojej', 'ojego' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('parent'))], został legitymowany przez głowę [legitimized_bastard.GetHerHis] nowego rodu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0008.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "As if [legitimized_bastard.GetSheHe] will ever be ",
+    "RUS": "Можно подумать, [legitimized_bastard.GetSheHe] и правда станет когда-нибудь «[Select_CString(legitimized_bastard.IsFemale, 'законной', 'законным' )]».",
+    "POL": "Jakby kiedykolwiek miał[Select_CString( legitimized_bastard.IsFemale, 'a', '' )] być „prawowit[Select_CString( legitimized_bastard.IsFemale, 'a', 'y' )]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0009.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "An Heir to the Dynasty",
+    "RUS": "Наследник династии",
+    "POL": "Dziedzic dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName], the head of our entire dynasty, has declared me a legitimate heir to our name!\\n\\nI have always been a true [ROOT.Char.GetDynasty.GetBaseName], and now the rest of the world must acknowledge it.",
+    "RUS": "[actor.GetTitledFirstName], глава всей нашей династии, [Select_CString(actor.IsFemale, 'объявила', 'объявил' )] меня [Select_CString(ROOT.Char.IsFemale, 'законной наследницей', 'законным наследником' )] нашего имени!\\n\\nЯ всегда [Select_CString(ROOT.Char.IsFemale, 'была', 'был' )] частью династии [ROOT.Char.GetDynasty.GetBaseName], и теперь весь остальной мир тоже должен признать это.",
+    "POL": "[actor.GetTitledFirstName], głowa całej naszej dynastii, ogłosił[Select_CString( actor.IsFemale, 'a', '' )] mnie prawowitym dziedzicem naszego imienia!\\n\\nZawsze był[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] prawdziwym członkiem dynastii [ROOT.Char.GetDynasty.GetBaseName], a teraz reszta świata musi to uznać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "At last!",
+    "RUS": "Наконец-то!",
+    "POL": "W końcu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Another Heir to the Dynasty",
+    "RUS": "Еще один наследник династии",
+    "POL": "Inny dziedzin dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName], the head of our entire dynasty, has declared my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] a legitimate heir to our name!\\n\\n[recipient.GetSheHe|U] is now as worthy an heir to the [ROOT.Char.GetDynasty.GetBaseName] dynasty as any true-born child.",
+    "RUS": "[actor.GetTitledFirstName], глава всей нашей династии, [Select_CString(actor.IsFemale, 'объявила', 'объявил' )], что [Select_CString(recipient.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] теперь является [Select_CString(recipient.IsFemale, 'законной наследницей', 'законным наследником' )] нашего имени!\\n\\nТеперь [Select_CString(recipient.IsFemale, 'она законная наследница', 'он законный наследник' )] династии [ROOT.Char.GetDynasty.GetBaseName], как и законные дети.",
+    "POL": "[actor.GetTitledFirstName], głowa całej naszej dynastii, ogłasza wszem i wobec, że [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] będzie od teraz prawowitą częścią dynastii naszego imienia!\\n\\nMoże [recipient.GetSheHe] teraz używać nazwiska [ROOT.Char.GetDynasty.GetBaseName] jak każde prawowicie urodzone dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Yet another in line.",
+    "RUS": "Новый претендент.",
+    "POL": "Następny pretendent do tytułu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_interaction.0010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is now eligible to inherit",
+    "RUS": "[recipient.GetShortUIName|U] теперь может наследовать титулы",
+    "POL": "[recipient.GetShortUINameNotMe|U] jest teraz uprawnion[Select_CString( recipient.IsFemale, 'a', 'y' )] do dziedziczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_father_house_member",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Every member of [father.GetFirstNamePossessiveNoTooltip] [house|E]",
+    "RUS": "Все члены [Concept( 'house', 'дома' )|E] персонажа [father.GetFirstNamePossessiveNoTooltip]",
+    "POL": "Każdy członek [Concept( 'house', 'rodu' )|E], do którego należy [father.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_mother_house_member",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Every member of [mother.GetFirstNamePossessiveNoTooltip] [house|E]",
+    "RUS": "Все члены [Concept( 'house', 'дома' )|E] персонажа [mother.GetFirstNamePossessiveNoTooltip]",
+    "POL": "Każdy członek [Concept( 'house', 'rodu' )|E], do którego należy [mother.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_real_father_house_member",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Every member of [real_father.GetFirstNamePossessiveNoTooltip] [house|E]",
+    "RUS": "Все члены [Concept( 'house', 'дома' )|E] персонажа [real_father.GetFirstNamePossessiveNoTooltip]",
+    "POL": "Każdy członek [Concept( 'house', 'rodu' )|E], do którego należy [real_father.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_child_house_member",
+    "FILE_PATH": "localization/belarusian/event_localization/bastard_interaction_events_l_belarusian.json",
+    "ENG": "Every member of [child.GetFirstNamePossessiveNoTooltip] [house|E]",
+    "RUS": "Все члены [Concept( 'house', 'дома' )|E] персонажа [child.GetFirstNamePossessiveNoTooltip]",
+    "POL": "Każdy członek [Concept( 'house', 'rodu' )|E], do którego należy [child.GetFirstNameNoTooltip]",
+    "BEL": ""
+  }
+]

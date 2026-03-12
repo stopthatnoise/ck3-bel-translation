@@ -1,0 +1,1482 @@
+[
+  {
+    "KEY": "vassal.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "As [ROOT.Char.GetFaith.HighGodName|U] Wills It",
+    "RUS": "Так хочет [ROOT.Char.GetFaith.HighGodName]",
+    "POL": "Z wolą [ROOT.Char.GetFaith.HighGodNamePossessive|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], the [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName], is passing through my domains. As [religious_liege.GetSheHe] surveys the buildings, [religious_liege.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_liege'))] and frowns.\\n\\n",
+    "RUS": "[Select_CString(religious_liege.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_liege'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], [religious_liege.GetTitledFirstName], проезжает по моим землям. Осматривая мои постройки, [religious_liege.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_liege'))] и хмурится.\\n\\n«А где у вас [religious_liege.GetFaith.HouseOfWorship], знак почитания [religious_liege.GetFaith.HighGodNamePossessive]?!»",
+    "POL": "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_liege'))|U] [religious_liege.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], przejeżdża przez moje domeny. Podczas kontroli budowli, [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_liege'))] i marszczy brwi.\\n\\n– Wiesz, co idealnie wypełniłoby ten krajobraz? [religious_liege.GetFaith.HouseOfWorship|U] – chwalebny hołd dla siły wyższej, którą znamy pod imieniem [religious_liege.GetFaith.HighGodName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I promise you, a [ROOT.Char.GetFaith.HouseOfWorship] will be built!",
+    "RUS": "Обещаю вам, здесь будет стоять [ROOT.Char.GetFaith.HouseOfWorship]!",
+    "POL": "Dobrze. Obiecuję, że powstanie tutaj [ROOT.Char.GetFaith.HouseOfWorship]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F [religious_liege.GetFirstNameNoTooltip] will remember the promise, and owe me a [favor|E] if it's fulfilled within ten years#!",
+    "RUS": "#F [religious_liege.GetFirstNameNoTooltip] запомнит мое обещание и задолжает мне [favor|El], если я исполню обещанное в течение десяти лет#!",
+    "POL": "#F [religious_liege.GetFirstNameNoTooltip] zapamięta tę obietnicę i będzie mi dłużn[Select_CString( religious_liege.IsFemale, 'a', 'y' )] [Concept('favor','przysługę')|E], jeżeli zostanie spełniona w ciągu dziesięciu lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1001.b_zealous",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Who do you think you are, speaking for [ROOT.Char.GetFaith.HighGodName]?!",
+    "RUS": "Кем вы себя возомнили, рассуждая о воле [ROOT.Char.GetFaith.HighGodNamePossessive]?!",
+    "POL": "Wydaje ci się, że kim jesteś, przemawiając w imieniu [ROOT.Char.GetFaith.HighGodNamePossessive]?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "No such thing is needed.",
+    "RUS": "Нам это не требуется.",
+    "POL": "Nic takiego nie jest potrzebne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«На этот раз вы превзошли себя, [ROOT.Char.GetFirstNameNoTooltip]. Это поистине великолепное здание». — [Select_CString(religious_liege.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName] [religious_liege.Custom('quirk_pos_present')], указывая на [religious_liege.GetFaith.HouseOfWorship].\\n\\n«Наверняка [religious_liege.GetFaith.HighGodName] радуется вашим успехам не меньше моего!»",
+    "POL": "– Tym razem przechodzisz wszelkie oczekiwania, [ROOT.Char.GetFirstNameNoTooltip]. To zaprawdę wspaniała budowla. – [religious_liege.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], [religious_liege.Custom('quirk_pos_present')] i patrzy, jak [religious_liege.GetFaith.HouseOfWorship] świeci nowością.\\n\\n– Wiem na pewno, że [religious_liege.GetFaith.HighGodName] będzie pod równie wielkim wrażeniem co ja!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I only live to serve [religious_liege.GetFaith.HighGodName].",
+    "RUS": "Я живу, чтобы исполнять повеления [religious_liege.GetFaith.HighGodNamePossessive].",
+    "POL": "Żyję, aby służyć. [religious_liege.GetFaith.HighGodName] to potęga!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.desc_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Поверить не могу, что [Select_CString(ROOT.Char.IsFemale, 'такая набожная', 'такой набожный' )] [ROOT.Char.GetWomanMan], как вы, будет разбрасываться обещаниями… И ведь это [religious_liege.GetFaith.HouseOfWorship], где восхваляют имя [religious_liege.GetFaith.HighGodNamePossessive]!»",
+    "POL": "– Że też taka pobożna osoba w ogóle może składać tak puste obietnice… I to jeszcze w kwestii wzniesienia świątyni, jaką może być [religious_liege.GetFaith.HouseOfWorship]! [religious_liege.GetFaith.HighGodName] się wstydzi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.desc_not_as_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы солгали мне, [ROOT.Char.GetFirstNameNoTooltip]… И ведь это [religious_liege.GetFaith.HouseOfWorship], где восхваляют имя [religious_liege.GetFaith.HighGodNamePossessive]!»",
+    "POL": "– Kłamiesz, [ROOT.Char.GetFirstNameNoTooltip]… I to jeszcze w kwestii wzniesienia świątyni, jaką może być [religious_liege.GetFaith.HouseOfWorship]! [religious_liege.GetFaith.HighGodName] się wstydzi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\n\\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], [religious_liege.GetTitledFirstName], makes no secret of [religious_liege.GetHerHis] displeasure as [religious_liege.GetSheHe] [religious_liege.Custom('quirk_neg_present')].",
+    "RUS": "\\n\\n[Select_CString(religious_liege.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName] [religious_liege.Custom('quirk_neg_present')], не скрывая своего разочарования.",
+    "POL": "\\n\\n[religious_liege.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))], [religious_liege.Custom('quirk_neg_present')] i nie kryje swojego niezadowolenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "To err is human!",
+    "RUS": "Человеку свойственно ошибаться!",
+    "POL": "Błądzić jest rzeczą ludzką!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.a_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I hope [religious_liege.GetFaith.HighGodName] will forgive me...",
+    "RUS": "Надеюсь, [religious_liege.GetFaith.HighGodName] простит меня...",
+    "POL": "Mam nadzieję, że [religious_liege.GetFaith.HighGodName] mi wybaczy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1020.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F Maybe I should have kept my promise and built that [THIS.Char.GetFaith.HouseOfWorship]...#!",
+    "RUS": "#F Возможно, мне стоило выполнить обещание и построить [THIS.Char.GetFaith.HouseOfWorship]...#!",
+    "POL": "#F Może będzie lepiej, jak dotrzymamy obietnicy i [THIS.Char.GetFaith.HouseOfWorship] jednak powstanie?#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], мне стало известно, что в ваших владениях может разместиться [religious_vassal.GetFaith.HouseOfWorship]».\\n\\n[Select_CString(religious_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_vassal'))|l] [religious_vassal.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_vassal'))], затем продолжает: «Построив подобное здание, вы заслужите благодарность [religious_vassal.GetFaith.HighGodNameAlternatePossessive]… И мою».",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy wysłuchać, doszły mnie wieści, że w twoich domenach jest miejsce na budowlę, jaką jest [religious_vassal.GetFaith.HouseOfWorship].\\n\\n[religious_vassal.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_vassal'))], a następnie kontynuuje.\\n\\n– Jeśli zbudujesz taką budowlę, z pewnością zyskasz wdzięczność [religious_vassal.GetFaith.HighGodNameAlternatePossessive]. I moją też!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1101.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F [religious_vassal.GetFirstNameNoTooltip] will remember the promise, and owe me a [favor|E] if it's fulfilled within ten years#!",
+    "RUS": "#F [religious_vassal.GetFirstNameNoTooltip] запомнит мое обещание и задолжает мне [favor|El], если я исполню обещанное в течение десяти лет#!",
+    "POL": "#F [religious_vassal.GetFirstNameNoTooltip] zapamięta tę obietnicę i będzie mi [Select_CString(religious_vassal.IsFemale, 'winna', 'winien' )] [Concept( 'favor', 'przysługę' )|E], jeśli zostanie spełniona w ciągu dziesięciu lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1110.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«На этот раз вы превзошли себя, [ROOT.Char.Custom('FormOfAddressForLiege')]. Это поистине великолепное здание». — [Select_CString(religious_liege.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))] [religious_vassal.GetTitledFirstName] [religious_vassal.Custom('quirk_pos_present')], указывая на [religious_vassal.GetFaith.HouseOfWorship].\\n\\n«Наверняка [religious_vassal.GetFaith.HighGodName] радуется вашим успехам не меньше моего!»",
+    "POL": "– Tym razem przechodzi [ROOT.Char.Custom('FormOfAddressForLiege')] wszelkie oczekiwania. To zaprawdę wspaniała budowla. – [religious_vassal.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [religious_vassal.Custom('quirk_pos_present')] i patrzy, jak [religious_vassal.GetFaith.HouseOfWorship] świeci nowością.\\n\\n– Budowla na pewno budzi podziw [religious_vassal.GetFaith.HighGodNamePossessive] i ja też jestem pod wielkim wrażeniem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1110.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I live to serve [religious_vassal.GetFaith.HighGodName].",
+    "RUS": "Я живу, чтобы исполнять повеления [religious_vassal.GetFaith.HighGodNamePossessive].",
+    "POL": "Żyję po to, aby służyć. [religious_vassal.GetFaith.HighGodName] to potęga!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1120.desc_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Поверить не могу, что [Select_CString(ROOT.Char.IsFemale, 'такая набожная', 'такой набожный' )] [ROOT.Char.GetWomanMan], как вы, будет разбрасываться обещаниями… И ведь это [religious_vassal.GetFaith.HouseOfWorship], где почитают [religious_liege.GetFaith.HighGodNamePossessive]!»",
+    "POL": "– Że też taka pobożna osoba w ogóle może składać tak puste obietnice… I to jeszcze w kwestii wzniesienia świątyni, jaką może być [religious_vassal.GetFaith.HouseOfWorship]! [religious_vassal.GetFaith.HighGodName] się wstydzi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1120.desc_not_as_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы солгали мне, [ROOT.Char.Custom('FormOfAddressForLiege')]… И ведь это [religious_vassal.GetFaith.HouseOfWorship], где славят имя [religious_liege.GetFaith.HighGodNamePossessive]!»",
+    "POL": "– Wasza czcigodność kłamie… I to jeszcze w kwestii wzniesienia budowli, jaką może być [religious_vassal.GetFaith.HouseOfWorship] ku czci [religious_vassal.GetFaith.HighGodNamePossessive]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1120.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [religious_vassal.GetTitledFirstName], [religious_vassal.Custom('quirk_neg_present')] and shakes his head.\\n\\n",
+    "RUS": "[Select_CString(religious_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))] [religious_vassal.GetTitledFirstName] [religious_vassal.Custom('quirk_neg_present')] и качает головой.\\n\\n«Да простит вас [religious_vassal.GetFaith.HighGodNameAlternate]».",
+    "POL": "[religious_vassal.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [religious_vassal.Custom('quirk_neg_present')] i kiwa głową.\\n\\n– Niech [religious_vassal.GetFaith.HighGodNameAlternate] ci wybaczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1120.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "To err is only human!",
+    "RUS": "Человеку свойственно ошибаться!",
+    "POL": "Błądzić jest rzeczą ludzką!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.1120.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F Maybe I should have kept my promise and built that [THIS.Char.GetFaith.HouseOfWorship]...#!",
+    "RUS": "#F Возможно, мне стоило выполнить обещание и построить [THIS.Char.GetFaith.HouseOfWorship]...#!",
+    "POL": "#F Może będzie lepiej, jak dotrzymamy obietnicy i [THIS.Char.GetFaith.HouseOfWorship] jednak powstanie?#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Teaching the Young",
+    "RUS": "Обучение молодых",
+    "POL": "Nauczanie podrostka",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], думаю, [Select_CString(child_to_educate.IsFemale, 'юная', 'юный' )] [child_to_educate.GetFirstName] может многому научиться под вашим руководством».\\n\\n[vassal_proposing_education.GetTitledFirstName] ждет моего решения, и [Select_CString(vassal_proposing_education.IsFemale, 'ее', 'его' )] [vassal_proposing_education.Custom2('RelationToMe', SCOPE.sC('child_to_educate'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('child_to_educate'))], а затем осторожно машет нам рукой.",
+    "POL": "– Wasza czcigodność, myślę, że [child_to_educate.GetFirstName] może się wiele nauczyć pod twoją pieczą.\\n\\n[vassal_proposing_education.Custom2('RelationToMe', SCOPE.sC('child_to_educate'))|U] osoby znanej jako [vassal_proposing_education.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('child_to_educate'))], po czym macha do nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Sure, I'll educate the [child_to_educate.Custom('GirlBoy')].",
+    "RUS": "Конечно, пускай [child_to_educate.Custom('GirlBoy')] учится у меня.",
+    "POL": "Oczywiście, odpowiednio wykształcę t[Select_CString( child_to_educate.IsFemale, 'ę dziewczę', 'ego chłopca' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Your [child_to_educate.Custom('GetDaughterSon')] is your responsibility!",
+    "RUS": "[Select_CString(child_to_educate.IsFemale, 'Ваша', 'Ваш' )] [child_to_educate.Custom('GetDaughterSon')] — ваша ответственность!",
+    "POL": "Tw[Select_CString( child_to_educate.IsFemale, 'oja córka', 'ój syn' )] to twoja odpowiedzialność!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Fervent Feaster",
+    "RUS": "Страстный любитель пиров",
+    "POL": "Gorliwy biesiadnik",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Уже несколько месяцев вассалы нашей державы не собирались на пир, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleTierName|l]».\\n\\n[party_vassal.GetTitledFirstName] [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', party_vassal)] продолжает: «Если исправить это упущение в ближайшее время, вы непременно выиграете от этого, как и те из нас, кто ценит хороший пир!»",
+    "POL": "„Minęło wiele miesięcy, odkąd lordowie i damy państwa zebrali się na ucztę, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]”.\\n\\n[party_vassal.GetTitledFirstName] [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', party_vassal)] kontynuuje: „Jeśli szybko temu zaradzisz, byłoby to dla ciebie korzystne, nie wspominając o tych z nas, którzy cenią sobie dobrą ucztę!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I promise that a feast will be hosted soon!",
+    "RUS": "Я обещаю устроить пир в ближайшее время!",
+    "POL": "Obiecuję, że wkrótce odbędzie się uczta!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.a_hyped",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Of course we should feast! I don't know why I waited so long.",
+    "RUS": "Конечно же, мы должны устроить пир! Не знаю, зачем было тянуть так долго.",
+    "POL": "Oczywiście, że powinniśmy ucztować! Nie wiem, dlaczego tak długo zwlekał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F [party_vassal.GetFirstNameNoTooltip] will remember the promise I made, and be grateful if it's fulfilled within ten years#!",
+    "RUS": "#F [party_vassal.GetFirstNameNoTooltip] запомнит мое обещание и преисполнится благодарности, если я исполню обещанное в течение десяти лет#!",
+    "POL": "#F [party_vassal.GetFirstNameNoTooltip] zapamięta złożoną przeze mnie obietnicę i będzie wdzięczn[Select_CString( party_vassal.IsFemale, 'a', 'y' )], jeśli spełni się ona w ciągu dziesięciu lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will host a feast when I feel like.",
+    "RUS": "Я устрою пир, когда сочту нужным.",
+    "POL": "Zorganizuję ucztę, kiedy będę miał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] ochotę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.b_arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Who do you think you are?!",
+    "RUS": "Кем вы себя возомнили?!",
+    "POL": "Za kogo ty się uważasz?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.b_greedy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Do you even know how much would that costs?!",
+    "RUS": "Вы представляете, сколько это будет стоить?!",
+    "POL": "Czy ty w ogóle wiesz, ile by to kosztowało?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.b_lazy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I'm sure I'll get around to it eventually...",
+    "RUS": "Думаю, рано или поздно я дойду до этого...",
+    "POL": "Jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ien' )], że w końcu się za to zabiorę…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2101.b_shy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A feast? With people? I don't think so...",
+    "RUS": "Пир? С гостями? Вряд ли...",
+    "POL": "Uczta? Z ludźmi? Nie wydaje mi się…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2110.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], на сей раз вы превзошли себя!»\\n\\n[Select_CString(party_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))] [party_vassal.GetTitledFirstName], похоже, до сих пор пытается прийти в себя после пира, но настроение у н[party_vassal.GetHerHis] все равно отличное.",
+    "POL": "– Tym razem przechodzi [ROOT.Char.Custom('FormOfAddressForLiege')] wszelkie oczekiwania!\\n\\n[party_vassal.GetTitledFirstName|U], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))] mojej osoby, wydaje się jeszcze dochodzić do siebie po obiecanej [party_vassal.Custom('PL_mu_jej')] uczcie, ale mimo to jest w dobrym humorze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2110.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "It certainly was a feast to remember!",
+    "RUS": "Да, этот пир запомнят надолго!",
+    "POL": "To z pewnością była niezapomniana uczta!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2120.desc_party",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне и в голову не приходило, что [ROOT.Char.GetWomanMan], так [Select_CString(ROOT.Char.IsFemale, 'ценящая', 'ценящий' )] хорошее развлечение, будет разбрасываться обещаниями… Вы разочаровали меня».",
+    "POL": "– Że [Select_CString( ROOT.Char.IsFemale, 'kobieta tak oddana dobrej zabawie jak ty, składałaby', 'mężczyzna tak oddany dobrej zabawie jak ty, składałby' )] puste obietnice… Muszę przyznać, że jestem rozczarowan[Select_CString( party_vassal.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2120.desc_regular",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне и в голову не приходило, что [Select_CString(ROOT.Char.IsFemale, 'такая', 'такой' )] [party_vassal.Custom2('DescriptorPositive', ROOT.Char)][Select_CString(ROOT.Char.IsFemale, 'ая', 'ый' )] [ROOT.Char.GetWomanMan], как вы, будет разбрасываться обещаниями… Вы разочаровали меня».",
+    "POL": "– Że też tak[Select_CString( ROOT.Char.IsFemale, 'a', 'i' )] [party_vassal.Custom2('DescriptorPositive', ROOT.Char)] [Select_CString( ROOT.Char.IsFemale, 'kobieta jak ty, składałaby', 'mężczyzna jak ty, składałby' )] puste obietnice… Muszę przyznać, że jestem rozczarowan[Select_CString( party_vassal.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2120.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\n\\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))], [party_vassal.GetTitledFirstName], [party_vassal.Custom('quirk_neg_present')] and shakes his head.",
+    "RUS": "\\n\\n[Select_CString(party_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))] [party_vassal.GetTitledFirstName] [party_vassal.Custom('quirk_neg_present')] и качает головой.",
+    "POL": "\\n\\n[party_vassal.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))], [party_vassal.Custom('quirk_neg_present')] i kiwa głową.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2120.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I must have forgotten!",
+    "RUS": "Это просто вылетело у меня из головы!",
+    "POL": "Musiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] o tym zapomnieć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Monetary Ministrations",
+    "RUS": "Денежное вспомоществование",
+    "POL": "Posługi pieniężne",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleTierName|l], от меня не укрылось, что вам не помешала бы помощь с деньгами».\\n\\n[Select_CString(vassal_loan_holder.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_loan_holder'))] [vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_pos_present')], предлагая мне ссудить денег, чтобы облегчить пополнение моей казны.",
+    "POL": "– [ROOT.Char.GetTitleTierName|U] raczy posłuchać, wydaje mi się, że przydałaby ci się pomoc finansowa.\\n\\n[vassal_loan_holder.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_loan_holder'))], [vassal_loan_holder.Custom('quirk_pos_present')] i wysuwa propozycję pożyczki, by odciążyć mój skarbiec.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Your help is appreciated, [vassal_loan_holder.GetFirstNameNoTooltip].",
+    "RUS": "Я ценю вашу помощь, [vassal_loan_holder.GetFirstNameNoTooltip].",
+    "POL": "Doceniam twoją pomoc, [vassal_loan_holder.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.a.money_loan_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will borrow [gold_i] #bold [THIS.Var('amount_to_loan_root').GetValue]#! Gold from [vassal_loan_holder.GetFirstNameNoTooltip].",
+    "RUS": "[vassal_loan_holder.GetFirstNameNoTooltip] одолжит мне [gold_i] #bold [THIS.Var('amount_to_loan_root').GetValue]#! золота.",
+    "POL": "[vassal_loan_holder.GetFirstNameNoTooltip|U] pożyczy mi [gold_i] #bold [THIS.Var('amount_to_loan_root').GetValue]#! złota.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.a.repay_loan",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will need to use the #bold Repay Loan#! decision to repay the loan.",
+    "RUS": "Чтобы выплатить долг, придется воспользоваться взаимодействием #bold Выплатить займ#!.",
+    "POL": "Będę musiał[Select_CString( THIS.Char.IsFemale, 'a', '' )] później użyć decyzji #bold „Spłać pożyczkę”#!, aby oddać pieniądze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2201.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I am not #EMP that#! desperate!",
+    "RUS": "Положение не #EMP настолько#! отчаянное!",
+    "POL": "Nie jestem #EMP aż tak#! zdesperowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_inherited",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [Select_CString(original_lender.IsFemale, 'моя покойная', 'мой покойный' )] [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] некогда [Select_CString(original_lender.IsFemale, 'ссудила', 'ссудил' )] вам денег».\\n\\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а затем продолжает: «Как [vassal_loan_holder.GetHerHis] наследник, я прошу вас вернуть этот долг».",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy wysłuchać! Niedawno zmarła persona i jednocześnie [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] mojej osoby niegdyś udzieliła ci pożyczki. – [vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], po czym kontynuuje.\\n\\n– Jako że dziedziczę po [vassal_loan_holder.Custom('PL_nim_niej')] majątek, przychodzę, aby poprosić o spłatę długu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_inherited_loan",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], некогда [Select_CString(original_loaner.IsFemale, 'ваша покойная', 'ваш покойный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] [Select_CString(original_loaner.IsFemale, 'взяла', 'взял' )] у меня взаймы золото».\\n\\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а затем продолжает: «Вы, как [vassal_loan_holder.GetHerHis] наследник, обязаны вернуть этот долг».",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy mnie posłuchać. Niegdyś pewna zmarła persona i jednocześnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] twojej osoby pożyczyła ode mnie trochę złota. – [vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], po czym kontynuuje.\\n\\n– Jako że dziedziczysz po [vassal_loan_holder.Custom('PL_nim_niej')] majątek, obowiązek spłacenia tej pożyczki spoczywa teraz na tobie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_all_new_char",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], некогда [Select_CString(original_lender.IsFemale, 'моя покойная', 'мой покойный' )] [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] [Select_CString(original_lender.IsFemale, 'предложила', 'предложил' )], чтобы [Select_CString(original_loaner.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] [Select_CString(original_loaner.IsFemale, 'взяла', 'взял' )] у [Select_CString(original_lender.IsFemale, 'нее', 'него' )] взаймы золото».\\n\\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а затем продолжает: «Вы, как [vassal_loan_holder.GetHerHis] наследник, должны вернуть этот долг».",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy mnie posłuchać. Niegdyś pewna zmarła persona i jednocześnie [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] mojej osoby pożyczyła komuś nieco złota. Ten ktoś to [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] twojej osoby. – [vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], po czym kontynuuje.\\n\\n– Jako że dziedziczysz po [vassal_loan_holder.Custom('PL_nim_niej')] majątek, obowiązek spłacenia tej pożyczki spoczywa teraz na tobie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_first_time",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], полагаю, мой займ помог вам?»\\n\\n[vassal_loan_holder.GetTitledFirstName] [Select_CString(vassal_loan_holder.IsFemale, 'пришла', 'пришел' )] ко мне с просьбой вернуть данное взаймы золото.",
+    "POL": "– Wasza czcigodność, mam nadzieję, że pożyczka była przydatna.\\n\\n[vassal_loan_holder.GetTitledFirstName] przychodzi do mnie z prośbą o zwrot dostarczonego mi złota.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_second_time",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], мне не нравится эта игра. Вы должны мне, и я надеюсь, ваше обещание выплатить заем не было ложью».\\n\\n[vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_neg_present')], вновь навестив меня.",
+    "POL": "– Nie podoba mi się, jak [ROOT.Char.Custom('FormOfAddressForLiege')] ze mną pogrywa. Ma [ROOT.Char.Custom('FormOfAddressForLiege')] u mnie dług i wierzę, że kwestia spłacenia pożyczki nie była czczą obietnicą.\\n\\n[vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_neg_present')], gdy przychodzi do mnie po raz drugi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_three_times",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне это начинает надоедать, [ROOT.Char.Custom('FormOfAddressForLiege')]! Я в последний раз вежливо спрашиваю, где деньги, что вы мне задолжали?»\\n\\n[vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_neg_pp')], от н[vassal_loan_holder.GetHerHis] исходят волны негодования: [vassal_loan_holder.GetHerHis] терпение на исходе.",
+    "POL": "– Już mam tego dość, wasza czcigodność! To jest ostatni raz, kiedy proszę cię w uprzejmy sposób. Gdzie jest złoto, które masz mi do oddania?\\n\\n[vassal_loan_holder.Custom('quirk_neg_pp')|U], [vassal_loan_holder.GetTitledFirstName] promieniuje niezadowoleniem. [vassal_loan_holder.GetHerHis|U] cierpliwość dobiegła końca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.desc_more_times",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\\"Had I known that you were such [ROOT.Char.Custom2('InsultAdjectiveArticle', SCOPE.sC('vassal_loan_holder'))], dishonest, [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('vassal_loan_holder'))] I never would have done you such a favor.\\\"\\n\\nThe money in my treasury is of little comfort as [vassal_loan_holder.GetTitledFirstNamePossessive] [vassal_loan_holder.Custom('quirk_neg_present')] before walking away.",
+    "RUS": "«Жаль, раньше мне никто не сказал, что вы [ROOT.Char.Custom2('InsultAdjectiveArticle', SCOPE.sC('vassal_loan_holder'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('vassal_loan_holder'))]: вы бы тогда ничего от меня не получили».\\n\\nДеньги в казне служат мне слабым утешением, когда [vassal_loan_holder.GetTitledFirstNamePossessive] [vassal_loan_holder.Custom('quirk_neg_present')] перед уходом.",
+    "POL": "– W życiu by mi do głowy nie przyszło, że z ciebie taka nieuczciwa kanalia i [ROOT.Char.Custom2('InsultAdjectiveArticle', SCOPE.sC('vassal_loan_holder'))]. Wyświadczenie ci takiej przysługi było błędem.\\n\\nZłoto w moim skarbcu staje się nikłym pocieszeniem, gdy [vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_neg_present')] i odchodzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.z",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Here! Take it and begone!",
+    "RUS": "Вот! Забирайте и уходите!",
+    "POL": "Masz! Weź to i odejdź!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Of course you'll get your gold!",
+    "RUS": "Конечно, я найду для вас золото!",
+    "POL": "Oczywiście, że otrzymasz swoje złoto!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F I should pay [vassal_loan_holder.GetHerHim] back as soon as possible!#!",
+    "RUS": "#F Мне стоит расплатиться с [Select_CString(vassal_loan_holder.IsFemale, 'ней', 'ним' )] как можно скорее!#!",
+    "POL": "#F Powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] spłacić [Select_CString( vassal_loan_holder.IsFemale, 'ją', 'go' )] jak najszybciej!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Do not bother me with such trivial matters.",
+    "RUS": "Не беспокойте меня подобными мелочами.",
+    "POL": "Nie zawracaj mi głowy takimi trywialnymi sprawami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.c_greedy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Who am I kidding? The gold is a great comfort!",
+    "RUS": "Да кого я обманываю? Золото отлично успокаивает меня!",
+    "POL": "Kogo ja oszukuję? Złoto to wielka wygoda!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2205.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "It was a lot of money though...",
+    "RUS": "Но это была приличная сумма денег...",
+    "POL": "To było jednak dużo pieniędzy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My Skilled [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('skilled_vassal'))|U]",
+    "RUS": "[Select_CString(skilled_vassal.IsFemale, 'Моя талантливая', 'Мой талантливый' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('skilled_vassal'))]",
+    "POL": "Cóż to za umiejętności, [ROOT.Char.Custom2('RelationToMeVocative', SCOPE.sC('skilled_vassal'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_opening",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[skilled_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has proven [skilled_vassal.GetHerselfHimself] highly capable,",
+    "RUS": "[skilled_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] превосходно себя [Select_CString(skilled_vassal.IsFemale, 'показала', 'показал' )],",
+    "POL": "[skilled_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] udowodnił[Select_CString( skilled_vassal.IsFemale, 'a', '' )], że jest bardzo zdoln[Select_CString( skilled_vassal.IsFemale, 'a', 'y' )],",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "especially in matters of a diplomatic nature.",
+    "RUS": "особенно в вопросах дипломатии.",
+    "POL": "szczególnie w sprawach natury dyplomatycznej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_martial",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "especially in martial matters.",
+    "RUS": "особенно в военном деле.",
+    "POL": "szczególnie w sprawach walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "especially in administrative matters.",
+    "RUS": "особенно в вопросах управления.",
+    "POL": "szczególnie w sprawach administracyjnych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "especially in #EMP discreet#! matters.",
+    "RUS": "особенно в #EMP деликатных#! делах.",
+    "POL": "szczególnie w sprawach #EMP dyskretności#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_learning",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "especially in academic matters.",
+    "RUS": "особенно в вопросах исследования.",
+    "POL": "szczególnie w sprawach nauki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.desc_ending",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Мне бы хотелось начать несколько проектов во владении [develop_county.GetNameNoTier], мой сюзерен. С вашего благословения, разумеется».",
+    "POL": "\\n\\n„Są pewne projekty, które chciał[Select_CString(skilled_vassal.IsFemale, 'abym', 'bym' )] zrealizować na terenie [develop_county.GetAdjective], [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Z twoim błogosławieństwem, oczywiście”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Take the reins, [skilled_vassal.GetFirstNameNoTooltip]!",
+    "RUS": "Командуйте, [skilled_vassal.GetFirstNameNoTooltip]!",
+    "POL": "Przejmij stery, [skilled_vassal.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.b_diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "No, #EMP you#! will defer to my diplomatic expertise instead.",
+    "RUS": "Нет, лучше положитесь на #EMP мой#! опыт в дипломатии.",
+    "POL": "Nie, zamiast tego #EMP zdasz#! się na moją wiedzę dyplomatyczną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.b_martial",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Martial prowess? Hah! I'll make these modifications #EMP myself#!.",
+    "RUS": "Военная доблесть? Ха! Я #EMP самолично#! займусь улучшениями.",
+    "POL": "Umiejętność walki? Hah! #EMP Sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )]#! wprowadzę te modyfikacje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.b_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I can handle this administrative issue myself.",
+    "RUS": "Я могу справиться с этим вопросом управления и без посторонней помощи.",
+    "POL": "Sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )] poradzę sobie z tą administracyjną sprawą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.b_intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I think #EMP I#! should handle such delicate matters.",
+    "RUS": "Думаю, это #EMP мне#! стоит заниматься столь щекотливыми вопросами.",
+    "POL": "Myślę, że to #EMP ja#! powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] zajmować się tak delikatnymi sprawami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.b_learning",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I am much more qualified to deal with this issue.",
+    "RUS": "И я обладаю куда большими познаниями, чтобы разобраться с этим.",
+    "POL": "Mam zbyt wysokie kwalifikacje, aby zajmować się tą sprawą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2301.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Vassals shouldn't be taking such liberties.",
+    "RUS": "Вассалы не должны позволять себе такие вольности.",
+    "POL": "Wasale nie powinni korzystać z takich swobód.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Glimmering Hope",
+    "RUS": "Проблеск надежды",
+    "POL": "Promyk nadziei",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.desc_family",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Послушай, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))], мне нужны деньги».",
+    "POL": "– [SCOPE.sC('vassal_needs_gold').Custom2('RelationToMeVocative', ROOT.Char )|U], potrzebuję niewielkiego wsparcia finansowego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.desc_other",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleTierName|l]… Мне нужны деньги».",
+    "POL": "– Wasza czcigodność, potrzebuję niewielkiego wsparcia finansowego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\n\\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))], [vassal_needs_gold.GetTitledFirstName], looks at me [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', SCOPE.sC('vassal_needs_gold'))] before continuing, ",
+    "RUS": "\\n\\nПоймав мой взгляд, [Select_CString(vassal_needs_gold.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))] [vassal_needs_gold.GetTitledFirstName] [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', SCOPE.sC('vassal_needs_gold'))] продолжает: «Я даже [Select_CString(vassal_needs_gold.IsFemale, 'готова', 'готов' )] заключить соглашение… Пожалуйста, я знаю, вы можете помочь мне!»",
+    "POL": "\\n\\n[Select_CString(vassal_needs_gold.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))], [vassal_needs_gold.GetTitledFirstName], patrzy na mnie [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', SCOPE.sC('vassal_needs_gold'))], po czym kontynuuje: „Jestem nawet skłonn[Select_CString(vassal_needs_gold.IsFemale, 'a', 'y' )] pójść na ustępstwa… Proszę, wiem, że masz środki, aby mi pomóc!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Gold for [possible_county.GetNameNoTierNoTooltip] is reasonable, right?",
+    "RUS": "[possible_county.GetNameNoTierNoTooltip] в обмен на золото — разумное предложение, не так ли?",
+    "POL": "Złoto za ziemie znane jako [possible_county.GetNameNoTierNoTooltip]. Brzmi rozsądnie, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "You have been enjoying a #EMP very#! beneficial contract...",
+    "RUS": "А ведь у вас #EMP крайне#! выгодный договор...",
+    "POL": "Cieszysz się #EMP bardzo#! korzystnym kontraktem…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2401.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Can you not manage your own gold?!",
+    "RUS": "Вы не можете разобраться со своим собственным золотом?!",
+    "POL": "Nie potrafisz zarządzać swoim własnym złotem?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2451.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A Better Contract",
+    "RUS": "Лучший договор",
+    "POL": "Lepszy kontrakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2451.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('negotiating_vassal'))], [negotiating_vassal.GetTitledFirstName], approaches me with a [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('negotiating_vassal'))] smile.\\n\\n",
+    "RUS": "[Select_CString(negotiating_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('negotiating_vassal'))] [negotiating_vassal.GetTitledFirstName] [Select_CString(negotiating_vassal.IsFemale, 'подошла', 'подошел' )] ко мне, [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('negotiating_vassal'))]о улыбаясь.\\n\\n«Я [Select_CString(negotiating_vassal.IsFemale, 'была бы весьма признательна', 'был бы весьма признателен')], если бы мы смогли... пересмотреть мой вассальный договор, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой')] [ROOT.Char.GetTitleTierName|l]. Разумеется, я подтвержу свою признательность силами моей земли — и моей казны».",
+    "POL": "[negotiating_vassal.GetTitledFirstName|U], [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('negotiating_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('negotiating_vassal'))] mojej osoby, podchodzi do mnie, a na [negotiating_vassal.Custom('PL_jego_jej')] twarzy rysuje się uśmiech.\\n\\n– Odczuję wielkie zobowiązanie, jeśli [ROOT.Char.GetTitleTierName] zgodzi się na… renegocjację mojego kontraktu. Jakakolwiek poprawa mojej sytuacji spotkałaby się oczywiście z entuzjastyczną reakcją ze strony mojego skarbca lub mojej ziemi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2451.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I #EMP have#! been interested in [possible_county.GetNameNoTierNoTooltip]...",
+    "RUS": "Меня #EMP весьма#! интересует [possible_county.GetNameNoTierNoTooltip]…",
+    "POL": "#EMP Interesuje#! mnie ziemia znana jako [possible_county.GetNameNoTierNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2451.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My treasury could need a refill, that's for sure.",
+    "RUS": "Мою казну не помешало бы пополнить, это точно.",
+    "POL": "Nie zaszkodzi uzupełnić mój skarbiec, to jest pewne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2451.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "You'll find no deal here, [negotiating_vassal.GetFirstNameNoTooltip].",
+    "RUS": "Никаких сделок, [negotiating_vassal.GetFirstNameNoTooltip].",
+    "POL": "Nie znajdziesz tu żadnej umowy, [negotiating_vassal.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2501.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A Plea for Peace",
+    "RUS": "Стремление к миру",
+    "POL": "Apel o pokój",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2501.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], эта война… — вздыхает [Select_CString(peaceful_vassal.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('peaceful_vassal'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peaceful_vassal'))] [peaceful_vassal.GetTitledFirstName]. — Войскам приходится нелегко, как и всем нам. [Select_CString(peaceful_vassal.IsFemale, 'Должна', 'Должен' )] признать, я сомневаюсь в ее исходе».\\n\\nВозможно, мне стоит развеять [peaceful_vassal.GetHerHis] растущие сомнения?",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy wysłuchać, ta wojna… – [peaceful_vassal.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peaceful_vassal'))] mojej osoby, wzdycha, po czym kontynuuje.\\n\\n– Żołnierze są już wyczerpani, jak i my wszyscy. Muszę przyznać, że zaczynam się już obawiać.\\n\\nMoże trzeba coś zrobić, aby złagodzić [peaceful_vassal.Custom('PL_jego_jej')] rosnący niepokój?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2501.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Less pressure placed on [peaceful_vassal.GetHerHim] might help.",
+    "RUS": "Возможно, стоит не так сильно давить на н[peaceful_vassal.GetHerHis]?",
+    "POL": "Wywieranie mniejszej presji na [Select_CString( peaceful_vassal.IsFemale, 'niej', 'nim' )] może pomóc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2501.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Must I remind you who is the [ROOT.Char.GetTitleTierName]?!",
+    "RUS": "Напомнить вам, кто здесь [ROOT.Char.GetTitleTierName|l]?!",
+    "POL": "Czy muszę ci przypomnieć, kim jest [ROOT.Char.GetTitleTierName]?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2501.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "You must learn to curb your doubts.",
+    "RUS": "Учитесь держать свои сомнения при себе.",
+    "POL": "Musisz nauczyć się okiełznać swoje wątpliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2601.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Wishing for War",
+    "RUS": "Жажда войны",
+    "POL": "Pragnienie wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2601.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! [holder_of_claim.GetTitledFirstName] — у вас ведь есть повод атаковать [Select_CString(holder_of_claim.IsFemale, 'ее', 'его' )] владения, но вы бездействуете… — [Select_CString(warmongering_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))] [warmongering_vassal.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('warmongering_vassal'))], а затем продолжает: — Почему? Мы слишком долго наслаждались миром, пора воспользоваться случаем!»",
+    "POL": "– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy posłuchać, masz powód, aby zaatakować personę znaną jako [holder_of_claim.GetTitledFirstName], lecz wstrzymujesz swą pięść… – [warmongering_vassal.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('warmongering_vassal'))] i kontynuuje.\\n\\n– Dlaczego? Ten pokój trwa już zdecydowanie za długo! Czas wykorzystać okazję!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2601.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "You are right, [warmongering_vassal.GetFirstNameNoTooltip]!",
+    "RUS": "Вы правы, [warmongering_vassal.GetFirstNameNoTooltip]!",
+    "POL": "Masz rację, [warmongering_vassal.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2601.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F [warmongering_vassal.GetFirstName] will remember the promise I made#!",
+    "RUS": "#F [warmongering_vassal.GetFirstName] запомнит мое обещание#!",
+    "POL": "#F [warmongering_vassal.GetFirstName] zapamięta złożoną przeze mnie obietnicę#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2601.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will not be bullied into premature action.",
+    "RUS": "Никто не вынудит меня действовать преждевременно.",
+    "POL": "Nie dam się zmusić do przedwczesnego działania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2610.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы поступили правильно, [ROOT.Char.Custom('FormOfAddressForLiege')]. [Select_CString(recipient.IsFemale, 'Эта', 'Этот' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('recipient'))][Select_CString(recipient.IsFemale, 'ая', 'ый' )] [recipient.GetTitledFirstName] узнает, на что мы способны! [claim_to_fight_for.GetNameNoTier] будет принадлежать вам!»",
+    "POL": "– Postępuje [ROOT.Char.Custom('FormOfAddressForLiege')] słusznie. [recipient.GetTitledFirstName] zobaczy, co potrafimy! [claim_to_fight_for.GetNameNoTier] to ziemie, które tylko czekają na zdobycie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2610.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "We will win this war!",
+    "RUS": "Мы выиграем эту войну!",
+    "POL": "Wygramy tę wojnę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2620.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))], [warmongering_vassal.GetTitledFirstName], [warmongering_vassal.Custom('quirk_neg_present')].\\n\\n",
+    "RUS": "[Select_CString(warmongering_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))] [warmongering_vassal.GetTitledFirstName] [warmongering_vassal.Custom('quirk_neg_present')].\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [holder_of_claim.GetTitledFirstName] до сих пор не [Select_CString(holder_of_claim.IsFemale, 'познала', 'познал' )] ваш гнев и мощь ваших войск. Зачем вы обещали мне войну, которую не собирались начинать?»",
+    "POL": "[warmongering_vassal.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))], [warmongering_vassal.Custom('quirk_neg_present')].\\n\\n– [ROOT.Char.Custom('FormOfAddressForLiege')|U] raczy wysłuchać, [holder_of_claim.GetTitledFirstName] nie ugina się pod naporem twego gniewu ani twojej armii. Dlaczego obiecujesz mi wojnę, której nie chcesz rozpocząć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2620.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "There's just been so much else going on...",
+    "RUS": "Просто столько всего навалилось...",
+    "POL": "Działo się tyle innych rzeczy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('CommanderTraitBeingTaughtNoTooltip')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('teacher'))|U]",
+    "RUS": "[ROOT.Char.Custom('CommanderTraitBeingTaughtNoTooltip')]",
+    "POL": "[ROOT.Char.Custom('CommanderTraitBeingTaughtNoTooltip')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('teacher'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('teacher'))], [teacher.GetTitledFirstName], is known for [teacher.GetHerHis] prowess in military matters — especially in areas where I have found myself lacking.",
+    "RUS": "[Select_CString(teacher.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('teacher'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('teacher'))] [teacher.GetTitledFirstName] славится своими познаниями в военном деле, особенно в тех его областях, в которых я разбираюсь хуже всего.",
+    "POL": "M[Select_CString( SCOPE.sC('teacher').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('teacher'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('teacher'))], [teacher.GetTitledFirstName], jest znan[Select_CString( teacher.IsFemale, 'a', 'y' )] ze swojej biegłości w sprawach wojskowych – zwłaszcza w dziedzinach, w których ja sam[Select_CString( ROOT.Char.IsFemale, 'a', '' )] odczuwał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] braki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Will you teach me, [teacher.GetFirstNameNoTooltip]?",
+    "RUS": "Вы научите меня, [teacher.GetFirstNameNoTooltip]?",
+    "POL": "Dasz mi parę lekcji, [teacher.GetFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I do not gain the Trait [THIS.Char.Custom('CommanderTraitBeingTaught')]",
+    "RUS": "Я не получаю свойства «[THIS.Char.Custom('CommanderTraitBeingTaught')]»",
+    "POL": "Nie zyskuję cechy: [THIS.Char.Custom('CommanderTraitBeingTaught')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.a.random_list.success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The training is successful",
+    "RUS": "Обучение было успешным",
+    "POL": "Szkolenie zakończyło się sukcesem",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.a.random_list.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The training is unsuccessful",
+    "RUS": "Обучение не было успешным",
+    "POL": "Szkolenie nie zakończyło się sukcesem",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2701.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I have better things to do!",
+    "RUS": "У меня есть дела поважнее!",
+    "POL": "Mam lepsze rzeczy do roboty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2702.desc_success_inclination",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы меня удивляете, [ROOT.Char.Custom('FormOfAddressForLiege')]!»\\n\\nМои природные способности к наукам, которым меня обучает [teacher.GetTitledFirstName], не являются неожиданностью, но меня это все равно радует.",
+    "POL": "– Imponujące, wasza czcigodność!\\n\\nMoje naturalne zdolności do nauk, które przekazuje mi [teacher.GetTitledFirstName], nie są zaskoczeniem, ale i tak mnie to cieszy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2702.desc_success_no_inclination",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы меня удивляете, [ROOT.Char.Custom('FormOfAddressForLiege')]!»\\n\\nНесмотря на отсутствие способностей к военному делу, я воспринимаю все, чему меня учит [teacher.GetTitledFirstName], с удивляющей даже меня жадностью.",
+    "POL": "– Imponujące, wasza czcigodność!\\n\\nPomimo mojego braku predyspozycji wojskowych, pojmuję wszystko, czego uczy mnie [teacher.GetTitledFirstName] z pragnieniem i umiejętnościami, które zaskakują nawet mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2702.desc_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Despite [teacher.GetTitledFirstNamePossessive] best efforts, nothing [teacher.GetSheHe] tells me or demonstrates makes any sense. This is a doomed venture.",
+    "RUS": "Несмотря на все старания, все, что показывает или рассказывает [teacher.GetTitledFirstName], кажется мне бессмыслицей. Эта затея обречена на провал.",
+    "POL": "Mimo [teacher.GetHerHis] najlepszych działań, nic z tego, co mówi mi [teacher.GetTitledFirstName], nie ma dla mnie większego sensu. To przedsięwzięcie jest skazane na niepowodzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2702.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Finally I know what all that fuss was about!",
+    "RUS": "Наконец-то я понимаю, в чем вообще дело!",
+    "POL": "Wreszcie wiem, o co było całe to zamieszanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2702.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Is [teacher.GetSheHe] a bad teacher, or am I not cut out for this?",
+    "RUS": "Либо [teacher.GetSheHe] плохой учитель, либо я не гожусь для этого.",
+    "POL": "Jest [Select_CString(ROOT.Char.IsFemale, 'złą nauczycielką', 'złym nauczycielem' )], czy ja się do tego po prostu nie nadaję?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2801.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The Demands of a Liege",
+    "RUS": "Требование сюзерена",
+    "POL": "Żądania władcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2801.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetTitledFirstNameNoTooltip], от меня не укрылось, что во владении [develop_county.GetNameNoTier] уже довольно давно не происходит никаких улучшений, хотя у вас есть для этого все необходимое».",
+    "POL": "„[ROOT.Char.GetTitledFirstNameNoTooltip], trudno nie zauważyć, że na terenie [develop_county.GetAdjective] od dłuższego czasu nie wprowadzono żadnych ulepszeń, mimo że wyraźnie masz środki na podjęcie takich działań”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2801.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will see to it at once!",
+    "RUS": "Я немедленно займусь этим!",
+    "POL": "Zajmę się tym natychmiast!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2801.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "If you could lessen my other obligations...",
+    "RUS": "Если бы вы сняли с меня часть других обязательств...",
+    "POL": "Gdybyś m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] zmniejszyć moje inne zobowiązania…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[claim_to_propose.GetNameNoTier|U]",
+    "RUS": "[claim_to_propose.GetNameNoTier|U]",
+    "POL": "[claim_to_propose.GetNameNoTier|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой')] [ROOT.Char.GetTitleTierName|l], в настоящий момент вам принадлежит кое-что… кусок земли, который по праву должен быть моим».\\n\\n[Select_CString(claim_vassal.IsFemale, 'Моя', 'Мой')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] [claim_vassal.GetTitledFirstName] [Select_CString(claim_vassal.IsFemale, 'прибыла', 'прибыл')] ко мне, требуя передать [Select_CString(claim_vassal.IsFemale, 'ей', 'ему')] владение [claim_to_propose.GetName].",
+    "POL": "– [ROOT.Char.GetTitleTierName|U] posiada obecnie coś, co powinno być moje.\\n\\n[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] mojej osoby, [claim_vassal.GetTitledFirstName], pragnie ziem znanych jako [claim_to_propose.GetNameNoTier].",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I'll see what I can do.",
+    "RUS": "Посмотрим, что тут можно сделать.",
+    "POL": "Zobaczę, co da się zrobić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F [claim_vassal.GetFirstNameNoTooltip] will remember my promise, and be grateful if it's kept!#!",
+    "RUS": "#F [claim_vassal.GetFirstNameNoTooltip] запомнит мое обещание и преисполнится благодарности, если я исполню его!#!",
+    "POL": "#F [claim_vassal.GetFirstNameNoTooltip] zapamięta moją obietnicę i będzie wdzięczn[Select_CString( claim_vassal.IsFemale, 'a', 'y' )], jeśli zostanie dotrzymana!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[claim_to_propose.GetNameNoTierNoTooltip] belongs to me!",
+    "RUS": "[claim_to_propose.GetNameNoTierNoTooltip] принадлежит мне!",
+    "POL": "[claim_to_propose.GetNameNoTierNoTooltip] należy do mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2901.z",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "You should receive what you ask.",
+    "RUS": "Вы получите то, о чем просите.",
+    "POL": "Powin[Select_CString( claim_vassal.IsFemale, 'naś', 'ieneś' )] otrzymać to, o co prosisz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2910.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Благодарю вас, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleTierName|l]!»\\n\\n[Select_CString(recipient.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('recipient'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] [recipient.GetTitledFirstName] радуется полученному титулу, а меня радует новое обязательство.",
+    "POL": "– Niech [ROOT.Char.GetTitleTierName] przyjmie moją wdzięczność!\\n\\n[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('recipient'))|U] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] mojej osoby, [recipient.GetTitledFirstName], raduje się nowym tytułem, jaki został [recipient.Custom('PL_mu_jej')] nadany z mojego rozkazu, a ja cieszę się uzyskaną w ten sposób przysługą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2910.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Everything has its prize!",
+    "RUS": "Все имеет свою цену!",
+    "POL": "Wszystko ma swoją cenę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2911.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] is furious. [claim_vassal.GetSheHe|U] has finally realized that my promise to grant [claim_vassal.GetHerHim] the [claim_to_propose.GetName] was nothing but empty words.",
+    "RUS": "[Select_CString(claim_vassal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] в ярости. [Select_CString(claim_vassal.IsFemale, 'Она наконец-то поняла', 'Он наконец-то понял' )], что мое обещание передать [claim_vassal.GetHerHim] владение [claim_to_propose.GetName] было лишь пустыми словами.",
+    "POL": "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] mojej osoby wścieka się. W końcu rozumie, że moja obietnica, z której wynikało, iż przyznam [claim_vassal.Custom('PL_mu_jej')] ziemie znane jako [claim_to_propose.GetNameNoTier], była tylko pustym słowem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.2911.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I had no obligation to meet such ludicrous request.",
+    "RUS": "У меня нет обязательств выполнять такие абсурдные просьбы.",
+    "POL": "Nie miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] obowiązku spełnić tak niedorzecznego żądania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Tumble Trouble",
+    "RUS": "Навалившаяся беда",
+    "POL": "Bezowocny wysiłek",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.desc_child",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] stands, surrounded by love and [vassal_to_ask.GetHerHis] many [vassal_to_ask.Custom('ChildChildrenGender')], and I am reminded of the harsh coldness that permeates my own home — a feeling that might be dispelled with another child.",
+    "RUS": "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] живет в любви, которую дарят [vassal_to_ask.GetHerHim] [vassal_to_ask.GetHerHis] многочисленные [vassal_to_ask.Custom('ChildChildrenGender')]. Это напоминает мне о холоде, царящем в моем собственном доме, холоде, рассеять который могло бы рождение еще одного ребенка.",
+    "POL": "[vassal_to_ask.GetTitledFirstName|U], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] mojej osoby, cieszy się miłością wyrażaną przez [vassal_to_ask.Custom('PL_jego_jej')] liczne potomstwo, a mnie przypomina się surowy chłód, który przenika mój własny dom. To uczucie może zostać rozwiane jedynie dzięki kolejnemu dziecku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.desc_no_child",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] stands, surrounded by love and [vassal_to_ask.GetHerHis] many [vassal_to_ask.Custom('ChildChildrenGender')], and I am reminded of the empty rooms and quiet hallways of my own home.",
+    "RUS": "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] живет в любви, которую дарят [vassal_to_ask.GetHerHim] [vassal_to_ask.GetHerHis] многочисленные [vassal_to_ask.Custom('ChildChildrenGender')]. Это напоминает мне о пустых комнатах и тихих коридорах моего дома.",
+    "POL": "[vassal_to_ask.GetTitledFirstName|U], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] mojej osoby, cieszy się miłością wyrażaną przez [vassal_to_ask.Custom('PL_jego_jej')] liczne potomstwo, a mnie przypominają się puste pokoje i ciche korytarze mojego własnego domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "\\n\\nOf course we have tried, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName] and I, but there must be something we are doing wrong...",
+    "RUS": "\\n\\nКонечно же, мы пытались, [Select_CString(spouse.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName] и я, но, наверное, мы что-то делаем не так...",
+    "POL": "\\n\\nOczywiście staraliśmy się o nie, ja i [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] mojej osoby, [spouse.GetFirstName]. Najwyraźniej coś robimy źle…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Maybe [vassal_to_ask.GetFirstNameNoTooltip] can give me a few pointers!",
+    "RUS": "Возможно, [vassal_to_ask.GetFirstNameNoTooltip] может дать нам несколько подсказок!",
+    "POL": "Może [vassal_to_ask.GetFirstNameNoTooltip] da mi kilka wskazówek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "This is a private matter.",
+    "RUS": "Это слишком личное дело.",
+    "POL": "To prywatna sprawa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetFirstNameNoTooltip], у вас есть многочисленные [ROOT.Char.Custom('ChildChildrenGender')], а вот мне не повезло. Вы могли бы дать мне совет… как это исправить?»\\n\\nУшам своим не верю! [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('liege_with_trouble'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))], [liege_with_trouble.GetTitledFirstName] просит меня подсказать, что нужно делать в спальне!",
+    "POL": "„[ROOT.Char.GetFirstNameNoTooltip], [Select_CString( liege_with_trouble.IsFemale, 'zostałaś pobłogosławiona', 'zostałeś pobłogosławiony' )] wieloma [Select_CString(EqualTo_string( vassal_to_ask.Custom('ChildChildrenGender'), '$relation_sons|q$'), 'synami', Select_CString(EqualTo_string( vassal_to_ask.Custom('ChildChildrenGender'), '$relation_daughters|q$'), 'córkami', 'dziećmi' ) )], a ja nie miał[Select_CString( liege_with_trouble.IsFemale, 'a', 'e' )]m podobnego szczęścia. Czy masz jakieś wskazówki na to… jak temu zaradzić?”\\n\\nNie wierzę! [Select_CString( liege_with_trouble.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('liege_with_trouble'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))], [liege_with_trouble.GetTitledFirstName], pyta mnie o wskazówki w sprawach łóżkowych!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "How does dried pig testicles and wine sound?",
+    "RUS": "Что скажете насчет сушеных свиных яичек и вина?",
+    "POL": "Co myślisz o suszonych świńskich jądrach i winie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.a.critical_success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My advice has amazing results",
+    "RUS": "Мой совет привел к поразительным результатам",
+    "POL": "Moja rada przynosi niesamowite rezultaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My advice has good results",
+    "RUS": "Мой совет привел к хорошим результатам",
+    "POL": "Moja rada przynosi dobre rezultaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My advice caused more harm than good",
+    "RUS": "Мой совет принес больше вреда, чем пользы",
+    "POL": "Moja rada wyrządziła więcej szkód niż pożytku",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I want nothing to do with what goes on in there!",
+    "RUS": "Я не хочу иметь ничего общего с тем, что там происходит!",
+    "POL": "Nie chcę mieć nic wspólnego z tym, co się tam dzieje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I think [spouse.GetTitledFirstNameNoTooltip] needs some lessons.",
+    "RUS": "Думаю, [spouse.GetTitledFirstNameNoTooltip] нуждается в паре уроков.",
+    "POL": "Myślę, że [spouse.GetTitledFirstNameNoTooltip] potrzebuje kilku lekcji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.c.tt_success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[liege_with_trouble.GetTitledFirstNameNoTooltip] agrees",
+    "RUS": "[liege_with_trouble.GetTitledFirstNameNoTooltip] соглашается",
+    "POL": "[liege_with_trouble.GetTitledFirstNameNoTooltip] zgadza się",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.c.tt_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[liege_with_trouble.GetSheHe|U] is insulted",
+    "RUS": "[liege_with_trouble.GetSheHe|U] [Select_CString(bird_sender.IsFemale, 'оскорблена', 'оскорблен' )]",
+    "POL": "Jest obrażon[Select_CString(liege_with_trouble.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I think some personal... #EMP tutoring#! would benefit you.",
+    "RUS": "Думаю, несколько личных #EMP уроков#! пойдут вам на пользу.",
+    "POL": "Myślę, że kilka osobistych… #EMP lekcji#! przyniosłoby ci korzyści.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.d.tt_success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[liege_with_trouble.GetSheHe|U] is interested in private lessons",
+    "RUS": "[liege_with_trouble.GetSheHe|U] [Select_CString(liege_with_trouble.IsFemale, 'заинтересована', 'заинтересован' )] в личных уроках",
+    "POL": "Jest zainteresowan[Select_CString(liege_with_trouble.IsFemale, 'a', 'y' )] prywatnymi lekcjami",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3002.d.tt_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[liege_with_trouble.GetSheHe|U] is insulted",
+    "RUS": "[liege_with_trouble.GetSheHe|U] [Select_CString(bird_sender.IsFemale, 'оскорблена', 'оскорблен' )]",
+    "POL": "Jest obrażon[Select_CString(liege_with_trouble.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.desc_good_counsel",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))], [vassal_to_ask.GetTitledFirstName], gave me a brew to drink, claiming: ",
+    "RUS": "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] [Select_CString(vassal_to_ask.IsFemale, 'дала', 'дал' )] мне зелье, заявив: «Вы тотчас же заметите разницу, [ROOT.Char.Custom('FormOfAddressForLiege')]!»\\n\\nМеня беспокоит, что [vassal_to_ask.GetTitledFirstName] не хочет рассказывать об ингредиентах зелья, но я уже чувствую, как жизненная сила струится по моим венам!",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))|U] mojej osoby, [vassal_to_ask.GetTitledFirstName], daje mi do wypicia napar i mówi:\\n\\n– Od razu zauważy [ROOT.Char.Custom('FormOfAddressForLiege')] różnicę!\\n\\n[vassal_to_ask.Custom('PL_jego_jej')|U] tajemniczość w zakresie składników nieco mnie niepokoi, ale już czuję witalność płynącą w moich żyłach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.desc_bad_counsel",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))], [vassal_to_ask.GetTitledFirstName], gave me a brew to drink, claiming: ",
+    "RUS": "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] [Select_CString(vassal_to_ask.IsFemale, 'дала', 'дал' )] мне зелье, заявив: «Вы тотчас же заметите разницу, [ROOT.Char.Custom('FormOfAddressForLiege')]!»\\n\\nМеня беспокоит, что [vassal_to_ask.GetTitledFirstName] не хочет рассказывать об ингредиентах зелья, и, чувствуя сокращение моих теплых гуморов, я проклинаю [vassal_to_ask.GetHerHis] дурной совет!",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))|U] mojej osoby, [vassal_to_ask.GetTitledFirstName], daje mi do wypicia napar i mówi:\\n\\n– Od razu zauważy [ROOT.Char.Custom('FormOfAddressForLiege')] różnicę!\\n\\n[vassal_to_ask.Custom('PL_jego_jej')|U] tajemniczość w zakresie składników nieco mnie niepokoi, a kiedy czuję, że moja energia witalna zanika, przeklinam [vassal_to_ask.Custom('PL_go_ja')] za złą radę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.desc_making_a_move_on_spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пришлите [Select_CString(spouse.IsFemale, 'свою жену', 'своего мужа' )] ко мне, [ROOT.Char.Custom('FormOfAddressForLiege')], и я научу [spouse.GetHerHis], как лучше ублажать вас».",
+    "POL": "– Niech [spouse.GetWifeHusband] waszej czcigodności przyjdzie do mnie, a powiem [spouse.Custom('PL_mu_jej')], jak lepiej cię zadowolić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.desc_making_a_move",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Но, [ROOT.Char.Custom('FormOfAddressForLiege')], давать советы не так-то просто. Куда проще было бы показать вам…»",
+    "POL": "– Ależ wasza czcigodność, tak trudno jest dawać wskazówki. Byłoby o wiele łatwiej po prostu pokazać…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.desc_refusal",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The audacity of the [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('vassal_to_ask'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))]! Even after I approached [vassal_to_ask.GetTitledFirstName] with my delicate question, [vassal_to_ask.GetSheHe] turned me away.",
+    "RUS": "Какая дерзость! Несмотря на деликатность моей просьбы, [Select_CString(vassal_to_ask.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('vassal_to_ask'))][Select_CString(vassal_to_ask.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [Select_CString(vassal_to_ask.IsFemale, 'отказалась', 'отказался' )] помочь мне!",
+    "POL": "[Select_CString( vassal_to_ask.IsFemale, 'Ta', 'Ten' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('vassal_to_ask'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] ma czelność! Nawet po tym, jak [vassal_to_ask.GetTitledFirstName] usłyszał[Select_CString( vassal_to_ask.IsFemale, 'a', '' )] moje wrażliwe pytanie, po prostu odwrócił[Select_CString( vassal_to_ask.IsFemale, 'a', '' )] się ode mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[spouse.GetTitledFirstNameNoTooltip]! Meet me in our chambers!",
+    "RUS": "[spouse.GetTitledFirstNameNoTooltip|U]! Встречаемся в опочивальне!",
+    "POL": "[spouse.GetFirstNameNoTooltip]! Spotkajmy się w naszej komnacie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Am I cursed to live a childless life?",
+    "RUS": "Неужели бездетность стала моим проклятьем?",
+    "POL": "Czy ciąży na mnie klątwa życia w bezdzietności?",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I will send [spouse.GetHerHim] right away!",
+    "RUS": "Я отправлю [spouse.GetHerHis] тотчас же!",
+    "POL": "Zaraz [Select_CString( spouse.IsFemale, 'ją', 'go' )] przyślę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.spouse.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Increased Fertility",
+    "RUS": "Повышенная плодовитость",
+    "POL": "Zwiększona płodność",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Yes, some personal tutoring might help.",
+    "RUS": "Да, личное руководство, вероятно, не помешает.",
+    "POL": "Tak, kilka osobistych lekcji może pomóc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3003.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The audacity!",
+    "RUS": "Какая дерзость!",
+    "POL": "Co za zuchwalstwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.desc_spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The efficiency of my private lesson with [spouse.GetTitledFirstName] can be questioned, but [spouse.GetSheHe] definitely voiced no complaints.\\n\\nIf [spouse.GetHerHis] [spouse.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))] is lucky, [spouse.GetSheHe] picked up a thing or two...!",
+    "RUS": "Эффективность нашего личного урока может быть спорной, но [spouse.GetTitledFirstName] определенно ни на что не жалуется.\\n\\nВозможно, [spouse.GetSheHe] кое-что [Select_CString(liege_with_trouble.IsFemale, 'усвоила', 'усвоил' )], если [spouse.GetHerHis] [spouse.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))] достаточно [Select_CString(spouse.IsFemale, 'удачлива', 'удачлив' )]!..",
+    "POL": "Skuteczność mojej prywatnej lekcji mogła być wątpliwa, ale [spouse.GetTitledFirstName] zdecydowanie nie zgłaszał[Select_CString( spouse.IsFemale, 'a', '' )] żadnych zastrzeżeń.\\n\\n[spouse.GetHerHis|U] [spouse.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))] będzie miał[Select_CString( liege_with_trouble.IsFemale, 'a', '' )] szczęście, jeżeli chociaż nauczył[Select_CString( spouse.IsFemale, 'a', '' )] się jednej czy dwóch rzeczy…!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.desc_refused",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[liege_with_trouble.GetTitledFirstName] refused me!\\n\\nI can only hope that [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] has better luck in their bedchamber...!",
+    "RUS": "[liege_with_trouble.GetTitledFirstName] [Select_CString(liege_with_trouble.IsFemale, 'отказалась', 'отказался' )] от моей помощи!\\n\\nНадеюсь, [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] более [Select_CString(spouse.IsFemale, 'удачлива', 'удачлив' )] в их спальне!..",
+    "POL": "[liege_with_trouble.GetTitledFirstName] mi odmówił[Select_CString( liege_with_trouble.IsFemale, 'a', '' )]!\\n\\nMogę tylko mieć nadzieję, że [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] będzie miał[Select_CString( spouse.IsFemale, 'a', '' )] więcej szczęścia w ich sypialni…!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "The efficiency of my private lesson with [liege_with_trouble.GetTitledFirstName] can be questioned, but [liege_with_trouble.GetSheHe] surely had no complaints.\\n\\nIf [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] is lucky, [liege_with_trouble.GetSheHe] picked up a thing or two...!",
+    "RUS": "Эффективность нашего личного урока может быть спорной, но [liege_with_trouble.GetTitledFirstName] точно ни на что не жалуется.\\n\\nВозможно, [liege_with_trouble.GetSheHe] кое-что [Select_CString(liege_with_trouble.IsFemale, 'усвоила', 'усвоил' )], если [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] достаточно [Select_CString(spouse.IsFemale, 'удачлива', 'удачлив' )]!..",
+    "POL": "Skuteczność mojej prywatnej lekcji mogła być wątpliwa, ale [liege_with_trouble.GetTitledFirstName] zdecydowanie nie zgłaszał[Select_CString( liege_with_trouble.IsFemale, 'a', '' )] żadnych zastrzeżeń.\\n\\n[liege_with_trouble.GetHerHis|U] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] będzie miał[Select_CString( spouse.IsFemale, 'a', '' )] szczęście, jeżeli chociaż nauczył[Select_CString( liege_with_trouble.IsFemale, 'a', '' )] się jednej czy dwóch rzeczy…!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "It is [liege_with_trouble.GetSheHe] who is missing out!",
+    "RUS": "Это [liege_with_trouble.GetSheHe] многое упускает!",
+    "POL": "To [liege_with_trouble.GetSheHe] jest tą stroną, która traci!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "To pay my prowess forward is the least I can do!",
+    "RUS": "Предложить свои навыки — это меньшее, что я могу!",
+    "POL": "Przekazywanie moich umiejętności to minimum, które mogę zrobić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.3004.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[spouse.GetFirstNameNoTooltip] is an excellent student!",
+    "RUS": "[spouse.GetFirstNameNoTooltip] отлично все усваивает!",
+    "POL": "[spouse.GetFirstNameNoTooltip] jest wspaniał[Select_CString(spouse.IsFemale, 'ą uczennicą', 'ym uczniem' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "It is perhaps not my place to question your strategy, yet I wonder why you allow the enemies of our faith to go about their wicked business without interference. We have both the means and the right to deliver [ROOT.Char.GetFaith.HighGodNamePossessive] justice upon them, so surely we must do so!",
+    "RUS": "Возможно, не мне спрашивать, но я хочу знать, почему вы позволяете врагам нашей веры безнаказанно заниматься своими мерзостями. У нас есть и возможность, и право обрушить на них справедливое возмездие [ROOT.Char.GetFaith.HighGodNamePossessive]. Именно так мы и должны поступить!",
+    "POL": "Być może nie powin[Select_CString(vassal.IsFemale, 'nam', 'ienem' )] kwestionować Twojej strategii, ale zastanawiam się, dlaczego pozwalasz wrogom naszej wiary bez przeszkód zajmować się swoimi niegodziwymi sprawami. Mamy zarówno środki, jak i prawo, by wymierzyć im sprawiedliwość w imię [ROOT.Char.GetFaith.HighGodNamePossessive], więc z pewnością musimy to zrobić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Within six months we shall march against them!",
+    "RUS": "В ближайшие полгода мы двинемся на них войной!",
+    "POL": "W ciągu sześciu miesięcy pomaszerujemy przeciwko nim!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F I pledge to declare a war against the infidels.#!",
+    "RUS": "#F Я обещаю объявить войну неверным.#!",
+    "POL": "#F Zobowiązuję się do wypowiedzenia wojny niewiernym.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "When the time is right...",
+    "RUS": "Всему свое время...",
+    "POL": "Kiedy nadejdzie właściwy czas…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F I have promised everything and nothing.#!",
+    "RUS": "#F Я обещаю все и ничего.#!",
+    "POL": "#F Przedmiotem moich obietnic było wszystko i nic.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5010.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Do not tell the [ROOT.Char.GetTitleTierName] what [ROOT.Char.GetSheHe] must do!",
+    "RUS": "Да как вы смеете! [ROOT.Char.GetTitleTierName] лучше вас знает, что нужно делать!",
+    "POL": "Nikt nie będzie mówił, co [ROOT.Char.GetTitleTierName] ma robić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A Pious Promise Broken",
+    "RUS": "Нарушен благочестивый обет",
+    "POL": "Zbożna obietnica złamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Six months have now passed since I made my pledge to send armies against the enemies of the faith. [vassal.GetTitledFirstName] will be unhappy about my lack of promised action.",
+    "RUS": "Прошло шесть месяцев с моего обещания послать войска против врагов веры. [vassal.GetTitledFirstName] будет не в восторге от того, что это так и не было сделано.",
+    "POL": "Minęło już sześć miesięcy, odkąd zobowiązał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się wysłać swoje armie przeciwko wrogom wiary. [vassal.GetTitledFirstName] będzie niezadowolon[Select_CString( vassal.IsFemale, 'a', 'y' )] z powodu mojej niepożądanej bierności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Perhaps I spoke hastily.",
+    "RUS": "Возможно, мне не стоило торопиться с обещаниями.",
+    "POL": "Być może mówił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] zbyt pochopnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Words are wind.",
+    "RUS": "Слова что ветер.",
+    "POL": "Słowa są wiatrem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I would like to petition you, in your wisdom, to consider my claim for the [claim.GetName]. It is not right that [claimed_title_holder.GetTitledFirstName] should sit safely as a usurper in [vassal.GetHerHis] castle, mocking my dynasty's birthright. Please, [ROOT.Char.Custom('FormOfAddressForLiege')], support your loyal vassal by taking up arms if they will not recognize my claim willingly!",
+    "RUS": "Позвольте просить, чтобы в мудрости своей вы рассмотрели мои притязания на владение [claim.GetName]. [Select_CString(claimed_title_holder.IsFemale, 'Узурпаторша', 'Узурпатор' )] [claimed_title_holder.GetTitledFirstName] не смеет сидеть там, насмехаясь над правами моей династии. Молю вас, [ROOT.Char.Custom('FormOfAddressForLiege')], поддержите своего верного вассала и созовите войско, если [claimed_title_holder.GetTitledFirstName] не признает мою претензию мирно!",
+    "POL": "Proszę cię o rozważenie w swojej nieprzebranej mądrości mojego roszczenia do [claim.GetAdjective]. To nie w porządku, że [claimed_title_holder.GetTitledFirstName] siedzi bezpiecznie jako uzurpator w swoim zamku, szydząc z praw rodowych mojej dynastii. Proszę, niech [ROOT.Char.Custom('FormOfAddressForLiege')] wesprze swoich lojalnych wasali, chwytając za broń, jeśli wrogowie nie uznają mojego roszczenia dobrowolnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Within the year I shall act on your behalf!",
+    "RUS": "Я обязуюсь выступить от вашего имени в течение года!",
+    "POL": "W ciągu roku wystąpię w twoim imieniu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F I pledge to press [vassal.GetTitledFirstNamePossessive] claim.#!",
+    "RUS": "#F Я обещаю, что [vassal.GetTitledFirstName] получит желаемое.#!",
+    "POL": "#F Przysięgam, że [vassal.GetTitledFirstName] będzie przeze mnie wspieran[Select_CString(vassal.IsFemale, 'a w jej', 'y w jego' )] roszczeniach.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "When the time is right...",
+    "RUS": "Всему свое время...",
+    "POL": "Wszystko w swoim czasie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "#F I will act only if and when I see any gain in it.#!",
+    "RUS": "#F Я буду действовать тогда и только тогда, когда увижу в этом выгоду для себя.#!",
+    "POL": "#F Będę działać tylko wtedy, gdy zobaczę w tym korzyść dla siebie.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5050.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "I have many other pressing matters.",
+    "RUS": "У меня есть более срочные дела.",
+    "POL": "Mam wiele innych pilnych spraw.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5060.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A Promise Broken",
+    "RUS": "Нарушенное обещание",
+    "POL": "Złamana obietnica",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5060.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "A year has now passed since I made my pledge to [vassal.GetTitledFirstName] of going to war over [vassal.GetHerHis] claim on the [claim.GetName]. [vassal.GetTitledFirstName] will be unhappy about my lack of action on [vassal.GetHerHis] behalf.",
+    "RUS": "Прошел год с моего обещания, что я пойду войной за владение [claim.GetName], как того просит [vassal.GetTitledFirstName]. [vassal.GetTitledFirstName] будет не в восторге от того, что я ничего не делаю, чтобы исполнить обещанное.",
+    "POL": "Minął już rok, odkąd [vassal.GetTitledFirstName] otrzymał[Select_CString(vassal.IsFemale, 'a', '' )] moją obietnicę, że pójdę na wojnę o [vassal.GetHerHis] roszczenie do [claim.GetName]. [vassal.GetTitledFirstName] będzie niezadowolon[Select_CString(vassal.IsFemale, 'a', 'y' )] z mojego braku działania w [vassal.GetHerHis] imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5060.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "Perhaps I should not have made such a commitment.",
+    "RUS": "Пожалуй, не стоило давать подобное обещание.",
+    "POL": "Może nie powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] był[Select_CString(ROOT.Char.IsFemale, 'a', '' )] składać takiej obietnicy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal.5060.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/vassal_events_l_belarusian.json",
+    "ENG": "But the time is simply not right, you see?",
+    "RUS": "Понимаете, время еще не пришло...",
+    "POL": "Nie nadszedł jeszcze właściwy czas, rozumiesz?",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,610 @@
+[
+  {
+    "KEY": "IS_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[Concept('war', 'Воюет')|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ')|l][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '')|V]",
+    "POL": "Jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "#bold Не#! [Concept( 'war', 'воюет' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "#bold Nie#! jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "Вы [Concept( 'war', 'воюете' )|E] с персонажем [TARGET_CHARACTER.GetShortUIName|V]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] jesteście w stanie [Concept( 'war', 'wojny' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "Вы #bold не#! [Concept( 'war', 'воюете' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jesteście w stanie [Concept( 'war', 'wojny' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')|V] [Concept('war', 'воюет')|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ')|l][TARGET_CHARACTER.GetShortUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '')|V]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is #bold not#! at [war|E] with [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'war', 'воюет' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest w stanie [Concept( 'war', 'wojny' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NONE_ARE_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "They are at [war|E] with you",
+    "RUS": "[Concept('war', 'Воюет')|E] с вами",
+    "POL": "Jesteście w stanie [Concept('war', 'wojny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_NONE_ARE_AT_WAR_WITH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "They are #bold not#! at [war|E] with you",
+    "RUS": "#bold Не#! [Concept('war', 'вюет')|E] с вами",
+    "POL": "#bold Nie#! są z tobą w stanie [Concept('war', 'wojny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is [allied|E] to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[allied|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "Jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [allied|E] to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "#bold Не#! [Concept( 'allied', 'в союзе' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "#bold Nie#! jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are [allied|E] to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "У вас [Concept( 'allied', 'союз' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] jesteście [Concept( 'allied', 'sojusznikami' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! [allied|E] to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "У вас #bold нет#! [Concept( 'allied', 'союза' )|E] с персонажем [TARGET_CHARACTER.GetShortUIName|V]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jesteście [Concept( 'allied', 'sojusznikami' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is allied to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[CHARACTER.GetShortUIName|V] в союзе с персонажем [TARGET_CHARACTER.GetShortUIName|V]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_ALLIED_TO_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is #bold not#! allied to [TARGET_CHARACTER.GetShortUIName|V]",
+    "RUS": "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'allied', 'в союзе' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest w [Concept( 'allied', 'sojuszu' )|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ALLIED_IN_WAR_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is [allied|E] to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "[allied|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] на [Concept( 'war', 'войне' )|E]",
+    "POL": "Jest [Select_CString(CHARACTER.IsFemale, Concept('allied', 'sprzymierzona'), Concept('allied', 'sprzymierzony'))|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V] w [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ALLIED_IN_WAR_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [allied|E] to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "#bold Не#! [Concept( 'allied', 'в союзе' )|E] с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] на [Concept( 'war', 'войне' )|E]",
+    "POL": "#bold Nie#! jest [Select_CString(CHARACTER.IsFemale, Concept('allied', 'sprzymierzona'), Concept('allied', 'sprzymierzony'))|E] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V] w [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ALLIED_IN_WAR_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are [allied|E] to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "Вы и [TARGET_CHARACTER.GetShortUIName|V] — [Concept( 'allied', 'союзники' )|E] на [Concept( 'war', 'войне' )|E]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] jesteście [Concept( 'allied', 'sojusznikami' )|E] na [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ALLIED_IN_WAR_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! [allied|E] to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "Вы #bold не#! [Concept( 'allied', 'в союзе' )|E] с персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'войне' )|E]",
+    "POL": "Ty i [TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jesteście [Concept( 'allied', 'sojusznikami' )|E] na [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ALLIED_IN_WAR_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is allied to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "[CHARACTER.GetShortUIName|V] в союзе с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] на [Concept( 'war', 'войне' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] jest sprzymierzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V] w [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ALLIED_IN_WAR_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] is #bold not#! allied to [TARGET_CHARACTER.GetShortUIName|V] in a [war|E]",
+    "RUS": "[CHARACTER.GetShortUIName|V] #bold не#! в союзе с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] на [Concept( 'war', 'войне' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest sprzymierzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))|V] w [Concept( 'war', 'wojnie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] [Concept('liege', 'сюзерен')|E] или сюзерен сюзерена [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))|V]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest dla postaci znanej jako [CHARACTER.GetShortUINameNotMe|V] przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold not#! [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] #bold не#! [Concept('liege', 'сюзерен')|E] и не сюзерен сюзерена [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))|V]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest dla postaci znanej jako [CHARACTER.GetShortUINameNotMe|V] przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_MY_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] is your [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] ваш [Concept('liege', 'сюзерен')|E] или сюзерен сюзерена",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest dla ciebie przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_MY_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] is #bold not#! your [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] #bold не#! ваш [Concept('liege', 'сюзерен')|E] и не сюзерен сюзерена",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest dla ciebie przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_THEIR_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] [Concept('liege', 'сюзерен')|E] или сюзерен сюзерена [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest dla postaci znanej jako [CHARACTER.GetShortUINameNotMe] przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold not#! [CHARACTER.GetShortUINamePossessive] [liege|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|V] #bold не#! [Concept('liege', 'сюзерен')|E] и не сюзерен сюзерена [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest dla postaci znanej jako [CHARACTER.GetShortUINameNotMe] przynajmniej [Concept('liege', 'seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] или выше",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] ma tytuł [Concept('suzerain', 'suzerena')|E] lub wyższy",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] #bold not#! [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] #bold не#! [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] или выше",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! ma tytułu [Concept('suzerain', 'suzerena')|E] ani wyższego",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] is your [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] вашим [Concept('suzerain', 'повелителем')|E] или выше",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest twoim [Concept('suzerain', 'suzerenem')|E] lub ma wyższy tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] is #bold not#! your [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] #bold не#! [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] вашим [Concept('suzerain', 'повелителем')|E] или выше",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest twoim [Concept('suzerain', 'suzerenem')|E] ani nie ma wyższego tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] [Concept('suzerain', 'повелителем')|E] или выше по отношению к [Select_CString(CHARACTER.IsLocalPlayer, 'вам', Concatenate('персонажу ',CHARACTER.GetShortUIName))]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest [Concept('suzerain', 'suzerenem')|E] osoby znanej jako [CHARACTER.GetShortUINameNotMe] lub ma wyższy tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] #bold not#! [CHARACTER.GetShortUINamePossessive] [suzerain|E] or above",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] #bold не#! [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'являетесь', 'является')] [Concept('suzerain', 'повелителем')|E] или выше по отношению к [Select_CString(CHARACTER.IsLocalPlayer, 'вам', Concatenate('персонажу ',CHARACTER.GetShortUIName))]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest [Concept('suzerain', 'suzerenem')|E] osoby znanej jako [CHARACTER.GetShortUINameNotMe] ani nie ma wyższego tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_VASSAL_OR_BELOW",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [vassal|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] [Concept('vassal', 'вассал')|E] [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))|V]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] jest [Concept('vassal', 'wasalem')|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_VASSAL_OR_BELOW",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] #bold not#! [CHARACTER.GetShortUINamePossessive|V] [vassal|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|VU] #bold не#! [Concept('vassal', 'вассал')|E] [Select_CString(CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',CHARACTER.GetShortUIName))|V]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|V] #bold nie#! jest [Concept('vassal', 'wasalem')|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ATTRACTED_TO_WOMEN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is [attracted|E] to women",
+    "RUS": "Испытывает [Concept( 'attracted', 'влечение' )|E] к женщинам",
+    "POL": "Odczuwa [Concept('attracted', 'pociąg')|E] do kobiet",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ATTRACTED_TO_WOMEN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [attracted|E] to women",
+    "RUS": "#bold Не#! испытывает [Concept( 'attracted', 'влечения' )|E] к женщинам",
+    "POL": "#bold Nie#! odczuwa [Concept('attracted', 'pociągu')|E] do kobiet",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ATTRACTED_TO_MEN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is [attracted|E] to men",
+    "RUS": "Испытывает [Concept( 'attracted', 'влечение' )|E] к мужчинам",
+    "POL": "Odczuwa [Concept('attracted', 'pociąg')|E] do mężczyzn",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_ATTRACTED_TO_MEN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [attracted|E] to men",
+    "RUS": "#bold Не#! испытывает [Concept( 'attracted', 'влечения' )|E] к мужчинам",
+    "POL": "#bold Nie#! odczuwa [Concept('attracted', 'pociągu')|E] do mężczyzn",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_SEXUALITY_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is $SEXUALITY|V$",
+    "RUS": "#L $SEXUALITY|V$ая#! культура",
+    "POL": "Jest $SEXUALITY|Vl$",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_ATTRACTED_TO",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Is [attracted|E] to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Испытывает [Concept( 'attracted', 'влечение' )|E] к [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "Odczuwa [Concept('attracted', 'pociąg')|E] do osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_CRUSH_ON_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Has a [crush|E] on [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[Concept( 'crush', 'Увлечение' )|E] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "Ma [Concept('crush', 'sympatię')|E], którą jest [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_BULLY_BY_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [bully|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [bully|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [bully|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "num_of_relation_bully_trigger",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [bullies|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'bullies', 'обидчиков' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('bullies', 'dręczycieli')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_VICTIM_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [bully|E] [victim|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'victim', 'жертв' )|E] [Concept( 'bully', 'обидчика' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('victim', 'ofiar')|E] [Concept('bullies', 'dręczyciela')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_VICTIM_BY_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [victim|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [victim|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [victim|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_LOVER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [lovers|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'lovers', 'любовников/любовниц' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('lovers', 'kochanków')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_RIVAL_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [rivals|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [rivals|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('rivals', 'rywalami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAS_RELATION_RIVAL_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are not [rivals|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] не [Concept( 'rivals', 'соперники' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] nie są [Concept('rivals', 'rywalami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_RIVAL_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [rivalries|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'rivalries', 'соперников' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('rivalries', 'rywalizacji')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_NUM_OF_RELATION_RIVAL_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "You need more [rivals|E]",
+    "RUS": "Вам необходимо больше [Concept( 'rivals', 'соперников' )|E]",
+    "POL": "Potrzebujesz więcej [Concept( 'rivals', 'rywali' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_NEMESIS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [nemeses|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'nemeses', 'заклятых врагов' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('nemeses', 'śmiertelnych wrogów')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_FRIEND_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [friends|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [friends|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('friends', 'przyjaciółmi')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAS_RELATION_FRIEND_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are not [friends|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — не [Concept('friends', 'друзья')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] nie są [Concept('friends', 'przyjaciółmi')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_FRIEND_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [friends|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'friends', 'друзей' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('friends', 'przyjaciół')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_LOVER_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [lovers|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [lovers|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('lovers', 'kochankami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_BEST_FRIEND_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [best_friends|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [best_friends|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('best_friends', 'najlepszymi przyjaciółmi')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_GUARDIAN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [guardians|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'guardians', 'опекунов' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('guardians', 'opiekunów')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_WARD_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [wards|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'wards', 'подопечных' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('wards', 'wychowanków')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_BEST_FRIEND_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [best_friend|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'best_friend', 'лучших друзей' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('best_friend', 'najlepszych przyjaciół')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_CRUSH_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [crushes|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'crushes', 'увлечений' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('crushes', 'sympatii')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NUM_OF_RELATION_SOULMATE_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Number of [soulmates|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Количество [Concept( 'soulmates', 'родственных душ' )|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "Liczba [Concept('soulmates', 'bratnich dusz')|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_POSSIBLE_PARENT_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Could possibly be the [parent|E] of [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Может быть [Concept( 'parent', 'родителем' )|E] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )] [TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "To mógłby być [parent|E] osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_BLOOD_BROTHER_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are blood brothers",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — побратимы",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] to bracia krwi",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_NEMESIS_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [nemeses|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [nemeses|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('nemeses', 'śmiertelnymi wrogami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAS_RELATION_NEMESIS_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are not [nemeses|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] — не [Concept('nemeses', 'заклятые враги')|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] nie są [Concept('nemeses', 'śmiertelnymi wrogami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_SOULMATE_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are [soulmates|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] — [soulmates|El]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] i [TARGET_CHARACTER.GetShortUINameNotMe] są [Concept('soulmates', 'bratnimi duszami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_MENTOR_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [mentor|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [mentor|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [mentor|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_ELDER_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [elder|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [elder|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [elder|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_DISCIPLE_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [disciple|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [disciple|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [disciple|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_GUARDIAN_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": " [TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [guardian|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [guardian|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [guardian|El] osoby, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_RELATION_WARD_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [ward|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [Concept( 'ward', Select_CString(target.IsFemale, 'подопечная', 'подопечный' ) )|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] to [ward|El] postaci, którą jest [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_ANY_RELATION_WITH_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Has any relationships with [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Имеет какие-либо отношения с [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "Ma jakikolwiek związek z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_MOTHER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Has a mother",
+    "RUS": "Есть мать",
+    "POL": "Ma matkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_FATHER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Has a father",
+    "RUS": "Есть отец",
+    "POL": "Ma ojca",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_ARTIFACT_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Owns any artifacts",
+    "RUS": "Владеет артефактами",
+    "POL": "Posiada dowolny artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAS_ARTIFACT_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/character_relation_triggers_l_belarusian.json",
+    "ENG": "Has no artifacts",
+    "RUS": "Не имеет артефактов",
+    "POL": "Nie posiada artefaktów",
+    "BEL": ""
+  }
+]

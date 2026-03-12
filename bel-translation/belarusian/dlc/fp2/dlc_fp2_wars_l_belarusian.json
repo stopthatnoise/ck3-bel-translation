@@ -1,0 +1,250 @@
+[
+  {
+    "KEY": "FP2_BORDER_RAID_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[border_raid|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "RUS": "[border_raid|E] на землю [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "POL": "[border_raid|E] na ziemie o nazwie [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_BORDER_RAID_CB_SPECIFIC_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[border_raid|E] of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[border_raid|E] державы [TITLE.GetBaseNameNoTier]",
+    "POL": "[border_raid|E] na ziemie [TITLE.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_BORDER_RAID_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ая#! [border_raid|El] против державы [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][border_raid|El] (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_BORDER_RAID_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[DEFENDER.GetPrimaryTitle.GetName] [ATTACKER.GetPrimaryTitle.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_border_raid",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[border_raid|E]",
+    "RUS": "[border_raid|E]",
+    "POL": "[border_raid|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_victory_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "You gain [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "RUS": "Вы получаете количество [Concept('gold', 'золота')|E], пропорциональное [Concept('development', 'развитию')|E] целевого [Concept('county', 'графства')|E]. Развитие в результате снижается.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "POL": "Zyskujesz [gold|El] proporcjonalnie do [Concept( 'development', 'rozwoju' )|E] docelowego [Concept('county', 'hrabstwa')|E], które będzie się zmniejszać.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_victory_defender",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "RUS": "[attacker.GetName] получает количество [Concept('gold', 'золота')|E], пропорциональное [Concept('development', 'развитию')|E] целевого [Concept('county', 'графства')|E]. Развитие в результате снижается.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "POL": "[attacker.GetName] zyskuje [gold|El] proporcjonalnie do [Concept( 'development', 'rozwoju' )|E] docelowego [Concept('county', 'hrabstwa')|E], które będzie się zmniejszać.\\n$border_raid_building_tt$\\n$border_raid_warning_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_white_peace_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "You fail to complete your raid.",
+    "RUS": "Вы возвращаетесь с налета ни с чем.",
+    "POL": "Nie udaje cię się ukończyć najazdu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_white_peace_defender",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[attacker.GetName] fails to complete [attacker.GetHerHis] raid.",
+    "RUS": "[attacker.GetNamePossessiveOrMy|U][Select_CString(attacker.IsLocalPlayer, ' персонаж', '' )] возвращается с налета ни с чем.",
+    "POL": "[attacker.GetName] niepowodzeniem kończy swój najazd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_defeat_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "You must pay [gold|E] reparations for attempting the raid.",
+    "RUS": "Вы должны заплатить [Concept('gold', 'репарации')|E] за попытку налета.",
+    "POL": "Musisz zapłacić reparacje w [Concept( 'gold', 'złocie' )|E] za próbę najazdu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_cb_desc_defeat_defender",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[attacker.GetName] must pay [gold|E] reparations for attempting the raid.",
+    "RUS": "[attacker.GetName] [Select_CString(attacker.IsFemale, 'должна', 'должен')] заплатить репарации [Concept('gold', 'золотом')|E] за попытку налета.",
+    "POL": "[Select_CString( attacker.IsLocalPlayer, 'Musisz', Concatenate(attacker.GetName, ' musi' ))] zapłacić reparacje w [Concept( 'gold', 'złocie' )|E] za próbę najazdu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destroy_random_building_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "A random [building|E] in [raid_county.GetName] is destroyed, earning extra [gold_i]",
+    "RUS": "В графстве [raid_county.GetName] разрушено случайное [building|El], отчего налетчик получает больше [gold_i]",
+    "POL": "Losowa [building|El] na terenie [raid_county.GetAdjective] zostaje zniszczona, co przynosi dodatkowe [gold_i]",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_building_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "A [building|E] may also be destroyed.",
+    "RUS": "Также может быть разрушено [building|El].",
+    "POL": "[building|E] może zostać zniszczona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_warning_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "@warning_icon! #X No [titles|E] will change hands.#!",
+    "RUS": "@warning_icon! #X Никакие [titles|El] не поменяют хозяев.#!",
+    "POL": "@warning_icon! #X Żadne [titles|El] nie zmienią właściciela.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "border_raid_message_title",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "Border County Raided",
+    "RUS": "Налет на пограничное графство",
+    "POL": "Najazd na przygraniczne hrabstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_EXPEL_INTERLOPER_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[iberian_reclamation|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier] ",
+    "RUS": "[iberian_reclamation|E] на землю [DEFENDER.GetPrimaryTitle.GetNameNoTier] ",
+    "POL": "[iberian_reclamation|E] na ziemiach o nazwie [DEFENDER.GetPrimaryTitle.GetNameNoTier] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[iberian_reclamation|E] державы [TITLE.GetBaseNameNoTier]",
+    "POL": "[iberian_reclamation|E] na ziemie [TITLE.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_EXPEL_INTERLOPER_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [iberian_reclamation|E] of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip]ая#! [iberian_reclamation|El] державы [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][iberian_reclamation|El] (strona atakująca: [ATTACKER.GetPrimaryTitle.GetNameNoTooltip]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "FP2_EXPEL_INTERLOPER_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[DEFENDER.GetPrimaryTitle.GetName] [ATTACKER.GetPrimaryTitle.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_attacker_vassalize",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "You vassalize [defender.GetShortUIName|U]",
+    "RUS": "Вы делаете вассалом персонажа [defender.GetShortUIName|U]",
+    "POL": "[defender.GetShortUINameNotMe|U] zostaje przez ciebie zwasalizowan[Select_CString( defender.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_defender_vassalize",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] vassalizes you",
+    "RUS": "[attacker.GetShortUIName|U] делает вас вассалом",
+    "POL": "[attacker.GetShortUINameNotMe|U] wasalizuje cię",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_attacker_conquer_1",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$You become [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]",
+    "RUS": "$EFFECT_LIST_BULLET$Вы станете [Concept( 'liege', 'сюзереном' )|E] [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'vassals', 'вассалов' )|E] персонажа [defender.GetShortUIName|U] нижнего [Concept( 'rank', 'ранга' )|E] в целевом [Concept( 'duchy', 'герцогстве' )|E]",
+    "POL": "$EFFECT_LIST_BULLET$Zostajesz [Concept( 'liege', 'seniorem' )|E] [Concept( 'struggle_involved', 'zaangażowanych' )|E] [Concept( 'vassals', 'wasali' )|E] postaci [defender.GetShortUINameNotMe|U] o niższej [Concept( 'rank', 'randze' )|E] w docelowym [Concept( 'duchy', 'księstwie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_attacker_conquer_2",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$You gain contested [struggle_uninvolved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\\n",
+    "RUS": "$EFFECT_LIST_BULLET$Вы получите оспариваемые [counties|El] [Concept('struggle_uninvolved', 'не вовлеченных в борьбу')|E] правителей и [counties|El] [Concept( 'holders', 'владетелей' )|E] с землями за пределами этого [Concept( 'duchy', 'герцогства' )|E]\\n",
+    "POL": "$EFFECT_LIST_BULLET$Zyskujesz sporne [Concept( 'struggle_uninvolved', 'niezaangażowane' )|E] posiadane [counties|El] oraz te, należące do [Concept( 'holders', 'właścicieli' )|E] ziem spoza [Concept( 'duchy', 'księstwa' )|E]\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_defender_conquer_1",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] becomes [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]",
+    "RUS": "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] станет [Concept( 'liege', 'сюзереном' )|E] [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'vassals', 'вассалов' )|E] персонажа [defender.GetShortUIName|U] нижнего [Concept( 'rank', 'ранга' )|E] в целевом [Concept( 'duchy', 'герцогстве' )|E]",
+    "POL": "$EFFECT_LIST_BULLET$[attacker.GetShortUINameNotMe|U] zostaje [Concept( 'liege', 'seniorem' )|E] [Concept( 'struggle_involved', 'zaangażowanych' )|E] [Concept( 'vassals', 'wasali' )|E] postaci [defender.GetShortUINameNotMe|U] o niższej [Concept( 'rank', 'randze' )|E] w docelowym [Concept( 'duchy', 'księstwie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_victory_desc_defender_conquer_2",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\\n",
+    "RUS": "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] получит оспариваемые [counties|El] не [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] правителей и [counties|El] [Concept( 'holders', 'владетелей' )|E] с землями за пределами этого [Concept( 'duchy', 'герцогства' )|E]\\n",
+    "POL": "$EFFECT_LIST_BULLET$[attacker.GetShortUINameNotMe|U] zyskuje sporne nie[Concept( 'struggle_involved', 'zaangażowane' )|E] posiadane [counties|El] oraz te, należące do [Concept( 'holders', 'właścicieli' )|E] ziem spoza [Concept( 'duchy', 'księstwa' )|E]\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_expel_interloper",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[iberian_reclamation|E]",
+    "RUS": "[iberian_reclamation|E]",
+    "POL": "[iberian_reclamation|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_white_peace_desc_vassalize",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will remain [independent|E]",
+    "RUS": "[defender.GetShortUIName|U] сохранит [Concept( 'independent', 'независимость' )|E]",
+    "POL": "[Select_CString( defender.IsLocalPlayer, 'Pozostaniesz', Concatenate(defender.GetShortUINameNotMe, ' pozostanie' ))] [Select_CString(defender.IsFemale, Concept('independent', 'niezależna'), Concept('independent', 'niezależny'))|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_white_peace_desc_conquer",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will keep the contested [titles|E]",
+    "RUS": "[defender.GetShortUIName|U] сохранит оспариваемые [titles|El]",
+    "POL": "[Select_CString( defender.IsLocalPlayer, 'Zachowasz', Concatenate(defender.GetShortUINameNotMe, ' zachowa' ))] wszystkie sporne [titles|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_defeat_desc_vassalize",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$iberian_reclamation_cb_white_peace_desc_vassalize$",
+    "RUS": "$iberian_reclamation_cb_white_peace_desc_vassalize$",
+    "POL": "$iberian_reclamation_cb_white_peace_desc_vassalize$",
+    "BEL": ""
+  },
+  {
+    "KEY": "iberian_reclamation_cb_defeat_desc_conquer",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "$iberian_reclamation_cb_white_peace_desc_conquer$",
+    "RUS": "$iberian_reclamation_cb_white_peace_desc_conquer$",
+    "POL": "$iberian_reclamation_cb_white_peace_desc_conquer$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CB_COST_IBERIAN_RECLAMATION",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_wars_l_belarusian.json",
+    "ENG": "Costs [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per-[county|E]",
+    "RUS": "Стоит [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [Concept( 'prestige', 'престижа' )|E] за [county|El]",
+    "POL": "Kosztuje [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [Concept( 'prestige', 'prestiżu' )|E] za [county|El]",
+    "BEL": ""
+  }
+]

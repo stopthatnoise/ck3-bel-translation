@@ -1,0 +1,826 @@
+[
+  {
+    "KEY": "internal_affairs.10.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "An Uprising to Come",
+    "RUS": "Грядущее восстание",
+    "POL": "Nadchodzące powstanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вот так сейчас и обстоят дела в баронстве [barony_title.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')], — сообщает [provider_character.GetFirstName]. Значит, в последнее время на улицах тут и там вспыхивают небольшие бунты. Народ в ярости:",
+    "POL": "– I to jest obecna sytuacja w miejscu znanym jako [barony_title.GetName] – informuje mnie [provider_character.GetFirstName]. Wygląda na to, że ostatnimi czasy na ulicach zaczęły się niewielkie zamieszki, spowodowane oburzeniem wywołanym ",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.desc.control",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "the rampant banditry putting the citizens in danger.",
+    "RUS": "из-за бесчинств разбойников люди не чувствуют себя в безопасности.",
+    "POL": "szalejącym bandytyzmem, narażającym obywateli na niebezpieczeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.desc.opinion.other",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "their hatred of their liege lord, [county_holder.GetTitledFirstName].",
+    "RUS": "сюзерен [county_holder.GetTitledFirstName] вызывает у людей жгучую ненависть.",
+    "POL": "nienawiścią do ich seniora, osoby znanej jako [county_holder.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.desc.opinion.me",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "my rule of the area.",
+    "RUS": "людям не нравится, как я управляю регионом.",
+    "POL": "moimi rządami na tych terenach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal.affairs.10.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\n\\nThe only one who has managed to keep things from getting outright violent has been a certain [barony_holder.GetTitledFirstName], who is apparently quite popular with the locals. In addition to keeping the citizens under control, [barony_holder.GetSheHe] has sent a small petition to have a festival in the area, to calm things down further.",
+    "RUS": "\\n\\nИ только [Select_CString(barony_holder.IsFemale, 'некая', 'некий' )] [barony_holder.GetTitledFirstName] умудряется не допускать насилия — судя по всему, местные жители весьма [Select_CString(barony_holder.IsFemale, 'ее', 'его' )] уважают. И вот [Select_CString(barony_holder.IsFemale, 'ей', 'ему' )]-то и пришла в голову идея предложить мне устроить в области празднество, чтобы успокоить народ.",
+    "POL": "\\n\\nJedyną osobą, która zdołała załagodzić sytuację i powstrzymać wybuch bezpośredniej przemocy, jest [barony_holder.GetTitledFirstName] – persona dość popularna wśród miejscowych. Oprócz tego, że trzyma obywateli w ryzach, wysyła mi prośbę o pomoc w zorganizowaniu festiwalu, który pozwoli jeszcze bardziej uspokoić nastroje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "So let this [barony_holder.GetTitledFirstNameNoTooltip] be in charge then...",
+    "RUS": "Так пусть [barony_holder.GetTitledFirstNameNoTooltip] всем и управляет...",
+    "POL": "Zatem niech [barony_holder.GetTitledFirstNameNoTooltip] się tym zajmie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "... [county_holder.GetFirstNameNoTooltip] will even be compensated for it!",
+    "RUS": "...[county_holder.GetFirstNameNoTooltip] даже получит возмещение убытков!",
+    "POL": "…[county_holder.GetFirstNameNoTooltip] dostanie nawet za to wynagrodzenie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[barony_holder.GetSheHe|U] can have [barony_holder.GetHerHis] festival.",
+    "RUS": "Пусть устраивает свое празднество.",
+    "POL": "Niech zorganizuje ten swój festiwal.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.10.d",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Is it not [county_holder.GetFirstNamePossessiveNoTooltip] job to handle this?",
+    "RUS": "А разве с этим не [Select_CString(county_holder.IsFemale, 'обязана', 'обязан' )] разобраться [county_holder.GetFirstNameNoTooltip]?",
+    "POL": "Czy to nie [county_holder.GetFirstNameNoTooltip] ma w obowiązku organizację takich wydarzeń?",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_uprising_appeasement_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Locals Appeased",
+    "RUS": "Местные жители задобрены",
+    "POL": "Uspokojeni miejscowi",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_uprising_appeasement_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The locals of the county has been appeased after a change in rulership over the area.",
+    "RUS": "Жители графства довольны сменой власти в регионе.",
+    "POL": "Miejscowi w tym hrabstwie uspokoili się po zmianie władcy na tym terenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_uprising_festival_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Rural Festival",
+    "RUS": "Сельское празднество",
+    "POL": "Wiejski festiwal",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_uprising_festival_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "A small rural festival is put up yearly to appease the locals.",
+    "RUS": "Ежегодно на радость местному населению проводится сельское празднество.",
+    "POL": "Co roku organizowany jest niewielki, wiejski festiwal, który pomaga zaspokoić miejscowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Unfitting [county_holder.GetLadyLord]",
+    "RUS": "[Select_CString(county_holder.IsFemale, 'Неподходящая', 'Неподходящий' )] [county_holder.GetLadyLord]",
+    "POL": "Nieodpowiedni władca",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "For the third time just this week, I have another messenger telling me about the deplorable state of [county_title.GetNameNoTier].",
+    "RUS": "В третий раз за неделю ко мне прибывает гонец с донесением, что [county_title.GetNameNoTier] пребывает в плачевном состоянии.",
+    "POL": "Już trzeci raz w tym tygodniu otrzymuję wiadomość, która opisuje godny pożałowania stan miejsca znanego jako [county_title.GetNameNoTier].",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.desc.both",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Rampant crime, dead citizens in the streets, and a general miasma of dread and unhappiness.",
+    "RUS": "Разгул преступности, улицы завалены мертвыми жителями, воздух пронизан миазмами смерти и горя.",
+    "POL": "Szerząca się przestępczość, martwi obywatele na ulicach i ogólna atmosfera strachu i nieszczęścia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.desc.control",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Rampant crime, unsafe roads, and citizens terrified of leaving their houses after dark.",
+    "RUS": "Разгул преступности, опасные дороги, жители боятся выходить из дома после захода солнца.",
+    "POL": "Szerząca się przestępczość, niebezpieczne drogi i obywatele bojący się opuścić swoje domostwa po zmroku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.desc.opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "A deep seated displeasure with how the county is being ruled, and regular protests in the streets.",
+    "RUS": "Глубоко укоренившееся недовольство властями графства. На улицах постоянно собираются толпы недовольных.",
+    "POL": "Zakorzenione niezadowolenie z zarządzania hrabstwem i regularne protesty na ulicach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\n\\nI have already sent [county_holder.GetTitledFirstName] a messenger about this, and yet there seems to be no end to the problems. Are these the actions of someone deserving to be one of #emp my#! vassals?",
+    "RUS": "\\n\\nГонец уже должен был доставить мое письмо. Но судя по всему, конца бедам графства не видно. Что же делает [county_holder.GetTitledFirstName]? И это #emp мой#! вассал?",
+    "POL": "\\n\\nMój posłaniec przekazał już odpowiedź na te rewelacje osobie, którą jest [county_holder.GetTitledFirstName], a mimo to sytuacja nie uległa poprawie. Czy tak zachowuje się ktoś, kto mianuje się #emp moim#! wasalem?",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.dread",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "If you are going to squeeze them, then do it properly. Amateur.",
+    "RUS": "Если хочешь давить, так дави, как следует. Ох уж эти дилетанты.",
+    "POL": "Jeśli zamierzasz ich przycisnąć, to zrób to porządnie. Co za amatorszczyzna.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Unacceptable.",
+    "RUS": "Недопустимо.",
+    "POL": "To nieakceptowalne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "You can rightfully [revoke|E] a [title_i] [title|E] from [county_holder.GetTitledFirstName]",
+    "RUS": "Вы можете по праву [Concept('revoke', 'лишить')|E] персонажа [county_holder.GetTitledFirstName] [title_i] [Concept('title', 'титула')|E]",
+    "POL": "Możesz prawowicie [Concept('revoke', 'odebrać')|E] [title|El] osobie, którą jest [county_holder.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.20.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "I will let it pass, this time.",
+    "RUS": "На сей раз прощу.",
+    "POL": "Tym razem przymknę na to oko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "opinion_unfitting_ruler_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Unfitting Ruler",
+    "RUS": "Негодный правитель",
+    "POL": "Nieodpowiedni władca",
+    "BEL": ""
+  },
+  {
+    "KEY": "MODIFIER_DEFINITION_UNFITTING_RULER_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\nThis modifier is increased the higher the [dread|E] of the [holder|E]",
+    "RUS": "\\nЧем сильнее [Concept('dread', 'ужас')|E] от [Concept('holder', 'владетеля')|E], тем больше этот модификатор",
+    "POL": "\\nTen modyfikator zwiększa się wraz ze wzrostem [Concept('dread', 'postrachu')|E] [Concept('holder', 'właściciela')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "inspection_unfitting_ruler_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Extorted County",
+    "RUS": "Отнятое графство",
+    "POL": "Wyzyskiwane hrabstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "inspection_unfitting_ruler_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "This county is being squeezed dry, with taxes and people flowing out of it daily.",
+    "RUS": "Из этого графства выжимают все до капли. Отток людей и налогов идет непрерывно.",
+    "POL": "To hrabstwo jest wyciskane do cna podatkami i pustoszeje wraz z codziennym odpływem ludności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "inspection_unfitting_ruler_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\t#weak Increase for every #bold Dread#! [holder|E] has#!",
+    "RUS": "\\t#weak Увеличивается за каждую единицу #bold ужаса#!, которой обладает [Concept('holder', 'владетель')|E]#!",
+    "POL": "\\t#weak Wzrost za każdą wartość #bold postrachu#!, którą posiada [holder|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.30.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Looking the Other Way",
+    "RUS": "Поиск другого пути",
+    "POL": "Przymykając oko",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.30.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Видите ли, [ROOT.Char.Custom('FormOfAddressForLiege')], кое-какие запросы местных жителей #emp изрядно#! бьют по нашим карманам...» — ко мне обращается [merchant_character.GetFirstName]. [Select_CString(merchant_character.IsFemale, 'Ее', 'его' )] отправила ко мне [SCOPE.Custom('LocalGuildsLoc')] провинции [guild_province.GetName] . [merchant_character.GetFirstName] долго распространяется о том, с какими трудностями сталкивается гильдия.\\n\\n«И вот мне подумалось, а что если мы решим большинство вопросов, так сказать, между собой, не впутывая лишних людей?» — [Select_CString(merchant_character.IsFemale, 'Она', 'Он' )] кладет на стол мешочек монет и многозначительно смотрит мне в глаза.",
+    "POL": "– Widzi [ROOT.Char.Custom('FormOfAddressForLiege')], niektóre miejscowe zobowiązania #emp dość#! mocno utrudniają nam prowadzenie interesów… – Podchodzi do mnie [merchant_character.GetFirstName], osoba reprezentująca interesy grupy jaką jest [SCOPE.Custom('LocalGuildsLoc')|l] z miejsca o nazwie [guild_province.GetName], i opowiada o wielu problemach, które musieli pokonać [merchant_character.Custom('PL_jego_jej')] towarzysze.\\n\\n– Przyszło mi do głowy, że może niektóre sprawy uda nam się rozwiązać między nami – mówi, kładąc na stół niewielką sakiewkę i patrząc na mnie wymownie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.30.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Oh, I can do better than just look the other way...",
+    "RUS": "О, я могу не просто вовремя отвернуться...",
+    "POL": "Och, mogę zrobić zdecydowanie więcej, niż tylko przymknąć na to oko…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.30.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Well, just this one time.",
+    "RUS": "Ладно, только в этот раз.",
+    "POL": "No dobrze, ale tylko ten jeden raz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.30.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Get out of here before I have you killed, you leech!",
+    "RUS": "Прочь, пиявка, а то раздавлю!",
+    "POL": "Wyjdź stąd, zanim każę cię ściąć, pijawko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Loose Threads",
+    "RUS": "Опасные секреты",
+    "POL": "Niedokończone wątki",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.follower_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Acting as a messenger, [secret_giver.GetFirstName] conveys from news around the area, keeping me in the loop while I am otherwise occupied with other things. Though most of what [secret_giver.GetSheHe] mentions is nothing out of the ordinary, there is a note of concern in [secret_giver.GetHerHis] voice whenever [secret_haver.GetNamePossessive] name is mentioned.\\n\\nEventually, ",
+    "RUS": "[Select_CString(secret_giver.IsFemale, 'Моя посланница', 'Мой посланник')][secret_giver.GetFirstName] собирает для меня свежие новости и слухи. Так я остаюсь в курсе событий, пока занимаюсь другими делами. Большая часть из того, о чем [Select_CString(secret_giver.IsFemale, 'она', 'он')] говорит, меня совершенно не удивляет. Однако в [Select_CString(secret_giver.IsFemale, 'ее', 'его')] голосе слышны тревожные нотки, когда в рассказе упоминается [secret_haver.GetName].\\n\\nВ конце концов",
+    "POL": "Pełniąc rolę posłańca, [secret_giver.GetFirstName] przekazuje mi zebrane w pobliżu wieści i dba o to, by nic mnie nie ominęło, kiedy zajmuję się innymi sprawami. Choć w większości wspominanych przez [secret_giver.Custom('PL_niego_nia')] informacji nie ma nic niezwykłego, to za każdym razem, kiedy mówi o osobie znanej jako [secret_haver.GetName], słyszę w [secret_giver.Custom('PL_jego_jej')] głosie nutę niepokoju.\\n\\nW końcu ",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.courtier_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "While pacing throughout camp, an unfamiliar voice reaches my ears, conversing with one of my companions nearby. I halt and listen in. The exchange seems dull at first, but then [secret_haver.GetName] is suddenly mentioned.\\n\\n",
+    "RUS": "Прохаживаясь по лагерю, я слышу два голоса. Один принадлежит моему последователю, другой — [Select_CString(secret_giver.IsFemale, 'незнакомке', 'незнакомцу' )]. Я останавливаюсь послушать, о чем они говорят. Поначалу разговор не вызывает у меня интереса… как вдруг звучит знакомое имя — [secret_haver.GetName].\\n\\n",
+    "POL": "Podczas spaceru po obozie do moich uszu dociera głos nieznajomej osoby rozmawiającej z jednym z moich towarzyszy w pobliżu. Zatrzymuję się i nasłuchuję. Na początku rozmowa wydaje się nieciekawa, ale po chwili pada w niej imię [secret_haver.GetName].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[secret_giver.GetFirstName] delves into more sensitive topics involving [secret_haver.GetFirstNameNoTooltip], disclosing matters that could very well tarnish [secret_haver.GetHerHis] reputation...",
+    "RUS": "[secret_giver.GetFirstName] начинает делиться всё более деликатными подробностями. Если они станут достоянием общественности, [secret_haver.GetFirstNameNoTooltip] будет [Select_CString(secret_haver.IsFemale, 'опозорена', 'опозорен')]…",
+    "POL": "[secret_giver.GetFirstName] zagłębia się w coraz bardziej delikatne tematy dotyczące osoby znanej jako [secret_haver.GetFirstNameNoTooltip], ujawniając fakty, które z powodzeniem mogłyby zaszkodzić jej reputacji…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Perhaps you may prove of use to me, [secret_giver.GetFirstName].",
+    "RUS": "Возможно, ты мне пригодишься, [secret_giver.GetFirstName].",
+    "POL": "Może jednak mi się przydasz, [secret_giver.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.blackmail",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "I can definitely make this work in my favor.",
+    "RUS": "Я могу использовать эти сведения в своих интересах.",
+    "POL": "Mogę to obrócić na swoją korzyść.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.expose",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Everyone ought to know what [secret_haver.GetFirstName] is up to!",
+    "RUS": "Пусть все узнают, чем занимается [secret_haver.GetFirstName]!",
+    "POL": "Wszyscy powinni wiedzieć, co knuje [secret_haver.GetFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.move_zealous",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[GetPlayer.GetFaith.HighGodName] beckons me away from here...",
+    "RUS": "[GetPlayer.GetFaith.HighGodName] велит мне уйти отсюда…",
+    "POL": "Zew [GetPlayer.GetFaith.HighGodNamePossessive] odwodzi mnie od tego miejsca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.40.move",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "It could be time for me depart from [GetPlayer.GetDomicile.GetLocation.GetName]...",
+    "RUS": "[GetPlayer.GetDomicile.GetLocation.GetName] — гостеприимное место, но пора и честь знать…",
+    "POL": "Chyba nadszedł czas, by opuścić miejsce znane jako [GetPlayer.GetDomicile.GetLocation.GetName]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The [target_faith.GetAdherentNameNoTooltip] Protest",
+    "RUS": "[target_faith.GetNameNoTooltip]ие протесты",
+    "POL": "[target_faith.GetAdherentNamePluralNoTooltip|U] i ich protest",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The peasants of [tensions_county.GetNameNoTier] do not seem to have given their trust, nor affections to [tensions_county.GetHolder.GetName]. There is no speculation about the cause of such unease, as [target_faith.GetAdherentNameNoTooltip] monuments are being desecrated, and with the uptick in brawls involving [target_faith.GetAdherentNamePluralNoTooltip] and [opposing_faith.GetAdherentNamePluralNoTooltip] alike. ",
+    "RUS": "[tensions_county.GetHolder.GetName] явно не пользуется любовью и доверием среди [tensions_county.GetAdjective|l]их крестьян. Понять их нетрудно: [target_faith.GetAdjectiveNoTooltip|l]ие святыни по всему региону регулярно оскверняются, а сами [target_faith.GetAdherentNamePluralNoTooltip|l] подвергаются нападкам со стороны приверженцев [opposing_faith.GetAdjectiveNoTooltip|l]ой веры.",
+    "POL": "Chłopi pochodzący z miejsca znanego jako [tensions_county.GetNameNoTier] nie obdarowali osoby, którą jest [tensions_county.GetHolder.GetName], ani zaufaniem, ani uczuciami. Nie ma już spekulacji na temat przyczyn niepokojów, kiedy pomniki, które czczą [target_faith.GetAdherentNamePluralNoTooltip], są bezczeszczone, a liczba bójek, które toczą między sobą [target_faith.GetAdherentNamePluralNoTooltip] i [opposing_faith.GetAdherentNamePluralNoTooltip], wzrosła. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.desc.holder_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "While [tensions_county.GetHolder.GetNameNoTooltip] might align with the [target_faith.GetAdherentNamePluralNoTooltip] [tensions_county.GetHolder.GetHerHim]self, [tensions_county.GetHolder.GetHerHis] faith alone cannot quell the presence of a [opposing_faith.GetAdherentNameNoTooltip] [target_liege.GetTitleTierName].",
+    "RUS": "[tensions_county.GetHolder.GetNameNoTooltip] во всём поддерживает [target_faith.GetNameNoTooltip|l]их подданных, но не может пойти против своего сюзерена. [target_liege.GetTitledFirstName|U] — [Select_CString(target_liege.IsFemale, 'приверженка', 'приверженец')] [opposing_faith.GetAdjectiveNoTooltip|l]ой веры, и [target_faith.GetAdherentNamePluralNoTooltip|l] [Select_CString(target_liege.IsFemale, 'ей', 'ему')] не по нраву.",
+    "POL": "Mimo że [tensions_county.GetHolder.GetNameNoTooltip] uważa, że można się poukładać z kimś takim jak [target_faith.GetAdherentNamePluralNoTooltip], sama [tensions_county.GetHolder.Custom('PL_jego_jej')] wiara nie wystarczy do stłumienia obecności osoby, którą jest [target_liege.GetTitleTierName] i która wyznaje wiarę znaną jako [opposing_faith.GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.desc.root_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\n\\nI wonder if I should be vigilant about the state of my fellow [GetPlayer.GetFaith.GetAdherentNamePluralNoTooltip], at least to ensure our worship of [GetPlayer.GetFaith.HighGodName] is not hindered. ",
+    "RUS": "\\n\\nЯ чувствую, что [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан')] вмешаться, ведь мои собратья-[GetPlayer.GetFaith.GetAdherentNamePluralNoTooltip|l] в беде. У благочестивых служителей [GetPlayer.GetFaith.HighGodNamePossessive] должна быть возможность беспрепятственно нести утешение страждущим.",
+    "POL": "\\n\\nZastanawiam się, czy nie należałoby trzymać ręki na pulsie i sprawdzać, jak mają się bliscy mi [GetPlayer.GetFaith.GetAdherentNamePluralNoTooltip] – choćby po to, żeby upewnić się, że nic nie przeszkodzi nam w czczeniu [GetPlayer.GetFaith.HighGodNamePossessive]. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.desc.neutral_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\n\\nAlthough I don't practice [opposing_faith.GetNameNoTooltip] nor [target_faith.GetNameNoTooltip], it's worth seeing what can be done here. ",
+    "RUS": "\\n\\n[opposing_faith.GetNameNoTooltip] и [target_faith.GetNameNoTooltip|l] мне в равной степени безразличны, но всё же стоит узнать, могу ли я чем-то помочь.",
+    "POL": "\\n\\nMimo że ani [opposing_faith.GetNameNoTooltip|l], ani [target_faith.GetNameNoTooltip|l] nie są wiarami, które praktykuję, warto się temu przyjrzeć i zobaczyć, co da się zrobić. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "At best, I could work to see to the settling of these tensions, lest they begin to jeopardize my safety.",
+    "RUS": "В конце концов, если не погасить этот конфликт, когда-нибудь и я окажусь в опасности.",
+    "POL": "Najlepsze, co mogę zrobić, to zadbać o to, aby te napięcia się zakończyły, zanim zaczną zagrażać mojemu bezpieczeństwu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.tolerance",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Let the [target_faith.GetAdherentNamePluralNoTooltip] have their beliefs.",
+    "RUS": "[target_faith.GetAdherentNamePluralNoTooltip] вправе жить по своей вере.",
+    "POL": "Niech [target_faith.GetAdherentNamePluralNoTooltip] wyznają swoją wiarę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.conversion",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[tensions_county.GetNameNoTierNoTooltip] should be fully [opposing_faith.GetAdherentNameNoTooltip]!",
+    "RUS": "[tensions_county.GetNameNoTierNoTooltip] — [opposing_faith.GetAdjectiveNoTooltip|l]ая земля, и жить там должны [opposing_faith.GetAdherentNamePluralNoTooltip|l]!",
+    "POL": "[opposing_faith.GetAdherentNamePluralNoTooltip|U] powinni całkowicie przejąć miejsce znane jako [tensions_county.GetNameNoTierNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.neutral_cynic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Why do people let religion have such power over their lives?",
+    "RUS": "Почему люди позволяют религии управлять своей жизнью?..",
+    "POL": "Dlaczego ludzie pozwalają na to, aby religia władała ich życiem?",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.50.neutral",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "On another hand, this is no concern for me...",
+    "RUS": "Впрочем, какая мне разница…",
+    "POL": "Z drugiej strony to nie jest mój problem…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.tolerance_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "You attempt to assist the peasants in asserting their right to practice [target_faith.GetNameNoTooltip].",
+    "RUS": "Вы пытаетесь помочь крестьянам в борьбе за сохранение [target_faith.GetNameNoTooltip|l]ой веры.",
+    "POL": "Próbujesz wspomóc chłopów w ich dążeniu do uzyskania praw do wyznawania wiary znanej jako [target_faith.GetNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.conversion_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "You attempt to convert the peasants of [tensions_county.GetNameNoTierNoTooltip] to [opposing_faith.GetNameNoTooltip].",
+    "RUS": "Вы пытаетесь обратить [tensions_county.GetAdjectiveNoTooltip|l]их крестьян в [opposing_faith.GetNameNoTooltip|l]ую веру.",
+    "POL": "Próbujesz nawrócić chłopów z miejsca znanego jako [tensions_county.GetNameNoTierNoTooltip] na wiarę taką jak [opposing_faith.GetNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_zealots_appeased_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Local [target_faith.GetAdherentNamePluralNoTooltip] are appeased",
+    "RUS": "Местные [target_faith.GetAdherentNamePluralNoTooltip|l] рады помощи",
+    "POL": "Miejscowi [target_faith.GetAdherentNamePluralNoTooltip] zostali uspokojeni",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_tension_continues_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[target_faith.GetAdherentNameNoTooltip] unrest continues",
+    "RUS": "[target_faith.GetNameNoTooltip]ие протесты продолжаются",
+    "POL": "Niepokój wśród grupy, którą są [target_faith.GetAdherentNamePluralNoTooltip], wciąż trwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_county_converted_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The [tensions_county.GetNameNoTierNoTooltip] is swayed to [opposing_faith.GetNameNoTooltip]",
+    "RUS": "[tensions_county.GetNameNoTierNoTooltip] принимает [opposing_faith.GetNameNoTooltip|l]ую веру",
+    "POL": "Miejsce znane jako [tensions_county.GetNameNoTierNoTooltip] jest teraz pod wpływem wiary takiej jak [opposing_faith.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The Bandit's Hoard",
+    "RUS": "Сокровище бандитов",
+    "POL": "Skarbiec bandytów",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "While traversing the passageways of [bandit_location.GetNameNoTier], I notice a figure scurrying about in the corner of my eye. Turning a corner, I witness a band of rugged looking men filling a wagon with various plunder, moving quickly as if [GetPlayer.GetFaith.DevilName] [GetPlayer.GetFaith.DevilHerselfHimself] was on their heels.\\n\\nMost of the men leave the area to retrieve more loot, and [bandit_character.GetFirstName] waits alone to keep watch. I notice a satchel in the wagon that bears the seal of [bandit_holder.GetName], but I am in need of the contents myself...",
+    "RUS": "[bandit_location.GetNameNoTier]. Прогуливаясь по закоулкам, я краем глаза замечаю некое движение. Я поворачиваю за угол и вижу группу недружелюбных людей — явно бандитов. Они так торопливо погружают награбленное в повозку, будто за ними гонится [GetPlayer.GetFaith.DevilName].\\n\\nВскоре они куда-то уходят — надо полагать, за следующей партией добычи. Охранять повозку остается [Select_CString(bandit_character.IsFemale, 'женщина, которую', 'мужчина, которого')] другие бандиты называли [bandit_character.GetFirstName]. Среди прочих вещей в повозке виднеется мешочек со знакомой печатью — похоже, его [Select_CString(bandit_holder.IsFemale, 'владелицей', 'владельцем')] является никто иной, как [bandit_holder.GetName]. С другой стороны, содержимое мешочка пригодится и мне…",
+    "POL": "Podczas przemierzania alejek w miejscu znanym jako [bandit_location.GetNameNoTier] kątem oka zauważam pędzącą postać. Skręcam za róg i widzę grupę krzepkich mężczyzn wypełniających wóz przeróżnego rodzaju łupami, poruszających się tak szybko, jakby byli przerażeni, że dopadnie ich jakieś złe licho, na przykład [GetPlayer.GetFaith.DevilName].\\n\\nWiększość z nich wychodzi, żeby zebrać jeszcze więcej łupów, a [bandit_character.GetFirstName] stoi samotnie na czatach. Zauważam w wozie worek, na którym widać pieczęć osoby znanej jako [bandit_holder.GetName], ale jego zawartość mnie także by się przydała…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.force",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "What's [bandit_character.GetName] going to do?",
+    "RUS": "И что [Select_CString(bandit_character.IsFemale, 'эта', 'этот')] [bandit_character.GetName] может сделать?",
+    "POL": "Co [bandit_character.GetName] może zrobić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.force_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "I face the lone bandit and attempt to take [bandit_character.GetHerHis] prize for myself",
+    "RUS": "Желая забрать добычу, я нападаю на [Select_CString(bandit_character.IsFemale, 'охранницу', 'охранника')]",
+    "POL": "Mierzę się z samotnym bandytą i próbuję zagarnąć jego łup dla siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.force_tt_succ",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "I successfully steal the bandits' loot",
+    "RUS": "Мне удается забрать добычу",
+    "POL": "Udaje mi się ukraść łup bandyty",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.force_tt_fail",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[bandit_character.GetNameNoTooltip] fends me off",
+    "RUS": "[bandit_character.GetNameNoTooltip] отражает мой натиск",
+    "POL": "[bandit_character.GetNameNoTooltip] odpiera mój atak",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.snitch",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[bandit_holder.GetFirstName] will want to hear about this.",
+    "RUS": "Думаю, [bandit_holder.GetFirstName] захочет узнать об этом.",
+    "POL": "[bandit_holder.GetFirstName] zechce o tym usłyszeć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.snitch_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "I inform [bandit_holder.GetNameNoTooltip] of the bandits' activities, and [bandit_holder.GetSheHe] rewards me with a portion of the stolen goods.",
+    "RUS": "Я доношу о деятельности бандитов, и в награду [bandit_holder.GetNameNoTooltip] отдает мне часть возвращенных вещей.",
+    "POL": "[bandit_holder.GetNameNoTooltip] dowiaduje się ode mnie o aktywności bandytów i wynagradza mnie częścią skradzionych dóbr.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.sus",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Maybe [bandit_character.GetNameNoTooltip] can get me in on some of [bandit_character.GetHerHis] work...",
+    "RUS": "Возможно, [bandit_character.GetNameNoTooltip] даст мне наводку на выгодное дельце…",
+    "POL": "Może [bandit_character.GetNameNoTooltip] pozwoli mi czasami dla [bandit_character.Custom('PL_niego_niej')] pracować…",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.sus_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Creates #V 3#! [criminal_task_contracts|E] on the map",
+    "RUS": "Создает на карте #V 3#! [Concept('criminal_task_contracts', 'преступных контракта')|E]",
+    "POL": "Tworzy na mapie #V 3#! [criminal_task_contracts|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs.60.neutral",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "This is not my problem.",
+    "RUS": "Это меня не касается.",
+    "POL": "To nie mój problem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "MODIFIER_DEFINITION_LOCAL_CORRUPTION_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\nThis modifier is increased the lower the [county_control|E] of the [county|E]",
+    "RUS": "\\nЧем слабее [Concept('county_control', 'контроль')|E] над [Concept('county', 'графством')|E], тем больше этот модификатор",
+    "POL": "\\nTen modyfikator zwiększa się, kiedy spada poziom [Concept('county_control', 'kontroli nad hrabstwem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_corruption_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "\\t#weak Increase for every #bold County Control#! point below 100#!",
+    "RUS": "\\t#weak Увеличивается за каждое очко #bold контроля над графством#! ниже 100#!",
+    "POL": "\\t#weak Wzrost za każdy punkt #bold kontroli nad hrabstwem#! poniżej 100#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_corruption_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Sanctified Corruption",
+    "RUS": "Одобренная коррупция",
+    "POL": "Uświęcona korupcja",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_local_corruption_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "A local merchants' guild has gotten almost unlimited power in local business, slowly whittling away at the bureaucracy and hierarchy of the county.",
+    "RUS": "Местная торговая гильдия получила практически неограниченную власть на местном рынке и медленно подминает под себя бюрократию и вертикаль власти в графстве.",
+    "POL": "Lokalna gildia kupców uzyskała niemal nieograniczoną kontrolę nad miejscowymi interesami, stopniowo odcinając się od biurokracji i hierarchii hrabstwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_camp_momentum_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Camp Momentum",
+    "RUS": "Тяга к странствиям",
+    "POL": "Przenoszony obóz",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_camp_momentum_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "This adventurer has been called to journey, and possibly establish camp elsewhere.",
+    "RUS": "Этот авантюрист так и рвется в дорогу: ему хочется перенести лагерь на новое место.",
+    "POL": "Ten poszukiwacz przygód został wezwany do odbycia podróży i, być może, założenia obozu gdzie indziej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_county_religious_tensions_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Religious Tensions Increased",
+    "RUS": "Рост религиозной напряженности",
+    "POL": "Zwiększone napięcia na tle religijnym",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_county_religious_tensions_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "This county is experiencing religious tensions that have been exacerbated by the interference of an influential entity.\\n[convert_county|E] Monthly Progress: #N -0.2#!",
+    "RUS": "Это графство страдает от межконфессиональной розни, а вмешательство со стороны ее усиливает.\\nЕжемесячный прогресс [Concept('convert_county', 'смены конфессии')|E]: #N -0,2#!",
+    "POL": "To hrabstwo doświadcza napięć na tle religijnym, które zwiększyły się po ingerencji pewnej wpływowej osobistości.\\n[convert_county|E] – miesięczny postęp: #N -0,2#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RELIGIOUS_TENSIONS_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[GetModifier( 'internal_affairs_county_religious_tensions_modifier' ).GetNameWithTooltip]",
+    "RUS": "[GetModifier( 'internal_affairs_county_religious_tensions_modifier' ).GetNameWithTooltip]",
+    "POL": "[GetModifier( 'internal_affairs_county_religious_tensions_modifier' ).GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RELIGIOUS_TOLERANCE_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "[GetModifier( 'internal_affairs_county_religious_tolerance_modifier' ).GetNameWithTooltip]",
+    "RUS": "[GetModifier( 'internal_affairs_county_religious_tolerance_modifier' ).GetNameWithTooltip]",
+    "POL": "[GetModifier( 'internal_affairs_county_religious_tolerance_modifier' ).GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_county_religious_tolerance_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Religious Tolerance",
+    "RUS": "Религиозная терпимость",
+    "POL": "Tolerancja religijna",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_county_religious_tolerance_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "The voices of the religious minority in this county were acknowledged, and their right to practice their beliefs are respected, at least for the time being.\\n[convert_county|E] Monthly Progress: #N -0.1#!",
+    "RUS": "Власти этого графства прислушались к религиозному меньшинству: теперь эти люди могут свободно исповедовать свою веру — по крайней мере, сейчас.\\nЕжемесячный прогресс [Concept('convert_county', 'смены конфессии')|E]: #N -0,1#!",
+    "POL": "Głosy mniejszości religijnych w tym hrabstwie zostały wysłuchane, a ich prawo do wyznawania własnej religii – na tę chwilę – jest respektowane.\\n[convert_county|E] – miesięczny postęp: #N -0,1#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_character_religious_tolerance_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "$internal_affairs_county_religious_tolerance_modifier$",
+    "RUS": "$internal_affairs_county_religious_tolerance_modifier$",
+    "POL": "$internal_affairs_county_religious_tolerance_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "internal_affairs_character_religious_tolerance_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "This character has shown others the value in respecting other's beliefs - perhaps they could do the same, as well.",
+    "RUS": "Этот персонаж показал, как важно уважать чужую веру. Возможно, его примеру последуют и другие.",
+    "POL": "Ta postać pokazała innym, jak wartościowe jest poszanowanie wiary innych ludzi – może to sprawi, że i oni zdecydują się na taki krok.",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsMillers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Millers' Guild",
+    "RUS": "Гильдия мельников",
+    "POL": "Gildia młynarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsBakers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Bakers' Guild",
+    "RUS": "Гильдия пекарей",
+    "POL": "Gildia piekarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsFishmongers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Fishmongers' Guild",
+    "RUS": "Гильдия рыботорговцев",
+    "POL": "Gildia rybaków",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsShoemakers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Shoemakers' Guild",
+    "RUS": "Гильдия башмачников",
+    "POL": "Gildia szewców",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsTanners",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Tanners' Guild",
+    "RUS": "Гильдия кожевенников",
+    "POL": "Gildia garbarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsTailors",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Tailors' Guild",
+    "RUS": "Гильдия портных",
+    "POL": "Gildia krawców",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsWeavers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Weavers' Guild",
+    "RUS": "Гильдии ткачей",
+    "POL": "Gildia tkaczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsSkinners",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Skinners' Guild",
+    "RUS": "Гильдия скорняков",
+    "POL": "Gildia skórników",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsButchers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Butchers' Guild",
+    "RUS": "Гильдия мясников",
+    "POL": "Gildia rzeźników",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsFurriers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Furriers' Guild",
+    "RUS": "Гильдия меховщиков",
+    "POL": "Gildia kuśnierzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsVintners",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Vintners' Guild",
+    "RUS": "Гильдия виноделов",
+    "POL": "Gildia winiarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsCarpenters",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Carpenters' Guild",
+    "RUS": "Гильдия плотников",
+    "POL": "Gildia cieśli",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsMasons",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Masons' Guild",
+    "RUS": "Гильдия каменщиков",
+    "POL": "Gildia murarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsMiners",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Miners' Guild",
+    "RUS": "Гильдия старателей",
+    "POL": "Gildia górników",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsBlacksmiths",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Blacksmiths' Guild",
+    "RUS": "Гильдия кузнецов",
+    "POL": "Gildia kowali",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsSaddlers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Saddlers' Guild",
+    "RUS": "Гильдия седельщиков",
+    "POL": "Gildia rymarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsMerchants",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Merchants' Guild",
+    "RUS": "Торговая гильдия",
+    "POL": "Gildia kupców",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsPhysicians",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Physicians' Guild",
+    "RUS": "Гильдия врачей",
+    "POL": "Gildia medyków",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsPharmacists",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Pharmacists' Guild",
+    "RUS": "Гильдия аптекарей",
+    "POL": "Gildia aptekarzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "LocalGuildsToolmakers",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/internal_affairs_l_belarusian.json",
+    "ENG": "Toolmakers' Guild",
+    "RUS": "Гильдия инструментальщиков",
+    "POL": "Gildia ślusarzy",
+    "BEL": ""
+  }
+]

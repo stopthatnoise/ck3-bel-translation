@@ -1,0 +1,530 @@
+[
+  {
+    "KEY": "became_landless_adventurer_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Became Adventurer",
+    "RUS": "Уход на поиски приключений",
+    "POL": "Zostanie poszukiwaczem przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I became an adventurer",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'стала', 'стал' )] авантюристом",
+    "POL": "zostaję poszukiwaczem przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "you became an adventurer",
+    "RUS": "Вы стали авантюристом",
+    "POL": "zostajesz poszukiwaczem przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] became an adventurer",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] авантюристом",
+    "POL": "[owner.GetFirstName] zostaje poszukiwaczem przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_conquest",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after [flavor_character.GetName] conquered my realm",
+    "RUS": "Мне пришлось стать безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'завоевали', Select_CString(flavor_character.IsFemale, 'завоевала', 'завоевал' ))] мои владения",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak [flavor_character.GetName] podbija moje państwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_conquest_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after [flavor_character.GetName] conquered your realm",
+    "RUS": "Вы стали безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'завоевали', Select_CString(flavor_character.IsFemale, 'завоевала', 'завоевал' ))] ваши владения",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak [flavor_character.GetName] podbija twoje państwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_conquest_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [flavor_character.GetName] conquered [owner.GetHerHis] realm",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'завоевали', Select_CString(flavor_character.IsFemale, 'завоевала', 'завоевал' ))] [Select_CString(owner.IsFemale, 'ее', 'его' )] владения",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak [flavor_character.GetName] podbija [owner.Custom('PL_jego_jej')] państwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_deposition",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after [flavor_character.GetName] deposed me",
+    "RUS": "Мне пришлось стать безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'свергли', Select_CString(flavor_character.IsFemale, 'свергла', 'сверг' ))] меня с трона",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak [flavor_character.GetName] mnie detronizuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_deposition_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after [flavor_character.GetName] deposed you",
+    "RUS": "Вы стали безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'свергли', Select_CString(flavor_character.IsFemale, 'свергла', 'сверг' ))] вас с трона",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak [flavor_character.GetName] cię detronizuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_deposition_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [flavor_character.GetName] deposed [owner.GetHerHim]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'свергли', Select_CString(flavor_character.IsFemale, 'свергла', 'сверг' ))] [Select_CString(owner.IsFemale, 'ее', 'его' )] с трона",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak [flavor_character.GetName] [owner.Custom('PL_go_ja')] detronizuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_succession",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after my [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], succession",
+    "RUS": "Мне пришлось стать безземельным авантюристом после того, как [Select_CString(flavor_character.IsFemale, 'скончалась', 'скончался' )], не оставив мне наследства, [Select_CString(flavor_character.IsFemale, 'моя', 'мой' )] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l] — [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak [flavor_character.GetName], a dla mnie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], dokonuje sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_succession_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after your [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], succession",
+    "RUS": "Вы стали безземельным авантюристом после того, как [Select_CString(flavor_character.IsFemale, 'скончалась', 'скончался' )], не оставив вам наследства, [Select_CString(flavor_character.IsFemale, 'ваша', 'ваш' )] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l] — [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak [flavor_character.GetName], a dla ciebie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], dokonuje sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_succession_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], succession",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом после того, как [Select_CString(flavor_character.IsFemale, 'скончалась', 'скончался' )], не оставив [Select_CString(owner.IsFemale, 'ей', 'ему' )] наследства, [Select_CString(owner.IsFemale, 'ее', 'его' )] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l] — [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak [flavor_character.GetName], a dla [owner.Custom('PL_niego_niej')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], dokonuje sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_exile",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after I was exiled by [flavor_character.GetName]",
+    "RUS": "Мне пришлось стать безземельным авантюристом после того, как меня [Select_CString(flavor_character.IsLocalPlayer, 'изгнали', Select_CString(flavor_character.IsFemale, 'изгнала', 'изгнал' ))] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak [flavor_character.GetName] skazuje mnie na wygnanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_exile_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after you were exiled by [flavor_character.GetName]",
+    "RUS": "Вы стали безземельным авантюристом после того, как вас [Select_CString(flavor_character.IsLocalPlayer, 'изгнали', Select_CString(flavor_character.IsFemale, 'изгнала', 'изгнал' ))] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak [flavor_character.GetName] skazuje cię na wygnanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_exile_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [owner.GetSheHe] was exiled by [flavor_character.GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом после того, как [Select_CString(owner.IsFemale, 'ее', 'его' )] [Select_CString(flavor_character.IsLocalPlayer, 'изгнали', Select_CString(flavor_character.IsFemale, 'изгнала', 'изгнал' ))] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak [flavor_character.GetName] skazuje [owner.Custom('PL_go_ja')] na wygnanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_voluntary",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ and left my realm to [flavor_character.GetName]",
+    "RUS": "Ради того, чтобы стать безземельным авантюристом, мне пришлось сложить свой прежний титул. Теперь моими землями [Select_CString(flavor_character.IsLocalPlayer, 'владеете', 'владеет' )] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc$ i zostawiam moje państwo w rękach osoby, którą jest [flavor_character.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_voluntary_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ and left your realm to [flavor_character.GetName]",
+    "RUS": "Вы стали безземельным авантюристом, сложив свой прежний титул. Теперь вашими землями [Select_CString(flavor_character.IsLocalPlayer, 'владеете', 'владеет' )] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ i zostawiasz twoje państwo w rękach osoby, którą jest [flavor_character.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_voluntary_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ and left [owner.GetHerHis] realm to [flavor_character.GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом, сложив свой прежний титул. Теперь [Select_CString(owner.IsFemale, 'ее', 'его' )] землями [Select_CString(flavor_character.IsLocalPlayer, 'владеете', 'владеет' )] [flavor_character.GetName]",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ i zostawia swoje państwo w rękach osoby, którą jest [flavor_character.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_revocation",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after [flavor_character.GetName] revoked my title",
+    "RUS": "Мне пришлось стать безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'отняли', Select_CString(flavor_character.IsFemale, 'отняла', 'отнял' ))] мой титул",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak [flavor_character.GetName] odbiera mi tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_revocation_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after [flavor_character.GetName] revoked your title",
+    "RUS": "Вы стали безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'отняли', Select_CString(flavor_character.IsFemale, 'отняла', 'отнял' ))] ваш титул",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak [flavor_character.GetName] odbiera ci tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_revocation_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [flavor_character.GetName] revoked [owner.GetHerHis] title",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'стала', 'стал' )] безземельным авантюристом после того, как [flavor_character.GetName] [Select_CString(flavor_character.IsLocalPlayer, 'отняли', Select_CString(flavor_character.IsFemale, 'отняла', 'отнял' ))] [Select_CString(owner.IsFemale, 'ее', 'его' )] титул",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak [flavor_character.GetName] odbiera [owner.Custom('PL_mu_jej')] tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_allowed",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I left home to become an adventurer with my [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], blessing",
+    "RUS": "[flavor_character.GetName|U], [Select_CString(flavor_character.IsFemale, 'моя', 'мой')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l], [Select_CString(flavor_character.IsFemale, 'благословила', 'благословил')] меня покинуть отчий дом и стать авантюристом",
+    "POL": "Opuszczam dom, aby zostać poszukiwaczem przygód, z błogosławieństwem osoby, którą jest [flavor_character.GetName], a dla mnie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_allowed_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You left home to become an adventurer with your [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], blessing",
+    "RUS": "[flavor_character.GetName|U], [Select_CString(flavor_character.IsFemale, 'ваша', 'ваш')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l], [Select_CString(flavor_character.IsFemale, 'благословила', 'благословил')] вас покинуть отчий дом и стать авантюристом",
+    "POL": "Opuszczasz dom, aby zostać poszukiwaczem przygód, z błogosławieństwem osoby, którą jest [flavor_character.GetName], a dla ciebie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_allowed_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] left home to become an adventurer with [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], blessing",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'покинула', 'покинул' )] отчий дом и [Select_CString(owner.IsFemale, 'стала', 'стал' )] авантюристом, когда [Select_CString(owner.IsFemale, 'ее', 'его' )] [Select_CString(flavor_character.IsFemale, 'благословила', 'благословил' )] на это [flavor_character.GetName], [Select_CString(flavor_character.IsFemale, 'ее', 'его' )] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l]",
+    "POL": "[owner.GetFirstName] opuszcza dom, aby zostać poszukiwaczem przygód, z błogosławieństwem osoby, którą jest [flavor_character.GetName], a dla [owner.Custom('PL_niego_niej')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_forbidden",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I left home to become an adventurer against my [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], wishes",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'решила', 'решил' )] покинуть отчий дом и стать авантюристом, хотя [flavor_character.GetName], [Select_CString(flavor_character.IsFemale, 'моя', 'мой')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l], [Select_CString(flavor_character.IsFemale, 'была', 'был')] против",
+    "POL": "Opuszczam dom, aby zostać poszukiwaczem przygód, wbrew woli osoby, którą jest [flavor_character.GetName], a dla mnie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_forbidden_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You left home to become an adventurer against your [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], wishes",
+    "RUS": "Вы решили покинуть отчий дом и стать авантюристом, хотя [flavor_character.GetName], [Select_CString(flavor_character.IsFemale, 'ваша', 'ваш')] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l], [Select_CString(flavor_character.IsFemale, 'была', 'был')] против",
+    "POL": "Opuszczasz dom, aby zostać poszukiwaczem przygód, wbrew woli osoby, którą jest [flavor_character.GetName], a dla ciebie [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_runaway_forbidden_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] left home to become an adventurer against [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))], [flavor_character.GetNamePossessive], wishes",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'решила', 'решил' )] покинуть отчий дом и стать авантюристом, хотя [flavor_character.GetName], [Select_CString(owner.IsFemale, 'ее', 'его' )] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))|l], [Select_CString(flavor_character.IsFemale, 'была', 'был' )] против",
+    "POL": "[owner.GetFirstName] opuszcza dom, aby zostać poszukiwaczem przygód, wbrew woli osoby, którą jest [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('flavor_character'))] [flavor_character.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_wanderer",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after I gathered a following as a wanderer",
+    "RUS": "$became_landless_adventurer_memory_desc$, когда [Select_CString(ROOT.Char.IsFemale, 'отправилась', 'отправился' )] в скитания и [Select_CString(ROOT.Char.IsFemale, 'собрала', 'собрал' )] вокруг себя группу последователей",
+    "POL": "$became_landless_adventurer_memory_desc$ po tym, jak udało mi się zgromadzić grono towarzyszy jako wędrowiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_wanderer_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after you gathered a following as a wanderer",
+    "RUS": "$became_landless_adventurer_memory_desc_second_perspective$, когда отправились в скитания и собрали вокруг себя группу последователей",
+    "POL": "$became_landless_adventurer_memory_desc_second_perspective$ po tym, jak udało ci się zgromadzić grono towarzyszy jako wędrowiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_wanderer_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [owner.GetSheHe] gathered a following as a wanderer",
+    "RUS": "$became_landless_adventurer_memory_desc_third_perspective$, когда [Select_CString(owner.IsFemale, 'отправилась', 'отправился' )] в скитания и [Select_CString(owner.IsFemale, 'собрала', 'собрал' )] вокруг себя группу последователей",
+    "POL": "$became_landless_adventurer_memory_desc_third_perspective$ po tym, jak zbiera grono towarzyszy jako wędrowiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_eradicate",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc$ after my house was eradicated",
+    "RUS": "$became_landless_adventurer_memory_desc$ после уничтожения моего дома",
+    "POL": "po tym, jak wyeliminowano mój ród, $became_landless_adventurer_memory_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_eradicate_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_second_perspective$ after your house was eradicated",
+    "RUS": "$became_landless_adventurer_memory_desc_second_perspective$ после уничтожения вашего дома",
+    "POL": "po tym, jak wyeliminowano twój ród, $became_landless_adventurer_memory_desc_second_perspective$",
+    "BEL": ""
+  },
+  {
+    "KEY": "became_landless_adventurer_memory_desc_eradicate_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "$became_landless_adventurer_memory_desc_third_perspective$ after [owner.GetHerHis] house was eradicated",
+    "RUS": "$became_landless_adventurer_memory_desc_third_perspective$ после уничтожения [Select_CString(owner.IsFemale, 'ее', 'его' )] дома",
+    "POL": "po tym, jak wyeliminowano [owner.Custom('PL_jego_jej')] ród, $became_landless_adventurer_memory_desc_third_perspective$",
+    "BEL": ""
+  },
+  {
+    "KEY": "endured_greek_fire_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Endured Greek fire",
+    "RUS": "Пережито столкновение с греческим огнем",
+    "POL": "Przeżycie ognia greckiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "endured_greek_fire_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I watched sailors burn alive during a horrifying Greek fire attack by [attacker.flavor_character.GetNamePossessive] fleet",
+    "RUS": "На моих глазах флотилия, которую [Select_CString(attacker.IsFemale, 'привела', 'привел' )] [attacker.flavor_character.GetName], сжигала моряков заживо ужасным греческим огнем",
+    "POL": "Wciąż mam w pamięci koszmarny widok marynarzy płonących żywcem podczas straszliwego ataku ogniem greckim dokonanego przez flotę należącą do osoby znanej jako [attacker.flavor_character.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "endured_greek_fire_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You watched sailors burn alive during a horrifying Greek fire attack by [attacker.flavor_character.GetNamePossessive] fleet",
+    "RUS": "На ваших глазах флотилия, которую [Select_CString(attacker.IsFemale, 'привела', 'привел' )] [attacker.flavor_character.GetName], сжигала моряков заживо ужасным греческим огнем",
+    "POL": "Wciąż masz w pamięci koszmarny widok marynarzy płonących żywcem podczas straszliwego ataku ogniem greckim dokonanego przez flotę należącą do osoby znanej jako [attacker.flavor_character.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "endured_greek_fire_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] watched sailors burn alive during a horrifying Greek fire attack by [attacker.flavor_character.GetNamePossessive] fleet",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'видела', 'видел' )], как флотилия, которую [Select_CString(attacker.IsFemale, 'привела', 'привел' )] [attacker.flavor_character.GetName], сжигала моряков заживо ужасным греческим огнем",
+    "POL": "[owner.GetFirstName] wciąż ma w pamięci koszmarny widok marynarzy płonących żywcem podczas straszliwego ataku ogniem greckim dokonanego przez flotę należącą do osoby znanej jako [attacker.flavor_character.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "deposed_liege_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Deposed [liege.GetName]",
+    "RUS": "[liege.GetName] [Select_CString(liege.IsFemale, 'свергнута', 'свергнут' )]",
+    "POL": "[liege.GetName] staje w obliczu detronizacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "deposed_liege_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I deposed [liege.GetName]",
+    "RUS": "[liege.GetName] [Select_CString(liege.IsFemale, 'свергнута', 'свергнут' )] мной",
+    "POL": "Detronizuję osobę, którą jest [liege.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "deposed_liege_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You deposed [liege.GetName]",
+    "RUS": "[liege.GetName] [Select_CString(liege.IsFemale, 'свергнута', 'свергнут' )] вами",
+    "POL": "Detronizujesz osobę, którą jest [liege.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "deposed_liege_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] deposed [liege.GetName]",
+    "RUS": "[liege.GetName] [Select_CString(liege.IsFemale, 'свергнута', 'свергнут' )] персонажем [owner.GetFirstName]",
+    "POL": "[owner.GetFirstName] detronizuje osobę, którą jest [liege.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "changed_state_faith_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "changed the state faith of [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "RUS": "изменение государственной религии державы [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "POL": "zmiana wiary państwowej w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "changed_state_faith_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I changed the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName] from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]",
+    "RUS": "Мной была изменена государственная религия державы [ROOT.Var('title').GetLandedTitle.GetBaseName] с #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! на #L [ROOT.Var('new_faith').Faith.GetName|l]ую#!",
+    "POL": "Zmieniam wiarę państwową w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName] – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "changed_state_faith_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You changed the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName] from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]",
+    "RUS": "Вы изменили государственную религию державы [ROOT.Var('title').GetLandedTitle.GetBaseName] с #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! на #L [ROOT.Var('new_faith').Faith.GetName|l]ую#!",
+    "POL": "Zmieniasz wiarę państwową w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName] – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "changed_state_faith_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] changed the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName] from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'изменила', 'изменил' )] государственную религию державы [ROOT.Var('title').GetLandedTitle.GetBaseName] с #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! на #L [ROOT.Var('new_faith').Faith.GetName|l]ую#!",
+    "POL": "[owner.GetFirstName] zmienia wiarę państwową w miejscu o nazwie [ROOT.Var('title').GetLandedTitle.GetBaseName] – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "adopted_state_faith_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "converted to [ROOT.Var('new_faith').Faith.GetName]",
+    "RUS": "принятие #L [ROOT.Var('new_faith').Faith.GetName|l]ой#! веры",
+    "POL": "nawrócenie na wiarę o nazwie [ROOT.Var('new_faith').Faith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "adopted_state_faith_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName], which was the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "RUS": "Моя конфессия изменилась с #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! на #L [ROOT.Var('new_faith').Faith.GetName|l]ую#! — государственную религию державы [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "POL": "Zmieniam wyznawaną wiarę – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l], wiara państwowa praktykowana w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "adopted_state_faith_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName], which was the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "RUS": "Вы обратились из #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! конфессии в #L [ROOT.Var('new_faith').Faith.GetName|l]ую#! — государственную религию державы [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "POL": "Zmieniasz wyznawaną wiarę – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l], wiara państwowa praktykowana w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "adopted_state_faith_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] converted from [ROOT.Var('old_faith').Faith.GetName] to [ROOT.Var('new_faith').Faith.GetName], which was the state faith of the [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'обратилась', 'обратился' )] из #L [ROOT.Var('old_faith').Faith.GetName|l]ой#! конфессии в #L [ROOT.Var('new_faith').Faith.GetName|l]ую#! — государственную религию державы [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "POL": "[owner.GetFirstName] zmienia wyznawaną wiarę – nie jest to już [ROOT.Var('old_faith').Faith.GetName|l], tylko [ROOT.Var('new_faith').Faith.GetName|l], wiara państwowa praktykowana w miejscu znanym jako [ROOT.Var('title').GetLandedTitle.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_independent_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Gained Post-[GetTitleByKey('e_byzantium').GetAdjective] Independence",
+    "RUS": "Независимость #L [GetTitleByKey('e_byzantium').GetAdjective|l]их#! владений",
+    "POL": "Zdobycie niezależności po upadku [GetTitleByKey('e_byzantium').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_independent_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I became independent after invading Latins caused the collapse of [GetTitleByKey('e_byzantium').GetName]",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'обрела', 'обрел' )] независимость, когда #L [GetTitleByKey('e_byzantium').GetAdjective|U]ая#! империя рухнула под ударами латинян",
+    "POL": "Zdobywam niezależność po tym, jak najazd łacinników doprowadził do upadku miejsca znanego jako [GetTitleByKey('e_byzantium').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_independent_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You became independent after invading Latins caused the collapse of [GetTitleByKey('e_byzantium').GetName]",
+    "RUS": "Вы обрели независимость, когда #L [GetTitleByKey('e_byzantium').GetAdjective|U]ая#! империя рухнула под ударами латинян",
+    "POL": "Zdobywasz niezależność po tym, jak najazd łacinników doprowadził do upadku miejsca znanego jako [GetTitleByKey('e_byzantium').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_independent_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] became independent after invading Latins caused the collapse of [GetTitleByKey('e_byzantium').GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'обрела', 'обрел' )] независимость, когда #L [GetTitleByKey('e_byzantium').GetAdjective|U]ая#! империя рухнула под ударами латинян",
+    "POL": "[owner.GetFirstName] zdobywa niezależność po tym, jak najazd łacinników doprowadził do upadku miejsca znanego jako [GetTitleByKey('e_byzantium').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_kingdom_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Reclaimed [GetTitleByKey('e_byzantium').GetAdjective] [swapped_kingdom.GetNameNoTier]",
+    "RUS": "#L [GetTitleByKey('e_byzantium').GetAdjective|U]ие#! права на провинцию [swapped_kingdom.GetNameNoTier]",
+    "POL": "Odzyskanie miejsca znanego jako [swapped_kingdom.GetNameNoTier] [GetTitleByKey('e_byzantium').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_kingdom_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I reclaimed ancient [GetTitleByKey('e_byzantium').GetAdjective] rights over the [swapped_kingdom.GetName]",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'восстановила', 'восстановил' )] древние #L [GetTitleByKey('e_byzantium').GetAdjective|l]ие#! права на провинцию [swapped_kingdom.GetNameNoTier]",
+    "POL": "Odzyskuję pradawne prawa do miejsca znanego jako [swapped_kingdom.GetName] [GetTitleByKey('e_byzantium').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_kingdom_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You reclaimed ancient [GetTitleByKey('e_byzantium').GetAdjective] rights over the [swapped_kingdom.GetName]",
+    "RUS": "Вы восстановили древние #L [GetTitleByKey('e_byzantium').GetAdjective|l]ие#! права на провинцию [swapped_kingdom.GetNameNoTier]",
+    "POL": "Odzyskujesz pradawne prawa do miejsca znanego jako [swapped_kingdom.GetName] [GetTitleByKey('e_byzantium').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_byz_kingdom_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] reclaimed ancient [GetTitleByKey('e_byzantium').GetAdjective] rights over the [swapped_kingdom.GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'восстановила', 'восстановил' )] древние #L [GetTitleByKey('e_byzantium').GetAdjective|l]ие#! права на провинцию [swapped_kingdom.GetNameNoTier]",
+    "POL": "[owner.GetFirstName] odzyskuje pradawne prawa do miejsca znanego jako [swapped_kingdom.GetName] [GetTitleByKey('e_byzantium').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_kingdom_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Established [GetTitleByKey('e_latin_empire').GetAdjective] [swapped_kingdom.GetNameNoTier]",
+    "RUS": "#L [GetTitleByKey('e_latin_empire').GetAdjective|U]ая#! власть над областью [swapped_kingdom.GetNameNoTier]",
+    "POL": "Ustanowiono [swapped_kingdom.GetNameNoTier] [GetTitleByKey('e_latin_empire').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_kingdom_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I established a potent [GetTitleByKey('e_latin_empire').GetAdjective] dominion over the [swapped_kingdom.GetName]",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'упрочила', 'упрочил' )] #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ую#! власть над областью [swapped_kingdom.GetNameNoTier]",
+    "POL": "Ustanawiam potężne dominium [GetTitleByKey('e_latin_empire').GetAdjective], któremu podlega miejsce takie jak [swapped_kingdom.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_kingdom_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You established a potent [GetTitleByKey('e_latin_empire').GetAdjective] dominion over the [swapped_kingdom.GetName]",
+    "RUS": "Вы упрочили #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ую#! власть над областью [swapped_kingdom.GetNameNoTier]",
+    "POL": "Ustanawiasz potężne dominium [GetTitleByKey('e_latin_empire').GetAdjective], któremu podlega miejsce takie jak [swapped_kingdom.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_kingdom_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] established a potent [GetTitleByKey('e_latin_empire').GetAdjective] dominion over the [kingdom.GetName]",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'упрочила', 'упрочил' )] #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ую#! власть над областью [kingdom.GetNameNoTier]",
+    "POL": "[owner.GetFirstName] ustanawia potężne dominium [GetTitleByKey('e_latin_empire').GetAdjective], któremu podlega miejsce takie jak [kingdom.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_admin_memory",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "Centralized [GetTitleByKey('e_latin_empire').GetAdjective] Government",
+    "RUS": "Централизация #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ой#! власти",
+    "POL": "Scentralizowanie rządu [GetTitleByKey('e_latin_empire').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_admin_memory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "I decreed that my [GetTitleByKey('e_latin_empire').GetAdjective] realm follow the Greek model of centralized governance",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'ввела', 'ввел' )] в своей #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ой#! державе централизованную власть по греческому образцу",
+    "POL": "Zarządzam, aby moje państwo, [GetTitleByKey('e_latin_empire').GetName], stosowało grecki model scentralizowanego rządu",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_admin_memory_desc_second_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "You decreed that your [GetTitleByKey('e_latin_empire').GetAdjective] realm follow the Greek model of centralized governance",
+    "RUS": "Вы ввели в своей #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ой#! державе централизованную власть по греческому образцу",
+    "POL": "Zarządzasz, aby twoje państwo, [GetTitleByKey('e_latin_empire').GetName], stosowało grecki model scentralizowanego rządu",
+    "BEL": ""
+  },
+  {
+    "KEY": "frankokratia_latin_admin_memory_desc_third_perspective",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/ep3_memories_l_belarusian.json",
+    "ENG": "[owner.GetFirstName] decreed that [owner.GetHerHis] [GetTitleByKey('e_latin_empire').GetAdjective] realm follow the Greek model of centralized governance",
+    "RUS": "[owner.GetFirstName] [Select_CString(owner.IsFemale, 'ввела', 'ввел' )] в своей #L [GetTitleByKey('e_latin_empire').GetAdjective|l]ой#! державе централизованную власть по греческому образцу",
+    "POL": "[owner.GetFirstName] zarządza, aby [owner.Custom('PL_jego_jej')] państwo, [GetTitleByKey('e_latin_empire').GetName], stosowało grecki model scentralizowanego rządu",
+    "BEL": ""
+  }
+]

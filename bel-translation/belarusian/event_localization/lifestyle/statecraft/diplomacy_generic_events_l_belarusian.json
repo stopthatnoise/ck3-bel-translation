@@ -1,0 +1,466 @@
+[
+  {
+    "KEY": "diplomacy_lifestyle_rank_up_indication",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "I might gain a [diplomacy_lifestyle|E] [perk|E]",
+    "RUS": "Я могу получить [perk|El] [Concept('diplomacy_lifestyle', 'дипломатии')|E]",
+    "POL": "Mogę zyskać [perk|El] z zakresu [Concept( 'diplomacy_lifestyle', 'ścieżki dyplomacji' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Social Manipulation",
+    "RUS": "Социальные манипуляции",
+    "POL": "Manipulacja społeczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "The first time it happened, I barely even gave it a moment's thought, but [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] has grown bolder. [disobedient_subject.GetHerHis|U] challenges no longer pass unnoticed",
+    "RUS": "Когда это случилось в первый раз, мне было не до того, но [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] становится все наглее. [disobedient_subject.GetHerHis|U] попытки бросить мне вызов больше не остаются незамеченными",
+    "POL": "Gdy zdarzyło się to po raz pierwszy, ledwo zwrócił[Select_CString(ROOT.Char.IsFemale, 'a', 'e' )]m na to uwagę, ale teraz [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] stał[Select_CString(disobedient_subject.IsFemale, 'a się śmielsza', ' się śmielszy' )]. [disobedient_subject.GetHerHis|U] wyzwania nie pozostają już niezauważone",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.council.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "at the table.",
+    "RUS": "за столом.",
+    "POL": "wśród osób zasiadających przy stole.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.vassal.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "among my vassals.",
+    "RUS": "среди моих вассалов.",
+    "POL": "wśród moich wasali.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "\\n\\n[disobedient_subject.GetSheHe|U] is testing my limits. The others are sure to follow — unless I give [disobedient_subject.GetHerHim] a taste of [disobedient_subject.GetHerHis] own medicine...",
+    "RUS": "\\n\\n[disobedient_subject.GetSheHe|U] испытывает мое терпение. И другие последуют [disobedient_subject.GetHerHis] примеру, если только я не преподам [disobedient_subject.GetHerHim] урок...",
+    "POL": "\\n\\nWystawia mnie na próbę. Inni zapewne pójdą w [disobedient_subject.GetHerHis] ślady – chyba że dam posmakować [disobedient_subject.GetHerHim] własnego lekarstwa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "I will ignore [disobedient_subject.GetHerHim] and steal [disobedient_subject.GetHerHis] ideas.",
+    "RUS": "Я проигнорирую [disobedient_subject.GetHerHis] и присвою [SCOPE.sC('disobedient_subject').GetHerHis] идеи.",
+    "POL": "Zignoruję [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] i ukradnę [disobedient_subject.GetHerHis] pomysły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "make_invisible_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] is unassertive, lethargic, or unambitious",
+    "RUS": "Вы думаете, что [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'не уверена в себе, вялая или ей', 'не уверен в себе, вялый или ему' )] просто нехватает амбициозности",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] jest powściągliw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )], leniw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub bez ambicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Mocking [disobedient_subject.GetHerHis] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] will shut [disobedient_subject.GetHerHim] up.",
+    "RUS": "Если показать, что [Select_CString(disobedient_subject.IsFemale, 'ее', 'его' )] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] — это предмет насмешек, это заставит [Select_CString(disobedient_subject.IsFemale, 'ее', 'его' )] заткнуться.",
+    "POL": "Wyśmianie [disobedient_subject.Custom('PL_jego_jej')] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] uciszy [disobedient_subject.Custom('PL_go_ja')] na dobre.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ridicule_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] is self-conscious and cares about what others think",
+    "RUS": "Вы думаете, что [disobedient_subject.GetFirstName] нередко стесняется, и для н[disobedient_subject.GetHerHis] важно мнение окружающих",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] jest nieśmiał[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] i przejmuje się tym, co mówią o [Select_CString( disobedient_subject.IsFemale, 'niej', 'nim' )] inni",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Если «забыть» отправить [disobedient_subject.GetHerHim] приглашение, [disobedient_subject.GetSheHe] совершенно растеряется.",
+    "POL": "„Zapominając” [Select_CString(disobedient_subject.IsFemale, 'ją', 'go' )] zaprosić, utrzymam [Select_CString(disobedient_subject.IsFemale, 'ją', 'go' )] w nieświadomości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "withhold_information_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] is weak-minded or keeps to [disobedient_subject.GetHerselfHimself]",
+    "RUS": "Вы думаете, что [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'слабовольная', 'слабовольный' )] или просто сторонится окружающих",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] nie jest zbyt byst[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub trzyma się na uboczu",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.d",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "[disobedient_subject.GetSheHe|U] shall have tasks which are impossible to complete.",
+    "RUS": "[disobedient_subject.GetSheHe|U] получит невыполнимые задачи.",
+    "POL": "[Select_CString( disobedient_subject.IsFemale, 'Powinna', 'Powinien' )] dostać zadanie niemożliwe do wykonania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "impossible_task_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] would do everything in [disobedient_subject.GetHerHis] power to get the task done",
+    "RUS": "Вы думаете, что [disobedient_subject.GetFirstName] сделает все возможное, чтобы выполнить задание",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] zrobi wszystko w swojej mocy, aby wykonać zadanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.e",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "All problems will be blamed on [disobedient_subject.GetHerHim].",
+    "RUS": "Во всех проблемах можно обвинить [SCOPE.sC('disobedient_subject').GetHerHis].",
+    "POL": "Zostanie obwinion[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] za wszystkie problemy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "shame_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] is conscientious, or at least wants people to think well of [disobedient_subject.GetHerHim]",
+    "RUS": "Вы думаете, что [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'добросовестная', 'добросовестный' )] или по крайней мере хочет, чтобы о [Select_CString(disobedient_subject.IsFemale, 'ней', 'нем' )] хорошо думали ",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] jest sumienn[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub przynajmniej chce, aby ludzie dobrze o [Select_CString( disobedient_subject.IsFemale, 'niej', 'nim' )] myśleli",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.f",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Commenting on [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')] will throw [disobedient_subject.GetHerHim] off.",
+    "RUS": "Если прокомментировать [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')], это собьет [disobedient_subject.GetHerHis] с толку.",
+    "POL": "Komentując [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')], wyprowadzę [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] z równowagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "objectification_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] has often been objectified due to [disobedient_subject.GetHerHis] appearance",
+    "RUS": "Вы предполагаете, что [disobedient_subject.GetFirstName] часто становится объектом желаний из-за своей внешности",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] często był[Select_CString( disobedient_subject.IsFemale, 'a uprzedmiotowiona', ' uprzedmiotowiony' )] z powodu swojego wyglądu",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.g",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "A ",
+    "RUS": "Слегка прикрытая угроза физической расправы поможет с этим разобраться.",
+    "POL": "„Subtelna” groźba położy temu kres.",
+    "BEL": ""
+  },
+  {
+    "KEY": "threat_option.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You guess [disobedient_subject.GetFirstName] is cowardly or wants to keep the peace",
+    "RUS": "Вы предполагаете, что [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'труслива', 'труслив' )] или хочет поддерживать мир",
+    "POL": "Przypuszczasz, że [disobedient_subject.GetFirstName] jest tchórzliw[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] lub chce utrzymać pokój",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.h",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] #EMP [ROOT.Char.GetTitleAsName|l]#!, и вы смеете бросать мне вызов?!»",
+    "POL": "„Jako #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#! nie pozwalam ci na taki ton!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Not very diplomatic, but effective nonetheless...",
+    "RUS": "Не особо дипломатично, однако весьма эффективно...",
+    "POL": "Niezbyt dyplomatycznie, ale skutecznie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.good_outcome.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You manipulate [disobedient_subject.GetTitledFirstNameNoTooltip]",
+    "RUS": "[disobedient_subject.GetTitledFirstNameNoTooltip] поддается на ваши манипуляции",
+    "POL": "[disobedient_subject.GetTitledFirstNameNoTooltip] został[Select_CString( disobedient_subject.IsFemale, 'a', '' )] przez ciebie zmanipulowan[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.bad_outcome.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "[disobedient_subject.GetTitledFirstNameNoTooltip] is not fooled",
+    "RUS": "[disobedient_subject.GetTitledFirstNameNoTooltip] не дает себя одурачить",
+    "POL": "[disobedient_subject.GetTitledFirstNameNoTooltip] nie daje się oszukać",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.terrible_outcome.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "[disobedient_subject.GetTitledFirstNameNoTooltip] outwits you",
+    "RUS": "[disobedient_subject.GetTitledFirstNameNoTooltip] оказывается умнее вас",
+    "POL": "[disobedient_subject.GetTitledFirstNameNoTooltip] przechytrza cię",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0012.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You failed to manipulate [disobedient_subject.GetTitledFirstName]",
+    "RUS": "[disobedient_subject.GetTitledFirstName] не поддается вашим манипуляциям",
+    "POL": "[disobedient_subject.GetTitledFirstNameNoTooltip] nie został[Select_CString( disobedient_subject.IsFemale, 'a', '' )] przez ciebie zmanipulowan[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Puppet on a String",
+    "RUS": "Марионетка на ниточках",
+    "POL": "Marionetka na sznurkach",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.make_invisible.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "It seems as if my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [suppressor.GetTitledFirstName] has lost interest in my opinion. When I speak up, [suppressor.GetSheHe] interrupts me or shifts [suppressor.GetHerHis] attention to something else. But sometimes, it appears [suppressor.GetSheHe] does listen, for [suppressor.GetSheHe] repeats my ideas and claims them as [suppressor.GetHerHis] own...",
+    "RUS": "Похоже, [Select_CString(suppressor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [suppressor.GetTitledFirstName] больше не интересуется моим мнением. Стоит мне начать говорить, как [suppressor.GetSheHe] прерывает меня или отвлекается. Иногда кажется, что [suppressor.GetSheHe] слушает только затем, чтобы позже повторить мои идеи, выдав их за свои...",
+    "POL": "Wygląda na to, że [suppressor.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))], nie wykazuje już zainteresowania moją opinią. Gdy mówię, przerywa mi lub skupia swoją uwagę na czymś innym. Czasami wydaje mi się też, że słucha mnie tylko po to, aby ukraść moje pomysły i przedstawić je później jako swoje własne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.ridicule.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "What do I have to do to be taken seriously by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))]? Whenever I speak, [suppressor.GetTitledFirstName] interrupts me to mock my ideas or my ",
+    "RUS": "Что мне сделать, чтобы [Select_CString(suppressor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [Select_CString(suppressor.IsFemale, 'воспринимала', 'воспринимал' )] меня всерьез? Стоит мне открыть рот, и [suppressor.GetTitledFirstName] меня перебивает. [Select_CString(suppressor.IsFemale, 'Ее', 'Его' )] смешат мои идеи и «[disobedient_subject.Custom2('PointOfRidicule', SCOPE.sC('suppressor'))]».",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))|U] mnie bagatelizuje! Co mogę zrobić, aby to zmienić? Za każdym razem, gdy mówię, [suppressor.GetTitledFirstName] przerywa mi, aby zakpić z moich pomysłów lub z mojej rzekomej wady – „[disobedient_subject.Custom2('PointOfRidicule', SCOPE.sC('suppressor'))]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.withhold_information.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Lately, everyone seems to be in the know but me! I look like a right fool when I constantly have to ask [suppressor.GetTitledFirstName] for clarifications in meetings or when I base suggestions on old information. I fear my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] is deliberately keeping things from me.",
+    "RUS": "Похоже, в последнее время все знают обо всем, но только не я! Я выгляжу просто глупо, когда вновь и вновь прошу, чтобы [suppressor.GetTitledFirstName] [Select_CString(suppressor.IsFemale, 'объяснила', 'объяснил' )] мне, о чем говорится на собрании, или когда основываю свои предложения на устаревшей информации. Боюсь, [Select_CString(suppressor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] намеренно скрывает от меня сведения.",
+    "POL": "Ostatnio każdy jest na bieżąco z informacjami oprócz mnie! Wychodzę na niezgułę, gdy [suppressor.GetTitledFirstName] ciągle musi mi wyjaśniać rzeczy na spotkaniach lub gdy opieram swoje propozycje na przestarzałych informacjach. Obawiam się, że [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] celowo ukrywa przede mną informacje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.impossible_task.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))], [suppressor.GetTitledFirstName], keeps giving me tasks which are impossible to complete in time! When I try to do them thoroughly I am lazy, and when I hurry [suppressor.GetSheHe] thinks me sloppy.",
+    "RUS": "[Select_CString(suppressor.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [suppressor.GetTitledFirstName] продолжает давать мне задачи, которые невозможно выполнить вовремя! Когда я пытаюсь делать их тщательно — я [Select_CString(suppressor.IsFemale, 'ленивая', 'ленивый' )]. Когда пытаюсь уложиться в срок — [suppressor.GetSheHe] считает меня неумехой.",
+    "POL": "[suppressor.GetTitledFirstName|U], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))], ciągle przydziela mi zadania niemożliwe do wykonania na czas! Kiedy próbuję wykonać je dokładnie, zarzuca mi lenistwo, a kiedy robię je szybko, uważa, że czynię to niechlujnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.shame.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Whenever there is a problem, [suppressor.GetTitledFirstName] seems to think I am the one to blame. However, when I am the one to bring up issues, [suppressor.GetSheHe] accuses me of putting focus on the wrong things!",
+    "RUS": "Каждый раз, когда возникают трудности, [suppressor.GetTitledFirstName] считает, что это моя вина. Но когда я же поднимаю тревожащие меня вопросы, [suppressor.GetSheHe] говорит, будто я пытаюсь отвлечься на всякую ерунду!",
+    "POL": "Ilekroć pojawia się problem, [suppressor.GetTitledFirstName] wydaje się myśleć, że to ja jestem winn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]. Jednakże, gdy tylko sam[Select_CString( ROOT.Char.IsFemale, 'a', '')] poruszę jakiś problem, oskarża mnie o skupianie się na niepotrzebnych rzeczach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.objectification.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "When my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] calls to a meeting, I get a sinking feeling in my stomach. Over the last few weeks, there has been more than one comment regarding my ",
+    "RUS": "Когда [Select_CString(suppressor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] созывает собрание, я чувствую тяжесть в животе. За последние несколько недель мне довелось услышать немало предположений, что у меня [disobedient_subject.Custom('ObjectifiedFeature')]. Когда же я беру слово, [suppressor.GetSheHe] скорее разглядывает меня с вожделением, вместо того чтобы слушать. Почему [suppressor.GetTitledFirstName] интересуется моим телом больше, чем моими словами?",
+    "POL": "Gdy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] zwołuje spotkanie, ogarnia mnie niepokój. W ciągu ostatnich tygodni sporo osób zauważyło, że mam „[disobedient_subject.Custom('ObjectifiedFeature')]”, a kiedy przemawiam, [suppressor.GetSheHe] większą uwagę skupia na gapieniu się niż na słuchaniu. Dlaczego [suppressor.GetTitledFirstName] bardziej interesuje się moim ciałem niż tym, co mam do powiedzenia?",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.threat.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Lately, I have noticed this strange look upon [suppressor.GetTitledFirstNamePossessive] face whenever I speak, a combination of exasperation and anger. Yet, I did not know for sure that something was amiss until today. When I disagreed with [suppressor.GetHerHim] in a meeting, [suppressor.GetSheHe] threatened to have me flogged!",
+    "RUS": "В последнее время я замечаю: стоит мне начать говорить, как [SCOPE.sC('suppressor').GetTitledFirstName] корчит странную мину, в которой сочетаются раздражение и гнев. И все же до сегодняшнего дня мне казалось, что я что-то упускаю. А сегодня, стоило мне возразить [suppressor.GetHerHim] на собрании, как [suppressor.GetSheHe] [Select_CString(suppressor.IsFemale, 'пригрозила', 'пригрозил' )] высечь меня!",
+    "POL": "Ostatnio [suppressor.GetTitledFirstName] dziwnie się na mnie patrzy, gdy tylko przemawiam. [suppressor.GetHerHis|U] wyraz twarzy zdradza podirytowanie oraz złość. Do tej pory nie wiem, co może być tego przyczyną. Pewnego razu, gdy się z [Select_CString( suppressor.IsFemale, 'nią', 'nim' )] nie zgodził[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m z jedną rzeczą na spotkaniu, zagroził[Select_CString( suppressor.IsFemale, 'a', '' )] mi, że mnie wychłosta!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Two can play this game.",
+    "RUS": "В эту игру могут играть двое.",
+    "POL": "Oboje możemy w to grać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.a.success.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You successfully manipulate [suppressor.GetTitledFirstNameNoTooltip]",
+    "RUS": "[suppressor.GetTitledFirstNameNoTooltip] поддается на ваши манипуляции",
+    "POL": "[suppressor.GetTitledFirstNameNoTooltip] pomyślnie zostaje przez ciebie zmanipulowan[Select_CString(suppressor.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.a.failure.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You are manipulated by [suppressor.GetTitledFirstNameNoTooltip]",
+    "RUS": "[suppressor.GetTitledFirstNameNoTooltip] манипулирует вами",
+    "POL": "Zostajesz zmanipulowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] przez [suppressor.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0013.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Perhaps I deserve this treatment...",
+    "RUS": "Возможно, я заслуживаю подобного обращения...",
+    "POL": "Być może sobie na to zasłużył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m…",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "$diplomacy_generic.0012.t$: Master of Suppression",
+    "RUS": "$diplomacy_generic.0012.t$: мастер подавления",
+    "POL": "$diplomacy_generic.0012.t$: mistrz ucisku",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.make_invisible.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Whenever [disobedient_subject.GetTitledFirstName] have raised [disobedient_subject.GetHerHis] voice to speak, I have yawned, turned my attention somewhere else, or outright interrupted [disobedient_subject.GetHerHim]. As the others began to follow my example, [disobedient_subject.GetTitledFirstNameNoTooltip] grew more and more hesitant.",
+    "RUS": "Как только [disobedient_subject.GetTitledFirstName] повышает голос, чтобы заговорить, я зеваю, переводя взгляд на что-нибудь другое, или же открыто перебиваю [disobedient_subject.GetHerHis]. Когда другие начинают следовать моему примеру, [disobedient_subject.GetTitledFirstNameNoTooltip] терять уверенность в себе.",
+    "POL": "Za każdym razem, gdy [disobedient_subject.GetTitledFirstName] zaczyna tylko mówić, ziewam, zwracam uwagę gdzie indziej lub po prostu [disobedient_subject.GetHerHim] przeszkadzam. Wkrótce inni zaczęli mnie naśladować, a [disobedient_subject.GetTitledFirstNameNoTooltip] robił[Select_CString( disobedient_subject.IsFemale, 'a się coraz bardziej niepewna', ' się coraz bardziej niepewny' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.ridicule.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "My constant snide comments about [disobedient_subject.GetTitledFirstNamePossessive] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] really seems to have gotten to [disobedient_subject.GetHerHim]! Since the others began to follow my example, [disobedient_subject.GetTitledFirstNameNoTooltip] has grown more and more hesitant.",
+    "RUS": "Мои презрительные замечания, в которых вскользь упоминаются [disobedient_subject.GetTitledFirstName] и [Select_CString(disobedient_subject.IsFemale, 'ее', 'его' )] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)], похоже, достигли своей цели! С тех пор как остальные последовали моему примеру, [disobedient_subject.GetTitledFirstNameNoTooltip] проявляет все меньше самоуверенности.",
+    "POL": "Wygląda na to, że osoba znana jako [disobedient_subject.GetTitledFirstName] jest poruszona moimi ciągłymi uszczypliwymi komentarzami na temat [disobedient_subject.Custom('PL_jego_jej')] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)]! Od kiedy inni poszli w moje ślady, [disobedient_subject.GetTitledFirstNameNoTooltip] nie ma już takiej pewności siebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.withhold_information.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Since I began to withhold information from [disobedient_subject.GetTitledFirstName], [disobedient_subject.GetSheHe] has made a damn fool of [disobedient_subject.GetHerselfHimself] on more occasions than I can count. Dismissing [disobedient_subject.GetHerHis] hopelessly outdated suggestions has been easier than outwitting a dog.",
+    "RUS": "Стоило мне начать скрывать от н[disobedient_subject.GetHerHis] важные сведения, как [disobedient_subject.GetTitledFirstName] [Select_CString(disobedient_subject.IsFemale, 'выставила себя дурой', 'выставил себя дураком' )] столько раз, что и не счесть. Отклонять [SCOPE.sC('disobedient_subject').GetHerHis] безнадежно несовременные предложения не труднее, чем перехитрить собаку.",
+    "POL": "Odkąd postanowił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m ukrywać przed [Select_CString(disobedient_subject.IsFemale, 'nią', 'nim' )] informacje, [disobedient_subject.GetTitledFirstName] zacz[Select_CString( disobedient_subject.IsFemale, 'ęła', 'ął' )] robić z siebie głupka więcej razy, niż jestem w stanie zliczyć. Odrzucanie [disobedient_subject.GetHerHis] przestarzałych propozycji było łatwiejsze od przechytrzenia psa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.impossible_task.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "When [disobedient_subject.GetTitledFirstName] tried to complete [disobedient_subject.GetHerHis] tasks thoroughly, I scolded [disobedient_subject.GetHerHim] in front of everyone, and when [disobedient_subject.GetSheHe] hurried to get done in time, I displayed [disobedient_subject.GetHerHis] sloppy work for all to see. [disobedient_subject.GetSheHe|U] bent [disobedient_subject.GetHerselfHimself] backwards to please me, yet I never acknowledged [disobedient_subject.GetHerHis] efforts.",
+    "RUS": "Когда [disobedient_subject.GetTitledFirstName] пытается тщательно выполнять задание, я прилюдно браню [disobedient_subject.GetHerHis]. Когда же [disobedient_subject.GetSheHe] пытается уложиться вовремя, я всем показываю плоды [disobedient_subject.GetHerHis] неумелой работы. [disobedient_subject.GetSheHe|U] что только не делает, чтобы угодить мне, а я не желаю признавать [disobedient_subject.GetHerHis] старания.",
+    "POL": "Gdy [disobedient_subject.GetTitledFirstName] próbował[Select_CString( disobedient_subject.IsFemale, 'a', '' )] wykonać swoje zadanie dokładnie, beształ[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] na oczach wszystkich, a kiedy próbował[Select_CString( disobedient_subject.IsFemale, 'a', '' )] robić je pośpiesznie, pokazywał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m wszystkim [disobedient_subject.GetHerHis] niechlujstwo. Stawał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] na rękach, aby mnie zadowolić, ale nigdy nie uznał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m [disobedient_subject.GetHerHis] starań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.shame.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "The issue [disobedient_subject.GetTitledFirstName] brought up used to make me look bad, but now the tables have turned. Every time [disobedient_subject.GetSheHe] has raised a subject of concern I have skillfully shifted the blame back to [disobedient_subject.GetHerHim], or made [disobedient_subject.GetHerHim] seem petty for even bringing it up.",
+    "RUS": "Раньше вопросы, которые [Select_CString(disobedient_subject.IsFemale, 'озвучивала', 'озвучивал' )] [disobedient_subject.GetTitledFirstName], выставляли меня в дурном свете, но теперь все изменилось. Стоит [disobedient_subject.GetHerHim] обозначить проблему, как я тут же перекладываю вину на н[SCOPE.sC('disobedient_subject').GetHerHis] или же объявляю саму тему недостойной внимания.",
+    "POL": "Kwestia, którą poruszył[Select_CString( disobedient_subject.IsFemale, 'a', '' )] [disobedient_subject.GetTitledFirstName], sprawiła, że źle na mnie patrzono, jednakże teraz sytuacja się odwróciła. Za każdym razem, gdy poruszał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] temat, który mnie niepokoił, umiejętnie przenosił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] winę z powrotem na ni[Select_CString( disobedient_subject.IsFemale, 'ą', 'ego' )] lub sprawiał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że wydawał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] się małostkow[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] i niepoważn[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.objectification.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Lewd jokes, lingering looks, interrupting [disobedient_subject.GetHerHis] to ",
+    "RUS": "Пошлые шутки, томные взгляды, внезапные «комплименты» посреди выступления только для того, чтобы отметить, что у н[disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')]. Постепенно мне удается сломить [disobedient_subject.GetHerHis], и теперь [disobedient_subject.GetTitledFirstName] находится в постоянном напряжении и постоянно стесняется.",
+    "POL": "Sprośne żarty, uporczywe spojrzenia, przerywanie [disobedient_subject.GetHerHim] podczas rozmowy, aby „zachwalić” [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')]. Stopniowo sprawiał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m, że [disobedient_subject.GetTitledFirstName] był[Select_CString( disobedient_subject.IsFemale, 'a', '' )] coraz bardziej spięt[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] i nieśmiał[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.threat.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Sometimes, a simple threat of violence does the trick.",
+    "RUS": "Иногда достаточно просто пригрозить болью.",
+    "POL": "Czasami zwykła groźba załatwia sprawę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Now [disobedient_subject.GetSheHe] remains quiet, eyes cast low.",
+    "RUS": "Теперь [disobedient_subject.GetSheHe] будет помалкивать и смотреть в пол.",
+    "POL": "Od teraz będzie milczał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] i wpatrywał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] się w podłogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.a.cruel",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "[disobedient_subject.GetSheHe|U] will think twice before challenging me again!",
+    "RUS": "[disobedient_subject.GetSheHe|U] подумает дважды, прежде чем снова бросать мне вызов!",
+    "POL": "Pomyśli dwa razy, zanim znów rzuci mi wyzwanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0014.a.compassionate",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Cruel, perhaps, but it had to be done.",
+    "RUS": "Возможно, это было жестоко, но необходимо.",
+    "POL": "Może to okrutne, ale trzeba było tak zrobić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "$diplomacy_generic.0012.t$: From Puppeteer to Puppet",
+    "RUS": "$diplomacy_generic.0012.t$: от кукловода к марионетке",
+    "POL": "$diplomacy_generic.0012.t$: od lalkarza do marionetki",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.make_invisible.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "When [disobedient_subject.GetTitledFirstName] raised [disobedient_subject.GetHerHis] voice to speak, I yawned and turned my attention to my papers. I expected the others to follow my lead, but instead they engaged in the conversation. When I finally swallowed my pride to join in, [disobedient_subject.GetFirstName] already had the upper hand and my words were soon forgotten.",
+    "RUS": "Как только [disobedient_subject.GetTitledFirstName] повышает голос, чтобы заговорить, я зеваю и перевожу взгляд на свои бумаги. Мне казалось, что прочие последуют моему примеру, но вместо этого они присоединились к разговору. Когда же мне наконец удалось подавить гордость, [disobedient_subject.GetFirstName] уже [Select_CString(disobedient_subject.IsFemale, 'взяла', 'взял' )] все в свои руки, и о моих словах вскоре забыли.",
+    "POL": "Kiedy [disobedient_subject.GetTitledFirstName] zacz[Select_CString( disobedient_subject.IsFemale, 'ęła', 'ął' )] mówić, ziewnął[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m i skupił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m się na własnych dokumentach. Miał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m nadzieję, że inni pójdą w moje ślady, ale zamiast tego zaangażowali się w rozmowę. Gdy w końcu przełkną[Select_CString( ROOT.Char.IsFemale, 'ła', 'łem' )]m swoją dumę, dołączył[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m do nich. [disobedient_subject.GetFirstName|U] już miał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] nade mną przewagę, a moje słowa zostaną wkrótce zapomniane.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.ridicule.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "As it turns out, [disobedient_subject.GetTitledFirstNamePossessive] wit is far sharper than I had anticipated. As I commented on [disobedient_subject.GetHerHis] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)], [disobedient_subject.GetSheHe] immediately turned the situation around and made me look petty for answering to a genuine problem with a snide remark.",
+    "RUS": "Как выяснилось, [disobedient_subject.GetTitledFirstName] куда умнее, чем мне казалось. Я [Select_CString(ROOT.Char.IsFemale, 'попыталась', 'попытался' )] высмеять [Select_CString(disobedient_subject.IsFemale, 'ее', 'его' )] недостатки, но [Select_CString(disobedient_subject.IsFemale, 'она', 'он' )] тут же [Select_CString(disobedient_subject.IsFemale, 'обернула', 'обернул' )] ситуацию в свою пользу, отметив, что отвечать на серьезный вопрос язвительными замечаниями мелочно, а [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] — это совсем не смешно.",
+    "POL": "Jak się okazało, [disobedient_subject.GetTitledFirstName] ma lepsze cięte riposty, niż można się było spodziewać. Mój żart z [disobedient_subject.Custom('PL_jego_jej')] [disobedient_subject.Custom2('PointOfRidicule', ROOT.Char)] jest dla [disobedient_subject.Custom('PL_niego_niej')] doskonałą okazją, by odwrócić sytuację na swoją korzyść i sprawić, że wychodzę na osobę małostkową, wtrącając złośliwe komentarze podczas omawiania prawdziwego problemu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.impossible_task.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "To my great surprise, [disobedient_subject.GetTitledFirstName] had managed to enlist one of the others to help [disobedient_subject.GetHerHim] out with the task I had assigned [disobedient_subject.GetHerHim]. As they barely had time to finish it properly together, it became apparent I had asked for too much. I could not even complain about the execution.",
+    "RUS": "К моему удивлению, [disobedient_subject.GetTitledFirstName] [Select_CString(disobedient_subject.IsFemale, 'сумела', 'сумел' )] привлечь помощника для выполнения данного [disobedient_subject.GetHerHim] поручения. И поскольку они даже вдвоем с трудом сумели выполнить его вовремя, всем стало ясно, что мое поручение было непомерным. Я же теперь даже не могу пожаловаться на скверный результат!",
+    "POL": "Ku mojemu wielkiemu zdziwieniu, [disobedient_subject.GetTitledFirstName] był[Select_CString( disobedient_subject.IsFemale, 'a', '' )] w stanie znaleźć kogoś do pomocy w przydzielonym [disobedient_subject.GetHerHim] zadaniu. Jako że ledwo razem wyrobili się z jego ukończeniem, oczywistym stało się, że prosił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m o zbyt dużo. Nie mogł[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m nawet przyczepić się do sposobu jego wykonania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.shame.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Shifting the blame to [disobedient_subject.GetTitledFirstName] turned out to be harder than I had imagined. Yes, I can be convincing, but it turns out [disobedient_subject.GetSheHe] is even more skilled at this game than I. With a single sentence, [disobedient_subject.GetSheHe] tore my explanation to shreds, making me look either stupid or untrustworthy. I am not sure which is worse.",
+    "RUS": "Доказать, что во всем [Select_CString(disobedient_subject.IsFemale, 'виновата', 'виноват' )] [disobedient_subject.GetTitledFirstName], оказалось сложнее, чем мне думалось. Да, я умею убеждать, но, похоже, [disobedient_subject.GetSheHe] еще искуснее в этой игре. Всего одним предложением [disobedient_subject.GetSheHe] в пух и прах [Select_CString(disobedient_subject.IsFemale, 'разнесла', 'разнес' )] мое объяснение, выставив мои слова то ли глупостью, то ли подлостью. И я даже не знаю, что из этого хуже.",
+    "POL": "Wykazanie, że to [disobedient_subject.GetTitledFirstName] jest winowajc[Select_CString( disobedient_subject.IsFemale, 'zynią', 'ą' )], okazało się być trudniejsze niż przypuszczał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Owszem, potrafię być przekonując[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], ale okazuje się, że [disobedient_subject.GetSheHe] jest w tej grze jeszcze bardziej wprawion[Select_CString( disobedient_subject.IsFemale, 'a', 'y' )] niż ja. Jednym zdaniem rozerwał[Select_CString( disobedient_subject.IsFemale, 'a', '' )] moje wyjaśnienia na strzępy, przez co wysz[Select_CString( ROOT.Char.IsFemale, 'łam', 'edłem' )] albo na głupka, albo na niegodn[Select_CString( ROOT.Char.IsFemale, 'ą', 'ego' )] zaufania. Nie jestem pew[Select_CString( ROOT.Char.IsFemale, 'na', 'ien' )], co jest gorsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.objectification.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "I had thought my lewd comments would shut [disobedient_subject.GetTitledFirstName] up, but [disobedient_subject.GetHerHis] response was worthy, yet pointed. Now the other thinks [disobedient_subject.GetSheHe] is some kind of saint, while I seemed both trivial and immoral in comparison.",
+    "RUS": "Мне казалось, что [disobedient_subject.GetTitledFirstName] заткнется после моих пошлых замечаний, однако [disobedient_subject.GetSheHe] [Select_CString(disobedient_subject.IsFemale, 'сумела', 'сумел' )] дать достойный, хоть и едкий ответ. Теперь окружающие считают [disobedient_subject.GetHerHis] едва ли не [Select_CString(disobedient_subject.IsFemale, 'святой', 'святым' )], а я на таком фоне выгляжу глупо и бесчестно.",
+    "POL": "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że moje lubieżne komentarze sprawią, iż [disobedient_subject.GetTitledFirstName] się uciszy, jednakże [disobedient_subject.GetHerHis] odpowiedź była wyjątkowo celna. Teraz inni uważają [Select_CString( disobedient_subject.IsFemale, 'ją', 'go' )] za jak[Select_CString( disobedient_subject.IsFemale, 'ąś świętoszkę', 'iegoś świętoszka' )], podczas gdy ja wyszł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] na błah[Select_CString( ROOT.Char.IsFemale, 'ą', 'ego' )] i niemoraln[Select_CString( ROOT.Char.IsFemale, 'ą', 'ego' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.threat.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "I had thought my threats would shut [disobedient_subject.GetTitledFirstName] up, but [disobedient_subject.GetSheHe] simply ignored it and continued. [disobedient_subject.GetHerHis|U] utter lack of fear made my words seem trivial, rather than intimidating.",
+    "RUS": "Мне казалось, что после моих угроз [disobedient_subject.GetTitledFirstName] заткнется, но [disobedient_subject.GetSheHe] просто [Select_CString(disobedient_subject.IsFemale, 'продолжила', 'продолжил' )], не обращая на меня внимания. В свете [SCOPE.sC('disobedient_subject').GetHerHis] бесстрашия мои слова кажутся пустым звуком.",
+    "POL": "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że moje groźby sprawią, iż [disobedient_subject.GetTitledFirstName] się uciszy, jednakże [disobedient_subject.GetSheHe] je po prostu zignorował[Select_CString( disobedient_subject.IsFemale, 'a', '' )] i kontynuował[Select_CString( disobedient_subject.IsFemale, 'a', '' )] swoje działania. [disobedient_subject.GetHerHis|U] całkowity brak strachu sprawił, że moje słowa wydały się [Select_CString( disobedient_subject.IsFemale, 'jej', 'mu' )] błahe, a nie onieśmielające.",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.withhold_information.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "Even though I regularly have ",
+    "RUS": "Несмотря на мою «забывчивость» при отправке [disobedient_subject.GetHerHim] приглашений на собрания, [disobedient_subject.GetTitledFirstName] всегда узнает о встречах. На таком фоне мои ошибки и мое смятение особенно бросаются в глаза!",
+    "POL": "Chociaż ciągle zapominał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]” o wysyłaniu do [Select_CString( disobedient_subject.IsFemale, 'niej', 'niego' )] wieści lub zapraszaniu [Select_CString( disobedient_subject.IsFemale, 'jej', 'go' )] na spotkania, [disobedient_subject.GetTitledFirstName] zawsze był[Select_CString( disobedient_subject.IsFemale, 'a', '' )] na bieżąco. Teraz w porównaniu do [Select_CString( disobedient_subject.IsFemale, 'niej', 'niego' )] wychodzę na zdezorientowa[Select_CString( ROOT.Char.IsFemale, 'ną', 'ego' )] i niekompetentn[Select_CString( ROOT.Char.IsFemale, 'ą', 'ego' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diplomacy_generic.0015.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/statecraft/diplomacy_generic_events_l_belarusian.json",
+    "ENG": "You win this time, [disobedient_subject.GetFirstNameNoTooltip].",
+    "RUS": "На этот раз вы выиграли, [disobedient_subject.GetFirstNameNoTooltip].",
+    "POL": "Tym razem wygrywasz, [disobedient_subject.GetFirstNameNoTooltip].",
+    "BEL": ""
+  }
+]

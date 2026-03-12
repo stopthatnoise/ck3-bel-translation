@@ -1,0 +1,266 @@
+[
+  {
+    "KEY": "claim_throne_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Claim Throne #weak (Scheme)#!",
+    "RUS": "Заявить права на трон #weak (происки)#!",
+    "POL": "Zażądaj tronu #weak (Spisek)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_throne_interaction_message",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Throne Claimed",
+    "RUS": "Оспариваемый трон",
+    "POL": "Przejęcie tronu",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_payment_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Demand Payment",
+    "RUS": "Потребовать платы",
+    "POL": "Zażądaj opłaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_payment_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Force a [recipient.GetShortUINameNoTooltip] to pay you gold as payment for a [hook|E] you hold",
+    "RUS": "Заставить персонажа [recipient.GetShortUINameNoTooltip] расплатиться золотом за ваше [Concept( 'hook', 'влияние' )|E]",
+    "POL": "Żądaj złota od [recipient.GetShortUINameNotMeNoTooltip] za [Concept( 'hook', 'haka' )|E], którego na [Select_CString( recipient.IsFemale, 'nią', 'niego' )] posiadasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_payment_interaction_message",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Obligations Paid Off",
+    "RUS": "Обязательства исполнены",
+    "POL": "Spłata zobowiązań",
+    "BEL": ""
+  },
+  {
+    "KEY": "RECIPIENT_HAS_TOO_LITTLE_GOLD",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] does not have enough gold",
+    "RUS": "[CHARACTER.GetName] имеет недостаточно золота",
+    "POL": "[CHARACTER.GetName] nie ma wystarczająco dużej ilości złota",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_payment_too_little_gold_tt",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "#N [recipient.GetShortUINameNoTooltip] does not have enough gold to pay#!\\nI will receive less than expected #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!",
+    "RUS": "#N [recipient.GetShortUINameNoTooltip] не имеет достаточного количества золота#!\\nЯ получу меньше, чем ожидалось #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!",
+    "POL": "#N [recipient.GetShortUINameNotMeNoTooltip] nie ma wystarczającej ilości złota, by zapłacić#!\\nZapłaci mniej niż przypuszczano #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_claim_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Buy Claim",
+    "RUS": "Купить претензию",
+    "POL": "Kup roszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_claim_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Pay [piety|E] to gain a [claim|E] on one of [recipient.GetShortUINamePossessiveNoTooltip] valid titles #weak ([buy_claim|E])#!",
+    "RUS": "Потратить [Concept( 'piety', 'благочестие' )|E], чтобы получить [Concept( 'claim', 'претензию' )|E] на один из подходящих вам титулов, которыми владеет [recipient.GetShortUINameNoTooltip] #weak ([buy_claim|E])#!",
+    "POL": "Wydaj [piety|El], aby zdobyć [claim|El] na jeden ważny tytuł postaci [recipient.GetShortUINameNotMeNoTooltip] #weak ([buy_claim|El])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_claim_interaction.message",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "[target.GetName] Claimed!",
+    "RUS": "Претензия на титул [target.GetName]!",
+    "POL": "Zyskano roszczenie do [target.GetName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_ALREADY_HAS_A_CLAIM",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You already have a [claim|E] on this [title|E]",
+    "RUS": "У вас уже есть [claim|El] на этот [title|El]",
+    "POL": "Posiadasz już [claim|El] do tego [Concept('title', 'tytułu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_ALREADY_KING_OR_EMPEROR",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You cannot buy a [claim|E] on a [kingdom|E] if you already are a [king|E] or [emperor|E]",
+    "RUS": "Вы не можете купить [Concept( 'claim', 'претензию' )|E] на [Concept( 'kingdom', 'королевство' )|E], если вы уже [Concept( 'king', 'король' )|E] или [Concept( 'emperor', 'император' )|E]",
+    "POL": "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do [Concept('kingdom', 'królestwa')|E], jeśli jesteś już [Concept('king', 'królem')|E] lub [Concept('emperor', 'cesarzem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_ALREADY_EMPEROR",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You cannot buy a [claim|E] on a [empire|E] if you already are an [emperor|E]",
+    "RUS": "Вы не можете купить [Concept( 'claim', 'претензию' )|E] на [Concept( 'empire', 'империю' )|E], если вы уже [Concept( 'emperor', 'император' )|E]",
+    "POL": "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do [Concept('empire', 'cesarstwa')|E], jeśli jesteś już [Concept('emperor', 'cesarzem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_RELIGIOUS_TITLE",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You cannot buy a [claim|E] on a religious title",
+    "RUS": "Вы не можете купить [Concept( 'claim', 'претензию' )|E] на религиозный титул",
+    "POL": "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do tytułu religijnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_LANDLESS_ADVENTURER_TITLE",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You cannot buy a [claim|E] on an [adventurer|E] title",
+    "RUS": "Вы не можете купить [Concept( 'claim', 'претензию' )|E] на титул [Concept( 'adventurer', 'авантюриста' )|E]",
+    "POL": "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do tytułu [Concept('adventurer', 'poszukiwacza przygód')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BUY_CLAIM_NOBLE_FAMILY_TITLE",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "You cannot buy a [claim|E] on a [noble_family|E] title",
+    "RUS": "Вы не можете купить [Concept( 'claim', 'претензию' )|E] на титул [Concept( 'noble_family', 'благородного семейства' )|E]",
+    "POL": "Nie możesz kupić [Concept('claim', 'roszczenia')|E] do tytułu [Concept('noble_family', 'rodziny szlacheckiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Challenge Rival to Duel",
+    "RUS": "Вызвать соперника на поединок",
+    "POL": "Wyzwij rywala na pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction_desc_regular",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Challenge your [rival|E] to a [single_combat_duel|E], inflicting [stress|E] if you win",
+    "RUS": "Вы вызываете [Concept('rival', 'соперника')|E] на [Concept('single_combat_duel', 'поединок')|E] и в случае победы причиняете [Concept('stress', 'стресс')|E]",
+    "POL": "Wyzwij na [single_combat_duel|El] swojego [Concept('rival', 'rywala')|E] i pokonaj go, aby zwiększyć jego poziom [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_nomadic_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Challenge to Duel",
+    "RUS": "Вызвать на поединок",
+    "POL": "Wyzwij na pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction_desc_non_admin",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Challenge a non-[administrative|E] [character|E] of [martial|E] gender to a [single_combat_duel|E], inflicting [stress|E] if you win",
+    "RUS": "Вы вызываете на [Concept('single_combat_duel', 'поединок')|E] любого [Concept('character', 'персонажа')|E] (кроме представителей [Concept('administrative', 'бюрократического правительства')|E]), чей пол позволяет участвовать в [Concept('martial', 'сражениях')|E]. В случае вашей победы проигравший испытывает [Concept('stress', 'стресс')|E]",
+    "POL": "Znajdź [character|El], która nie pełni funkcji [Concept('administrative', 'administracyjnej')|E] i reprezentuje płeć mogącą brać udział w [Concept('martial', 'walce')|E], a następnie wyzwij ją na [single_combat_duel|El] i pokonaj, aby zwiększyć jej poziom [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction_desc_nomadic",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Challenge a non-[close_family|E] [character|E] of [martial|E] gender to a [single_combat_duel|E], inflicting [stress|E] if you win",
+    "RUS": "Вы вызываете любого [Concept('character', 'персонажа')|E] (не [Concept('close_family', 'близкого родственника')|E]), чей пол позволяет участвовать в [Concept('martial', 'сражениях')|E], на [Concept('single_combat_duel', 'поединок')|E]. В случае победы проигравший испытывает [Concept('stress', 'стресс')|E]",
+    "POL": "Znajdź [character|El], która nie należy do twojej [Concept('close_family', 'bliskiej rodziny')|E] i reprezentuje płeć mogącą brać udział z [Concept('martial', 'walce')|E], a następnie wyzwij ją na [single_combat_duel|El] i pokonaj, aby zwiększyć jej poziom [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'challenge_to_single_combat_interaction_desc_nomadic', 'challenge_to_single_combat_interaction_desc_regular' )]",
+    "RUS": "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'challenge_to_single_combat_interaction_desc_nomadic', 'challenge_to_single_combat_interaction_desc_regular' )]",
+    "POL": "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'challenge_to_single_combat_interaction_desc_nomadic', 'challenge_to_single_combat_interaction_desc_regular' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction.enter_non_lethal_bout.tt",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "A non-lethal [single_combat_fight|E] will commence immediately",
+    "RUS": "[single_combat_fight|E] не насмерть начинается немедленно",
+    "POL": "[single_combat_fight|E] do pierwszej krwi rozpocznie się natychmiast",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction.victor_gets.tt",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "The victor loses [stress|E]",
+    "RUS": "[stress|E] победителя снижается",
+    "POL": "Zwycięzca zmniejsza swój [stress|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction.loser_gets.tt",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "The loser gains [stress|E]",
+    "RUS": "[stress|E] проигравшего растет",
+    "POL": "Przegrany zwiększa swój [stress|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction.challenge_rejected.t",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] Refuses your Challenge!",
+    "RUS": "[recipient.GetShortUINameNoTooltip] отвергает ваш вызов!",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] odrzuca twoje wyzwanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_to_single_combat_interaction.challenge_rejected.tt",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "The coward fears your blade",
+    "RUS": "Трусливое ничтожество боится вашего клинка",
+    "POL": "Tchórz boi się twojego ostrza",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNLOCKS_ABILITY_TO_DUEL_RIVALS",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "May challenge [rivals|E] to [single_combat_fight|E], inflicting [stress|E] if you win",
+    "RUS": "Можно вызвать [Concept( 'rival', 'соперника' )|E] на [Concept( 'single_combat_duel', 'поединок' )|E] и в случае победы причинить [stress|El]",
+    "POL": "Można wyzywać [Concept( 'rivals', 'rywali' )|E] na [single_combat_fight|El], zwiększając ich [stress|El] w przypadku własnego zwycięstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "CTSC_RELATIVE_PROWESS",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Relative [prowess|E]: $VALUE|=+0$",
+    "RUS": "Относительная [Concept( 'prowess', 'доблесть' )|E]: $VALUE|=+0$",
+    "POL": "Względna [prowess|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNLOCKS_ABILITY_TO_DUEL_EVERYONE",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "May challenge non-[close_family|E] [characters|E] of [martial|E] gender to [single_combat_fight|E], inflicting [stress|E] if you win",
+    "RUS": "Можно вызвать на [Concept('single_combat_fight', 'бой один на один')|E] любого [Concept('characters', 'персонажа')|E] не [Concept('close_family', 'близкого родственника')|E], чей пол позволяет участвовать в [Concept('martial', 'сражениях')|E]. В случае победы проигравший испытывает [Concept('stress', 'стресс')|E]",
+    "POL": "Możliwość wyzwania na [single_combat_fight|El] [Concept('characters', 'postaci')|E], które nie należą do twojej [Concept('close_family', 'bliskiej rodziny')|E] i reprezentują płeć kojarzoną z [Concept('martial', 'walką')|E], aby pokonać je i zwiększyć ich poziom [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNLOCKS_ABILITY_TO_DUEL_NON_ADMIN",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "May challenge non-[administrative|E] [characters|E] of [martial|E] gender to [single_combat_fight|E], inflicting [stress|E] if you win",
+    "RUS": "Можно вызвать на [Concept('single_combat_fight', 'бой один на один')|E] любого [Concept('characters', 'персонажа')|E] (кроме представителей [Concept('administrative', 'бюрократического правительства')|E]), чей пол позволяет участвовать в [Concept('martial', 'сражениях')|E]. В случае вашей победы проигравший испытывает [Concept('stress', 'стресс')|E]",
+    "POL": "Możliwość wyzwania na [single_combat_fight|El] [Concept('characters', 'postaci')|E], które nie pełnią funkcji [Concept('administrative', 'administracyjnej')|E] i reprezentują płeć kojarzoną z [Concept('martial', 'walką')|E], aby pokonać je i zwiększyć ich poziom [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_artifact_claim_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Buy Artifact Claim",
+    "RUS": "Купить претензию на артефакт",
+    "POL": "Kup roszczenie do artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_artifact_claim_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/perk_interaction_l_belarusian.json",
+    "ENG": "Spend [piety|E] or [prestige|E] to gain a [personal_artifact_claim|E] on another character's [artifact|E] #weak ([buy_artifact_claim|E])#!",
+    "RUS": "Потратить [piety|El] или [prestige|El], чтобы получить [Concept( 'personal_artifact_claim', 'претензию на один из личных' )|E] [Concept( 'artifacts', 'артефактов' )|E] другого персонажа #weak ([buy_artifact_claim|E])#!",
+    "POL": "Wydaj [piety|El] lub [prestige|El], aby otrzymać [personal_artifact_claim|El] do [Concept( 'artifact', 'artefaktu' )|E] innej postaci #weak ([buy_artifact_claim|El])#!",
+    "BEL": ""
+  }
+]

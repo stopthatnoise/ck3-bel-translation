@@ -1,0 +1,2210 @@
+[
+  {
+    "KEY": "ACTIVITY_WAITING_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Hosted by [CHARACTER.GetName].\\nWaiting for all invitations to be answered.\\n$DESC|F$\\n\\n#I Click to show details#! ",
+    "RUS": "[CHARACTER.GetName] приглашает.\\nОжидание ответов на все приглашения.\\n$DESC|F$\\n\\n#I Нажмите, чтобы показать подробности#! ",
+    "POL": "Gospodarzem jest [CHARACTER.GetName].\\nOczekiwanie na odpowiedź od wszystkich zaproszonych gości.\\n$DESC|F$\\n\\n#I Kliknij, aby zobaczyć szczegóły#! ",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_TIME_LEFT",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Will begin in $TIME|V$ days",
+    "RUS": "Начало через $TIME|V$ дн",
+    "POL": " Rozpocznie się za $TIME|V$ dni",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_OWNED_BY",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Owner: $NAME$",
+    "RUS": "Владелец: $NAME$",
+    "POL": "Właściciel: $NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_FULL_NAME",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[Character.GetShortUINamePossessiveNoTooltip] [ActivityType.GetNameNoTooltip]",
+    "RUS": "[ActivityType.GetNameNoTooltip] [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Character.LocalPlayerString( Localize( Concatenate(ActivityType.GetKey, '_your') ),'')][Character.LocalPlayerString( ActivityType.GetNameNoTooltip, '' )|l][Character.LocalPlayerString('',ActivityType.GetNameNoTooltip)|U][Character.LocalPlayerString('',Concatenate(' postaci ', Character.GetShortUINameNotMeNoTooltip))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_SHORT_NAME",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ActivityType.GetNameNoTooltip]",
+    "RUS": "[ActivityType.GetNameNoTooltip]",
+    "POL": "[ActivityType.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_TYPE_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "RUS": "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "POL": "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_OPTION_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "RUS": "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "POL": "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\\n[ActivityOption.GetDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_OPTION_DESC",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ActivityPlanner.NoOp][ActivityOption.GetDescription]",
+    "RUS": "[ActivityPlanner.NoOp][ActivityOption.GetDescription]",
+    "POL": "[ActivityPlanner.NoOp] – [ActivityOption.GetDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_special_type",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[Activity.Custom('GetActivitySpecialType')]",
+    "RUS": "[Activity.Custom('GetActivitySpecialType')]",
+    "POL": "[Activity.Custom('GetActivitySpecialType')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_special_type_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[Activity.Custom('GetActivitySpecialTypeDesc')]",
+    "RUS": "[Activity.Custom('GetActivitySpecialTypeDesc')]",
+    "POL": "[Activity.Custom('GetActivitySpecialTypeDesc')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.ai_value.sociability",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My Sociability: $VALUE|+0$",
+    "RUS": "Моя общительность: $VALUE|+0$",
+    "POL": "Moja towarzyskość: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.ai_value.greed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My Greed: $VALUE|+0$",
+    "RUS": "Моя жадность: $VALUE|+0$",
+    "POL": "Moja chciwość: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.ai_value.rationality",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My Rationality: $VALUE|+0$",
+    "RUS": "Моя рациональность: $VALUE|+0$",
+    "POL": "Moja racjonalność: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.ai_value.boldness",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My Boldness: $VALUE|+0$",
+    "RUS": "Моя храбрость: $VALUE|+0$",
+    "POL": "Moja śmiałość: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.gluttonous",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('gluttonous').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('gluttonous').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('gluttonous').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.ambitious",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('ambitious').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('ambitious').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('ambitious').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.greedy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('greedy').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('greedy').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('greedy').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.generous",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('generous').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('generous').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('generous').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.temperate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('temperate').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "У меня есть свойство «[GetTrait('temperate').GetName( GetNullCharacter )]»: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('temperate').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.humble",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('humble').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('humble').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('humble').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('arrogant').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('arrogant').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('arrogant').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.gregarious",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('gregarious').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('gregarious').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('gregarious').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.shy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('shy').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('shy').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('shy').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.comfort_eater",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('comfort_eater').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.profligate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('profligate').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('profligate').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('profligate').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.improvident.giving_circumstances",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('improvident').GetName( GetNullCharacter )] & consider my presence a gift: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('improvident').GetName( GetNullCharacter )|l], а свое присутствие я считаю даром: $VALUE|+0$",
+    "POL": "Jako [GetTrait('improvident').GetName( GetNullCharacter )|l] uważam samą moją obecność za dar: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.inappetetic",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('inappetetic').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('inappetetic').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('inappetetic').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.drunkard",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('drunkard').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('drunkard').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('drunkard').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.hashishiyah",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('comfort_eater').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('comfort_eater').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.trait.lifestyle_reveler",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]: $VALUE|+0$",
+    "RUS": "Мое свойство — [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "POL": "Jestem [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.modifier.losing_weight",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I'm trying to lose weight: $VALUE|+0$",
+    "RUS": "Я пытаюсь сбросить вес: $VALUE|+0$",
+    "POL": "Próbuję schudnąć: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.modifier.gaining_weight",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I'm trying to gain weight: $VALUE|+0$",
+    "RUS": "Я пытаюсь набрать вес: $VALUE|+0$",
+    "POL": "Próbuję przybrać na wadze: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.stress.more_than_low",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I am [stressed|E]: $VALUE|+0$",
+    "RUS": "Я [Concept( 'stressed', 'нервничаю' )|E]: $VALUE|+0$",
+    "POL": "Zmagam się ze [Concept( 'stressed', 'stresem' )|E]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.faith.tenet_ritual_celebrations",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My [faith|E] has [GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName]: $VALUE|+0$",
+    "RUS": "В моей [Concept( 'faith', 'конфессии' )|E] есть [GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName|l]: $VALUE|+0$",
+    "POL": "Moja [faith|El] ma doktrynę „[GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName]”: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.faith.tenet_hedonistic",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "My [faith|E] has [GetFaithDoctrine('tenet_hedonistic').GetBaseName]: $VALUE|+0$",
+    "RUS": "В моей [Concept( 'faith', 'конфессии' )|E] есть [GetFaithDoctrine('tenet_hedonistic').GetBaseName|l]: $VALUE|+0$",
+    "POL": "Moja [faith|El] ma doktrynę „[GetFaithDoctrine('tenet_hedonistic').GetBaseName]”: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.gold.prefers_cheapness",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I don't have much [gold|E] to spare: $VALUE|+0$",
+    "RUS": "У меня мало свободного [Concept( 'gold', 'золота' )|E]: $VALUE|+0$",
+    "POL": "Nie mam zbyt wiele [Concept( 'gold', 'zlota' )|E] do wydania: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.gold.prefers_middling",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I've got enough [gold|E] for something decent: $VALUE|+0$",
+    "RUS": "У меня достаточно [Concept( 'gold', 'золота' )|E] на что-нибудь приличное: $VALUE|+0$",
+    "POL": "Mam wystarczającą ilość [Concept('gold', 'złota')|E] na coś przyzwoitego: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.gold.prefers_expense",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I have plenty of [gold|E] to spare: $VALUE|+0$",
+    "RUS": "У меня много свободного [Concept( 'gold', 'золота' )|E]:  $VALUE|+0$",
+    "POL": "Mam mnóstwo [Concept( 'gold', 'złota' )|E] do wydania: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.struggle.wants_to_escalate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I want to escalate my [struggle|E]: $VALUE|+0$",
+    "RUS": "Я хочу усилить [Concept( 'struggle', 'борьбу' )|E]: $VALUE|+0$",
+    "POL": "Chcę eskalować moje [struggle|El]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_gui.activity_weight.struggle.wants_to_deescalate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "I want to deescalate my [struggle|E]: $VALUE|+0$",
+    "RUS": "Я хочу ослабить [Concept( 'struggle', 'борьбу' )|E]: $VALUE|+0$",
+    "POL": "Chcę deeskalować moje [struggle|El]: $VALUE|+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Feast",
+    "RUS": "Пир",
+    "POL": "Uczta",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_activity_cost_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Base Cost",
+    "RUS": "Базовая стоимость",
+    "POL": "Koszt podstawowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Feast",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] [Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'пир', 'устраивает пир')]",
+    "POL": "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Twoja uczta', Concatenate('Uczta u ', ACTIVITY.GetOwner.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_activity_cost_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$feast_type_murder$",
+    "RUS": "$feast_type_murder$",
+    "POL": "$feast_type_murder$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bloody_wedding_activity_cost_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$wedding_type_bloody$",
+    "RUS": "$wedding_type_bloody$",
+    "POL": "$wedding_type_bloody$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Strengthen bonds of loyalty by inviting vassals and neighbors into your halls to eat, drink, and be merry!\\n\\nWell-timed feasts will keep your realm stable by appeasing subjects and forging friendships.",
+    "RUS": "Укрепите узы верности, пригласив вассалов и соседей есть, пить и веселиться в ваших залах!\\n\\nСвоевременные пиры обеспечат стабильность державы, довольство подданных и позволят обзавестись новыми друзьями.",
+    "POL": "Chcesz umocnić więzi i zwiększyć lojalność swojego ludu? Zapraszaj wasali i sąsiadów do swoich sal na posiłki, coś do picia i świętowanie!\\n\\nWydane w odpowiednim momencie uczty pomogą ci zachować stabilność w państwie, zadowalając poddanych i dając początek przyjaźniom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_owner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Host",
+    "RUS": "Устроитель",
+    "POL": "Gospodarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_destination_selection",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The chosen county will receive the [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] modifier for 5 years.",
+    "RUS": "Выбранное графство на 5 лет получит модификатор «[GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L]».",
+    "POL": "Wybrane hrabstwo otrzyma modyfikator [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] na 5 lat.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_selection_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Host a great banquet to strengthen your relations\\n\\nAnticipated Rewards:\\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\\n$BULLET_WITH_TAB$[stress_loss_i] [stress_loss|E]",
+    "RUS": "Устроить грандиозный банкет ради укрепления отношений\\n\\nОжидаемые награды:\\n$BULLET_WITH_TAB$[opinion_i] [Concept('opinion', 'Мнение')|E]\\n$BULLET_WITH_TAB$[stress_loss_i][Concept('stress_loss', 'Снижение стресса')|E]",
+    "POL": "Zorganizuj wspaniałą ucztę, aby wzmocnić swoje relacje\\n\\nPrzewidywane korzyści:\\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\\n$BULLET_WITH_TAB$[stress_loss_i] [stress_loss|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_amenity_effect",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$BULLET_WITH_TAB$Rewards are increased based on your Food [court_amenities|E]",
+    "RUS": "$BULLET_WITH_TAB$Награды увеличены в соответствии с вашими [Concept( 'court_amenities', 'придворными увеселениями' )|E], связанными с едой",
+    "POL": "$BULLET_WITH_TAB$Korzyści zwiększają się wraz ze wzrostem [Concept( 'court_amenities', 'udogodnień dworskich' )|E] związanych z jedzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_host_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$BULLET_WITH_TAB$May gain [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] [opinion|E]\\n$BULLET_WITH_TAB$May gain [prestige_i][prestige|E]\\n$BULLET_WITH_TAB$May gain [legitimacy_i] [legitimacy|E]\\n$BULLET_WITH_TAB$Participants may gain attending characters [opinion|E]\\n$BULLET_WITH_TAB$Participants may lose [stress_loss_i][stress|E]\\n$BULLET_WITH_TAB$Participants may gain the [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E]\\n[SelectLocalization( HasDlcFeature( 'royal_court' ), 'activity_feast_amenity_effect', 'blank_line' )]",
+    "RUS": "$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept( 'vassal', 'вассалов' )|E] может улучшиться\\n$BULLET_WITH_TAB$Можно получить [prestige_i][Concept( 'prestige', 'престиж' )|E]\\n$BULLET_WITH_TAB$Можно получить [legitimacy_i] [Concept( 'legitimacy', 'легитимность' )|E]\\n$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\\n$BULLET_WITH_TAB$[stress_loss_i][Concept( 'stress', 'Стресс' )|E] участников может снизиться\\n$BULLET_WITH_TAB$Участники могут получить [Concept( 'trait', 'свойство' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»\\n[SelectLocalization( HasDlcFeature( 'royal_court' ), 'activity_feast_amenity_effect', 'blank_line' )]",
+    "POL": "$BULLET_WITH_TAB$Można zyskać [Concept('opinion', 'opinię')|E] [Concept('vassal', 'wasala')|E] [GetVassalStance('courtly').GetTextIcon] dworskiego\\n$BULLET_WITH_TAB$Można zyskać [prestige_i] [prestige|El]\\n$BULLET_WITH_TAB$Można zyskać [legitimacy_i] [Concept('legitimacy', 'legitymację')|E]\\n$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept('opinion', 'opinię')|E]\\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i] [Concept('stress', 'stresu')|E]\\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept('trait', 'cechę')|E] [GetTrait('lifestyle_reveler').GetName(GetNullCharacter)|l]\\n[SelectLocalization( HasDlcFeature('royal_court'), 'activity_feast_amenity_effect', 'blank_line')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_conclusion_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The [GetActivityType( 'activity_feast' ).GetName] has concluded",
+    "RUS": "«[GetActivityType( 'activity_feast' ).GetName] завершился»",
+    "POL": "[GetActivityType( 'activity_feast' ).GetName|U] dobiegła końca",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_magnificence_greagarious_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You are a legendary [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]",
+    "RUS": "Вы [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l] легендарных масштабов",
+    "POL": "Jesteś legendarną osobą o cesze: [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_recent_fest_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Great Banquet",
+    "RUS": "Великий банкет",
+    "POL": "Wspaniała uczta",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_recent_fest_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "A great feast was celebrated here",
+    "RUS": "Здесь проводился грандиозный пир",
+    "POL": "Tutaj odbyła się wielka uczta",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_start_log_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Feast Starts",
+    "RUS": "Пир начинается",
+    "POL": "Rozpoczęcie uczty",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_start_log",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[CHARACTER.GetTitledFirstName] gave a warm welcome to the guests and started the Feast",
+    "RUS": "[CHARACTER.GetTitledFirstName] тепло [Select_CString(CHARACTER.IsFemale, 'поприветствовала', 'поприветствовал' )] собравшихся, после чего начался пир",
+    "POL": "[CHARACTER.GetTitledFirstName] ciepło [Select_CString(CHARACTER.IsFemale, 'przywitała gości i rozpoczęła', 'przywitał gości i rozpoczął' )] ucztę",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_phase_meal_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Food, drinks and good company, #EMP is there anything better?#!",
+    "RUS": "Еда, питье, хорошая компания — #EMP что может быть лучше?#!",
+    "POL": "Jedzenie, napitki i dobre towarzystwo, #EMP czy potrzeba czegoś więcej?#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_phase_toast_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "A special moment to finish off the evening",
+    "RUS": "Особенный момент, чтобы завершить вечер",
+    "POL": "Wyjątkowa chwila, by zakończyć ten wieczór",
+    "BEL": ""
+  },
+  {
+    "KEY": "progress_towards_reveler_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You progress towards the [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E]",
+    "RUS": "Вы стали ближе к [Concept( 'trait', 'свойству' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»",
+    "POL": "Czynisz postępy w kierunku zdobycia [Concept('trait', 'cechy')|E] o nazwie [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_type_murder_valid_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You have hosted a Murder [GetActivityType('activity_feast').GetName] in the past 15 years",
+    "RUS": "За последние 15 лет вы проводили убийственный [GetActivityType('activity_feast').GetName]",
+    "POL": "Zorganizowano już aktywność w przeciągu 15 lat: krwawa [GetActivityType('activity_feast').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "wedding_type_murder_valid_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You have hosted a Bloody [GetActivityType('activity_wedding').GetName] in the past 15 years",
+    "RUS": "За последние 15 лет под вашим руководством проводилась кровавая [GetActivityType('activity_wedding').GetName]",
+    "POL": "Zorganizowano już aktywność w przeciągu 15 lat: krwawy [GetActivityType('activity_wedding').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Honorary Guest",
+    "RUS": "Почетный гость",
+    "POL": "Gość honorowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_concept",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[honorary_guest|E]",
+    "RUS": "[honorary_guest|E]",
+    "POL": "[honorary_guest|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_for_host",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Murder Target",
+    "RUS": "Цель убийства",
+    "POL": "Cel morderstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_regular",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$honorary_guest$",
+    "RUS": "$honorary_guest$",
+    "POL": "$honorary_guest$",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_regular_for_host",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$honorary_guest$",
+    "RUS": "$honorary_guest$",
+    "POL": "$honorary_guest$",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "A [GetActivityType('activity_feast').GetName] can have an $honorary_guest$, in whose honor the celebration is held. The central part of the banquet, the toast, will grant them [prestige|E] due to this prominent position. But beware — it can also be a trap... $feast_type_murder$ hosts have a tendency for killing their $honorary_guest$.",
+    "RUS": "На [GetActivityType('activity_feast').GetName] может прийти $honorary_guest$, и это будет особо отмечено на празднестве. Главная часть банкета — тост — поднимет его [Concept( 'prestige', 'престиж' )|E]. Но будьте осторожны — это может оказаться ловушкой. Если организатор замыслил $feast_type_murder$, почетного гостя могут убить.",
+    "POL": "[GetActivityType('activity_feast').GetName] może mieć gościa honorowego, na którego cześć odbywa się uroczystość. Główna część bankietu, czyli toast, zapewni mu [prestige|El] ze względu na jego znaczącą pozycję. Ale uważaj – może to być również pułapka… Gospodarze krwawych uczt mają tendencję do zabijania swoich gości honorowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_desc_for_host",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "It wouldn't be a $feast_type_murder$ without a $honorary_guest_for_host$. The host can carefully select their victim and end their life, together with all of their entourage, if they wish. But they must stay alert — if someone misses the victim's presence there may be additional consequences.",
+    "RUS": "Без почетного гостя кровавых пиров не бывает. Организатор тщательно выбирает жертву и решает, погибнет только она или умрет вся свита. Но необходимо быть начеку: если кто-то упустит жертву, последствия могут быть совсем иными.",
+    "POL": "Żadna krwawa uczta nie może się obyć bez gościa honorowego. Gospodarz ze starannością dobiera ofiarę, którą pozbawi życia – wraz z jej świtą, jeśli takie będzie jego życzenie. Musi jednak działać ostrożnie – jeśli ktoś zauważy nieobecność ofiary, trzeba liczyć się z konsekwencjami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_regular_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$honorary_guest_desc$",
+    "RUS": "$honorary_guest_desc$",
+    "POL": "$honorary_guest_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "honorary_guest_regular_desc_for_host",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$honorary_guest_desc$",
+    "RUS": "$honorary_guest_desc$",
+    "POL": "$honorary_guest_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_honorary_guest",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_honorary_guest_regular",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[honorary_guest|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[Concept( 'honorary_guest', 'Почетный гость' )|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[honorary_guest|E]\\n[Character.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_longhouses",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_longhouses_01$",
+    "RUS": "В этом месте есть $building_type_longhouses_01$",
+    "POL": "W tym miejscu znajdują się sale zebrań",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_farm_estates",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_farm_estates_01$",
+    "RUS": "В этом месте есть $building_type_farm_estates_01$",
+    "POL": "W tym miejscu znajdują się majątki dworskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_orchards",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_orchards_01$",
+    "RUS": "В этом месте есть $building_type_orchards_01$",
+    "POL": "W tym miejscu znajdują się sady",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_cereal_fields",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_cereal_fields_01$",
+    "RUS": "В этом месте есть $building_type_cereal_fields_01$",
+    "POL": "W tym miejscu znajdują się gospodarstwa i pola",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_paddy_fields",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_paddy_fields_01$",
+    "RUS": "В этом месте есть $building_type_paddy_fields_01$",
+    "POL": "W tym miejscu znajdują się pola ryżowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_hill_farms",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_hill_farms_01$",
+    "RUS": "В этом месте есть $building_type_hill_farms_01$",
+    "POL": "W tym miejscu znajdują się pola na wzgórzach",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_desert_agriculture",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_plantations_01$",
+    "RUS": "В этом месте есть $building_type_plantations_01$",
+    "POL": "W tym miejscu prowadzona jest pustynna uprawa ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_leisure_palaces",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_leisure_palace_01$",
+    "RUS": "В этом месте есть $building_type_leisure_palace_01$",
+    "POL": "W tym miejscu znajdują się pałace wypoczynkowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_doges_palace",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_doges_palace_01$",
+    "RUS": "В этом месте есть $building_type_doges_palace_01$",
+    "POL": "W tym miejscu znajduje się $building_type_doges_palace_01$",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_ghana_palace",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_ghana_palace_01$",
+    "RUS": "В этом месте есть $building_type_ghana_palace_01$",
+    "POL": "W tym miejscu znajduje się pałac królewski",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_kyz_kala",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_kyz_kala_01$",
+    "RUS": "В этом месте есть $building_type_kyz_kala_01$",
+    "POL": "W tym miejscu znajduje się $building_type_kyz_kala_01$",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_palace_of_aachen",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_palace_of_aachen_01$",
+    "RUS": "В этом месте есть $building_palace_of_aachen_01$",
+    "POL": "W tym miejscu znajduje się pałac w Akwizgranie",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_alhambra",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_alhambra_02$",
+    "RUS": "В этом месте есть $building_alhambra_02$",
+    "POL": "W tym miejscu znajduje się pałac królewski $building_type_alhambra_01$",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_citadel_of_aleppo",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_citadel_of_aleppo_02$",
+    "RUS": "В этом месте есть $building_citadel_of_aleppo_02$",
+    "POL": "W tym miejscu znajduje się odbudowana cytadela w Aleppo",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_theodosian_walls",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_theodosian_walls_01$",
+    "RUS": "В этом месте есть $building_theodosian_walls_01$",
+    "POL": "W tym miejscu znajdują się mury Teodozjusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_cost_discount_hall_of_heroes",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_hall_of_heroes_01$",
+    "RUS": "В этом месте есть $building_type_hall_of_heroes_01$",
+    "POL": "W tym miejscu znajduje się sala bohaterów",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_theodosian_walls",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_theodosian_walls_01$#!\\n",
+    "RUS": "#P +++ Феодосиевы стены#!\\n",
+    "POL": "#P +++ $building_type_theodosian_walls_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_hall_of_heroes",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_hall_of_heroes_01$#!\\n",
+    "RUS": "#P +++ Чертог героев#!\\n",
+    "POL": "#P +++ $building_type_hall_of_heroes_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_citadel_of_aleppo",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_citadel_of_aleppo_01$#!\\n",
+    "RUS": "#P +++ $building_type_citadel_of_aleppo_01$#!\\n",
+    "POL": "#P +++ $building_type_citadel_of_aleppo_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_palace_of_aachen",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_palace_of_aachen_01$#!\\n",
+    "RUS": "#P +++ $building_type_palace_of_aachen_01$#!\\n",
+    "POL": "#P +++ $building_type_palace_of_aachen_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_doges_palace",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_doges_palace_01$#!\\n",
+    "RUS": "#P +++ $building_type_doges_palace_01$#!\\n",
+    "POL": "#P +++ $building_type_doges_palace_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_ghana_palace_01",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_ghana_palace_01$#!\\n",
+    "RUS": "#P +++ $building_type_ghana_palace_01$#!\\n",
+    "POL": "#P +++ $building_type_ghana_palace_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_kyz_kala_01",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_kyz_kala_01$#!\\n",
+    "RUS": "#P +++ $building_type_kyz_kala_01$#!\\n",
+    "POL": "#P +++ $building_type_kyz_kala_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_leisure_palace",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_leisure_palace_01$#!\\n",
+    "RUS": "#P +++ Дворцы отдыха#!\\n",
+    "POL": "#P +++ $building_type_leisure_palace_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_alhambra",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_alhambra_01$#!\\n",
+    "RUS": "#P +++ Альгамбра#!\\n",
+    "POL": "#P +++ $building_type_alhambra_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_farm_estates",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P ++ $building_type_farm_estates_01$#!\\n",
+    "RUS": "#P ++ $building_type_farm_estates_01$#!\\n",
+    "POL": "#P ++ $building_type_farm_estates_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_paddy_fields",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P ++ $building_type_paddy_fields_01$#!\\n",
+    "RUS": "#P ++ $building_type_paddy_fields_01$#!\\n",
+    "POL": "#P ++ $building_type_paddy_fields_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_longhouses",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P + $building_type_longhouses_01$#!\\n",
+    "RUS": "#P + Зал собраний#!\\n",
+    "POL": "#P + $building_type_longhouses_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_orchards",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P + $building_type_orchards_01$#!\\n",
+    "RUS": "#P + Фруктовые сады#!\\n",
+    "POL": "#P + $building_type_orchards_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_cereal_fields",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P + $building_type_cereal_fields_01$#!\\n",
+    "RUS": "#P + Фермы и поля#!\\n",
+    "POL": "#P + $building_type_cereal_fields_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_plantations",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P + $building_type_plantations_01$#!\\n",
+    "RUS": "#P + Пустынное земледелие#!\\n",
+    "POL": "#P + $building_type_plantations_01$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_pleasure_dome",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#P +++ $building_type_pleasure_dome$#!\\n",
+    "RUS": "#P +++ $building_type_pleasure_dome$#!\\n",
+    "POL": "#P +++ $building_type_pleasure_dome$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc_no_holding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#N --- No [holding|P]#!",
+    "RUS": "#N −−− Отсутствует [holding|Pl]#!",
+    "POL": "#N --- Brak [Concept('holding', 'posiadłości')|P]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_reward_food_court_amenity_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Rewards are increased by your court amenities",
+    "RUS": "Увеселения при дворе увеличивают награды",
+    "POL": "Nagrody są zwiększane przez udogodnienia w dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_good_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_good_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The number of courses has greatly impressed the guests",
+    "RUS": "Количество блюд произвело огромное впечатление на гостей",
+    "POL": "Liczba posiłków zrobiła na gościach ogromne wrażenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_normal_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_normal_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The number of courses has satisfied the guests",
+    "RUS": "Количество блюд понравилось гостям",
+    "POL": "Liczba posiłków usatysfakcjonowała gości",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_bad_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "courses_bad_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The number of courses has disappointed the guests",
+    "RUS": "Количество блюд огорчило гостей",
+    "POL": "Liczba posiłków rozczarowała gości",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_normal_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_normal_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The dish complexity has satisfied the guests",
+    "RUS": "Сложность блюд понравилась гостям",
+    "POL": "Złożoność posiłków zadowoliła gości",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_good_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_good_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The dish complexity has greatly impressed the guests",
+    "RUS": "Сложность блюд произвела огромное впечатление на гостей",
+    "POL": "Złożoność posiłków wywarła ogromne wrażenie na gościach",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_bad_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$final_reward_tt$",
+    "RUS": "$final_reward_tt$",
+    "POL": "$final_reward_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_bad_reward_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The dish complexity has disappointed the guests",
+    "RUS": "Сложность блюд огорчила гостей",
+    "POL": "Złożoność posiłków zawiodła gości",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_poor_health_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[health|E] is #V Poor#! or lower",
+    "RUS": "[Concept( 'health', 'Здоровье' )|E] #V слабое#! или хуже",
+    "POL": "[health|E] jest na #V niskim#! lub gorszym poziomie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_guest_help_text",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Any invited [activity_guests|E] will have an opportunity to get involved with other participants and increase their [opinion|E].\\n\\nFeasts are also the perfect occasion to just sit back and lose some [stress|E].",
+    "RUS": "Каждый приглашенный [Concept('activity_guests', 'гость занятия')|E] сможет пообщаться с остальными участниками и повысить их [Concept('opinion', 'мнение')|E] о себе.\\n\\nКроме того, пиры — это отличная возможность просто отдохнуть и избавиться от [Concept('stress', 'стресса')|E].",
+    "POL": "Każdy zaproszony [guest|El] będzie mógł nawiązać kontakty z innymi uczestnikami i podnieść w ten sposób ich [Concept('opinion', 'opinię')|E] na swój temat.\\n\\nPonadto uczty to świetna szansa, aby się po prostu zrelaksować i pozbyć [Concept('stress', 'stresu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_failed_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Failed Murder",
+    "RUS": "Неудавшееся убийство",
+    "POL": "Nieudane morderstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_failed_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The murder attempt has failed",
+    "RUS": "Покушение на убийство провалилось",
+    "POL": "Próba morderstwa zakończyła się niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_solo_kill_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Murder Feast",
+    "RUS": "Кровавый пир",
+    "POL": "Krwawa uczta",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_solo_kill_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUIName] successfully killed [ROOT.Char.GetHerHis] target",
+    "RUS": "[ROOT.Char.GetShortUIName] успешно [Select_CString(ROOT.Char.IsFemale, 'убила', 'убил' )] цель",
+    "POL": "Osoba, którą jest [ROOT.Char.GetShortUINameNotMe], zdołała zabić swój cel",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_entourage_kill_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$murder_feast_solo_kill_tt_title$",
+    "RUS": "$murder_feast_solo_kill_tt_title$",
+    "POL": "$murder_feast_solo_kill_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_entourage_kill_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUIName] successfully killed [ROOT.Char.GetHerHis] target and their entourage",
+    "RUS": "[ROOT.Char.GetShortUIName] успешно [Select_CString(ROOT.Char.IsFemale, 'убила', 'убил' )] цель и ее свиту",
+    "POL": "Osoba, którą jest [ROOT.Char.GetShortUINameNotMe], zdołała zabić swój cel i jego świtę",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_liege_kill_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Wrong Target",
+    "RUS": "Ошибочная цель",
+    "POL": "Niewłaściwy cel",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_liege_kill_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUIName] successfully killed [ROOT.Char.GetHerHis] liege",
+    "RUS": "[ROOT.Char.GetShortUIName] успешно [Select_CString(ROOT.Char.IsFemale, 'убила', 'убил' )] своего сюзерена",
+    "POL": "Osoba, którą jest [ROOT.Char.GetShortUINameNotMe], zdołała zabić swojego seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_hof_kill_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$murder_feast_liege_kill_tt_title$",
+    "RUS": "$murder_feast_liege_kill_tt_title$",
+    "POL": "$murder_feast_liege_kill_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_feast_hof_kill_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUIName] successfully killed [ROOT.Char.GetHerHis] head of faith",
+    "RUS": "[ROOT.Char.GetShortUIName] успешно [Select_CString(ROOT.Char.IsFemale, 'убила', 'убил' )] главу своей конфессии",
+    "POL": "Osoba, którą jest [ROOT.Char.GetShortUINameNotMe], zdołała zabić swoją głowę wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_honorary_guest_traveling_murder",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]\\n[traveling|E] in [Character.GetCurrentLocation.GetName]\\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]",
+    "RUS": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]\\n[Concept( 'traveling', 'Путешествует' )]; местонахождение — [Character.GetCurrentLocation.GetName]\\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]",
+    "POL": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNotMe]\\n[traveling|E] w miejscu, którym jest [Character.GetCurrentLocation.GetName]\\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_honorary_guest_murder",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\\n[Character.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_province_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You hold a Feast in [ROOT.Province.GetName]\\nProvinces with suited buildings give out a [gold_i][gold|E] discount\\n",
+    "RUS": "Вы устроили пир в провинции [ROOT.Province.GetName]\\nПровинции с подходящими зданиями позволяют сэкономить [gold_i] [Concept( 'gold', 'золото' )|E]\\n",
+    "POL": "Organizujesz ucztę w miejscu znanym jako [ROOT.Province.GetName]\\nHrabstwa z odpowiednimi budowlami zapewniają zniżkę w [gold_i][Concept( 'gold', 'złocie' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Hunt",
+    "RUS": "Охота",
+    "POL": "Polowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "hunt_phase_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Pursue your quarry, and decide how you will fell it",
+    "RUS": "Отправьтесь в погоню и решите, как именно убить добычу",
+    "POL": "Ścigaj swoją zwierzynę i zdecyduj, w jaki sposób ją dopadniesz",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Hunt",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'а охота', ' устраивает охоту')]",
+    "POL": "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Twoje polowanie', Concatenate('Polowanie u ', ACTIVITY.GetOwner.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[GetPlayer.Custom('GetHuntDesc')|U]",
+    "RUS": "[GetPlayer.Custom('GetHuntDesc')|U]",
+    "POL": "[GetPlayer.Custom('GetHuntDesc')|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_desc_regular",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The chase provides thrills and dangers in abundance, and serves to provide a firm grounding in riding and archery.\\n\\nHunts are overseen by the [GetCourtPositionType('master_of_hunt_court_position').GetName()], who will announce [hunt_sightings_no_prefix|E] of beasts common, rare, and fierce.",
+    "RUS": "Загонная охота — опасное, но увлекательное занятие, а заодно — прекрасная возможность отточить мастерство верховой езды и стрельбы из лука.\\n\\nОхотой заведует [GetCourtPositionType('master_of_hunt_court_position').GetName()|l]. Этот придворный будет сообщать обо всей [Concept( 'hunt_sightings_no_prefix', 'замеченной дичи' )|E] — простой, редкой и свирепой.",
+    "POL": "Pogoń dostarcza wielu wrażeń i niebezpieczeństw, a także pozwala przyswoić solidne podstawy w jeździectwie i łucznictwie.\\n\\nPrzebiegiem polowania zarządza [GetCourtPositionType('master_of_hunt_court_position').GetName()|l], który informuje o [Concept('hunt_sightings_no_prefix', 'okazjach')|E] na upolowanie zwierzyny pospolitej, rzadkiej oraz groźnej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_desc_adventurer",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The chase provides thrills and dangers in abundance, and serves to provide a firm grounding in riding and archery.\\n\\nAs an [GetGovernment('landless_adventurer_government').GetName] hunting gives less [prestige_i][prestige|E] but provide [provisions_i][provisions|E]. Hunts are overseen by the [GetCourtPositionType('huntperson_camp_officer').GetName()].\\n\\nAt the start of a hunt you will get an opportunity to purchase hunting rights for [gold_i][gold|E], else you will get [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName] [trait_level_track_xp|E].",
+    "RUS": "Загонная охота — опасное, но увлекательное занятие, а заодно — прекрасная возможность отточить мастерство верховой езды и стрельбы из лука.\\n\\nТак как вы — [GetGovernment('landless_adventurer_government').GetName|l], охота приносит вам меньше [prestige_i][Concept( 'prestige', 'престижа' )|E], зато вы получаете [provisions_i][Concept( 'provisions', 'припасы лагеря' )|E]. Охотой заведует [GetCourtPositionType('huntperson_camp_officer').GetName()|l].\\n\\nДля начала стоит приобрести право на охоту за [gold_i][Concept( 'gold', 'золото' )|E], иначе вы получите [Concept( 'trait_level_track_xp', 'опыт' )|E] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName|l]а свойства «[GetTrait('gallowsbait').GetName( GetNullCharacter )]».",
+    "POL": "Pogoń dostarcza wielu wrażeń i niebezpieczeństw, a także pozwala przyswoić solidne podstawy w jeździectwie i łucznictwie.\\n\\n[GetGovernment('landless_adventurer_government').GetName] otrzymuje za polowania mniejszy [prestige_i] [prestige|El], ale zdobywa [provisions_i] [provisions|El]. Przebiegiem polowania zarządza [GetCourtPositionType('huntperson_camp_officer').GetName()|l].\\n\\nNa początku łowów otrzymasz okazję na nabycie praw do polowania za [gold_i] [gold|El]. Jeśli nie wykorzystasz okazji, otrzymasz [trait_level_track_xp|El] dla cech: [GetTrait('gallowsbait').GetName( GetNullCharacter )|l] i [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_owner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Hunter",
+    "RUS": "Охотник",
+    "POL": "Łowca",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_meditation",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Secluded Meditation",
+    "RUS": "Медитация в уединении",
+    "POL": "Medytacja w odosobnieniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_meditation_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Secluded Meditation",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'а медитация', ' устраивает медитацию')]",
+    "POL": "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Twoja samotna medytacja', Concatenate('Samotna medytacja, której oddaje się ', ACTIVITY.GetOwner.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_meditation_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetTitledFirstName] has retreated into seclusion so that they may meditate in peace.",
+    "RUS": "[ACTIVITY.GetOwner.GetTitledFirstName] удаляется от мирской суеты, чтобы спокойно предаться медитации.",
+    "POL": "[ACTIVITY.GetOwner.GetTitledFirstName] udał[Select_CString( ACTIVITY.GetOwner.IsFemale, 'a', '' )] się w odosobnione miejsce, aby móc w spokoju medytować. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_meditation_owner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Meditant",
+    "RUS": "Приверженец медитаций",
+    "POL": "Medytant",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hold_court",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Hold Court",
+    "RUS": "Устроить прием",
+    "POL": "Organizacja audiencji",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hold_court_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Court Audience",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, ' прием', ' устраивает прием')]",
+    "POL": "[Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'Twoja audiencja dworska', Concatenate( 'Audiencja dworska postaci ', ACTIVITY.GetOwner.GetName ))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hold_court_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetTitledFirstName] has invited all of their subjects to bring any and all matters which need [ACTIVITY.GetOwner.GetHerHis] attention before [ACTIVITY.GetOwner.GetHerHim].",
+    "RUS": " приглашает всех подданных поведать  о своих насущных проблемах.",
+    "POL": "[ACTIVITY.GetOwner.GetTitledFirstName] zaprosił[Select_CString( ACTIVITY.GetOwner.IsFemale, 'a', '' )] wszystkich swoich poddanych do przedstawiania [ACTIVITY.GetOwner.GetHerHim] wszelkich spraw, które wymagają [ACTIVITY.GetOwner.GetHerHis] uwagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_petition_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Petition Liege",
+    "RUS": "Обращение к сюзерену",
+    "POL": "Prośba o audiencję u seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_petition_liege_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Petition",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'е обращение с просьбой', ' обращается с просьбой')]",
+    "POL": "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Twoja prośba o audiencję', Concatenate('Prośba o audiencję postaci ', ACTIVITY.GetOwner.GetName))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_petition_liege_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetTitledFirstName] has petitioned [ACTIVITY.GetOwner.GetHerHis] liege, [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName], for relief in certain matters.",
+    "RUS": "[ACTIVITY.GetOwner.GetTitledFirstName] [Select_CString(ACTIVITY.GetOwner.IsFemale, 'обратилась', 'обратился' )] к своему сюзерену в надежде, что [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName] поможет решить определенные вопросы.",
+    "POL": "[ACTIVITY.GetOwner.GetTitledFirstName] wystąpił[Select_CString( ACTIVITY.GetOwner.IsFemale, 'a', '' )] do swoje[Select_CString( ACTIVITY.GetOwner.GetLiege.IsFemale, 'j seniorki', 'go seniora' )], aby [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName] pom[Select_CString( ACTIVITY.GetOwner.GetLiege.IsFemale, 'ogła', 'ógł' )] w pewnych sprawach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "visit_seer",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Visit a Seer",
+    "RUS": "Посетить провидца",
+    "POL": "Wizyta u jasnowidza",
+    "BEL": ""
+  },
+  {
+    "KEY": "visit_seer_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Might have some good tips'n'tricks for surviving in the Middle Ages.",
+    "RUS": "Возможно, найдется пара неплохих советов по выживанию в Средние века.",
+    "POL": "Może mi dać kilka dobrych wskazówek, jak przetrwać w średniowieczu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_adventure_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Adventure",
+    "RUS": "Приключения",
+    "POL": "Wyprawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_adventure_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetTitledFirstName] is adventuring in the area.",
+    "RUS": "[ACTIVITY.GetOwner.GetTitledFirstName] ищет приключения в этой области.",
+    "POL": "[ACTIVITY.GetOwner.GetTitledFirstName] odbywa wyprawę po okolicy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_adventure_owner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Adventurer",
+    "RUS": "Авантюрист",
+    "POL": "Poszukiwacz[Select_CString( ACTIVITY.GetOwner.IsFemale, 'ka', '' )] przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tenet_gruesome_festivals_blot_name$",
+    "RUS": "$tenet_gruesome_festivals_blot_name$",
+    "POL": "$tenet_gruesome_festivals_blot_name$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_selection_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You invite your subjects to partake in a sacred, and costly, ritual",
+    "RUS": "Вы приглашаете своих подданных принять участие в весьма дорогостоящем священном ритуале",
+    "POL": "Zapraszasz swoich poddanych do wzięcia udziału w świętym i kosztownym rytuale",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "It is high time that all [GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip] comes together to make sacrifice to [GetPlayer.GetFaith.PantheonTerm]. These rituals not only bind the faithful together, they confirm my place as [GetPlayer.GetTitleAsNameNoTooltip] of all the land.",
+    "RUS": "Пора всем жителям державы [GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip] собраться для жертвоприношения. Эти ритуалы не только объединяют верующих, но и лишний раз подтверждают, что я [GetPlayer.GetTitleAsNameNoTooltip|l] всех этих земель.",
+    "POL": "Najwyższy czas, aby ludność ziem znanych jako [GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip] zebrała się, złożyła ofiarę i udowodniła, że [GetPlayer.GetFaith.PantheonTerm] to dla niej wartość najwyższa. Rytuały te nie tylko jednoczą wiernych, ale również ugruntowują moją pozycję. Jako [GetPlayer.GetTitleAsNameNoTooltip] całej tej ziemi zorganizuję zatem te obchody.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_owner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Host",
+    "RUS": "Организатор",
+    "POL": "Gospodarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_host_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "\\nYou organize a $gruesomefestivalname_blot$, involving:\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Deciding the scale of the festival\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Selecting what to sacrifice, even choosing one of your [prisoners|E] as the [designate_chief_sacrifice_chief_sacrifice|E]\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Gaining or losing [county_opinion|E] and [character|E] [opinion|E] depending on the [core_tenets|E] of your subjects' [faith|E]",
+    "RUS": "\\nВы устраиваете праздник «$gruesomefestivalname_blot$», что подразумевает:\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Необходимость определиться с размахом празднества\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Необходимость выбрать жертвенных животных, среди которых могут быть даже [Concept('prisoners', 'узники')|E], что послужат [Concept('designate_chief_sacrifice_chief_sacrifice', 'главной жертвой')|E]\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Улучшение или ухудшение [Concept('county_opinion', 'мнения графства')|E] и [Concept('opinion', 'мнения')|E] [Concept('character', 'персонажа')|E] в зависимости от [Concept('core_tenets', 'основных догматов')|E] [Concept('faith', 'конфессии')|E] ваших подданных.",
+    "POL": "\\nOrganizujesz $gruesomefestivalname_blot$, podczas którego:\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Decydujesz o wielkości festiwalu.\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Decydujesz, co złożyć w ofierze, wybierając nawet jednego ze swoich [Concept('prisoners', 'więźniów')|E] na [Concept('designate_chief_sacrifice_chief_sacrifice', 'ofiarę główną')|E].\\n#indent_newline:0 $EFFECT_LIST_BULLET$ Zyskujesz lub tracisz punkty [Concept('county_opinion', 'powszechnej opinii')|E] i [Concept('opinion', 'opinii')|E] na temat [Concept('character', 'postaci')|E] w zależności od [Concept('core_tenets', 'dogmatów')|E] [Concept('faith', 'wiary')|E] twoich poddanych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_guest_help_text",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Invited [guests|E] will participate in the sacrifice and subsequent feast. They will gain or lose [opinion|E] of you depending on the [core_tenets|E] of their [faith|E].",
+    "RUS": "Приглашенные [Concept( 'guests', 'гости' )|E] примут участие в жертвоприношении и последующем пиру. Их [Concept( 'opinion', 'мнение' )|E] о вас либо вырастет, либо упадет в зависимости от [Concept( 'core_tenets', 'догматов' )|E] [Concept( 'faith', 'конфессии' )|E].",
+    "POL": "Zaproszeni [guests|El] wezmą udział w złożeniu ofiary i po niej uczcie. Zyskają lub stracą [Concept( 'opinion', 'opinię' )|E] o tobie w zależności od [Concept( 'core_tenets', 'dogmatów' )|E] swojej [faiths|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_province_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$gruesome_festival_size_small_desc$",
+    "RUS": "$gruesome_festival_size_small_desc$",
+    "POL": "$gruesome_festival_size_small_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_fallback_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Ritual Sacrifice",
+    "RUS": "Ритуальное жертвоприношение",
+    "POL": "Rytualna ofiara",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_desc.non_gf_practioner",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "There are those among my subjects who practice grand sacrificial rites blessed by their [GetPlayer.GetTitleAsNameNoTooltip]. Agreeing to conduct even a limited variant would doubtless win me their approval, though embracing their more... barbaric customs might net me scorn from those who disdain their ways.",
+    "RUS": "Среди моих подданных есть те, кто практикует жертвоприношения, что благословляет их [GetPlayer.GetTitleAsNameNoTooltip|l]. Даже символическая церемония, несомненно, поможет мне добиться их одобрения, но вот следование более... варварским обычаям может навлечь на меня гнев противников подобных ритуалов.",
+    "POL": "Wśród moich poddanych są ludzie praktykujący wielkie rytuały ofiarne, którym błogosławi ich [GetPlayer.GetTitleAsNameNoTooltip]. Zgoda nawet na symboliczną uroczystość niewątpliwie przyniosłaby mi ich uznanie, lecz zaakceptowanie ich bardziej… barbarzyńskich zwyczajów może ściągać na mnie gniew przeciwników takich obrządków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_WAITING",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Waiting to start",
+    "RUS": "Ожидание начала",
+    "POL": "Oczekiwanie na start",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_ATTENDING",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Attending",
+    "RUS": "Прибыли",
+    "POL": "Uczestniczą",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_DECLINED",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Declined",
+    "RUS": "Отказались",
+    "POL": "Odmówili",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_ATTENDING_NEWLINE",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "\\n$ACTIVITY_ATTENDING$\\n",
+    "RUS": "\\n$ACTIVITY_ATTENDING$\\n",
+    "POL": "\\n$ACTIVITY_ATTENDING$\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "GOTO_ACTIVITY",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#I Click to center on map#!",
+    "RUS": "#I Нажмите, чтобы переместиться к событию#!",
+    "POL": "#I Kliknij, aby wyśrodkować mapę#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "GOTO_PLAYER_ACTIVITY",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#T [GetPlayer.GetCurrentActivity.GetType.GetName] in [GetPlayer.GetCurrentActivity.GetLocation.GetName]#! \\n#I Click to select#!",
+    "RUS": "#T [GetPlayer.GetCurrentActivity.GetType.GetName], место проведения — [GetPlayer.GetCurrentActivity.GetLocation.GetName]#! \\n#I Нажмите для выбора#!",
+    "POL": "#T [GetPlayer.GetCurrentActivity.GetType.GetName] w [GetPlayer.GetCurrentActivity.GetLocation.GetName]#!\\n#I Kliknij, aby wybrać#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pay_homage",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Homage",
+    "RUS": "Почести",
+    "POL": "Hołd",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pay_homage_name",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Homage",
+    "RUS": "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U][Select_CString(ACTIVITY.GetOwner.IsLocalPlayer, 'е воздаяние почестей', ' воздает почести')]",
+    "POL": "[Select_CString( ACTIVITY.GetOwner.IsLocalPlayer, 'Złożony przez ciebie hołd', Concatenate('Hołd złożony przez postać ', ACTIVITY.GetOwner.GetName))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pay_homage_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[ACTIVITY.GetOwner.GetTitledFirstName] wishes to pay formal homage to [ACTIVITY.GetOwner.GetHerHis] liege, [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName].",
+    "RUS": "[ACTIVITY.GetOwner.GetTitledFirstName] желает официально засвидетельствовать, что [ACTIVITY.GetOwner.GetHersHis] сюзерен [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName] заслуживает высочайших почестей.",
+    "POL": "[ACTIVITY.GetOwner.GetTitledFirstName] pragnie złożyć hołd swoje[Select_CString( ACTIVITY.GetOwner.GetLiege.IsFemale, 'j seniorce, którą', 'mu seniorowi, którym' )] jest [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_friends",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Friends",
+    "RUS": "Друзья",
+    "POL": "Przyjaciele",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_potential_friends",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Potential Friends",
+    "RUS": "Возможные друзья",
+    "POL": "Potencjalni przyjaciele",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_potential_lovers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Potential Lovers",
+    "RUS": "Возможные любовники",
+    "POL": "Potencjalni kochankowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_suzerain",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Suzerain",
+    "RUS": "Повелитель",
+    "POL": "Suzeren",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_tributaries",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Tributaries",
+    "RUS": "Данники",
+    "POL": "Trybutariusze",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_confederates",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Confederates",
+    "RUS": "Конфедераты",
+    "POL": "Konfederaci",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_rivals",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Rivals",
+    "RUS": "Соперники",
+    "POL": "Rywale",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_rivals_if_appropriate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_rivals$",
+    "RUS": "$activity_invite_rule_rivals$",
+    "POL": "$activity_invite_rule_rivals$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_lovers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Lovers",
+    "RUS": "Любовники",
+    "POL": "Kochankowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_close_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Close Family",
+    "RUS": "Близкие родственники",
+    "POL": "Bliska rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_close_family_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_close_family$",
+    "RUS": "$activity_invite_rule_close_family$",
+    "POL": "$activity_invite_rule_close_family$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_extended_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Extended Family",
+    "RUS": "Дальние родственники",
+    "POL": "Dalsza rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Liege",
+    "RUS": "Сюзерен",
+    "POL": "Senior",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_liege_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_liege$",
+    "RUS": "$activity_invite_rule_liege$",
+    "POL": "$activity_invite_rule_liege$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_vassals",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Vassals",
+    "RUS": "Вассалы",
+    "POL": "Wasale",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_vassals_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_vassals$",
+    "RUS": "$activity_invite_rule_vassals$",
+    "POL": "$activity_invite_rule_vassals$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_fellow_vassals",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Fellow Vassals",
+    "RUS": "Собратья-вассалы",
+    "POL": "Współwasale",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_vassals_and_below",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "All Subjects",
+    "RUS": "Все подданные",
+    "POL": "Wszyscy poddani",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_neighbouring_rulers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Neighboring Rulers",
+    "RUS": "Соседние правители",
+    "POL": "Sąsiedni władcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_knights",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Knights",
+    "RUS": "Рыцари",
+    "POL": "Rycerze",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_knights_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_knights$",
+    "RUS": "$activity_invite_rule_knights$",
+    "POL": "$activity_invite_rule_knights$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_courtiers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Courtiers",
+    "RUS": "Придворные",
+    "POL": "Dworzanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_courtiers_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_courtiers$",
+    "RUS": "$activity_invite_rule_courtiers$",
+    "POL": "$activity_invite_rule_courtiers$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_guests",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Court Guests",
+    "RUS": "Гости двора",
+    "POL": "Goście dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_guests_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_rule_guests$",
+    "RUS": "$activity_invite_rule_guests$",
+    "POL": "$activity_invite_rule_guests$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_spouses",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Spouses",
+    "RUS": "Супруги",
+    "POL": "Małżonkowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_spouses_no_default",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$activity_invite_spouses$",
+    "RUS": "$activity_invite_spouses$",
+    "POL": "$activity_invite_spouses$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_house_witches",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "House",
+    "RUS": "Дом",
+    "POL": "Ród",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_other_witches",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Other",
+    "RUS": "Прочее",
+    "POL": "Inni",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_courtiers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Unlanded $activity_invite_rule_courtiers$",
+    "RUS": "$activity_invite_rule_courtiers$ без земель",
+    "POL": "$activity_invite_rule_courtiers$ bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_friends",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Unlanded $activity_invite_rule_friends$",
+    "RUS": "$activity_invite_rule_friends$ без земель",
+    "POL": "$activity_invite_rule_friends$ bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_rivals",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Unlanded $activity_invite_rule_rivals$",
+    "RUS": "$activity_invite_rule_rivals$ без земель",
+    "POL": "$activity_invite_rule_rivals$ bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_lovers",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Unlanded $activity_invite_rule_lovers$",
+    "RUS": "$activity_invite_rule_lovers$ без земель",
+    "POL": "$activity_invite_rule_lovers$ bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_landless_close_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Unlanded $activity_invite_rule_close_family$",
+    "RUS": "$activity_invite_rule_close_family$ без земель",
+    "POL": "$activity_invite_rule_close_family$ bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_player_heir",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Heir",
+    "RUS": "Наследник",
+    "POL": "Dziedzic",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_hof",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Head of Faith",
+    "RUS": "Глава конфессии",
+    "POL": "Głowa wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_all_lieges",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "All Lieges",
+    "RUS": "Все сюзерены",
+    "POL": "Wszyscy seniorzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_spouses_close_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Spouses' Close Family",
+    "RUS": "Близкие родственники супругов",
+    "POL": "Bliska rodzina małżonków",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_spouses_extended_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Spouses' Extended Family",
+    "RUS": "Дальние родственники супругов",
+    "POL": "Dalsza rodzina małżonków",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_mp",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Other Players",
+    "RUS": "Другие игроки",
+    "POL": "Inni gracze",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_councillors",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Councillors",
+    "RUS": "Советники",
+    "POL": "Radni",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_location_valid.hajj_mecca",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The Hajj can only go to Mecca",
+    "RUS": "Совершить хадж можно только в Мекку",
+    "POL": "Hadżdż można odbyć tylko do Mekki",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_location_valid.recently_visited",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You have recently visited this [holy_site|E]",
+    "RUS": "Недавно вы уже посещали это [Concept( 'holy_site', 'святое место' )|E]",
+    "POL": "Odwiedzono niedawno to [holy_site|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.serving_diarch",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You are the official [diarch|E] and expected to remain within the [realm|E]",
+    "RUS": "Вы официально считаетесь [Concept( 'diarch', 'диархом' )|E], а потому ваше место внутри [Concept( 'realm', 'державы' )|E]",
+    "POL": "Jesteś oficjalnym [Concept( 'diarch', 'diarchą' )|E] i oczekuje się, że pozostaniesz na terenie [realms|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_activity_available.all_holy_sites_on_cooldown",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "All of your available [holy_sites|E] are currently on cooldown",
+    "RUS": "Все ваши [Concept( 'holy_site', 'святыни' )|E] временно недоступны",
+    "POL": "Obecnie trwa czas odnowienia wszystkich twoich [Concept('holy_sites', 'miejsc świętych')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_valid.islam.must_complete_hajj_first",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "As a Muslim with the [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] pilgrimage [doctrine|E], you must complete the Hajj before any other type of pilgrimage",
+    "RUS": "Поскольку вы мусульманин, придерживающийся [Concept( 'doctrine', 'доктрины' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName]», перед отправкой в любое другое паломничество вам нужно совершить хадж",
+    "POL": "Jako osoba wyznania muzułmańskiego, przestrzegająca [Concept('doctrine', 'doktryny')|E], która nakazuje pielgrzymkę, o nazwie [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName|l], musisz udać się na hadżdż, zanim wybierzesz się na pielgrzymkę innego rodzaju",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_location_valid.capital_is_holy_site",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "This is your capital and thus not a valid pilgrimage [holy_site|E]",
+    "RUS": "Это ваша столица, и [Concept( 'holy_site', 'святым местом' )|E] для паломничества она быть не может",
+    "POL": "To twoja stolica, zatem nie możesz pielgrzymować do tego [Concept( 'holy_site', 'miejsca świętego' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_location_valid.capital_is_mecca",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You cannot undertake the Hajj pilgrimage as your capital is Mecca",
+    "RUS": "Вы не можете совершить хадж, так как Мекка — ваша столица",
+    "POL": "Nie możesz odbyć hadżdżu, ponieważ twoją stolicą jest Mekka",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_valid.islam.mandatory_or_impatient",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "At least one of these:\\n$EFFECT_LIST_BULLET$ Your [faith|E] has the [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] pilgrimage [doctrine|E]\\n$EFFECT_LIST_BULLET$ You are [GetTrait('impatient').GetName(GetNullCharacter)]",
+    "RUS": "Что-то из перечисленного:\\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName]»\\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]",
+    "POL": "Co najmniej jedno z poniższych:\\n$EFFECT_LIST_BULLET$ Twoja [faith|El] ma [Concept('doctrine', 'doktrynę')|E] dot. pielgrzymki: [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName|l]\\n$EFFECT_LIST_BULLET$ Posiadasz cechę [GetTrait('impatient').GetName(GetNullCharacter)|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_valid.other.mandatory_or_impatient",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "At least one of these:\\n$EFFECT_LIST_BULLET$ Your [faith|E] has the [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName] pilgrimage [doctrine|E]\\n$EFFECT_LIST_BULLET$ You are [GetTrait('impatient').GetName(GetNullCharacter)]",
+    "RUS": "Что-то из перечисленного:\\n$EFFECT_LIST_BULLET$ Ваша [faith|E] опирается на [Concept( 'doctrine', 'доктрину' )|E] паломничества «[GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName]»\\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('impatient').GetName(GetNullCharacter)|l]",
+    "POL": "Co najmniej jedno z poniższych:\\n$EFFECT_LIST_BULLET$ Twoja [faith|El] ma [Concept('doctrine', 'doktrynę')|E] dot. pielgrzymki: [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName|l]\\n$EFFECT_LIST_BULLET$ Posiadasz cechę [GetTrait('impatient').GetName(GetNullCharacter)|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_valid.pilgrim_or_patient",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "At least one of these:\\n$EFFECT_LIST_BULLET$ You are [GetTrait('patient').GetName(GetNullCharacter)]\\n$EFFECT_LIST_BULLET$ You have the [GetTrait('pilgrim').GetName(GetNullCharacter)] [trait|E]\\n$EFFECT_LIST_BULLET$ You have the [GetTrait('hajjaj').GetName(GetNullCharacter)] [trait|E]",
+    "RUS": "Что-то из перечисленного:\\n$EFFECT_LIST_BULLET$ Вам свойственна [GetTrait('patient').GetName(GetNullCharacter)|l]\\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственно' )|E] [GetTrait('pilgrim').GetName(GetNullCharacter)|l]\\n$EFFECT_LIST_BULLET$ Вам [Concept( 'trait', 'свойственен' )|E] [GetTrait('hajjaj').GetName(GetNullCharacter)]",
+    "POL": "Co najmniej jedno z poniższych:\\n$EFFECT_LIST_BULLET$ Jesteś [GetTrait('patient').GetName(GetNullCharacter)|l]\\n$EFFECT_LIST_BULLET$ Masz [Concept( 'trait', 'cechę' )|E]: [GetTrait('pilgrim').GetName(GetNullCharacter)|l]\\n$EFFECT_LIST_BULLET$ Masz [Concept( 'trait', 'cechę' )|E]: [GetTrait('hajjaj').GetName(GetNullCharacter)|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage.is_valid.hajjed_recently",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "You can only go on Hajj once every [EmptyScope.ScriptValue('hajj_cooldown_value')|0] years",
+    "RUS": "Совершать хадж можно только раз в несколько ([EmptyScope.ScriptValue('hajj_cooldown_value')|0]) лет",
+    "POL": "Możesz odbyć hadżdż tylko raz na [EmptyScope.ScriptValue('hajj_cooldown_value')|0] lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_TYPE_ON_COOLDOWN",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "@warning_icon! #X This activity cannot be hosted for [DATE.GetTimeToDate()]#!",
+    "RUS": "@warning_icon! #X Организовать это занятие невозможно еще [DATE.GetTimeToDate()]#!",
+    "POL": "@warning_icon! #X Tej aktywności nie można zorganizować przez [DATE.GetTimeToDate()]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_activity_type_on_cooldown",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "This activity cannot be hosted for [DATE.GetTimeToDate()]",
+    "RUS": "Организовать это занятие невозможно еще [DATE.GetTimeToDate()]",
+    "POL": "Tej aktywności nie można zorganizować przez [DATE.GetTimeToDate()]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_healthy_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Is healthy",
+    "RUS": "Пышет здоровьем",
+    "POL": "Jest w dobrym zdrowiu",
+    "BEL": ""
+  },
+  {
+    "KEY": "hunt_rampage_bodyguard_log_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "#D TODO_CD: hunt_rampage_bodyguard_log_title#!",
+    "RUS": "#D TODO_CD: hunt_rampage_bodyguard_log_title#!",
+    "POL": "#D TODO_CD: hunt_rampage_bodyguard_log_title#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "level_5_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "End of Tour",
+    "RUS": "Конец тура",
+    "POL": "Koniec objazdu",
+    "BEL": ""
+  },
+  {
+    "KEY": "level_4_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$level_5_reward_tt_title$",
+    "RUS": "$level_5_reward_tt_title$",
+    "POL": "$level_5_reward_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "level_3_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$level_5_reward_tt_title$",
+    "RUS": "$level_5_reward_tt_title$",
+    "POL": "$level_5_reward_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "level_2_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$level_5_reward_tt_title$",
+    "RUS": "$level_5_reward_tt_title$",
+    "POL": "$level_5_reward_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "level_1_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$level_5_reward_tt_title$",
+    "RUS": "$level_5_reward_tt_title$",
+    "POL": "$level_5_reward_tt_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "failed_to_get_reward_tt_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Failed to get any rewards",
+    "RUS": "Не удалось получить ни одной награды",
+    "POL": "Nie udało się zdobyć żadnych nagród",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_activity_cost_discount_war_camps_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_war_camps_01$",
+    "RUS": "В этом месте есть $building_type_war_camps_01$",
+    "POL": "W tym miejscu znajdują się obozy wojenne",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_activity_cost_discount_barracks_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_barracks_01$",
+    "RUS": "В этом месте есть $building_type_barracks_01$",
+    "POL": "W tym miejscu znajdują się koszary",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_activity_cost_max_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_hall_of_heroes_01$",
+    "RUS": "В этом месте есть $building_type_hall_of_heroes_01$",
+    "POL": "W tym miejscu znajduje się sala bohaterów",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_melee_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_royal_armory_01$",
+    "RUS": "В этом месте есть $building_type_royal_armory_01$",
+    "POL": "W tym miejscu znajdują się zbrojownie królewskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_melee_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tournament_joust_contest_cost_low_discount_desc$",
+    "RUS": "$tournament_joust_contest_cost_low_discount_desc$",
+    "POL": "$tournament_joust_contest_cost_low_discount_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_duel_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_blacksmiths_01$",
+    "RUS": "В этом месте есть $building_type_blacksmiths_01$",
+    "POL": "W tym miejscu znajdują się kuźnie koronne",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_duel_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_smiths_01$",
+    "RUS": "В этом месте есть $building_type_smiths_01$",
+    "POL": "W tym miejscu znajdują się warsztaty kowalskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_wrestling_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_regimental_grounds_01$",
+    "RUS": "В этом месте есть $building_type_regimental_grounds_01$",
+    "POL": "W tym miejscu znajduje się zgrupowanie pułkowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_wrestling_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_regimental_grounds_01$",
+    "RUS": "В этом месте есть $building_type_regimental_grounds_01$",
+    "POL": "W tym miejscu znajduje się zgrupowanie pułkowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_archery_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_archery_ranges_01$",
+    "RUS": "В этом месте есть $building_type_archery_ranges_01$",
+    "POL": "W tym miejscu znajdują się tereny łucznicze",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_archery_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_military_camps_01$",
+    "RUS": "В этом месте есть $building_type_military_camps_01$",
+    "POL": "W tym miejscu znajdują się obozy milicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_joust_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_jousting_lists_01$",
+    "RUS": "В этом месте есть $building_type_jousting_lists_01$",
+    "POL": "W tym miejscu znajdują się tereny turniejowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_joust_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_stables_01$",
+    "RUS": "В этом месте есть $building_type_stables_01$",
+    "POL": "W tym miejscu znajdują się stajnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_horse_racing_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tournament_joust_contest_cost_discount_desc$",
+    "RUS": "$tournament_joust_contest_cost_discount_desc$",
+    "POL": "$tournament_joust_contest_cost_discount_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_horse_racing_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tournament_joust_contest_cost_low_discount_desc$",
+    "RUS": "$tournament_joust_contest_cost_low_discount_desc$",
+    "POL": "$tournament_joust_contest_cost_low_discount_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_board_games_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_generic_university$",
+    "RUS": "В этом месте есть $building_type_generic_university$",
+    "POL": "W tym miejscu znajduje się uniwersytet",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_board_games_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Location has $building_type_warrior_lodges_01$",
+    "RUS": "В этом месте есть $building_type_warrior_lodges_01$",
+    "POL": "W tym miejscu znajdują się chaty wojowników",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_recital_contest_cost_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tournament_board_games_contest_cost_discount_desc$",
+    "RUS": "$tournament_board_games_contest_cost_discount_desc$",
+    "POL": "$tournament_board_games_contest_cost_discount_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_recital_contest_cost_low_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "$tournament_board_games_contest_cost_low_discount_desc$",
+    "RUS": "$tournament_board_games_contest_cost_low_discount_desc$",
+    "POL": "$tournament_board_games_contest_cost_low_discount_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "increased_activity_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Cost of [activities|E]: [gold_i]#negative_value +25%#!",
+    "RUS": "Стоимость [Concept( 'activities', 'занятий' )|E]: [gold_i]#negative_value +25%#!",
+    "POL": "Koszt [activities|El]: [gold_i]#negative_value +25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_cost_scale_by_era_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip] Era",
+    "RUS": "Эпоха: [GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip]",
+    "POL": "Epoka [GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_cost_scale_by_tier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip] Tier",
+    "RUS": "[GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip]",
+    "POL": "Poziom: [GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_tournament_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_tournament' ).GetNameNoTooltip] is primarily affected by how many [contests|E] you decide to host as well which [activity_options|E] you select.",
+    "RUS": "Стоимость турнира зависит в основном от количества устраиваемых [Concept( 'contests', 'состязаний' )|E], а также от выбранных [Concept( 'activity_options', 'параметров' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_tournament' ).GetNameNoTooltip|l], zależy przede wszystkim od liczby zorganizowanych przez ciebie [Concept('contests', 'zawodów')|E] oraz wybranych [Concept('activity_options', 'opcji aktywności')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_tour_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_tour' ).GetNameNoTooltip] is primarily affected by how many [tour_stops|E] you decide to make as well which [activity_options|E] you select.",
+    "RUS": "Стоимость тура зависит в основном от количества [Concept( 'tour_stops', 'остановок' )|E], а также выбранных [Concept( 'activity_options', 'параметров' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_tour' ).GetNameNoTooltip|l], zależy przede wszystkim od liczby [Concept('tour_stops', 'przystanków podczas objazdu ziem')|E] oraz wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_wedding_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_wedding' ).GetNameNoTooltip] is primarily affected by the [activity_options|E] you select.",
+    "RUS": "Стоимость такого мероприятия, как [GetActivityType( 'activity_wedding' ).GetNameNoTooltip|l], зависит в основном от выбранных [Concept( 'activity_options', 'параметров' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_wedding' ).GetNameNoTooltip|l], zależy przede wszystkim od wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_hunt_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_hunt' ).GetNameNoTooltip] is primarily affected by [activity_type|E] the [activity_options|E] you select. Falconry Hunts are more expensive, for example.",
+    "RUS": "Стоимость охоты зависит в основном от [Concept( 'activity_type', 'типа' )|E] и выбранных [Concept( 'activity_options', 'параметров' )|E]. Так, например, соколиная охота будет дороже.",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_hunt' ).GetNameNoTooltip|l], zależy przede wszystkim od [Concept('activity_type', 'rodzaju')|E] wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E]. Przykładowo, organizacja polowania z sokołami oznacza wyższe koszty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_feast' ).GetNameNoTooltip] is primarily affected by [activity_type|E] the [activity_options|E] you select. Murder Feasts are vastly more expensive than regular Feasts, for example.",
+    "RUS": "Стоимость пира зависит в основном от [Concept( 'activity_type', 'типа' )|E] и выбранных [Concept( 'activity_options', 'параметров' )|E]. Так, например, кровавый пир будет гораздо дороже обычного.",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_feast' ).GetNameNoTooltip|l], zależy przede wszystkim od [Concept('activity_type', 'rodzaju')|E] wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E]. Przykładowo, krwawa uczta jest dużo droższa niż zwykła uczta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pilgrimage_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_pilgrimage' ).GetNameNoTooltip] is primarily affected by the distance to your chosen [holy_site|E] and the [activity_options|E] you select.",
+    "RUS": "Стоимость паломничества зависит в основном от расстояния до [Concept( 'holy_site', 'святого места' )|E] и выбранных [Concept( 'activity_options', 'параметров' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_pilgrimage' ).GetNameNoTooltip|l], zależy przede wszystkim od odległości, którą trzeba pokonać do wybranego [Concept('holy_site', 'miejsca świętego')|E] oraz wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_gruesome_festival_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_gruesome_festival' ).GetNameNoTooltip] is primarily affected by the [activity_options|E] you select.",
+    "RUS": "Стоимость блота зависит в основном от выбранных [Concept( 'activity_options', 'параметров' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_gruesome_festival' ).GetNameNoTooltip|l], zależy przede wszystkim od wybranych przez ciebie [Concept('activity_options', 'opcji aktywności')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_witch_ritual_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip] is primarily based on your [income|E]",
+    "RUS": "Стоимость такого мероприятия, как [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip|l], зависит в основном от вашего [Concept( 'income', 'дохода' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip|l], zależy przede wszystkim od twojego [Concept('income', 'dochodu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_playdate_predicted_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "The cost of a [GetActivityType( 'activity_playdate' ).GetNameNoTooltip] is primarily affected by your [income|E] and [title_tier|E].",
+    "RUS": "Стоимость такого мероприятия, как [GetActivityType( 'activity_playdate' ).GetNameNoTooltip|l], зависит в основном от вашего [Concept( 'income', 'дохода' )|E] и [Concept( 'title_tier', 'уровня' )|E].",
+    "POL": "Koszt aktywności, którą jest [GetActivityType( 'activity_playdate' ).GetNameNoTooltip|l], zależy przede wszystkim od twojego [Concept('income', 'dochodu')|E] i [Concept('title_tier', 'poziomu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_accolades_glory_reward_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[glory|E] Gained",
+    "RUS": "Получена [glory|El]",
+    "POL": "Zysk [Concept( 'glory', 'chwały' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_accolades_glory_reward",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "Attendees spoke reverently of the martial virtue among them, particularly that of [root_scope.GetShortUINamePossessive] [root_scope.Custom('KnightCulturePluralNoTooltip')|l]",
+    "RUS": "Участники с уважением отзывались о воинских достоинствах, и особых похвал удостоились [root_scope.Custom('KnightCulturePluralNoTooltip')|l] [Select_CString(root_scope.IsLocalPlayer, '', 'персонажа ' )][root_scope.GetNamePossessiveOrMy][Select_CString(root_scope.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Uczestnicy wyrażali się z uznaniem o biegłości w walce osób w ich gronie, a na największą pochwałę zasłużyli [root_scope.Custom('KnightCulturePluralNoTooltip')|l] postaci, którą jest [root_scope.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "knight_accolade_glory_reward_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[glory|E] Gained",
+    "RUS": "Получена [glory|El]",
+    "POL": "Zysk [Concept( 'glory', 'chwały' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "knight_accolade_glory_reward",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[root_scope.GetShortUIName], a [root_scope.Custom('KnightCultureNoTooltip')|l] of note, awed and impressed",
+    "RUS": "[root_scope.GetShortUIName], выдающийся [root_scope.Custom('KnightCultureNoTooltip')|l], поражает и впечатляет",
+    "POL": "[root_scope.GetShortUINameNotMe], [root_scope.Custom('KnightCultureNoTooltip')|l] o wielkim talencie, to osoba, która zachwycała zebranych i wzbudzała ich podziw",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_accolades_glory_reward_tour_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[glory|E] Gained",
+    "RUS": "Получена [glory|El]",
+    "POL": "Zysk [Concept( 'glory', 'chwały' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_accolades_glory_reward_tour",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[root_scope.GetShortUINamePossessive] [root_scope.Custom('KnightCulturePluralNoTooltip')|l] rode through the land, their splendor and dominance most evident",
+    "RUS": "[root_scope.Custom('KnightCulturePluralNoTooltip')|U] [Select_CString(root_scope.IsLocalPlayer, '', 'персонажа ' )][root_scope.GetNamePossessiveOrMy][Select_CString(root_scope.IsLocalPlayer, 'его персонажа', '' )] промчались по этим землям, поразив всех величием и властностью",
+    "POL": "[root_scope.Custom('KnightCulturePluralNoTooltip')] postaci znanej jako [root_scope.GetShortUINameNotMe] przemierzali krainę, dając wyraz swej wspaniałości i dominacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_chariot_race_province_constantinople",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "\\n#P +++ Constantinople#!",
+    "RUS": "\\n#P +++ Константинополь#!",
+    "POL": "\\n#P +++ Konstantynopol#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_chariot_race_province_capital",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "\\n#P ++ It's your Capital#!",
+    "RUS": "\\n#P ++ Это ваша столица#!",
+    "POL": "\\n#P ++ To twoja stolica#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "journey_planner_perk_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activities_l_belarusian.json",
+    "ENG": "[GetPerk('journey_planner_perk').GetName( GetNullCharacter )] ",
+    "RUS": "[GetPerk('journey_planner_perk').GetName( GetNullCharacter )]",
+    "POL": "[GetPerk('journey_planner_perk').GetName( GetNullCharacter )] ",
+    "BEL": ""
+  }
+]

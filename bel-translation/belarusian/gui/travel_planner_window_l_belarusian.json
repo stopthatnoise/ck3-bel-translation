@@ -1,0 +1,970 @@
+[
+  {
+    "KEY": "TRAVEL_PLAN_DESTINATION_LIST_DEPARTURE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Departure: [TravelPlanData.GetDepartureLocation.GetName] at [TravelPlanData.GetDepartureDate.GetString]",
+    "RUS": "Отправление: [TravelPlanData.GetDepartureLocation.GetName] [TravelPlanData.GetDepartureDate.GetString]",
+    "POL": "Wyjazd: [TravelPlanData.GetDepartureLocation.GetName], [TravelPlanData.GetDepartureDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DESTINATION_LIST_ARRIVED",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Destination [TravelPlanDestination.GetIndex]: [TravelPlanDestination.GetProvince.GetName] - arrived at [TravelPlanDestination.GetArrivalDate.GetString]",
+    "RUS": "Цель [TravelPlanDestination.GetIndex]: [TravelPlanDestination.GetProvince.GetName] — прибытие [TravelPlanDestination.GetArrivalDate.GetString]",
+    "POL": "[TravelPlanDestination.GetIndex] przybycia: [TravelPlanDestination.GetProvince.GetName] – przybyto [TravelPlanDestination.GetArrivalDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DESTINATION_LIST_FUTURE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Destination [TravelPlanDestination.GetIndex]: [TravelPlanDestination.GetProvince.GetName] - arrival in ~[TravelPlanDestination.GetEstimatedArrivalDays] days",
+    "RUS": "Цель [TravelPlanDestination.GetIndex]: [TravelPlanDestination.GetProvince.GetName] — прибытие через ~[TravelPlanDestination.GetEstimatedArrivalDays] дн.",
+    "POL": "[TravelPlanDestination.GetIndex] przybycia: [TravelPlanDestination.GetProvince.GetName] – przybycie za ~[TravelPlanDestination.GetEstimatedArrivalDays] dni",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[Select_CString( PlannedActivityPhase.HasLocation, PlannedActivityPhase.GetLocation.GetName, 'Choose a location' )]",
+    "RUS": "[Select_CString( PlannedActivityPhase.HasLocation, PlannedActivityPhase.GetLocation.GetName, 'Выберите локацию' )]",
+    "POL": "[Select_CString( PlannedActivityPhase.HasLocation, PlannedActivityPhase.GetLocation.GetName, 'Wybierz miejsce' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_JOIN_ACTIVITY",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Join [TravelPlanData.GetActivity.GetNameNoTooltip]",
+    "RUS": "Присоединиться к занятию «[TravelPlanData.GetActivity.GetNameNoTooltip]»",
+    "POL": "Dołącz do aktywności o nazwie [TravelPlanData.GetActivity.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_CURRENT_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[travel_destination|E]: [TravelPlanData.GetNextDestination.GetProvince.GetName][AddLocalizationIf( TravelPlanData.HasActivity,'TRAVEL_PLAN_CURRENT_DESTINATION_ACTIVITY')]",
+    "RUS": "[travel_destination|E]: [TravelPlanData.GetNextDestination.GetProvince.GetName][AddLocalizationIf( TravelPlanData.HasActivity,'TRAVEL_PLAN_CURRENT_DESTINATION_ACTIVITY')]",
+    "POL": "[travel_destination|E]: [TravelPlanData.GetNextDestination.GetProvince.GetName][AddLocalizationIf( TravelPlanData.HasActivity,'TRAVEL_PLAN_CURRENT_DESTINATION_ACTIVITY')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_CURRENT_DESTINATION_ACTIVITY",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "\\n[TravelPlanData.GetActivity.GetName]",
+    "RUS": "\\n[TravelPlanData.GetActivity.GetName]",
+    "POL": "\\n[TravelPlanData.GetActivity.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_NO_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "You won't travel anywhere",
+    "RUS": "Вы никуда не поедете",
+    "POL": "Nie będziesz podróżować",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_FIRST_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "First Destination: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nRemaining stops: [TravelPlanData.GetNumberRemainingDestinations]",
+    "RUS": "Первый пункт назначения: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nОставшиеся остановки: [TravelPlanData.GetNumberRemainingDestinations]",
+    "POL": "Pierwszy cel podróży: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nPozostałe przystanki: [TravelPlanData.GetNumberRemainingDestinations]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_NEXT_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Next Destination: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nRemaining stops: [TravelPlanData.GetNumberRemainingDestinations]",
+    "RUS": "Следующий пункт назначения: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nОставшиеся остановки: [TravelPlanData.GetNumberRemainingDestinations]",
+    "POL": "Następny cel podróży: [TravelPlanData.GetNextDestination.GetProvince.GetName]\\nPozostałe przystanki: [TravelPlanData.GetNumberRemainingDestinations]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_TOUR_CONTINUE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Continue",
+    "RUS": "Продолжить",
+    "POL": "Kontynuuj",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DANGER_HIGH",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T High chance of danger: [TravelPlanner.GetVeryLikelyDangers] locations#!",
+    "RUS": "#T Крайне опасных мест: [TravelPlanner.GetVeryLikelyDangers]#!",
+    "POL": "#T Duże prawdopodobieństwo zagrożenia: [TravelPlanner.GetVeryLikelyDangers] [Select_CString( EqualTo_int32( TravelPlanner.GetVeryLikelyDangers , '(int32)1'), 'miejsce', Select_CString( Or( GreaterThan_int32( TravelPlanner.GetVeryLikelyDangers , '(int32)4'), EqualTo_int32( TravelPlanner.GetVeryLikelyDangers , '(int32)0') ), 'miejsc', 'miejsca' ) )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DANGER_MEDIUM",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Medium chance of danger: [TravelPlanner.GetLikelyDangers] locations#!",
+    "RUS": "#T Опасных мест: [TravelPlanner.GetLikelyDangers]#!",
+    "POL": "#T Średnie prawdopodobieństwo zagrożenia: [TravelPlanner.GetLikelyDangers] [Select_CString( EqualTo_int32( TravelPlanner.GetLikelyDangers , '(int32)1'), 'miejsce', Select_CString( Or( GreaterThan_int32( TravelPlanner.GetLikelyDangers , '(int32)4'), EqualTo_int32( TravelPlanner.GetLikelyDangers , '(int32)0') ), 'miejsc', 'miejsca' ) )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_DANGER_LOW",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Low chance of danger: [TravelPlanner.GetUnlikelyDangers] locations#!",
+    "RUS": "#T Малоопасных мест: [TravelPlanner.GetUnlikelyDangers]#!",
+    "POL": "#T Niskie prawdopodobieństwo zagrożenia: [TravelPlanner.GetUnlikelyDangers] [Select_CString( EqualTo_int32( TravelPlanner.GetUnlikelyDangers , '(int32)1'), 'miejsce', Select_CString( Or( GreaterThan_int32( TravelPlanner.GetUnlikelyDangers , '(int32)4'), EqualTo_int32( TravelPlanner.GetUnlikelyDangers , '(int32)0') ), 'miejsc', 'miejsca' ) )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_ENTOURAGE_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Entourage",
+    "RUS": "Свита",
+    "POL": "Świta",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_ENTOURAGE_BUTTON_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[TravelPlanData.GetEntourageSize] in Entourage",
+    "RUS": "[TravelPlanData.GetEntourageSize] в свите",
+    "POL": "[TravelPlanData.GetEntourageSize] w świcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "CARAVAN_MASTER_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Caravan Master",
+    "RUS": "Караванщик",
+    "POL": "Mistrz karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_APPOINT_SORT_SPEED_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Speed",
+    "RUS": "Скорость путешествия",
+    "POL": "Prędkość podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_APPOINT_SORT_SAFETY_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Safety",
+    "RUS": "Безопасность путешествия",
+    "POL": "Bezpieczeństwo podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_WINDOW_CURRENTLY_APPOINTED_LEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Currently Appointed Caravan Master",
+    "RUS": "Текущий караванщик",
+    "POL": "Obecnie wyznaczony mistrz karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SELECTED_NONE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "No Caravan Master Selected",
+    "RUS": "Не выбран караванщик",
+    "POL": "Nie wybrano mistrza karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONFIRM_FIRE_TRAVEL_LEADER_ACCEPT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Fire",
+    "RUS": "Уволить",
+    "POL": "Wyrzuć",
+    "BEL": ""
+  },
+  {
+    "KEY": "NO_POTENTIAL_TRAVEL_LEADERS",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "There are no [courtiers|E] eligible for this position",
+    "RUS": "Нет [Concept( 'courtiers', 'придворных' )|E], пригодных для этой должности",
+    "POL": "Nie ma [Concept( 'courtiers', 'dworzan' )|E] kwalifikujących się na to stanowisko",
+    "BEL": ""
+  },
+  {
+    "KEY": "POTENTIAL_TRAVEL_LEADER_ASSIGN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Assign",
+    "RUS": "Назначить",
+    "POL": "Wyznacz",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SPEED_APTITUDE_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNoTooltip]'s contribution to [travel|E] [travel_speed|E] is affected by:",
+    "RUS": "На вклад [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в [Concept( 'travel_speed', 'скорость' )|E] [Concept( 'travel', 'путешествия' )|E] влияет:",
+    "POL": "Na wkład postaci [CHARACTER.GetShortUINameNotMeNoTooltip] w [Concept( 'travel_speed', 'prędkość' )|E] [Concept( 'travel', 'podróży' )|E] wpływa:",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SAFETY_APTITUDE_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNoTooltip]'s contribution to [travel|E] [travel_safety|E] is affected by:",
+    "RUS": "На вклад [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в [Concept( 'travel_safety', 'безопасность' )|E] [Concept( 'travel', 'путешествия' )|E] влияет:",
+    "POL": "Na wkład postaci [CHARACTER.GetShortUINameNotMeNoTooltip] w [Concept( 'travel_safety', 'bezpieczeństwo' )|E] [Concept( 'travel', 'podróży' )|E] wpływa:",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_COST_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNoTooltip]'s wage when the travel starts:",
+    "RUS": "Жалование, которое будет получать [CHARACTER.GetShortUINameNoTooltip] с началом путешествия:",
+    "POL": "Wynagrodzenie [CHARACTER.GetShortUINameNotMeNoTooltip] w momencie rozpoczęcia podróży:",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_APPOINT_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Appoint a Caravan Master",
+    "RUS": "Назначить караванщика",
+    "POL": "Mianuj mistrza karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "APPOINT_TRAVEL_LEADER_VIEW_SORT_SPEED_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Speed",
+    "RUS": "Скорость путешествия",
+    "POL": "Prędkość podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "APPOINT_TRAVEL_LEADER_VIEW_SORT_SAFETY_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Safety",
+    "RUS": "Безопасность путешествия",
+    "POL": "Bezpieczeństwo podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_COST",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cost when travel starts",
+    "RUS": "Стоимость с началом путешествия",
+    "POL": "Koszt w momencie rozpoczęcia podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SPEED_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Speed Aptitude",
+    "RUS": "Пригодность для скорости путешествия",
+    "POL": "Kompetencje dot. prędkości podróżowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SAFETY_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Safety Aptitude",
+    "RUS": "Пригодность для безопасности путешествия",
+    "POL": "Kompetencje dot. bezpieczeństwa podróżowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_TOTAL_COST",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cost: [TravelPlanData.GetTotalCost]",
+    "RUS": "Стоимость: [TravelPlanData.GetTotalCost]",
+    "POL": "Koszt: [TravelPlanData.GetTotalCost]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_COST_IN_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Caravan Master: [gold_i|E] $VALUE$",
+    "RUS": "Караванщик: [gold_i|E] $VALUE$",
+    "POL": "Mistrz karawany: [gold_i|E] $VALUE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTION_COST_IN_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$OPTION_NAME$: [gold_i|E] $VALUE$",
+    "RUS": "$OPTION_NAME$: [gold_i|E] $VALUE$",
+    "POL": "$OPTION_NAME$: [gold_i|E] $VALUE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_TIME_MULTI_DESTINATION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "@time_icon! [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] days",
+    "RUS": "@time_icon! [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] дн.",
+    "POL": "@time_icon! [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] dni",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_TIME_MULTI_DESTINATION_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Travel Time: [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] days#!",
+    "RUS": "#T Длительность путешествия: [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] дн.#!",
+    "POL": "#T Czas podróży: [ActivityPlanner.GetTravelDaysForPhase(PlannedActivityPhase.Self)] dni#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_MULTI_DESTINATION_SUMMARY",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Summary: @time_icon! [ActivityPlanner.GetAsTravelPlanner.GetTravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]",
+    "RUS": "Итог: @time_icon! [ActivityPlanner.GetAsTravelPlanner.GetTravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]",
+    "POL": "Podsumowanie: @time_icon! [ActivityPlanner.GetAsTravelPlanner.GetTravelPlanData.GetFinalDestination.GetEstimatedArrivalDate.GetTimeDiffFromNow]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_MULTI_DESTINATION_REORDER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Reorder",
+    "RUS": "Перепланировать",
+    "POL": "Zmień kolejność",
+    "BEL": ""
+  },
+  {
+    "KEY": "MULTI_DESTINATION_PICKER_NO_VASSALS_ADDED",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "No Vassals Added",
+    "RUS": "Вы не добавили вассалов",
+    "POL": "Nie dodano wasali",
+    "BEL": ""
+  },
+  {
+    "KEY": "MULTI_DESTINATION_PICKER_INSTRUCTION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Select Vassals on the map to add them to the [ActivityType.GetNameNoTooltip]",
+    "RUS": "Выберите вассалов на карте, чтобы те приняли участие в занятии «[ActivityType.GetNameNoTooltip]»",
+    "POL": "Wybierz wasali na mapie, aby dodać ich do aktywności: [ActivityType.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MULTI_DESTINATION_PICKER_SELECTION_COUNT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Selected [stops|E]: #V [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "RUS": "Выбранные [Concept( 'stops', 'остановки' )|E]: #V [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "POL": "Wybrane [Concept( 'stops', 'przystanki' )|E]: #V [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MULTI_DESTINATION_PICKER_SELECTION_COUNT_MAX",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Selected stops: [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "RUS": "@warning_icon! #X Выбранные остановки: [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "POL": "@warning_icon! #X Wybrane przystanki: [ActivityPlanner.GetNumPickedPhases]/[ActivityPlanner.GetNumPickablePhases]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CUSTOMIZE_TOUR",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Customize Tour",
+    "RUS": "Настроить тур",
+    "POL": "Dostosuj objazd ziem",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHANGE_DESTINATION_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Change Destination#!",
+    "RUS": "#T Сменить пункт назначения#!",
+    "POL": "#T Zmień cel podróży#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel",
+    "RUS": "Путешествие",
+    "POL": "Podróż",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EFFECTS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Effects",
+    "RUS": "Эффекты путешествия",
+    "POL": "Efekty podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTIONS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel Options",
+    "RUS": "Варианты путешествия",
+    "POL": "Opcje podróżne",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTION_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T [TravelOption.GetName]#!\\n[TravelOption.GetTooltip( TravelPlanData.Self )]",
+    "RUS": "#T [TravelOption.GetName]#!\\n[TravelOption.GetTooltip( TravelPlanData.Self )]",
+    "POL": "#T [TravelOption.GetName]#!\\n[TravelOption.GetTooltip( TravelPlanData.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTIONS_EQUIPPED",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Equipped",
+    "RUS": "Используется",
+    "POL": "Wyposażono",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTIONS_EMPTY",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "No Travel Options",
+    "RUS": "Нет вариантов путешествия",
+    "POL": "Brak opcji podróżnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTIONS_SELECT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Select Travel Option",
+    "RUS": "Выбрать вариант путешествия",
+    "POL": "Wybierz opcję podróżną",
+    "BEL": ""
+  },
+  {
+    "KEY": "REMOVE_TRAVEL_OPTION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Remove Travel Option#!",
+    "RUS": "#T Убрать вариант путешествия#!",
+    "POL": "#T Usuń opcję podróżną#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_NO_TRAVEL_COST",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "No cost since you're already here.",
+    "RUS": "Бесплатно, поскольку вы уже здесь.",
+    "POL": "Brak kosztów, ponieważ jesteś na miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_PROVISIONS_COST",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[provisions|E] Cost: @provisions_icon!$VALUE|=+0$",
+    "RUS": "Расход [Concept( 'provisions', 'припасов' )|E]: @provisions_icon!$VALUE|=+0$",
+    "POL": "Koszt w [Concept('provisions', 'zapasach')|E]: @provisions_icon! $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_PROVISIONS_BREAKDOWN_COST",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T [provisions|E] Cost: @provisions_icon!$VALUE|=+0$#!",
+    "RUS": "#T Расход [Concept( 'provisions', 'припасов' )|E]: @provisions_icon!$VALUE|=+0$#!",
+    "POL": "#T Koszt w [Concept('provisions', 'zapasach')|E]: @provisions_icon! $VALUE|=+0$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_PROVISIONS_BREAKDOWN_FROM_TERRAIN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#bold From Terrain#!",
+    "RUS": "#bold От местности#!",
+    "POL": "#bold Z powodu terenu#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_PROVISIONS_BREAKDOWN_FROM_MAA",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#bold From Men-At-Arms#!",
+    "RUS": "#bold От профессиональных солдат#!",
+    "POL": "#bold Z powodu zbrojnych tytułu#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "APPOINT_CARAVAN_MASTER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Appoint Caravan Master#!",
+    "RUS": "#T Назначить караванщика#!",
+    "POL": "#T Wyznacz mistrza karawany#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHANGE_CARAVAN_MASTER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Change Caravan Master#!",
+    "RUS": "#T Сменить караванщика#!",
+    "POL": "#T Zmień mistrza karawany#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_SUMMARY_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Summary",
+    "RUS": "Итог",
+    "POL": "Podsumowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_LEADER_SUMMARY_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Caravan Master",
+    "RUS": "Караванщик",
+    "POL": "Mistrz karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLAN_NO_MODIFIERS",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "No modifiers",
+    "RUS": "Нет модификаторов",
+    "POL": "Brak modyfikatorów",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_IS_ABORTED_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, it is aborted.",
+    "RUS": "Нельзя отменить план путешествия — оно прекращено.",
+    "POL": "Nie można anulować planu podróży, gdyż został on przerwany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_IS_COMPLETED_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, it is already completed.",
+    "RUS": "Нельзя отменить план путешествия — оно уже завершено.",
+    "POL": "Nie można anulować planu podróży, gdyż jest on już zrealizowany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_IS_ALREADY_CANCELLED_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, it has already been canceled.",
+    "RUS": "Нельзя отменить план путешествия — оно уже было отменено.",
+    "POL": "Nie można anulować planu podróży, gdyż został on już anulowany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_ACTIVITY_IS_HOST_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, you are hosting the activity.",
+    "RUS": "Нельзя отменить план путешествия — вы проводите занятие.",
+    "POL": "Nie można anulować planu podróży, gdy jesteś organizatorem aktywności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_DRAFT_CANNOT_BE_CANCELLED",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "This travel plan cannot be canceled.",
+    "RUS": "Этот план путешествия нельзя отменить.",
+    "POL": "Ten plan podróży nie może zostać wycofany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_ALREADY_GOING_HOME",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, you are already going home.",
+    "RUS": "Нельзя отменить план путешествия — вы уже едете домой.",
+    "POL": "Nie można anulować planu podróży, gdyż wracasz już do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_ACTIVITY_UNHANDLED_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, activity has unhandled event.",
+    "RUS": "Нельзя отменить план путешествия — присутствует неразрешенное событие.",
+    "POL": "Nie można anulować planu podróży, gdyż aktywność ma nierozwiązane wydarzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Cannot cancel travel plan, you have accepted a contract",
+    "RUS": "Нельзя отменить план путешествия — вы приняли контракт",
+    "POL": "Nie można anulować planu podróży, ponieważ został przyjęty kontrakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Customize Route",
+    "RUS": "Настроить маршрут",
+    "POL": "Dostosuj trasę",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Select waypoints on the map to change the path of your journey.\\n\\n#I Click to customize route#!",
+    "RUS": "Выберите точки маршрута на карте, чтобы изменить маршрут путешествия.\\n\\n#I Щелкните, чтобы индивидуализировать маршрут#!",
+    "POL": "Zaznacz punkty trasy na mapie, aby zmienić kurs swojej podróży.\\n\\n#I Kliknij, aby dostosować trasę#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_SELECT_PROVINCE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Select a location on the map...",
+    "RUS": "Выберите место на карте...",
+    "POL": "Wybierz miejsce na mapie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_INSTRUCTION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "To customize your route, add detours between each destination",
+    "RUS": "Чтобы индивидуализировать маршрут, добавьте объезды между точками маршрута",
+    "POL": "Aby dostosować trasę, dodaj objazdy pomiędzy poszczególnymi celami podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_DETOUR_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "via [Province.GetNameNoTooltip]",
+    "RUS": "через местность [Province.GetNameNoTooltip]",
+    "POL": "przez miejsce [Province.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[Select_CString(ObjectsEqual(TravelPlanDestination.GetProvince, GetPlayer.GetCapitalLocation),'Your Capital','Destination')]",
+    "RUS": "[Select_CString(ObjectsEqual(TravelPlanDestination.GetProvince, GetPlayer.GetCapitalLocation),'Ваша столица', 'Пункт назначения')]",
+    "POL": "[Select_CString(ObjectsEqual(TravelPlanDestination.GetProvince, GetPlayer.GetCapitalLocation),'Twoja stolica','Cel podróży')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL_DEPARTURE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Departure location",
+    "RUS": "Место отправления",
+    "POL": "Miejsce wyruszenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_ADD_DETOUR_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Add detour after [Province.GetNameNoTooltip]#!",
+    "RUS": "#T Добавить объезд после владения [Province.GetNameNoTooltip]#!",
+    "POL": "#T Dodaj objazd po odwiedzeniu miejsca znanego jako [Province.GetNameNoTooltip]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_EDIT_ROUTE_REMOVE_DETOUR_TT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T Remove detour#!",
+    "RUS": "#T Убрать объезд#!",
+    "POL": "#T Usuń objazd#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Go Home",
+    "RUS": "Домой",
+    "POL": "Wróć do domu",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANCEL_TRAVEL_PLAN_STAY_WITH_DOMICILE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Abort travel",
+    "RUS": "Прекратить путешествие",
+    "POL": "Przerwij podróż",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_TRAVEL_PLAN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Start Traveling",
+    "RUS": "Отправиться в путь",
+    "POL": "Rozpocznij podróż",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_TRAVEL_TO_CONTRACT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Travel to Accept Contract",
+    "RUS": "Отправляйтесь к месту выполнения контракта",
+    "POL": "Podróżuj, aby zaakceptować kontrakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_TRAVEL_MOVE_TO_CONTRACT",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Move [Domicile.GetType.GetNameNoTooltip] to Accept Contract",
+    "RUS": "Переместите [Domicile.GetType.GetNameNoTooltip|l] к месту выполнения контракта",
+    "POL": "Przenieś [Domicile.GetType.GetNameNoTooltip|l], aby zaakceptować kontrakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_TRAVEL_MOVE_DOMICILE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Start moving your [Domicile.GetType.GetNameNoTooltip]",
+    "RUS": "Начать переносить [Domicile.GetType.GetNameNoTooltip|l]",
+    "POL": "Zacznij przenosić [Domicile.GetType.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTION_ADD_COMPANIONS_DESC_SINGLE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Will add courtier to your entourage: $CHARACTER_LIST$",
+    "RUS": "В вашей свите появится придворный: $CHARACTER_LIST$",
+    "POL": "Doda dworzanina do twojej świty: $CHARACTER_LIST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTION_ADD_COMPANIONS_DESC_MULTIPLE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Will add up to $MAX_CHARACTERS$ courtiers to your entourage: $CHARACTER_LIST$",
+    "RUS": "В вашей свите появится до $MAX_CHARACTERS$ придворных: $CHARACTER_LIST$",
+    "POL": "Doda do $MAX_CHARACTERS$ dworzan do twojej świty: $CHARACTER_LIST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_OPTION_ADD_COMPANIONS_DESC_NONE_FOUND",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#X No courtiers found that match criteria.#!",
+    "RUS": "#X Нет придворных, отвечающих требованиям.#!",
+    "POL": "#X Nie znaleziono dworzan spełniających kryteria.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_COMPANION_DESC",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Joined in [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetName] on [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort]",
+    "RUS": "Этот персонаж примкнул к вам [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort] в месте [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetName]",
+    "POL": "Dołączył[Select_CString( CHARACTER.IsFemale, 'a', '' )] [TRAVEL_PLAN_COMPANION.GetJoinDate.GetStringShort] w miejscu znanym jako [TRAVEL_PLAN_COMPANION.GetJoinLocation.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_COMPANION_DESC_TRAVEL_LEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Joined as the Caravan Master",
+    "RUS": "Участвует как караванщик",
+    "POL": "Dołączono jako mistrz karawany",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_COMPANION_DESC_ACTIVITY",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Joined because of the activity type",
+    "RUS": "Причина участия: тип занятия",
+    "POL": "Dołączono ze względu na rodzaj aktywności",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_COMPANION_DESC_ACTIVITY_OPTION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Joined because of an activity option",
+    "RUS": "Причина участия: параметр занятия",
+    "POL": "Dołączono ze względu na opcję aktywności",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_COMPANION_DESC_TRAVEL_OPTION",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Joined because of [TRAVEL_PLAN_COMPANION.GetTravelOption.GetName]",
+    "RUS": "Причина участия: [TRAVEL_PLAN_COMPANION.GetTravelOption.GetName]",
+    "POL": "Dołączono ze względu na: [TRAVEL_PLAN_COMPANION.GetTravelOption.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_TRAVEL_DANGER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#T [Province.GetBaronyNameExplicitly]#!",
+    "RUS": "#T [Province.GetBaronyNameExplicitly]#!",
+    "POL": "#T [Province.GetBaronyNameExplicitly]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVALID_TRAVEL_ROUTE_DEVIATION_TOO_LARGE",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Travel route deviation too large: $PATH_DURATION_DIFF|0$ days over maximum#!",
+    "RUS": "@warning_icon! #X Слишком серьезное отклонение от маршрута — на $PATH_DURATION_DIFF|0$ дн. больше предела#!",
+    "POL": "@warning_icon! #X Zbyt duże zboczenie z trasy podróży: $PATH_DURATION_DIFF|0$ dni ponad maksimum#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_ACCEPT_TRAVEL_PLAN",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Accept Travel Plan",
+    "RUS": "Принять план путешествия",
+    "POL": "Zaakceptuj plan podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_INVITED_ACTIVITY_START",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Activity start: [Activity.GetActiveStartDate.GetString]",
+    "RUS": "Начало занятия: [Activity.GetActiveStartDate.GetString]",
+    "POL": "Rozpoczęcie aktywności: [Activity.GetActiveStartDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_INVITED_ACTIVITY_ESTIMATED_ARRIVAL",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Estimated arrival: [TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDate.GetString]",
+    "RUS": "Примерное время прибытия: [TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDate.GetString]",
+    "POL": "Przewidywane przybycie: [TravelPlanDraft.GetData.GetNextDestination.GetEstimatedArrivalDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_PLANNER_INVITED_WILL_NOT_ARRIVE_IN_TIME",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X You will not arrive to the [Activity.GetShortNameNoTooltip] in time#!",
+    "RUS": "@warning_icon! #X Вы не сумеете добраться до места ([Activity.GetShortNameNoTooltip]) вовремя#!",
+    "POL": "@warning_icon! #X Nie zdążysz przybyć na czas i wziąć udziału w aktywności: [Activity.GetShortNameNoTooltip]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_ON_VISIT_EFFECT_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#S When visited#!",
+    "RUS": "#S При посещении#!",
+    "POL": "#S Kiedy odwiedzisz#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_ON_VISIT_EFFECT_VISITED_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "#S When visited#! #I (already visited)#!",
+    "RUS": "#S При посещении#! #I (повторно)#!",
+    "POL": "#S Kiedy odwiedzisz#! #I (już odwiedzono)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "RUS": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "POL": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_martial",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_religious",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_learning",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_economic",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_wonder",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_diplomatic",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_natural_feature",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_capitals",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Capital of [Province.GetTitle.GetHolder.GetPrimaryTitle.GetName][SelectLocalization( And( HasDlcFeature( 'royal_court' ), Province.GetTitle.GetHolder.HasRoyalCourt() ), 'TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type', '')]",
+    "RUS": "Столица — [Province.GetTitle.GetHolder.GetPrimaryTitle.GetName][SelectLocalization( And( HasDlcFeature( 'royal_court' ), Province.GetTitle.GetHolder.HasRoyalCourt() ), 'TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type', '')]",
+    "POL": "[Province.GetTitle.GetHolder.GetPrimaryTitle.GetName]: stolica ([SelectLocalization( And( HasDlcFeature( 'royal_court' ), Province.GetTitle.GetHolder.HasRoyalCourt() ), 'TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type', '')])",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_capitals_court_type",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "\\n([court_type|E]: [Province.GetTitle.GetHolder.GetCourtType.GetName])",
+    "RUS": "\\n([court_type|E]: [Province.GetTitle.GetHolder.GetCourtType.GetName])",
+    "POL": "\\n([court_type|E]: [Province.GetTitle.GetHolder.GetCourtType.GetName|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_mausoleum_at_halicarnassus",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Mausoleum at Halicarnassus",
+    "RUS": "Галикарнасский мавзолей",
+    "POL": "Mauzoleum w Halikarnasie",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_lighthouse_of_alexandria",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Lighthouse of Alexandria",
+    "RUS": "Александрийский маяк",
+    "POL": "Latarnia morska na Faros",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_grand_city",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Great City of [Province.GetBaronyNameExplicitly]",
+    "RUS": "Великий город [Province.GetBaronyNameExplicitly]",
+    "POL": "Wielkie miasto [Province.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "poi_grand_city_visit_event_tt",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Will trigger a Sight-Seeing Event",
+    "RUS": "Запустит событие осмотра достопримечательностей",
+    "POL": "Aktywuje wydarzenie zwiedzania",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_legend_capitals",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "Origin of [Province.GetTitle.GetHolder.GetPromotedLegend.GetName]",
+    "RUS": "Источник легенды «[Province.GetTitle.GetHolder.GetPromotedLegend.GetName]»",
+    "POL": "Miejsce pochodzenia legendy „[Province.GetTitle.GetHolder.GetPromotedLegend.GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_stress_relief",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "RUS": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "POL": "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_silk_road_node",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "RUS": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "POL": "[Province.GetHolding.GetCurrentSpecialBuildingType.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_mandala_capital",
+    "FILE_PATH": "localization/belarusian/gui/travel_planner_window_l_belarusian.json",
+    "ENG": "[GetBuilding('mandala_capital_01').GetName]",
+    "RUS": "[GetBuilding('mandala_capital_01').GetName]:",
+    "POL": "[GetBuilding('mandala_capital_01').GetName]",
+    "BEL": ""
+  }
+]

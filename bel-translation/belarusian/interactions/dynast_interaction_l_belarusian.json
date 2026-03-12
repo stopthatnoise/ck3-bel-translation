@@ -1,0 +1,282 @@
+[
+  {
+    "KEY": "dynasty_interaction_header",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "[dynast_interaction|E]\\n",
+    "RUS": "[dynast_interaction|E]\\n",
+    "POL": "[dynast_interaction|E]\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "disinherit_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Disinherit",
+    "RUS": "Лишить наследства",
+    "POL": "Wydziedzicz",
+    "BEL": ""
+  },
+  {
+    "KEY": "disinherit_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Remove [recipient.GetShortUINameNoTooltip] from the [line_of_succession|E]",
+    "RUS": "$dynasty_interaction_header$Удалить персонажа [recipient.GetShortUINameNoTooltip] из [Concept( 'line_of_succession', 'линии наследования' )|E]",
+    "POL": "$dynasty_interaction_header$Usuń [recipient.GetShortUINameNotMeNoTooltip] z [Concept( 'line_of_succession', 'linii sukcesji' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "disinherit_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Disinherited Dynasty Member",
+    "RUS": "Лишение наследства члена династии",
+    "POL": "Wydziedziczono członka dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "courtly_vassal_disapproves_disinheriting",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Every [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) loses #N 20#! [opinion|E] of [actor.GetShortUIName] for #V 10 years#! #weak (Disapproves of Disinheriting non-Disputed Heir)#!",
+    "RUS": "Каждый #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазный#!#! [vassal|El] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) теряет #N 20#! [Concept( 'opinion', 'мнения' )|E] о [Select_CString(actor.IsLocalPlayer, '', 'персонаже ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'ем персонаже', '' )] на #V 10 лет#! #weak (Не одобряют лишение наследства наследника, не имеющего сомнительного происхождения)#!",
+    "POL": "Każdy [vassal|El], którego można określić jako [GetVassalStance('courtly').GetTextIcon][GetVassalStance('courtly').GetName|l] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) traci #N 20#! [Concept('opinion', 'opinii')|E] o osobie znanej jako [actor.GetShortUINameNotMe] na #V 10 lat#! #weak (Nie pochwala wydziedziczenia bezspornego dziedzica)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_inheritance_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Restore Inheritance",
+    "RUS": "Восстановить наследство",
+    "POL": "Przywróć prawo dziedziczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_inheritance_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Restore [recipient.GetShortUINameNoTooltip] to the natural [line_of_succession|E]\\n\\n#weak This is available because [recipient.GetSheHe] has been [disinherited|E]#!",
+    "RUS": "$dynasty_interaction_header$Вернуть персонажа [recipient.GetShortUINameNoTooltip] в [Concept( 'line_of_succession', 'линию наследования' )|E]\\n\\n#weak Этот вариант доступен, потому что [recipient.GetHerHis] [Concept( 'disinherited', 'лишили наследства' )|E]#!",
+    "POL": "$dynasty_interaction_header$Przywróć [recipient.GetShortUINameNotMeNoTooltip] miejsce w [Concept( 'line_of_succession', 'linii sukcesji' )|E]\\n\\n#weak Jest to możliwe, ponieważ został[Select_CString( recipient.IsFemale, 'a', '' )] [recipient.GetSheHe] wcześniej [Select_CString(recipient.IsFemale, Concept('disinherited', 'wydziedziczona'), Concept('disinherited', 'wydziedziczony'))]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "restore_inheritance_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Restored Inheritance",
+    "RUS": "Восстановленный наследник",
+    "POL": "Przywrócono dziedziczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "denounce_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Denounce",
+    "RUS": "Отвергнуть",
+    "POL": "Potęp",
+    "BEL": ""
+  },
+  {
+    "KEY": "denounce_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$[denounce|E] [recipient.GetShortUINameNoTooltip]\\n\\n#weak This will give all members of our [dynasty|E] an [imprisonment_reason|E] against [recipient.GetHerHim]#!",
+    "RUS": "$dynasty_interaction_header$[denounce|E] персонажа [recipient.GetShortUINameNoTooltip]\\n\\n#weak Это даст членам нашей [Concept( 'dynasty', 'династии' )|E] [Concept( 'imprisonment_reason', 'повод заключить' )|E] [recipient.GetHerHis] в тюрьму#!",
+    "POL": "$dynasty_interaction_header$[Concept( 'denounce', 'Potęp' )|E] [recipient.GetShortUINameNotMeNoTooltip]\\n\\n#weak Da to członkom naszej [Concept( 'dynasty', 'dynastii' )|E] [Concept( 'imprisonment_reason', 'powód do uwięzienia' )|E] [Select_CString( recipient.IsFemale, 'jej', 'go' )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "denounce_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Denounced Dynasty member",
+    "RUS": "Отвергнутый член династии",
+    "POL": "Potępiono członka dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "forgive_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Forgive",
+    "RUS": "Простить",
+    "POL": "Przebacz",
+    "BEL": ""
+  },
+  {
+    "KEY": "denounced_change_to_forgiven",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "The #V $denounced_opinion$ Opinion#! #weak (-50)#! changes to #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! [opinion|E])",
+    "RUS": "Мнение изменилось. #V $denounced_opinion$#! #weak (-50)#! -> #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! ед. [Concept('opinion', 'мнения')|E])",
+    "POL": "#V Opinia $denounced_opinion$#! #weak (-50)#! zmienia się na #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! do [Concept( 'opinion', 'opinii' )|E])",
+    "BEL": ""
+  },
+  {
+    "KEY": "forgiven_changed_to_denounced",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "The #V $forgave_denounced_opinion$ Opinion#! #weak (-25)#! changes to #V $denounced_opinion$#! #weak (-50)#! (#N -25#! [opinion|E])",
+    "RUS": "Мнение изменилось. #V $forgave_denounced_opinion$#! #weak (-25)#! -> #V $denounced_opinion$#! #weak (-50)#! (#N -25#! ед. [Concept('opinion', 'мнения')|E])",
+    "POL": "#V Opinia $forgave_denounced_opinion$#! #weak (-25)#! zmienia się na #V $denounced_opinion$#! #weak (-50)#! (#N -25#! do [Concept( 'opinion', 'opinii' )|E])",
+    "BEL": ""
+  },
+  {
+    "KEY": "forgive_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Retract the [denouncement|E] of [recipient.GetShortUINameNoTooltip]",
+    "RUS": "$dynasty_interaction_header$Отменить [Concept( 'denouncement', 'отвержение' )|E] персонажа [recipient.GetShortUINameNoTooltip]",
+    "POL": "$dynasty_interaction_header$Wycofaj [denouncement|El] względem [recipient.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "forgive_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Forgave Dynasty Member",
+    "RUS": "Прощенный член династии",
+    "POL": "Wybacz członkowi dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "call_dynasty_member_to_war_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Call Dynasty Member To War",
+    "RUS": "Призвать члена династии в войну",
+    "POL": "Wezwij członka dynastii do wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "call_dynasty_member_to_war_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Call [recipient.GetShortUINameNoTooltip] to serve [recipient.GetHerHis] [dynasty|E] in war",
+    "RUS": "Призвать на службу: пусть [recipient.GetShortUINameNoTooltip] послужит своей [Concept( 'dynasty', 'династии' )|E] в войне",
+    "POL": "Wezwij [recipient.GetShortUINameNotMeNoTooltip] do służby swojej [Concept( 'dynasty', 'dynastii' )|E] w czasie wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "call_dynasty_member_to_war_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$hook_extra_icon$",
+    "RUS": "$hook_extra_icon$",
+    "POL": "$hook_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_legitimize_bastard_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Legitimize Bastard #weak (Dynasty)#!",
+    "RUS": "Признает бастарда #weak (династия)#!",
+    "POL": "Legitymizuj bękarta #weak (dynastia)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_legitimize_bastard_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Declare [recipient.GetShortUINameNoTooltip] to be a $game_concept_legitimized_bastard$\\n\\n#weak This is available because [recipient.GetSheHe] is a [bastard|E] of my [dynasty|E]#!",
+    "RUS": "$dynasty_interaction_header$Объявить, что [recipient.GetShortUINameNoTooltip] — [Concept( 'legitimized_bastard', 'узаконенный бастард' )|E]\\n\\n#weak Этот вариант доступен, потому что [recipient.GetSheHe] — [Concept( 'bastard', 'бастард' )|E] моей [Concept( 'dynasty', 'династии' )|E]#!",
+    "POL": "$dynasty_interaction_header$Legitymizuj [Select_CString( recipient.IsLocalPlayer, 'siebie', recipient.GetShortUINameNotMeNoTooltip)] za legitymowanego bękarta\\n\\n#weak Ta opcja jest dostępna, ponieważ [recipient.GetSheHe] jest [Concept('bastard', 'bękartem')|E] w mojej [Concept( 'dynasty', 'dynastii' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_legitimize_bastard_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Legitimized Bastard",
+    "RUS": "Признанный бастард",
+    "POL": "Bękart legitymizowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_claim_title_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Claim Title",
+    "RUS": "Заявить права на титул",
+    "POL": "Zażądaj tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_claim_title_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$[claim|EU] a [title|E] held by [recipient.GetShortUINameNoTooltip] for yourself",
+    "RUS": "$dynasty_interaction_header$[Concept( 'claim', 'Заявить претензию' )|E] на [Concept( 'title', 'титул' )|E], которым владеет [recipient.GetShortUINameNoTooltip]",
+    "POL": "$dynasty_interaction_header$Wystosuj [claim|El] do [Concept( 'title', 'tytułu' )|E] posiadanego przez [recipient.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_claim_title_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Claimed Title",
+    "RUS": "Оспариваемый титул",
+    "POL": "Zażądano tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ALREADY_HAVE_CLAIM_ON_THIS_TITLE",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "You already have a claim on this title",
+    "RUS": "У вас уже есть претензия на этот титул",
+    "POL": "Masz już roszczenie do tego tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ALREADY_HAVE_CLAIMS_ON_ALL_TITLES",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "You already have claims on all of [TARGET_CHARACTER.GetShortUINamePossessive] titles",
+    "RUS": "У вас уже есть претензии на все титулы персонажа [TARGET_CHARACTER.GetTitledFirstName]",
+    "POL": "Masz już roszczenia do wszystkich tytułów należących do [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_end_dynasty_wars_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "End Dynasty Wars",
+    "RUS": "Закончить внутридинастические войны",
+    "POL": "Zakończ wojnę dynastyczną",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_end_dynasty_wars_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Demand that [recipient.GetShortUINameNoTooltip] immediately ends all their offensive wars against any other members of our [dynasty|E]",
+    "RUS": "$dynasty_interaction_header$Потребовать, чтобы [recipient.GetShortUINameNoTooltip] немедленно [Select_CString(recipient.IsFemale, 'прекратила', 'прекратил' )] все наступательные войны против членов нашей [Concept( 'dynasty', 'династии' )|E]",
+    "POL": "$dynasty_interaction_header$Żądaj, aby [recipient.GetShortUINameNotMeNoTooltip] natychmiast zakończył[Select_CString( recipient.IsFemale, 'a', '' )] wszystkie swoje ofensywne wojny przeciwko innym członkom naszej [Concept( 'dynasty', 'dynastii' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynast_end_dynasty_wars_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Ended Dynasty War",
+    "RUS": "Законченная война династий",
+    "POL": "Zakończono wojnę dynastyczną",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_secondary_legitimize_bastard_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Bastard",
+    "RUS": "Бастард",
+    "POL": "Bękart",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_to_varangian_guard_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Send to the Varangian Guard #weak (Dynasty)#!",
+    "RUS": "Отправить в варяжскую гвардию #weak (Династия)#!",
+    "POL": "Wyślij do gwardii wareskiej #weak (dynastia)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_to_varangian_guard_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Varangian Guard. Who knows, it might even help build character!",
+    "RUS": "$dynasty_interaction_header$Отправить персонажа [recipient.GetShortUINameNoTooltip] служить в варяжскую гвардию в поисках славы и богатства. Кто знает, возможно, это даже поможет стать лучше!",
+    "POL": "$dynasty_interaction_header$Wyślij [recipient.GetShortUINameNotMeNoTooltip], aby zdobył[Select_CString( recipient.IsFemale, 'a', '' )] chwałę i fortunę w gwardii wareskiej. Kto wie, być może przyczyni się to do ukształtowania je[Select_CString( recipient.IsFemale, 'j', 'go' )] charakteru!",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_to_varangian_guard_interaction_toast",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName] left for the Varangian Guard",
+    "RUS": "[recipient.GetShortUIName] отправляется в варяжскую гвардию",
+    "POL": "[recipient.GetShortUINameNotMe] od[Select_CString( recipient.IsFemale, 'eszła', 'szedł' )] do gwardii wareskiej",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_to_varangian_guard_interaction_toast_desc",
+    "FILE_PATH": "localization/belarusian/interactions/dynast_interaction_l_belarusian.json",
+    "ENG": "Fame and glory awaits!",
+    "RUS": "Слава и почести ждут!",
+    "POL": "Sława i chwała czekają!",
+    "BEL": ""
+  }
+]

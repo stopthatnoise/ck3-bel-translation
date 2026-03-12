@@ -1,0 +1,554 @@
+[
+  {
+    "KEY": "DIARCHY_WINDOW_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "$game_concept_diarchy$",
+    "RUS": "Наделение полномочиями",
+    "POL": "$game_concept_diarchy$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_STATUS_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[sharing_power|E] in [Character.Custom('GetDiarchyArticle')] [Character.GetDiarchyTypeName]",
+    "RUS": "[sharing_power|E] в диархии типа [Character.GetDiarchyTypeName]",
+    "POL": "[Concept( 'sharing_power', 'Dzieli władzę' )|E] w [Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_regency|q$' ) , Concept('regency', 'regencji'), Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_entrenched_regency|q$' ) , Concept('entrenched_regency', 'zakorzenionej regencji') , Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_vizierate|q$' ) , Concept('vizierate', 'wezyracie') , Character.GetDiarchyTypeName ) ) )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_STATUS_INACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Not [sharing_power|E]",
+    "RUS": "Не [Concept( 'sharing_power', 'разделяет полномочия' )|E]",
+    "POL": "Nie [Concept( 'sharing_power', 'dzieli władzy' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_TITLE_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Appointed [CHARACTER.GetDiarchTitle] of [CHARACTER.GetPrimaryTitle.GetName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'Назначенная', 'Назначенный' )] [CHARACTER.GetDiarchTitle|l] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Mianowano postać: [CHARACTER.GetDiarchTitle|l] z [CHARACTER.GetPrimaryTitle.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_TITLE_FUTURE_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetDiarchTitle]-Presumptive of [CHARACTER.GetPrimaryTitle.GetName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'Предполагаемая', 'Предполагаемый' )] [CHARACTER.GetDiarchTitle|l] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Domniemana funkcja: [CHARACTER.GetDiarchTitle|l] z [CHARACTER.GetPrimaryTitle.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_TITLE_ACTIVE_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetDiarchTitle] of [CHARACTER.GetPrimaryTitle.GetName]",
+    "RUS": "[CHARACTER.GetDiarchTitle], [CHARACTER.GetPrimaryTitle.GetName]",
+    "POL": "[CHARACTER.GetDiarchTitle|U] z [CHARACTER.GetPrimaryTitle.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SUCCESSION",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[Character.GetDiarchyTypeName] [diarch_succession|E]",
+    "RUS": "[Concept( 'diarch_succession', 'Наследование' )|E] позиции «[Character.GetDiarchyTypeName]»",
+    "POL": "[diarch_succession|E] [Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_regency|q$' ) , Concept('regency', 'regencji'), Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_entrenched_regency|q$' ) , Concept('entrenched_regency', 'zakorzenionej regencji') , Select_CString( EqualTo_string( Character.GetDiarchyTypeNameNoTooltip , '$game_concept_vizierate|q$' ) , Concept('vizierate', 'wezyratu') , Character.GetDiarchyTypeName ) ) )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_NO_SUCCESSION",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#weak [Character.GetDiarchyTypeName] does not use [diarch_succession|E].#!",
+    "RUS": "#weak [Character.GetDiarchyTypeName] не использует [Concept('diarch_succession', 'преемственность')|E].#!",
+    "POL": "#weak [Character.GetDiarchyTypeName] nie wykorzystuje [Concept('diarch_succession', 'sukcesji')|E].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DESIGNATE_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Designate",
+    "RUS": "Назначить",
+    "POL": "Wyznacz",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DESIGNATE_DIARCH_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Designate as future [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]",
+    "RUS": "Потенциальное назначение на титул «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]»",
+    "POL": "Wyznacz jako przyszłego [Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Diarcha' ), 'diarchę', Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Regent' ), 'regenta', DiarchyWindow.GetDiarchyOwner.GetDiarchTitle ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[scales_of_power|E]",
+    "RUS": "[scales_of_power|E]",
+    "POL": "[scales_of_power|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_YOUR_TAB",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Your $game_concept_diarchy$",
+    "RUS": "Ваше наделение полномочиями",
+    "POL": "Twoje dzielenie władzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_LIEGE_TAB",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Liege's $game_concept_diarchy$",
+    "RUS": "Наделение полномочиями сюзерена",
+    "POL": "$game_concept_diarchy$ twojego seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SWING_SCALES",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Swing the Scales",
+    "RUS": "Сместить равновесие",
+    "POL": "Przechyl szale",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_END_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "End [DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip]",
+    "RUS": "Закончить диархию [DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip]",
+    "POL": "Zakończ [Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip , '$game_concept_regency|q$' ) , 'regencję', Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip , '$game_concept_entrenched_regency|q$' ) , 'zakorzenioną regencję' , DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip ) )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_SELECTION_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T Designate [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]\\n#!Select your preferred [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle], overriding the Succession\\n\\n[SelectLocalization( DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '' )]",
+    "RUS": "#T Назначить на должность «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]»\\n#!Выберите предпочтительного кандидата на должность «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]», изменив порядок наследования\\n\\n[SelectLocalization( DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '' )]",
+    "POL": "#T Wyznacz [Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Diarcha' ), 'diarchę', Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Regent' ), 'regenta', DiarchyWindow.GetDiarchyOwner.GetDiarchTitle ) )]\\n#!Wybierz swojego preferowanego [Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Diarcha' ), 'diarchę', Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Regent' ), 'regenta', DiarchyWindow.GetDiarchyOwner.GetDiarchTitle ) )], omijając sukcesję[Select_CString( DiarchyWindow.IsDesignateDiarchOnCooldown , '\\n\\n', '' )][SelectLocalization( DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_TMP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X A new [regent|E] cannot be designated until [DiarchyWindow.GetNextDesignationText|V]#!",
+    "RUS": "@warning_icon! #X Нельзя назначить нового [Concept( 'regent', 'регента' )|E] до: [DiarchyWindow.GetNextDesignationText|V]#!",
+    "POL": "@warning_icon! #X Nie można wyznaczyć nowego [Concept('regent', 'regenta')|E] przed [DiarchyWindow.GetNextDesignationText|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_APTITUDE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Overall [Concept( 'diarch_aptitude', 'Aptitude' )|E]: [DiarchyWindow.GetDiarchAptitudeText( Character.Self )]",
+    "RUS": "Общая [Concept( 'diarch_aptitude', 'пригодность' )|E]: [DiarchyWindow.GetDiarchAptitudeText( Character.Self )]",
+    "POL": "Łączne [Concept( 'diarch_aptitude', 'kompetencje' )|E]: [DiarchyWindow.GetDiarchAptitudeText( Character.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_APTITUDE_LIST",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[Concept( 'diarch_aptitude', 'Aptitude' )|E]: [CharacterListItem.GetText( 'aptitude_label' )]",
+    "RUS": "[Concept( 'diarch_aptitude', 'Пригодность' )|E]: [CharacterListItem.GetText( 'aptitude_label' )]",
+    "POL": "[Concept( 'diarch_aptitude', 'Kompetencje' )|E]: [CharacterListItem.GetText( 'aptitude_label' )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[Concept( 'diarch_aptitude', 'Aptitude' )|E] Score",
+    "RUS": "Очки [Concept( 'diarch_aptitude', 'пригодности' )|E]",
+    "POL": "Suma [Concept( 'diarch_aptitude', 'kompetencji' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_MANDATE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [Mandate.GetName]#!\\n[Mandate.GetDescription]",
+    "RUS": "#T [Mandate.GetName]#!\\n[Mandate.GetDescription]",
+    "POL": "#T [Mandate.GetName]#!\\n[Mandate.GetDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_CURRENT_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [scales_of_power|E]#!\\n[DiarchyWindow.GetSwingChangeDescription]",
+    "RUS": "#T [Concept( 'scales_of_power', 'Равновесие сил' )|E]#!\\n[DiarchyWindow.GetSwingChangeDescription]",
+    "POL": "#T [scales_of_power|E]#!\\n[DiarchyWindow.GetSwingChangeDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_LEVEL_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [scales_of_power|E] Level $LEVEL$#!\\n$STATUS$\\n\\nEffects:\\n$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak All previous levels also apply#!' )]\\n\\n$CHANGE_DESC$",
+    "RUS": "#T $LEVEL$ ур. [Concept('scales_of_power', 'равновесия сил')|E]#!\\n$STATUS$\\n\\nЭффекты:\\n$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak Также включает в себя все предыдущие уровни#!' )]\\n\\n$CHANGE_DESC$",
+    "POL": "#T Poziom [Concept('scales_of_power', 'szali władzy')|E]: $LEVEL$#!\\n$STATUS$\\n\\nEfekty:\\n$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak Zastosowanie mają też efekty wszystkich wcześniejszych poziomów#!' )]\\n\\n$CHANGE_DESC$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_POWER_LEVEL_STATUS_CURRENT",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Current Level",
+    "RUS": "Текущий уровень",
+    "POL": "Obecny poziom",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_POWER_LEVEL_STATUS_ACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Active Level",
+    "RUS": "Действительный уровень",
+    "POL": "Poziom aktywny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#X Inactive Level#!",
+    "RUS": "#X Недействительный уровень#!",
+    "POL": "#X Poziom nieaktywny#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_POWER_LEVEL_STATUS_NO_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "$DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE$",
+    "RUS": "$DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE$",
+    "POL": "$DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_OPEN_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [diarchy|E]#!\\n[SelectLocalization(GetPlayer.GetDiarchy.IsValid,'DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY','DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY')]\\n\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [diarchy|E]#!\\n[SelectLocalization(GetPlayer.GetDiarchy.IsValid,'DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY','DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY')]\\n\\n$CLICK_TO_VIEW$",
+    "POL": "#T [diarchy|E]#!\\n[SelectLocalization(GetPlayer.GetDiarchy.IsValid,'DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY','DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY')]\\n\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[GetPlayer.GetDiarchyTypeName]\\n[scales_of_power|E] Level: [GetPlayer.GetDiarchy.GetPowerLevel|V]",
+    "RUS": "[GetPlayer.GetDiarchyTypeName]\\nУровень [Concept('scales_of_power', 'равновесия сил')|E]: [GetPlayer.GetDiarchy.GetPowerLevel|V]",
+    "POL": "[GetPlayer.GetDiarchyTypeName]\\nPoziom [Concept('scales_of_power', 'szal władzy')|E]: [GetPlayer.GetDiarchy.GetPowerLevel|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[GetPlayer.GetLiege.GetDiarchyTypeName]\\n[scales_of_power|E] Level: [GetPlayer.GetLiege.GetDiarchy.GetPowerLevel|V]",
+    "RUS": "[GetPlayer.GetLiege.GetDiarchyTypeName]\\nУровень [Concept('scales_of_power', 'равновесия сил')|E]: [GetPlayer.GetLiege.GetDiarchy.GetPowerLevel|V]",
+    "POL": "[GetPlayer.GetLiege.GetDiarchyTypeName]\\nPoziom [Concept('scales_of_power', 'szal władzy')|E]: [GetPlayer.GetLiege.GetDiarchy.GetPowerLevel|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_LIEGE_BENEFITS",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[liege|E] gets [DiarchyWindow.GetModifierDescription( Character.Self )]",
+    "RUS": "[Concept( 'liege', 'Сюзерен' )|E] — [DiarchyWindow.GetModifierDescription( Character.Self )|l]",
+    "POL": "[liege|E] otrzymuje: [DiarchyWindow.GetModifierDescription( Character.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_BENEFITS",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[diarch|E] gets [DiarchyWindow.GetModifierDescription( Character.Self )]",
+    "RUS": "[Concept( 'diarch', 'Диарх' )|E] — [DiarchyWindow.GetModifierDescription( Character.Self )|l]",
+    "POL": "[diarch|E] otrzymuje: [DiarchyWindow.GetModifierDescription( Character.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_LOYALTY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[diarch_loyalty|E]: [Character.GetDiarchLoyaltyLabel]",
+    "RUS": "[Concept( 'diarch_loyalty', 'Верность' )|E]: [Character.GetDiarchLoyaltyLabel]",
+    "POL": "[diarch_loyalty|E]: [Character.GetDiarchLoyaltyLabel|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_LOYALTY_LIST",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[diarch_loyalty|E]: [CharacterListItem.GetText( 'loyalty_label' )]",
+    "RUS": "[Concept( 'diarch_loyalty', 'Верность' )|E]: [CharacterListItem.GetText( 'loyalty_label' )]",
+    "POL": "[diarch_loyalty|E]: [CharacterListItem.GetText( 'loyalty_label' )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_VISIBLY_LOYAL",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#P Selfless#!",
+    "RUS": "#P Бескорыстный персонаж#!",
+    "POL": "#P Bezinteresowna#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_VISIBLY_DISLOYAL",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#N Self-Interested#!",
+    "RUS": "#N Корыстный персонаж#!",
+    "POL": "#N Interesowna#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_UNKNOWN_LOYALTY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#V Situational#!",
+    "RUS": "#V Ситуативный персонаж#!",
+    "POL": "#V Sytuacyjna#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DIARCH_LOYALTY_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [diarch_loyalty|E]#!",
+    "RUS": "#T [Concept( 'diarch_loyalty', 'Верность' )|E]#!",
+    "POL": "#T [diarch_loyalty|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [scales_of_power|E]#!\\n#I Available when [sharing_power|E], such as in a [regency|E]#!",
+    "RUS": "#T [scales_of_power|E]#!\\n#I Доступно при [Concept( 'sharing_power', 'разделении власти' )|E], например, при [Concept( 'regency', 'регентстве' )|E]#!",
+    "POL": "#T [scales_of_power|E]#!\\n#I Dostępne podczas [Concept( 'sharing_power', 'dzielenia władzy' )|E], na przykład podczas [Concept( 'regency', 'regencji' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_ACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [scales_of_power|E]#!\\n#I Tip them towards you via [interaction|E], or, as [diarch|E], fulfil your [mandate|E]#!",
+    "RUS": "#T [scales_of_power|E]#!\\n#I Сдвиньте их в свою пользу с помощью [Concept( 'interaction', 'взаимодействия' )|E] или, если вы [diarch|El], исполните свой [mandate|El]#!",
+    "POL": "#T [scales_of_power|E]#!\\n#I Przechyl je na swoją korzyść poprzez [Concept( 'interaction', 'interakcje' )|E] lub, jeśli jesteś [Concept( 'diarch', 'diarchą' )|E], wypełnianie [Concept( 'mandate', 'mandatów' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE_BECOME_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [scales_of_power|E]#!\\n#I Become your [liege|E]'s [regent|E] to benefit from the $game_concept_scales_of_power_scales$#!",
+    "RUS": "#T [scales_of_power|E]#!\\n#I Станьте [Concept( 'regent', 'регентом' )|E] [Concept( 'liege', 'сюзерена' )|E], чтобы воспользоваться равновесием сил#!",
+    "POL": "#T [scales_of_power|E]#!\\n#I Zostań [Concept( 'regent', 'regentem' )|E] swojego [Concept( 'liege', 'seniora' )|E], aby czerpać korzyści z szal#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SCALES_OF_POWER_HELP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Tip them towards you via [interaction|E], or, as the [diarch|E], fulfil your [mandate|E]",
+    "RUS": "Сдвиньте их в свою пользу с помощью [Concept( 'interaction', 'взаимодействия' )|E] или, если вы [diarch|El], исполните свой [mandate|El]",
+    "POL": "Przechyl je na swoją korzyść poprzez [Concept( 'interaction', 'interakcje' )|E] lub, jeśli jesteś [Concept( 'diarch', 'diarchą' )|E], wypełnianie [Concept( 'mandate', 'mandatów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_BENEFITS_INACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T Not Power Sharing\\n#![DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] benefits only apply when there's active [power_sharing|E]",
+    "RUS": "#T Без наделения полномочиями\\n#!Должность «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]» дает преимущества, только если действует [Concept( 'sharing_power', 'разделение полномочий' )|E]",
+    "POL": "#T Nie dzieli władzy\\n#!Korzyści, które zapewnia [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l], mają zastosowanie tylko wtedy, gdy aktywne jest [power_sharing|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_BENEFITS_DIARCH_INDISPOSED",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T [diarch|E] Indisposed\\n#![DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] benefits only apply when the [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] is able to attend to [DiarchyWindow.GetDisplayedDiarch.GetHerHis] duties",
+    "RUS": "#T [Concept( 'diarch', 'Диарх' )|E] неспособен исполнять обязанности\\n#!Должность «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]» дает преимущества, только если [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] может исполнять свои обязанности",
+    "POL": "#T [diarch|E] jest niedysponowany\\n#!Korzyści mają zastosowanie tylko wtedy, gdy [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] jest w stanie wykonywać swoje obowiązki",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DESIGNATE_DIARCH_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Designate [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "Назначить на должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "Wyznacz postać na stanowisko: [CHARACTER.GetLiege.GetDiarchTitle]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DESIGNATE_DIARCH_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Designate [CHARACTER.GetName] as your [CHARACTER.GetLiege.GetDiarchTitle]. Action will become unavailable until [GetCurrentDateWithDiff( GetDefine( 'NDiarchy', 'DESIGNATE_DIARCH_INTERVAL_DAYS' ) )|V][CHARACTER.Custom('GetWarning_WeakDiarchSuccessionScore')][CHARACTER.Custom('GetWarning_DiarchAppointmentCourtlies')]",
+    "RUS": "[CHARACTER.GetName] получит должность «[CHARACTER.GetLiege.GetDiarchTitle]». Это действие станет недоступно до [GetCurrentDateWithDiff( GetDefine( 'NDiarchy', 'DESIGNATE_DIARCH_INTERVAL_DAYS' ) )|V][CHARACTER.Custom('GetWarning_WeakDiarchSuccessionScore')][CHARACTER.Custom('GetWarning_DiarchAppointmentCourtlies')]",
+    "POL": "Wyznacz postać znaną jako [CHARACTER.GetName] na stanowisko: [CHARACTER.GetLiege.GetDiarchTitle]. Działanie będzie niedostępne do [GetCurrentDateWithDiff( GetDefine( 'NDiarchy', 'DESIGNATE_DIARCH_INTERVAL_DAYS' ) )|V][CHARACTER.Custom('GetWarning_WeakDiarchSuccessionScore')][CHARACTER.Custom('GetWarning_DiarchAppointmentCourtlies')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_DESIGNATE_DIARCH_ACCEPT",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Designate",
+    "RUS": "Назначить",
+    "POL": "Wyznacz",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_MANDATE_CLICK_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#I Click to change mandate#!",
+    "RUS": "#I Щелкните, чтобы сменить мандат#!",
+    "POL": "#I Kliknij, aby zmienić mandat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_MONTHLY_SWING_PLAYER_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "$MONTHLY|+2$",
+    "RUS": "$MONTHLY|+2$",
+    "POL": "$MONTHLY|+2$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_MONTHLY_SWING_GENERIC",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "$MONTHLY|-2$",
+    "RUS": "$MONTHLY|-2$",
+    "POL": "$MONTHLY|-2$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_MONTHLY_SWING_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Current swing value: $CURRENT|^V$\\n\\nNext month [scales_of_power|E] will swing by $MONTHLY_TEXT$ until it balances at $BALANCE|V^$ out of #V 100#!",
+    "RUS": "Текущий показатель склонения: $CURRENT|^V$\\n\\nВ следующем месяце [Concept( 'scales_of_power', 'равновесие сил' )|E] будет склоняться на $MONTHLY_TEXT$, пока не уравновесится на $BALANCE|V^$ из #V 100#!",
+    "POL": "Obecna wartość przechyłu: $CURRENT|^V$\\n\\nW następnym miesiącu [scales_of_power|El] przechylą się o $MONTHLY_TEXT$, aż osiągną wartość $BALANCE|V^$ na #V 100#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SUCCESSION_SCORE",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Succession Score",
+    "RUS": "Очки наследования",
+    "POL": "Punkty sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_SUCCESSION_SCORE_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle] [diarch_succession|E]",
+    "RUS": "[Concept( 'diarch_succession', 'Наследование' )|E] титула «[DiarchyWindow.GetDiarchyOwner.GetDiarchTitle]»",
+    "POL": "[diarch_succession|E] [Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Diarcha' ), 'diarchy', Select_CString( EqualTo_string( DiarchyWindow.GetDiarchyOwner.GetDiarchTitle , 'Regent' ), 'regenta', DiarchyWindow.GetDiarchyOwner.GetDiarchTitle ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_PARAMETER_ITEM",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "• $TEXT$",
+    "RUS": "• $TEXT$",
+    "POL": "• $TEXT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCHY_WINDOW_BACK_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "#T Back to Power Sharing window#!",
+    "RUS": "#T Вернуться в окно наделения полномочиями#!",
+    "POL": "#T Wróć do okna koregencji#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "IN_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[power_sharing|E]",
+    "RUS": "[Concept( 'sharing_power', 'Разделение полномочий' )|E]",
+    "POL": "[power_sharing|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.empty",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.succession_score",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.succession_score.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.succession_score.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.succession_score.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.succession_score.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Any [character|E] with a higher succession score than [ROOT.Char.GetShortUINameNoTooltip] will lose [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )] scaling to the score difference",
+    "RUS": "Любой [Concept( 'character', 'персонаж' )|E], набравший больше очков наследования, чем [ROOT.Char.GetShortUINameNoTooltip], будет терять [Concept( 'opinion', 'мнение' )|E] о [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вас', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ней', 'нем' ))] в зависимости от разницы в очках",
+    "POL": "Każda [character|El] mająca więcej punktów sukcesji niż [ROOT.Char.GetShortUINameNotMeNoTooltip] utraci punkty [Concept('opinion', 'opinii')|E] na temat tej osoby w oparciu o różnicę punktów sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.unrelated_lowborn",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.unrelated_lowborn.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.unrelated_lowborn.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.unrelated_lowborn.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.unrelated_lowborn.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Appointing an unrelated [lowborn|E] will scandalize [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'your', ROOT.Char.GetLiege.GetHerHis )] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E], causing them to lose [EmptyScope.ScriptValue('courtly_offence_scandalise_value')|N0] [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )]",
+    "RUS": "Назначение стороннего [Concept( 'lowborn', 'худородного' )|E] персонажа вызовет у ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ваших', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его' ))] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept('vassals', 'вассалов' )|E] скандал, в результате чего [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вы потеряете', Select_CString(ROOT.Char.GetLiege.IsFemale, 'она потеряет', 'он потеряет' ))] [EmptyScope.ScriptValue('courtly_offence_scandalise_value')|N0] ед. [Concept( 'opinion', 'мнения' )|E]",
+    "POL": "Wyznaczenie niespokrewnionej osoby [Concept('lowborn', 'niskiego urodzenia')|E] wywoła skandal wśród [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twoich', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] [Concept('vassals', 'wasali')|E] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), których można określić jako [GetVassalStance( 'courtly' ).GetTextIcon] [GetVassalStance( 'courtly' ).GetName|l]. W rezultacie utracą oni [EmptyScope.ScriptValue('courtly_offence_scandalise_value')|N0] pkt [Concept('opinion', 'opinii')|E] na [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twój', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] temat",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.related_lowborn",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.related_lowborn.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.related_lowborn.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.related_lowborn.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.related_lowborn.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "Appointing a [lowborn|E] [family_member|E] will greatly offend [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'your', ROOT.Char.GetLiege.GetHerHis )] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E], causing them to lose [EmptyScope.ScriptValue('courtly_offence_greatly_offend_value')|N0] [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )]",
+    "RUS": "Назначение [Concept( 'lowborn', 'худородного' )|E] [Concept( 'family_member', 'члена семьи' )|E] вызовет у ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ваших', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его' ))] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept('vassals', 'вассалов' )|E] серьезное возмущение, в результате чего [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вы потеряете', Select_CString(ROOT.Char.GetLiege.IsFemale, 'она потеряет', 'он потеряет' ))] [EmptyScope.ScriptValue('courtly_offence_greatly_offend_value')|N0] ед. [Concept( 'opinion', 'мнения' )|E]",
+    "POL": "Mianowanie [Concept('family_member', 'członka rodziny')|E] [Concept('lowborn', 'niskiego urodzenia')|E] wywoła wielkie oburzenie wśród [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twoich', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] [Concept('vassals', 'wasali')|E] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), których można określić jako [GetVassalStance( 'courtly' ).GetTextIcon] [GetVassalStance( 'courtly' ).GetName|l]. W rezultacie utracą oni [EmptyScope.ScriptValue('courtly_offence_greatly_offend_value')|N0] pkt [Concept('opinion', 'opinii')|E] na [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twój', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] temat",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.low_succession",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.low_succession.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.low_succession.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.low_succession.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.low_succession.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUINamePossessiveNoTooltip|U] pathetic succession score will offend [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'your', ROOT.Char.GetLiege.GetHerHis )] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E], causing them to lose [EmptyScope.ScriptValue('courtly_offence_offend_value')|N0] [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )]",
+    "RUS": "Безнадежное отставание [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, '', 'персонажа ' )][ROOT.Char.GetNamePossessiveOrMy][Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'его персонажа', '' )] по очкам наследования вызовет у ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ваших', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его' ))] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept('vassals', 'вассалов' )|E] возмущение, в результате чего [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вы потеряете', Select_CString(ROOT.Char.GetLiege.IsFemale, 'она потеряет', 'он потеряет' ))] [EmptyScope.ScriptValue('courtly_offence_offend_value')|N0] ед. [Concept( 'opinion', 'мнения' )|E]",
+    "POL": "Żałosna liczba punktów sukcesji osoby znanej jako [ROOT.Char.GetShortUINameNotMeNoTooltip] wywoła oburzenie wśród [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twoich', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] [Concept('vassals', 'wasali')|E] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), których można określić jako [GetVassalStance( 'courtly' ).GetTextIcon] [GetVassalStance( 'courtly' ).GetName|l]. W rezultacie utracą oni [EmptyScope.ScriptValue('courtly_offence_offend_value')|N0] pkt [Concept('opinion', 'opinii')|E] na [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twój', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] temat",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.medium_succession",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.medium_succession.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.medium_succession.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.medium_succession.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.medium_succession.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUINamePossessiveNoTooltip|U] mediocre succession score will somewhat offend [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'your', ROOT.Char.GetLiege.GetHerHis )] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E], causing them to lose [EmptyScope.ScriptValue('courtly_offence_somewhat_offend_value')|N0] [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )]",
+    "RUS": "Некоторое отставание [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, '', 'персонажа ' )][ROOT.Char.GetNamePossessiveOrMy][Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'его персонажа', '' )] по очкам наследования вызовет у ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ваших', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его' ))] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept('vassals', 'вассалов' )|E] определенное возмущение, в результате чего [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вы потеряете', Select_CString(ROOT.Char.GetLiege.IsFemale, 'она потеряет', 'он потеряет' ))] [EmptyScope.ScriptValue('courtly_offence_somewhat_offend_value')|N0] ед. [Concept( 'opinion', 'мнения' )|E]",
+    "POL": "Przeciętna liczba punktów sukcesji osoby znanej jako [ROOT.Char.GetShortUINameNotMeNoTooltip] wywoła umiarkowane oburzenie wśród [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twoich', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] [Concept('vassals', 'wasali')|E] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), których można określić jako [GetVassalStance( 'courtly' ).GetTextIcon] [GetVassalStance( 'courtly' ).GetName|l]. W rezultacie utracą oni [EmptyScope.ScriptValue('courtly_offence_somewhat_offend_value')|N0] pkt [Concept('opinion', 'opinii')|E] na [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twój', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] temat",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.high_succession",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.high_succession.guts$#!",
+    "RUS": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.high_succession.guts$#!",
+    "POL": "\\n\\n@warning_icon! #WEAK $diarch.succession_offence.high_succession.guts$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "diarch.succession_offence.high_succession.guts",
+    "FILE_PATH": "localization/belarusian/gui/diarchy_window_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetShortUINamePossessiveNoTooltip|U] merely-adequate succession score will lightly offend [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'your', ROOT.Char.GetLiege.GetHerHis )] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E], causing them to lose [EmptyScope.ScriptValue('courtly_offence_lightly_offend_value')|N0] [opinion|E] of [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'you', ROOT.Char.GetLiege.GetHerHim )]",
+    "RUS": "Несерьезное отставание [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, '', 'персонажа ' )][ROOT.Char.GetNamePossessiveOrMy][Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'его персонажа', '' )] по очкам наследования вызовет у ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'ваших', Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его' ))] #TOOLTIP:VASSAL_STANCE,courtly #L [GetVassalStance( 'courtly' ).GetTextIcon]куртуазных#!#! [Concept('vassals', 'вассалов' )|E] легкое возмущение, в результате чего [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'вы потеряете', Select_CString(ROOT.Char.GetLiege.IsFemale, 'она потеряет', 'он потеряет' ))] [EmptyScope.ScriptValue('courtly_offence_lightly_offend_value')|N0] ед. [Concept( 'opinion', 'мнения' )|E]",
+    "POL": "Ledwo akceptowalna liczba punktów sukcesji osoby znanej jako [ROOT.Char.GetShortUINameNotMeNoTooltip] wywoła niewielkie oburzenie wśród [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twoich', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] [Concept('vassals', 'wasali')|E] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), których można określić jako [GetVassalStance( 'courtly' ).GetTextIcon] [GetVassalStance( 'courtly' ).GetName|l]. W rezultacie utracą oni [EmptyScope.ScriptValue('courtly_offence_lightly_offend_value')|N0] pkt [Concept('opinion', 'opinii')|E] na [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'twój', ROOT.Char.GetLiege.Custom('PL_jego_jej') )] temat",
+    "BEL": ""
+  }
+]

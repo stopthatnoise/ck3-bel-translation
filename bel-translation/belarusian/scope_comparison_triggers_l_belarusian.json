@@ -1,0 +1,858 @@
+[
+  {
+    "KEY": "PROVINCE_DE_JURE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is de jure part of the [TARGET_TITLE.GetName]",
+    "RUS": "[PROVINCE.GetName] де-юре входит в домен [TARGET_TITLE.GetName]",
+    "POL": "[PROVINCE.GetName] jest de iure częścią tytułu [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_DE_JURE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is #bold not#! de jure part of the [TARGET_TITLE.GetName]",
+    "RUS": "[PROVINCE.GetName] де-юре #bold не#! является частью домена [TARGET_TITLE.GetName]",
+    "POL": "[PROVINCE.GetName] to #bold nie#! część de iure tytułu: [TARGET_TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_DE_JURE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is de jure part of the [TARGET_TITLE.GetName]",
+    "RUS": "[TITLE.GetName] де-юре входит в домен [TARGET_TITLE.GetName]",
+    "POL": "[TITLE.GetName] to część de iure tytułu: [TARGET_TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_DE_JURE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is #bold not#! de jure part of the [TARGET_TITLE.GetName]",
+    "RUS": "[TITLE.GetName] де-юре #bold не#! является частью домена [TARGET_TITLE.GetName]",
+    "POL": "[TITLE.GetName] to #bold nie#! część de iure tytułu: [TARGET_TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DE_JURE_LIEGE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "The direct de jure owner of the [TITLE.GetName] is the [TARGET_TITLE.GetName]",
+    "RUS": "Прямой де-юре владелец домена [TITLE.GetName] — [TARGET_TITLE.GetName]",
+    "POL": "[TARGET_TITLE.GetName] to bezpośredni właściciel de iure tytułu: [TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_DE_JURE_LIEGE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "The direct de jure owner of the [TITLE.GetName] is #bold not#! the [TARGET_TITLE.GetName]",
+    "RUS": "[TARGET_TITLE.GetName] #bold не#! является непосредственным де-юре владельцем домена [TITLE.GetName]",
+    "POL": "[TARGET_TITLE.GetName] to #bold nie#! bezpośredni właściciel de iure tytułu: [TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DE_FACTO_LIEGE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "The current de facto owner of the [TITLE.GetName] is the [TARGET_TITLE.GetName]",
+    "RUS": "Текущий де-факто владелец домена [TITLE.GetName] — [TARGET_TITLE.GetName]",
+    "POL": "[TARGET_TITLE.GetName] to obecny faktyczny właściciel tytułu: [TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_DE_FACTO_LIEGE_EQUAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "The current de facto owner of the [TITLE.GetName] is #bold not#! the [TARGET_TITLE.GetName]",
+    "RUS": "[TARGET_TITLE.GetName] #bold не#! является де-факто владельцем домена [TITLE.GetName]",
+    "POL": "[TARGET_TITLE.GetName] to #bold nie#! obecny faktyczny właściciel tytułu: [TITLE.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_HELD_BY",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is held by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Принадлежит [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "Znajduje się w [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]posiadaniu [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_HELD_BY",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! held by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "#bold Не#! принадлежит [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "#bold Nie#! znajduje się w [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]posiadaniu [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_IS_HELD_BY",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is held by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TITLE.GetName] принадлежит [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "[TITLE.GetName] to tytuł, który należy do postaci: [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_TITLE_IS_HELD_BY",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is #bold not#! held by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TITLE.GetName] #bold не#! принадлежит [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "[TITLE.GetName] to tytuł, który #bold nie#! należy do postaci: [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LIEGE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are a [courtier|E] or [vassal|E] of [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы — [courtier|El] или [vassal|El] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Jesteś [Concept('courtier', 'dworzaninem')|E] lub [Concept('vassal', 'wasalem')|E] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LIEGE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! a [courtier|E] or [vassal|E] of [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы #bold не#! [courtier|El] или [vassal|El] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "#bold Nie#! jesteś [Concept('courtier', 'dworzaninem')|E] ani [Concept('vassal', 'wasalem')|E] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LIEGE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] [courtier|E] or [vassal|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] — [courtier|El] или [vassal|El] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] jest [Concept('courtier', 'dworzaninem')|E] lub [Concept('vassal', 'wasalem')|E] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LIEGE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] [courtier|E] or [vassal|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! [courtier|El] или [vassal|El] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] #bold nie#! jest [Concept('courtier', 'dworzaninem')|E] ani [Concept('vassal', 'wasalem')|E] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LIEGE_EQUAL_NONE",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "They are your [courtier|E], [vassal|E] or [follower|E]",
+    "RUS": "Это ваш [Concept('courtier', 'придворный')|E], [Concept('vassal', 'вассал')|E] или [Concept('follower', 'последователь')|E]",
+    "POL": "To twój [courtier|El], [vassal|El] lub [follower|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LIEGE_EQUAL_NONE",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "They are #bold not#! your [courtier|E], [vassal|E] or [follower|E]",
+    "RUS": "Это #bold не#! ваш [Concept('courtier', 'придворный')|E], [Concept('vassal', 'вассал')|E] или [Concept('follower', 'последователь')|E]",
+    "POL": "To #bold nie#! jest twój [courtier|El], [vassal|El] ani [follower|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOP_LIEGE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are the [top_liege|E]",
+    "RUS": "Вы [Concept( 'top_liege', 'верховный сюзерен' )|E]",
+    "POL": "Jesteś [Concept('top_liege', 'najwyższym seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_TOP_LIEGE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! the [top_liege|E]",
+    "RUS": "Вы #bold не#! [Concept( 'top_liege', 'верховный сюзерен' )|E]",
+    "POL": "#bold Nie#! jesteś [Concept('top_liege', 'najwyższym seniorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "KILLER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] was killed by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_KILLER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] was #bold not#! killed by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не [Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )]#! персонажем [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPRISONER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are a prisoner of [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] держит вас в плену",
+    "POL": "Jesteś więźniem postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IMPRISONER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! a prisoner of [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] #bold не#! держит вас в плену",
+    "POL": "#bold Nie#! jesteś więźniem postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPRISONER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] prisoner",
+    "RUS": "[CHARACTER.GetShortUIName|U] — [Select_CString(CHARACTER.IsFemale, 'пленница', 'пленник' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]więźniem [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IMPRISONER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] prisoner",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! в плену у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim ', '' )]więźniem [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOST_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are a guest at [TARGET_CHARACTER.GetShortUINamePossessive] court",
+    "RUS": "Вы гостите при дворе персонажа [TARGET_CHARACTER.GetShortUINamePossessive]",
+    "POL": "Jesteś gościem na dworze postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HOST_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! a guest at [TARGET_CHARACTER.GetShortUINamePossessive] court",
+    "RUS": "Вы #bold не#! гостите при дворе персонажа [TARGET_CHARACTER.GetShortUINamePossessive]",
+    "POL": "#bold Nie#! jesteś gościem na dworze postaci [TARGET_CHARACTER.GetShortUINameNotMe] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOST_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is a guest at [TARGET_CHARACTER.GetShortUINamePossessive] court",
+    "RUS": "[CHARACTER.GetShortUIName|U] гостит при дворе [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest gościem na dworze postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HOST_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! a guest [TARGET_CHARACTER.GetShortUINamePossessive] court",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! гостит при дворе [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest gościem na dworze postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BETROTHED_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are betrothed to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] и вы помолвлены",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] jest z tobą zaręczon[Select_CString(TARGET_CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_BETROTHED_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! betrothed to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] и вы #bold не#! помолвлены",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] #bold nie#! jest z tobą zaręczon[Select_CString(TARGET_CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BETROTHED_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is betrothed to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] помолвлены",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest zaręczon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_BETROTHED_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! betrothed to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] #bold не#! помолвлены",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest zaręczon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobą', Concatenate('postacią ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MOTHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is your mother",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — ваша мать",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest twoją matką",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MOTHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! your mother",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — #bold не#! ваша мать",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest twoją matką",
+    "BEL": ""
+  },
+  {
+    "KEY": "MOTHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] mother",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — мать [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest matką postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MOTHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! [CHARACTER.GetShortUINamePossessive] mother",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — #bold не#! является матерью [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest matką postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FATHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is your father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — ваш отец",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest twoim ojcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FATHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName] is #bold not#! your father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] — #bold не#! ваш отец",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] #bold nie#! jest twoim ojcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "FATHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — отец [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest ojcem postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FATHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! [CHARACTER.GetShortUINamePossessive] father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — #bold не#! является отцом [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest ojcem postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "REAL_FATHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is your real father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — ваш настоящий отец",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest twoim prawdziwym ojcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_REAL_FATHER_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName] is #bold not#! your real father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] — #bold не#! ваш настоящий отец",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] #bold nie#! jest twoim prawdziwym ojcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "REAL_FATHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] real father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — настоящий отец [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest prawdziwym ojcem postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_REAL_FATHER_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! [CHARACTER.GetShortUINamePossessive] real father",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — #bold не#! настоящий отец [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest prawdziwym ojcem postaci imieniem [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLAYER_HEIR_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is your [player_heir|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — ваш [player_heir|El]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest twoim [Concept( 'player_heir', 'następcą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLAYER_HEIR_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] is [CHARACTER.GetShortUINamePossessive] [player_heir|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] — [player_heir|El] персонажа [CHARACTER.GetShortUINamePossessive]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] jest [Select_CString( CHARACTER.IsLocalPlayer, 'twoim ', '' )][Concept( 'player_heir', 'następcą postaci' )|E] [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetUINameNotMe )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_FAITH_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are [FAITH.GetAdjective]",
+    "RUS": "Вы принадлежите к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Wyznajesz [FAITH.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_FAITH_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! [FAITH.GetAdjective]",
+    "RUS": "Вы #bold не#! принадлежите к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "[FAITH.GetName] nie jest twoją wiarą",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is [FAITH.GetAdjective]",
+    "RUS": "[CHARACTER.GetShortUIName|U] исповедует #L [FAITH.GetAdjective|l]#!",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] wyznaje [FAITH.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! [FAITH.GetAdjective]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! исповедует #L [FAITH.GetAdjective|l]#!",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! wyznaje wiary: [FAITH.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_FAITH_NONE",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is a same-[faith|e] adherent",
+    "RUS": "Последователь той же [Concept( 'faith', 'конфессии' )|E]",
+    "POL": "Wyznaje tę samą [Concept( 'faith', 'wiarę' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_FAITH_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "$CHARACTER_FAITH_NONE$",
+    "RUS": "$CHARACTER_FAITH_NONE$",
+    "POL": "$CHARACTER_FAITH_NONE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_RELIGION_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are [RELIGION.GetAdjective]",
+    "RUS": "Вы исповедуете #L [RELIGION.GetName|l]ую#! веру",
+    "POL": "Wyznajesz [RELIGION.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_RELIGION_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "Вы #bold не#! исповедуете #L [RELIGION.GetName|l]ую#! веру",
+    "POL": "[RELIGION.GetName] nie jest twoją religią",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is [RELIGION.GetAdjective]",
+    "RUS": "[CHARACTER.GetShortUIName|U] исповедует #L [RELIGION.GetAdjective]#!",
+    "POL": "Religią postaci [CHARACTER.GetShortUINameNotMe|U] jest [RELIGION.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! исповедует #L [RELIGION.GetAdjective]#!",
+    "POL": "Religią postaci [CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest [RELIGION.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CULTURE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are [TARGET_CULTURE.GetName]",
+    "RUS": "Вы принадлежите к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Twoja kultura jest [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_CULTURE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "Вы #bold не#! принадлежите к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Twoja kultura #bold nie#! jest [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is [TARGET_CULTURE.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Kultura postaci [CHARACTER.GetShortUINameNotMe|U] jest [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Kultura postaci [CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HOUSE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You belong to the [house|E] [DYNASTY_HOUSE.GetName]",
+    "RUS": "Вы принадлежите к [Concept( 'house', 'дому' )|E] [DYNASTY_HOUSE.GetName]",
+    "POL": "Należysz do [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_HOUSE_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You do #bold not#! belong to the [house|E] [DYNASTY_HOUSE.GetName]",
+    "RUS": "Вы #bold не#! принадлежите к [Concept( 'house', 'дому' )|E] [DYNASTY_HOUSE.GetName]",
+    "POL": "#bold Nie#! należysz do [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HOUSE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] belongs to the [house|E] [DYNASTY_HOUSE.GetName]",
+    "RUS": "[DYNASTY_HOUSE.GetName] — [house|El] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] należy do [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_HOUSE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] #bold does not#! belong to the [house|E] [DYNASTY_HOUSE.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! принадлежит к [Concept( 'house', 'дому' )|E] [DYNASTY_HOUSE.GetName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! należy do [Concept( 'house', 'rodu' )|E] [DYNASTY_HOUSE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_DYNASTY_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are part of the [dynasty|E] [DYNASTY.GetName]",
+    "RUS": "Вы принадлежите к [Concept( 'dynasty', 'династии' )|E] [DYNASTY.GetName]",
+    "POL": "Jesteś częścią dynastii [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_DYNASTY_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "You are #bold not#! part of the [dynasty|E] [DYNASTY.GetName]",
+    "RUS": "Вы #bold не#! принадлежите к [Concept( 'dynasty', 'династии' )|E] [DYNASTY.GetName]",
+    "POL": "#bold Nie#! jesteś częścią [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_DYNASTY_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is part of the [dynasty|E] [DYNASTY.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] принадлежит к [dynasties|El] [DYNASTY.GetName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest częścią [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CHARACTER_DYNASTY_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] #bold is not#! part of the [dynasty|E] [DYNASTY.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! принадлежит к [dynasties|El] [DYNASTY.GetName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] #bold nie#! jest częścią [Concept( 'dynasty', 'dynastii' )|E] [DYNASTY.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HOUSE_EQUAL_NONE",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is a fellow [house|E] member",
+    "RUS": "Член того же [Concept( 'house', 'дома' )|E]",
+    "POL": "Należy do tego samego [Concept( 'house', 'rodu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is [FAITH.GetAdjective]",
+    "RUS": "[TITLE.GetName] принадлежит к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Na terenie [TITLE.GetAdjective] panuje wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is #bold not#! [FAITH.GetAdjective]",
+    "RUS": "[TITLE.GetName] #bold не#! принадлежит к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Na terenie [TITLE.GetAdjective] #bold nie#! panuje wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_FAITH_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [FAITH.GetAdjective]",
+    "RUS": "#L [FAITH.GetName]ая#! конфессия",
+    "POL": "Wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_FAITH_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [FAITH.GetAdjective]",
+    "RUS": "#bold Не#! #L [FAITH.GetName|l]ая#! конфессия",
+    "POL": "Wiara #bold nie#![FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is [RELIGION.GetAdjective]",
+    "RUS": "[TITLE.GetName] принадлежит к #L [RELIGION.GetName|l]ой#! вере",
+    "POL": "Na terenie [TITLE.GetAdjective] panuje religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "[TITLE.GetName] #bold не#! принадлежит к #L [RELIGION.GetName|l]ой#! вере",
+    "POL": "Na terenie [TITLE.GetAdjective] #bold nie#! panuje religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [RELIGION.GetAdjective]",
+    "RUS": "#L [RELIGION.GetName]ая#! вера",
+    "POL": "Religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "#bold Не#! принадлежит к #L [RELIGION.GetName|l]ой#! религии",
+    "POL": "Religia #bold nie#![RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is [TARGET_CULTURE.GetName]",
+    "RUS": "[TITLE.GetName] принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Na terenie [TITLE.GetAdjective] panuje kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "[TITLE.GetName] #bold не#! принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Na terenie [TITLE.GetAdjective] #bold nie#! panuje kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_CULTURE_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [TARGET_CULTURE.GetName]",
+    "RUS": "#L [TARGET_CULTURE.GetCollectiveNoun]ая#! культура",
+    "POL": "Kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_LANDED_TITLE_CULTURE_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "#bold Не#! принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Kultura #bold nie#! [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is [FAITH.GetAdjective]",
+    "RUS": "[PROVINCE.GetName] принадлежит к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Na terenie [PROVINCE.GetAdjective] panuje wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_FAITH_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is #bold not#! [FAITH.GetAdjective]",
+    "RUS": "[PROVINCE.GetName] #bold не#! принадлежит к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Na terenie [PROVINCE.GetAdjective] #bold nie#! panuje wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_FAITH_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [FAITH.GetAdjective]",
+    "RUS": "#L [FAITH.GetName]ая#! конфессия",
+    "POL": "Wiara [FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_FAITH_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [FAITH.GetAdjective]",
+    "RUS": "#bold Не#! принадлежит к #L [FAITH.GetName|l]ой#! конфессии",
+    "POL": "Wiara #bold nie#![FAITH.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is [RELIGION.GetAdjective]",
+    "RUS": "[PROVINCE.GetName] принадлежит к #L [RELIGION.GetName|l]ой#! вере",
+    "POL": "Na terenie [PROVINCE.GetAdjective] panuje religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "[PROVINCE.GetName] #bold не#! принадлежит к #L [RELIGION.GetName|l]ой#! вере",
+    "POL": "Na terenie [PROVINCE.GetAdjective] #bold nie#! panuje religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [RELIGION.GetAdjective]",
+    "RUS": "#L [RELIGION.GetName]ая#! вера",
+    "POL": "Religia [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [RELIGION.GetAdjective]",
+    "RUS": "#bold Не#! принадлежит к #L [RELIGION.GetName|l]ой#! религии",
+    "POL": "Religia #bold nie#![RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is [TARGET_CULTURE.GetName]",
+    "RUS": "[PROVINCE.GetName] принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Na terenie [PROVINCE.GetAdjective] panuje kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_CULTURE_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "[PROVINCE.GetName] #bold не#! принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Na terenie [PROVINCE.GetAdjective] #bold nie#! panuje kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_CULTURE_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [TARGET_CULTURE.GetName]",
+    "RUS": "#L [TARGET_CULTURE.GetCollectiveNoun]ая#! культура",
+    "POL": "Kultura [TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_CULTURE_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! [TARGET_CULTURE.GetName]",
+    "RUS": "#bold Не#! принадлежит к #L [TARGET_CULTURE.GetCollectiveNoun|l]ой#! культуре",
+    "POL": "Kultura #bold nie#![TARGET_CULTURE.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_CAPITAL_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [CHARACTER.GetShortUINamePossessive] [realm_capital]",
+    "RUS": "[Concept( 'realm_capital', 'Столица державы' )|E], которой правит [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, 'персонаж', '' )]",
+    "POL": "Jest [Concept('realm_capital', 'stolicą państwa')|E], którym kieruje [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is [CHARACTER.GetShortUINamePossessive] #bold not#! [realm_capital]",
+    "RUS": "#bold Не#! [Concept( 'realm_capital', 'столица державы' )|E], которой правит [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, 'персонаж', '' )]",
+    "POL": "#bold Nie#! jest [Concept('realm_capital', 'stolicą państwa')|E], którym kieruje [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_CAPITAL_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[Concept( 'realm_capital', 'Столица державы' )|E], которой правит [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, 'персонаж', '' )] — [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[Concept('realm_capital', 'Stolicą państwa')|E], którym kieruje [CHARACTER.GetShortUINameNotMe], jest [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_CAPITAL_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "[PROVINCE.GetBaronyNameExplicitly] — #bold не#! [Concept( 'realm_capital', 'столица державы' )|E], которой правит  [CHARACTER.GetShortUINamePossessive] ",
+    "POL": "[Concept('realm_capital', 'Stolicą państwa')|E], którym kieruje [CHARACTER.GetShortUINameNotMe], #bold nie#! jest [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_CAPITAL_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Your [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "Ваша [Concept( 'realm_capital', 'столица державы' )|E] — [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "[PROVINCE.GetBaronyNameExplicitly] jest [Concept( 'realm_capital', 'stolicą' )|E] twojego państwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PROVINCE_CAPITAL_EQUAL_FIRST",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Your [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]",
+    "RUS": "Ваша [Concept( 'realm_capital', 'столица державы' )|E] — #bold не#! [PROVINCE.GetBaronyNameExplicitly]",
+    "POL": "Twoją [Concept('realm_capital', 'stolicą państwa')|E] #bold nie#! jest [PROVINCE.GetBaronyNameExplicitly]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName] is a [RELIGION.GetAdjective] [faith|E]",
+    "RUS": "#L [FAITH.GetName]ая#! [faith|El] относится к #L [RELIGION.GetName|l]ой#! религии",
+    "POL": "[FAITH.GetName] to [RELIGION.GetAdjective|l] [faith|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_RELIGION_EQUAL_THIRD",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName] is #bold not#! a [RELIGION.GetAdjective] [faith|E]",
+    "RUS": "#L [FAITH.GetName]ая#! [faith|El] #bold не#! относится к #L [RELIGION.GetName|l]ой#! группе",
+    "POL": "[FAITH.GetName] to #bold nie#![RELIGION.GetAdjective|l] [faith|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is a [RELIGION.GetAdjective] [faith|E]",
+    "RUS": "Это #L [RELIGION.GetName|l]ая#! [faith|El]",
+    "POL": "To [faith|El] [RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_RELIGION_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! a [RELIGION.GetAdjective] [faith|E]",
+    "RUS": "Это не #L [RELIGION.GetName|l]ая#! [faith|El]",
+    "POL": "To [faith|El] #bold nie#![RELIGION.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACCOLADE_TYPE_EQUAL_GLOBAL",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "This [accolade_type|e] is invalid",
+    "RUS": "Этот [Concept( 'accolade_type', 'тип акколады' )|E] недействителен",
+    "POL": "Ten [accolade_type|el] jest nieprawidłowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACCOLADE_TYPE_EQUAL_NONE",
+    "FILE_PATH": "localization/belarusian/scope_comparison_triggers_l_belarusian.json",
+    "ENG": "This [accolade_type|e] is invalid",
+    "RUS": "Этот [Concept( 'accolade_type', 'тип акколады' )|E] недействителен",
+    "POL": "Ten [accolade_type|el] jest nieprawidłowy",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,946 @@
+[
+  {
+    "KEY": "murder_save_header",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Murder Intercepter:",
+    "RUS": "Мешает убийству:",
+    "POL": "Przerwane morderstwo:",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.failure_known_owner_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[owner.GetTitledFirstNameNoTooltip] has failed to Murder me",
+    "RUS": "[owner.GetTitledFirstNameNoTooltip] не [Select_CString(murderer.IsFemale, 'сумела', 'сумел' )] меня убить",
+    "POL": "[owner.GetTitledFirstNameNoTooltip] nie zdołał[Select_CString( owner.IsFemale, 'a', '' )] mnie zamordować",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.failure_unknown_owner_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Someone has failed to Murder me",
+    "RUS": "Кто-то хотел меня убить, но не вышло",
+    "POL": "Ktoś poległ w próbie zamordowania mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.used_up_guile_legacy_5_save",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Spent the protection of [GetDynastyPerk('guile_legacy_5').GetName]",
+    "RUS": "Использовать защиту, что дает мне [GetDynastyPerk('guile_legacy_5').GetName]",
+    "POL": "Zużyto ochronę, którą dają [GetDynastyPerk('guile_legacy_5').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.dynasty_member_used_guile_legacy_5_save",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Murder Attempt",
+    "RUS": "Покушение на убийство",
+    "POL": "Usiłowanie zabójstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.dynasty_member_used_guile_legacy_5_save_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] survived an attempt on [target.GetHerHis] life due to the protection of [GetDynastyPerk('guile_legacy_5').GetName]!",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'пережила', 'пережил' )] попытку убийства благодаря защите, что дает [target.GetHerHim] [GetDynastyPerk('guile_legacy_5').GetName]!",
+    "POL": "[target.GetTitledFirstName] przeżył[Select_CString(target.IsFemale, 'a', '' )] zamach na swoje życie dzięki ochronie, którą dają [GetDynastyPerk('guile_legacy_5').GetName|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Foiled by Love",
+    "RUS": "$murder_save_header$ Любовь рушит козни",
+    "POL": "Zniewolon[Select_CString( target.IsFemale, 'a', 'y' )] przez miłość",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\\n\\nThe assassin made [dummy_assassin_gender.GetHerHis] way to the [target.GetTitleTierName]'s chambers, but found [target.GetHerHim] in the company of",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'должна была', 'должен был')] умереть, но мое покушение провалилось!\\n\\nУбийце удалось пробраться в покои жертвы, но там обнаружилось, что [target.GetTitledFirstName] не [Select_CString(target.IsFemale, 'одна', 'один')]! С [Select_CString(target.IsFemale, 'ней', 'ним')]",
+    "POL": "Moje starania, aby [target.GetTitledFirstName] został[Select_CString( target.IsFemale, 'a', '' )] pozbawion[Select_CString( target.IsFemale, 'a', 'y' )] życia, zostały udaremnione!\\n\\nWynajęt[Select_CString( dummy_assassin_gender.IsFemale, 'a przeze mnie zabójczyni udała', 'y przeze mnie zabójca udał' )] się do komnaty, w której miał[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] przebywać [target.GetTitleTierName], jednakże zastał[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] [Select_CString( target.IsFemale, 'ją', 'go' )] w towarzystwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.rel_to_me",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": " — my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — ",
+    "RUS": "[Select_CString(lover.IsFemale, 'была', 'был' )] — [Select_CString(lover.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] —",
+    "POL": "osoby, którą jest dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], ",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[lover.GetTitledFirstName], [target.GetHerHis] lover!\\n\\n[lover.GetFirstName] sprang to [target.GetFirstNamePossessive] aid, and the defensive struggle left both [lover.GetHerHim] and the assassin dead on the floor.",
+    "RUS": "[Select_CString(lover.IsFemale, 'была', 'был' )] [lover.GetTitledFirstName], [target.GetHerHis] [Select_CString(lover.IsFemale, 'любовница', 'любовник' )]!\\n\\n[lover.GetFirstName] [Select_CString(lover.IsFemale, 'бросилась', 'бросился' )] на помощь, убийца был мертв — как и [lover.GetFirstName].",
+    "POL": "[lover.GetTitledFirstName], [target.GetHerHis] kochan[Select_CString(lover.IsFemale, 'ka', 'ek' )]!\\n\\n[lover.GetFirstName] skoczył[Select_CString(lover.IsFemale, 'a', '' )] na pomoc [target.GetFirstName], a wyniku walki obronnej zarówno [lover.GetSheHe], jak i zabójca padli martwi na podłogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I will never get [target.GetHerHim] now.",
+    "RUS": "Теперь мне до н[SCOPE.sC('target').GetHerHis] не добраться.",
+    "POL": "Teraz już nigdy nie dam rady [Select_CString( target.IsFemale, 'jej', 'go' )] dosięgnąć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I need a new plan...",
+    "RUS": "Нужен новый план...",
+    "POL": "Potrzebuję nowego planu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Не смей!» — кричит [lover.GetTitledFirstName] и бросается на едва заметную во мраке фигуру, возникшую в моих покоях с кинжалом в руках.\\n\\nЯ и радуюсь, и сокрушаюсь, что этой ночью [SCOPE.sC('lover').GetTitledFirstName] со мной: без н[SCOPE.sC('lover').GetHerHis] мне не жить, но теперь [lover.GetSheHe] истекает кровью в моих объятиях, рядом с мертвым убийцей.",
+    "POL": "„Nie zrobisz [target.GetHerHim] krzywdy” – krzykn[Select_CString(lover.IsFemale, 'ęła', 'ął' )] [lover.GetTitledFirstName] i skoczył[Select_CString( lover.IsFemale, 'a', '' )] na zakapturzoną postać, która weszła do moich komnat ze sztyletem w ręku.\\n\\nCo za błogosławieństwo i przekleństwo, że był[Select_CString( lover.IsFemale, 'a', '' )] ze mną tej nocy. Bez nie[Select_CString( lover.IsFemale, 'j', 'go' )] kosztowałoby mnie to życie. Po całej walce trzymał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] [Select_CString( lover.IsFemale, 'ją', 'go' )] w swoich ramionach, wykrwawiając[Select_CString( lover.IsFemale, 'ą', 'ego' )] się, podczas gdy obok leżał martwy zabójca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "What cruel degenerate was behind this?",
+    "RUS": "Что за отвратительное чудовище могло устроить такое?",
+    "POL": "Jaki okrutny zwyrodnialec za tym stał?",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[owner.GetTitledFirstNameNoTooltip] will pay for this!",
+    "RUS": "[owner.GetTitledFirstNameNoTooltip] за это заплатит!",
+    "POL": "[owner.GetTitledFirstNameNoTooltip] zapłaci za to!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Better [lover.GetFirstNameNoTooltip] than me!",
+    "RUS": "Лучше [lover.GetFirstNameNoTooltip], чем я!",
+    "POL": "Lepiej [lover.GetFirstNameNoTooltip] niż ja!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Love [SCOPE.Custom('VenomousCreatureAttackPlural')|U]",
+    "RUS": "$murder_save_header$ [SCOPE.Custom('VenomousCreatureAttackPlural')|U] любви",
+    "POL": "$murder_save_header$ miłość [SCOPE.Custom('VenomousCreatureAttackPlural')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0002.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] is still alive!\\n\\nThe [SCOPE.Custom('VenomousCreature')] was planted in the [target.GetTitleTierNamePossessive] bed, but it struck the wrong target! Instead it is",
+    "RUS": "[SCOPE.sC('target').GetTitledFirstName] все еще [Select_CString(target.IsFemale, 'жива', 'жив' )]!\\n\\nКазалось бы, [SCOPE.Custom('VenomousCreature')] на кровати сулит верную смерть! И так оно и происходит, только жертвой яда становится не [SCOPE.sC('target').GetTitledFirstName], а",
+    "POL": "[target.GetTitledFirstName|U] wciąż żyje!\\n\\n[SCOPE.Custom('VenomousCreature')|U] w łóżku to był dobry pomysł, ale atak sięgnął niewłaściwego celu! Zamiast tego to",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0002.rel_to_me",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": " — my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — ",
+    "RUS": "[Select_CString(lover.IsFemale, 'была', 'был' )] — [Select_CString(lover.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] —",
+    "POL": "osoba, którą jest dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], ",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0002.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[lover.GetTitledFirstName], [target.GetHerHis] lover, who lies dead!",
+    "RUS": "[Select_CString(lover.IsFemale, 'была', 'был' )] [lover.GetTitledFirstName], [target.GetHerHis] [Select_CString(lover.IsFemale, 'любовница', 'любовник' )], и теперь [SCOPE.sC('lover').GetSheHe] [Select_CString(lover.IsFemale, 'мертва', 'мертв' )]!",
+    "POL": "[lover.GetTitledFirstName], [target.GetHerHis] kochan[Select_CString(lover.IsFemale, 'ka', 'ek' )], któr[Select_CString(lover.IsFemale, 'a', 'y' )] leży martw[Select_CString(lover.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[lover.Custom('LoverPetName')], вернись в постель...»\\n\\nЭто звучит так заманчиво, и я уже собираюсь воспользоваться приглашением, как вдруг [lover.GetSheHe] начинает страшно кричать. «Что случилось?!» — но не получаю ответа, ибо [lover.GetFirstName] уже бьется в судорогах. Тело [SCOPE.sC('lover').GetHerHis] изгибается, и я вижу, как среди простыней ползет [SCOPE.Custom('VenomousCreatureType')].\\n\\nВрач приходит слишком поздно — [lover.GetFirstName] уже коченеет. Я тоже едва могу пошевелиться, понимая, что яд твари предназначался мне.",
+    "POL": "– [lover.Custom('LoverPetName')|U]… Wracaj do łóżka…\\n\\nJuż mam zamiar skorzystać z zaproszenia, kiedy [lover.GetFirstName] zaczyna nagle krzyczeć.\\n\\n– Co to jest?!\\n\\nOdpowiedź na moje pytanie pojawia się, kiedy [lover.GetFirstName] skręca się i miota na tyle, by ujawnić pełzające po prześcieradle stworzenie, którym okazuje się być [SCOPE.Custom('VenomousCreatureType')].\\n\\nZanim przybędzie medyk, [lover.GetFirstName] sztywnieje, a [lover.Custom('PL_jego_jej')] ciało robi się zimne. Ja również zamieram, ponieważ ktoś wpuścił do mych komnat to paskudztwo, by zabić właśnie mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Assassin",
+    "RUS": "$murder_save_header$ Убийца",
+    "POL": "$murder_save_header$ zabójca",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] lives still!\\n\\nMy assassin made it to the [target.GetTitleTierName]'s chambers, but [broken_person.GetTitledFirstName] — of all people — intervened! [target.GetFirstName] has done nothing but torment [broken_person.GetHerHim], and yet [broken_person.GetSheHe] gave [broken_person.GetHerHis] life to protect [target.GetHerHim]. My assassin is just as dead, and [target.GetFirstName] gets to walk away.",
+    "RUS": "[SCOPE.sC('target').GetTitledFirstName] до сих пор [Select_CString(target.IsFemale, 'жива', 'жив' )]!\\n\\nУбийце удалось добраться до покоев, где [Select_CString(target.IsFemale, 'отдыхала', 'отдыхал' )] [SCOPE.sC('target').GetTitleTierName|l], но [Select_CString(broken_person.IsFemale, 'вмешалась', 'вмешался' )] — кто бы мог подумать — [SCOPE.sC('broken_person').GetTitledFirstName]! [SCOPE.sC('target').GetFirstName] только и [Select_CString(target.IsFemale, 'делала', 'делал' )], что [Select_CString(target.IsFemale, 'мучила', 'мучил' )] [SCOPE.sC('broken_person').GetHerHis], но внезапно [Select_CString(broken_person.IsFemale, 'вздумала', 'вздумал' )] отдать за н[SCOPE.sC('target').GetHerHis] жизнь. Убийца тоже мертв, зато [SCOPE.sC('target').GetFirstName] [Select_CString(target.IsFemale, 'цела и невредима', 'цел и невредим' )].",
+    "POL": "[target.GetTitledFirstName] nadal żyje!\\n\\nMój zabójca dotarł do komnat władcy, ale ze wszystkich ludzi zainterweniował[Select_CString(broken_person.IsFemale, 'a', '' )] akurat [broken_person.GetTitledFirstName]! [target.GetFirstName] nie robił nic poza dręczeniem [Select_CString(broken_person.IsFemale, 'jej', 'go' )], a mimo to oddał[Select_CString(broken_person.IsFemale, 'a', '' )] życie, by [Select_CString(target.IsFemale, 'ją', 'go' )] chronić. Mój zabójca również jest martwy, a [target.GetFirstName] ucieka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "What an unjust world we live in.",
+    "RUS": "Жизнь несправедлива.",
+    "POL": "W jakim niesprawiedliwym świecie przyszło nam żyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I must try with a new plan!",
+    "RUS": "Я придумаю новый план!",
+    "POL": "Muszę wypróbować nowy plan!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[broken_person.GetTitledFirstName] tries to remain impassive as the assassin advances on me.\\n\\n",
+    "RUS": "Когда убийца приближается ко мне, [broken_person.GetTitledFirstName] пытается сохранить бесстрастное выражение на лице.\\n\\n«Подумать только, [broken_person.GetFirstNameNoTooltip], сначала ты заявляешь о вечной преданности, а потом приводишь в мои покои убийцу?» [broken_person.GetHerHis|U] глаза мечутся между мной и оружием в руке убийцы. «Какое ужасное разочарование. Ты ведь не хочешь меня разочаровывать, правда?»\\n\\nЧто-то меняется в [broken_person.GetHerHis] взоре. С воплем [broken_person.GetSheHe] бросается на убийцу и после недолгой борьбы оба падают на пол замертво.",
+    "POL": "[broken_person.GetTitledFirstName] stara się pozostać niewzruszon[Select_CString( broken_person.IsFemale, 'a', 'y' )], gdy zabójca bliża się do mnie.\\n\\n– Prowadzisz zabójcę do moich komnat, gdy wcześniej wyznawał[Select_CString( broken_person.IsFemale, 'aś', 'eś' )] mi wieczną lojalność? – [broken_person.GetHerHis|U] oczy błądzą pomiędzy mną, a bronią trzymaną przez zabójcę. – Cóż za straszne rozczarowanie. Nie chciał[Select_CString( broken_person.IsFemale, 'a', '' )]byś być czyimś rozczarowaniem, prawda?\\n\\nCoś się zmienia w [broken_person.GetHerHis] oczach. Z krzykiem rzuca się na niedoszłego zabójcę. Po zakończeniu walki oboje leżą martwi na podłodze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Consider this an appropriate punishment, [broken_person.GetFirstNameNoTooltip].",
+    "RUS": "Считай это справедливым наказанием, [broken_person.GetFirstNameNoTooltip].",
+    "POL": "Uznaj to za odpowiednią karę, [broken_person.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Accosted",
+    "RUS": "$murder_save_header$ Эй, там!",
+    "POL": "$murder_save_header$ zaczepka z zaskoczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] is still alive!\\n\\nMy hired thugs ambushed [target.GetHerHis] retinue as planned, but failed to overpower them! They might have been able to seize the [target.GetTitleTierName] had it not been for that vicious and thrice-damned warhorse [target.GetSheHe] is so proud of!",
+    "RUS": "[target.GetTitledFirstName] все еще [Select_CString(target.IsFemale, 'жива', 'жив' )]!\\n\\nНаемники устроили засаду на [target.GetHerHis] свиту, но получили отпор! [target.GetTitleTierName] [Select_CString(target.IsFemale, 'могла', 'мог' )] оказаться у них в руках, если бы не трижды проклятый боевой конь, которым [target.GetSheHe] так гордится!",
+    "POL": "[target.GetTitledFirstName] wciąż żyje!\\n\\nWynajęte przeze mnie zbiry zasadziły się na [target.GetHerHis] orszak zgodnie z planem, ale nie udało im się ich obezwładnić! Być może udałoby im się [Select_CString(target.IsFemale, 'ją', 'go' )] pojmać, gdyby nie ten okrutny i potrójnie przeklęty koń bojowy, z którego jest tak dumn[Select_CString(target.IsFemale, 'y', 'a' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_failure_warhorse_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNamePossessiveNoTooltip] warhorse dies from its wounds",
+    "RUS": "[target.GetFirstNamePossessiveNoTooltip] теряет боевого коня: тот умирает от ран",
+    "POL": "[target.GetHerHis] koń bojowy umiera z powodu ran",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I am traveling with my retinue when a shout comes from a copse of trees. ",
+    "RUS": "Я скачу в сопровождении свиты, когда из-за деревьев внезапно раздается истошное: «В атаку! [ROOT.Char.GetTitleTierName] не [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] уйти!» Засада!\\n\\nЭто не простые разбойники, охочие до золота, это наемные бандиты, и им нужна моя голова! К счастью, [ROOT.Char.Custom('HorseStoryMareStallion')] знает, что делать! Пока охрана пробивается ко мне, [ROOT.Char.Custom('HorseStorySheHe')] становится на дыбы и молотит воздух копытами, не подпуская никого на расстояние удара.",
+    "POL": "Podróżuję wraz z moim orszakiem, gdy zza drzew dobiega krzyk: „Atak! [ROOT.Char.GetTitleTierName] nie może uciec!” Zasadzka!\\n\\nTo nie są zwykli bandyci żądni złota, ale najęte zbiry chcące mojej głowy! Jednak [Select_CString(EqualTo_string(ROOT.Char.Custom('HorseStorySheHe'), 'ona' ), 'moja zaufana klacz', 'mój zaufany ogier' )] wie, co robić! Cofa się i kopie, by uchronić mnie przed ich ostrzami, podczas gdy moi strażnicy zbierają się, by ich odeprzeć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.warhorse_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nIt is only when the fighting has subsided that [ROOT.Char.Custom('WarhorseStoryName')] buckles underneath me, and I discover [ROOT.Char.Custom('HorseStoryHerHis')] deep wounds. [ROOT.Char.Custom('HorseStorySheHe')|U] truly protected me until the very last...",
+    "RUS": "\\n\\nЛишь когда бой заканчивается, [ROOT.Char.Custom('WarhorseStoryName')] внезапно оступается подо мной, и я вижу [ROOT.Char.Custom('HorseStoryHerHis')] глубокие раны. Благородное животное действительно защищало меня до конца...",
+    "POL": "\\n\\nDopiero gdy walka cichnie, [ROOT.Char.Custom('WarhorseStoryName')] ugina się pode mną i odkrywam [ROOT.Char.Custom('HorseStoryHerHis')] głębokie rany. Naprawdę chronił mnie aż do końca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "These thugs were in someone's employment, but whose?",
+    "RUS": "Этих громил кто-то нанял, но кто?",
+    "POL": "Ktoś zatrudnił tych bandytów, ale kto?",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "It is obvious who was behind this!",
+    "RUS": "Совершенно ясно, кто за этим стоит!",
+    "POL": "To oczywiste kto za tym stoi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I will find who did this!",
+    "RUS": "Я найду того, кто это сделал!",
+    "POL": "Dowiem się, kto to zrobił!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1004.d",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "You have cost me a damn fine horse, [owner.GetFirstNameNoTooltip]!",
+    "RUS": "Ты [Select_CString(owner.IsFemale, 'лишила', 'лишил' )] меня превосходного скакуна, [owner.GetFirstNameNoTooltip]!",
+    "POL": "Kosztował[Select_CString( owner.IsFemale, 'aś', 'eś' )] mnie cholernie dobrego konia, [owner.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_warhorse_dies_to_thugs",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "#F [THIS.Char.Custom('WarhorseStoryName')] dies from [THIS.Char.Custom('HorseStoryHerHis')] wounds#!",
+    "RUS": "#F [THIS.Char.Custom('WarhorseStoryName')] умирает от ран#!",
+    "POL": "#F [THIS.Char.Custom('WarhorseStoryName')] umiera od zadanych ran#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Alarm Raised",
+    "RUS": "$murder_save_header$ Поднята тревога",
+    "POL": "$murder_save_header$ podniesiono alarm",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "The group of conspirators made their way to [target.GetTitledFirstNamePossessive] cell, but the prisoner started making a vicious racket. Paying off the jailer is one thing, but it is something else to pretend that nothing is going on when the entire castle is woken up!\\n\\nMy assassins beat a hasty retreat, and [target.GetFirstName] remains safe...",
+    "RUS": "Группа заговорщиков пробралась в камеру, где [Select_CString(target.IsFemale, 'сидела', 'сидел' )] [target.GetTitledFirstNamePossessive], но [Select_CString(target.IsFemale, 'пленница подняла', 'пленник поднял' )] ужасный шум. Одно дело — подкупить тюремщика, другое — делать вид, что ничего не происходит, когда просыпается весь замок!\\n\\nУбийцы спешно ретировались, а [target.GetFirstName] и поныне [Select_CString(target.IsFemale, 'жива и здорова', 'жив и здоров' )]...",
+    "POL": "Grupa konspiratorów dociera do celi, w której przebywa [target.GetTitledFirstName], ale więzień zaczyna zaciekle hałasować. Przekupienie strażnika to jedno, ale udawanie, że nic się nie dzieje, gdy budzi się cały zamek, to coś zupełnie innego!\\n\\nZabójcy szybko się wycofują, a [target.GetFirstName] pozostaje bez szwanku…",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I do not know who the cloaked figures who have suddenly appeared in my cell are, but I know they are here to hurt me. They do not expect my defender, however.\\n\\n",
+    "RUS": "Не знаю, что за темные личности в плащах внезапно возникли у меня в камере, но могу сказать с уверенностью, что ничего хорошего от них ждать не приходится. А вот они не ожидали, что у меня будет защитник.\\n\\n«Взять их!» — кричу я, и [ROOT.Char.Custom('prison_pet')] налетает на негодяев, приготовившись биться насмерть! Будут знать, какие у меня друзья! Я начинаю кричать и подбадривать своего бойца, и они в ужасе бегут!\\n\\nВскоре тюремщик приходит, чтобы избить меня и заставить замолчать, но, по крайней мере, я все еще дышу.",
+    "POL": "Nie znam zakapturzonych postaci, które zjawiają się nagle w mojej celi, ale wiem, że są tu po to, by mnie skrzywdzić. Nie spodziewają się jednak obecności mojego obrońcy.\\n\\n– Bierz ich! – krzyczę, a [ROOT.Char.Custom('prison_pet')] leci w ich stronę, by walczyć o moje życie. Wiem, że nie mają szans z moim przyjacielem, a gdy zaczynam krzyczeć i wiwatować, uciekają w popłochu!\\n\\nWkrótce przychodzi strażnik i ucisza mnie paroma ciosami, ale przynajmniej wciąż oddycham.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I owe you my life, [ROOT.Char.Custom('prison_pet')].",
+    "RUS": "Без тебя меня бы убили, [ROOT.Char.Custom('prison_pet')].",
+    "POL": "Niby to tylko [ROOT.Char.Custom('prison_pet')]… Zawdzięczam ci życie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1005.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Your sacrifice has not been in vain, my [ROOT.Char.Custom('prison_pet')]!",
+    "RUS": "Твоя жертва не пропадет втуне, [ROOT.Char.Custom('prison_pet')]!",
+    "POL": "Niby to tylko [ROOT.Char.Custom('prison_pet')]… Twoja ofiara nie poszła na marne!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Guardians",
+    "RUS": "$murder_save_header$ Охрана",
+    "POL": "$murder_save_header$ straże",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0006.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My ",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'оказалась', 'оказался' )] в окружении моих «наемных помощников», и все бы получилось, если бы мы заранее знали, что встретим личную охрану,",
+    "POL": "Zgodnie z planem [target.GetTitledFirstName] pada ofiarą ataku „wynajętej przeze mnie pomocy”, jednakże mój plan nie przewidywał osobistej ochrony, która",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0006.spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[spouse.GetTitledFirstName] had raised for [target.GetHerHim].",
+    "RUS": "которую [Select_CString(spouse.IsFemale, 'приставила', 'приставил' )] к н[target.GetHerHim] [spouse.GetTitledFirstName].",
+    "POL": "została zebrana dla [target.Custom('PL_niego_niej')] przez osobę znaną jako [spouse.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0006.no_spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "that had been raised by [target.GetHerHis] spouse.",
+    "RUS": "которую лично [Select_CString(spouse.IsFemale, 'отбирала', 'отбирал' )] [target.GetHerHis] [Select_CString(spouse.IsFemale, 'супруга', 'супруг' )].",
+    "POL": "została zebrana przez osobę, z którą łączy [target.Custom('PL_go_ja')] małżeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0006.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nThey fought awfully bravely and disgustingly well, well enough that [target.GetFirstName] still lives to see another day.",
+    "RUS": "\\n\\nОни сражались ужасно храбро и до отвращения хорошо — достаточно хорошо, чтобы [target.GetFirstName] [Select_CString(target.IsFemale, 'выжила', 'выжил' )].",
+    "POL": "\\n\\nWalczyli strasznie dzielnie i obrzydliwie dobrze, na tyle dobrze, że [target.GetFirstName] dożył[Select_CString( target.IsFemale, 'a', '' )] jeszcze jednego dnia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1006.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I was out traveling when my retinue was accosted by a band of thugs! Thankfully, the guard raised for me by",
+    "RUS": "Мы со свитой были в пути, когда на нас набросилась банда головорезов! К счастью, мои охранники,",
+    "POL": "Był[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] w podróży, kiedy mój orszak został napadnięty przez bandę zbirów! Na szczęście",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1006.spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[spouse.GetTitledFirstName]",
+    "RUS": "которых [Select_CString(spouse.IsFemale, 'наняла', 'нанял' )] [SCOPE.sC('spouse').GetTitledFirstName],",
+    "POL": "straże, które wybrał[Select_CString(spouse.IsFemale, 'a', '' )] dla mnie [spouse.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1006.no_spouse",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "my spouse",
+    "RUS": "которых лично [Select_CString(spouse.IsFemale, 'отбирала', 'отбирал' )] [Select_CString(spouse.IsFemale, 'моя', 'мой' )] [Select_CString(spouse.IsFemale, 'супруга', 'супруг' )],",
+    "POL": "straże, które wybrał[Select_CString(spouse.IsFemale, 'a', '' )] [Select_CString(ROOT.Char.IsFemale, 'moja małżonka', 'mój małżonek' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1006.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "fought valiantly, and protected me from the attack.\\n\\nAs they struggled to the last, it became clear that these bandits were not after gold, but my life! In the end they were driven off, but my personal guard was nearly annihilated.",
+    "RUS": "дали суровый отпор и сумели меня защитить.\\n\\nБой завязался не на жизнь, а на смерть: вскоре стало понятно, что разбойникам нужно не золото, но моя голова! В конце концов негодяи бежали, но от моей личной охраны мало что осталось.",
+    "POL": "walczyły dzielnie i ochroniły mnie przed atakiem.\\n\\nKiedy walczyli do końca, stało się jasne, że ci bandyci nie pragnęli złota, ale mojego życia! W końcu zostali przepędzeni, ale z mojej osobistej straży niewiele zostało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0007.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Furry Guardian",
+    "RUS": "$murder_save_header$ пушистый страж",
+    "POL": "$murder_save_header$ futrzany opiekun",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0007.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] is still alive!\\n\\nThe [SCOPE.Custom('VenomousCreature')] was planted in the [target.GetTitleTierNamePossessive] bed, but before it could strike the [target.GetTitleTierNamePossessive] cat made a ruckus and started fighting the creature!",
+    "RUS": "[target.GetTitledFirstName] еще [Select_CString(target.IsFemale, 'жива', 'жив' )]!\\n\\nЕдва [SCOPE.Custom('VenomousCreature')] оказывается в кроватке, где спит [target.GetTitleTierName|l], весь замысел портит кот, который тут же набрасывается на мелкую добычу.",
+    "POL": "[target.GetTitledFirstName|U] wciąż żyje!\\n\\n[SCOPE.Custom('VenomousCreature')|U] w łóżku to był dobry pomysł, ale zanim atak mógł dojść do skutku, kot zrobił zamieszanie i odstraszył to jadowite paskudztwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_failure_cat_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNamePossessiveNoTooltip] cat dies from its wounds",
+    "RUS": "[target.GetFirstNamePossessiveNoTooltip] теряет кошку: та умирает от ран",
+    "POL": "[target.GetHerHis] kot umiera z powodu ran",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "As I enter my chamber I immediately notice that my dear cat, [THIS.Char.Custom('CatStoryName')], is on edge – [THIS.Char.Custom('CatStorySheHe')] is pacing before my bed in obvious agitation. Like a streak of [THIS.Char.Custom('CatFurColor')] lightning [THIS.Char.Custom('CatStorySheHe')] suddenly pounces, exposing the [SCOPE.Custom('VenomousCreatureType')] between my sheets!",
+    "RUS": "Войдя в комнату, я сразу замечаю, что мой любимец, [THIS.Char.Custom('CatStoryName')], на пределе — [THIS.Char.Custom('CatStorySheHe')] бегает перед моей кроватью в явном возбуждении. Словно [THIS.Char.Custom('CatFurColor')] всполох, [THIS.Char.Custom('CatStorySheHe')] вдруг прыгает и открывает, что под моими простынями скрывается [SCOPE.Custom('VenomousCreatureType')]!",
+    "POL": "Gdy wchodzę do mojej komnaty, natychmiast zauważam, że [THIS.Char.Custom('CatStoryName')], moje ukochane zwierzątko, wykazuje niepokój i kręci się nerwowo wokół mojego łóżka. Niczym [THIS.Char.Custom('CatFurColor')] błyskawice jej łapy rzucają się nagle do ataku, odsłaniając jakieś stworzenie na moim prześcieradle. To [SCOPE.Custom('VenomousCreatureType')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.cat_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nThe horrible creature does not go down easily, and as [THIS.Char.Custom('CatStoryName')] finally bites into its neck [THIS.Char.Custom('CatStorySheHe')] [THIS.Char.Custom('CatStoryHerselfHimself')] is too far gone to save.",
+    "RUS": "\\n\\nНо жуткое существо не сдается без боя: лишь на грани смерти [THIS.Char.Custom('CatStoryName')] успевает убить врага.",
+    "POL": "\\n\\nStraszne stworzenie nie poddaje się łatwo, a gdy [THIS.Char.Custom('CatStoryName')] w końcu wgryza się w jego szyję, [THIS.Char.Custom('CatStoryHerselfHimself')] jest już zbyt daleko, by [Select_CString(EqualTo_string(THIS.Char.Custom('CatStorySheHe'), 'ona' ), 'jej', 'go' )] uratować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I owe you my life, [THIS.Char.Custom('CatStoryName')]!",
+    "RUS": "Без тебя меня бы убили, [THIS.Char.Custom('CatStoryName')]!",
+    "POL": "Zawdzięczam ci życie, [THIS.Char.Custom('CatStoryName')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "It is obvious who was behind this!",
+    "RUS": "Совершенно ясно, кто за этим стоит!",
+    "POL": "To oczywiste, kto za tym stoi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I will find who did this!",
+    "RUS": "Я найду того, кто это сделал!",
+    "POL": "Dowiem się, kto to zrobił!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1007.d",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "You will pay for this, [owner.GetFirstNameNoTooltip]!",
+    "RUS": "[owner.GetFirstNameNoTooltip], ты за это заплатишь!",
+    "POL": "Zapłacisz za to, [owner.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_creepy_crawlies_cat_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[THIS.Char.Custom('CatStoryName')] dies from [THIS.Char.Custom('CatStoryHerHis')] wounds",
+    "RUS": "[THIS.Char.Custom('CatStoryName')] умирает от ран",
+    "POL": "[THIS.Char.Custom('CatStoryName')] umiera z powodu ran",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0008.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Furry Guardian",
+    "RUS": "$murder_save_header$ пушистый страж",
+    "POL": "$murder_save_header$ futrzany opiekun",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\\n\\nThe assassin made [dummy_assassin_gender.GetHerHis] way to the [target.GetTitleTierNamePossessive] chambers, but before [dummy_assassin_gender.GetSheHe] could strike a dog started barking! The [target.GetTitleTierNamePossessive] dog, that [target.GetSheHe] is so damn proud of, quickly scared the assassin off.",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'должна была', 'должен был' )] умереть, но мое покушение провалилось!\\n\\nУбийце удалось пробраться в покои жертвы, но прежде чем [dummy_assassin_gender.GetSheHe] [Select_CString(dummy_assassin_gender.IsFemale, 'нанесла', 'нанес' )] удар, начала лаять собака! Та самая собака, которой так гордится [target.GetTitleTierName|l]! Убийце пришлось бежать.",
+    "POL": "Mój zamach, którego celem był[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName], został udaremniony!\\n\\nZabójc[Select_CString( dummy_assassin_gender.IsFemale, 'zyni', 'a' )] skierował[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] się do komnat, w których przebywał[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitleTierName], ale zanim zdążył[Select_CString( dummy_assassin_gender.IsFemale, 'a', '' )] uderzyć, pies zaczął szczekać! Pies, z którego jest [target.GetSheHe] tak cholernie dumn[Select_CString( target.IsFemale, 'a', 'y' )], szybko odstraszył zabójc[Select_CString( dummy_assassin_gender.IsFemale, 'zynię', 'ę' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "As soon I enter my chambers my dear dog, [ROOT.Char.Custom('DogStoryName')], starts barking, and suddenly [ROOT.Char.Custom('DogStorySheHe')] lunges for a dark shadow... A shadow that stumbles! [ROOT.Char.Custom('DogStoryName')] chases the would be assassin until I call [ROOT.Char.Custom('DogStoryHerHim')] back to my side.",
+    "RUS": "Как только я вхожу в покои, моя любимая собака [ROOT.Char.Custom('DogStoryName')] начинает лаять, а затем вдруг бросается на темную тень... Тень спотыкается! [ROOT.Char.Custom('DogStoryName')] преследует несостоявшегося убийцу, пока я не отзываю [ROOT.Char.Custom('DogStoryHerHis')].",
+    "POL": "Gdy tylko wchodzę do moich komnat, towarzyszący mi pies, który wabi się [ROOT.Char.Custom('DogStoryName')], zaczyna ujadać i nagle rzuca się na jakiś cień… a ten cień potyka się! [ROOT.Char.Custom('DogStoryName')] zaczyna gonić niedoszłego zabójcę, dopóki nie daję sygnału do powrotu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1008.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I owe you my life, [ROOT.Char.Custom('DogStoryName')]!",
+    "RUS": "Без тебя меня бы убили, [ROOT.Char.Custom('DogStoryName')]!",
+    "POL": "Zawdzięczam ci życie, [ROOT.Char.Custom('DogStoryName')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0009.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Family Connections",
+    "RUS": "$murder_save_header$ Семейные связи",
+    "POL": "$murder_save_header$ rodzinne powiązania",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "In the very last moments of my scheme to murder [target.GetTitledFirstName], everything has fallen apart!\\n\\nIt seems my efforts had been completely infiltrated by supporters of the [target.GetDynasty.GetBaseName] Dynasty, and on the fateful night, everyone else were stopped before the plot was even put into motion!",
+    "RUS": "Когда все готово, когда [target.GetTitledFirstName] должен вот-вот [Select_CString(target.IsFemale, 'должна', 'должен' )] умереть, все вдруг рассыпается!\\n\\nПохоже, в дело вмешались сторонники династии [target.GetDynasty.GetBaseName], и одной судьбоносной ночью все участники заговора выявлены и так и не приводят свой план в действие",
+    "POL": "W ostatnich chwilach wprowadzania w życie mojego spisku, w którym [target.GetTitledFirstName] miał[Select_CString( target.IsFemale, 'a', '' )] zostać zamordowan[Select_CString( target.IsFemale, 'a', 'y' )], wszystko się rozpadło!\\n\\nWygląda na to, że moje wysiłki zostały całkowicie zinfiltrowane przez zwolenników dynastii [target.GetDynasty.GetBaseName]. Tej fatalnej nocy wszyscy zostali powstrzymani, nim spisek zdążył zostać wprowadzony w życie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I must retreat, before they seek vengeance!",
+    "RUS": "Нужно отступить, пока они не решили мне отомстить!",
+    "POL": "Muszę się wycofać, zanim zaczną szukać zemsty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0009.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "What has been lost, I can rebuild.",
+    "RUS": "Я восстановлю все утраченное.",
+    "POL": "To, co zostało utracone, mogę odbudować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.targets_guile_legacy_save_used_up",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] cannot be saved by [GetDynastyPerk( 'guile_legacy_5' ).GetName] again",
+    "RUS": "[target.GetShortUIName|U] не может снова рассчитывать, что [GetDynastyPerk( 'guile_legacy_5' ).GetName] помогут [Select_CString(target.IsFemale, 'ей', 'ему' )]",
+    "POL": "[target.GetShortUINameNotMe|U] nie może zostać ponownie uratowan[Select_CString(target.IsFemale, 'a', 'y' )] przez [GetDynastyPerk( 'guile_legacy_5' ).GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1009.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "An attempt on my life has been foiled!",
+    "RUS": "Покушение на меня провалилось!",
+    "POL": "Zamach na moje życie został udaremniony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1009.owner_discovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\n[owner.GetTitledFirstName] had laid careful plans, but those did not account for the fact that [owner.GetHerHis] plot was infiltrated by supporters of House [target.GetHouse.GetNameNoTooltip]!",
+    "RUS": "\\n\\n[owner.GetTitledFirstName] все тщательно [Select_CString(owner.IsFemale, 'спланировала', 'спланировал' )], но не [Select_CString(owner.IsFemale, 'учла', 'учел' )] того факта, что в [owner.GetHerHis] происки вмешались сторонники дома [target.GetHouse.GetNameNoTooltip]!",
+    "POL": "\\n\\n[owner.GetTitledFirstName] miał[Select_CString( owner.IsFemale, 'a', '' )] starannie opracowane plany, ale nie uwzględniały one faktu, że do je[Select_CString( owner.IsFemale, 'j', 'go' )] spisku przeniknęli zwolennicy z rodu [target.GetHouse.GetNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1009.owner_not_discovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nThankfully, whoever laid this vicious plot did not account for their scheme to be infiltrated by agents virtuously loyal to House [target.GetHouse.GetNameNoTooltip]!",
+    "RUS": "\\n\\nК счастью, кто бы ни планировал эти коварные происки, он не учел того, что в них могут внедриться агенты, искренне преданные дому [target.GetHouse.GetNameNoTooltip]!",
+    "POL": "\\n\\nNa szczęście ten, kto uknuł ten podstępny spisek, nie wziął pod uwagę, że jego intrygę zinfiltrują wspólnicy cnotliwie lojalni wobec rodu [target.GetHouse.GetNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1009.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nThe plot fell apart, even as it was being put into motion, and my life is still safe.",
+    "RUS": "\\n\\nПроиски развалились, хотя и были приведены в движение. Моей жизни ничто не угрожает.",
+    "POL": "\\n\\nSpisek rozpadł się już w trakcie jego realizacji, a moje życie nadal pozostało bezpieczne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My very name saved my life!",
+    "RUS": "Само мое имя спасло мне жизнь!",
+    "POL": "Moje imię uratowało mi życie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Varangians",
+    "RUS": "$murder_save_header$ Варяги",
+    "POL": "$murder_save_header$ waregowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\\n\\nThe assassin was stopped by one of those insipid Varangians! I suppose the [target.GetTitleAsNameNoTooltip] got [target.GetHerHis] guard after all...",
+    "RUS": "Мое покушение сорвалось — [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'выжила', 'выжил' )]!\\n\\nУбийце помешал один из этих тупых варягов! Полагаю, [target.GetTitleAsNameNoTooltip|l] все же [Select_CString(target.IsFemale, 'получила', 'получил' )] свою стражу...",
+    "POL": "Mój plan zamachu, którego celem był[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName], został udaremniony!\\n\\nZabójcę powstrzymał jeden z tych mdłych Waregów! Przypuszczam, że [target.GetTitleAsNameNoTooltip] mimo wszystko dostał[Select_CString( target.IsFemale, 'a', '' )] swoją gwardię…",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0010.varangian_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nAt least the assassin got the better of the guard. [varangian.GetTitledFirstName] won't get in my way again.",
+    "RUS": "\\n\\nПо крайней мере, убийца расправился со стражником. [varangian.GetTitledFirstName] больше не встанет у меня на пути.",
+    "POL": "\\n\\nPrzynajmniej wynajęty przeze mnie zabójca poradził sobie ze strażnikiem. [varangian.GetTitledFirstName] nie będzie mi już więcej przeszkadzać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I will never get [target.GetHerHim] now!",
+    "RUS": "Теперь мне до н[SCOPE.sC('target').GetHerHis] не добраться!",
+    "POL": "Teraz już nigdy nie dam rady [Select_CString( target.IsFemale, 'jej', 'go' )] dosięgnąć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I need a new plan...",
+    "RUS": "Нужен новый план...",
+    "POL": "Potrzebuję nowego planu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "An assassin has made an attempt on my life! Thankfully, [varangian.GetFirstName], a member of my Varangian Guard, was right outside my chambers and swiftly intervened. [varangian.GetSheHe|U] made quick work of the assassin before I came to any harm.",
+    "RUS": "Убийца покушался на мою жизнь! К счастью, [varangian.GetFirstName], член моей варяжской гвардии, [Select_CString(varangian.IsFemale, 'стояла за дверью и смогла', 'стоял за дверью и смог' )] своевременно вмешаться. [varangian.GetSheHe|U] быстро [Select_CString(varangian.IsFemale, 'расправилась', 'расправился' )] с убийцей — тот вовсе не успел мне навредить.",
+    "POL": "Zabójca podjął się zamachu na moje życie! Na szczęście [varangian.GetFirstName], człon[Select_CString( varangian.IsFemale, 'kini', 'ek' )] mojej gwardii wareskiej, był[Select_CString( varangian.IsFemale, 'a', '' )] tuż przed drzwiami moich komnat i szybko interweniował[Select_CString( varangian.IsFemale, 'a', '' )]. Skutecznie rozprawił[Select_CString( varangian.IsFemale, 'a', '' )] się z zabójcą, zanim stała mi się jakakolwiek krzywda.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1010.varangian_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Tragically, [varangian.GetFirstNameNoTooltip] suffered fatal wounds in the process.",
+    "RUS": "К сожалению, [varangian.GetFirstNameNoTooltip] [Select_CString(varangian.IsFemale, 'получила', 'получил' )] смертельные раны, защищая меня.",
+    "POL": "Niestety, [varangian.GetFirstNameNoTooltip] odni[Select_CString( ROOT.Char.IsFemale, 'osła', 'ósł' )] przy tym śmiertelne rany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1010.owner_discovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "\\n\\nThere can be no doubt that this was all the doing of [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "RUS": "\\n\\nНет никаких сомнений в том, что за этим стоит [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "POL": "\\n\\nNie ma wątpliwości, że za tym wszystkim stoi [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Who could be behind this vicious attempt?",
+    "RUS": "Кто может стоять за столь подлым покушением?",
+    "POL": "Kto może stać za tym podstępnym zamachem?",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[owner.GetSheHe|U] will pay for this!",
+    "RUS": "[owner.GetSheHe|U] за это заплатит!",
+    "POL": "Zapłaci za to!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ The Hungry Cat",
+    "RUS": "$murder_save_header$: голодная кошка",
+    "POL": "$murder_save_header$ głodny kot",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\\n\\nThe poison, the duck, the meal... Everything was going according to plan until [target.GetHerHis] cat sneaked a piece off of [target.GetHerHis] plate before [target.GetSheHe] had time to eat! Seeing the cat twist in pain until dead somewhat discouraged [target.GetTitledFirstNameNoTooltip] from partaking in [target.GetHerHis] meal.",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'избежала', 'избежал' )] моей попытки покушения!\\n\\nЯд, утка, блюдо... Все шло по плану, пока [target.GetHerHis] кошка не стащила кусок с тарелки, прежде чем [target.GetSheHe] [Select_CString(target.IsFemale, 'сама успела', 'сам успел' )] откусить! Посмотрев на то, как корчится от боли и умирает кошка, [target.GetTitledFirstNameNoTooltip] [Select_CString(target.IsFemale, 'передумала', 'передумал' )] пробовать блюдо.",
+    "POL": "Mój zamach, którego celem był[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName], został udaremniony!\\n\\nTrucizna, kaczka, posiłek… Wszystko szło zgodnie z planem, dopóki [target.GetHerHis] kot ukradł kawałka mięsa z talerza, nim [target.GetSheHe] zdążył[Select_CString( target.IsFemale, 'a', '' )] go zjeść. Widok wijącego się z bólu kota prawdopodobnie sprawił, że [target.GetTitledFirstNameNoTooltip] powstrzymał[Select_CString( target.IsFemale, 'a', '' )] się przed zjedzeniem czegokolwiek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_poison_cat_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNamePossessiveNoTooltip] cat dies from the poison",
+    "RUS": "Кошка персонажа [target.GetTitledFirstNameNoTooltip] умирает от яда",
+    "POL": "[target.GetHerHis] kot umiera od trucizny",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "As I sit down to eat, my cat, [ROOT.Char.Custom('CatStoryName')], jumps up onto my lap, swatting at my plate, and I let [ROOT.Char.Custom('CatStoryHerHim')] swipe a piece before [ROOT.Char.Custom('CatStorySheHe')] jumps down again.\\n\\nJust as I am about to start eating, I am startled by yowling, loud and pained. [ROOT.Char.Custom('CatStoryName')] is writhing on the floor, [ROOT.Char.Custom('CatStoryHerHis')] screams of pain growing weaker and weaker as [ROOT.Char.Custom('CatStorySheHe')] falls still. The food was poisoned?!",
+    "RUS": "Когда я сажусь есть, моя кошка [ROOT.Char.Custom('CatStoryName')] запрыгивает на колени, бьет лапой по моей тарелке, и я позволяю ей стащить кусок, прежде чем сбрасываю ее на пол.\\n\\nКогда же я собираюсь приняться за еду, меня отвлекает болезненный вой: [ROOT.Char.Custom('CatStoryName')] корчится на полу. Ее болезненные крики становятся все тише и тише, а потом кошка замирает. Еда была отравлена?!",
+    "POL": "Gdy siadam do jedzenia, mój kot, [ROOT.Char.Custom('CatStoryName')], wskakuje mi na kolana i uderza łapą w stojący przede mną talerz, a zanim zeskakuje, pozwalam mu zwędzić jakiś smaczny kąsek.\\n\\nNie mam szans, by zacząć jeść, bo zaskakuje mnie głośne i rozpaczliwe miauczenie. [ROOT.Char.Custom('CatStoryName')] wije się na podłodze. Jego zbolałe piski stają się coraz słabsze i słabsze, po czym pada martwy. Jedzenie było zatrute?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_poison_cat_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[THIS.Char.Custom('CatStoryName')] saved you and died from the poison",
+    "RUS": "[THIS.Char.Custom('CatStoryName')] спасает вас от яда",
+    "POL": "[THIS.Char.Custom('CatStoryName')] uratował cię i umarł od trucizny",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ The Hungry Dog",
+    "RUS": "$murder_save_header$: голодная собака",
+    "POL": "$murder_save_header$ głodny pies",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] still lives!\\n\\nThe poison, the duck, the meal... Everything was going according to plan until [target.GetHerHis] dog begged a piece off of [target.GetHerHis] plate before [target.GetSheHe] had time to eat! Seeing the dog twist in pain until dead somewhat discouraged [target.GetTitledFirstNameNoTooltip] from partaking in [target.GetHerHis] meal.",
+    "RUS": "[target.GetTitledFirstName] еще [Select_CString(target.IsFemale, 'жива', 'жив' )]!\\n\\nЯд, утка, блюдо... Все шло по плану, пока [target.GetHerHis] собака не выпросила себе кусок с тарелки, прежде чем [target.GetSheHe] [Select_CString(target.IsFemale, 'сама успела', 'сам успел' )] откусить! Посмотрев на то, как корчится от боли и умирает [target.GetHerHis] собака, [target.GetTitledFirstNameNoTooltip] [Select_CString(target.IsFemale, 'передумала', 'передумал' )] пробовать блюдо.",
+    "POL": "[target.GetTitledFirstName] wciąż żyje!\\n\\nTrucizna, kaczka, posiłek… Wszystko szło zgodnie z planem, dopóki [target.GetHerHis] pies nie wyżebrał kawałka z talerza, nim zdążył[Select_CString( target.IsFemale, 'a', '' )] zjeść! Widok psa skręcającego się z bólu aż do śmierci spowodował, że [target.GetTitledFirstNameNoTooltip] nieco zniechęcił[Select_CString( target.IsFemale, 'a', '' )] się do dalszego jedzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_poison_dog_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNamePossessiveNoTooltip] dog dies from the poison",
+    "RUS": "Собака персонажа [target.GetTitledFirstNameNoTooltip] умирает от яда",
+    "POL": "[target.GetHerHis] pies umiera od trucizny",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "As I sit down to eat, my dog, [ROOT.Char.Custom('DogStoryName')], follows me with begging eyes, and I smoothly drop a piece from my plate to the floor for [ROOT.Char.Custom('DogStoryHerHim')].\\n\\nJust as I am about to start eating I am startled by a loud whimper, pained and whining. [ROOT.Char.Custom('DogStoryName')] is writhing on the floor, [ROOT.Char.Custom('DogStoryHerHis')] complaining growing weaker and weaker as [ROOT.Char.Custom('DogStorySheHe')] falls still. The food was poisoned?!",
+    "RUS": "Когда я сажусь есть, моя собака [ROOT.Char.Custom('DogStoryName')] смотрит на меня умоляющими глазами, и я привычным жестом бросаю ей кусок с тарелки.\\n\\nКогда же я собираюсь приняться за еду, меня отвлекает жалобный, болезненный скулеж: [ROOT.Char.Custom('DogStoryName')] корчится на полу и слабо повизгивает. Визг становится все тише и тише, а потом собака замирает. Еда была отравлена?!",
+    "POL": "Kiedy zasiadam do posiłku, mój pies, [ROOT.Char.Custom('DogStoryName')], wodzi za mną błagalnym wzrokiem, a ja zgrabnie rzucam mu smakołyk z własnego talerza.\\n\\nGdy już mam zabrać się za jedzenie, słyszę nagle głośne, zbolałe skomlenie. [ROOT.Char.Custom('DogStoryName')] wije się na ziemi. Popiskiwania psa stają się coraz słabsze, aż w końcu całkiem zamierają, gdy pies nieruchomieje. Czy posiłek był zatruty?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save_poison_dog_dies",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[THIS.Char.Custom('DogStoryName')] saved you and died from the poison",
+    "RUS": "[THIS.Char.Custom('DogStoryName')] спасает вас от яда",
+    "POL": "[THIS.Char.Custom('DogStoryName')] uratował cię i umarł od trucizny",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0013.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ The Gourmet Nose",
+    "RUS": "$murder_save_header$ Нюх гурмана",
+    "POL": "$murder_save_header$ nos smakosza",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0013.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] still lives!\\n\\nThe poison, [target.Custom('GetExpensiveMeal')]... Everything was going according to plan until [target.GetSheHe] noticed something was off. We tried to poison [target.GetHerHis] favorite dish, and [target.GetSheHe] noticed it had a different smell at once and threw it away.",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'выжила', 'выжил' )]!\\n\\nЯд, [target.Custom('GetExpensiveMeal')]... Все шло по плану, пока [target.GetSheHe] не [Select_CString(target.IsFemale, 'поняла', 'понял' )], что что-то не так. Мы пытались отравить [target.GetHerHis] любимое блюдо, но [target.GetSheHe] сразу же [Select_CString(target.IsFemale, 'почувствовала', 'почувствовал' )] посторонний запах и [Select_CString(target.IsFemale, 'выбросила', 'выбросил' )]блюдо.",
+    "POL": "[target.GetTitledFirstName] wciąż żyje!\\n\\nTrucizna, [target.Custom('GetExpensiveMeal')]… Wszystko szło zgodnie z planem, dopóki nie zauważył[Select_CString( target.IsFemale, 'a', '' )], że coś jest nie tak. Próbowaliśmy otruć [target.GetHerHis] ulubione danie, jednakże [target.GetSheHe] od razu zauważył[Select_CString( target.IsFemale, 'a', '' )], że ma inny zapach i je wyrzucił[Select_CString( target.IsFemale, 'a', '' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1013.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "As I tuck into my favorite dinner, a curious smell strikes my nose. Hints of acidity linger beneath its usual aroma, the balance of the spices seems off... After questioning the cook, who said all was prepared normally, only one thought is in my mind: someone tried to poison me!",
+    "RUS": "Я готовлюсь приступить к трапезе, когда замечаю необычный запах, исходящий от моего любимого блюда. В привычном аромате присутствуют кислые нотки, и с пряностями явно что-то не так... После разговора с поваром, заверившим, что пища готовилась так же, как и всегда, осталась только одна возможность: кто-то пытался отравить меня!",
+    "POL": "Podczas degustacji mojego ulubionego dania, wyczuwam coś dziwnego. Za zwykłym aromatem kryje się nuta kwasowości, równowaga przypraw nie wydaje się być zachowana… Po przesłuchaniu kucharza, który powiedział mi, że wszystko zostało przygotowane normalnie, przychodzi mi do głowy tylko jedna myśl: ktoś próbował mnie otruć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0014.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ Grave Comprehension",
+    "RUS": "$murder_save_header$ Смертельное понимание",
+    "POL": "$murder_save_header$ śmiertelne spostrzeżenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0014.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "My attempt on [target.GetTitledFirstNamePossessive] life has been thwarted!\\n\\nIt turns out the foolish assassins didn't realize [target.GetSheHe] spoke [owner.GetCulture.GetLanguage.GetNameNoTooltip], and were blabbing about the scheme right in front of [target.GetHerHis] nose.",
+    "RUS": "[target.GetTitledFirstName] по-прежнему [Select_CString(target.IsFemale, 'жива', 'жив' )]! Мое покушение провалилось!\\n\\nЭти глупые убийцы не знали, что [target.GetSheHe] понимает [owner.GetCulture.GetLanguage.GetNameNoTooltip|l], и обсуждали свои планы прямо у н[target.GetHerHis] под носом.",
+    "POL": "Moje wysiłki, aby [target.GetTitledFirstName] [Select_CString( target.IsFemale, 'została pozbawiona', 'został pozbawiony' )] życia, zostały udaremnione!\\n\\nOkazało się, że durni zabójcy nie mieli świadomości, iż [target.GetSheHe] zna język [owner.GetCulture.GetLanguage.GetNameNoTooltip|l], i opowiadali o swoim spisku tuż przed [target.GetHerHis] nosem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1014.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "One evening as I am preparing for bed, I hear two of my servants talking in hushed voices. It takes me a moment to realize they are speaking in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] rather than [owner.GetCulture.GetLanguage.GetNameNoTooltip]. They clearly don't realize I can understand them.\\n\\n",
+    "RUS": "Вечером, уже готовясь ко сну, я вдруг слышу, как двое слуг о чем-то шепчутся вполголоса. До меня не сразу доходит, что они используют [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l], а не [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]. При этом они явно не осознают, что я их понимаю.\\n\\n«Подождем, пока [ROOT.Char.GetSheHe] уснет. Ты посматривай по сторонам, а я перережу [ROOT.Char.GetHerHim] горло».\\n\\nЯ быстро покидаю покои и сообщаю страже, что в моей комнате убийцы. О [ROOT.Char.GetFaith.HighGodName], как же хорошо, что я знаю [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]!",
+    "POL": "Pewnego wieczoru, gdy szykuję się do snu, słyszę, jak dwóch moich służących rozmawia przyciszonymi głosami. Dopiero po chwili orientuję się, że językiem, którym mówią, jest [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l], a nie [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]. Najwyraźniej nie zdają sobie sprawy, że ich rozumiem.\\n\\n– Poczekaj, aż zaśnie. Potem staniesz na warcie, a ja poderżnę [ROOT.Char.Custom('PL_mu_jej')] gardło.\\n\\nSzybko wychodzę ze swojej kwatery, aby poinformować strażników, że w moim pokoju są zabójcy. [ROOT.Char.GetFaith.HighGodName] okazuje mi dziś łaskę, na szczęście znam język [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1014.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "Now who would send [owner.GetCulture.GetLanguage.GetNameNoTooltip] speaking assassins?",
+    "RUS": "Кто же мог подослать убийц, использующих [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]?",
+    "POL": "Kto mógłby wysłać zabójców, którzy znają język [owner.GetCulture.GetLanguage.GetNameNoTooltip|l]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0015.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ The Timely Artifact",
+    "RUS": "$murder_save_header$ Артефакт. Как вовремя!",
+    "POL": "$murder_save_header$ artefakt użyty o właściwej porze",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.0015.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[target.GetTitledFirstName] has survived my assassination attempt, apparently using [target.GetHerHis] [this_artifact.GetName] to brutally murder the assassin we sent.",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'пережила', 'пережил' )] организованное мной покушение и даже [Select_CString(target.IsFemale, 'сумела', 'сумел' )] убить своего убийцу — [this_artifact.GetName] под рукой может оказаться весьма кстати.",
+    "POL": "[target.GetTitledFirstName] przeżył[Select_CString( target.IsFemale, 'a', '' )] zorganizowaną przeze mnie próbę zamachu. Wykorzystał[Select_CString( target.IsFemale, 'a', '' )] swój artefakt [this_artifact.GetName] do brutalnego zamordowania wysłanego przez nas zabójcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.start_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[attempted_assassin.GetFirstName|U] comes out of the darkness, blade in hand. I glance around desperately looking for something to use as a weapon before my eyes land on the nearby",
+    "RUS": "[attempted_assassin.GetFirstName|U] выходит из темноты с клинком в руках. Я отчаянно озираюсь в поисках какого-нибудь оружия, и внезапно замечаю, что прямо подле меня лежит",
+    "POL": "[attempted_assassin.GetFirstName|U] wychodzi z ciemności z ostrzem w ręku. Rozglądam się rozpaczliwie w poszukiwaniu czegoś, czego można by użyć jako broni, zanim mój wzrok przykuwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.blunt_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Seizing it I use it first to block the incoming knife thrust before bringing it down on [attempted_assassin.GetFirstNamePossessiveNoTooltip] skull again and again.\\n\\nEventually I fall back exhausted, dropping the [SCOPE.Custom('ThisArtifactType')], where it lies covered in blood and gore.",
+    "RUS": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Сначала мне удается парировать удар ножа, а после обрушить предмет на череп убийцы. [attempted_assassin.GetFirstNameNoTooltip] падает, а я продолжаю наносить удар за ударом.\\n\\nВ конце концов я в изнеможении падают на пол, а [SCOPE.Custom('ThisArtifactType')] падает рядом — капли крови и ошметки плоти медленно сползают на пол.",
+    "POL": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Chwytam artefakt i używam go najpierw do zablokowania nadchodzącego pchnięcia nożem, a następnie uderzam nim raz za razem w czaszkę napastni[Select_CString(attempted_assassin.IsFemale, 'czki', 'ka' )].\\n\\nW końcu padam wyczerpan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )], upuszczając pokryty krwią artefakt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.sculpture_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Backing away from [attempted_assassin.GetFirstNameNoTooltip], I wait for the perfect moment before toppling the [SCOPE.Custom('ThisArtifactType')] on top of [attempted_assassin.GetHerHim].\\n\\nThe [this_artifact.GetNameNoTooltip] makes a sickening crunch, as it crushes [attempted_assassin.GetHerHim] below it.",
+    "RUS": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Я пячусь, а [attempted_assassin.GetFirstNameNoTooltip] подходит всё ближе, и я выжидаю подходящего момента, чтобы... Вот он! Рывок — и [SCOPE.Custom('ThisArtifactType')] обрушивается [attempted_assassin.GetHerHim] прямо на голову.\\n\\nC тошнотворным хрустом [this_artifact.GetNameNoTooltip] погребает под собой несостоявшегося убийцу.",
+    "POL": "$murder_save.1015.start_desc$ [this_artifact.GetName|l]. Odsuwam się i czekam, aż [attempted_assassin.GetFirstNameNoTooltip] znajdzie się w odpowiednim miejscu, by można było [attempted_assassin.Custom('PL_go_ja')] uderzyć. [SCOPE.Custom('ThisArtifactType')|U] to świetny pomysł.\\n\\nPrzedmiot wydaje obrzydliwy chrzęst, kiedy miażdży [attempted_assassin.Custom('PL_go_ja')] swoim ciężarem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.chest_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [this_artifact.GetName]. I slowly back away luring [attempted_assassin.GetHerHim] towards the open, [SCOPE.Custom('ThisArtifactType')]. At the perfect moment I grab [attempted_assassin.GetHerHis] head and push it under the lid of the chest, before smashing it down on [attempted_assassin.GetHerHis] fragile skull with a cringe inducing crack.\\n\\nI bring it down three or four more times for good measure before stepping back and allowing the body to slump to the floor.",
+    "RUS": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Я медленно пячусь, выманивая [attempted_assassin.GetHerHis] на открытое пространство, где стоит [SCOPE.Custom('ThisArtifactType')] с открытой крышкой. Выгадав момент, я хватаю убийцу за голову и вталкиваю ее внутрь, после чего с силой опускаю крышку сундука. С ужасающим треском [attempted_assassin.GetHerHis] череп ломается.\\n\\nЯ опускаю крышку еще три-четыре раза, для верности, и лишь потом отступаю, позволяя телу упасть.",
+    "POL": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Powoli wycofuję się, wywabiając [Select_CString(attempted_assassin.IsFemale, 'ją', 'go' )] na otwartą przestrzeń, gdzie stoi [SCOPE.Custom('ThisArtifactType')] z otwartym wiekiem. Wykorzystując moment, chwytam [Select_CString(attempted_assassin.IsFemale, 'zabójczynię', 'zabójcę' )] za głowę i wpycham [Select_CString(attempted_assassin.IsFemale, 'ją', 'go' )] do środka, po czym z siłą uderzam wiekiem. Z przerażającym trzaskiem [attempted_assassin.GetHerHis] czaszka pęka.\\n\\nUderzam jeszcze trzy lub cztery razy, tak dla pewności, i dopiero wtedy cofam się i pozwalam, by ciało osunęło się na podłogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.actual_weapon_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [this_artifact.GetName]. The color drains from [attempted_assassin.GetHerHis] face as [attempted_assassin.GetSheHe] realizes I am armed. It takes little effort to dispatch [attempted_assassin.GetHimHer] with the [SCOPE.Custom('ThisArtifactType')].",
+    "RUS": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Бледность заливает [attempted_assassin.GetHerHis] лицо, когда [attempted_assassin.GetSheHe] понимает, что у меня в руках оружие. [SCOPE.Custom('ThisArtifactType')|U] помогает мне разделаться с убийцей без особых проблем.",
+    "POL": "$murder_save.1015.start_desc$ [this_artifact.GetName|l]. Krew odpływa [attempted_assassin.Custom('PL_mu_jej')] z twarzy, gdy uświadamia sobie, że mam w rękach broń. [SCOPE.Custom('ThisArtifactType')|U] i moja pomysłowość sprawiają, że pokonanie [attempted_assassin.Custom('PL_go_jej')] nie będzie kosztowało mnie wiele wysiłku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.strangling_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')]. Seizing the [this_artifact.GetName], I first dodge an incoming knife thrust before wrapping the material around the throat of my attacker.\\n\\nIt is only a few brief moments of struggling before the assassin's body goes limp.",
+    "RUS": "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')]. Раздумывать некогда: [this_artifact.GetName] наготове, я уклоняюсь от удара ножа и обматываю горло убийцы тканью.\\n\\nНесколько мгновений спустя тело в моих руках обмякает.",
+    "POL": "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')]. [this_artifact.GetName|U] to artefakt, który ciąży mi w dłoniach. Wpierw unikam pchnięcia nożem, a następnie owijam tkaninę wokół szyi tej nędznej kreatury, która planuje pozbawić mnie życia.\\n\\nPo kilku krótkich chwilach szamotaniny jej ciało wiotczeje i pada bez ruchu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.small_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Seizing it, I leap upon my assailant pushing the trinket down their throat.\\n\\nChoking, [attempted_assassin.GetSheHe] drops the knife, falling to[attempted_assassin.GetHerHis] knees while scratching at [attempted_assassin.GetHerHis] throat, desperately trying to breathe. As guards finally rush to my aid I make a mental note to get someone to cut my [this_artifact.GetName] out of the body later.",
+    "RUS": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Крепче сжимая вещицу в кулаке, я прыгаю вперед и изо всех сил вбиваю ее в глотку убийцы!\\n\\nДавясь, [attempted_assassin.GetSheHe] роняет нож, падает на колени, отчаянно царапая горло, тщетно пытаясь дышать. Я слышу, как стража спешит мне на помощь, и думаю, что [this_artifact.GetName] мне еще пригодится, так что нужно приказать кому-нибудь вырезать драгоценную вещицу из трупа.",
+    "POL": "$murder_save.1015.start_desc$ [this_artifact.GetName]. Trzymając w ręku ozdobę, podskakuję do napastnika i wpycham mu ją do gardła.\\n\\nDławiąc się, upuszcza nóż i pada na kolana, drapiąc się po gardle i desperacko próbując łapać każdy oddech. Gdy strażnicy w końcu spieszą mi z pomocą, notuję w swoich myślach, aby ktoś na końcu wyciągnął z tego trupa mój artefakt ([this_artifact.GetName]).",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.throne_start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "I am pacing around my empty throne room one evening when out of the shadows [attempted_assassin.GetFirstName] jumps at me with a knife. Barely dodging my assailant, I manage to grab the back of [attempted_assassin.GetHerHis] head and repeatedly smash [attempted_assassin.GetHerHis] face into the",
+    "RUS": "Однажды вечером я прохаживаюсь по пустому тронному залу, как вдруг из темного угла на меня прыгает[attempted_assassin.GetFirstName] с ножом в руках. С трудом уклонившись от удара, я хватаю [attempted_assassin.GetHerHis] за голову, и несколько раз бью лицом о",
+    "POL": "Pewnego wieczoru przechadzam się po swojej pustej sali tronowej, gdy nagle z cienia wyskakuje na mnie [attempted_assassin.GetFirstName] z ostrzem w ręku. Ledwo uchylając się przed napastni[Select_CString( attempted_assassin.IsFemale, 'czką', 'kiem' )], udaje mi się złapać [Select_CString( attempted_assassin.IsFemale, 'ja', 'go' )] za tył głowy i wielokrotnie roztrzaskać [attempted_assassin.GetHerHis] twarz o",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.throne_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.throne_start.desc$ tough [this_artifact.GetFeatureText('generic_material_wood')] wood of my [this_artifact.GetName], splattering [attempted_assassin.GetHerHis] blood and teeth all over the previously immaculate [this_artifact.GetFeatureText('generic_material_cloth')].",
+    "RUS": "$murder_save.1015.throne_start.desc$ прочную древесину. [this_artifact.GetName|U] выдерживает удар ( [this_artifact.GetFeatureText('generic_material_wood')] — крепкий материал), и [this_artifact.GetFeatureText('generic_material_cloth')] покрывается кровью и осколками зубов, теряя былую красоту.",
+    "POL": "$murder_save.1015.throne_start.desc$ o mój artefakt, którym jest [this_artifact.GetName] z twardego drewna [this_artifact.GetFeatureText('generic_material_wood')], rozbryzgując [attempted_assassin.GetHerHis] krew i zęby na całym, wcześniej nieskazitelnym materiale z [this_artifact.GetFeatureText('generic_material_cloth')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "murder_save.1015.throne_special_artifact.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "$murder_save.1015.throne_start.desc$ legendary [this_artifact.GetName].\\n\\n As the blood splatters across the throne, I find myself hoping the servants will be able to get the stains out.",
+    "RUS": "$murder_save.1015.throne_start.desc$ настоящую легенду. [this_artifact.GetName|U] и не такое может выдержать.\\n\\nКровь растекается по трону, и мне остается лишь надеяться, что слугам удастся избавиться от пятен.",
+    "POL": "$murder_save.1015.throne_start.desc$ legendarny artefakt [this_artifact.GetName].\\n\\nGdy krew rozbryzguje się po tronie, mam nadzieję, że służba zdoła usunąć plamy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "new_artifact_loc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nIt was used to stop an assassination attempt on [target.GetTitledFirstName].",
+    "RUS": "[this_artifact.GetDesc]\\n\\nОднажды [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'пережила', 'пережил' )] покушение на жизнь только благодаря этому артефакту.",
+    "POL": "[this_artifact.GetDesc]\\n\\nTen artefakt został użyty do powstrzymania zamachu, którego celem był[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "new_artifact_loc_banner",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nThere is a bloodstain on the corner from when it was used to stop an assassination attempt on [target.GetTitledFirstName].",
+    "RUS": "[this_artifact.GetDesc]\\n\\nОднажды [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'пережила', 'пережил' )] покушение на жизнь только благодаря этому артефакту.",
+    "POL": "[this_artifact.GetDesc]\\n\\nNa rogu znajduje się plama krwi z czasów, gdy został użyty do powstrzymania zamachu, którego celem był[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_by_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "was killed with an artifact",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] артефактом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] artefaktem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_by_artifact_killer",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/murder/murder_save_events_l_belarusian.json",
+    "ENG": "was killed with an artifact [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] артефактом из-за персонажа [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] artefaktem, którego właścicielem jest [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "KEY": "RECENT_HISTORY_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Was $HISTORY|V$ recently (within $DURATION$)",
+    "RUS": "Недавно было $HISTORY|V$ (за: $DURATION$)",
+    "POL": "Niedawno $HISTORY|Vl$ (nie później niż $DURATION$ temu)",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_RECENT_HISTORY_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Was #bold not#! $HISTORY|V$ recently (within $DURATION$)",
+    "RUS": "#bold Не#! было недавно $HISTORY|V$ (за: $DURATION$)",
+    "POL": "#bold Nie#! $HISTORY|Vl$ niedawno (nie później niż $DURATION$ temu)",
+    "BEL": ""
+  },
+  {
+    "KEY": "RECENT_HISTORY_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "#V [TITLE.GetName]#! was $HISTORY|V$ recently (within $DURATION$)",
+    "RUS": "Титул #V [TITLE.GetName]#! недавно был $HISTORY|V$ (за: $DURATION$)",
+    "POL": "#V [TITLE.GetName]#! to ziemie, które niedawno miały cechę: $HISTORY|V$ (w ciągu czasu: $DURATION$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_RECENT_HISTORY_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "#V [TITLE.GetName]#! was #bold not#! $HISTORY|V$ recently (within $DURATION$)",
+    "RUS": "Титул #V [TITLE.GetName]#! #bold не#! был недавно $HISTORY|V$ (за: $DURATION$)",
+    "POL": "#V [TITLE.GetName]#! to ziemie, które niedawno nie miały cechy: $HISTORY|V$ (w ciągu czasu: $DURATION$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_CONTESTED_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Is contested in a [war|E].",
+    "RUS": "Идет [war|El] за титул.",
+    "POL": "Jest przedmiotem sporu w [Concept( 'war', 'wojnie' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_CONTESTED_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Is #bold not#! contested in a [war|E].",
+    "RUS": "#bold Не#! оспаривается в [Concept( 'war', 'войне' )|E].",
+    "POL": "#bold Nie#! jest przedmiotem sporu w [Concept( 'war', 'wojnie' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_CONTESTED_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "#V [TITLE.GetName]#! is contested in a [war|E].",
+    "RUS": "Идет [war|El] за титул #V [TITLE.GetName]#!.",
+    "POL": "#V [TITLE.GetName]#! jest przedmiotem sporu w [Concept( 'war', 'wojnie' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IS_CONTESTED_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "#V [TITLE.GetName]#! is #bold not#! contested in a [war|E].",
+    "RUS": "Титул #V [TITLE.GetName]#! #bold нет#! оспаривается в [Concept( 'war', 'войне' )|E].",
+    "POL": "#V [TITLE.GetName]#! #bold nie#! jest przedmiotem sporu w [Concept( 'war', 'wojnie' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLACE_IN_LINE_OF_SUCCESSION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Place in line of succession to [TARGET_TITLE.GetName] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Место в линии наследования титула [TARGET_TITLE.GetName] — $COMPARATOR$ $NUM|V0$",
+    "POL": "Zajmowane jest miejsce w linii sukcesji do tytułu „[TARGET_TITLE.GetName]”: $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Place in line of succession to [TARGET_TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "Место в линии наследования титула [TARGET_TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V0$",
+    "POL": "#bold Nie#! jest zajmowane miejsce w linii sukcesji do tytułu „[TARGET_TITLE.GetName]”: $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|V] place in line of succession to [TARGET_TITLE.GetName] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Место [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )|l][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в линии наследования титула [TARGET_TITLE.GetName] — $COMPARATOR$ $NUM|V0$",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] zajmuje miejsce w linii sukcesji do tytułu „[TARGET_TITLE.GetName]”: $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|V] place in line of succession to [TARGET_TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "Место [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )|l][CHARACTER.GetShortUINamePossessive][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в линии наследования титула [TARGET_TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V0$",
+    "POL": "[CHARACTER.GetShortUINameNotMe|V] #bold nie#! zajmuje miejsca w linii sukcesji do tytułu „[TARGET_TITLE.GetName]”: $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Has investors to be appointed to [TARGET_TITLE.GetName]",
+    "RUS": "Есть инвесторы, которых можно назначить во владение [TARGET_TITLE.GetName]",
+    "POL": "Ma inwestorów zdolnych do wsparcia w uzyskaniu tytułu: [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Has #bold no#! investors to be appointed to [TARGET_TITLE.GetName]",
+    "RUS": "#bold Нет#! инвесторов, которых можно назначить во владение [TARGET_TITLE.GetName]",
+    "POL": "#bold Nie#! ma inwestorów zdolnych do wsparcia w uzyskaniu tytułu: [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] have investors to be appointed to [TARGET_TITLE.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|V] располагает инвесторами, которых можно назначить во владение [TARGET_TITLE.GetName]",
+    "POL": "Osoba, którą jest [CHARACTER.GetShortUINameNotMe|V], ma inwestorów zdolnych do wsparcia jej w uzyskaniu tytułu: [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|V] have #bold no#! investors to be appointed to [TARGET_TITLE.GetName]",
+    "RUS": "[CHARACTER.GetShortUIName|V] #bold не#! располагает инвесторами, которых можно было бы назначить во владение [TARGET_TITLE.GetName]",
+    "POL": "Osoba, którą jest [CHARACTER.GetShortUINameNotMe|V], #bold nie#! ma inwestorów zdolnych do wsparcia jej w uzyskaniu tytułu: [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Investment towards [TARGET_CHARACTER.GetShortUIName] being appointed to [TARGET_TITLE.GetName] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "Инвестиции в пользу назначения [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] на титул [TARGET_TITLE.GetName] $COMPARATOR$ $NUM|V0$",
+    "POL": "Wskaźnik inwestycji na rzecz przyznania osobie znanej jako [TARGET_CHARACTER.GetShortUINameNotMe] określonego tytułu ([TARGET_TITLE.GetName]) wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Investment towards [TARGET_CHARACTER.GetShortUIName] being appointed to [TARGET_TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "Инвестиции в пользу назначения [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] на титул [TARGET_TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V0$",
+    "POL": "Wskaźnik inwestycji na rzecz przyznania osobie znanej jako [TARGET_CHARACTER.GetShortUINameNotMe] określonego tytułu ([TARGET_TITLE.GetName]) #bold nie#! wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] investment towards [TARGET_CHARACTER.GetShortUIName] being appointed to [TARGET_TITLE.GetName] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "[CHARACTER.GetShortUIName|U] выплачивает инвестиции в пользу назначения [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] на титул [TARGET_TITLE.GetName] в размере $COMPARATOR$ $NUM|V0$",
+    "POL": "Wskaźnik inwestycji osoby, którą jest [CHARACTER.GetShortUINameNotMe], na rzecz przyznania osobie znanej jako [TARGET_CHARACTER.GetShortUINameNotMe] określonego tytułu ([TARGET_TITLE.GetName]) wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] investment towards [TARGET_CHARACTER.GetShortUIName] being appointed to [TARGET_TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "[CHARACTER.GetShortUIName|U] выплачивает инвестиции в пользу назначения [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] на титул [TARGET_TITLE.GetName] в размере #bold не#! $COMPARATOR$ $NUM|V0$",
+    "POL": "Wskaźnik inwestycji osoby, którą jest [CHARACTER.GetShortUINameNotMe], na rzecz przyznania osobie znanej jako [TARGET_CHARACTER.GetShortUINameNotMe] określonego tytułu ([TARGET_TITLE.GetName]) #bold nie#! wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Place in line of succession is between $MINVALUE|V0$ and $MAXVALUE|V0$",
+    "RUS": "Место в линии наследования между $MINVALUE|V0$ и $MAXVALUE|V0$",
+    "POL": "Pozycja w linii sukcesji wynosi między $MINVALUE|V0$ a $MAXVALUE|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Place in line of succession is #bold not#! between $MINVALUE|V0$ and $MAXVALUE|V0$",
+    "RUS": "Место в линии наследования #bold не#! между $MINVALUE|V0$ и $MAXVALUE|V0$",
+    "POL": "Pozycja w linii sukcesji #bold nie#! wynosi między $MINVALUE|V0$ a $MAXVALUE|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|V] place in line of succession is between $MINVALUE|V0$ and $MAXVALUE|V0$",
+    "RUS": "Место персонажа [CHARACTER.GetShortUINamePossessive|V] в линии наследования между $MINVALUE|V0$ и $MAXVALUE|V0$",
+    "POL": "Pozycja postaci [CHARACTER.GetShortUINameNotMe|V] w linii sukcesji wynosi między $MINVALUE|V0$ a $MAXVALUE|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|V] place in line of succession is #bold not#! between $MINVALUE|V0$ and $MAXVALUE|V0$",
+    "RUS": "В линии наследования [CHARACTER.GetShortUINamePossessive|V] занимает место #bold не#! между $MINVALUE|V0$ и $MAXVALUE|V0$",
+    "POL": "Pozycja postaci [CHARACTER.GetShortUINameNotMe|V] w linii sukcesji #bold nie#! wynosi między $MINVALUE|V0$ a $MAXVALUE|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_equal_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] — $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] to $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_equal_global_not",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is #bold not#! a $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] — #bold не#! $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] to #bold nie#! $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_equal_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title_tier|E] is a $TIER|E$",
+    "RUS": "[Concept( 'title_tier', 'По уровню титула' )|E] [TITLE.GetName] — $TIER|El$",
+    "POL": "[TITLE.GetName] – [title_tier|El] tego tytułu to $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_equal_third_not",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title_tier|E] is #bold not#! a $TIER|E$",
+    "RUS": "[Concept( 'title_tier', 'По уровню титула' )|E] [TITLE.GetName] #bold не#! $TIER|El$",
+    "POL": "[TITLE.GetName] – [title_tier|El] to #bold nie#! $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_less_than_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is lower than $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] ниже, чем $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] jest niższy niż $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_less_than_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title|E] [title_tier|E] is lower than $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] «[TITLE.GetName]» ниже, чем $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] do miejsca znanego jako [TITLE.GetNameNoTier] jest niższy niż $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_less_or_equal_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is a $TIER|E$ or lower",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] — $TIER|E$ или ниже",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] to co najwyżej $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_less_or_equal_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title|E] [title_tier|E] is a $TIER|E$ or lower",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] «[TITLE.GetName]» — $TIER|E$ или ниже",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] do miejsca znanego jako [TITLE.GetNameNoTier] to co najwyżej $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_greater_than_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is higher than $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] выше, чем $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] jest wyższy niż $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_greater_than_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title|E] [title_tier|E] is higher than $TIER|E$",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] «[TITLE.GetName]» выше, чем $TIER|E$",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] do miejsca znanego jako [TITLE.GetNameNoTier] jest wyższy niż $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_greater_or_equal_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] [title_tier|E] is a $TIER|E$ or higher",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] — $TIER|E$ или выше",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] to co najmniej $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tier_greater_or_equal_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNamePossessive] [title|E] [title_tier|E] is a $TIER|E$ or higher",
+    "RUS": "[Concept('title_tier', 'Уровень')|E] [Concept('title', 'титула')|E] «[TITLE.GetName]» — $TIER|E$ или выше",
+    "POL": "[title_tier|E] [Concept('title', 'tytułu')|E] do miejsca znanego jako [TITLE.GetNameNoTier] to co najmniej $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "main_administrative_tier_first",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "My main administrative tier is $TIER|E$",
+    "RUS": "Мой основной уровень бюрократии — $TIER|E$",
+    "POL": "Mój główny poziom administracyjny: $TIER|E$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ROME_HOLDER_IS_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Rome is under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Рим под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Rzymie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ROME_HOLDER_IS_NOT_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Rome is not under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Рим не под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Rzymie nie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ALEXANDRIA_HOLDER_IS_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Alexandria is under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Александрия под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Aleksandrii panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Alexandria is not under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Александрия не под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Aleksandrii nie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JERUSALEM_HOLDER_IS_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Jerusalem is under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Иерусалим под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Jerozolimie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Jerusalem is not under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Иерусалим не под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Jerozolimie nie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Antiocheia is under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Антиохия под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Antiochii panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Antiocheia is not under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Антиохия не под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Antiochii nie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BYZANTION_HOLDER_IS_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Constantinople is under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Константинополь под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Konstantynopolu panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Constantinople is not under [CHARACTER.GetFaith.GetAdjective] rule",
+    "RUS": "Константинополь не под #L [CHARACTER.GetFaith.GetName|l]им#! управлением",
+    "POL": "W Konstantynopolu nie panuje wiara [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_NOT_HAVE_RITE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetFaith.GetName|U] has the [GetFaithDoctrine('tenet_rite').GetBaseName] core tenet",
+    "RUS": "У #L [CHARACTER.GetFaith.GetName|l]ой#! веры есть основной догмат «[GetFaithDoctrine('tenet_rite').GetBaseName]»",
+    "POL": "[CHARACTER.GetFaith.GetName|U] ma dogmat podstawowy „[GetFaithDoctrine('tenet_rite').GetBaseName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_HAS_RITE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetFaith.GetName|U] does not have the [GetFaithDoctrine('tenet_rite').GetBaseName] core tenet",
+    "RUS": "У #L [CHARACTER.GetFaith.GetName|l]ой#! веры нет основного догмата «[GetFaithDoctrine('tenet_rite').GetBaseName]»",
+    "POL": "[CHARACTER.GetFaith.GetName|U] nie ma dogmatu podstawowego „[GetFaithDoctrine('tenet_rite').GetBaseName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "HRE_HOLDER_IS_OF_MY_DYNASTY",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "The ruler of the Holy Roman Empire belongs to the [CHARACTER.GetDynastyName] dynasty",
+    "RUS": "Правитель Священной Римской империи принадлежит к династии [CHARACTER.GetDynastyName]",
+    "POL": "Władca Świętego Cesarstwa Rzymskiego należy do dynastii [CHARACTER.GetDynastyName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HRE_HOLDER_IS_NOT_OF_MY_DYNASTY",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "The ruler of the Holy Roman Empire does not belong to the [CHARACTER.GetDynastyName] dynasty",
+    "RUS": "Правитель Священной Римской империи не принадлежит к династии [CHARACTER.GetDynastyName]",
+    "POL": "Władca Świętego Cesarstwa Rzymskiego nie należy do dynastii [CHARACTER.GetDynastyName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You hold [TARGET_TITLE.GetDefinitiveName] [title|E]",
+    "RUS": "Вы владеете [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Posiadasz następujący [title|El]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_DO_NOT_HAVE_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You do #bold not#! hold [TARGET_TITLE.GetDefinitiveName] [title|E]",
+    "RUS": "Вы #bold не#! владеете [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "#bold Nie#! posiadasz następującego [Concept('title', 'tytułu')|E]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Holds [TARGET_TITLE.GetDefinitiveName] [title|E] ",
+    "RUS": "Владеет [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Posiada następujący [title|El]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DOES_NOT_HAVE_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Does #bold not#! hold the [TARGET_TITLE.GetDefinitiveName] [title|E]",
+    "RUS": "#bold Не#! владеет [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "#bold Nie#! posiada następującego [Concept('title', 'tytułu')|E]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HAS_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] holds the [TARGET_TITLE.GetDefinitiveName] [title|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] владеет [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] posiada następujący [title|El]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_DOES_NOT_HAVE_THE_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] does #bold not#! hold the [TARGET_TITLE.GetDefinitiveName] [title|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] #bold не#! владеет [Concept('title', 'титулом')|E] [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] #bold nie#! posiada następującego [Concept('title', 'tytułu')|E]: [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_PRIMARY_TITLE_IS",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Your [primary_title|E] is [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "Ваш [Concept('primary_title', 'первый титул')|E] — [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Twój [primary_title|El] to [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_PRIMARY_TITLE_IS_NOT",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Your [primary_title|E] is #bold not#! [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "Ваш [Concept('primary_title', 'первый титул')|E] #bold не#! [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Twój [primary_title|El] to #bold nie#! [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_PRIMARY_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[primary_title|E] is [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "[Concept('primary_title', 'Первый титул')|E] — [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Twój [primary_title|El] to [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DOES_NOT_HAVE_PRIMARY_TITLE",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[primary_title|E] is #bold not#! [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "[Concept('primary_title', 'Первый титул')|E] #bold не#! [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "Twój [primary_title|El] to #bold nie#! [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_PRIMARY_TITLE_IS",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [primary_title|E] is [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "[Concept('primary_title', 'Первый титул')|E] персонажа [CHARACTER.GetShortUIName] — [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "[primary_title|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe] to [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_PRIMARY_TITLE_IS_NOT",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [primary_title|E] is #bold not#! [TARGET_TITLE.GetDefinitiveName]",
+    "RUS": "[Concept('primary_title', 'Первый титул')|E] персонажа [CHARACTER.GetShortUIName] #bold не#! [TARGET_TITLE.GetDefinitiveName]",
+    "POL": "[primary_title|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe] to #bold nie#! [TARGET_TITLE.GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_IS_IN_REGION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is in the [GEOGRAPHICAL_REGION.GetName] region",
+    "RUS": "[PROVINCE.GetName] находится в регионе [GEOGRAPHICAL_REGION.GetName]",
+    "POL": "[PROVINCE.GetName] znajduje się w regionie [GEOGRAPHICAL_REGION.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_IS_NOT_IN_REGION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[PROVINCE.GetName] is #bold not#! in the [GEOGRAPHICAL_REGION.GetName] region",
+    "RUS": "[PROVINCE.GetName] находится #bold не#! в регионе [GEOGRAPHICAL_REGION.GetName]",
+    "POL": "[PROVINCE.GetName] #bold nie#! znajduje się w regionie [GEOGRAPHICAL_REGION.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JERUSALEM_IS_SAME_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Jerusalem is [CHARACTER.GetFaith.GetAdjective]",
+    "RUS": "Иерусалим #L [CHARACTER.GetFaith.GetName|l]ий#!",
+    "POL": "Jerozolima jest [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "JERUSALEM_IS_NOT_SAME_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Jerusalem is #bold not#! [CHARACTER.GetFaith.GetAdjective]",
+    "RUS": "Иерусалим #bold не#! #L [CHARACTER.GetFaith.GetName|l]ий#!",
+    "POL": "Jerozolima #bold nie#! jest [CHARACTER.GetFaith.GetAdjective|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HIGH_PRIESTHOOD_ENOUGH_HOLY_SITES",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You control 3 or more [CHARACTER.GetFaith.GetAdjective] [holy_sites|E]",
+    "RUS": "Вы контролируете не менее 3 #L [CHARACTER.GetFaith.GetName|l]их#! [Concept( 'holy_site', 'святынь' )|El]",
+    "POL": "Kontrolujesz co najmniej 3 [Concept( 'holy_sites', 'święte miejsca' )|E] wiary: [CHARACTER.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HIGH_PRIESTHOOD_NOT_ENOUGH_HOLY_SITES",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You control less than 3 [CHARACTER.GetFaith.GetAdjective] [holy_sites|E]",
+    "RUS": "Вы контролируете менее 3 #L [CHARACTER.GetFaith.GetName|l]их#! [Concept( 'holy_site', 'святынь' )|El]",
+    "POL": "Kontrolujesz mniej niż 3 [Concept( 'holy_sites', 'święte miejsca' )|E] wiary: [CHARACTER.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetFaith.GetReligiousHead.GetShortUINamePossessive] [opinion|E] of you is 75 or higher",
+    "RUS": "[CHARACTER.GetFaith.GetReligiousHead.GetShortUINamePossessive] имеет [opinion|El] о вас не ниже 75",
+    "POL": "[opinion|E] postaci [CHARACTER.GetFaith.GetReligiousHead.GetShortUINameNotMe] o tobie wynosi 75 lub więcej",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONSECRATE_BLOODLINE_ENOUGH_HOLY_SITES",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You control one or more [CHARACTER.GetFaith.GetAdjective] [holy_sites|E]",
+    "RUS": "Вы контролируете как минимум одну #L [CHARACTER.GetFaith.GetName|l]ую#! [Concept( 'holy_site', 'святыню' )|El]",
+    "POL": "Kontrolujesz co najmniej jedno [Concept( 'holy_sites', 'święte miejsce' )|E] wiary: [CHARACTER.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONSECRATE_BLOODLINE_NOT_ENOUGH_HOLY_SITES",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "You do #bold not#! control any of the [CHARACTER.GetFaith.GetAdjective] [holy_sites|E]",
+    "RUS": "Вы #bold не#! контролируете никаких #L [CHARACTER.GetFaith.GetName|l]их#! [Concept( 'holy_site', 'святынь' )|El]",
+    "POL": "#bold Nie#! kontrolujesz jakiegokolwiek [Concept( 'holy_sites', 'miejsca świętego' )|E] wiary: [CHARACTER.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_REVOCABLE_LEASE_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Has a revocable lease",
+    "RUS": "Есть аренда, которую можно отозвать",
+    "POL": "Ma odwoływalną dzierżawę",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_ORDER_OF_SUCCESSION_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Has order of succession",
+    "RUS": "Использует орденское наследование",
+    "POL": "Ma kolejność sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_TITLE_LAW_FLAG_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Has title law: $LAW$",
+    "RUS": "Есть закон титула: $LAW$",
+    "POL": "Posiada prawo tytułu: $LAW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_TITULAR_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Is [titular_title|E]",
+    "RUS": "[titular_title|E]",
+    "POL": "Jest [Concept('titular_title', 'tytułem nominalnym')|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FORM_GERMANIA_CHRISTIAN_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "As a [CHARACTER.GetFaith.GetAdjective] ruler you can reform the $e_hre$ instead",
+    "RUS": "Вы — #L [CHARACTER.GetFaith.GetName|l][Select_CString(CHARACTER.IsFemale, 'ая правительница', 'ий правитель' )]#!, и у вас есть еще одна возможная цель для реформирования — $e_hre$",
+    "POL": "Jako władca wyznający [CHARACTER.GetFaith.GetName|l] możesz zamiast tego zreformować $e_hre$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$e_spain$ cannot be formed till the [iberian_struggle|E] has been resolved",
+    "RUS": "$e_spain$ не может быть объединена, пока не разрешена [iberian_struggle|E]",
+    "POL": "$e_spain$ nie może powstać, dopóki [iberian_struggle|El] nie zostaną rozstrzygnięte",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_HELD_YEARS",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$TITLE$ held for $VALUE|V0$ years",
+    "RUS": "Титул $TITLE$ удерживался в течение $VALUE|V0$ лет",
+    "POL": "Tytuł $TITLE$ był w posiadaniu przez $VALUE|V0$ lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_NOT_HELD_YEARS",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$TITLE$ has #bold NOT#! been held for $VALUE|V0$ years",
+    "RUS": "Титул $TITLE$ #bold НЕ#! удерживался в течение $VALUE|V0$ лет",
+    "POL": "Tytuł $TITLE$ #bold NIE#! był w posiadaniu przez $VALUE|V0$ lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "LANDED_TITLE_THIS_EQUAL",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Is $TITLE$",
+    "RUS": "#L $TITLE$ая#! культура",
+    "POL": "$TITLE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "appointment_candidate_score_greater_or_equal",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] appointment for [TARGET_TITLE.GetName] is at least $NUM|V0$",
+    "RUS": "Вероятность назначения персонажа [CHARACTER.GetShortUIName|V] на титул [TARGET_TITLE.GetName] не меньше $NUM|V0$",
+    "POL": "[TARGET_TITLE.GetName] – wynik kandydującej do tego tytułu osoby, którą jest [CHARACTER.GetShortUINameNotMe], wynosi przynajmniej $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "appointment_candidate_score_less_than",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] appointment for [TARGET_TITLE.GetName] is less than $NUM|V0$",
+    "RUS": "Вероятность назначения персонажа [CHARACTER.GetShortUIName|V] на титул [TARGET_TITLE.GetName] меньше $NUM|V0$",
+    "POL": "[TARGET_TITLE.GetName] – wynik kandydującej do tego tytułu osoby, którą jest [CHARACTER.GetShortUINameNotMe], wynosi mniej niż $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "appointment_candidate_accumulated_score_greater_or_equal",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] accumulated investment into appointment for [TARGET_TITLE.GetName] is at least $NUM|V0$",
+    "RUS": "Общий вклад персонажа [CHARACTER.GetShortUIName|V] для назначения на титул [TARGET_TITLE.GetName] не меньше $NUM|V0$",
+    "POL": "[TARGET_TITLE.GetName] – w przypadku osoby znanej jako [CHARACTER.GetShortUINameNotMe] łączny wskaźnik inwestycji na rzecz uzyskania tego tytułu wynosi przynajmniej $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "appointment_candidate_accumulated_score_less_than",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] accumulated investment into appointment for [TARGET_TITLE.GetName] is less than $NUM|V0$",
+    "RUS": "Общий вклад персонажа [CHARACTER.GetShortUIName|V] для назначения на титул [TARGET_TITLE.GetName] меньше $NUM|V0$",
+    "POL": "[TARGET_TITLE.GetName] – w przypadku osoby znanej jako [CHARACTER.GetShortUINameNotMe] łączny wskaźnik inwestycji na rzecz uzyskania tego tytułu wynosi przynajmniej $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_title_created_first",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] already created",
+    "RUS": "[Concept('title', 'Титул')|E] уже создан",
+    "POL": "[title|E] został już utworzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_title_created_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] already created",
+    "RUS": "[Concept('title', 'Титул')|E] уже создан",
+    "POL": "[title|E] został już utworzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_title_created_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[title|E] already created",
+    "RUS": "[Concept('title', 'Титул')|E] уже создан",
+    "POL": "[title|E] został już utworzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "uses_county_fertility_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Uses [county_fertility|E]",
+    "RUS": "Использует [Concept('county_fertility', 'тучность пастбищ в графстве')|E]",
+    "POL": "Wykorzystuje [county_fertility|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_uses_county_fertility_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "Does not use [county_fertility|E]",
+    "RUS": "Не использует [Concept('county_fertility', 'тучность пастбищ в графстве')|E]",
+    "POL": "Nie wykorzystuje [Concept('county_fertility', 'płodności hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "uses_county_fertility_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "The [TITLE.GetName] uses [county_fertility|E]",
+    "RUS": "[TITLE.GetName] использует [Concept('county_fertility', 'тучность пастбищ в графстве')|E]",
+    "POL": "[TITLE.GetName] wykorzystuje [county_fertility|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_uses_county_fertility_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "The [TITLE.GetName] does #bold not#! use [county_fertility|E]",
+    "RUS": "[TITLE.GetName] #bold не#! использует [Concept('county_fertility', 'тучность пастбищ в графстве')|E]",
+    "POL": "[TITLE.GetName] #bold nie#! wykorzystuje [Concept('county_fertility', 'płodności hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_fertility_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[county_fertility|E] is $COMPARATOR$ $NUM|V1$",
+    "RUS": "Уровень [Concept('county_fertility', 'тучности пастбищ в графстве')|E] $COMPARATOR$ $NUM|V1$",
+    "POL": "[county_fertility|E] wynosi $COMPARATOR$$NUM|V1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_county_fertility_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[county_fertility|E] is #bold not#! $COMPARATOR$ $NUM|V1$",
+    "RUS": "Уровень [Concept('county_fertility', 'тучности пастбищ в графстве')|E] #bold не#! $COMPARATOR$ $NUM|V1$",
+    "POL": "[county_fertility|E] #bold nie#! wynosi $COMPARATOR$$NUM|V1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_fertility_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[county_fertility|E] in the [TITLE.GetName] is $COMPARATOR$ $NUM|V1$",
+    "RUS": "Уровень [Concept('county_fertility', 'тучности пастбищ в графстве')|E] [TITLE.GetName] $COMPARATOR$ $NUM|V1$",
+    "POL": "[county_fertility|E] miejsca znanego jako [TITLE.GetName] wynosi $COMPARATOR$$NUM|V1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_county_fertility_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[county_fertility|E] in the [TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V1$",
+    "RUS": "Уровень [Concept('county_fertility', 'тучности пастбищ в графстве')|E] [TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V1$",
+    "POL": "[county_fertility|E] miejsca znanego jako [TITLE.GetName] #bold nie#! wynosi $COMPARATOR$$NUM|V1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_county_equal_first",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TARGET_TITLE.GetNameNoTier] is your [capital|E]",
+    "RUS": "[TARGET_TITLE.GetNameNoTier] — ваша [Concept('capital', 'столица')|E]",
+    "POL": "[TARGET_TITLE.GetNameNoTier] to twoja [capital|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_county_equal_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TARGET_TITLE.GetNameNoTier] is [CHARACTER.GetShortUINamePossessive|U] [capital|E]",
+    "RUS": "[TARGET_TITLE.GetNameNoTier] — [Concept('capital', 'столица')|E] [Select_CString(CHARACTER.IsLocalPlayer, 'вашей державы', Concatenate('державы персонажа ',CHARACTER.GetShortUIName))]",
+    "POL": "[TARGET_TITLE.GetNameNoTier] to [capital|El] osoby znanej jako [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_county_equal_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TARGET_TITLE.GetNameNoTier] is the [capital|E]",
+    "RUS": "[TARGET_TITLE.GetNameNoTier] — [Concept('capital', 'столица')|E]",
+    "POL": "[TARGET_TITLE.GetNameNoTier] jest [Concept('capital', 'stolicą')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_de_jure_liege_or_above_target_first",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$is_de_jure_liege_or_above_target_global$",
+    "RUS": "$is_de_jure_liege_or_above_target_global$",
+    "POL": "$is_de_jure_liege_or_above_target_global$",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_de_jure_liege_or_above_target_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$is_de_jure_liege_or_above_target_global$",
+    "RUS": "$is_de_jure_liege_or_above_target_global$",
+    "POL": "$is_de_jure_liege_or_above_target_global$",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_de_jure_liege_or_above_target_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetName] is the [de_jure|E] [liege|E] of [TARGET_TITLE.GetName]",
+    "RUS": "[TITLE.GetName] является [de_jure|El] [Concept('liege', 'сюзереном')|E] титула [TARGET_TITLE.GetName]",
+    "POL": "Miejsce znane jako [TITLE.GetName] jest [Concept('liege', 'seniorem')|E] [de_jure|El] miejsca o nazwie [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_is_de_jure_liege_or_above_target_first",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$not_is_de_jure_liege_or_above_target_global$",
+    "RUS": "$not_is_de_jure_liege_or_above_target_global$",
+    "POL": "$not_is_de_jure_liege_or_above_target_global$",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_is_de_jure_liege_or_above_target_third",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "$not_is_de_jure_liege_or_above_target_global$",
+    "RUS": "$not_is_de_jure_liege_or_above_target_global$",
+    "POL": "$not_is_de_jure_liege_or_above_target_global$",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_is_de_jure_liege_or_above_target_global",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[TITLE.GetNameNoTier] is #bold not#! the [de_jure|E] [liege|E] of [TARGET_TITLE.GetNameNoTier]",
+    "RUS": "[TITLE.GetName] #bold не#! является [de_jure|El] [Concept('liege', 'сюзереном')|E] титула [TARGET_TITLE.GetName]",
+    "POL": "Miejsce znane jako [TITLE.GetNameNoTier] #bold nie#! jest [Concept('liege', 'seniorem')|E] [de_jure|El] miejsca o nazwie [TARGET_TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "title_law_group_at_minimum_level",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[LawGroup.GetName] is at minimum level",
+    "RUS": "[LawGroup.GetName] на минимальном уровне",
+    "POL": "[LawGroup.GetName] są na poziomie minimalnym",
+    "BEL": ""
+  },
+  {
+    "KEY": "title_law_group_at_maximum_level",
+    "FILE_PATH": "localization/belarusian/triggers/landed_title_triggers_l_belarusian.json",
+    "ENG": "[LawGroup.GetName] is at maximum level",
+    "RUS": "[LawGroup.GetName] на максимальном уровне",
+    "POL": "[LawGroup.GetName] są na poziomie maksymalnym",
+    "BEL": ""
+  }
+]

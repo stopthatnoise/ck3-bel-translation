@@ -1,0 +1,1562 @@
+[
+  {
+    "KEY": "positive_desc_of_other",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )]",
+    "RUS": "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ый' )]",
+    "POL": "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_of_other",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )]",
+    "RUS": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ый' )]",
+    "POL": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_debug",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "good",
+    "RUS": "хорош",
+    "POL": "dobr[Select_CString(second.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_debug",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "bad",
+    "RUS": "скверн",
+    "POL": "zł[Select_CString(second.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "test_case_desc_in_event",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName].",
+    "RUS": "[Select_CString(other.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))|l][Select_CString(other.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName].",
+    "POL": "[Select_CString( other.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_loyal",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "loyal",
+    "RUS": "лояльн",
+    "POL": "lojalna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_faithful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "faithful",
+    "RUS": "верн",
+    "POL": "wierna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_principled",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "principled",
+    "RUS": "принципиальн",
+    "POL": "pryncypialna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_pragmatic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pragmatic",
+    "RUS": "прагматичн",
+    "POL": "pragmatyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_passionate",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "passionate",
+    "RUS": "страстн",
+    "POL": "namiętna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_wholesome",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "wholesome",
+    "RUS": "благонравн",
+    "POL": "przyzwoita",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_generous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "generous",
+    "RUS": "щедр",
+    "POL": "hojna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_honorable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "honorable",
+    "RUS": "благородн",
+    "POL": "honorowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_epicurean",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "epicurean",
+    "RUS": "весел",
+    "POL": "epikurejska",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_dedicated",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "dedicated",
+    "RUS": "целеустремленн",
+    "POL": "oddana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_disciplined",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "disciplined",
+    "RUS": "дисциплинированн",
+    "POL": "zdyscyplinowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_frugal",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "frugal",
+    "RUS": "бережлив",
+    "POL": "oszczędna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_relaxed",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "relaxed",
+    "RUS": "непринужденн",
+    "POL": "zrelaksowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_forceful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "forceful",
+    "RUS": "сильн",
+    "POL": "gwałtowna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_even_tempered",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "even-tempered",
+    "RUS": "спокойн",
+    "POL": "zrównoważona",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_poised",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "poised",
+    "RUS": "хладнокровн",
+    "POL": "gotowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_composed",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "composed",
+    "RUS": "сдержанн",
+    "POL": "opanowana ",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_vigorous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "vigorous",
+    "RUS": "решительн",
+    "POL": "energiczna ",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_confident",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "confident",
+    "RUS": "уверенн",
+    "POL": "pewna siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_respectful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "respectful",
+    "RUS": "уважаем",
+    "POL": "pełna szacunku",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_cunning",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "cunning",
+    "RUS": "остроумн",
+    "POL": "cwana ",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_sly",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "sly",
+    "RUS": "хитр",
+    "POL": "chytra ",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_sincere",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "sincere",
+    "RUS": "честн",
+    "POL": "szczera ",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_prudent",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "prudent",
+    "RUS": "осторожн",
+    "POL": "roztropna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_courageous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "courageous",
+    "RUS": "храбр",
+    "POL": "dzielna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_fearless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "fearless",
+    "RUS": "бесстрашн",
+    "POL": "nieustraszona",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_coy",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "coy",
+    "RUS": "скромн",
+    "POL": "nieskora",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_reserved",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "reserved",
+    "RUS": "осторожн",
+    "POL": "skryta",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_friendly",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "friendly",
+    "RUS": "дружелюбн",
+    "POL": "przyjazna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_sociable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "sociable",
+    "RUS": "общительн",
+    "POL": "towarzyska",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_agreeable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "agreeable",
+    "RUS": "приятн",
+    "POL": "przyjemna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_determined",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "determined",
+    "RUS": "решительн",
+    "POL": "zdeterminowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_driven",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "driven",
+    "RUS": "непреклонн",
+    "POL": "zdecydowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_enthusiastic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "enthusiastic",
+    "RUS": "воодушевленн",
+    "POL": "entuzjastyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_untroubled",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "untroubled",
+    "RUS": "безмятежн",
+    "POL": "niezmącona",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_circumspect",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "circumspect",
+    "RUS": "осмотрительн",
+    "POL": "przezorna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_devout",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "devout",
+    "RUS": "благочестив",
+    "POL": "pobożna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_wary",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "wary",
+    "RUS": "внимательн",
+    "POL": "czujna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_committed",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "committed",
+    "RUS": "приверженн",
+    "POL": "oddana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_kind",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "kind",
+    "RUS": "добр",
+    "POL": "uprzejma",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_thick_skinned",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "thick-skinned",
+    "RUS": "необидчив",
+    "POL": "gruboskórna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_unsusceptible",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unsusceptible",
+    "RUS": "невосприимчив",
+    "POL": "niewrażliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_ahem",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "ahem... #EMP efficient#!",
+    "RUS": "кхм... #EMP эффективн#!",
+    "POL": "ekhem… #EMP [Select_CString(second.IsFemale, 'skuteczna', 'skuteczny' )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_efficient",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "efficient",
+    "RUS": "эффективн",
+    "POL": "skuteczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_fellow_connoisseur",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "connoisseur",
+    "RUS": "искушенн",
+    "POL": "[Select_CString(second.IsFemale, 'koneserka', 'koneser' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_fellow_gourmand",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "gourmand",
+    "RUS": "чревоугодн",
+    "POL": "[Select_CString(second.IsFemale, 'smakoszka', 'smakosz' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_resolute",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "resolute",
+    "RUS": "непоколебим",
+    "POL": "stanowcza",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_flexible",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "flexible",
+    "RUS": "покладист",
+    "POL": "elastyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_trenchant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "trenchant",
+    "RUS": "проницательн",
+    "POL": "kąśliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_magnanimous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "magnanimous",
+    "RUS": "великодушн",
+    "POL": "wspaniałomyślna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_merciful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "merciful",
+    "RUS": "милосердн",
+    "POL": "miłosierna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_irrepressible",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "irrepressible",
+    "RUS": "неутомим",
+    "POL": "niepohamowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_unstoppable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unstoppable",
+    "RUS": "неудержим",
+    "POL": "niepowstrzymana",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_exuberant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "exuberant",
+    "RUS": "жизнерадостн",
+    "POL": "żywiołowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_crafty",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "crafty",
+    "RUS": "искусн",
+    "POL": "podstępna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_mischievous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "mischievous",
+    "RUS": "игрив",
+    "POL": "złośliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_artful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "artful",
+    "RUS": "умел",
+    "POL": "zręczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_effusive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "effusive",
+    "RUS": "необузданн",
+    "POL": "wylewna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_forthcoming",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "forthcoming",
+    "RUS": "расположительн",
+    "POL": "otwarta",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_expressive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "expressive",
+    "RUS": "выразительн",
+    "POL": "ekspresyjna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_inquisitive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "inquisitive",
+    "RUS": "любопытн",
+    "POL": "zaciekawiona",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_enquiring",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "enquiring",
+    "RUS": "дотошн",
+    "POL": "dociekliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_observant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "observant",
+    "RUS": "наблюдательн",
+    "POL": "spostrzegawcza",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_self_assured",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "self-assured",
+    "RUS": "властн",
+    "POL": "zadufana w sobie",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_adept",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "adept",
+    "RUS": "умел",
+    "POL": "biegła",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_meticulous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "meticulous",
+    "RUS": "основательн",
+    "POL": "skrupulatna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_subtle",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "subtle",
+    "RUS": "проницательн",
+    "POL": "subtelna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_imposing",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "imposing",
+    "RUS": "представительн",
+    "POL": "imponująca",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_charming",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "charming",
+    "RUS": "очаровательн",
+    "POL": "czarująca",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_industrious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "industrious",
+    "RUS": "находчив",
+    "POL": "pracowita",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_wise",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "wise",
+    "RUS": "мудр",
+    "POL": "mądra",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_venerable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "venerable",
+    "RUS": "почтенн",
+    "POL": "czcigodna",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_youthful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "youthful",
+    "RUS": "моложав",
+    "POL": "młodzieńcza",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_desc_compliment_adjective",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "[second.Custom('ComplimentAdjective')]",
+    "RUS": "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'ая', 'ый' )]",
+    "POL": "przyjacielska",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_traitorous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "traitorous",
+    "RUS": "вероломн",
+    "POL": "wiarołomna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_subversive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "subversive",
+    "RUS": "гибельн",
+    "POL": "wywrotowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_useless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "useless",
+    "RUS": "никчемн",
+    "POL": "bezużyteczn[Select_CString(second.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_oppressing",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "oppressing",
+    "RUS": "безразличн",
+    "POL": "opresyjna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_wasteful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "wasteful",
+    "RUS": "расточительн",
+    "POL": "rozrzutna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_pathetic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pathetic",
+    "RUS": "безнадежн",
+    "POL": "żałosna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_decrepit",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "decrepit",
+    "RUS": "захудал",
+    "POL": "zniedołężniała",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_naive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "naive",
+    "RUS": "наивн",
+    "POL": "naiwna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_arrogant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "arrogant",
+    "RUS": "заносчив",
+    "POL": "arogancka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_faithless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "faithless",
+    "RUS": "безбожн",
+    "POL": "niewierna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_aloof",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "aloof",
+    "RUS": "безразличн",
+    "POL": "powściągliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_lewd",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "lewd",
+    "RUS": "похотлив",
+    "POL": "sprośna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_insatiable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "insatiable",
+    "RUS": "ненасытн",
+    "POL": "nienasycona",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_lethargic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "lethargic",
+    "RUS": "сонлив",
+    "POL": "ospała",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_gullible",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "gullible",
+    "RUS": "доверчив",
+    "POL": "łatwowierna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_rabid",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "rabid",
+    "RUS": "бешен",
+    "POL": "zacietrzewiona",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_fanatical",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "fanatical",
+    "RUS": "фанатичн",
+    "POL": "fanatyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_delirious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "delirious",
+    "RUS": "безумн",
+    "POL": "majacząca",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_ruinous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "ruinous",
+    "RUS": "разрушительн",
+    "POL": "niszczycielska ",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_dishonest",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "dishonest",
+    "RUS": "бесчестн",
+    "POL": "nieuczciwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_crooked",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "crooked",
+    "RUS": "извращенн",
+    "POL": "szemrana",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_insidious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "insidious",
+    "RUS": "коварн",
+    "POL": "zdradziecka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_spineless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "spineless",
+    "RUS": "бесхребетн",
+    "POL": "bojaźliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_gutless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "gutless",
+    "RUS": "бесхарактерн",
+    "POL": "tchórzliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_cowardly",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "cowardly",
+    "RUS": "труслив",
+    "POL": "struchlała",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_apprehensive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "apprehensive",
+    "RUS": "напуганн",
+    "POL": "lękliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_restrained",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "restrained",
+    "RUS": "чопорн",
+    "POL": "powściągliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_austere",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "austere",
+    "RUS": "грозн",
+    "POL": "szorstka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_rigid",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "rigid",
+    "RUS": "несговорчив",
+    "POL": "nieugięta",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_spiteful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "spiteful",
+    "RUS": "злобн",
+    "POL": "dokuczliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_hostile",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "hostile",
+    "RUS": "враждебн",
+    "POL": "nieprzyjazna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_perverse",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "perverse",
+    "RUS": "развращенн",
+    "POL": "zboczona",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_ruthless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "ruthless",
+    "RUS": "безжалостн",
+    "POL": "bezwzględna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_unrestrained",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unrestrained",
+    "RUS": "невоздержанн",
+    "POL": "niepohamowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_brash",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "brash",
+    "RUS": "непочтительн",
+    "POL": "bezczelna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_brazen",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "brazen",
+    "RUS": "неприглядн",
+    "POL": "nachalna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_audacious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "audacious",
+    "RUS": "нахальн",
+    "POL": "zuchwała",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_guileless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "guileless",
+    "RUS": "бесхитростн",
+    "POL": "szczera",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_reckless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "reckless",
+    "RUS": "безрассудн",
+    "POL": "lekkomyślna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_unrelenting",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unrelenting",
+    "RUS": "беспощадн",
+    "POL": "nieubłagalna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_impatient",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "impatient",
+    "RUS": "нетерпелив",
+    "POL": "niecierpliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_pessimistic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pessimistic",
+    "RUS": "уныл",
+    "POL": "pesymistyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_false",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "false",
+    "RUS": "лжив",
+    "POL": "fałszywa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_pretentious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pretentious",
+    "RUS": "претенциозн",
+    "POL": "pretensjonalna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_disagreeable",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "disagreeable",
+    "RUS": "неприятн",
+    "POL": "nieprzyjemna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_grousing",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "grousing",
+    "RUS": "ворчлив",
+    "POL": "zrzędliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_querulous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "querulous",
+    "RUS": "капризн",
+    "POL": "narzekająca",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_fretful",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "fretful",
+    "RUS": "раздражительн",
+    "POL": "niespokojna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_pompous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pompous",
+    "RUS": "напыщенн",
+    "POL": "pompatyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_overbearing",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "overbearing",
+    "RUS": "чванлив",
+    "POL": "apodyktyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_abstruse",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "abstruse",
+    "RUS": "заумн",
+    "POL": "niezrozumiała",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_graceless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "graceless",
+    "RUS": "грешн",
+    "POL": "pozbawiona wdzięku",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_unsubtle",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unsubtle",
+    "RUS": "неотесанн",
+    "POL": "nieposłuszna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_ignorant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "ignorant",
+    "RUS": "глуп",
+    "POL": "ignorancka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_feeble",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "feeble",
+    "RUS": "бесталанн",
+    "POL": "słaba",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_dull",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "dull",
+    "RUS": "туповат",
+    "POL": "tępa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_tedious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "tedious",
+    "RUS": "нудн",
+    "POL": "marudna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_inept",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "inept",
+    "RUS": "ущербн",
+    "POL": "niedorzeczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_simple",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "simple",
+    "RUS": "простоват",
+    "POL": "prostacka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_witless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "witless",
+    "RUS": "скудоумн",
+    "POL": "bezmyślna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_obtuse",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "obtuse",
+    "RUS": "бестолков",
+    "POL": "głupia",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_rebellious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "rebellious",
+    "RUS": "непослушн",
+    "POL": "niepokorna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_boisterous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "boisterous",
+    "RUS": "буйн",
+    "POL": "porywista",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_unruly",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unruly",
+    "RUS": "неуправляем",
+    "POL": "niesforna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_devious",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "devious",
+    "RUS": "коварн",
+    "POL": "przebiegła",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_wily",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "wily",
+    "RUS": "лукав",
+    "POL": "szczwana",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_shifty",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "shifty",
+    "RUS": "ушл",
+    "POL": "krętacka",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_rattling",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "rattling",
+    "RUS": "шумн",
+    "POL": "porywista",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_annoying",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "annoying",
+    "RUS": "назойлив",
+    "POL": "irytująca",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_raucous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "raucous",
+    "RUS": "бурн",
+    "POL": "hałaśliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_meddling",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "meddling",
+    "RUS": "навязчив",
+    "POL": "wścibska",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_prying",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "prying",
+    "RUS": "надоедлив",
+    "POL": "ciekawska",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_intrusive",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "intrusive",
+    "RUS": "докучлив",
+    "POL": "natrętna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_overconfident",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "overconfident",
+    "RUS": "самоуверенн",
+    "POL": "pewna siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_careless",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "careless",
+    "RUS": "беззаботн",
+    "POL": "nieostrożna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_hubristic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "hubristic",
+    "RUS": "нагл",
+    "POL": "pyszna",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_desc_insult_adjective",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "[second.Custom2('InsultAdjective', ROOT.Char)]",
+    "RUS": "[second.Custom2('InsultAdjective', ROOT.Char)]",
+    "POL": "[second.Custom2('InsultAdjective', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_kinslayer",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "kinslayer",
+    "RUS": "братоубийца",
+    "POL": "krewnobój[Select_CString(ROOT.Char.IsFemale, 'czyni', 'ca' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_deviant",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "deviant",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'извращенка', 'извращенец' )]",
+    "POL": "zboczeniec",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_cannibal",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "cannibal",
+    "RUS": "каннибал",
+    "POL": "kanibal[Select_CString(ROOT.Char.IsFemale, 'ka', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_sodomite",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "sodomite",
+    "RUS": "содомит",
+    "POL": "sodomit[Select_CString(ROOT.Char.IsFemale, 'ka', 'a' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_incestuous",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "incestuous",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'кровосмесительница', 'кровосмеситель' )]",
+    "POL": "kazirodc[Select_CString(ROOT.Char.IsFemale, 'zyni', 'a' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_adulterer",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "adulterer",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'изменница', 'изменник' )]",
+    "POL": "cudzołożni[Select_CString(ROOT.Char.IsFemale, 'ca', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_witch",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "witch",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'ведьма', 'колдун' )]",
+    "POL": "czarowni[Select_CString(ROOT.Char.IsFemale, 'ca', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_fornicator",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "fornicator",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'прелюбодейка', 'прелюбодей' )]",
+    "POL": "rozpustni[Select_CString(ROOT.Char.IsFemale, 'ca', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_denounced",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "denounced",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'изгнанница', 'изгнанник' )]",
+    "POL": "potępion[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_excommunicated",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "excommunicated",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'отлученная', 'отлученный' )]",
+    "POL": "ekskomunikowan[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_murderer",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "murderer",
+    "RUS": "убийца",
+    "POL": "morderc[Select_CString(ROOT.Char.IsFemale, 'zyni', 'a' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_heretic",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "sectarian",
+    "RUS": "еретик",
+    "POL": "sekciar[Select_CString(ROOT.Char.IsFemale, 'ka', 'z' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_heathen",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pagan",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'язычница', 'язычник' )]",
+    "POL": "pogan[Select_CString(ROOT.Char.IsFemale, 'ka', 'in' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_infidel",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unbeliever",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'неверующая', 'неверующий' )]",
+    "POL": "niewierząc[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "criminal",
+    "RUS": "[Select_CString( CHARACTER.IsFemale, 'преступница', 'преступник' )]",
+    "POL": "przestępc[Select_CString(ROOT.Char.IsFemale, 'zyni', 'a' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_kinslayer_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "familial traitor",
+    "RUS": "предатель своего рода",
+    "POL": "zdrajc[Select_CString(ROOT.Char.IsFemale, 'zyni', 'a' )] rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_deviant_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "disgusting sinner",
+    "RUS": "мерзкое воплощение греха",
+    "POL": "obrzydliwa świnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_cannibal_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "vile animal",
+    "RUS": "гнусное животное",
+    "POL": "podła kanalia",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_sodomite_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "pitiful catamite",
+    "RUS": "жалкий мужеложец",
+    "POL": "żałosna szmata",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_incestuous_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "inbreeding dog",
+    "RUS": "кровосмесительное животное",
+    "POL": "kazirodcza wsza",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_adulterer_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unfaithful wretch",
+    "RUS": "неверная дрянь",
+    "POL": "niewierna marnota",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_witch_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "unholy conjurer",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'нечестивая заклинательница', 'нечестивый заклинатель' )]",
+    "POL": "bezbożna pijawka",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_fornicator_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "shameless debaucher",
+    "RUS": "кутила без стыда и совести",
+    "POL": "bezwstydn[Select_CString(ROOT.Char.IsFemale, 'a uwodzicielka', 'y uwodziciel' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_denounced_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "dynastic embarrassment",
+    "RUS": "позор династии",
+    "POL": "[Select_CString(ROOT.Char.IsFemale, 'hańba dla dynastii', 'dyshonor dla dynastii' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_excommunicated_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "godless exile",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'безбожная отщепенка', 'безбожный изгой' )]",
+    "POL": "bezbożn[Select_CString(ROOT.Char.IsFemale, 'a wygnanka', 'y wygnaniec' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_murderer_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "heartless butcherer",
+    "RUS": "настоящий мясник",
+    "POL": "bezduszna bestia",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_heretic_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "shameful apostate",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'позорная отступница', 'позорный отступник' )]",
+    "POL": "haniebn[Select_CString(ROOT.Char.IsFemale, 'a apostatka', 'y apostata' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_heathen_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "ungodly idolater",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'богохульная идолопоклонница', 'богохульный идолопоклонник' )]",
+    "POL": "bezbożn[Select_CString(ROOT.Char.IsFemale, 'a bałwochwalczyni', 'y bałwochwalca' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_infidel_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "faithless imp",
+    "RUS": "безбожное порождение зла",
+    "POL": "niewierna gnida",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_fallback_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "irredeemable fiend",
+    "RUS": "безнадежное чудовище",
+    "POL": "beznadziejna hiena",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_deviant_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "a $crime_deviant_desc$",
+    "RUS": "$crime_deviant_desc$",
+    "POL": "$crime_deviant_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_cannibal_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "a $crime_cannibal_desc$",
+    "RUS": "$crime_cannibal_desc$",
+    "POL": "$crime_cannibal_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_sodomite_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "a $crime_sodomite_desc$",
+    "RUS": "$crime_sodomite_desc$",
+    "POL": "$crime_sodomite_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_incestuous_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "an $crime_incestuous_desc$",
+    "RUS": "$crime_incestuous_desc$",
+    "POL": "$crime_incestuous_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_adulterer_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "an $crime_adulterer_desc$",
+    "RUS": "$crime_adulterer_desc$",
+    "POL": "$crime_adulterer_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_witch_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "an $crime_witch_desc$",
+    "RUS": "$crime_witch_desc$",
+    "POL": "$crime_witch_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_murderer_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "a $crime_murderer_desc$",
+    "RUS": "$crime_murderer_desc$",
+    "POL": "$crime_murderer_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_infidel_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "a $crime_infidel_desc$",
+    "RUS": "$crime_infidel_desc$",
+    "POL": "$crime_infidel_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "crime_indef_fallback_desc",
+    "FILE_PATH": "localization/belarusian/custom_localization/character_descriptions_l_belarusian.json",
+    "ENG": "an $crime_fallback_desc$",
+    "RUS": "$crime_fallback_desc$",
+    "POL": "$crime_fallback_desc$",
+    "BEL": ""
+  }
+]

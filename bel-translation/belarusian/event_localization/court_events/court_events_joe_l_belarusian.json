@@ -1,0 +1,2610 @@
+[
+  {
+    "KEY": "court.8001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Trampled Underfoot",
+    "RUS": "Растоптанная поросль",
+    "POL": "Zadeptane gołymi stopami",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Сколько раз я тебе [Select_CString(gardener.IsFemale, 'говорила', 'говорил')] #EMP не ходить#! там, где растут #EMP [ROOT.Char.Custom('get_region_flower_type_plural')]?!#!»\\n\\nКо мне выбегает [child_1.Custom2('MyCharacterIntroduction', ROOT.Char)], [Select_CString(child_1.IsFemale, 'вся', 'весь')] в грязи и лепестках. За [Select_CString(child_1.IsFemale, 'ней', 'ним')] гонится [Select_CString(gardener.IsFemale, 'моя садовница', 'мой садовник')] [gardener.GetTitledFirstName|l].\\n\\n[child_1.GetFirstNameNoTooltip] хнычет:",
+    "POL": "– Ile razy mam ci mówić, że masz się trzymać z #EMP daleka#!?! To #EMP świeżo posadzone kwiaty! [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')|U] to nie zabawka!#!\\n\\n[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] zjawia się w ubraniu pokrytym brudem i płatkami kwiatów, a ścigający [child_1.Custom('PL_go_ja')] ogrodnik, [gardener.GetTitledFirstName], przychodzi chwilę później.\\n\\n[child_1.GetFirstNameNoTooltip] płacze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Они гнались за мной! А я никогда не проигрываю в #EMP этой игре#!!»",
+    "POL": "– Oni mnie gonili! A ja nigdy nie przegrywam w grę w #EMP berka#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.martial",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я просто [Select_CString(child_1.IsFemale, 'пряталась', 'прятался')] от солдат… Мы хотели устроить засаду, чтобы выиграть сражение!»",
+    "POL": "– To była moja kryjówka przed żołnierzami… musieliśmy zrobić na nich zasadzkę, żeby wygrać bitwę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не [Select_CString(child_1.IsFemale, 'виновата', 'виноват' )]! [gardener.GetSheHe|U] [Select_CString(gardener.IsFemale, 'посадила', 'посадил' )] их на нашем маленьком замке!»",
+    "POL": "„To nie moja wina! To [Select_CString( gardener.IsFemale, 'ona posadziła', 'on posadził' )] je obok naszego małego zamku!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы играли в прятки. Меня бы не нашли, если бы не #EMP [Select_CString(gardener.IsFemale, 'она', 'он')]#!!»",
+    "POL": "– Bawiliśmy się w chowanego! Nikt nie zdołałby mnie znaleźć, gdyby nie #EMP [gardener.GetSheHe]#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.learning",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я только [Select_CString(child_1.IsFemale, 'смотрела', 'смотрел' )]! На этот раз они были другого цвета!»",
+    "POL": "„Tylko się [Select_CString( child_1.IsFemale, 'przyglądałam', 'przyglądałem' )]! Tym razem były innego koloru!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я ни в чем не [Select_CString(child_1.IsFemale, 'виновата', 'виноват' )]! Я только [Select_CString(child_1.IsFemale, 'играла', 'играл' )]!»",
+    "POL": "„Nic nie [Select_CString( child_1.IsFemale, 'zrobiłam! Ja tylko się bawiłam', 'zrobiłem! Ja tylko się bawiłem' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.desc.closing",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\n[gardener.GetFirstNameNoTooltip] glowers, ",
+    "RUS": "\\n\\n[gardener.GetFirstNameNoTooltip] сердито смотрит на меня. «[Select_CString(child_1.IsFemale, 'Эта негодница уничтожила', 'Этот негодник уничтожил')] #EMP все#! плоды моих трудов, [ROOT.Char.Custom('FormOfAddressForLiege')]! Потребуются #EMP недели#!, чтобы устранить ущерб…»",
+    "POL": "\\n\\n[gardener.GetFirstNameNoTooltip] patrzy spode łba. – To przeklęte dziecko zadeptało #EMP wszystkie#! efekty mojej ciężkiej pracy, widzi [ROOT.Char.Custom('FormOfAddressForLiege')]? Będzie trzeba #EMP tygodni#!, żeby naprawić te zniszczenia…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Sometimes it pays to be caught, my [child_1.Custom('GirlBoy')].",
+    "RUS": "Иногда за свои ошибки приходится расплачиваться.",
+    "POL": "Czasem trzeba zapłacić za swe błędy, [Select_CString( child_1.IsFemale, 'moja panienko', 'mój chłopcze' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.martial",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Ah, but you must pick your battles, my [child_1.Custom('GirlBoy')]!",
+    "RUS": "Битвы следует выбирать с умом, дитя.",
+    "POL": "Och, nie możesz brać udziału w byle zabawach, moje dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I know a better spot to build your mighty court my [child_1.Custom('GirlBoy')].",
+    "RUS": "Я знаю более подходящее место для твоего двора.",
+    "POL": "Znam lepsze miejsce, gdzie [Select_CString( child_1.IsFemale, 'mogłabyś wznieść swój potężny dwór, moja panienko', 'mógłbyś wznieść swój potężny dwór, mój chłopcze' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The trick is not to get caught, my [child_1.Custom('GirlBoy')].",
+    "RUS": "Секрет в том, чтобы не попасться, дитя.",
+    "POL": "Sztuczka polega na tym, żeby nie dać się złapać, moje dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.learning",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You can learn from a distance too, my [child_1.Custom('GirlBoy')].",
+    "RUS": "На расстоянии тоже можно многому научиться, дитя.",
+    "POL": "Na odległość też można się wiele nauczyć, moje dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.lesson_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[child_1.GetFirstNameNoTooltip] takes your point",
+    "RUS": "[child_1.GetFirstNameNoTooltip] соглашается с вашим мнением",
+    "POL": "[child_1.GetFirstNameNoTooltip] zgadza się z tobą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.b.gardener",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "No! #EMP Not#! the flower beds...",
+    "RUS": "Нет! #EMP Только не#! цветочные клумбы...",
+    "POL": "Nie! #EMP Tylko nie#! kwietniki…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.b.poet",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Delicate beauty, ever crushed by clumsy fools...",
+    "RUS": "Как обычно, нежная красота гибнет под ногами неуклюжих глупцов...",
+    "POL": "Delikatne piękno jak zawsze ginie pod stopami niezdarnych głupców…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[child_1.GetFirstNameNoTooltip] will help replant them. All of them.",
+    "RUS": "[child_1.GetFirstNameNoTooltip] поможет высадить всё заново.",
+    "POL": "[child_1.GetFirstNameNoTooltip] pomoże posadzić je na nowo. Wszystkie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.c.gardener_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[child_1.GetFirstNameNoTooltip] has green fingers",
+    "RUS": "[child_1.GetFirstNameNoTooltip] получает навыки садоводства",
+    "POL": "[child_1.GetFirstNameNoTooltip] ma rękę do roślin",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "How #EMP dare#! you handle [child_1.GetFirstNameNoTooltip] like that?!",
+    "RUS": "Да как вы #EMP смеете#! так обращаться с [Select_CString(child_1.IsFemale, 'моей дочерью', 'моим сыном' )]?!",
+    "POL": "#EMP Bacz na język#!! [child_1.GetFirstNameNoTooltip] nie jest plebsem, by tak [Select_CString( child_1.IsFemale, 'ją', 'go' )] traktować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The children may play where they like, [gardener.GetFirstNameNoTooltip].",
+    "RUS": "Дети могут играть где захотят, [gardener.GetFirstNameNoTooltip].",
+    "POL": "Dzieciom wolno bawić się gdzie chcą, [gardener.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You impart some wisdom",
+    "RUS": "Вам удается донести до ребенка толику мудрости",
+    "POL": "Przekazujesz trochę wiedzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8001.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You are not helpful",
+    "RUS": "Ваш совет не помогает",
+    "POL": "Nie pomagasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Underequipped",
+    "RUS": "Нехватка снаряжения",
+    "POL": "Słabo wyposażo[Select_CString( underequipped.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I am enjoying a rare, quiet moment between councils, when [underequipped.GetTitledFirstName] pulls me aside. \\n\\n",
+    "RUS": "Я наслаждаюсь редким моментом тишины между советами, когда [underequipped.GetTitledFirstName] отводит меня в сторону.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]... — осторожно начинает [underequipped.GetSheHe]. —",
+    "POL": "Rozkoszuję się rzadką, cichą chwilą między obradami, gdy [underequipped.GetTitledFirstName] odciąga mnie na bok.\\n\\n– [ROOT.Char.Custom('FormOfAddressForLiege')|U] musi mnie wysłuchać… – zaczyna delikatnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.champion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Для меня честь быть [Select_CString(underequipped.IsFemale, 'вашей воительницей', 'вашим воителем' )] и сражаться от вашего имени,",
+    "POL": "„Jako [Select_CString( underequipped.IsFemale, 'twoja czempionka', 'twój czempion' )], przepełnia mnie duma, że mogę cię reprezentować,",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.bodyguard",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Для меня честь быть [Select_CString(underequipped.IsFemale, 'вашей телохранительницей', 'вашим телохранителем' )] и защищать вас,",
+    "POL": "„Jako [Select_CString( underequipped.IsFemale, 'twoja osobista strażniczka, czuję się zaszczycona', 'twój osobisty strażnik, czuję się zaszczycony' )], mogąc cię chronić,",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.knight",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "As your [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], it is my holy duty to fight your battles,",
+    "RUS": "Я [Select_CString(underequipped.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], и долг велит мне сражаться за вас,",
+    "POL": "– Jako [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], mam święty obowiązek walczyć za waszą wysokość,",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.bold",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "but this is ridiculous!",
+    "RUS": "но это просто нелепо!»\\n\\n[underequipped.GetSheHe|U] наполовину извлекает клинок из ножен, обращая мое внимание на многочисленные сколы и вмятины: «Я не могу исполнять свои обязанности с этим куском железа».",
+    "POL": "lecz to jest niedorzeczne!”\\n\\nNastępnie wysuwa z pochwy swoje ostrze do połowy i zwraca uwagę na liczne wyszczerbienia i wgniecenia. „Nie jestem w stanie należycie wypełniać swojego obowiązku, mając taki lichy kawałek żelaza!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.meek",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "but...",
+    "RUS": "но...»\\n\\n[underequipped.GetSheHe|U] какое-то время колеблется, а затем раздраженно указывает на свои ножны: «Как я могу исполнять свои обязанности с этим старьем?»",
+    "POL": "lecz…”\\n\\nPrzez chwilę wygląda na [Select_CString( underequipped.IsFemale, 'niezdecydowaną', 'niezdecydowanego' )], lecz chwilę później wykonuje spokojny, lecz z wyczuwalną irytacją gest swoją pochwą: „Jak mam wypełniać swoje obowiązki tą wysłużoną rzeczą?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Несомненно, качество важнее всего, когда речь идет",
+    "POL": "\\n\\n„Zdecydowanie jakość ma pierwszeństwo nad wszystkim innym, jeśli chodzi o",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.champion_end",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "acting on the [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] behalf!",
+    "RUS": "о сражениях от моего имени!»",
+    "POL": "działanie w imieniu osobistości, jaką jest [Select_CString( ROOT.Char.IsFemale, 'sama', 'sam' )] [ROOT.Char.GetTitleAsNameNoTooltip]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.desc.bodyguard_end",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "protecting the [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] life!",
+    "RUS": "о защите моей жизни!»",
+    "POL": "strzeżenie życia osobistości, jaką jest [Select_CString( ROOT.Char.IsFemale, 'sama', 'sam' )] [ROOT.Char.GetTitleAsNameNoTooltip]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My best [underequipped.GetWomenMen] need quality arms!",
+    "RUS": "Мои лучшие [underequipped.GetWomenMen] нуждаются в качественном оружии!",
+    "POL": "Mój najlepszy człowiek zasługuje na broń najwyższej jakości!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A good quality weapon of [underequipped.GetTitledFirstNamePossessiveNoTooltip] choosing will be forged for [underequipped.GetHerHim]",
+    "RUS": "[underequipped.GetTitledFirstNameNoTooltip] получит качественное оружие по своему выбору",
+    "POL": "[underequipped.GetTitledFirstNameNoTooltip] wybierze, jaka broń dobrej jakości ma być dla [Select_CString( underequipped.IsFemale, 'niej', 'niego' )] wykuta",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.a.equipped_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A fine weapon is forged for [underequipped.GetTitledFirstName]",
+    "RUS": "[underequipped.GetTitledFirstName] получает хорошее оружие",
+    "POL": "[underequipped.GetTitledFirstName] dostaje porządną broń",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I suppose I could spare one of my own weapons...",
+    "RUS": "Полагаю, могу уступить вам что-нибудь из своего арсенала...",
+    "POL": "Chyba [Select_CString( ROOT.Char.IsFemale, 'miałabym', 'miałbym' )] coś dla ciebie z mojego arsenału…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.c.equipped_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[underequipped.GetTitledFirstNameNoTooltip] is gifted a weapon",
+    "RUS": "[underequipped.GetTitledFirstNameNoTooltip] получает в дар оружие",
+    "POL": "[underequipped.GetTitledFirstNameNoTooltip] otrzymuje w podarunku broń",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Go to the armory — like everyone else.",
+    "RUS": "Отправляйтесь в оружейную, как это делают все остальные.",
+    "POL": "Idź do zbrojowni – jak każdy inny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[underequipped.GetTitledFirstNameNoTooltip] will fetch a poor quality sword from the armory",
+    "RUS": "[underequipped.GetTitledFirstNameNoTooltip] возьмет плохонький меч из оружейной",
+    "POL": "[underequipped.GetTitledFirstNameNoTooltip] weźmie ze zbrojowni miecz słabej jakości",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.d.equipped_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[underequipped.GetTitledFirstName] receives an armory sword",
+    "RUS": "[underequipped.GetTitledFirstName] получает меч из оружейной",
+    "POL": "[underequipped.GetTitledFirstName] zaopatruje się w miecz ze zbrojowni",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8010.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Get out of my sight, brazen [underequipped.Custom2('InsultNoun', ROOT.Char)]!",
+    "RUS": "Прочь с глаз моих, [Select_CString(underequipped.IsFemale, 'нахальная', 'нахальный' )] [underequipped.Custom2('InsultNoun', ROOT.Char)]!",
+    "POL": "– Zejdź mi z oczu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Sartorial Sting",
+    "RUS": "Портняжный укол",
+    "POL": "Krawieckie ukłucie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Busied amidst another day at court, I overhear my [couture_spouse.GetWifeHusband] [couture_spouse.GetTitledFirstNamePossessive] distinctive irate tone — [couture_guest.GetTitledFirstName] seems to have got [couture_spouse.GetHerHis] goat. \\n\\nStepping closer, I see my guest smugly jeering, ",
+    "RUS": "Занимаясь придворными делами, я слышу, как [Select_CString(couture_spouse.IsFemale, 'моя', 'мой' )] [couture_spouse.GetWifeHusband] [couture_spouse.GetTitledFirstName] кричит на удивление разгневанным тоном. Похоже, [couture_guest.GetTitledFirstName] [Select_CString(couture_guest.IsFemale, 'вывела', 'вывел' )] [couture_spouse.GetHerHis] из себя.\\n\\nПодойдя ближе, я слышу голос [Select_CString(couture_guest.IsFemale, 'моей гостьи', 'моего гостя' )], буквально источающий насмешку и самоуверенность: «Эта так называемая #EMP мода#! — просто позор. При любом уважаемом #EMP [couture_guest.GetCulture.GetCollectiveNounNoTooltip|l]ом#! дворе такое станут носить только слуги и дети».\\n\\n[Select_CString(couture_spouse.IsFemale, 'Моя', 'Мой' )] [couture_spouse.GetWifeHusband] краснеет и кричит в ответ: «С меня #EMP хватит#!, хоть вас и [Select_CString(ROOT.Char.IsFemale, 'пригласила', 'пригласил' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]!» — чему немало удивляется [couture_guest.GetFirstNameNoTooltip].\\n\\nОтведя меня в сторону, [couture_spouse.GetFirstNameNoTooltip] жалуется: «[Select_CString(couture_guest.IsFemale, 'Эта неблагодарная', 'Этот неблагодарный' )] [couture_guest.Custom2('InsultNoun', SCOPE.sC('couture_spouse'))] постоянно над нами насмехается. Вчера мои слуги услышали, как [Select_CString(couture_guest.IsFemale, 'она назвала', 'он назвал' )] нас #EMP пережитками прошлого!#!»",
+    "POL": "Zajmuję się załatwianiem dworskich spraw, gdy nagle do moich uszu dociera, jak [couture_spouse.GetTitledFirstName], [couture_spouse.GetWifeHusband] mojej osoby, wyraźnie krzyczy gniewnym tonem. Wygląda na to, że [couture_guest.GetTitledFirstName] czymś [couture_spouse.Custom('PL_go_ja')] mocno denerwuje.\\n\\nGdy podchodzę bliżej, słyszę głos mojego gościa dosłownie emanujący kpiną i zadufaniem.\\n\\n– Ta tak zwana #EMP moda#! to ujma i kompromitacja. Każdy szanujący się dwór, na którym panuje #EMP [couture_guest.GetCulture.GetNameNoTooltip|l]#! tradycja, ubrałby w to najwyżej służbę lub dzieci.\\n\\n[couture_spouse.GetWifeHusband|U] pąsowieje i zaczyna krzyczeć.\\n\\n– Mam cię już #EMP dość#! – nie obchodzi mnie to, że gości cię tu [ROOT.Char.GetTitleAsNameNoTooltip] we własnej osobie!\\n\\nNa te słowa [couture_guest.GetFirstNameNoTooltip] przeżywa szok.\\n\\n[couture_spouse.GetFirstNameNoTooltip], odciągając mnie na bok, zaczyna gorzko narzekać.\\n\\n– Co to jest za [couture_guest.Custom2('InsultNoun', SCOPE.sC('couture_spouse'))]! Nieustannie z nas drwi; wczoraj moi służący podsłuchali, jak mówi, że nasz gust mody jest #EMP passé!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Come dear, [couture_guest.GetSheHe] is only ribbing us.",
+    "RUS": "Ну же, [Select_CString(couture_spouse.IsFemale, 'дорогая', 'дорогой' )], [couture_guest.GetSheHe] просто поддразнивает нас.",
+    "POL": "Daj spokój skarbie, [couture_guest.GetSheHe|l] tylko się droczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I suppose it is a good venue for investment...",
+    "RUS": "Пожалуй, на такое стоит раскошелиться...",
+    "POL": "Podejrzewam, że to dobra okazja na inwestycję…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8020.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Passé? #EMP PASSÉ?!#!",
+    "RUS": "Пережитки прошлого? #EMP ПЕРЕЖИТКИ ПРОШЛОГО?!#!",
+    "POL": "Passé? #EMP PASSÉ?!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "poor_host_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Inadequate Host",
+    "RUS": "Плохой хозяин",
+    "POL": "Nienależyty gospodarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "poor_host_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has broken the unwritten rules of hospitality.",
+    "RUS": "Этот персонаж нарушил неписаные правила гостеприимства.",
+    "POL": "Ta postać złamała niepisane zasady gościnności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hunting_pooches_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Fine Hounds",
+    "RUS": "Хорошие гончие",
+    "POL": "Wyborowe ogary",
+    "BEL": ""
+  },
+  {
+    "KEY": "hunting_pooches_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character's court is furnished with particularly impressive hunting dogs.",
+    "RUS": "При дворе этого персонажа обитают особо умелые охотничьи псы.",
+    "POL": "Dwór tej postaci zamieszkują szczególnie uzdolnione psy myśliwskie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Pawful of Pooches",
+    "RUS": "Охапка щенков",
+    "POL": "Koc pełen szczenięcych łapek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "As [huntmaster.GetTitledFirstName], my huntmaster, enters the room, a gaggle of cooing courtiers descends upon [huntmaster.GetHerHim]. \\n\\nWhen [huntmaster.GetSheHe] finally breaks past, the cause of the stir becomes clear: cradled in [huntmaster.GetHerHis] arms is a blanket full of squirming puppies, a sort of [ROOT.Char.Custom('get_region_dog_type')] by the look of them — and very impressive too! \\n\\nMy $master_of_hunt_court_position$ smiles broadly, ",
+    "RUS": "Когда [Select_CString(huntmaster.IsFemale, 'моя старшая охотница', 'мой старший охотник' )] [huntmaster.GetTitledFirstName] входит в комнату, [huntmaster.GetHerHim] навстречу устремляется толпа восторженно сюсюкающих придворных.\\n\\nКогда [huntmaster.GetSheHe] наконец-то пробирается через них, причина такой реакции сразу становится ясна: на одеяле в [huntmaster.GetHerHis] руках барахтаются щенки породы [ROOT.Char.Custom('get_region_dog_type')], судя по их впечатляющему виду.\\n\\n$master_of_hunt_court_position$ широко улыбается: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], мне просто необходимо показать вам этот выводок. Когда эти щенки вырастут и пройдут обучение, они станут предметом зависти всех [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их охотников!»\\n\\n",
+    "POL": "Gdy [huntmaster.GetTitledFirstName], osoba pełniąca na moim dworze rolę łowczego, wchodzi do pomieszczenia, dopada [huntmaster.Custom('PL_go_ja')] grupa rozgadanych dworzan.\\n\\nW końcu udaje [huntmaster.Custom('PL_mu_jej')] się przedostać, a przyczyna poruszenia staje się natychmiast jasna: w swoich ramionach delikatnie trzyma koc pełen kotłujących się szczeniaków. Wnioskując po wyglądzie, każdy z nich to [ROOT.Char.Custom('get_region_dog_type')]. Każdy wygląda też przecudnie! $master_of_hunt_court_position$ uśmiecha się szeroko.\\n\\n– [ROOT.Char.Custom('FormOfAddressForLiege')|U] po prostu musi zobaczyć ten miot. Gdy te psiaki urosną i zostaną wytresowane, śmiem twierdzić, że będą obiektem zazdrości podczas każdego polowania prowadzonego na ziemiach znanych jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.desc.one",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I can't help but notice my [child_1.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))], [child_1.GetFirstNameNoTooltip], straining to get a good look at the tiny dogs.",
+    "RUS": "Я не могу не заметить, что [Select_CString(child_1.IsFemale, 'моя', 'мой' )] [child_1.Custom('ComplimentAdjective')][Select_CString(child_1.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))] [child_1.GetFirstNameNoTooltip] изо всех сил тянется, стараясь получше рассмотреть щенков.",
+    "POL": "Nie mogę nie zauważyć, jak [Select_CString( child_1.IsFemale, 'moja', 'mój' )] [child_1.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))], [child_1.GetFirstNameNoTooltip], wytęża wzrok, by dobrze przyjrzeć się malutkim pieskom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.desc.two",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "From the corner of my eye, I see two of my children, [child_1.GetFirstName] and [child_2.GetFirstName], clearly enraptured by the puppies, and in particular by the largest of the lot.",
+    "RUS": "Уголком глаза я замечаю, что мои дети [child_1.GetFirstName] и [child_2.GetFirstName] просто в восторге от щенков, особенно от самого крупного из них.",
+    "POL": "Kątem oka widzę dwoje moich dzieci. To [child_1.GetFirstName] i [child_2.GetFirstName], wyraźnie zachwycają się szczeniakami, a w szczególności największym z nich.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\nPicking up the biggest, [huntmaster.GetTitledFirstNameNoTooltip] ruminates, ",
+    "RUS": "\\n\\nВыбрав самого крупного щенка, [huntmaster.GetTitledFirstNameNoTooltip] заявляет: «Вероятно, это лучшая собака в этом поколении!»",
+    "POL": "\\n\\nWybrawszy największego z nich, [huntmaster.GetTitledFirstNameNoTooltip] oświadcza: „Ten może być najlepszym z nich wszystkich!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I can't wait for their debut!",
+    "RUS": "Жду не дождусь их первой охоты!",
+    "POL": "Nie mogę się doczekać ich pierwszego polowania!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The biggest shall go to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))], [child_1.GetFirstNameNoTooltip]!",
+    "RUS": "Самого крупного щенка получит [Select_CString(child_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))] [child_1.GetFirstNameNoTooltip]!",
+    "POL": "[child_1.GetFirstNameNoTooltip], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))] mojej osoby, dostanie największego z nich!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Only [child_2.GetFirstNameNoTooltip] deserves a boy this good.",
+    "RUS": "Только [child_2.GetFirstNameNoTooltip] заслуживает такого хорошего мальчика.",
+    "POL": "Tylko [child_2.GetFirstNameNoTooltip] zasługuje na tak dobrego szczeniaka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8030.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Ah, I have been awaiting such a magnificent pup!",
+    "RUS": "Да, я [Select_CString(ROOT.Char.IsFemale, 'ждала', 'ждал')] такую великолепную собаку!",
+    "POL": "Ach, [Select_CString( ROOT.Char.IsFemale, 'czekałam', 'czekałem' )] na takie wspaniałe szczenię!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Aristocratic Pretensions",
+    "RUS": "Аристократические притязания",
+    "POL": "Pretensje arystokratów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Three of my courtiers are overtly discussing my 'great number' of titles within deliberate earshot, loudly lamenting how taxing it must be for the [ROOT.Char.GetTitleAsNameNoTooltip] to manage so many estates [ROOT.Char.GetHerselfHimself]... \\n\\nThey are as thick as thieves:",
+    "RUS": "Трое моих придворных открыто обсуждают мои «многочисленные титулы», зная, что я могу их услышать, и громко сетуют, как же [ROOT.Char.GetTitleAsNameNoTooltip|l], должно быть, устает, лично управляя таким количеством поместий...\\n\\nЭто друзья — не разлей вода:",
+    "POL": "Trzech moich dworzan otwarcie dyskutuje o moich „wielu tytułach”, głośno lamentując nad tym, jak wiele wysiłku [ROOT.Char.GetTitleAsNameNoTooltip] musi włożyć, aby skutecznie zarządzać swoimi posiadłościami…\\n\\nSą gruboskórni jak złodzieje:",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.position_holder",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "faithful [position_holder.GetName] — a servant of the court;",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'верная', 'верный' )] [position_holder.GetName] — слуга двора,",
+    "POL": "oddan[Select_CString( position_holder.IsFemale, 'a', 'y' )] [position_holder.GetName] – sługa dworu;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.knight",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "gallant [knight.GetName] — my distinguished [ROOT.Char.Custom('MountedWarriorTerm')|U];",
+    "RUS": "[Select_CString(knight.IsFemale, 'галантная', 'галантный' )] [knight.GetName] — [ROOT.Char.Custom('MountedWarriorTerm')] у меня в услужении,",
+    "POL": "szarmanck[Select_CString( knight.IsFemale, 'a', 'i' )] [knight.GetName] – mój szlachetny [ROOT.Char.Custom('MountedWarriorTerm')];",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.relative",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[relative.GetName] — my entitled kins[relative.GetWomanMan];",
+    "RUS": "[relative.GetName] — [Select_CString(relative.IsFemale, 'моя титулованная родственница', 'мой титулованный родственник' )],",
+    "POL": "[relative.GetName] – m[Select_CString( relative.IsFemale, 'oja utytułowana krewna', 'ój utytułowany krewny' )];",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.ambitious",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "power-hungry [ambitious.GetName] — always on the make;",
+    "RUS": "[Select_CString(ambitious.IsFemale, 'жадная', 'жадный' )] до власти [ambitious.GetName] — образчик честолюбия,",
+    "POL": "żądn[Select_CString( ambitious.IsFemale, 'a', 'y' )] władzy [ambitious.GetName] – zawsze gotow[Select_CString( ambitious.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "supercilious [arrogant.GetName] — head held high;",
+    "RUS": "[Select_CString(arrogant.IsFemale, 'высокомерная', 'высокомерный' )] [arrogant.GetName] с гордо поднятой головой,",
+    "POL": "nadobn[Select_CString( arrogant.IsFemale, 'a', 'y' )] [arrogant.GetName] – z wysoko podniesioną głową;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.lowborn",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "self-made [lowborn.GetName] — who takes any chance;",
+    "RUS": "[Select_CString(lowborn.IsFemale, 'добившаяся', 'добившийся' )] всего своими силами [lowborn.GetName] — [Select_CString(lowborn.IsFemale, 'этой', 'этому' )] палец в рот не клади,",
+    "POL": "zawdzięczając[Select_CString( lowborn.IsFemale, 'a', 'y' )] sobie wszystko [lowborn.GetName] – wykorzystuje każdą szansę;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.gentry",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "haughty [gentry.GetName] — the privileged [gentry.GetHouse.GetName];",
+    "RUS": "[Select_CString(gentry.IsFemale, 'заносчивая', 'заносчивый' )] [gentry.GetName] из дома [gentry.GetHouse.GetName],",
+    "POL": "wyniosł[Select_CString( gentry.IsFemale, 'a', 'y' )] [gentry.GetName] – uprzywilejowan[Select_CString( gentry.IsFemale, 'a członkini', 'y członek' )] rodu [gentry.GetHouse.GetName];",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.generic_1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))] [generic_1.GetName] — just happy to be involved;",
+    "RUS": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))][Select_CString(generic_1.IsFemale, 'ая', 'ый' )] [generic_1.GetName] — вечно во что-то впутывается,",
+    "POL": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))] [generic_1.GetName] – ciesząc[Select_CString( generic_1.IsFemale, 'a', 'y' )] się, że może w tym uczestniczyć;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.generic_2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))] [generic_2.GetName] — as the guards call [generic_2.GetHerHim];",
+    "RUS": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))][Select_CString(generic_2.IsFemale, 'ая', 'ый' )] [generic_2.GetName] — такое прозвище дали [generic_2.GetHerHim] стражники,",
+    "POL": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))] [generic_2.GetName] – jak nazywają [Select_CString( generic_2.IsFemale, 'ją', 'go' )] strażnicy;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.generic_3",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))] [generic_3.GetName] — an eminently forgettable stooge;",
+    "RUS": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))][Select_CString(generic_3.IsFemale, 'ая', 'ый' )] [generic_3.GetName] — легко забыть,",
+    "POL": "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))] [generic_3.GetName] – wysoce niewart zapamiętania pachołek;",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "and blindingly absent: a shred of humility. \\n\\nOver the din of courtiers gossiping, I clearly make out the words: '[worst_title.GetTierAsNameNoTooltip]' and '[worst_title.GetNameNoTier]' — in what I am certain was [button.GetFirstNamePossessiveNoTooltip] simpering tone. \\n\\nThe shameless trio turn to look my way, and I catch them with a glare.",
+    "RUS": "и стыд у них явно отсутствует.\\n\\nСквозь гул придворных сплетен я явно слышу слова «[worst_title.GetTierAsNameNoTooltip]» и «[worst_title.GetNameNoTier]», и их явно произносит [button.GetFirstNameNoTooltip] своим самодовольным тоном.\\n\\nЭта бессовестная троица поворачивается ко мне, и я пристально смотрю на них.",
+    "POL": "i rażąco nieobecne: odrobina pokory.\\n\\nW gwarze plotkujących dworzan wyraźnie słyszę słowa: „[worst_title.GetTierAsNameNoTooltip]” i „[worst_title.GetNameNoTier]” – w tonie, który wskazywałby na to, że [button.GetFirstNameNoTooltip] zaczyna szeptać.\\n\\nBezwstydne trio odwraca się w moją stronę, a ja ogarniam ich spojrzeniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Yes, yes, [courtier_1.GetTitledFirstNameNoTooltip]... [worst_title.GetNameNoTierNoTooltip] is yours.",
+    "RUS": "Да, да, [courtier_1.GetTitledFirstNameNoTooltip]... [worst_title.GetNameNoTierNoTooltip] теперь принадлежит вам.",
+    "POL": "Tak, tak, [courtier_1.GetTitledFirstNameNoTooltip]… [worst_title.GetNameNoTierNoTooltip] należy do ciebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This little game can end: the [worst_title.GetTierAsNameNoTooltip] is [courtier_2.GetFirstNamePossessiveNoTooltip]!",
+    "RUS": "Покончим с этой нелепой игрой, теперь [courtier_2.GetFirstNameNoTooltip] управляет владением [worst_title.GetTierAsNameNoTooltip|l]!",
+    "POL": "Koniec tych gierek. [courtier_2.GetFirstNameNoTooltip] dostanie [worst_title.GetTierAsNameNoTooltip|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You there! [courtier_3.GetTitledFirstNameNoTooltip]? The title is yours!",
+    "RUS": "Эй вы! [courtier_3.GetTitledFirstNameNoTooltip]? Титул ваш!",
+    "POL": "Ty tam! [courtier_3.GetTitledFirstNameNoTooltip]? Tytuł jest twój!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I know what you're up to! It's time to prove your worth!",
+    "RUS": "Я знаю, что вы задумали! Пора показать, чего вы стоите!",
+    "POL": "Wiem, do czego to zmierza! Udowodnijcie zatem swoją wartość!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.d.flavor_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Сильнейшему»",
+    "POL": "„Jak najbrutalniej”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.d.courtier_1_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_1.GetFirstNameNoTooltip] wants it more",
+    "RUS": "[courtier_1.GetFirstNameNoTooltip] выказывает больше желания",
+    "POL": "[courtier_1.GetFirstNameNoTooltip] chce go bardziej",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.d.courtier_2_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_2.GetFirstNameNoTooltip] is the last [courtier_2.GetWomanMan] standing",
+    "RUS": "[courtier_2.GetFirstNameNoTooltip] держится дольше всех",
+    "POL": "[courtier_2.GetFirstNameNoTooltip] trzyma się na nogach jako [Select_CString( courtier_2.IsFemale, 'ostatnia', 'ostatni' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.d.courtier_3_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_3.GetFirstNameNoTooltip] comes out on top",
+    "RUS": "[courtier_3.GetFirstNameNoTooltip] одерживает верх",
+    "POL": "[courtier_3.GetFirstNameNoTooltip] dopina swego",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.grant_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[new_noble.GetTitledFirstNameNoTooltip] receives [worst_title.GetNameNoTierNoTooltip]",
+    "RUS": "[new_noble.GetTitledFirstNameNoTooltip] получает титул [worst_title.GetNameNoTierNoTooltip]",
+    "POL": "[new_noble.GetTitledFirstNameNoTooltip] otrzymuje tytuł [worst_title.GetAdjectiveNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Each of you, tell me why you deserve a title.",
+    "RUS": "Пусть каждый из вас скажет, почему заслуживает титула.",
+    "POL": "Niech każdy z was powie, dlaczego zasługuje na tytuł.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.e.courtier_1_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_1.GetFirstNameNoTooltip] is most convincing",
+    "RUS": "[courtier_1.GetFirstNameNoTooltip] звучит убедительнее прочих",
+    "POL": "[courtier_1.GetFirstNameNoTooltip] mówi najbardziej przekonująco",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.e.courtier_2_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_2.GetFirstNameNoTooltip] impresses with [courtier_2.GetHerHis] eloquence",
+    "RUS": "[courtier_2.GetFirstNameNoTooltip] производит хорошее впечатление своим красноречием",
+    "POL": "[courtier_2.GetFirstNameNoTooltip] imponuje swoją elokwencją",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.e.courtier_3_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[courtier_3.GetFirstNameNoTooltip] speaks well",
+    "RUS": "[courtier_3.GetFirstNameNoTooltip] хорошо изъясняется",
+    "POL": "[courtier_3.GetFirstNameNoTooltip] mówi z sensem",
+    "BEL": ""
+  },
+  {
+    "KEY": "joining_faction_block_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[new_noble.GetFirstNameNoTooltip] swears not to join any faction for 20 years",
+    "RUS": "[new_noble.GetFirstNameNoTooltip] клянется не вступать во фракции в течение 20 лет",
+    "POL": "[new_noble.GetFirstNameNoTooltip] przysięga, że w ciągu najbliższych 20 lat nie dołączy do żadnej frakcji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8040.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "What are you looking at?",
+    "RUS": "На что уставились?",
+    "POL": "Na co się patrzycie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A Little Bird",
+    "RUS": "Пташка",
+    "POL": "Ptaszynka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "At first I thought they were merely idiosyncrasies, but it is clear one of the many servants at court has been furtively signaling me.\\n\\nI approach [servant.GetHerHim] with my guards at a quiet moment, and [servant.GetSheHe] whispers conspiratorially: ",
+    "RUS": "Сначала мне казалось, что это просто странное поведение, но потом стало очевидно, что [Select_CString(servant.IsFemale, 'одна из служанок', 'один из слуг' )] отчаянно пытается привлечь мое внимание.\\n\\nУлучив момент, я подхожу ближе в сопровождении стражи, и [servant.GetSheHe] тут же переходит на заговорщицкий шепот: «[Select_CString(ROOT.Char.IsFemale, 'Великая', 'Великий' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], меня зовут [servant.GetFirstName]. Мы многое слышим в ожидании ваших гостей. Они почти не обращают на нас внимания...»\\n\\nЯ в сомнении смотрю на [Select_CString(servant.IsFemale, 'нее', 'него' )], размышляя, стоит ли слушать дальше. [servant.GetSheHe|U] отвечает мне тем же, явно раздумывая, а не совершает ли ошибку.\\n\\nНаконец, [servant.GetSheHe] выдавливает из себя: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], [vassal.GetTitledFirstName], [Select_CString(vassal.IsFemale, 'ваша', 'ваш' )] [servant.Custom2('DescriptorNegative', SCOPE.sC('vassal'))][Select_CString(vassal.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))], [vassal_secret.Custom('SecretDescriptionThirdPerson')], когда никто не видит. Клянусь, это правда, [servant.GetFaith.HighGodName] мне свидетель!»",
+    "POL": "Z początku wydaje mi się, że to tylko dziwne zachowanie, ale potem stało się jasne, że jedna osoba ze służących desperacko próbuje zwrócić na siebie moją uwagę.\\n\\nW spokojniejszej chwili, w towarzystwie straży, podchodzę do niej i wysłuchuję konspiracyjnych szeptów:\\n\\n– Niech [ROOT.Char.GetTitleAsNameNoTooltip] cieszy się zdrowiem! Me imię to [servant.GetFirstName]. My, słudzy, wiele słyszymy, czekając na twoich gości. Niemalże nikt na nas nie zwraca uwagi…\\n\\nPatrzę na [servant.Custom('PL_niego_nia')] podejrzliwie, wahając się, czy rzeczywiście chcę usłyszeć to, co ma do powiedzenia. Odpowiada takim samym spojrzeniem, wyraźnie zastanawiając się, czy nie popełnia błędu. W końcu przełyka ślinę.\\n\\n– Wasza czcigodność, [vassal.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('vassal'))] waszej miłości, [vassal_secret.Custom('SecretDescriptionThirdPerson')]. I to wszystko dzieje się tutaj! [ROOT.Char.Custom('FortifiedBuilding')|U] to miejsce, gdzie nie brakuje zakamarków. Przysięgam na miłość [servant.GetFaith.HighGodNamePossessive]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Thanks for your service.",
+    "RUS": "Благодарю вас за службу.",
+    "POL": "Dziękuję za twoją służbę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[servant.GetFirstNameNoTooltip] will join your [court|E]",
+    "RUS": "[servant.GetFirstNameNoTooltip] присоединится к вашему [Concept( 'court', 'двору' )|E]",
+    "POL": "[servant.GetFirstNameNoTooltip] dołączy do twojego [Concept( 'court', 'dworu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "What else have you heard?",
+    "RUS": "Что еще вы услышали?",
+    "POL": "Co jeszcze udało ci się usłyszeć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You will learn a secret of someone else at court",
+    "RUS": "Вы узнаете секрет еще одного придворного",
+    "POL": "Poznasz sekret innego dworzanina",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.b.tt_secret",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_2.GetTitledFirstNamePossessive] Secret",
+    "RUS": "Секрет персонажа [vassal_2.GetTitledFirstName]",
+    "POL": "Secret, który skrywa [vassal_2.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Take this — you will report to me only.",
+    "RUS": "Возьмите это и докладывайте обо всем мне лично.",
+    "POL": "Weź to – będziesz wracać z nowinkami wyłącznie do mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Your [spymaster|E] will be more likely to disrupt schemes while this modifier is present",
+    "RUS": "Ваш [Concept( 'spymaster', 'тайный советник' )|E] будет успешнее срывать происки, пока действует этот модификатор",
+    "POL": "Twój [spymaster|El] będzie skuteczniejszy w zapobieganiu spiskom, gdy ten modyfikator jest aktywny",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Arrest this skulking fiend!",
+    "RUS": "Арестовать [Select_CString(servant.IsFemale, 'эту бездельницу', 'этого бездельника' )]!",
+    "POL": "Aresztować tego wilka w owczej skórze!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8050.d.tt_imprison",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[servant.GetFirstNameNoTooltip] is thrown in the dungeons",
+    "RUS": "[servant.GetFirstNameNoTooltip] оказывается в тюрьме",
+    "POL": "[servant.GetFirstNameNoTooltip] zostaje wtrącon[Select_CString( servant.IsFemale, 'a', 'y' )] do lochów",
+    "BEL": ""
+  },
+  {
+    "KEY": "servant_informants_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Servant Informants",
+    "RUS": "Слуги-информаторы",
+    "POL": "Służący donoszący",
+    "BEL": ""
+  },
+  {
+    "KEY": "servant_informants_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Gossip in this character's court is reported by a network of spying servants.",
+    "RUS": "Сеть слуг-шпионов докладывает обо всех слухах при дворе этого персонажа.",
+    "POL": "Ta postać dowiaduje się o najnowszych plotkach na dworze dzięki siatce szpiegowskich sług.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Scornful Sycophants",
+    "RUS": "Возмущенные прихлебатели",
+    "POL": "Pogardliwi sykofanci",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I pause for a moment on the threshold of the corridor, admiring the sunlight, when I overhear derisive laughter coming from just around the corner. \\n\\n",
+    "RUS": "Я ненадолго замираю на выходе из коридора, наслаждаясь лучами солнца, как вдруг из-за угла до меня доносится издевательский смех. \\n\\n«Я #EMP знаю#!! — фыркает [Select_CString(snooty_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('snooty_1'))][Select_CString(snooty_1.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_1'))] [snooty_1.GetFirstName]. —",
+    "POL": "Zatrzymuję się na krótko u progu korytarza, ciesząc się promieniami słońca, gdy nagle zza rogu dobiega mnie szyderczy śmiech.\\n\\n– #EMP Wiem!#! – Słyszę, jak ta [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('snooty_1'))] gnida, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_1'))] [snooty_1.GetFirstName], wypowiada te słowa, rechocząc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.fashion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Клянусь, порой у меня складывается ощущение, что здесь правит не [ROOT.Char.GetTitleAsNameNoTooltip|l], а [Select_CString(ROOT.Char.IsFemale, 'ее', 'его' )] [Select_CString(snooty_1.IsFemale, 'бабка', 'дед' )], все такое поношенное и устаревшее!\\n\\n",
+    "POL": "„Przysięgam, że przechadzając się po tym dworze, mam wrażenie, że to nie [ROOT.Char.GetTitleAsNameNoTooltip|l] nim włada, lecz [ROOT.Char.GetHerHis] [Select_CString( snooty_1.IsFemale, 'babcia', 'dziadek' )]; wszystko jest tu takie wysłużone i staroświeckie!”\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.servants_1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "#EMP Целый день#! ждешь слугу, а затем приходят сразу двое, но не приносят того, что было нужно!\\n\\n",
+    "POL": "„Trzeba czekać #EMP cały dzień#! na sługę, a potem przychodzi dwóch naraz – nie wypełniwszy twojej prośby!”\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.food_1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Вы #EMP видели#! этот пир прошлым вечером? Да я скорее съем подошву сапога, чем эти помои для свиней!»\\n\\n",
+    "POL": "„#EMP Widział[Select_CString( snooty_2.IsFemale, 'a', 'e' )]ś#! mizerność wczorajszej uczty? Wolał[Select_CString( snooty_1.IsFemale, 'a', '' )]bym być podany na tacy, niż zjeść te ochłapy!”\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Another tittering voice cuts in: ",
+    "RUS": "[Select_CString(snooty_1.IsFemale, 'Ее', 'Его' )] перебивает другой хихикающий голос: «Ну и ну, а мне казалось, что только я это вижу! И это не говоря о",
+    "POL": "Przerywa [snooty_1.GetHerHim] kolejny chichoczący głos: „Ojejku, a ja myślał[Select_CString( snooty_2.IsFemale, 'a', 'e' )]m, że tylko ja to dostrzegł[Select_CString( snooty_2.IsFemale, 'a', 'e' )]m! Nie wspominając",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.lodgings",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the #EMP size#! of our quarters! There's barely enough space for a servant's pallet!",
+    "RUS": "#EMP размере#! покоев! Да там тюфяк для прислуги едва помещается!»",
+    "POL": "o #EMP wielkości#! naszych kwater! Ledwo starcza miejsca na posłanie dla służącego!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.food_2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the food at this place is really terrible — and such #EMP small#! portions!",
+    "RUS": "еде, она просто отвратительна и подается такими #EMP маленькими#! порциями!»",
+    "POL": "o naprawdę paskudnym jedzeniu, które jest codziennie podawane – a do tego porcje są takie #EMP małe#!!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.servants_2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the attendants — I've given up asking them for anything: they either don't know what it is or never come back!",
+    "RUS": "прислуге! Я уже больше ни о чем их не прошу, они либо не понимают, о чем речь, либо уходят и не возвращаются!»",
+    "POL": "o służbie. Zrezygnował[Select_CString( snooty_2.IsFemale, 'a', 'e' )]m z proszenia ich o cokolwiek; albo nie wiedzą, o co chodzi, albo w ogóle nie wracają!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\nIs that my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_2'))] [snooty_2.GetTitledFirstName], now stifling a guffaw? The nerve...",
+    "RUS": "\\n\\nЭто что, [Select_CString(snooty_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_2'))] [snooty_2.GetTitledFirstName] там давится смехом? Хватает же наглости...",
+    "POL": "\\n\\nCzy to [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_2'))] [snooty_2.GetTitledFirstName] tłumi właśnie rechot? Co za bezczelność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.a.fashion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I shall set a new stand of dress just for you, [snooty_1.GetFirstNameNoTooltip].",
+    "RUS": "Я установлю новую моду, специально для вас, [snooty_1.GetFirstNameNoTooltip].",
+    "POL": "Stworzę nową kolekcję ubrań wyłącznie dla ciebie, [snooty_1.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.a.servants",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Perhaps you could suggest some skilled staff, [snooty_1.GetFirstNameNoTooltip]?",
+    "RUS": "Возможно, вы могли бы посоветовать хороших слуг, [snooty_1.GetFirstNameNoTooltip]?",
+    "POL": "Może [Select_CString( snooty_1.IsFemale, 'zechciałabyś', 'zechciałbyś' )] podsunąć umiejętne sługi, [snooty_1.GetFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.a.food",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[snooty_1.GetFirstNameNoTooltip], I have a special meal planned tomorrow.",
+    "RUS": "[snooty_1.GetFirstNameNoTooltip], на завтра у меня запланировано особое блюда.",
+    "POL": "[snooty_1.GetFirstNameNoTooltip], mam jutro w planach szczególny posiłek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.b.food",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A new cook will start soon, [snooty_2.GetFirstNameNoTooltip].",
+    "RUS": "Новый повар вскоре приступит к работе, [snooty_2.GetFirstNameNoTooltip].",
+    "POL": "Niebawem gotować będzie nowy kucharz, [snooty_2.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.b.lodgings",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I will move to larger rooms tonight, [snooty_2.GetFirstNameNoTooltip].",
+    "RUS": "Сегодня я переселю вас в покои побольше, [snooty_2.GetFirstNameNoTooltip].",
+    "POL": "Dziś wieczorem przeniosę cię do większej kwatery, [snooty_2.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.b.servants",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I suppose we could do with a few more helping hands.",
+    "RUS": "Полагаю, лишние руки нам не помешают.",
+    "POL": "Chyba przydadzą się nam dodatkowe ręce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Out of my way, you ungrateful barnacles...",
+    "RUS": "Прочь с дороги, неблагодарные...",
+    "POL": "Z drogi, wy niewdzięczne pąkla…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "If you don't like it, go find someone else to leech off!",
+    "RUS": "Если вам не нравится мой двор, ищите дармовщину в другом месте!",
+    "POL": "Jeżeli wam się tu nie podoba, idźcie pasożytować na kimś innym!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Worldly distractions only separate us from [ROOT.Char.GetFaith.PositiveAfterLife].",
+    "RUS": "Чем больше мы заботимся о мирском, тем дальше [ROOT.Char.GetFaith.PositiveAfterLife].",
+    "POL": "Przyziemne uciechy tylko oddalają nas od zbawienia i miejsca, które znamy jako [ROOT.Char.GetFaith.PositiveAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.e.pious_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Every non-Cynical vassal or courtier of an Ascetic faith",
+    "RUS": "Все нециничные вассалы и придворные аскетичной веры",
+    "POL": "Każdy niecyniczny wasal lub dworzanin wyznający ascetyczną wiarę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Lovely day isn't it?",
+    "RUS": "Чудесный день, не правда ли?",
+    "POL": "Co za piękny dzień, nieprawdaż?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8060.f.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Appearances must be upheld",
+    "RUS": "Нужно соответствовать ожиданиям",
+    "POL": "Trzeba stwarzać pozory",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Feeling Useful",
+    "RUS": "Чувство собственной полезности",
+    "POL": "Poczucie przydatności",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('parent'))] [parent.GetMotherFather] potters around court aimlessly each day, making clear [parent.GetHerHis] yearning for a purpose I am too busy to provide. \\n\\nToday [parent.GetSheHe] finally corners me: ",
+    "RUS": "[Select_CString(parent.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('parent'))][Select_CString(parent.IsFemale, 'ая', 'ый' )] [parent.GetMotherFather] целыми днями бесцельно бродит по двору, явно намекая, что мне нужно чем-нибудь занять [parent.GetHerHis].\\n\\nСегодня [parent.GetSheHe] наконец прижимает меня к стенке: «А, вот ты где, [ROOT.Char.GetFirstNameNoTooltip]! Ты же знаешь, для меня ты на всегда останешься [Select_CString(ROOT.Char.IsFemale, 'моей девочкой', 'моим мальчиком' )]! Позволь мне снять груз ответственности с твоих плеч, я ведь еще многому могу научить тебя».\\n\\nМоя свита изо всех сил старается смотреть в сторону, но это лишь усиливает мое смущение.\\n\\n«[ROOT.Char.Custom('GetDaughterSon')|U], в чем дело? Неужели тебе нет дела до [Select_CString(parent.IsFemale, 'твоей старой матери', 'твоего старого отца' )]? И это после всего, что я для тебя [Select_CString(parent.IsFemale, 'сделала', 'сделал' )]?»",
+    "POL": "[Select_CString( parent.IsFemale, 'Moja', 'Mój' )] [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('parent'))] [parent.GetMotherFather|l] każdego dnia krząta się bez celu po dworze, wyraźnie pragnąć czegoś, czego ja nie mogę [parent.GetHerHim] dać z powodu mojego zapracowania.\\n\\nLecz dziś mnie w końcu mnie złapał[Select_CString( parent.IsFemale, 'a', '' )]: „Och, tu jesteś, [ROOT.Char.GetFirstNameNoTooltip]. Wiesz, że dla mnie zawsze będziesz [Select_CString( ROOT.Char.IsFemale, 'moją małą córeczką', 'moim małym synkiem' )]! Pozwól mi zdjąć z twoich barków ciężar części obowiązków – tak wiele mogę cię jeszcze nauczyć”.\\n\\nMoja świta stara się jak może, by nie przyglądać się tej sytuacji, ale to tylko zwiększa moje zakłopotanie.\\n\\n„Co się stało, [Select_CString( ROOT.Char.IsFemale, 'córeczko', 'synku' )]? Nie zależy ci już na [Select_CString( parent.IsFemale, 'swojej drogiej starej mamusi', 'swoim drogim starym tatusiu' )]? Po tym wszystkim, co dla ciebie zrobił[Select_CString( parent.IsFemale, 'a', 'e' )]m?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I will find something for you to do, [parent.Custom('GetMamaPapa')].",
+    "RUS": "Я найду для тебя занятие, [parent.Custom('GetMamaPapa')].",
+    "POL": "Znajdę jakieś zajęcie dla ciebie, [Select_CString( parent.IsFemale, 'mamusiu', 'tatusiu' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[parent.GetFirstNameNoTooltip] will expect a [court_position|E] in the next few months",
+    "RUS": "[parent.GetFirstNameNoTooltip] будет ожидать [Concept( 'court_position', 'придворную должность' )|E] в ближайшие месяцы",
+    "POL": "[parent.GetFirstNameNoTooltip] będzie oczekiwać, że dostanie [court_position|El] w ciągu kilku następnych miesięcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Have you thought of giving your life to [ROOT.Char.GetFaith.HighGodName]?",
+    "RUS": "Как насчет того, чтобы посвятить себя учению [ROOT.Char.GetFaith.HighGodNamePossessive]?",
+    "POL": "[ROOT.Char.GetFaith.HighGodName] to siła wyższa, której warto poświęcić całe życie. Pomyśl o tym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Just take any job...",
+    "RUS": "Просто займись уже чем-нибудь...",
+    "POL": "Po prostu zajmij się czymkolwiek…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8070.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I'm #EMP very#! busy, [parent.GetMotherFather].",
+    "RUS": "У меня #EMP очень#! много дел, [parent.GetMotherFather].",
+    "POL": "Jestem #EMP bardzo#! zajęt[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], [Select_CString( parent.IsFemale, 'matko', 'ojcze' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8071.satisfied",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[parent.GetMotherFather|U] warms to [parent.GetHerHis] role",
+    "RUS": "[parent.GetMotherFather|U] радуется свое новой роли",
+    "POL": "[parent.GetMotherFather|U] ekscytuje się swoją nową rolą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8071.disappoint",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[parent.GetMotherFather|U] tires of waiting",
+    "RUS": "[parent.GetMotherFather|U] устает ждать",
+    "POL": "[parent.GetMotherFather|U] ma dość czekania",
+    "BEL": ""
+  },
+  {
+    "KEY": "promised_court_position_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Promised Position",
+    "RUS": "Обещанное положение",
+    "POL": "Obiecany urząd",
+    "BEL": ""
+  },
+  {
+    "KEY": "promised_court_position_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has been assured of a court position in the near future, and tells everyone willing to listen.",
+    "RUS": "Этому персонажу недавно была обещана должность, и теперь он рассказывает это всем, кто готов слушать.",
+    "POL": "Tej postaci obiecano urząd dworski w najbliższej przyszłości i teraz opowiada o tym każdemu, kto jest skłonny słuchać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[parent.Custom('GetMaternalPaternal')|U] Reproach",
+    "RUS": "[Select_CString(parent.IsFemale, 'Материнский', 'Отцовский' )] упрек",
+    "POL": "[Select_CString(parent.IsFemale, 'Matczyna', 'Ojcowska' )] bura",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My [parent.GetMotherFather], [parent.GetTitledFirstName] has been getting more irritable by the day. \\n\\nAs I sit on my throne, contemplating the possible causes, the [parent.GetWomanMan] [parent.GetHerselfHimself] storms towards me, just as [parent.GetSheHe] used to when I'd misbehaved as a child.\\n\\n",
+    "RUS": "[Select_CString(parent.IsFemale, 'Моя', 'Мой' )] [parent.GetMotherFather] [parent.GetTitledFirstName] с каждым днем становится все раздражительней. \\n\\nКогда я сижу на своем троне, раздумывая о возможных причинах, [parent.GetSheHe] лично врывается ко мне, словно в бытность мою непослушным ребенком.\\n\\n«[ROOT.Char.GetFirstNameNoTooltip], [ROOT.Char.Custom('GetDaughterSon')]! Нужно что-то сделать",
+    "POL": "M[Select_CString( parent.IsFemale, 'oja', 'ój' )] [parent.GetMotherFather], [parent.GetTitledFirstName], z dnia na dzień staje się coraz bardziej drażliw[Select_CString( parent.IsFemale, 'a', 'y' )].\\n\\nGdy siedzę na moim tronie, zastanawiając się nad możliwymi przyczynami, t[Select_CString( parent.IsFemale, 'a', 'en' )] [parent.GetWomanMan] rzuca się na mnie, tak jak zwykł[Select_CString( parent.IsFemale, 'a', '' )] to robić, gdy coś zrobił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m źle, będąc dzieckiem.\\n\\n„[ROOT.Char.GetFirstNameNoTooltip], [Select_CString( ROOT.Char.IsFemale, 'moja córko', 'mój synu' )]! Musisz coś zrobić",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.fashion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "these mournful rags you call clothes!",
+    "RUS": "с этими скучными тряпками, которые ты считаешь одеждой!",
+    "POL": "z tymi żałosnymi łachmanami, które nazywasz ubraniem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.servants",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "your incompetent and overstretched servants!",
+    "RUS": "с неумелыми и малочисленными слугами!",
+    "POL": "ze swoimi niekompetentnymi i przepracowanymi sługami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.lodgings",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the sparse lodgings you offer your guests!",
+    "RUS": "с крошечными покоями для гостей!",
+    "POL": "z tymi skąpymi kwaterami, które oferujesz swoim gościom!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.food",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the dreadful offerings on your banquet table!",
+    "RUS": "с этой кошмарной едой на пиршественном столе!",
+    "POL": "z tymi strasznymi potrawami na stole biesiadnym!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Don't you care what people think of you?!",
+    "RUS": "Неужели тебе все равно, что о тебе думают?!\\n\\nЭто недопустимо, [ROOT.Char.GetTitleAsNameNoTooltip|l] не может так себя вести. Ты станешь посмешищем, над тобой будет потешаться [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], нет, все [ROOT.Char.GetCulture.GetNameNoTooltip|l]!»",
+    "POL": "Czy ty w ogóle nie przejmujesz tym, co o tobie ludzie pomyślą?!\\n\\n– [ROOT.Char.GetTitleAsNameNoTooltip] nie może reprezentować siebie w ten sposób! Jak tak dalej pójdzie, wszyscy mieszkańcy ziem znanych jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] będą z ciebie kpić! A może nawet i wszyscy [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] w ogóle!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Yes [parent.Custom('GetMamaPapa')], I will fix it...",
+    "RUS": "Да, [parent.Custom('GetMamaPapa')], я все исправлю...",
+    "POL": "Tak [Select_CString( parent.IsFemale, 'mamusiu', 'tatusiu' )], naprawię to…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Ah, so you think you are better than my courtiers?",
+    "RUS": "То есть ты считаешь себя лучше моих придворных?",
+    "POL": "Ach, więc uważasz się za lepsz[Select_CString( parent.IsFemale, 'ą', 'ego' )] od moich dworzan?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Every [courtier|E]",
+    "RUS": "Каждый [courtier|El]",
+    "POL": "Każdy [courtier|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.c.nun",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Perhaps you'd prefer the habits of a [ROOT.Char.GetFaith.DevoteeFemale]?",
+    "RUS": "Возможно, из тебя выйдет хорошая [ROOT.Char.GetFaith.DevoteeFemale]?",
+    "POL": "Może jako [ROOT.Char.GetFaith.DevoteeFemale] odnajdziesz swoje powołanie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.c.monk",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Perhaps you'd prefer the robes of a [ROOT.Char.GetFaith.DevoteeMale]?",
+    "RUS": "Возможно, из тебя выйдет хороший [ROOT.Char.GetFaith.DevoteeMale]?",
+    "POL": "Może szaty, jakie przywdziewa [ROOT.Char.GetFaith.DevoteeMale], będą do ciebie idealnie pasować?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.c.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Have you considered devoting yourself to [ROOT.Char.GetFaith.HighGodName]?",
+    "RUS": "Как насчет того, чтобы посвятить себя учению [ROOT.Char.GetFaith.HighGodNamePossessive]?",
+    "POL": "[ROOT.Char.GetFaith.HighGodName] to siła wyższa, której warto całkowicie się poświęcić. Pomyśl o tym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.d.fashion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I think #EMP you#! should sew us some replacements.",
+    "RUS": "Думаю, #EMP тебе#! стоит вышить новые одежды.",
+    "POL": "Myślę, że #EMP [Select_CString( parent.IsFemale, 'powinnaś', 'powinieneś' )]#! uszyć mi trochę nowych ubrań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.d.servants",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Well, why not lend the servants a hand?",
+    "RUS": "Тогда почему бы тебе не помочь слугам?",
+    "POL": "Dlaczego więc [Select_CString( parent.IsFemale, 'sama', 'sam' )] nie pomożesz służbie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.d.lodgings",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Perhaps you could give up your room for someone else?",
+    "RUS": "Тогда, может быть, уступишь свои покои кому-нибудь другому?",
+    "POL": "Może [Select_CString( parent.IsFemale, 'sama odstąpiłabyś', 'sam odstąpiłbyś' )] swoją kwaterę komuś innemu?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.d.food",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Very well, find somewhere else to eat...",
+    "RUS": "Хорошо, тогда ешь в другом месте...",
+    "POL": "Niech będzie, jadaj sobie więc w innym miejscu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8080.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You cannot speak to me this way anymore!",
+    "RUS": "Ты больше не можешь так со мной разговаривать!",
+    "POL": "Nie możesz już się więcej do mnie zwracać w taki sposób!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8080_degraded_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Degraded",
+    "RUS": "Унижение",
+    "POL": "Poniżono",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8080_degraded_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has been publicly humiliated by their child and liege for complaining.",
+    "RUS": "Ребенок и сюзерен этого персонажа нанес ему обиду в ответ на жалобы.",
+    "POL": "Ta postać została publicznie upokorzona przez swoje dziecko i zarazem władcę w odpowiedzi na jej zganienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Building Blocks",
+    "RUS": "Кирпичики",
+    "POL": "Budulec z kamienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('architect'))], [architect.GetTitledFirstName], certainly takes their duties as $royal_architect_court_position$ seriously.",
+    "RUS": "[Select_CString(architect.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('architect'))], [architect.GetTitledFirstName], очень серьезно относится к своим обязанностям придворного архитектора.",
+    "POL": "$royal_architect_court_position$ i jednocześnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('architect'))] mojej osoby, [architect.GetTitledFirstName], najwyraźniej bardzo poważnie podchodzi do swoich obowiązków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.intro_alt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A well-known architect from [my_county.GetNameNoTier], [architect.GetTitledFirstName], is visiting court.",
+    "RUS": "Прославленный архитектор из владения [my_county.GetNameNoTier], [architect.GetTitledFirstName], сейчас у меня при дворе.",
+    "POL": "Na dworze gości dobrze znany architekt z miejsca o nazwie [my_county.GetNameNoTier]: [architect.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.intro_end",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[architect.GetHerHis|U] passionate debate with my [steward.GetHeldCourtAndCouncilPositionsString], [steward.GetTitledFirstName], dominates the room. \\n\\n",
+    "RUS": "[Select_CString(architect.IsFemale, 'Она', 'Он' )] и [Select_CString(steward.IsFemale, 'моя', 'мой' )] [steward.GetHeldCourtAndCouncilPositionsString|l] [steward.GetTitledFirstName] спорят так громко, что их слышат все в помещении.\\n\\n«Да, именно! — объявляет [architect.GetFirstNameNoTooltip]. — В развалинах полно обработанного камня, из которого можно возвести",
+    "POL": "W pokoju toczy się żarliwa dyskusja, w której uczestniczą [architect.GetSheHe] i [steward.GetHeldCourtAndCouncilPositionsString|l] z mojego dworu, [steward.GetTitledFirstName].\\n\\n– Tak, istotnie! – wykrzykuje [architect.GetFirstNameNoTooltip]. – W tamtych ruinach pełno jest ciosanego kamienia, który z łatwością można by przetransportować do",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.religious",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the [ROOT.Char.GetFaith.HouseOfWorship] of [temple_barony.GetNameNoTier]!",
+    "RUS": "[ROOT.Char.GetFaith.HouseOfWorship] во владении [temple_barony.GetNameNoTier]!»",
+    "POL": "miejsca znanego jako [ROOT.Char.GetFaith.HouseOfWorship] na terenach o nazwie [temple_barony.GetNameNoTier]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.castle",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] [ROOT.Char.Custom('FortifiedBuilding')] at [my_barony.GetNameNoTier]!",
+    "RUS": "[ROOT.Char.Custom('FortifiedBuilding')] во владении [my_barony.GetNameNoTier]!»",
+    "POL": "miejsca znanego jako [ROOT.Char.Custom('FortifiedBuilding')] na terenach o nazwie [my_barony.GetNameNoTier]. Miejscem tym włada [ROOT.Char.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\n[steward.GetFirstNameNoTooltip] rubs [steward.GetHerHis] chin doubtfully, ",
+    "RUS": "\\n\\n[steward.GetFirstNameNoTooltip] с сомнением поглаживает подбородок. «Все равно работы предстоит много, да и местным жителям это не понравится, они ведь сами используют этот материал».\\n\\n[architect.GetFirstNameNoTooltip] только закатывает глаза в ответ на этот довод,",
+    "POL": "\\n\\n[steward.GetFirstNameNoTooltip] pociera brodę z powątpiewaniem. „Mimo wszystko brzmi to jak nawał pracy, a miejscowym, korzystających z tych materiałów, z pewnością to się nie spodoba”.\\n\\n[architect.GetFirstNameNoTooltip] przewraca oczami w odpowiedzi na słuszne obalenie pomysłu,",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "but is cut off by my [chaplain.GetHeldCourtAndCouncilPositionsString]: ",
+    "RUS": "но тут вмешивается [chaplain.GetHeldCourtAndCouncilPositionsString]: «[ROOT.Char.GetFaith.HouseOfWorship] в соседнем владении [temple_barony.GetNameNoTier] остро нуждается в расширении, — кричит [chaplain.GetTitledFirstName]. — Вот на что должны пойти обломки!»",
+    "POL": "a chwilę potem wtrąca się [chaplain.GetHeldCourtAndCouncilPositionsString]: „Niedaleko na ziemiach [temple_barony.GetAdjective] jest [ROOT.Char.GetFaith.HouseOfWorship]. Suponuję, że to ta budowla najpilniej potrzebuje rozbudowy” – mówi [chaplain.GetTitledFirstName] narzekającym tonem – „To na to powinno być przeznaczone to rumowisko!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.desc.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "sneering, ",
+    "RUS": "ухмыляясь: «Мы распорядимся этим камнем куда лучше простолюдинов, и вы это знаете!»",
+    "POL": "a następnie uśmiecha się szyderczo. „Możemy zrobić z nich o wiele lepszy użytek niż to pospólstwo, wiesz o tym dobrze!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[my_barony.GetNameNoTierNoTooltip] #EMP could#! do with some work...",
+    "RUS": "Во владении [my_barony.GetNameNoTierNoTooltip] #EMP можно#! провести работы...",
+    "POL": "[my_barony.GetNameNoTierNoTooltip] #EMP potrzebuje#! trochę rozbudowy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "It will go to [ROOT.Char.GetFaith.HighGodNamePossessive] house in [temple_barony.GetNameNoTierNoTooltip].",
+    "RUS": "Материалы получит дом [ROOT.Char.GetFaith.HighGodNamePossessive] во владении [temple_barony.GetNameNoTierNoTooltip].",
+    "POL": "Materiały trafią do domu [ROOT.Char.GetFaith.HighGodNamePossessive] w miejscu znanym jako [temple_barony.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "An architect of your renown can do better, [architect.GetFirstNameNoTooltip]!",
+    "RUS": "Прославленный архитектор вроде вас, [architect.GetFirstNameNoTooltip], может придумать что-нибудь получше!",
+    "POL": "Architekta twojej renomy stać na więcej, [architect.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This options is available because [architect.GetFirstNameNoTooltip] is your $royal_architect_court_position$",
+    "RUS": "Этот вариант доступен, потому что [architect.GetFirstNameNoTooltip] — [Select_CString(architect.IsFemale, 'ваша', 'ваш' )] придворный архитектор",
+    "POL": "Ta opcja jest dostępna, ponieważ [architect.GetFirstNameNoTooltip] to twój dworski architekt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8090.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Leave those tired ashlars for the commoners.",
+    "RUS": "Оставьте этот потертый камень простолюдинам.",
+    "POL": "Zostawcie te kamienie pospólstwu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8090_commoners_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Common Ruins",
+    "RUS": "Народные руины",
+    "POL": "Ruiny dla pospólstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8090_commoners_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The common folk of this county benefit by stripping old ruins for construction materials.",
+    "RUS": "Простой народ этого графства радуется возможности разобрать старые развалины на строительные материалы.",
+    "POL": "Zwykli mieszkańcy tego hrabstwa czerpią korzyści z rozbierania starych ruin na materiały budowlane.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Questionable Concoction",
+    "RUS": "Сомнительная настойка",
+    "POL": "Wątpliwa mikstura",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Walking between audiences, I overhear my [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('physician'))] $court_physician_court_position$, [physician.GetTitledFirstName], discussing [physician.GetHerHis] latest flight of fancy. \\n\\n",
+    "RUS": "Прогуливаясь в перерывах между аудиенциями, я слышу, как [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('physician'))][Select_CString(physician.IsFemale, 'ая', 'ый' )] $court_physician_court_position$ [physician.GetTitledFirstName] рассуждает о своей новой находке.\\n\\n«...Предположительно, это самое сильнодействующее снадобье на свете, его можно добыть только в далеких землях. По крайней мере, так говорят торговцы и алхимики, с которыми мне довелось побеседовать».\\n\\n[physician.GetSheHe|U] достает склянку со светло-желтой жидкостью, размахивая ей перед носом у одного из моих придворных.\\n\\n«Говорят, оно придает сил и продлевает жизнь, его любят пить воины, идущие в бой, но лишь сильнейшие могут выдержать его мощь».",
+    "POL": "Przechodząc między zgromadzeniem, podsłuchał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m, jak [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('physician'))] nadworn[Select_CString( physician.IsFemale, 'a medyczka', 'y medyk' )], [physician.GetTitledFirstName], omawia swoje ostanie wybryki fantazji.\\n\\n„Podobno jest to najsilniejsza mikstura, jaka istnieje i pochodzi z najdalszych zakątków świata – tak przynajmniej twierdzą kupcy i alchemicy, z którymi rozmawiał[Select_CString( physician.IsFemale, 'a', 'e' )]m…”\\n\\nWyciąga fiolkę z bladożółtym płynem i kręci nią bezpośrednio pod nosami moich dworzan.\\n\\n„Mówią, że daje wigor i długie życie. Jest preferowany przez tych, którzy wyruszają na bitwę, jednakże tylko najsilniejsi są w stanie poradzić sobie z jego mocą”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Strongest potion, you say? Give it here.",
+    "RUS": "Самое сильнодействующее, говорите? Дайте сюда.",
+    "POL": "Najmocniejsza mikstura, powiadasz? Daj ją tutaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Indeed? Let my $food_taster_court_position$ have a try first.",
+    "RUS": "В самом деле? Пусть сначала отведает $food_taster_court_position$.",
+    "POL": "Naprawdę? Niech najpierw spróbuje ją mój degustator potraw.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.b.tt_forgiving",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[food_taster.GetTitledFirstName] is not $trait_forgiving$:",
+    "RUS": "[food_taster.GetTitledFirstName] не имеет свойства «$trait_forgiving$»:",
+    "POL": "[food_taster.GetTitledFirstName] nie ma cechy „wyrozumiał[Select_CString( food_taster.IsFemale, 'a', 'y' )]”:",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Only [ROOT.Char.GetFaith.HighGodName] can grant us strength.",
+    "RUS": "Только [ROOT.Char.GetFaith.HighGodName] может дать нам сил.",
+    "POL": "Tylko [ROOT.Char.GetFaith.HighGodName] może dać nam siłę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "That swill isn't fit for a beast, let alone a man!",
+    "RUS": "Это пойло не годится даже для животных, не говоря уж о людях!",
+    "POL": "Tego obrzydlistwa nie wziąłby do pyska żaden zwierz, a co dopiero człowiek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.tt.handle_potion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You handle the strongest potion",
+    "RUS": "Вы выдерживаете последствия сильнейшего из снадобий",
+    "POL": "Znosisz działanie najsilniejszej mikstury",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.tt.need_weaker",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Should have found a weaker potion",
+    "RUS": "Не стоило принимать такое сильное снадобье",
+    "POL": "Było trzeba wypić słabszą miksturę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8100.tt.too_strong",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The potion is too strong for you",
+    "RUS": "Снадобье слишком сильно для вас",
+    "POL": "Mikstura jest dla ciebie zbyt mocna",
+    "BEL": ""
+  },
+  {
+    "KEY": "strong_potion_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Strong Potion",
+    "RUS": "Сильное снадобье",
+    "POL": "Mocna mikstura",
+    "BEL": ""
+  },
+  {
+    "KEY": "strong_potion_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has managed to handle the strongest potions.",
+    "RUS": "Этот персонаж выдержал сильнейшее из снадобий.",
+    "POL": "Ta postać zniosła działanie najsilniejszej mikstury.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feeling_unwell_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Feeling Unwell",
+    "RUS": "Дурнота",
+    "POL": "Złe samopoczucie",
+    "BEL": ""
+  },
+  {
+    "KEY": "feeling_unwell_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character should have found some weaker potions.",
+    "RUS": "Этому персонажу стоило бы принимать не такие сильные снадобья.",
+    "POL": "Ta postać powinna była pić słabsze mikstury.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Upon the Block",
+    "RUS": "На плахе",
+    "POL": "Na szafot",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My [my_executioner.Custom('quirk_neg_adjective')] $executioner_court_position$, [my_executioner.GetTitledFirstName], mopes about the palace [my_executioner.Custom('quirk_neg_pp')], with all the subtlety of a petulant child.\\n\\nAt last I can tolerate these sorry displays at my court no more and demand: ",
+    "RUS": "[Select_CString(my_executioner.IsFemale, 'Моя', 'Мой' )] [my_executioner.Custom('quirk_neg_adjective')][Select_CString(my_executioner.IsFemale, 'ая', 'ый' )] $executioner_court_position$ [my_executioner.GetTitledFirstName], слоняется по дворцу и [my_executioner.Custom('quirk_neg_pp')], подобно капризному ребенку.\\n\\nКогда это жалкое зрелище окончательно мне надоедает, я спрашиваю: «В #EMP чем#! дело?!»\\n\\n[my_executioner.GetSheHe|U] отшатывается от неожиданности, но немедленно отвечает: «Простите, [ROOT.Char.Custom('FormOfAddressForLiege')], просто мне уже много недель не приходилось никого убивать...»\\n\\n«А ведь [Select_CString(prisoner_1.IsFemale, 'эта', 'этот' )]",
+    "POL": "Mój kat, [my_executioner.GetTitledFirstName], posępnie kręci się po pałacu, [my_executioner.Custom('quirk_neg_pp')], z pełną subtelnością nadąsanego dziecka.\\n\\nOstatecznie nie wytrzymuję tego godnego pożałowania pokazu na moim dworze i żądam wyjaśnień:\\n\\n– Co #EMP to#! ma znaczyć?!\\n\\nKat wyraża zdumienie, ale szybko odpowiada:\\n\\n– Niech mi [ROOT.Char.Custom('FormOfAddressForLiege')] wybaczy, ale chodzi o to, że od tygodni nie dane było mi przeprowadzić dobrej egzekucji…\\n\\n– A tymczasem",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.leader_1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "loathsome rabble-rouser, [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'мерзкая', 'мерзкий' )] [prisoner_1.GetTitledFirstName]",
+    "POL": "[Select_CString( prisoner_1.IsFemale, 'ta obmierzła podżegaczka', 'ten obmierzły podżegacz' )], [prisoner_1.GetTitledFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.heretic",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "brazen heretic, [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'дерзкая еретичка', 'дерзкий еретик' )] [prisoner_1.GetTitledFirstName]",
+    "POL": "[Select_CString( prisoner_1.IsFemale, 'ta bezwstydna heretyczka', 'ten bezwstydny heretyk' )], [prisoner_1.GetTitledFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.heathen",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "foul heathen, [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'ничтожная язычница', 'ничтожный язычник' )] [prisoner_1.GetTitledFirstName]",
+    "POL": "[Select_CString( prisoner_1.IsFemale, 'ta ohydna bezbożnica', 'ten ohydny bezbożnik' )], [prisoner_1.GetTitledFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.infidel",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "godless infidel, [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'неверная безбожница', 'неверный безбожник' )] [prisoner_1.GetTitledFirstName]",
+    "POL": "[Select_CString( prisoner_1.IsFemale, 'ta bezbożna niewierna', 'ten bezbożny niewierny' )], [prisoner_1.GetTitledFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.noble",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "deplorable fiend, [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'чудовищная', 'чудовищный' )] [prisoner_1.GetTitledFirstName]",
+    "POL": "[Select_CString( prisoner_1.IsFemale, 'ta żałosna poczwara', 'ten żałosny stwór' )], [prisoner_1.GetTitledFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "hateful [prisoner_1.Custom('GetCrime')], [prisoner_1.GetTitledFirstName],",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'гнусная', 'гнусный' )] [prisoner_1.Custom('GetCrime')] [prisoner_1.GetTitledFirstName]",
+    "POL": "[prisoner_1.Custom('GetCrime')] [prisoner_1.GetTitledFirstName], [Select_CString( prisoner_1.IsFemale, 'pełna nienawiści', 'pełen nienawiści' )],",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "is just #EMP languishing#!, waiting for you to announce their execution date.",
+    "RUS": "прямо-таки #EMP изнывает#! в ожидании, когда вы объявите день казни.",
+    "POL": "po prostu #EMP marnieje#!, czekając, aż ustalisz datę [prisoner_1.GetHerHis] stracenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.religious",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "It makes no difference to [ROOT.Char.GetFaith.DeathDeityName] when the impious soul reaches [ROOT.Char.GetFaith.NegativeAfterLife]...",
+    "RUS": "Нет разницы, когда [ROOT.Char.GetFaith.DeathDeityName] заберет нечестивую душу, если ее все равно ждет [ROOT.Char.GetFaith.NegativeAfterLife]...»",
+    "POL": "[ROOT.Char.GetFaith.NegativeAfterLife|U] to miejsce, w którym panuje cierpliwość. Każda bluźniercza dusza w końcu tam trafi. Kiedy? Jedynie [ROOT.Char.GetFaith.DeathDeityName] raczy to wiedzieć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.leader_2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "As long as [prisoner_1.GetSheHe] lives, [prisoner_1.GetSheHe] can be a symbol for other renegades...",
+    "RUS": "Пока [prisoner_1.GetSheHe] [Select_CString(prisoner_1.IsFemale, 'жива', 'жив' )], [prisoner_1.GetSheHe] вдохновляет других отступников...»",
+    "POL": "Tak długo, jak żyje, może być symbolem dla innych zdrajców…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.desc.criminal",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Allow me to put that [prisoner_1.Custom('GetCrimeDesc')] out of [prisoner_1.GetHerHis] misery...",
+    "RUS": "[Select_CString(prisoner_1.IsFemale, 'Эта', 'Этот' )] [prisoner_1.Custom('GetCrimeDesc')] влачит бессмысленное существование. Позвольте мне оборвать его...»",
+    "POL": "Pozwól, aby [Select_CString( prisoner_1.IsFemale, 'ta', 'ten' )] [prisoner_1.Custom('GetCrimeDesc')] [Select_CString( prisoner_1.IsFemale, 'została uwolniona', 'został uwolniony' )] od swego nieszczęścia…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Very well, it is [prisoner_1.GetTitledFirstNamePossessiveNoTooltip] time.",
+    "RUS": "Что ж, пусть [prisoner_1.GetTitledFirstNamePossessiveNoTooltip] готовится. Время пришло.",
+    "POL": "Dobrze, [prisoner_1.GetTitledFirstNameNoTooltip] dostanie to, na co zasługuje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "No, it is [prisoner_2.GetTitledFirstNamePossessiveNoTooltip] turn next.",
+    "RUS": "Нет, у нас на очереди [prisoner_2.GetTitledFirstNamePossessiveNoTooltip].",
+    "POL": "Nie, teraz [prisoner_2.GetTitledFirstNameNoTooltip] będzie następn[Select_CString( prisoner_2.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Yes, and #EMP you#! are a [my_executioner.Custom('GetCrime')]!",
+    "RUS": "Да, а #EMP ты#! — [my_executioner.Custom('GetCrime')]!",
+    "POL": "Tak, a #EMP ty#! to [my_executioner.Custom('GetCrime')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.c.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My $executioner_court_position$ should know their place",
+    "RUS": "[Select_CString(my_executioner.IsFemale, 'Моя', 'Мой' )] $executioner_court_position$ [Select_CString(my_executioner.IsFemale, 'должна', 'должен' )] знать свое место",
+    "POL": "Mój kat powinien znać swoje miejsce",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You enjoy this too much, [my_executioner.GetFirstNameNoTooltip].",
+    "RUS": "Не слишком ли ты радуешься, [my_executioner.GetFirstNameNoTooltip]?",
+    "POL": "Za bardzo cię to ekscytuje, [my_executioner.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8110.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "There is no rush.",
+    "RUS": "Спешить некуда.",
+    "POL": "Nie ma pośpiechu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Novel Perspectives",
+    "RUS": "Новые взгляды",
+    "POL": "Nowatorski punkt widzenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I sit quietly, listening to my [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('accuser') )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('accuser'))], [accuser.GetTitledFirstName], locked in keen theological debate with my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('refuter'))], [refuter.GetTitledFirstName]. \\n\\nThe latter entreats [refuter.Custom('quirk_pos_adverb')],",
+    "RUS": "Я тихо сижу, пока [Select_CString(accuser.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('accuser') )][Select_CString(accuser.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('accuser'))] [accuser.GetTitledFirstName] ведет жаркий богословский спор. [SCOPE.sC('refuter').GetHerHis|U] оппонент — [Select_CString(refuter.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('refuter'))] [refuter.GetTitledFirstName]. \\n\\nПоследний [refuter.Custom('quirk_pos_adverb')] увещевает:",
+    "POL": "Siedzę cicho i słucham, jak [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('accuser') )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('accuser'))] [accuser.GetTitledFirstName] oraz [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('refuter'))] [refuter.GetTitledFirstName] prowadzą ożywioną debatę o sprawach teologicznych.\\n\\n[refuter.GetTitledFirstName] oznajmia [refuter.Custom('quirk_pos_adverb')]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.same_religion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...но [refuter.GetFaith.GetAdjectiveNoTooltip|l] #EMP действительно#! ближе к заветам [refuter.GetFaith.HighGodNamePossessive]; это — квинтэссенция [refuter.GetFaith.GetReligion.GetNameNoTooltip|l]их откровений».\\n\\n[accuser.GetTitledFirstNameNoTooltip] хмыкает и [accuser.Custom('quirk_neg_pp')]. «[accuser.GetFaith.ReligiousText] — вот что тебе нужно прочитать. Только тогда ты поймешь, что",
+    "POL": "– …ale to [refuter.GetFaith.GetNameNoTooltip|l] #EMP wierniej#! podąża za prawdziwym słowem, które ogłasza [refuter.GetFaith.HighGodName]. To najczystsza [refuter.GetFaith.GetReligion.GetAdjectiveNoTooltip|l] istota objawień.\\n\\n[accuser.GetTitledFirstNameNoTooltip] drwi, [accuser.Custom('quirk_neg_pp')].\\n\\n– Widać, że nie znasz nawet tekstu tak podstawowego jak [accuser.GetFaith.ReligiousText]! W przeciwnym razie jasne byłoby dla ciebie, że",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.other_religion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...но отсталые [accuser.GetFaith.GetReligion.GetNameNoTooltip|l]ие учения не идут ни в какое сравнение с тем, что диктует нам [refuter.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]; [accuser.GetFaith.HighGodName] — всего лишь искаженные заветы [refuter.GetFaith.HighGodNamePossessive]».\\n\\n[accuser.GetTitledFirstNameNoTooltip] фыркает и [accuser.Custom('quirk_neg_pp')]. «Только вдумайся, и сразу поймешь, что",
+    "POL": "– …[accuser.GetFaith.GetReligion.GetNameNoTooltip|l] nie jest w stanie szczerze dorównać naukom, które propaguje [refuter.GetFaith.GetReligion.GetNameNoTooltip|l]! Wasze metody są zbyt zacofane, by w pełni pojąć istotę rzeczy. Prawda, którą głosi [accuser.GetFaith.HighGodName], jest jedynie przeinaczeniem słów, które wypowiada [refuter.GetFaith.HighGodName].\\n\\n[accuser.GetTitledFirstNameNoTooltip] drwi, [accuser.Custom('quirk_neg_pp')].\\n\\n– Zastanów się nad tym dłużej, a zrozumiesz, że",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.marriage",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the sacred bonds of matrimony should be shared with only one other; that is how we draw closer to [accuser.GetFaith.PositiveAfterLife].",
+    "RUS": "священными узами брака могут быть связаны только двое — только так [accuser.GetFaith.PositiveAfterLife] становится ближе».",
+    "POL": "święte więzy małżeństwa powinny łączyć tylko dwie osoby. W ten sposób zbliżamy się do zbawienia i miejsca, które znamy jako [accuser.GetFaith.PositiveAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.divorce",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "divorce is for those who are not willing to dedicate themselves to another unconditionally, pursuing purity and [accuser.GetFaith.PositiveAfterLife]. \\n\\n",
+    "RUS": "развод хорош лишь для тех, кто не намерен полностью посвятить себя супружеству и блюсти чистоту. Для таких людей [accuser.GetFaith.PositiveAfterLife] превращается в нечто недостижимое.\\n\\n",
+    "POL": "rozwód jest dla tych, którzy nie są gotowi poświęcić się drugiemu bezwarunkowo w dążeniu do czystości i miejsca, które znamy jako [accuser.GetFaith.PositiveAfterLife].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.adultery",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[accuser.GetFaith.CreatorName] did not intend for us to fornicate outside of marriage and chase our passions; that is #EMP why#! we have these bonds!",
+    "RUS": "[accuser.GetFaith.CreatorName] не дозволяет нам совокупляться где и как угодно и потакать собственным страстям; для #EMP этого#! и существуют узы брака!",
+    "POL": "[accuser.GetFaith.CreatorName] nie chce, abyśmy cudzołożyli poza małżeństwem i gonili za własnymi żądzami; to #EMP dlatego#! mamy te więzi!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.witchcraft",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "the unholy rituals of witches stand in contradiction to the pursuit of [accuser.GetFaith.PositiveAfterLife].",
+    "RUS": "фокусы и богохульные обряды ведьм идут вразрез со всем, что говорит [accuser.GetFaith.HighGodNameAlternate], и любому их приверженцу [accuser.GetFaith.PositiveAfterLife] не откроется».",
+    "POL": "bezbożne magiczne rytuały stoją w sprzeczności w dążeniu do miejsca, które znamy jako [accuser.GetFaith.PositiveAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.equality",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[accuser.GetFaith.CreatorName] created men and women together, neither subservient to the other, at the beginning of time.",
+    "RUS": "на заре времен мужчины и женщины были сотворены одинаковыми, и одни не должны раболепствовать перед другими. Такова воля [accuser.GetFaith.CreatorName].».",
+    "POL": "[accuser.GetFaith.CreatorName] u zarania dziejów stworzył[Select_CString( EqualTo_string( accuser.GetFaith.CreatorSheHe, 'ona' ), 'a', '' )] kobietę i mężczyznę równymi sobie i jedno nie winno być sługą drugiego”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.cosanguity",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[accuser.GetFaith.CreatorName] did not intend for members of the same family to intermarry or breed; this a temptation that defies nature!",
+    "RUS": "[accuser.GetFaith.CreatorName] не дозволяет членам одного рода сочетаться с собственной родней; такое искушение противоестественно!»",
+    "POL": "[accuser.GetFaith.CreatorName] nie miał[Select_CString( EqualTo_string( accuser.GetFaith.CreatorSheHe, 'ona' ), 'a', '' )] w zamyśle, by członkowie tej samej rodziny zawierali małżeństwa bądź rozmnażali się; to pokusa przecząca naturze!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Вот поэтому я и не говорю с заблудшими... — разочарованно вздыхает [refuter.GetTitledFirstNameNoTooltip]. — Когда закрываешься от истины, надежда на то, что [accuser.GetFaith.NegativeAfterLife] тебя минует, постоянно слабеет».\\n\\nОба поворачиваются, ожидая, что я скажу свое веское слово, и я подвожу итоги их небольшой размолвки...",
+    "POL": "\\n\\n– Dlatego właśnie nie rozmawiam z zatraconymi w wierze… – [refuter.GetTitledFirstNameNoTooltip] wzdycha z frustracją. – Jeśli nie będziesz słuchać głosu prawdy, mam tylko nadzieję, że w jakiś sposób unikniesz kary, która niechybnie czeka na ciebie w miejscu, które znamy jako [accuser.GetFaith.NegativeAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.a.accuser",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[accuser.GetSheHe|U] has a point though, [refuter.GetFirstNameNoTooltip].",
+    "RUS": "[accuser.GetSheHe|U] говорит разумные вещи, [refuter.GetFirstNameNoTooltip].",
+    "POL": "[accuser.GetSheHe|U] ma słuszność, [refuter.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.a.refuter",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[refuter.GetSheHe|U] has a point though, [accuser.GetFirstNameNoTooltip].",
+    "RUS": "[refuter.GetSheHe|U] говорит разумные вещи, [accuser.GetFirstNameNoTooltip].",
+    "POL": "[refuter.GetSheHe|U] ma rację, [accuser.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Come friends, there are many ways to honor the creator.",
+    "RUS": "Друзья мои, чествовать творца можно по-разному.",
+    "POL": "Moi przyjaciele, jest wiele sposobów, by czcić naszego stwórcę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Look here, these are the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] truths!",
+    "RUS": "Смотрите, вот [ROOT.Char.GetFaith.GetNameNoTooltip|l]ая истина!",
+    "POL": "Spójrzcie tu, oto [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] prawda!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Every Zealous [THIS.Char.GetFaith.GetAdjectiveNoTooltip] [vassal|E], [courtier|E], and [guest|E]",
+    "RUS": "Каждый фанатичный [THIS.Char.GetFaith.GetNameNoTooltip|l]ий [vassal|El], [courtier|El] и [guest|El]",
+    "POL": "Każdy gorliwy [vassal|El], [courtier|El] i [guest|El], wyznający [THIS.Char.GetFaith.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I don't want to hear this kind of talk again, [accuser.GetFirstNameNoTooltip].",
+    "RUS": "Чтобы таких разговоров больше не было, [accuser.GetFirstNameNoTooltip].",
+    "POL": "Nie chcę słuchać rozmów na takie tematy nigdy więcej, [accuser.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8120.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "It is not our place to debate the divine.",
+    "RUS": "Не нам оспаривать божественные истины.",
+    "POL": "Nie do nas należy podawanie w wątpliwość boskich prawd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "my_holy_book",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [ROOT.Char.GetFaith.ReligiousText|U]",
+    "RUS": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [ROOT.Char.GetFaith.ReligiousText|U]",
+    "POL": "[ROOT.Char.GetFaith.ReligiousText|U] [ROOT.Char.LocalPlayerString( 'twojej postaci', Concatenate('postaci ', ROOT.Char.GetTitledFirstNameNoTooltip ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "my_holy_book_description",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierPossessiveNoTooltip] personal bound collection of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] teachings, faced with a golden [ROOT.Char.GetFaith.ReligiousSymbol].",
+    "RUS": "Собрание [ROOT.Char.GetFaith.GetNameNoTooltip|l]их истин. На обложке — [ROOT.Char.GetFaith.ReligiousSymbol] из чистого золота. [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], [ROOT.Char.GetTitledFirstNameNoTooltip], личная коллекция.",
+    "POL": "Osobisty zbiór pism, w których zawarta jest nauka [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l]. Oprawę zdobi duży, złoty symbol: [ROOT.Char.GetFaith.ReligiousSymbol]. Właścicielem księgi jest [ROOT.Char.GetTitledFirstNameNoTooltip] z ziem znanych jako [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Contrived Conflict",
+    "RUS": "Надуманный конфликт",
+    "POL": "Sprokurowana sprzeczka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "While sitting my throne, mulling this and that, a furor erupts. \\n\\nMy $champion_court_position$ [champion.GetFirstName] roars: ",
+    "RUS": "Я сижу на троне, и голова полнится обрывками разных мыслей. Внезапно разражается скандал. \\n\\n«Я знаю, что ты [Select_CString(vassal.IsFemale, 'имела', 'имел' )] в виду, [vassal.Custom2('InsultNoun', SCOPE.sC('champion'))]!» — орет [Select_CString(champion.IsFemale, 'моя', 'мой' )] $champion_court_position$ [champion.GetFirstName]. — Как ты #EMP смеешь#!! [Select_CString(ROOT.Char.IsFemale, 'Наша', 'Наш' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] [Select_CString(ROOT.Char.IsFemale, 'достойна', 'достоин' )] уважительного обращения!». Я вижу, как [vassal.GetTitledFirstName] меняется в лице. [mediator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] бросается разнимать спорщиков, но атмосфера уже накалена до предела.\\n\\n",
+    "POL": "Kiedy siedzę na tronie, rozważając to i owo, nagle wybucha wrzawa.\\n\\n$champion_court_position$ mojej osoby, [champion.GetFirstName], grzmi:\\n\\n– Wiem dokładnie, co masz na myśli! [vassal.Custom2('InsultNoun', SCOPE.sC('champion'))|U] z ciebie! Myślisz, że [ROOT.Char.GetTitleAsNameNoTooltip] to byle kto? Jak #EMP śmiesz#! wygłaszać takie obelgi?! – [vassal.GetTitledFirstName] wyraźnie jest w szoku spowodowanym [champion.Custom('PL_jego_jej')] reakcją. [mediator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wkracza prędko, by rozdzielić zwaśnione strony, lecz atmosfera została już nieodwracalnie popsuta.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.desc.bold",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не собираюсь играть в твои игры, трактирным дракам не место при дворе, — парирует [vassal.GetTitledFirstNameNoTooltip], [vassal.Custom('quirk_pos_adverb')]. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip|U] [vassal.Custom('quirk_pos_present')] и отвечает: «Хорошо, я с радостью поставлю [Select_CString(champion.IsFemale, 'эту', 'этого' )] [champion.Custom2('InsultAdjective', SCOPE.sC('vassal'))] [Select_CString(champion.IsFemale, 'дикарку', 'дикаря' )] на место».",
+    "POL": "– Takie zaczepki nie przystoją na tym dworze. Twoje gierki mnie nie zastraszą – ripostuje [vassal.Custom('quirk_pos_adverb')] [vassal.GetTitledFirstNameNoTooltip]. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] i odpowiada:\\n\\n– Doskonale, z chęcią ustawię tę kanalię z powrotem do pionu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.desc.craven",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Н-н-но я ведь ничего такого не [Select_CString(vassal.IsFemale, 'говорила', 'говорил' )]!» — лепечет [vassal.GetTitledFirstNameNoTooltip]. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip|U] [vassal.Custom('quirk_pos_present')] и бормочет, заикаясь: «Ч-ч-что? Н-ну как же так, б-б-без этого же м-м-можно обойтись?!»",
+    "POL": "„A-a-ale ja nie powiedział[Select_CString( vassal.IsFemale, 'a', 'e' )]m c-czegoś takiego!” – wypala [vassal.GetTitledFirstNameNoTooltip] z niedowierzaniem. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] i zaczyna się jąkać: „C-co?! Proszę cię, czy to n-na pewno jest k-konieczne?!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(champion.IsFemale, 'слышала', 'слышал' )] тебя собственными ушами! — [champion.GetFirstNameNoTooltip] немного отступает. — Теперь ты за все ответишь. [Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetLadyLord], ваша честь не пострадает!»",
+    "POL": "– Wszystko było słychać! – upiera się [champion.GetFirstNameNoTooltip]. – Żądam zadośćuczynienia za tę zniewagę wobec mojego władcy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\nAll look to me for my say on the matter, as [mediator.GetFirstNameNoTooltip] keeps the two apart.",
+    "RUS": "\\n\\nВсе ждут моей реакции, пока [mediator.GetFirstNameNoTooltip] изо всех сил разнимает спорщиков.",
+    "POL": "\\n\\nWszyscy spoglądają ku mnie w oczekiwaniu na reakcję, podczas gdy [mediator.GetFirstNameNoTooltip] ciągle próbuje utrzymać [Select_CString( And( vassal.IsFemale, champion.IsFemale ), 'je', 'ich' )] na dystans.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[champion.GetFirstNameNoTooltip] will defend my honor.",
+    "RUS": "[champion.GetFirstNameNoTooltip] защитит мою честь.",
+    "POL": "[champion.GetFirstNameNoTooltip] będzie bronić mojego honoru.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.a.tt_champion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[champion.GetTitledFirstNameNoTooltip] wins the duel",
+    "RUS": "[champion.GetTitledFirstNameNoTooltip] выигрывает поединок",
+    "POL": "[champion.GetTitledFirstNameNoTooltip] wygrywa pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.a.tt_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal.GetTitledFirstNameNoTooltip] wins the duel",
+    "RUS": "[vassal.GetTitledFirstNameNoTooltip] выигрывает поединок",
+    "POL": "[vassal.GetTitledFirstNameNoTooltip] wygrywa pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[champion.GetTitledFirstName] and [vassal.GetTitledFirstName] have a [single_combat_duel|E]",
+    "RUS": "[champion.GetTitledFirstName] и [vassal.GetTitledFirstName] сойдутся в [Concept( 'single_combat_duel', 'поединке' )|E]",
+    "POL": "[champion.GetTitledFirstName] oraz [vassal.GetTitledFirstName] biorą udział w [Concept( 'single_combat_duel', 'pojedynku' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A misunderstanding; [vassal.GetFirstNameNoTooltip] is a loyal vassal.",
+    "RUS": "Это просто недоразумение; [vassal.GetFirstNameNoTooltip] мне [Select_CString(vassal.IsFemale, 'верна', 'верен' )].",
+    "POL": "To nieporozumienie. [vassal.GetFirstNameNoTooltip] jest [Select_CString( vassal.IsFemale, 'lojalną wasalką', 'lojalnym wasalem' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.b.tt_me",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I win the duel",
+    "RUS": "Я выигрываю поединок",
+    "POL": "Wygrywam pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I require more level-headed agents.",
+    "RUS": "Мне нужны люди поспокойнее.",
+    "POL": "Potrzebuję bardziej opanowanych ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal.GetSheHe|U] said #EMP what?!#! Fetch my [ROOT.Char.Custom('signature_weapon')]!",
+    "RUS": "#EMP Что#! [vassal.GetSheHe] [Select_CString(vassal.IsFemale, 'сказала', 'сказал' )]?! Где [ROOT.Char.Custom('signature_weapon')]?!",
+    "POL": "#EMP Co#! [vassal.GetSheHe] mówi? [ROOT.Char.Custom('signature_weapon')], dajcie mi broń!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal.GetTitledFirstName] and I have a [single_combat_duel|E]",
+    "RUS": "Я и [vassal.GetTitledFirstName] сойдемся в [Concept( 'single_combat_duel', 'поединке' )|E]",
+    "POL": "[vassal.GetTitledFirstName] i ja bierzemy udział w [Concept( 'single_combat_duel', 'pojedynku' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8130.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Calm yourselves, there will be no duel.",
+    "RUS": "Успокойтесь, поединка не будет.",
+    "POL": "Uspokójcie się, nikt nie będzie walczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Royal Lapse",
+    "RUS": "Монарху плохо",
+    "POL": "Monarsza chwila słabości",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The pageantry of court continues, day after day, from dawn to dusk. [vassal_2.GetTitledFirstName] extemporizes on my greatness, spouting platitudes and praises. Nearby [vassal_1.GetTitledFirstName] joins in, playing to the crowd, grinning stupidly and expecting a sign of my favor for [vassal_1.GetHerHis] antics.A lone bead of sweat trickles interminably down my brow... \\n\\n[vassal_2.GetFirstNameNoTooltip] notices my distance, inquiring: ",
+    "RUS": "День ото дня, с рассвета до заката, меня окружает пышное великолепие двора. [vassal_2.GetTitledFirstName] непрерывно воспевает мое величие, лесть и похвалы льются нескончаемым потоком. [vassal_1.GetTitledFirstName] не отстает: глупо улыбается, играет на публику, ждет моего одобрения за свои кривляния. Одинокая капля пота бесконечно скользит у меня по лбу...\\n\\n[vassal_2.GetFirstNameNoTooltip] замечает мой отсутствующий вид и спрашивает: «С вами все хорошо, [ROOT.Char.Custom('FormOfAddressForLiege')]?» И я почти верю, что [Select_CString(vassal_2.IsFemale, 'ей', 'ему' )] это действительно интересно.\\n\\n«Мне нужна передышка».",
+    "POL": "Wielka dworska uroczystość trwa dzień za dniem, od świtu do zmierzchu. [vassal_2.GetTitledFirstName|U] bez ustanku wychwala moją wspaniałość, improwizując, sypiąc pochlebstwami i frazesami. Stojąc nieopodal, [vassal_1.GetTitledFirstName] przyłącza się, grając pod publikę, szczerząc się głupio i czekając na moją aprobatę dla [vassal_1.Custom('PL_jego_jej')] wygłupów… Pojedyncza kropla potu płynie pozornie bez końca po moim czole…\\n\\n[vassal_2.GetFirstNameNoTooltip] zauważa, że myślami jestem gdzie indziej, i pyta z niemal szczerą troską:\\n\\n– Wszystko w porządku?\\n\\n– Muszę zrobić sobie przerwę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My apologies, you were saying?",
+    "RUS": "Прости, о чем мы говорили?",
+    "POL": "Proszę wybaczyć, co mówił[Select_CString( vassal.IsFemale, 'a', 'e' )]ś?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.a.flavor_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Pull yourself together, you are the [ROOT.Char.GetTitleAsNameNoTooltip]!",
+    "RUS": "Соберись, ты же [ROOT.Char.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Weź się w garść! Nie tak zachowuje się [ROOT.Char.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Forgive me, I have other business to attend to.",
+    "RUS": "Прошу прощения, мне нужно кое-что сделать.",
+    "POL": "Proszę o wybaczenie, muszę zająć się pewną materią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.b.flavor_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I need to [ROOT.Char.Custom('GetStressDesire')]. NOW.",
+    "RUS": "Мне требуется [ROOT.Char.Custom('GetStressDesire')]. СРОЧНО.",
+    "POL": "Muszę [ROOT.Char.Custom('GetStressDesire')]. NATYCHMIAST!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_1.GetTitledFirstNameNoTooltip], lead us in prayer.",
+    "RUS": "[vassal_1.GetTitledFirstNameNoTooltip], проведи молебен.",
+    "POL": "Niech [vassal_1.GetTitledFirstNameNoTooltip] poprowadzi nas w modlitwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_1.GetTitledFirstNameNoTooltip], organize me a feast!",
+    "RUS": "[vassal_1.GetTitledFirstNameNoTooltip], устрой пир!",
+    "POL": "Niech [vassal_1.GetTitledFirstNameNoTooltip] zorganizuje dla mnie ucztę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.3",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_1.GetTitledFirstNameNoTooltip], let's hit the road.",
+    "RUS": "[vassal_1.GetTitledFirstNameNoTooltip], давай прогуляемся.",
+    "POL": "Niech [vassal_1.GetTitledFirstNameNoTooltip] wyruszy ze mną w drogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.flavor_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Now, that would put my troubled mind at ease!",
+    "RUS": "Это успокоит мои тревоги!",
+    "POL": "To dopiero ulżyłoby mojej zatroskanej głowie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.d.1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_2.GetTitledFirstNameNoTooltip], call for a hunt!",
+    "RUS": "[vassal_2.GetTitledFirstNameNoTooltip], устрой охоту!",
+    "POL": "Niech [vassal_2.GetTitledFirstNameNoTooltip] zarządzi polowanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.d.2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_2.GetTitledFirstNameNoTooltip], fetch me a new horse.",
+    "RUS": "[vassal_2.GetTitledFirstNameNoTooltip], найди мне новую лошадь.",
+    "POL": "Niech [vassal_2.GetTitledFirstNameNoTooltip] zdobędzie dla mnie nowego konia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.d.3",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[vassal_2.GetTitledFirstNameNoTooltip], what does your science recommend?",
+    "RUS": "[vassal_2.GetTitledFirstNameNoTooltip], что советует наука?",
+    "POL": "Niech no [vassal_2.GetTitledFirstNameNoTooltip] powie – co zaleca cała ta [vassal_2.Custom('PL_jego_jej')] nauka?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.d.flavor_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "That sounds delightful!",
+    "RUS": "Звучит восхитительно!",
+    "POL": "To brzmi cudownie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_event_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Court Event",
+    "RUS": "Придворное событие",
+    "POL": "Wydarzenie dworskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You can organize a [GetActivityType('activity_feast').GetName] in the next 5 years for half the price.",
+    "RUS": "В следующие 5 лет [GetActivityType('activity_feast').GetName|l] будет стоить вдвое меньше.",
+    "POL": "W ciągu najbliższych 5 lat możesz za połowę ceny zorganizować aktywność: [GetActivityType('activity_feast').GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You can organize a [GetActivityType('activity_hunt').GetName] in the next 5 years for half the price.",
+    "RUS": "В следующие 5 лет [GetActivityType('activity_hunt').GetName|l] будет стоить вдвое меньше.",
+    "POL": "W ciągu najbliższych 5 lat możesz za połowę ceny zorganizować aktywność: [GetActivityType('activity_hunt').GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "healthy_strolls_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Healthy Strolls",
+    "RUS": "Оздоровительные прогулки",
+    "POL": "Spacery dla zdrowia",
+    "BEL": ""
+  },
+  {
+    "KEY": "healthy_strolls_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has learned to appreciate the value of daily walks and fresh air.",
+    "RUS": "Этот персонаж научился ценить ежедневные прогулки и свежий воздух.",
+    "POL": "Ta postać nauczyła się doceniać wartość codziennych spacerów na świeżym powietrzu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "enjoy_the_travel_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Enjoy the Route",
+    "RUS": "Приятного пути",
+    "POL": "Radość z podróżowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "enjoy_the_travel_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character enjoys being on the road, and makes the most of it.",
+    "RUS": "Этот персонаж в полной мере наслаждается дорогой.",
+    "POL": "Ta postać czuje radość, gdy jest w podróży, i w pełni z tego korzysta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8140.c.tt.2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You can organize a [GetActivityType('activity_pilgrimage').GetName] in the next 10 years with a 25% discount.",
+    "RUS": "В следующие 10 лет [GetActivityType('activity_pilgrimage').GetName|l] будет стоить на 25% меньше.",
+    "POL": "W ciągu najbliższych 10 lat możesz o 25% taniej zorganizować aktywność: [GetActivityType('activity_pilgrimage').GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Prandial Excess",
+    "RUS": "Застольные излишества",
+    "POL": "Nadmierne obżarstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Each day it seems my court is abuzz with talk of the next banquet, and many have grown rather more portly as of late...",
+    "RUS": "Мне кажется, что каждый день двор только и говорит, что о банкетах. И многие в последнее время как-то... раздались вширь.",
+    "POL": "Każdego dnia wydaje się, że mój dwór huczy od rozmów na temat kolejnego bankietu, a wielu rozmówców stało się ostatnio bardziej tęgich…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.taster",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\n[food_taster.GetTitledFirstName], my $food_taster_court_position$, seems more lethargic with each session, sweating more profusely as each foreign fancy is lifted to [food_taster.GetHerHis] mouth. \\n\\n",
+    "RUS": "\\n\\n[food_taster.GetTitledFirstName], [Select_CString(food_taster.IsFemale, 'моя', 'мой' )] $food_taster_court_position$, с каждым разом становится все более [Select_CString(food_taster.IsFemale, 'медлительной', 'медлительным' )] и встречает новые чужеземные лакомства, обильно потея.\\n\\n",
+    "POL": "\\n\\n[food_taster.GetTitledFirstName], [Select_CString( food_taster.IsFemale, 'moja degustatorka', 'mój degustator' )] potraw, z każdą kolejną uroczystością wydaje się coraz bardziej ociężał[Select_CString( food_taster.IsFemale, 'a', 'y' )], pocąc się to coraz obficiej, wraz z każdym kęsem frymuśnej, nietutejszej jadalnej masy.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The culinary activity is fueled by [vassal_1.GetTitledFirstName], [vassal_2.GetTitledFirstName], and [vassal_3.GetTitledFirstNamePossessive] constant vying to demand the most memorable meal from my overworked cooks. \\n\\nToday it is my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('demander'))], [demander.GetFirstNameNoTooltip], who drools ",
+    "RUS": "За этим гастрономическим разгулом стоят [vassal_1.GetTitledFirstName], [vassal_2.GetTitledFirstName] и [vassal_3.GetTitledFirstNamePossessive], которые постоянно требуют от моих загнанных поваров все новых и новых изысков. \\n\\nА сегодня передо мной стоит, истекая слюной, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('demander'))] [demander.GetFirstNameNoTooltip]: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], сегодня я распоряжусь приготовить самый вкусный соус в истории человечества и зажарить к нему десяток птиц!» — [SCOPE.sCharacter('demander').GetSheHe] жадно облизывает губы. \\n\\n",
+    "POL": "Za tym kulinarnym szałem stoją [vassal_1.GetTitledFirstName], [vassal_2.GetTitledFirstName] i [vassal_3.GetTitledFirstName]. Nieustannie współzawodniczą, domagając się coraz bardziej wykwintnych posiłków od moich przepracowanych już kucharzy.\\n\\nA dziś to [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('demander'))] [demander.GetFirstNameNoTooltip] stoi przede mną i, śliniąc się, zaczyna:\\n\\n– Niech [ROOT.Char.Custom('FormOfAddressForLiege')] posłucha, dziś wieczorem zlecę kuchni przygotowanie najpyszniejszego sosu znanego człowiekowi podanego wraz z dziesięcioma pieczonymi ptakami – oświadcza, oblizując przy tym łapczywie usta.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.almoner_chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My $high_almoner_court_position$, [high_almoner.GetTitledFirstName], and [chaplain.GetCouncilTitleFirstName] tut, shaking their heads with unconcealed disdain.",
+    "RUS": "[Select_CString(high_almoner.IsFemale, 'Моя', 'Мой' )] $high_almoner_court_position$ [high_almoner.GetTitledFirstName] и [chaplain.GetCouncilTitleFirstName] с досадой качают головами и бормочут что-то неодобрительное.",
+    "POL": "Mój wielki jałmużnik, [high_almoner.GetTitledFirstName] oraz [chaplain.GetCouncilTitleFirstName] [Select_CString( And( chaplain.IsFemale, high_almoner.IsFemale ), 'cmoknęły', 'cmoknęli' )] językiem, kręcąc głową z nieskrywaną pogardą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[chaplain.GetCouncilTitleFirstName] sighs disapprovingly, ",
+    "RUS": "[chaplain.GetCouncilTitleFirstName] осуждающе вздыхает. «Эти мимолетные удовольствия ничто в сравнении с благодатью [chaplain.GetFaith.HighGodNamePossessive]...»",
+    "POL": "[chaplain.GetCouncilTitleFirstName] westchn[Select_CString(chaplain.IsFemale, 'ęła', 'ął' )] z dezaprobatą: „Te przelotne przyjemności są niczym w porównaniu z łaską [chaplain.GetFaith.HighGodNamePossessive]…”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.desc.almoner",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[high_almoner.GetTitledFirstName], my $high_almoner_court_position$, turns [high_almoner.GetHerHis] nose up, muttering about the hungry poor...",
+    "RUS": "[high_almoner.GetTitledFirstName], [Select_CString(high_almoner.IsFemale, 'моя', 'мой' )] $high_almoner_court_position$, воротит нос и бормочет о голодающих бедняках...",
+    "POL": "[high_almoner.GetTitledFirstName], mój wielki jałmużnik, kręci nosem, mamrocząc coś o głodnych potrzebujących…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I can't wait!",
+    "RUS": "Жду с нетерпением!",
+    "POL": "Nie mogę się doczekać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Only the best for #EMP my#! court.",
+    "RUS": "К #EMP моему#! двору — только лучшее.",
+    "POL": "Tylko to, co najlepsze dla #EMP mojego#! dworu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This extravagance has gone too far!",
+    "RUS": "Эти изыски зашли слишком далеко!",
+    "POL": "Ta ekstrawagancja zaszła za daleko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Will you never be satisfied?",
+    "RUS": "Вам вечно мало?",
+    "POL": "Nigdy się nie nasycisz?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Forged in the fire of a thousand dishes, [food_taster.GetTitledFirstNamePossessiveNoTooltip] mettle has been tested, and [food_taster.GetSheHe] has emerged victorious and stronger: [aptitude|E] Increased.",
+    "RUS": "[food_taster.GetTitledFirstNameNoTooltip] [Select_CString(food_taster.IsFemale, 'выковала', 'выковал' )] свое мастерство в горниле тысячи блюд и [Select_CString(food_taster.IsFemale, 'вышла', 'вышел' )] победителем из трудного испытания: [Concept( 'aptitude', 'пригодность' )|E] увеличена.",
+    "POL": "[food_taster.GetTitledFirstNameNoTooltip|U] to osoba o wielkim zapale wykutym w ogniu tysiąca potraw. Przetrwała próbę i wyszła z niej zwycięsko, nabrawszy siły. [aptitude|E] zostały poszerzone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "food_taster_mettle_tested_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Mettle Tested",
+    "RUS": "Испытание характера",
+    "POL": "Próba sił",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8150.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Since the court stopped overeating, [high_almoner.GetTitledFirstNameNoTooltip] has a nearly never-ending supply of food to donate to the poor: [aptitude|E] Increased.",
+    "RUS": "С тех пор как при дворе перестали переедать, [high_almoner.GetTitledFirstNameNoTooltip] [Select_CString(high_almoner.IsFemale, 'получила', 'получил' )] почти неограниченное количество пищи, которую можно раздать бедным: [Concept( 'aptitude', 'пригодность' )|E] увеличена.",
+    "POL": "Odkąd na dworze przestano się objadać, [high_almoner.GetTitledFirstNameNoTooltip] ma niemal nieskończone zapasy jedzenia, które może przekazywać biednym. [aptitude|E] zostały poszerzone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "plenty_to_donate_almoner_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Plenty to Donate",
+    "RUS": "Обильные пожертвования",
+    "POL": "Mnóstwo do przekazania",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Foremost [ROOT.Char.Custom('MountedWarriorTerm')|U]",
+    "RUS": "[ROOT.Char.Custom('MountedWarriorTerm')|U], что не знает себе равных",
+    "POL": "[ROOT.Char.Custom('MountedWarriorTerm')|U] o największych umiejętnościach",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "A healthy rivalry between mettlesome fighters is to be expected, but the growing discord between [knight_1.GetFirstName] and [knight_2.GetFirstName] is souring the mood at court. \\n\\n[knight_1.GetTitledFirstNameNoTooltip] is widely regarded to be more skilled, but [knight_2.GetTitledFirstNameNoTooltip] clearly takes issue with the assertion. \\n\\nIn the middle of an audience, the latter bursts into my throne room, and, clutching [knight_2.GetHerHis] sword-hilt, cries ",
+    "RUS": "Здоровое соперничество — не редкость среди ретивых бойцов, однако растущая неприязнь, которую питают друг к другу [knight_1.GetFirstName] и [knight_2.GetFirstName], портит настроение всем при дворе. \\n\\nСчитается, что [knight_1.GetTitledFirstNameNoTooltip] более искусный боец, но [knight_2.GetTitledFirstNameNoTooltip] с этим явно не [Select_CString(knight_2.IsFemale, 'согласна', 'согласен' )]. \\n\\n[Select_CString(knight_2.IsFemale, 'Последняя', 'Последний' )] даже осмеливается ворваться в мой тронный зал посреди приема и завопить, хватаясь за рукоять меча: «[knight_1.GetFirstNameNoTooltip]! Выходи, и я докажу тебе: [ROOT.Char.Custom('MountedWarriorTerm')], что не знает себе равных, здесь только один. И да будет [ROOT.Char.GetTitleAsNameNoTooltip|l] свидетелем моих слов!»\\n\\n[knight_1.GetTitledFirstNameNoTooltip] [knight_2.Custom('quirk_neg_adverb')] отвечает: «Если бы не [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip], я давно [Select_CString(knight_1.IsFemale, 'разрубила', 'разрубил' )] бы тебя на куски, [knight_2.Custom('quirk_neg_adjective')][Select_CString(knight_2.IsFemale, 'ая', 'ый' )] [knight_2.Custom2('InsultNoun', SCOPE.sC('knight_1'))]! Проси прощения, и я, быть может, сохраню тебе жизнь!»\\n\\nДействовать нужно быстро, иначе это зайдет слишком далеко...",
+    "POL": "Zdrowa rywalizacja między zapalczywymi wojownikami to nic dziwnego, lecz [knight_1.GetFirstName] i [knight_2.GetFirstName] nie żywią do siebie szczególnego upodobania, przez co atmosfera na dworze wydaje się dość ciężka.\\n\\n[knight_1.GetTitledFirstNameNoTooltip] to osoba powszechnie uważana za bardziej utalentowaną, ale [knight_2.GetTitledFirstNameNoTooltip] wyraźnie nie zgadza się z tym stwierdzeniem.\\n\\nW trakcie audiencji wdziera się więc do sali tronowej i, chwytając za rękojeść miecza, woła:\\n\\n– [knight_1.GetFirstNameNoTooltip]! Na tym dworze może być tylko jeden najzdolniejszy [ROOT.Char.Custom('MountedWarriorTerm')]! Będę czekać na ciebie na zewnątrz, by raz na zawsze rozstrzygnąć tę kwestię!\\n\\n[knight_1.GetTitledFirstNameNoTooltip] odpowiada [knight_2.Custom('quirk_neg_adverb')]:\\n\\n– Mogę pociąć cię na kawałki tam, gdzie właśnie stoisz! Co za [knight_2.Custom2('InsultNoun', SCOPE.sC('knight_1'))]! [ROOT.Char.GetTitleAsNameNoTooltip] ci tego nie wybaczy! Pokajaj się, a może oszczędzę twe życie!\\n\\nTrzeba działać szybko, inaczej zajdzie to za daleko…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You shall both serve me directly.",
+    "RUS": "Вы оба будете служить мне напрямую.",
+    "POL": "Będziecie mi służyć we dwójkę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[knight_1.GetFirstNameNoTooltip] and [knight_2.GetFirstNamePossessiveNoTooltip] rivalry ensures that, as long as they are both employed, they will give their very best in their positions: [aptitude|E] Increased.",
+    "RUS": "Благодаря соперничеству между ними, [knight_1.GetFirstNameNoTooltip] и [knight_2.GetFirstNameNoTooltip] станут еще усерднее: [Concept( 'aptitude', 'пригодность' )|E] увеличена.",
+    "POL": "Rywalizacja, którą toczą między sobą [knight_1.GetFirstNameNoTooltip] i [knight_2.GetFirstNameNoTooltip], przyczyni się do tego, że po zatrudnieniu obydwie te osoby będą dawać z siebie wszystko. [aptitude|E] zostały poszerzone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "competing_knight_position_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Competing Knights",
+    "RUS": "Рыцари-соперники",
+    "POL": "Rywalizujący rycerze",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.a.tt_knight_1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[knight_1.GetTitledFirstNameNoTooltip] wins the duel",
+    "RUS": " выиграна",
+    "POL": "[knight_1.GetTitledFirstNameNoTooltip] wygrywa pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.a.tt_knight_2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[knight_2.GetTitledFirstNameNoTooltip] wins the duel",
+    "RUS": "[knight_2.GetTitledFirstNameNoTooltip] выигрывает поединок",
+    "POL": "[knight_2.GetTitledFirstNameNoTooltip] wygrywa pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Take their swords! Give them training blades.",
+    "RUS": "Заберите у них боевые мечи и выдайте тренировочные!",
+    "POL": "Zabierzcie im miecze i dajcie broń treningową!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I will humble both of you!",
+    "RUS": "Я усмирю вас обоих!",
+    "POL": "Nauczę was [Select_CString( And( knight_1.IsFemale, knight_2.IsFemale ), 'obie', Select_CString( And( Not( knight_1.IsFemale ), Not( knight_2.IsFemale ) ), 'obaj', 'oboje' ) )] pokory!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You will fight a single combat with the [knight|E] of higher [prowess|E] ([knight_1.GetTitledFirstName])",
+    "RUS": "Вы будете сражаться на дуэли с [Concept( 'knight', 'рыцарем' )|E], чья [prowess|El] выше ([knight_1.GetTitledFirstName])",
+    "POL": "Staniesz do pojedynku z [Concept( 'knight', 'rycerzem' )|E] o wyższej [Concept( 'prowess', 'waleczności' )|E] ([knight_1.GetTitledFirstName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.c.tt_win",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You are victorious",
+    "RUS": "Вы победили",
+    "POL": "Zwyciężasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.c.tt_lose",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You are defeated",
+    "RUS": "Вы потерпели поражение",
+    "POL": "Przegrywasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8160.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Prove it to me on the battlefield, not at court!",
+    "RUS": "Докажите это на поле боя, а не при дворе!",
+    "POL": "Udowodnij to na polu bitwy, a nie na dworze!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8163.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You win the duel",
+    "RUS": "Вы победили в поединке",
+    "POL": "Wygrywasz pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_humiliation_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Court Humiliation",
+    "RUS": "Унижение при дворе",
+    "POL": "Upokorzono wśród dworzan",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_humiliation_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has been undermined in front of their entire court.",
+    "RUS": "Этого персонажа унизили перед всем двором.",
+    "POL": "Honor tej postaci został zszargany na oczach całego dworu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8162.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Having proved [sc_victor.GetHerHis] superiority in a fair duel, [sc_victor.GetFirstNameNoTooltip] is recognized as the better [ROOT.Char.Custom('MountedWarriorTerm')] and most qualified to be your $bodyguard_court_position$ or $champion_court_position$: [aptitude|E] Increased.",
+    "RUS": "Доказав свое превосходство в честном поединке, [sc_victor.GetFirstNameNoTooltip] [Select_CString(sc_victor.IsFemale, 'получила', 'получил' )] признание как лучший [ROOT.Char.Custom('MountedWarriorTerm')|l] и лучший кандидат на должность телохранителя или воителя: [Concept( 'aptitude', 'пригодность' )|E] увеличена.",
+    "POL": "[sc_victor.GetFirstNameNoTooltip] udowadnia swoją wyższość w sprawiedliwym pojedynku i dowodzi, że lepszy z [sc_victor.Custom('PL_niego_niej')] [ROOT.Char.Custom('MountedWarriorTerm')|l]. W związku z tym ma też najwyższe kwalifikacje do objęcia stanowiska osobistego strażnika lub osobistego czempiona. [aptitude|E] zostały poszerzone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "best_knight_position_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Best of Knights",
+    "RUS": "Лучший из рыцарей",
+    "POL": "Najlepsza rycerskość",
+    "BEL": ""
+  },
+  {
+    "KEY": "fostering_competitiveness_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Fostering Competitiveness",
+    "RUS": "Поддержка соперничества",
+    "POL": "Pielęgnowanie ducha rywalizacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "fostering_competitiveness_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character fosters competitiveness among their troops on the battlefield.",
+    "RUS": "Этот персонаж поддерживает соперничество между своими войсками на поле боя.",
+    "POL": "Ta postać pielęgnuje ducha rywalizacji wśród swoich wojaków na polu bitwy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Pariah of Court",
+    "RUS": "Изгой при дворе",
+    "POL": "Parias na dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.intro_scary",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "The children of court flee as '[criminal.GetFirstName] the [criminal.Custom('GetCrime')|U]' approaches, and not even the most fervent [ROOT.Char.GetFaith.BishopNeuterPlural] can help but shrink from [criminal.GetHerHis] presence.",
+    "RUS": "Дети при дворе разбегаются, когда приближается [criminal.Custom('GetCrime')] [criminal.GetFirstName], и даже самые горячие [ROOT.Char.GetFaith.BishopNeuterPlural] сжимаются в [criminal.GetHerHis] присутствии.",
+    "POL": "Dzieci na dworze uciekają, gdy [criminal.GetFirstName] – [criminal.Custom('GetCrime')] – zbliża się, a nawet najbardziej zagorzali [ROOT.Char.GetFaith.BishopNeuterPlural] kurczą się w [criminal.GetHerHis] obecności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.intro_sordid",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "'[criminal.GetFirstName] the [criminal.Custom('GetCrime')|U]' is a figure of disdain at court, haunted by social ostracism and the butt of many a sordid joke.",
+    "RUS": "[criminal.Custom('GetCrime')|U] [criminal.GetFirstName] является объектом всеобщего презрения, остракизма и непристойных шуток при дворе.",
+    "POL": "[criminal.GetFirstName] – [criminal.Custom('GetCrime')] – jest postacią pogardzaną na dworze, prześladowaną przez ostracyzm społeczny i będącą przedmiotem wielu rozpasanych żartów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.intro_religious",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I am judged harshly for my hospitality towards, '[criminal.GetFirstName] the [criminal.Custom('GetCrime')|U]', who is avoided by almost everyone on account of their wicked faith.",
+    "RUS": "К тому, что [criminal.Custom('GetCrime')] [criminal.GetFirstName] не вызывает во мне такого уж отвращения, относятся с суровым непониманием. Ведь [criminal.GetHerHis], адепта нечестивой веры, избегают едва ли не все при дворе.",
+    "POL": "Jestem [Select_CString( ROOT.Char.IsFemale, 'surowo sądzona', 'surowo sądzony' )] za gościnność, którą dostał[Select_CString( criminal.IsFemale, 'a', '' )] ode mnie [criminal.GetFirstName] – [criminal.Custom('GetCrime')] – gdyż prawie wszyscy unikają [Select_CString( criminal.IsFemale, 'jej', 'go' )] z powodu [criminal.GetHerHis] niegodziwej wiary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.intro_fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "My court can brook no excuse for my hospitality towards '[criminal.GetFirstName] the [criminal.Custom('GetCrime')|U]', who is seen as an aberration in an otherwise distinguished place.",
+    "RUS": "То, что [criminal.Custom('GetCrime')] [criminal.GetFirstName] не вызывает во мне такого уж отвращения, не встречает понимания при дворе. Для них [SCOPE.sCharacter('criminal').GetSheHe] — грязная лужа в обители утонченности.",
+    "POL": "Mój dwór nie jest w stanie zrozumieć, dlaczego [criminal.GetFirstName] – [criminal.Custom('GetCrime')] – jest moim gościem. Dla nich jest postrzegan[Select_CString( criminal.IsFemale, 'a', 'y' )] jako aberracja w tym pełnym wyrafinowania miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.body",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "\\n\\nMy failure to condemn, and continued proximity to, this [criminal.Custom('GetCrimeDesc')] is perceived as open tolerance, tarnishing my court's reputation in the eyes of the [ROOT.Char.GetFaith.AltPriestTermPlural] and faithful...\\n\\nThey have forced my hand, and I must now decide whether my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('criminal'))] crimes outweigh my affections for [criminal.GetHerHim] — surely something must done,",
+    "RUS": "\\n\\nВерующие и [ROOT.Char.GetFaith.AltPriestTermPlural] считают то, что [criminal.Custom('GetCrimeDesc')] не [Select_CString(criminal.IsFemale, 'презираема', 'презираем' )] мною, а, скорее, совсем наоборот, и репутация моего двора серьезно страдает...\\n\\nУ меня не осталось выбора: нужно решить, кто для меня [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('criminal'))] — преступник, или близкий человек. Но что-то нужно делать,",
+    "POL": "\\n\\n[ROOT.Char.GetFaith.AltPriestTermPlural|U] i wierzący twierdzą, że osoba, o której cały dwór twierdzi, że to [criminal.Custom('GetCrimeDesc')], nie została odpowiednio potępiona, a wręcz przeciwnie. Reputacja mojego dworu poważnie cierpi z powodu tej domniemanej jawnej tolerancji…\\n\\nNie mam wyboru i muszę zdecydować, czy przestępstwa, których dopuszcza się [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('criminal'))], przeważają nad moimi względami wobec [criminal.Custom('PL_niego_niej')]. Coś trzeba z tym zrobić,",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.family",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "even if [criminal.GetSheHe] is a [criminal.GetDynasty.GetNameNoTooltip]...",
+    "RUS": "даже если [criminal.GetSheHe] — [criminal.GetDynasty.GetNameNoTooltip]...",
+    "POL": "nawet jeśli należy do dynastii [criminal.GetDynasty.GetNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.guest",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[criminal.GetSheHe] is a mere traveler, after all.",
+    "RUS": "[criminal.GetSheHe] ведь всего лишь любит путешествовать.",
+    "POL": "mimo wszystko to tylko [Select_CString( criminal.IsFemale, 'zwykła podróżniczka', 'zwykły podróżnik' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.desc.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "are courtiers really so hard to replace?",
+    "RUS": "разве так сложно заменить придворных?",
+    "POL": "a dworzanie chyba nie są tacy trudni do zastąpienia, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.a.family",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "No — family comes first.",
+    "RUS": "Нет, семья дороже всего.",
+    "POL": "Nie, rodzina jest najważniejsza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.a.other",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "It is not my place to judge.",
+    "RUS": "Не мне судить.",
+    "POL": "Nie mnie to osądzać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "You must repent, [criminal.GetFirstNameNoTooltip]!",
+    "RUS": "Покайся, [criminal.GetFirstNameNoTooltip]!",
+    "POL": "Musisz odpokutować, [criminal.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.c1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[criminal.GetSheHe|U] who failed to see justice shall see no more!",
+    "RUS": "Тот, кто не видит справедливости, пускай не видит вовсе!",
+    "POL": "Kto raz nie dostrzegł sprawiedliwości, nie ujrzy już nigdy niczego!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.c2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[criminal.GetFirstNamePossessiveNoTooltip] accursed line shall end with him.",
+    "RUS": "[criminal.GetFirstNameNoTooltip] станет последним в своем проклятом роду.",
+    "POL": "Przeklęty ród osoby znanej jako [criminal.GetFirstNameNoTooltip] sczeźnie razem z nią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.c3",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Only death can cleanse [criminal.GetHerHis] crimes.",
+    "RUS": "Только смерть смоет [Select_CString(criminal.IsFemale, 'ее', 'его' )] преступления.",
+    "POL": "Tylko śmierć może wymazać [criminal.Custom('PL_jego_jej')] zbrodnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8170.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "I cannot host you anymore, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('criminal'))]...",
+    "RUS": "Я больше не стану тебя покрывать, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('criminal'))]...",
+    "POL": "Nie mogę cię już dłużej gościć, [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('criminal'))]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "harbors_criminals_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Protector of Shady Characters",
+    "RUS": "Защитник подозрительных личностей",
+    "POL": "Obrońca podejrzanych typów",
+    "BEL": ""
+  },
+  {
+    "KEY": "harbors_criminals_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character does nothing to bring criminals in their own court to justice. They have their uses, after all.",
+    "RUS": "Этот персонаж бездействует, хотя при его дворе есть преступники. От них тоже есть польза.",
+    "POL": "Ta postać nie robi nic, by doprowadzać przed oblicze sprawiedliwości przestępców przebywających na jej dworze. Można ich w końcu wykorzystywać do własnych celów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fast_hard_justice_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Fast, Hard Justice",
+    "RUS": "Быстрое и безжалостное правосудие",
+    "POL": "Szybka i surowa sprawiedliwość",
+    "BEL": ""
+  },
+  {
+    "KEY": "fast_hard_justice_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has gained a reputation for dealing effectively with criminals.",
+    "RUS": "Этот персонаж заслужил репутацию человека, эффективно расправляющегося с преступниками.",
+    "POL": "Ta postać zyskała reputację osoby skutecznie rozprawiającej się z przestępcami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Secrets and Lies",
+    "RUS": "Секреты и ложь",
+    "POL": "Sekrety i kłamstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Days go by without it even crossing my mind, but each time I catch [criminal.GetTitledFirstNamePossessive] eye at court I can think of nothing but [criminal.GetHerHis] crimes. \\n\\nI wonder how many at court know — perhaps none? Perhaps all... The truth will out eventually, and it will not do my reputation any good to have such scandals in my courtiers' midsts... \\n\\n[criminal.GetSheHe|U] must be dealt with, or I will have [ROOT.Char.GetFaith.HighGodName] to reckon with, let alone the court.",
+    "RUS": "Придворная жизнь продолжается, день проходит за днем, и я не думаю об этом, но стоит заметить, как [criminal.GetTitledFirstName] смотрит на меня — в голове сразу всплывают [criminal.GetHerHis] преступления. \\n\\nИнтересно, кто еще при дворе об этом знает. Может, никто? А может, все... Рано или поздно истина выйдет наружу, и разразится скандал, от которого моя репутация сильно пострадает...\\n\\n[criminal.GetSheHe|U] [Select_CString(criminal.IsFemale, 'должна', 'должен' )] получить свое, иначе меня накажет [ROOT.Char.GetFaith.HighGodName]. Не говоря уж о дворе.",
+    "POL": "Nie myśląc o tym, życie dworskie toczy się dalej, dzień po dniu, ale kiedy [criminal.GetTitledFirstName] pojawia się przed moimi oczami, natychmiast przychodzą mi na myśl [criminal.GetHerHis] zbrodnie.\\n\\nCiekawe kto jeszcze wśród dworzan o tym wie. Może nikt? Może wszyscy… Prawda w końcu wyjdzie na jaw i wybuchnie skandal, który zaszkodzi mojej reputacji…\\n\\nTrzeba rozwiązać ten problem, inaczej czeka mnie gniew [ROOT.Char.GetFaith.HighGodNamePossessive], nie mówiąc już o dworze…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Enough is enough. The world must know.",
+    "RUS": "Довольно. Пусть мир узнает.",
+    "POL": "Wystarczy. Niech świat się dowie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Only a fool would not leverage this knowledge.",
+    "RUS": "Только глупец не воспользуется таким знанием.",
+    "POL": "Tylko głupiec nie wykorzystałby takiej wiedzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "[criminal.GetSheHe|U] belongs in prison.",
+    "RUS": "[Select_CString(criminal.IsFemale, 'Ее', 'Его' )] место в темнице.",
+    "POL": "[criminal.Custom('PL_jego_jej')|U] miejsce jest w więzieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "It is time for [criminal.GetHerHim] to leave.",
+    "RUS": "Пора [criminal.GetHerHim] убираться.",
+    "POL": "Czas, by opuścił[Select_CString( criminal.IsFemale, 'a', '' )] to miejsce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8180.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "There is no need to act yet...",
+    "RUS": "Действовать еще рано...",
+    "POL": "Za wcześnie na działanie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_scrutiny_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Under Liege's Scrutiny",
+    "RUS": "Под наблюдением сюзерена",
+    "POL": "Pod lupą seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_scrutiny_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character's liege is keeping a very close eye on them — and their secret activities.",
+    "RUS": "Сюзерен этого персонажа внимательно наблюдает за ним и его тайными делишками.",
+    "POL": "Senior tej postaci uważnie przygląda się zarówno jej, jak i jej sekretnym działaniom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_without_secrets_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "Court of No Secrets",
+    "RUS": "Двор без секретов",
+    "POL": "Dwór bez sekretów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_without_secrets_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_joe_l_belarusian.json",
+    "ENG": "This character has a reputation for hunting for secrets and punishing crimes relentlessly.",
+    "RUS": "Все считают этого персонажа охотником за секретами и грозой преступников.",
+    "POL": "Ta postać jest znana z polowania na sekrety i bezlitosnego karania przestępców.",
+    "BEL": ""
+  }
+]

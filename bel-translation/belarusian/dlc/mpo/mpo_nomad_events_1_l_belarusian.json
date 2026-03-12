@@ -1,0 +1,1514 @@
+[
+  {
+    "KEY": "mpo_nomad_events.1000.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A Rescued Head",
+    "RUS": "Спасенная голова",
+    "POL": "Uratowana głowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.army_camp",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Survivors of the bloody fight at [beheaded_warrior_location.GetName] join my host, whipping their horses to their last breath. From one's saddle-strings swings a dripping head — bearing the deathly face of",
+    "RUS": "Отчаянно нахлестывая своих коней, воины, уцелевшие в кровавой битве в местечке [beheaded_warrior_location.GetName], спешат воссоединиться с моим войском. К седлу одного из наездников приторочена отрубленная голова — это",
+    "POL": "Ocalali z krwawej bitwy pod miejscem o nazwie [beheaded_warrior_location.GetName] dołączają do mojego wojska, popędzając swoje wyczerpane konie. Z siodła jednego z nich zwisa ociekająca krwią głowa –",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.capital",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Survivors of the bloody fight at [beheaded_warrior_location.GetName] send word from the killing-grounds, and with the tidings... the dripping head of",
+    "RUS": "Воины, уцелевшие в кровавой битве в местечке [beheaded_warrior_location.GetName], прислали гонца с вестью о сражении. К седлу посланника приторочена отрубленная голова — это",
+    "POL": "Ocalali z krwawej bitwy pod miejscem o nazwie [beheaded_warrior_location.GetName] przysyłają wieści z terenów walk, a wraz z nimi… ociekającą krwią głowę –",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.family",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('beheaded_warrior'))].",
+    "RUS": "[Select_CString(beheaded_warrior.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('beheaded_warrior'))] [beheaded_warrior.GetFirstName].",
+    "POL": "to [beheaded_warrior.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('beheaded_warrior'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.vassal",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetName], my once-mighty subordinate.",
+    "RUS": "[beheaded_warrior.GetName], [Select_CString(beheaded_warrior.IsFemale, 'одна', 'один' )] из моих вассалов.",
+    "POL": "to [beheaded_warrior.GetName], niegdyś podległa mi potężna osoba.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.councillor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetName], my trusted councilor.",
+    "RUS": "[beheaded_warrior.GetName], [Select_CString(beheaded_warrior.IsFemale, 'моя доверенная советница', 'мой доверенный советник' )].",
+    "POL": "to [beheaded_warrior.GetName], zaufana osoba będąca członkiem mojej rady.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.generic_knight",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetName], my honored [ROOT.Char.Custom('KnightCultureNoTooltip')|l].",
+    "RUS": "[beheaded_warrior.GetName], [ROOT.Char.Custom('KnightCultureNoTooltip')|l] на моей службе.",
+    "POL": "to [beheaded_warrior.GetName], [ROOT.Char.Custom('KnightCultureNoTooltip')|l] w mojej armii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[Select_CString(beheaded_warrior.IsFemale, 'Она погибла', 'Он погиб' )] геройской смертью. В тот день [beheaded_warrior_foe.GetTitledFirstName] не [Select_CString(beheaded_warrior_foe.IsFemale, 'досчиталась', 'досчитался' )] многих превосходных бойцов... [beheaded_warrior.GetNameNoTooltip] [Select_CString(beheaded_warrior.IsFemale, 'ворвалась', 'ворвался' )] в самую гущу неприятельского отряда и [Select_CString(beheaded_warrior.IsFemale, 'разила', 'разил' )] врагов, пока [Select_CString(beheaded_warrior.IsFemale, 'ей', 'ему' )] не срубили голову с плеч! Только её и удалось спасти».\\n\\nЖестокая смерть... но наши старейшины часто говорят, что голова павшего героя сохраняет часть его доблестного духа.",
+    "POL": "\\n\\n– [beheaded_warrior.GetFirstName] nie żyje. To była śmierć godna wojownika. Ścięto [beheaded_warrior.Custom('PL_mu_jej')] głowę podczas walki w sercu armii osoby znanej jako [beheaded_warrior_foe.GetTitledFirstName]! Z miłości do [beheaded_warrior.Custom('PL_niego_niej')] nasi jeźdźcy odzyskali, co tylko mogli.\\n\\nOkrutny koniec… lecz członkowie naszej starszyzny powiadają, że w głowie szlachetnego wojownika zachowana zostaje część jego wigoru i przeznaczenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I will honor this great [beheaded_warrior.GetWomanMan]'s head.",
+    "RUS": "Мы будем почитать голову [Select_CString(beheaded_warrior.IsFemale, 'этой великой женщины', 'этого великого человека' )].",
+    "POL": "Będę czcić głowę tego wielkiego człowieka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.a.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetTitledFirstNameNoTooltip] is to be placed on a white felt carpet, where my household will present [beheaded_warrior.GetHerHim] with ceremonial drinks and perform rites.",
+    "RUS": "[beheaded_warrior.GetTitledFirstNameNoTooltip] будет [Select_CString(beheaded_warrior.IsFemale, 'помещена', 'помещен' )] на ковер из белого войлока, мои родичи поднесут [Select_CString(beheaded_warrior.IsFemale, 'ей', 'ему' )] церемониальное питье и выполнят нужные ритуалы.",
+    "POL": "[beheaded_warrior.GetTitledFirstNameNoTooltip] ma spocząć na białym filcowym dywanie, gdzie moi domownicy będą podawać [beheaded_warrior.Custom('PL_mu_jej')] ceremonialne napoje i odprawiać rytuały.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetFirstNameNoTooltip] belongs with [beheaded_warrior.GetHerHis] people.",
+    "RUS": "[beheaded_warrior.GetFirstNameNoTooltip] [Select_CString(beheaded_warrior.IsFemale, 'должна', 'должен' )] вернуться к своему народу.",
+    "POL": "[beheaded_warrior.GetFirstNameNoTooltip] zasługuje na spoczynek wśród swojego ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Have my [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] revere their fallen comrade.",
+    "RUS": "Мои [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] должны почтить павшего товарища.",
+    "POL": "Niech moi [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] uczczą pamięć poległego towarzysza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1000.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Put [beheaded_warrior.GetFirstNameNoTooltip] in the ground.",
+    "RUS": "[beheaded_warrior.GetFirstNameNoTooltip] будет [Select_CString(beheaded_warrior.IsFemale, 'погребена', 'погребен' )] в земле.",
+    "POL": "Niech [beheaded_warrior.GetFirstNameNoTooltip] spocznie w ziemi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_warriors_grave_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Beheaded Warrior's Grave",
+    "RUS": "Могила обезглавленного воина",
+    "POL": "Grób ściętego wojownika",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_warriors_grave_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sliced from its body in battle, a head distorted with war-cries is buried in this land's soil. This grave is oft-visited by families whose loved ones have ridden to war.",
+    "RUS": "В этой земле похоронена отрубленная голова павшего героя. Могилу часто навещают семьи, чьи близкие ушли на войну.",
+    "POL": "W ziemi tej krainy spoczywa odcięta w bitwie głowa z ustami wykrzywionymi w wojennym okrzyku. Grób ten często odwiedzają rodziny, których bliscy wyruszyli na wojnę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_noble_warriors_grave_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Beheaded Noble's Grave",
+    "RUS": "Могила обезглавленного вельможи",
+    "POL": "Grób ściętego szlachcica",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_noble_warriors_grave_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sliced from its body in battle, a head of high repute is buried in this land's soil. Its grave is a sacred place, well-known and oft-visited.",
+    "RUS": "В этой земле похоронена отрубленная голова высокородного вельможи. Это захоронение считается святым местом, его посещает множество паломников.",
+    "POL": "W tej ziemi pochowano odciętą w bitwie głowę szlachcica. Ten grób jest dobrze znanym i często odwiedzanym miejscem świętym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "beheaded_accolade_successor_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A fitting successor for [beheaded_warrior_accolade.GetName] will join your [court|E]",
+    "RUS": "К вашему [Concept( 'court', 'двору' )|E] присоединится достойный преемник акколады «[beheaded_warrior_accolade.GetName]»",
+    "POL": "Odpowiedni następca osoby znanej jako [beheaded_warrior_accolade.GetName] dołączy do twojego [Concept('court', 'dworu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "custom.every_beheaded_family",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Every [close_family_member|E] of [beheaded_warrior.GetShortUIName]",
+    "RUS": "Каждый [Concept('close_family_member', 'близкий родственник')|E] персонажа [beheaded_warrior.GetShortUIName]",
+    "POL": "Każdy [close_family_member|El] osoby znanej jako [beheaded_warrior.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "warriors_head_artifact",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[beheaded_warrior.GetTitledFirstNamePossessiveNoTooltip|U] Venerated Head",
+    "RUS": "Почитаемая голова персонажа ([beheaded_warrior.GetTitledFirstNameNoTooltip|U])",
+    "POL": "Czcigodna głowa osoby znanej jako [beheaded_warrior.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "kin_head_artifact_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The decayed, unrecognizable face of [beheaded_warrior.GetFirstName], a beloved scion of House [beheaded_warrior.GetHouse.GetName], who was slain by [beheaded_warrior_foe.GetNamePossessive] forces in [beheaded_warrior_location.GetName].",
+    "RUS": "Истлевшее до неузнаваемости лицо [Select_CString(beheaded_warrior.IsFemale, 'воительницы', 'воина' )] по имени [beheaded_warrior.GetFirstName], [Select_CString(beheaded_warrior.IsFemale, 'выдающейся представительницы', 'выдающегося представителя' )] дома [beheaded_warrior.GetHouse.GetName]. [beheaded_warrior_foe.GetName] и [Select_CString(beheaded_warrior_foe.IsFemale, 'ее', 'его' )] люди сразили [Select_CString(beheaded_warrior.IsFemale, 'ее', 'его' )] в местечке [beheaded_warrior_location.GetName].",
+    "POL": "Rozkładająca się, niemożliwa do rozpoznania twarz osoby o imieniu [beheaded_warrior.GetFirstName], ukochanej latorośli rodu [beheaded_warrior.GetHouse.GetName] straconej przez siły osoby znanej jako [beheaded_warrior_foe.GetName] w miejscu o nazwie [beheaded_warrior_location.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "accolade_head_artifact_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The gruesome remains of [beheaded_warrior.GetFirstName], a renowned [ROOT.Char.Custom('KnightCultureNoTooltip')|l] known as '[beheaded_warrior_accolade.GetName].' [beheaded_warrior_foe.GetNamePossessive|U] warriors claim the honor of felling [beheaded_warrior.GetHerHim] on the battlefield of [beheaded_warrior_location.GetName].",
+    "RUS": "Жуткие останки [Select_CString(beheaded_warrior.IsFemale, 'воительницы', 'воина' )] по имени [beheaded_warrior.GetFirstName]. «[beheaded_warrior_accolade.GetName]» — так называли [Select_CString(beheaded_warrior.IsFemale, 'ее', 'его' )] [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l]-побратимы. [beheaded_warrior_foe.GetName|U] и [Select_CString(beheaded_warrior_foe.IsFemale, 'ее', 'его' )] воины сумели сразить [Select_CString(beheaded_warrior.IsFemale, 'героиню', 'героя' )] на поле сражения в местечке [beheaded_warrior_location.GetName].",
+    "POL": "Budzące grozę szczątki osoby znanej jako [ROOT.Char.Custom('KnightCultureNoTooltip')|l] [beheaded_warrior.GetFirstName] – „[beheaded_warrior_accolade.GetName]”. Wojownicy osoby, którą jest [beheaded_warrior_foe.GetName], przypisują sobie zaszczyt ścięcia [beheaded_warrior.Custom('PL_go_jej')] na polu bitwy pod miejscem o nazwie [beheaded_warrior_location.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "warriors_head_artifact_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The hacked-off head of the valiant [ROOT.Char.Custom('KnightCultureNoTooltip')|l] [beheaded_warrior.GetFirstName], who fell battling [beheaded_warrior_foe.GetNamePossessive] host in [beheaded_warrior_location.GetName]. Treated with reverence by fellow warriors, despite its foul smell.",
+    "RUS": "Отрубленная голова [Select_CString(beheaded_warrior.IsFemale, 'отважной воительницы', 'отважного воина' )] по имени [beheaded_warrior.GetFirstName]. [Select_CString(beheaded_warrior.IsFemale, 'Она сражалась', 'Он сражался' )] как [ROOT.Char.Custom('KnightCultureNoTooltip')|l] и [Select_CString(beheaded_warrior.IsFemale, 'погибла', 'погиб' )] в местечке [beheaded_warrior_location.GetName] в бою против армии, которой [Select_CString(beheaded_warrior_foe.IsFemale, 'командовала', 'командовал' )] [beheaded_warrior_foe.GetName]. Побратимы относятся к этой голове с особым почтением, несмотря на зловоние.",
+    "POL": "Odrąbana głowa osoby znanej jako [ROOT.Char.Custom('KnightCultureNoTooltip')|l] [beheaded_warrior.GetFirstName], która zginęła w walce przeciwko armii postaci znanej jako [beheaded_warrior_foe.GetName] pod miejscem o nazwie [beheaded_warrior_location.GetName]. Pozostali wojownicy traktują ją z szacunkiem pomimo okropnego zapachu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "keep_warrior_head_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You keep [head_artifact.GetName]",
+    "RUS": "Вы получаете артефакт «[head_artifact.GetName]»",
+    "POL": "Zachowujesz artefakt: [head_artifact.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gain_illustrious_victim_head_artifact_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Can keep [victim.GetFirstNamePossessive] head as a $illustrious$ [inventory_artifact|E]",
+    "RUS": "Можно получить голову персонажа по имени [victim.GetFirstName] в качестве великолепного [Concept('inventory_artifact', 'личного артефакта')|E]",
+    "POL": "Można zachować głowę osoby o imieniu [victim.GetFirstName] w charakterze znamienitego [Concept('inventory_artifact', 'artefaktu osobistego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gain_famed_victim_head_artifact_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Can keep [victim.GetFirstNamePossessive] head as a $famed$ [inventory_artifact|E]",
+    "RUS": "Можно получить голову персонажа по имени [victim.GetFirstName] в качестве знаменитого [Concept('inventory_artifact', 'личного артефакта')|E]",
+    "POL": "Można zachować głowę osoby o imieniu [victim.GetFirstName] w charakterze słynnego [Concept('inventory_artifact', 'artefaktu osobistego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_head_for_warscore_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sending [victim.GetFirstNamePossessive] head to [victim.GetHerHis] [heir|E] may increase their [peace|E] Acceptance towards #high you#!",
+    "RUS": "Отправив голову персонажа по имени [victim.GetFirstName] [Select_CString(victim.IsFemale, 'ее', 'его' )] [Concept('heir', 'наследнику')|E], можно повысить его готовность к [Concept('peace', 'миру')|E] с #high вами#!",
+    "POL": "Wysłanie głowy osoby o imieniu [victim.GetFirstName] [victim.Custom('PL_jego_jej')] [Concept('heir', 'dziedzicowi')|E] może zwiększyć akceptację [Concept('peace', 'pokoju')|E] z #high tobą#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_head_for_vassalization_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sending [victim.GetFirstNamePossessive] head to [victim.GetHerHis] [heir|E] may increase [vassalization|E] Acceptance",
+    "RUS": "Отправив голову персонажа по имени [victim.GetFirstName] [Select_CString(victim.IsFemale, 'ее', 'его' )] [Concept('heir', 'наследнику')|E], можно повысить его готовность к [Concept('vassalization', 'вассализации')|E]",
+    "POL": "Wysłanie głowy osoby o imieniu [victim.GetFirstName] [victim.Custom('PL_jego_jej')] [Concept('heir', 'dziedzicowi')|E] może zwiększyć akceptację [Concept('vassalization', 'wasalizacji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_head_for_hook_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sending [victim.GetFirstNamePossessive] head to [victim.GetHerHis] [heir|E] may provide a [weak_hook|E]",
+    "RUS": "Отправив голову персонажа по имени [victim.GetFirstName] [Select_CString(victim.IsFemale, 'ее', 'его' )] [Concept('heir', 'наследнику')|E], можно получить [Concept('weak_hook', 'слабый рычаг влияния')|E]",
+    "POL": "Wysłanie głowy osoby o imieniu [victim.GetFirstName] [victim.Custom('PL_jego_jej')] [Concept('heir', 'dziedzicowi')|E] może zapewnić ci [weak_hook|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_head_for_prestige_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "May gain [prestige|E] by sending [victim.GetFirstNamePossessive] head to [victim.GetHerHis] [heir|E]",
+    "RUS": "Отправив голову персонажа по имени [victim.GetFirstName] [Select_CString(victim.IsFemale, 'ее', 'его' )] [Concept('heir', 'наследнику')|E], можно получить [Concept('prestige', 'престиж')|E]",
+    "POL": "Wysłanie głowy osoby o imieniu [victim.GetFirstName] [victim.Custom('PL_jego_jej')] [Concept('heir', 'dziedzicowi')|E] może zapewnić ci punkty [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_head_for_obedience_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sending [victim.GetFirstNamePossessive] head to [victim.GetHerHis] [heir|E] may make them [obedient|E]",
+    "RUS": "Отправив голову персонажа по имени [victim.GetFirstName] [Select_CString(victim.IsFemale, 'ее', 'его' )] [Concept('heir', 'наследнику')|E], можно обеспечить его [Concept('obedient', 'покорность')|E]",
+    "POL": "Wysłanie głowy osoby o imieniu [victim.GetFirstName] [victim.Custom('PL_jego_jej')] [Concept('heir', 'dziedzicowi')|E] może sprawić, że okaże ci on [Concept('obedience', 'posłuszeństwo')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "headless_heir_rises_to_challenge_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "#N If the Recipient boldly swears revenge:#!",
+    "RUS": "#N Если получатель клянется отомстить:#!",
+    "POL": "#N Jeśli odbiorca śmiało poprzysięgnie zemstę:#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Decapitation",
+    "RUS": "Голову с плеч",
+    "POL": "Dekapitacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_execution_spite",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[victim.GetName] spits curses and, even while the blade takes [victim.GetHerHis] head, glares up at me.",
+    "RUS": "[victim.GetName] изрыгает проклятия, не отрывая от меня глаз, даже когда клинок отсекает [Select_CString(victim.IsFemale, 'ей', 'ему' )] голову.",
+    "POL": "[victim.GetName] wypluwa z siebie przekleństwa i wpatruje się we mnie, gdy ostrze ścina [victim.Custom('PL_mu_jej')] głowę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_execution_beg",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[victim.GetName] gibbers and pleads for [victim.GetHerHis] life. Then, with one heavy blow, [victim.GetHerHis] head is cleaved from [victim.GetHerHis] shoulders.",
+    "RUS": "[victim.GetName] невнятно бормочет, умоляя сохранить [Select_CString(victim.IsFemale, 'ей', 'ему' )] жизнь. Тяжелый клинок опускается вниз и одним ударом отрубает [Select_CString(victim.IsFemale, 'ей', 'ему' )] голову.",
+    "POL": "[victim.GetName] bełkocze i błaga o życie. Następnie [victim.Custom('PL_jego_jej')] głowa zostaje oddzielona od reszty ciała jednym silnym ciosem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_execution_pray",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Still muttering prayers, [victim.GetName] is forced to [victim.GetHerHis] knees. Then, a single heavy blow separates [victim.GetHerHis] head from [victim.GetHerHis] shoulders.",
+    "RUS": "Стоя на коленях, [victim.GetName] продолжает бормотать молитвы. Один удар клинка — и [Select_CString(victim.IsFemale, 'ее', 'его' )] голова катится с плеч.",
+    "POL": "Zmuszam osobę znaną jako [victim.GetName] do klęknięcia pomimo [victim.Custom('PL_jego_jej')] modlitw. Następnie jeden silny cios oddziela [victim.Custom('PL_jego_jej')] głowę od reszty ciała.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_bad_execution",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Not with a single clean blow, but with many rough strikes is [victim.GetNamePossessive] head hacked from [victim.GetHerHis] miserable body.",
+    "RUS": "Рука палача дрогнула, клинок не смог разрубить шею. Потребовалось несколько ударов, прежде чем [victim.GetName] наконец-то [Select_CString(victim.IsFemale, 'испустила', 'испустил' )] дух.",
+    "POL": "Nie jednym czystym cięciem, lecz wieloma brutalnymi uderzeniami głowa osoby znanej jako [victim.GetName] zostaje odrąbana od reszty [victim.Custom('PL_jego_jej')] nędznego ciała.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "\\n\\nI meet the [victim.GetCulture.GetName] ruler's eyes as they wildly roll their last, as [victim.GetHerHis] blood seeps into the dirt.",
+    "RUS": "\\n\\nЯ смотрю в тускнеющие глаза #L [victim.GetCulture.GetCollectiveNoun|l][Select_CString(victim.IsFemale, 'ой', 'ого' )]#! [Select_CString(victim.IsFemale, 'правительницы', 'правителя' )]. Кровь, хлещущая из рассеченной шеи, быстро впитывается в землю под ногами.",
+    "POL": "\\n\\nPatrzę władcy w oczy, którymi przewraca po raz ostatni, gdy jego [victim.GetCulture.GetName|l] krew zaczyna wsiąkać w ziemię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_send_head",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "\\n\\nIf [victim.GetFirstNamePossessiveNoTooltip] successor, [headless_heir.GetTitledFirstName], were to share this grim sight — [headless_heir.GetSheHe] might just learn to fear my power, my wolfish will...",
+    "RUS": "\\n\\nЕсли бы только [Select_CString(victim.IsFemale, 'ее', 'его' )] [Select_CString(headless_heir.IsFemale, 'преемница', 'преемник' )], [headless_heir.GetTitledFirstName], [Select_CString(headless_heir.IsFemale, 'увидала', 'увидал' )] эту картину... [Select_CString(headless_heir.IsFemale, 'Она', 'Он' )] бы точно [Select_CString(headless_heir.IsFemale, 'поняла', 'понял' )], что со мной шутки плохи.",
+    "POL": "\\n\\nTen ponury widok sprawi, że [headless_heir.GetTitledFirstName], następca osoby o imieniu [victim.GetFirstNameNoTooltip], przestraszy się mojej potęgi i pozna moją wilczą wolę…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_cant_send",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[victim.GetFirtNameNoTooltip] is a spent gobbet of meat, a meal for carrion...",
+    "RUS": "Теперь [victim.GetFirtNameNoTooltip] — лишь кусок мертвой плоти, пища для стервятников...",
+    "POL": "[victim.GetFirtNameNoTooltip] jest już tylko kawałkiem mięsa, posiłkiem dla padlinożerców…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.desc_keep_head",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "\\n\\n...or perhaps this famed head belongs with [ROOT.Char.GetSheHe] who took it.",
+    "RUS": "\\n\\n...А может, эта голова должна принадлежать тому, кто снял ее с плеч?",
+    "POL": "\\n\\n…a może ta słynna głowa należy do osoby, która ją ścięła?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Let no one forget this beheaded [victim.GetTitleAsNameNoTooltip].",
+    "RUS": "Пусть [Select_CString(victim.IsFemale, 'обезглавленная', 'обезглавленный' )] [victim.GetTitleAsNameNoTooltip|l] навечно останется в нашей памяти!",
+    "POL": "Niech nikt nie zapomni tej ściętej osoby znanej jako [victim.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.a.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "And that it was #EMP I#! who ended [victim.GetHerHis] glorious life!",
+    "RUS": "И пусть знают, что это #EMP я#! [Select_CString(ROOT.Char.IsFemale, 'оборвала', 'оборвал' )] [Select_CString(victim.IsFemale, 'ее', 'его' )] славную жизнь!",
+    "POL": "Ani faktu, że to #EMP ja#! jestem osobą, która zakończyła [victim.Custom('PL_jego_jej')] wspaniały żywot!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Send this 'gift' to [headless_heir.GetTitledFirstNameNoTooltip].",
+    "RUS": "Проследите, чтобы [headless_heir.GetTitledFirstNameNoTooltip|l] [Select_CString(headless_heir.IsFemale, 'получила', 'получил' )] мой «подарок».",
+    "POL": "Wyślij ten „dar” osobie znanej jako [headless_heir.GetTitledFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Your cruel insult cows [headless_heir.GetTitledFirstNameNoTooltip]",
+    "RUS": "[headless_heir.GetTitledFirstNameNoTooltip|U] [Select_CString(headless_heir.IsFemale, 'напугана', 'напуган' )] вашим оскорбительным жестом",
+    "POL": "Twoja okrutna zniewaga zastrasza osobę znaną jako [headless_heir.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.b.fail",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[headless_heir.GetTitledFirstNameNoTooltip] boldly swears revenge",
+    "RUS": "[headless_heir.GetTitledFirstNameNoTooltip|U] клянется жестоко отомстить",
+    "POL": "[headless_heir.GetTitledFirstNameNoTooltip] śmiało poprzysięga zemstę",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The new master of [victim.GetPrimaryTitle.GetNameNoTierNoTooltip] must know the only end for my enemies! #EMP [headless_heir.GetSheHe|U] will look it in the eye!#!",
+    "RUS": "[Select_CString(headless_heir.IsFemale, 'Новая', 'Новый' )] [victim.GetPrimaryTitle.GetAdjectiveNoTooltip|l][Select_CString(headless_heir.IsFemale, 'ая', 'ий' )] [Select_CString(headless_heir.IsFemale, 'правительница', 'правитель' )] [Select_CString(headless_heir.IsFemale, 'должна', 'должен' )] знать, что бывает с моими врагами! #EMP Пусть заглянет своей судьбе прямо в глаза!#!",
+    "POL": "Nowy władca miejsca znanego jako [victim.GetPrimaryTitle.GetNameNoTierNoTooltip] musi poznać los moich wrogów! #EMP [headless_heir.GetTitledFirstNameNoTooltip] stanie z nim twarzą w twarz!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1011.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Leave [victim.GetFirstNameNoTooltip] for the vultures.",
+    "RUS": "Пусть [victim.GetFirstNameNoTooltip] достанется падальщикам.",
+    "POL": "Zostaw osobę znaną jako [victim.GetFirstNameNoTooltip] na pastwę sępów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "headless_heir_high_tier_warning_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "@alert_icon! #alert_trial Warning: [headless_heir.GetShortUIName] does not fear you!#!",
+    "RUS": "@alert_icon! #alert_trial Предупреждение: [headless_heir.GetShortUIName] вас не боится!#!",
+    "POL": "@alert_icon! #alert_trial Ostrzeżenie: [headless_heir.GetShortUINameNotMe] nie boi się ciebie!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "headless_heir_ignores_challenge_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "#P If the Recipient shrinks from this insult:#!",
+    "RUS": "#P Если получатель запуган:#!",
+    "POL": "#P Jeśli odbiorca przestraszy się z powodu tej zniewagi:#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The [victim.GetTitleAsNameNoTooltip] Returns",
+    "RUS": "Ужасное возвращение",
+    "POL": "[victim.GetTitleAsNameNoTooltip] powraca",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I deign to let old blood drip on my shoes, to grip cold skin in my fingers — for the severed head of [victim.GetName] has been returned to me.\\n\\n",
+    "RUS": "Прикоснувшись к холодной коже, я беру в руки отрубленную голову. Почерневшая кровь капает на мою обувь. [victim.GetName] [Select_CString(victim.IsFemale, 'вернулась', 'вернулся' )] домой...\\n\\n«Это оскорбление! Какая низость!» — кричат вокруг. Дети рыдают, мои [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] потрясают мечами, обещая отомстить.\\n\\nЗачем возвращать голову мне? [executioner.GetTitledFirstName] надеется меня запугать? Или жаждет пробудить во мне ненависть?",
+    "POL": "Pozwalam, by stara krew kapała na moje buty, pod palcami czuję zimną skórę – To [victim.GetName]. A konkretniej [victim.Custom('PL_jego_jej')] głowa.\\n\\n– To zniewaga! Upokorzenie! – W moich uszach brzmią krzyki i płacz dzieci. Moi [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] grzechoczą mieczami i przysięgają zemstę.\\n\\nAle czy ta okaleczona głowa ma wzbudzić w moim sercu jedynie strach? A może… [executioner.GetTitledFirstName] łaknie mojej nienawiści?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Honoring [victim.GetFirstNamePossessiveNoTooltip] remains matters most.",
+    "RUS": "Важнее всего то, что [victim.GetFirstNameNoTooltip] может обрести покой.",
+    "POL": "Najważniejszą kwestią jest uhonorowanie szczątków osoby o imieniu [victim.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.a_flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "This 'insult' allows us to wash, decorate, and offer prayers before [victim.GetTitledFirstNamePossessiveNoTooltip] noble head.",
+    "RUS": "Пусть это задумывалось как оскорбление, зато мы сможем омыть и украсить [Select_CString(victim.IsFemale, 'ее', 'его' )] благородную голову, отдав [Select_CString(victim.IsFemale, 'ей', 'ему' )] последние почести.",
+    "POL": "Ta „zniewaga” pozwala nam obmyć szlachetną głowę osoby znanej jako [victim.GetTitleAsNameNoTooltip], udekorować ją i pomodlić się przy niej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "#EMP This insult will be avenged!#!",
+    "RUS": "#EMP Мы отомстим за это унижение!#!",
+    "POL": "#EMP Ta zniewaga krwi wymaga!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.b_flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I have been sent the bloody face of war. The deathly voice of [victim.GetFirstName] calls for [executioner.GetTitledFirstNamePossessive] blood!",
+    "RUS": "[executioner.GetTitledFirstName|U] [Select_CString(executioner.IsFemale, 'показала', 'показал' )] нам лицо войны, и эта кровь воздастся [Select_CString(executioner.IsFemale, 'ей', 'ему' )] сторицей. [victim.GetFirstName] взывает о возмездии!",
+    "POL": "Przysłano mi krwawe oblicze wojny. Pośmiertny głos osoby o imieniu [victim.GetFirstName] wzywa do upuszczenia krwi osobie znanej jako [executioner.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1012.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I must back down, or face this fate...",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен' )] отступиться, или мне грозит та же судьба...",
+    "POL": "Muszę się wycofać, inaczej czeka mnie taki sam los…",
+    "BEL": ""
+  },
+  {
+    "KEY": "peace_acceptance_head_scare_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[headless_heir.GetShortUINamePossessive] [peace|E] Acceptance towards #high you#!: #P +30#! for #high 20 years#!",
+    "RUS": "Готовность персонажа [headless_heir.GetShortUIName] к [Concept('peace', 'миру')|E] с #high вами#!: #P +30#! на #high 20 лет#!",
+    "POL": "Akceptacja [Concept('peace', 'pokoju')|E] z #high tobą#! osoby znanej jako [headless_heir.GetShortUINameNotMe]: #P +30#! przez #high 20 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COWED_BY_SEVERED_HEAD_MODIFIER",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Cowed by predecessor's beheading: $VALUE|+=0$",
+    "RUS": "Страх, вызванный обезглавливанием предшественника: $VALUE|+=0$",
+    "POL": "Zastraszenie w wyniku ścięcia głowy poprzednika: $VALUE|+=0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "severed_head_revenge_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Seeking revenge for predecessor's beheading: $VALUE|+=0$",
+    "RUS": "Жажда мести за обезглавленного предшественника: $VALUE|+=0$",
+    "POL": "Poszukiwanie zemsty w następstwie ścięcia głowy poprzednika: $VALUE|+=0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "severed_head_cb_revenge_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[casus_belli|E] cost against #high [executioner.GetShortUIName]#!: #P -75%#!",
+    "RUS": "Стоимость [Concept('casus_belli', 'казус белли')|E] против #high [Select_CString(executioner.IsLocalPlayer, '', 'персонажа ' )][executioner.GetShortUINamePossessive][Select_CString(executioner.IsLocalPlayer, 'его персонажа', '' )]#!: #P -75%#!",
+    "POL": "Koszt [casus_belli|El] przeciwko osobie znanej jako #high [executioner.GetShortUINameNotMe]#!: #P -75%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "severed_head_vassalization_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[headless_heir.GetShortUINamePossessive|U] [offer_vassalization|E] $ep3_laamps.0010.connector$ #high $demand_tributary_interaction$#! Acceptance towards [executioner.GetShortUIName]: #P +200#! for #high 20 years#!",
+    "RUS": "Готовность [Select_CString(headless_heir.IsLocalPlayer, '', 'персонажа ' )][headless_heir.GetShortUINamePossessive][Select_CString(headless_heir.IsLocalPlayer, 'его персонажа', '' )] принять [Concept('offer_vassalization', 'предложение вассализации')|E] $ep3_laamps.0010.connector$ #high $demand_tributary_interaction$#! от [Select_CString(executioner.IsLocalPlayer, '', 'персонажа ' )][executioner.GetShortUINamePossessive][Select_CString(executioner.IsLocalPlayer, 'его персонажа', '' )]: #P +200#! на #high 20 лет#!",
+    "POL": "Poziom akceptacji osoby, którą jest [headless_heir.GetShortUINameNotMe], względem [Concept('offer_vassalization', 'zaoferowania wasalizacji')|E] i #high żądania zostania trybutariuszem#!, wystosowanych przez osobę znaną jako [executioner.GetShortUINameNotMe]: #P +200#! przez #high 20 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Killer of [victim.GetTitledFirstNameNoTooltip],",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Той', 'Тому' )], от чьей руки [Select_CString(victim.IsFemale, 'пала', 'пал' )] [victim.GetTitledFirstNameNoTooltip|l]!",
+    "POL": "Do zabójcy osoby znanej jako [victim.GetTitledFirstNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013.desc_takes_it_sedentary",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A savage threat mars my [headless_heir.Custom('ResidenceBuilding')|l] — the ripped-off head of a noble magnate, my own forebear.\\n\\nPlease, horse-lord! In [headless_heir.GetPrimaryTitle.GetNameNoTier], we rarely deal in such horrors, and have little taste for them. I would rather treat with you amicably than be so viciously reduced.",
+    "RUS": "[headless_heir.Custom('ResidenceBuilding_RU_Prep_Where')|U] моих предков поселился страх. Подданные в ужасе смотрят на изуродованную голову [Select_CString(victim.IsFemale, 'моей благородной родственницы', 'моего благородного родича' )].\\n\\nМолю вас, владыка! #L [headless_heir.GetPrimaryTitle.GetAdjectiveNoTooltip]ие#! жители непривычны к подобным ужасам, мы не любим лишнего кровопролития. Я бы [Select_CString(headless_heir.IsFemale, 'предпочла', 'предпочел' )] избежать дальнейших конфликтов и жить с вами в мире.",
+    "POL": "dzika groźba – ścięta głowa szlachetnego magnata, mojego przodka – wstrząsnęła mym domem.\\n\\nBłagam, władco koni! W miejscu o nazwie [headless_heir.GetPrimaryTitle.GetNameNoTier] rzadko mamy do czynienia z takimi okropnościami i nie gustujemy w nich. Wolę polubownie się z Tobą porozumieć, niż stracić głowę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013.desc_takes_it",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[victim.GetHerHis|U] [victim.GetCulture.GetCollectiveNoun] had hoped to look upon [victim.GetHerHim] once again. Now, [victim.GetHerHis] head sits in blood and their hearts are black with the unnatural sight.\\n\\nPlease, allow [victim.GetFirstName] to have peace in [headless_heir.GetFaith.PositiveAfterLife]. Spare us your mighty wrath!",
+    "RUS": "#L [victim.GetCulture.GetCollectiveNoun|U]ий#! народ жаждал снова увидеть [Select_CString(victim.IsFemale, 'свою повелительницу', 'своего повелителя' )], и это желание сбылось. [Select_CString(victim.IsFemale, 'Ее', 'Его' )] голова возвышается над лужей крови, и сердца наши почернели от горя.\\n\\nМолю вас, избавьте нас от своего ужасного гнева! Пусть [victim.GetFirstName] обретет покой на небесах!",
+    "POL": "[victim.GetCulture.GetCollectiveNoun] mieli nadzieję ujrzeć [victim.Custom('PL_go_ja')] raz jeszcze. Teraz [victim.Custom('PL_jego_jej')] głowa jest zalana krwią, a widok ten tchnął mrok w serca wielu.\\n\\nBłagam, pozwól, by osoba o imieniu [victim.GetFirstName] zaznała pokoju w zaświatach. Oszczędź nam swego gniewu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013.desc_angeee",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "By sending the head of [victim.GetPrimaryTitle.GetNameNoTierPossessive] master, you have sent me the bloody face of war; you have sent gray lips still screaming for vengeance.\\n\\nI will see your living body rot. I will fell you like an old tree.\\n\\nI will lay [victim.GetFirstNamePossessive] head among your bones.",
+    "RUS": "Прислав мне голову #L [victim.GetPrimaryTitle.GetAdjective|l][Select_CString(victim.IsFemale, 'ой', 'ого' )]#! [Select_CString(victim.IsFemale, 'правительницы', 'правителя' )], вы показали мне лицо войны. [Select_CString(victim.IsFemale, 'Ее', 'Его' )] безжизненные губы вопиют о возмездии.\\n\\nКлянусь, что сгною вас заживо. Клянусь, что срублю вас, как засохшее дерево.\\n\\nКлянусь, что похороню эту голову среди ваших костей!",
+    "POL": "wysyłając mi głowę władcy miejsca o nazwie [victim.GetPrimaryTitle.GetNameNoTier], sprowadzasz na mnie krwawe oblicze wojny. Wysyłasz mi szare usta wciąż krzyczące o zemstę.\\n\\nSprawię, że twoje wciąż żywe ciało zgnije. Powalę cię niczym stare drzewo\\n\\nNa twoich kościach spocznie głowa osoby o imieniu [victim.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013.a.cowed",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Like a lamb, the [headless_heir.GetTitleAsNameNoTooltip] bleats and moans!",
+    "RUS": "[headless_heir.GetTitleAsNameNoTooltip|U] блеет, как овечка!",
+    "POL": "[headless_heir.GetTitleAsNameNoTooltip] kwili i jęczy niczym jagnię!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1013.a.revenge",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "And so... [headless_heir.GetFirstNameNoTooltip] swears revenge.",
+    "RUS": "Значит, [headless_heir.GetFirstNameNoTooltip] [Select_CString(headless_heir.IsFemale, 'поклялась', 'поклялся' )] отомстить...",
+    "POL": "Tym samym… [headless_heir.GetFirstNameNoTooltip] poprzysięga zemstę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "executed_head_artifact",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[victim.GetTitledFirstNamePossessiveNoTooltip|U] Regal Head",
+    "RUS": "Монаршая голова ([victim.GetTitledFirstNameNoTooltip|U])",
+    "POL": "Królewska głowa osoby znanej jako [victim.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "executed_head_emperor_artifact_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Still wearing a crown, with its gray lips and horse hair-augmented brows sewn into an imperious expression, the cut-off head of the [victim.GetTitleAsNameNoTooltip] of [victim.GetPrimaryTitle.GetNameNoTier] inspires awe and terror.\\n\\nIf such a mighty sovereign could face such a terrible fate, what horrors await for all the rest?",
+    "RUS": "Отрубленная голова с посеревшими губами до сих пор увенчана короной; властные брови, усиленные конским волосом, навеки застыли в хмурой гримасе. #L [victim.GetPrimaryTitle.GetAdjective][Select_CString(victim.IsFemale, 'ая', 'ий' )]#! [victim.GetTitleAsNameNoTooltip|l] внушает трепет даже после смерти...\\n\\nЕсли такая страшная участь постигла столь [Select_CString(victim.IsFemale, 'могущественную владычицу', 'могущественного владыку' )], что же ждет остальных?",
+    "POL": "Z nienaruszoną koroną, szarymi ustami i powiększonymi końskim włosiem brwiami podkreślającymi władczy wyraz twarzy odcięta głowa osoby znanej jako [victim.GetTitleAsNameNoTooltip] miejsca o nazwie [victim.GetPrimaryTitle.GetNameNoTier] wzbudza grozę i przerażenie.\\n\\nJeśli tak potężnego władcę spotkał tak straszny los, to jakie okropności czekają na całą resztę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "executed_head_king_artifact_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The last remnant of [victim.GetName], preserved and decorated as befits [victim.GetHerHis] rank in life. A testament to the ruthless will of its keeper.",
+    "RUS": "Когда-то эта голова покоилась на плечах монарха, она тщательно сохранена и богато украшена, как того [Select_CString(victim.IsFemale, 'заслуживала', 'заслуживал' )] [victim.GetName]. Зримое свидетельство жестокой воли ее владельца.",
+    "POL": "Ostatni ślad po osobie znanej jako [victim.GetName], zachowany i udekorowany jak przystało na [victim.Custom('PL_jego_jej')] pozycję za życia. Świadectwo bezwzględnej woli jego posiadacza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_defected_invite_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You exiled this character within the last 5 years",
+    "RUS": "Вы изгоняли этого персонажа в течение последних 5 лет",
+    "POL": "Z twojego rozkazu wygnano tę postać w ciągu ostatnich 5 lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_defector_wont_come_back_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You cannot use #high Invite to Court#! on [rowdy_boy.GetShortUIName] for #high 5 years#!",
+    "RUS": "Вы не сможете #high пригласить ко двору#! персонажа [rowdy_boy.GetShortUIName] в течение #high 5 лет#!",
+    "POL": "Nie możesz skorzystać z interakcji „#high Zaproś na dwór#!” wobec osoby znanej jako [rowdy_boy.GetShortUINameNotMe] przez #high 5 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_defector_family_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[rowdy_boy.GetShortUINamePossessive] family members leave your court",
+    "RUS": "[rowdy_boy.GetShortUIName] и члены [Select_CString(rowdy_boy.IsFemale, 'ее', 'его' )] семьи покинут ваш двор",
+    "POL": "Członkowie rodziny osoby znanej jako [rowdy_boy.GetShortUINameNotMe] opuszczają twój dwór",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_defector_family_wont_come_back_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You cannot use #high Invite to Court#! on these exiles for #high 5 years#!",
+    "RUS": "Вы не сможете #high пригласить ко двору#! этих изгнанников в течение #high 5 лет#!",
+    "POL": "Nie możesz skorzystać z interakcji „#high Zaproś na dwór#!” wobec tych wygnańców przez #high 5 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_defector_gain_all_courtiers_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Gains some of your unemployed [courtiers|E]",
+    "RUS": "Получает часть ваших безработных [Concept('courtiers', 'придворных')|E]",
+    "POL": "Zyskuje część twoich bezrobotnych [Concept('courtiers', 'dworzan')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Hungriest Among the Brood",
+    "RUS": "[Select_CString(rowdy_boy.IsFemale, 'Голодная волчица', 'Голодный волчонок' )]",
+    "POL": "Nieokiełznany głód potomka",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))] [rowdy_boy.GetFirstName] has been restless of late.\\n\\n",
+    "RUS": "В последнее время [Select_CString(rowdy_boy.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))] [rowdy_boy.GetFirstName] совсем [Select_CString(rowdy_boy.IsFemale, 'утратила', 'утратил' )] покой.\\n\\n«Подбирать за вами объедки? Жрать прокисший творог в тени вашей юрты? #EMP Такой#! будет моя жизнь? — сплевывает [Select_CString(rowdy_boy.IsFemale, 'она', 'он' )]. — Я [Select_CString(rowdy_boy.IsFemale, 'готова', 'готов' )] вести за собой людей, [rowdy_boy.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]! И в #L [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNoun|l]ой#! орде хватает тех, кто хочет пойти за мной».\\n\\n[Select_CString(rowdy_boy.IsFemale, 'Гордая воительница', 'Гордый воин' )] из дома [rowdy_boy.GetHouse.GetName], [Select_CString(rowdy_boy.IsFemale, 'которую', 'которого' )] я [Select_CString(ROOT.Char.IsFemale, 'держала', 'держал' )] при себе как ручную зверушку, наконец-то [Select_CString(rowdy_boy.IsFemale, 'показала', 'показал' )] свои клыки.",
+    "POL": "[rowdy_boy.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))], zmaga się ostatnio z jakimś rozdrażnieniem.\\n\\n– Dostaję ochłapy z twoich posiłków! Dojadam kwaśny twaróg w cieniu twojej jurty! Czy tak ma wyglądać #EMP moje#! życie? – wrzeszczy. – [rowdy_boy.Custom2('RelationToMeShortVocative', SCOPE.sC('root_scope'))|U], wiesz przecież, że mam dowódczy potencjał! A wśród członków tego ludu są tacy, którzy chętnie usłuchaliby mych rozkazów.\\n\\nTen dumny wojownik z rodu [rowdy_boy.GetHouse.GetName], którego trzymam w roli bezsilnego pupilka… obnaża teraz kły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Молчи, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))]. Знай свое место​».",
+    "POL": "– Zachowaj ciszę, [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('rowdy_boy'))]. Znaj swoje miejsce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«#EMP Никто#! не смеет бросать мне вызов!»",
+    "POL": "– Nikt nie może podważać mojej pozycji i #EMP ujść z życiem!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020_duel_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "#V Duel#! [rowdy_boy.GetFirstName].\\n@death_icon! #X This duel is to the death!#!\\nIf you win, you will gain @skill_prowess_icon![prowess|E], @dread_icon![dread|E], @prestige_icon![prestige|E] and @stress_icon![stress|E]. If you lose, [rowdy_boy.GetShortUIName] will take over your [titles|E] as [primary_heir|E].\\n\\nYour [prowess|E]: [prowess_i]#V [root_scope.GetProwess]#!\\n[rowdy_boy.GetFirstNamePossessive] [prowess|E]: [prowess_i]#V [rowdy_boy.GetProwess]#!",
+    "RUS": "#V Поединок#! с персонажем [rowdy_boy.GetFirstName].\\n@death_icon! #X Это поединок насмерть!#!\\nЕсли вы победите, у вас увеличатся следующие показатели: @skill_prowess_icon![Concept('prowess', 'доблесть')|E], @dread_icon![Concept('dread', 'ужас')|E], @prestige_icon![Concept('prestige', 'престиж')|E] и @stress_icon![Concept('stress', 'стресс')|E]. Если вы проиграете, [rowdy_boy.GetShortUIName] получит ваши [Concept('titles', 'титулы')|E] в качестве [Concept('primary_heir', 'первого наследника')|E].\\n\\nВаша [Concept( 'prowess', 'доблесть' )|E]: [prowess_i]#V [root_scope.GetProwess]#!\\n[Concept('prowess', 'Доблесть')|E] персонажа [rowdy_boy.GetFirstName]: [prowess_i]#V [rowdy_boy.GetProwess]#!",
+    "POL": "#V Pojedynek#! z postacią znaną jako [rowdy_boy.GetFirstName].\\n@death_icon! #X To jest pojedynek na śmierć i życie.#!\\nJeśli wygrasz, zyskasz @skill_prowess_icon! [prowess|El], @dread_icon! [dread|El], @prestige_icon! [prestige|El] i @stress_icon! [stress|El]. Jeśli przegrasz, [rowdy_boy.GetShortUINameNotMe] przejmie twoje [titles|El] jako [primary_heir|El].\\n\\nTwoja [prowess|El]: [prowess_i] #V [root_scope.GetProwess]#!\\n[prowess|E] osoby o imieniu [rowdy_boy.GetFirstName]: [prowess_i] #V [rowdy_boy.GetProwess]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«У меня есть лишние пастбища...»",
+    "POL": "– Mam parę pastwisk, którymi możesz się zająć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.c.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Let the upstart have [rowdy_boy.GetHerHis] own herds... under my domination.",
+    "RUS": "Пусть [Select_CString(rowdy_boy.IsFemale, 'эта', 'этот' )] выскочка получит свои стада... но под моей властью.",
+    "POL": "Pozwolę nowicjuszowi mieć własne stada… pod moim zwierzchnictwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Тогда поезжай прочь — и принеси честь своему имени!»",
+    "POL": "– Jedź daleko i przynieś chwałę swemu nazwisku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.d.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[rowdy_boy.GetFirstNameNoTooltip] will have all [rowdy_boy.GetSheHe] needs to establish [rowdy_boy.GetHerselfHimself].",
+    "RUS": "[rowdy_boy.GetFirstNameNoTooltip] получит всё необходимое, чтобы прославиться.",
+    "POL": "[rowdy_boy.GetFirstNameNoTooltip] otrzyma wszystko, czego potrzebuje na start.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.e",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты не останешься? Даже если тебя попросит [Select_CString(ROOT.Char.IsFemale, 'твоя', 'твой' )] [rowdy_boy.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]?»",
+    "POL": "– Nie zostaniesz, choć [rowdy_boy.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))] cię o to prosi?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.e.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[rowdy_boy.GetFirstNameNoTooltip] agrees to remain and serve",
+    "RUS": "[rowdy_boy.GetFirstNameNoTooltip] соглашается остаться и служить вам",
+    "POL": "[rowdy_boy.GetFirstNameNoTooltip] zgadza się zostać i służyć",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.e.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[rowdy_boy.GetFirstNameNoTooltip] and [rowdy_boy.GetHerHis] supporters slink off",
+    "RUS": "[rowdy_boy.GetFirstNameNoTooltip] и [Select_CString(rowdy_boy.IsFemale, 'ее', 'его' )] сторонники уходят",
+    "POL": "[rowdy_boy.GetFirstNameNoTooltip] i [rowdy_boy.Custom('PL_jego_jej')] zwolennicy znikają",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.f",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ты [Select_CString(rowdy_boy.IsFemale, 'изгнана', 'изгнан' )], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))]. Убирайся!»",
+    "POL": "– Skazuję cię na wygnanie, [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('rowdy_boy'))]! Precz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1020.f.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The wild and lonely path of freedom awaits!",
+    "RUS": "[Select_CString(rowdy_boy.IsFemale, 'Ее', 'Его' )] ждет свобода — шальная и одинокая.",
+    "POL": "Dzika i samotna ścieżka wolności czeka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_family_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Attacked my Family Member",
+    "RUS": "Нападение на члена семьи",
+    "POL": "Atak na członka mojej rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1022.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Death of an Upstart",
+    "RUS": "Смерть выскочки",
+    "POL": "Śmierć młodzika",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1022.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Like the panther that leaps heedlessly from a cliff, like the falcon that dives at its own shadow, like the he-camel who snaps at the heels of its colt... I have been consumed by wrath.\\n\\nAt the end of our duel of honor, [rowdy_boy.GetFirstName] – my own [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))] – lies dead.\\n\\nAs the pounding drums of my rightful anger subside, I begin to hear the sounds of mourning. My people weep at the proof of my power.",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Охваченная', 'Охваченный' )] гневом, я уподобляюсь леопарду, безрассудно бросающемуся вниз со скалы, или соколу, пикирующему в охоте за собственной тенью... или верблюду, кусающему собственное потомство.\\n\\nПоединок чести окончен. [rowdy_boy.GetFirstName] — [Select_CString(rowdy_boy.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))] [rowdy_boy.GetFirstNameNoTooltip] — лежит [Select_CString(rowdy_boy.IsFemale, 'мертвой', 'мертвым' )] у моих ног.\\n\\nГрохот барабанов в ушах понемногу стихает, и я слышу рыдания. Люди, засвидетельствовавшие силу моего гнева, плачут.",
+    "POL": "Niczym panterę, która lekkomyślnie skacze z klifu, sokoła, który nurkuje ku własnemu cieniu, wielbłąda, który podgryza pięty swemu potomstwu… ogarnął mnie gniew.\\n\\nW wyniku naszego pojedynku o honor [rowdy_boy.GetFirstName] – tak bliska mi osoba – leży bez ruchu.\\n\\nGdy bębny mojego słusznego gniewu cichną, zaczynam słyszeć odgłosy żałoby. Mój lud płacze, widząc dowód mojej potęgi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1022.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I have done what a [ROOT.Char.GetTitleAsNameNoTooltip] must.",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'поступила', 'поступил' )] так, как [Select_CString(ROOT.Char.IsFemale, 'должна была', 'должен был' )] поступить [Select_CString(ROOT.Char.IsFemale, 'любая', 'любой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] на моем месте.",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip] musi wykonywać swoje obowiązki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_quelled_family_dissent_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Slew Dissenting Kin",
+    "RUS": "Убийца непокорного родича",
+    "POL": "Zabójca nieposłusznego krewnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_quelled_family_dissent_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A family member who challenged this character's fearsome authority... did not survive long.",
+    "RUS": "Член семьи, бросивший вызов власти этого персонажа, прожил недолго.",
+    "POL": "Członek rodziny, który zakwestionował budzący strach autorytet tej postaci… nie przeżył długo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Education in the Three",
+    "RUS": "Обучение трем искусствам",
+    "POL": "Trzy sposoby edukacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "As I consider the warrior skills of my [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] is brought to me.\\n\\n",
+    "RUS": "Я размышляю о воинских навыках, которыми должны овладеть мои [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l], и тут ко мне подходит [Select_CString(child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName].\\n\\n«[child.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))|U], — спрашивает дитя, —",
+    "POL": "Osoba znana jako [child.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], przychodzi do mnie, gdy rozmyślam o umiejętnościach bojowych, którymi dysponują moi [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l].\\n\\n– [child.Custom2('RelationToMeShortVocative', SCOPE.sC('root_scope'))|U] – pyta dziecko – która dyscyplina jest najważniejsza podczas",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.desc_mongolic",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[Glossary( 'nadaam', 'NADAAM_GLOSS')]?",
+    "RUS": "какой [Glossary( 'надом', 'NADAAM_GLOSS')] из трех важнее всех?»\\n\\nЧему же посвятит себя [Select_CString(child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))]? Жестокому искусству борьбы [Glossary( 'бох', 'BOKH_GLOSS')]?",
+    "POL": "[Glossary( 'naadamu', 'NADAAM_GLOSS')]?\\n\\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))|U] może oddać się doskonaleniu w brutalnej dyscyplinie, którą jest [Glossary( 'bökh', 'BOKH_GLOSS')],",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.desc_non_mongolic",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "great sports?",
+    "RUS": "какая из трех великих игр важнее всех?»\\n\\nЧему же посвятит себя [Select_CString(child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))]? Суровому искусству борьбы?",
+    "POL": "wielkich uroczystości sportowych?\\n\\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))|U] może oddać się doskonaleniu w brutalnej dyscyplinie, którą są zapasy,",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "to the subtle art of the bow... or perhaps [child.GetSheHe] should master the horse-craft that guides our herds and brings our raiders swiftly home?",
+    "RUS": "Умению стрелять из лука? Или пусть овладеет мастерством [Select_CString(child.IsFemale, 'наездницы', 'наездника' )], без которого невозможно ни вести стада, ни сопровождать наших налетчиков назад с богатой добычей?",
+    "POL": "subtelnej sztuce łucznictwa… lub rzemiośle konnym, dzięki któremu nasi pasterze dbają o stada, a jeźdźcy prędko wracają do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "NADAAM_GLOSS",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The #bold Erin Gurban Naadam#! or 'three manly games' are the principal sports practiced by Mongolic peoples since the Neolithic era, and the principal spectacles of festivals and competitions. These are: composite bow archery, wrestling and long-distance horse racing.",
+    "RUS": "#bold Эрын гурбан надом#!, «три игрища мужей» — три вида спорта, которыми монгольские народы занимаются с эпохи неолита, центральный элемент всяких празднеств и состязаний. В надом входят стрельба из составного лука, борьба и скачки на большие расстояния.",
+    "POL": "#bold Erijn gurban naadam#! lub „trzy męskie gry” to główne sporty uprawiane przez ludy mongolskie od epoki neolitu, a także główne widowiska festiwali i zawodów. Są to: łucznictwo z użyciem łuków kompozytowych, zapasy i długodystansowe wyścigi konne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BOKH_GLOSS",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "The ancient, traditional style of Mongolic wrestling, where the principal aim is to drag your opponent's upper body to the ground. Some styles permit techniques like the grabbing and kicking of legs, but in the main it is a test of raw strength and immovability, and it can last for hours.",
+    "RUS": "Традиционный стиль монгольской борьбы, цель которого — заставить противника коснуться земли верхней половиной тела. В некоторых видах борьбы допускаются пинки и захваты ног, однако классический бох — это состязание чистой силы и умения сохранять равновесие. Такие поединки могут длиться часами.",
+    "POL": "Prastary, tradycyjny styl mongolskich zapasów, którego głównym założeniem jest sprowadzenie górnej połowy ciała przeciwnika do ziemi. W niektórych stylach dozwolone są chwyty i kopnięcia. Każdy taki pojedynek jest sprawdzianem brutalnej siły i niezłomności, który może trwać godzinami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Leave me to my training!",
+    "RUS": "Не мешай мне тренироваться!",
+    "POL": "Pozwól mi ćwiczyć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.a.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Striving until you gasp and ache is all that matters!",
+    "RUS": "Умение бороться, превозмогая боль во всём теле, — вот что главное.",
+    "POL": "Próbować do utraty tchu, do bólu! Tylko to się liczy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Prove you can stand firm as a mountain.",
+    "RUS": "Важнее всего — доказать, что стоишь на ногах крепко, как гора.",
+    "POL": "Udowodnij, że hardością dorównujesz skale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You will win supper with your arrows.",
+    "RUS": "Верный глаз и меткие стрелы всегда обеспечат тебе пропитание.",
+    "POL": "Twoje strzały zapewnią ci i zwycięstwo, i kolację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.c.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A marmot is far wilier than any of our range's targets... but at least it's a larger mark.",
+    "RUS": "Сурок хитрее мишеней на нашем стрельбище, но и цель из него покрупнее.",
+    "POL": "Świstak ma więcej sprytu niż którakolwiek z naszych tarcz… ale przynajmniej jest od nich większy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Earn the trust of a steed, [child.Custom('GirlBoy')].",
+    "RUS": "Важнее всего — завоевать доверие своего скакуна, дитя.",
+    "POL": "Zdobądź zaufanie rumaka, dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1030.d.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "And upon your obedient horse, you may sing out and join in the long races.",
+    "RUS": "Конь, послушный твоей песне, приведет тебя к победе в самых долгих скачках.",
+    "POL": "Na grzbiecie posłusznego konia możesz śmiało pokrzykiwać i brać udział w długich wyścigach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_nomadic_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You have [nomadic_government|E]",
+    "RUS": "У вас [Concept('nomadic_government', 'кочевой строй')|E]",
+    "POL": "Masz [nomadic_government|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_county_not_in_steppe_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Your [capital|E] is not in [the_great_steppe|E]",
+    "RUS": "Ваша [Concept('capital', 'столица')|E] расположена не в [Concept('the_great_steppe', 'Великой степи')|E]",
+    "POL": "Twoja [capital|E] nie znajduje się na [Concept('the_great_steppe', 'Wielkim Stepie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "higher_prestige_cost_because_pagan_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "@warning_icon! #X @prestige_icon![prestige|E] cost is quadrupled because your [faith|E] is [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]",
+    "RUS": "@warning_icon! #X Стоимость в @prestige_icon![Concept('prestige', 'престиже')|E] увеличивается в четыре раза, потому что у вас [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName|l] [Concept('faith', 'конфессия')|E]",
+    "POL": "@warning_icon! #X @prestige_icon! Koszt w [Concept('prestige', 'prestiżu')|E] jest czterokrotnie większy, ponieważ twoja [faith|El] ma doktrynę „[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_domicile_buildings_converted",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[former_nomad.GetShortUINamePossessive|U] [domicile|E] [buildings|E] are exchanged for [gold_i][gold|E]",
+    "RUS": "[Concept('buildings', 'Постройки')|E] [Concept('domicile', 'имения')|E] [Select_CString(former_nomad.IsLocalPlayer, '', 'персонажа ' )][former_nomad.GetShortUINamePossessive][Select_CString(former_nomad.IsLocalPlayer, 'его персонажа', '' )] будут обменяны на [gold_i][Concept( 'gold', 'золото' )|E]",
+    "POL": "[buildings|E] w [Concept('domicile', 'miejscu zamieszkania')|E], które posiada [former_nomad.GetShortUINameNotMe], zostają wymienione na [gold_i] [gold|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_settling_gain_kingdom_counties_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Is [revoked|E], if held by a different-[culture|E] [vassal|E]",
+    "RUS": "Будет [Concept('revoked', 'отобрано')|E], если принадлежит [Concept('vassal', 'вассалу')|E] другой [Concept('culture', 'культуры')|E]",
+    "POL": "Podlega [Concept('revoked', 'odebraniu')|E], jeśli jest w posiadaniu [Concept('vassal', 'wasala')|E] o innej [Concept('culture', 'kulturze')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A Home Beyond the Steppe",
+    "RUS": "Дом за пределами степи",
+    "POL": "Dom z dala od stepów",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "#EMP Out, [defender.GetTitledFirstName]! Out, [expelled_culture.GetCollectiveNoun]!#! With your fat children on your shoulders, with your wealth scattered after you, flee the [ROOT.Char.GetCulture.GetName] rider and [dummy_soldier.GetHerHis] arrows!\\n\\n[target.GetBaseNameNoTierNoTooltip] is left to my people. No longer are we blown like dust across the plains! Here, settled lives are ours: the labors of remaining locals and our own commoners serve our comforts.\\n\\nIn [ROOT.Char.GetCapitalLocation.GetName], in the opulent [ROOT.Char.Custom('ResidenceBuilding')] that rules over its [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l], my war-weary body will rest... as my mind begins to ponder",
+    "RUS": "#EMP Беги, [defender.GetTitledFirstName|l]! Бегите, [expelled_culture.GetName|l]!#! Хватайте своих жирных детей и убирайтесь прочь, роняя золото, не то #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ий#! всадник и его стрелы вас настигнут!\\n\\nОтныне [target.GetBaseNameNoTierNoTooltip] в руках моего народа. Впредь мы не будем метаться по степи, словно былинка на ветру! Мы перейдем к оседлой жизни, и пусть наши простолюдины трудятся, чтобы обеспечить нас роскошью и комфортом, — а уцелевшие [expelled_culture.GetNameNoTooltip|l] им в этом помогут.\\n\\nВ сердце провинции [ROOT.Char.GetCapitalLocation.GetName] возвышается [ROOT.Char.Custom('ResidenceBuilding')|l], здесь мое утомленное бесконечной войной тело найдет отдохновение...",
+    "POL": "#EMP Precz, [defender.GetTitledFirstName]! Wynocha, [expelled_culture.GetCollectiveNoun]!#! Zostaw porozrzucane w popłochu skarby, zabieraj na rękach swoje tłuste dzieci i uciekaj przed strzałami jeźdźca, którego wychowała kultura [ROOT.Char.GetCulture.GetName]!\\n\\n[target.GetBaseNameNoTierNoTooltip] pozostaje w rękach moich ludzi. Nie będziemy już snuć się niczym kurz po równinie! Tutaj zaznamy spokoju i osiądziemy, a owoce pracy pozostałych tubylców i naszych plebejuszy zaczną służyć naszym potrzebom…\\n\\nW miejscu znanym jako [ROOT.Char.GetCapitalLocation.GetName] stoi dostojnie [ROOT.Char.Custom('ResidenceBuilding')], górując nad okolicznymi ziemiami. Tam właśnie spocznie moje znużone wojną ciało… a mój umysł zacznie dumać",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.desc_tribal",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "where a settled [ROOT.Char.GetTitleAsNameNoTooltip] finds strength.",
+    "RUS": "Я размышляю, откуда [ROOT.Char.GetTitleAsNameNoTooltip|l] оседлого племени черпает свою силу.",
+    "POL": "nad tym, skąd [ROOT.Char.GetTitleAsNameNoTooltip] ma czerpać siłę po osiedleniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.desc_clan",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "a [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] noble clan, and [ROOT.Char.GetHerHis] many taxes.",
+    "RUS": "Я думаю об огромных налогах, которые собирает [ROOT.Char.GetTitleAsNameNoTooltip|l] и [Select_CString(ROOT.Char.IsFemale, 'ее', 'его' )] клан.",
+    "POL": "nad szlachetnym klanem, którym włada [ROOT.Char.GetTitleAsNameNoTooltip], i [ROOT.Char.Custom('PL_jego_jej')] wieloma podatkami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.desc_feudal",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "the laws of a feudal [ROOT.Char.GetTitleAsNameNoTooltip].",
+    "RUS": "Я размышляю о законах, по которым правит [Select_CString(ROOT.Char.IsFemale, 'феодальная', 'феодальный' )] [ROOT.Char.GetTitleAsNameNoTooltip|l].",
+    "POL": "nad prawami feudalnymi, którymi rządzi się [ROOT.Char.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1040.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Here ends my people's wandering.",
+    "RUS": "Здесь закончатся странствия моего народа.",
+    "POL": "Tutaj kończy się wędrówka moich ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_set_primary_title_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[primary_title.GetBaseName] became your [primary_title|E]",
+    "RUS": "[primary_title.GetBaseName] становится вашим [Concept('primary_title', 'первым титулом')|E]",
+    "POL": "[primary_title.GetBaseName] to twój [primary_title|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_set_capital_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[capital_county.GetName] became your [capital|E] [county|E]",
+    "RUS": "[capital_county.GetName] становится вашим [Concept('capital', 'столичным')|E] [Concept('county', 'графством')|E]",
+    "POL": "[capital_county.GetName] to [capital|El] twojego [Concept('county', 'hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassal_1_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[vassal_1.GetTitledFirstName] gained [vassal_1_title.GetName]",
+    "RUS": "[vassal_1.GetTitledFirstName] получает титул [vassal_1_title.GetName]",
+    "POL": "[vassal_1.GetTitledFirstName] otrzymuje następujący tytuł: [vassal_1_title.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassal_2_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[vassal_2.GetTitledFirstName] gained [vassal_2_title.GetName]",
+    "RUS": "[vassal_2.GetTitledFirstName] получает титул [vassal_2_title.GetName]",
+    "POL": "[vassal_2.GetTitledFirstName] otrzymuje następujący tytuł: [vassal_2_title.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassal_3_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[vassal_3.GetTitledFirstName] gained [vassal_3_title.GetName]",
+    "RUS": "[vassal_3.GetTitledFirstName] получает титул [vassal_3_title.GetName]",
+    "POL": "[vassal_3.GetTitledFirstName] otrzymuje następujący tytuł: [vassal_3_title.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassal_4_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[vassal_4.GetTitledFirstName] gained [vassal_4_title.GetName]",
+    "RUS": "[vassal_4.GetTitledFirstName] получает титул [vassal_4_title.GetName]",
+    "POL": "[vassal_4.GetTitledFirstName] otrzymuje następujący tytuł: [vassal_4_title.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassal_5_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[vassal_5.GetTitledFirstName] gained [vassal_5_title.GetName]",
+    "RUS": "[vassal_5.GetTitledFirstName] получает титул [vassal_5_title.GetName]",
+    "POL": "[vassal_5.GetTitledFirstName] otrzymuje następujący tytuł: [vassal_5_title.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_move_capital_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A taken [county|E] becomes your [capital|E]",
+    "RUS": "Захваченное [Concept('county', 'графство')|E] становится вашей [Concept('capital', 'столицей')|E]",
+    "POL": "Przejęte [county|E] zostaje twoją [Concept('capital', 'stolicą')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_vassals_gain_titles_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[counties|E] and [duchies|E] are distributed among [vassals|E] who are [obedient|E], same-[culture|E] or approve of [attacker.GetShortUIName]",
+    "RUS": "[Concept('counties', 'Графства')|E] и [Concept('duchies', 'герцогства')|E] распределяются среди [Concept('vassals', 'вассалов')|E], которые [Concept('obedient', 'покорны')|E], относятся к той же [Concept('culture', 'культуре')|E] или одобрительно относятся к [Select_CString(attacker.IsLocalPlayer, '', 'персонажу ' )][attacker.GetShortUINamePossessive][Select_CString(attacker.IsLocalPlayer, 'ему персонажу', '' )]",
+    "POL": "[counties|E] i [duchies|El] są rozdzielane pomiędzy [Concept('vassals', 'wasali')|E], którzy są [Concept('obedient', 'posłuszni')|E], tej samej [Concept('culture', 'kultury')|E] lub których aprobatę ma [attacker.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_convert_capital_duchy_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[attacker.GetShortUINamePossessive|U] [capital|E] is converted to [attacker.GetShortUINamePossessive] [culture|E] and [faith|E]",
+    "RUS": "[Concept('capital', 'Столица')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))] приняла [Concept('culture', 'культуру')|E] и [Concept('faith', 'конфессию')|E] [Select_CString(attacker.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',attacker.GetShortUIName))]",
+    "POL": "[capital|E], którą włada [attacker.GetShortUINameNotMe], przyjmuje [attacker.Custom('PL_jego_jej')] [Concept('culture', 'kulturę')|E] i [Concept('faith', 'wiarę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_convert_dukes_capitals_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[dukes|E]' [capitals|E] are converted to their [culture|E] and [faith|E]",
+    "RUS": "[Concept('capitals', 'Столицы')|E] [Concept('dukes', 'герцогов')|E] перенимают их [Concept('culture', 'культуру')|E] и [Concept('faith', 'конфессию')|E]",
+    "POL": "[capitals|E] [Concept('dukes', 'książąt')|E] przyjmują ich [Concept('culture', 'kulturę')|E] i [Concept('faith', 'wiarę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_convert_tribal_counties_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Additional [tribal|E] [counties|E] convert to their new [holder|E]'s [culture|E] and [faith|E]",
+    "RUS": "Дополнительные [Concept('tribal', 'племенные')|E] [Concept('counties', 'графства')|E] перенимают [Concept('culture', 'культуру')|E] и [Concept('faith', 'веру')|E] нового [Concept('holder', 'владетеля')|E]",
+    "POL": "Kolejne [counties|El] [Concept('tribal', 'plemienne')|E] przyjmują [Concept('culture', 'kulturę')|E] i [Concept('faith', 'wiarę')|E] nowego [Concept('holder', 'właściciela')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FORMER_NOMAD_KINGDOM_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[attacker.GetCulture.GetNameNoTooltip] [target.GetBaseNameNoTierNoTooltip]",
+    "RUS": "[target.GetAdjectiveNoTooltip]ие [attacker.GetCulture.GetNameNoTooltip|l]",
+    "POL": "[target.GetBaseNameNoTierNoTooltip] (kultura [attacker.GetCulture.GetNameNoTooltip|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "FORMER_NOMAD_KINGDOM_NAME_ADJ",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[attacker.GetCulture.GetNameNoTooltip]",
+    "RUS": "[attacker.GetCulture.GetCollectiveNounNoTooltip]",
+    "POL": "[attacker.GetCulture.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "former_nomad_army_name",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Loyal [army_getter.GetCulture.GetNameNoTooltip] Semi-Nomads",
+    "RUS": "Верные [army_getter.GetCulture.GetCollectiveNounNoTooltip|l]ие полукочевники",
+    "POL": "Lojalna [army_getter.GetCulture.GetNameNoTooltip|l] armia półnomadów",
+    "BEL": ""
+  },
+  {
+    "KEY": "gold_army_for_herd_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[former_nomad.GetShortUINamePossessive|U] [herd_i][herd|E] and [horde|E] are exchanged for @gold_icon![gold|E] and [special_troops|E]",
+    "RUS": "[herd_i][Concept('herd', 'Стада')|E] и [Concept('horde', 'кочевая орда')|E] [Select_CString(former_nomad.IsLocalPlayer, '', 'персонажа ' )][former_nomad.GetShortUINamePossessive][Select_CString(former_nomad.IsLocalPlayer, 'его персонажа', '' )] будут обменяны на @gold_icon![Concept('gold', 'золото')|E] и [Concept('special_troops', 'особых солдат')|E]",
+    "POL": "[herd_i] [herd|E] i [horde|El] osoby znanej jako [former_nomad.GetShortUINameNotMe] zostają wymienione na @gold_icon! [gold|El] i [special_troops|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "attackers_counties_lose_development",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Taken [counties|E] lose @development_icon![development|E]",
+    "RUS": "Захваченные [Concept('counties', 'графства')|E] теряют в @development_icon![Concept('development', 'развитии')|E]",
+    "POL": "Przejęte [counties|El] tracą @development_icon! [development|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_gain_titular_kingdom_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You gain a [kingdom|E]-[title_tier|E] [titular_title|E]",
+    "RUS": "Вы получаете [Concept('titular_title', 'номинальный титул')|E] [Concept('kingdom', 'королевского')|E] [Concept('title_tier', 'уровня')|E]",
+    "POL": "Zyskujesz [titular_title|El] [Concept('title_tier', 'poziomu')|E] [Concept('kingdom', 'królestwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_war_white_peace_desc_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You lose some [GetLocalPlayerLegitimacyTextIcon][legitimacy|E] and @dread_icon![dread|E].",
+    "RUS": "У вас снижаются показатели [GetLocalPlayerLegitimacyTextIcon][Concept('legitimacy', 'легитимности')|E] и @dread_icon![Concept('dread', 'ужаса')|E].",
+    "POL": "Tracisz część [GetLocalPlayerLegitimacyTextIcon] [Concept('legitimacy', 'legitymacji')|E] i @dread_icon! [Concept('dread', 'postrachu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_war_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] loses some [attacker.GetLegitimacyType.GetTextIcon][legitimacy|E] and @dread_icon![dread|E].",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'теряете', 'теряет' )] долю [attacker.GetLegitimacyType.GetTextIcon][Concept('legitimacy', 'легитимности')|E] и @dread_icon![Concept('dread', 'ужаса')|E].",
+    "POL": "[attacker.GetShortUINameNotMe] traci część [attacker.GetLegitimacyType.GetTextIcon] [Concept('legitimacy', 'legitymacji')|E] i @dread_icon! [Concept('dread', 'postrachu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_war_surrender_desc_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You lose significant [GetLocalPlayerLegitimacyTextIcon][legitimacy|E] and @dread_icon![dread|E].",
+    "RUS": "У вас значительно снижаются показатели [GetLocalPlayerLegitimacyTextIcon][Concept('legitimacy', 'легитимности')|E] и @dread_icon![Concept('dread', 'ужаса')|E].",
+    "POL": "Tracisz znaczącą część [GetLocalPlayerLegitimacyTextIcon] [Concept('legitimacy', 'legitymacji')|E] i @dread_icon! [Concept('dread', 'postrachu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "overrunning_war_surrender_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] loses significant [attacker.GetLegitimacyType.GetTextIcon][legitimacy|E] and @dread_icon![dread|E].",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'теряете', 'теряет' )] значительную долю [attacker.GetLegitimacyType.GetTextIcon][Concept('legitimacy', 'легитимности')|E] и @dread_icon![Concept('dread', 'ужаса')|E].",
+    "POL": "[attacker.GetShortUINameNotMe] traci znaczącą część [attacker.GetLegitimacyType.GetTextIcon] [Concept('legitimacy', 'legitymacji')|E] i @dread_icon! [Concept('dread', 'postrachu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "herder_county_loses_fertility_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[herder.GetShortUINamePossessive] [capital|E] loses [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0] [county_fertility|E]",
+    "RUS": "[Concept('county_fertility', 'Тучность пастбищ')|E] в [Concept('capital', 'столице')|E] [Select_CString(herder.IsLocalPlayer, '', 'персонажа ' )][herder.GetShortUINamePossessive][Select_CString(herder.IsLocalPlayer, 'его персонажа', '' )] снижается на [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0]",
+    "POL": "[capital|E] osoby znanej jako [herder.GetShortUINameNotMe] traci [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0] [Concept('county_fertility', 'płodności hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "neighbor_herders_lose_fertility_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "custom.every_neighboring_herder",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Every [herder|E] [county|E] neighboring your [domain|E]",
+    "RUS": "Каждое [Concept('county', 'графство')|E] [Concept('herder', 'пастухов')|E], граничащее с вашим [Concept('domain', 'доменом')|E]",
+    "POL": "Każde [county|E] [Concept('herder', 'pasterza')|E] sąsiadujące z twoją [Concept('domain', 'domeną')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_county_loses_fertility_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Loses [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0] [county_fertility|E]",
+    "RUS": "[Concept('county_fertility', 'Тучность пастбищ')|E] снижается на [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0]",
+    "POL": "Traci [EmptyScope.ScriptValue('medium_county_fertility_loss')|N0] [Concept('county_fertility', 'płodności hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Wider Grazelands",
+    "RUS": "Обширные пастбища",
+    "POL": "Obszerniejsze pastwiska",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[herder.GetTitledFirstName], a shabby [herder.GetWomanMan] stinking of goats' piss, professes [herder.GetHerselfHimself] the minder of [herder_county.GetNameNoTierPossessive] nearby [herder.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l].\\n\\n",
+    "RUS": "[herder.GetTitledFirstName], [Select_CString(herder.IsFemale, 'убогая баба', 'убогий мужик' )], насквозь [Select_CString(herder.IsFemale, 'провонявшая', 'провонявший' )] козлиной мочой, считает себя кем-то вроде [Select_CString(herder.IsFemale, 'хранительницы', 'хранителя' )] области [herder_county.GetNameNoTier].\\n\\n«Ваши #L [ROOT.Char.GetPrimaryTitle.GetAdjective|l]ие#! пастухи игнорируют извечные границы! — возмущается [Select_CString(herder.IsFemale, 'она', 'он' )]. — Я привожу свою отару на новое пастбище, а там лишь голая земля! А ветер разносит хохот ваших всадников и стук копыт их откормленных коней!»\\n\\n«Разве мы не можем поделить эту землю по справедливости, [ROOT.Char.GetTitleAsName|l]?»",
+    "POL": "[herder.GetTitledFirstName], śmierdzący kozimi szczynami obdartus, twierdzi, że [herder_county.GetNameNoTier] nieopodal miejsca znanego jako [herder.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l] znajduje się pod [herder.Custom('PL_jego_jej')] pieczą.\\n\\n– [ROOT.Char.GetPrimaryTitle.GetName] to miejsce, w którym wasi pasterze ignorują utarte granice! – mówi. – Pędzę bydło na nowe pastwisko, a tam tylko goła ziemia, po której wiatr niesie rechot waszych jeźdźców i mlaskanie ich tłustych koni! Czy nie moglibyśmy dzielić się ziemią uczciwie, wasza wysokość?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "To me, traditional bounds mean #EMP nothing#!.",
+    "RUS": "Извечные границы для меня #EMP ничто#!.",
+    "POL": "Utarte tradycjami granice #EMP nic#! dla mnie nie znaczą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне пригодится твой честный голос — и твоя отвага!»",
+    "POL": "– Użycz mi swojej szczerości i odwagi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I will make an honored rider of this putrid, loud-mouthed goatherd!",
+    "RUS": "Я сделаю из [Select_CString(herder.IsFemale, 'этой вонючей пастушки настоящую наездницу', 'этого вонючего козопаса настоящего наездника' )]!",
+    "POL": "Zrobię z tego odstręczającego, jazgotliwego kozopasa poważanego jeźdźcę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я покараю тех, кто тебя обидел».",
+    "POL": "– Zniszczę tych, którzy wyrządzili ci szkodę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.c.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "For it seems my herd has grown beyond my control...",
+    "RUS": "Похоже, мои стада становятся неуправляемыми...",
+    "POL": "Jako że wygląda na to, iż moja gromada wymknęła mi się spod kontroli…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1050.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "#EMP «Держись подальше от моих животных, [Select_CString(herder.IsFemale, 'пастушка', 'козопас' )]!»#!",
+    "POL": "– #EMP Pierzchaj przed moimi zwierzętami, kozopasie!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Bartering with Sheep",
+    "RUS": "Торговля со скотом",
+    "POL": "(Za)targi z owcami",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Just beyond my pastureland huddles the settlement of [neighbor_province.GetName], a place resounding with clanging hammers, the groan of wheels, the chatter of teeming [county_culture.GetName] crowds.\\n\\nWe visit to trade animals for refined goods. The soft-bellied merchants eye us with suspicion and fear.\\n\\n",
+    "RUS": "К моим пастбищам примыкает селение [neighbor_province.GetName], там не смолкает звон молотов, скрип тележных колес и гомон #L [county_culture.GetCollectiveNoun|l]их#! жителей.\\n\\nМы нередко наведываемся сюда, чтобы обменять животных на иноземные товары. Мягкотелые местные купцы не сводят с нас глаз, их взгляды полны страха и подозрения.\\n\\n«Смотрите, оружие из [neighbor.Custom('RegionalWeaponMetal')]! Изысканные одеяния из [neighbor.Custom('RegionalFabric')]! — восторженно шумят мои спутники. — Монеты из драгоценных металлов!»",
+    "POL": "Tuż za moimi pastwiskami znajduje się osada o nazwie [neighbor_province.GetName], miejsce, w którym rozbrzmiewają młoty, koła i gwar tłumów, w które zbijają się [county_culture.GetName].\\n\\nSkładamy im wizytę, by handlować zwierzętami i wyszukanymi dobrami. Kupcy o miękkich brzuchach lustrują nas podejrzliwie i z przestrachem.\\n\\n– Patrzcie tylko, mają tu bronie wykonane przy użyciu [neighbor.Custom('RegionalWeaponMetal')]! I piękne stroje z [neighbor.Custom('RegionalFabric')]! – krzyczą moi towarzysze. – Nawet monety z drogocennych metali!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You think #EMP that's#! what a silver coin is worth...?",
+    "RUS": "Хочешь сказать, #EMP это#! стоит серебряную монету?!",
+    "POL": "Uważasz, że #EMP to tyle#! warta jest srebrna moneta…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.a.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "These settled weaklings will soon learn that we 'savages' are not so easily swindled...",
+    "RUS": "Скоро эти оседлые дохляки поймут, что «дикарей» вроде нас не так легко обмануть...",
+    "POL": "Te osiadłe mięczaki zaraz przekonają się, że nas, „dzikusów”, nie tak łatwo oszukać…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Хватайте всё, и поскачем #EMP во весь опор#!!»",
+    "POL": "– Brać wszystko! #EMP I nie znać litości!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "A true [ROOT.Char.Custom('GetDaughterSon')] of the steppe does not treat with the weak!",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Истинная дочь', 'Истинный сын' )] степей не заключает сделок со слабаками!",
+    "POL": "Ci, w których żyłach płynie krew ze stepów, nie układają się z cherlakami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Your posse escapes with the taken goods",
+    "RUS": "Ваша группа удирает с украденным добром",
+    "POL": "Twojej grupie udaje się umknąć ze skradzionymi dobrami",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.b.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You ditch your loot to narrowly escape",
+    "RUS": "Вам приходится бросить добычу, чтобы спастись",
+    "POL": "Porzucacie swoje łupy i ledwo udaje wam się uciec",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Несите меха и творог, ведите лучших коней!»",
+    "POL": "– Przynieść futra, jogurt i najlepsze konie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1060.c.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Trading our goods with [neighbor.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] settlements can only benefit us.",
+    "RUS": "Торговля с [neighbor.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ими селениями обогатит нас.",
+    "POL": "Handel z osadami miejsca znanego jako [neighbor.GetTopLiege.GetPrimaryTitle.GetNameNoTier] może nam tylko pomóc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_trading_mastery_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Trading Magnate",
+    "RUS": "Торговый магнат",
+    "POL": "Magnat handlowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_trading_mastery_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "This nomad understands well the true value of foreign coins and luxury goods. Better even, perhaps, than their purveyors. ",
+    "RUS": "Этот кочевник знает истинную ценность чужеземных монет и предметов роскоши. Возможно, даже лучше, чем те, кто ими торгует.",
+    "POL": "Ten koczownik doskonale zna rzeczywiste ceny zagranicznych monet i luksusowych dóbr… być może nawet lepiej od ich dostawców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_trading_partners_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Sedentary Trading Agreements",
+    "RUS": "Торговый договор с оседлыми поселениями",
+    "POL": "Osiadłe umowy handlowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_trading_partners_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "This nomad actively engages in the trading of pastoral animal products for tools, luxuries and coin.",
+    "RUS": "Этот кочевник регулярно обменивает продукты животноводства на инструменты, монеты и предметы роскоши.",
+    "POL": "Ten koczownik aktywnie handluje pasterskimi towarami odzwierzęcymi w zamian za narzędzia, dobra luksusowe i monety.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Strayed in the Night",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Заблудившаяся', 'Заблудившийся' )] в ночи",
+    "POL": "Błądząc po nocy",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_intro",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I waken, with horse-breath in my mouth.\\n\\n",
+    "RUS": "Я прихожу в себя, почувствовав, как конь фыркает мне в лицо.\\n\\n",
+    "POL": "Budzę się, a w ustach czuję jedynie koński oddech.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_has_horse",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "As my steed [ROOT.Char.Custom('WarhorseStoryName')]",
+    "RUS": "Ко мне прижимается [ROOT.Char.Custom('WarhorseStoryName')], мой верный скакун.",
+    "POL": "Mój koń, [ROOT.Char.Custom('WarhorseStoryName')],",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_new_horse",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "As an unfamiliar steed",
+    "RUS": "Ко мне прижимается незнакомый скакун.",
+    "POL": "Nieznany koń",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "nuzzles me, the wind moans across the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]. We two are alone in the wild.\\n\\nMy mind is a smooth stone — what #EMP happened#! between last dusk and this cold dawn? Have my people... abandoned me? No! Memories come,",
+    "RUS": "Вокруг нас [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l], мы совершенно одни, лишь ветер завывает в предрассветной мгле.\\n\\nВ голове царит полная пустота. Что #EMP случилось#! между вчерашним вечером и этим холодным утром? Неужели мой народ покинул меня? Но нет, память постепенно возвращается.",
+    "POL": "trąca mnie chrapami, a wiatr wyje na wskroś miejsca, które wygląda jak [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]. Jesteśmy tu sami, we dwójkę, w dziczy.\\n\\nMój umysł jest pusty niczym wydmuszka – co #EMP zaszło#! między ostatnim zmierzchem a tym mroźnym świtem? Czyżby moi ludzie… mnie porzucili? Nie! Wspomnienia wracają,",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_spiritual",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "carrying the whispers of spirits, telling of the holy trance that roused me from bed, took me to a lone horse standing in moonlight...",
+    "RUS": "Я снова слышу шепот духов, вспоминая священный транс, что заставил меня подняться с постели и привел к одинокому скакуну, ожидавшему меня в лунном свете...",
+    "POL": "niosąc szepty duchów. Mówią o świętym transie, który uniósł mnie z łoża i poniósł do samotnego konia skąpanego w świetle księżyca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_mental_thing",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "howling my own mad midnight curses: though my kin tried to calm me, I could not be among them. I went into the night with just this quiet horse...",
+    "RUS": "Я вспоминаю охватившее меня полночное буйство — родичи всеми силами пытались меня успокоить, но я не [Select_CString(ROOT.Char.IsFemale, 'могла', 'мог' )] оставаться среди них. Я [Select_CString(ROOT.Char.IsFemale, 'бежала', 'бежал' )] в ночь, и молчаливый скакун был мне единственным спутником...",
+    "POL": "zawodząc o mych własnych nocnych przekleństwach – choć moi krewni próbowali mnie uspokoić, nie mogłem znieść ich towarzystwa. Udałem się w noc, z milczącym koniem za towarzysza…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.desc_new_drunk",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "bearing heavy bowls of [Glossary( 'kumis', 'KUMIS_GLOSS')], hoof-beats, and the feeling of a dark mane pressed against my cheek...",
+    "RUS": "Я вспоминаю чаши, полные [Glossary( 'кумыса', 'KUMIS_GLOSS')], стук копыт и темную гриву, к которой [Select_CString(ROOT.Char.IsFemale, 'прижималась', 'прижимался' )] щекой...",
+    "POL": "przynosząc czary pełne [Glossary( 'kumysu', 'KUMIS_GLOSS')], tętent kopyt i uczucie ciemnej grzywy ocierającej się o moją twarz…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You are a loyal beast, aren't you?",
+    "RUS": "Какой же ты преданный зверь!",
+    "POL": "Lojalna z ciebie bestia, co?",
+    "BEL": ""
+  },
+  {
+    "KEY": "begin_warhorse_story_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "This horse becomes your beloved favorite",
+    "RUS": "Этот скакун становится вашим любимцем",
+    "POL": "Ten koń zostaje twoim ukochanym ulubieńcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Never again! I swear it, horse: #EMP never again!#!",
+    "RUS": "Это в последний раз! Клянусь тебе, конь — это было #EMP в последний раз#!!",
+    "POL": "Nigdy więcej! Przysięgam, koniu: #EMP nigdy więcej!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.HighGodNamePossessive] will brought me to this holy place.",
+    "RUS": "Воля [ROOT.Char.GetFaith.HighGodNamePossessive] привела меня в это святое место.",
+    "POL": "Wola [ROOT.Char.GetFaith.HighGodNamePossessive] zawiodła mnie w to święte miejsce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.c.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "I need not panic. There are natural forces here I am friend to, and they will lead me home.",
+    "RUS": "Мне нечего бояться. Здешние духи природы ко мне благосклонны, они приведут меня домой.",
+    "POL": "Nie będę panikować. Są tu naturalne siły, których jestem przyjacielem. Zaprowadzą mnie do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Homeward! A nomad is never lost.",
+    "RUS": "Скорее домой! [Select_CString(ROOT.Char.IsFemale, 'Истинная кочевница', 'Истинный кочевник' )] никогда не собьется с пути!",
+    "POL": "Wracamy do domu! Prawdziwy nomada nigdy się nie gubi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.d.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Even when his skull aches so sorely [ROOT.Char.GetSheHe] can hardly see...",
+    "RUS": "Даже если голова [Select_CString(ROOT.Char.IsFemale, 'ее', 'его' )] трещит так сильно, что в глазах темнеет...",
+    "POL": "Nawet gdy łeb pęka mu tak bardzo, że ledwo widzi na oczy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.d.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You retrace your horse's tracks",
+    "RUS": "Вы возвращаетесь по следам конских копыт",
+    "POL": "Wracasz po śladach swojego konia",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.d.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "You do not find home before night returns",
+    "RUS": "Вам не удается найти дорогу назад до наступления темноты",
+    "POL": "Nie udaje ci się znaleźć drogi powrotnej przed zmrokiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_nomad_events.1070.e",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Surely, horse, you recall the way back...",
+    "RUS": "Лошадка, ты же помнишь дорогу домой?",
+    "POL": "Koniu, z całą pewnością wiesz, jak wrócić…",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_alone_in_adversity_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "Trusts in Horses",
+    "RUS": "Доверие к лошадям",
+    "POL": "Końskie zaufanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "nomad_alone_in_adversity_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_nomad_events_1_l_belarusian.json",
+    "ENG": "When in a terrible situation, this nomad trusts nothing more than the survival instinct and the speed of horses.",
+    "RUS": "Попав в серьезную передрягу, этот кочевник доверяется лишь собственному инстинкту выживания да быстрым ногам своего скакуна.",
+    "POL": "W najgorszych sytuacjach ten koczownik ufa jedynie instynktom przetrwania i szybkości koni.",
+    "BEL": ""
+  }
+]

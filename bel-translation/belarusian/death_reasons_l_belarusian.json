@@ -1,0 +1,3058 @@
+[
+  {
+    "KEY": "death_natural_causes",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in [CHARACTER.GetHerHis] sleep",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] во сне",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'zmarła', 'zmarł' )] we śnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_old_age",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of old age",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от старости",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] ze starości",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bubonic_plague",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from the [GetTrait('bubonic_plague').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,bubonic_plague, #L бубонной чумы#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu zarazy, którą była [GetTrait('bubonic_plague').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_smallpox",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from [GetTrait('smallpox').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,smallpox, #L оспы#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu zarazy, którą była [GetTrait('smallpox').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_measles",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from [GetTrait('measles').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,measles, #L кори#!#!",
+    "POL": "umarła z powodu choroby znanej jako [GetTrait('measles').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dysentery",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from [GetTrait('dysentery').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,dysentery, #L дизентерии#!#!",
+    "POL": "umarła z powodu zarazy znanej jako [GetTrait('dysentery').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ergotism",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "danced themselves to death from [GetTrait('ergotism').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'дотанцевалась', 'дотанцевался' )] до смерти из-за #TOOLTIP:GAME_TRAIT,ergotism, #L священного огня#!#!",
+    "POL": "zatańczyła się na śmierć z powodu choroby znanej jako [GetTrait('ergotism').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_typhus",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of [GetTrait('typhus').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #L [GetTrait('typhus').GetName( CHARACTER.Self )|l]а#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu zarazy, którą był [GetTrait('typhus').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cancer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of [GetTrait('cancer').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #L [GetTrait('cancer').GetName( CHARACTER.Self )|l]а#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą był [GetTrait('cancer').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_pneumonic",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of [GetTrait('pneumonic').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,pneumonic, #L легочной болезни#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą było [GetTrait('pneumonic').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_consumption",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of [GetTrait('consumption').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,consumption, #L чахотки#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą były [GetTrait('consumption').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_leper",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died a [GetTrait('leper').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,leper, #L проказы#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą był [GetTrait('leper').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_gout_ridden",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died [GetTrait('gout_ridden').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #TOOLTIP:GAME_TRAIT,gout_ridden, #L подагры#!#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą była [GetTrait('gout_ridden').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_great_pox",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of [GetTrait('great_pox').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от #L [GetTrait('great_pox').GetName( CHARACTER.Self )|l]а#!",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu choroby, którą była [GetTrait('great_pox').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ill",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from being [GetTrait('ill').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], от #TOOLTIP:GAME_TRAIT,ill, #L болезни#!#!",
+    "POL": "zmarła z powodu cechy: [GetTrait('ill').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sickly",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from being [GetTrait('sickly').GetName( CHARACTER.Self )]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], из-за #TOOLTIP:GAME_TRAIT,sickly, #L болезненности#!#!",
+    "POL": "zmarła z powodu cechy: [GetTrait('sickly').GetName( CHARACTER.Self )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_giant",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "unable to carry their own massive frame",
+    "RUS": "не в силах поддерживать вес собственного тела",
+    "POL": "nie [Select_CString( CHARACTER.IsFemale, 'mogła', 'mógł' )] udźwignąć swojej masywnej postury",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_spindly",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of heart failure",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от остановки сердца",
+    "POL": "śmierć z powodu niewydolności serca",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wheezing",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of asphyxiation during a violent coughing attack",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], поперхнувшись во время приступа кашля",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku uduszenia podczas gwałtownego kaszlu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bleeder",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "bled to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'истекла', 'истек' )] кровью",
+    "POL": "wykrwawił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_depressed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_spindly$",
+    "RUS": "$death_spindly$",
+    "POL": "$death_spindly$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_lunatic",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_spindly$",
+    "RUS": "$death_spindly$",
+    "POL": "$death_spindly$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_possessed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from a seizure",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] во время судорожного припадка",
+    "POL": "śmierć z powodu ataku epilepsji",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_incapable",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_possessed$",
+    "RUS": "$death_possessed$",
+    "POL": "$death_possessed$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wounded_1",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from [CHARACTER.GetHerHis] wounds",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku odniesionych ran",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wounded_2",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_wounded_1$",
+    "RUS": "$death_wounded_1$",
+    "POL": "$death_wounded_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wounded_3",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_wounded_1$",
+    "RUS": "$death_wounded_1$",
+    "POL": "$death_wounded_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wounds",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_wounded_1$",
+    "RUS": "$death_wounded_1$",
+    "POL": "$death_wounded_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_maimed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from [CHARACTER.GetHerHis] internal injuries",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от внутренних повреждений",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu obrażeń wewnętrznych",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_flagellant",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "flagellated [CHARACTER.GetHerselfHimself] to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забила', 'забил' )] себя плетью до смерти",
+    "POL": "zabiczował[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_physique_bad_1",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "succumbed to [CHARACTER.GetHerHis] inherent weakness",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'пала', 'пал' )] жертвой собственной слабости",
+    "POL": "uległ[Select_CString( CHARACTER.IsFemale, 'a', '' )] swojej wrodzonej słabości",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_physique_bad_2",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_physique_bad_1$",
+    "RUS": "$death_physique_bad_1$",
+    "POL": "$death_physique_bad_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_physique_bad_3",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_physique_bad_1$",
+    "RUS": "$death_physique_bad_1$",
+    "POL": "$death_physique_bad_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_weak",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_physique_bad_1$",
+    "RUS": "$death_physique_bad_1$",
+    "POL": "$death_physique_bad_1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_malnourishment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from malnourishment",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от голода",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z niedożywienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_obesity",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from complications related to obesity",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от осложнений, связанных с ожирением",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu powikłań związanych z otyłością",
+    "BEL": ""
+  },
+  {
+    "KEY": "blind",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "tripped and fell to [CHARACTER.GetHerHis] death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], неосторожно споткнувшись",
+    "POL": "potkn[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] się i wpadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] prosto w objęcia śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_inbred",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from complications due to inbreeding",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от осложнений, вызванных кровосмешением",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu powikłań związanych z kazirodzkim rodowodem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_physician_mistreatment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died after a botched treatment",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] после небрежного лечения",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu powikłań po nieudanym leczeniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_defenestration",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was defenestrated",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была выброшена из окна', 'был выброшен из окна' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zdetronizowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_defenestration_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was defenestrated by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была выброшена из окна', 'был выброшен из окна' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zdetronizowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNKNOWN_DEATH_REASON",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of unknown causes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] по неизвестной причине",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z nieznanych przyczyn",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was murdered",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was murdered by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString(CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_siege",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a siege",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время осады",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'zginęła', 'zginął' )] podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_duel",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slain in a duel",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] на дуэли",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_duel_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slain in a duel by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вами', Concatenate('персонажем ',TARGET_CHARACTER.GetUIName))] на поединке ",
+    "POL": "ginie w pojedynku z ręki osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in an accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в результате несчастного случая",
+    "POL": "zginął[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wypadku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_murder_killer$",
+    "RUS": "$death_murder_killer$",
+    "POL": "$death_murder_killer$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ended_on_feast_table",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "ended [CHARACTER.GetHerHis] days during a feast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] на пиру",
+    "POL": "zakończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] swoje życie podczas uczty",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_plotting",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died under suspicious circumstances...",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] при подозрительных обстоятельствах",
+    "POL": "śmierć w podejrzanych okolicznościach…",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_mysterious_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_plotting$",
+    "RUS": "$death_plotting$",
+    "POL": "$death_plotting$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_plotting_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_plotting$",
+    "RUS": "$death_plotting$",
+    "POL": "$death_plotting$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_script_cruelty",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from the cruel actions of [CHARACTER.GetHerHis] peers",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в результате жестокости своих сотоварищей",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku okrutnych działań swoich rówieśników",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_stress",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from stress",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от стресса",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] ze stresu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_punishment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed as punishment",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была казнена', 'был казнен' )] по смертному приговору",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] za karę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_punishment_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed by [TARGET_CHARACTER.GetUIName] as punishment",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен')] по смертному приговору, который [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'подписали', Select_CString(TARGET_CHARACTER.IsFemale, 'подписала', 'подписал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] za karę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_disappearance",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "disappeared without a trace",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'исчезла', 'исчез' )] без следа",
+    "POL": "znikn[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] bez śladu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_disappearance_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "disappeared without a trace on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'исчезла', 'исчез' )] без следа по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "znikn[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] bez śladu na [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twój ', '' )]rozkaz [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dungeon",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in captivity",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в плену",
+    "POL": "śmierć w niewoli",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dungeon_passive",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_dungeon$",
+    "RUS": "$death_dungeon$",
+    "POL": "$death_dungeon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drinking_passive",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drank [CHARACTER.GetHerselfHimself] to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'напилась', 'напился' )] до смерти",
+    "POL": "zapił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dungeon_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in [TARGET_CHARACTER.GetUINamePossessive] dungeon",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в темнице [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w [Select_CString( TARGET_CHARACTER.IsLocalPlayer, ' twoim lochu', '' )] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', Concatenate('lochu postaci ',TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fight",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a fight",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в стычке",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w walce",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fight_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by [TARGET_CHARACTER.GetUIName] in a fight",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время боя персонажем [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))] w walce",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_battle",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slain in battle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в сражении",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w bitwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_battle_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slain in battle by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в бою от руки [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zgładzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w bitwie przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_head_ripped_off",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] head ripped off",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'обезглавлена', 'обезглавлен' )]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku oderwania głowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_head_ripped_off_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] head ripped off by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'обезглавлена', 'обезглавлен' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku oderwania głowy, co uczynił[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [CHARACTER.GetHerHim] [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cloven_in_half",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cloven in half",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'развалилась', 'развалился' )] пополам",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przecięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na pół",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cloven_in_half_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cloven in half by [TARGET_CHARACTER.GetUINamePossessive] mighty axe",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'развалилась', 'развалился' )] пополам, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'нанесла', 'нанес' )] могучий удар топором",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przecięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na pół przez potężny topór, który dzierżył[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_viciously_dismembered",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was viciously dismembered",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] конечностей",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] brutalnie rozczłonkowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_viciously_dismembered_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was viciously dismembered by [TARGET_CHARACTER.GetUINamePossessive] mighty axe",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] конечностей, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'нанесла', 'нанес' )] могучий удар топором",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] brutalnie rozczłonkowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez potężny topór, który dzierżył[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ripped_apart_limb_by_limb",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ripped apart limb by limb",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] рук и ног",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rozerwana', ' rozerwany' )] kończyna po kończynie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ripped_apart_limb_by_limb_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ripped apart limb by limb by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] рук и ног, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'завершила', 'завершил' )] свое дело",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rozerwana', ' rozerwany' )] kończyna po kończynie przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_chopped_to_pieces",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was chopped into pieces",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'распалась', 'распался' )] на куски",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] poćwiartowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na kawałki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_chopped_to_pieces_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was chopped into pieces by [TARGET_CHARACTER.GetUINamePossessive] axe",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'распалась', 'распался' )] на куски под могучими ударами топора, который [Select_CString(TARGET_CHARACTER.IsFemale, 'держала', 'держал' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] poćwiartowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na kawałki przez topór, który dzierżył[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_heart_ripped_out",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] heart ripped out",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] сердца",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )], gdy wyrwano [CHARACTER.GetHerHim] serce",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_heart_ripped_out_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] heart ripped out by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] сердца, которое [Select_CString(TARGET_CHARACTER.IsFemale, 'вырвала', 'вырвал' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )], gdy [TARGET_CHARACTER.GetUINameNotMe] wyrwał[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [CHARACTER.GetHerHim] serce",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fear",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was scared to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от страха",
+    "POL": "przeraził[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fear_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was scared to death by [TARGET_CHARACTER.GetUINamePossessive] terrifying roar",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от страха, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'испустила', 'испустил' )] страшный вопль",
+    "POL": "przeraził[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć, słysząc straszliwy ryk, który [TARGET_CHARACTER.LocalPlayerString( Select_CString( TARGET_CHARACTER.IsFemale, 'wydobyłaś', 'wydobyłeś' ), Select_CString( TARGET_CHARACTER.IsFemale, 'wydobyła', 'wydobył' ) )] z siebie[TARGET_CHARACTER.LocalPlayerString( '', Concatenate(' ', TARGET_CHARACTER.GetUINameNotMe) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_skull_cracked_open",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] skull cracked open",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'пала', 'пал' )] с раскроенным черепом",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na skutek rozłupania [CHARACTER.GetHerHim] czaszki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_skull_cracked_open_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] skull cracked open by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'раскроила', 'раскроил' )] [CHARACTER.GetHerHis] череп",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )], gdy [TARGET_CHARACTER.GetUINameNotMe] rozłupał[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [CHARACTER.GetHerHim] czaszkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_strangled_with_own_intestines",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was strangled with [CHARACTER.GetHerHis] own intestines",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'задушена', 'задушен' )] собственными кишками",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] uduszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] własnymi jelitami",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_strangled_with_own_intestines_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was strangled with [CHARACTER.GetHerHis] own intestines by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'задушена', 'задушен' )] собственными кишками, которые [Select_CString(TARGET_CHARACTER.IsFemale, 'выпустила', 'выпустил' )] [TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )]",
+    "POL": "został[Select_CString(CHARACTER.IsFemale, 'a', '' )] uduszon[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] własnymi jelitami przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_decapitated",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was decapitated",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zdekapitowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_decapitated_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was decapitated by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы, когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'нанесла', 'нанес' )] удар",
+    "POL": "został[Select_CString(CHARACTER.IsFemale, 'a', '' )] zdekapitowan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_piteously_cut_down",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was piteously cut down",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] из жалости",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] żałośnie ścięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_piteously_cut_down_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was piteously cut down by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] из жалости [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString(CHARACTER.IsFemale, 'a', '' )] żałośnie ścięt[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_horse_riding_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a horse riding accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )], упав с лошади",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wypadku podczas jazdy konnej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_training_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a training accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] на тренировке",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wypadku podczas treningu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ate_themselves_to_death",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "ate [CHARACTER.GetHerselfHimself] to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от обжорства",
+    "POL": "zajadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tumultuous_guts",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of a tumultuous gut brought on by rich food",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от несварения желудка, вызванного обилием пищи",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu rozstroju jelit, spowodowanego ciężkostrawną dietą",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell from [CHARACTER.GetHerHis] horse while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] с лошади во время охоты",
+    "POL": "spadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z konia podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by [TARGET_CHARACTER.GetUIName] in a hunting accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] персонажем [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] во время несчастного случая на охоте",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] w następstwie wypadku podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_mysterious",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died under mysterious circumstances",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] при загадочных обстоятельствах",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w tajemniczych okolicznościach",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_attempted_treatment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died trying to cure [CHARACTER.GetHerselfHimself] of some unknown affliction",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в результате самолечения от неизвестной болезни",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] próbując wyleczyć się z nieznanej dolegliwości",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_carp_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a tragic carp accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при трагическом случае с карпом",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku tragicznego wypadku z karpiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_whipping",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was whipped to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забита', 'забит' )] кнутом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zachłostan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_whipping_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was whipped to death by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'запорота', 'запорот')] до смерти, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zachłostan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_torture",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was tortured to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] под пытками",
+    "POL": "był[Select_CString( CHARACTER.IsFemale, 'a', '' )] torturowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] aż do śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_torture_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was tortured to death by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'запытана', 'запытан' )] до смерти [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "był[Select_CString( CHARACTER.IsFemale, 'a', '' )] torturowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] aż do śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_torture_passive",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "bled out after a lengthy torture session",
+    "RUS": "не [Select_CString(CHARACTER.IsFemale, 'перенесла', 'перенес' )] пыток",
+    "POL": "wykrwawił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się po długiej sesji tortur",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_childbirth",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in childbirth",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] при родах",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w połogu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_delivery",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died during delivery",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] во время родов",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] przy porodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_treatment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died due to a botched treatment",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] из-за небрежного лечения",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku nieudanego leczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_treatment_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died due to a botched treatment performed by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] из-за небрежности, которую [Select_CString(TARGET_CHARACTER.IsFemale, 'проявила', 'проявил' )] [Select_CString(TARGET_CHARACTER.IsFemale, 'врачевательница', 'лекарь' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu nieudanego leczenia, które [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'zostało przeprowadzone przez ciebie', Select_CString( TARGET_CHARACTER.IsFemale, Concatenate('przeprowadziła ', TARGET_CHARACTER.GetUINameNotMe), Concatenate('przeprowadził ', TARGET_CHARACTER.GetUINameNotMe) ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_execution_blood_eagle",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed by way of Blood Eagle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] посредством кровавого орла",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku wykonania rytuału krwawego orła",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_execution_blood_eagle_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed by way of Blood Eagle by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] посредством кровавого орла персонажем [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku wykonania rytuału krwawego orła przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_execution_blot",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was sacrificed to the gods",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] złożon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w ofierze bogom",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_execution",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_execution_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'została stracona', 'został stracony' )] na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój rozkaz', Concatenate('rozkaz postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_vanished",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "vanished without a trace",
+    "RUS": "бесследно [Select_CString(CHARACTER.IsFemale, 'исчезла', 'исчез' )]",
+    "POL": "znikn[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] bez śladu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_siege_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in a siege on the orders of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время осады по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'została zabita', 'został zabity' )] podczas oblężenia z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twojego rozkazu', Concatenate('rozkazu postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_raid",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a raid",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] при налете",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas najazdu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_raid_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in a raid on the orders of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время налета по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'została zabita', 'został zabity' )] podczas najazdu z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twojego rozkazu', Concatenate('rozkazu postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burned",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was burned to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сгорела', 'сгорел' )] заживо",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] spalon[Select_CString( CHARACTER.IsFemale, 'a', '' )] żywcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burned_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was burned to death while attending [TARGET_CHARACTER.GetUINamePossessive] feast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сгорела', 'сгорел' )] заживо на пиру у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] spalon[Select_CString( CHARACTER.IsFemale, 'a', '' )] żywcem podczas [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twojej uczty', Concatenate('uczty postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_suicide",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "committed suicide",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'покончила', 'покончил' )] с собой",
+    "POL": "popełnił[Select_CString( CHARACTER.IsFemale, 'a', '' )] samobójstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_eaten",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was eaten",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_eaten_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was eaten by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_beaten",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was beaten to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забита', 'забит' )] насмерть",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] pobit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_beaten_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was beaten to death by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забита', 'забит')] до смерти, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] pobit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sacrificed_to_gods",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was sacrificed to the gods",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву богам",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] złożon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] bogom w ofierze",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sacrificed_to_gods_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was sacrificed to [TARGET_CHARACTER.GetUINamePossessive] gods",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен')] в жертву богам, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] złożon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w ofierze [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim bogom', Concatenate('bogom postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crucified",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crucified",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'распята', 'распят' )] на кресте",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] ukrzyżowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crucified_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crucified on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'распята', 'распят' )] на кресте по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'została ukrzyżowana', 'został ukrzyżowany' )] na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój rozkaz', Concatenate('rozkaz postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burned_witch",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was burned at the stake",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сожжена', 'сожжен' )] на костре",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] spalon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na stosie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burned_witch_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was burned at the stake on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сожжена', 'сожжен' )] на костре по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] spalon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na stosie na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój rozkaz', Concatenate('rozkaz postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_pilgrimage_bandit_attack",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was overcome by bandits while on a pilgrimage",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] бандитами во время паломничества",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] pokonan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez bandytów podczas pielgrzymki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bandit_attack",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cut down by bandits",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была изрублена', 'был изрублен' )] разбойниками",
+    "POL": "została zabita przez bandytów",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_starving_peasant_horde",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn apart by a horde of starving peasants",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части толпой голодных крестьян",
+    "POL": "została rozerwana na strzępy przez głodujących wieśniaków",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sun_trial",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "executed through Sun Trial",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] через Испытание Солнца",
+    "POL": "stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku próby Słońca",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sun_trial_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "executed through Sun Trial on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] через Испытание Солнца по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "stracon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w wyniku próby Słońca na [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twój rozkaz', Concatenate('rozkaz postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_attacked",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in an attack",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время нападения",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w ataku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_attacked_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was attacked and killed by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'została zaatakowana i zabita', 'został zaatakowany i zabity' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_feast_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died when a feast went horribly wrong",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] во время пира, на котором все пошло наперекосяк",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] podczas uczty, która potoczyła się bardzo źle",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fall",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell to [CHARACTER.GetHerHis] death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разбилась', 'разбился' )] насмерть",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku upadku z wysokości",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fell_bedchamber",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell from the window of [CHARACTER.GetHerHis] bedchamber to [CHARACTER.GetHerHis] death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разбилась', 'разбился' )] насмерть, выпав из окна своей спальни",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] wskutek wypadnięcia z okna swojej sypialni",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fell_wilderness",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell from [CHARACTER.GetHerHis] horse whilst traveling, breaking [CHARACTER.GetHerHis] neck",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] с лошади во время охоты, сломав шею",
+    "POL": "spadła z konia w trakcie podróży i skręciła sobie kark",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowned",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drowned",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'утонула', 'утонул' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] utopion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowned_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was drowned by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была утоплена', 'был утоплен' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вами', Concatenate('персонажем ',TARGET_CHARACTER.GetUIName))]",
+    "POL": "została utopiona przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_poison",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was poisoned",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'отравлена', 'отравлен' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] otrut[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_poison_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was poisoned by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'отравлена', 'отравлен' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] otrut[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crocodile",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was eaten by a crocodile",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была съедена', 'был съеден' )] крокодилом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez krokodyla",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dog_attack",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was mauled to death by a dog",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была загрызена', 'был загрызен' )] собакой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozszarpan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć przez psa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_eagle_attack",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was clawed to death by an eagle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забита', 'забит' )] насмерть орлиными когтями",
+    "POL": "ginie od rozszarpania przez orła",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cat_attack",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was scratched to death by a cat",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от кошачьих царапин",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] podrapan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć przez kota",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder_known",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was murdered by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder_known_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was murdered by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "— жертва убийства, устроенного [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_literalist_debate",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "suffered a heart attack after being utterly destroyed in a literalist debate",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от сердечного приступа после разгромного поражения во время буквалистских дебатов",
+    "POL": "dostał[Select_CString( CHARACTER.IsFemale, 'a', '' )] zawału serca po tym, jak został[Select_CString( CHARACTER.IsFemale, 'a', '' )] całkowicie zniszczon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w debacie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_literalist_debate_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "suffered a heart attack after [TARGET_CHARACTER.GetUIName] utterly destroyed [CHARACTER.GetHerHim] in a literalist debate",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от сердечного приступа после того, как [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] [Select_CString(TARGET_CHARACTER.IsFemale, 'разгромила', 'разгромил' )] [CHARACTER.GetHerHis] во время буквалистских дебатов",
+    "POL": "dostał[Select_CString( CHARACTER.IsFemale, 'a', '' )] zawału serca po tym, jak [TARGET_CHARACTER.GetUINameNotMe] całkowicie zniszczył[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [Select_CString( CHARACTER.IsFemale, 'ją', 'go' )] w debacie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wolf",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn apart by a wolf",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части волком",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozerwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na strzępy przez wilka",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wolves",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn apart by wolves",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части волками",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozerwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na strzępy przez wilki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bear",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ripped to shreds by a bear",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'растерзана', 'растерзан' )] на куски медведем",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozerwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na strzępy przez niedźwiedzia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wolverine",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was butchered by a wolverine",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'растерзана', 'растерзан' )] росомахой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zmasakrowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez rosomaka",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_lynx",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered by a lynx",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызен' )] рысью",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zarżnięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez rysia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_moose",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was massacred by an elk",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'растоптана', 'растоптан' )] лосем",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zmasakrowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez jelenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_hung_then_eaten",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually strangled, then eaten",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'задушена и съедена', 'задушен и съеден' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie uduszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )], a następnie zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_hung_then_eaten_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually strangled, then eaten, in the name of [TARGET_CHARACTER.GetUINamePossessive] faith",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'задушена и съедена', 'задушен и съеден')] из религиозных соображений, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie uduszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )], a następnie zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w imię [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojej wiary', Concatenate('wiary postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_hung",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually strangled",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'задушена', 'задушен' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie uduszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_hung_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually strangled in the name of [TARGET_CHARACTER.GetUINamePossessive] faith",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'задушена', 'задушен')] из религиозных соображений, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie uduszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w imię [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojej wiary', Concatenate('wiary postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_eaten",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually eaten",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ritually_eaten_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ritually eaten in the name of [TARGET_CHARACTER.GetUINamePossessive] faith",
+    "RUS": "ритуально [Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден')] из религиозных соображений, распоряжение [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'отдали', Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rytualnie zjedzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w imię [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twojej wiary', Concatenate('wiary postaci ', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crushed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crushed to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была задавлена', 'был задавлен' )] насмерть",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zmiażdżon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_botched_decapitation",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was almost decapitated",
+    "RUS": "почти [Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] niemalże zdekapitowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_botched_decapitation_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was almost decapitated by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "почти [Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы, и виной тому [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] niemalże zdekapitowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hanged",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was hanged",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была повешена', 'был повешен' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] powieszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_danced_to_death",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "danced [CHARACTER.GetHerselfHimself] to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'дотанцевалась', 'дотанцевался' )] до смерти",
+    "POL": "zatańczył[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_snakes",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by snakes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] змеями",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez węże",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowned_in_excrement",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drowned in excrement",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'утонула', 'утонул' )] в экскрементах",
+    "POL": "uton[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w ekskrementach",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_assassination",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was assassinated",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] uśmiercon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_assassination_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was assassinated by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )], и убийца — [TARGET_CHARACTER.GetUIName]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] uśmiercon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_trepanned",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a trepanning incident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при трепанации",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na skutek wypadku podczas trepanacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_trepanned_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was trepanned to death by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при трепанации от рук [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na skutek trepanacji dokonanej przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_riding_animal",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was ripped to shreds while trying to ride a wild beast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была разорвана', 'был разорван' )] в клочья при попытке оседлать дикого зверя",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] rozerwan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na strzępy podczas próby ujeżdżania dzikiej bestii",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_starved",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "starved to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от голода",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zagłodzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_starved_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was starved to death by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от голода по вине [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zagłodzon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na śmierć przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_while_assassinating",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cut down while attempting an assassination",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при попытке совершить убийство",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] ścięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas próby zamachu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_while_assassinating_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cut down while attempting to assassinate [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при попытке совершить убийство [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] ścięt[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas próby zamachu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_refused_to_be_imprisoned",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "slit their own neck rather than be caught",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'перерезала', 'перерезал' )] собственное горло, чтобы избежать поимки",
+    "POL": "podci[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] sobie szyję zamiast dać się złapać",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_strongest_potion",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drank a potion too strong for them",
+    "RUS": "не [Select_CString(CHARACTER.IsFemale, 'выдержала', 'выдержал' )] крепости зелья",
+    "POL": "wypił[Select_CString( CHARACTER.IsFemale, 'a', '' )] zbyt silną miksturę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_strongest_potion_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drank a potion made by [TARGET_CHARACTER.GetUIName] that was too strong for them",
+    "RUS": "не [Select_CString(CHARACTER.IsFemale, 'выдержала', 'выдержал' )] крепости зелья, которое приготовил [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )]",
+    "POL": "wypił[Select_CString( CHARACTER.IsFemale, 'a', '' )] zbyt silną miksturę przygotowaną przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_skull_removed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] skull removed",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] черепа",
+    "POL": "miał[Select_CString( CHARACTER.IsFemale, 'a', '' )] usuniętą czaszkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_skull_removed_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] skull surgically removed and preserved by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'подверглась', 'подвергся' )] хирургическому удалению черепа, который впоследствии сохранил [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )]",
+    "POL": "miał[Select_CString( CHARACTER.IsFemale, 'a', '' )] chirurgicznie usuniętą czaszkę i zachowaną przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_miniatures",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from stepping on a pointy miniature",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], наступив на остроконечную миниатюру",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na skutek nadepnięcia na szpiczastą miniaturę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_ice",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "walked out into the icy wastes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] на ледяных пустошах",
+    "POL": "wysz[Select_CString( CHARACTER.IsFemale, 'ła', 'edł' )] na lodowate pustkowia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_by_exploding_whale",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a giant carcass explosion",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] при взрыве китовой туши",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] na skutek ogromnej eksplozji padliny",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_flight_attempt",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died attempting to fly",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разбилась', 'разбился' )] при попытке полететь",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] próbując latać",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_beaten_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was beaten to death by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'забита', 'забит' )] до смерти разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a pobita', ' pobity' )] na śmierć przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burned_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was burned alive by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сожжена', 'сожжен' )] заживо разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a spalona', ' spalony' )] żywcem przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hanged_and_disemboweled_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was hanged and disemboweled by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'повешена', 'повешен' )] с выпущенными разъяренной толпой кишками",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a powieszona i wypatroszona', ' powieszony i wypatroszony' )] przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crucified_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crucified by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'распята', 'распят' )] на кресте разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a ukrzyżowana', ' ukrzyżowany' )] przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_defenestrated_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was thrown from a window by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выброшена', 'выброшен' )] из окна разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a wyrzucona', ' wyrzucony' )] z okna przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_molten_silver_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had molten silver poured down [CHARACTER.GetHerHis] throat by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] от расплавленного серебра, залитого [Select_CString(CHARACTER.IsFemale, 'ей', 'ему' )] в глотку разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zatrzymana', ' zatrzymany' )] przez rozwścieczony tłum, a następnie wlano [CHARACTER.GetHerHim] do gardła stopione srebro",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_torn_to_pieces_by_mob",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn to pieces by an angry mob",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части разъяренной толпой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rozerwana', ' rozerwany' )] na kawałki przez wściekły tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bell",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was decapitated and had their head used as a bell chime",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы, которая теперь используется в качестве колокола",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zdekapitowana', ' zdekapitowany' )], a [CHARACTER.GetHerHis] głowę wykorzystano jako dzwon",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bell_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was decapitated by [TARGET_CHARACTER.GetUIName] and had their head used as a bell chime",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'лишилась', 'лишился' )] головы по воле [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )], которая теперь используется в качестве колокола",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zdekapitowana', ' zdekapitowany' )] przez [TARGET_CHARACTER.GetUINameNotMe], a [CHARACTER.GetHerHis] głowę wykorzystano jako dzwon",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bell_revenge",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was brought to justice after going on a musical killing spree",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'понесла', 'понес' )] законное наказание за музыкальные убийства",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'stanęła', 'stanął' )] przed sądem po tym, jak wpadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w muzyczny szał zabijania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_scuffle_with_soldiers",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in a scuffle with soldiers",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в стычке с солдатами",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'zginęła', 'zginął' )] w starciu z żołnierzami",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_scuffle_with_soldiers_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in a scuffle with soldiers ordered by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в стычке с солдатами по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( CHARACTER.IsFemale, 'zginęła', 'zginął' )] w starciu z żołnierzami na rozkaz, który wydał[Select_CString( TARGET_CHARACTER.IsFemale, 'a', '' )] [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_for_corpse_forest",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was impaled",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'насажена', 'насажен' )] на кол",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] nabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na pal",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_for_corpse_forest_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was impaled in [TARGET_CHARACTER.GetUINamePossessive] forest of corpses",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'насажена', 'насажен' )] на кол в лесу трупов [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] nabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] na pal w lesie pełnym trupów należącym do osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_harem_slave",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was stabbed to death by a harem slave",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была заколота', 'был заколот' )] гаремным рабом",
+    "POL": "została zadźgana na śmierć przez niewolnicę z haremu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murdered_by_religious_rebels",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was assassinated by religious rebels",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] религиозными мятежниками",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez religijnych buntowników",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_constipation",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of severe constipation",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от запора",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu ciężkich zaparć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_court_intrigue",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "perished in vicious court intrigues",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сгинула', 'сгинул' )] в хитросплетениях придворных интриг",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w następstwie podstępnych intryg dworskich",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_horrible_disease",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from a horrible disease",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от жуткой болезни",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na straszną chorobę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_thirst",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from thirst",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от жажды",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z pragnienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_celebrated_man",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died a celebrated man",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в блеске славы",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] jako sławny człowiek",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_khurramites",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "killed by the Khurramites",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] хуррамитами",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez churramitów",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_prison",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in prison",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в тюрьме",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w więzieniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_prison_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in the prison of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] в тюрьме, куда [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] [Select_CString(TARGET_CHARACTER.IsFemale, 'бросила', 'бросил' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'twoim więzieniu', 'więzieniu postaci ' TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_botched_head_binding",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from a botched ritual head binding",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от неумелого ритуального перевязывания головы",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w wyniku spartaczonego rytuału wiązania głowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_euthanasia",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "has reached an end to [CHARACTER.GetHerHis] sufferings",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'отмучилась', 'отмучился' )]",
+    "POL": "zakończył[Select_CString( CHARACTER.IsFemale, 'a', '' )] swoje cierpienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_euthanasia_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was put out of [CHARACTER.GetHerHis] misery by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'рассталась', 'расстался' )] со своей жалкой жизнью по воле [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a dobita', ' dobity' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_launched_out_of_catapult",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was launched out of a catapult",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была запущена', 'был запущен' )] из катапульты",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a wystrzelona', ' wystrzelony' )] z katapulty",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_archery_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by a stray arrow",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] случайной стрелой",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] od zabłąkanej strzały",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murdered_by_rebels",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was murdered by rebels",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] мятежниками",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zamordowana', ' zamordowany' )] przez rebeliantów",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_smothered_by_downy_robe",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was smothered in a downy robe",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была задушена', 'был задушен' )] пушистым халатом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a uduszona', ' uduszony' )] puchowym szlafrokiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_smothered_by_downy_robe_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was smothered in a downy robe on the orders of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была задушена', 'был задушен' )] пушистым халатом, и приказ об этом [Select_CString(TARGET_CHARACTER.IsFemale, 'отдала', 'отдал' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "została uduszona puchowym szlafrokiem z rozkazu osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_by_buddhists",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "killed by Buddhists",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] буддистами",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] buddystów",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_martyrdom",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was martyred",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] мученической смертью",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zamęczona', ' zamęczony' )] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_martyrdom_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was martyred by",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] мученической смертью, и в ответе за это",
+    "POL": "została zamęczona przez osobę znaną jako",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cut_down_by_many_swords",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cut down by many swords",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была изрублена', 'был изрублен' )] множеством мечей",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a ścięta', ' ścięty' )] wieloma mieczami",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_flogged_by_censors",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was flogged for their insobriety",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была избита', 'был избит' )] плетью за пьянство",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a wychłostana', ' wychłostany' )] za swoje nieposłuszeństwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_trampled",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was trampled to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] насмерть",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zadeptana', ' zadeptany' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_trampled_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was trampled to death on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] насмерть по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )|l][TARGET_CHARACTER.GetUINamePossessive|l][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "została zadeptana na śmierć z rozkazu osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_lost_in_the_forest",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was lost in the forest and never seen again",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'заблудилась', 'заблудился' )] в лесу и [Select_CString(CHARACTER.IsFemale, 'пропала', 'пропал' )] без вести",
+    "POL": "zgubił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się w lesie i nigdy więcej [Select_CString( CHARACTER.IsFemale, 'jej', 'go' )] nie widziano",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cuteness_overload",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "witnessed the ultimate cuteness and passed on",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'увидела', 'увидел' )] милейшее создание в мире и [Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )]",
+    "POL": "była świadkiem najwspanialszej słodyczy, wskutek czego zmarła",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_maimed_by_wild_beast",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was maimed by a wild beast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была изувечена', 'был изувечен' )] диким зверем",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] okaleczona przez dzikie zwierze",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crushed_by_elephant",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crushed by an elephant",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была раздавлена', 'был раздавлен' )] слоном",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zmiażdżona', ' zmiażdżony' )] przez słonia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fire",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died in a fire",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] в огне",
+    "POL": "spłon[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wyniku pożaru",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_equipment",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell on some equipment and died",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала на снаряжение и умерла', 'упал на снаряжение и умер' )]",
+    "POL": "upadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na jakieś wyposażenie i zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_axe",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "took an axe to the face and died",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'получила', 'получил' )] топором по лицу и [Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )]",
+    "POL": "dostał[Select_CString( CHARACTER.IsFemale, 'a', '' )] siekierą w twarz i zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bull_charge",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by a bull charge",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] напавшим быком",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] wskutek szarży byka",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_manhunted",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was manhunted and killed",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] целью охоты и [Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a upolowana i zabita', ' upolowany i zabity' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_manhunted_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was manhunted and killed by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] целью охоты и [Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a upolowana i zabita', ' upolowany i zabity' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_manhunted_eaten",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was manhunted and eaten",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] целью охоты, [Select_CString(CHARACTER.IsFemale, 'была убита и съедена', 'был убит и съеден' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a upolowana i pożarta', ' upolowany i pożarty' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_manhunted_eaten_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was manhunted and eaten by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'стала', 'стал' )] целью охоты, [Select_CString(CHARACTER.IsFemale, 'была убита и съедена', 'был убит и съеден' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a upolowana i pożarta', ' upolowany i pożarty' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_revenge",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in an act of vengeance",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] в качестве мести",
+    "POL": "została zabita w akcie zemsty",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_revenge_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by [TARGET_CHARACTER.GetUIName] in an act of vengeance",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в качестве мести",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zabita', ' zabity' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))] w akcie zemsty",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_too_much_dessert",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of a faint heart after eating too much dessert",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от слабого сердца, объевшись десертом",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na serce z powodu zjedzenia zbyt dużej ilości deseru",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_too_much_dessert_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was fed a dessert poisoned by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'отравлена', 'отравлен' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] с помощью десерта",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a poczęstowana', ' poczęstowany' )] przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', Concatenate('', TARGET_CHARACTER.GetShortUINameNotMe))] zatrutym deserem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_choked",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "choked on [CHARACTER.GetHerHis] food",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'подавилась', 'подавился' )] едой",
+    "POL": "zakrztusił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się jedzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_choked_pus",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "choked on quincy-induced pus",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'захлебнулась', 'захлебнулся' )] гноем",
+    "POL": "zakrztusił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się ropą spowodowaną zapaleniem migdałków",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_spectator_injured",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by an accident at a Tournament",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] из-за несчастного случая на турнире",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w wyniku wypadku podczas turnieju",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drank_to_death",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drank [CHARACTER.GetHerselfHimself] into such a stupor that [CHARACTER.GetSheHe] died",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'напилась', 'напился' )] до беспамятства и [Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )]",
+    "POL": "zapił[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_coup_successful",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a successful palace coup",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время успешного дворцового переворота",
+    "POL": "została zabita podczas udanego przewrotu pałacowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_coup_successful_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_coup_successful$ by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "$death_coup_successful$ [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "$death_coup_successful$ przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_coup_failed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed during a failed palace coup",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'казнена', 'казнен' )] во время неудачного дворцового переворота",
+    "POL": "została zabita podczas nieudanego przewrotu pałacowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_coup_failed_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_coup_failed$ by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "$death_coup_failed$ [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "$death_coup_failed$ przez [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetShortUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_lost_in_the_bog",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "went missing in the bog and was never seen again",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'заблудилась', 'заблудился' )] в болоте и [Select_CString(CHARACTER.IsFemale, 'пропала', 'пропал' )]",
+    "POL": "zagin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w bagnie i nigdy więcej [Select_CString( CHARACTER.IsFemale, 'jej', 'go' )] nie widziano",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hypothermia",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "froze to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'замерзла', 'замерз' )] насмерть",
+    "POL": "zamarzł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dragged",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dragged to death in chains",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] проволокли в цепях",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zadręczona', ' zadręczony' )] na śmierć, będąc zakut[Select_CString( CHARACTER.IsFemale, 'a', 'ym' )] w łańcuchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_dragged_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dragged to death in chains by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'проволокла', 'проволок' )] [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] в цепях",
+    "POL": "była wleczona w łańcuchach przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe], przez co zmarła",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sea_storm",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in a storm at sea",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время шторма на море",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] podczas sztormu na morzu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_melee_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed in a tournament melee",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в ближнем бою на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] w turniejowej walce wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_melee_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed by [TARGET_CHARACTER.GetUIName] in a tournament melee",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в ближнем бою на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowej walki wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_joust_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed in a tournament joust",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в рыцарском поединке на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas turniejowej walki na kopie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_joust_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed by [TARGET_CHARACTER.GetUIName] in a tournament joust",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в рыцарском поединке на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowej walki na kopie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_pas_darmes_defend",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from wounds inflicted while defending [CHARACTER.GetHerHis] pas d'armes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран, полученных при защите падарма",
+    "POL": "zmarła w wyniku ran odniesionych podczas obrony swego stanowiska w walce o przejście",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_pas_darmes_defend_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from wounds inflicted while defending [CHARACTER.GetHerHis] pas d'armes against [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран, полученных при защите падарма от [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "zmarła w wyniku ran odniesionych podczas obrony swego stanowiska w walce o przejście z osobą znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_pas_darmes_challenge",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from wounds inflicted while challenging a pas d'armes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран, бросив вызов за падарм",
+    "POL": "zmarła w wyniku ran odniesionych po rzuceniu wyzwania w ramach walki o przejście",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_pas_darmes_challenge_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from wounds inflicted while challenging [TARGET_CHARACTER.GetUINamePossessive] pas d'armes",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран, бросив [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )] вызов за падарм",
+    "POL": "zmarła w wyniku ran odniesionych po rzuceniu wyzwania w ramach walki o przejście przeciwko osobie znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_wild_animal",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was mauled alive by a wild beast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была до смерти забита', 'был до смерти забит' )] диким зверем",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] żywcem rozszarpan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez dziką bestię",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_archery_fall",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died after falling off a horse whilst during a horse archery competition",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], упав с лошади во время состязаний по конной стрельбе из лука",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] po upadku z konia podczas zawodów strzeleckich",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_quintain_hit",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died after a quintain knocked [CHARACTER.GetHerHim] completely off [CHARACTER.GetHerHis] horse during a tournament",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда столб сбил [CHARACTER.GetHerHis|l] с лошади во время турнира",
+    "POL": "zmarła po tym, jak manekin zrzucił [CHARACTER.Custom('PL_go_ja')] z konia podczas turnieju",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_piledriver",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dropped on [CHARACTER.GetHerHis] head during a tournament wrestling match",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [CHARACTER.GetHerHis|l] бросили головой на землю во время состязания по борьбе на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rzucona', ' rzucony' )] na głowę podczas turnieju zapaśniczego",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_piledriver_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dropped on [CHARACTER.GetHerHis] head by [TARGET_CHARACTER.GetUIName] during a tournament wrestling match",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )], когда [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'бросила', 'бросил' )] [CHARACTER.GetHerHis|l] головой на землю во время состязания по борьбе на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rzucona', ' rzucony' )] na głowę podczas turnieju zapaśniczego przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_melee_throat",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "suffered fatal wounds during a melee at a tournament",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран во время ближнего боя на турнире",
+    "POL": "odni[Select_CString( CHARACTER.IsFemale, 'osła', 'ósł' )] śmiertelne rany podczas turniejowej walki wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_melee_throat_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "suffered fatal wounds during a melee at a tournament",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от ран во время ближнего боя на турнире",
+    "POL": "odni[Select_CString( CHARACTER.IsFemale, 'osła', 'ósł' )] śmiertelne rany podczas turniejowej walki wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_roundhouse",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died after having [CHARACTER.GetHerHis] neck snapped by a kick during a tournament fistfight",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] после перелома шеи во время кулачного боя на турнире",
+    "POL": "zmarła wskutek kopnięcia [Select_CString( CHARACTER.IsFemale, 'jej', 'go' )] w szyję podczas turniejowej walki na pięści",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_roundhouse_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died after having [CHARACTER.GetHerHis] neck snapped by a kick from [TARGET_CHARACTER.GetUIName] during a tournament fistfight",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] после того, как [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsFemale, 'сломала', 'сломал' )] [CHARACTER.GetHerHim|l] шею во время кулачного боя на турнире",
+    "POL": "zmarła wskutek kopnięcia [Select_CString( CHARACTER.IsFemale, 'jej', 'go' )] w szyję przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowej walki na pięści ",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sacrificed_to_foreign_gods",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was sacrificed to foreign gods",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву иноземным богам",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a złożona', ' złożony' )] w ofierze obcym bogom",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_sacrificed_to_foreign_gods_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was sacrificed to foreign gods by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'принесена', 'принесен' )] в жертву иноземным богам [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a złożona', ' złożony' )] w ofierze obcym bogom przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tournament_stands_collapsed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed when [CHARACTER.GetHerHis] tournament stand collapsed",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб' )] во время падения трибуны на турнире",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )], gdy zawaliła się na [Select_CString( CHARACTER.IsFemale, 'nią', 'niego' )] trybuna podczas turnieju",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_duel_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed in a tournament duel",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в поединке на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas turniejowego pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_duel_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed by [TARGET_CHARACTER.GetUIName] in a tournament duel",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в поединке на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowego pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_wrestling_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed in a tournament wrestling bout",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] в борьбе на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas turniejowej walki zapaśniczej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_wrestling_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed by [TARGET_CHARACTER.GetUIName] in a tournament wrestling bout",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в борьбе на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowej walki zapaśniczej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_board_game_accident",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed during a tournament board-game match",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] во время настольной игры на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas turniejowej gry planszowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_contest_board_game_accident_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally killed by [TARGET_CHARACTER.GetUIName] during a tournament board-game match",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] во время настольной игры на турнире",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas turniejowej gry planszowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bloody_wedding",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a $wedding_type_bloody$",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на кровавой свадьбе",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas krwawego ślubu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bloody_wedding_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a $wedding_type_bloody$ by order of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на кровавой свадьбе по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas krwawego ślubu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder_feast",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a feast",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на пиру",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zamordowana', ' zamordowany' )] podczas uczty",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_murder_feast_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed during a feast by order of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] на пиру по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zamordowana', ' zamordowany' )] podczas uczty z [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twojego rozkazu', Concatenate('z rozkazu postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_courtier_mistakenly_stabbed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally slain by a courtier during a scuffle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно зарезана', 'был случайно зарезан' )] придворным в драке",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez dworzanina podczas bójki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_courtier_mistakenly_stabbed_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally slain by [TARGET_CHARACTER.GetUINamePossessive] hand during a scuffle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно зарезана', 'был случайно зарезан' )] в драке [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] podczas bójki",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_violent_storm",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "perished during the chaos of a violent storm",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сгинула', 'сгинул' )] во время свирепой грозы",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w chaosie gwałtownej burzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_apoplexy",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "succumbed to fatal apoplexy",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от апоплексического удара",
+    "POL": "uległ[Select_CString( CHARACTER.IsFemale, 'a', '' )] śmiertelnej apopleksji",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_run_over_cart",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was run over by a speeding cart",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была раздавлена', 'был раздавлен' )] несущейся повозкой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] śmiertelnie potrącon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez rozpędzoną furmankę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crushed_in_chariot_race",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crushed in a chariot racing accident",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разбилась', 'разбился' )] в столкновении на гонках колесниц",
+    "POL": "została zmiażdżona w wypadku podczas wyścigu rydwanów",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_chariot_race_trick",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died attempting to impress the Hippodrome",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разбилась', 'разбился' )] при попытке впечатлить зрителей на ипподроме",
+    "POL": "zginęła, usiłując zaimponować widzom na hipodromie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_deer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was skewered on a stag's antlers",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была проткнута', 'был проткнут' )] оленьими рогами",
+    "POL": "nadział[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na poroże jelenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fox",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was bitten by a cornered fox",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была покусана', 'был покусан' )] загнанной в угол лисой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a ugryziona', ' ugryziony' )] przez osaczonego lisa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_antelope",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was trampled by an antelope",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] антилопой",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rozdeptana', ' rozdeptany' )] przez antylopę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_gazelle",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was kicked by a gazelle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была забита', 'был забит' )] копытами газели",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a kopnięta', ' kopnięty' )] przez gazelę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_bison",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was charged by a bison",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] бизоном",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zaatakowana', ' zaatakowany' )] przez bizona",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_boar",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was gored on a boar's tusks",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была проткнута', 'был проткнут' )] кабаньими клыками",
+    "POL": "nadział[Select_CString( CHARACTER.IsFemale, 'a', '' )] się na kły dzika",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_aurochs",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was mauled by an aurochs",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] туром",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a poturbowana', ' poturbowany' )] przez tura",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hyena",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was jumped by a hyena",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была загрызена', 'был загрызен' )] гиеной",
+    "POL": "została zaatakowana przez hienę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_lion",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was savaged by a lion",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была загрызена', 'был загрызен' )] львом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a pokiereszowana', ' pokiereszowany' )] przez lwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_tiger",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was mutilated by a tiger",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была изувечена', 'был изувечен' )] тигром",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a okaleczona', ' okaleczony' )] przez tygrysa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_leopard",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was mangled by a leopard",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была задрана', 'был задран' )] леопардом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a rozszarpana', ' rozszarpany' )] przez lamparta",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_roe",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was punted by a roe buck",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] самцом косули",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a kopnięta', ' kopnięty' )] przez kozła sarny",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hart",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was gored on the tines of a hart",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была насажена', 'был насажен' )] на оленьи рога",
+    "POL": "została nadziana na poroże jelenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_trap",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell into a trap while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] в ловушку во время охоты",
+    "POL": "wpadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] w pułapkę podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mistakenly_shot",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally felled by another party-member's arrow while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] стрелой другого участника охоты",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo trafion[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] strzałą przez innego członka grupy podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mistakenly_shot_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally felled by [TARGET_CHARACTER.GetUINamePossessive] arrow while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] стрелой [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] во время охоты",
+    "POL": "została przypadkowo trafiona strzałą należącą do osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe] podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mistakenly_stabbed",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally slain by another party-member while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] другим участником охоты",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] przypadkowo zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] podczas polowania przez innego członka grupy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mistakenly_stabbed_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was accidentally slain at [TARGET_CHARACTER.GetUINamePossessive] hand while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была случайно убита', 'был случайно убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] во время охоты",
+    "POL": "została przypadkowo zabita przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe] podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mysterious",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died under mysterious circumstances while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] при загадочных обстоятельствах во время охоты",
+    "POL": "zgin[Select_CString( CHARACTER.IsFemale, 'ęła', 'ął' )] w tajemniczych okolicznościach podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunting_mysterious_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed by [TARGET_CHARACTER.GetUIName] under mysterious circumstances while hunting",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] при загадочных обстоятельствах во время охоты",
+    "POL": "została zabita w tajemniczych okolicznościach przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe] podczas polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_slaughtered_by_guards",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was butchered by armed guards in a melee",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] вооруженными охранниками в ближнем бою",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez uzbrojonych strażników w walce wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_camp_fever",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "passed from a sudden, virulent disease camping with [CHARACTER.GetHerHis] army",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от заразной болезни, поразившей армейский лагерь",
+    "POL": "zmarła z powodu nagłej zjadliwej choroby podczas obozowania ze swoją armią",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_march_malaise",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died suddenly of a minor illness when on the march",
+    "RUS": "внезапно [Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от незначительной болезни во время марша",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] nagle podczas marszu wskutek lekkiej choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_froze",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "froze to death",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'замерзла', 'замерз' )] насмерть",
+    "POL": "zamarzł[Select_CString( CHARACTER.IsFemale, 'a', '' )] na śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_heatstroke",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died of heatstroke",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от теплового удара",
+    "POL": "zmarł[Select_CString( CHARACTER.IsFemale, 'a', '' )] z powodu udaru cieplnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_assassinated_by_soldiers",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was assassinated by disgruntled soldiers",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] недовольными солдатами",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zamordowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez niezadowolonych żołnierzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cut_off_by_enemy_troops_offensive",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered by enemy soldiers when advancing too far without support",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] вражескими солдатами, слишком далеко оторвавшись от своей свиты",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez żołnierzy wroga gdy nacierała zbyt daleko bez wsparcia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_cut_off_by_enemy_troops_defensive",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered by enemy soldiers during a chaotic retreat",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] вражескими солдатами во время хаотичного отступления",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zabit[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] przez żołnierzy wroga podczas chaotycznego odwrotu",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fallen_from_a_mountain",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell from a mountain trail",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] с горной тропы",
+    "POL": "spadła z górskiego szlaku",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_mountain_rescue_operation",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died on a mountain slope heroically attempting to rescue a fellow traveler",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'погибла', 'погиб')] на склоне горы, героически спасая спутника",
+    "POL": "zginęła bohatersko na zboczu góry, próbując uratować współtowarzysza podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fall_in_hole",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "fell in a hole",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] в яму",
+    "POL": "wpadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] do dziury",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_fall_in_hole_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was pushed into a hole by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'упала', 'упал' )] в яму при деятельном участии [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a wtrącona', ' wtrącony' )] do dziury przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_stampede",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was trampled by a stampeding herd",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] бегущим стадом",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a stratowana', ' stratowany' )] przez stado dzikich zwierząt",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_avalanche",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was buried by an avalanche",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была погребена', 'был погребен' )] под лавиной",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a zasypana', ' zasypany' )] przez lawinę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_poisonous_forage",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "ate some poisonous plants by mistake",
+    "RUS": "по ошибке [Select_CString(CHARACTER.IsFemale, 'съела', 'съел' )] ядовитое растение",
+    "POL": "przez pomyłkę zjadł[Select_CString( CHARACTER.IsFemale, 'a', '' )] kilka trujących roślin",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowning_in_terrain",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dragged down and drowned by [CHARACTER.GetHerHis] horse while trying to save it",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была утянута на дно и утоплена', 'был утянут на дно и утоплен' )] своей же лошадью при попытке ее спасти",
+    "POL": "została zaciągnięta do wody przez swojego konia i utopiona, gdy usiłowała go ocalić",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowning_in_terrain_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dragged down and drowned by [TARGET_CHARACTER.GetUINamePossessive] horse while trying to save it",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была утянута на дно и утоплена', 'был утянут на дно и утоплен' )] лошадью [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetUINamePossessive][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] при попытке ее спасти",
+    "POL": "została zaciągnięta do wody przez konia osoby, którą jest [TARGET_CHARACTER.GetUINameNotMe], i utopiona, gdy usiłowała go ocalić",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hostage_execution",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed while being a hostage",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была казнена', 'был казнен' )] будучи заложником",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a stracona', ' stracony' )] będąc zakładni[Select_CString( CHARACTER.IsFemale, 'czką', 'kiem' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hostage_execution_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was executed while being [TARGET_CHARACTER.GetUINamePossessive] hostage",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была казнена', 'был казнен' )] будучи заложником у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "został[Select_CString( CHARACTER.IsFemale, 'a stracona', ' stracony' )] przez [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ciebie', TARGET_CHARACTER.GetUINameNotMe)] będąc zakładni[Select_CString( CHARACTER.IsFemale, 'czką', 'kiem' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_peaceful",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was collected by [CHARACTER.GetFaith.HighGodName] in [CHARACTER.GetHerHis] sleep",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'ушла', 'ушел' )] из жизни во сне по воле [CHARACTER.GetFaith.HighGodNamePossessive]",
+    "POL": "została zabrana przez [CHARACTER.GetFaith.HighGodNamePossessive] we śnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_kennel",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was eaten by dogs",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден' )] собаками",
+    "POL": "została zjedzona przez psy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_kennel_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was eaten by dogs on [TARGET_CHARACTER.GetUINamePossessive] orders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'съедена', 'съеден' )] собаками по приказу [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "została zjedzona przez psy na rozkaz osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_thrown_off_kathisma",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was hurled from the imperial box",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выброшена', 'выброшен' )] из императорской ложи",
+    "POL": "została zrzucona z loży cesarskiej",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_thrown_off_kathisma_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was hurled from the imperial box by [TARGET_CHARACTER.GetUINamePossessive] agents",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выброшена', 'выброшен' )] из императорской ложи соучастниками [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "została zrzucona z loży cesarskiej przez wspólników osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_thrown_onto_chariot_track",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was hurled onto the Hippodrome's track and crushed by a chariot",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выброшена', 'выброшен' )] на ипподром и [Select_CString(CHARACTER.IsFemale, 'раздавлена', 'раздавлен' )] колесницей",
+    "POL": "została zrzucona na tor hipodromu i zmiażdżona przez rydwan",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_thrown_onto_chariot_track_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was thrown onto the Hippodrome's track by [TARGET_CHARACTER.GetUIName] and crushed by a chariot",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выброшена', 'выброшен' )] на ипподром [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'им персонажем', '' )] и [Select_CString(CHARACTER.IsFemale, 'раздавлена', 'раздавлен' )] колесницей",
+    "POL": "została zrzucona na tor hipodromu przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe] i zmiażdżona przez rydwan",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_while_attempting_murder",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed while attempting murder",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время покушения на убийство",
+    "POL": "zginęła podczas próby zabójstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_while_attempting_murder_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed while attempting to murder [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] при попытке убийства [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "zginęła podczas próby zabicia osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_castration",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was castrated poorly and bled unceasingly",
+    "RUS": "был неудачно кастрирован, кровь не удалось остановить",
+    "POL": "została nieudolnie wykastrowana i wykrwawiła się",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_greek_fire",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was immolated by Greek fire during battle",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была сожжена', 'был сожжен' )] греческим огнем во время битвы",
+    "POL": "została spalona przez ogień grecki w trakcie bitwy",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_greek_fire_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was immolated by Greek fire during battle against [TARGET_CHARACTER.GetUINamePossessive] fleet",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была сожжена', 'был сожжен' )] греческим огнем во время битвы с флотом, которым [Select_CString(TARGET_CHARACTER.IsFemale, 'командовала', 'командовал' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонаж ' )][TARGET_CHARACTER.GetUINamePossessive][Select_CString(task_contract_employer.IsLocalPlayer, ' персонаж', '' )]",
+    "POL": "została spalona przez ogień grecki w trakcie bitwy przeciwko flocie osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_frankokratia_sacking",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered by Latin crusaders as Byzantium burned",
+    "RUS": "убит латинскими крестоносцами, пока Византия горела",
+    "POL": "została zarżnięta przez łacińskich krzyżowców, gdy płonęło Bizancjum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_gok_slaughter",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered by invading nomads",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] вторгшимися кочевниками",
+    "POL": "została zamordowana przez najeźdźców-koczowników",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_raid_estate",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in an estate raid",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время налета на поместье",
+    "POL": "została zabita w najeździe na majątek",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_raid_estate_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was killed in an estate raid orchestrated by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время налета на поместье, за которым [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'стоите', 'стоит' )] [TARGET_CHARACTER.GetUIName]",
+    "POL": "została zabita w najeździe na majątek zorganizowanym przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_attacking_laamp_train",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was cut down whilst attacking an adventure's baggage train",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была изрублена', 'был изрублен' )] во время атаки на обоз авантюриста",
+    "POL": "została zabita podczas ataku na karawanę bagażową poszukiwacza przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_struck_by_lightning",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was struck by lightning",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] молнией",
+    "POL": "została porażona przez błyskawicę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_swept_away_by_avalanche",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was swept away by a devastating avalanche",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сметена', 'сметен' )] сокрушительной лавиной",
+    "POL": "została porwana przez niszczycielską lawinę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_burnt_in_wild_fire",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "burnt to death in a wildfire",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сгорела', 'сгорел' )] во время лесного пожара",
+    "POL": "została spalona żywcem podczas pożaru",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_swept_away_by_flash_flood",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was swept away by a deadly flash flood",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'сметена', 'сметен' )] внезапным паводком",
+    "POL": "została porwana przez zabójczą powódź błyskawiczną",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_drowned_in_hidden_icy_water",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "drowned when [CHARACTER.GetSheHe] fell through ice into freezing cold water",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'утонула', 'утонул' )] в ледяной воде, провалившись под лед",
+    "POL": "utonęła w lodowatej wodzie, gdy załamał się pod nią lód",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_consumed_by_earthquake",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was consumed by the Earth's maw when the land itself split apart",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'провалилась', 'провалился' )] в разверзшуюся в земле пропасть",
+    "POL": "została pochłonięta, gdy rozwarła się pod nią ziemia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_disappeared_into_slave_markets",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was barbarically sold into obscurity in some distant foreign land",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'варварски продана', 'варварски продан' )] на далекой чужбине, пропав без вести",
+    "POL": "została barbarzyńsko sprzedana w jakiejś odległej obcej krainie",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_disappeared_into_slave_markets_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_disappeared_into_slave_markets$ by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "$death_disappeared_into_slave_markets$, и [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'стоите', 'стоит' )] за этим [TARGET_CHARACTER.GetUIName]",
+    "POL": "$death_disappeared_into_slave_markets$ przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_hunted_by_wild_beast",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was dragged away, torn apart, and — presumably — eaten by some mysterious night-time monster",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'унесена, разорвана на части и, предположительно, съедена', 'унесен, разорван на части и, предположительно, съеден' )] каким-то ночным чудовищем",
+    "POL": "została powłóczona, rozdarta na strzępy i – najprawdopodobniej – pożarta przez tajemniczą bestię grasującą nocą",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_dog",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn apart by a huge feral dog",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части диким псом",
+    "POL": "została rozerwana na strzępy przez ogromnego, zdziczałego psa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_wolf",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torn to pieces by a monstrous wolf",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на части чудовищным волком",
+    "POL": "została rozdarta na kawałki przez straszliwego wilka",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_hyena",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was disembowelled by a monstrous hyena",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выпотрошена', 'выпотрошен' )] чудовищной гиеной",
+    "POL": "została rozpruta przez straszliwą hienę",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_lion",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was bitten in half by a monstrous lion",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'перекушена', 'перекушен' )] пополам чудовищным львом",
+    "POL": "została przegryziona na pół przez straszliwego lwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_tiger",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was torns to bloody ribbons by a monstrous tiger",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на кровавые ошметки чудовищным тигром",
+    "POL": "została zmasakrowana przez straszliwego tygrysa",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_leopard",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] throat torn out by a monstrous leopard",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызен' )] чудовищным леопардом",
+    "POL": "padła ofiarą potwornego geparda, który rozszarpał jej gardło",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_panther",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] throat torn out by a monstrous panther",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызен' )] чудовищной пантерой",
+    "POL": "padła ofiarą potwornej pantery, która rozszarpała jej gardło",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_lynx",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] throat torn out by a monstrous lynx",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызен' )] чудовищной рысью",
+    "POL": "padła ofiarą potwornego rysia, który rozszarpał jej gardło",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_caracal",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "had [CHARACTER.GetHerHis] throat torn out by a monstrous caracal",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'загрызена', 'загрызен' )] чудовищным каракалом",
+    "POL": "padła ofiarą potwornego karakala, który rozszarpał jej gardło",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_bear",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was reduced to a collection of gristle by a monstrous bear",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'разорвана', 'разорван' )] на куски чудовищным медведем",
+    "POL": "została przerobiona przez straszliwego niedźwiedzia na kupkę krwawych chrząstek",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_hippo",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was swallowed in several messy, spine-snapping bites by a monstrous hippo",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'проглочена', 'проглочен' )] несколькими кусками чудовищным гиппопотамом",
+    "POL": "została pochłonięta przez straszliwego hipopotama w ciągu kilku miażdżących ruchów szczęk",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_killed_by_monstrous_crocodile",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was disembowelled by a monstrous crocodile",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'выпотрошена', 'выпотрошен' )] чудовищным крокодилом",
+    "POL": "została rozpruta przez straszliwego krokodyla",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_slain_in_riot",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was slaughtered in a riot",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'убита', 'убит' )] во время мятежа",
+    "POL": "została zabita podczas zamieszek",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_slain_in_riot_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_slain_in_riot$ due to [TARGET_CHARACTER.GetUIName]",
+    "RUS": "$death_slain_in_riot$, и виной тому [TARGET_CHARACTER.GetUIName]",
+    "POL": "$death_slain_in_riot$ z powodu osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_snake",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "died from a snake bite",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'умерла', 'умер' )] от укуса змеи",
+    "POL": "zginęła od ukąszenia węża",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_shot_by_arrows",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was riddled with arrows",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была утыкана', 'был утыкан' )] стрелами",
+    "POL": "została podziurawiona strzałami",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_shot_by_arrows_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_slain_in_riot$ loosed by [TARGET_CHARACTER.GetUINamePossessive] riders",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] во время мятежа всадниками, которых [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'послали', Select_CString(TARGET_CHARACTER.IsFemale, 'послала', 'послал' ))] [TARGET_CHARACTER.GetUIName]",
+    "POL": "$death_slain_in_riot$ wywołanych przez jeźdźców osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crowd_stampede",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "was crushed by a stampeding crowd",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была затоптана', 'был затоптан' )] толпой",
+    "POL": "została zmiażdżona przez pędzący tłum",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_crowd_stampede_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_slain_in_riot$ during the coronation of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'была убита', 'был убит' )] во время мятежа во время коронации персонажа [TARGET_CHARACTER.GetUIName]",
+    "POL": "$death_slain_in_riot$ w trakcie koronacji osoby znanej jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_avoid_dishonor",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "committed suicide to avoid dishonor",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'покончила', 'покончил' )] с собой, чтобы сохранить свою честь.",
+    "POL": "popełniła samobójstwo w celu uniknięcia zhańbienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_avoid_dishonor_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_avoid_dishonor$ at the hand of [TARGET_CHARACTER.GetUIName]",
+    "RUS": "[Select_CString(CHARACTER.IsFemale, 'покончила', 'покончил' )] с собой, чтобы сохранить свою честь, и [TARGET_CHARACTER.GetUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'помогли', Select_CString(TARGET_CHARACTER.IsFemale, 'помогла', 'помог' ))] с этим",
+    "POL": "$death_avoid_dishonor$ przez postać znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_eradicated",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "and all their house were executed",
+    "RUS": "При этом все члены [Select_CString(CHARACTER.IsFemale, 'ее', 'его' )] дома были казнены",
+    "POL": "i cały jej ród został zgładzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "death_eradicated_killer",
+    "FILE_PATH": "localization/belarusian/death_reasons_l_belarusian.json",
+    "ENG": "$death_eradicated$ by [TARGET_CHARACTER.GetUIName]",
+    "RUS": "и все члены дома были казнены [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вами', Concatenate('персонажем ',TARGET_CHARACTER.GetShortUIName))]",
+    "POL": "$death_eradicated$ przez osobę znaną jako [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  }
+]

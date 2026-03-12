@@ -1,0 +1,1746 @@
+[
+  {
+    "KEY": "offer_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Offer Hostage",
+    "RUS": "Предложить заложника",
+    "POL": "Zaoferuj zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_hostage_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Send a [hostage|E] to [recipient.GetShortUINameNoTooltip] as an assurance you will not attack [recipient.GetHerHim]",
+    "RUS": "Отправить [Concept( 'hostage', 'заложника' )|E] персонажу [recipient.GetShortUINameNoTooltip] в качестве гарантии, что вы не атакуете [recipient.GetHerHis]",
+    "POL": "Wyślij [Concept( 'hostage', 'zakładnika' )|E] do postaci [recipient.GetShortUINameNotMeNoTooltip] jako zapewnienie, że [Select_CString( recipient.IsFemale, 'jej', 'go' )] nie zaatakujesz",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_hostage_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Offered Hostage",
+    "RUS": "Предложен заложник",
+    "POL": "Zaoferowano zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_hostage_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$arrange_marriage_interaction_extra_icon$",
+    "RUS": "$arrange_marriage_interaction_extra_icon$",
+    "POL": "$arrange_marriage_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "actor_secondary_offer_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E]",
+    "RUS": "[hostage|E]",
+    "POL": "[hostage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OFFER_HOSTAGE_PROPOSAL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "For the sake of peace, I offer my [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetTitledFirstName], to keep as your hostage.",
+    "RUS": "Во имя мира я предлагаю, чтобы [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetTitledFirstName], [Select_CString(secondary_actor.IsFemale, 'стала', 'стал' )] вашим заложником.",
+    "POL": "Dla dobra pokoju proponuję, aby twoim zakładnikiem została postać, którą jest [secondary_actor.GetTitledFirstName], [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] mojej osoby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "OFFER_HOSTAGE_SELECT_HOSTAGE_TO_TRANSFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Select [hostage|E] to offer",
+    "RUS": "Выбрать [Concept( 'hostage', 'заложника' )|E] для отправки",
+    "POL": "Wybierz [Concept( 'hostage', 'zakładnika' )|E], którego chcesz zaoferować",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_VALID_HOSTAGE_TO_OFFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "You have no valid [hostages|E] to offer to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "У вас нет подходящих [Concept( 'hostages', 'заложников' )|E], которых можно отправить персонажу [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Nie masz odpowiednich [Concept( 'hostages', 'zakładników' )|E], których możesz zaoferować postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_VALID_HOSTAGE_TO_OFFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has no valid [hostages|E] to offer to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName] не имеет подходящих [Concept( 'hostages', 'заложников' )|E], которых можно отправить персонажу [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] nie ma dostępnych [Concept( 'hostages', 'zakładników' )|E], których może [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie zaoferować', Concatenate('zaoferować postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAVE_VALID_HOSTAGE_TO_OFFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Has no valid [hostages|E] to offer to [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Не имеет подходящих [Concept( 'hostages', 'заложников' )|E], которых можно отправить персонажу [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Nie ma dostępnych [Concept( 'hostages', 'zakładników' )|E], których może [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tobie zaoferować', Concatenate('zaoferować postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Demand Hostage",
+    "RUS": "Потребовать заложника",
+    "POL": "Zażądaj zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_hostage_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Call on [recipient.GetShortUINameNoTooltip] to send a [hostage|E] as an assurance [recipient.GetSheHe] will not attack you",
+    "RUS": "Потребовать, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'отправила', 'отправил' )] [Concept( 'hostage', 'заложника' )|E] в качестве гарантии, что [recipient.GetSheHe] не атакует вас",
+    "POL": "Poproś, aby [recipient.GetShortUINameNotMeNoTooltip] wysłał[Select_CString( recipient.IsFemale, 'a', '' )] ci [Concept( 'hostage', 'zakładnika' )|E] jako zapewnienie, że cię nie zaatakuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_hostage_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Demanded Hostage",
+    "RUS": "Требует заложника",
+    "POL": "Zażądano zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_hostage_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$arrange_marriage_interaction_extra_icon$",
+    "RUS": "$arrange_marriage_interaction_extra_icon$",
+    "POL": "$arrange_marriage_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_secondary_demand_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E]",
+    "RUS": "[hostage|E]",
+    "POL": "[hostage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEMAND_HOSTAGE_PROPOSAL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I must demand you send your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], to my court as a hostage — this is the best guarantee of peace.",
+    "RUS": "Я требую, чтобы [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], [Select_CString(secondary_recipient.IsFemale, 'прибыла', 'прибыл' )] к моему двору в качестве заложника — это станет лучшей гарантией мира.",
+    "POL": "Muszę zażądać, aby zakładnikiem na moim dworze została postać, którą jest [secondary_recipient.GetTitledFirstName], [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))] twojej osoby. To najlepsza gwarancja pokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEMAND_HOSTAGE_SELECT_HOSTAGE_TO_OFFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Select [hostage|E] to demand",
+    "RUS": "Выбрать, какого [Concept( 'hostage', 'заложника' )|E] потребовать",
+    "POL": "Wybierz [Concept( 'hostage', 'zakładnika' )|E], którego żądasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_VALID_HOSTAGE_TO_DEMAND",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName] has no valid [hostages|E] you can demand",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] не имеет подходящих [Concept( 'hostages', 'заложников' )|E], которых вы можете потребовать",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] nie ma odpowiednich [Concept( 'hostages', 'zakładników' )|E], których żądasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_VALID_HOSTAGE_TO_DEMAND",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName] has no valid [hostages|E] [CHARACTER.GetShortUIName] can demand",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName] не имеет подходящих [Concept( 'hostages', 'заложников' )|E], которых [CHARACTER.GetShortUIName] может потребовать",
+    "POL": "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Nie masz', Concatenate(TARGET_CHARACTER.GetShortUINameNotMe, ' nie ma'))] dostępnych [Concept( 'hostages', 'zakładników' )|E], których [Select_CString( CHARACTER.IsLocalPlayer, 'możesz', Concatenate(CHARACTER.GetShortUINameNotMe, ' może'))] żądać",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAVE_VALID_HOSTAGE_TO_DEMAND",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Has no valid [hostages|E] [CHARACTER.GetShortUIName] can demand",
+    "RUS": "Не имеет подходящих [Concept( 'hostages', 'заложников' )|E], которых [CHARACTER.GetShortUIName] может потребовать",
+    "POL": "Nie ma dostępnych [Concept( 'hostages', 'zakładników' )|E], których [Select_CString( CHARACTER.IsLocalPlayer, 'możesz', Concatenate(CHARACTER.GetShortUINameNotMe, ' może'))] żądać",
+    "BEL": ""
+  },
+  {
+    "KEY": "exchange_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Exchange Hostages",
+    "RUS": "Обменяться заложниками",
+    "POL": "Wymień zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "exchange_hostage_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Swap [hostages|E] with [recipient.GetShortUINameNoTooltip] as a shared assurance of mutual peace",
+    "RUS": "Обменяться [Concept( 'hostages', 'заложниками' )|E] с персонажем [recipient.GetShortUINameNoTooltip] в качестве обоюдной гарантии мир",
+    "POL": "Ty i [recipient.GetShortUINameNotMeNoTooltip] możecie wspólnie wymienić się [Concept( 'hostages', 'zakładnikami' )|E] jako wzajemne zapewnienie pokoju",
+    "BEL": ""
+  },
+  {
+    "KEY": "exchange_hostage_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Exchanged Hostages",
+    "RUS": "Обмен заложниками",
+    "POL": "Wymieniono zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "exchange_hostage_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$arrange_marriage_interaction_extra_icon$",
+    "RUS": "$arrange_marriage_interaction_extra_icon$",
+    "POL": "$arrange_marriage_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "actor_secondary_exchange_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Your [hostage|E]",
+    "RUS": "Ваш [hostage|El]",
+    "POL": "Twój [hostage|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_secondary_exchange_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Your [hostage|E]",
+    "RUS": "Ваш [hostage|El]",
+    "POL": "Twój [hostage|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXCHANGE_HOSTAGE_PROPOSAL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I propose we exchange my [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetTitledFirstName], and your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], as hostages. It would be a great gesture of trust.",
+    "RUS": "Я предлагаю обмен: [Select_CString(secondary_actor.IsFemale, 'моя', 'мой' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetTitledFirstName], и [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], станут заложниками в знак взаимного доверия.",
+    "POL": "Proponuję, abyśmy dokonali wymiany zakładników, którymi są [secondary_actor.GetTitledFirstName], [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] mojej osoby, oraz [secondary_recipient.GetTitledFirstName], [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))] twojej osoby. Byłby to wspaniały gest zaufania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXCHANGE_HOSTAGE_SELECT_HOSTAGE_TO_OFFER",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Select [hostages|E] to exchange",
+    "RUS": "Выбрать [Concept( 'hostages', 'заложников' )|E] для обмена",
+    "POL": "Wybierz [Concept( 'hostages', 'zakładników' )|E] do wymiany",
+    "BEL": ""
+  },
+  {
+    "KEY": "return_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Return Hostage",
+    "RUS": "Вернуть заложника",
+    "POL": "Zwróć zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "return_hostage_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Send one of [recipient.GetShortUINamePossessive] [hostages|E] home",
+    "RUS": "Отправить домой одного из [Concept( 'hostages', 'заложников' )|E], которым [Select_CString(recipient.IsFemale, 'передала', 'передал' )] [recipient.GetShortUIName]",
+    "POL": "Wyślij jednego z [Concept( 'hostages', 'zakładników' )|E] postaci [recipient.GetShortUINameNotMe] do domu",
+    "BEL": ""
+  },
+  {
+    "KEY": "return_hostage_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Returned Hostage",
+    "RUS": "Возврат заложника",
+    "POL": "Zwrócono zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "return_hostage_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$arrange_marriage_interaction_extra_icon$",
+    "RUS": "$arrange_marriage_interaction_extra_icon$",
+    "POL": "$arrange_marriage_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_secondary_return_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E]",
+    "RUS": "[hostage|E]",
+    "POL": "[hostage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "recall_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Recall Hostage",
+    "RUS": "Отозвать заложника",
+    "POL": "Poproś o zwrot zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "recall_hostage_interaction_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Ask [recipient.GetShortUINamePossessive] to return one of your [hostages|E]",
+    "RUS": "Попросить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'вернула', 'вернул' )] одного из ваших [Concept( 'hostages', 'заложников' )|E]",
+    "POL": "Poproś, aby [recipient.GetShortUINameNotMe] zwrócił[Select_CString( recipient.IsFemale, 'a', '' )] ci jednego z twoich [Concept( 'hostages', 'zakładników' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "recall_hostage_interaction_notification",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Recalled Hostage",
+    "RUS": "Отозванный заложник",
+    "POL": "Poproszono o zwrot zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "recall_hostage_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$arrange_marriage_interaction_extra_icon$",
+    "RUS": "$arrange_marriage_interaction_extra_icon$",
+    "POL": "$arrange_marriage_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_secondary_recall_hostage_interaction",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E]",
+    "RUS": "[hostage|E]",
+    "POL": "[hostage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RECALL_HOSTAGE_PROPOSAL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I must demand you send my [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], back to my court immediately.",
+    "RUS": "Я требую, чтобы [Select_CString(secondary_recipient.IsFemale, 'моя', 'мой' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetTitledFirstName], [Select_CString(secondary_recipient.IsFemale, 'была', 'был' )] немедленно [Select_CString(secondary_recipient.IsFemale, 'отправлена', 'отправлен' )] к моему двору.",
+    "POL": "Muszę zażądać natychmiastowego powrotu na mój dwór postaci, którą jest [secondary_recipient.GetTitledFirstName], [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))] mojej osoby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_OFFER_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage_sender.GetShortUIName|U] offered a [hostage|E] to [hostage_taker.GetShortUIName] ([hostage.GetShortUIName])",
+    "RUS": "[hostage_sender.GetShortUIName|U] [Select_CString(hostage_sender.IsFemale, 'предложила', 'предложил' )] [Concept( 'hostage', 'заложника' )|E] [Select_CString(hostage_taker.IsLocalPlayer, '', 'персонажу ' )][hostage_taker.GetNamePossessiveOrMy][Select_CString(hostage_taker.IsLocalPlayer, 'ему персонажу', '' )] ([hostage.GetShortUIName])",
+    "POL": "Osoba znana jako [hostage_sender.GetShortUINameNotMe] zaproponowała [Concept('hostage', 'zakładnika')|E] postaci, którą jest [hostage_taker.GetShortUINameNotMe] ([hostage.GetShortUINameNotMe])",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_DEMAND_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage_taker.GetShortUIName|U] demanded a [hostage|E] from [hostage_sender.GetShortUIName] ([hostage.GetShortUIName])",
+    "RUS": "[hostage_taker.GetShortUIName|U] [Select_CString(hostage_taker.IsFemale, 'потребовала', 'потребовал' )] [Concept( 'hostage', 'заложника' )|E] от [Select_CString(hostage_sender.IsLocalPlayer, '', 'персонажа ' )][hostage_sender.GetNamePossessiveOrMy][Select_CString(hostage_sender.IsLocalPlayer, 'его персонажа', '' )] ([hostage.GetShortUIName])",
+    "POL": "Osoba znana jako [hostage_sender.GetShortUINameNotMe] zażądała [Concept('hostage', 'zakładnika')|E] od postaci, którą jest [hostage_taker.GetShortUINameNotMe] ([hostage.GetShortUINameNotMe])",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_EXCHANGE_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage_sender_1.GetShortUIName|U] exchanged [hostages|E] with [hostage_sender_2.GetShortUIName] ([hostage_1.GetShortUIName] for [hostage_2.GetShortUIName])",
+    "RUS": "[hostage_sender_1.GetShortUIName|U] и [hostage_sender_2.GetShortUIName] обменялись [Concept( 'hostages', 'заложниками' )|E] ([hostage_1.GetShortUIName] и [hostage_2.GetShortUIName])",
+    "POL": "Osoba znana jako [hostage_sender_1.GetShortUINameNotMe] wymieniła się [Concept('hostages', 'zakładnikami')|E] z postacią, którą jest [hostage_sender_2.GetShortUINameNotMe] ([hostage_1.GetShortUINameNotMe] za postać znaną jako [hostage_2.GetShortUINameNotMe])",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_existing_truce_one_way_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #negative_value [hostage_taker.GetShortUIName|U] already made a [truce|E] with [hostage_sender.GetShortUIName]#!",
+    "RUS": "@warning_icon! #negative_value [hostage_taker.GetShortUIName|U] уже [Select_CString(hostage_taker.IsFemale, 'заключила', 'заключил' )] [truce|El] с [Select_CString(hostage_sender.IsLocalPlayer, '', 'персонажем ' )][hostage_sender.GetNamePossessiveOrMy][Select_CString(hostage_sender.IsLocalPlayer, 'им персонажем', '' )]#!",
+    "POL": "@warning_icon! #negative_value [Select_CString(hostage_taker.IsLocalPlayer, Select_CString(hostage_taker.IsFemale, 'Zawarłaś', 'Zawarłeś' ), Select_CString(hostage_taker.IsFemale, 'zawarła', 'zawarł' ) )] już [truce|El] z [Select_CString( hostage_sender.IsLocalPlayer, 'tobą', Concatenate('postacią ', hostage_sender.GetShortUINameNotMe))]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_hostage_to_taker_one_way_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Takes [hostage_sender.GetShortUINamePossessive] [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetShortUIName], as a [hostage|E]",
+    "RUS": "Забирает [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [Select_CString(hostage_sender.IsLocalPlayer, '', 'персонажа ' )][hostage_sender.GetNamePossessiveOrMy][Select_CString(hostage_sender.IsLocalPlayer, 'его персонажа', '' )], [hostage.GetShortUIName], в качестве [Concept( 'hostage', 'заложника' )|E]",
+    "POL": "Bierze [Concept('hostage', 'zakładnika')|E], którym jest [hostage.GetShortUINameNotMe],[hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))|l] osoby znanej jako [hostage_sender.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_existing_truce_two_way_1_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #negative_value [hostage_sender_1.GetShortUIName|U] already made a [truce|E] with [hostage_sender_2.GetShortUIName]#!",
+    "RUS": "@warning_icon! #negative_value [hostage_sender_1.GetShortUIName|U] уже [Select_CString(hostage_sender_1.IsFemale, 'заключила', 'заключил' )] [truce|El] с [Select_CString(hostage_sender_2.IsLocalPlayer, '', 'персонажем ' )][hostage_sender_2.GetNamePossessiveOrMy][Select_CString(hostage_sender_2.IsLocalPlayer, 'им персонажем', '' )]#!",
+    "POL": "@warning_icon! #negative_value Osoba znana jako [hostage_sender_1.GetShortUINameNotMe] zawarła już [truce|El] z postacią, którą jest [hostage_sender_2.GetShortUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_existing_truce_two_way_2_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #negative_value [hostage_sender_2.GetShortUIName|U] already made a [truce|E] with [hostage_sender_1.GetShortUIName]#!",
+    "RUS": "@warning_icon! #negative_value [hostage_sender_2.GetShortUIName|U] уже [Select_CString(hostage_sender_2.IsFemale, 'заключила', 'заключил' )] [truce|El] с [Select_CString(hostage_sender_1.IsLocalPlayer, '', 'персонажем ' )][hostage_sender_1.GetNamePossessiveOrMy][Select_CString(hostage_sender_1.IsLocalPlayer, 'им персонажем', '' )]#!",
+    "POL": "@warning_icon! #negative_value Osoba znana jako [hostage_sender_2.GetShortUINameNotMe] zawarła już [truce|El] z postacią, którą jest [hostage_sender_1.GetShortUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "already_has_your_hostage_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] already has a [hostage|E] from your [court|E]",
+    "RUS": "[recipient.GetShortUIName|U] уже держит у себя [Concept( 'hostage', 'заложника' )|E] от вашего [Concept( 'court', 'двора' )|E]",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma już [Concept( 'hostage', 'zakładnika' )|E] z twojego [Concept( 'court', 'dworu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "already_have_their_hostage_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "You have already taken a [hostage|E] from [recipient.GetShortUIName]",
+    "RUS": "Вы уже взяли [Concept( 'hostage', 'заложника' )|E] у персонажа [recipient.GetShortUIName]",
+    "POL": "Już zdarzyło ci się wziąć [Concept('hostage', 'zakładnika')|E] od postaci znanej jako [recipient.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_cannot_offer_own_regent_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "You may not offer your [regent|E] as a [hostage|E]",
+    "RUS": "Вы не можете предложить своего [Concept( 'regent', 'регента' )|E] в качестве [Concept( 'hostage', 'заложника' )|E]",
+    "POL": "Nie możesz zaoferować swojego [Concept( 'regent', 'regenta' )|E] jako [Concept( 'hostage', 'zakładnika' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_opinion_too_low_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage refuses to cooperate",
+    "RUS": "Заложник отказывается сотрудничать",
+    "POL": "Zakładnik odmawia współpracy",
+    "BEL": ""
+  },
+  {
+    "KEY": "wants_a_hostage",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Wants a [hostage|E]",
+    "RUS": "Хочет получить [Concept( 'hostage', 'заложника' )|E]",
+    "POL": "Chce [Concept( 'hostage', 'zakładnika' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_death_reluctance_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Other rulers will now be more wary of sending [hostages|E] to your court",
+    "RUS": "Теперь другие правители будут менее охотно посылать [Concept( 'hostages', 'заложников' )|E] к вашему двору",
+    "POL": "Inni władcy będą teraz bardziej ostrożni w wysyłaniu [Concept( 'hostages', 'zakładników' )|E] na twój dwór",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_already_offered_awaiting_response_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Already under negotiation to become someone's [hostage|E]",
+    "RUS": "Уже договаривается стать чьим-то [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "Negocjacje dotyczące nadania statusu czyjegoś [Concept('hostage', 'zakładnika')|E] już trwają",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_leaves_home_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] travels to become [TARGET_CHARACTER.GetShortUINamePossessive] hostage",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] отправляется в путь, чтобы стать заложником [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] podróżuje, aby zostać [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'twoim zakładnikiem ', Concatenate('zakładnikiem postaci ', TARGET_CHARACTER.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_pacts_on_arrival_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@alert_icon! #alert_trial [hostages|E] must first [travel|E] to the [wardens_possessive|E] court#!",
+    "RUS": "@alert_icon! #alert_trial [hostages|E] должны сперва [Concept( 'travel', 'добраться' )|E] до двора [Concept( 'wardens_possessive', 'принимающей стороны' )|E]#!",
+    "POL": "@alert_icon! #alert_trial [hostages|E] muszą najpierw [Concept( 'travel', 'podróżować' )|E] na dwór [wardens_possessive|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_heads_home_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] returns to [TARGET_CHARACTER.GetShortUINamePossessive] home court",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] возвращается, покинув родной двор [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] powraca na dwór rodzimy osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_departs_title",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage Departs",
+    "RUS": "Заложник отправляется",
+    "POL": "Przybycie zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_already_travelling_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessiveNoFormat|U] [hostage|E] is already traveling to [TARGET_CHARACTER.GetShortUINamePossessiveNoFormat] court",
+    "RUS": "[hostage|E], которого [Select_CString(CHARACTER.IsLocalPlayer, 'отправили', Select_CString(CHARACTER.IsFemale, 'отправила', 'отправил' ))] [CHARACTER.GetShortUINameNoFormat], уже путешествует ко двору, где [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'правите', 'правит' )] [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[hostage|E] postaci znanej jako [CHARACTER.GetShortUINameNotMeNoFormat] podróżuje już na dwór osoby, którą jest [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_invalidated_during_travel_title",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage Invalidated",
+    "RUS": "Заложник недействителен",
+    "POL": "Zakładnik unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_travelling_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] is traveling to become a [hostage|E]",
+    "RUS": "[THIS.Char.GetShortUIName|U] в пути с целью стать [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "[THIS.Char.GetShortUINameNotMe|U] podróżuje, aby zostać [Concept( 'hostage', 'zakładnikiem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_attack_warning_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X [home_courts|E] and [wardens|E] suffer penalties for attacking each other#!",
+    "RUS": "@warning_icon! #X [home_courts|E] и [wardens|El] получают штрафы за нападения друг на друга#!",
+    "POL": "@warning_icon! #X [home_courts|E] i [wardens|El] otrzymują kary za atakowanie siebie nawzajem#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_execution_warning_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X [wardens|E] at [war|E] with [home_courts|E] may freely execute [hostages|E]#!",
+    "RUS": "@warning_icon! #X [Concept( 'wardens', 'Принимающая сторона' )|E], находясь в состоянии [Concept( 'war', 'войны' )|E] с [Concept( 'home_courts', 'родным двором' )|E], может безнаказанно казнить [Concept( 'hostages', 'заложников' )|E]#!",
+    "POL": "@warning_icon! #X [wardens|E] podczas [wars|El] pomiędzy [Concept( 'home_courts', 'rodzimymi dworami' )|E] mogą swobodnie dokonywać egzekucji [Concept( 'hostages', 'zakładników' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_income_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] will earn [prestige_i|E][prestige|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'получите', 'получит' )] [prestige_i|E][prestige|El]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Zyskasz', Concatenate( CHARACTER.GetShortUINameNotMe, ' zyska'))] [prestige_i|E] [prestige|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_income_tt_past",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$hostage_prestige_income_tt$",
+    "RUS": "$hostage_prestige_income_tt$",
+    "POL": "$hostage_prestige_income_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_renown_income_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] will earn [prestige_i|E][prestige|E] and [dynasty_prestige_i|E][dynasty_prestige|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'получите', 'получит' )] [prestige_i|E][prestige|El] и [dynasty_prestige_i|E][dynasty_prestige|El]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Zyskasz', Concatenate( CHARACTER.GetShortUINameNotMe, ' zyska'))] [prestige_i|E] [prestige|El] i [dynasty_prestige_i|E] [Concept( 'dynasty_prestige', 'renomę' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_piety_renown_income_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] will earn [prestige_i|E][prestige|E], [dynasty_prestige_i|E][dynasty_prestige|E], and [piety_i|E][piety|E]",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'получите', 'получит' )] [prestige_i|E][prestige|El], [dynasty_prestige_i|E][dynasty_prestige|El] и [piety_i|E][piety|El]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Zyskasz', Concatenate( CHARACTER.GetShortUINameNotMe, ' zyska'))] [prestige_i|E] [prestige|El], [dynasty_prestige_i|E] [Concept( 'dynasty_prestige', 'renomę' )|E] i [piety_i|E] [piety|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_income_loss_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Loses [prestige_i|E][prestige|E] income",
+    "RUS": "Теряет прирост [prestige_i][Concept( 'prestige', 'престижа' )|E]",
+    "POL": "Traci przyrost [prestige_i|E] [Concept( 'prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_renown_income_loss_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Loses [prestige_i|E][prestige|E] and [dynasty_prestige_i|E][dynasty_prestige|E] income",
+    "RUS": "Теряет прирост [prestige_i][Concept( 'prestige', 'престижа' )|E] и [dynasty_prestige_i][Concept( 'dynasty_prestige', 'престижа династии' )|E]",
+    "POL": "Traci przyrost [prestige_i|E] [Concept( 'prestige', 'prestiżu' )|E] i [dynasty_prestige_i|E] [Concept( 'dynasty_prestige', 'renomy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prestige_piety_renown_income_loss_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Loses [prestige_i|E][prestige|E], [dynasty_prestige_i|E][dynasty_prestige|E], and [piety_i|E][piety|E] income",
+    "RUS": "Теряет прирост [prestige_i][Concept( 'prestige', 'престижа' )|E], [dynasty_prestige_i][Concept( 'dynasty_prestige', 'престижа династии' )|E] и [piety_i][Concept( 'piety', 'благочестия' )|E]",
+    "POL": "Traci przyrost [prestige_i|E] [Concept( 'prestige', 'prestiżu' )|E], [dynasty_prestige_i|E] [Concept( 'dynasty_prestige', 'renomy')|E] i [piety_i|E] [Concept( 'piety', 'pobożności' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "warden_lower_title_tier_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] is higher [title_tier|E] than [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!",
+    "RUS": "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] выше [Concept( 'title_tier', 'рангом' )|E], чем [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!",
+    "POL": "#weak [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTier] to tytuł o wyższym [Concept('title_tier', 'poziomie')|E] niż tytuł: [CHARACTER.GetPrimaryTitle.GetNameNoTier]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "warden_lower_dynasty_renown_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#weak [TARGET_CHARACTER.GetDynasty.GetBaseName] has higher [dynasty_prestige_level|E] than [CHARACTER.GetDynasty.GetBaseName]#!",
+    "RUS": "#weak [TARGET_CHARACTER.GetDynasty.GetBaseName] обладает большим [Concept( 'dynasty_prestige_level', 'уровнем величия' )|E], чем [CHARACTER.GetDynasty.GetBaseName]#!",
+    "POL": "#weak Dynastia [TARGET_CHARACTER.GetDynasty.GetBaseName] ma wyższy [Concept( 'dynasty_prestige_level', 'poziom splendoru' )|E] niż dynastia [CHARACTER.GetDynasty.GetBaseName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_faith_hostility_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#weak [TARGET_CHARACTER.GetFaith.GetAdherentNamePlural] consider [CHARACTER.GetFaith.GetName] [faith|E] [TARGET_CHARACTER.Custom2('ToleranceValue', CHARACTER.Self)|U]#!",
+    "RUS": "#weak [TARGET_CHARACTER.GetFaith.GetAdherentNamePlural] считают, что [CHARACTER.GetFaith.GetName|l]ая [faith|El] — [TARGET_CHARACTER.Custom2('ToleranceValue', CHARACTER.Self)]#!",
+    "POL": "#weak [TARGET_CHARACTER.GetFaith.GetAdherentNamePlural|U] uważają, że [CHARACTER.GetFaith.GetName|l] to [TARGET_CHARACTER.Custom2('ToleranceValue', CHARACTER.Self)|l] [faith|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_prison_invalidation_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] will no longer be a [hostage|E]",
+    "RUS": "[THIS.Char.GetShortUIName|U] больше не будет [Concept( 'hostage', 'заложником' )|E]",
+    "POL": "[Select_CString( THIS.Char.IsLocalPlayer, 'Nie będziesz już dłużej', Concatenate(THIS.Char.GetShortUINameNotMe, ' nie będzie już dłużej'))] [Concept( 'hostage', 'zakładnikiem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_no_land_after_war_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages|E] can only be exchanged if both parties will still be [rulers|E] after the [peace|E]",
+    "RUS": "Обмен [Concept( 'hostages', 'заложниками' )|E] возможен только в случае, если обе стороны остаются [Concept( 'rulers', 'правителями' )|E] после [Concept( 'peace', 'перемирия' )|E]",
+    "POL": "Można wymienić [Concept( 'hostages', 'zakładników' )|E] wyłącznie wtedy, gdy obie strony po zawarciu [Concept( 'peace', 'pokoju' )|E] nadal są [Concept( 'rulers', 'władcami' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_exchange_invalid_for_crusade_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages|E] cannot be exchanged to settle [great_holy_wars|E]",
+    "RUS": "Обмен [Concept( 'hostages', 'заложниками' )|E] невозможен по итогу [Concept( 'great_holy_wars', 'великих священных войн' )|E]",
+    "POL": "Nie można wymienić się [Concept( 'hostages', 'zakładnikami' )|E] w celu rozstrzygnięcia [Concept( 'great_holy_wars', 'wielkich świętych wojen' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_exchange_invalid_for_cb_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages|E] cannot be used to settle a [war.GetActiveCB.GetType.GetName]",
+    "RUS": "[Concept( 'hostages', 'Заложников' )|E] нельзя использовать, чтобы урегулировать войну «[war.GetActiveCB.GetType.GetName]»",
+    "POL": "[Concept('hostages', 'Zakładników')|E] nie można wykorzystać do rozstrzygnięcia konfliktu o nazwie [war.GetActiveCB.GetType.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_warden_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Every [close_family_member|E] of [hostages|E]",
+    "RUS": "Каждый [close_family_member|El] [Concept( 'hostage', 'заложника' )|E]",
+    "POL": "Każdy [close_family_member|El] [Concept( 'hostages', 'zakładników' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_executed_toast",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage Executed",
+    "RUS": "Заложник казнен",
+    "POL": "Stracono zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_spared_toast",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage Spared",
+    "RUS": "Заложника пощадили",
+    "POL": "Oszczędzenie zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_hook_failed_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "You did not gain a [perpetual_hook|E] on [hostage.GetFirstName] #weak ([THIS.Char.MakeScope.Var( 'hook_chance' ).GetValue|1]% Chance)#!",
+    "RUS": "Вы не получили [perpetual_hook|El] на персонажа [hostage.GetFirstName] #weak (вероятность [THIS.Char.MakeScope.Var( 'hook_chance' ).GetValue|1]%)#!",
+    "POL": "Nie udało ci się uzyskać [Concept('perpetual_hook', 'haka wieczystego')|E] na zakładnika o imieniu [hostage.GetFirstName] #weak ([THIS.Char.MakeScope.Var( 'hook_chance' ).GetValue|1]% szans)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_truce_ending_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #negative_value [actor.GetShortUIName|U] and [recipient.GetShortUIName] may freely attack one another#!",
+    "RUS": "@warning_icon! #negative_value [actor.GetShortUIName|U] и [recipient.GetShortUIName] могут беспрепятственно атаковать друг друга#!",
+    "POL": "@warning_icon! #negative_value [actor.GetShortUINameNotMe|U] i [recipient.GetShortUINameNotMe] możecie swobodnie atakować się nawzajem#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "spared_me_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Spared Me",
+    "RUS": "Пощадили меня",
+    "POL": "Oszczędzono mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "spared_hostage_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Spared Hostage",
+    "RUS": "Пощадили заложника",
+    "POL": "Oszczędzono zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "killed_hostage_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Killed Hostage",
+    "RUS": "Убитый заложник",
+    "POL": "Zabito zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_died_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Hostage Died",
+    "RUS": "Заложник умер",
+    "POL": "Śmierć zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "liege_demanded_hostage_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Liege Demanded Hostage",
+    "RUS": "Сюзерен потребовал заложника",
+    "POL": "Senior zażądał zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "vassal_refused_hostage_demand_opinion",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Vassal Refused Hostage Demand",
+    "RUS": "Вассал отклонил требование заложника",
+    "POL": "Wasal odrzucił żądanie zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_warden",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Attacked Warden",
+    "RUS": "Нападение на принимающую сторону",
+    "POL": "Zaatakowano kuratora",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_warden_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "This character has broken an oath and disregarded their family by attacking the warden of a hostage, an affront to the decency of their subjects.",
+    "RUS": "Этот персонаж нарушил клятву и пожертвовал своей семьей, напав на сторону, принявшую заложника, что является недостойным поведением с точки зрения его подданных.",
+    "POL": "Ta postać złamała przysięgę i zlekceważyła swoją rodzinę, atakując kuratora zakładnika – to obraza wobec przyzwoitości poddanych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_home_court",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Attacked Home Court",
+    "RUS": "Нападение на родной двор",
+    "POL": "Zaatakowano dwór rodzimy",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_home_court_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "This character has broken an oath by attacking the home court of a hostage given in good faith.",
+    "RUS": "Этот персонаж нарушил клятву, напав на родной двор добровольно присланного заложника.",
+    "POL": "Ta postać złamała przysięgę, atakując dwór rodzimy zakładnika oddanego w dobrej wierze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_PROTECTED_BY_LIEGE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Protected by [recipient.GetHerHisMy] [liege|E]: $VALUE|=+0$",
+    "RUS": "Под защитой своего [Concept( 'liege', 'сюзерена' )|E]: $VALUE|=+0$",
+    "POL": "Pod ochroną swojego [Concept('liege', 'seniora')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_SIMILAR_AGE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] age similarity: $VALUE|=+0$",
+    "RUS": "Близость возраста [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Podobieństwo wieku [Concept('hostage', 'zakładnika')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RELATIVE_SUCCESSION_PLACE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages_possessive|E] relative places in [succession|E]: $VALUE|=+0$",
+    "RUS": "Относительное место [Concept( 'hostage', 'заложника' )|E] в [Concept( 'succession', 'очереди наследования' )|E]: $VALUE|=+0$",
+    "POL": "Względna pozycja [hostages_possessive|El] w [Concept('succession', 'sukcesji')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_SEX_DIFFERENCE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages|E] are different sexes: $VALUE|=+0$",
+    "RUS": "Разный пол [Concept( 'hostages', 'заложников' )|E]: $VALUE|=+0$",
+    "POL": "[hostages|E] są różnej płci: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_SUCCESSION_PLACE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostages_possessive|E] place in [line_of_succession|E]: $VALUE|=+0$",
+    "RUS": "Место [Concept( 'hostage', 'заложника' )|E] в [Concept( 'line_of_succession', 'очереди наследования' )|E]: $VALUE|=+0$",
+    "POL": "Pozycja [hostages_possessive|El] w [Concept('line', 'linii sukcesji')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RELATIVE_MILITARY_POWER_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Relative Military Strength: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_current_military_strength')|0] vs. [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_current_military_strength')|0])#!",
+    "RUS": "Относительная военная мощь: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_current_military_strength')|0] против [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_current_military_strength')|0])#!",
+    "POL": "Względna siła militarna: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_current_military_strength')|0] vs. [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_current_military_strength')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ALLY_MILITARY_POWER_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[allies|E] Military Strength: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_ally_military_strength')|0] vs. [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_ally_military_strength')|0])#!",
+    "RUS": "Военная мощь [Concept( 'allies', 'союзников' )|E]: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_ally_military_strength')|0] против [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_ally_military_strength')|0])#!",
+    "POL": "[Concept( 'allies', 'Sojusznicza' )|E] siła militarna: $VALUE|=+0$ #weak ([actor.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('actor_ally_military_strength')|0] vs. [recipient.GetPrimaryTitle.GetNameNoTier]: [SCOPE.ScriptValue('recipient_ally_military_strength')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AGE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] age: $VALUE|=+0$",
+    "RUS": "Возраст [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Wiek [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CHILD_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] is a child: $VALUE|=+0$",
+    "RUS": "[hostage|E] — ребенок: $VALUE|=+0$",
+    "POL": "[hostage|E] jest dzieckiem: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_OWN_CHILD_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] is [home_court|E] [rulerpossessive|E] child: $VALUE|=+0$",
+    "RUS": "[hostage|E] — ребенок [Concept( 'rulerpossessive', 'правителя' )|E] [Concept( 'home_court', 'родного двора' )|E]: $VALUE|=+0$",
+    "POL": "[hostage|E] jest dzieckiem [rulerpossessive|El] [Concept('home_court', 'dworu rodzinnego')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_OWN_GRANDCHILD_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] is [home_court|E] [rulerpossessive|E] grandchild: $VALUE|=+0$",
+    "RUS": "[hostage|E] — внук [Concept( 'rulerpossessive', 'правителя' )|E] [Concept( 'home_court', 'родного двора' )|E]: $VALUE|=+0$",
+    "POL": "[hostage|E] jest wnukiem [rulerpossessive|El] [Concept('home_court', 'dworu rodzinnego')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_NON_INHERITING_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] is excluded from [line_of_succession|E]: $VALUE|=+0$",
+    "RUS": "[hostage|E] исключен из [Concept( 'line_of_succession', 'очереди наследования' )|E]: $VALUE|=+0$",
+    "POL": "[hostage|E] jest osobą wykluczoną z [Concept('line_of_succession', 'linii sukcesji')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_VASSAL_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "You are a mere [vassal|E]: $VALUE|=+0$",
+    "RUS": "Вы лишь [vassal|El]: $VALUE|=+0$",
+    "POL": "Jesteś zwykłym [Concept( 'vassal', 'wasalem' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_NOT_NEIGHBORING_REALM_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Not neighboring [realms|E]: $VALUE|=+0$",
+    "RUS": "Не соседние [realms|El]: $VALUE|=+0$",
+    "POL": "[realms|E] nie sąsiadują ze sobą: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CASUS_BELLI_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Has [casus_bellis|E] against you: $VALUE|=+0$",
+    "RUS": "Есть [casus_bellis|El] против вас: $VALUE|=+0$",
+    "POL": "Ma [casus_bellis|El] przeciwko tobie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CLAIMS_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Has [claims|E] on your [titles|E]: $VALUE|=+0$",
+    "RUS": "Есть [claims|El] на ваши [titles|El]: $VALUE|=+0$",
+    "POL": "Ma [claims|El] do twoich [Concept( 'titles', 'tytułów' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ACTOR_EXISTING_TRUCE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] already made a [truce|E] with [recipient.GetShortUIName]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] уже [Select_CString(actor.IsFemale, 'заключила', 'заключил' )] [truce|El] с [Select_CString(recipient.IsLocalPlayer, '', 'персонажем ' )][recipient.GetNamePossessiveOrMy][Select_CString(recipient.IsLocalPlayer, 'им персонажем', '' )]: $VALUE|=+0$",
+    "POL": "Osoba znana jako [actor.GetShortUINameNotMe] zawarła już [truce|El] z postacią, którą jest [recipient.GetShortUINameNotMe]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RANK_DIFFERENCE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$RANK_DIFFERENCE_REASON$",
+    "RUS": "$RANK_DIFFERENCE_REASON$",
+    "POL": "$RANK_DIFFERENCE_REASON$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RECIPIENT_EXISTING_TRUCE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] already has a [truce|E] with [actor.GetShortUIName]: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] уже имеет [truce|El] с [Select_CString(actor.IsLocalPlayer, '', 'персонажем ' )][actor.GetNamePossessiveOrMy][Select_CString(actor.IsLocalPlayer, 'им персонажем', '' )]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma już [truce|El] z [Select_CString(actor.IsLocalPlayer, 'tobą', actor.GetShortUINameNotMe)]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CULTURAL_ACCEPTANCE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetName] [cultural_acceptance|E] of [actor.GetCulture.GetName]: $VALUE|=+0$",
+    "RUS": "[recipient.GetCulture.GetCollectiveNoun]ая [Concept( 'cultural_acceptance', 'терпимость' )|E] к [actor.GetCulture.GetCollectiveNoun|l]ому народу: $VALUE|=+0$",
+    "POL": "Kultura [recipient.GetCulture.GetName|l] ma względem grupy, którą tworzą [actor.GetCulture.GetCollectiveNoun], [Concept('cultural_acceptance', 'tolerancję kulturową')|E] wynoszącą $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_FAITH_EVIL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.GetAdherentNamePlural] consider [actor.GetFaith.GetAdherentNamePlural] [faith_evil|E]: $VALUE|=+0$",
+    "RUS": "[actor.GetFaith.GetAdherentNamePlural] считают, что [recipient.GetFaith.GetAdherentNamePlural|l] — [faith_evil|El]: $VALUE|=+0$",
+    "POL": "[recipient.GetFaith.GetAdherentNamePlural|U] uważają, że [actor.GetFaith.GetAdherentNamePlural] wyznają [Concept('faith_evil', 'złą')|E] wiarę: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_FAITH_HOSTILE",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.GetAdherentNamePlural] consider [actor.GetFaith.GetAdherentNamePlural] [faith_hostile|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetFaith.GetAdherentNamePlural] считают, что [actor.GetFaith.GetAdherentNamePlural|l] — [Concept( 'faith_hostile', 'враги' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetFaith.GetAdherentNamePlural|U] uważają, że [actor.GetFaith.GetAdherentNamePlural] wyznają [Concept('faith_hostile', 'antagonistyczną')|E] wiarę: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_FAITH_ASTRAY",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.GetAdherentNamePlural] consider [actor.GetFaith.GetAdherentNamePlural] [faith_astray|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetFaith.GetAdherentNamePlural] считают, что [actor.GetFaith.GetAdherentNamePlural|l] — [Concept( 'faith_astray', 'заблудшие' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetFaith.GetAdherentNamePlural|U] uważają, że [actor.GetFaith.GetAdherentNamePlural] wyznają [Concept('faith_astray', 'błędną')|E] wiarę: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_DISTANT_REALM_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Distant realm: $VALUE|=+0$",
+    "RUS": "Далекая держава: $VALUE|=+0$",
+    "POL": "Odległe państwo: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_SIMILAR_STRENGTH_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Similar Military Strength: $VALUE|=+0$",
+    "RUS": "Схожая военная мощь: $VALUE|=+0$",
+    "POL": "Podobna siła militarna: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AT_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Fighting a [war|E]: $VALUE|=+0$",
+    "RUS": "Ведут [Concept( 'war', 'войну' )|E]: $VALUE|=+0$",
+    "POL": "Prowadzenie [Concept('war', 'wojny')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ALREADY_OFFERED_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$already_has_your_hostage_tt$: $VALUE|=+0$",
+    "RUS": "$already_has_your_hostage_tt$: $VALUE|=+0$",
+    "POL": "$already_has_your_hostage_tt$: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ALREADY_DEMANDED_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$already_have_their_hostage_tt$: $VALUE|=+0$",
+    "RUS": "$already_have_their_hostage_tt$: $VALUE|=+0$",
+    "POL": "$already_have_their_hostage_tt$: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_PREVIOUSLY_DIED_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Allowed a [hostage|E] to die:  $VALUE|=+0$",
+    "RUS": "Позволили [Concept( 'hostage', 'заложнику' )|E] умереть: $VALUE|=+0$",
+    "POL": "Pozwolono [Concept('hostage', 'zakładnikowi')|E] umrzeć: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_PREVIOUSLY_DIED_HOME_COURT_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Allowed my [hostage|E] to die:  $VALUE|=+0$",
+    "RUS": "Позволили моему [Concept( 'hostage', 'заложнику' )|E] умереть: $VALUE|=+0$",
+    "POL": "Pozwolono mojemu [Concept('hostage', 'zakładnikowi')|E] umrzeć: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_KILLED_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Killed my [hostage|E]: $VALUE|=+0$",
+    "RUS": "Убили моего [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Zabito mojego [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_SICK_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] health: $VALUE|=+0$",
+    "RUS": "Здоровье [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Zdrowie [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HEALTHY_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$HOSTAGE_SICK_REASON$",
+    "RUS": "$HOSTAGE_SICK_REASON$",
+    "POL": "$HOSTAGE_SICK_REASON$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_REALM_LAW_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[crown_authority|E] makes disobeying [liege|E] dishonorable: $VALUE|=+0$",
+    "RUS": "[crown_authority|E] делает бесчестным неповиновение [Concept( 'liege', 'сюзерену' )|E]: $VALUE|=+0$",
+    "POL": "[crown_authority|E] uznaje nieposłuszeństwo wobec [Concept('liege', 'seniora')|E] za niehonorowe: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_BAD_GENES_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] genes: $VALUE|=+0$",
+    "RUS": "Гены [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Geny [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_GOOD_GENES_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "$HOSTAGE_BAD_GENES_REASON$",
+    "RUS": "$HOSTAGE_BAD_GENES_REASON$",
+    "POL": "$HOSTAGE_BAD_GENES_REASON$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HOME_COURT_INDEPENDENT_RULER_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[home_court|E] is [independent|E]: $VALUE|=+0$",
+    "RUS": "[home_court|E] [Concept( 'independent', 'независим' )|E]: $VALUE|=+0$",
+    "POL": "[home_court|E] jest [independent|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HOME_COURT_NEIGHBORING_RULER_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[home_court|E] neighbors [warden|E]: $VALUE|=+0$",
+    "RUS": "[home_court|E] соседствует с [Concept( 'warden', 'принимающей стороной' )|E]: $VALUE|=+0$",
+    "POL": "[home_court|E] sąsiaduje z [Concept('warden', 'kuratorem')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HOME_COURT_LIEGE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[home_court|E] is [wardens_possessive|E] [liege|E]: $VALUE|=+0$",
+    "RUS": "[home_court|E] — [Concept( 'liege', 'сюзерен' )|E] [Concept( 'wardens_possessive', 'принимающей стороны' )|E]: $VALUE|=+0$",
+    "POL": "[home_court|E] jest [Concept('liege', 'seniorem')|E] [wardens_possessive|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HOME_COURT_EDUCATION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[home_court|E] has the [GetTrait('education_diplomacy_5').GetName( GetNullCharacter )] [trait|E]: $VALUE|=+0$",
+    "RUS": "[home_court|E] имеет [trait|El] «[GetTrait('education_diplomacy_5').GetName( GetNullCharacter )]»: $VALUE|=+0$",
+    "POL": "[home_court|E] ma [Concept( 'trait', 'cechę' )|E] [GetTrait('education_diplomacy_5').GetName( GetNullCharacter )|l]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FACTION_REASON_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[liege|E] has my [hostage|E]: $VALUE|=+0$",
+    "RUS": "У [Concept( 'liege', 'сюзерена' )|E] мой [Concept( 'hostage', 'заложник' )|E]: $VALUE|=+0$",
+    "POL": "[liege|E] ma mojego [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ENEMY_CALL_TO_ARMS_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[wardens|E] with my [hostages|E] on opposing side: $VALUE|=+0$",
+    "RUS": "[wardens|E] с моими [Concept( 'hostages', 'заложниками' )|E] на противоположной стороне: $VALUE|=+0$",
+    "POL": "[wardens|E] z moimi [Concept('hostages', 'zakładnikami')|E] po przeciwnej stronie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_BOLDNESS",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Boldness: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'храбрая', 'храбрый' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twoja śmiałość', Concatenate('Śmiarłość postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_COMPASSION",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Compassion: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'сострадательная', 'сострадательный' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twoje współczucie', Concatenate('Współczucie postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_GREED",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Greed: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'жадная', 'жадный' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twoja chciwość', Concatenate('Chciwość postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_HONOR",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Honor: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'честная', 'честный' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twój honor', Concatenate('Honor postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_RATIONALITY",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Rationality: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'рациональная', 'рациональный' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twoja racjonalność', Concatenate('Racjonalność postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_AI_VALUE_MODIFIER_ZEAL",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive] Zeal: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'фанатичная', 'фанатичный' )]: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Twoja gorliwość', Concatenate('Gorliwość postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_IMMINENT_THREAT_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Twice as strong and valid [casus_belli|E] against [recipient.GetShortUIName]: $VALUE|=+0$",
+    "RUS": "Вдвойне сильный и законный [casus_belli|El] против персонажа [recipient.GetShortUIName]: $VALUE|=+0$",
+    "POL": "[casus_belli|E] o podwójnej mocy i zasadności przeciwko osobie, którą jest [recipient.GetShortUINameNotMe]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RENOWN_DIFFERENCES_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[warden|E] [dynasty|E] [dynasty_prestige|E] Differences: $VALUE|=+0$",
+    "RUS": "Разница в [Concept( 'dynasty_prestige', 'престиже' )|E] [Concept( 'dynasty', 'династии' )|E] с [Concept( 'warden', 'принимающей стороной' )|E]: $VALUE|=+0$",
+    "POL": "Różnice w [Concept('dynasty_prestige', 'renomie')|E] [Concept('dynasty', 'dynastii')|E] [Concept('warden', 'kuratora')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_TIER_DIFFERENCES_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[warden|E] [realm|E] [title_tier|E] Differences: $VALUE|=+0$",
+    "RUS": "Разница в [Concept( 'title_tier', 'ранге' )|E] [Concept( 'realm', 'державы' )|E] с [Concept( 'warden', 'принимающей стороной' )|E]: $VALUE|=+0$",
+    "POL": "Różnice w [Concept('title_tier', 'poziomie')|E] [Concept('realm', 'państwa')|E] [Concept('warden', 'kuratora')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_PRESTIGE_DIFFERENCES_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[warden|E] [prestige_level|E] Differences: $VALUE|=+0$",
+    "RUS": "Разница в [Concept( 'prestige_level', 'уровне репутации' )|E] с [Concept( 'warden', 'принимающей стороной' )|E]: $VALUE|=+0$",
+    "POL": "Różnice w [Concept('prestige_level', 'poziomie sławy')|E] [Concept('warden', 'kuratora')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_VALUE_ACTOR_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[secondary_actor.GetFirstNamePossessive] value as a [hostage|E]: $VALUE|=+0$",
+    "RUS": "Ценность персонажа [secondary_actor.GetFirstName] в качестве [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "[Select_CString( secondary_actor.IsLocalPlayer, 'Jesteś', Concatenate( secondary_actor.GetFirstName, ' jest'))] wartościowym [Concept( 'hostage', 'zakładnikiem' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_VALUE_RECIPIENT_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetFirstNamePossessive] value as a [hostage|E]: $VALUE|=+0$",
+    "RUS": "Ценность персонажа [secondary_recipient.GetFirstName] в качестве [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "[Select_CString( secondary_recipient.IsLocalPlayer, 'Jesteś', Concatenate( secondary_recipient.GetFirstName, ' jest'))] wartościowym [Concept( 'hostage', 'zakładnikiem' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_EQUITABLE_TRADITION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetCollectiveNoun] [GetCultureTradition('tradition_equitable').GetName] [tradition|E]: $VALUE|=+0$",
+    "RUS": "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [tradition|El] «[GetCultureTradition('tradition_equitable').GetName]»: $VALUE|=+0$",
+    "POL": "[tradition|E] ([GetCultureTradition('tradition_equitable').GetName|l]) ceniona przez grupę znaną jako [recipient.GetCulture.GetCollectiveNoun]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ESTEEMED_HOSPITALITY_TRADITION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetCollectiveNoun] [GetCultureTradition('tradition_esteemed_hospitality').GetName] [tradition|E]: $VALUE|=+0$",
+    "RUS": "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [tradition|El] «[GetCultureTradition('tradition_esteemed_hospitality').GetName]»: $VALUE|=+0$",
+    "POL": "[tradition|E] ([GetCultureTradition('tradition_esteemed_hospitality').GetName|l]) ceniona przez grupę znaną jako [recipient.GetCulture.GetCollectiveNoun]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_LOYAL_SUBJECTS_TRADITION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetCollectiveNoun] [GetCultureTradition('tradition_loyal_soldiers').GetName] [tradition|E]: $VALUE|=+0$",
+    "RUS": "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [tradition|El] «[GetCultureTradition('tradition_loyal_soldiers').GetName]»: $VALUE|=+0$",
+    "POL": "[tradition|E] ([GetCultureTradition('tradition_loyal_soldiers').GetName|l]) ceniona przez grupę znaną jako [recipient.GetCulture.GetCollectiveNoun]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CULTURAL_TRADITION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[actor.GetCulture.GetCollectiveNoun] [GetCultureTradition('tradition_loyal_soldiers').GetName] [tradition|E]: $VALUE|=+0$",
+    "RUS": "#L [actor.GetCulture.GetCollectiveNoun]ая#! [tradition|El] «[GetCultureTradition('tradition_loyal_soldiers').GetName]»: $VALUE|=+0$",
+    "POL": "[tradition|E] ([GetCultureTradition('tradition_loyal_soldiers').GetName|l]) ceniona przez grupę znaną jako [actor.GetCulture.GetCollectiveNoun]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_CULTURAL_PARAMETER_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetCollectiveNoun] [culture|E]:  $VALUE|=+0$",
+    "RUS": "#L [recipient.GetCulture.GetCollectiveNoun]ая#! [culture|El]: $VALUE|=+0$",
+    "POL": "[culture|E] grupy znanej jako [recipient.GetCulture.GetCollectiveNoun]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_ADULT_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E] is an adult: $VALUE|=+0$",
+    "RUS": "Взрослый [hostage|El]: $VALUE|=+0$",
+    "POL": "[hostage|E] jest osobą dorosłą: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_DURATION_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Years spent as a [hostage|E]: $VALUE|=+0$",
+    "RUS": "Проведено лет в качестве [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Lata spędzone jako [hostage|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_MINIMUM_STAY_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Held [hostage|E] for less than a year: $VALUE|=+0$",
+    "RUS": "Менее года в качестве [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Przetrzymywanie w charakterze [Concept('hostage', 'zakładnika')|E] przez mniej niż rok: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_HAS_MINE_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Has my [hostage|E]: $VALUE|=+0$",
+    "RUS": "Удерживает моего [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Ma mojego [Concept( 'hostage', 'zakładnika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_LIEGE_OF_WARDEN",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[liege|E] of [warden|E]: $VALUE|=+0$",
+    "RUS": "[Concept( 'liege', 'сюзерен' )|E] [Concept( 'warden', 'принимающей стороны' )|E]: $VALUE|=+0$",
+    "POL": "[liege|E] [Concept('warden', 'kuratora')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_DYNASTY_PRESTIGE_LEVEL_DIFFERENCES",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[dynasty_prestige_level|E] Differences: $VALUE|=+0$",
+    "RUS": "Различия в [Concept( 'dynasty_prestige_level', 'уровне величия' )|E]: $VALUE|=+0$",
+    "POL": "Różnice w [Concept( 'dynasty_prestige_level', 'poziomie splendoru' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RECIPIENT_SEX_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[hostage|E]'s Gender for [succession|E]: $VALUE|=+0$",
+    "RUS": "Пол [Concept( 'hostage', 'заложника' )|E] для [Concept( 'succession', 'наследования' )|E]: $VALUE|=+0$",
+    "POL": "Płeć [Concept('hostage', 'zakładnika')|E] w kontekście [Concept('succession', 'sukcesji')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOSTAGE_RETAINED_ADULTHOOD_REASON",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Did not return a [hostage|E] on adulthood: $VALUE|=+0$",
+    "RUS": "Отказ вернуть повзрослевшего [Concept( 'hostage', 'заложника' )|E]: $VALUE|=+0$",
+    "POL": "Nie zwrócono [Concept('hostage', 'zakładnika')|E] po osiągnięciu przez niego pełnoletności: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0300.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I see no benefit to be gained in taking your [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], as my hostage at this time.",
+    "RUS": "Я не понимаю, какую выгоду получу, если [Select_CString(secondary_actor.IsFemale, 'ваша', 'ваш' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], станет моим заложником.",
+    "POL": "Nie widzę w tym momencie żadnych korzyści z zakładnika, którym mogłaby być postać imieniem [secondary_actor.GetFirstName], [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] twojej osoby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0300.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "It's like that, is it?",
+    "RUS": "Вот, значит, как?",
+    "POL": "Tak to już jest, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0301.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I can only reject your tactless demand to take my [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], as your hostage.",
+    "RUS": "Я могу лишь отвергнуть ваше бестактное требование, чтобы [Select_CString(secondary_recipient.IsFemale, 'моя', 'мой' )] [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], [Select_CString(secondary_recipient.IsFemale, 'стала', 'стал' )] вашим заложником.",
+    "POL": "Mogę jedynie odrzucić twoje nietaktowne żądanie, w myśl którego postać imieniem [secondary_recipient.GetFirstName], [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))] mojej osoby, miałaby zostać twoim zakładnikiem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0301.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Foolish.",
+    "RUS": "Глупо.",
+    "POL": "Nierozsądne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0311.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Please cease your attempts to broach a truce between us; I cannot agree to a hostage exchange with you at this time.",
+    "RUS": "Прошу вас прекратить попытки заключить перемирие. Сейчас я не могу согласиться на обмен заложниками с вами.",
+    "POL": "Proszę o zaprzestanie prób doprowadzenia do rozejmu między nami; w tej chwili nie mogę zgodzić się na wymianę zakładników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0311.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "So be it.",
+    "RUS": "Да будет так.",
+    "POL": "Niech tak będzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0320.opening",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[actor.Custom2('AppropriateGreetingPositive', recipient )]",
+    "RUS": "[actor.Custom2('AppropriateGreetingPositive', recipient )]",
+    "POL": "[actor.Custom2('AppropriateGreetingPositive', recipient )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0320.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I could find no reason to keep your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], as a [actor.GetPrimaryTitle.GetAdjectiveNoTooltip] hostage any longer.",
+    "RUS": "Я больше не вижу причин, чтобы [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], [Select_CString(secondary_recipient.IsFemale, 'оставалась', 'оставался' )] [actor.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им заложником.",
+    "POL": "Nie ma już żadnego powodu, dla którego postać imieniem [secondary_recipient.GetFirstName], [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))] twojej osoby, miałaby w dalszym ciągu być zakładnikiem na ziemiach znanych jako [actor.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0320.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetSheHe|U] is back!",
+    "RUS": "[secondary_recipient.GetSheHe|U] [Select_CString(secondary_recipient.IsFemale, 'вернулась', 'вернулся' )]!",
+    "POL": "[secondary_recipient.GetSheHe|U] wraca!",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0330.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I would be happy to take your [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], as my hostage.\\n\\nI look forward to [hostage.GetHerHis] arrival in [hostage_taker.GetCapitalLocation.GetNameNoTooltip].",
+    "RUS": "Я одобряю идею, чтобы [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(hostage.IsFemale, 'стала', 'стал' )] заложником.\\n\\nЖду [hostage.GetHerHis] прибытия во владение [hostage_taker.GetCapitalLocation.GetNameNoTooltip].",
+    "POL": "Cieszę się, że osoba o imieniu [hostage.GetFirstName], a dla ciebie [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], zostanie moim zakładnikiem.\\n\\nNie mogę się doczekać [hostage.Custom('PL_jego_jej')] przybycia do miejsca, którym jest [hostage_taker.GetCapitalLocation.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0330.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Very good.",
+    "RUS": "Очень хорошо.",
+    "POL": "Bardzo dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0331.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I see no choice but to accept your demand to take my [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], as your hostage.\\n\\n[hostage.GetSheHe|U] will depart for [hostage_taker.GetCapitalLocation.GetNameNoTooltip] immediately.",
+    "RUS": "У меня нет иного выбора, кроме как согласиться, чтобы [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(hostage.IsFemale, 'стала', 'стал' )] заложником.\\n\\n[hostage.GetSheHe|U] немедленно отправится во владение [hostage_taker.GetCapitalLocation.GetNameNoTooltip].",
+    "POL": "Nie mam innego wyboru, jak tylko zaakceptować wystosowane przez ciebie żądanie. [hostage.GetFirstName], [hostage_sender.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] mojej osoby, zostanie twoim zakładnikiem.\\n\\nNatychmiast wyruszy do miasta o nazwie [hostage_taker.GetCapitalLocation.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0331.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Excellent.",
+    "RUS": "Отлично.",
+    "POL": "Znakomicie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0332.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I must accept your proposal to exchange my [hostage_sender_2.Custom2('RelationToMeShort', SCOPE.sC('hostage_2'))], [hostage_2.GetTitledFirstName], and your [hostage_sender_1.Custom2('RelationToMeShort', SCOPE.sC('hostage_1'))], [hostage_1.GetTitledFirstName], as hostages.",
+    "RUS": "Я понимаю необходимость принять ваше предложение, чтобы [Select_CString(hostage_2.IsFemale, 'моя', 'мой' )] [hostage_sender_2.Custom2('RelationToMeShort', SCOPE.sC('hostage_2'))], [hostage_2.GetTitledFirstName], и [Select_CString(hostage_1.IsFemale, 'ваша', 'ваш' )] [hostage_sender_1.Custom2('RelationToMeShort', SCOPE.sC('hostage_1'))], [hostage_1.GetTitledFirstName], стали заложниками.",
+    "POL": "Akceptuję twoją propozycję dotyczącą wymiany zakładników, którymi są [hostage_2.GetTitledFirstName], [hostage_sender_2.Custom2('RelationToMeShort', SCOPE.sC('hostage_2'))] mojej osoby, oraz [hostage_1.GetTitledFirstName], [hostage_sender_1.Custom2('RelationToMeShort', SCOPE.sC('hostage_1'))] twojej osoby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0332.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Perfect.",
+    "RUS": "Прекрасно.",
+    "POL": "Doskonale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0340.opening",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "RUS": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "POL": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0340.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I accept your request for your [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNamePossessive], return.\\n\\nI trust this will not sour our relationship.",
+    "RUS": "Я принимаю вашу просьбу о том, чтобы [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(hostage.IsFemale, 'вернулась', 'вернулся' )].\\n\\nНадеюсь, это не испортит наши отношения.",
+    "POL": "Przychylam się do twojej prośby o powrót osoby znanej jako [hostage.GetFirstName], a dla ciebie [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))].\\n\\nŻywię nadzieję, że ta sprawa nie zepsuje naszych stosunków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0340.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Thank [ROOT.Char.GetFaith.HighGodNameAlternate].",
+    "RUS": "Благодарю тебя, [ROOT.Char.GetFaith.HighGodNameAlternate].",
+    "POL": "To prawdziwa łaska [ROOT.Char.GetFaith.HighGodNameAlternatePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0341.desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "I'm afraid I must keep your [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], in [recipient.GetCapitalLocation.GetNameNoTooltip] for a little while longer.",
+    "RUS": "Увы, [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], еще какое-то время погостит во владении [recipient.GetCapitalLocation.GetNameNoTooltip].",
+    "POL": "Obawiam się, że osoba znana jako [secondary_recipient.GetFirstName], a dla ciebie [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_recipient'))], musi zostać w miejscu o nazwie [recipient.GetCapitalLocation.GetNameNoTooltip] trochę dłużej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "char_interaction.0341.a",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "That boor...",
+    "RUS": "Какая наглость...",
+    "POL": "Co za gbur…",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Offer a Hostage",
+    "RUS": "@hostage! Вы можете предложить заложника",
+    "POL": "@hostage! Możesz zaoferować zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Offer a Hostage to [recipient.GetUINameNoTooltip]",
+    "RUS": "@hostage! Вы можете предложить заложника персонажу [recipient.GetUINameNoTooltip]",
+    "POL": "@hostage! Możesz zaoferować zakładnika postaci [recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip] would accept your Offer of a [hostage|E].\\n\\n$hostage_benefit_tt$",
+    "RUS": "[recipient.GetUINameNoTooltip] примет ваше предложение [Concept( 'hostage', 'заложника' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "[recipient.GetUINameNotMeNoTooltip] może zaakceptować twoją ofertę [Concept( 'hostage', 'zakładnika' )|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_click",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#I Click to find a suitable [hostage|E]#!",
+    "RUS": "#I Щелкните, чтобы найти подходящего [Concept( 'hostage', 'заложника' )|E]#!",
+    "POL": "#I Kliknij, aby znaleźć odpowiedniego [Concept( 'hostage', 'zakładnika' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_combined_group_name",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Offer a Hostage",
+    "RUS": "@hostage! Вы можете предложить заложника",
+    "POL": "@hostage! Możesz zaoferować zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_combined_group_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Offer Hostages",
+    "RUS": "@hostage! Вы можете предложить заложников",
+    "POL": "@hostage! Możesz zaoferować zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_combined_group_description",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Several neighboring [rulers|E], fellow [vassals|E], or [powerful_vassals|E] would accept your Offer of a [hostage|E].\\n\\n$hostage_benefit_tt$",
+    "RUS": "Несколько соседних [Concept( 'rulers', 'правителей' )|E], собратьев-[Concept( 'vassals', 'вассалов' )|E] или [Concept( 'powerful_vassals', 'могущественных вассалов' )|E] готовы принять ваше предложение [Concept( 'hostage', 'заложника' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "Kilku sąsiednich [Concept( 'rulers', 'władców' )|E], [Concept( 'vassal', 'współwasali' )|E] lub [Concept( 'powerful_vassals', 'wpływowych wasali' )|E] mogłoby zaakceptować twoją ofertę [Concept( 'hostage', 'zakładnika')|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_combined_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip]",
+    "RUS": "[recipient.GetUINameNoTooltip]",
+    "POL": "[recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_combined_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X Potential targets have no [casus_bellis|E] against you or already have a [truce|E]#!",
+    "RUS": "@warning_icon! #X У возможных целей нет [casus_bellis|El] против вас, или уже есть действующее [truce|El]#!",
+    "POL": "@warning_icon! #X Potencjalne cele nie mają [casus_bellis|El] przeciwko tobie lub już zawarły [truce|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_offer_hostage_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X [recipient.GetShortUIName] has no [casus_bellis|E] against you or already have a [truce|E]#!",
+    "RUS": "@warning_icon! #X [recipient.GetShortUIName] не имеет [casus_bellis|El] против вас, или уже есть действующее [truce|El]#!",
+    "POL": "@warning_icon! #X [recipient.GetShortUINameNotMe] nie ma [casus_bellis|El] przeciwko tobie lub zawarł[Select_CString( recipient.IsFemale, 'a', '' )] już [truce|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_benefit_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#help Hostages may deter or neutralize threats, allowing you to focus your attention elsewhere, and grant monthly [prestige_i|E][prestige|E] to the [warden|E].#!",
+    "RUS": "#help Заложники могут отвести или нейтрализовать угрозу, позволяя вам сосредоточиться на других вопросах, а [warden|El] ежемесячно получает [prestige_i|E][prestige|El].#!",
+    "POL": "#help Zakładnicy mogą odstraszać lub neutralizować zagrożenia, pozwalając ci skupić się na innych sprawach. Zapewniają także [Concept( 'warden', 'kuratorowi' )|E] miesięczny [prestige_i|E] [prestige|El].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Demand a Hostage",
+    "RUS": "@hostage! Вы можете потребовать заложника",
+    "POL": "@hostage! Możesz żądać zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Demand a Hostage from [recipient.GetUINameNoTooltip]",
+    "RUS": "@hostage! Вы можете потребовать заложника у персонажа [recipient.GetUINameNoTooltip]",
+    "POL": "@hostage! Możesz zażądać zakładnika od: [recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip] would accept your Demand for a [hostage|E].\\n\\n$hostage_benefit_tt$",
+    "RUS": "[recipient.GetUINameNoTooltip] согласится на ваше требование [Concept( 'hostage', 'заложника' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "[recipient.GetUINameNotMeNoTooltip] m[Select_CString( recipient.IsFemale, 'ogłaby', 'ógłby' )] zaakceptować twoje żądanie [Concept( 'hostage', 'zakładnika' )|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_click",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#I Click to find a suitable [hostage|E]#!",
+    "RUS": "#I Щелкните, чтобы найти подходящего [Concept( 'hostage', 'заложника' )|E]#!",
+    "POL": "#I Kliknij, aby znaleźć odpowiedniego [Concept( 'hostage', 'zakładnika' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_combined_group_name",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Demand a Hostage",
+    "RUS": "@hostage! Вы можете потребовать заложника",
+    "POL": "@hostage! Możesz żądać zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_combined_group_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Demand Hostages",
+    "RUS": "@hostage! Вы можете потребовать заложников",
+    "POL": "@hostage! Możesz żądać zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_combined_group_description",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Several neighboring [rulers|E], fellow [vassals|E], or [powerful_vassals|E] would accept your Demand for a [hostage|E].\\n\\n$hostage_benefit_tt$",
+    "RUS": "Несколько соседних [Concept( 'rulers', 'правителей' )|E], собратьев-[Concept( 'vassals', 'вассалов' )|E] или [Concept( 'powerful_vassals', 'могущественных вассалов' )|E] готовы согласиться на ваше требование [Concept( 'hostage', 'заложника' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "Kilku sąsiednich [Concept( 'rulers', 'władców' )|E], [Concept( 'vassal', 'współwasali' )|E] lub [Concept( 'powerful_vassals', 'wpływowych wasali' )|E] mogłoby zaakceptować twoje żądanie [Concept( 'hostage', 'zakładnika')|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_combined_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip]",
+    "RUS": "[recipient.GetUINameNoTooltip]",
+    "POL": "[recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_combined_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X You have [casus_bellis|E] against, or existing [truces|E] with, potential targets#!",
+    "RUS": "@warning_icon! #X У вас есть [casus_bellis|El] против потенциальных целей или истекающие [truces|El]#!",
+    "POL": "@warning_icon! #X Masz [casus_bellis|El] wobec potencjalnych celów lub istniejące [Concept('truces', 'rozejmy')|E] z nimi#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_demand_hostage_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X You have a [casus_belli|E] against, or existing [truce|E] with, [recipient.GetShortUIName]#!",
+    "RUS": "@warning_icon! #X У вас есть [casus_belli|El] или истекающие [truces|El] против персонажа [recipient.GetShortUIName]#!",
+    "POL": "@warning_icon! #X Masz [casus_belli|El] wobec osoby, którą jest [recipient.GetShortUINameNotMe], lub istniejący [Concept('truce', 'rozejm')|E] z [recipient.Custom('PL_nim_nia')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Exchange Hostages",
+    "RUS": "@hostage! Вы можете обменяться заложниками",
+    "POL": "@hostage! Możesz wymienić zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Exchange Hostages with [recipient.GetUINameNoTooltip]",
+    "RUS": "@hostage! Вы можете обменяться заложниками с персонажем [recipient.GetUINameNoTooltip]",
+    "POL": "@hostage! Ty i [recipient.GetUINameNotMeNoTooltip] możecie wymienić się zakładnikami",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip] would Exchange [hostages|E] with you.\\n\\n$hostage_benefit_tt$",
+    "RUS": "[recipient.GetUINameNoTooltip] [Select_CString(recipient.IsFemale, 'готова', 'готов' )] обменяться с вами [Concept( 'hostages', 'заложниками' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "[recipient.GetUINameNotMeNoTooltip] może wymienić się z tobą [Concept( 'hostages', 'zakładnikami' )|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_click",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#I Click to find a suitable [hostage|E]#!",
+    "RUS": "#I Щелкните, чтобы найти подходящего [Concept( 'hostage', 'заложника' )|E]#!",
+    "POL": "#I Kliknij, aby znaleźć odpowiedniego [Concept( 'hostage', 'zakładnika' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_combined_group_name",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Exchange a Hostage",
+    "RUS": "@hostage! Вы можете обменять заложника",
+    "POL": "@hostage! Możesz wymienić się zakładnikiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_combined_group_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Exchange Hostages",
+    "RUS": "@hostage! Вы можете обменяться заложниками",
+    "POL": "@hostage! Możesz wymienić zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_combined_group_description",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Several neighboring [rulers|E], fellow [vassals|E], or [powerful_vassals|E] would Exchange [hostages|E] with you.\\n\\n$hostage_benefit_tt$",
+    "RUS": "Несколько соседних [Concept( 'rulers', 'правителей' )|E], собратьев-[Concept( 'vassals', 'вассалов' )|E] или [Concept( 'powerful_vassals', 'могущественных вассалов' )|E] готовы обменяться с вами [Concept( 'hostages', 'заложниками' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "Kilku sąsiednich [Concept( 'rulers', 'władców' )|E], innych [Concept('vassals', 'wasali')|E] lub [Concept( 'powerful_vassals', 'wpływowych wasali' )|E] może wymienić się z tobą [Concept('hostages', 'zakładnikami')|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_combined_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip]",
+    "RUS": "[recipient.GetUINameNoTooltip]",
+    "POL": "[recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_combined_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X Potential targets have no [casus_bellis|E] against you or already have a [truce|E]#!",
+    "RUS": "@warning_icon! #X У возможных целей нет [casus_bellis|El] против вас, или уже есть действующее [truce|El]#!",
+    "POL": "@warning_icon! #X Potencjalne cele nie mają [casus_bellis|El] przeciwko tobie lub już zawarły [truce|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_exchange_hostage_unimportant",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@warning_icon! #X [recipient.GetShortUIName] has no [casus_bellis|E] against you or already have a [truce|E]#!",
+    "RUS": "@warning_icon! #X [recipient.GetShortUIName] не имеет [casus_bellis|El] против вас, или уже есть действующее [truce|El]#!",
+    "POL": "@warning_icon! #X [recipient.GetShortUINameNotMe] nie ma [casus_bellis|El] przeciwko tobie lub zawarł[Select_CString( recipient.IsFemale, 'a', '' )] już [truce|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Recall a Hostage",
+    "RUS": "@hostage! Вы можете отозвать заложника",
+    "POL": "@hostage! Możesz poprosić o zwrot zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Recall a Hostage from [recipient.GetUINameNoTooltip]",
+    "RUS": "@hostage! Вы можете отозвать заложника у персонажа [recipient.GetUINameNoTooltip]",
+    "POL": "@hostage! Możesz poprosić o zwrot zakładnika od osoby znanej jako [recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_desc",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip] would accept your Recall of a [hostage|E].\\n\\n$hostage_benefit_tt$",
+    "RUS": "[recipient.GetUINameNoTooltip] примет ваше предложение отозвать [Concept( 'hostage', 'заложника' )|E].\\n\\n$hostage_benefit_tt$",
+    "POL": "[recipient.GetUINameNotMeNoTooltip] może zaakceptować twoją prośbę zwrotu [Concept( 'hostage', 'zakładnika' )|E].\\n\\n$hostage_benefit_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_click",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "#I Click to find a suitable [hostage|E]#!",
+    "RUS": "#I Щелкните, чтобы найти подходящего [Concept( 'hostage', 'заложника' )|E]#!",
+    "POL": "#I Kliknij, aby znaleźć odpowiedniego [Concept( 'hostage', 'zakładnika' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_combined_group_name",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Recall a Hostage",
+    "RUS": "@hostage! Вы можете отозвать заложника",
+    "POL": "@hostage! Możesz poprosić o zwrot zakładnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_combined_group_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "@hostage! You can Recall Hostages",
+    "RUS": "@hostage! Вы можете отозвать заложников",
+    "POL": "@hostage! Możesz poprosić o zwrot zakładników",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_combined_group_description",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "Several [hostages_possessive|E] can be recalled from their [warden|E].",
+    "RUS": "Нескольких [Concept( 'hostages_possessive', 'заложников' )|E] можно отозвать у [Concept( 'warden', 'принимающей стороны' )|E].",
+    "POL": "Można poprosić o zwrot kilku [Concept('hostages_possessive', 'zakładników')|E] od ich [Concept('warden', 'kuratora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "action_can_recall_hostage_combined_label",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[recipient.GetUINameNoTooltip]",
+    "RUS": "[recipient.GetUINameNoTooltip]",
+    "POL": "[recipient.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "halved_hostage_prestige_tt",
+    "FILE_PATH": "localization/belarusian/interactions/hostage_interaction_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUINamePossessive|U] [prestige_i|E][prestige|E] income from [hostages|E] is reduced for [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V] years",
+    "RUS": "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'будете', 'будет' )] получать меньше [prestige_i|E][Concept( 'prestige', 'престижа' )|E] от [Concept( 'hostages', 'заложников' )|E] следующие [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V] лет",
+    "POL": "Dochód [prestige_i|E] [Concept('prestige', 'prestiżu')|E] osoby znanej jako [THIS.Char.GetShortUINameNotMe] za [Concept('hostages', 'zakładników')|E] zostaje zmniejszony na liczbę lat: [SCOPE.ScriptValue('hostage_adulthood_retained_halved_prestige_duration_value')|0V]",
+    "BEL": ""
+  }
+]

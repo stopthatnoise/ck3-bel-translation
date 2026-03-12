@@ -1,0 +1,114 @@
+[
+  {
+    "KEY": "RW_TT_RAIDING_REALM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Raider: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Click to view#!",
+    "RUS": "#T Налетчик: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Щелкните, чтобы посмотреть#!",
+    "POL": "#T Najeźdźca: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Kliknij, aby zobaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TT_DEFENDING_REALM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Defender: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Click to view#!",
+    "RUS": "#T Обороняется: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Щелкните, чтобы посмотреть#!",
+    "POL": "#T Obrońca: [Character.GetPrimaryTitle.GetName|V]#!\\n#I Kliknij, aby zobaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TIME_LEFT",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "[Raid.GetEta.GetTimeDiffFromNow|V] left",
+    "RUS": "Еще [Raid.GetEta.GetTimeDiffFromNow|V]",
+    "POL": "Pozostało [Raid.GetEta.GetTimeDiffFromNow|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TIME_LEFT_TT",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Time Left\\n#!The Raid will finish on [Raid.GetEta.GetString]",
+    "RUS": "#T Время\\n#!Налет завершится [Raid.GetEta.GetString]",
+    "POL": "#T Pozostały czas\\n#!Najazd dobiegnie końca za [Raid.GetEta.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TT_LOOT",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Loot: [gold_i][Province.GetLoot|0V]\\n#!Given to the raiding [realm|E] when the [raid|E] finishes.",
+    "RUS": "#T Добыча: [gold_i][Province.GetLoot|0V]\\n#![realm|E] налетчиков получит эту добычу, если [raid|El] завершится успехом.",
+    "POL": "#T Łup: [gold_i] [Province.GetLoot|0V]\\n#!Przysługujący najeżdżającemu [Concept('realm', 'państwu')|E] po zakończeniu [Concept('raid', 'najazdu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_PROGRESS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Raid Progress: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!\\n[Raid.GetRaidProgressTooltip]",
+    "RUS": "#T Прогресс налета: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!\\n[Raid.GetRaidProgressTooltip]",
+    "POL": "#T Postęp najazdu: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!\\n[Raid.GetRaidProgressTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_TROOPS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Number of Soldiers#!\\n[raiding|E] Army: [Raid.GetAttackerMen|V]\\n[garrison|E]: [Raid.GetDefenderMen|V]\\nDaily progress: [Raid.GetDailyProgressPercent|%1V]",
+    "RUS": "#T Количество солдат#!\\nАрмия [Concept( 'raiding', 'налётчиков' )|E]: [Raid.GetAttackerMen|V]\\n[garrison|E]: [Raid.GetDefenderMen|V]\\nЕжедневный прогресс: [Raid.GetDailyProgressPercent|%1V]",
+    "POL": "#T Liczba żołnierzy#!\\nArmia [Concept('raiding', 'najeźdźców')|E]: [Raid.GetAttackerMen|V]\\n[garrison|E]: [Raid.GetDefenderMen|V]\\nDzienny postęp: [Raid.GetDailyProgressPercent|%1V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_BLOCKED_BY_COMBAT",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Raiding army is in a [battle|E]#!",
+    "RUS": "@warning_icon! #X Армия налетчиков [Concept( 'battle', 'сражается' )|E]#!",
+    "POL": "@warning_icon! #X Armia najeźdźców bierze udział w [Concept('battle', 'bitwie')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_ON_ME_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Being Raided#!\\nBeing raided by [Character.GetShortUIName].\\nHostilities will end in [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Click to view Character#!",
+    "RUS": "#T Подвергается налёту#!\\nПодвергается налёту [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )].\\nВраждебные действия закончатся через [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Щелкните для просмотра персонажа#!",
+    "POL": "#T Wrogi najazd#!\\nNajeźdźca to [Character.GetShortUINameNotMe].\\nNajazd zakończy się za [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Kliknij, aby wyświetlić postać#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_BY_ME_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "#T Raiding#!\\nRaiding [Character.GetShortUIName].\\nHostilities will end in [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Click to view Character#!",
+    "RUS": "#T Совершается налёт#!\\nИдет налёт на [Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'его персонажа', '' )].\\nВраждебные действия закончатся через [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Щелкните для просмотра персонажа#!",
+    "POL": "#T Najazd#!\\nNajazd [Character.GetShortUINameNotMe].\\nZakończy się za [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\\n\\n#I Kliknij, aby wyświetlić postać#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TT_DAILY_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "Daily progress",
+    "RUS": "Ежедневный прогресс",
+    "POL": "Dzienny postęp",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TT_BASE_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "Base",
+    "RUS": "Базовое значение",
+    "POL": "Podstawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "RW_TT_MEN_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "Raiding [soldiers|E]",
+    "RUS": "[soldiers|E]-налетчики",
+    "POL": "Najeżdżający [soldiers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PROVINCE_LOOT_VALUE",
+    "FILE_PATH": "localization/belarusian/gui/raid_window_l_belarusian.json",
+    "ENG": "[loot_i] [Province.GetLoot|0]",
+    "RUS": "[loot_i] [Province.GetLoot|0]",
+    "POL": "[loot_i] [Province.GetLoot|0]",
+    "BEL": ""
+  }
+]

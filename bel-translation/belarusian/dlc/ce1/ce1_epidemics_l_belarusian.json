@@ -1,0 +1,1282 @@
+[
+  {
+    "KEY": "epidemic_level_minor",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[plague_minor|E]",
+    "RUS": "[Concept( 'plague_minor', 'Эпидемия' )|E]",
+    "POL": "[plague_minor|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_level_major",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[plague_major|E]",
+    "RUS": "[Concept( 'plague_major', 'Пандемия' )|E]",
+    "POL": "[plague_major|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_level_apocalyptic",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[plague_apocalyptic|E]",
+    "RUS": "[Concept( 'plague_apocalyptic', 'Апокалипсис' )|E]",
+    "POL": "[plague_apocalyptic|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague",
+    "RUS": "Поветрие",
+    "POL": "Zaraza",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "A $game_concept_epidemic$ is an outbreak of a disease that spreads across the map, causing both local effects and infecting characters in its area. Affected [baronies|E] have an [infection_rate|E] that handles their severity and can be countered by improving the [epidemic_resistance|E].\\n\\nA Plague can have different [plague_intensities|E], affecting its area of effect, duration and [fatalities|E].",
+    "RUS": "Поветрие — это вспышка болезни, распространяющаяся по карте. Она накладывает местные эффекты, а также заражает проживающих в тех местах персонажей. В пострадавших [Concept( 'baronies', 'баронствах' )|E] есть [Concept( 'infection_rate', 'уровень заболеваемости' )|E], определяющий серьезность заболевания. Чтобы противостоять болезни, нужно повышать [Concept( 'epidemic_resistance', 'сопротивляемость эпидемии' )|E].\\n\\nПоветрие может иметь разную [Concept( 'plague_intensities', 'интенсивность' )|E], что влияет на область заражения, длительность заболевания и [Concept('fatalities', 'смертность')|E].",
+    "POL": "Zaraza to wybuch choroby, która rozprzestrzenia się po mapie, wywołując lokalnie skutki i zakażając postacie w swoim zasięgu. Zainfekowane [baronies|El] posiadają [infection_rate|El], który określa jej dotkliwość. Aby opierać się zarazie, należy zwiększać [epidemic_resistance|El].\\n\\nZaraza może posiadać różne [Concept( 'plague_intensities', 'skale' )|E] wypływające na obszar jej działania, czas trwania oraz [Concept( 'fatalities', 'śmiertelność' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_i",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "@epidemic_icon!",
+    "RUS": "@epidemic_icon!",
+    "POL": "@epidemic_icon!",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemics",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plagues",
+    "RUS": "Поветрия",
+    "POL": "Zarazy",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemics_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_epidemic_desc$",
+    "RUS": "$game_concept_epidemic_desc$",
+    "POL": "$game_concept_epidemic_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_rate",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Infection Rate",
+    "RUS": "Уровень заболеваемости",
+    "POL": "Wskaźnik zakażeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_rate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[baronies|E] affected by [epidemics|E] have an $game_concept_infection_rate$ that handles their severity and the strength of its effects.\\n\\nThe $game_concept_infection_rate$ will always progress towards its maximum value if nothing is done to fight it. Minor, Major and Apocalyptic [epidemics|E] will progress at different velocities, marked by their intensity.\\n\\nIn order to mitigate the impact of the Infection, [rulers|E] can improve the [epidemic_resistance|E] of their [realm|E].",
+    "RUS": "В [Concept( 'baronies', 'баронствах' )|E], пострадавших от [Concept( 'epidemics', 'поветрия' )|E], есть уровень заболеваемости, определяющий серьезность последствий.\\n\\nУровень заболеваемости всегда будет стремиться к максимальному значению, если ему ничто не противостоит. Эпидемии, пандемии и апокалипсисы будут развиваться с разной скоростью в зависимости от интенсивности заболевания.\\n\\nЧтобы снизить последствия болезней, [Concept( 'rulers', 'правители' )|E] могут повышать [Concept( 'epidemic_resistance', 'сопротивляемость эпидемии' )|E] своих [Concept( 'realm', 'держав' )|E].",
+    "POL": "[baronies|E] dotknięte [Concept( 'epidemics', 'zarazami' )|E] mają wskaźnik zakażeń, który określa ich dotkliwość i siłę skutków.\\n\\n$game_concept_infection_rate$ zawsze będzie dążył do maksymalnej wartości, jeśli nie zostaną podjęte żadne działania, aby mu przeciwdziałać. Małe, wielkie i apokaliptyczne [epidemics|El] postępują w różnym tempie, na co wskazuje ich intensywność.\\n\\nAby złagodzić wpływ zakażenia, [rulers|El] mogą zwiększyć [epidemic_resistance|El] swojego [realms|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_rates",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Infection Rates",
+    "RUS": "Уровни заболеваемости",
+    "POL": "Wskaźniki zakażeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_rates_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_infection_rate_desc$",
+    "RUS": "$game_concept_infection_rate_desc$",
+    "POL": "$game_concept_infection_rate_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_resistance",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague Resistance",
+    "RUS": "Сопротивляемость поветрию",
+    "POL": "Przeciwdziałanie zarazie",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_resistance_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "The $game_concept_epidemic_resistance$ lowers the [infection_rate|E] of a [barony|E] or [county|E], mitigating the effects of a [epidemic|E].\\n\\nThe $game_concept_epidemic_resistance$ can be increased through [buildings|E] like $building_type_hospices_01$ or $building_type_burial_site_01$ #weak ([duchy_building|E])#!, [court_position_tasks|E] performed by the $court_physician_court_position$, [decisions|E] or events.",
+    "RUS": "Сопротивляемость поветрию снижает [Concept( 'infection_rate', 'уровень заболеваемости' )|E] [Concept( 'barony', 'баронства' )|E] или [Concept( 'county', 'графства' )|E], уменьшая последствия [Concept( 'epidemic', 'поветрия' )|E].\\n\\nСопротивляемость можно повысить с помощью [Concept( 'buildings', 'зданий' )|E], таких как $building_type_hospices_01$ или $building_type_burial_site_01$ #weak ([Concept( 'duchy_building', 'герцогская постройка' )|E])#!, [Concept( 'court_position_tasks', 'поручений' )|E], которые будет выполнять $court_physician_court_position$, [Concept( 'decisions', 'решений' )|E] или событий.",
+    "POL": "$game_concept_epidemic_resistance$ obniża [infection_rate|El] [Concept( 'barony', 'baronii' )|E] lub [Concept( 'county', 'hrabstwa' )|E], łagodząc skutki [Concept( 'epidemic', 'zarazy' )|E].\\n\\n$game_concept_epidemic_resistance$ może zostać zwiększona poprzez [buildings|El] takie jak hospicja lub miejsca pochówku #weak ([duchy_building|El])#!, [court_position_tasks|El] wykonywane przez medyka, [decisions|El] lub wydarzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_res",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague Res.",
+    "RUS": "Сопротивление поветрию",
+    "POL": "Odpor. na zarazę",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_epidemic_res_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_epidemic_resistance_desc$",
+    "RUS": "$game_concept_epidemic_resistance_desc$",
+    "POL": "$game_concept_epidemic_resistance_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_chance",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Chance of Infection",
+    "RUS": "Шанс заражения",
+    "POL": "Ryzyko zakażenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_chance_of_infection",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Chance of Infection",
+    "RUS": "Шанс заражения",
+    "POL": "Ryzyko zakażenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_infection_chance_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Your $game_concept_infection_chance$ determines how likely you are to contract [diseases|E] from an ongoing [epidemic|E].",
+    "RUS": "Ваш шанс заражения определяет, с какой вероятностью вы подхватите [Concept( 'diseases', 'недуг' )|E] во время текущего [Concept( 'epidemic', 'поветрия' )|E].",
+    "POL": "Ryzyko zakażenia określa prawdopodobieństwo zakażenia się [Concept( 'diseases', 'chorobami' )|E] w wyniku trwającej [Concept( 'epidemic', 'zarazy' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_intensity",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague Intensity",
+    "RUS": "Интенсивность поветрия",
+    "POL": "Skala zarazy",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_intensity_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "A [epidemic|E] can be Apocalyptic, Major or Minor, affecting its area of spread, the duration and the [characters|E] that get infected by it, causing [fatalities|E].",
+    "RUS": "[Concept( 'epidemic', 'Поветрие' )|E] может иметь различные уровни интенсивности: апокалипсис, пандемия или эпидемия. Оно будет оказывать воздействие на область своего распространения и [Concept( 'characters', 'персонажей' )|E], которые подвергнутся заражению, что может привести к [Concept( 'fatalities', 'смертельному исходу' )|E].",
+    "POL": "[epidemic|E] może przybrać rozmiary apokaliptycznej, wielkiej lub małej, wpływając na obszar rozprzestrzeniania się, czas trwania i [characters|El], które zostaną zakażone, prowadząc w konsekwencji do ich [Concept( 'fatalities', 'śmierci' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_intensities",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague Intensities",
+    "RUS": "Интенсивность поветрия",
+    "POL": "Skale zarazy",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_intensities_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_plague_intensity_desc$",
+    "RUS": "$game_concept_plague_intensity_desc$",
+    "POL": "$game_concept_plague_intensity_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_apocalyptic",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Apocalyptic",
+    "RUS": "Апокалипсис",
+    "POL": "Apokaliptyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_apocalyptic_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_infection_chance_desc$",
+    "RUS": "$game_concept_infection_chance_desc$",
+    "POL": "$game_concept_infection_chance_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_major",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Major",
+    "RUS": "Пандемия",
+    "POL": "Wielka",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_major_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_infection_chance_desc$",
+    "RUS": "$game_concept_infection_chance_desc$",
+    "POL": "$game_concept_infection_chance_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_minor",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Minor",
+    "RUS": "Эпидемия",
+    "POL": "Mała",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_plague_minor_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$game_concept_infection_chance_desc$",
+    "RUS": "$game_concept_infection_chance_desc$",
+    "POL": "$game_concept_infection_chance_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_smallpox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Smallpox",
+    "RUS": "Оспа",
+    "POL": "Ospa",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_bubonic_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bubonic Plague",
+    "RUS": "Бубонная чума",
+    "POL": "Dżuma",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_bubonic_plague_global_notification",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "haunts the lands",
+    "RUS": "терзает земли",
+    "POL": "nawiedza ziemie",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_black_death",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Black Death",
+    "RUS": "Черная смерть",
+    "POL": "Czarna śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_typhus",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Typhus",
+    "RUS": "Тиф",
+    "POL": "Dur plamisty",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_consumption",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Consumption",
+    "RUS": "Чахотка",
+    "POL": "Suchoty",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_measles",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Measles",
+    "RUS": "Корь",
+    "POL": "Odra",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNameNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFirstNamePossessiveNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFirstNameNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFirstNameNoTooltip|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_possessive_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNamePossessiveNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNamePossessiveNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNameNoTooltip|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_ruler_possessive_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitledFirstNamePossessiveNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitledFirstNamePossessiveNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitledFirstName|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_province_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetAdjectiveNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetAdjectiveNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetAdjectiveNoTooltip|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetNameNoTooltip|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_devils_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetFaith.DevilNamePossessive|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetFaith.DevilNamePossessive|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetFaith.DevilNamePossessive]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_random_saint_loc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.Custom('RandomSaintNamePossessive')|U]",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.Custom('RandomSaintNamePossessive')|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.Custom('RandomSaintNamePossessive')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_rulers_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Plague",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ая чума",
+    "POL": "Zaraza postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_plague_of_ruler",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Plague of $epidemic_ruler_loc$",
+    "RUS": "Мор $epidemic_ruler_ru_cust_loc$",
+    "POL": "Zaraza postaci $epidemic_ruler_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_province_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Plague",
+    "RUS": "$epidemic_province_loc$ий мор",
+    "POL": "Zaraza z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Plague",
+    "RUS": "$epidemic_realm_loc$ий мор",
+    "POL": "Zaraza z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_animal_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.Custom('RegionalPoxAnimal')|U] Pox",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.Custom('RegionalPoxAnimal_RU_ADJ')|U] оспа",
+    "POL": "Ospa odzwierzęca",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Pox",
+    "RUS": "$epidemic_realm_loc$ая оспа",
+    "POL": "Ospa z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Pox",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ая оспа",
+    "POL": "Ospa postaci $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Pox",
+    "RUS": "$epidemic_culture_loc$ая оспа",
+    "POL": "$epidemic_culture_loc$ ospa",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Pox",
+    "RUS": "$epidemic_province_loc$ая оспа",
+    "POL": "Ospa z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_rulers_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Pox",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ая оспа",
+    "POL": "Ospa postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_rulers_pox",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Pox",
+    "RUS": "Оспа $epidemic_ruler_ru_cust_loc$",
+    "POL": "Ospa postaci $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Boils",
+    "RUS": "$epidemic_realm_loc$ие чирьи",
+    "POL": "Czyrak z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_rulers_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Boils",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ие чирьи",
+    "POL": "Czyrak postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_rulers_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Boils",
+    "RUS": "Чирьи $epidemic_ruler_ru_cust_loc$",
+    "POL": "Czyrak postaci $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Boils",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ие чирьи",
+    "POL": "Czyrak postaci $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Boils",
+    "RUS": "$epidemic_culture_loc$ие чирьи",
+    "POL": "$epidemic_culture_loc$ zaraza czyraka",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_boils",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Boils",
+    "RUS": "$epidemic_province_loc$ие чирьи",
+    "POL": "Czyrak z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_rulers_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Fever",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ая лихорадка",
+    "POL": "Gorączka postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_rulers_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Fever",
+    "RUS": "Лихорадка $epidemic_ruler_ru_cust_loc$",
+    "POL": "Gorączka postaci $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_province_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Fever",
+    "RUS": "$epidemic_province_loc$ая лихорадка",
+    "POL": "Gorączka z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_province_sweats",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Sweats",
+    "RUS": "$epidemic_province_loc$ий пот",
+    "POL": "Poty z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Fever",
+    "RUS": "$epidemic_realm_loc$ая лихорадка",
+    "POL": "Gorączka z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_terrain_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Fever",
+    "RUS": "$epidemic_terrain_ya$ лихорадка",
+    "POL": "Gorączka pochodząca z miejsca znanego jako [ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_sweats",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Sweats",
+    "RUS": "$epidemic_culture_loc$ий пот",
+    "POL": "$epidemic_culture_loc$ zaraza potów",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_devils_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U]'s Fever",
+    "RUS": "Лихорадка [ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U]",
+    "POL": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U] w gorączce",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_camp_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Camp Fever",
+    "RUS": "Лагерная лихорадка",
+    "POL": "Gorączka obozowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_famine_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Famine Fever",
+    "RUS": "Голодный тиф",
+    "POL": "Gorączka głodowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_spotted_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Spotted Fever",
+    "RUS": "Пятнистая лихорадка",
+    "POL": "Gorączka plamista",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_curse_of_canaan",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Curse of Canaan",
+    "RUS": "Проклятье Ханаана",
+    "POL": "Klątwa Kanaanu",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_yaksma",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Yaksma",
+    "RUS": "Якшма",
+    "POL": "Jaksma",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_shizhai",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Shizhai",
+    "RUS": "Шичжай",
+    "POL": "Gruźlica",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_demon_dog_disease",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Demon Dog Fever",
+    "RUS": "Лихорадка демонического пса",
+    "POL": "Gorączka demonicznego psa",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titles_evil",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNamePossessiveNoTooltip|U] Evil",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ое зло",
+    "POL": "Zło pochodzące z miejsca znanego jako [ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_cold_humor",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Cold Humor Flu",
+    "RUS": "Грипп холодных гуморов",
+    "POL": "Grypa zimnych humorów",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_flu",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Flu",
+    "RUS": "$epidemic_realm_loc$ий грипп",
+    "POL": "Grypa z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_ruler_flu",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Flu",
+    "RUS": "Грипп $epidemic_ruler_ru_cust_loc$",
+    "POL": "Grypa postaci $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_flu",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Flu",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий грипп",
+    "POL": "Grypa postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_coughs",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Coughs",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий кашель",
+    "POL": "Kaszel postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_flu",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Flu",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий грипп",
+    "POL": "Grypa postaci $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_coughs",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Coughs",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий кашель",
+    "POL": "Kaszel postaci $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_coughs",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Coughs",
+    "RUS": "$epidemic_realm_loc$ий кашель",
+    "POL": "Kaszel z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_white_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "White Plague",
+    "RUS": "Белая чума",
+    "POL": "Biała zaraza",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_romantic_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Romantic Plague",
+    "RUS": "Романтическая чума",
+    "POL": "Romantyczna zaraza",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_great_pestilence",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Great Pestilence",
+    "RUS": "Черная смерть",
+    "POL": "Wielki pomór",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_random_saint_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_random_saint_loc$ Plague",
+    "RUS": "Мор $epidemic_random_saint_loc$",
+    "POL": "Zaraza $epidemic_random_saint_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_evil_god_pestilence",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_devils_loc$ Pestilence",
+    "RUS": "Болезнь $epidemic_devils_loc$",
+    "POL": "Pomór $epidemic_devils_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_bloody_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bloody Flux",
+    "RUS": "Дизентерия",
+    "POL": "Czerwonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Flux",
+    "RUS": "$epidemic_realm_loc$ий понос",
+    "POL": "Czerwonka z miejsca znanego jako $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_terrain_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Flux",
+    "RUS": "Понос",
+    "POL": "Czerwonka pochodząca z miejsca znanego jako [ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Flux",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий понос",
+    "POL": "Czerwonka postaci znanej jako $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_ruler_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Flux",
+    "RUS": "Понос $epidemic_ruler_ru_cust_loc$",
+    "POL": "Czerwonka postaci znanej jako $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Flux",
+    "RUS": "$epidemic_culture_loc$ий понос",
+    "POL": "$epidemic_culture_loc$ czerwonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Flux",
+    "RUS": "$epidemic_province_loc$ий понос",
+    "POL": "Czerwonka z prowincji o nazwie $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_evil_god_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_devils_loc$ Flux",
+    "RUS": "Понос $epidemic_devils_loc$",
+    "POL": "Czerwonka $epidemic_devils_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_flux",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Flux",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий понос",
+    "POL": "Czerwonka postaci o imieniu $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_dance_of_death",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Dance of Death",
+    "RUS": "Танец смерти",
+    "POL": "Taniec śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_dancing_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] Dancing Plague",
+    "RUS": "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]ая танцевальная чума",
+    "POL": "Taneczna plaga z [ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_dancing_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Dancing Plague",
+    "RUS": "$epidemic_culture_loc$ая танцевальная чума",
+    "POL": "$epidemic_culture_loc$ taneczna plaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_dancing_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Dancing Plague",
+    "RUS": "$epidemic_province_loc$ая танцевальная чума",
+    "POL": "Taneczna plaga z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_realm_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_realm_loc$ Fire",
+    "RUS": "$epidemic_realm_loc$ий огонь",
+    "POL": "Ogień z $epidemic_realm_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Fire",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий огонь",
+    "POL": "Ogień postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Fire",
+    "RUS": "$epidemic_culture_loc$ий огонь",
+    "POL": "$epidemic_culture_loc$ zaraza ognia",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Fire",
+    "RUS": "$epidemic_province_loc$ий огонь",
+    "POL": "Ogień z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_evil_god_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_devils_loc$ Fire",
+    "RUS": "Огонь $epidemic_devils_loc$",
+    "POL": "Ogień $epidemic_devils_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_random_saint_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_random_saint_loc$ Fire",
+    "RUS": "Огонь $epidemic_random_saint_loc$",
+    "POL": "Ogień $epidemic_random_saint_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_holder_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_holder_loc$ Fire",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ий огонь",
+    "POL": "Ogień postaci $epidemic_holder_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_culture_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_culture_loc$ Plague",
+    "RUS": "$epidemic_culture_loc$ий мор",
+    "POL": "Zaraza [ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_location_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_province_loc$ Plague",
+    "RUS": "$epidemic_province_loc$ий мор",
+    "POL": "Zaraza z $epidemic_province_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ruler_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_ruler_possessive_loc$ Plague",
+    "RUS": "$epidemic_ruler_adject_ru_cust_loc$ая чума",
+    "POL": "Zaraza postaci $epidemic_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_titled_ruler_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_titled_ruler_possessive_loc$ Plague",
+    "RUS": "Мор $epidemic_ruler_ru_cust_loc$",
+    "POL": "Zaraza postaci $epidemic_titled_ruler_possessive_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_evil_god_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$epidemic_devils_loc$ Plague",
+    "RUS": "Мор $epidemic_devils_loc$",
+    "POL": "Zaraza $epidemic_devils_loc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_eleventh_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Eleventh Plague of Egypt",
+    "RUS": "Одиннадцатая казнь египетская",
+    "POL": "Jedenasta plaga egipska",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_wicked_blight",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Wicked Blight",
+    "RUS": "Дурная гниль",
+    "POL": "Podła plaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_reapers_will",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Reaper's Will",
+    "RUS": "Воля Жнеца",
+    "POL": "Wola żniwiarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_reapers_due",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Reaper's Due",
+    "RUS": "Дань Жнецу",
+    "POL": "Powinność żniwiarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_little_leprosy",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Little Leprosy",
+    "RUS": "Малая проказа",
+    "POL": "Mały trąd",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_crimson_horror",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Crimson Horror",
+    "RUS": "Багровый ужас",
+    "POL": "Karmazynowa groza",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_measles",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Measles",
+    "RUS": "Корь",
+    "POL": "Odra",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_measles_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "This character suffers from a prolonged fever, rashes and cough, leading many people to equate this malady to a ",
+    "RUS": "Этот персонаж страдает от затяжной лихорадки, сыпи и кашля, из-за чего многие нарекают этот недуг «малой проказой».",
+    "POL": "Ta postać cierpi na utrzymującą się gorączkę, wysypkę i kaszel, przez co wiele osób utożsamia tę dolegliwość z „małym trądem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_measles_character_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] prolonged fever, rashes and cough has led many people to equate this malady to a ",
+    "RUS": "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от затяжной лихорадки, сыпи и кашля, из-за чего многие объясняют этот недуг «малой проказой».",
+    "POL": "[ROOT.GetCharacter.GetFirstNameNoTooltip] cierpi na utrzymującą się gorączkę, wysypkę i kaszel, przez co wiele osób utożsamia tę dolegliwość z „małym trądem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_dysentery",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bloody Flux",
+    "RUS": "Дизентерия",
+    "POL": "Czerwonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_dysentery",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bloody Flux",
+    "RUS": "Дизентерия",
+    "POL": "Czerwonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_dysentery_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Fever, delirium and severe abdominal pain have made this character... #EMP expel#! blood in the latrines.",
+    "RUS": "Лихорадка, беспамятство и боли в животе заставляют этого персонажа... #EMP извергать#! кровь в уборных.",
+    "POL": "Gorączka, delirium i silny ból brzucha sprawiły, że postać ta… #EMP wydala#! krew w latrynach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_dysentery_character_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Fever, delirium and severe abdominal pain have made [ROOT.GetCharacter.GetFirstNameNoTooltip]... #EMP expel#! blood in the latrines.",
+    "RUS": "Из-за лихорадки, беспамятства и боли в животе [ROOT.GetCharacter.GetFirstNameNoTooltip]... #EMP извергает#! кровь в уборных.",
+    "POL": "Gorączka, delirium i silny ból brzucha sprawiły, że [ROOT.GetCharacter.GetFirstNameNoTooltip]… #EMP wydala#! krew w latrynach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ergotism",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Holy Fire",
+    "RUS": "Священный огонь",
+    "POL": "Święty ogień",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_saint_anthonys_fire",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Saint Anthony's Fire",
+    "RUS": "Антонов огонь",
+    "POL": "Ogień świętego Antoniego",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_ergotism",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Holy Fire",
+    "RUS": "Священный огонь",
+    "POL": "Święty ogień",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_ergotism_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "This character suffers from painful seizures, headaches, nausea and diarrhea — the involuntary spasms make it look as if they were dancing.",
+    "RUS": "Этот персонаж страдает от болезненных припадков, головной боли, тошноты и диареи — непроизвольные спазмы делают это похожим на танец.",
+    "POL": "Ta postać cierpi na bolesne drgawki, bóle głowy, nudności i biegunkę – mimowolne skurcze sprawiają, że wygląda, jakby tańczyła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_ergotism_character_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] body is afflicted by painful seizures, headaches, nausea and diarrhea — the involuntary spasms make it look as if [ROOT.GetCharacter.GetSheHe] was dancing.",
+    "RUS": "[ROOT.GetCharacter.GetFirstNameNoTooltip] страдает от болезненных припадков, головной боли, тошноты и диареи — непроизвольные спазмы делают это похожим на танец.",
+    "POL": "[ROOT.GetCharacter.GetFirstNameNoTooltip] cierpi na bolesne drgawki, bóle głowy, nudności i biegunkę. Mimowolne skurcze sprawiają, że [ROOT.GetCharacter.Custom('PL_jego_jej')] ciało wygląda jakby oddawało się tanecznym pląsom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_tiny_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Small Diseases Recovery",
+    "RUS": "Небольшое восстановление после болезни",
+    "POL": "Wyzdrowienie z pomniejszej choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_tiny_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$county_epidemic_recovered_minor_modifier_desc$",
+    "RUS": "$county_epidemic_recovered_minor_modifier_desc$",
+    "POL": "$county_epidemic_recovered_minor_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_minor_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Disease Recovery",
+    "RUS": "Восстановление после болезни",
+    "POL": "Wyzdrowienie z choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_minor_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "This county has recently overcome a plague and is investing in rebuilding efforts.",
+    "RUS": "Это графство недавно справилось с поветрием и тратит средства на восстановление.",
+    "POL": "To hrabstwo niedawno przezwyciężyło zarazę i inwestuje w odbudowę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_medium_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Major Disease Recovery",
+    "RUS": "Серьезное восстановление после болезни",
+    "POL": "Wyzdrowienie z poważnej choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_medium_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$county_epidemic_recovered_minor_modifier_desc$",
+    "RUS": "$county_epidemic_recovered_minor_modifier_desc$",
+    "POL": "$county_epidemic_recovered_minor_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_strong_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Exceptional Disease Recovery",
+    "RUS": "Впечатляющее восстановление после болезни",
+    "POL": "Wyzdrowienie z wyjątkowej choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_epidemic_recovered_strong_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "$county_epidemic_recovered_minor_modifier_desc$",
+    "RUS": "$county_epidemic_recovered_minor_modifier_desc$",
+    "POL": "$county_epidemic_recovered_minor_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "shattered_by_plague_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "All [counties|E] equal to or above #high 30#! [development|E]",
+    "RUS": "Все [Concept( 'counties', 'графства' )|E], имеющие #high 30#! и более [Concept( 'development', 'развития' )|E]",
+    "POL": "Każde [county|El] mające równo lub więcej #high 30#! [Concept( 'development', 'rozwoju' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ravaged_by_plague_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "All [counties|E] between #high 20#! and #high 30#! [development|E]",
+    "RUS": "Все [Concept( 'counties', 'графства' )|E], имеющие от #high 20#! до #high 30#! [Concept( 'development', 'развития' )|E]",
+    "POL": "Każde [county|El] mające pomiędzy #high 20#! a #high 30#! [Concept( 'development', 'rozwoju' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "blighted_by_plague_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "All [counties|E] between #high 15#! and #high 20#! [development|E]",
+    "RUS": "Все [Concept( 'counties', 'графства' )|E], имеющие от #high 15#! до #high 20#! [Concept( 'development', 'развития' )|E]",
+    "POL": "Każde [county|El] mające pomiędzy #high 15#! a #high 20#! [Concept( 'development', 'rozwoju' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struck_by_plague_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "All [counties|E] between #high 10#! and #high 15#! [development|E]",
+    "RUS": "Все [Concept( 'counties', 'графства' )|E], имеющие от #high 10#! до #high 15#! [Concept( 'development', 'развития' )|E]",
+    "POL": "Każde [county|El] mające pomiędzy #high 10#! a #high 15#! [Concept( 'development', 'rozwoju' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_saint_veronica_evil",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Saint Veronica's Evil",
+    "RUS": "Зло Святой Вероники",
+    "POL": "Zło świętej Weroniki",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_penge_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Penge Plague",
+    "RUS": "Чума Пенджа",
+    "POL": "Zaraza z Penge",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_twin_cods_revenge",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Twin Cods' Revenge",
+    "RUS": "Месть трески",
+    "POL": "Zemsta bliźniaczych dorszy",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_bonifacy_gift",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bonifacy's Gift",
+    "RUS": "Дар Бонифация",
+    "POL": "Dar Bonifacego",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_mitcheldean_malaise",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Mitcheldean Malaise",
+    "RUS": "Митчелдинская болезнь",
+    "POL": "Marazm z Mitcheldean",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_bydgoszczanka",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Bydgoszczanka",
+    "RUS": "Быдгощанка",
+    "POL": "Bydgoszczanka",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_torunianka",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Torunianka",
+    "RUS": "Торунянка",
+    "POL": "Torunianka",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_gannholm_grievance",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Gannholm's Grievance",
+    "RUS": "Обида Ганнхольма",
+    "POL": "Żal Gannholma",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_napolna_zaraza",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Napolna Zaraza",
+    "RUS": "Наполна зараза",
+    "POL": "Napolna zaraza",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_ligma",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Ligma",
+    "RUS": "Лигма",
+    "POL": "Ligma",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_green_death",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Green Death",
+    "RUS": "Зеленая смерть",
+    "POL": "Zielona śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_raqguul_plague",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Raqguul Plague",
+    "RUS": "Чума Ракгула",
+    "POL": "Zaraza Raqguul",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_saturday_night_fever",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Saturday Night Fever",
+    "RUS": "Лихорадка субботнего вечера",
+    "POL": "Gorączka sobotniej nocy",
+    "BEL": ""
+  },
+  {
+    "KEY": "epidemic_cooties",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_epidemics_l_belarusian.json",
+    "ENG": "Cooties",
+    "RUS": "Кутис",
+    "POL": "Świerzb",
+    "BEL": ""
+  }
+]

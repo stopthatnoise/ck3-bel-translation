@@ -1,0 +1,1098 @@
+[
+  {
+    "KEY": "tgp_japan_establish_house_fief_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Establish $japan_feudal_government_adjective$ Fief",
+    "RUS": "Основать феод сорё",
+    "POL": "Ustanów lenno sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The old bureaucracy is crumbling under myriad crises and the unfettered ambition of our age. To ensure my family's future, and bring stability to the provinces, a permanent base must be established.",
+    "RUS": "Старая бюрократия рушится под весом неисчислимых кризисов и бесконтрольных амбиций нашей эпохи. Ради будущего моей семьи и стабилизации провинций необходимо создать надежную опору.",
+    "POL": "Stara administracja rozpada się pod wpływem niezliczonych kryzysów i niepohamowanych ambicji naszych czasów. Należy ustanowić stałą bazę, aby zapewnić przyszłość mojej rodzinie i przynieść stabilność prowincjom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Rule your [governorship|E] as a personal fief, rejecting central oversight",
+    "RUS": "Вы станете править [Concept('governorship', 'губернаторством')|E] как личным феодом, игнорируя центральную власть",
+    "POL": "Władaj swoim [Concept('governorship', 'gubernatorstwem')|E], traktując je jako własne lenno i odrzucając nadzór centralny",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_establish_house_fief_decision$",
+    "RUS": "$tgp_japan_establish_house_fief_decision$",
+    "POL": "$tgp_japan_establish_house_fief_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_domicile_in_governorship_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [domicile|E] must be within a held [county|E] [governorship|E]",
+    "RUS": "Ваше [Concept('domicile', 'имение')|E] должно находиться в [Concept('county', 'графстве')|E] вашего [Concept('governorship', 'губернаторства')|E]",
+    "POL": "Twoje [domicile|El] musi znajdować się [Concept('governorship', 'gubernatorstwie')|E] [Concept('county', 'hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_aspiration_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [house|E] must not have the [GetHouseAspiration( 'service' ).GetName|V] or [GetHouseAspiration( 'ceremony' ).GetName|V] [house_aspiration|E]",
+    "RUS": "У вашего [Concept('house', 'дома')|E] не должно быть [Concept('house_aspiration', 'устремлений')|E] «[GetHouseAspiration( 'service' ).GetName|V]» или «[GetHouseAspiration( 'ceremony' ).GetName|V]»",
+    "POL": "Twój [house|El] nie może mieć [Concept('house_aspiration', 'aspiracji rodu')|E] „[GetHouseAspiration( 'service' ).GetName|V]” ani „[GetHouseAspiration( 'ceremony' ).GetName|V]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_domicile_building_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [domicile|E] must have a [GetDomicileBuilding('japanese_manor_main_02').GetName] [domicile_building|E] or higher",
+    "RUS": "В вашем [Concept('domicile', 'имении')|E] должна быть [Concept('domicile_building', 'постройка')|E] [GetDomicileBuilding('japanese_manor_main_02').GetName] или выше",
+    "POL": "W twoim [Concept('domicile', 'miejscu zamieszkania')|E] musi znajdować się następująca [domicile_building|El]: [GetDomicileBuilding('japanese_manor_main_02').GetName|l] lub budowla wyższego poziomu",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_capital_domicile_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [domicile|E] must NOT be in the [capital|E] [county|E] of [THIS.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier] #weak ([THIS.Char.GetTopLiege.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier])#!",
+    "RUS": "Ваше [Concept('domicile', 'имение')|E] НЕ должно находиться в [Concept('capital', 'столичном')|E] [Concept('county', 'графстве')|E] державы [THIS.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier] #weak ([THIS.Char.GetTopLiege.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier])#!",
+    "POL": "Twoje [domicile|El] NIE może znajdować się [Concept('county', 'hrabstwie')|E] [Concept('capital', 'stolicy')|E] znanym jako [THIS.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTier] #weak ([THIS.Char.GetTopLiege.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_centralization_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [top_liege|E] must not have the [GetLaw('japanese_bureaucracy_3').GetName] [law|E]",
+    "RUS": "У вашего [Concept('top_liege', 'верховного сюзерена')|E] не должно быть [Concept('law', 'закона')|E] «[GetLaw('japanese_bureaucracy_3').GetName]»",
+    "POL": "Twój [top_liege|El] nie może mieć wprowadzonego [Concept('law', 'prawa')|E] „[GetLaw('japanese_bureaucracy_3').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_direct_descendent_position_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You must not have a direct descendant who is a [governor|E]",
+    "RUS": "У вас не должно быть прямого потомка, являющегося [Concept('governor', 'губернатором')|E]",
+    "POL": "Nie możesz mieć bezpośredniego potomka będącego [Concept('governor', 'gubernatorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_found_house_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "As your [dynast|E] is [administrative|E], you found a new [dynasty|E]",
+    "RUS": "Ваш [Concept('dynast', 'глава династии')|E] — [Concept('administrative', 'бюрократ')|E], поэтому вы создаете новую [Concept('dynasty', 'династию')|E]",
+    "POL": "Ponieważ twoja [dynast|El] sprawuje rządy [Concept('administrative', 'administracyjne')|E], zakładasz nową [Concept('dynasty', 'dynastię')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_change_government_type_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You adopt the [soryo_government|E]",
+    "RUS": "Вы принимаете [Concept('soryo_government', 'правительство сорё')|E]",
+    "POL": "Przyjmujesz następujący rodzaj rządu: [soryo_government|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_direct_descendents_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "All direct descendants will join your [house|E]",
+    "RUS": "Все прямые потомки станут членами вашего [Concept('house', 'дома')|E]",
+    "POL": "Każdy bezpośredni potomek dołączy do twojego [Concept('house', 'rodu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_kampaku_crime_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "@warning_icon! #X The [ceremonial_regent|E] is [ritsuryo|E] and will consider this a [crime_i|E][crime|E]#!\\n#HELP Permission may be gained via [petition_liege|E]#!",
+    "RUS": "@warning_icon! #X Этот поступок станет [crime_i|E][Concept('crime', 'преступлением')|E] в глазах [Concept('ceremonial_regent', 'церемониального регента')|E]-[Concept('ritsuryo', 'рицурё')|E]#!\\n#HELP Вы можете получить разрешение посредством [Concept('petition_liege', 'обращения')|E] к сюзерену#!",
+    "POL": "@warning_icon! #X [ceremonial_regent|E] to [ritsuryo|El] i uzna to za [crime_i|E] [crime|El]#!\\n#HELP Zgodę można uzyskać poprzez [Concept('petition_liege', 'prośbę o audiencję')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_castle_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Every held [county|E] [capital|E] [holding|E] is replaced with a [castle|E]",
+    "RUS": "Каждое контролируемое [Concept('capital', 'столичное')|E] [Concept('holding', 'владение')|E] [Concept('county', 'графства')|E] заменяется на [Concept('castle', 'замок')|E]",
+    "POL": "Każda należąca do ciebie [holding|El] w [Concept('capital', 'stolicy')|E] [Concept('county', 'hrabstwa')|E] zostaje zastąpiona [Concept('castle', 'zamkiem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_house_fief_kampaku_toast",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Governor Declares Fiefdom",
+    "RUS": "Губернатор объявляет себя феодалом",
+    "POL": "Gubernator ogłasza lenno",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_house_created_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "New House Created",
+    "RUS": "Создан новый дом",
+    "POL": "Utworzono nowy ród",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_fief_established_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "House Fief Established",
+    "RUS": "Основан феод",
+    "POL": "Ustanowiono lenno rodu",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_house_created_desc_fief",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[new_head.GetShortUIName|U] [CharHaveHas(new_head)] established the [new_head.GetHouse.GetBaseName] fief in [new_head.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier]",
+    "RUS": "[new_head.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'создаёте', 'создаёт' )] феод [new_head.GetHouse.GetBaseName] в области [new_head.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier]",
+    "POL": "Osoba znana jako [new_head.GetShortUINameNotMe] ogłasza, że [new_head.GetCapitalLocation.GetTitle.GetDeJureLiege.GetNameNoTier] to lenno rodu [new_head.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_house_created_desc_cadet",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[new_head.GetShortUIName|U] [CharHaveHas(new_head)] split from [house|E] [old_head.GetHouse.GetBaseName]",
+    "RUS": "[new_head.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'отделяетесь', 'отделяется' )] от [Concept('house', 'дома')|E] [old_head.GetHouse.GetBaseName]",
+    "POL": "Osoba znana jako [new_head.GetShortUINameNotMe] oddziela się od [Concept('house', 'rodu')|E] [old_head.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_manor_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Abandon the Bureaucracy",
+    "RUS": "Отказаться от бюрократии",
+    "POL": "Porzuć biurokrację",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_manor_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_establish_house_fief_decision_desc$",
+    "RUS": "$tgp_japan_establish_house_fief_decision_desc$",
+    "POL": "$tgp_japan_establish_house_fief_decision_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_manor_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Forgo the old ways and establish a [soryo|E] [house|E]",
+    "RUS": "Оставить в прошлом былые порядки и основать [Concept('house', 'дом')|E] [Concept('soryo', 'сорё')|E]",
+    "POL": "Wyrzeknij się tradycji i ustanów [house|El] [soryo|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_manor_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_establish_house_fief_decision$",
+    "RUS": "$tgp_japan_establish_house_fief_decision$",
+    "POL": "$tgp_japan_establish_house_fief_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_house_fief_allowed_flag_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] [titles|E] may not be revoked within #V 10 years#! of founding a fief with [actor.GetShortUINamePossessive] permission, unless they are a [criminal|E] #weak ([GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'petition_liege_house_fief_allowed_flag') )] remaining)#!",
+    "RUS": "[Concept('titles', 'Титулы')|E] [Select_CString(recipient.IsLocalPlayer, 'вашего персонажа', Concatenate('разрешения персонажа ',recipient.GetShortUIName))] нельзя отнять в следующие #V 10 лет#! после основания лена с [Select_CString(actor.IsLocalPlayer, 'вашего разрешения', Concatenate('разрешения персонажа ',actor.GetShortUIName))], если только [Select_CString(recipient.IsLocalPlayer, 'вы не совершите', Select_CString(recipient.IsFemale, 'она не совершит', 'он не совершит'))] [Concept('criminal', 'преступление')|E] #weak (осталось [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'petition_liege_house_fief_allowed_flag') )])#!",
+    "POL": "[titles|E] postaci, którą jest [recipient.GetShortUINameNotMe], nie mogą zostać jej odebrane przez okres #V 10 lat#! od nadania lenna za zgodą osoby znanej jako [actor.GetShortUINameNotMe], chyba że [recipient.GetShortUINameNotMe] to [criminal|El] #weak (pozostały okres: [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'petition_liege_house_fief_allowed_flag') )])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_TUTORIAL",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Formalize [GetPlayer.GetHouse.GetNameNoTooltip] Shōgunate",
+    "RUS": "Узаконить сёгунат [GetPlayer.GetHouse.GetNameNoTooltip]",
+    "POL": "Sformalizuj szogunat rodu [GetPlayer.GetHouse.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Formalize [ROOT.Char.GetHouse.GetNameNoTooltip] Shōgunate",
+    "RUS": "Узаконить сёгунат [ROOT.Char.GetHouse.GetNameNoTooltip]",
+    "POL": "Sformalizuj szogunat rodu [ROOT.Char.GetHouse.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The endless politicking of the imperial court has run its course, undermined by the pageantry and trappings of days past. A strong hand must establish a new order — of service, family, and steel.",
+    "RUS": "Пора покончить с бесконечными интригами имперского двора. Помпезность и старинные образы слишком долго подрывали его власть. Сильная рука должна выковать новый порядок, основанный на служении, роде и стали.",
+    "POL": "Nadszedł kres niekończącego się politykowania na cesarskim dworze, podkopanego przez przepych minionych dni. Należy silną ręką ustanowić nowy porządek – od teraz najważniejsze będą służba, rodzina i stal.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Strengthen the Shōgunate's power over [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "RUS": "Укрепить власть сёгуната над #ONCLICK:TITLE,e_japan #TOOLTIP:LANDED_TITLE,e_japan #L Японией#!#!#!",
+    "POL": "Umocnij władzę szogunatu nad obszarem o nazwie [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Establish a lasting Shōgunate",
+    "RUS": "Создать надежный сёгунат",
+    "POL": "Stwórz trwały szogunat",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_no_other_powerful_forces_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "No landed [vassals|E] of [GetTitleByKey('e_japan').GetBaseNameNoTier] with greater than #V 50%#! of your total military strength (including their allies) are not your [ally|E], [house|E] member, or [hooked|E] #weak (Current: [SCOPE.ScriptValue('japanese_shogun_opposition_vassals_value')|0V])#!",
+    "RUS": "В державе [GetTitleByKey('e_japan').GetBaseNameNoTier] нет [Concept('vassals', 'вассалов')|E]-землевладельцев, чья военная сила составляет более #V 50%#! вашей (с учетом их союзников) и которые не являются вашими [Concept('ally', 'союзниками')|E], членами [Concept('house', 'дома')|E] и не находятся у вас [Concept('hooked', 'на крючке')|E] #weak (сейчас: [SCOPE.ScriptValue('japanese_shogun_opposition_vassals_value')|0V])#!",
+    "POL": "Nie masz w miejscu znanym jako [GetTitleByKey('e_japan').GetBaseNameNoTier] [Concept('vassals', 'wasali')|E], których wkład (włącznie z ich sojusznikami) w twoją całkowitą siłę militarną wynosi więcej niż #V 50%#!, a którzy nie są twoim [Concept('ally', 'sojusznikiem')|E], członkiem twojego [Concept('house', 'rodu')|E] lub pod wpływem [Concept('hooked', 'haka')|E] #weak (obecnie: [SCOPE.ScriptValue('japanese_shogun_opposition_vassals_value')|0V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_hoken_county_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "No [de_jure|E] [counties|E] of [GetTitleByKey('e_japan').GetBaseNameNoTier] are held by [GetGovernment('japan_administrative_government').GetName] [government|E] [vassals|E] #weak (Current: [SCOPE.ScriptValue('tgp_japan_shogunate_ritsuryo_county_current_value')|0V])#!",
+    "RUS": "Ни один [Concept('vassals', 'вассал')|E] [Concept('government', 'правительства')|E] домена [GetGovernment('japan_administrative_government').GetName] не владеет [Concept('de_jure', 'де-юре')|E] [Concept('counties', 'графствами')|E] домена [GetTitleByKey('e_japan').GetBaseNameNoTier] #weak (Сейчас: [SCOPE.ScriptValue('tgp_japan_shogunate_ritsuryo_county_current_value')|0V])#!",
+    "POL": "Żadne z [Concept('counties', 'hrabstw')|E] [de_jure|El] miejsca o nazwie [GetTitleByKey('e_japan').GetBaseNameNoTier] nie są własnością [vassals|El] o [Concept('government', 'rządzie')|E], którym jest [GetGovernment('japan_administrative_government').GetName] #weak (Obecnie: [SCOPE.ScriptValue('tgp_japan_shogunate_ritsuryo_county_current_value')|0V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_centralization_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have at least [GetLaw('japanese_bureaucracy_2').GetName] [law|E]",
+    "RUS": "У вас есть [Concept('law', 'закон')|E] «[GetLaw('japanese_bureaucracy_2').GetName]» или выше",
+    "POL": "Twoje [law|El] to przynajmniej „[GetLaw('japanese_bureaucracy_2').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_top_liege_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You are the [ceremonial_regent|E] of [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "RUS": "Вы — [Concept('ceremonial_regent', 'церемониальный регент')|E] #ONCLICK:TITLE,e_japan #TOOLTIP:LANDED_TITLE,e_japan #L Японии#!#!#!",
+    "POL": "Jesteś [Concept('ceremonial_regent', 'regentem panującym')|E] w miejscu znanym jako [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_land_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The [duchies|E] of [GetTitleByKey('d_kinai').GetBaseNameNoTier], [GetTitleByKey('d_nankaido').GetBaseNameNoTier], [GetTitleByKey('d_hokurikudo').GetBaseNameNoTier], [GetTitleByKey('d_west_bando').GetBaseNameNoTier], and [GetTitleByKey('d_north_saikaido').GetBaseNameNoTier] are all completely within the [realm|E] of [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "RUS": "[Concept('duchies', 'Герцогства')|E] [GetTitleByKey('d_kinai').GetBaseNameNoTier], [GetTitleByKey('d_nankaido').GetBaseNameNoTier], [GetTitleByKey('d_hokurikudo').GetBaseNameNoTier], [GetTitleByKey('d_west_bando').GetBaseNameNoTier] и [GetTitleByKey('d_north_saikaido').GetBaseNameNoTier] полностью находятся в [Concept('realm', 'державе')|E] [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "POL": "W granicach [Concept('realm', 'państwa')|E] znanego jako [GetTitleByKey('e_japan').GetBaseNameNoTier] są następujące [duchies|El]: [GetTitleByKey('d_kinai').GetBaseNameNoTier], [GetTitleByKey('d_nankaido').GetBaseNameNoTier], [GetTitleByKey('d_hokurikudo').GetBaseNameNoTier], [GetTitleByKey('d_west_bando').GetBaseNameNoTier] oraz [GetTitleByKey('d_north_saikaido').GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_vassal_revocation_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "All [titles|E] held by [GetGovernment('japan_administrative_government').GetName] [government|E] [vassals|E] are revoked",
+    "RUS": "Все [Concept('titles', 'титулы')|E] [Concept('vassals', 'вассалов')|E] [Concept('government', 'правительства')|E] #TOOLTIP:GOVERNMENT_TYPE,japan_administrative_government #L рицурё#!#! отнимаются",
+    "POL": "Wszystkie [titles|El] należące do [Concept('vassals', 'wasali')|E] [Concept('government', 'rządu')|E] [GetGovernment('japan_administrative_government').GetName|l] zostają odebrane",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_shogun_decision_dynasty_split_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "All [dynasties|E] with more than a single living [house|E] will split",
+    "RUS": "Все [Concept('dynasties', 'династии')|E], состоящие из более чем одного живого [Concept('house', 'дома')|E], будут разделены",
+    "POL": "We wszystkich [Concept('dynasties', 'dynastiach')|E] z więcej niż jednym żyjącym [Concept('house', 'rodem')|E] nastąpi rozłam",
+    "BEL": ""
+  },
+  {
+    "KEY": "unlocks_bushido_tradition_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Unlocks the [GetCultureTradition('tradition_tgp_bushido').GetName] [tradition|E]",
+    "RUS": "Открывает [Concept('tradition', 'традицию')|E] «[GetCultureTradition('tradition_tgp_bushido').GetName]»",
+    "POL": "Odblokowuje [Concept('tradition', 'tradycję')|E] „[GetCultureTradition('tradition_tgp_bushido').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tradition_tgp_bushido_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[THIS.Culture.GetName] [culture_possessive|E] [GetCultureTradition('tradition_tgp_imperial_peace').GetName] [tradition|E] is replaced by [GetCultureTradition('tradition_tgp_bushido').GetName]",
+    "RUS": "[Concept('tradition', 'Традиция')|E] #L [THIS.Culture.GetCollectiveNoun|l]ой#! [Concept('culture_possessive', 'культуры')|E] «[GetCultureTradition('tradition_tgp_imperial_peace').GetName]» заменяется на «[GetCultureTradition('tradition_tgp_bushido').GetName]»",
+    "POL": "[tradition|E] „[GetCultureTradition('tradition_tgp_bushido').GetName]” zastępuje tradycję „[GetCultureTradition('tradition_tgp_imperial_peace').GetName]” wywodzącą się z [culture_possessive|El], którą jest kultura [THIS.Culture.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_restoration_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Restore Direct Imperial Rule",
+    "RUS": "Восстановить прямое имперское управление",
+    "POL": "Przywróć bezpośrednie rządy cesarskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_restoration_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "I've watched for too long behind palace walls while my authority is usurped by warmongers. No more. It is time to take my place as Heavenly Sovereign, restoring divine dignity and stabilizing the realm.",
+    "RUS": "Пока я сижу за стенами своего дворца, разжигатели войны всячески подрывают мою власть. Этому необходимо положить конец. Пришло время занять место Небесного властителя и установить в державе божественный порядок.",
+    "POL": "Stanowczo zbyt długo zajęło mi obserwowanie sytuacji zza pałacowych murów, podczas gdy podżegacze korzystali z należnej mi władzy. Dość tego: czas zająć pisaną mi pozycję niebiańskiego suwerena, odzyskać nabożną cześć i zaprowadzić porządek w tym państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_restoration_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Restore the ancient rule of the $game_concept_tenno$",
+    "RUS": "Восстановить древнее правление тэнно",
+    "POL": "Przywróć starożytne rządy ten’nō",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_restoration_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Not as symbol, but as sovereign",
+    "RUS": "Не как символ, но как властитель",
+    "POL": "Nie jako symbol, lecz jako suweren",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_restoration_decision_faction_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "#X [vassals|E] are more likely to join the #V $replace_ceremonial_regent_faction_name$#! [faction|E]",
+    "RUS": "#X [Concept('vassals', 'Вассалы')|E] с большей вероятностью вступят во [Concept('faction', 'фракцию')|E] #V за установление церемониального регента#!",
+    "POL": "#X [vassals|E] są bardziej chętni do dołączenia do [Concept('faction', 'frakcji')|E] #V $replace_ceremonial_regent_faction_name$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Request Royal Honsei",
+    "RUS": "Попросить предоставить хонсэй",
+    "POL": "Zażądaj królewskiego honsei",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Though Amaterasu's blood flows in my veins, my destiny lies beyond the imperial palace. I leave my royalty behind, that the deeds of the [Glossary( 'Minamoto', 'MINAMOTO_GLOSS' )] and [Glossary( 'Taira', 'TAIRA_GLOSS' )] may echo louder in the annals of these islands.",
+    "RUS": "Хотя во мне течет кровь Аматэрасу, моя судьба лежит за пределами императорского дворца. Я отрекаюсь от своего царственного происхождения, чтобы имена [Glossary( 'Минамото', 'MINAMOTO_GLOSS' )] и [Glossary( 'Тайра', 'TAIRA_GLOSS' )] громче звучали в анналах этих островов.",
+    "POL": "Choć w moich żyłach płynie krew Amaterasu, moje przeznaczenie leży poza pałacem cesarskim. Porzucam swoje królewskie przywileje, aby czyny rodów [Glossary('Minamotów', 'MINAMOTO_GLOSS')] and [Glossary('Tairów', 'TAIRA_GLOSS')] wybrzmiały głośniej w annałach tych wysp.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Create or join a [Glossary( 'Minamoto', 'MINAMOTO_GLOSS' )] or [Glossary( 'Taira', 'TAIRA_GLOSS' )] [house|E]",
+    "RUS": "Создать [Concept('house', 'дом')|E] [Glossary( 'Минамото', 'MINAMOTO_GLOSS' )] или [Glossary( 'Тайра', 'TAIRA_GLOSS' )] либо присоединиться к нему",
+    "POL": "Utwórz [house|El] [Glossary( 'Minamotów', 'MINAMOTO_GLOSS' )] lub [Glossary( 'Tairów', 'TAIRA_GLOSS' )] albo dołącz do jednego z nich",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Relinquish the [ROOT.Char.GetHouse.GetBaseNameNoTooltip] name",
+    "RUS": "Отречься от фамилии дома [ROOT.Char.GetHouse.GetBaseNameNoTooltip]",
+    "POL": "Zrzeknij się nazwiska [ROOT.Char.GetHouse.GetBaseNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_emperor_ancestor_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You are at least a great-grandchild of a past [ceremonial_liege|E]",
+    "RUS": "Вы как минимум правнук предыдущего [Concept('ceremonial_liege', 'церемониального сюзерена')|E]",
+    "POL": "Jesteś co najmniej prawnukiem byłego [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_imperial_heir_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You are not in the [ceremonial_liege_possessive] [line_of_succession|E]",
+    "RUS": "Вы не стоите в [Concept('line_of_succession', 'линии наследования')|E] [Concept('ceremonial_liege_possessive', 'церемониального сюзерена')|E]",
+    "POL": "Nie jesteś w [Concept('line_of_succession', 'linii sukcesji')|E] do tytułu [ceremonial_liege_possessive|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_living_descendants_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have at least #V 3#! living descendants",
+    "RUS": "У вас есть хотя бы #V 3#! живых потомка",
+    "POL": "Masz co najmniej #V 3#! żyjących potomków",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_existing_dynasty_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You join [house|E] [minamoto_house.GetName|V] or [taira_house.GetName|V] [dynasties|E]",
+    "RUS": "Вы становитесь членом [Concept('house', 'дома')|E] [Concept('dynasties', 'династии')|E] [minamoto_house.GetName|V] или [taira_house.GetName|V]",
+    "POL": "Dołączasz do [Concept('dynasties', 'dynastii')|E] [taira_house.GetName|V] lub [Concept('house', 'rodu')|E] [minamoto_house.GetName|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_existing_or_minamoto_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You join [house|E] [taira_house.GetName|V], or found the #V [nearest_emperor.GetFirstNameNoTooltip] Minamoto#! [dynasty|E]",
+    "RUS": "Вы становитесь членом [Concept('house', 'дома')|E] [taira_house.GetName|V] или основываете [Concept('dynasty', 'династию')|E] #V [nearest_emperor.GetFirstNameNoTooltip] Минамото#!",
+    "POL": "Dołączasz do [Concept('house', 'rodu')|E] [taira_house.GetName|V] lub tworzysz [Concept('dynasty', 'dynastię')|E], której przewodzi #V [nearest_emperor.GetFirstNameNoTooltip] Minamoto#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_existing_or_taira_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You join the [minamoto_house.GetName|V], or found the #V [nearest_emperor.GetFirstNameNoTooltip] Taira#! [dynasty|E]",
+    "RUS": "Вы становитесь членом [Concept('house', 'дома')|E] [minamoto_house.GetName|V] или основываете [Concept('dynasty', 'династию')|E] #V [nearest_emperor.GetFirstNameNoTooltip] Тайра#!",
+    "POL": "Dołączasz do rodu [minamoto_house.GetName|V] lub tworzysz [Concept('dynasty', 'dynastię')|E], której przewodzi #V [nearest_emperor.GetFirstNameNoTooltip] Taira#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_imperial_branch_decision_new_dynasty_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You create a new #V Minamoto#! or #V Taira#! [dynasty|E]",
+    "RUS": "Вы создаете новую [Concept('dynasty', 'династию')|E] #V Минамото#! или #V Тайра#!",
+    "POL": "Tworzysz nową [Concept('dynasty', 'dynastię')|E] #V Minamoto#! lub #V Taira#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_cadet_branch_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Found Cadet House",
+    "RUS": "Создать младший дом",
+    "POL": "Stwórz ród linii bocznej dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_cadet_branch_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The House of [ROOT.Char.GetHouse.GetNameNoTooltip] is no longer worthy of my membership. In preservation of my honor, a new branch of our dynasty must be born.",
+    "RUS": "Дом [ROOT.Char.GetHouse.GetNameNoTooltip] более не достоин моего присутствия. Чтобы сохранить свою честь, мне предстоит основать новую ветвь нашей династии.",
+    "POL": "Ród [ROOT.Char.GetHouse.GetNameNoTooltip] nie jest już mnie godzien. Chcąc zachować honor, muszę stworzyć nową gałąź dynastii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_cadet_branch_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You will form a Cadet Branch",
+    "RUS": "Вы создадите младшую ветвь",
+    "POL": "Stworzysz linię boczną dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_cadet_branch_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Found Cadet House",
+    "RUS": "Создать младший дом",
+    "POL": "Stwórz ród linii bocznej dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "create_cadet_branch_decision_living_children",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You must have at least #V 1#! living Child",
+    "RUS": "У вас должен быть хотя бы #V 1#! живой ребенок",
+    "POL": "Musisz mieć co najmniej #V 1#! żyjące dziecko",
+    "BEL": ""
+  },
+  {
+    "KEY": "create_cadet_branch_decision_liege_is_descendant",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You must not be [vassal|E] or below of a direct descendant",
+    "RUS": "Вы не должны быть [Concept('vassal', 'вассалом')|E] или вассалом вассала прямого потомка",
+    "POL": "Nie możesz być [Concept('vassal', 'wasalem')|E] bezpośredniego potomka ani jego poddanym statusu niższego niż wasal",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Study Poetry",
+    "RUS": "Изучение поэзии",
+    "POL": "Studiuj poezję",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Experiences, feelings, rhymes and reason. Find a way to understand this assortment of words and give it meaning.",
+    "RUS": "Переживания, чувства, рифма и доводы. Найти способ понять это скопление слов и дать ему значение.",
+    "POL": "Przeżycia, uczucia, rymy i rozum. Znajdź sposób na zrozumienie tego zestawu słów i nadaj mu znaczenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Study to become a poet",
+    "RUS": "Учиться, чтобы стать поэтом",
+    "POL": "Ucz się, by zostać poetą",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_become_a_poet_decision$",
+    "RUS": "$tgp_japan_become_a_poet_decision$",
+    "POL": "$tgp_japan_become_a_poet_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision_effects_tooltip_trait",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You may be able to gain the [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [trait|E]",
+    "RUS": "Вы можете получить [Concept('trait', 'свойство')|E] «[GetTrait('lifestyle_poet').GetName( GetNullCharacter )]»",
+    "POL": "Możesz zyskać [Concept('trait', 'cechę')|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_poet_decision_effects_tooltip_stress",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You will gain a lot of [stress|E]",
+    "RUS": "Вы получите большое количество [Concept('stress', 'стресса')|E]",
+    "POL": "Nabawisz się dużej ilości [Concept('stress', 'stresu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Inspire the Troops",
+    "RUS": "Воодушевление войск",
+    "POL": "Natchnij żołnierzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The strength of any army owes as much to its spirit as to its training and arms. We should assemble our troops so that I might remind them of the glories and spoils of victory, the ignominy of defeat, and exhort them to give their utmost for our cause.",
+    "RUS": "Могучее войско сильно не только выучкой или оружием — оно сильно боевым духом. Пора собрать воинов и напомнить им о пережитых славных боях и обильной добыче, о том, что поражение — это позор, и воодушевить их полностью отдать себя нашему делу.",
+    "POL": "Siła każdej armii zależy równie mocno od jej ducha, co od wyszkolenia i uzbrojenia. Powinniśmy zgromadzić nasze wojska – chcę im przypomnieć zarówno o chwale i łupach, jakie przynosi zwycięstwo, jak i o hańbie porażki. Rozpalę w nich też gotowość do poświęcenia wszystkiego dla naszej sprawy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Gain a temporary [character_modifier|E] and a chance for a [commander_trait|E]",
+    "RUS": "Получить временный [Concept('character_modifier', 'модификатор персонажа')|E] с шансом получить [Concept('commander_trait', 'свойство командира')|E]",
+    "POL": "Zyskaj tymczasowy [character_modifier|El] i szansę zyskania [Concept('commander_trait', 'cechy dowódcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_train_with_troops_decision$",
+    "RUS": "$tgp_japan_train_with_troops_decision$",
+    "POL": "$tgp_japan_train_with_troops_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision_effects_tooltip_trait",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You may be able to gain a [commander_trait|E] based on your [martial_skill|E]",
+    "RUS": "Вы можете получить [Concept('commander_trait', 'свойство командира')|E] в зависимости от вашего [Concept('martial_skill', 'навыка военного дела')|E]",
+    "POL": "Możesz zyskać [Concept('commander_trait', 'cechę dowódcy')|E] w oparciu o swoją [martial_skill|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_train_with_troops_decision_effects_tooltip_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have inspired your troops with a speech",
+    "RUS": "Ваша речь вдохновила войска",
+    "POL": "Inspirujesz swoich żołnierzy przemową",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "In Search of the Pure Land",
+    "RUS": "В поисках Чистой земли",
+    "POL": "W poszukiwaniu Czystej Krainy",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "As I grow older and weaker in both my mind, as well as my body, thoughts that have never occurred to me are brewing up more frequently — it is time to find a greater purpose in life.",
+    "RUS": "Я старею, мои разум и тело слабеют, а в голове всё чаще рождаются мысли, которых там никогда не было, — пришло время найти смысл жизни.",
+    "POL": "Starzeję się i słabnę zarówno na umyśle, jak i ciele, i coraz częściej nachodzą mnie myśli, które nigdy wcześniej nie przychodziły mi do głowy – nadszedł czas, aby znaleźć szczytniejszy cel w życiu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Embrace Buddhism and leave your previous obligations behind",
+    "RUS": "Принять буддизм и отказаться от предыдущих обязательств",
+    "POL": "Przyjmij buddyzm i porzuć swoje poprzednie zobowiązania",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Become a Buddhist Monk",
+    "RUS": "Стать буддистским монахом",
+    "POL": "Zostań mnichem buddyjskim",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_health_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have less than $HEALTH_FINE$ [health|E]",
+    "RUS": "Ваше [Concept('health', 'здоровье')|E] меньше, чем $HEALTH_FINE$",
+    "POL": "Masz mniej niż $HEALTH_FINE$ pkt [Concept('health', 'zdrowia')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_effects_trait",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You will gain the [trait|E]",
+    "RUS": "Вы получите [Concept('trait', 'свойство')|E]",
+    "POL": "Zyskasz [Concept('trait', 'cechę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_become_a_monk_decision_effects_resource",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You will gain [piety|E]",
+    "RUS": "Вы получите [Concept('piety', 'благочестие')|E]",
+    "POL": "Zyskasz [piety|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Restore a Yamato Ten'nō",
+    "RUS": "Восстановить тэнно Ямато",
+    "POL": "Przywróć cesarza Yamato",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Amaterasu's unbroken bloodline has ever ruled over these islands, if we are to restore the might of Japan, a rightful Yamato heir must be restored.",
+    "RUS": "Эти острова всегда преклонялись пред нерушимым наследием Аматэрасу. Чтобы возродить силу Японии, на престол должен взойти законный наследник Ямато.",
+    "POL": "Pochodzący z linii rodu Amaterasu nieprzerwanie rządzili tymi wyspami. Jeśli chcemy przywrócić potęgę Japonii, musimy przywrócić prawowitego dziedzica cesarza Yamato.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Re-establish the ancient imperial dynasty of Japan",
+    "RUS": "Восстановить древнюю императорскую династию Японии",
+    "POL": "Przywróć starożytną, cesarską dynastię japońską",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_restore_japanese_monarchy_decision$",
+    "RUS": "$tgp_japan_restore_japanese_monarchy_decision$",
+    "POL": "$tgp_japan_restore_japanese_monarchy_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision_title_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] is vacant, or part of another [realm|E]",
+    "RUS": "[GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] свободен или принадлежит другой [Concept('realm', 'державе')|E]",
+    "POL": "[GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] jest nieobsadzony lub jest częścią innego [Concept('realm', 'państwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_monarchy_decision_government_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have [GetGovernment('japan_administrative_government').GetName], [GetGovernment('japan_feudal_government').GetName], [GetGovernment('administrative_government').GetName], or [GetGovernment('feudal_government').GetName] [government|E]",
+    "RUS": "Ваша [Concept('government', 'форма правления')|E] — [GetGovernment('japan_administrative_government').GetName], [GetGovernment('japan_feudal_government').GetName], [GetGovernment('administrative_government').GetName] или [GetGovernment('feudal_government').GetName]",
+    "POL": "Posiadasz [government|El], którym jest [GetGovernment('japan_administrative_government').GetName|l], [GetGovernment('japan_feudal_government').GetName|l], [GetGovernment('administrative_government').GetName|l] lub [GetGovernment('feudal_government').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_decision_hook_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You will gain a [strong_hook|E] on the new Ten'nō",
+    "RUS": "У вас будет [Concept('strong_hook', 'сильное влияние')|E] на нового тэнно",
+    "POL": "Zyskasz [Concept('strong_hook', 'mocnego haka')|E] na nowego cesarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_found_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "A member of [house|E] [house_yamato.GetBaseName] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "RUS": "Член [Concept('house', 'дома')|E] [house_yamato.GetBaseName] взойдет на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "Członek [Concept('house', 'rodu')|E] [house_yamato.GetBaseName] wstąpi na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_created_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "A scion of [house|E] [house_yamato.GetBaseName] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "RUS": "Отпрыск [Concept('house', 'дома')|E] [house_yamato.GetBaseName] взойдет на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "Potomek [Concept('house', 'rodu')|E] [house_yamato.GetBaseName] wstąpi na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_kampaku_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[kampaku.GetShortUIName|U] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "RUS": "[kampaku.GetShortUIName|U] [Select_CString(kampaku.IsLocalPlayer, 'взойдете', 'взойдет')] на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "[kampaku.GetShortUINameNotMe] wstąpi na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_last_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[last_tenno.GetShortUIName] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier] once more",
+    "RUS": "[last_tenno.GetShortUIName|U] вновь [Select_CString(last_tenno.IsLocalPlayer, 'взойдете', 'взойдет')] на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "[last_tenno.GetShortUINameNotMe] wstąpi jeszcze raz na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_last_child_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "A child of [last_tenno.GetShortUIName] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "RUS": "Ребенок [Select_CString(last_tenno.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',last_tenno.GetShortUIName))] взойдет на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "Dziecko osoby znanej jako [last_tenno.GetShortUINameNotMe] wstąpi na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_restore_japanese_monarchy_yamato_scion_last_close_family_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "A close relative of [last_tenno.GetShortUIName] will accede to [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "RUS": "Близкий родственник [Select_CString(last_tenno.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',last_tenno.GetShortUIName))] взойдет на [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier]",
+    "POL": "Bliski krewny osoby znanej jako [last_tenno.GetShortUINameNotMe] wstąpi na [GetTitleByKey('k_chrysanthemum_throne').GetNameNoTier|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Restore Ritsuryō Bureaucracy",
+    "RUS": "Восстановить бюрократию рицурё",
+    "POL": "Przywróć biurokrację Ritsuryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The traditions of our ancestors were torn asunder by upheaval and expedience. It is time to return to their proven examples of good governance.",
+    "RUS": "Беспринципность и перемены в обществе уничтожили обычаи наших предков. Пора вернуться к проверенным веками методам достойного правления.",
+    "POL": "Oportunizm narodu i przewroty rozdarły tradycje naszych przodków na strzępy. Nadszedł czas, by powrócić do sprawdzonych metod dobrego zarządzania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Re-establish the old bureaucracy of Japan",
+    "RUS": "Восстановить старую японскую бюрократию",
+    "POL": "Przywróć dawną biurokrację japońską",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_restore_japanese_government_decision$",
+    "RUS": "$tgp_japan_restore_japanese_government_decision$",
+    "POL": "$tgp_japan_restore_japanese_government_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_government_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You have [GetGovernment('administrative_government').GetName] or [GetGovernment('feudal_government').GetName] [government|E]",
+    "RUS": "Ваша [Concept('government', 'форма правления')|E] — [GetGovernment('administrative_government').GetName] или [GetGovernment('feudal_government').GetName]",
+    "POL": "Posiadasz [government|E], którym jest [GetGovernment('administrative_government').GetName|l] lub [GetGovernment('feudal_government').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_vassal_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Other same-[heritage|E] [vassals|E] will adopt [GetGovernment('japan_administrative_government').GetName] [government|E]",
+    "RUS": "Прочие [Concept('vassals', 'вассалы')|E], чье [Concept('heritage', 'наследие')|E] совпадает с вашим [vassals|E], примут [Concept('government', 'форму правления')|E] [GetGovernment('japan_administrative_government').GetName]",
+    "POL": "Inni [vassals|El] o takiej samej [Concept('heritage', 'spuściźnie')|E] przyjmą [government|El], którym jest [GetGovernment('japan_administrative_government').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_japan_feudal_vassal_custom",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Every [GetGovernment('japan_feudal_government').GetName] [vassal|E]",
+    "RUS": "Каждый [Concept('vassal', 'вассал')|E] с формой правления [GetGovernment('japan_feudal_government').GetName]",
+    "POL": "Każdy [vassal|El] pod rządem, którym jest [GetGovernment('japan_feudal_government').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_restore_japanese_government_decision_civil_war_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "#X @warning_icon! Disgruntled [vassals|E] may start a [civil_war|E]#!",
+    "RUS": "#X @warning_icon! Возмущенные [Concept('vassals', 'вассалы')|E] могут развязать [Concept('civil_war', 'гражданскую войну')|E]#!",
+    "POL": "#X @warning_icon! Rozczarowani [vassals|El] mogą rozpocząć [Concept('civil_war', 'wojnę domową')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_destroy_ceremonial_liege_throne_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[ceremonial_title.GetNameNoTierNoTooltip] Dissolved",
+    "RUS": "[ceremonial_title.GetNameNoTierNoTooltip] прекращает существование",
+    "POL": "[ceremonial_title.GetNameNoTierNoTooltip] – tytuł zlikwidowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Assert Regional Dominion",
+    "RUS": "Установить власть над регионами",
+    "POL": "Dowiedź regionalnej dominacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The empire is rudderless! It is necessary for strong warriors to steer local leadership, while the tiller of state remains unmanned. Local lords will see the wisdom in this or be swept away by a sea of arrows and fire.",
+    "RUS": "Империя осталась без правителя! В такой непростой ситуации управление регионами должно перейти в руки сильных воинов. Местным главам придется смириться с новым порядком, иначе они попросту сгинут в пламени войны.",
+    "POL": "Imperium nie ma władcy! Gdy za sterami państwa brakuje kapitana, to na silnych wojownikach spoczywa obowiązek kierowania miejscowymi przywódcami, którzy mogą albo się z tym pogodzić, albo pożegnać się z życiem wśród gradu strzał i płomieni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_shogun_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "With the impotent bureaucrats swept away, this is an age of warrior power! A [shogun|E] is at the helm, leading the state as if from a war tent. Samurai must steer local leadership! Your neighbors will see the wisdom in this or be swept away by a sea of arrows and fire.",
+    "RUS": "Долой бесполезных бюрократов. Настала эпоха воинской славы! Бразды правления принял [Concept('shogun', 'сёгун')|E], и его воля ведет страну, как единую армию. На местах власть будет в руках самураев. Вашим соседям придется признать мудрость этого подхода или сгинуть в море стрел и пламени.",
+    "POL": "Niekompetentni biurokraci zostali zmieceni z planszy i nastała epoka potężnych wojowników! [shogun|E] stoi u steru państwa, dowodząc nim jak z namiotu wojennego. To samurajowie muszą nadawać kierunek lokalnym władzom. Twoi sąsiedzi albo się z tym pogodzą, albo pożegnają się z życiem wśród gradu strzał i płomieni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_trigger_01",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [domicile|E] must have the [GetDomicileBuilding('japanese_manor_main_03').GetName] [domicile_building|E] or higher",
+    "RUS": "В вашем [Concept('domicile', 'имении')|E] должна быть [Concept('domicile_building', 'постройка')|E] [GetDomicileBuilding('japanese_manor_main_03').GetName] или выше",
+    "POL": "W twoim [Concept('domicile', 'miejscu zamieszkania')|E] musi znajdować się następująca [domicile_building|El]: [GetDomicileBuilding('japanese_manor_main_03').GetName|l] lub budowla wyższego poziomu",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_trigger_aspiration",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [house|E] have a fully upgraded [GetHouseAspiration('strength').GetName|V] or [GetHouseAspiration('determination').GetName|V] [house_aspiration|E]",
+    "RUS": "У вашего [Concept('house', 'дома')|E] должно быть максимально улучшенное [Concept('house_aspiration', 'устремление')|E] «[GetHouseAspiration('strength').GetName|V]» или «[GetHouseAspiration('determination').GetName|V]»",
+    "POL": "Twój [house|El] ma w pełni ulepszoną [Concept('house_aspiration', 'aspirację')|E] „[GetHouseAspiration('strength').GetName|V]” lub „[GetHouseAspiration('determination').GetName|V]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_trigger_bloc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "You lead a [GetHouseAspiration('strength').GetName|V] or [GetHouseAspiration('determination').GetName|V] [house_aspiration|E] [bloc|E] with a #V $house_bloc_level_03$#! level",
+    "RUS": "Вы возглавляете [Concept('bloc', 'блок')|E] с [Concept('house_aspiration', 'устремлениями')|E] «[GetHouseAspiration('strength').GetName|V]» или «[GetHouseAspiration('determination').GetName|V]» на уровне #V «$house_bloc_level_03$»#!",
+    "POL": "Przewodzisz [Concept('bloc', 'koalicji')|E] z [Concept('house_aspiration', 'aspiracją rodu')|E] „[GetHouseAspiration('strength').GetName|V]” lub „[GetHouseAspiration('determination').GetName|V]” na poziomie #V zjednoczona#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Become a [duke|E], subjugating local lords if they do not fall in line.",
+    "RUS": "Стать [Concept('duke', 'герцогом')|E] и подчинить себе местных правителей.",
+    "POL": "Zostań [Concept('duke', 'księciem')|E] i wymuś uległość na miejscowych lordach, jeśli sami się nie podporządkują.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_assert_regional_dominion_government_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The Choice is Theirs",
+    "RUS": "Выбор за ними",
+    "POL": "Wybór należy do nich",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_administration_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Establish Sōryō Administration",
+    "RUS": "Установить правление сорё",
+    "POL": "Powołaj administrację sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_administration_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The fetters of the old bureaucracy only stymie the government's ability to keep the peace. It is time to move past these illusory formalities, for the good of all Japan.",
+    "RUS": "Оковы старой бюрократии лишь мешают правительству поддерживать в стране порядок. Если мы откажемся от этих пустых формальностей, это однозначно пойдет на благо всей Японии.",
+    "POL": "Ograniczenia starego systemu biurokratycznego tylko utrudniają rządowi utrzymanie pokoju. Nadszedł czas, aby dla dobra całej Japonii porzucić te ułudne formalności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_administration_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Seek to impose [soryo|E] [government|E] from within the old bureaucracy",
+    "RUS": "Воспользоваться механизмами старой бюрократии, чтобы установить [Concept('government', 'правление')|E] [soryo|El]",
+    "POL": "Spróbuj narzucić [government|El] [soryo|El] w ramach starego systemu biurokratycznego",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_establish_soryo_administration_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "A necessary measure",
+    "RUS": "Это необходимая мера",
+    "POL": "Niezbędny środek",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_establish_soryo_administration_bloc_leaders_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName] ([THIS.Char.GetConfederation.GetName|V]) joined the [war|E] against you",
+    "RUS": "[THIS.Char.GetShortUIName] ([THIS.Char.GetConfederation.GetName|V]) присоединяется к [Concept('war', 'войне')|E] против вас",
+    "POL": "Do [Concept('war', 'wojny')|E] przeciw tobie dołączyła postać znana jako [THIS.Char.GetShortUINameNotMe] ([THIS.Char.GetConfederation.GetName|V])",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_establish_soryo_administration_other_joiners_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[THIS.Char.MakeScope.Var('other_joiners_count').GetValue|0] non-[bloc|E] member [vassals|E] joined the [war|E] against you",
+    "RUS": "Не являющиеся членами [Concept('bloc', 'блока')|E] [Concept('vassals', 'вассалы')|E] ([THIS.Char.MakeScope.Var('other_joiners_count').GetValue|0]) присоединяются к [Concept('war', 'войне')|E] против вас",
+    "POL": "Do [Concept('war', 'wojny')|E] przeciw tobie dołączyło [THIS.Char.MakeScope.Var('other_joiners_count').GetValue|0] [Concept('vassals', 'wasali')|E] niebędących członkami [Concept('bloc', 'koalicji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_establish_soryo_administration_vassal_government_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "All [bloc|E] members adopt [GetGovernment( 'japan_feudal_government' ).GetName] [government|E]",
+    "RUS": "Все члены [Concept('bloc', 'блока')|E] принимают форму [Concept('government', 'правления')|E] «[GetGovernment( 'japan_feudal_government' ).GetName]»",
+    "POL": "Wszyscy członkowie [Concept('bloc', 'koalicji')|E] przyjmują następujący rodzaj [Concept('government', 'rządu')|E]: [GetGovernment( 'japan_feudal_government' ).GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_establish_soryo_administration_war_start_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "@warning_icon! #N A [war|E] will start against disgruntled [vassals|E]#!",
+    "RUS": "@warning_icon! #N Начнется [Concept('war', 'война')|E] с недовольными [Concept('vassals', 'вассалами')|E]#!",
+    "POL": "@warning_icon! #N Rozpocznie się [war|El] przeciwko niezadowolonym [Concept('vassals', 'wasalom')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_create_faction_cohesion_hard_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[bloc|E] must have at least #V 75#! [cohesion|E]",
+    "RUS": "[Concept('cohesion', 'Сплоченность')|E] [Concept('bloc', 'блока')|E] должна быть не менее #V 75#!",
+    "POL": "[bloc|E] musi mieć co najmniej #V 75#! pkt [Concept('cohesion', 'spójności')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_create_faction_cohesion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[bloc|E] must have at least #V 50#! [cohesion|E]",
+    "RUS": "[Concept('cohesion', 'Сплоченность')|E] [Concept('bloc', 'блока')|E] должна быть не менее #V 50#!",
+    "POL": "[bloc|E] musi mieć co najmniej #V 50#! pkt [Concept('cohesion', 'spójności')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_adopt_soryo_regency_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[house|E] must have the [GetHouseAspiration( 'strength' ).GetName|V] [house_aspiration|E]",
+    "RUS": "[Concept('house', 'Дом')|E] должен иметь [Concept('house_aspiration', 'устремление')|E] «[GetHouseAspiration( 'strength' ).GetName|V]»",
+    "POL": "[house|E] musi mieć [Concept('house_aspiration', 'aspirację rodu')|E] „[GetHouseAspiration( 'strength' ).GetName|V]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_establish_soryo_administration_imprison_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "All rebels will be [imprisoned|E]",
+    "RUS": "Все мятежники [Concept('imprisoned', 'отправятся в темницу')|E]",
+    "POL": "Wszyscy buntownicy zostaną [Concept('imprisoned', 'uwięzieni')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_win_cd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If you win the [war|E]:",
+    "RUS": "Если вы одержите победу в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli wygrasz [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_win_cd_third",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If [CHARACTER.GetShortUIName] win the [war|E]:",
+    "RUS": "Если [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'одержите', 'одержит')] победу в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli [CHARACTER.GetShortUINameNotMe] wygra [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_win_cd_global",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If [CHARACTER.GetShortUIName] wins the [war|E]:",
+    "RUS": "Если [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'одержите', 'одержит')] победу в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli [CHARACTER.GetShortUINameNotMe] wygra [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_lose_cd",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If you lose the [war|E]:",
+    "RUS": "Если вы потерпите поражение в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli przegrasz [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_lose_cd_third",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If [CHARACTER.GetShortUIName] loses the [war|E]:",
+    "RUS": "Если [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'потерпите', 'потерпит')] поражение в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli [CHARACTER.GetShortUINameNotMe] przegra [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "if_you_lose_cd_global",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "If [CHARACTER.GetShortUIName] loses the [war|E]:",
+    "RUS": "Если [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'потерпите', 'потерпит')] поражение в [Concept('war', 'войне')|E]:",
+    "POL": "Jeśli [CHARACTER.GetShortUINameNotMe] przegra [Concept('war', 'wojnę')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_korean_child_learned_chinese_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Progressing with the Classics",
+    "RUS": "Изучение классики",
+    "POL": "Progresja w oparciu o klasykę",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_korean_child_learned_chinese_effect",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[CharMyFirstNames(child_learned_chinese)|U] new language skills will prepare [CharMeHerHim(child_learned_chinese)] for a life at court.",
+    "RUS": "Благодаря своим новым языковым навыкам [Select_CString(child_learned_chinese.IsLocalPlayer, 'я смогу', Select_CString(child_learned_chinese.IsFemale, 'она сможет', 'он сможет' ))] подготовиться к придворной жизни.",
+    "POL": "Dzięki nowym umiejętnościom językowym postać będzie mogła przygotować się do życia na dworze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_move_shogunate_court_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Move the [ROOT.Char.GetHouse.GetBaseNameNoTooltip] Court",
+    "RUS": "Переместить двор дома [ROOT.Char.GetHouse.GetBaseNameNoTooltip]",
+    "POL": "Przenieś dwór [ROOT.Char.GetHouse.GetBaseNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_move_shogunate_court_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] is the old capital: in this new era, it is time to establish a true [ROOT.Char.GetHouse.GetBaseName] court. Moving to a more distant province will also allow us to exercise our authority far from the meddling bureaucrats and temples.",
+    "RUS": "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] — старая столица. В новую эпоху дому [ROOT.Char.GetHouse.GetBaseName] потребуется новый двор. Перебравшись в более удаленную провинцию, мы сможем укрепить свой авторитет подальше от медлительных бюрократов и храмов.",
+    "POL": "[ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] to stara stolica. W nowej epoce ustanowić trzeba dwór [ROOT.Char.GetHouse.GetBaseName]. Przeniesienie się do bardziej odległej prowincji pozwoli nam też sprawować władzę z dala od wtrącających się we wszystko biurokratów i świątyń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_move_shogunate_court_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Establish a new capital for the Shōgunate",
+    "RUS": "Создать новую столицу сёгуната",
+    "POL": "Ustanów nową stolicę szogunatu",
+    "BEL": ""
+  },
+  {
+    "KEY": "move_shogunate_court_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "$tgp_japan_move_shogunate_court_decision_tooltip$",
+    "RUS": "$tgp_japan_move_shogunate_court_decision_tooltip$",
+    "POL": "$tgp_japan_move_shogunate_court_decision_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_war_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Begin the Restoration War",
+    "RUS": "Начать войну за восстановление",
+    "POL": "Rozpocznij wojnę o odbudowę",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_war_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "The empire is my birthright, and it will soon be mine in more than just name. By might, if need be. No longer shall I watch [ROOT.Char.GetTopLiege.GetShortUIName] ruin my lands in silence.",
+    "RUS": "Империя моя по праву рождения, и я не побоюсь применить силу, чтобы она стала моей на деле, а не на словах. Я отказываюсь молча смотреть, как [ROOT.Char.GetTopLiege.GetShortUIName|l] губит мои земли.",
+    "POL": "Imperium jest moim dziedzictwem i wkrótce będzie moje nie tylko z nazwy. Jeśli trzeba, przejmę je siłą. Nie będę trwać w bezczynności, gdy [ROOT.Char.GetTopLiege.GetShortUINameNotMe] niszczy moją ziemię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_japan_emperor_war_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_decisions_l_belarusian.json",
+    "ENG": "Your [faction|E] will start a [war|E] to place you upon the throne of all [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].",
+    "RUS": "Ваша [Concept('faction', 'фракция')|E] начнет [Concept('war', 'войну')|E], чтобы возвести вас на трон #L [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjective]ой#! державы.",
+    "POL": "Twoja [faction|El] wywoła [Concept('war', 'wojnę')|E], aby umieścić cię na tronie miejsca znanego jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].",
+    "BEL": ""
+  }
+]

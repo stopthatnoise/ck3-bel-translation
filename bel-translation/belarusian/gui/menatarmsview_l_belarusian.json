@@ -1,0 +1,426 @@
+[
+  {
+    "KEY": "MAA_SOLDIERS",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[soldiers|E]:",
+    "RUS": "[soldiers|E]:",
+    "POL": "[soldiers|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_FULL_STENGTH",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Full strength in $TIME$",
+    "RUS": "Полная сила в течение $TIME$",
+    "POL": "W pełni sił za $TIME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_AT_FULL_STRENGTH",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "At Full strength",
+    "RUS": "В полной силе",
+    "POL": "W pełni sił",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_FULL_MAINTENANCE_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Full Maintenance",
+    "RUS": "Полное содержание",
+    "POL": "Pełne utrzymanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_UNRAISED_MAINTENANCE_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Unraised Maintenance",
+    "RUS": "Содержание несобранного войска",
+    "POL": "Utrzymanie w stanie spoczynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_REINFORCEMENT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[MenAtArmsView.GetFullStrengthText]\\nPaying Full maintenance",
+    "RUS": "[MenAtArmsView.GetFullStrengthText]\\nПолная оплата содержания",
+    "POL": "[MenAtArmsView.GetFullStrengthText]\\nOpłacenie pełnego utrzymania",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_REINFORCEMENT_COST_ENTRY",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[Select_CString( Or( Not(Regiment.IsAtFullStength), Regiment.IsRaised), '#high ' , '#weak ' )]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/month#!",
+    "RUS": "[Select_CString( Or( Not(Regiment.IsAtFullStength), Regiment.IsRaised), '#high ' , '#weak ' )]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/месяц#!",
+    "POL": "[Select_CString( Or( Not(Regiment.IsAtFullStength), Regiment.IsRaised), '#high ' , '#weak ' )]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/miesiąc#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_PROVISIONS_COST",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[provision|E] Cost per [traveled|E] [barony|E]: @provisions_icon!$VALUE|=+0$",
+    "RUS": "Затраты [Concept('provision', 'припасов')|E] за [Concept('traveled', 'пройденное')|E] [Concept('barony', 'баронство')|E]: @provisions_icon!$VALUE|=+0$",
+    "POL": "Koszt w [Concept('provision', 'zapasach')|E] za każdą [Concept('barony', 'baronię')|E] na trasie [Concept('traveled', 'podróży')|E]: @provisions_icon! $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_MAINTENANCE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[Select_CString( And( Regiment.IsAtFullStength, Not(Regiment.IsRaised)), '#high ', '#weak ' )]$MAA_UNRAISED_MAINTENANCE_TEXT$: [Regiment.CalcUnraisedCost]/month#!",
+    "RUS": "[Select_CString( And( Regiment.IsAtFullStength, Not(Regiment.IsRaised)), '#high ', '#weak ' )]$MAA_UNRAISED_MAINTENANCE_TEXT$: [Regiment.CalcUnraisedCost]/месяц#!",
+    "POL": "[Select_CString( And( Regiment.IsAtFullStength, Not(Regiment.IsRaised)), '#high ', '#weak ' )]$MAA_UNRAISED_MAINTENANCE_TEXT$: [Regiment.CalcUnraisedCost]/miesiąc#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_RAISED_MAINTENTANCE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[MenAtArmsView.GetFullStrengthText]\\nPaying Full maintenance",
+    "RUS": "[MenAtArmsView.GetFullStrengthText]\\nПолная оплата содержания",
+    "POL": "[MenAtArmsView.GetFullStrengthText]\\nOpłacenie pełnego utrzymania",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_UNRAISED_MAINTENANCE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[MenAtArmsView.GetFullStrengthText]\\nPaying Unraised maintenance",
+    "RUS": "[MenAtArmsView.GetFullStrengthText]\\nОплата содержания несобранного войска",
+    "POL": "[MenAtArmsView.GetFullStrengthText]\\nOpłacenie utrzymania niewystawionych zbrojnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_MAINTENANCE_SHORT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[Regiment.CalcMaintenanceCost]/month",
+    "RUS": "[Regiment.CalcMaintenanceCost]/месяц",
+    "POL": "[Regiment.CalcMaintenanceCost]/miesiąc",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_HOME_BANNER",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Home Rally Point:",
+    "RUS": "Исходная точка сбора:",
+    "POL": "Macierzysty punkt zborny:",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DESTROY",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Destroy",
+    "RUS": "Распустить",
+    "POL": "Zniszcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_ARMY",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "In Army: [Regiment.GetArmy.GetName]",
+    "RUS": "В армии: [Regiment.GetArmy.GetName]",
+    "POL": "W armii: [Regiment.GetArmy.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DESTROY_CONFIRMATION_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Destroy [REGIMENT.GetNameNoTooltip]",
+    "RUS": "Распустить",
+    "POL": "Zniszcz [REGIMENT.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DESTROY_CONFIRMATION_TEXT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Regiment [REGIMENT.GetNameNoTooltip] will be destroyed.",
+    "RUS": "[REGIMENT.GetNameNoTooltip] будут распущены",
+    "POL": "Pułk [REGIMENT.GetNameNoTooltip] zostanie zniszczony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DESTROY_CONFIRMATION_ACCEPT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Destroy",
+    "RUS": "Распустить",
+    "POL": "Zniszcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_RAISED",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Raised",
+    "RUS": "Собрано",
+    "POL": "Wystawieni",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_UNRAISED",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Unraised",
+    "RUS": "Не собраны",
+    "POL": "Niewystawieni",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_CURRENT_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Size [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "RUS": "Размер [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "POL": "Wielkość [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TYPE_NAME",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Type: [Regiment.GetMAAType.GetBaseTypeName]",
+    "RUS": "Тип: [Regiment.GetMAAType.GetBaseTypeName]",
+    "POL": "Rodzaj: [Regiment.GetMAAType.GetBaseTypeName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_INCREASE_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Increase Size to [Add_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "RUS": "Увеличить размер до [Add_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "POL": "Zwiększ wielkość do [Add_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DECREASE_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Decrease Size to [Subtract_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "RUS": "Уменьшить размер до [Subtract_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "POL": "Zmniejsz wielkość do [Add_int32( Regiment.GetMAAChunkCount, '(int32)1' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_INCREASE_SIZE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T $MAA_INCREASE_SIZE$#!\\nCost: [MenAtArmsType.GetCostString( GetPlayer )]\\nMaintenance will increase by:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "RUS": "#T $MAA_INCREASE_SIZE$#!\\nСтоимость: [MenAtArmsType.GetCostString( GetPlayer )]\\nЗатраты на содержание увеличатся на:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "POL": "#T $MAA_INCREASE_SIZE$#!\\nKoszt: [MenAtArmsType.GetCostString( GetPlayer )]\\nUtrzymanie zostanie zwiększone o:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DECREASE_SIZE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T $MAA_DECREASE_SIZE$#!\\nMaintenance will be reduced by:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "RUS": "#T $MAA_DECREASE_SIZE$#!\\nЗатраты на содержание снизятся на:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "POL": "#T $MAA_DECREASE_SIZE$#!\\nUtrzymanie zostanie zmniejszone o:\\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_MAA_INCREASE_SIZE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T $MAA_INCREASE_SIZE$#!\\nCost: [MenAtArmsType.GetTitleRegimentCostString( GetPlayer )]\\nMaintenance will increase by:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "RUS": "#T $MAA_INCREASE_SIZE$#!\\nСтоимость: [MenAtArmsType.GetTitleRegimentCostString( GetPlayer )]\\nЗатраты на содержание увеличатся на:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "POL": "#T $MAA_INCREASE_SIZE$#!\\nKoszt: [MenAtArmsType.GetTitleRegimentCostString( GetPlayer )]\\nKoszt utrzymania wzrośnie o:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TITLE_MAA_DECREASE_SIZE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T $MAA_DECREASE_SIZE$#!\\nMaintenance will be reduced by:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "RUS": "#T $MAA_DECREASE_SIZE$#!\\nЗатраты на содержание снизятся на:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "POL": "#T $MAA_DECREASE_SIZE$#!\\nKoszt utrzymanie spadnie o:\\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_DESTROY_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Destroy Regiment#!\\n$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/month\\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/month",
+    "RUS": "#T Распустить полк#!\\n$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/мес.\\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/мес.",
+    "POL": "#T Zniszcz pułk#!\\n$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/miesiąc\\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/miesiąc",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_AT_MAX_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "At maximum Size",
+    "RUS": "Достигнут максимум",
+    "POL": "Maksymalna wielkość",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_SIZE_CHANGE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@[Regiment.GetMAAType.GetIconKey]_icon!+[Regiment.GetMAAType.GetStackSize]",
+    "RUS": "@[Regiment.GetMAAType.GetIconKey]_icon!+[Regiment.GetMAAType.GetStackSize]",
+    "POL": "@[Regiment.GetMAAType.GetIconKey]_icon! +[Regiment.GetMAAType.GetStackSize]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_REINFORCING",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Reinforcing",
+    "RUS": "Пополняется",
+    "POL": "Uzupełnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "REGIMENT_CURRENT_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Size [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "RUS": "Размер [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "POL": "Wielkość [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_BUY_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Add $COUNT$ Soldiers#!",
+    "RUS": "#T Добавить солдат ($COUNT$)#!",
+    "POL": "#T Dodaj $COUNT$ żołnierzy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_SELL_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Remove $COUNT$ Soldiers#!",
+    "RUS": "#T Убрать солдат ($COUNT$)#!",
+    "POL": "#T Usuń $COUNT$ żołnierzy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_DESTROY_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Destroy Regiment#!",
+    "RUS": "#T Распустить полк#!",
+    "POL": "#T Zniszcz pułk#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_NOT_ENOUGH_GOLD",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon! #X Not enough Gold#!",
+    "RUS": "@warning_icon! #X Недостаточно золота#!",
+    "POL": "@warning_icon! #X Za mało złota#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_MAX_AT_MAX_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon! #X At max size#!",
+    "RUS": "@warning_icon! #X Достигнут максимальный размер#!",
+    "POL": "@warning_icon! #X Jest maksymalnej wielkości#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_REGIMENT_IN_COMBAT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon! #X The Regiment is currently in Battle#!",
+    "RUS": "@warning_icon! #X Полк сейчас в сражении#!",
+    "POL": "@warning_icon! #X Pułk bierze obecnie udział w bitwie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_COST",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Cost: $COST$",
+    "RUS": "Стоимость: $COST$",
+    "POL": "Koszt: $COST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_RETURN_COST",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Return: $COST|$",
+    "RUS": "Возмещение: $COST|$",
+    "POL": "Zwrot: $COST|$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_MAINTENANCE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Maintenance: $COST$/month",
+    "RUS": "Содержание: $COST$/месяц",
+    "POL": "Utrzymanie: $COST$/miesiąc",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_TT_WILL_DESTROY",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "This will destroy the Regiment",
+    "RUS": "Полк будет распущен",
+    "POL": "To zniszczy pułk",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_BASE_TYPE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Category: $TYPE|V$",
+    "RUS": "Категория: $TYPE|V$",
+    "POL": "Kategoria: $TYPE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_CHUNK_SIZE",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[soldiers|E]: $VALUE|V$",
+    "RUS": "[soldiers|E]: $VALUE|V$",
+    "POL": "[soldiers|E]: $VALUE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_MAA_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Create [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V] Regiment#!",
+    "RUS": "#T Создать полк типа [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V]#!",
+    "POL": "#T Utwórz pułk [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANT_CREATE_MAA_AT_CAP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon! #X At [men_at_arms|E] Regiment Limit#!",
+    "RUS": "@warning_icon! #X Достигнут максимум [Concept( 'men_at_arms', 'профессиональных полков' )|E]#!",
+    "POL": "@warning_icon! #X Osiągnięto limit pułku [Concept('men_at_arms', 'zbrojnych')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANT_CREATE_MAA_MAX_REGIMENTS",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon! #X Can't have more than $LIMIT$ [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V]#!",
+    "RUS": "@warning_icon! #X Число профессионалов ([MEN_AT_ARMS_TYPE.GetNameNoTooltip|V]) не может превышать $LIMIT$#!",
+    "POL": "@warning_icon! #X [MEN_AT_ARMS_TYPE.GetNameNoTooltip|V] – limit jednostek tego typu wynosi $LIMIT$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANT_CREATE_TTILE_MAA_WRONG_GOVERNMENT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "@warning_icon!#X [GovernmentType.GetNameWithIcon] government doesn't allow you to recruit title [men_at_arms|E]#!",
+    "RUS": "@warning_icon!#X Форма правления «[GovernmentType.GetNameWithIcon]» не позволяет нанимать [Concept('men_at_arms', 'профессионалов')|E] под титул#!",
+    "POL": "@warning_icon! #X [GovernmentType.GetNameWithIcon] – rząd tego typu uniemożliwia ci rekrutowanie [Concept('men_at_arms', 'zbrojnych')|E] związanych z tytułem#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CREATE_MAA_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "#T Create New [men_at_arms|E] [regiment|E]#!\\n[MilitaryItem.GetMaACanBeCreatedTooltip]",
+    "RUS": "#T Создать новый [Concept( 'men_at_arms', 'профессиональный' )|E] [regiment|El]#!\\n[MilitaryItem.GetMaACanBeCreatedTooltip]",
+    "POL": " #T Utwórz nowy [Concept( 'regiment', 'pułk' )|E] [Concept( 'men_at_arms', 'zbrojnych' )|E]#!\\n[MilitaryItem.GetMaACanBeCreatedTooltip] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "MEN_AT_ARMS_CAN_CREATE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "[MenAtArmsTypeView.GetCreateTooltip][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'\\n\\n')][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'MEN_AT_ARMS_PROVIDED_BY_SUBJECT')][ConcatIfNeitherEmpty('\\n\\n',MenAtArmsType.GetSubjectMenAtArmsHintDesc( GetPlayer ))]",
+    "RUS": "[MenAtArmsTypeView.GetCreateTooltip][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'\\n\\n')][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'MEN_AT_ARMS_PROVIDED_BY_SUBJECT')][ConcatIfNeitherEmpty('\\n\\n',MenAtArmsType.GetSubjectMenAtArmsHintDesc( GetPlayer ))]",
+    "POL": "[MenAtArmsTypeView.GetCreateTooltip][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'\\n\\n')][AddLocalizationIf(MenAtArmsType.GetSubjectProvider( GetPlayer ).IsValid,'MEN_AT_ARMS_PROVIDED_BY_SUBJECT')][ConcatIfNeitherEmpty('\\n\\n',MenAtArmsType.GetSubjectMenAtArmsHintDesc( GetPlayer ))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MEN_AT_ARMS_PROVIDED_BY_SUBJECT",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "Access to @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] is provided by [MenAtArmsType.GetSubjectProvider( GetPlayer ).GetPrimaryTitle.GetBaseNameNoTier] ([MenAtArmsType.GetSubjectProvider( GetPlayer ).GetShortUIName])",
+    "RUS": "@[MenAtArmsType.GetIconKey]_icon! [MenAtArmsType.GetName]: доступ предоставляет [MenAtArmsType.GetSubjectProvider( GetPlayer ).GetPrimaryTitle.GetBaseNameNoTier] ([MenAtArmsType.GetSubjectProvider( GetPlayer ).GetShortUIName])",
+    "POL": "Dostęp do wojsk, którymi są @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName], zapewnia [MenAtArmsType.GetSubjectProvider( GetPlayer ).GetPrimaryTitle.GetBaseNameNoTier] ([MenAtArmsType.GetSubjectProvider( GetPlayer ).GetShortUINameNotMe])",
+    "BEL": ""
+  },
+  {
+    "KEY": "MEN_AT_ARMS_NO_POTENTIAL_SUBJECT_SOURCES",
+    "FILE_PATH": "localization/belarusian/gui/menatarmsview_l_belarusian.json",
+    "ENG": "You are unaware of any bordering [realms|E] with access to @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] [men_at_arms|E].",
+    "RUS": "Вам неизвестно, есть ли поблизости [Concept('realms', 'державы')|E], которым доступны @[MenAtArmsType.GetIconKey]_icon! [Concept('men_at_arms', 'профессионалы')|E] — [MenAtArmsType.GetName|l].",
+    "POL": "Nie wiesz o żadnych graniczących [Concept('realms', 'państwach')|E] mających dostęp do @[MenAtArmsType.GetIconKey]_icon![Nbsp][Concept('men_at_arms', 'zbrojnych')|E], którymi są [MenAtArmsType.GetName].",
+    "BEL": ""
+  }
+]

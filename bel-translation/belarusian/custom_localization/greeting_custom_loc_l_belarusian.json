@@ -1,0 +1,722 @@
+[
+  {
+    "KEY": "greeting_lover_object",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[second.GetTitledFirstName|U], my [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))],",
+    "RUS": "[second.GetTitledFirstName|U], [Select_CString(second.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))]",
+    "POL": "[second.GetTitledFirstName|U], m[Select_CString( second.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_lover_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[second.GetTitledFirstName|U], my dear [second.Custom('LoverPetName')],",
+    "RUS": "[second.GetTitledFirstName|U], [Select_CString(second.IsFemale, 'моя дорогая', 'мой дорогой' )] [second.Custom('LoverPetName')]",
+    "POL": "[second.GetTitledFirstName|U], [second.Custom('LoverPetName_possessive')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_liked",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, my [second.Custom('ComplimentAdjective')] liege,",
+    "RUS": "Приветствую, [Select_CString(second.IsFemale, 'моя', 'мой' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'госпожа', 'сюзерен' )]!",
+    "POL": "Pozdrowienia, [Select_CString( second.IsFemale, 'moja', 'mój' )] [second.Custom('ComplimentAdjective')] senior[Select_CString( second.IsFemale, 'ko', 'ze' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_liked_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, [second.Custom('ComplimentAdjective')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],",
+    "RUS": "Приветствую, [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Niech [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] zechce przyjąć moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_dislike",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To my liege,",
+    "RUS": "Мой сюзерен!",
+    "POL": "Do mojego seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_dislike_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, [second.Custom('ComplimentAdjective')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],",
+    "RUS": "Приветствую, [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Niech [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] zechce przyjąć moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)]!",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_neutral",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings my liege,",
+    "RUS": "Приветствую, мой сюзерен!",
+    "POL": "Pozdrawiam cię, seniorze,",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_liege_neutral_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],",
+    "RUS": "Приветствую, [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Niech [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] zechce przyjąć moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_ceremonial_regent_liked",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, most [second.Custom('ComplimentAdjective')] [second.GetTitledFirstNameNoTooltip],",
+    "RUS": "Приветствую, [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [second.GetTitledFirstNameNoTooltip|l]!",
+    "POL": "Pozdrawiam Cię, [second.GetTitledFirstNameNoTooltip], o Mądrości,",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_ceremonial_regent_dislike",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [second.GetTitleAsNameNoTooltip],",
+    "RUS": "[second.GetTitleAsNameNoTooltip|U]!",
+    "POL": "Adresat: [second.GetTitleAsNameNoTooltip]. Witaj,",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_ceremonial_liege_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings [second.GetTitledFirstNameNoTooltip],",
+    "RUS": "Приветствую, [second.GetTitledFirstNameNoTooltip|l]!",
+    "POL": "Pozdrawiam Cię, [second.GetTitledFirstNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_relative_liked",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_liked",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, my [second.Custom('ComplimentAdjective')] vassal,",
+    "RUS": "Приветствую, [Select_CString(second.IsFemale, 'моя', 'мой' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )]!",
+    "POL": "Pozdrowienia, m[Select_CString( second.IsFemale, 'oja', 'ój' )] [second.Custom('ComplimentAdjective')] wasal[Select_CString( second.IsFemale, 'ko', 'u' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_liked_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings, [second.Custom('ComplimentAdjective')] subject of the [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],",
+    "RUS": "Приветствую, [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitlePossessive')|l]!",
+    "POL": "Pozdrawiam cię, sługo osoby znanej jako [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_liked_ceremonial_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "My [second.Custom2('ComplimentAdjective', ROOT.Char)|U] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],",
+    "RUS": "[Select_CString(second.IsFemale, 'Моя', 'Мой' )] [second.Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(second.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')]!",
+    "POL": "Niech [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] przyjmie moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_dislike",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To my [second.Custom2('InsultAdjective', ROOT.Char)] vassal,",
+    "RUS": "[Select_CString(second.IsFemale, 'Моя', 'Мой' )] [second.Custom2('InsultAdjective', ROOT.Char)][Select_CString(second.IsFemale, 'ая', 'ый' )] [Select_CString(second.IsFemale, 'подданная', 'вассал' )]!",
+    "POL": "Do mojego parszywego wasala,",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_dislike_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[second.Custom2('InsultAdjective', ROOT.Char)|U] subject of the [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],",
+    "RUS": "[second.Custom2('InsultAdjective', ROOT.Char)|U] [Select_CString(second.IsFemale, 'подданная', 'вассал' )] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitlePossessive')|l]!",
+    "POL": "Witam cię, parszywy sługo osoby znanej jako [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_dislike_ceremonial_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "My [second.Custom2('InsultAdjective', ROOT.Char)|U] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],",
+    "RUS": "[Select_CString(second.IsFemale, 'Моя', 'Мой' )] [second.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')|l]!",
+    "POL": "Niech [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] przyjmie moje chłodne pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalNeutral', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalNeutral', second)]!",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalNeutral', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_neutral",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To my vassal,",
+    "RUS": "Моему вассалу,",
+    "POL": "Do mojego wasala:",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_neutral_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitlePossessive')] subject,",
+    "RUS": "[Select_CString(second.IsFemale, 'Подданной', 'Вассалу' )] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitlePossessive')|l]!",
+    "POL": "Do sługi osoby, którą jest [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_vassal_neutral_ceremonial_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "My [ROOT.Char.GetTitleAsNameNoTooltip],",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "POL": "Niechaj [ROOT.Char.GetTitleAsNameNoTooltip] przyjmie moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_family_positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_family_negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_family_liked",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "My dear [ROOT.Char.Custom2('RelationToMeShort', second)],",
+    "RUS": "[Select_CString(second.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [ROOT.Char.Custom2('RelationToMeShort', second)],",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShortVocative', second)],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_family_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings [ROOT.Char.Custom2('RelationToMeShort', second)],",
+    "RUS": "Приветствую, [ROOT.Char.Custom2('RelationToMeShort', second)]!",
+    "POL": "Pozdrowienia, [ROOT.Char.Custom2('RelationToMeShortVocative', second)],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_foreign_ruler",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings [second.GetNameNoTooltip],",
+    "RUS": "Приветствую, [second.GetNameNoTooltip]!",
+    "POL": "Pozdrowienia [second.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_foreign_ruler_negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [second.Custom2('InsultAdjective', ROOT.Char)] [second.GetTitledFirstNameNoTooltip],",
+    "RUS": "[second.Custom2('InsultAdjective', ROOT.Char)] [second.GetTitledFirstNameNoTooltip]!",
+    "POL": "Do parszywej osoby, którą jest [ROOT.Char.GetTitledFirstNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_foreign_ruler_positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip],",
+    "RUS": "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'ая', 'ый' )] [second.GetNameNoTooltip]!",
+    "POL": "Do: [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_generic",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Greetings [second.GetNameNoTooltip],",
+    "RUS": "Приветствую, [second.GetNameNoTooltip]!",
+    "POL": "Pozdrowienia, [second.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_generic_negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [second.Custom2('InsultAdjective', ROOT.Char)] [second.GetFirstNameNoTooltip],",
+    "RUS": "[second.Custom2('InsultAdjective', ROOT.Char)] [second.GetFirstNameNoTooltip]!",
+    "POL": "Do parszywej osoby, którą jest [ROOT.Char.GetTitledFirstNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_generic_positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "To the [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip],",
+    "RUS": "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'ая', 'ый' )] [second.GetFirstNameNoTooltip],",
+    "POL": "Do: [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_positive_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_positive_vassal",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_positive_family",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_positive_foreign_ruler",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_lover",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLover', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLover', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLover', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiege', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiege', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiege', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_vassal",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassal', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassal', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassal', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_family",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamily', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_foreign_ruler",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToGeneric', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToGeneric', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToGeneric', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_positive_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_fallback",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_liege",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_liege_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_vassal",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_vassal_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_family",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_appropriate_negative_foreign_ruler",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]",
+    "RUS": "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]",
+    "POL": "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]",
+    "RUS": "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)|U]",
+    "POL": "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.tales",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Tales of your misdeeds are told from Ireland to Cathay.",
+    "RUS": "О ваших злодеяниях рассказывают от Ирландии до Катая.",
+    "POL": "Opowieści o twoich występkach przekazywane są od Irlandii po Chiny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.greek",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your low character is the subject of Greek plays.",
+    "RUS": "Ваш дурной нрав достоин греческих комедий.",
+    "POL": "Twoja tragiczna postać jest tematem greckich sztuk!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult.1",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May your humors rot in your living body.",
+    "RUS": "Пусть гуморы гниют в вашем теле.",
+    "POL": "Niech twoje soki wysuszą cię na wiór!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult.2",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May your years be short and miserable.",
+    "RUS": "Да будет жизнь ваша коротка и жалка.",
+    "POL": "Niech twoje życie będzie krótkie i nieszczęśliwe!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult.3",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May wisdom ever elude you.",
+    "RUS": "Пусть мудрость избегает вас.",
+    "POL": "Niech mądrość zawsze pozostanie Wam obca!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult_muslim.1",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Damn your seventh grandfather.",
+    "RUS": "Проклятье на вас до седьмого колена.",
+    "POL": "Bądź przeklęty do siódmego pokolenia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult_muslim.2",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May you be sewn up alive in the belly of a dead camel.",
+    "RUS": "Чтоб вас живьем зашили в брюхе мертвого верблюда.",
+    "POL": "Obyś został[Select_CString( second.IsFemale, 'a', '' )] zaszyt[Select_CString( second.IsFemale, 'a', 'y' )] żywcem w brzuchu martwego wielbłąda!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult_muslim.3",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May Allah destroy your house.",
+    "RUS": "Да уничтожит Аллах ваш дом.",
+    "POL": "Niech Allah zniszczy twój ród!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.negative.insult_muslim.4",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "You child of a mangy dog.",
+    "RUS": "Отродье паршивой собаки.",
+    "POL": "Ty dzieciaku parszywego psa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]",
+    "RUS": "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]",
+    "POL": "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.1",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Blessings upon you and your House.",
+    "RUS": "Благословение вам и вашему дому.",
+    "POL": "Błogosławieństwo dla ciebie i twojego rodu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.2",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your wisdom and mercy are legendary.",
+    "RUS": "Ваши мудрость и милосердие легендарны.",
+    "POL": "Twoja mądrość i miłosierdzie są legendarne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.3",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Peace be with you.",
+    "RUS": "Мир вам.",
+    "POL": "Pokój z tobą!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.4",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "May you live in harmony and contentment.",
+    "RUS": "Желаю вам гармонии и покоя.",
+    "POL": "Żyj w harmonii i zadowoleniu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.5",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your ruthlessness is enviable.",
+    "RUS": "Вашей решительной суровости остается только позавидовать.",
+    "POL": "Twoja bezwzględność jest godna pozazdroszczenia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "greeting_supplimentary.positive.flattery.6",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your great appetites are renowned throughout the world.",
+    "RUS": "О вашем аппетите ходит слава во всем мире.",
+    "POL": "Twoje niemal nienasycone pragnienia znane są na całym świecie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_your_excellency",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your Excellency",
+    "RUS": "Ваше Превосходительство",
+    "POL": "wasza ekscelencja",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_excellency",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Excellency",
+    "RUS": "Превосходительство",
+    "POL": "ekscelencja",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_my_ladylord",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "my [ROOT.Char.GetLadyLord]",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord]",
+    "POL": "[ROOT.Char.GetLadyLord]",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_ladylord_regent",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLadyLord|U] Regent",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Госпожа', 'Господин' )] регент",
+    "POL": "[ROOT.Char.GetLadyLord] regent",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_your_holiness",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your Holiness",
+    "RUS": "Ваше Святейшество",
+    "POL": "wasza świątobliwość",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_your_highness",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your Highness",
+    "RUS": "Ваше Высочество",
+    "POL": "wasza wysokość",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_highness",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Highness",
+    "RUS": "Высочество",
+    "POL": "wasza wysokość",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_your_majesty",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Your Majesty",
+    "RUS": "Ваше Величество",
+    "POL": "wasza dostojność",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_my_liege_title",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "my [ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_liege_title",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "RUS": "[ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_great_liege_title",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Great [ROOT.Char.GetTitleAsNameNoTooltip]",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'великая', 'великий' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_my_sovereign_ladylord",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "my sovereign [ROOT.Char.GetLadyLord]",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetLadyLord] и [Select_CString(ROOT.Char.IsFemale, 'повелительница', 'повелитель' )]",
+    "POL": "wasza suwerenna mość",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_son_of_heaven",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "Son of Heaven",
+    "RUS": "Сын Неба",
+    "POL": "syn niebios",
+    "BEL": ""
+  },
+  {
+    "KEY": "form_of_address_your_radiance",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "your Radiance",
+    "RUS": "ваше Сиятельство",
+    "POL": "wasza promienistość",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_title_from_any_vassal",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "RUS": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "POL": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_title_from_any_vassal_possessive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]",
+    "RUS": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]",
+    "POL": "osoby znanej jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "top_liege_title_from_any_vassal",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "RUS": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "POL": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "top_liege_title_from_any_vassal_possessive",
+    "FILE_PATH": "localization/belarusian/custom_localization/greeting_custom_loc_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]",
+    "RUS": "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]",
+    "POL": "osoby znanej jako [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  }
+]

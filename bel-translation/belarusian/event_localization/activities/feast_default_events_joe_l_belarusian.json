@@ -1,0 +1,82 @@
+[
+  {
+    "KEY": "feast_default_joe.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "Spinning Webs",
+    "RUS": "Сплетающиеся сети",
+    "POL": "Rozpuszczanie wici",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "With so many of powerful people in one place, a few scattered words can have far reaching implications...\\n\\nI have noticed my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('agent'))], [agent.GetTitledFirstName], seems particular sympathetic to my causes.",
+    "RUS": "В таком скоплении могущественных людей несколько невзначай брошенных слов могут иметь далеко идущие последствия...\\n\\nЯ замечаю, что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('agent'))] [agent.GetTitledFirstName] особенно сочувствует моим целям.",
+    "POL": "Kiedy tak wiele wpływowych osób gromadzi się w jednym miejscu, kilka rzuconych ot tak słów może przynieść poważne konsekwencje…\\n\\nZauważam, że [agent.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('agent'))], zdaje się ze szczególną przychylnością patrzeć na moje sprawy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "Countless seeds may bear fruit, if properly cultivated...",
+    "RUS": "Бесчисленные семена могут принести плоды, если за ними ухаживать...",
+    "POL": "Niezliczona ilość nasion może przynieść owoce, jeśli tylko odpowiednio się o nie zadba…",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.a.trigger",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "You are a [GetTrait('schemer').GetName( GetNullCharacter )] or have at least [SCOPE.ScriptValue('decent_skill_rating')|0V] [intrigue|E]",
+    "RUS": "У вас есть свойство «[GetTrait('schemer').GetName( GetNullCharacter )]», или навык [Concept('intrigue', 'интриги')|E] составляет хотя бы [SCOPE.ScriptValue('decent_skill_rating')|0V]",
+    "POL": "Posiadasz cechę: [GetTrait('schemer').GetName( GetNullCharacter )|l] lub twój współczynnik [Concept('intrigue', 'intrygi')|E] to co najmniej: [SCOPE.ScriptValue('decent_skill_rating')|0V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "[agent.GetTitledFirstNameNoTooltip] will be easy to bring on side.",
+    "RUS": "[agent.GetTitledFirstNameNoTooltip] легко согласится поддержать меня.",
+    "POL": "[agent.GetTitledFirstNameNoTooltip] da się łatwo przeciągnąć na naszą stronę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "Where people gather, many opportunities abound.",
+    "RUS": "Собрание людей создает множество возможностей.",
+    "POL": "Tam, gdzie gromadzą się ludzie, pojawiają się też możliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_default_joe.1010.d",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "My plans come together, I need only be patient.",
+    "RUS": "Все складывается успешно, нужно лишь проявить терпение.",
+    "POL": "Moje plany się ziszczą, trzeba mi jedynie cierpliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "agent_more_likely_join_scheme_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "For 6 months, [agent.GetShortUINamePossessive|E] willingness to join your [scheme.GetName|V] [scheme|E] against [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!",
+    "RUS": "На 6 месяцев желание персонажа [agent.GetShortUIName] присоединиться к [Concept('scheme', 'проискам')|E] «[scheme.GetName|V]», целью которых является [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!",
+    "POL": "Przez 6 miesięcy chęć osoby znanej jako [agent.GetShortUINameNotMe] do dołączenia do twojego [Concept('scheme', 'spisku')|E] „[scheme.GetName|V]” przeciwko osobie, którą jest [scheme.GetTargetCharacter.GetShortUINameNotMe], wzrasta o: #P 25#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "all_guests_agent_more_likely_join_scheme_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "For 6 months, all valid attendants of [activity.GetName] willingness to join your [scheme.GetName|V] [scheme|E] against [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!",
+    "RUS": "На 6 месяцев желание всех подходящих участников занятия «[activity.GetName]» присоединиться к [Concept('scheme', 'проискам')|E] «[scheme.GetName|V]», целью которых является [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!",
+    "POL": "Przez 6 miesięcy chęć wszystkich uczestników aktywności, którą jest [activity.GetName|l], do dołączenia do twojego [Concept('scheme', 'spisku')|E] „[scheme.GetName|V]” przeciwko osobie, którą jest [scheme.GetTargetCharacter.GetShortUINameNotMe], wzrasta o: #P 25#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "agent_more_likely_join_scheme_reason",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_default_events_joe_l_belarusian.json",
+    "ENG": "Events: $VALUE|=+0$",
+    "RUS": "События: $VALUE|=+0$",
+    "POL": "Wydarzenia: $VALUE|=+0$",
+    "BEL": ""
+  }
+]

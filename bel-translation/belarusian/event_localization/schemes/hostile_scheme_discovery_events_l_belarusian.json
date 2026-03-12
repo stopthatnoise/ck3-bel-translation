@@ -1,0 +1,474 @@
+[
+  {
+    "KEY": "hostile_scheme_discovery.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "A Scheme at [ROOT.Char.Custom('GetCourt')|U]",
+    "RUS": "Интриги [ROOT.Char.Custom('GetCourt_RU_Where')]",
+    "POL": "Spisek w miejscu znanym jako [ROOT.Char.Custom('GetCourt')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.close_relation",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with grave news. [spymaster.GetSheHe|U] is certain that [agent.GetTitledFirstName], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against me!",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] приносит печальные новости. [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [agent.GetTitledFirstName], [Select_CString(agent.IsFemale, 'моя собственная', 'мой собственный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] строит козни против меня!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z poważnymi wieściami. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.close_relation_no_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me. [agent.GetTitledFirstName], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against me!",
+    "RUS": "До меня дошли страшные известия. [agent.GetTitledFirstName], [Select_CString(agent.IsFemale, 'моя собственная', 'мой собственный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], замышляет дурное против меня!",
+    "POL": "Dotarły do mnie poważne wieści. [agent.GetTitledFirstName], mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], spiskuje przeciwko mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.close_relation_spymaster_other_target",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with grave news. [spymaster.GetSheHe|U] is certain that [agent.GetTitledFirstName], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against [spymaster.GetHerHim]!",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle] приносит печальные новости. [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [agent.GetTitledFirstName], [Select_CString(agent.IsFemale, 'моя собственная', 'мой собственный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], строит козни против н[spymaster.GetHerHis]!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z poważnymi wieściami. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko [spymaster.Custom('PL_mu_jej')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.close_relation_other_target",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with grave news. [spymaster.GetSheHe|U] is certain that [agent.GetTitledFirstName], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "RUS": "[spymaster.GetCouncilTitle] приносит печальные новости. [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [agent.GetTitledFirstName], [Select_CString(targeted_courtier.IsFemale, 'моя собственная', 'мой собственный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], строит козни и что в опасности [Select_CString(targeted_courtier.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z poważnymi wieściami. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko postaci, którą jest [targeted_courtier.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.close_relation_no_spymaster_other_target",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me. [agent.GetTitledFirstName], my own [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "RUS": "До меня дошли страшные известия. [agent.GetTitledFirstName], [Select_CString(targeted_courtier.IsFemale, 'моя собственная', 'мой собственный' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], строит козни: в опасности [Select_CString(targeted_courtier.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName].",
+    "POL": "Dotarły do mnie poważne wieści. [agent.GetTitledFirstName], mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], spiskuje przeciwko osobie, którą jest [targeted_courtier.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with a discovery. [spymaster.GetSheHe|U] is certain that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.GetTitledFirstName], is scheming against me!",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] рассказывает интересные вещи! [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetTitledFirstName] строит козни против меня!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z pewnym odkryciem. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.desc_no_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me. It has been discovered that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.GetTitledFirstName], is scheming against me!",
+    "RUS": "До меня дошли страшные известия. Выяснилось, что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetTitledFirstName] замышляет дурное против меня!",
+    "POL": "Dotarły do mnie poważne wieści. Odkryto, że [agent.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], spiskuje przeciwko mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.desc_other_target_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with a discovery. [spymaster.GetSheHe|U] is certain that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.GetTitledFirstName], is scheming against [spymaster.GetHerHim]!",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle] рассказывает интересные вещи! [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetTitledFirstName] строит козни против н[spymaster.GetHerHis]!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z pewnym odkryciem. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko [spymaster.Custom('PL_mu_jej')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.desc_other_target",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with a discovery. [spymaster.GetSheHe|U] is certain that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.GetTitledFirstName], is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] рассказывает любопытнейшие вещи! [spymaster.GetSheHe|U] [Select_CString(spymaster.IsFemale, 'уверена', 'уверен' )], что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetTitledFirstName] строит козни, и [agent.GetHerHis] цель — [Select_CString(targeted_courtier.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z pewnym odkryciem. Ma pewność, że [agent.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] mojej osoby, spiskuje przeciwko postaci, którą jest [targeted_courtier.GetTitledFirstName], dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.desc_no_spymaster_other_target",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me. It has been discovered that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], [agent.GetTitledFirstName], is scheming against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "RUS": "До меня дошли неприятные известия. Выяснилось, что [Select_CString(agent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] [agent.GetTitledFirstName] строит козни против одного из моих придворных! [agent.GetHerHis|U] цель — [Select_CString(targeted_courtier.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))] [targeted_courtier.GetTitledFirstName]!",
+    "POL": "Dotarły do mnie poważne wieści. Odkryto, że [agent.GetTitledFirstName], mój [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))], spiskuje przeciwko osobie, którą jest [targeted_courtier.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('targeted_courtier'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Let the traitor be known to all.",
+    "RUS": "Пусть все узнают имя предателя.",
+    "POL": "Niech wszyscy poznają zdrajcę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Throw [agent.GetHerHim] in jail!",
+    "RUS": "Бросить [agent.GetHerHis] в темницу!",
+    "POL": "Wtrącić [Select_CString( agent.IsFemale, 'ją', 'go' )] do więzienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.b.tt_not_your_courtier_or_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "[agent.GetTitledFirstName] is not your [courtier|E] or [vassal|E]",
+    "RUS": "[agent.GetTitledFirstName] не является вашим [Concept('courtier', 'придворным')|E] или [Concept('vassal', 'вассалом')|E]",
+    "POL": "[agent.GetTitledFirstName] to nie jest twój [courtier|El] ani [vassal|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Whether true or not, I will not accuse [agent.GetFirstNameNoTooltip].",
+    "RUS": "Правда или нет, но [agent.GetFirstNameNoTooltip] не будет [Select_CString(agent.IsFemale, 'обвинена', 'обвинен' )].",
+    "POL": "Czy to prawda, czy nie, [agent.GetFirstNameNoTooltip] nie zostanie oskarżon[Select_CString( agent.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1001.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "[agent.GetFirstNameNoTooltip] goes free.",
+    "RUS": "[agent.GetFirstNameNoTooltip] останется на свободе.",
+    "POL": "[agent.GetFirstNameNoTooltip] wychodzi na wolność",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Schemer Discovered!",
+    "RUS": "Интриган разоблачен!",
+    "POL": "Spiskowiec zdemaskowany!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with grave news: it is [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] [Select_CString(spymaster.IsFemale, 'пришла', 'пришел' )] ко мне с ужасными известиями: оказывается, это [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z poważnymi wieściami: [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.intro_no_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me: [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "RUS": "До меня дошли страшные известия: [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "POL": "Dotarły do mnie poważne wieści: [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.murder",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "that is plotting to kill",
+    "RUS": "планирует убийство! И его цель —",
+    "POL": "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] plan morderstwa, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.abduction",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "that is scheming to abduct",
+    "RUS": "планирует похищение. Намеченная жертва —",
+    "POL": "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] spisek dotyczący porwania, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.elope",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "that is plotting to elope with",
+    "RUS": "планирует устроить побег, в котором будет участвовать",
+    "POL": "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] plan ucieczki z kochankiem, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.steal_back_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "that is plotting to steal an artifact from",
+    "RUS": "планирует украсть артефакт! Жертвой кражи станет",
+    "POL": "zaaranżował[Select_CString(owner.IsFemale, 'a', '' )] plan wykradnięcia artefaktu, którego właściciel[Select_CString(target.IsFemale, 'ką', 'em' )] jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "that is plotting against",
+    "RUS": "плетет интриги, цель которых —",
+    "POL": "zaaranżował[Select_CString( owner.IsFemale, 'a', '' )] spisek, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "The [owner.Custom2('InsultAdjective', ROOT.Char)] fiend!",
+    "RUS": "[owner.Custom2('InsultAdjective', ROOT.Char)|U] [Select_CString(owner.IsFemale, 'тварь', 'монстр' )]!",
+    "POL": "Potwór!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My [spymaster.GetCouncilTitle] has come to me with grave news. While we do not yet know who,",
+    "RUS": "[Select_CString(spymaster.IsFemale, 'Моя', 'Мой' )] [spymaster.GetCouncilTitle|l] приносит печальные новости. Кто-то",
+    "POL": "[spymaster.GetCouncilTitle|U] przybywa do mnie z poważnymi wieściami. Nie ma co prawda jeszcze pewności co do tożsamości zbrodniarza, ale",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.intro_no_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Grave news has reached me. While it is not yet known who,",
+    "RUS": "До меня дошли страшные известия. Пока не известно, кто именно,",
+    "POL": "Dotarły do mnie poważne wieści. Choć nie wiadomo jeszcze kto,",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.murder",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is plotting to kill",
+    "RUS": "задумал убийство! И его цель —",
+    "POL": "ktoś zaaranżował plan morderstwa, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.abduction",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is scheming to abduct",
+    "RUS": "готовит похищение! И его цель —",
+    "POL": "ktoś zaaranżował spisek dotyczący porwania, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is plotting against",
+    "RUS": "строит козни! Их цель —",
+    "POL": "ktoś zaaranżował spisek, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.elope",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is plotting to elope with",
+    "RUS": "но кто-то плетет козни, чтобы устроить побег, в котором будет участвовать",
+    "POL": "ktoś zaaranżował plan ucieczki z kochankiem, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.steal_back_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is trying to steal from",
+    "RUS": "кто-то пытается совершить ограбление, жертвой которого станет",
+    "POL": "ktoś zaaranżował plan wykradnięcia artefaktu, którego właściciel[Select_CString(target.IsFemale, 'ką', 'em' )] jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.depose",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "someone is plotting to depose",
+    "RUS": "кто-то задумал свержение! И его цель —",
+    "POL": "ktoś zaaranżował plan detronizacji, którego celem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.target_other",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!",
+    "RUS": "[Select_CString(target.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName]!",
+    "POL": "m[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.target_spymaster",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "[target.GetHerHim]!\\n\\n",
+    "RUS": "[target.GetTitledFirstName]!\\n\\n«Они не понимают, с кем связались, [ROOT.Char.Custom('FormOfAddressForLiege')]. Убить #EMP меня#!? Я им покажу. Ух, я им покажу».",
+    "POL": "[target.GetSheHe]!\\n\\n– Nie wiedzą, z kim mają do czynienia, wasza czcigodność. Myślą, że mogą #EMP mnie#! zabić? Ja im pokażę. O tak, już ja im pokażę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.target_me",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "me!",
+    "RUS": "я!",
+    "POL": "moja osoba!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "We must stop the villain behind this!",
+    "RUS": "Мы должны остановить негодяя!",
+    "POL": "Musimy powstrzymać złoczyńcę, który za tym stoi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Agent Discovered!",
+    "RUS": "Заговорщик разоблачен!",
+    "POL": "Wspólnik ujawniony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3001.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "[agent.GetTitledFirstName], my agent in [court_owner.GetTitledFirstNamePossessive] [scheme.GetName|l], has been discovered!",
+    "RUS": "[court_owner.GetTitledFirstName] [Select_CString(court_owner.IsFemale, 'узнала', 'узнал' )], что [agent.GetTitledFirstName] [Select_CString(agent.IsFemale, 'участвовала', 'участвовал' )] в заговоре «[scheme.GetName]»!",
+    "POL": "Osoba znana jako [agent.GetTitledFirstName], mój szpieg zaangażowany w spisek „[scheme.GetName]” na dworze persony, którą jest [court_owner.GetTitledFirstName], została zdemaskowana!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3001.imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "\\n\\nNow the [court_owner.GetTitleAsName] has placed [agent.GetHerHim] under lock and key.",
+    "RUS": "\\n\\n[court_owner.GetTitleAsName] [Select_CString(court_owner.IsFemale, 'посадила', 'посадил' )] [SCOPE.sC('court_owner').GetHerHis] под замок.",
+    "POL": "\\n\\nTeraz [court_owner.GetTitleAsName] trzyma [Select_CString(agent.IsFemale, 'ją', 'go' )] pod kluczem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3001.accused",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "\\n\\nNow [agent.GetSheHe] is known to be untrustworthy, and cannot help my cause any further.",
+    "RUS": "\\n\\nТеперь [agent.GetSheHe] лишится всеобщего доверия и будет мне [Select_CString(agent.IsFemale, 'бесполезна', 'бесполезен' )].",
+    "POL": "\\n\\nTeraz będzie [agent.GetSheHe] znan[Select_CString(agent.IsFemale, 'a', 'y' )] jako niegodziw[Select_CString(agent.IsFemale, 'a', 'y' )] zaufania i nie będzie już dłużej pomagał mi w mojej sprawie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Curse [court_owner.GetTitledFirstNameNoTooltip], and [court_owner.GetHerHis] [spymaster.GetCouncilTitle]!",
+    "RUS": "Будь [Select_CString(court_owner.IsFemale, 'проклята', 'проклят' )] [court_owner.GetTitledFirstNameNoTooltip] и [court_owner.GetHerHis] [spymaster.GetCouncilTitle|l]!",
+    "POL": "Niech [court_owner.GetTitledFirstNameNoTooltip] oraz [court_owner.Custom('PL_jego_jej')] [spymaster.GetCouncilTitle|l] odczują skutki mojego przekleństwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Scheme Discovered",
+    "RUS": "Происки раскрыты",
+    "POL": "Odkrycie spisku",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "The existence of my plot to [scheme.GetFullActionName] has been discovered!\\n\\nWhile my involvement is not yet known, this will make it a lot more difficult to bring my plans to fruition.",
+    "RUS": "Мой план — [scheme.GetFullActionName] — раскрыт!\\n\\nО моем участии в нем пока никто не знает, но привести его в исполнение теперь будет нелегко.",
+    "POL": "Istnienie mojego spisku – [scheme.GetFullActionName] – zostało odkryte!\\n\\nChociaż moje zaangażowanie nie jest jeszcze znane, to znacznie utrudni mi to realizację moich planów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Curses!",
+    "RUS": "Проклятье!",
+    "POL": "Cholera!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Involvement Discovered",
+    "RUS": "Соучастие раскрыто",
+    "POL": "Ujawnione zaangażowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has discovered that I am the mastermind behind the plot",
+    "RUS": "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] теперь знает, что я стою за заговором",
+    "POL": "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] odkrył[Select_CString( target.IsFemale, 'a', '' )], że to ja jestem mózgiem spisku",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.murder",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "to murder [target.GetHerHim]!",
+    "RUS": "с целью убить [target.GetHerHis]!",
+    "POL": "mającego na celu zamordowanie [Select_CString( target.IsFemale, 'jej', 'go' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.abduction",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "to abduct [target.GetHerHim]!",
+    "RUS": "с целью похитить [target.GetHerHis]!",
+    "POL": "mającego na celu uprowadzenie [Select_CString( target.IsFemale, 'jej', 'go' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.elope",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "to elope with [target.GetHerHim]!",
+    "RUS": "с целью бежать с [Select_CString(target.IsFemale, 'ней', 'ним' )]!",
+    "POL": "mającego na celu sprowadzenie [Select_CString( target.IsFemale, 'jej', 'go' )] na swój dwór i poślubienie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.steal_back_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "to steal an artifact from [target.GetHerHim]!",
+    "RUS": "украсть у н[target.GetHerHis] артефакт!",
+    "POL": "mającego na celu ukradnięcie [target.GetHerHim] artefaktu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "against [target.GetHerHim]!",
+    "RUS": "против [Select_CString(target.IsFemale, 'нее', 'него' )]!",
+    "POL": "przeciwko [Select_CString( target.IsFemale, 'niej', 'niemu' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.3003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "There must have been a misunderstanding!",
+    "RUS": "Должно быть, это какое-то недоразумение!",
+    "POL": "Musiało dojść do nieporozumienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Scheme Discovered!",
+    "RUS": "Происки раскрыты!",
+    "POL": "Spisek ujawniony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My plot against my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName], has been discovered!",
+    "RUS": "[Select_CString(target.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'была', 'был' )] целью грандиозного плана, но происки раскрыты!",
+    "POL": "Zaaranżowany przeze mnie spisek, którego celem jest [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName], został okryty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4001.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "\\n\\nEven my own [ROOT.Char.Custom('GetCourtierPlural')|l] whisper behind my back, any trust or love they might have had for me shattered by the revelation.",
+    "RUS": "\\n\\nДаже мои собственные [ROOT.Char.Custom('GetCourtierPlural')] шепчутся у меня за спиной. Разоблачение положило конец их доверию и любви ко мне.",
+    "POL": "\\n\\nZa moimi plecami szepczą nawet tutejsi [ROOT.Char.Custom('GetCourtierPlural')]. Wieści o spisku kompletnie zniszczyły ich zaufanie i miłość wobec mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4002.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "My scheme to see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] dead has been discovered! Now everyone knows of my plan to kill [target.GetTitledFirstName].",
+    "RUS": "[Select_CString(target.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'должна была', 'должен был' )] умереть, но план раскрылся! Теперь все знают, что это были мои происки.",
+    "POL": "Zaaranżowany przeze mnie spisek, którego celem jest m[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], został odkryty! Teraz już wszyscy wiedzą, że [target.GetTitledFirstName] miał[Select_CString( target.IsFemale, 'a', '' )] zostać zamordowan[Select_CString( target.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "This is all a big misunderstanding!",
+    "RUS": "Я могу все объяснить!",
+    "POL": "To wszystko jest jakimś wielkim nieporozumieniem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostile_scheme_discovery.4001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/hostile_scheme_discovery_events_l_belarusian.json",
+    "ENG": "Oh, I will show them how far I can go.",
+    "RUS": "Ух, я им покажу, как далеко могу зайти.",
+    "POL": "Och, pokażę im, jak daleko mogę się posunąć.",
+    "BEL": ""
+  }
+]

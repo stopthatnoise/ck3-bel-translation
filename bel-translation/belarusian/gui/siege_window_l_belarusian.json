@@ -1,0 +1,610 @@
+[
+  {
+    "KEY": "SW_TT_TIMER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Next [siege|E] Event: #V $DAYS$#!#!\\nEvery $TOTAL$, a new Siege Event occurs",
+    "RUS": "#T Следующее событие [Concept( 'siege', 'осады' )|E] произойдет через #V $DAYS$#!#!\\nНовое событие каждые $TOTAL$",
+    "POL": "#T Następne wydarzenie [Concept('siege', 'oblężnicze')|E]: #V $DAYS$#!#!\\nCo $TOTAL$ ma miejsce nowe wydarzenie oblężnicze",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_TIMER_FROZEN",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "No [siege|E] Event will occur.\\n",
+    "RUS": "Не будет никаких событий при [Concept( 'siege', 'осаде' )|E].\\n",
+    "POL": "Nie wystąpi żadne wydarzenie [Concept('siege', 'oblężnicze')|E].\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_GARRISON",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T [garrison|E]: #V [Siege.GetDefenderMen|0] [soldiers|E]#!#! \\nThe besieger needs to have more Soldiers than the Garrison for the [siege|E] to progress",
+    "RUS": "#T [garrison|E]: #V [soldiers|El], [Siege.GetDefenderMen|0]#!#! \\nУ осаждающего должно быть больше солдат, чем в гарнизоне, чтобы [siege|El] продвигалась",
+    "POL": "#T [Concept( 'garrison', 'Garnizon' )|E]: #V [Siege.GetDefenderMen|0] [Concept( 'soldiers', 'żołnierze' )|E]#!#!\\nOblężający musi mieć więcej żołnierzy niż garnizon, aby [Concept( 'siege', 'oblężenie' )|E] mogło postępować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_RECENT_ACTION",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_ACTION",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#high $NAME$#!\\n$EFFECT$",
+    "RUS": "#high $NAME$#!\\n$EFFECT$",
+    "POL": "#high $NAME$#!\\n$EFFECT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_BLOCKED_LARGE_GARRISON",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "The [siege|E] will not progress because the besieging [army|E] is smaller than the [garrison|E] ($GARRISON|V$)",
+    "RUS": "[siege|E] не будет продвигаться, потому что осаждающая [army|El] меньше, чем [garrison|El] ($GARRISON|V$)",
+    "POL": "[Concept( 'siege', 'Oblężenie' )|E] nie będzie postępować, ponieważ oblegająca [Concept( 'army', 'armia' )|E] jest mniejsza od [Concept( 'garrison', 'garnizonu' )|E] ($GARRISON|V$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_BLOCKED_MOVEMENT_OR_COMBAT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "The [siege|E] will not progress because the besieging [armies|E] are currently moving or in [battle|E].",
+    "RUS": "[siege|E] не будет продвигаться, потому что осаждающая [armies|El] находится в движении или идет [battle|El].",
+    "POL": "[Concept( 'siege', 'Oblężenie' )|E] nie będzie postępować, ponieważ oblegające [Concept( 'armies', 'armie')|E] są obecnie w ruchu lub w [Concept( 'battle', 'bitwie' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T [siege_progress|E]: #V $PROGRESS|1$ / $TOTAL|0$#!#!\\n",
+    "RUS": "#T [siege_progress|E]: #V $PROGRESS|1$ / $TOTAL|0$#!#!\\n",
+    "POL": "#T [siege_progress|E]: #V $PROGRESS|1$ / $TOTAL|0$#!#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_DAILY_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Daily Progress",
+    "RUS": "Ежедневный прогресс",
+    "POL": "Dzienny postęp",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_BASE_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Base",
+    "RUS": "Базовое значение",
+    "POL": "Podstawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MAA_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "[men_at_arms|E]",
+    "RUS": "[men_at_arms|E]",
+    "POL": "[men_at_arms|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MEN_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Besieging [soldiers|E]",
+    "RUS": "Осаждающие [soldiers|El]",
+    "POL": "Oblegający [Concept( 'soldiers', 'żołnierze' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_ASSAULT_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Assault",
+    "RUS": "Штурм",
+    "POL": "Szturm",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_DISEASE_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Disease",
+    "RUS": "Болезнь",
+    "POL": "Choroba",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_FORT_LEVEL_MULT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "[fort_level|E]",
+    "RUS": "[fort_level|E]",
+    "POL": "[fort_level|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MORALE_LOSS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Daily Progress: $VALUE|+=1$",
+    "RUS": "Ежедневный прогресс: $VALUE|+=1$",
+    "POL": "Dzienny postęp: $VALUE|+=1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MORALE_LOSS_LABEL_MINIMUM",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#! #weak (min $VALUE|=1$)#!",
+    "RUS": "#! #weak (минимум — $VALUE|=1$)#!",
+    "POL": "#! #weak (min. $VALUE|=1$)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_WINDOW_END_DATE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "With the current [siege_progress|E], the besiegers will win the [siege|E] in $TIME$ #weak ([DATE.GetString])#!\\n\\nSiege Events may increase $game_concept_siege_progress$ and end the $game_concept_siege$ even earlier.",
+    "RUS": "При текущем [Concept('siege_progress', 'прогрессе осады')|E] [Concept('siege', 'осаждающие')|E] добьются успеха в течение $TIME$ #weak ([DATE.GetString])#!\\n\\nСобытия осады могут ускорить ее прогресс и привести к более быстрому завершению.",
+    "POL": "Przy bieżącym [Concept('siege_progress', 'postępie oblężenia')|E] oblegający zakończą [siege|El] sukcesem za $TIME$ #weak ([DATE.GetString])#!\\n\\nWydarzenia oblężnicze mogą doprowadzić do zwiększenia postępu oblężenia i jeszcze wcześniejszego zakończenia oblężenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_WINDOW_END_DATE_SHORT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Max $TIME$ left",
+    "RUS": "Еще не более $TIME$",
+    "POL": "Pozostało maks. $TIME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_SIEGING_REALM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Besieger: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Click to view#!",
+    "RUS": "#T Осаждает: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Щелкните, чтобы посмотреть#!",
+    "POL": "#T Oblegający: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Kliknij, aby zobaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_DEFENDING_REALM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Defender: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Click to view#!",
+    "RUS": "#T Обороняется: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Щелкните, чтобы посмотреть#!",
+    "POL": "#T Obrońca: [Character.GetPrimaryTitle.GetName|VU]#!\\n#I Kliknij, aby zobaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Breach",
+    "RUS": "Пролом",
+    "POL": "Wyłom w murach",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Starvation",
+    "RUS": "Голод",
+    "POL": "Głód",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Disease Outbreak",
+    "RUS": "Вспышка болезни",
+    "POL": "Wybuch epidemii choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DESERTION",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Desertion",
+    "RUS": "Дезертирство",
+    "POL": "Dezercja",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STALEMATE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Stalemate",
+    "RUS": "Без изменений",
+    "POL": "Sytuacja patowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH_DESC",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Walls: $STATE$",
+    "RUS": "Стены: $STATE$",
+    "POL": "Mury: $STATE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH_LEVEL_0",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Intact",
+    "RUS": "Целые",
+    "POL": "Nienaruszone",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH_LEVEL_1",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Small Breach",
+    "RUS": "Небольшой пролом",
+    "POL": "Mały wyłom",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH_LEVEL_2",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Large Breach",
+    "RUS": "Большой пролом",
+    "POL": "Duży wyłom",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION_DESC",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Supplies: $STATE$",
+    "RUS": "Припасы гарнизона: $STATE$",
+    "POL": "Zaopatrzenie: $STATE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION_LEVEL_0",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Fully Stocked",
+    "RUS": "Под завязку",
+    "POL": "W pełni zaopatrzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION_LEVEL_1",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Running Low",
+    "RUS": "На исходе",
+    "POL": "Na wyczerpaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION_LEVEL_2",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Starvation",
+    "RUS": "Голод",
+    "POL": "Głód",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE_DESC",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "$STATE$",
+    "RUS": "$STATE$",
+    "POL": "$STATE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE_LEVEL_0",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "No Diseases",
+    "RUS": "Нет болезней",
+    "POL": "Brak chorób",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE_LEVEL_1",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Sickness Spreading",
+    "RUS": "Начинаются болезни",
+    "POL": "Rozprzestrzenianie się choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE_LEVEL_2",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Rampant Disease",
+    "RUS": "Свирепствуют болезни",
+    "POL": "Szerzy się epidemia",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_BREACH_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Time between [siege|E] Events: $VALUE|-=0%$",
+    "RUS": "Время между событиями [sieges|El]: $VALUE|-=0%$",
+    "POL": "Czas pomiędzy wydarzeniami [Concept( 'siege', 'oblężniczymi' )|E]: $VALUE|-=0%$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_STARVATION_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "One-time increase of [siege_progress|E]: $VALUE|+=0%$",
+    "RUS": "Однократное повышение [Concept( 'siege_progress', 'прогресса осады' )|E]: $VALUE|+=0%$",
+    "POL": "Jednorazowy wzrost [Concept('siege_progress', 'postępu oblężenia')|E]: $VALUE|+=0%$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DISEASE_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Daily [siege_progress|E]: $VALUE|+=0%$",
+    "RUS": "Ежедневный [Concept( 'siege_progress', 'прогресс' )|E]: $VALUE|+=0%$",
+    "POL": "Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )|E]: $VALUE|+=0%$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_DESERTION_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "[siege_progress|E]: $VALUE|+=0$",
+    "RUS": "[siege_progress|E]: $VALUE|+=0$",
+    "POL": "[Concept( 'siege_progress', 'Postęp oblężenia' )|E]: $VALUE|+=0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ACTION_NO_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#weak No effect on the [siege|E]#!",
+    "RUS": "#weak Нет эффекта на [Concept( 'siege', 'осаду' )|E]#!",
+    "POL": "#weak Brak wpływu na [Concept( 'siege', 'oblężenie' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_MOVING_OR_IN_COMBAT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Armies moving or in a [battle|E]#!",
+    "RUS": "@warning_icon! #X Армии в движении, или идет [battle|El]#!",
+    "POL": "@warning_icon! #X Armie w ruchu lub w [Concept( 'battle', 'bitwie' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TOO_FEW_SOLDIERS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Not enough soldiers#!",
+    "RUS": "@warning_icon! #X Недостаточно солдат#!",
+    "POL": "@warning_icon! #X Brak wystarczającej liczby żołnierzy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_OPEN_ARMY_WINDOW",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Select all your besieging [armies|E]#!",
+    "RUS": "#T Выбрать все ваши осаждающие [armies|El]#!",
+    "POL": "#T Wybierz wszystkie oblegające [Concept( 'armies', 'armie' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_SHOW_HOLDING",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Select the [holding|E]#!",
+    "RUS": "#T Выберите [holding|El]#!",
+    "POL": "#T Wybierz [Concept( 'holding', 'posiadłość' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_START_ASSAULT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Assault Fort",
+    "RUS": "Штурм крепости",
+    "POL": "Szturmuj fort",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_STOP_ASSAULT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Stop Assault",
+    "RUS": "Остановить штурм",
+    "POL": "Zatrzymaj szturm",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_ASSAULT_TT_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Assault Fort#!",
+    "RUS": "#T Штурм крепости#!",
+    "POL": "#T Szturmuj fort#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_STOP_ASSAULT_TT_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Stop Fort Assault#!",
+    "RUS": "#T Остановить штурм крепости#!",
+    "POL": "#T Zatrzymaj szturm na fort#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_FORT_LEVEL_IMPACT_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Fort Level Impact#!",
+    "RUS": "#T Влияние уровня крепости#!",
+    "POL": "#T Wpływ poziomu fortu #!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_FORT_LEVEL_IMPACT_BAD",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#S [fort_level_i][fort_level|E] is too high!#!\\nAdd better Siege [men_at_arms|E] to finish the Siege faster",
+    "RUS": "#S [fort_level_i][fort_level|E] слишком высок!#!\\nНужна более приспособленная для осады [men_at_arms|El], чтобы быстрее завершить осаду",
+    "POL": "#S [fort_level_i][fort_level|E] jest zbyt wysoki!#!\\nDodaj lepszych [Concept('men_at_arms', 'zbrojnych')|E], aby szybciej zakończyć oblężenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MEN_BALANCE_BASIC_INFO",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Number of Soldiers#!\\n[besieging|E] Army: [SIEGE.GetAttackerMen|V]\\n[garrison|E]: [SIEGE.GetDefenderMen|V]",
+    "RUS": "#T Количество солдат#!\\n[Concept( 'besieging', 'Осаждающая' )|E] армия: [SIEGE.GetAttackerMen|V]\\n[garrison|E]: [SIEGE.GetDefenderMen|V]",
+    "POL": "#T Liczba żołnierzy#!\\n[Concept( 'besieging', 'Oblegająca' )|E] armia: [SIEGE.GetAttackerMen|V]\\n[Concept( 'garrison', 'Garnizon' )|E]: [SIEGE.GetDefenderMen|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MEN_BALANCE_ATTRITION_INFO",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "The $game_concept_besieging$ [army|E] is taking $VALUE|V$ casualties every month due to [attrition|E]",
+    "RUS": "Осаждающая [army|El] несет ежемесячные [attrition|El] в размере $VALUE|V$",
+    "POL": "Oblężenie przynosi oblegającej [Concept( 'army', 'armii' )|E] co miesiąc straty o wartości $VALUE|V$ wynikające z [Concept( 'attrition', 'wyniszczenia' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MEN_BALANCE_SOLDIERS_PROGRESS_INFO",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Daily progress from [soldiers|E]: $VALUE|+=2$",
+    "RUS": "[soldiers|E] дают ежедневный прогресс в размере: $VALUE|+=2$",
+    "POL": "Dzienny postęp dzięki [Concept( 'soldiers', 'żołnierzom' )|E]: $VALUE|+=2$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_MEN_BALANCE_BLOCKED_LARGE_GARRISON",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#X The [siege|E] will not progress because the besieging [army|E] is smaller than the [garrison|E]#!",
+    "RUS": "#X [siege|E] не будет продвигаться, потому что осаждающая [army|El] меньше, чем [garrison|El]#!",
+    "POL": "#X [Concept( 'siege', 'Oblężenie' )|E] nie będzie postępować, ponieważ oblegająca [Concept( 'army', 'armia' )|E] jest mniejsza od [Concept( 'garrison', 'garnizonu' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_CANT_BREACH_ATTACKER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@no_siege_weapon_icon!#X [siege_weapons|E] are required to be able to breach the walls#!",
+    "RUS": "@no_siege_weapon_icon!#X Чтобы пробить стену, нужны [Concept( 'siege_weapon', 'осадные орудия' )|E]#!",
+    "POL": "@no_siege_weapon_icon!#X [Concept( 'siege_weapons', 'Machiny oblężnicze' )|E] są wymagane, aby móc dokonać wyłomu w murach#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_CANT_BREACH_DEFENDER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@no_siege_weapon_icon!The besieging [army|E] cannot breach the walls without [siege_weapons|E]",
+    "RUS": "@no_siege_weapon_icon!Осаждающая [army|El] не может пробить стены без [Concept( 'siege_weapon', 'осадных орудий' )|El]",
+    "POL": "@no_siege_weapon_icon! Oblegająca [Concept( 'army', 'armia' )|E] nie może dokonać wyłomu w murach bez [Concept( 'siege_weapons', 'machin oblężniczych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_CANT_BREACH_WEAK_ATTACKER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@no_siege_weapon_icon! Stronger [siege_weapons|E] are required to be able to breach the walls",
+    "RUS": "@no_siege_weapon_icon!Чтобы пробить эти стены, нужны более мощные [Concept( 'siege_weapon', 'осадные орудия' )|E]",
+    "POL": "@no_siege_weapon_icon! Wymagane są silniejsze [Concept( 'siege_weapons', 'machiny oblężnicze' )|E], aby móc dokonać wyłomu w murach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_CANT_BREACH_WEAK_DEFENDER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@no_siege_weapon_icon!The besieging [army|E] cannot breach the walls without stronger [siege_weapons|E]",
+    "RUS": "@no_siege_weapon_icon!Осаждающая [army|El] не может пробить стены: нужны более мощные [Concept( 'siege_weapon', 'осадные орудия' )|El]",
+    "POL": "@no_siege_weapon_icon! Oblegająca [Concept( 'army', 'armia' )|E] nie może dokonać wyłomu w murach bez silniejszych [Concept( 'siege_weapons', 'machin oblężniczych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TT_LOOT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Loot: [gold_i][Siege.GetProvince.GetLoot|0]\\n#!Given to the besieging [realm|E] when the [siege|E] finishes.",
+    "RUS": "#T Добыча: [gold_i][Siege.GetProvince.GetLoot|0]\\n#![realm|E] осаждающих получит эту добычу, если [siege|El] завершится успехом.",
+    "POL": "#T Łup: [gold_i] [Siege.GetProvince.GetLoot|0]\\n#!Przysługujący oblegającemu [Concept('realm', 'państwu')|E] po zakończeniu [Concept('siege', 'oblężenia')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_TIME_LEFT_TT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Max Time Left\\n#![SiegeWindow.GetTimeLeft]",
+    "RUS": "#T Максимум оставшегося времени\\n#![SiegeWindow.GetTimeLeft]",
+    "POL": "#T Pozostały maksymalny czas\\n#![SiegeWindow.GetTimeLeft]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_GO_TO_HOLDING",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Open Holding#!",
+    "RUS": "#T Открыть владения#!",
+    "POL": "#T Pokaż posiadłość#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_CANT_ASSAULT_NO_BREACH",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X The walls must be breached to start an assault#!\\n#weak You must have [siege_weapons|E] to breach the walls during a siege event.#!",
+    "RUS": "@warning_icon! #X Чтобы начать штурм, нужно пробить стены#!\\n#weak Чтобы пробить стены во время осады, необходимы [Concept('siege_weapons', 'осадные орудия')|E].#!",
+    "POL": "@warning_icon! #X Należy zrobić wyłom w murach, aby rozpocząć szturm#!\\n#weak Musisz dysponować [Concept('siege_weapons', 'machinami oblężniczymi')|E], aby zrobić wyłom w murach podczas wydarzenia oblężniczego.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ASSAULT_TT_INFO",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "The assault will add $PROG|1+=$ Siege Progress and will cause $MEN|0-$ casualties every day",
+    "RUS": "Штурм добавит $PROG|1+=$ к прогрессу осады и приведет к ежедневным потерям в размере $MEN|0-$",
+    "POL": "Szturm doda $PROG|1+=$ postępu oblężenia i spowoduje $MEN|0-$ ofiar każdego dnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_ASSAULTING_TEXT_ATTACKER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Assaulting!",
+    "RUS": "Штурм!",
+    "POL": "Atakujący!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_ASSAULTING_TEXT_DEFENDER",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Assaulted!",
+    "RUS": "Нападение!",
+    "POL": "Zaatakowany!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_SIEGE_WEAPON_NON",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "No [siege_weapons|E]",
+    "RUS": "Нет [Concept( 'siege_weapon', 'осадных орудий' )|El]",
+    "POL": "Brak [Concept( 'siege_weapons', 'machin oblężniczych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_SIEGE_WEAPON",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Siege Weapons",
+    "RUS": "Осадные орудия",
+    "POL": "Machiny oblężnicze",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_WALLS_TT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "[SiegeWindow.GetBreachStateTooltip]\\n\\n[SiegeWindow.GetSiegeWeaponDescription]",
+    "RUS": "[SiegeWindow.GetBreachStateTooltip]\\n\\n[SiegeWindow.GetSiegeWeaponDescription]",
+    "POL": "[SiegeWindow.GetBreachStateTooltip]\\n\\n[SiegeWindow.GetSiegeWeaponDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_DAILY_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#high [SiegeWindow.GetDailyProgress|1]#! /day",
+    "RUS": "#high [SiegeWindow.GetDailyProgress|1]#! /д.",
+    "POL": "#high [SiegeWindow.GetDailyProgress|1]#! /dziennie",
+    "BEL": ""
+  },
+  {
+    "KEY": "SW_DAILY_SIEGE_PROGRESS",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Daily [siege_progress|E]",
+    "RUS": "Ежедневный [siege_progress|El]",
+    "POL": "Dzienny [Concept( 'siege_progress', 'postęp oblężenia' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_WINDOW_GO_TO_COUNTY_TT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Open county view#!",
+    "RUS": "#T Открыть окно графства#!",
+    "POL": "#T Otwórz widok hrabstwa#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_ASSAULT_TT_INFO_ACTIVE",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "#T Assault in progress#!\\nThe assault is adding [Siege.CalculateAssaultProgress|1+] Siege Progres and causing [Siege.CalculateAssaultCasualties|0-] casualties every day",
+    "RUS": "#T Идет штурм#!\\nШтурм увеличивает прогресс осады на [Siege.CalculateAssaultProgress|1+] и приводит к ежедневным потерям в размере [Siege.CalculateAssaultCasualties|0-]",
+    "POL": "#T Szturm w toku#!\\nSzturm dodaje [Siege.CalculateAssaultProgress|1+] pkt postępu oblężenia i powoduje liczbę ofiar każdego dnia: [Siege.CalculateAssaultCasualties|0-].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_EVENT",
+    "FILE_PATH": "localization/belarusian/gui/siege_window_l_belarusian.json",
+    "ENG": "Siege Event",
+    "RUS": "Событие осады",
+    "POL": "Wydarzenie",
+    "BEL": ""
+  }
+]

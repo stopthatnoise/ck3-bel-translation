@@ -1,0 +1,474 @@
+[
+  {
+    "KEY": "elope_event_title",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Elope:",
+    "RUS": "Побег:",
+    "POL": "Ucieczka z miłości:",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "$elope_event_title$ Protected by Shadows",
+    "RUS": "$elope_event_title$ под защитой теней",
+    "POL": "$elope_event_title$ chronieni przez cienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.positive.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "The final preparations are in place. The escape route has been charted, the guards bribed and [target.GetTitledFirstName] is ready. Tonight, as darkness falls over [location.GetNameNoTooltip], I shall set my [target.Custom('LoverPetName')] free and make [target.GetHerHim] my [target.GetWifeHusband].",
+    "RUS": "Последние приготовления окончены. Пути побега проложены, стражники подкуплены, [target.GetTitledFirstName] наготове. Сегодня ночью, когда [location.GetNameNoTooltip] погрузится во тьму, [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')] станет [Select_CString(target.IsFemale, 'свободной и выйдет за меня замуж', 'свободным и женится на мне' )].",
+    "POL": "Trwają ostatnie przygotowania. Droga ucieczki została ustalona, strażnicy przekupieni, a [target.GetTitledFirstName] jest gotow[Select_CString(target.IsFemale, 'a', 'y' )]. Dziś wieczorem, gdy zapadnie zmrok, [target.Custom('LoverPetName')] będzie woln[Select_CString(target.IsFemale, 'a', 'y' )] i uczynię [Select_CString(target.IsFemale, 'ją moją żoną', 'go moim mężem' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.negative.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I go through the list in my head. The escape route has been charted, the guards should have received their bribes and hopefully the note I sent to [target.GetTitledFirstName] reached [target.GetHerHim] in time. But what if it did not? Maybe [target.GetSheHe] hasn't received it at all! And there are so many other things that might have gone wrong...\\n\\nThere is no time for doubt. This is my only chance. I must go to [target.GetHerHim], come what may, or abandon the endeavor.",
+    "RUS": "Я вспоминаю пункты плана. Путь побега проложен, стражники должны были получить взятки, и, надеюсь, [target.GetTitledFirstName] вовремя [Select_CString(target.IsFemale, 'получила', 'получил' )] мою записку. А если нет? Вдруг [target.GetSheHe] ее не [Select_CString(target.IsFemale, 'получила', 'получил' )]?! И столько других вещей может пойти не по плану...\\n\\nНа сомнения времени нет. Это мой единственный шанс! Нужно идти к [Select_CString(target.IsFemale, 'ней', 'нему' )], и будь что будет — или же полностью отменить всю затею.",
+    "POL": "Przeglądam plan, który ułożył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] w swojej głowie. Trasa ucieczki została wytyczona, strażnicy powinni otrzymać łapówki i miejmy nadzieję, że list, której adresatem jest [target.GetTitledFirstName], dotarł do nie[Select_CString( target.IsFemale, 'j', 'ego' )] na czas. Ale co jeśli tak się nie stało? Może wcale go nie otrzymał[Select_CString( target.IsFemale, 'a', '' )]! I jest jeszcze tyle innych rzeczy, które mogły pójść nie tak…\\n\\nNie ma czasu na wątpliwości. To jest moja jedyna szansa. Muszę do nie[Select_CString( target.IsFemale, 'j', 'go' )] pójść, cokolwiek się stanie, albo porzucić to przedsięwzięcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I am coming for you, [target.GetFirstNameNoTooltip]!",
+    "RUS": "Я иду к тебе, [target.GetFirstNameNoTooltip]!",
+    "POL": "Idę po ciebie, [target.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "What am I doing? This is madness!",
+    "RUS": "Что я делаю? Это безумие!",
+    "POL": "Co ja wyprawiam? To szaleństwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I attempt to Elope with [target.GetShortUIName]",
+    "RUS": "Я и [target.GetShortUIName] попытаемся тайно бежать",
+    "POL": "[target.GetShortUINameNotMe] i ja podejmujemy próbę ucieczki",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I am #P successful#!",
+    "RUS": "У меня #P все получилось#!",
+    "POL": "Zakończy się #P sukcesem#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.a.failure_discover",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I #N fail and I'm discovered#!",
+    "RUS": "Моя попытка #N провалилась, меня разоблачили#!",
+    "POL": "#N Nie udaje#! mi się zrealizować planu i zostaję również zdemaskowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.0001.a.failure_hidden",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I #N fail#! but I'm not discovered",
+    "RUS": "Моя попытка #N провалилась#!, но меня не разоблачили",
+    "POL": "#N Nie udaje#! mi się zrealizować planu, jednakże nie zostaję zdemaskowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "$elope_event_title$ Love Endures",
+    "RUS": "$elope_event_title$ Любовь все переживет",
+    "POL": "$elope_event_title$ miłość, która przetrwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1001.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "As we wait, I cannot help but imagine everything that might go wrong. I feel utterly powerless — a feeling that I #EMP don't#! care to get further acquainted with.\\n\\nI spot a torch ahead, moving in our direction, and gesture to my guards to hide.",
+    "RUS": "Пока мы ждем, я не могу не представлять, что будет, если все пойдет наперекосяк. Меня охватывает полная беспомощность — чувство, к которому я #EMP не#! хочу привыкать.\\n\\nЯ замечаю впереди свет факела, движущийся в моем направлении, и жестом приказываю охране затаиться.",
+    "POL": "Czekając, nie mogę powstrzymać się od wyobrażenia sobie wszystkiego, co może pójść nie tak. Czuję się całkowicie bezsiln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] i chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )], aby to uczucie #EMP przestało#! mi w końcu towarzyszyć.\\n\\nDostrzegam, że ktoś zbliża się w naszym kierunku i gestem nakazuję moim strażnikom, aby się ukryli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1001.start.desc_brave",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "As we wait, I cannot help but wonder where [target.GetFirstName] is now. Did [target.GetSheHe] make it out okay? Will there be pursuers?\\n\\nI spot a torch ahead, moving in our direction, and gesture to my guards to hide.",
+    "RUS": "Пока мы ждем, я не могу не думать о том, где сейчас [target.GetFirstName]. [Select_CString(target.IsFemale, 'Смогла', 'Смог' )] ли [target.GetSheHe] выбраться? Будет ли погоня?\\n\\nЯ замечаю впереди свет факела, движущийся в моем направлении, и жестом приказываю охране затаиться.",
+    "POL": "Kiedy czekamy, zastanawiam się, gdzie jest teraz [target.GetFirstName]. Czy udało [target.GetHerHim] się wydostać? Czy są jacyś prześladowcy?\\n\\nDostrzegam, że ktoś zbliża się w naszym kierunku i gestem nakazuję moim strażnikom, aby się ukryli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1001.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "The light moves closer and we can make out two silhouettes. One is carrying a sword, that much is clear. The other... it must be #EMP [target.GetHerHim]#!!\\n\\nI run to meet my [target.Custom('LoverPetName')], and [target.GetSheHe] throw [target.GetHerselfHimself] in my open arms. The embrace is swift, but sweet as honey. With [target.GetHerHis] hand in mine, I begin to run.",
+    "RUS": "Свет приближается, и мы уже можем различить два силуэта. Насколько можно видеть, у одного в руке меч. Другой же... должно быть, это #EMP [target.GetSheHe]#!!\\n\\nЯ бегу навстречу, и [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')] бросается в мои объятия. Они быстрые, но сладкие, как мед. Я беру [target.GetHerHis] за руку и пускаюсь бежать.",
+    "POL": "Światło zbliża się i widzimy dwie sylwetki. Jedna trzyma w dłoni miecz, to jasne. Druga… to musi być #EMP [target.GetSheHe]#!!.\\n\\nBiegnę na spotkanie z [Select_CString(target.IsFemale, 'nią', 'nim' )], a [target.Custom('LoverPetName')] rzuca się w moje ramiona. Uścisk jest szybki, ale słodki jak miód. Chwytam [Select_CString(target.IsFemale, 'ją', 'go' )] za rękę i biegnę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Hurry, my love! The [ROOT.Char.Custom('DefaultPriestTitle')] is waiting!",
+    "RUS": "Поспеши, любовь моя, [ROOT.Char.Custom('DefaultPriestTitle')] уже ждет!",
+    "POL": "Pospiesz się, kochanie! [ROOT.Char.Custom('DefaultPriestTitle')] czeka!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Gone In The Night",
+    "RUS": "Исчезновение в ночи",
+    "POL": "Zniknięcie w nocy",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I am jarred awake by a hard knock on the door. ",
+    "RUS": "Резкий стук в дверь вырывает меня из объятий сна. «[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Один из стражников найден мертвым, а [Select_CString(target.IsFemale, 'ваша', 'ваш' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [Select_CString(target.IsFemale, 'пропала', 'пропал' )]!»",
+    "POL": "W samym środku nocy obudziło mnie głośne pukanie do drzwi. „M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]! Strażnik został znaleziony martwy, a tw[Select_CString( SCOPE.sC('target').IsFemale, 'oja', 'ój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] zagin[Select_CString( target.IsFemale, 'ęła', 'ął' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.desc_naked",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I clamber out of bed, yelling orders even before I am out the door.",
+    "RUS": "Я выбираюсь из постели, на ходу отдавая приказы.",
+    "POL": "Zrywam się z łóżka, wykrzykując rozkazy, zanim jeszcze wyjdę za drzwi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.desc_not_naked",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I clamber out of bed, yelling orders while I pull on my clothes.",
+    "RUS": "Я выбираюсь из постели и, натягивая одежду, начинаю раздавать распоряжения.",
+    "POL": "Zrywam się z łóżka, wykrzykując rozkazy, a następnie wkładam na siebie ubrania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "\\n\\nThe search goes on for hours. It is not until noon they uncover a signed letter from [target.GetTitledFirstName]. The handwriting is unmistakably [target.GetHersHis].\\n\\n",
+    "RUS": "\\n\\nПоиски продолжаются несколько часов. Только около полудня удается найти письмо, автором которого, судя по подписи и почерку, является [target.GetTitledFirstName].\\n\\n",
+    "POL": "\\n\\nPoszukiwania trwają godzinami. Dopiero w południe odkrywają list, który podpisał[Select_CString( target.IsFemale, 'a', '' )] [target.GetTitledFirstName]. Pismo bez cienia wątpliwości należy do nie[Select_CString( target.IsFemale, 'j', 'go' )].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.apologetic_relationship.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(target.IsFemale, 'Моя дражайшая', 'Мой дражайший' )] [target.GetFirstNameNoTooltip], мне очень жаль, но я [Select_CString(target.IsFemale, 'должна', 'должен' )] следовать зову сердца. Я покидаю вас, чтобы я и любовь всей моей жизни, [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)], могли пожениться».",
+    "POL": "„[ROOT.Char.GetFirstNameNoTooltip], [Select_CString(ROOT.Char.IsFemale, 'moja najdroższa', 'mój najdroższy' )], tak mi przykro, ale muszę podążać za głosem swego sercem. Opuszczam cię, abyśmy ja i miłość mojego życia, [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)], [Select_CString( And( target.IsFemale, owner.IsFemale ), 'mogły', 'mogli' )] się pobrać”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.unapologetic_relationship.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(target.IsFemale, 'покинула', 'покинул' )] вас, чтобы [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)] и я могли пожениться. Не пытайтесь преследовать меня: я скорее умру, чем вернусь к вам!»",
+    "POL": "„Opuszczam cię, abyśmy [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)] i ja mogli się pobrać. Nie próbuj mnie szukać – wolał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] umrzeć, niż do ciebie wrócić!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.apologetic_family.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))|U], я покидаю вас, чтобы я и любовь всей моей жизни, [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)], могли пожениться. Я просто хочу жить счастливо. Надеюсь, вы найдете в себе силы простить меня».",
+    "POL": "„[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))|U], odchodzę, abyśmy ja i miłość mojego życia, [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)], mogli się pobrać. Wszystko czego chcę, to być szczęśliw[Select_CString(target.IsFemale, 'a', 'y' )]. Mam nadzieję, że znajdziesz w sobie siłę, by mi wybaczyć”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.unapologetic_family.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Если [Select_CString(target.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMeShort' , target)] и вправду вам [Select_CString(target.IsFemale, 'дорога', 'дорог' )], вы бы хотели для меня счастливой жизни. Но поскольку вам нет до меня дела, я буду следовать зову своего сердца. Я и [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] поженимся, и вы ничего не сможете сделать, чтобы помешать мне!»",
+    "POL": "– Jeśli [ROOT.Char.Custom2('RelationToMeShort' , target)] twojej osoby to postać, która miałaby dla ciebie cokolwiek znaczyć, to moje szczęście byłoby dla ciebie najważniejsze. Ale skoro nie zależy ci na mnie, podążę za głosem serca. Ja i [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] pobierzemy się. Nie ma nic, co możesz zrobić, aby mnie powstrzymać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.a.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "How could [target.GetSheHe]?",
+    "RUS": "Как [Select_CString(target.IsFemale, 'она могла', 'он мог' )]?",
+    "POL": "Jak [target.GetSheHe] m[Select_CString( target.IsFemale, 'ogła', 'ógł' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.a.vengeful",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "That treacherous [target.Custom2('InsultNounSexual', ROOT.Char)] will get what [target.GetSheHe] deserves!",
+    "RUS": "[Select_CString(target.IsFemale, 'Эта подлая', 'Этот подлый' )] [target.Custom2('InsultNounSexual', ROOT.Char)] получит по заслугам!",
+    "POL": "Co za zdradziecka kreatura i [target.Custom2('InsultNounSexual', ROOT.Char)]! Dostanie to, na co zasługuje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1002.a.compassionate",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I hope [target.GetSheHe] will be happy, whatever happens.",
+    "RUS": "Надеюсь, [target.GetSheHe] найдет свое счастье, что бы ни случилось.",
+    "POL": "Mam nadzieję, że będzie szczęśliw[Select_CString( target.IsFemale, 'a', 'y' )], cokolwiek się stanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "RUS": "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "POL": "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I write to inform you that",
+    "RUS": "Я пишу, чтобы сообщить, что",
+    "POL": "Piszę, aby poinformować, że",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.target_root_family.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "your [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "RUS": "[Select_CString(target.IsFemale, 'твоя', 'твой' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "POL": "[Select_CString(target.IsFemale, 'twoja', 'twój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.target_keeper_relation.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "my [target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "RUS": "[Select_CString(target.IsFemale, 'моя', 'мой' )] [target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "POL": "[Select_CString(target.IsFemale, 'moja', 'mój' )] [target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [target.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.target_liege_subject.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "my subject [target.GetFirstName]",
+    "RUS": "[Select_CString(target.IsFemale, 'моя подданная', 'мой подданный' )] [target.GetFirstName]",
+    "POL": "[Select_CString(target.IsFemale, 'moja poddana', 'mój poddany' )] [target.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.middle.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "has eloped with",
+    "RUS": "[Select_CString(target.IsFemale, 'сбежала, и в этом ей', 'сбежал, и в этом ему' )] [Select_CString(owner.IsFemale, 'помогла', 'помог' )]",
+    "POL": "uciekł[Select_CString(target.IsFemale, 'a', '' )], a pom[Select_CString(owner.IsFemale, 'ogła', 'ógł' )] [target.GetHerHim] w tym",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.owner_root_family.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "your [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.GetFirstName]!",
+    "RUS": "[Select_CString(owner.IsFemale, 'твоя', 'твой' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.GetFirstName]!",
+    "POL": "[Select_CString(owner.IsFemale, 'twoja', 'twój' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] [owner.GetFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.your_character_introduction.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!",
+    "RUS": "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!",
+    "POL": "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Let me be frank: this is a grave insult, and a stain on your family's honor. If the #EMP happy couple#! seeks refuge in [capital.GetNameNoTooltip], I trust you will teach them a lesson!",
+    "RUS": "Скажу честно, меня это оскорбило до глубины души. Кроме того, это замарало честь твоей семьи. Если #EMP счастливая пара#! надеется, что [capital.GetNameNoTooltip] станет их пристанищем, я верю, что ты преподашь им урок!",
+    "POL": "Powiem szczerze: to poważna zniewaga i plama na honorze twojej rodziny. Jeśli #EMP szczęśliwa para#! będzie szukać schronienia w miejscu znanym jako [capital.GetNameNoTooltip], wierzę, że dasz im nauczkę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "What a catastrophe!",
+    "RUS": "Это катастрофа!",
+    "POL": "Co za katastrofa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "$elope_event_title$ Torches In The Dark",
+    "RUS": "$elope_event_title$ Факелы во тьме",
+    "POL": "$elope_event_title$ pochodnie w ciemności",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1011.middle.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I can see two silhouettes, three, four... [ROOT.Char.GetFaith.HighGodName], this can't be good!",
+    "RUS": "Я вижу два силуэта, три, четыре... [ROOT.Char.GetFaith.HighGodName], это не к добру!",
+    "POL": "Widzę dwie sylwetki, trzy, cztery… [ROOT.Char.GetFaith.HighGodName] mi świadkiem, to nie może oznaczać nic dobrego!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1011.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "On my command, we retreat through the underbrush. Our pursuers, on the other hand, have no regard for subtlety and close in quickly.\\n\\n",
+    "RUS": "По моей команде мы начинаем отступать через подлесок. Наши преследователи не скрываются и быстро приближаются.\\n\\n«Ты не сможешь скрываться вечно, [ROOT.Char.GetTitledFirstNameNoTooltip]! Мы поймали одного из твоих людей, поймаем и тебя!»",
+    "POL": "Na mój rozkaz wycofujemy się przez zarośla. Nasi prześladowcy natomiast nie zważają na subtelności i szybko się zbliżają. \\n\\n„Nie możesz się wiecznie ukrywać, [ROOT.Char.GetTitledFirstNameNoTooltip]! Schwytaliśmy jednego z twoich ludzi, a ty będziesz następn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "#EMP Run!#!",
+    "RUS": "#EMP Бежим!#!",
+    "POL": "#EMP Biegnij!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "A Failed Elopement",
+    "RUS": "Неудавшийся побег",
+    "POL": "Nieudana ucieczka z kochankiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "An attempt to elope with [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] has been thwarted! The captain of the guard tells me [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] was scheming to steal [target.GetHerHim] away and marry [target.GetHerHim] in secret.\\n\\nAs if that wasn't enough, letters found in [target.GetFirstNamePossessiveNoTooltip] chambers indicate [target.GetSheHe] was in on the whole thing!",
+    "RUS": "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] [Select_CString(target.IsFemale, 'пыталась', 'пытался' )] бежать, но [target.GetHerHim] удалось помешать! Капитан стражи сообщает, что [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] [Select_CString(owner.IsFemale, 'планировала', 'планировал' )] похитить [target.GetHerHis] и тайно пожениться.\\n\\nМало того, в покоях, что занимает [target.GetFirstNameNoTooltip], обнаружились письма, свидетельствующие о том, что [target.GetFirstNameNoTooltip] вовсе не [Select_CString(target.IsFemale, 'возражала', 'возражал' )]!",
+    "POL": "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] próbował[Select_CString(target.IsFemale, 'a', '' )] uciec, ale został[Select_CString(target.IsFemale, 'a powstrzymana', ' powstrzymany' )]! Kapitan straży doniósł mi, że [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] chciał[Select_CString(owner.IsFemale, 'a', '' )] [Select_CString(target.IsFemale, 'ją', 'go' )] porwać i poślubić w tajemnicy.\\n\\nCo więcej, listy znalezione w komnatach wskazują, że [target.GetFirstNameNoTooltip] był[Select_CString(target.IsFemale, 'a', '' )] w to zamieszan[Select_CString(target.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "That [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNounSexual', ROOT.Char)] will never have my [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))]!",
+    "RUS": "[Select_CString(owner.IsFemale, 'Эта', 'Этот' )] [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNounSexual', ROOT.Char)]... [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] никогда [Select_CString(owner.IsFemale, 'ей', 'ему' )] не достанется!",
+    "POL": "[owner.Custom2('InsultNounSexual', ROOT.Char)|U] nigdy nie dostanie cię w swoje łapy, [ROOT.GetCharacter.Custom2('RelationToMeShortVocative' , SCOPE.sC('target'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Treachery! Lock [target.GetFirstNameNoTooltip] up, #EMP now!#!",
+    "RUS": "Измена! #EMP С этого момента#! [target.GetFirstNameNoTooltip] не покинет своей комнаты!",
+    "POL": "Zdrada! Niech [target.GetFirstNameNoTooltip] #EMP natychmiast#! zostanie zamknięt[Select_CString(target.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "I will make them suffer, mark my word!",
+    "RUS": "Я заставлю их страдать, помяните мое слово!",
+    "POL": "Sprawię, że będą cierpieć! Zapamiętaj moje słowa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1012.d",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "This is giving me a headache...",
+    "RUS": "У меня голова от этого болит...",
+    "POL": "To przyprawia mnie o ból głowy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1021.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "\\n\\nOn my command, we retreat through the underbrush. By sheer luck, we make our way back to the carriage and escape in the night.",
+    "RUS": "\\n\\nПо моей команде мы отступаем через кусты. Только благодаря удаче нам удается добраться до повозки и скрыться в ночи.",
+    "POL": "\\n\\nNa mój rozkaz wycofujemy się przez zarośla. Szczęśliwym trafem wracamy do powozu i uciekamy pod osłoną nocy, nie będąc przez nikogo zauważonymi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.1021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip], my love... I pray you are alright.",
+    "RUS": "[target.GetFirstNameNoTooltip], любовь моя... Я молюсь, чтобы с тобой было все в порядке.",
+    "POL": "[target.GetFirstNameNoTooltip], m[Select_CString( target.IsFemale, 'oja ukochana', 'ój ukochany' )]… Modlę się, aby nic ci się nie stało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "My love,",
+    "RUS": "Любовь моя!",
+    "POL": "Moja miłości,",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "You have told me to be brave, but I cannot contain my fears any longer. What if",
+    "RUS": "Ты говоришь мне не терять веру, но я больше не могу скрывать страх. Что, если",
+    "POL": "Powiedział[Select_CString(ROOT.Char.IsFemale, 'aś', 'eś' )] mi, żebym był[Select_CString(target.IsFemale, 'a dzielna', ' dzielny' )], ale nie mogę już dłużej powstrzymywać swoich lęków. Co jeśli",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.target_relation.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "my [target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] finds out about our plans? I can hardly sleep and struggle to keep my food down. [discoverer.GetSheHe|U] is starting to get worried — perhaps even suspicious!",
+    "RUS": "[Select_CString(discoverer.IsFemale, 'моя', 'мой' )] [target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] узнает о наших планах? Я плохо сплю и ем через силу. [discoverer.GetSheHe|U] начинает беспокоиться, возможно, даже что-то подозревать!",
+    "POL": "[Select_CString(discoverer.IsFemale, 'moja', 'mój' )] [target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] dowiedział[Select_CString(discoverer.IsFemale, 'a', '' )] się o naszych planach? Z trudem zasypiam i zmuszam się do jedzenia. Zaczyna się niepokoić, a może nawet coś podejrzewać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.titledname.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[discoverer.GetTitledFirstName] finds out about our plans? Whenever [discoverer.GetSheHe] appears, I go stiff and speechless. It is only a matter of time until [discoverer.GetSheHe] notices!",
+    "RUS": "[discoverer.GetTitledFirstName] узнает о наших планах? Каждый раз, когда [discoverer.GetSheHe] появляется, я обмираю и теряю дар речи. Это лишь вопрос времени, как скоро [discoverer.GetSheHe] заметит!",
+    "POL": "[discoverer.GetTitledFirstName] dowiedział[Select_CString( discoverer.IsFemale, 'a', '' )] się o naszych planach? Za każdym razem, gdy pojawia się w okolicy, sztywnieję i tracę mowę. To tylko kwestia czasu, kiedy się zorientuje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "\\n\\nWe are running out of time. Please, my dearest [ROOT.Char.GetFirstNameNoTooltip], make haste!",
+    "RUS": "\\n\\nВремя на исходе. Пожалуйста, [Select_CString(ROOT.Char.IsFemale, 'моя дорогая', 'мой дорогой' )] [ROOT.Char.GetFirstNameNoTooltip], поспеши!",
+    "POL": "\\n\\nKończy nam się czas. [ROOT.Char.GetFirstNameNoTooltip], [Select_CString(ROOT.Char.IsFemale, 'moja najdroższa', 'mój najdroższy' )], proszę, pospiesz się!",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "We will speed up the plans, my [target.Custom('LoverPetName')].",
+    "RUS": "Мы будем действовать быстрее, [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')].",
+    "POL": "Przyspieszymy plany, [target.Custom('LoverPetName_possessive')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "Trust me — everything is under control.",
+    "RUS": "Верь мне, всё под контролем.",
+    "POL": "Zaufaj mi – wszystko jest pod kontrolą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] is convinced",
+    "RUS": "[target.GetShortUIName|U] [Select_CString(target.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[target.GetShortUINameNotMe|U] przekonał[Select_CString( target.IsFemale, 'a', '' )] się do ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] feels dismissed",
+    "RUS": "[target.GetShortUIName|U] чувствует себя [Select_CString(target.IsFemale, 'брошенной', 'брошенным' )]",
+    "POL": "[target.GetShortUINameNotMe|U] czuje się odtrącon[Select_CString( target.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "elope.2000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/elope_scheme_events_l_belarusian.json",
+    "ENG": "You shouldn't be sending letters, then!",
+    "RUS": "Тогда лучше не пиши мне писем!",
+    "POL": "Nie powin[Select_CString(target.IsFemale, 'naś', 'ieneś' )] więc wysyłać listów!",
+    "BEL": ""
+  }
+]

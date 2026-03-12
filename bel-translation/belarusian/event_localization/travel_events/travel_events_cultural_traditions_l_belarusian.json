@@ -1,0 +1,914 @@
+[
+  {
+    "KEY": "travel_events.1200.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Friendly Locals",
+    "RUS": "Дружелюбные местные жители",
+    "POL": "Przyjaźni mieszkańcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1200.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "As we stop to camp outside a small village in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], the locals come to investigate our caravan.\\n\\nAt first I think they are trying to trade with us, but soon it becomes clear they have come to give us gifts and learn everything they can about our culture!\\n\\nOne local in particular, [local_peasant.GetNameNoTooltip], has a million questions about where we are from.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Мы разбили лагерь у деревушки, и местные пришли посмотреть на наш караван.\\n\\nСначала мне кажется, что нам предложат торговать, но вскоре становится ясно, что они принесли дары и хотят больше узнать о нашей культуре!\\n\\n[Select_CString(local_peasant.IsFemale, 'Одна', 'Один' )] из местных — [local_peasant.GetNameNoTooltip], — засыпает нас вопросами особенно тщательно.",
+    "POL": "Zatrzymujemy się, aby rozbić obóz poza małą wioską w miejscu znanym jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Niedługo po tym widzimy, jak miejscowi schodzą się wokół naszego obozowiska.\\n\\nWyglądają, jakby chcieli z nami handlować, ale wkrótce okazuje się, że tak naprawdę chcą wręczyć nam prezenty i dowiedzieć się wszystkiego o naszej kulturze!\\n\\nZwłaszcza [local_peasant.GetNameNoTooltip] ma multum pytań dotyczących naszego pochodzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1200.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should talk with them and learn more.",
+    "RUS": "Я поддержу разговор и постараюсь узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1200.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We'll take every benefit we can.",
+    "RUS": "Все, что может пригодиться, пригодится.",
+    "POL": "Wykorzystamy wszelkie możliwe korzyści.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tradition_travel_discount_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "You experienced this Cultural Tradition while traveling.",
+    "RUS": "Вы познали эту культурную традицию во время путешествия",
+    "POL": "Doświadczasz tej tradycji kulturowej podczas podróży.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1200.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_xenophilic').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_xenophilic').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_xenophilic').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1201.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Chivalry Is Alive",
+    "RUS": "Рыцарство живо",
+    "POL": "Rycerskość wiecznie żywa",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1201.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While traveling through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] we run into some [ROOT.Char.GetCurrentLocation.GetCulture.GetName] [GetPlayer.Custom('KnightCulturePlural')]. They are deeply respectful and apparently huge lovers of poetry as they insist on reciting it at every chance they get.\\n\\nThe code of conduct they follow has several merits and I can't help but admire it. One of the [GetPlayer.Custom('KnightCulturePlural')], [local_knight.GetNameNoTooltip] is particularly impressive. ",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] умеет знакомить нас с интересными собеседниками. Перед нами — #L [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNoun|l]ие#! [GetPlayer.Custom('KnightCulturePlural')]. Они обращаются к нам весьма учтиво и, судя по всему, весьма почитают поэзию, так как вворачивают стихотворные цитаты куда ни попадя.\\n\\nИх этический кодекс не лишен достоинств, и я невольно восхищаюсь им. Особенно впечатляющее зрелище представляет собой [GetPlayer.Custom('KnightCulture')] [local_knight.GetNameNoTooltip]. ",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], natrafiamy na grupę, którą okazują się być [GetPlayer.Custom('KnightCulturePlural')], w których żyłach płynie [ROOT.Char.GetCurrentLocation.GetCulture.GetName|l] krew. Traktują nas z wielkim szacunkiem i najwyraźniej są także wielkimi miłośnikami poezji, ponieważ recytują ją przy każdej nadarzającej się okazji.\\n\\nDostrzegam w ich kodeksie postępowania kilka zalet. [GetPlayer.Custom('KnightCulturePlural')|U] wzbudzają we mnie podziw, ale najbardziej imponuje mi [local_knight.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1201.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I'd love to take this tradition home.",
+    "RUS": "Мне очень хочется привезти эту традицию на родину.",
+    "POL": "Warto wprowadzić takie tradycje także i u nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1201.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should try being more personally chivalrous",
+    "RUS": "Я постараюсь развивать в себе доблесть",
+    "POL": "Warto chyba wyszkolić w sobie rycerskość",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1201.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_chivalry').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_chivalry').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_chivalry').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1202.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Hard Workers",
+    "RUS": "Усердные работники",
+    "POL": "Ciężka praca",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1202.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While traveling through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] I can't help but notice that every person I see works with a quiet intensity I don't often notice in my own land.\\n\\nI stop one of the laborers to ask them about it and [random_peasant.GetSheHe] shares some pithy wisdom:\\n\\n ",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] заставляет меня задуматься. Все, кого я здесь встречаю, работают на совесть и с усердием, которого я не замечаю в моих владениях.\\n\\nЯ расспрашиваю одного из работяг, как им это удается, и получаю ответ — краткий, но емкий:\\n\\n«Ну че, надо побольше спину гнуть и рук не опускать, пока всё не сделаешь».",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], zauważam, że każdy jego mieszkaniec pracuje intensywnie, zachowując przy tym cichy spokój, o który ciężko w moich stronach.\\n\\nZagaduję jedną z tych osób, aby wypytać o sekret ich zdyscyplinowanej pracy, a ona dzieli się ze mną zwięzłą mądrością:\\n\\n– Cóż, trzeba w robotę włożyć całe serce i nie przerywać, dopóki nie będzie skończona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1202.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should talk with them and learn more.",
+    "RUS": "Я поддержу разговор и постараюсь узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1202.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Perhaps I could apply some of these principles at home.",
+    "RUS": "Возможно, эти принципы пригодятся мне и дома.",
+    "POL": "Być może warto byłoby wdrożyć takie zasady także i u nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1202.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_hard_working').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_hard_working').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_hard_working').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1203.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Strong Bonds",
+    "RUS": "Прочные узы",
+    "POL": "Silne więzi",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1203.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While passing through the villages of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], I spend some time talking to the locals. One thing that stands out is their intense loyalty to their liege.\\n\\nOne villager talks with such a passion that I would think they were describing a lover rather than their ruler.",
+    "RUS": "В деревне [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] я останавливаюсь поговорить с местными. Они удивительно преданы сюзерену.\\n\\nОдин из селян говорит с таким жаром, будто описывает не правителя, но любимого человека.",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], spędzam czas na rozmowach z mieszkańcami tutejszych wiosek. Odznaczają się oni niezwykłym oddaniem dla swojego seniora.\\n\\nPewien wieśniak opisuje swojego władcę z pasją cechującą zazwyczaj opowieści o miłości swego życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1203.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should talk with them and learn more.",
+    "RUS": "Я поддержу разговор и постараюсь узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1203.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I will make my subjects, equally loyal.",
+    "RUS": "Мои подданные станут такими же верными.",
+    "POL": "Moi poddani powinni okazywać równie gorliwą lojalność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1203.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_loyal_soldiers').GetName] Loyal Soldiers tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_loyal_soldiers').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_loyal_soldiers').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1204.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Civil Discussion",
+    "RUS": "Культурная беседа",
+    "POL": "Dysputa publiczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1204.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While traveling through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] I get a chance to observe some locals having an argument over who is the owner of a particular head of cattle. Despite the topic of the dispute seeming rather serious both the parties remain, calm and collected and neither resorts to blows.\\n\\nImagine what we could get done if we had this level of peace and reason at home.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] не устает меня удивлять: я наблюдаю, как местные жители спорят о том, кому принадлежит некая скотина. Но несмотря на серьезность обсуждаемой темы, обе стороны сохраняют спокойствие, и никто не лезет на соперника с кулаками.\\n\\nПредставляю, чего мы можем достичь, если в моих владениях вопросы будут решаться так же мирно и разумно.",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], mam okazję zaobserwować kłótnię miejscowych o prawa do pewnej sztuki bydła. Temat sporu wydaje się dość poważny, ale mimo to obie strony pozostają spokojne i opanowane – nikt nie ucieka się do argumentu siły.\\n\\nGdyby tylko na moich ziemiach panował taki poziom opanowania i rozsądku, zaszlibyśmy naprawdę daleko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1204.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should talk with them and learn more.",
+    "RUS": "Я поддержу разговор и постараюсь узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1204.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I shall attempt this pacifism lark.",
+    "RUS": "Стоит опробовать этот мирный подход.",
+    "POL": "Muszę spróbować tego pacyfistycznego podejścia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1204.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_pacifism').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_pacifism').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_pacifism').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1205.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Simple Lives",
+    "RUS": "Простые жизни",
+    "POL": "Prostota życia",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1205.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "As I travel through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], I cannot help but notice how simple the garments, the dwellings and even the expressions on the local [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] faces are.\\n\\nHowever when I inquire about the poverty of this particular area, I am informed that this is all by choice and they are more focused on practicalities than on looks.",
+    "RUS": "Перед нами [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], и трудно не заметить, что одежды, жилища и даже выражения лиц местных [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]их жителей кажутся очень уж простыми.\\n\\nНо когда я начинаю спрашивать, как получилось, что именно этот регион прозябает в бедности, то узнаю, что такова воля местных жителей, которым практичность дороже красоты.",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], dostrzegam, że żyjąca tu ludność [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l] hołduje prostocie w ubiorze, sposobie zamieszkania, a nawet w podejściu do życia.\\n\\nZ rozmowy z mieszkańcami wynika, że nie jest to wynik panującej tu biedy, ale świadomego wyboru praktyczności ponad wygląd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1205.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We could learn something from this at home.",
+    "RUS": "Мы могли бы у них поучиться.",
+    "POL": "Moglibyśmy się od nich wiele nauczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1205.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should try living simply.",
+    "RUS": "Попробую жить проще.",
+    "POL": "Warto spróbować żyć prościej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1205.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_spartan').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_spartan').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_spartan').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Joy of the Hunt",
+    "RUS": "Упоение охотой",
+    "POL": "Radość z polowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "As I travel through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], I come across a group of hunters. They allow me to follow along the hunt for a little while, pointing out some specifics in their technique and some tracking clues unique to this area.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Группа охотников позволила мне отправиться с ними. Они познакомили меня с особенностями местной охоты и поделились собственными приемами выслеживания добычи.",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], spotykam grupę myśliwych. Pozwalają mi przyjrzeć się ich pracy, zdradzając tajniki ich metod polowania oraz dzieląc się charakterystycznymi dla tego obszaru wskazówkami dotyczącymi śledzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Why can't my people be more like this?",
+    "RUS": "Побольше бы таких людей.",
+    "POL": "Dlaczego moi ludzie nie mogą być tak kompetentni?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Perhaps they can train me?",
+    "RUS": "Может, они меня научат?",
+    "POL": "Być może będą chętni mnie wyszkolić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I am the hunter!",
+    "RUS": "Я умею охотиться!",
+    "POL": "Jestem myśliwym!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1206.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_hunters').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_hunters').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_hunters').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1207.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Meat of the Land",
+    "RUS": "Мясо земли",
+    "POL": "Dary ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1207.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While traveling through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] one village elder stops us and insists we join for a meal. While eating it I realize not a bite of it is made out of meat. The elder is happy to go into details on how it is made, the ingredients used and how they don't really eat any meat at all.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] запоминается мне трапезой, на которую зазвал нас кто-то из местных старейшин. Во время еды мне вдруг стало ясно, что в блюде нет ни крошки мяса. Старейшина с радостью рассказал о том, как приготовили этот деликатес и что мяса они не едят совсем.",
+    "POL": "Podróżując przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], spotykamy przedstawiciela miejscowej starszyny, który zaprasza nas na wspólny posiłek. Jedząc, uświadamiam sobie, że żaden kęs nie zawiera w sobie mięsa. Mój dobroczyńca zdradza mi, że nie jada mięsa, i z radością opowiada mi w szczegółach o sposobach przygotowania posiłku oraz użytych składnikach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1207.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I want some recipes!",
+    "RUS": "Мне нужны рецепты!",
+    "POL": "Chcę otrzymać przepisy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1207.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "A second serving maybe?",
+    "RUS": "А добавки можно?",
+    "POL": "Mogę prosić dokładkę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1207.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_vegetarianism').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_vegetarianism').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_vegetarianism').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1208.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Seafaring",
+    "RUS": "Мореходство",
+    "POL": "Żeglarstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1208.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "While sailing through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], we drop anchor to talk to a boat full of locals. What is meant to be a quick stop ends up being a long discussion about knots, local currents and general seafaring.\\n\\n",
+    "RUS": "Следующим местом, где мы бросаем якорь, становится [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Здесь у нас завязывается разговор с целой лодкой местных жителей. Желание перекинуться парой слов перерастает в оживленную беседу об узлах, местных течениях и мореплавании в целом.\\n\\n«Понимаете ли, альбатрос — царь-птица, и убить его... Нет преступления страшнее».",
+    "POL": "Przemierzając miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], zarzucamy kotwicę i zagadujemy miejscowych. Krótka rozmowa przeradza się szybko w długą dyskusję na temat węzłów żeglarskich, lokalnych prądów i żeglarstwa ogólnie.\\n\\n– Cóż, albatros to król wszystkich ptaków, zabicie go to największa zbrodnia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1208.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We should talk to them and learn more.",
+    "RUS": "Мы поддержим разговор и постараемся узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1208.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Enough listening, time to apply this knowledge.",
+    "RUS": "Хватит слушать, пора применять эти знания.",
+    "POL": "Dość słuchania – czas wypróbować tę wiedze w praktyce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1208.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_seafaring').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_seafaring').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_seafaring').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1209.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "The Story Is in the Telling",
+    "RUS": "Каков рассказчик, таков рассказ",
+    "POL": "Snucie opowieści",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1209.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "The [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] story tellers of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] are greatly renowned and when I finally meet them they don't disappoint!\\n\\nWe spend many hours sitting round the fire listening to their stories and it is a true joy to hear them speak.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] славится [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ими рассказчиками. Когда я впервые встречаю их, все мои ожидания оправдываются!\\n\\nМного часов мы сидим у костра и с истинным наслаждением слушаем их истории.",
+    "POL": "Ludność [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l] zamieszkująca miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] to sławni gawędziarze. Kiedy w końcu się spotykamy, nie zawodzę się!\\n\\nSpędzam wiele godzin, siedząc przy ognisku i słuchając ich historii, co sprawia mi prawdziwą radość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1209.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should encourage more storytelling at home.",
+    "RUS": "Дома нужно будет поощрять умение рассказывать истории.",
+    "POL": "Powinniśmy mieć u siebie więcej gawędziarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1209.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "If you like stories you will love this one.",
+    "RUS": "Любите истории? Тогда эта вам точно понравится.",
+    "POL": "Jeśli lubicie opowieści, tę wprost pokochacie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1209.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_storytellers').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_storytellers').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_storytellers').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1210.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|U] Music",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|U]ая музыка",
+    "POL": "Muzyka [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1210.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "As I travel through the [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] I hear a melody drifting gently across the landscape.\\n\\nA quick diversion off the path brings me to a group of musicians playing their hearts out to what must be some local [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] music. Stopping to listen to the beautiful music I find my heart filling with joy.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ласкает душу нежной музыкой.\\n\\nСойдя с дороги, я обнаруживаю группу музыкантов, которые увлеченно играют некую [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ую мелодию. Я некоторое время прислушиваюсь, и сердце наполняется радостью.",
+    "POL": "Gdy podróżuję przez miejsce znane jako [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], do moich uszu dociera nagle łagodna muzyka rozbrzmiewająca po okolicy.\\n\\nZbaczam z drogi, aby zbadać źródło dźwięków, i natrafiam na grupkę muzyków zajętych grą, co zdaje się pochłaniać ich bez reszty. Spływająca z ich instrumentów [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l] melodia napełnia moje serce radością.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1210.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We should take this tradition home.",
+    "RUS": "Мы должны привезти эту традицию на родину.",
+    "POL": "Powinniśmy wprowadzić taką tradycję także i u nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1210.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I want to learn to play!",
+    "RUS": "Я хочу научиться играть!",
+    "POL": "Chcę nauczyć się tak pięknie grać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1210.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_music_theory').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_music_theory').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_music_theory').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Poetry People",
+    "RUS": "Поэты",
+    "POL": "Ludzie poezji",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.Custom('FormOfAddressForLiege')], умоляю, уделите мне буквально мгновение и послушайте мои стихи!»\\n\\nНе в первый раз [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ие поэты пытаются познакомить меня со своим творчеством, а учитывая, что ждет впереди, — и не в последний. Жители этого края явно без ума от поэзии — каждый второй старается выразить свои грезы в стихах.",
+    "POL": "– Proszę tylko o poświęcenie chwili na wysłuchanie mojego najnowszego poematu!\\n\\nTo nie pierwszy raz, kiedy ktoś, w kogo żyłach płynie [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l] krew, nakłania mnie do zapoznania się z jego dziełem i, biorąc pod uwagę, że przede mną jeszcze daleka droga, z pewnością nie ostatni. W tej krainie musi panować prawdziwy kult poezji, skoro co drugi jej mieszkaniec nią żyje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We should talk to them and learn more.",
+    "RUS": "Мы поддержим разговор и постараемся узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I would like to make an attempt.",
+    "RUS": "Пожалуй, я тоже попробую.",
+    "POL": "Chcę także spróbować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "You call that poetry?",
+    "RUS": "И это, по-твоему, стихи?",
+    "POL": "Nazywasz to poezją?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1211.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_poetry').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_poetry').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_poetry').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1212.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Fishing Friends",
+    "RUS": "Товарищи по рыбалке",
+    "POL": "Przyjaciele od wędki",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1212.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Not a day goes by in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] when I don't run into a fisherman who has a new piece of information to give me, whether it be on the type of bait to use, where to fish or even how to prepare the fish once they are caught.\\n\\nI even get a chance to fish myself, with the fishermen showing me the tips and tricks. They all applaud when I finally catch one.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] полнится рыбаками — ни дня не проходит, чтобы мне не рассказали что-то новое о рыбной ловле, выборе наживки или о том, что делать с уловом на кухне.\\n\\nМне даже удается порыбачить, а рыбаки наперебой заваливают меня ценными советами. И когда наконец я держу в руках добычу, со всех сторон раздаются аплодисменты.",
+    "POL": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] to miejsce pełne fanatyków wędkarstwa. Na każdym kroku ktoś zaczepia mnie, aby opowiedzieć o nowych rodzajach przynęty, miejscach połowu – nawet o sposobach przyrządzenia złapanej ryby!\\n\\nW końcu także łapię wędkę w dłonie, a lokalni rybacy zdradzają mi swoje tajemnice i triki. Kiedy w końcu udaje mi się złapać niezłą sztukę, wszyscy mi klaszczą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1212.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We should talk to them and learn more.",
+    "RUS": "Мы поддержим разговор и постараемся узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1212.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "What if we applied these fishing tactics to seafaring!",
+    "RUS": "А что, если попробовать применить рыбацкую тактику в море?!",
+    "POL": "A co, gdyby połączyć te taktyki połowu z żeglugą morską?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1212.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_fishermen').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_fishermen').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_fishermen').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1213.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Mystical Travelers",
+    "RUS": "Мистические странники",
+    "POL": "Mistyczni podróżnicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1213.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "The mystics are everywhere here in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]: they go around preaching and sharing their knowledge.\\n\\nOne day I get into a rather in depth conversation about the meaning of life, with one of them while waiting for boulder to be removed from the path.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] — земля мистиков: они повсюду, проповедуют и делятся опытом.\\n\\nОднажды дорогу преграждает огромный валун, и, пока его убирают, у меня завязывается весьма серьезный разговор с одним из них о смысле жизни.",
+    "POL": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] to miejsce pełne mistyków, którzy nieustannie snują kazania i dzielą się swoją wiedzą z innymi.\\n\\nPewnego dnia – podczas oczekiwania na usunięcie wielkiego głazu z traktu – wdaję się z jednym z nich w dość wnikliwą rozmowę na temat sensu życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1213.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I'm more interested in knowing about your people.",
+    "RUS": "Мне хочется еще ближе узнать ваш народ.",
+    "POL": "Bardziej interesuje mnie wiedza o twoim ludzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1213.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "What wisdom can you share with me?",
+    "RUS": "Какой мудростью ты можешь со мной поделиться?",
+    "POL": "Jaką mądrość możesz mi zdradzić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1213.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_mendicant_mystics').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_mendicant_mystics').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_mendicant_mystics').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1214.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Respected Warriors",
+    "RUS": "Уважаемые воины",
+    "POL": "Szanowani wojownicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1214.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "During my travels I have come to realize that the [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] locals here in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] value warriors above all else.\\n\\nSquabbles are settled with violence and those who put their life on the line for their realm are considered the bravest. I spend much of one afternoon discussing with them some of the finer points of their war like culture.",
+    "RUS": "Во время путешествия мне стало ясно, что [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] — земля воинов. По крайней мере, [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ая часть местного населения ставит воинское искусство превыше всего.\\n\\nСпоры решаются насилием, а те, кто рискует жизнью ради державы, считаются храбрейшими людьми. Большую часть вечера я провожу, расспрашивая их об особенностях этой воинственной культуры.",
+    "POL": "Podczas moich licznych podróży odkrywam, że ludność [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l] zamieszkująca obszar o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ponad wszystko ceni swoich wojowników.\\n\\nSpory rozstrzygane są przemocą, a osoby ryzykujące życie dla swojego państwa są uważane za najodważniejsze. Prawie całe popołudnie upływa mi na dyskusji na temat niuansów ich wojennej kultury.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1214.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We should talk to them and learn more.",
+    "RUS": "Мы поддержим разговор и постараемся узнать побольше.",
+    "POL": "Warto porozmawiać z nimi dłużej, aby dowiedzieć się więcej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1214.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Can you show me some moves?",
+    "RUS": "Покажете мне несколько приемов?",
+    "POL": "Pokażesz mi kilka ciosów?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1214.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_warrior_culture').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_warrior_culture').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_warrior_culture').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1215.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "The Admirable [GetPlayer.Custom('KnightCultureNoTooltip')] ",
+    "RUS": "[GetPlayer.Custom('KnightCultureNoTooltip')] — это прекрасно!",
+    "POL": "Wojownik godny czci",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1215.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "We stop to rest one night at a tavern and while I'm sitting in the corner peacefully enjoying some [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] music, the door barges open and a large silhouette appears.\\n\\nA [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] swaggers in and the atmosphere immediately changes. The people bow their heads in reverence, some swoon and the barkeep immediately pours the apparently famous [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] free drinks.\\n\\nIs being a [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] really so special here? ",
+    "RUS": "Мы останавливаемся передохнуть в таверне. Пока я наслаждаюсь [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ой музыкой, распахивается дверь и на пороге появляется крупный силуэт.\\n\\nС важным видом входит [GetPlayer.Custom('KnightCultureNoTooltipLowercase')], и атмосфера моментально меняется: кто-то почтительно склоняет голову, кому-то становится дурно, а хозяин таверны, едва заметив местную знаменитость (кем же еще может быть [GetPlayer.Custom('KnightCultureNoTooltipLowercase')]?) наливает бесплатную кружку.\\n\\nИнтересно, [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] действительно заслуживает таких почестей? ",
+    "POL": "Zatrzymujemy się na nocleg w pobliskiej karczmie. Wieczór spędzamy spokojnie, rozkoszując się lokalną muzyką. Nagle drzwi przybytku otwierają się, ujawniając w nich ogromną sylwetkę.\\n\\nAtmosfera w pomieszczeniu natychmiast się zmienia, gdy [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] dumnym krokiem wchodzi do wnętrza. Wszyscy opuszczają głowy w geście hołdu, a barman natychmiast polewa specjalnemu gościowi kilka darmowych napitków.\\n\\nCzy tacy ludzie rzeczywiście cieszą się tak wielką estymą na tych ziemiach?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1215.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should find out why they regard them so highly.",
+    "RUS": "Нужно выяснить, к чему такое преклонение.",
+    "POL": "Warto dowiedzieć się, skąd u ludzi taki respekt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1215.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I can be like that if I train!",
+    "RUS": "Если я буду тренироваться, у меня тоже так получится.",
+    "POL": "Jeśli tylko poćwiczę, też będę tak wyglądać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1215.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_martial_admiration').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_martial_admiration').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_martial_admiration').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1216.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Traveling Thinkers",
+    "RUS": "Странствующие мыслители",
+    "POL": "Podróżujący myśliciele",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1216.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "One thing I notice as we pass through [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] is that every other [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] traveler claims to be a philosopher.\\n\\nAt first I'm sceptical of this but after being roundly outwitted in my third conversation in a row, I start to think perhaps there is something to their claims.\\n\\nThe latest philosopher, [local_philosopher.GetNameNoTooltip] is practically laughing at my latest attempts at logical argument.",
+    "RUS": "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] во многом запоминается мне тем, что едва ли не каждый [ROOT.Char.GetCurrentLocation.GetCulture.GetCollectiveNounNoTooltip|l]ий странник здесь называет себя философом.\\n\\nСначала я отношусь к этому скептически, но когда третий собеседник подряд оказывается заметно умнее меня, я начинаю подумывать, что их заявления — вовсе не пустая похвальба.\\n\\nПоследний философ, [local_philosopher.GetNameNoTooltip], едва ли не смеется над моими потугами дискутировать с позиции логики.",
+    "POL": "Podróżując przez ziemie o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], zauważam, że co drugi przedstawiciel kultury, którą jest kultura [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|l], uważa się za filozofa.\\n\\nNa początku podchodzę do tych wyznań sceptycznie. Jednak po tym, jak przegadano mnie w trzeciej rozmowie z rzędu, zaczynam wierzyć, że coś musi być na rzeczy.\\n\\n[local_philosopher.GetNameNoTooltip], podczas prowadzonej z [local_philosopher.Custom('PL_nim_nia')] rozmowy, wyśmiewa wręcz moje niezdarne próby uargumentowania swojej pozycji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1216.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "I should learn more about how their culture works.",
+    "RUS": "Нужно больше узнать об их культуре.",
+    "POL": "Muszę zgłębić meandry ich kultury.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1216.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "What can I personally learn?",
+    "RUS": "А чему могу научиться лично я?",
+    "POL": "Co mogę z tego wyciągnąć dla siebie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_events.1216.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Reduces the cost of establishing the [GetCultureTradition('tradition_philosopher_culture').GetName] tradition by [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]",
+    "RUS": "Снижает стоимость принятия традиции «[GetCultureTradition('tradition_philosopher_culture').GetName]» на [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [Concept( 'prestige', 'престижа' )|E].",
+    "POL": "Zmniejsza koszt ustanowienia tradycji [GetCultureTradition('tradition_philosopher_culture').GetName|l] o [prestige_i] #P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] pkt [Concept('prestige', 'prestiżu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "healthy_vegetarian_meal_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Healthy Vegetarian Meal",
+    "RUS": "Здоровая вегетарианская пища",
+    "POL": "Zdrowy wegetariański posiłek",
+    "BEL": ""
+  },
+  {
+    "KEY": "healthy_vegetarian_meal_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character ate a healthy vegetarian meal while traveling",
+    "RUS": "Этот персонаж ел здоровую вегетарианскую пищу во время путешествия",
+    "POL": "Ta postać zjadła w trakcie podróży zdrowy wegetariański posiłek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "living_simply_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Living Simply",
+    "RUS": "Простая жизнь",
+    "POL": "Prostota istnienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "living_simply_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character is living simply.",
+    "RUS": "Этот персонаж ведет простой образ жизни.",
+    "POL": "Ta postać wiedzie proste życie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "villager_gifts_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Gifts from Villagers",
+    "RUS": "Подарки от селян",
+    "POL": "Podarki od mieszkańców",
+    "BEL": ""
+  },
+  {
+    "KEY": "villager_gifts_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character was given several gifts by villagers.",
+    "RUS": "Селяне преподнесли этому персонажу несколько подарков.",
+    "POL": "Ta postać otrzymała od mieszkańców wioski kilka prezentów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "loyal_attitudes_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Loyal Attitudes",
+    "RUS": "Верность",
+    "POL": "Lojalne postawy",
+    "BEL": ""
+  },
+  {
+    "KEY": "loyal_attitudes_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character is inspiring loyalty in themselves and others.",
+    "RUS": "Этот персонаж вдохновляет себя и окружающих на верность.",
+    "POL": "Ta postać wzbudza lojalność w sobie oraz innych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pacifist_mindset_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Pacifist Mindset",
+    "RUS": "Склонность к пацифизму",
+    "POL": "Mentalność pacyfisty",
+    "BEL": ""
+  },
+  {
+    "KEY": "pacifist_mindset_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character is trying to adopt a more pacifistic mindset.",
+    "RUS": "Этот персонаж пытается держаться принципов пацифизма.",
+    "POL": "Ta postać stara się przyjąć bardziej pacyfistyczny sposób myślenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "told_good_story_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Told Good Story",
+    "RUS": "Рассказана хорошая история",
+    "POL": "Wspaniała historia",
+    "BEL": ""
+  },
+  {
+    "KEY": "told_good_story_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character recently told a good story.",
+    "RUS": "Недавно этот персонаж рассказал хорошую историю.",
+    "POL": "Ta postać opowiedziała ostatnio bardzo dobrą historię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "musically_inspired_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Musically Inspired",
+    "RUS": "Музыкальное вдохновение",
+    "POL": "Inspiracja muzyczna",
+    "BEL": ""
+  },
+  {
+    "KEY": "musically_inspired_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character has been inspired by music and often practices for their prisoners.",
+    "RUS": "Этого персонажа вдохновляет музыка, и он часто практикуется перед своими узниками.",
+    "POL": "Ta postać została zainspirowana muzyką i często praktykuje tę sztukę dla swoich więźniów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fishing_logistics_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Fishing Logistics",
+    "RUS": "Доставка рыбы",
+    "POL": "Logistyka rybołówstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "fishing_logistics_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character is applying fishing know how to naval logistics.",
+    "RUS": "Этот персонаж применяет рыбацкие приемы в морской логистике.",
+    "POL": "Ta postać z wykorzystuje wiedzę rybacką w logistyce morskiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mystic_wisdom_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Mystic Wisdom",
+    "RUS": "Мудрость мистиков",
+    "POL": "Mistyczna mądrość",
+    "BEL": ""
+  },
+  {
+    "KEY": "mystic_wisdom_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character recently had wisdom shared with them by a mystic.",
+    "RUS": "Недавно с этим персонажем поделился мудростью мистик.",
+    "POL": "Ta postać posiadła niedawno mądrość, którą ujawnił jej pewien mistyk.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trained_in_warrior_culture_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Trained in Warrior Culture",
+    "RUS": "Постижение культуры воинов",
+    "POL": "Szkolenie na wojownika",
+    "BEL": ""
+  },
+  {
+    "KEY": "trained_in_warrior_culture_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character has recently had some training in a warrior culture.",
+    "RUS": "Этот персонаж недавно постигал воинскую культуру.",
+    "POL": "Ta postać niedawno przeszła szkolenie przeprowadzone przez przedstawiciela kultury wojowniczej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "training_hard_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Training Hard",
+    "RUS": "Изнурительные тренировки",
+    "POL": "Wymagający trening",
+    "BEL": ""
+  },
+  {
+    "KEY": "training_hard_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character is currently training hard.",
+    "RUS": "Этот персонаж сейчас упорно тренируется.",
+    "POL": "Ta postać obecnie ciężko trenuje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "philosophical_musings_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Philosophical Musings",
+    "RUS": "Философские размышления",
+    "POL": "Rozmyślania filozoficzne",
+    "BEL": ""
+  },
+  {
+    "KEY": "philosophical_musings_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character has recently been having many philosophical musings.",
+    "RUS": "Этот персонаж недавно погружался в философские размышления.",
+    "POL": "Ta postać prowadziła ostatnio wiele filozoficznych rozmyślań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "personal_chivalry_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "Personally Chivalrous",
+    "RUS": "Личная доблесть",
+    "POL": "Rycerska postawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "personal_chivalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_events_cultural_traditions_l_belarusian.json",
+    "ENG": "This character has recently been focusing on their own personal chivalry.",
+    "RUS": "С недавних пор этот персонаж старается развивать собственную доблесть.",
+    "POL": "Ta postać ostatnio skupiła się na szlifowaniu własnej rycerskości.",
+    "BEL": ""
+  }
+]

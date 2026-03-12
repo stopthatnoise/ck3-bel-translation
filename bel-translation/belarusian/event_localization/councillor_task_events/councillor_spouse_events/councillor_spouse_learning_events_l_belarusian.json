@@ -1,0 +1,538 @@
+[
+  {
+    "KEY": "councillor_spouse_learning.1001.religion.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Vassal",
+    "RUS": "Супруг договаривается с [councillor.GetFaith.GetNameNoTooltip|l]им вассалом",
+    "POL": "Negocjacje małżonka z wasalem ([councillor.GetFaith.GetNameNoTooltip|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1001.culture.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates With [councillor.GetCulture.GetNameNoTooltip]",
+    "RUS": "Супруг договаривается c [councillor.GetCulture.GetCollectiveNounNoTooltip|l]ими подданными",
+    "POL": "Małżonek i [councillor.GetCulture.GetCollectiveNoun] prowadzą negocjacje",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1002.religion.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates with [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]",
+    "RUS": "Супруг и [councillor.GetFaith.GetNameNoTooltip|l][Select_CString(councillor.IsFemale, 'ая', 'ий' )] [SCOPE.sC('councillor').Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))] договариваются",
+    "POL": "Negocjacje na linii małżonek – [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))] ([councillor.GetFaith.GetNameNoTooltip|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1002.culture.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates with [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]",
+    "RUS": "Супруг и [councillor.GetCulture.GetCollectiveNounNoTooltip|l][Select_CString(councillor.IsFemale, 'ая', 'ий' )] [SCOPE.sC('councillor').Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))] договариваются",
+    "POL": "Negocjacje na linii małżonek – [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))] ([councillor.GetCulture.GetNameNoTooltip|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1003.religion.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Subjects",
+    "RUS": "Супруг договаривается с [councillor.GetFaith.GetNameNoTooltip|l]ими подданными",
+    "POL": "Negocjacje małżonka z poddanymi wyznającymi [councillor.GetFaith.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1003.culture.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Mediates With [councillor.GetCulture.GetNameNoTooltip] Subjects",
+    "RUS": "Супруг договаривается с [councillor.GetCulture.GetCollectiveNounNoTooltip|l]ими подданными",
+    "POL": "Negocjacje małżonka z poddanymi, których kultura jest [councillor.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: Influences Religious Conversion",
+    "RUS": "Супруг влияет на смену религии",
+    "POL": "Małżonek: wpływ na nawrócenie religijne",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1302.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: Influences Cultural Conversion",
+    "RUS": "Супруг влияет на смену культуры",
+    "POL": "Małżonek: wpływ na zmianę kultury",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1303.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse is Patron of Theologians",
+    "RUS": "Супруг покровительствует теологам",
+    "POL": "Małżonek patronem teologów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1601.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse Aids Ward in Studying [ROOT.Char.Custom('LifestyleFocus')|U]",
+    "RUS": "Супруг помогает подопечному в изучении такого вопроса, как [ROOT.Char.Custom('LifestyleFocus')]",
+    "POL": "Małżonek pomaga wychowankowi opanować umiejętności potrzebne do [ROOT.Char.Custom('LifestyleFocus')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1602.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[tutored_child.Custom('GetDaughterSon')] Flourishes Under Spouse's Tutelage",
+    "RUS": "[tutored_child.Custom('GetDaughterSon')] расцветает благодаря наставлениям супруга",
+    "POL": "[tutored_child.Custom('GetDaughterSon')] rozwija się pod opieką małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1603.root_guardian.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Ward Appreciates Spouse's Tutelage",
+    "RUS": "Подопечный ценит наставления супруга",
+    "POL": "Wychowanek docenia opiekę małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1603.spouse_guardian.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse's Ward Appreciates [councillor.GetHerHis|U] Tutelage",
+    "RUS": "Подопечный супруга ценит [councillor.GetHerHis] наставления",
+    "POL": "Wychowanek małżonka docenia [councillor.GetHerHis] opiekę",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1603.other_guardian.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Ward At Court Appreciates Spouse's Tutelage",
+    "RUS": "Подопечный-придворный ценит наставления супруга",
+    "POL": "Wychowanek na dworze docenia opiekę małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "add_patronage_spouse_education_points_effect.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Child Benefits From Spouse's Tutelage",
+    "RUS": "Ребенок извлекает пользу из наставлений супруга",
+    "POL": "Opieka małżonka przynosi dziecku korzyści",
+    "BEL": ""
+  },
+  {
+    "KEY": "add_patronage_spouse_education_points_effect.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage.",
+    "RUS": "Благодаря наставлениям, которые дает [councillor.GetTitledFirstNamePossessive], [Select_CString(patronage_student.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))] [patronage_student.GetTitledFirstName] с большей вероятностью получит лучшее [Concept( 'education', 'образование' )|E].",
+    "POL": "M[Select_CString( patronage_student.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName] ma duże szanse na uzyskanie dobrego [Concept( 'education', 'wykształcenia' )|E] dzięki opiece, którą sprawuje [councillor.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "add_patronage_spouse_education_points_child_effect.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "My [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage.",
+    "RUS": "Благодаря наставлениям, которые дает [councillor.GetTitledFirstNamePossessive], [Select_CString(patronage_student.IsFemale, 'моя', 'мой' )] [patronage_student.Custom('GetDaughterSon')] [patronage_student.GetTitledFirstName] с большей вероятностью получит лучшее [Concept( 'education', 'образование' )|E].",
+    "POL": "M[Select_CString( patronage_student.IsFemale, 'oja', 'ój' )] [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], ma duże szanse na uzyskanie dobrego [Concept( 'education', 'wykształcenia' )|E] dzięki opiece, którą sprawuje [councillor.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: Further Education",
+    "RUS": "Спутник жизни: продолжение обучения",
+    "POL": "Małżonek: dalsza edukacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.not_scholarly.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вам не помешает время от времени читать книги», — нередко повторяет [Select_CString(councillor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], [Select_CString(councillor.IsFemale, 'которая', 'который' )] славится блестящим образованием. [Select_CString(councillor.IsFemale, 'Она готова', 'Он готов' )] стать моим наставником, если мне понадобится помощь.",
+    "POL": "„Nie zaszkodziłoby ci od czasu do czasu przeczytać jakąś książkę” – powtarza mi często m[Select_CString( councillor.IsFemale, 'oja', 'ój' )] peł[Select_CString( councillor.IsFemale, 'na', 'en' )] zapału [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName]. Zaoferował[Select_CString( councillor.IsFemale, 'a', '' )], że będzie moim korepetytorem, jeśli będę potrzebował[Select_CString( ROOT.Char.IsFemale, 'a', '' )] pomocy, żeby zacząć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.scholarly.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Every time my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] finds me bent over a tome, [councillor.GetSheHe] gets visibly excited.\\n\\n",
+    "RUS": "Каждый раз, когда [Select_CString(councillor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] видит меня за книгой, [councillor.GetSheHe] загорается энтузиазмом.\\n\\n«Не желаешь ли моей помощи в изысканиях? Мы могли бы обсудить идеи мудрецов — или обменяться книгами. Недавно мне попалось сочинение, где детально рассматриваются [ROOT.Char.Custom('education_conversation_subject')]!»",
+    "POL": "Za każdym razem, gdy [Select_CString(councillor.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] znajduje mnie pochylon[Select_CString(ROOT.Char.IsFemale, 'ą', 'ego' )] nad książką, jest wyraźnie podekscytowan[Select_CString(councillor.IsFemale, 'a', 'y' )].\\n\\n„Potrzebujesz pomocy w nauce? Kogoś, z kim [Select_CString(ROOT.Char.IsFemale, 'mogłabyś', 'mógłbyś' )] wymienić się pomysłami, a może jakieś nowe tomiszcze? Niedawno nabył[Select_CString(councillor.IsFemale, 'am', 'em' )] tom ze znakomitą analizą [ROOT.Char.Custom('education_conversation_subject')]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Yes, I would appreciate your guidance.",
+    "RUS": "Да, мне бы не помешали ваши наставления.",
+    "POL": "Tak, był[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym wdzięczn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] za wszelkie wskazówki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[tutoring_student_1.GetTitledFirstNameNoTooltip] needs your assistance more than I.",
+    "RUS": "[tutoring_student_1.GetTitledFirstNameNoTooltip] нуждается в вашей помощи больше, чем я.",
+    "POL": "[tutoring_student_1.GetTitledFirstNameNoTooltip] potrzebuje twojej pomocy bardziej niż ja.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.c",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "You should tutor [tutoring_student_2.GetTitledFirstNameNoTooltip] instead.",
+    "RUS": "[tutoring_student_2.GetTitledFirstNameNoTooltip] — вот кого вам лучше обучать.",
+    "POL": "[tutoring_student_2.GetTitledFirstNameNoTooltip] [Select_CString( tutoring_student_2.IsFemale, 'powinna być twoją uczennicą', 'powinien być twoim uczniem' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2601.d",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "You should focus on your own studies.",
+    "RUS": "Сосредоточьтесь на собственных изысканиях.",
+    "POL": "Powin[Select_CString( councillor.IsFemale, 'naś', 'ieneś' )] skupić się na własnej nauce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning_2601_tutoring_effect.critical_success",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] greatly increases",
+    "RUS": "Теперь [THIS.Char.Custom('education_focus')] гораздо понятнее",
+    "POL": "[THIS.Char.GetTitledFirstNameNoTooltip] – zrozumienie [THIS.Char.Custom('education_focus')] u tej postaci znacząco wzrasta",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning_2601_tutoring_effect.success",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] increases",
+    "RUS": "Теперь [THIS.Char.Custom('education_focus')] гораздо понятнее",
+    "POL": "[THIS.Char.GetTitledFirstNameNoTooltip] – zrozumienie [THIS.Char.Custom('education_focus')] u tej postaci wzrasta",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.faith.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: [councillor.GetFaith.GetAdjectiveNoTooltip] Dissidents",
+    "RUS": "Спутник жизни: [councillor.GetFaith.GetNameNoTooltip]ие диссиденты",
+    "POL": "Małżonek: [councillor.GetFaith.GetAdjectiveNoTooltip] opozycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.culture.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: [councillor.GetCulture.GetNameNoTooltip] Dissidents",
+    "RUS": "Спутник жизни: [councillor.GetCulture.GetCollectiveNounNoTooltip]ие диссиденты",
+    "POL": "Małżonek: [councillor.GetCulture.GetNameNoTooltip] opozycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[faction_leader.GetTitledFirstName] and [faction_leader.GetHerHis] fellow",
+    "RUS": "[faction_leader.GetTitledFirstName] и [faction_leader.GetHerHis] собратья",
+    "POL": "[faction_leader.GetTitledFirstName] i [faction_leader.GetHerHis] sprzymierzona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.faith.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[councillor.GetFaith.GetAdjectiveNoTooltip]",
+    "RUS": "[councillor.GetFaith.GetNameNoTooltip][Select_CString(councillor.IsFemale, 'ая', 'ий' )]",
+    "POL": "[councillor.GetFaith.GetAdjectiveNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.culture.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[councillor.GetCulture.GetNameNoTooltip]",
+    "RUS": "[councillor.GetCulture.GetCollectiveNounNoTooltip][Select_CString(councillor.IsFemale, 'ая', 'ий' )]",
+    "POL": "[councillor.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.middle.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "conspirators in the [different_culture_or_faith_faction.GetName] never give me a moment's peace!",
+    "RUS": "которых объединяет [different_culture_or_faith_faction.GetName], не дают мне ни минуты покоя!",
+    "POL": "konspiracja znana jako „[different_culture_or_faith_faction.GetName]”, nigdy nie daje mi chwili spokoju!",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.independence_faction.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "They should be loyal subjects, yet I know they plot to turn against me.",
+    "RUS": "Они должны быть верными подданными, но я знаю, что они сговорились, чтобы вместе выступить против меня.",
+    "POL": "Powinni być lojalnymi poddanymi, a jednak wiem, że spiskują, by zwrócić się przeciwko mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.liberty_faction.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "They seek to undermine my authority at every turn.",
+    "RUS": "Они стремятся всеми силами подорвать мою власть.",
+    "POL": "Na każdym kroku starają się podważać mój autorytet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.claimant_faction.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Those dishonorable thieves seek to take the land which is rightfully mine.",
+    "RUS": "Эти бесчестные воры стремятся отнять землю, принадлежащую мне по праву.",
+    "POL": "Ci niehonorowi złodzieje chcą zabrać ziemię, która prawowicie należy do mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "\\n\\nFortunately, as ",
+    "RUS": "\\n\\nК счастью, «[Select_CString(councillor.IsFemale, 'одна', 'один' )] из них», [Select_CString(councillor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName], имеет на них определенное влияние. [Select_CString(councillor.IsFemale, 'Она', 'Он' )] предлагает выступить посредником и хочет знать, в каком направлении действовать.",
+    "POL": "\\n\\nNa szczęście m[Select_CString(councillor.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName], jako „jed[Select_CString(councillor.IsFemale, 'na', 'en' )] z nich”, ma tam pewne wpływy. Zaproponował[Select_CString(councillor.IsFemale, 'a', '' )] mediację i chce wiedzieć, jak postępować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.a.faith",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Appease the [councillor.GetFaith.GetAdjectiveNoTooltip] faction members.",
+    "RUS": "Успокоить членов [councillor.GetFaith.GetNameNoTooltip|l]ой фракции.",
+    "POL": "Uspokój członków frakcji wyznających [councillor.GetFaith.GetNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.a.culture",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Appease the [councillor.GetCulture.GetNameNoTooltip] faction members.",
+    "RUS": "Успокоить членов [councillor.GetCulture.GetCollectiveNounNoTooltip|l]ой фракции.",
+    "POL": "Uspokój członków frakcji, w której są [councillor.GetCulture.GetCollectiveNounNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.a.faction_members_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Every [councillor.GetFaith.GetAdjective] member of the [different_culture_or_faith_faction.GetName]",
+    "RUS": "Каждый #L [councillor.GetFaith.GetName|l]ий#! член фракции [different_culture_or_faith_faction.GetName]",
+    "POL": "Każdy członek frakcji „[different_culture_or_faith_faction.GetName]” wyznający [councillor.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.a.faction_members_culture",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Every [councillor.GetCulture.GetName] member of the [different_culture_or_faith_faction.GetName]",
+    "RUS": "Каждый #L [councillor.GetCulture.GetCollectiveNoun|l]ий#! член фракции [different_culture_or_faith_faction.GetName]",
+    "POL": "Wszyscy [councillor.GetCulture.GetCollectiveNoun] należący do frakcji „[different_culture_or_faith_faction.GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Make [faction_member_1.GetTitledFirstNameNoTooltip] leave the faction.",
+    "RUS": "Пусть [faction_member_1.GetTitledFirstNameNoTooltip] покинет фракцию.",
+    "POL": "Spraw, by [faction_member_1.GetTitledFirstNameNoTooltip] opuścił[Select_CString( faction_member_1.IsFemale, 'a', '' )] frakcję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Convince [faction_member_2.GetTitledFirstNameNoTooltip] to stay loyal to me.",
+    "RUS": "Пусть [faction_member_2.GetTitledFirstNameNoTooltip] сохраняет верность мне.",
+    "POL": "Spraw, by [faction_member_2.GetTitledFirstNameNoTooltip] [Select_CString( faction_member_2.IsFemale, 'pozostała mi wierna', 'pozostał mi wierny' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: A Higher Power",
+    "RUS": "Спутник жизни: высшая власть",
+    "POL": "Małżonek: siła wyższa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] has become a well-known figure in the religious world. [councillor.GetHerHis|U] patronage of [councillor.GetFaith.GetAdjectiveNoTooltip] scholars, [councillor.GetFaith.HouseOfWorshipPlural], and orders has even attracted the attention of [religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself].\\n\\nThe [religious_head.GetTitleAsNamePossessiveNoTooltip] gratitude comes with powerful benefits. My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] has offered to reach out to [religious_head.GetHerHim] on my behalf.",
+    "RUS": "[Select_CString(councillor.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] [Select_CString(councillor.IsFemale, 'стала', 'стал' )] довольно известной фигурой в религиозном мире. [Select_CString(councillor.IsFemale, 'Ее', 'Его' )] покровительством пользуются [councillor.GetFaith.GetNameNoTooltip|l]ие богословы, [councillor.GetFaith.HouseOfWorshipPlural] и ордена, и благодаря этому на н[Select_CString(councillor.IsFemale, 'ее', 'его' )] [Select_CString(religious_head.IsFemale, 'обратила', 'обратил' )] внимание [Select_CString(religious_head.IsFemale, 'сама', 'сам' )] [religious_head.GetTitledFirstName].\\n\\nБлагодарность столь влиятельного лица может дать серьезные преимущества. [Select_CString(councillor.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [Select_CString(councillor.IsFemale, 'предложила', 'предложил' )] обратиться к н[religious_head.GetHerHim] от моего имени.",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] [councillor.GetTitledFirstName] staje się dobrze znaną osobą w świecie religijnym. [councillor.Custom('PL_jego_jej')|U] [councillor.GetFaith.GetAdjectiveNoTooltip|l] piecza nad klerykami, kościołami i zakonami zwraca uwagę postaci, którą jest [religious_head.GetTitledFirstName].\\n\\nGdy [religious_head.GetTitleAsNameNoTooltip] czuje zadowolenie, przekłada się to często na wspaniałe korzyści. [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] proponuje więc, że skontaktuje się z [religious_head.Custom('PL_nim_nia')] w moim imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Can you make introductions?",
+    "RUS": "Вы можете представить нас друг другу.",
+    "POL": "Możesz nas sobie przedstawić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "I have befriended [religious_head.GetTitledFirstName].",
+    "RUS": "Я и [religious_head.GetTitledFirstName] теперь друзья.",
+    "POL": "[religious_head.GetTitledFirstName] jest teraz [Select_CString( religious_head.IsFemale, 'moją przyjaciółką', 'moim przyjacielem' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "What can [religious_head.GetSheHe] do for us in return?",
+    "RUS": "Что [religious_head.GetSheHe] может сделать для нас взамен?",
+    "POL": "Co [religious_head.GetSheHe] może zrobić dla nas w zamian?",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.c",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "This is my chance to be welcomed back into the holy community!",
+    "RUS": "Вот мой шанс вернуться в ряды паствы!",
+    "POL": "To jest moja szansa, aby zostać ponownie przyjęt[Select_CString( ROOT.Char.IsFemale, 'ą', 'ym' )] do świętej wspólnoty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2301.d",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Let [religious_head.GetHerHim] know — all we do, we do for [councillor.GetFaith.HighGodName].",
+    "RUS": "Пусть [religious_head.GetSheHe] узнает, что все, что мы ни делаем, мы совершаем во имя [SCOPE.sC('councillor').GetFaith.HighGodNamePossessive].",
+    "POL": "Niech wie, że wszystko, co robimy, robimy dla [councillor.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: Broadening Horizons",
+    "RUS": "Спутник жизни: новые горизонты",
+    "POL": "Małżonek: poszerzanie horyzontów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.not_root.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "While my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] certainly knows a thing or two about [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] thinks it is time for [student.GetHerHim] to widen [student.GetHerHis] horizons.\\n\\n",
+    "RUS": "И хотя [Select_CString(student.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] определенно разбирается в таком предмете, как [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] полагает, что пора [student.GetHerHim] расширить свои познания.\\n\\n«Я могу раздобыть новые книги, подготовить несколько заданий, немного подучить [student.GetHerHis]. Как думаете, от изучения какого предмета [student.GetFirstNameNoTooltip] выиграет больше всего?»",
+    "POL": "Podczas gdy [Select_CString(student.IsFemale, 'moja', 'mój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] z pewnością wie co nieco na temat [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] uważa, że nadszedł czas, aby poszerzył[Select_CString(student.IsFemale, 'a', '' )] swoje horyzonty.\\n\\n„[Select_CString(councillor.IsFemale, 'Mogłabym', 'Mógłbym' )] nabyć kilka nowych tomów, przygotować kilka zadań, poduczyć [Select_CString(student.IsFemale, 'ją', 'go' )] trochę. Jak myślisz, z którego przedmiotu [student.GetFirstNameNoTooltip] skorzystał[Select_CString(student.IsFemale, 'aby', 'by' )] najbardziej?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.root.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Хоть вы и понимаете кое-что в таком предмете, как [student.Custom('highest_skill_noun')], [student.GetTitleTierName|l] владения [student.GetPrimaryTitle.GetNameNoTierNoTooltip] [Select_CString(student.IsFemale, 'должна', 'должен' )] обладать куда более серьезными познаниями», — говорит [Select_CString(councillor.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] и [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\\n\\n«Я могу раздобыть несколько новых книг, подготовить задания и слегка вас подучить. Какой предмет вам интереснее всего?»",
+    "POL": "– Mimo że wiesz co nieco na temat [student.Custom('highest_skill_noun')], [student.GetTitleTierName] z ziem znanych jako [student.GetPrimaryTitle.GetNameNoTierNoTooltip] musi posiadać naprawdę szeroki zakres umiejętności – mówi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\\n\\n– Trzeba nabyć kilka nowych tomów, przygotować parę zadań, trochę cię poduczyć. Jaki temat interesuje cię najbardziej?",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Diplomacy.",
+    "RUS": "Дипломатия.",
+    "POL": "Dyplomacja.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Military theory.",
+    "RUS": "Военная теория.",
+    "POL": "Teoria wojskowa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.c",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Realm economy.",
+    "RUS": "Экономика державы.",
+    "POL": "Gospodarka państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.d",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spy network management.",
+    "RUS": "Управление шпионской сетью.",
+    "POL": "Zarządzanie siatką szpiegowską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2602.e",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Theology.",
+    "RUS": "Теология.",
+    "POL": "Teologia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1304.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse is Patron of [religious_vassal.GetFaith.AltPriestTermPlural]",
+    "RUS": "[religious_vassal.GetFaith.AltPriestTermPlural] пользуются покровительством супруга",
+    "POL": "[religious_vassal.GetFaith.AltPriestTermPlural|U] pod patronatem małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.1305.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse's Piety Impresses the [religious_head.GetTitleAsNameNoTooltip]",
+    "RUS": "[religious_head.GetTitleAsNameNoTooltip] под впечатлением от благочестия супруга",
+    "POL": "[religious_head.GetTitleAsNameNoTooltip|U] jest pod wrażeniem pobożności małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Spouse: Up to the Task",
+    "RUS": "Спутник жизни: подходит для работы",
+    "POL": "Małżonek: gotowość do działania",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Some of my advisors believe the job is theirs by right of blood or influence alone — how wrong they are! I expect results, yet I am often disappointed.\\n\\nAfter a long day, I am complaining to [councillor.GetFirstName] when [councillor.GetSheHe] interrupts me. ",
+    "RUS": "Некоторые мои советники убеждены, что должности полагаются им уже по праву рождения или из-за их влияния, но как же они ошибаются! Я ожидаю от этих людей результатов, а они постоянно меня разочаровывают.\\n\\nВыслушав очередные мои жалобы после тяжелого дня, [councillor.GetFirstName] вдруг прерывает меня: «Позвольте мне помочь с этим, [ROOT.Char.GetWifeHusband]. Несколько уроков, вероятно, сделают их поумнее».",
+    "POL": "Niektórzy z moich radnych uważają, że stanowisko należy się wyłącznie im z uwagi na ich pochodzenie lub wpływy – jakże się mylą! Oczekuję od nich efektów, a jednak często jestem rozczarowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]. \\n\\nPod koniec dnia [councillor.GetFirstName] wysłuchuje moich narzekań, wtem nagle wchodzi mi w słowo: „Pozwól m[Select_CString( ROOT.Char.IsFemale, 'oja żono', 'ój mężu' )], że się tym zajmę. Kilka lekcji mogłoby wyostrzyć ich umysły”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] could use a tutor.",
+    "RUS": "Думаю, [chancellor.GetCouncilTitle|l] [chancellor.GetFirstNameNoTooltip] выиграет от наличия наставника.",
+    "POL": "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] potrzebuje nauczyciela.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] would benefit from your help.",
+    "RUS": "Думаю, [marshal.GetCouncilTitle|l] [marshal.GetFirstNameNoTooltip] выиграет от вашей помощи.",
+    "POL": "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] zyskałby na Twojej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.c",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Give a few lessons to my [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip].",
+    "RUS": "Пусть [steward.GetCouncilTitle|l] [steward.GetFirstNameNoTooltip] получит несколько уроков.",
+    "POL": "[steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip] potrzebuje kilku lekcji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.d",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Perhaps you have some advice for [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip].",
+    "RUS": "Пожалуй, [spymaster.GetCouncilTitle|l] [spymaster.GetFirstNameNoTooltip] может получить от вас несколько советов.",
+    "POL": "[spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] mógłby skorzystać z twoich rad.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.e",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] is in need of some guidance.",
+    "RUS": "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] нуждается в наставнике.",
+    "POL": "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] potrzebuje pewnych wskazówek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_learning.2603.f",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/councillor_spouse_events/councillor_spouse_learning_events_l_belarusian.json",
+    "ENG": "Stay here with me instead...",
+    "RUS": "Лучше останьтесь здесь, со мной...",
+    "POL": "Zamiast tego zostań ze mną…",
+    "BEL": ""
+  }
+]

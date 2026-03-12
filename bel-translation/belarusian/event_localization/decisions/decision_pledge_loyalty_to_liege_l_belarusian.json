@@ -1,0 +1,1034 @@
+[
+  {
+    "KEY": "pledge_loyalty_to_liege_decision",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Pledge Loyalty to the [GetPlayer.GetLiege.GetTitleTierName|U]",
+    "RUS": "Присягнуть в верности сюзерену",
+    "POL": "Przysięgnij lojalność osobie, którą jest [GetPlayer.GetLiege.GetTitleTierName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I must formally and publicly pledge loyalty to the [GetPlayer.GetLiege.GetTitleTierName|U] in [ROOT.Char.GetLiege.GetHerHis] court. Failure to do so will be perceived as an insult and a challenge to [ROOT.Char.GetLiege.GetHerHis] rule.",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'должна', 'должен')] официально присягнуть в верности моему сюзерену на глазах у всего [Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его')] двора. Если этого не сделать, [GetPlayer.GetLiege.GetTitleTierName|l] сочтет это оскорблением — и прямым вызовом [Select_CString(ROOT.Char.GetLiege.IsFemale, 'ее', 'его')] власти.",
+    "POL": "[GetPlayer.GetLiege.GetTitleTierName] oczekuje, że oficjalnie i publicznie przysięgnę [ROOT.Char.GetLiege.Custom('PL_mu_jej')] lojalność na [ROOT.Char.GetLiege.GetHerHis] dworze. Muszę to zrobić. Niedopełnienie tego obowiązku postrzegane będzie jako zniewaga i próba kwestionowania [ROOT.Char.GetLiege.GetHerHis] rządów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Formally #V Pledge Loyalty#! to your [liege|E] in their [court|E]",
+    "RUS": "Официально #V присягнуть в верности#! [Concept('liege', 'сюзерену')|E] при его [Concept('court', 'дворе')|E]",
+    "POL": "Oficjalnie #V przysięgnij lojalność#! swojemu [Concept('liege', 'seniorowi')|E] na jego [Concept('court', 'dworze')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_effects",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "You travel to [THIS.Char.GetLiege.GetTitledFirstNamePossessive] court to formally prostrate before them",
+    "RUS": "Вы отправляетесь ко двору сюзерена. [THIS.Char.GetLiege.GetTitledFirstName|U] примет вашу официальную присягу",
+    "POL": "Podróżujesz na dwór, na którym rządzi [THIS.Char.GetLiege.GetTitledFirstName], oficjalnie się [THIS.Char.GetLiege.Custom('PL_mu_jej')] pokłonić",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_confirm",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision$",
+    "RUS": "$pledge_loyalty_to_liege_decision$",
+    "POL": "$pledge_loyalty_to_liege_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_second_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$DESC$\\n$pledge_loyalty_to_liege_grace_tt$",
+    "RUS": "$DESC$\\n$pledge_loyalty_to_liege_grace_tt$",
+    "POL": "$DESC$\\n$pledge_loyalty_to_liege_grace_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_grace_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#weak You can only #V Pledge Loyalty#! the same liege once#!",
+    "RUS": "#weak #V Присягнуть в верности#! одному и тому же сюзерену можно только один раз#!",
+    "POL": "#weak Możesz #V przysiąc lojalność#! wybranemu seniorowi tylko raz#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_gift_warning_effect",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#weak Gifts increase the rewards for #V Pledging your Loyalty#!#!\\n$pledge_loyalty_to_liege_grace_tt$",
+    "RUS": "#weak Подарки увеличивают награду за #V присягу в верности#!#!\\n$pledge_loyalty_to_liege_grace_tt$",
+    "POL": "#weak Podarunki zwiększają nagrody za złożenie #V przysięgi lojalności#!#!\\n$pledge_loyalty_to_liege_grace_tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_grace_valid_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Has not Pledged Loyalty to [THIS.Char.GetLiege.GetTitledFirstName] before",
+    "RUS": "[THIS.Char.GetLiege.GetTitledFirstName|U] еще не [Select_CString(THIS.Char.GetLiege.IsFemale, 'получила', 'получил' )] присягу в верности от этого персонажа",
+    "POL": "Nie złożono jeszcze przysięgi lojalności wobec osoby znanej jako [THIS.Char.GetLiege.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_DECISION_NEXT_STEP_BUTTON",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Choose a gift",
+    "RUS": "Выберите подарок",
+    "POL": "Wybierz podarunek",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_available_adult_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Is an available Adult",
+    "RUS": "Персонаж — допустимый взрослый",
+    "POL": "To dostępna osoba dorosła",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_available_liege_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetTitledFirstName] is an available Adult",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName|U] — допустимый взрослый",
+    "POL": "[ROOT.Char.GetLiege.GetTitledFirstName] to dostępna osoba dorosła",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_option_submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Demonstrate Submission\\n#low Give nothing#!",
+    "RUS": "Проявить покорность\\n#low Ничего не дарить#!",
+    "POL": "Zademonstruj swoją uległość\\n#low Nie dawaj nic#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_submission_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetTitledFirstName] will receive only a demonstration of your submission",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName|U] не получит ничего, кроме демонстрации вашей покорности",
+    "POL": "[ROOT.Char.GetLiege.GetTitledFirstName] zobaczy jedynie demonstrację twojej uległości",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_submission_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "RUS": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "POL": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_option_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "...and Bestow Gifts\\n#low Give [gold|E]#!",
+    "RUS": "...и принести дары\\n#low Подарить [Concept('gold', 'золото')|E]#!",
+    "POL": "…i obdaruj podarunkami\\n#low Podaruj [gold|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_gold_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetTitledFirstName] will receive a gift of [gold|E] from you",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName|U] получит от вас [Concept('gold', 'золото')|E] в дар",
+    "POL": "[ROOT.Char.GetLiege.GetTitledFirstName] otrzyma od ciebie podarunek w postaci [Concept('gold', 'złota')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_gold_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "RUS": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "POL": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_effects_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Your [liege|E] will receive your gift of [gold|E]",
+    "RUS": "[liege|E] получит от вас [Concept('gold', 'золото')|E] в дар",
+    "POL": "Twój [liege|El] otrzyma od ciebie podarunek w postaci [Concept('gold', 'złota')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_gold_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#X You do not have enough [gold|E]#!",
+    "RUS": "#X У вас недостаточно [Concept('gold', 'золота')|E]#!",
+    "POL": "#X Nie masz wystarczającej ilości [Concept('gold', 'złota')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_option_hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "...and Promise Favor\\n#low Give a [hook|E]#!",
+    "RUS": "...и пообещать услугу\\n#low Дать [Concept('hook', 'рычаг влияния')|E]#!",
+    "POL": "…i obiecaj przysługę\\n#low Podaruj [Concept('hook', 'haka')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_hook_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetTitledFirstName] will receive a weak [hook|E] on you",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName|U] получит слабое [Concept('hook', 'влияние')|E] на вас",
+    "POL": "[ROOT.Char.GetLiege.GetTitledFirstName] będzie mieć na ciebie słabego [Concept('hook', 'haka')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_hook_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "RUS": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "POL": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_effects_hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Your [liege|E] will receive a strong [hook|E] on you",
+    "RUS": "[liege|E] получит сильное [Concept('hook', 'влияние')|E] на вас",
+    "POL": "Twój [liege|El] będzie mieć na ciebie mocnego [Concept('hook', 'haka')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_hook_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#X Your [liege|E] already has a [hook|E] on you#!",
+    "RUS": "#X [liege|E] уже имеет на вас [Concept('hook', 'влияние')|E]#!",
+    "POL": "#X Twój [liege|El] ma już na ciebie [Concept('hook', 'haka')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_option_contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "...and Increase Obligations\\n#low Give [vassal_contract|E] obligations#!",
+    "RUS": "...и расширить обязательства\\n#low Подарить обязательства по [Concept('vassal_contract', 'вассальному договору')|E]#!",
+    "POL": "…i zwiększ zobowiązania\\n#low Przekaż zobowiązania wynikające z [Concept('vassal_contract', 'kontraktu wasalnego')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_contract_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetTitledFirstName] will receive greater taxes or levies from by [vassal_contract|E]",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName] будет получать от вас больше налогов и ополченцев по [Concept('vassal_contract', 'вассальному договору')|E]",
+    "POL": "[ROOT.Char.GetLiege.GetTitledFirstName] będzie otrzymywać wyższe podatki oraz więcej sił w ramach pospolitego ruszenia na podstawie [Concept('vassal_contract', 'kontraktu wasalnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_contract_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "RUS": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "POL": "$pledge_loyalty_to_liege_decision_second_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_effects_contract_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Your [liege|E] will receive more [taxes|E] from you",
+    "RUS": "[liege|E] будет получать от вас больше [Concept('taxes', 'налогов')|E]",
+    "POL": "Twój [liege|El] będzie otrzymywać od ciebie wyższe [taxes|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_decision_effects_contract_levies",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Your [liege|E] will receive more [levies|E] from you",
+    "RUS": "[liege|E] будет получать от вас больше [Concept('levies', 'ополченцев')|E]",
+    "POL": "Twój [liege|El] będzie otrzymywać od ciebie większą liczbę poborowych na potrzeby [Concept('levies', 'pospolitego ruszenia')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_contract_modifiable_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#X Your [vassal_contract|E] has been changed too recently#!",
+    "RUS": "#X Ваш [Concept('vassal_contract', 'вассальный договор')|E] изменился слишком недавно#!",
+    "POL": "#X Twój [vassal_contract|El] został niedawno zmieniony#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_contract_increasable_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#X Your [taxes|E] and [levies|E] cannot be raised#!",
+    "RUS": "#X Ваши [Concept('taxes', 'налоги')|E] и [Concept('levies', 'ополчение')|E] нельзя увеличить#!",
+    "POL": "#X Wysokość przekazywanych [Concept('taxes', 'podatków')|E] oraz liczba poborowych przekazywanych na potrzeby [Concept('levies', 'pospolitego ruszenia')|E] nie mogą zostać podniesione#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_costs_refunded",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_decision$ costs refunded",
+    "RUS": "$pledge_loyalty_to_liege_decision$ — затраты возмещены",
+    "POL": "Zwrot kosztów za decyzję „$pledge_loyalty_to_liege_decision$”",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_header",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Pledge Loyalty:",
+    "RUS": "Присяга в верности:",
+    "POL": "Przysięgnij lojalność:",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "RUS": "[pledge_loyalty_to_liege_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "POL": "[pledge_loyalty_to_liege_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I have arrived in [pledge_loyalty_to_liege_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] to pay homage to you, glorious [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip], as a show of my loyalty. \\n\\n",
+    "RUS": "Я [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'прибыла', 'прибыл')] во владение [pledge_loyalty_to_liege_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], чтобы показать мою преданность и воздать вам почести, о [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'славная', 'славный' )] [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l]. \\n\\n",
+    "POL": "[pledge_loyalty_to_liege_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]… Jestem tu, aby dowieść swej lojalności i złożyć hołd. Niech żyje [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip]!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I hope my pledge of submission alone is evidence enough of my honor.",
+    "RUS": "Надеюсь, выказанная мной покорность послужит достаточным доказательством моей чести.",
+    "POL": "Mam nadzieję, że obietnica poddaństwa to dostateczny dowód mojego szacunku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I bring you rich gifts worthy of your majesty, as a token of my good will and servitude.",
+    "RUS": "В знак доброй воли и преданности я приношу вам богатые дары, достойные вашего величия.",
+    "POL": "W geście dobrej woli i oddania przynoszę dary godne twojego majestatu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "You have my word that I will do whatever it is you wish of me, my [pledge_loyalty_to_liege_scope.GetLadyLord].",
+    "RUS": "Даю слово, [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'моя', 'мой' )] [pledge_loyalty_to_liege_scope.GetLadyLord], что исполню любое ваше пожелание.",
+    "POL": "Obiecuję uczynić wszystko, czego [pledge_loyalty_to_liege_scope.GetLadyLord] ode mnie zażąda.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "To mark your dominion and my fealty to you, I will pledge greater obligations as your vassal.",
+    "RUS": "В знак признания вашей власти и моей верности я [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'готова', 'готов')] увеличить свои вассальные обязательства.",
+    "POL": "Pragnę podkreślić twoje panowanie i moją lojalność w jego obliczu, dlatego podejmę wobec ciebie większe zobowiązania i zostanę twym wasalem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Provide the customary favors in response.",
+    "RUS": "Предложить ответные дары, как принято по обычаю.",
+    "POL": "Odwdzięcz się przysługą, jak nakazuje zwyczaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Give [pledge_loyalty_to_liege_vassal.GetHerHim] nothing in kind.",
+    "RUS": "[Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'Она', 'Он')] ничего не получит взамен.",
+    "POL": "Nie dawaj [pledge_loyalty_to_liege_vassal.Custom('PL_mu_jej')] nic w zamian.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Exceed [pledge_loyalty_to_liege_vassal.GetHerHis] tokens with more lavish gifts in return.",
+    "RUS": "Ответить роскошными дарами, далеко превосходящими [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его' )] щедроты.",
+    "POL": "Odwdzięcz [pledge_loyalty_to_liege_vassal.Custom('PL_mu_jej')] się jeszcze hojniejszymi darami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.c.insulted",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUIName] will take it as an insult!#!",
+    "RUS": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUIName|U] воспримет это как оскорбление!#!",
+    "POL": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUINameNotMe] odbierze to jako zniewagę!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0001.c.honored",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUIName] will take it as an honor#!",
+    "RUS": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUIName|U] почтет это за честь#!",
+    "POL": "#EMP [pledge_loyalty_to_liege_vassal.GetShortUINameNotMe] uzna to za zaszczyt#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_header$ Taking the Knee",
+    "RUS": "Присяга в верности: Преклонение колена",
+    "POL": "$pledge_loyalty_to_liege_header$ na kolanach",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I wait patiently on my throne for the arrival of [pledge_loyalty_to_liege_vassal.GetTitledFirstName], who is soon announced and ushered before me. \\n\\n",
+    "RUS": "Восседая на троне, я терпеливо жду, когда [pledge_loyalty_to_liege_vassal.GetTitledFirstName] прибудет во дворец, чтобы склониться передо мной.\\n\\n",
+    "POL": "Siedząc na tronie, czekam cierpliwie, aż wreszcie [pledge_loyalty_to_liege_vassal.GetTitledFirstName] – niedługo po ogłoszeniu [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] przybycia – staje przed moim obliczem.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.GetSheHe|U] kneels in deference, offering nothing but [pledge_loyalty_to_liege_vassal.GetHerHis] oath to faithfully serve as a vassal of the [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "[Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'Она', 'Он')] преклоняет колено, не предлагая ничего, кроме обещания, что [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip|l] всегда сможет рассчитывать на [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его')] верность.\\n\\n",
+    "POL": "Choć klęka przede mną uniżenie, jedynym, co ma do zaoferowania, jest przysięga wiernej służby wasalskiej, którą mieliby zadowolić się mieszkańcy ziem znanych jako [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.GetSheHe|U] kneels in deference, as attendants bring forth [pledge_loyalty_to_liege_vassal.GetHerHis] gifts of coin and precious objects. The oath is taken, and scribes record [pledge_loyalty_to_liege_vassal.GetHerHis] pledges to serve [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip].\\n\\n",
+    "RUS": "[Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'Она', 'Он')] преклоняет колено, а слуги вносят [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его')] дары — деньги и драгоценности. Присяга принесена, и писцы записывают клятву верности с заверениями, что [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip] всегда сможет рассчитывать на [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его')] верную службу.\\n\\n",
+    "POL": "Klęka przede mną uniżenie, a [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] świta przynosi mi dary w postaci monet i kosztowności. Przysięga zostaje złożona, a skrybowie zapisują zobowiązanie, jakiego podejmuje się [pledge_loyalty_to_liege_vassal.GetTitleAsNameNoTooltip] na jej mocy: mieszkańcy ziem znanych jako [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogli liczyć na [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] służbę.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.GetSheHe|U] kneels in deference, and, among [pledge_loyalty_to_liege_vassal.GetHerHis] other oaths to serve [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip], puts [pledge_loyalty_to_liege_vassal.GetHerselfHimself] at my disposal and in my debt.\\n\\n",
+    "RUS": "[Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'Она', 'Он')] преклоняет колено и произносит слова присяги, заверяя, что [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip] всегда сможет рассчитывать на [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его')] верность. Кроме того, [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'она', 'он')] объявляет, что считает себя моим должником.\\n\\n",
+    "POL": "Klęka przede mną uniżenie i przysięga, że mieszkańcy ziem znanych jako [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogli liczyć na [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] służbę. Oprócz tego oddaje się do mojej dyspozycji i mieni się moim dłużnikiem.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.GetSheHe|U] kneels in deference, and, among [pledge_loyalty_to_liege_vassal.GetHerHis] other oaths to serve [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip], offers me greater contributions as a vassal lord of the [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "[Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'Она', 'Он')] преклоняет колено и произносит слова присяги, заверяя, что [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTooltip] всегда сможет рассчитывать на [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его')] верность. Помимо этого, [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'она', 'он')] как вассальный владыка, сюзерен которого [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip], вызывается увеличить свои обязательства по отношению ко мне.\\n\\n",
+    "POL": "Klęka przede mną uniżenie i przysięga, że mieszkańcy ziem znanych jako [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] zawsze będą mogli liczyć na [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] służbę. Oprócz tego ofiaruje mi też zwiększenie swojego wkładu jako wasal zarządzający ziemiami o nazwie [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.desc.success",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "At last I bid the [pledge_loyalty_to_liege_vassal.GetTitleAsNameNoTooltip] arise, confirming my satisfaction, and [pledge_loyalty_to_liege_vassal.GetFirstNamePossessiveNoTooltip] rights to the lands [pledge_loyalty_to_liege_vassal.GetSheHe] rules in my stead.",
+    "RUS": "Наконец я велю, чтобы [pledge_loyalty_to_liege_vassal.GetTitleAsNameNoTooltip|l] [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'поднялась', 'поднялся' )] с колен. Выразив свое удовлетворение присягой, я подтверждаю [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'ее', 'его' )] право править землями от моего имени.",
+    "POL": "Na moje polecenie – będące zarazem dowodem ukontentowania – [pledge_loyalty_to_liege_vassal.GetTitleAsNameNoTooltip] podnosi się z kolan, wiedząc, że uznaję [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] prawa do ziem, którymi włada w moim imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.smooth.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Служите мне верой и правдой, [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "– Niech [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip] wie, że wiążę z [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] służbą dużą nadzieję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.smooth.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я принимаю ваши щедрые дары, [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "– Niech [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip] wie, że przyjmuję [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] szczodre dary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.smooth.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Приятно знать, что я могу рассчитывать на вас, [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "– Niech [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip] wie, że się raduję, mogąc na [pledge_loyalty_to_liege_vassal.Custom('PL_niego_nia')] liczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0101.smooth.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ваша служба бесценна, [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip]».",
+    "POL": "– Niech [pledge_loyalty_to_liege_vassal.GetTitledFirstNameNoTooltip] wie, że [pledge_loyalty_to_liege_vassal.Custom('PL_jego_jej')] służba jest nie do przecenienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0009.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_scope.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[pledge_loyalty_to_liege_scope.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[pledge_loyalty_to_liege_scope.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I am not fooled by your [pledge_loyalty_to_liege_vassal.Custom2('InsultAdjective', SCOPE.sC('pledge_loyalty_to_liege_scope'))] act; a pledge of homage from you would mean nothing to me.",
+    "RUS": "Меня не так просто одурачить, [pledge_loyalty_to_liege_vassal.Custom2('InsultAdjective', SCOPE.sC('pledge_loyalty_to_liege_scope'))] вы [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'обманщица', 'обманщик' )]. Ваша присяга для меня пустой звук!",
+    "POL": "Nie zmydlisz mi oczu tym żałosnym pokazem. Twój hołd nie ma dla mnie najmniejszego znaczenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Outrageous!",
+    "RUS": "Это возмутительно!",
+    "POL": "Oburzające!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_header$ Taking the Knee",
+    "RUS": "Присяга в верности: Преклонение колена",
+    "POL": "$pledge_loyalty_to_liege_header$ na kolanach",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Servants usher me into [pledge_loyalty_to_liege_scope.GetTitledFirstNamePossessiveRegnal] great hall in [pledge_loyalty_to_liege_scope.GetCapitalLocation.GetNameNoTooltip], where [pledge_loyalty_to_liege_scope.GetSheHe] sits [pledge_loyalty_to_liege_scope.GetHerHis] throne waiting to hear my pledge.\\n\\n",
+    "RUS": "Слуги проводят меня в главный зал владения [pledge_loyalty_to_liege_scope.GetCapitalLocation.GetNameNoTooltip]. [pledge_loyalty_to_liege_scope.GetTitledFirstNameRegnal|U] восседает на своем троне в ожидании моей присяги.\\n\\n",
+    "POL": "W mieście znanym jako [pledge_loyalty_to_liege_scope.GetCapitalLocation.GetNameNoTier] słudzy wprowadzają mnie do wielkiej sali, gdzie na tronie siedzi już, w oczekiwaniu na moje przyrzeczenie, [homage_liege.GetTitledFirstNameRegnal].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.success",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I kneel at the feet of my [pledge_loyalty_to_liege_scope.GetLadyLord] and pledge the many oaths of homage, as [pledge_loyalty_to_liege_scope.GetHerHis] scribes record the event.\\n\\n",
+    "RUS": "Я преклоняю колено у ног [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'моей госпожи', 'моего господина' )] и произношу клятвы верности, пока [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'ее', 'его')] писцы записывают каждое слово.\\n\\n",
+    "POL": "Klękam u [pledge_loyalty_to_liege_scope.Custom('PL_jego_jej')] stóp i uroczyście składam kolejne przysięgi lojalności, a wszystko to uwieczniają w kronikach [pledge_loyalty_to_liege_scope.Custom('PL_jego_jej')] skrybowie.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "With that, the ceremony is complete; I have nothing to offer my [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] except my promise to faithfully serve as a vassal of the [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip].\\n\\n",
+    "RUS": "На этом церемония завершается. [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'Моя', 'Мой' )] [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] и [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'ее', 'его' )] [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip|l] могут рассчитывать на мою верную службу, а больше мне предложить нечего.\\n\\n",
+    "POL": "Tak oto ceremonia hołdu lennego dobiega końca. Nie mam do zaoferowania nic więcej: [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] musi zadowolić się daną [pledge_loyalty_to_liege_scope.Custom('PL_mu_jej')], a zarazem mieszkańcom ziem o nazwie [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip], obietnicą wiernej służby wasalskiej.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "My attendants then follow, presenting my rich gifts to the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] before the assembled court.",
+    "RUS": "Затем подходит моя свита и преподносит богатые дары, которые [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] получает на виду у собравшихся придворных.",
+    "POL": "Następnie towarzysząca mi świta w obecności dworu składa przed [pledge_loyalty_to_liege_scope.Custom('PL_nim_nia')] moje hojne dary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.gold.received_as_expected",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": " As is customary, [pledge_loyalty_to_liege_scope.GetSheHe] presents some token gifts in return, cementing our relationship for the time to come.\\n\\n",
+    "RUS": "Чтобы скрепить наши отношения, [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] по традиции преподносит мне символические ответные дары.\\n\\n",
+    "POL": " Jak nakazuje zwyczaj, [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] odwdzięcza się symbolicznym podarunkiem, zacieśniając tym samym naszą więź na kolejne lata.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.gold.received_more",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "\\n\\nAs I had anticipated, the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] offers me gifts in kind, but they don't stop coming! After much time has passed I find myself surrounded by even more wealth than I offered [pledge_loyalty_to_liege_scope.GetHerHim]. Courtiers around us try to contain their shock at this breach of proper protocol, uncertain if the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] is rewarding you, bribing you, or merely showing off [pledge_loyalty_to_liege_scope.GetHerHis] power and wealth.\\n\\n",
+    "RUS": "\\n\\nКак и следовало ожидать, [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] преподносит мне ответные дары — и им нет конца и края! Проходят часы, а подарки всё несут и несут; сложенная у моих ног груда богатств уже намного превосходит мое собственное подношение. Придворные поражены подобным нарушением протокола — они гадают, хочет ли [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] таким образом вознаградить или подкупить вас или же [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'она', 'он')] просто похваляется своими богатствами и властью.\\n\\n",
+    "POL": "\\n\\n[pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] ofiaruje mi w zamian własne podarunki – w tym nie ma nic zaskakującego. W zdumienie wprawia mnie ich mnogość: mam wrażenie, że mija cała wieczność, nim wszystkie trafiają do sali. Jest ich znacznie więcej niż darów ofiarowanych przeze mnie! Wobec tak bezprecedensowego naruszenia protokołu otaczający nas dworzanie próbują ukryć szok, zapewne zastanawiając się, czy [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] mnie w ten sposób nagradza, czy usiłuje przekupić. A może to tylko pokaz [pledge_loyalty_to_liege_scope.Custom('PL_jego_jej')] potęgi i bogactwa?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.gold.received_nothing",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "\\n\\nI kneel for what feels like too long before it becomes clear the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] is not going to offer me any of the customary gifts in kind. Courtiers around us look uncomfortable, uncertain if the palace coffers are emptying out or if the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] is trying to make an example out of me.\\n\\n",
+    "RUS": "\\n\\nЯ продолжаю стоять на коленях, но постепенно до меня доходит, что [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] не собирается вручать положенные по традиции ответные дары. Придворные неловко переминаются — они не понимают, то ли дворцовая казна совсем опустела, то ли [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] таким образом демонстрирует свое недовольство.\\n\\n",
+    "POL": "\\n\\nMam wrażenie, że klęczę przed [pledge_loyalty_to_liege_scope.Custom('PL_nim_nia')] całą wieczność, nim dociera do mnie, że [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] nie zamierza ofiarować mi nic w zamian. Otaczający nas dworzanie wydają się zakłopotani; zastanawiają się pewnie, czy pałacowe bogactwa są na wyczerpaniu, czy też[pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] chce dać coś innym do zrozumienia na moim przykładzie.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Then comes my promise, that [pledge_loyalty_to_liege_scope.GetSheHe] may call on me for any favor, as a loyal supporter of the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] in all [pledge_loyalty_to_liege_scope.GetHerHis] endeavors.\\n\\n",
+    "RUS": "Затем я добавляю обещание, что [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l] сможет попросить меня о любом одолжении. [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'Она', 'Он')] вправе рассчитывать на мою поддержку во всех своих начинаниях.\\n\\n",
+    "POL": "Wreszcie nadchodzi czas na moją przysięgę. Deklaruję, że [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip] może na mnie liczyć: na [pledge_loyalty_to_liege_scope.Custom('PL_jego_jej')] wezwanie wesprę [pledge_loyalty_to_liege_scope.Custom('PL_go_ja')] lojalnie we wszystkich przedsięwzięciach.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Then comes my gift; I affirm that will increase my contributions to the [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip] as a sign of my loyalty and for the good of the crown.\\n\\n",
+    "RUS": "Затем наступает время моего дара. Я заявляю, что увеличиваю свои вассальные обязательства, бенефициаром которых является [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip], в знак своей верности и ради блага короны.\\n\\n",
+    "POL": "Wtedy składam swój dar: deklarację, że [pledge_loyalty_to_liege_scope.GetPrimaryTitle.GetTierAsNameNoTooltip] może liczyć na moją lojalność, czego dowodem będzie zwiększenie mojego wkładu – dla dobra korony.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.brush_off",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "To my surprise, [pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip] acts almost as if nothing had happened, and accepts my homage with grace.\\n\\n",
+    "RUS": "К моему изумлению, [pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip] делает вид, что ничего не произошло, и великодушно принимает мои клятвы.\\n\\n",
+    "POL": "Ku mojemu zaskoczeniu [pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip] zachowuje się niemal tak, jakby nic się nie stało, i łaskawie przyjmuje mój hołd.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip] bids me to arise, and confirms [pledge_loyalty_to_liege_scope.GetHerHis] satisfaction, along with my rights to the lands I rule in [pledge_loyalty_to_liege_scope.GetHerHis] stead.",
+    "RUS": "[pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip|U] велит мне подняться и выражает свое удовлетворение присягой. [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'Она', 'Он')] подтверждает мое право управлять землями от [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'ее', 'его' )] имени.",
+    "POL": "[pledge_loyalty_to_liege_scope.GetFirstNameNoTooltip] pozwala mi wstać, dając wyraz swojemu zadowoleniu, a zarazem potwierdzając moje prawa do ziem, którymi władam w [pledge_loyalty_to_liege_scope.Custom('PL_jego_jej')] imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.smooth.submission",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Hail the [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip].",
+    "RUS": "Да здравствует [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip|l].",
+    "POL": "Niech żyje [pledge_loyalty_to_liege_scope.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.smooth.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "The price of loyalty...",
+    "RUS": "Цена верности...",
+    "POL": "Taka jest właśnie cena lojalności…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.smooth.hook",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Let us hope it is small favor...",
+    "RUS": "Будем надеяться, что одолжение будет небольшим...",
+    "POL": "Oby to była mała przysługa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.smooth.contract",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "The burdens of service...",
+    "RUS": "Бремя службы...",
+    "POL": "Taki jest właśnie ciężar służby…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.faux_pas",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "A just liege after all.",
+    "RUS": "Все же сюзерен справедлив.",
+    "POL": "Ostatecznie to sprawiedliwy senior.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0201.insult",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "I should never have come.",
+    "RUS": "Не стоило приходить сюда.",
+    "POL": "Trzeba było tu nie przyjeżdżać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege_header$ Invalidated",
+    "RUS": "Присяга в верности: Отмена",
+    "POL": "$pledge_loyalty_to_liege_header$ unieważnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.court",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "With my coronation as [ROOT.Char.GetTitleAsNameNoTooltip] complete, my preparations to pay homage are no longer necessary...",
+    "RUS": "Теперь я [ROOT.Char.GetTitleAsNameNoTooltip|l], а это значит, что больше не нужно никому приносить присягу...",
+    "POL": "Tytułuję się teraz jako [ROOT.Char.GetTitleAsNameNoTooltip], więc moje przygotowania do złożenia hołdu są już zbyteczne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] threw me into jail.",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [ROOT.Char.GetImprisonedBy.GetTitledFirstName] [Select_CString(ROOT.Char.GetImprisonedBy.IsFemale, 'бросила', 'бросил' )] меня в темницу.",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] wtrąca mnie do więzienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ I was captured by [ROOT.Char.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [ROOT.Char.GetImprisonedBy.GetTitledFirstName] [Select_CString(ROOT.Char.GetImprisonedBy.IsFemale, 'взяла', 'взял' )] меня в плен.",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ porywa mnie [ROOT.Char.GetImprisonedBy.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.liege_dead_me",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ I ended up killing [pledge_loyalty_to_liege_scope.GetTitledFirstName]... \\n\\n",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [pledge_loyalty_to_liege_scope.GetTitledFirstName] [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'погибла', 'погиб' )] от моей руки... \\n\\n",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ [pledge_loyalty_to_liege_scope.GetTitledFirstName] ponosi śmierć z mojej ręki…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.liege_dead",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ [pledge_loyalty_to_liege_scope.GetTitledFirstName] [pledge_loyalty_to_liege_scope.GetDeathReasonHideKiller]... \\n\\n",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [pledge_loyalty_to_liege_scope.GetTitledFirstName] [pledge_loyalty_to_liege_scope.GetDeathReasonHideKiller]... \\n\\n",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ dzieje się coś niespodziewanego: wygląda na to, że osoba znana jako [pledge_loyalty_to_liege_scope.GetTitledFirstName] [pledge_loyalty_to_liege_scope.GetDeathReasonHideKiller]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.liege_imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ I ended up capturing [pledge_loyalty_to_liege_scope.GetTitledFirstName]!",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [pledge_loyalty_to_liege_scope.GetTitledFirstName] [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'оказалась', 'оказался' )] у меня в плену!",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ dzieje się coś niespodziewanego: osoba znana jako [pledge_loyalty_to_liege_scope.GetTitledFirstName] zostaje przeze mnie porwana!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.liege_imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$pledge_loyalty_to_liege.0601_shared_intro$ [pledge_loyalty_to_liege_scope.GetTitledFirstName] was captured by [pledge_loyalty_to_liege_scope.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$pledge_loyalty_to_liege.0601_shared_intro$ но случилось так, что [pledge_loyalty_to_liege_scope.GetTitledFirstName] [Select_CString(pledge_loyalty_to_liege_scope.IsFemale, 'оказалась', 'оказался' )] в плену, а виной тому [pledge_loyalty_to_liege_scope.GetImprisonedBy.GetTitledFirstName].",
+    "POL": "$pledge_loyalty_to_liege.0601_shared_intro$ osoba znana jako [pledge_loyalty_to_liege_scope.GetTitledFirstName] zostaje uprowadzona. Odpowiada za to [pledge_loyalty_to_liege_scope.GetImprisonedBy.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc.new_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "If I am to pledge, it must be directed to my new liege, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "RUS": "Теперь мою присягу должен принять новый сюзерен — [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "POL": "Jeśli mam złożyć przyrzeczenie, jego adresatem powinien być mój nowy senior, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601_shared_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Just as I was putting the final touches on my pledge of fealty,",
+    "RUS": "Я уже почти [Select_CString(ROOT.Char.IsFemale, 'закончила', 'закончил' )] текст своей присяги,",
+    "POL": "Kończę właśnie ostatnie przygotowania do złożenia przysięgi lojalności, gdy nagle",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "\\n\\nThis certainly changes the situation.",
+    "RUS": "\\n\\nЭто определенно всё меняет.",
+    "POL": "\\n\\nTo bez wątpienia zmienia postać rzeczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.a_court",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Onward, to greater things.",
+    "RUS": "Вперед, к новым высотам.",
+    "POL": "Naprzód, ku chwale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.a_prison",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Drat.",
+    "RUS": "Тьфу ты.",
+    "POL": "A niech to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.a_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Most vexing...",
+    "RUS": "Как досадно...",
+    "POL": "Zaiste irytujące…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege.0601.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Time to rethink things...",
+    "RUS": "Пора всё обдумать...",
+    "POL": "Czas przemyśleć pewne sprawy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Dishonorable Vassal",
+    "RUS": "Бесчестный вассал",
+    "POL": "Niehonorowy wasal",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.desc.1",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "As I peruse the records of those who have come to pledge their fealty to me as their [ROOT.Char.GetTitleAsName], one name remains notably absent: [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] of the [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName] dynasty. More than [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0] years have passed ",
+    "RUS": "Изучая записи о том, чью присягу я [Select_CString(ROOT.Char.IsFemale, 'приняла', 'принял' )] как [ROOT.Char.GetTitleAsName|l], я замечаю отсутствие одного имени: [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] из дома [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName]. Уже прошло не меньше [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0] лет ",
+    "POL": "Kiedy przyglądam się zapiskom dotyczącym osób, których zaprzysiężoną lojalnością cieszę się jako [ROOT.Char.GetTitleAsName], trudno mi nie zauważyć, że bardzo rzadko przewija się w nich jedno szczególne imię: [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] z dynastii [SCOPE.sC('pledge_loyalty_to_liege_offender').GetDynasty.GetName]. To już [SCOPE.sC('pledge_loyalty_to_liege_offender').MakeScope.Var('pledge_loyalty_to_liege_found_overdue_years').GetValue|0] rok, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.desc.new_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "since I ascended the throne, ",
+    "RUS": "с тех пор, как я [Select_CString(ROOT.Char.IsFemale, 'взошла', 'взошел' )] на престол,",
+    "POL": "od kiedy zasiadam na tronie,",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.desc.new_title",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "since [SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe] became my vassal, ",
+    "RUS": "с тех пор, как [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'она стала', 'он стал' )] моим вассалом,",
+    "POL": "od kiedy pełni [SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe] rolę mojego wasala, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.desc.2",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "and neither word nor tribute has arrived from [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] lands.\\n\\nMy courtiers exchange uneasy glances. Murmurs ripple through the halls — could this be a mere oversight, or a deliberate slight against my right to rule? The weight of unspoken defiance hangs heavy in the air.",
+    "RUS": " но из [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'ее', 'его' )] владений не поступает ни дани, ни вестей.\\n\\nПридворные неловко переглядываются. По коридорам носятся сплетни — что это, простая оплошность или намеренное пренебрежение по отношению к моей власти? С каждым днем этого молчаливого мятежа ситуация становится все более напряженной.",
+    "POL": "a z [SCOPE.sC('pledge_loyalty_to_liege_offender').Custom('PL_jego_jej')] ziem nie dotarł choćby jeden list czy też trybut.\\n\\nMoi dworzanie wymieniają niespokojne spojrzenia. W salach rozbrzmiewają szepty – czy to zwykłe przeoczenie, czy może celowa obraza moich prawowitych rządów? W powietrzu wisi niewypowiedziany bunt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Dispatch an envoy demanding [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] immediate presence.",
+    "RUS": "Отправить к [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'ней', 'нему' )] гонцов с требованием явиться немедленно.",
+    "POL": "Poślij wysłannika z żądaniem [SCOPE.sC('pledge_loyalty_to_liege_offender').Custom('PL_jego_jej')] natychmiastowego stawiennictwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] will receive a letter reminding [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHim] of [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] obligations. Depending on [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] response, you may be able to [usurp|E] [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] [titles|E].",
+    "RUS": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName|U] получит письмо с напоминанием о [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'ее', 'его' )] вассальных обязанностях. В зависимости от [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'ее', 'его' )] ответа у вас может появиться шанс [Concept('usurp', 'узурпировать')|E] [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'ее', 'его' )] [Concept('titles', 'титулы')|E].",
+    "POL": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] otrzyma list przypominający [SCOPE.sC('pledge_loyalty_to_liege_offender').Custom('PL_mu_jej')] o zobowiązaniach. Otrzymana odpowiedź – w zależności od tego, jaka będzie – może sprawić, że zyskasz opcję [Concept('usurp', 'uzurpowania')|E] [Concept('titles', 'tytułów')|E] tej osoby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetSheHe|U] is probably just busy.",
+    "RUS": "Возможно, [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'она просто занята', 'он просто занят' )].",
+    "POL": "[SCOPE.sC('pay_homage_offender').GetTitledFirstName] ma pewnie dużo na głowie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1000.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] will be forgiven of [SCOPE.sC('pledge_loyalty_to_liege_offender').GetHerHis] obligations.",
+    "RUS": "[SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName|U] не будет [Select_CString(SCOPE.sC('pledge_loyalty_to_liege_offender').IsFemale, 'наказана', 'наказан' )] за неисполнение обязанностей.",
+    "POL": "Osoba znana jako [SCOPE.sC('pledge_loyalty_to_liege_offender').GetTitledFirstName] zostanie zwolniona ze swoich zobowiązań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Honor Calls",
+    "RUS": "Честь зовет",
+    "POL": "Honor wzywa",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.desc.new_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "With the ascension of [ROOT.Char.GetLiege.GetTitledFirstName] to the esteemed throne of [ROOT.Char.GetLiege.GetPrimaryTitle.GetName], ",
+    "RUS": "[ROOT.Char.GetLiege.GetTitledFirstName] [Select_CString(ROOT.Char.GetLiege.IsFemale, 'взошла', 'взошел' )] на блистательный #L [ROOT.Char.GetLiege.GetPrimaryTitle.GetAdjective]ий #! престол,",
+    "POL": "Wraz z wyniesieniem osoby znanej jako [ROOT.Char.GetLiege.GetTitledFirstName] na tron miejsca o nazwie [ROOT.Char.GetLiege.GetPrimaryTitle.GetName], ",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.desc.new_title",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "As the [ROOT.Char.GetTitleTierName|U] of [ROOT.Char.GetPrimaryTitle.GetName] and vassal of [ROOT.Char.GetLiege.GetPrimaryTitle.GetName], ",
+    "RUS": "Я — [ROOT.Char.GetTitleTierName] #L [ROOT.Char.GetPrimaryTitle.GetAdjective|l]их#! земель и вассал #L [ROOT.Char.GetLiege.GetPrimaryTitle.GetAdjective|l]ой#! державы, ",
+    "POL": "Jako [ROOT.Char.GetTitleTierName] miejsca o nazwie [ROOT.Char.GetPrimaryTitle.GetName] i wasal miejsca znanego jako [ROOT.Char.GetLiege.GetPrimaryTitle.GetName] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "the time has come for me to journey forth and pay respects, reaffirming my loyalty and fealty.\\n\\nFailure to do so in due course may be deemed dishonorable — or worse, interpreted as a declaration of rebellious intent.",
+    "RUS": "и мне пришла пора отправиться в путь, дабы выразить уважение сюзерену и подтвердить мою присягу на верность.\\n\\nЕсли я не сделаю это своевременно, мое бездействие может быть воспринято как оскорбление или, хуже того, как попытка мятежа.",
+    "POL": "muszę rozpocząć podróż i złożyć wyrazy szacunku, potwierdzając moją lojalność i oddanie.\\n\\nNiepodjęcie działania w odpowiednim czasie może zostać uznane za niehonorowe lub – co gorsza – zinterpretowane jako deklaracja buntowniczych zamiarów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Embark immediately, and make haste!",
+    "RUS": "Отправляемся сейчас же — и поспешим!",
+    "POL": "Wyruszamy natychmiast, i lepiej się pospieszmy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Opens the #V Pledge Loyalty to the [GetPlayer.GetLiege.GetTitleTierName|U]#! [decision|v] panel",
+    "RUS": "Открывает панель [Concept('decision', 'решения')|v] #V «Присягнуть в верности сюзерену»#!",
+    "POL": "Otwiera panel [Concept('decision', 'decyzji')|v] #V „Przysięgnij lojalność osobie, którą jest [GetPlayer.GetLiege.GetTitleTierName]”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "The [ROOT.Char.GetLiege.GetTitleAsName] will have to wait.",
+    "RUS": "[ROOT.Char.GetLiege.GetTitleAsName] может подождать.",
+    "POL": "[ROOT.Char.GetLiege.GetTitleAsName] musi poczekać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1010.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "If you tarry too long, your [titles|E] may be [revoked|E]!",
+    "RUS": "Если вы будете ждать слишком долго, вас могут [Concept('revoked', 'лишить')|E] [Concept('titles', 'титулов')|E]!",
+    "POL": "Jeśli będziesz zwlekać zbyt długo, twoje [titles|E] mogą zostać ci [revoked|El]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[spurned_liege.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "RUS": "[spurned_liege.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "POL": "[spurned_liege.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Your failure to present yourself to my court has not escaped my attention. Honor binds you to address this oversight promptly.\\n\\nNeglecting your duty may force me to take action to preserve the harmony and order of my realm.",
+    "RUS": "Я более не могу игнорировать то, что вы пренебрегаете своей обязанностью нанести визит моему двору. Честь призывает вас немедленно исправить эту оплошность.\\n\\nДальнейшее пренебрежение своим долгом с вашей стороны может принудить меня принять меры во имя сохранения гармонии и порядка в стране.",
+    "POL": "Twoja nieobecność na moim dworze nie umknęła mojej uwadze. Honor zobowiązuje Cię do naprawienia tego przeoczenia jak najszybciej.\\n\\nZaniedbanie obowiązku może zmusić mnie do podjęcia działań celem zachowania w moim państwie ładu i harmonii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Embark immediately, and make haste!",
+    "RUS": "Отправляемся сейчас же — и поспешим!",
+    "POL": "Wyruszamy natychmiast, i lepiej się pospieszmy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Opens the #V Pledge Loyalty to the [GetPlayer.GetLiege.GetTitleTierName|U]#! [decision|v] panel\\n$pledge_loyalty_to_liege_overdue.1020.b.tt$",
+    "RUS": "Открывает панель [Concept('decision', 'решения')|v] #V «Присягнуть в верности сюзерену»#!\\n$pledge_loyalty_to_liege_overdue.1020.b.tt$",
+    "POL": "Otwiera panel [Concept('decision', 'decyzji')|v] #V „Przysięgnij lojalność osobie, którą jest [GetPlayer.GetLiege.GetTitleTierName]”#!\\n$pledge_loyalty_to_liege_overdue.1020.b.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Threats as fleeting as cherry blossoms on the wind.",
+    "RUS": "Эти угрозы мимолетны, как цветы сакуры на ветру.",
+    "POL": "Groźby ulotne jak kwiaty wiśni na wietrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "If you tarry too long, your [titles|E] may be [revoked|E]!",
+    "RUS": "Если вы будете ждать слишком долго, вас могут [Concept('revoked', 'лишить')|E] [Concept('titles', 'титулов')|E]!",
+    "POL": "Jeśli będziesz zwlekać zbyt długo, twoje [titles|E] mogą zostać ci [revoked|El]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.c",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Deface the seal and return the letter.",
+    "RUS": "Сорвите печать и верните письмо.",
+    "POL": "Zniszcz pieczęć i zwróć list.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1020.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[SCOPE.sC('spurned_liege').GetName] may attempt to [revoke|E] your [titles|E]!",
+    "RUS": "[SCOPE.sC('spurned_liege').GetName] может попытаться [Concept('revoke', 'лишить')|E] вас [Concept('titles', 'титулов')|E]!",
+    "POL": "[SCOPE.sC('spurned_liege').GetName] może próbować [Concept('revoke', 'odebrać')|E] twoje [titles|El]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1030.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Forgive and Forget",
+    "RUS": "Простить и забыть",
+    "POL": "Wybaczyć i zapomnieć",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1030.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Despite my inattention to [ROOT.Char.GetLiege.GetTitledFirstName], none of the usual consequences seem to be forthcoming. Could it be that the [ROOT.Char.GetLiege.GetPrimaryTitle.GetName] has ignored our customs?",
+    "RUS": "Хотя [ROOT.Char.GetLiege.GetTitledFirstName] до сих пор не [Select_CString(ROOT.Char.GetLiege.IsFemale, 'дождалась', 'дождался' )] моего визита, ожидаемого наказания так и не последовало. Быть может, [ROOT.Char.GetLiege.GetTitledFirstName] [Select_CString(ROOT.Char.GetLiege.IsFemale, 'решила', 'решил' )] игнорировать наши обычаи?",
+    "POL": "Pomimo mojego zaniedbania względem osoby, którą jest [ROOT.Char.GetLiege.GetTitledFirstName], zdaje się, że nie dosięgną mnie żadne zwyczajowe konsekwencje. Czy to możliwe, że [ROOT.Char.GetLiege.GetPrimaryTitle.GetName] ignoruje nasze zwyczaje?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1030.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "One less concern of mine.",
+    "RUS": "Одной заботой меньше.",
+    "POL": "Jedno zmartwienie mniej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pledge_loyalty_to_liege_overdue.1030.b",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Obviously [ROOT.Char.GetLiege.GetSheHe] is afraid of [ROOT.Char.GetDynasty.GetName] might!",
+    "RUS": "Очевидно, [Select_CString(ROOT.Char.GetLiege.IsFemale, 'она', 'он' )] просто боится мощи рода [ROOT.Char.GetDynasty.GetName]!",
+    "POL": "To oczywiste, że [ROOT.Char.GetLiege.GetSheHe] zwyczajnie boi się potęgi dynastii [ROOT.Char.GetDynasty.GetName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_pledged_loyalty_to_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Vassal Pledged Loyalty",
+    "RUS": "Вассал присягнул в верности",
+    "POL": "Wasal poprzysiągł lojalność",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_pledged_loyalty_to_liege_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$EFFECT$",
+    "RUS": "$EFFECT$",
+    "POL": "$EFFECT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_pledged_loyalty_to_liege.liege.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[pledge_loyalty_to_liege_vassal.GetShortUIName] has pledged [pledge_loyalty_to_liege_vassal.GetHerHis] loyalty to you by formally prostrating before you",
+    "RUS": "[pledge_loyalty_to_liege_vassal.GetShortUIName|U] публично [Select_CString(pledge_loyalty_to_liege_vassal.IsFemale, 'простерлась', 'простерся' )] перед вами ниц, присягая на верность",
+    "POL": "[pledge_loyalty_to_liege_vassal.GetShortUINameNotMe] przysięga ci lojalność, ceremonialnie przed tobą klękając",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_pledged_loyalty_to_liege.subject.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "You have demonstrated your allegiance to [pledge_loyalty_to_liege_vassal.GetLiege.GetShortUIName] with by formally prostrating before [pledge_loyalty_to_liege_vassal.GetLiege.GetHerHim]",
+    "RUS": "Вы простерлись ниц перед сюзереном, публично показав, что [pledge_loyalty_to_liege_vassal.GetLiege.GetShortUIName] может рассчитывать на вашу верность",
+    "POL": "Okazujesz swoje oddanie seniorowi, którym jest [pledge_loyalty_to_liege_vassal.GetLiege.GetShortUINameNotMe], ceremonialnie przed nim klękając",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_refused_pledge_loyalty_to_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "Refused to Bow",
+    "RUS": "Отказ склониться",
+    "POL": "Odmowa ukłonu",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_refused_pledge_loyalty_to_liege_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "$EFFECT$",
+    "RUS": "$EFFECT$",
+    "POL": "$EFFECT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_refused_pledge_loyalty_to_liege.liege.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "You have gained the right to $revoke_title_interaction$ due to [SCOPE.sC('pledge_loyalty_to_liege_offender').GetShortUINamePossessive] failure to #V Pledge Loyalty#! to you",
+    "RUS": "Вы получили право отнять титул, поскольку [SCOPE.sC('pledge_loyalty_to_liege_offender').GetShortUIName] не желает #V присягать вам на верность#!",
+    "POL": "Zyskujesz prawo do odebrania tytułu, ponieważ osoba znana jako [SCOPE.sC('pledge_loyalty_to_liege_offender').GetShortUINameNotMe] nie #V poprzysięgła ci lojalności#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_refused_pledge_loyalty_to_liege.subject.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_pledge_loyalty_to_liege_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLiege.GetShortUIName] gained the right to $revoke_title_interaction$ due to your failure to #V Pledge Loyalty#! to [ROOT.Char.GetLiege.GetHerHim]",
+    "RUS": "[ROOT.Char.GetLiege.GetShortUIName|U] [Select_CString(ROOT.Char.GetLiege.IsFemale, 'получила', 'получил' )] право отнять ваш титул, поскольку вы не пожелали #V присягнуть [Select_CString(ROOT.Char.GetLiege.IsFemale, 'ей', 'ему' )] на верность#!",
+    "POL": "Ze względu na twoją decyzję, by nie #V przysięgać tej osobie lojalności#!, [ROOT.Char.GetLiege.GetShortUINameNotMe] zyskuje prawo do odebrania ci tytułu",
+    "BEL": ""
+  }
+]

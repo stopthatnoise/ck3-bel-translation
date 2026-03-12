@@ -1,0 +1,138 @@
+[
+  {
+    "KEY": "mandala_plunder_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "$MANDALA_PLUNDER_CB_NAME$",
+    "RUS": "$MANDALA_PLUNDER_CB_NAME$",
+    "POL": "$MANDALA_PLUNDER_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_PLUNDER_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "Plunder for Contribution",
+    "RUS": "Принуждение к контрибуции",
+    "POL": "Plądruj w celu zdobycia kontrybucji",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_PLUNDER_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Plunder War",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! грабительский поход",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wojna plądrująca (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_PLUNDER_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_plunder_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] is forced to [great_project_contribute|E] to your [great_project|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsFemale, 'вынуждена', 'вынужден' )] [Concept('great_project_contribute', 'сделать вклад')|E] в ваш [Concept('great_project', 'грандиозный проект')|E].",
+    "POL": "[defender.GetShortUINameNotMe] pod przymusem [Concept('great_project_contribute', 'wnosi wkład')|E] w twój [great_project|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_plunder_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] does not [great_project_contribute|E] to your [great_project|E].",
+    "RUS": "[defender.GetShortUIName|U] не станет [Concept('great_project_contribute', 'делать вклад')|E] в ваш [Concept('great_project', 'грандиозный проект')|E].",
+    "POL": "[defender.GetShortUINameNotMe] nie [Concept('great_project_contribute', 'wnosi wkładu')|E] w twój [great_project|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_plunder_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUINamePossessive|U] divine reputation is tarnished.",
+    "RUS": "[Select_CString(attacker.IsLocalPlayer, 'Ваша божественная репутация', Concatenate('Божественная репутация персонажа ', attacker.GetShortUIName))] опорочена",
+    "POL": "Święta reputacja osoby znanej jako [attacker.GetShortUINameNotMe] zostaje nadszarpnięta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_plunder_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: either [attacker.GetShortUIName] [CharAreIs( attacker )] no longer an [aspect_of_destruction|E] [mandala|E] [ruler|E] with a planned [great_project|E], or [defender.GetShortUIName] [CharAreIs( defender )] no longer a Mandala Ruler.",
+    "RUS": "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E] [Concept('mandala', 'мандалы')|E] с [Concept('aspect_of_destruction', 'аспектом разрушения')|E] и запланированным [Concept('great_project', 'грандиозным проектом')|E], либо [defender.GetShortUIName] больше не правитель мандалы.",
+    "POL": "[war.GetName] – ta wojna się skończyła: albo [attacker.GetShortUINameNotMe] nie jest już [Concept('ruler', 'władcą')|E] [Concept('mandala', 'mandali')|E] z [Concept('aspect_of_destruction', 'aspektem zniszczenia')|E] i zaplanowanym [Concept('great_project', 'wspaniałym projektem')|E], albo [defender.GetShortUINameNotMe] nie jest już władcą mandali.",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_planning_mandala_capital_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "You are not planning a [GetBuilding('mandala_capital_01').GetTypeName] [great_project|E]",
+    "RUS": "Вы не планируете [Concept('great_project', 'грандиозный проект')|E] «[GetBuilding('mandala_capital_01').GetTypeName]»",
+    "POL": "Nie planujesz następującego [Concept('great_project', 'wspaniałego projektu')|E]: [GetBuilding('mandala_capital_01').GetTypeName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_raze_capital_structure_cb",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "$MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME$",
+    "RUS": "$MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME$",
+    "POL": "$MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "Raze [GetBuilding('mandala_capital_01').GetTypeName]",
+    "RUS": "Разрушение #TOOLTIP:BUILDING,mandala_capital_01 #L Главного храма#!#!",
+    "POL": "Zrównaj z ziemią następującą budowlę: [GetBuilding('mandala_capital_01').GetTypeName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Devastation War",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! разрушительный поход",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wojna wyniszczająca (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_raze_capital_structure_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUINamePossessive|U] [GetBuilding('mandala_capital_01').GetTypeName] becomes [ruined|E].",
+    "RUS": "Принадлежащий [Select_CString(defender.IsLocalPlayer, 'вам', Concatenate('персонажу ', defender.GetShortUIName))] [GetBuilding('mandala_capital_01').GetTypeName] будет [Concept('ruined','разрушен')|E]",
+    "POL": "[GetBuilding('mandala_capital_01').GetTypeName] – budowla należąca do osoby znanej jako [defender.GetShortUINameNotMe] zostaje [ruined|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_raze_capital_structure_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUINamePossessive|U] [GetBuilding('mandala_capital_01').GetTypeName] remains immaculate.",
+    "RUS": "Принадлежащий [Select_CString(defender.IsLocalPlayer, 'вам', Concatenate('персонажу ', defender.GetShortUIName))] [GetBuilding('mandala_capital_01').GetTypeName] останется в целости и сохранности.",
+    "POL": "[GetBuilding('mandala_capital_01').GetTypeName] – budowla należąca do osoby znanej jako [defender.GetShortUINameNotMe] pozostaje nienaruszona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_raze_capital_structure_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUINamePossessive|U] [GetBuilding('mandala_capital_01').GetTypeName] becomes [ruined|E].",
+    "RUS": "Принадлежащий [Select_CString(attacker.IsLocalPlayer, 'вам', Concatenate('персонажу ', attacker.GetShortUIName))] [GetBuilding('mandala_capital_01').GetTypeName] будет [Concept('ruined','разрушен')|E]",
+    "POL": "[GetBuilding('mandala_capital_01').GetTypeName] – budowla należąca do osoby znanej jako [attacker.GetShortUINameNotMe] zostaje [ruined|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mandala_raze_capital_structure_cb_ended_invalid.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_wars_l_belarusian.json",
+    "ENG": "The [war.GetName] has ended: either [attacker.GetShortUIName] [CharAreIs( attacker )] no longer a [mandala|E] [ruler|E] with an un[ruined|E] Capital, or [defender.GetShortUIName] [CharAreIs( defender )] no longer a Mandala Ruler with an unruined Capital.",
+    "RUS": "Конфликт «[war.GetName]» завершился: либо [attacker.GetShortUIName] больше не [Concept('ruler', 'правитель')|E] [Concept('mandala', 'мандалы')|E] с не[Concept('ruined', 'разрушенной')|E] столицей, либо [defender.GetShortUIName] больше не правитель мандалы с неразрушенной столицей.",
+    "POL": "[war.GetName] – ta wojna się skończyła: [attacker.GetShortUINameNotMe] albo [defender.GetShortUINameNotMe] nie jest już [Concept('ruler', 'władcą')|E] [Concept('mandala', 'mandali')|E], której stolica nie została [ruined|El].",
+    "BEL": ""
+  }
+]

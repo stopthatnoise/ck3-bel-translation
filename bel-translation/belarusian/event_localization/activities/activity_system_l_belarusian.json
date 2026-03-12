@@ -1,0 +1,978 @@
+[
+  {
+    "KEY": "ACTIVITY_LOG_ENTRY_EFFECT",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "#S Effects#!\\n$EFFECT$",
+    "RUS": "#S Эффекты#!\\n$EFFECT$",
+    "POL": "#S Efekty#!\\n$EFFECT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_tournament_province_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "You hold a Tournament in [ROOT.Province.GetName]\\nProvinces with suited buildings give out a [gold_i][gold|E] discount",
+    "RUS": "Вы устроили турнир в провинции [ROOT.Province.GetName]\\nПровинции с подходящими зданиями позволяют сэкономить [gold_i] [Concept( 'gold', 'золота' )|E]",
+    "POL": "Organizujesz turniej na terenie miejsca znanego jako [ROOT.Province.GetName]\\nHrabstwa z odpowiednimi budowlami zapewniają zniżkę w [gold_i][Concept( 'gold', 'złocie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_feast_guest_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$BULLET_WITH_TAB$Participants may gain attending characters [opinion|E]\\n$BULLET_WITH_TAB$Participants may lose [stress_loss_i][stress|E]\\n$BULLET_WITH_TAB$Participants may gain the [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E]",
+    "RUS": "$BULLET_WITH_TAB$[Concept( 'opinion', 'Мнение' )|E] гостей об участниках может улучшиться\\n$BULLET_WITH_TAB$[stress_loss_i][Concept( 'stress', 'Стресс' )|E] участников может снизиться\\n$BULLET_WITH_TAB$Участники могут получить [Concept( 'trait', 'свойство' )|E] «[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]»",
+    "POL": "$BULLET_WITH_TAB$Uczestnicy mogą poprawić o sobie [Concept( 'opinion', 'opinię' )|E]\\n$BULLET_WITH_TAB$Uczestnicy mogą pozbyć się [stress_loss_i][Concept( 'stress', 'stresu' )|E]\\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [Concept( 'trait', 'cechę' )|E] [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_tournament_guest_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "#weak If you are eligible, joining a Tournament will offer a chance to win contests and therefore prizes, as well as relax and take in the sights and sounds. It also provides an opportunity for you to sharpen your martial skills.#!",
+    "RUS": "#weak Приняв участие в турнире, вы сможете побороться за приз победителя, а еще — отдохнуть и приятно провести время. Помимо этого, вы получите возможность улучшить свое воинское мастерство.#!",
+    "POL": "#weak Jeśli spełniasz wymagania, dołączenie do turnieju daje szansę na wygranie zawodów i tym samym zdobycie nagród. Możesz także się zrelaksować oraz podziwiać widoki i słuchać pięknych dźwięków. Jest to również okazja do doskonalenia swoich umiejętności walki.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "guest_friendship_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_pulse_action_guest_friendship$",
+    "RUS": "$activity_pulse_action_guest_friendship$",
+    "POL": "$activity_pulse_action_guest_friendship$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pulse_action_guest_friendship",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[second.GetShortUINameNoTooltip|U] Compliments [first.GetShortUINameNoTooltip|U]",
+    "RUS": "[second.GetShortUINameNoTooltip|U] [Select_CString(second.IsLocalPlayer, 'делаете', Select_CString(second.IsFemale, 'делает', 'делает' ))] комплимент в адрес [Select_CString(first.IsLocalPlayer, '', 'персонажа ' )][first.GetNamePossessiveOrMy][Select_CString(first.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[Select_CString( second.IsLocalPlayer, 'Komplementujesz', Concatenate(second.GetShortUINameNotMeNoTooltip, ' komplementuje' ))] postać [first.GetShortUINameNotMeNoTooltip|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "guest_insulted_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_pulse_action_guest_insulted$",
+    "RUS": "$activity_pulse_action_guest_insulted$",
+    "POL": "$activity_pulse_action_guest_insulted$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_pulse_action_guest_insulted",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[second.GetShortUINameNoTooltip|U] Insults [first.GetShortUINameNoTooltip|U]",
+    "RUS": "[second.GetShortUINameNoTooltip|U] [Select_CString(second.IsLocalPlayer, 'оскорбляете', Select_CString(second.IsFemale, 'оскорбляет', 'оскорбляет' ))] [Select_CString(first.IsLocalPlayer, '', 'персонажа ' )][first.GetNamePossessiveOrMy][Select_CString(first.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[second.GetShortUINameNotMeNoTooltip] obraża osobę znaną jako [first.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0040.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Tournament Ended",
+    "RUS": "Турнир окончен",
+    "POL": "Zakończony turniej",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0040.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Alas! With the new circumstances surrounding the Tournament, a quick chat with the organizers confirms your fears: the Tournament must be canceled.\\n\\nFiles of despondent people file past, sniffling and disappointed children clutching their parents' hands. Hopefully, in the near future, there might be another chance for these festivities to resume.",
+    "RUS": "Увы, обстоятельства переменились, и недолгий разговор с организаторами подтвердил ваши худшие опасения: турнир отменяется.\\n\\nМимо бредут подавленные зрители, дети разочарованно хнычут, держась за руки родителей. Остается надеяться, что в скором времени выпадет другая возможность провести турнир.",
+    "POL": "Niestety, w związku z nowymi okolicznościami wokół turnieju szybka rozmowa z organizatorami potwierdza twoje obawy – turniej należy odwołać.\\n\\nObok mnie przechodzą rzędy przygnębionych ludzi, w tym chlipiące i rozczarowane dzieci ściskające rodziców za dłonie. Miejmy nadzieję, że w niedalekiej przyszłości pojawi się szansa na wznowienie uroczystości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0040.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A true pity.",
+    "RUS": "Какая жалость.",
+    "POL": "Wielka szkoda.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0080.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A New Host",
+    "RUS": "Новый устроитель",
+    "POL": "Nowy gospodarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0080.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "With the death of the previous host, hurried whispers amongst the relevant organizers gather pace. All present mill around happily, oblivious to the near-panic going on behind the scenes.\\n\\nFinally, an agreement is reached.",
+    "RUS": "Смерть устроителя вызвала настоящую панику среди организаторов турнира. Многочисленные гости даже не подозревали, какой хаос воцарился за кулисами праздника.\\n\\nК счастью, в итоге организаторам удалось прийти к согласию.",
+    "POL": "Po śmierci poprzedniego gospodarza istotni organizatorzy szepczą między sobą w coraz większym popłochu. Zgromadzone tłumy krążą radośnie, nieświadome paniki, która niemal wybucha za kulisami.\\n\\nW końcu udaje się osiągnąć porozumienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0080.desc_other",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The festivities will continue, but now with [host.GetTitledFirstName] at their head!",
+    "RUS": "Празднование продолжается, и [host.GetTitledFirstName] теперь всем заправляет!",
+    "POL": "Uroczystości zostaną wznowione, lecz tym razem przewodniczyła im będzie osoba znana jako [host.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0080.desc_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The festivities will continue, and I will stand at their head!",
+    "RUS": "Празднование продолжается, и я теперь всем заправляю!",
+    "POL": "Uroczystości zostaną wznowione i to ja będę im przewodniczyć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0080.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Let's get back to it.",
+    "RUS": "Вернемся к делу.",
+    "POL": "Wracajmy więc do pracy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The Final Destination",
+    "RUS": "Пункт назначения",
+    "POL": "Końcowy cel podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.desc.relation_family_liked",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "My dear [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName] has unfortunately departed this world and,",
+    "RUS": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName], к сожалению, [Select_CString(old_host.IsFemale, 'покинула', 'покинул' )] этот мир и",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))|U] [old_host.GetTitledFirstName] niestety żegna się z tym światem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.desc.relation_liked",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "My dear [old_host.GetTitledFirstName] has unfortunately departed this world and,",
+    "RUS": "[old_host.GetTitledFirstName], к сожалению, [Select_CString(old_host.IsFemale, 'покинула', 'покинул' )] этот мир и",
+    "POL": "[old_host.GetTitledFirstName] niestety żegna się z tym światem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.desc.relation_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName] has unfortunately departed this world and,",
+    "RUS": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName], к сожалению, [Select_CString(old_host.IsFemale, 'покинула', 'покинул' )] этот мир и",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))|U] [old_host.GetTitledFirstName] niestety żegna się z tym światem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.desc.relation_neutral",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Unfortunately [old_pilgrimage_host.GetTitledFirstName] has departed this world and,",
+    "RUS": "К сожалению, [old_pilgrimage_host.GetTitledFirstName] [Select_CString(old_pilgrimage_host.IsFemale, 'покинула', 'покинул' )] этот мир и",
+    "POL": "[old_pilgrimage_host.GetTitledFirstName|U] niestety żegna się z tym światem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "as [old_host.GetHerHis] heir, I am left in charge.\\n\\nAs such, regardless of my own feelings, I need to decide how we should handle [old_host.GetHerHis] corporeal remains and final rites.",
+    "RUS": "теперь всем по праву наследства управляю я.\\n\\nПоэтому, какими бы ни были мои чувства, мы должны решить, как отпеть [Select_CString(old_host.IsFemale, 'ее', 'его' )] и похоронить [Select_CString(old_host.IsFemale, 'ее', 'его' )] бренные останки.",
+    "POL": "więc odpowiedzialność spada na mnie, jako [old_host.Custom('PL_jego_jej')] dziedzica.\\n\\nNiezależnie od własnych uczuć muszę zdecydować, co zrobić z [old_host.Custom('PL_jego_jej')] ciałem i pogrzebem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip] was [old_host.GetHerHis] home.",
+    "RUS": "[Select_CString(old_host.IsFemale, 'Она жила', 'Он жил' )] в провинции [ROOT.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip].",
+    "POL": "Prowincja o nazwie [ROOT.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip] była [old_host.Custom('PL_jego_jej')] domem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[old_host.GetShortUIName] will be brought to rest in [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]",
+    "RUS": "[old_host.GetShortUIName] будет [Select_CString(old_host.IsFemale, 'похоронена', 'похоронен' )] в провинции [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip].",
+    "POL": "[old_host.GetShortUINameNotMe] spocznie w prowincji o nazwie [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[old_host.GetSheHe|U] deserves to rest in the sanctity of [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip].",
+    "RUS": "[old_host.GetSheHe|U] [Select_CString(old_host.IsFemale, 'заслужила', 'заслужил' )] право упокоиться среди святынь провинции [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip].",
+    "POL": "[old_host.GetShortUINameNotMe] zasługuje na spoczynek w świętym miejscu w prowincji o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[old_host.GetShortUIName] will be brought to rest in [THIS.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]",
+    "RUS": "[old_host.GetShortUIName] будет [Select_CString(old_host.IsFemale, 'похоронена', 'похоронен' )] в провинции [THIS.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip].",
+    "POL": "[old_host.GetShortUINameNotMe] spocznie w prowincji o nazwie [THIS.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "We bring [old_host.GetHerHim] to [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], then home.",
+    "RUS": "Мы доставим [Select_CString(old_host.IsFemale, 'ее', 'его' )] в провинцию [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], а затем вернемся домой.",
+    "POL": "Sprowadzimy [old_host.Custom('PL_go_ja')] do prowincji o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], a następnie do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0081.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The [THIS.Char.GetInvolvedActivity.GetName] will continue and [old_host.GetShortUIName] will be brought to rest in [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]",
+    "RUS": "[THIS.Char.GetInvolvedActivity.GetName] продолжится, а [old_host.GetShortUIName] будет [Select_CString(old_host.IsFemale, 'похоронена', 'похоронен' )] в провинции [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip].",
+    "POL": "[THIS.Char.GetInvolvedActivity.GetName|U] – ta aktywność będzie trwać, a [old_host.GetShortUINameNotMe] spocznie w prowincji o nazwie [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0090.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Invalidated Intent",
+    "RUS": "Намерения недействительны",
+    "POL": "Nieodpowiednie zamiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0090.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "With the change of current circumstances, it's clear that my previous intent cannot be pursued. Others wander past me happily as I ponder my situation, entirely oblivious to my slight consternation.\\n\\nWhat else does my heart desire? Perhaps I should just relax a little instead?",
+    "RUS": "В свете изменившихся обстоятельств становится очевидно, что мне не суждено исполнить мои предыдущие намерения. Мимо проходят довольные люди, не замечая охватившего меня замешательства.\\n\\nЧего еще желает мое сердце? Быть может, мне пора отдохнуть и расслабиться?",
+    "POL": "Zmiana okoliczności sprawia, że nie mogę zrealizować wcześniejszych zamiarów. Gdy zastanawiam się nad swoją sytuacją, obok przechodzą radośni ludzie, zupełnie nieświadomi mojej lekkiej konsternacji.\\n\\nCzego jeszcze pragnie moje serce? Może zamiast tego trzeba wybrać odpoczynek?",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0090.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Time to direct my focus elsewhere.",
+    "RUS": "Пора переключиться на что-то другое.",
+    "POL": "Czas skupić się na czymś innym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0091.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Invalidated Intent Target",
+    "RUS": "Недействительная цель намерений",
+    "POL": "Nieodpowiedni cel zamiarów",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0091.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "With the change of current circumstances, it's clear that my previous intent target is no longer relevant for my goals. Others wander past me happily as I ponder my situation, entirely oblivious to my slight consternation.\\n\\nWho else should I be focusing on? Perhaps I should simply focus on myself?",
+    "RUS": "В свете изменившихся обстоятельств становится очевидно, что предыдущий объект моих намерений более не играет никакой роли в моих планах. мне не суждено исполнить мои предыдущие намерения. Мимо проходят довольные люди, не замечая охватившего меня замешательства.\\n\\nКто же теперь заслуживает моего внимания? Быть может, мне пора заняться собой?",
+    "POL": "Zmiana okoliczności sprawia, że mój wcześniejszy cel przestaje być odpowiedni w kontekście moich zamiarów. Gdy zastanawiam się nad swoją sytuacją, obok przechodzą radośni ludzie, zupełnie nieświadomi mojej lekkiej konsternacji.\\n\\nNa kim jeszcze trzeba się skupić? Może należy po prostu zająć się sobą?",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0091.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Well, time to find a new muse...",
+    "RUS": "Мне нужна новая муза…",
+    "POL": "Cóż, czas znaleźć nową muzę…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0100.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A Poor Celebration",
+    "RUS": "Грустное празднество",
+    "POL": "Nieudana uroczystość",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0100.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Utterly unbelievable! Despite my many invitations and preparations, not a single person showed up to my [activity_type.GetNameNoTooltip()]. Perhaps the road to [location.GetName] is filled with more danger than I anticipated.\\n\\n",
+    "RUS": "Невероятно! Несмотря на все приготовления и разосланные загодя приглашения, никто из гостей не явился! Похоже, что [activity_type.GetNameNoTooltip()|U] пройдет без зрителей. Что ж, [location.GetName] — тот еще медвежий угол, дорога сюда полна опасностей.\\n\\n",
+    "POL": "To nie do pomyślenia! Pomimo wysłanych zaproszeń i stosownych przygotowań nikt nie wziął udział w mojej aktywności o nazwie [activity_type.GetNameNoTooltip]. Być może droga do miejsca o nazwie [location.GetName] jest bardziej niebezpieczna niż w moich przypuszczeniach.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0100.outro_away",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I suppose it is time to begin my journey back home to [ROOT.Char.GetCapitalLocation.GetName].",
+    "RUS": "Значит, пора собираться назад, в столицу. [ROOT.Char.GetCapitalLocation.GetName], я возвращаюсь домой.",
+    "POL": "Chyba czas wracać do domu do miejsca o nazwie [ROOT.Char.GetCapitalLocation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0100.outro_home",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "At least I saved myself the trouble of traveling away from home.",
+    "RUS": "По крайней мере, не пришлось отъезжать далеко от дома.",
+    "POL": "Przynajmniej oszczędzę sobie kłopotów związanych z podróżą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0100.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "But why... why would no one show up?",
+    "RUS": "Но почему? Почему никто не приехал?",
+    "POL": "Ale dlaczego… dlaczego nikt się nie zjawił?",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A Travel Cut Short",
+    "RUS": "Прерванное путешествие",
+    "POL": "Przerwana podróż",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "My predecessor, [host.GetNameRegnal], has shed his mortal coil whilst touring the realm. Tragically, [host.GetSheHe] [host.GetDeathReason].\\n\\n",
+    "RUS": "К сожалению, [host.GetNameRegnal], [Select_CString(host.IsFemale, 'моя предшественница, покинула', 'мой предшественник, покинул' )] этот мир во время объезда своих владений. Причина смерти: [host.GetDeathReason].\\n\\n",
+    "POL": "Mój poprzednik, który był znany pod imieniem [host.GetNameRegnal], zrzucił z siebie ziemską powłokę podczas zwiedzania państwa. Osoba ta tragicznie [host.GetDeathReason].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.desc.entourage",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[host.GetFirstNamePossessiveNoTooltip] entourage will surely begin a mournful journey home, bearing my [ROOT.Char.Custom2('RelationToMePossessive',SCOPE.sC('host'))] body.",
+    "RUS": "Свита персонажа [host.GetFirstNamePossessiveNoTooltip], несомненно, отправится в обратный путь. [ROOT.Char.Custom2('RelationToMePossessive',SCOPE.sC('host'))] вернется домой.",
+    "POL": "Świta osoby znanej jako [host.GetFirstName] z pewnością rozpocznie niebawem smutną podróż do domu, wioząc ze sobą jej ciało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.desc.ruler",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The fallen [host.GetTitleAsName] did not deserve to die so far from home.",
+    "RUS": "[Select_CString(host.IsFemale, 'Погибшая', 'Погибший' )] [host.GetTitleAsName] [Select_CString(host.IsFemale, 'заслужила', 'заслужил' )] право упокоиться в родной земле.",
+    "POL": "[host.GetTitleAsName|U] nie zasługuje na śmierć tak daleko od domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Rest in peace, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))].",
+    "RUS": "Покойся с миром, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))].",
+    "POL": "Niech [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))] spoczywa w pokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1010.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[host.GetShortUINamePossessiveNoTooltip] [activity|E] has been canceled",
+    "RUS": "[Concept( 'activity', 'Занятие' )|E] [Select_CString(host.IsLocalPlayer, '', 'персонажа ' )][host.GetShortUINamePossessiveNoTooltip][Select_CString(host.IsLocalPlayer, 'его персонажа', '' )] отменяется",
+    "POL": "[activity|E] osoby znanej jako [host.GetShortUINameNotMeNoTooltip] została anulowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.1011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "My liege, [host.GetNameRegnal], has shed [host.GetHerHis] mortal coil whilst touring the realm. Tragically, [host.GetSheHe] [host.GetDeathReason].\\n\\nThe rest of the Tour has been canceled as [host.GetFirstNamePossessiveNoTooltip] entourage begins their mournful journey home, bearing [host.GetHerHis] body to its final resting place.",
+    "RUS": "К сожалению, [host.GetNameRegnal], [Select_CString(host.IsFemale, 'мой сюзерен, покинула', 'мой сюзерен, покинул' )] этот мир во время объезда своих владений. Причина смерти: [host.GetDeathReason].\\n\\nНа этом поездка завершена. [host.GetFirstNameNoTooltip] в сопровождении свиты отправится в последний путь.",
+    "POL": "Mój senior, który był znany pod imieniem [host.GetNameRegnal], zrzucił z siebie ziemską powłokę podczas zwiedzania państwa. Osoba ta tragicznie [host.GetDeathReason].\\n\\nPozostałą część podróży anulowano, ponieważ świta osoby o imieniu [host.GetFirstNameNoTooltip] rozpoczyna ponurą podróż do domu, wioząc [host.Custom('PL_jego_jej')] ciało do miejsca ostatecznego spoczynku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "War Waits for No [ROOT.Char.GetWomanMan|U]",
+    "RUS": "Война не ждет",
+    "POL": "Nikt nie ucieknie przed wojną",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.desc.intro.traveling",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The blaring of war horns have reached me even here in [target_activity_location.GetName] as I am en route to attend my [target_activity_type.GetNameNoTooltip] in [target_activity_location.GetName]. ",
+    "RUS": "Звук рогов, зовущий на войну, долетел даже сюда, в место под названием [target_activity_location.GetName]. Здесь я нахожусь по пути на мероприятие [target_activity_type.GetNameNoTooltip], которое должно состояться в месте [target_activity_location.GetName]. ",
+    "POL": "Ryk trąb wojennych dociera do mnie nawet tutaj, w miejscu o nazwie [target_activity_location.GetName], gdy jestem w drodze do miejsca o nazwie [target_activity_location.GetName], aby wziąć udział w aktywności znanej jako [target_activity_type.GetNameNoTooltip]. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.desc.intro.activity",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The blaring of war horns have reached me even here in [target_activity_location.GetName] as I am in the midst of hosting a [target_activity_type.GetNameNoTooltip]. ",
+    "RUS": "Звук рогов, зовущий на войну, долетел даже сюда, в место под названием [target_activity_location.GetName], где мной проводится [target_activity_type.GetNameNoTooltip]. ",
+    "POL": "Ryk trąb wojennych dociera do mnie nawet tutaj, w miejscu o nazwie [target_activity_location.GetName], gdzie jestem gospodarzem aktywności znanej jako [target_activity_type.GetNameNoTooltip]. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.desc.attacker",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I have joined in the fight against [war_opponent.GetNameRegnal|U].",
+    "RUS": "Я вступаю в войну против персонажа [war_opponent.GetNameRegnal|U].",
+    "POL": "Dołączam do walki przeciwko osobie znanej jako [war_opponent.GetNameRegnal].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.desc.defender",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "That [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal|U] has declared war against me!\\n\\n",
+    "RUS": "[Select_CString(war_opponent.IsFemale, 'Эта', 'Этот' )] [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal|U] [Select_CString(war_opponent.IsFemale, 'объявила', 'объявил' )] мне войну!\\n\\n",
+    "POL": "[war_opponent.Custom2('InsultNoun', ROOT.Char)|U] [war_opponent.GetNameRegnal] wypowiada mi wojnę!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Much planning has gone into preparing to host this [target_activity_type.GetNameNoTooltip] and I am loathe to send my guests home. The importance of this conflict should not be underestimated, however.\\n\\nPerhaps it would be best to focus all my efforts on preparing for war...",
+    "RUS": "На подготовку к мероприятию [target_activity_type.GetNameNoTooltip] потрачено много сил и средств, и мне очень не хочется отправлять гостей по домам. Однако нельзя недооценивать важность этого противостояния.\\n\\nВозможно, мне следует сосредоточиться на войне...",
+    "POL": "Wiele wysiłku trzeba było włożyć, aby zorganizować aktywność znaną jako [target_activity_type.GetNameNoTooltip]. Nie można jednak lekceważyć znaczenia tego konfliktu.\\n\\nByć może najlepszym wyjściem jest skupienie się na przygotowaniach do wojny…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I can manage things from here.",
+    "RUS": "Дальше я разберусь самостоятельно.",
+    "POL": "Mogę zarządzać sprawami, będąc tutaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The [target_activity_type.GetNameNoTooltip] will continue",
+    "RUS": "[target_activity_type.GetNameNoTooltip] продолжится",
+    "POL": "Aktywność znana jako [target_activity_type.GetNameNoTooltip] będzie trwać",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "This war requires my full attention.",
+    "RUS": "Мне нужно сосредоточиться на этой войне.",
+    "POL": "Wojna wymaga mojej pełnej uwagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The [target_activity_type.GetNameNoTooltip] will be canceled and all attendees will begin traveling home",
+    "RUS": "[target_activity_type.GetNameNoTooltip] отменяется, и все участники отправятся по домам",
+    "POL": "Aktywność znana jako [target_activity_type.GetNameNoTooltip|l] zostanie odwołana, a wszyscy goście wrócą do domów",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0300.b.tt.cost",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Some costs may be recouped",
+    "RUS": "Часть расходов, возможно, будет возмещена",
+    "POL": "Można odzyskać część kosztów",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[target_activity_type.GetNameNoTooltip] Canceled",
+    "RUS": "[target_activity_type.GetNameNoTooltip]: отмена",
+    "POL": "[target_activity_type.GetNameNoTooltip] – odwołanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0301.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "#EMP ",
+    "RUS": "#EMP «На войну! На войну!»#! — кричат [knights|l] персонажа [target_activity_host.GetTitledFirstNamePossessive], с грохотом проезжая мимо. Их рога ревут, их знамена сверкают на фоне неба.\\n\\nПохоже, [Select_CString(war_opponent.IsFemale, 'эта', 'этот' )][war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal] совсем не думает о том, что сейчас проводится [target_activity_type.GetNameNoTooltip]! Мероприятие придется отменить, ведь [target_activity_host.GetTitleAsNameNoTooltip|l] собирает ополчение и молится, надеясь, что [target_activity_host.GetFaith.WarGodName] дарует нам победу.\\n\\n[target_activity_type.GetNameNoTooltip] дело достойное и благородное, но призыв на битву слышен громче всего.",
+    "POL": "#EMP – Na wojnę! Na wojnę!#! – krzyczą [knights|El] osoby, którą jest [target_activity_host.GetTitledFirstName], gdy mijają nas zamaszystym krokiem, z ryczącymi trąbami i sztandarami błyszczącymi na tle nieba.\\n\\nWygląda na to, że ta gnida, [war_opponent.GetNameRegnal], nie ma poszanowania dla naszego wydarzenia znanego jako [target_activity_type.GetNameNoTooltip|l]! Trzeba je anulować, ponieważ [target_activity_host.GetTitleAsNameNoTooltip] wzywa swoje wojska i modli się do [target_activity_host.GetFaith.WarGodNamePossessive] o zwycięstwo.\\n\\n[target_activity_type.GetNameNoTooltip|U] to szlachetna i godna forma rozrywki, lecz wezwanie do walki jest istotniejsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0301.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "What a travesty...",
+    "RUS": "Какой фарс...",
+    "POL": "Co za farsa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0310.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The blaring of the war horns have reached me here in [target_activity_location.GetName] as I am attending [target_activity_host.GetNamePossessive|U] [target_activity_type.GetNameNoTooltip].\\n\\n",
+    "RUS": "Звук рогов, зовущий на войну, долетел даже до местечка под названием [target_activity_location.GetName]. Причина моего появления здесь — [target_activity_type.GetNameNoTooltip|l], что устраивает [target_activity_host.GetName].\\n\\n",
+    "POL": "Ryk trąb wojennych dociera do mnie nawet tutaj, w miejscu o nazwie [target_activity_location.GetName], gdy biorę udział w wydarzeniu, którym jest [target_activity_type.GetNameNoTooltip|l], zorganizowanym przez osobę znaną jako [target_activity_host.GetName].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0310.desc.primary_defender",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "The vile [attacker.GetTitledFirstName|U] has declared war on me!",
+    "RUS": "Воспользовавшись моим отсутствием, [Select_CString(attacker.IsFemale, 'подлая', 'подлый' )] [attacker.GetTitledFirstName] [Select_CString(attacker.IsFemale, 'объявила', 'объявил' )] мне войну!",
+    "POL": "Ta gnida, [attacker.GetTitledFirstName], wypowiedziała mi wojnę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0310.desc.random_defender",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I have been summoned to aid in the war between [attacker.GetTitledFirstName|U] and [defender.GetTitledFirstName|U].",
+    "RUS": "Как оказалось, [attacker.GetTitledFirstName] и [defender.GetTitledFirstName] вступили в войну, и теперь меня призывают принять в ней участие.",
+    "POL": "Wezwano mnie do udzielenia wsparcia w wojnie pomiędzy osobami znanymi jako [attacker.GetTitledFirstName] i [defender.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0310.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "You continue participating in the [target_activity_type.GetNameNoTooltip]",
+    "RUS": "Вы продолжаете участвовать в занятии [target_activity_type.GetNameNoTooltip]",
+    "POL": "Nie przerywaj udziału w wydarzeniu znanym jako [target_activity_type.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0310.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "You leave the [target_activity_type.GetNameNoTooltip] and begin traveling home",
+    "RUS": "Вы прекращаете участвовать в занятии [target_activity_type.GetNameNoTooltip] и отправляетесь домой",
+    "POL": "Opuszczasz wydarzenie znane jako [target_activity_type.GetNameNoTooltip] i udajesz się do domu",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0320.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "An Unexpected Conclusion",
+    "RUS": "Неожиданный исход",
+    "POL": "Nieoczekiwane zakończenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0320.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Our host, [host.GetName], has lost [host.GetHerHis] landed possessions and so the [activity_type.GetNameNoTooltip()] has come to an untimely end.\\n\\nThis is certainly not how I expected this affair to conclude after all the fanfare of invitations and buildup. I suppose all that is left is for my entourage and I to return home to [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]...",
+    "RUS": "Наш устроитель [host.GetName] [Select_CString(host.IsFemale, 'утратила', 'утратил' )] контроль над землями, так что [activity_type.GetNameNoTooltip()] отменяется.\\n\\nКонечно, никто не ожидал такого развития событий — после таких-то помпезных обещаний и приготовлений… Что ж, придется мне со свитой возвращаться домой. Открывай ворота, [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]…",
+    "POL": "Nasz gospodarz, [host.GetName], traci kontrolę nad posiadłościami ziemskimi, dlatego należy przedwcześnie zakończyć wydarzenie znane jako [activity_type.GetNameNoTooltip].\\n\\nZ pewnością nie można było spodziewać się takiego zakończenia tej sprawy po wszystkich fanfarach związanych z zaproszeniami i przygotowaniami. Chyba nie pozostało nic innego, jak tylko zebrać swoją świtę i wrócić do domu w miejscu o nazwie [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0320.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "What's done is done.",
+    "RUS": "Что сделано, то сделано",
+    "POL": "Co się stało, to się nie odstanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0330.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Incapable",
+    "RUS": "Недееспособность",
+    "POL": "Nieudolność",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0330.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I have been deemed incapable and am seen as entirely unfit to manage my own affairs, including my [activity_type.GetNameNoTooltip()]!\\n\\n",
+    "RUS": "Меня признали [Select_CString(ROOT.Char.IsFemale, 'недееспособной', 'недееспособным' )] и отстранили от принятия любых решений! Ни [activity_type.GetNameNoTooltip()], ни другие дела — ничего этого у меня больше не будет…\\n\\n",
+    "POL": "Uznano mnie za osobę nieudolną i całkowicie niezdolną do zarządzania własnymi sprawami, w tym wydarzeniem znanym jako [activity_type.GetNameNoTooltip]!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0330.desc.memory",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Alas, [incapable_memory.GetDescription].\\n\\n",
+    "RUS": "Увы, [incapable_memory.GetDescription]…\\n\\n",
+    "POL": "Niestety, [incapable_memory.GetDescription].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0330.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "There is nothing left to do but return home to [home.GetName].",
+    "RUS": "Придется возвращаться домой, во владение [home.GetName].",
+    "POL": "Nie pozostaje nic innego, jak tylko wrócić do domu w miejscu o nazwie [home.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0330.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "May my guests make it home safely.",
+    "RUS": "Надеюсь, гости вернутся по домам без приключений.",
+    "POL": "Oby moi goście bezpiecznie dotarli do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0331.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Incapable",
+    "RUS": "Недееспособность",
+    "POL": "Nieudolność",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0331.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Our host, [host.GetName], have been deemed incapable by those around [host.GetHerHim] and is seen as entirely unfit to manage [host.GetHerHis] own affairs, including [host.GetHerHis] [activity_type.GetNameNoTooltip()]!\\n\\nAlas, we must all return home empty-handed. ",
+    "RUS": "Кажется, [activity_type.GetNameNoTooltip()] отменяется. Наш устроитель, [host.GetName], [Select_CString(host.IsFemale, 'объявлена недееспособной', 'объявлен недееспособным' )] и [Select_CString(host.IsFemale, 'отстранена', 'отстранен' )] от дел своим окружением.\\n\\nМы возвращаемся домой несолоно хлебавши. ",
+    "POL": "Nasz gospodarz, [host.GetName], został uznany przez ludzi w [host.Custom('PL_jego_jej')] otoczeniu za osobę nieudolną i całkowicie niezdolną do zarządzania własnymi sprawami, w tym wydarzeniem znanym jako [activity_type.GetNameNoTooltip]!\\n\\nMusimy niestety wrócić do domu z pustymi rękami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0331.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "What a shame.",
+    "RUS": "Какая досада.",
+    "POL": "Ogromna szkoda.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Running Behind Schedule",
+    "RUS": "Опоздание",
+    "POL": "Opóźnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.desc_leader",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "When [travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)] approaches me with a mixture of shame and worry written all over [travel_leader.GetHerHis] face, I know [travel_leader.GetSheHe] bears bad news.\\n\\n",
+    "RUS": "Когда [travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)] подходит ко мне со смесью стыда и тревоги на лице, я понимаю, меня ждут дурные вести.\\n\\n«С прискорбием сообщаю, что мы опаздываем примерно на [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], и, возможно, мы не сумеем достичь цели вовремя».",
+    "POL": "Gdy [travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)] przychodzi do mnie z mieszanką wstydu i zmartwienia wypisaną na twarzy, wiem, że przynosi  złe wieści.\\n\\n– Niech mnie [ROOT.Char.GetTitleAsNameNoTooltip] wysłucha. Z przykrością donoszę, że mamy opóźnienie o około [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)], i nie dotrzemy na miejsce na czas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.desc_no_leader",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I keep evaluating the sky and all the maps I own, but it's clear that the math doesn't check out.\\n\\nWe are running behind schedule by about [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)] and, if we keep moving at the current speed along the current itinerary, we won't make it to the destination in time.",
+    "RUS": "Я продолжаю изучать небо и карты, но мне и так ясно, что числа не сходятся.\\n\\nМы опаздываем примерно на [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)] и, если мы продолжим двигаться с той же скоростью по тому же пути, мы не достигнем цели вовремя».",
+    "POL": "Raz po raz badam niebo i wszystkie mapy, które posiadam, lecz jasne jest, że obliczenia się nie zgadzają.\\n\\nMamy opóźnienie o około [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)], i jeśli nadal będziemy pokonywać obecną trasę z taką prędkością, nie dotrzemy na miejsce na czas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Let's hurry.",
+    "RUS": "Давайте поспешим.",
+    "POL": "Pośpieszmy się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "You hope to pick up speed along the way",
+    "RUS": "Вы надеетесь ускориться по дороге",
+    "POL": "Masz nadzieję, że w drodze nabierzecie tempa",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0400.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "It's not really worth it.",
+    "RUS": "Оно того не стоит.",
+    "POL": "To nie ma sensu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0401.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Too Late",
+    "RUS": "Слишком поздно",
+    "POL": "Spóźnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0401.desc_leader",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a grim look on [travel_leader.GetHerHis] face.\\n\\n",
+    "RUS": "[travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] подходит ко мне с мрачным выражением на лице.\\n\\n«Мне неприятно сообщать вам об этом, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]. Действо уже началось, и мы не успели».",
+    "POL": "[travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie, a [travel_leader.Custom('PL_jego_jej')] twarz wygląda ponuro.\\n\\n– Niech mnie [ROOT.Char.GetTitleAsNameNoTooltip] wysłucha. Z przykrością donoszę, że nie dotarliśmy na czas. Aktywność rozpoczęła się dzisiaj, a my się spóźniliśmy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0401.desc_no_leader",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Today is the day. The activity started today, but despite my best efforts we are simply not there for it.\\n\\nThere's nothing left to do but turning around and heading back home.",
+    "RUS": "Начало сегодня. Действо началось сегодня, но, несмотря на все мои усилия, мы просто не успели.\\n\\nНам остается лишь развернуться и отправиться домой.",
+    "POL": "Nadszedł ten dzień. Aktywność rozpoczęła się dzisiaj, lecz pomimo moich najlepszych starań nie ma nas na miejscu.\\n\\nNie pozostaje nic innego, jak zawrócić i wrócić do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0401.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Disappointing.",
+    "RUS": "Разочарование.",
+    "POL": "Co za rozczarowanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_ACTIVITY_DECISION_TITLE",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "#D Select Activity Type#!",
+    "RUS": "#D Выбрать тип занятия#!",
+    "POL": "#D Wybierz rodzaj aktywności#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_ACTIVITY_DECISION_NEXT_STEP_BUTTON",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$SELECT_ACTIVITY_DECISION_TITLE$",
+    "RUS": "$SELECT_ACTIVITY_DECISION_TITLE$",
+    "POL": "$SELECT_ACTIVITY_DECISION_TITLE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_tournament",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_tournament$",
+    "RUS": "$activity_tournament$",
+    "POL": "$activity_tournament$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_tournament_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_tournament$",
+    "RUS": "$activity_tournament$",
+    "POL": "$activity_tournament$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_wedding$",
+    "RUS": "$activity_wedding$",
+    "POL": "$activity_wedding$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_wedding_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_wedding$",
+    "RUS": "$activity_wedding$",
+    "POL": "$activity_wedding$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_tour",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_tour$",
+    "RUS": "$activity_tour$",
+    "POL": "$activity_tour$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_grand_activity_option_tour_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_tour$",
+    "RUS": "$activity_tour$",
+    "POL": "$activity_tour$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_feast",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_feast$",
+    "RUS": "$activity_feast$",
+    "POL": "$activity_feast$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_feast_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_feast$",
+    "RUS": "$activity_feast$",
+    "POL": "$activity_feast$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_hunt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_hunt$",
+    "RUS": "$activity_hunt$",
+    "POL": "$activity_hunt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_hunt_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_hunt$",
+    "RUS": "$activity_hunt$",
+    "POL": "$activity_hunt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_pilgrimage",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_pilgrimage$",
+    "RUS": "$activity_pilgrimage$",
+    "POL": "$activity_pilgrimage$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_pilgrimage_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_pilgrimage$",
+    "RUS": "$activity_pilgrimage$",
+    "POL": "$activity_pilgrimage$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_play_date",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_playdate$",
+    "RUS": "$activity_playdate$",
+    "POL": "$activity_playdate$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_play_date_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_playdate$",
+    "RUS": "$activity_playdate$",
+    "POL": "$activity_playdate$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_witch_ritual",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_witch_ritual$",
+    "RUS": "$activity_witch_ritual$",
+    "POL": "$activity_witch_ritual$",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_standard_activity_option_witch_ritual_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "$activity_witch_ritual$",
+    "RUS": "$activity_witch_ritual$",
+    "POL": "$activity_witch_ritual$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0500.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A Grim End",
+    "RUS": "Печальный конец",
+    "POL": "Ponury koniec",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0500.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I have received the news that our host, [host.GetNameNoTooltip], has passed away. Due to these unforeseen circumstances, [host.GetHerHis] activity has been canceled.",
+    "RUS": "До меня дошла весть: [host.GetNameNoTooltip] [Select_CString(host.IsFemale, 'скончалась', 'скончался')]. Из-за этого организованное [Select_CString(host.IsFemale, 'ею', 'им')] мероприятие отменяется.",
+    "POL": "Otrzymuję wiadomość, że nasz gospodarz, [host.GetNameNoTooltip], nie żyje. Z powodu tych nieprzewidzianych okoliczności organizowane przez niego wydarzenie musi zostać odwołane.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0500.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A tragedy, truly.",
+    "RUS": "Настоящая трагедия.",
+    "POL": "Prawdziwa tragedia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0501.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "A Soul Departed",
+    "RUS": "Внезапная кончина",
+    "POL": "Dusza, która odeszła",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0501.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Clamor rings out all across the examination hall. Scholars and monks alike rush to and fro. A crowd gathers in the courtyard, and from it comes the sound of weeping.\\n\\nThe [ROOT.Char.GetTopLiege.Custom('GetDaughterSon')] of Heaven is dead.",
+    "RUS": "По залу для экзаменов разносится тревожный гомон, повсюду в смятении мечутся монахи и ученые мужи. собирается толпа, отовсюду доносятся звуки рыданий.\\n\\n[ROOT.Char.GetTopLiege.Custom('GetDaughterSon')] Небес [Select_CString(ROOT.Char.GetTopLiege.IsFemale, 'скончалась', 'скончался' )].",
+    "POL": "Wrzawa wstrząsa całą salą egzaminacyjną. Uczeni i mnisi biegają w popłochu, krążąc bezładnie tam i z powrotem. Na dziedzińcu gromadzi się tłum szlochających ludzi.\\n\\n[ROOT.Char.GetTopLiege.Custom('GetDaughterSon')|U] niebios nie żyje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0501.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I cannot believe it...",
+    "RUS": "Поверить не могу...",
+    "POL": "Nie mogę w to uwierzyć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0550.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Foiled Plans",
+    "RUS": "Испорченные планы",
+    "POL": "Udaremnione plany",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0550.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Due to my sudden and unforeseen imprisonment, I find myself unable to continue taking part in my activity, and it has to be cancelled.\\n\\nAll the time I spent planning...",
+    "RUS": "Из-за того, что меня внезапно заточили в темницу, мероприятие продолжаться не может. Всё отменяется.\\n\\nА ведь мы столько готовились…",
+    "POL": "Z powodu mojego nagłego i nieprzewidzianego uwięzienia nie mogę dłużej brać udziału w organizowanym przeze mnie wydarzeniu i dlatego należy je odwołać.\\n\\nTyle czasu poświęconego na planowanie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0550.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "This was not a part of my plan...",
+    "RUS": "Это не входило в мои планы...",
+    "POL": "Tego nie było w planach…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0551.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Host Imprisonment",
+    "RUS": "Устроитель в тюрьме",
+    "POL": "Uwięzienie gospodarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0551.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Due to the sudden and unforeseen imprisonment of my host, [host.GetNameNoTooltip], the activity I was taking part in has been cancelled.",
+    "RUS": "Мероприятие, в котором я участвую, отменяется, так как его организатор, [host.GetNameNoTooltip], [Select_CString(host.IsFemale, 'угодила', 'угодил')] в темницу. Кто бы мог представить…",
+    "POL": "Z powodu nagłego i nieprzewidzianego uwięzienia mojego gospodarza, którym jest [host.GetNameNoTooltip], wydarzenie, w którym biorę udział, zostało odwołane.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0551.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Time to look homewards.",
+    "RUS": "Пора поворачивать домой.",
+    "POL": "Czas wracać do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0552.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Challenge Unheeded",
+    "RUS": "Неотвеченное испытание",
+    "POL": "Zignorowane wyzwanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0552.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "What is the meaning of this? It appears as if no other movement is willing to rise to the challenge of the [GetPlayer.Custom('GetMyMovementNoTooltip')].\\n\\nWith no one to debate against, the debate has been cancelled.",
+    "RUS": "Как это понимать? Похоже, ни одно другое движение не желает бросить вызов движению «[GetPlayer.Custom('GetMyMovementNoTooltip')]».\\n\\nДискутировать не с кем, и дебаты пришлось отменить.",
+    "POL": "Co to właściwie oznacza? Wygląda na to, że żaden inny ruch nie zdecydował się podjąć wyzwania rzuconego przez ruch o nazwie [GetPlayer.Custom('GetMyMovementNoTooltip')].\\n\\nWobec braku przeciwnika do dyskusji debata została oficjalnie odwołana.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0552.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "Until next time...",
+    "RUS": "До следующего раза…",
+    "POL": "Do następnego razu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0554.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "[host.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[host.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[host.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0554.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I must accept this challenge.",
+    "RUS": "Я не могу не принять этот вызов.",
+    "POL": "Muszę przyjąć to wyzwanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_system.0554.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/activity_system_l_belarusian.json",
+    "ENG": "I will think of a convenient excuse.",
+    "RUS": "Я поищу убедительное оправдание.",
+    "POL": "Wymyślę odpowiednią wymówkę.",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "KEY": "offer_tributary_status_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Embrace as Tributary",
+    "RUS": "Принять в качестве данника",
+    "POL": "Przyjmij jako trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Request that [recipient.GetShortUINameNoTooltip] becomes your [tributary|E]",
+    "RUS": "Предложить, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'стала', 'стал')] вашим [Concept('tributary', 'данником')|E]",
+    "POL": "Poproś, aby osoba znana jako [recipient.GetShortUINameNotMeNoTooltip] została twoim [Concept('tributary', 'trybutariuszem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_cooldown_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "You will not be able to repeat your request that [recipient.GetShortUINameNoTooltip] become your $game_concept_tributary$ for several years",
+    "RUS": "Повторно предложить, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'стала', 'стал')] вашим данником, можно будет только через несколько лет",
+    "POL": "Na kilka lat utracisz możliwość proszenia o to, aby osoba znana jako [recipient.GetShortUINameNotMeNoTooltip] została twoim trybutariuszem",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_cooldown_active_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] is still disgruntled from the last time you requested [recipient.GetSheHe] become your $game_concept_tributary$",
+    "RUS": "[recipient.GetShortUINameNoTooltip] до сих пор [Select_CString(recipient.IsFemale, 'недовольна', 'недоволен')] из-за предложения стать вашим данником",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] wciąż odczuwa rozczarowanie twoją ostatnią prośbą, by zostać twoim trybutariuszem",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_tributary_was_recently_subjugated",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] was recently subjugated by [recipient.GetHerHis] [suzerain|E]",
+    "RUS": "[recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsLocalPlayer, 'были недавно подчинены', Select_CString(recipient.IsFemale, 'была недавно подчинена', 'был недавно подчинен' ))] своим [Concept('suzerain', 'повелителем')|E]",
+    "POL": "[suzerain|E] niedawno podporządkował sobie osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_warred_cooldown_active_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] is still intimidated from last time they tried to join you as a $game_concept_tributary$",
+    "RUS": "[recipient.GetShortUINameNoTooltip] всё еще [Select_CString(recipient.IsFemale, 'напугана', 'напуган')] с прошлой попытки стать вашим данником",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] wciąż czuje strach od czasu ostatniej próby dołączenia do ciebie w roli trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_cant_use_tributaries_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUINamePossessive|U] [government|E] type does not allow [tributaries|E]",
+    "RUS": "Тип [Concept('government', 'правительства')|E] [Select_CString(actor.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',actor.GetShortUIName))] не позволяет [Concept('tributaries', 'данников')|E]",
+    "POL": "[government|E] osoby znanej jako [actor.GetShortUINameNotMe] nie uznaje posiadania [Concept('tributaries', 'trybutariuszy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_suzerain_intervene.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive|U] [suzerain|E] intervenes",
+    "RUS": "[Concept('suzerain', 'Повелитель')|E] [Select_CString(recipient.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', recipient.GetShortUIName))] решает вмешаться",
+    "POL": "[suzerain|E] osoby znanej jako [recipient.GetShortUINameNotMe] interweniuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_suzerain_starts_war_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U] starts a war against [recipient.GetShortUIName] with the [GetCasusBelliType('make_tributary_cb').GetName] [casus_belli|E]#!",
+    "RUS": "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUIName|U] [Select_CString(recipient.GetSuzerain.IsLocalPlayer, 'начинаете', 'начинает' )] войну против [Select_CString(recipient.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', recipient.GetShortUIName))] с [Concept('casus_belli', 'казус белли')|E] «[GetCasusBelliType('make_tributary_cb').GetName]»#!",
+    "POL": "@alert_icon! #alert_trial [recipient.GetSuzerain.GetShortUINameNotMe] rozpoczyna wojnę przeciwko osobie, którą jest [recipient.GetShortUINameNotMe], przy użyciu [casus_belli|El] „[GetCasusBelliType('make_tributary_cb').GetName]”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "offer_tributary_status_interaction_suzerain_nothing.t",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINamePossessive|U] [suzerain|E] does nothing",
+    "RUS": "[Concept('suzerain', 'Повелитель')|E] [Select_CString(recipient.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', recipient.GetShortUIName))] решает ничего не делать",
+    "POL": "[suzerain|E] osoby znanej jako [recipient.GetShortUINameNotMe] nie reaguje",
+    "BEL": ""
+  },
+  {
+    "KEY": "accepted_tributary_status_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Accepted Tributary Offer",
+    "RUS": "Принятое предложение стать данником",
+    "POL": "Przyjmuje ofertę zostania trybutariuszem",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_request_denied_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Disapproved Tributary Offer",
+    "RUS": "Отклоненное предложение стать данником",
+    "POL": "Odrzuca ofertę zostania trybutariuszem",
+    "BEL": ""
+  },
+  {
+    "KEY": "warred_into_submission_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Warred into Submission",
+    "RUS": "Подчинение в ходе войны",
+    "POL": "Postać zmuszona do podporządkowania się",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Reassert Tributary",
+    "RUS": "Укрепить статус данника",
+    "POL": "Przywróć trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Attempt to coerce [recipient.GetShortUIName] to remain your [tributary|E] for another #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! months",
+    "RUS": "Попытаться сделать так, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'была вынуждена', 'был вынужден')] оставаться вашим [Concept('tributary', 'данником')|E] еще #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! мес.",
+    "POL": "Spróbuj wymusić na osobie, którą jest [recipient.GetShortUINameNotMe], by została twoim [Concept('tributary', 'trybutariuszem')|E] na kolejne kilka miesięcy #V ([EmptyScope.ScriptValue('reassert_stickiness_months')])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction_cooldown_active_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "You recently tried to Reassert this [tributary|E]",
+    "RUS": "Вы недавно пытались укрепить статус этого [Concept('tributary', 'данника')|E]",
+    "POL": "W ostatnim czasie podjęto próby przywrócenia tego [Concept('tributary', 'trybutariusza')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction_effect_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName] will be unable to $cease_paying_tribute_interaction$ for the next #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! months",
+    "RUS": "[recipient.GetShortUIName] не сможет $cease_paying_tribute_interaction|l$ в течение следующих #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! мес.",
+    "POL": "[recipient.GetShortUINameNotMe] nie będzie w stanie zaprzestać składania trybutu przez kolejne #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! mies.",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction_reasserted_recently_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName] has recently agreed to remain your [tributary|E] and can be coerced again [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'tributary_has_been_reasserted_recently') )] at the earliest",
+    "RUS": "[recipient.GetShortUIName] недавно уже [Select_CString(recipient.IsFemale, 'согласилась', 'согласился')] оставаться вашим [Concept('tributary', 'данником')|E], и в следующий раз это можно будет повторить [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'tributary_has_been_reasserted_recently') )]",
+    "POL": "[recipient.GetShortUINameNotMe] od niedawna jest twoim [Concept('tributary', 'trybutariuszem')|E] i ponownie można [recipient.Custom('PL_go_ja')] do tego zmusić dopiero w następującym terminie: [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'tributary_has_been_reasserted_recently') )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassert_tributary_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "@unspent_strong_hook_icon!You can use your [strong_hook|E] to make them accept",
+    "RUS": "@unspent_strong_hook_icon!Используйте ваше [Concept('strong_hook', 'сильное влияние')|E], чтобы добиться согласия",
+    "POL": "@unspent_strong_hook_icon! Możesz wykorzystać [strong_hook|El], aby zmusić [recipient.Custom('PL_go_ja')] do akceptacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "reduce_obligation_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "You promise reduced obligations to make your argument",
+    "RUS": "Вы обещаете избавить данника от некоторых обязательств",
+    "POL": "Aby przekonać innych, obiecujesz zmniejszenie zobowiązań",
+    "BEL": ""
+  },
+  {
+    "KEY": "PAY_PIETY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Leverage [piety_i] [piety|E]",
+    "RUS": "Использовать своё [piety_i] [Concept('piety', 'благочестие')|E] себе на благо",
+    "POL": "Wykorzystaj [piety_i] [piety|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pay_piety_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "You spend [piety_i] to make your case",
+    "RUS": "Вы расходуете [piety_i], чтобы убедить данника",
+    "POL": "Wykorzystujesz [piety_i], aby przekonać innych",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_dread_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "You leverage [dread_i] to make your case",
+    "RUS": "Вы пытаетесь [dread_i] запугать данника, чтобы его убедить",
+    "POL": "Wykorzystujesz [dread_i], aby przekonać innych",
+    "BEL": ""
+  },
+  {
+    "KEY": "reassertion_request_denied_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Failed Tributary Coercion",
+    "RUS": "Неудачное принуждение к дани",
+    "POL": "Próba przymuszenia do bycia trybutariuszem zakończona niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "intimidated_tributary_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Intimidated Me",
+    "RUS": "Меня запугивали",
+    "POL": "Zastraszono mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_mandala",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Mandala Tributary",
+    "RUS": "Данник мандалы",
+    "POL": "Trybutariusz mandalowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_mandala_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A Mandala [tributary|E] provides their [suzerain|E] with [gold|E], [levies|E] or even [piety|E] on a regular basis. The [tributary_contract|E] is inherited upon succession.\\n\\n$tributary_mandala_common_desc$",
+    "RUS": "[Concept('tributary', 'Данник')|E] мандалы регулярно предоставляет [Concept('suzerain', 'повелителю')|E] [Concept('gold', 'золото')|E], [Concept('levies', 'ополчение')|E] или даже [Concept('piety', 'благочестие')|E]. [Concept('tributary_contract', 'Договор о дани')|E] переходит по наследству.\\n\\n$tributary_mandala_common_desc$",
+    "POL": "[tributary|E] mandalowy regularnie zaopatruje swojego [Concept('suzerain', 'suzerena')|E] w [gold|El] i oddziały [Concept('levies', 'pospolitego ruszenia')|E], a nawet zapewnia [piety|El]. [tributary_contract|E] dziedziczony jest podczas sukcesji.\\n\\n$tributary_mandala_common_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_mandala_tribal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Tribal Tributary",
+    "RUS": "Племенной данник",
+    "POL": "Trybutariusz plemienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_mandala_tribal_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A tribal Mandala [tributary|E] provides their [suzerain|E] with [gold|E], [levies|E] or even [prestige|E] on a regular basis. The [tributary_contract|E] is inherited upon succession.\\n\\n$tributary_mandala_common_desc$",
+    "RUS": "Племенной [Concept('tributary', 'данник')|E] мандалы регулярно предоставляет [Concept('suzerain', 'повелителю')|E] [Concept('gold', 'золото')|E], [Concept('levies', 'ополчение')|E] или даже [Concept('prestige', 'престиж')|E]. [Concept('tributary_contract', 'Договор о дани')|E] переходит по наследству.\\n\\n$tributary_mandala_common_desc$",
+    "POL": "Plemienny [tributary|El] mandalowy regularnie zaopatruje swojego [Concept('suzerain', 'suzerena')|E] w [gold|El] i oddziały [Concept('levies', 'pospolitego ruszenia')|E], a nawet zapewnia [prestige|El]. [tributary_contract|E] dziedziczony jest podczas sukcesji.\\n\\n$tributary_mandala_common_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_mandala_common_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "In exchange their [suzerain|E] will protect the Tributary, should they be attacked by external invaders.",
+    "RUS": "В обмен на это [Concept('suzerain', 'повелитель')|E] будет защищать данника, если на него кто-то нападет извне.",
+    "POL": "W zamian [suzerain|El] będzie bronić trybutariusza w razie ataku ze strony obcych najeźdźców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_wanua",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Wanua Tributary",
+    "RUS": "Данник вануа",
+    "POL": "Trybutariusz wanua",
+    "BEL": ""
+  },
+  {
+    "KEY": "tributary_wanua_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A [wanua|E] [tributary|E] provides their [suzerain|E] with [gold|E], [prestige|E] or even [barter_goods|E] on a regular basis. The [tributary_contract|E] is inherited upon succession.",
+    "RUS": "[Concept('tributary', 'Данник')|E] [Concept('wanua', 'вануа')|E] регулярно предоставляет [Concept('suzerain', 'повелителю')|E] [Concept('gold', 'золото')|E], [Concept('prestige', 'престиж')|E] или даже [Concept('barter_goods', 'меновые товары')|E]. [Concept('tributary_contract', 'Договор о дани')|E] переходит по наследству.",
+    "POL": "[tributary|E] [wanua|El] regularnie zapewnia swojemu [Concept('suzerain', 'suzerenowi')|E] [gold|El], [prestige|El], a nawet [barter_goods|El]. [tributary_contract|E] dziedziczony jest podczas sukcesji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "wasted_our_efforts",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Wasted our efforts",
+    "RUS": "Пустая трата сил",
+    "POL": "Zmarnowane wysiłki",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Send Missionary",
+    "RUS": "Отправить миссионера",
+    "POL": "Wyślij misjonarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A devoted missionary from your realm arrives at the court of [recipient.GetShortUIName], who may convert your [tributary|E] to your [faith|E] or generate [piety|E] for you from dealings with your tributary's court",
+    "RUS": "Ваш миссионер отправится ко двору вашего [Concept('tributary', 'данника')|E] по имени [recipient.GetShortUIName]. Он может попытаться обратить [Select_CString(recipient.IsLocalPlayer, 'ее', 'его' )] в вашу [Concept('faith', 'конфессию')|E] или повысить ваше [Concept('piety', 'благочестие')|E], совершая службу при дворе данника",
+    "POL": "Na dwór postaci znanej jako [recipient.GetShortUINameNotMe] przybywa z twojego państwa oddany misjonarz, który może nawrócić [Concept('tributary', 'trybutariusza')|E] na twoją [Concept('faith', 'wiarę')|E] lub zapewnić ci wzrost [Concept('piety', 'pobożności')|E] dzięki układom na dworze trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A [actor.GetCulture.GetNameNoTooltip] [actor.GetFaith.GetName] missionary will appear at the court of [recipient.GetName]",
+    "RUS": "#L [actor.GetCulture.GetCollectiveNounNoTooltip]ий#! #L [actor.GetFaith.GetName|l]ий#! миссионер прибудет ко двору персонажа [recipient.GetName]",
+    "POL": "Na dworze postaci znanej jako [recipient.GetName] pojawi się misjonarz. Wyznawana przez niego wiara to [actor.GetFaith.GetName|l] i reprezentuje on kulturę, którą jest kultura [actor.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary.success",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Missionary accepted by [recipient.GetShortUINamePossessive] court",
+    "RUS": "[Select_CString(recipient.IsLocalPlayer, '', 'Персонаж ' )][recipient.GetShortUINamePossessive][Select_CString(recipient.IsLocalPlayer, ' персонаж', '' )] принимает миссионера при своем дворе",
+    "POL": "Misjonarz został przyjęty na dworze postaci znanej jako [recipient.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction_fervor_gain_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[fervor|E] increases by #P 1#!",
+    "RUS": "[fervor|E] увеличивается на #P 1#!",
+    "POL": "Wartość [Concept('fervor', 'gorliwości')|E] zwiększa się o #P 1#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction_cheaper_conversion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "It will be cheaper to convert to the [suzerain|E]'s Faith as long as the missionary is present at the [tributary|E]'s court",
+    "RUS": "Пока при дворе [Concept('tributary', 'данника')|E] находится миссионер, его обращение в конфессию [Concept('suzerain', 'повелителя')|E] будет стоить дешевле",
+    "POL": "Dopóki misjonarz nie opuści dworu [Concept('tributary', 'trybutariusza')|E], koszt nawracania na wiarę [Concept('suzerain', 'suzerena')|E] będzie niższy",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary.failure",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Missionary rejected by [recipient.GetShortUINamePossessive] court",
+    "RUS": "[Select_CString(recipient.IsLocalPlayer, '', 'Персонаж ' )][recipient.GetShortUINamePossessive][Select_CString(recipient.IsLocalPlayer, ' персонаж', '' )] отказывается принимать миссионера при своем дворе",
+    "POL": "Misjonarz nie został przyjęty na dworze postaci znanej jako [recipient.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_mandala_send_missionary_interaction_fervor_loss_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[fervor|E] decreases by #N 1#!",
+    "RUS": "[fervor|E] уменьшается на #N 1#!",
+    "POL": "Wartość [Concept('fervor', 'gorliwości')|E] zmniejsza się o #N 1#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_MISSIONARY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Send Missionary",
+    "RUS": "Отправить миссионера",
+    "POL": "Wyślij misjonarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "turn_subject_into_mandala_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Invite to Become Mandala",
+    "RUS": "Предложить стать правителем мандалы",
+    "POL": "Zachęć do przekształcenia państwa w mandalę",
+    "BEL": ""
+  },
+  {
+    "KEY": "turn_subject_into_mandala_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Ask [recipient.GetShortUIName|U] to abandon [recipient.GetGovernment.GetAdjective] [government|E] and become a [GetGovernment('mandala_government').GetName] ruler",
+    "RUS": "Попросить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'отказалась', 'отказался' )] от [recipient.GetGovernment.GetAdjective|l]ого [Concept('government', 'правительства')|E], и стать правителем с типом правления «[GetGovernment('mandala_government').GetName]»",
+    "POL": "Poproś osobę, którą jest [recipient.GetShortUINameNotMe], aby zmieniła obecny rodzaj [Concept('government', 'rządu')|E] ([recipient.GetGovernment.GetName|l]) na [GetGovernment('mandala_government').GetName|l] i została jego władcą",
+    "BEL": ""
+  },
+  {
+    "KEY": "turn_subject_into_mandala_interaction_accept",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] Accepts Your Request",
+    "RUS": "[recipient.GetShortUINameNoTooltip] соглашается на вашу просьбу",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] akceptuje twoją prośbę",
+    "BEL": ""
+  },
+  {
+    "KEY": "turn_subject_into_mandala_interaction_refuse",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] Refuses Your Request",
+    "RUS": "[recipient.GetShortUINameNoTooltip] отклоняет вашу просьбу",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] odrzuca twoją prośbę",
+    "BEL": ""
+  },
+  {
+    "KEY": "turn_subject_into_mandala_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "$hook_extra_icon$",
+    "RUS": "$hook_extra_icon$",
+    "POL": "$hook_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "RUS": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "POL": "[recipient.Custom2('AppropriateGreetingPositive', actor)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "I am flattered that you would offer to reshape my [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip] realm in your image.",
+    "RUS": "Мне очень лестно, что вы желаете преобразовать мою [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ую державу по образу собственной.",
+    "POL": "pochlebia mi propozycja, by zmienić miejsce znane jako [recipient.GetPrimaryTitle.GetNameNoTooltip], którym rządzę, w państwo odpowiadające Twoim ideom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.favor",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "\\n\\nThough, I think I may have some trouble convincing others...",
+    "RUS": "\\n\\nНо боюсь, мне будет трудно убедить остальных членов двора в пользе этого предприятия…",
+    "POL": "\\n\\nObawiam się jednak, że przekonanie innych do tego pomysłu może nie być takie proste…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A god would be in your debt.",
+    "RUS": "Если ты согласишься, тебе непременно воздастся за это свыше.",
+    "POL": "Bóg byłby zobowiązany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "I have willed this, you would obstruct my decree?",
+    "RUS": "Неужели ты посмеешь отвергнуть мою просьбу?",
+    "POL": "Naprawdę sprzeciwisz się mojej woli?",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1001.gold",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps if I could show a token of your good will others would be as impressed...",
+    "RUS": "\\n\\nВозможно, мои придворные более охотно примут ваше предложение, если вы подкрепите его чем-то более осязаемым…",
+    "POL": "\\n\\nMoże oznaka dobrej woli z Twojej strony wywarłaby na innych podobne wrażenie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1002.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "As my servant you will be rewarded",
+    "RUS": "Я найду способ вознаградить своего верного слугу.",
+    "POL": "Otrzymasz nagrodę jako mój sługa",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[actor.Custom2('AppropriateGreetingPositive', recipient)]",
+    "RUS": "[actor.Custom2('AppropriateGreetingPositive', recipient)]",
+    "POL": "[actor.Custom2('AppropriateGreetingPositive', recipient)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "It is time for [recipient.GetPrimaryTitle.GetBaseNameNoTier] to  truly become part of the [actor.GetPrimaryTitle.GetAdjectiveNoTooltip] Mandala. I am offering you to rule as a [actor.GetPrimaryTitle.GetTierAsNameNoTooltip], vested with the full support of my priesthood.",
+    "RUS": "Настал тот момент, когда [recipient.GetPrimaryTitle.GetBaseNameNoTier] может стать полноценной частью [actor.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой мандалы. Я предлагаю тебе править, как [actor.GetPrimaryTitle.GetTierAsNameNoTooltip|l], пользуясь при этом полной поддержкой моих священников.",
+    "POL": "czas, by mandala – [actor.GetPrimaryTitle.GetNameNoTooltip] – wzbogaciła się o kolejny element: państwo znane jako [recipient.GetPrimaryTitle.GetBaseNameNoTier]. Proponuję Ci rządy jako [actor.GetPrimaryTitle.GetTierAsNameNoTooltip] z pełnym poparciem mego duchowieństwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.end",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "\\n\\nYou shall rule by my will, as one of my representatives on Earth.",
+    "RUS": "\\n\\nТак, ты станешь моим представителем на земле и будешь управлять державой от моего имени.",
+    "POL": "\\n\\nBędziesz rządzić zgodnie z moją wolą jako jeden z moich przedstawicieli na ziemi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.a",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Let it be known!",
+    "RUS": "Да будет так!",
+    "POL": "Niech wszyscy o tym usłyszą!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.b",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "As a favor to you, it will be done.",
+    "RUS": "Я приму это предложение, дабы исполнить свои обязательства перед вами.",
+    "POL": "Tak więc się stanie. Potraktuj to jako przysługę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.c",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "I shall require resources to carry this out.",
+    "RUS": "Для этого мне потребуются значительные средства.",
+    "POL": "Będę potrzebować do tego zasobów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1003.d",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "A ruler of [recipient.GetPrimaryTitle.GetBaseNameNoTierPossessiveNoTooltip] will not bow!",
+    "RUS": "Я не стану вам подчиняться!",
+    "POL": "Władca państwa znanego jako [recipient.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] się nie ugnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.accept_toast",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Demand Accepted",
+    "RUS": "Требование принято",
+    "POL": "Zaakceptowano żądanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.refuse_toast",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Demand Refused",
+    "RUS": "Требование отклонено",
+    "POL": "Odrzucono żądanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_east_asia_interaction_events.1000.force_toast",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Governorship Forced",
+    "RUS": "Губернаторство навязано",
+    "POL": "Narzucono gubernatorstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_mandala_interaction_vassal_refuses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] will not become a [mandala|E]",
+    "RUS": "[recipient.GetShortUIName] не [Select_CString(recipient.IsLocalPlayer, 'станете', 'станет' )] правителем [Concept('mandala', 'мандалы')|E]",
+    "POL": "[recipient.GetShortUINameNotMe] nie dołączy do [Concept('mandala', 'mandali')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "decommission_mandala_temple_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Decommission Temple",
+    "RUS": "Разобрать храм",
+    "POL": "Zlikwiduj świątynię",
+    "BEL": ""
+  },
+  {
+    "KEY": "decommission_mandala_temple_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Ask [recipient.GetShortUIName|U] to turn from [recipient.GetHerHis] falsehoods by decommissioning their #V [GetBuilding('mandala_capital_01').GetTypeName]#!",
+    "RUS": "Попросить, чтобы [recipient.GetShortUIName|U] [Select_CString(recipient.IsFemale, 'отказалась', 'отказался')] от своих ложных заблуждений, разобрав свой #V #TOOLTIP:BUILDING,mandala_capital_01 #L украшенный храм#!#!#!",
+    "POL": "Poproś osobę znaną jako [recipient.GetShortUINameNotMe] o porzucenie nieprawdy i zlikwidowanie swojej budowli, którą jest #V [GetBuilding('mandala_capital_01').GetTypeName|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "decommission_mandala_temple_interaction_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetNamePossessive] [GetBuilding('mandala_capital_01').GetTypeName] will become [ruined|E]",
+    "RUS": "#TOOLTIP:BUILDING,mandala_capital_01 #L Украшенный храм#!#!, которым владеет [recipient.GetName], будет [Concept('ruined','разрушен')|E]",
+    "POL": "Ta budowla osoby znanej jako [recipient.GetName] zostanie [ruined|El] – [GetBuilding('mandala_capital_01').GetTypeName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "decommission_mandala_temple_effect_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "The #V [GetBuilding('mandala_capital_01').GetTypeName]#! in [recipient.GetCapitalLocation.GetCounty.GetName] is [ruined|E]",
+    "RUS": "#V [GetBuilding('mandala_capital_01').GetTypeName]#! во владении [recipient.GetCapitalLocation.GetCounty.GetName] [Concept('ruined','разрушен')|E]",
+    "POL": "Ta budowla w miejscu znanym jako [recipient.GetCapitalLocation.GetCounty.GetName] została [ruined|El] – #V [GetBuilding('mandala_capital_01').GetTypeName|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "decommission_mandala_temple_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "$reassert_tributary_interaction_extra_icon$",
+    "RUS": "$reassert_tributary_interaction_extra_icon$",
+    "POL": "$reassert_tributary_interaction_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECOMMISSION_MANDALA_TEMPLE_INTERACTION_NOTIFICATION",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "I have noticed that you have a capital temple worshiping a false god at [recipient.GetCapitalLocation.GetCounty.GetName]. I request that you nullify this... oversight... swiftly and efficiently.",
+    "RUS": "До меня дошли сведения, что у вас во владении [recipient.GetCapitalLocation.GetCounty.GetName] есть столичный храм, где поклоняются ложному богу. Прошу вас покончить с этой... ошибкой... быстро и эффективно.",
+    "POL": "Widzę, że w miejscu znanym jako [recipient.GetCapitalLocation.GetCounty.GetName] masz stołeczną świątynię zbudowaną ku czci fałszywego boga. Proszę o szybkie i skuteczne usunięcie tego… niedopatrzenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ruined_my_temple_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_east_asia_interactions_l_belarusian.json",
+    "ENG": "Ruined My Mandala Temple",
+    "RUS": "Разрушили мой храм мандалы",
+    "POL": "Moja świątynia mandalowa jest zrujnowana",
+    "BEL": ""
+  }
+]

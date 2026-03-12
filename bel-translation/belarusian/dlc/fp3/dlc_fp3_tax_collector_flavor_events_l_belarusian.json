@@ -1,0 +1,322 @@
+[
+  {
+    "KEY": "fp3_clan.1000.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Worth More than Gold?",
+    "RUS": "Дороже золота?",
+    "POL": "Warte więcej niż złoto?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "My tax collector, [target_tax_collector.GetFirstName], has returned from [target_tax_collector.GetHerHis] recent journey around the realm. [target_tax_collector.GetSheHe|U] has requested an audience, claiming to have brought back something #EMP more valuable#! than gold.\\n\\n",
+    "RUS": "[Select_CString(target_tax_collector.IsFemale, 'Моя сборщица', 'Мой сборщик' )] налогов [target_tax_collector.GetFirstName] [Select_CString(target_tax_collector.IsFemale, 'вернулась', 'вернулся' )] из недавнего путешествия по державе. [Select_CString(target_tax_collector.IsFemale, 'Она запросила', 'Он запросил' )] у меня аудиенцию и утверждает, что [Select_CString(target_tax_collector.IsFemale, 'привезла', 'привез' )] нечто, что #EMP дороже#! золота.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], я только что [Select_CString(target_tax_collector.IsFemale, 'собрала', 'собрал' )] долг перед короной в городе [secret_holder.GetCapitalLocation.GetName]. Там я [Select_CString(target_tax_collector.IsFemale, 'слышала', 'слышал' )] тихие разговоры — мол, [secret_holder.GetTitledFirstName] [target_secret.Custom('SecretDescriptionThirdPerson')]...»\\n\\n«При дальнейшем рассмотрении слухи оказались правдой».",
+    "POL": "Osoba znana jako, [target_tax_collector.GetFirstName], mój poborca podatkowy, powróciła z niedawnej podróży po państwie. Poprosiła o audiencję, twierdząc, że przywiozła coś #EMP cenniejszego#! niż złoto.\\n\\n– Właśnie udało mi się odebrać należności wobec korony od mieszkańców miejsca znanego jako [secret_holder.GetCapitalLocation.GetName]. Podczas mojego pobytu tam mych uszu dochodziły ciche plotki, że osoba znana jako [secret_holder.GetTitledFirstName] [target_secret.Custom('SecretDescriptionThirdPerson')]…\\n\\n–… A po dalszym dochodzeniu plotki te rzeczywiście wydają się prawdziwe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1000.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Some coin for your efforts.",
+    "RUS": "Возьми немного денег за свои старания.",
+    "POL": "Trochę monet za twoje wysiłki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1000.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Such magnificent work is deserving of a prize!",
+    "RUS": "Такая отличная работа достойна награды!",
+    "POL": "Tak wspaniała praca zasługuje na nagrodę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1000.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "#EMP Delectable#!! Excellent work, [target_tax_collector.GetFirstNameNoTooltip]!",
+    "RUS": "#EMP Превосходно#!! Отличная работа, [target_tax_collector.GetFirstNameNoTooltip]!",
+    "POL": "#EMP Znakomicie#!! Doskonała robota, [target_tax_collector.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetHerHis|U] Cup Runneth Over",
+    "RUS": "Чаша [Select_CString(target_tax_collector.IsFemale, 'ее', 'его' )] преисполнена",
+    "POL": "[target_tax_collector.GetHerHis|U] kielich przelewa się",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "My Steward, [steward.GetTitledFirstName], has been reviewing the tax ledgers and identified a few inconsistencies regarding [target_tax_collector.GetFirstNamePossessive] collection records — inconsistencies that amount to nearly [ROOT.Var('embezzled_gold').GetValue] gold...\\n\\nThe only logical reason for such discrepancies is that [target_tax_collector.GetFirstNameNoTooltip] has been embezzling from the crown. I have called [target_tax_collector.GetHerHim] before me to answer these accusations.\\n\\n",
+    "RUS": "[Select_CString(steward.IsFemale, 'Моя управляющая', 'Мой управляющий' )] [steward.GetTitledFirstName], просматривая налоговые записи, [Select_CString(steward.IsFemale, 'обнаружила', 'обнаружил' )] некоторые несовпадения относительно налогов, которые [Select_CString(target_tax_collector.IsFemale, 'собрала', 'собрал' )] [target_tax_collector.GetFirstName]. Расхождения составляют примерно [ROOT.Var('embezzled_gold').GetValue] золотом...\\n\\nЕдинственное разумное объяснение этому факту — [target_tax_collector.GetFirstNameNoTooltip] расхищает деньги короны. Я [Select_CString(ROOT.Char.IsFemale, 'призвала', 'призвал' )] [Select_CString(target_tax_collector.IsFemale, 'ее', 'его' )] к себе и жду объяснений.\\n\\n«Все верно, [Select_CString(ROOT.Char.IsFemale, 'моя госпожа', 'мой господин' )]. Хоть мне и неловко за содеянное, я призываю тебя обратить внимание на ту ловкость и хитрость, с которыми все это было проделано. Такие качества могут пригодиться тебе в будущем...»",
+    "POL": "[Select_CString(steward.IsFemale, 'Moja zarządczyni', 'Mój zarządca' )], [steward.GetTitledFirstName], podczas przeglądania ksiąg podatkowych znalazł[Select_CString(steward.IsFemale, 'a', '' )] kilka niespójności dotyczących podatków, które pobierał[Select_CString(target_tax_collector.IsFemale, 'a', '' )] [target_tax_collector.GetFirstName] – niespójności, które wynoszą prawie [ROOT.Var('embezzled_gold').GetValue] złota…\\n\\nJedynym logicznym powodem takich rozbieżności jest to, że [target_tax_collector.GetFirstNameNoTooltip] defrauduje pieniądze korony. Wezwał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] [Select_CString(target_tax_collector.IsFemale, 'ją', 'go' )] przed moje oblicze, aby odpowiedział[Select_CString(target_tax_collector.IsFemale, 'a', '' )] na te oskarżenia.\\n\\n„To prawda, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Choć trochę mi wstyd, błagam cię, byś dostrzegł[Select_CString(ROOT.Char.IsFemale, 'a', '' )] spryt w moich działaniach – umiejętność, którą możesz wykorzystać w przyszłych przedsięwzięciach…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "You will return what is owed #EMP immediately!#!",
+    "RUS": "Ты вернешь недостачу #EMP немедленно!#!",
+    "POL": "#EMP Natychmiast#! zwrócisz należną kwotę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.a.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "You convince [target_tax_collector.GetFirstNameNoTooltip] to return the money",
+    "RUS": "[target_tax_collector.GetFirstNameNoTooltip] прислушивается к вам и возвращает деньги",
+    "POL": "[target_tax_collector.GetFirstNameNoTooltip] słucha cię i zwraca pieniądze",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.a.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetFirstNameNoTooltip] is not convinced",
+    "RUS": "[target_tax_collector.GetFirstNameNoTooltip] не [Select_CString(target_tax_collector.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[target_tax_collector.GetFirstNameNoTooltip] nie jest przekonan[Select_CString(target_tax_collector.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Opportunity plus instinct equals profit.",
+    "RUS": "Возможность плюс инстинкты равняется прибыли.",
+    "POL": "Okazja plus instynkt równa się zysk.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "You praise [target_tax_collector.GetFirstNameNoTooltip] for [target_tax_collector.GetHerHis] cunning",
+    "RUS": "[target_tax_collector.GetFirstNameNoTooltip] получает от вас похвалу за свою ловкость",
+    "POL": "[target_tax_collector.GetFirstNameNoTooltip] otrzymuje od ciebie pochwałę za spryt",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1010.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "A score of lashings should remind you whose gold you collect.",
+    "RUS": "Несколько плетей живо напомнят тебе, чье золото ты собираешь.",
+    "POL": "Kilka batów przypomni ci, czyje złoto zbierasz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Practical Learning",
+    "RUS": "Обучение на практике",
+    "POL": "Praktyczna nauka",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "My steward, [steward.GetTitledFirstName], approaches me with [target_tax_collector.GetFirstName], my tax collector, trailing close behind.\\n\\n",
+    "RUS": "[Select_CString(steward.IsFemale, 'Моя управляющая', 'Мой управляющий' )] [steward.GetTitledFirstName] приближается ко мне, следом за [Select_CString(steward.IsFemale, 'ней', 'ним' )] идет [Select_CString(target_tax_collector.IsFemale, 'моя сборщица', 'мой сборщик' )] налогов.\\n\\n«[target_tax_collector.GetFirstNameNoTooltip] в последнее время показывает особенно хорошие результаты.",
+    "POL": "[Select_CString(steward.IsFemale, 'Moja zarządczyni', 'Mój zarządca' )], [steward.GetTitledFirstName], podchodzi do mnie, a tuż za nim [target_tax_collector.GetFirstName], [Select_CString(target_tax_collector.IsFemale, 'moja poborczyni podatkowa', 'mój poborca podatkowy' )].\\n\\n„[target_tax_collector.GetFirstNameNoTooltip] radzi sobie ostatnio szczególnie dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.stewardship",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetSheHe|U] has shown promise in matters of management and numbers.",
+    "RUS": "[Select_CString(target_tax_collector.IsFemale, 'Она', 'Он' )] отлично [Select_CString(target_tax_collector.IsFemale, 'проявила', 'проявил' )] себя в делах управления и учета».\\n\\n",
+    "POL": "Okazał[Select_CString(target_tax_collector.IsFemale, 'a', '' )] się obiecując[Select_CString(target_tax_collector.IsFemale, 'a', 'y' )] w kwestiach zarządzania i liczb”.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.intrigue",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetSheHe|U] has demonstrated a penchant for the subtler arts of [target_tax_collector.GetHerHis] craft.",
+    "RUS": "[Select_CString(target_tax_collector.IsFemale, 'Она показала', 'Он показал' )] особенную склонность к деликатным моментам своего ремесла».\\n\\n",
+    "POL": "Wykazał[Select_CString(target_tax_collector.IsFemale, 'a', '' )] się zamiłowaniem do subtelniejszych sztuk swojego rzemiosła”.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.diplomacy",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetSheHe|U] has shown a profound skill in the art of diplomacy.",
+    "RUS": "[Select_CString(target_tax_collector.IsFemale, 'Она обнаружила', 'Он обнаружил' )] немалую подкованность в искусстве дипломатии».\\n\\n",
+    "POL": "Wykazał[Select_CString(target_tax_collector.IsFemale, 'a', '' )] się głębokimi umiejętnościami w sztuce dyplomacji”.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я считаю, [Select_CString(ROOT.Char.IsFemale, 'госпожа', 'господин' )], что [Select_CString(target_tax_collector.IsFemale, 'она достойна', 'он достоин' )] похвалы. В конце концов, такие умения могут пойти на пользу нашей казне».",
+    "POL": "„Wierzę, że należy [target_tax_collector.GetHerHim] się jakaś forma pochwały, [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. W końcu doskonalenie tej umiejętności może oznaczać więcej złota w państwowym skarbcu”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Отлично, [target_tax_collector.GetFirstNameNoTooltip]! Гордись своим ремеслом».",
+    "POL": "„Dobra robota, [target_tax_collector.GetFirstNameNoTooltip]! Bądź dumn[Select_CString(target_tax_collector.IsFemale, 'a', 'y' )] ze swojego rzemiosła”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Возможно, ты сможешь научить чему-нибудь и других сборщиков налогов?»",
+    "POL": "„Może [Select_CString(ROOT.Char.IsFemale, 'mogłabyś', 'mógłbyś' )] nauczyć czegoś innych poborców podatkowych?”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.every_tax_collector",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Every [tax_collector|E]",
+    "RUS": "Все [Concept( 'tax_collector', 'сборщики налогов' )|E]",
+    "POL": "Każdy [tax_collector|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.b.improved_tax_collectors",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Tax Collectors Improved",
+    "RUS": "Сборщики налогов повысили свое мастерство",
+    "POL": "Poborcy podatkowi poprawili swoje umiejętności",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.b.improved_tax_collectors.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetFirstNameNoTooltip] shared [target_tax_collector.GetHerHis] learnings with [ROOT.Var('num_improved_tax_collectors').GetValue] tax collectors",
+    "RUS": "[target_tax_collector.GetFirstNameNoTooltip] [Select_CString(target_tax_collector.IsFemale, 'поделилась', 'поделился' )] своими знаниями с другими сборщиками налогов, числом [ROOT.Var('num_improved_tax_collectors').GetValue]",
+    "POL": "[target_tax_collector.GetFirstNameNoTooltip] podzielił[Select_CString(target_tax_collector.IsFemale, 'a', '' )] się swoją wiedzą z [ROOT.Var('num_improved_tax_collectors').GetValue] poborcami podatkowymi",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.b.none_improved",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "No Tax Collectors Improved",
+    "RUS": "Никто из сборщиков налогов не повысил свое мастерство",
+    "POL": "Poborcy podatkowi nie poprawili swoich umiejętności",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.b.none_improved.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_tax_collector.GetFirstNameNoTooltip] failed to impart any teachings into [target_tax_collector.GetHerHis] fellow tax collectors",
+    "RUS": "[target_tax_collector.GetFirstNameNoTooltip] не [Select_CString(target_tax_collector.IsFemale, 'смогла', 'смог' )] передать свои знания другим сборщикам налогов",
+    "POL": "[target_tax_collector.GetFirstNameNoTooltip] nie zdołał[Select_CString(target_tax_collector.IsFemale, 'a', '' )] przekazać żadnej wiedzy innym poborcom podatkowym",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1020.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне некогда потакать твоему самолюбию!»",
+    "POL": "„Nie mam czasu napompowywać twojego ego!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1030.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Tax Dispute",
+    "RUS": "Налоговый спор",
+    "POL": "Spór podatkowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1030.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))] [target_tax_collector.GetFaith.GetAdherentNameNoTooltip] не получит моих налогов!» — кричит [target_taxed_vassal.GetTitledFirstName], и [target_tax_collector.GetFirstName] [Select_CString(target_tax_collector.IsFemale, 'вынуждена', 'вынужден' )] слушать этот крик.\\n\\n«Мой долг — собирать налоги для короны! Кто оскорбляет меня — с того спросит [ROOT.Char.GetNameNoTooltip]! — парирует [target_tax_collector.GetFirstNameNoTooltip]. — [Select_CString(ROOT.Char.IsFemale, 'Госпожа', 'Господин' )], прошу, разреши этот спор, чтобы я [Select_CString(target_tax_collector.IsFemale, 'могла', 'мог' )] продолжить работу».\\n\\n[target_taxed_vassal.GetTitledFirstNameNoTooltip] кипит от негодования, [target_tax_collector.GetFirstNameNoTooltip] же начинает нетерпеливо постукивать ногой. Очевидно, мне надо сделать выбор — потрафить вассалу или же поддержать [Select_CString(target_tax_collector.IsFemale, 'сборщицу', 'сборщика' )] налогов.",
+    "POL": "– Żaden [target_tax_collector.GetFaith.GetAdherentNameNoTooltip|l] nie otrzyma ode mnie podatków! To parszywcy! – krzyczy [target_taxed_vassal.GetTitledFirstName], a [target_tax_collector.GetFirstName] musi tego wysłuchiwać.\\n\\n– Moim obowiązkiem jest zbieranie podatków dla korony! Gdy ja jestem obiektem zniewagi, to [ROOT.Char.GetNameNoTooltip] również! – ripostuje [target_tax_collector.GetFirstNameNoTooltip]. – Niech wasza czcigodność rozwiąże ten spór i pozwoli mi kontynuować swoją pracę.\\n\\n[target_taxed_vassal.GetTitledFirstNameNoTooltip] kipi z oburzenia, podczas gdy [target_tax_collector.GetFirstNameNoTooltip] stuka niecierpliwie stopą. Najwyraźniej muszę zdecydować, czy uspokoić mojego wasala, czy wesprzeć poborcę podatkowego…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1030.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Clearly [target_tax_collector.GetFirstNameNoTooltip] is not cut out for this tax district.",
+    "RUS": "Очевидно, [target_tax_collector.GetFirstNameNoTooltip] не сможет работать в этом районе.",
+    "POL": "Najwyraźniej [target_tax_collector.GetFirstNameNoTooltip] nie nadaje się do tego okręgu podatkowego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tax_collector_fired_on_religious_grounds",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Tax Collector Fired on the grounds of faith",
+    "RUS": "Сборщик налогов уволен из-за несовпадения по вопросам веры",
+    "POL": "Poborca podatkowy zwolniony z powodu wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1030.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_taxed_vassal.GetFirstNameNoTooltip] will pay [target_taxed_vassal.GetHerHis] due.",
+    "RUS": "[target_taxed_vassal.GetFirstNameNoTooltip] заплатит то, что [Select_CString(target_taxed_vassal.IsFemale, 'должна', 'должен' )] казне.",
+    "POL": "[target_taxed_vassal.GetFirstNameNoTooltip] zapłaci należną kwotę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1030.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Settle this yourselves.",
+    "RUS": "Разбирайтесь сами.",
+    "POL": "Rozstrzygnijcie to sami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Mismanaged Land",
+    "RUS": "Скверное управление землей",
+    "POL": "Niewłaściwie zarządzana ziemia",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "My tax collector, [target_tax_collector.GetFirstName], provides a report of [target_tax_collector.GetHerHis] latest survey of the realm and outlines a matter of great concern:\\n\\n",
+    "RUS": "[Select_CString(target_tax_collector.IsFemale, 'Моя сборщица', 'Мой сборщик' )] налогов представляет мне свой последний отчет о делах в государстве и делится опасениями.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'Мой господин' )], то, как [target_taxed_vassal.GetTitledFirstName] управляет своими землями, — совершенно неприемлемо! Если земли, которыми владеет [target_taxed_vassal.GetPrimaryTitle.GetNameNoTier], получат нового управляющего, можно будет добиться гораздо большего».",
+    "POL": "[Select_CString(target_tax_collector.IsFemale, 'Moja poborczyni podatkowa', 'Mój poborca podatkowy' )], [target_tax_collector.GetFirstName], przedstawia mi swój najnowszy raport na temat spraw państwa i dzieli się swoimi obawami:.\\n\\n„[Select_CString(ROOT.Char.IsFemale, 'Moja pani', 'Mój panie' )], sposób, w jaki [target_taxed_vassal.GetTitledFirstName] zarządza swoimi ziemiami, jest całkowicie nie do przyjęcia! Z ziemiami [target_taxed_vassal.GetPrimaryTitle.GetAdjective] można by zrobić o wiele więcej, gdyby miały kompetentnego dozorcę”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Remind all my vassals of their responsibilities.",
+    "RUS": "Напомнить всем своим вассалам об их долге.",
+    "POL": "Przypomnij wszystkim moim wasalom o ich obowiązkach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "I'll teach [target_taxed_vassal.GetHerHim] a thing or two myself!",
+    "RUS": "Я лично [Select_CString(target_taxed_vassal.IsFemale, 'ей', 'ему' )] все объясню!",
+    "POL": "Wytłumaczę [target_taxed_vassal.GetHerHim] to osobiście!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.b.success",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "You successfully instruct [target_taxed_vassal.GetTitledFirstNameNoTooltip]",
+    "RUS": "[target_taxed_vassal.GetTitledFirstNameNoTooltip] успешно запоминает ваши указания",
+    "POL": "[target_taxed_vassal.GetTitledFirstNameNoTooltip] zapamiętuje twoje instrukcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.b.failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "[target_taxed_vassal.GetTitledFirstNameNoTooltip] fails to comprehend your teachings",
+    "RUS": "[target_taxed_vassal.GetTitledFirstNameNoTooltip] не понимает ваших указаний",
+    "POL": "[target_taxed_vassal.GetTitledFirstNameNoTooltip] nie rozumie twoich nauk",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp3_clan.1040.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp3/dlc_fp3_tax_collector_flavor_events_l_belarusian.json",
+    "ENG": "Perhaps a more #EMP physical#! reminder of my authority is in order...",
+    "RUS": "Возможно, следует напомнить о своей власти через #EMP боль#!...",
+    "POL": "Być może przydałoby się bardziej #EMP namacalne#! przypomnienie mojego autorytetu…",
+    "BEL": ""
+  }
+]

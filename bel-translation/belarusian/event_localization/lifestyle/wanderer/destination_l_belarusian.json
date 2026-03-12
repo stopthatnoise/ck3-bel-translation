@@ -1,0 +1,802 @@
+[
+  {
+    "KEY": "destination_events.10.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Experienced Wanderer",
+    "RUS": "Опытный странник",
+    "POL": "Doświadczony wędrowiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.10.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], — с порога начинает [Select_CString(provider_character.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))] [provider_character.GetFirstName], — я уже некоторое время общаюсь с [Select_CString(travel_leader_character.IsFemale, 'караванщицей', 'караванщиком' )], и думаю, [Select_CString(travel_leader_character.IsFemale, 'она', 'он' )] может вам пригодиться. [Select_CString(travel_leader_character.IsFemale, 'Эта опытная путешественница', 'Этот опытный путешественник' )] знает множество стран и земель. Возможно, нам нужен именно такой человек».\\n\\nПоиски того, кто будет руководить моими путешествиями, и впрямь идут туго. Не воспользоваться ли такой возможностью?",
+    "POL": "– Jeśli [ROOT.Char.Custom('FormOfAddressForLiege')] pozwoli… – zaczyna [provider_character.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], wchodząc do mojego gabinetu. – Ostatnio udało mi się nawiązać kontakt z pewnym mistrzem karawany, który może ci się przydać w podróży. Odbył wiele wypraw i ma poszukiwane przez nas doświadczenie.\\n\\nOd jakiegoś czasu nie możemy znaleźć nikogo, kto mógłby przewodzić moim podróżom. Może to dobra okazja?",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.10.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Let us hire this wanderer then.",
+    "RUS": "Что ж, наймем столь опытную личность.",
+    "POL": "Zatrudnijmy więc tego wędrowca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.10.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "[travel_leader_character.GetUINamePossessive|U] [aptitude|E] is [travel_leader_character.GetCourtPositionAptitude( GetCourtPositionType( 'travel_leader_court_position' ) )]",
+    "RUS": "[Concept('aptitude', 'Пригодность')|E] [Select_CString(travel_leader_character.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',travel_leader_character.GetUIName))] — [travel_leader_character.GetCourtPositionAptitude( GetCourtPositionType( 'travel_leader_court_position' ) )]",
+    "POL": "[aptitude|E] osoby znanej jako [travel_leader_character.GetUINameNotMe] to pełnienie roli, którą jest [travel_leader_character.GetCourtPositionAptitude( GetCourtPositionType( 'travel_leader_court_position' ) )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.10.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "[travel_leader_character.GetSheHe|U] does not interest me.",
+    "RUS": "[Select_CString(travel_leader_character.IsFemale, 'Она', 'Он' )] меня не интересует.",
+    "POL": "[travel_leader_character.GetSheHe|U] mnie nie interesuje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.20.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Preparing for an Excursion",
+    "RUS": "Подготовка к поездке",
+    "POL": "Przygotowania do wyprawy",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.20.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Что? Еще припасы?» — удивляюсь я, когда [Select_CString(provider_character.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))] [provider_character.GetFirstName] докладывает о недавней находке в моих закромах.\\n\\n«Истинно так, и я понятия не имею, почему их не было в наших книгах. Но что тут скажешь, это маленькое чудо. Есть идеи, что с ними делать?»\\n\\nИзлишки припасов могут весьма пригодиться мне в следующем путешествии.",
+    "POL": "– Co? Dodatkowe zapasy, powiadasz? – odpowiadam, kiedy [provider_character.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], mówi mi o niedawnym odkryciu w jednym z magazynów.\\n\\n– Dokładnie tak. Nie wiemy, dlaczego nie ma ich w naszych księgach, ale w takiej chwili stanowią prawdziwe błogosławieństwo. Wiesz już, co z nimi zrobić?\\n\\nTe dodatkowe zapasy mogą się przydać w mojej kolejnej podróży",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.20.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "With these we can have a slow and meticulous journey.",
+    "RUS": "С таким запасом путешествовать можно долго и тщательно.",
+    "POL": "Dzięki nim nasza podróż może być spokojna i dogłębnie wnikliwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.20.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Let us see if we can trade them for some horses.",
+    "RUS": "Посмотрим, не удастся ли обменять их на лошадей.",
+    "POL": "Sprawdźmy, czy uda nam się wymienić te zapasy na konie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.20.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Sell the extra supplies.",
+    "RUS": "Продать излишки припасов.",
+    "POL": "Sprzedajcie dodatkowe zapasy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_excursion_safety_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Prepared for Excursions: Safety",
+    "RUS": "Готовность к поездке: безопасность",
+    "POL": "Przygotowani do wyprawy: bezpieczeństwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_excursion_safety_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "#emp Will disappear after reaching a [destination|E]#!\\nSupplies has been set aside for the next journey, to ensure a safe ride.",
+    "RUS": "#emp Исчезнет по достижении [Concept('destination', 'пункта назначения')|E]#!\\nВыделены припасы для следующего путешествия — теперь оно будет безопаснее.",
+    "POL": "#emp Zniknie po dotarciu do [Concept('destination', 'miejsca docelowego')|E]#!\\nZapasy zostały odłożone na kolejną podróż, żeby zapewnić jej bezpieczeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_excursion_speed_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Prepared for Excursions: Speed",
+    "RUS": "Готовность к поездке: скорость",
+    "POL": "Przygotowani do wyprawy: prędkość",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_excursion_speed_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "#emp Will disappear after reaching a [destination|E]#!\\nExtra horses has been prepared for the next journey, to ensure a quick and efficient ride.",
+    "RUS": "#emp Исчезнет по достижении [Concept('destination', 'пункта назначения')|E]#!\\nДля следующего путешествия подготовлены лошади — теперь оно будет быстрее и эффективнее.",
+    "POL": "#emp Zniknie po dotarciu do [Concept('destination', 'miejsca docelowego')|E]#!\\nDo kolejnej podróży przygotowano dodatkowe konie, tak aby przebiegła ona sprawnie i szybko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.30.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "The Journey to [journey_province.GetHolding.GetSpecialBuildingType.GetNameNoTooltip]",
+    "RUS": "Цель путешествия — [journey_province.GetHolding.GetSpecialBuildingType.GetNameNoTooltip|l]",
+    "POL": "Podróż do miejsca o nazwie [journey_province.GetHolding.GetSpecialBuildingType.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.30.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "I have recently come across a small travel itinerary describing the journey of a local merchant to the city of [journey_province.GetName]. It recounts in great detail how [ROOT.Char.GetSheHe] visited [journey_province.GetHolding.GetSpecialBuildingType.GetName], and all the local sights one should see in the city.\\n\\nMaybe it is where I should head next time I am back on the road...",
+    "RUS": "Не так давно мне в руки попал небольшой журнал путевых заметок, где местный торговец описывает путешествие в провинцию [journey_province.GetName]. Там очень подробно описывается [journey_province.GetHolding.GetSpecialBuildingType.GetName] и городские достопримечательности.\\n\\nВозможно, когда меня вновь позовет дорога, стоит отправиться туда...",
+    "POL": "Niedawno wpadł mi w ręce plan podróży opisujący wyprawę jednego z lokalnych kupców do miasta o nazwie [journey_province.GetName]. Bardzo szczegółowo dokumentuje [ROOT.Char.GetSheHe] swoje odwiedziny w miejscu znanym jako [journey_province.GetHolding.GetSpecialBuildingType.GetName], a także inne miejscowe atrakcje, które powinno się zobaczyć podczas wizyty w mieście.\\n\\nMoże to tam się udam, kiedy znów wyruszę w drogę…",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.30.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "It sounds like a memorable place!",
+    "RUS": "Судя по всему, место незабываемое!",
+    "POL": "To musi być niezapomniane miejsce!",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.30.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "You may gain extra [wanderer_lifestyle|E] Experience if you visit [journey_province.GetName] in a [GetActivityType('activity_journey').GetName]",
+    "RUS": "Вы можете получить больше опыта [Concept('wanderer_lifestyle', 'пути странника')|E], если [GetActivityType('activity_journey').GetName] приведет вас в провинцию [journey_province.GetName]",
+    "POL": "Możesz uzyskać dodatkowe doświadczenie w [Concept('wanderer_lifestyle', 'wędrownym stylu życia')|E], jeśli [GetActivityType('activity_journey').GetName|l] obejmie odwiedziny w miejscu znanym jako [journey_province.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.30.toast.title",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "The Journey to [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]",
+    "RUS": "Путешествие в провинцию [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]",
+    "POL": "Podróż do miejsca o nazwie [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.40.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "The [poi_province.GetCulture.GetLanguage.GetNameNoTooltip] Language",
+    "RUS": "[poi_province.GetCulture.GetLanguage.GetNameNoTooltip] язык",
+    "POL": "Język [poi_province.GetCulture.GetLanguage.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.40.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "For some reason I have found myself reminiscing about my journey to [poi_province.GetName], and particularly the [poi_province.GetCulture.GetLanguage.GetName] language I heard so often when I was there. There was something #emp [poi_province.Custom('DestinationInspiredLanguageDescriptor')]#! about it I just cannot forget.\\n\\nAs fate would have it, a [teacher_character.GetCulture.GetName] scholar named [teacher_character.GetFirstName] has come to visit my court. I could ask [teacher_character.GetHerHim] for [teacher_character.GetHerHis] services, and perhaps [teacher_character.GetSheHe] could teach me [poi_province.GetCulture.GetLanguage.GetNameNoTooltip].",
+    "RUS": "Почему-то мне постоянно вспоминается путешествие в провинцию [poi_province.GetName] — в особенности [poi_province.GetCulture.GetLanguage.GetName|l] язык, который мне так часто доводилось там слышать. Он такой #emp [poi_province.Custom('DestinationInspiredLanguageDescriptor')]#!... это незабываемо.\\n\\nПо удивительной прихоти судьбы у меня при дворе гостит #L [teacher_character.GetCulture.GetCollectiveNoun|l]ая#! [Select_CString(teacher_character.IsFemale, 'ученая', 'ученый' )] по имени [teacher_character.GetFirstName]. Можно прибегнуть к [Select_CString(teacher_character.IsFemale, 'ее', 'его' )] услугам, а заодно попросить преподавать мне [poi_province.GetCulture.GetLanguage.GetNameNoTooltip|l].",
+    "POL": "Z jakiegoś powodu wspominam moją podróż do miejsca znanego jako [poi_province.GetName], a w szczególności język [poi_province.GetCulture.GetLanguage.GetName|l], który można było tam często usłyszeć. Jest taki #emp [poi_province.Custom('DestinationInspiredLanguageDescriptor')]#!, przez co trudno o nim zapomnieć.\\n\\nZrządzeniem losu [teacher_character.GetFirstName] – osoba badająca społeczność, której kultura jest [teacher_character.GetCulture.GetName|l] – pojawia się na moim dworze. Mogę poprosić ją o świadczenie mi usług i może uda się jej nauczyć mnie języka, którym jest [poi_province.GetCulture.GetLanguage.GetNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.40.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "It will make the next journey so much more enjoyable!",
+    "RUS": "Ведь так следующее путешествие будет куда приятнее!",
+    "POL": "To sprawi, że moja kolejna podróż będzie znacznie przyjemniejsza!",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_events.40.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Learning another language sounds like a lot of work...",
+    "RUS": "Мне кажется, учить языки так тяжело...",
+    "POL": "Nauka innego języka pewnie wymaga bardzo dużo pracy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_inspired_by_language",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "Inspired by Language",
+    "RUS": "Вдохновляющий язык",
+    "POL": "Inspiracja językiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "destination_inspired_by_language_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "This character has been inspired to learn a new language by a journey to foreign lands.",
+    "RUS": "Путешествие в чужеземные края сподвигло этого персонажа выучить новый язык.",
+    "POL": "Ta postać została zainspirowana do nauki nowego języka podczas podróży do obcych krain.",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorAnglic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and flexible",
+    "RUS": "мелодичный и гибкий",
+    "POL": "melodyjny i plastyczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorAramaic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and resonant",
+    "RUS": "артимичный и звонкий",
+    "POL": "ponadczasowy i dźwięczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorAustronesian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "fluid and expansive",
+    "RUS": "плавный и всеобъемлющий",
+    "POL": "płynny i rozbudowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorBaltic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "harmonic and robust",
+    "RUS": "гармоничный и функциональный",
+    "POL": "harmonijny i mocny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorBasque",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and euphonic",
+    "RUS": "уникальный и радостный",
+    "POL": "unikalny i eufoniczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorBerber",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "rhythmic and expressive",
+    "RUS": "ритмичный и выразительный",
+    "POL": "rytmiczny i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorBrythonic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and lyrical",
+    "RUS": "неизменный и лиричный",
+    "POL": "ponadczasowy i liryczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorBurmese",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and melodious",
+    "RUS": "певучий и мелодичный",
+    "POL": "tonalny i śpiewny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorCentralGermanic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "strong and structured",
+    "RUS": "сильный и упорядоченный",
+    "POL": "mocny i zorganizowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorChadic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "diverse and complex",
+    "RUS": "разнообразный и сложный",
+    "POL": "różnorodny i złożony",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorChinese",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and monosyllabic",
+    "RUS": "певучий и односложный",
+    "POL": "tonalny i jednosylabowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorCushitic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "musical and agglutinative",
+    "RUS": "музыкальный и агглютинативный",
+    "POL": "muzykalny i aglutynacyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSabaki",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "coastal and linguistically rich",
+    "RUS": "характерно приморский и лингвистически богатый",
+    "POL": "bogaty i nadmorski",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorDutch",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "guttural and fluent",
+    "RUS": "гортанный и плавный",
+    "POL": "gardłowy i płynny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorEastSlavic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "soft and inflected",
+    "RUS": "мягкий, с необычными окончаниями",
+    "POL": "miękki i fleksyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorEthiopic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "semitic and syllabic",
+    "RUS": "характерно семитский, слоговой",
+    "POL": "semicki i sylabiczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorFinnic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "vowel-rich and harmonious",
+    "RUS": "насыщенный гласными и гармоничный",
+    "POL": "bogaty w głoski i harmonijny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorFrankish",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "time-honored and influential",
+    "RUS": "испытанный временем и влиятельный",
+    "POL": "tradycyjny i wpływowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorFrench",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "romantic and nasal",
+    "RUS": "романтичный, слегка в нос",
+    "POL": "romantyczny i nosowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorGoidelic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and lyrical",
+    "RUS": "неизменный и лиричный",
+    "POL": "ponadczasowy i liryczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorGur",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and diverse",
+    "RUS": "певучий и разнообразный",
+    "POL": "tonalny i zróżnicowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorHighGerman",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "structured and precise",
+    "RUS": "упорядоченный и точный",
+    "POL": "zorganizowany i precyzyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorIberian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and mysterious",
+    "RUS": "неизменный и загадочный",
+    "POL": "ponadczasowy i tajemniczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSauraseni",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "classical and expressive",
+    "RUS": "классический и выразительный",
+    "POL": "klasyczny i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorMarathi",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "indic and sonorous",
+    "RUS": "по-индийски звучный",
+    "POL": "indyjski i dźwięczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorMagadhan",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and sacred",
+    "RUS": "неизменный, полный святости",
+    "POL": "ponadczasowy i święty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorPahari",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and articulate",
+    "RUS": "мелодичный и четкий",
+    "POL": "melodyjny i wyraźny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorRajasthani",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "vibrant and melodic",
+    "RUS": "яркий и мелодичный",
+    "POL": "żywy i melodyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorVrachada",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "dialectal and regional",
+    "RUS": "особенно региональный",
+    "POL": "dialektyczny i regionalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSinhalese",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "expressive and sonorous",
+    "RUS": "выразительный и звучный",
+    "POL": "ekspresyjny i dźwięczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorKashmiri",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and rich",
+    "RUS": "мелодичный и насыщенный",
+    "POL": "melodyjny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTamil",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "classical and rich",
+    "RUS": "классический и насыщенный",
+    "POL": "klasyczny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTelugu",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "mellifluous and fluid",
+    "RUS": "сладкозвучный и плавный",
+    "POL": "melodyjny i płynny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorKannada",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "harmonious and rhythmic",
+    "RUS": "гармоничный и ритмичный",
+    "POL": "harmonijny i rytmiczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorNorthDravidian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "rare and distinct",
+    "RUS": "редкий, даже уникальный",
+    "POL": "rzadki i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorIranian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and rich",
+    "RUS": "неизменный и насыщенный",
+    "POL": "ponadczasowy i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorIsraelite",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "timeless and sacred",
+    "RUS": "неизменный, полный святости",
+    "POL": "ponadczasowy i święty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorLatin",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "classical and inflected",
+    "RUS": "классический, с необычными окончаниями",
+    "POL": "klasyczny i fleksyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorKru",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and varied",
+    "RUS": "певучий и разнообразный",
+    "POL": "tonalny i urozmaicony",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorKwa",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and rich",
+    "RUS": "певучий и насыщенный",
+    "POL": "tonalny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorMagyar",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "agglutinative and unique",
+    "RUS": "уникально агглютинативный",
+    "POL": "aglutynacyjny i unikalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorManding",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and melodic",
+    "RUS": "певучий и мелодичный",
+    "POL": "tonalny i melodyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorMongolic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "agglutinative and harmonic",
+    "RUS": "агглютинативный и гармоничный",
+    "POL": "aglutynacyjny i harmonijny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorNorse",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "old and robust",
+    "RUS": "древний и функциональный",
+    "POL": "stary i mocny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorOghur",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "turkic and distinct",
+    "RUS": "характерно тюркский, ни с чем не спутаешь",
+    "POL": "turkijski i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorOmotic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "diverse and varied",
+    "RUS": "многоплановый и разнообразный",
+    "POL": "różnorodny i urozmaicony",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorQiangic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "rare and distinct",
+    "RUS": "редкий, даже уникальный",
+    "POL": "rzadki i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSami",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and rich",
+    "RUS": "уникальный и насыщенный",
+    "POL": "unikalny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSaxon",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "old and robust",
+    "RUS": "древний и функциональный",
+    "POL": "stary i mocny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSenegambian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and rhythmic",
+    "RUS": "мелодичный и ритмичный",
+    "POL": "melodyjny i rytmiczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSoninke",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "time-honored and melodic",
+    "RUS": "испытанный временем и мелодичный",
+    "POL": "tradycyjny i melodyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSouthSlavic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and expressive",
+    "RUS": "мелодичный и выразительный",
+    "POL": "melodyjny i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSlavonic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "sacred and expressive",
+    "RUS": "пронизанный святостью и выразительный",
+    "POL": "święty i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSudanic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "diverse and rich",
+    "RUS": "многоплановый и насыщенный",
+    "POL": "różnorodny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTibetan",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and monosyllabic",
+    "RUS": "певучий и односложный",
+    "POL": "tonalny i jednosylabowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTubu",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "nomadic and rare",
+    "RUS": "редкий, характерный для кочевников",
+    "POL": "nomadyczny i rzadki",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTurkic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "agglutinative and harmonic",
+    "RUS": "агглютинативный и гармоничный",
+    "POL": "aglutynacyjny i harmonijny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorUgroPermian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "rare and distinct",
+    "RUS": "редкий, даже уникальный",
+    "POL": "rzadki i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorVolgaFinnic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and rich",
+    "RUS": "уникальный и насыщенный",
+    "POL": "unikalny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorYoruba",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "tonal and rhythmic",
+    "RUS": "певучий и ритмичный",
+    "POL": "tonalny i rytmiczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorArmenian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and rich",
+    "RUS": "уникальный и насыщенный",
+    "POL": "unikalny i bogaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorGreek",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "time-honored and inflected",
+    "RUS": "испытанный временем, с необычными окончаниями",
+    "POL": "tradycyjny i fleksyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorScythian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and distinct",
+    "RUS": "особенный, даже уникальный",
+    "POL": "unikalny i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorGeorgian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "ejective and unique",
+    "RUS": "уникально-эйективный",
+    "POL": "ejektywny i unikalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorOccitanoRomance",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "romantic and diverse",
+    "RUS": "романтичный и разнообразный",
+    "POL": "romantyczny i zróżnicowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorLechitic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "inflected and expressive",
+    "RUS": "выразительный, с необычными окончаниями",
+    "POL": "fleksyjny i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorCzechSlovak",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "melodic and inflected",
+    "RUS": "мелодичный, с необычными окончаниями",
+    "POL": "melodyjny i fleksyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTocharian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and centum",
+    "RUS": "уникальный представитель группы кентум",
+    "POL": "unikalny i stuletni",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorTungusic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "agglutinative and distinct",
+    "RUS": "редко-агглютинативный",
+    "POL": "aglutynacyjny i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorSardinian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "conservative and distinct",
+    "RUS": "по-особенному консервативный",
+    "POL": "konserwatywny i odmienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorWallachian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "romantic and expressive",
+    "RUS": "романтичный и выразительный",
+    "POL": "romantyczny i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorItalian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "musical and romantic",
+    "RUS": "музыкальный и романтичный",
+    "POL": "muzykalny i romantyczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorAyneha",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "vibrant and expressive",
+    "RUS": "яркий и выразительный",
+    "POL": "żywy i ekspresyjny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorEgyptian",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "modern and versatile",
+    "RUS": "современный и разносторонний",
+    "POL": "współczesny i uniwersalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "DestinationInspiredLanguageDescriptorHunnic",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/wanderer/destination_l_belarusian.json",
+    "ENG": "unique and memorable",
+    "RUS": "уникальный и запоминающийся",
+    "POL": "unikalny i zapadający w pamięć",
+    "BEL": ""
+  }
+]

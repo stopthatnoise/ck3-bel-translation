@@ -1,0 +1,418 @@
+[
+  {
+    "KEY": "TOTAL_MERIT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Total [merit|E]: $VALUE|V0$",
+    "RUS": "Суммарные [Concept('merit', 'заслуги')|E]: $VALUE|V0$",
+    "POL": "Łączne [merit|El]: $VALUE|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_EFFECTS_BREAKDOWN",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#S Effects:#![AddTextIf( Not( StringIsEmpty(GetMeritLevelEffects( Character.GetMeritLevel )) ), '\\n' )][GetMeritLevelEffects( Character.GetMeritLevel )]",
+    "RUS": "#S Эффекты:#![AddTextIf( Not( StringIsEmpty(GetMeritLevelEffects( Character.GetMeritLevel )) ), '\\n' )][GetMeritLevelEffects( Character.GetMeritLevel )]",
+    "POL": "#S Efekty:#![AddTextIf( Not( StringIsEmpty(GetMeritLevelEffects( Character.GetMeritLevel )) ), '\\n' )][GetMeritLevelEffects( Character.GetMeritLevel )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_PROGRESSBAR_MARKER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#T [GetMeritLevelNameNoTooltip( ComplexBarItem.GetIndex )]#!\\nRequires [GetMeritLevelThreshold( ComplexBarItem.GetIndex )|V^] $game_concept_merit$\\n\\n[GetMeritModifierByLevel( ComplexBarItem.GetIndex ).GetDescWithBulletPointEffects][AddTextIf( GreaterThan_int32( ComplexBarItem.GetIndex, '(int32)1' ), '\\n' )]$BULLET$[movement_power|E]: [movement_power_i] [Multiply_int32( ComplexBarItem.GetIndex, '(int32)10' )|+=0]\\n[GetMaxAppointmentRankDescription( 'merit', ComplexBarItem.GetIndex )][Character.GetMeritLevelDescription( ComplexBarItem.GetIndex )]",
+    "RUS": "#T [GetMeritLevelNameNoTooltip( ComplexBarItem.GetIndex )]#!\\nТребуемые $game_concept_merit$: [GetMeritLevelThreshold( ComplexBarItem.GetIndex )|V^]\\n\\n[GetMeritModifierByLevel( ComplexBarItem.GetIndex ).GetDescWithBulletPointEffects][AddTextIf( GreaterThan_int32( ComplexBarItem.GetIndex, '(int32)1' ), '\\n' )]$BULLET$[Concept('movement_power', 'силы движения')|E]: [movement_power_i] [Multiply_int32( ComplexBarItem.GetIndex, '(int32)10' )|+=0]\\n[GetMaxAppointmentRankDescription( 'заслуги', ComplexBarItem.GetIndex )][Character.GetMeritLevelDescription( ComplexBarItem.GetIndex )]",
+    "POL": "#T [GetMeritLevelNameNoTooltip( ComplexBarItem.GetIndex )]#!\\nWymagane zasługi: [GetMeritLevelThreshold( ComplexBarItem.GetIndex )|V^]\\n\\n[GetMeritModifierByLevel( ComplexBarItem.GetIndex ).GetDescWithBulletPointEffects][AddTextIf( GreaterThan_int32( ComplexBarItem.GetIndex, '(int32)1' ), '\\n' )]$BULLET$[movement_power|E]: [movement_power_i] [Multiply_int32( ComplexBarItem.GetIndex, '(int32)10' )|+=0]\\n[GetMaxAppointmentRankDescription( 'merit', ComplexBarItem.GetIndex )][Character.GetMeritLevelDescription( ComplexBarItem.GetIndex )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_COMPLETED_EXAMINATIONS",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Completed [imperial_examinations|E]",
+    "RUS": "[imperial_examinations|E] завершены",
+    "POL": "Ukończone [imperial_examinations|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_EXAMINATION_DISCLAIMER",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "[governors|E] must retire to complete more Examinations",
+    "RUS": "[Concept('governors', 'Губернаторы')|E] должны выйти в отставку, чтобы пройти следующие экзамены",
+    "POL": "Aby ukończyć więcej egzaminów, [governors|El] muszą zrezygnować z pełnionego stanowiska",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_EXAMINATION_PASSED_CHILD_EXAM",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@child_exam_icon! #T Children's Examination#!\\n$CHILDRENS_EXAMINATION_PASSED_FAIL$\\n\\nTaken via the $tgp_china_attend_child_exam_decision$ [decision|E]",
+    "RUS": "@child_exam_icon! #T Детский экзамен#!\\n$CHILDRENS_EXAMINATION_PASSED_FAIL$\\n\\nМожно пройти, использовав [Concept('decision', 'решение')|E] «$tgp_china_attend_child_exam_decision$»",
+    "POL": "@child_exam_icon! #T Egzamin dziecięcy#!\\n$CHILDRENS_EXAMINATION_PASSED_FAIL$\\n\\nPrzystąpiono do niego w następstwie [Concept('decision', 'decyzji')|E] „$tgp_china_attend_child_exam_decision$”",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_EXAMINATION_PASSED_PROVINCIAL_EXAM",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@provincial_exam_icon! #T Provincial Examination#!\\n[SelectLocalization( HasPassedProvincialExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedProvincialExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\\n\\n#S When passed:#!\\n[GetModifier( 'tgp_passed_provincial_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nHeld by government officials at the [GetActivityType('activity_local_examination').GetName] [activity|E]",
+    "RUS": "@provincial_exam_icon! #T Провинциальный экзамен#!\\n[SelectLocalization( HasPassedProvincialExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedProvincialExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN' ))]\\n\\n#S Если экзамен сдан:#!\\n[GetModifier( 'tgp_passed_provincial_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nПроводится государственными чиновниками посредством [Concept('activity', 'занятия')|E] «[GetActivityType('activity_local_examination').GetName]»",
+    "POL": "@provincial_exam_icon! #T Egzamin prowincjonalny#!\\n[SelectLocalization( HasPassedProvincialExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedProvincialExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\\n\\n#S W przypadku zdania:#!\\n[GetModifier( 'tgp_passed_provincial_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nPrzeprowadzony przez urzędników rządu w ramach następującej [Concept('activity', 'aktywności')|E]: [GetActivityType('activity_local_examination').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_EXAMINATION_PASSED_METROPOLITAN_EXAM",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@metropolitan_exam_icon! #T Metropolitan Examination#!\\n[SelectLocalization( HasPassedMetropolitanExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedMetropolitanExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\\n\\n#S When passed:#!\\n[GetModifier( 'tgp_passed_metropolitan_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nHeld by the [GetGovernment('celestial_government').GetName|E] [government|E] at the [GetActivityType('activity_imperial_examination').GetName] [activity|E]",
+    "RUS": "@metropolitan_exam_icon! #T Муниципальный экзамен#!\\n[SelectLocalization( HasPassedMetropolitanExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedMetropolitanExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN' ))]\\n\\n#S Если экзамен сдан:#!\\n[GetModifier( 'tgp_passed_metropolitan_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nПроводится #TOOLTIP:GOVERNMENT_TYPE,celestial_government #E #L мандатным#!#!#! [Concept('government', 'правительством')|E] посредством [Concept('activity', 'занятия')|E] «[GetActivityType('activity_imperial_examination').GetName]»",
+    "POL": "@metropolitan_exam_icon! #T Egzamin metropolitalny#!\\n[SelectLocalization( HasPassedMetropolitanExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedMetropolitanExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\\n\\n#S W przypadku zdania: #!\\n[GetModifier( 'tgp_passed_metropolitan_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nPrzeprowadzony przez [government|El] ([GetGovernment('celestial_government').GetName|El]) w ramach następującej [Concept('activity', 'aktywności')|E]: [GetActivityType('activity_imperial_examination').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_TOOLTIP_EXAMINATION_PASSED_PALACE_EXAM",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@palace_exam_icon! #T Palace Examination#!\\n[SelectLocalization( HasPassedPalaceExamination(Character), 'EXAMINATION_PASSED', 'EXAMINATION_NOT_TAKEN' )]\\n\\n#S When passed:#!\\n[GetModifier( 'tgp_passed_palace_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nHeld before [son_of_heaven|E] at the [GetActivityType('activity_imperial_examination').GetName] [activity|E]",
+    "RUS": "@palace_exam_icon! #T Дворцовый экзамен#!\\n[SelectLocalization( HasPassedPalaceExamination(Character), 'EXAMINATION_PASSED', 'EXAMINATION_NOT_TAKEN' )]\\n\\n#S Если экзамен сдан:#!\\n[GetModifier( 'tgp_passed_palace_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nПроводится под надзором [Concept('son_of_heaven', 'Сына Неба')|E] посредством [Concept('activity', 'занятия')|E] «[GetActivityType('activity_imperial_examination').GetName]»",
+    "POL": "@palace_exam_icon! #T Egzamin pałacowy#!\\n[SelectLocalization( HasPassedPalaceExamination(Character), 'EXAMINATION_PASSED', 'EXAMINATION_NOT_TAKEN' )]\\n\\n#S W przypadku zdania:#!\\n[GetModifier( 'tgp_passed_palace_exam_modifier' ).GetDescWithBulletPointEffects]\\n\\nPrzeprowadzony przed [Concept('son_of_heaven', 'synem niebios')|E] w ramach następującej [Concept('activity', 'aktywności')|E]: [GetActivityType('activity_imperial_examination').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHILDRENS_EXAMINATION_PASSED_FAIL",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "[SelectLocalization( HasPassedChildrenExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedChildrenExamination(Character), SelectLocalization(Character.IsAdult, 'EXAMINATION_FAILED_NO_RETAKE' , 'EXAMINATION_FAILED') ,'EXAMINATION_NOT_TAKEN') )]",
+    "RUS": "[SelectLocalization( HasPassedChildrenExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedChildrenExamination(Character), SelectLocalization(Character.IsAdult, 'EXAMINATION_FAILED_NO_RETAKE' , 'EXAMINATION_FAILED') ,'EXAMINATION_NOT_TAKEN') )]",
+    "POL": "[SelectLocalization( HasPassedChildrenExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedChildrenExamination(Character), SelectLocalization(Character.IsAdult, 'EXAMINATION_FAILED_NO_RETAKE' , 'EXAMINATION_FAILED') ,'EXAMINATION_NOT_TAKEN') )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_PASSED",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@passed_examination!#P Passed#!",
+    "RUS": "@passed_examination!#P Сдан#!",
+    "POL": "@passed_examination! #P Zdano#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_FAILED_NO_RETAKE",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@failed_examination!#N Failed#!",
+    "RUS": "@failed_examination!#N Провален#!",
+    "POL": "@failed_examination! #N Nie zdano#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_FAILED",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$EXAMINATION_FAILED_NO_RETAKE$ #weak (can be retaken)#![AddLocalizationIf(And(And(Character.IsMeritCapped, Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "RUS": "$EXAMINATION_FAILED_NO_RETAKE$ #weak (можно повторить попытку)#![AddLocalizationIf(And(And(Character.IsMeritCapped, Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "POL": "$EXAMINATION_FAILED_NO_RETAKE$ #weak (można podejść ponownie)#![AddLocalizationIf(And(And(Character.IsMeritCapped, Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_NOT_TAKEN",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#weak Not Taken#![AddLocalizationIf(And(And(And(Character.IsMeritCapped, Character.CanImproveMeritRank), Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "RUS": "#weak Не сдан#![AddLocalizationIf(And(And(And(Character.IsMeritCapped, Character.CanImproveMeritRank), Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "POL": "#weak Nie przystąpiono#![AddLocalizationIf(And(And(And(Character.IsMeritCapped, Character.CanImproveMeritRank), Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_WOULD_TAKE",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\n[Character.GetShortUINamePossessive|U] maximum [merit_level|E] is limited by not having passed this [examination|E]. [SelectLocalization(Character.IsLocalPlayer, 'EXAMINATION_WOULD_TAKE_ME', 'EXAMINATION_WOULD_TAKE_OTHER')]",
+    "RUS": "\\n\\nБез сдачи этого [Concept('examination', 'экзамена')|E] максимальная [Concept('merit_level', 'степень заслуг')|E] [Select_CString(Character.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', Character.GetShortUIName))] будет ограничена. [SelectLocalization(Character.IsLocalPlayer, 'EXAMINATION_WOULD_TAKE_ME', 'EXAMINATION_WOULD_TAKE_OTHER')]",
+    "POL": "\\n\\nMaksymalna [merit_level|El] osoby znanej jako [Character.GetShortUINameNotMe] jest ograniczona, ponieważ nie zdano [Concept('examination', 'egzaminu')|E]. [SelectLocalization(Character.IsLocalPlayer, 'EXAMINATION_WOULD_TAKE_ME', 'EXAMINATION_WOULD_TAKE_OTHER')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_WOULD_TAKE_ME",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "You should attend one.",
+    "RUS": "Вам определенно стоит попытаться сдать экзамен.",
+    "POL": "Lepiej podejdź do egzaminu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXAMINATION_WOULD_TAKE_OTHER",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "[Character.GetSheHe|U] will join you if you attend one and [Character.GetSheHe] is available.",
+    "RUS": "Если вы попробуете сдать экзамен, [Select_CString(Character.IsFemale, 'она', 'он' )] присоединится к вам, если не будет [Select_CString(Character.IsFemale, 'занята', 'занят' )] другими делами.",
+    "POL": "Osoba ta dołączy do ciebie, jeśli będzie dostępna podczas twojego podejścia do egzaminu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_GOVERNOR_APPOINTMENT_SCORE_POSITIVE",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$[candidate_score|E]: @appointment_score!#P +[Character.GetGovernorAppointmentScoreByMerit]#!",
+    "RUS": "$BULLET$[candidate_score|E]: @appointment_score!#P +[Character.GetGovernorAppointmentScoreByMerit]#!",
+    "POL": "$BULLET$[candidate_score|E]: @appointment_score! #P +[Character.GetGovernorAppointmentScoreByMerit]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_GOVERNOR_APPOINTMENT_SCORE_NEGATIVE",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$[candidate_score|E]: @appointment_score!#N [Character.GetGovernorAppointmentScoreByMerit]#!",
+    "RUS": "$BULLET$[candidate_score|E]: @appointment_score!#N [Character.GetGovernorAppointmentScoreByMerit]#!",
+    "POL": "$BULLET$[candidate_score|E]: @appointment_score! #N [Character.GetGovernorAppointmentScoreByMerit]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_MOVEMENT_POWER",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$[movement_power|E]: [movement_power_i] [Character.GetMovementPowerByMerit|+=0]",
+    "RUS": "$BULLET$[Concept('movement_power', 'Сила движения')|E]: [movement_power_i] [Character.GetMovementPowerByMerit|+=0]",
+    "POL": "$BULLET$[movement_power|E]: [movement_power_i] [Character.GetMovementPowerByMerit|+=0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_PROGRESS_HEADING",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Progress to next $game_concept_merit_level$",
+    "RUS": "Перейти на следующую $game_concept_merit_level$",
+    "POL": "Postęp do kolejnej rangi zasług",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAX_MERIT_RANK_BREAKDOWN_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#T Maximum [merit_level|E]#!\\n[PlayerValueItem.GetMaxLevelBreakdown( Character.Self )]",
+    "RUS": "#T Максимальная [Concept('merit_level', 'степень заслуг')|E]#!\\n[PlayerValueItem.GetMaxLevelBreakdown( Character.Self )]",
+    "POL": "#T Maksymalna [merit_level|El]#!\\n[PlayerValueItem.GetMaxLevelBreakdown( Character.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_CAP_OVERFLOW_WILL_COUNT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#weak Merit gained while at Merit limit will be counted towards higher levels once the Examinations are passed.#!",
+    "RUS": "#weak Заслуги, приобретенные после достижения их лимита, будут учтены, если лимит повысится в результате экзаменов.#!",
+    "POL": "#weak Zasługi zdobywane powyżej limitu zostaną zaliczone na poczet wyższych rang zasług po zdaniu egzaminów.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "#T At Merit limit#!\\n[SelectLocalization( Character.GetGovernment.IsType( 'celestial_government' ), 'MERIT_RANK_CAP_CELESTIAL_TT', 'MERIT_RANK_CAP_MERITOCRATIC_TT')]",
+    "RUS": "#T Лимит заслуг достигнут#!\\n[SelectLocalization( Character.GetGovernment.IsType( 'celestial_government' ), 'MERIT_RANK_CAP_CELESTIAL_TT', 'MERIT_RANK_CAP_MERITOCRATIC_TT')]",
+    "POL": "#T Osiągnięto limit zasług#!\\n[SelectLocalization( Character.GetGovernment.IsType( 'celestial_government' ), 'MERIT_RANK_CAP_CELESTIAL_TT', 'MERIT_RANK_CAP_MERITOCRATIC_TT')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_CELESTIAL_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)3' ), 'MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)5' ), 'MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)7' ), 'MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "RUS": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)3' ), 'MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)5' ), 'MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)7' ), 'MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "POL": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)3' ), 'MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)5' ), 'MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)7' ), 'MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_MERITOCRATIC_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)4' ), 'MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "RUS": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)4' ), 'MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "POL": "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)4' ), 'MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT' )]\\n\\n$MERIT_CAP_OVERFLOW_WILL_COUNT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_NO_EXAMINATION_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Anyone can reach @merit_level_1_icon![GetModifier( 'merit_level_1' ).GetNameWithTooltip|L]",
+    "RUS": "Любой может получить @merit_level_1_icon![GetModifier( 'merit_level_1' ).GetNameWithTooltip]",
+    "POL": "Każdy może osiągnąć zasługi następującego poziomu: @merit_level_1_icon! [GetModifier( 'merit_level_1' ).GetNameWithTooltip|Ll]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Completing the Provincial Examination (or higher) is required to reach @merit_level_3_icon![GetModifier( 'merit_level_3' ).GetNameWithTooltip|L]",
+    "RUS": "Чтобы получить @merit_level_3_icon![GetModifier( 'merit_level_3' ).GetNameWithTooltip|L], необходимо сдать экзамен провинциального (или более высокого) уровня",
+    "POL": "Do osiągnięcia zasług poziomu, którym jest @merit_level_3_icon! [GetModifier( 'merit_level_3' ).GetNameWithTooltip|Ll], wymagane jest ukończenie egzaminu prowincjonalnego (lub egzaminu wyższego stopnia)",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Completing the Metropolitan Examination (or higher) is required to reach @merit_level_5_icon![GetModifier( 'merit_level_5' ).GetNameWithTooltip|L]",
+    "RUS": "Чтобы получить @merit_level_5_icon![GetModifier( 'merit_level_5' ).GetNameWithTooltip|L], необходимо сдать экзамен муниципального (или более высокого) уровня",
+    "POL": "Do osiągnięcia zasług poziomu, którym jest @merit_level_5_icon! [GetModifier( 'merit_level_5' ).GetNameWithTooltip|Ll], wymagane jest ukończenie egzaminu metropolitarnego (lub egzaminu wyższego stopnia)",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Completing the Palace Examination is required to reach @merit_level_7_icon![GetModifier( 'merit_level_7' ).GetNameWithTooltip|L]",
+    "RUS": "Чтобы получить @merit_level_7_icon![GetModifier( 'merit_level_7' ).GetNameWithTooltip], необходимо сдать дворцовый экзамен",
+    "POL": "Do osiągnięcia zasług poziomu, którym jest @merit_level_7_icon! [GetModifier( 'merit_level_7' ).GetNameWithTooltip|Ll], wymagane jest ukończenie egzaminu pałacowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "Completing the Provincial Examination (or higher) is required to reach @merit_level_4_icon![GetModifier( 'merit_level_4' ).GetNameWithTooltip|L]",
+    "RUS": "Чтобы получить @merit_level_4_icon![GetModifier( 'merit_level_4' ).GetNameWithTooltip|L], необходимо сдать экзамен провинциального (или более высокого) уровня",
+    "POL": "Do osiągnięcia zasług poziomu, którym jest @merit_level_4_icon! [GetModifier( 'merit_level_4' ).GetNameWithTooltip|Ll], wymagane jest ukończenie egzaminu prowincjonalnego (lub egzaminu wyższego stopnia)",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_0_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Cannot be appointed to any [title|E]",
+    "RUS": "$BULLET$Нельзя назначить управлять никакими [Concept('title', 'титулами')|E]",
+    "POL": "$BULLET$Nie można mianować do żadnego [Concept('title', 'tytułu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_1_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [barony|E] [title_tier|E] [titles|E]",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('barony', 'баронства')|E]",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('barony', 'baronii')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_2_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [county|E] [title_tier|E] [titles|E] #weak (and below)#!",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('county', 'графства')|E] #weak (и ниже)#!",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('county', 'hrabstwa')|E] #weak (i niższych)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_3_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [duchy|E] [title_tier|E] [titles|E] #weak (and below)#!",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('duchy', 'герцогства')|E] #weak (и ниже)#!",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('duchy', 'księstwa')|E] #weak (i niższych)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_4_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [kingdom|E] [title_tier|E] [titles|E] #weak (and below)#!",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('kingdom', 'королевства')|E] #weak (и ниже)#!",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('kingdom', 'królestwa')|E] #weak (i niższych)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_5_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [empire|E] [title_tier|E] [titles|E] #weak (and below)#!",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('empire', 'империи')|E] #weak (и ниже)#!",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('empire', 'imperium')|E] #weak (i niższych)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "currency_tier_6_appointment_pool_desc",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$BULLET$Can be appointed to [hegemony|E] [title_tier|E] [titles|E] #weak (and below)#!",
+    "RUS": "$BULLET$Можно назначить управлять [Concept('titles', 'титулами')|E] [Concept('title_tier', 'уровня')|E] [Concept('hegemony', 'гегемонии')|E] #weak (и ниже)#!",
+    "POL": "$BULLET$Można mianować do [Concept('titles', 'tytułów')|E] o [Concept('title_tier', 'poziomie')|E] [Concept('hegemony', 'hegemonii')|E] #weak (i niższych)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "career_path_civilian_province",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@celestial_standard_administration! [civilian_career_path|E]",
+    "RUS": "@celestial_standard_administration! [Concept('civilian_career_path', 'Гражданская служба')|E]",
+    "POL": "@celestial_standard_administration! [civilian_career_path|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "career_path_military_province",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "@celestial_military_administration! [military_career_path|E]",
+    "RUS": "@celestial_military_administration! [Concept('military_career_path', 'Военная служба')|E]",
+    "POL": "@celestial_military_administration! [military_career_path|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "career_path_none",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "No Career Path chosen",
+    "RUS": "Стезя не выбрана",
+    "POL": "Nie wybrano ścieżki kariery",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_0_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nAttend [imperial_examinations|E] to advance your rank.",
+    "RUS": "\\n\\nПримите участие в [Concept('imperial_examinations', 'государственных экзаменах')|E], чтобы подняться в ранге.",
+    "POL": "\\n\\nAby podnieść swoją rangę, weź udział w [Concept('imperial_examinations', 'egzaminach do służby cywilnej')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_1_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nAttend [imperial_examinations|E] to advance to [GetModifier( 'merit_level_2' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nПримите участие в [Concept('imperial_examinations', 'государственных экзаменах')|E], чтобы подняться до #TOOLTIP:STATIC_MODIFIER,merit_level_2 #V #L 8-го ранга#!#!#!.",
+    "POL": "\\n\\nAby podnieść swoją rangę do wyższej ([GetModifier( 'merit_level_2' ).GetNameWithTooltip|Ll]), weź udział w [Concept('imperial_examinations', 'egzaminach do służby cywilnej')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_2_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nAttend [imperial_examinations|E] to advance to [GetModifier( 'merit_level_3' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nПримите участие в [Concept('imperial_examinations', 'государственных экзаменах')|E], чтобы подняться до #TOOLTIP:STATIC_MODIFIER,merit_level_3 #V #L 7-го ранга#!#!#!.",
+    "POL": "\\n\\nAby podnieść swoją rangę do wyższej ([GetModifier( 'merit_level_3' ).GetNameWithTooltip|Ll]), weź udział w [Concept('imperial_examinations', 'egzaminach do służby cywilnej')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_3_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: To attain this rank, scholars are expected to have completed the [provincial_examination|E]. Proceeding to [GetModifier( 'merit_level_4' ).GetNameWithTooltip|L] requires passing higher level [examinations|E].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чтобы получить этот ранг, ученые должны завершить [Concept('provincial_examination', 'провинциальный экзамен')|E]. Для повышения до #TOOLTIP:STATIC_MODIFIER,merit_level_4 #V #L 6-го ранга#!#!#! требуется пройти [Concept('examinations', 'экзамены')|E] более высокого уровня.",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: aby osiągnąć tę rangę, uczeni muszą ukończyć [provincial_examination|El]. [GetModifier( 'merit_level_4' ).GetNameWithTooltip|L] jest dostępna dopiero po zaliczeniu [Concept('examinations', 'egzaminów')|E] wyższego poziomu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_4_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: To attain this rank, scholars are expected to have completed the [provincial_examination|E]. Proceeding to [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] requires passing the [metropolitan_examination|E].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чтобы получить этот ранг, ученые должны завершить [Concept('provincial_examination', 'провинциальный экзамен')|E]. Для повышения до #TOOLTIP:STATIC_MODIFIER,merit_level_5 #V #L 5-го ранга#!#!#! требуется пройти [Concept('metropolitan_examination', 'муниципальный экзамен')|E].",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: aby osiągnąć tę rangę, uczeni muszą ukończyć [provincial_examination|El]. [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] jest dostępna dopiero po zaliczeniu [Concept('metropolitan_examination', 'egzaminu metropolitalnego')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_5_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: Officials at this [merit_level|E] are expected to have completed the [metropolitan_examination|E]. The next rank is [GetModifier( 'merit_level_6' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чиновники с этой [Concept('merit_level', 'степенью заслуг')|E] должны сдать [Concept('metropolitan_examination', 'муниципальный экзамен')|E]. Следующий ранг — #TOOLTIP:STATIC_MODIFIER,merit_level_6 #V #L 4-й#!#!#!.",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: od urzędników z tą [Concept('merit_level', 'rangą zasług')|E] oczekuje się ukończenia [Concept('metropolitan_examination', 'egzaminu metropolitalnego')|E]. Następną rangą jest [GetModifier( 'merit_level_6' ).GetNameWithTooltip|Ll].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_6_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: Officials at this rank are required to have completed the [metropolitan_examination|E]. The next rank is [GetModifier( 'merit_level_7' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nДля #TOOLTIP:GOVERNMENT_TYPE,celestial_government #E #L мандатного#!#!#! [Concept('government', 'правления')|E]: чиновники этого ранга должны сдать [Concept('metropolitan_examination', 'муниципальный экзамен')|E]. Следующий ранг — #TOOLTIP:STATIC_MODIFIER,merit_level_7 #V #L 3-й#!#!#!.",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: od urzędników z tą rangą wymaga się ukończenia [Concept('metropolitan_examination', 'egzaminu metropolitalnego')|E]. Następną rangą jest [GetModifier( 'merit_level_7' ).GetNameWithTooltip|Ll].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_7_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: Officials of this rank are expected to have completed the [palace_examination|E]. The next rank is [GetModifier( 'merit_level_8' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чиновники этого ранга должны сдать [Concept('palace_examination', 'дворцовый экзамен')|E]. Следующий ранг — #TOOLTIP:STATIC_MODIFIER,merit_level_8 #V #L 2-й#!#!#!.",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: od urzędników z tą rangą oczekuje się ukończenia [Concept('palace_examination', 'egzaminu pałacowego')|E]. Następną rangą jest [GetModifier( 'merit_level_8' ).GetNameWithTooltip|Ll].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_8_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: Officials of this rank are expected to have completed the [palace_examination|E]. The next rank is [GetModifier( 'merit_level_9' ).GetNameWithTooltip|L].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чиновники этого ранга должны сдать [Concept('palace_examination', 'дворцовый экзамен')|E]. Следующий ранг — #TOOLTIP:STATIC_MODIFIER,merit_level_9 #V #L 1-й#!#!#!.",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: od urzędników z tą rangą oczekuje się ukończenia [Concept('palace_examination', 'egzaminu pałacowego')|E]. Następną rangą jest [GetModifier( 'merit_level_9' ).GetNameWithTooltip|Ll].",
+    "BEL": ""
+  },
+  {
+    "KEY": "celestial_government_merit_level_9_description",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "\\n\\nFor the [GetGovernment('celestial_government').GetName] [government|E]: Officials of this rank are expected to have completed the [palace_examination|E].",
+    "RUS": "\\n\\nДля [Concept('government', 'правительства')|E] «[GetGovernment('celestial_government').GetNameE]»: чиновники этого ранга должны сдать [Concept('palace_examination', 'дворцовый экзамен')|E].",
+    "POL": "\\n\\n[government|E] [GetGovernment('celestial_government').GetName|l]: od urzędników z tą rangą oczekuje się ukończenia [Concept('palace_examination', 'egzaminu pałacowego')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SORT_MERIT",
+    "FILE_PATH": "localization/belarusian/merit_l_belarusian.json",
+    "ENG": "$game_concept_merit$",
+    "RUS": "$game_concept_merit$",
+    "POL": "$game_concept_merit$",
+    "BEL": ""
+  }
+]

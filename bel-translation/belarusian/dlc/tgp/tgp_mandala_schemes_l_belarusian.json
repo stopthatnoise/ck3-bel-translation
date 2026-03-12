@@ -1,0 +1,466 @@
+[
+  {
+    "KEY": "disbelieve_mandala",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Disbelieve Mandala",
+    "RUS": "Лишить мандалу смысла",
+    "POL": "Kompromitacja mandali",
+    "BEL": ""
+  },
+  {
+    "KEY": "disbelieve_mandala_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "It is time for [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] to be taken down a notch in the [mandala|E] running. Or two.",
+    "RUS": "Пора сделать так, чтобы [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] [Select_CString(SCHEME.GetTargetCharacter.IsFemale, 'утратила', 'утратил' )] власть над [Concept('mandala', 'мандалой')|E].",
+    "POL": "Już czas. [SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] musi stracić swoją pozycję w [Concept('mandala', 'mandali')|E]. Trzeba [SCHEME.GetTargetCharacter.Custom('PL_mu_jej')] porządnie utrzeć nosa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "disbelieve_mandala_desc_general",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The $disbelieve_mandala$ [scheme|E] is a [hostile_scheme|E] that aims to damage the [scheme_target|E]'s repute as a divine Mandala.\\n\\nIt can recruit [agents|E], is a [secret_scheme|E] based on [intrigue|E], and being discovered will end up furthering a rivalry between the instigator and the Target.",
+    "RUS": "[Concept('scheme', 'Происки')|E] «$disbelieve_mandala$» — это [Concept('hostile_scheme', 'агрессивные происки')|E], нацеленные на то, чтобы подорвать статус [Concept('scheme_target', 'жертвы')|E] как божественной мандалы.\\n\\nЭто [Concept('secret_scheme', 'тайные происки')|E] на основе [Concept('intrigue', 'интриги')|E], которые могут задействовать [Concept('agents', 'соучастников')|E], а в случае разоблачения усилят соперничество между инициатором и жертвой.",
+    "POL": "[scheme|E] „$disbelieve_mandala$” to [hostile_scheme|El], którego celem jest zniszczenie reputacji [Concept('scheme_target', 'celu spisku')|E] jako boskiego władcy mandalowego.\\n\\nW ramach tego spisku można werbować [Concept('agents', 'wspólników')|E], jest to [secret_scheme|El] oparty na [Concept('intrigue', 'intrydze')|E], a jego odkrycie doprowadzi do dalszej rywalizacji pomiędzy prowodyrem a celem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "DISBELIEVE_MANDALA_SUCCESS_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] might become a [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] может стать #TOOLTIP:STATIC_MODIFIER,disbelieved_mandala_modifier #V #L лишенной смысла мандалой#!#!#!",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] może zyskać modyfikator „[GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "disbelieve_mandala_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "@scheme_icon! Disbelieve Mandala Scheme Ends",
+    "RUS": "@scheme_icon! Происки «Лишить мандалу смысла» завершаются",
+    "POL": "@scheme_icon! Zakończono spisek „Kompromitacja mandali”",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_target_not_mandala",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[SCHEME.GetTargetCharacter.GetShortUIName|U] does not have a [mandala|E] [government|E]",
+    "RUS": "[Concept('government', 'Правительство')|E] персонажа [SCHEME.GetTargetCharacter.GetShortUIName|U] — не [Concept('mandala', 'мандала')|E]",
+    "POL": "Forma [Concept('government', 'rządu')|E] funkcjonującego u osoby znanej jako[SCHEME.GetTargetCharacter.GetShortUINameNotMe] to nie [mandala|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_owner_not_mandala",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "You do not have a [mandala|E] [government|E]",
+    "RUS": "Ваше [Concept('government', 'правительство')|E] — не [Concept('mandala', 'мандала')|E]",
+    "POL": "Forma twojego [Concept('government', 'rządu')|E] to nie [mandala|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_owner_not_house_head",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "You are no longer the [house_head|E]",
+    "RUS": "Вы больше не [Concept('house_head', 'глава дома')|E]",
+    "POL": "Nie jesteś już [Concept('house_head', 'głową rodu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_target_not_independent",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[SCHEME.GetTargetCharacter.GetShortUIName|U] is not [independent|E]",
+    "RUS": "[SCHEME.GetTargetCharacter.GetShortUIName|U] не является [Concept('independent', Select_CString(recipient.IsFemale, 'независимой', 'независимым' ))|E]",
+    "POL": "[SCHEME.GetTargetCharacter.GetShortUINameNotMe] nie jest postacią [Concept('independent', 'niezależną')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_target_tributary_of_owner",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[SCHEME.GetTargetCharacter.GetShortUIName|U] is your [subject|E]",
+    "RUS": "[SCHEME.GetTargetCharacter.GetShortUIName|U] не является вашим [Concept('subject', 'субъектом')|E]",
+    "POL": "[SCHEME.GetTargetCharacter.GetShortUINameNotMe] nie jest twoim [Concept('subject', 'poddanym')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_disbelieve_mandala_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$disbelieve_mandala$ #weak (Scheme)#!",
+    "RUS": "$disbelieve_mandala$ #weak (происки)#!",
+    "POL": "$disbelieve_mandala$ #weak (spisek)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "disbelieve_mandala_action",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Disbelieve",
+    "RUS": "Лишить смысла",
+    "POL": "Kompromitacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_interaction_tt_disbelieve_mandala",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Attempt to disbelieve [recipient.GetShortUINameNoTooltip], potentially damaging [recipient.GetHerHis] [legitimacy|E], [piety|E] and wreaking havoc among [recipient.GetHerHis] [subjects|E]",
+    "RUS": "Попытаться лишить смысла правление персонажа [recipient.GetShortUINameNoTooltip], подорвав [Select_CString(recipient.IsFemale, 'ее', 'его')] [Concept('legitimacy', 'легитимность')|E] и [Concept('piety', 'благочестие')|E], а также посеяв хаос среди [Select_CString(recipient.IsFemale, 'ее', 'его')] [Concept('subjects', 'субъектов')|E]",
+    "POL": "Próba kompromitacji postaci znanej jako [recipient.GetShortUINameNotMeNoTooltip], potencjalnie szkodząca [recipient.GetHerHis] [Concept('legitimacy', 'legitymacji')|E] i [Concept('piety', 'pobożności')|E] oraz siejąca zamęt wśród [recipient.GetHerHis] [Concept('subjects', 'poddanych')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "disbelieve_mandala_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Disbelieve Mandala",
+    "RUS": "Лишить мандалу смысла",
+    "POL": "Kompromitacja mandali",
+    "BEL": ""
+  },
+  {
+    "KEY": "unlock_disbelieve_mandala_scheme_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Requires level #V 3#! of the [aspect_of_trickery|E]",
+    "RUS": "Требуется #V 3#! уровень [Concept('aspect_of_trickery', 'аспекта обмана')|E]",
+    "POL": "Wymagany jest poziom #V 3#! [Concept('aspect_of_trickery', 'aspektu podstępu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce Tributary",
+    "RUS": "Принудить платить дань",
+    "POL": "Przymuszenie trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] should soon know who [SCHEME.GetTargetCharacter.GetHerHis] #EMP true#! leader is...",
+    "RUS": "Скоро [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] узнает, кто тут #EMP настоящий#! вождь...",
+    "POL": "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] wkrótce się przekona, kto jest [SCHEME.GetTargetCharacter.GetHerHis] #EMP prawdziwym#! przywódcą…",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary_desc_general",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The $coerce_tributary$ [scheme|E] is a [political_scheme|E] that aims to convince the [scheme_target|E] to become a [tributary|E] of the [scheme_owner|E].\\n\\nIf the Target already has a [suzerain|E], that Suzerain will get a choice in how to respond to the matter, and will sow [rivalry|E] between the Owner and the Suzerain.",
+    "RUS": "[Concept('scheme', 'Происки')|E] «$coerce_tributary$» — это [Concept('political_scheme', 'политические происки')|E], нацеленные на то, чтобы убедить [Concept('scheme_target', 'жертву')|E] стать [Concept('tributary', 'данником')|E] [Concept('scheme_owner', 'интригана')|E].\\n\\nЕсли у жертвы уже есть [Concept('suzerain', 'повелитель')|E], у него будет выбор, как отреагировать на это, и это разожжёт [Concept('rivalry', 'соперничество')|E] между интриганом и повелителем.",
+    "POL": "[scheme|E] „$coerce_tributary$” to [political_scheme|El], którego celem jest przekonanie [Concept('scheme_target', 'celu spisku')|E], by został [Concept('tributary', 'trybutariuszem')|E] [Concept('scheme_owner', 'inicjatora spisku')|E].\\n\\nJeśli cel ma już [Concept('suzerain', 'suzerena')|E], suzeren ten będzie mógł zdecydować, jak zareagować na tę kwestię i zapoczątkuje [Concept('rivalry', 'rywalizację')|E] pomiędzy inicjatorem spisku a suzerenem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COERCE_TRIBUTARY_SUCCESS_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] might become your [tributary|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] может стать вашим [Concept('tributary', 'данником')|E]",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] może zostać twoim [Concept('tributary', 'trybutariuszem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "@scheme_icon! Coerce Tributary Scheme Ends",
+    "RUS": "@scheme_icon! Происки «Принудить платить дань» завершаются",
+    "POL": "@scheme_icon! Zakończono spisek „Przymuszenie trybutariusza”",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_coerce_tributary_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$coerce_tributary$ #weak (Scheme)#!",
+    "RUS": "$coerce_tributary$ #weak (происки)#!",
+    "POL": "$coerce_tributary$ #weak (spisek)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary_action",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce",
+    "RUS": "Принудить",
+    "POL": "Przymuś",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_interaction_tt_coerce_tributary",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Attempt to coerce [recipient.GetShortUINameNoTooltip] into becoming your [tributary|E]",
+    "RUS": "Попытаться сделать так, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'стала', 'стал')] вашим [Concept('tributary', 'данником')|E]",
+    "POL": "Próba przymuszenia postaci znanej jako [recipient.GetShortUINameNotMeNoTooltip] do zostania twoim [Concept('tributary', 'trybutariuszem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_tributary_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce Tributary",
+    "RUS": "Принудить платить дань",
+    "POL": "Przymuszenie trybutariusza",
+    "BEL": ""
+  },
+  {
+    "KEY": "target_is_your_subject.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[target.GetShortUIName] is [owner.GetShortUINamePossessive] [subject|E]",
+    "RUS": "[target.GetShortUIName|U] — [Select_CString(owner.IsLocalPlayer, 'ваш ', '')][Concept('subject', 'субъект')|E][Select_CString(owner.IsLocalPlayer, '', Concatenate(' персонажа ', owner.GetShortUIName))]",
+    "POL": "[target.GetShortUINameNotMe] jest [Concept('subject', 'poddanym')|E] osoby znanej jako [owner.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_is_your_suzerain.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName] is [actor.GetShortUINamePossessive] [suzerain|E]",
+    "RUS": "[recipient.GetShortUIName|U] — [Select_CString(actor.IsLocalPlayer, 'ваш ', '')][Concept('suzerain', 'повелитель')|E][Select_CString(actor.IsLocalPlayer, '', Concatenate(' персонажа ', actor.GetShortUIName))]",
+    "POL": "[recipient.GetShortUINameNotMe] jest [Concept('suzerain', 'suzerenem')|E] osoby znanej jako [actor.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "you_share_suzerain.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "You share a [suzerain|E]",
+    "RUS": "У вас один [Concept('suzerain', 'повелитель')|E]",
+    "POL": "Macie tego samego [Concept('suzerain', 'suzerena')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "was_betrayed_after_being_coerced.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "You have previously betrayed [recipient.GetShortUIName] after coercing them",
+    "RUS": "Ранее вы предали персонажа [recipient.GetShortUIName], принудив [Select_CString(recipient.IsFemale, 'ее', 'его')] платить дань",
+    "POL": "Po przymuszeniu osoby znanej jako [recipient.GetShortUINameNotMe] doszło już do zdrady z twojej strony",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce Contribution",
+    "RUS": "Принудить внести вклад",
+    "POL": "Wymuś kontrybucję",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The denizens of [SCHEME.GetTargetTitle.GetBaseNameNoTier] can surely be convinced to contribute to such a great project...",
+    "RUS": "Жителей владения [SCHEME.GetTargetTitle.GetBaseNameNoTier] наверняка можно убедить внести какой-то вклад в мой великий проект…",
+    "POL": "Z pewnością da się przekonać mieszkańców miejsca o nazwie [SCHEME.GetTargetTitle.GetBaseNameNoTier], aby wnieśli wkład w tak wspaniały projekt…",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_desc_general",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The $coerce_contribution$ [scheme|E] is a [political_scheme|E] that aims to convince the inhabitants of the [scheme_target|E] Barony to open their hearts and purses in order to [great_project_contribute|E] to the [great_project|E] of the [scheme_owner|E].",
+    "RUS": "[Concept('scheme', 'Происки')|E] «$coerce_contribution$» — [Concept('political_scheme','политические происки')|E], цель которых — убедить население [Concept('scheme_target', 'выбранного')|E] баронства [Concept('great_project_contribute', 'внести свой вклад')|E] в [Concept('great_project', 'грандиозный проект')|E] [Concept('scheme_owner', 'интригана')|E].",
+    "POL": "[scheme|E] „$coerce_contribution$” to [political_scheme|El], który ma na celu przekonanie mieszkańców baronii należącej do [Concept('scheme_target', 'celu spisku')|E] do otwarcia serc i sakw i [Concept('great_project_contribute', 'wniesienia wkładu')|E] we [great_project|El] [Concept('scheme_owner', 'inicjatora spisku')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "COERCE_CONTRIBUTION_SUCCESS_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The denizens of [TARGET_TITLE.GetBaseName|U] funds one of your [great_project_contributions|E]",
+    "RUS": "Жители владения [TARGET_TITLE.GetBaseName|U] профинансируют [Concept('great_project_contributions', 'вклад')|E] в ваш грандиозный проект",
+    "POL": "Mieszkańcy miejsca o nazwie [TARGET_TITLE.GetBaseName|U] fundują jeden z [Concept('great_project_contributions', 'wkładów')|E] w twój projekt",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "@scheme_icon! Coerce Contribution Scheme Ends",
+    "RUS": "@scheme_icon! Происки «Принудить внести вклад» завершаются",
+    "POL": "@scheme_icon! Zakończono spisek „Wymuś kontrybucję”",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_coerce_contribution_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$coerce_contribution$ #weak (Scheme)#!",
+    "RUS": "$coerce_contribution$ #weak (происки)#!",
+    "POL": "$coerce_contribution$ #weak (spisek)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_action",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce Contribution in the Lands of",
+    "RUS": "Принудить внести вклад владение",
+    "POL": "Wymuś kontrybucje na ziemiach osoby znanej jako",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_interaction_tt_coerce_contribution",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Attempt to coerce the inhabitants of your realm to [great_project_contribute|E] to your [great_project|E]",
+    "RUS": "Попытаться принудить жителей вашей державы [Concept('great_project_contribute', 'внести свой вклад')|E] в ваш [Concept('great_project', 'грандиозный проект')|E]",
+    "POL": "Spróbuj wymusić na mieszkańcach twojego państwa [Concept('great_project_contribute', 'wniesienie wkładu')|E] w twój [great_project|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Coerce Contribution",
+    "RUS": "Принудить внести вклад",
+    "POL": "Wymuś kontrybucję",
+    "BEL": ""
+  },
+  {
+    "KEY": "coerce_contribution_scheme_success_outcome_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "If successful, one of your #high [GetBuilding('mandala_capital_01').GetTypeName]#! [great_project_contributions|E] are funded by the denizens of [target.GetBaseName]",
+    "RUS": "В случае успеха жители владения [target.GetBaseName] профинансируют [Concept('great_project_contributions', 'вклад')|E] в постройку вашего #high #TOOLTIP:BUILDING,mandala_capital_01 #L украшенного храма#!#!#!",
+    "POL": "Jeśli spisek się powiedzie, jeden z [Concept('great_project_contributions', 'wkładów')|E] w twój projekt o nazwie #high [GetBuilding('mandala_capital_01').GetTypeName|l]#! zostanie ufundowany przez mieszkańców miejsca znanego jako [target.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_coerce_contribution_interaction.tt.agent_focus_success",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "RUS": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "POL": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_coerce_contribution_interaction.tt.agent_focus_speed",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "RUS": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "POL": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "no_available_target_titles.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "There are no untapped counties in your [realm|E]",
+    "RUS": "В вашей [Concept('realm', 'державе')|E] нет незатронутых графств",
+    "POL": "W twoim [Concept('realm', 'państwie')|E] nie ma żadnych niewykorzystywanych hrabstw.",
+    "BEL": ""
+  },
+  {
+    "KEY": "no_contributions_to_fund.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "You do not have any [great_project|E] [great_project_contributions|E] to fund",
+    "RUS": "У вас нет [Concept('great_project', 'грандиозного проекта')|E], [Concept('great_project_contributions', 'вклад')|E] в который можно профинансировать",
+    "POL": "Nie masz żadnego [Concept('great_project_contributions', 'wkładu')|E] we [great_project|El] do ufundowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_title_changed_holder",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The [target.GetBaseName] changed holder",
+    "RUS": "Во владении [target.GetBaseName] сменился владетель",
+    "POL": "Miejsce o nazwie [target.GetBaseName] zmieniło właściciela",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_great_project_is_funded",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Your [great_project|E] has no unfunded [great_project_contributions|E] left",
+    "RUS": "Все [Concept('great_project_contributions', 'вклады')|E] в ваш [Concept('great_project', 'грандиозный проект')|E] уже профинансированы",
+    "POL": "Twój [great_project|El] nie ma już żadnego [Concept('great_project_contributions', 'wkładu')|E] do ufundowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "attempted_to_coerce_contribution_from_my_realm_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Attempted to Coerce Contribution From My Realm",
+    "RUS": "Попытка принудить мою державу внести вклад",
+    "POL": "Spróbuj wymusić kontrybucje na własnym państwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Leverage Contribution",
+    "RUS": "Убедить внести вклад",
+    "POL": "Przekonaj do wniesienia kontrybucji",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] can surely be convinced to contribute to such a great project...",
+    "RUS": "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] наверняка согласится внести вклад в мой великий проект…",
+    "POL": "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] z pewnością da się przekonać do wniesienia wkładu w tak wspaniały projekt…",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_desc_general",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "The $leverage_contribution$ [scheme|E] is a [political_scheme|E] that aims to convince the [scheme_target|E] to open their hearts and purses in order to [great_project_contribute|E] to the [great_project|E] of the [scheme_owner|E].",
+    "RUS": "[Concept('scheme', 'Происки')|E] «$leverage_contribution$» — [Concept('political_scheme','политические происки')|E], цель которых — убедить [Concept('scheme_target', 'жертву происков')|E] [Concept('great_project_contribute', 'внести свой вклад')|E] в [Concept('great_project', 'грандиозный проект')|E] [Concept('scheme_owner', 'интригана')|E].",
+    "POL": "[scheme|E] „$leverage_contribution$” to [political_scheme|El], który ma na celu przekonanie [Concept('scheme_target', 'celu spisku')|E] do otwarcia serc i sakw i [Concept('great_project_contribute', 'wniesienia wkładu')|E] we [great_project|El] [Concept('scheme_owner', 'inicjatora spisku')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEVERAGE_CONTRIBUTION_SUCCESS_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] funds one of your [great_project_contributions|E]",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] профинансирует [Concept('great_project_contributions', 'вклад')|E] в ваш грандиозный проект",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe] funduje jeden z [Concept('great_project_contributions', 'wkładów')|E] w twój projekt",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "@scheme_icon! Leverage Contribution Scheme Ends",
+    "RUS": "@scheme_icon! Происки «Убедить внести вклад» завершаются",
+    "POL": "@scheme_icon! Zakończono spisek „Przekonaj do wniesienia kontrybucji”",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_is_unable_to_afford_contributions.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is unable to afford any of your [great_project_contributions|E]",
+    "RUS": "[recipient.GetShortUIName|U] не имеет средств, чтобы профинансировать [Concept('great_project_contributions', 'вклад')|E] в ваш проект",
+    "POL": "[recipient.GetShortUINameNotMe] nie posiada środków, aby wnieść [great_project_contributions|El] w twój projekt",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_leverage_contribution_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$leverage_contribution$ #weak (Scheme)#!",
+    "RUS": "$leverage_contribution$ #weak (происки)#!",
+    "POL": "$leverage_contribution$ #weak (spisek)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_action",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Leverage Contribution from",
+    "RUS": "Убедить внести вклад персонажа",
+    "POL": "Przekonaj do wniesienia kontrybucji osobę znaną jako",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_interaction_tt_leverage_contribution",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Attempt to leverage a [great_project_contribution|E] from [recipient.GetShortUINameNoTooltip]",
+    "RUS": "Попытаться убедить персонажа [recipient.GetShortUINameNoTooltip] [Concept('great_project_contribute', 'внести вклад')|E] в ваш грандиозный проект",
+    "POL": "Spróbuj przekonać osobę znaną jako [recipient.GetShortUINameNotMeNoTooltip] do wniesienia [Concept('great_project_contribution', 'wkładu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "Leverage Contribution",
+    "RUS": "Убедить внести вклад",
+    "POL": "Przekonaj do wniesienia kontrybucji",
+    "BEL": ""
+  },
+  {
+    "KEY": "leverage_contribution_scheme_success_outcome_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "If successful, one of your #high [GetBuilding('mandala_capital_01').GetTypeName]#! [great_project_contributions|E] are funded [recipient.GetShortUIName]",
+    "RUS": "В случае успеха [recipient.GetShortUIName] профинансирует [Concept('great_project_contributions', 'вклад')|E] в постройку вашего #high #TOOLTIP:BUILDING,mandala_capital_01 #L украшенного храма#!#!#!",
+    "POL": "Jeśli spisek się powiedzie, jeden z [Concept('great_project_contributions', 'wkładów')|E] w twój projekt o nazwie #high [GetBuilding('mandala_capital_01').GetTypeName|l]#! zostanie ufundowany przez osobę znaną jako [recipient.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_leverage_contribution_interaction.tt.agent_focus_success",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "RUS": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "POL": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "start_leverage_contribution_interaction.tt.agent_focus_speed",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/tgp_mandala_schemes_l_belarusian.json",
+    "ENG": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "RUS": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]",
+    "POL": "$schemes.tt.agent_packages.list_boilerplate$\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName|l],\\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName|l],\\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName|l].",
+    "BEL": ""
+  }
+]

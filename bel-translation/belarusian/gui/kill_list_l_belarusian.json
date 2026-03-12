@@ -1,0 +1,58 @@
+[
+  {
+    "KEY": "KILL_LIST",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "[KillListWindow.GetCharacter.GetUINamePossessive|U] Kills",
+    "RUS": "[Select_CString(KillListWindow.GetCharacter.IsLocalPlayer, '', 'Убитые ' )][KillListWindow.GetCharacter.LocalPlayerString( '', 'персонажем ' )][KillListWindow.GetCharacter.GetNamePossessiveOrMy|U][Select_CString(KillListWindow.GetCharacter.IsLocalPlayer, 'и жертвы', '' )]",
+    "POL": "[Select_CString( KillListWindow.GetCharacter.IsLocalPlayer, 'Twoje zabójstwa', Concatenate('Zabójstwa postaci ', KillListWindow.GetCharacter.GetShortUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OPEN_KILL_LIST_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "#T View Kills\\n#!View all Characters [Character.GetShortUINameNoTooltip] [Character.LocalPlayerString( 'have', 'has' )] killed, [Character.LocalPlayerString( 'if you want to reminisce...', 'that you know of...' )]",
+    "RUS": "#T Просмотр убийств\\n#![Character.LocalPlayerString( 'Вспомнить лица ', 'Посмотреть ' )][Character.LocalPlayerString( '', 'известных вам жертв ' )][Select_CString(Character.IsLocalPlayer, '', 'персонажа ' )][Character.GetNamePossessiveOrMy][Select_CString(Character.IsLocalPlayer, 'их жертв', '' )]",
+    "POL": "#T Wyświetl zabójstwa\\n#!Wyświetl wszystkie [Character.LocalPlayerString( 'swoje zabójstwa, jeżeli chcesz je powspominać...', Concatenate( Concatenate('zabójstwa postaci ', Character.GetShortUINameNotMeNoTooltip ), ', o których wiesz...') )] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_KILL_LIST",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "[ArtifactKillListWindow.GetArtifact.GetName|U] Kills",
+    "RUS": "Убийства: [ArtifactKillListWindow.GetArtifact.GetName|U]",
+    "POL": "Zabójstwa: [ArtifactKillListWindow.GetArtifact.GetName|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OPEN_ARTIFACT_KILL_LIST_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "#T View Kills\\n#!View all Characters that [Artifact.GetName] has killed",
+    "RUS": "#T Просмотр убийств\\n#!Просмотреть всех убитых артефактом «[Artifact.GetName]»",
+    "POL": "#T Wyświetl zabójstwa\\n#!Wyświetl wszystkie postacie zabite przez artefakt [Artifact.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_FORGOTTEN_SOLDIER_KILLS",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "#S Forgotten Soldiers#!: [Artifact.GetForgottenSoldiersCount|V]",
+    "RUS": "#S Забытые солдаты#!: [Artifact.GetForgottenSoldiersCount|V]",
+    "POL": "#S Zapomniani żołnierze#!: [Artifact.GetForgottenSoldiersCount|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEATH_DATE",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "Death Date",
+    "RUS": "Дата смерти",
+    "POL": "Data śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEATH_REASON",
+    "FILE_PATH": "localization/belarusian/gui/kill_list_l_belarusian.json",
+    "ENG": "Death Reason",
+    "RUS": "Причина смерти",
+    "POL": "Przyczyna śmierci",
+    "BEL": ""
+  }
+]

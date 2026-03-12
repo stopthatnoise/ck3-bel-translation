@@ -1,0 +1,250 @@
+[
+  {
+    "KEY": "sway_outcome.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Sway: An Opportunity",
+    "RUS": "Влияние: удобная возможность",
+    "POL": "Przekonaj do siebie: okazja",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "In my attempts to align [target.GetTitledFirstName] to my interests, I have found an opportunity. I think I could argue that our goals are, in fact, the same. As I dictate my next letter...",
+    "RUS": "Кажется, [target.GetTitledFirstName] еще может встать на мою сторону. Думаю, у нас есть общие цели. Я диктую письмо, в котором...",
+    "POL": "W moich staraniach, aby [target.GetTitledFirstName] przekonał[Select_CString(target.IsFemale, 'a', '' )] się do mnie, nadarzyła się okazja. Myślę, iż mogę przekonywać, że w istocie nasze cele są takie same. Kiedy będę dyktować swój następny list…",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "...I emphasize those shared interests.",
+    "RUS": "...подчеркиваю наши общие интересы.",
+    "POL": "…podkreślę nasze wspólne cele. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1001.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip] is convinced",
+    "RUS": "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[target.GetFirstNameNoTooltip] przekonał[Select_CString( target.IsFemale, 'a', '' )] się do ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1001.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip] sees through my efforts",
+    "RUS": "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'разгадала', 'разгадал' )] мой замысел",
+    "POL": "[target.GetFirstNameNoTooltip] dostrzega moje wysiłki",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "...I try to maintain subtlety.",
+    "RUS": "...пытаюсь выражаться деликатно.",
+    "POL": "…postaram zachować się subtelnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Sway: Religious Convictions",
+    "RUS": "Влияние: религиозные убеждения",
+    "POL": "Przekonaj do siebie: przekonania religijne",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1002.same_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I have gotten an idea in my attempts to align [target.GetTitledFirstName] to my interests.\\n\\nWith the right arguments, I may be able to convince [target.GetHerHim] that I am acting not merely in my own interest, but in the interest of [ROOT.Char.GetFaith.HighGodNameAlternate] [ROOT.Char.GetFaith.HighGodHerselfHimself]!",
+    "RUS": "Кажется, [target.GetTitledFirstName] еще может встать на мою сторону.\\n\\nЕсли найти верные слова, я смогу внушить [target.GetHerHim], что действую не только в собственных интересах и что мою волю направляет [ROOT.Char.GetFaith.HighGodHerselfHimself] [ROOT.Char.GetFaith.HighGodNameAlternate]!",
+    "POL": "Wpadł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] na pomysł, co zrobić, aby [target.GetTitledFirstName] zacz[Select_CString(target.IsFemale, 'ęła', 'ął' )] podzielać również moje zainteresowania.\\n\\nMając odpowiednie argumenty, być może uda mi się przekonać [Select_CString(target.IsFemale, 'ją', 'go' )], że działam nie tylko we własnym interesie, ale również w interesie [Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodNameSheHe, 'ona' ), 'samej', 'samego' )] [ROOT.Char.GetFaith.HighGodNameAlternatePossessive]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1002.other_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I have gotten an idea in my attempts to align [target.GetTitledFirstName] to my interests.\\n\\nPerhaps I could argue that it is in the interest of all [target.GetFaith.GetAdherentNamePlural] to support me, rather than any other [ROOT.Char.GetFaith.GetAdjective] ruler?",
+    "RUS": "Кажется, [target.GetTitledFirstName] еще может встать на мою сторону. Возможно, я докажу, что [target.GetFaith.GetAdherentNamePlural|l] должны поддерживать именно меня, а не других #L [ROOT.Char.GetFaith.GetName|l]их#! властителей!",
+    "POL": "Wpadł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] na pomysł, co zrobić, aby [target.GetTitledFirstName] zacz[Select_CString(target.IsFemale, 'ęła', 'ął' )] podzielać również moje zainteresowania.\\n\\nMoże [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] argumentować, że wszyscy [target.GetFaith.GetAdherentNamePlural] powinni wspierać mnie, a nie jakiegokolwiek innego władcę, wyznającego [ROOT.Char.GetFaith.GetName|l]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I believe I can make a very convincing argument.",
+    "RUS": "Думаю, я смогу подобрать весомый аргумент.",
+    "POL": "Uważam, że mogę przedstawić bardzo przekonujący argument.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Perhaps I should keep to diplomatic niceties.",
+    "RUS": "Думаю, стоит прибегнуть к дипломатическим любезностям.",
+    "POL": "Może powin[Select_CString( target.IsFemale, 'nam', 'ienem' )] trzymać się dyplomatycznych uprzejmości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Sway: Pushing Luck",
+    "RUS": "Влияние: испытать судьбу",
+    "POL": "Przekonaj do siebie: igranie z losem",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I finish reading the latest letter from [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] and smile – [target.GetSheHe] seems to have warmed to me at last.\\n\\nWhile this is a success I am tempted to use this opportunity to try and get even closer...",
+    "RUS": "Я заканчиваю читать последнее письмо, что [Select_CString(target.IsFemale, 'написала', 'написал' )] мне [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], и улыбаюсь. Похоже, наши отношения наконец-то потеплели.\\n\\nИ хотя одно это уже можно считать успехом, меня подмывает воспользоваться шансом и сблизиться еще сильнее...",
+    "POL": "Kończę czytać ostatni list, który wysłał[Select_CString(target.IsFemale, 'a', '' )] mi [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] i uśmiecham się – chyba w końcu się do mnie przekonał[Select_CString(target.IsFemale, 'a', '' )].\\n\\nChociaż jest to sukces, kusi mnie, aby wykorzystać tę okazję, aby spróbować zbliżyć się jeszcze bardziej…",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Time to put my diplomatic skills to the test!",
+    "RUS": "Пора подвергнуть испытанию мои навыки дипломатии!",
+    "POL": "Czas przetestować moje umiejętności dyplomatyczne!",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetSheHe|U] appreciates the effort",
+    "RUS": "[target.GetSheHe|U] ценит мои усилия",
+    "POL": "Docenia starania",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetSheHe|U] is insulted",
+    "RUS": "[target.GetSheHe|U] [Select_CString(bird_sender.IsFemale, 'оскорблена', 'оскорблен' )]",
+    "POL": "Jest obrażon[Select_CString(target.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.a_friend",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I will let [friend.GetFirstNameNoTooltip] handle this.",
+    "RUS": "Пусть этим займется [friend.GetFirstNameNoTooltip]",
+    "POL": "Pozwolę, aby [friend.GetFirstNameNoTooltip] się tym zaj[Select_CString(friend.IsFemale, 'ęła', 'ął' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.1003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "This victory is enough.",
+    "RUS": "Этой победы достаточно.",
+    "POL": "To zwycięstwo jest wystarczające.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Sway: A Misunderstanding",
+    "RUS": "Влияние: недопонимание",
+    "POL": "Przekonaj do siebie: nieporozumienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "It seems that my diplomatic overtures towards [target.GetTitledFirstName] have caused a major misunderstanding! I have received a letter which makes it clear that [target.GetSheHe] thinks I have been pursuing a different goal entirely...",
+    "RUS": "Похоже, мои дипломатические заигрывания привели к противоположному результату: в последнем письме [target.GetTitledFirstName] сообщает, что у нас совершенно разные цели...",
+    "POL": "Wygląda na to, że moje dyplomatyczne zabiegi spowodowały poważne nieporozumienie! Otrzymał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] list, w którym [target.GetTitledFirstName] jasno twierdzi, że [target.GetHerHis] zdaniem dążę do zupełnie innego celu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_relation",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\nЯ же [Select_CString(target.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))], прости [target.GetFaith.HighGodNamePossessive]!»",
+    "POL": "\\n\\n„Jako [Select_CString(target.IsFemale, 'twoja', 'twój' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))], nie mogę tego zrobić, na miłość boską!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_romantically",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Хотя мне лестно ваше предложение, но, на мой взгляд, для человека вашего положения такие вещи непозволительны».",
+    "POL": "\\n\\n„Chociaż mi to schlebia, uważam, że twoje zainteresowanie jest niestosowne dla osoby o twojej pozycji”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_horses",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Вы можете сколько угодно слать льстивые письма, но я не продам ни единого чистокровного коня!»",
+    "POL": "\\n\\n„Nie sprzedam moich rasowych koni, bez względu na to, ile listów pochlebnych wyślesz!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_toll_exemptions",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Я не дам вам налоговых льгот, как бы вы ни обещали расширить торговлю!»",
+    "POL": "\\n\\n„Nie mogę przyznać ci zwolnienia z opłat, bez względu na to, jak wiele handlu obiecasz!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_friend",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Похоже, что вам на самом деле нужен друг, а с этим я, боюсь, не помощник. Впрочем, могу посоветовать вам...»",
+    "POL": "\\n\\n– Brzmi to tak, jakbyś naprawdę potrzebował[Select_CString(ROOT.Char.IsFemale, 'a', '' )] przyjaciela, ale obawiam się, że nie mogę być nim dla ciebie. Mogę jednak polecić ci…",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.not_interested_relics",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Вы не получите ни единой моей реликвии, сколько бы вы за меня ни молились!»",
+    "POL": "\\n\\n„Nie dam ci żadnej z moich relikwii, bez względu na to, ile razy byś się za mnie modlił[Select_CString(ROOT.Char.IsFemale, 'a', '' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.end",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\nI do not need to read on to get the point.",
+    "RUS": "\\n\\nДальше можно не читать, суть уже ясна.",
+    "POL": "\\n\\nNie muszę czytać dalej, aby zrozumieć, o co chodzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "This is all a big misunderstanding!",
+    "RUS": "Я могу все объяснить!",
+    "POL": "To wszystko jest jakimś wielkim nieporozumieniem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "Sway: Nefarious Plotting",
+    "RUS": "Влияние: гнусные происки",
+    "POL": "Przekonaj do siebie: nikczemny spisek",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'прекратила', 'прекратил' )] всякое общение с вами».\\n\\nПохоже, мой внезапный интерес и интенсивная переписка были восприняты как признак того, что я замышляю нечто гнусное!",
+    "POL": "– Wasza czcigodność! [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] postanawia zakończyć wszelkie rozmowy z tobą.\\n\\nWidząc moje nagłe zainteresowanie i ilość korespondencji, będące symbolem nikczemnych planów, wygląda na to, że uważa [target.GetSheHe], iż spiskuję przeciwko [target.Custom('PL_niemu_niej')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "sway_outcome.2002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/sway/sway_outcome_events_l_belarusian.json",
+    "ENG": "I was just trying to make a good impression...",
+    "RUS": "Мне лишь хотелось произвести хорошее впечатление...",
+    "POL": "Chciałe[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] tylko zrobić dobre wrażenie…",
+    "BEL": ""
+  }
+]

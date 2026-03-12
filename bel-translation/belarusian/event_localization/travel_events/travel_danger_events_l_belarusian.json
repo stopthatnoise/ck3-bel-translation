@@ -1,0 +1,1346 @@
+[
+  {
+    "KEY": "travel_danger_prefix",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Danger:",
+    "RUS": "Опасность:",
+    "POL": "Zagrożenie:",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Mountains Out of Mole Hills",
+    "RUS": "$travel_danger_prefix$ Из мухи слона",
+    "POL": "$travel_danger_prefix$ z igły widły",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The road has gotten incredibly hilly the past few hours and everyone is beginning to weary. With no end of the hills in sight, my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] approaches me and says:\\n\\n",
+    "RUS": "За последние несколько часов дорога стала чересчур холмистой, и это вымотало всех. Холмы тянутся до самого горизонта, конца им не видно, и, наконец, [Select_CString(travel_leader.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] заявляет:\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], животные долго не выдержат. Беднягам нужен перерыв, иначе они просто упадут от усталости! Нужно сделать привал!»\\n\\n[travel_leader.GetSheHe|U] хорошо знает, что с каждой задержкой [destination.GetName] становится всё дальше и дальше…",
+    "POL": "W ciągu ostatnich kilku godzin droga stała się niesamowicie pagórkowata, a wszyscy zaczynają być zmęczeni. Końca wzgórz nie widać, a do mnie podchodzi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))], [travel_leader.GetFirstName].\\n\\n– Wasza czcigodność – mówi – nasze wierzchowce nie wytrzymają tak dłużej. Biedne zwierzęta potrzebują przerwy, bo obawiam się, że padną! Musimy się zatrzymać i odpocząć!\\n\\nDoskonale wie, że opóźni to naszą podróż do miejsca znanego jako [destination.GetName]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[travel_leader.GetSheHe|U] is right. It would be wise to rest.",
+    "RUS": "[travel_leader.GetSheHe|U] [Select_CString(travel_leader.IsFemale, 'права', 'прав' )]. Отдых действительно необходим.",
+    "POL": "Ma rację. Mądrze byłoby odpocząć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не потерплю проволочек. Вперед!»",
+    "POL": "„Nie będę tolerować opóźnień. Naprzód!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1000.t$",
+    "RUS": "$travel_danger_events.1000.t$",
+    "POL": "$travel_danger_events.1000.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I press us on a bit further, keen on making it to [destination.GetName] according to plan. As we crest the largest hill yet, I think our struggles might finally come to an end, when...\\n\\n#EMP THUD! ... THUD, THUD, THUD!#!\\n\\nI turn to see the source of the noise and gasp as all our mounts start collapsing to the ground! It seems that [travel_leader.GetFirstName] was right... these poor beasts can only take so much strain. I should have listened when I had the chance.",
+    "RUS": "Я продолжаю двигаться вперед — [destination.GetName] ждет нас, и мы будем вовремя. Когда мы перебираемся через самый крупный холм, мне начинает казаться, что самое сложное позади, но вдруг...\\n\\n#EMP ШМЯК!.. ШМЯК, ШМЯК, ШМЯК!#!\\n\\nЯ оборачиваюсь на шум и вижу, что наши животные падают наземь, одно за другим! Видимо, [Select_CString(travel_leader.IsFemale, 'права была', 'прав был' )] [travel_leader.GetFirstName]... Бедные звери надорвались. Нужно было прислушаться.",
+    "POL": "Zarządzam dalszy marsz, chcąc dotrzeć do miejsca znanego jako [destination.GetName] zgodnie z planem. Gdy wspinamy się na największe jak dotąd wzgórze, myślę, że nasze zmagania wreszcie dobiegną końca, gdy…\\n\\n#EMP ŁUP! … ŁUP, ŁUP, ŁUP!#!\\n\\nOdwracam się, by zobaczyć źródło hałasu i sapię, gdy wszystkie nasze wierzchowce zaczynają padać na ziemię! Wygląda na to, że [travel_leader.GetFirstName] miał[Select_CString(travel_leader.IsFemale, 'a', '' )] rację… te biedne zwierzęta mogą znieść tylko tyle wysiłku. Powin[Select_CString(ROOT.Char.IsFemale, 'nam była', 'ienem był' )] posłuchać, kiedy miał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] ku temu okazję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Отправляйся в ближайший город, [travel_leader.GetFirstNameNoTooltip], купи свежих животных».",
+    "POL": "„[travel_leader.GetFirstNameNoTooltip], udaj się do najbliższego miasta i kup wypoczęte wierzchowce”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пойдем пешком!»",
+    "POL": "„Pójdziemy pieszo!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Treacherous Slopes",
+    "RUS": "$travel_danger_prefix$ Опасные склоны",
+    "POL": "$travel_danger_prefix$ zdradzieckie zbocza",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "As we travel through [current_location.GetName], I take in the beautiful view from the mountainside. When I steal my eyes away to focus back on the stony path ahead, I realize we have been surrounded by group of ruffians! A fearsome [bandit.GetWomanMan], presumably their leader, steps in front of our caravan.\\n\\n",
+    "RUS": "[current_location.GetName|U] радует взгляд: вид гор прекрасен. Когда мне удается отвести взгляд и вновь сосредоточиться на каменистой тропе, я понимаю, что нас окружили разбойники! Грозного вида [bandit.GetWomanMan], вероятно, [Select_CString(bandit.IsFemale, 'атаманша', 'атаман' )], подходит к нашей процессии.\\n\\n«По горам, значит, ездим? Плату за проезд гоните. И кто б вы ни были, у меня тут все платят».",
+    "POL": "Przemierzamy miejsce znane jako [current_location.GetName], gdzie podziwiam piękny widok ze zbocza góry. Kiedy odwracam wzrok, by znów skupić się na kamienistej ścieżce przed nami, zdaję sobie sprawę, że zostaliśmy otoczeni przez grupę bandytów! Przed naszą karawaną staje [bandit.GetWomanMan] słusznego wzrostu, zapewne ich przywódca.\\n\\n– Przejście przez te góry będzie was słono kosztować – oznajmia. – Nie obchodzi mnie, coście za jedni. Każdy, kto tędy idzie, musi zapłacić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Давай всё обсудим».",
+    "POL": "„Porozmawiajmy o tym”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You persuade the bandits",
+    "RUS": "Вам удается убедить разбойников",
+    "POL": "Przekonujesz bandytów",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.a.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You and your entourage travel freely through the mountain pass",
+    "RUS": "Вы со свитой в целости и сохранности минуете горный перевал",
+    "POL": "Ty i twoja świta bezpiecznie przekraczacie przełęcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You do not persuade the bandits",
+    "RUS": "Вам не удалось уговорить разбойников",
+    "POL": "Nie przekonujesz bandytów",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.a.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You pay the bandits off to allow your passage",
+    "RUS": "Вы платите разбойникам за право пройти",
+    "POL": "Płacisz bandytom, by pozwolili ci przejechać",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я так просто не сдамся. #EMP К бою!#!»",
+    "POL": "„Nie poddam się tak łatwo. #EMP Do boju!#!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You beat the bandits",
+    "RUS": "Вы одолели бандитов",
+    "POL": "Pokonujesz bandytów",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.b.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1002.a.success.desc$",
+    "RUS": "$travel_danger_events.1002.a.success.desc$",
+    "POL": "$travel_danger_events.1002.a.success.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The bandits beat you",
+    "RUS": "Бандиты одолели вас",
+    "POL": "Bandyci cię pokonują",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.b.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1002.a.failure.desc$",
+    "RUS": "$travel_danger_events.1002.a.failure.desc$",
+    "POL": "$travel_danger_events.1002.a.failure.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Стража! Разобраться с этим отребьем!»",
+    "POL": "„Straż! Zajmijcie się tymi głupcami!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You send your guards from the [travel_option|E] to take care of the bandits",
+    "RUS": "Вы отправляете своих стражников из [Concept( 'travel_option', 'варианта путешествия' )|E] разобраться с бандитами",
+    "POL": "Wysyłasz swoich strażników z [Concept( 'travel_option', 'opcji podróżnej' )|E], aby zajęli się bandytami",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.d",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Может, поступим иначе? Я заплачу, а вы проведете нас через горы».",
+    "POL": "A gdybym zamiast tego zapłacił[Select_CString(ROOT.Char.IsFemale, 'a', '' )] wam za przeprowadzenie nas przez góry?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1002.e",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "It is their land...",
+    "RUS": "Это их земля...",
+    "POL": "To ich teren…",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Soggy Bottom",
+    "RUS": "$travel_danger_prefix$ Зловещая сырость",
+    "POL": "$travel_danger_prefix$ grząskie dno",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I know we must tread carefully through the bogs of [current_location.GetName]. This eerie place unsettles me to my core and there are a myriad of dangers to guard against. My entourage has been instructed to take every precaution accordingly.\\n\\nLooking back from the head of the column, I take a count of my companions...\\n\\n#EMP One of us is missing!#!",
+    "RUS": "Я знаю, что [current_location.GetName] таит немало опасностей, и главная из них — трясины. Уже от одних этих болот меня пробирает жуть, а ведь где-то здесь поджидают и прочие ужасы. Моей свите подробно растолковали, как себя следует вести и почему.\\n\\nЯ двигаюсь во главе процессии и оборачиваюсь, чтобы пересчитать спутников...\\n\\n#EMP Одного не хватает!#!",
+    "POL": "Wiem, że musimy ostrożnie stąpać po bagnach miejsca znanego jako [current_location.GetName]. To niesamowite miejsce niepokoi mnie do głębi. Gdzieś tam czyhają niezliczone niebezpieczeństwa, których należy się wystrzegać. Moja świta została poinstruowana, by zachować wszelkie środki ostrożności.\\n\\nSpoglądając za siebie z czoła kolumny, liczę moich towarzyszy…\\n\\n#EMP Brakuje jednego z nas!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I could send my caravan master, [travel_leader.GetFirstNameNoTooltip], to find the straggler.",
+    "RUS": "Пусть [Select_CString(travel_leader.IsFemale, 'караванщица', 'караванщик' )], [travel_leader.GetFirstNameNoTooltip], найдет отставшего.",
+    "POL": "[Select_CString(ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] nakazać, aby [Select_CString(travel_leader.IsFemale, 'mistrzyni karawany', 'mistrz karawany' )], [travel_leader.GetFirstNameNoTooltip], odnalazł[Select_CString(travel_leader.IsFemale, 'a', '' )] marudera.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Missing companion found",
+    "RUS": "Потерянный спутник найден",
+    "POL": "Odnaleziono zaginion[Select_CString(missing_companion.IsFemale, 'ą towarzyszkę', 'ego towarzysza' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.b.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[missing_companion.GetShortUIName] returns to your entourage",
+    "RUS": "[missing_companion.GetShortUIName] возвращается в вашу свиту",
+    "POL": "[missing_companion.GetShortUINameNotMe] wraca do twojej świty",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Missing companion lost",
+    "RUS": "Потерянный спутник пропадает навсегда",
+    "POL": "Zaginion[Select_CString(missing_companion.IsFemale, 'a towarzyszka przepadła', 'y towarzysz przepadł' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "They're as good as dead. Leave them.",
+    "RUS": "Пропасть здесь — значит погибнуть. Поиски бессмысленны.",
+    "POL": "Jest już praktycznie trupem. Zostawcie [Select_CString(missing_companion.IsFemale, 'ją', 'go' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Familiar Trees",
+    "RUS": "$travel_danger_prefix$ Знакомые деревья",
+    "POL": "$travel_danger_prefix$ znajome drzewa",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«По-моему, это большое дерево мы уже видели. Клянусь, мы ходим кругами!» — кричит [Select_CString(travel_leader.IsFemale, 'караванщица', 'караванщик' )] [travel_leader.GetName].\\n\\nВозможно, [travel_leader.GetSheHe] [Select_CString(travel_leader.IsFemale, 'права', 'прав' )]... много часов мы бродим по этому лесу, и конца ему не видно. И вообще, может, это уже #EMP не#! [current_location.GetName]? Кроны деревьев срослись так плотно, что невозможно определить ни время, ни направление.\\n\\nТак [destination.GetName] нас не дождется...",
+    "POL": "„Czy my już nie widzieliśmy tego masywnego drzewa? Przysięgam, że kręcimy się w kółko!” – krzyczy [Select_CString(travel_leader.IsFemale, 'moja mistrzyni karawany', 'mój mistrz karawany' )], [travel_leader.GetName].\\n\\nByć może ma rację… od wielu godzin nie widzieliśmy żadnych oznak wydostania się z tego lasu. Czy my w ogóle jeszcze znajdujemy się #EMP w obrębie#! wmiejsca znanego jako [current_location.GetName]? Gęste korony drzew uniemożliwiają określenie pory dnia, ani nawet kierunku, w którym zmierzamy.\\n\\nW tym tempie nigdy nie dotrzemy do miejsca o nazwie [destination.GetName]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I know #EMP exactly#! where we are!",
+    "RUS": "Я #EMP точно#! знаю, где мы!",
+    "POL": "Wiem #EMP dokładnie#!, gdzie jesteśmy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You find the correct path",
+    "RUS": "Вы нашли верный путь",
+    "POL": "Znajdujesz właściwą drogę",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.a.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Danger Experience Gain",
+    "RUS": "Получен опыт за опасность",
+    "POL": "Zdobyto doświadczenie w niebezpieczeństwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You struggle to find the correct path",
+    "RUS": "У вас не получается найти верный путь",
+    "POL": "Masz kłopoty z odnalezieniem właściwej drogi",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Send someone to find a local guide.",
+    "RUS": "Отправить кого-нибудь на поиски местного проводника.",
+    "POL": "Poślij kogoś, aby znalazł lokalnego przewodnika.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.b.hire_guide",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You search for a guide to hire",
+    "RUS": "Вы пытаетесь нанять проводника",
+    "POL": "Szukasz przewodnika do wynajęcia",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Send scouts ahead.",
+    "RUS": "Выслать дозорных.",
+    "POL": "Wysłać zwiadowców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.c.major_speed_decrease",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Your travel is significantly delayed",
+    "RUS": "Вы серьезно задерживаетесь",
+    "POL": "Twoja podróż jest znacznie opóźniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1006.c.minor_speed_decrease",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Your travel is slightly delayed",
+    "RUS": "Вы слегка задерживаетесь",
+    "POL": "Twoja podróż jest nieznacznie opóźniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Not a Drop",
+    "RUS": "$travel_danger_prefix$ Ни капли",
+    "POL": "$travel_danger_prefix$ ani kropli",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Our journey to [destination.GetName] has unfortunately brought us directly through the wastelands of [current_location.GetName]. We were not prepared to undertake this long stretch without a single source of water and many of my companions have begun to look as awful as dried [ROOT.Char.Custom('RegionalRootVegetablePlural')].\\n\\nI need to do something... and fast!",
+    "RUS": "Видимо, [destination.GetName] подождет: вокруг нас [current_location.GetName], и пустоши простираются, насколько хватает глаз. Мы попросту не сможем преодолеть такое расстояние без единого источника воды. Большинство моих спутников своим видом уже и так напоминают сушеные [ROOT.Char.Custom('RegionalRootVegetablePlural')].\\n\\nНужно что-то делать, и побыстрее!",
+    "POL": "Niestety, nasza podróż do miejsca znanego jako [destination.GetName] prowadzi prosto przez pustkowia miejsca o nazwie [current_location.GetName]. Nie byliśmy przygotowani na tak długą drogę bez ani jednego źródła wody, a wielu moich towarzyszy wygląda okropnie. Jak suszone [ROOT.Char.Custom('RegionalRootVegetablePlural')]!\\n\\nMuszę coś zrobić… i to szybko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I know an oasis nearby that might be our salvation.",
+    "RUS": "Я знаю, что поблизости есть оазис. Возможно, он нас спасет.",
+    "POL": "Znam pobliską oazę, która może być dla nas zbawieniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Your travel plan will be rerouted toward the oasis.",
+    "RUS": "В план путешествия будет внесен оазис.",
+    "POL": "Do twojego planu podróży zostanie dodana oaza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('water_hider'))] [water_hider.GetFirstNameNoTooltip] drinks like a #EMP horse#!, no more!",
+    "RUS": "[Select_CString(water_hider.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('water_hider'))] [water_hider.GetFirstNameNoTooltip] пьет как #EMP лошадь#!. Да сколько можно?",
+    "POL": "[water_hider.GetFirstNameNoTooltip], czyli dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('water_hider'))], żłopie jak #EMP koń#!. Dość tego!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Companions inspired",
+    "RUS": "Спутники вдохновлены",
+    "POL": "Zainspirowano towarzyszy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.b.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[water_hider.GetFirstName] dies from thirst",
+    "RUS": "[water_hider.GetFirstName] умирает от жажды",
+    "POL": "[water_hider.GetFirstName] umiera z pragnienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Failed to inspire companions",
+    "RUS": "Спутники не вдохновлены",
+    "POL": "Nie udało się zainspirować towarzyszy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.b.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[water_hider.GetFirstName] is severely dehydrated",
+    "RUS": "[water_hider.GetFirstName] сильно [Select_CString(water_hider.IsFemale, 'обезвожена', 'обезвожен' )]",
+    "POL": "[water_hider.GetFirstName] cierpi z powodu poważnego odwodnienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "We need to push on.",
+    "RUS": "Нужно двигаться дальше.",
+    "POL": "Musimy przeć naprzód.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You interrogate [water_hider.GetFirstName] about a secret water supply",
+    "RUS": "Похоже, что [water_hider.GetFirstName] [Select_CString(water_hider.IsFemale, 'припрятала', 'припрятал' )] где-то запас воды. Вы [Select_CString(water_hider.IsFemale, 'ее', 'его' )] допросите.",
+    "POL": "Przesłuchujesz osobę znaną jako [water_hider.GetFirstName] w sprawie ukrytego zapasu wody",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Water found from interrogation",
+    "RUS": "В результате допроса вода обнаружена",
+    "POL": "W wyniku przesłuchania znaleziono wodę",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "No water found from interrogation",
+    "RUS": "В результате допроса вода не найдена",
+    "POL": "Nie znaleziono wody w wyniku przesłuchania",
+    "BEL": ""
+  },
+  {
+    "KEY": "dehydrated_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Dehydrated",
+    "RUS": "Обезвоживание",
+    "POL": "Odwodnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "dehydrated_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "This character is left dehydrated after traveling the desert.",
+    "RUS": "Этот персонаж страдает от обезвоживания после путешествия через пустыню.",
+    "POL": "Ta postać jest odwodniona po podróży przez pustynię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1007.d",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Good thing we brought extra water!",
+    "RUS": "Хорошо, что мы захватили много воды!",
+    "POL": "Dobrze, że zabraliśmy dodatkowy zapas wody!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Aftermath",
+    "RUS": "$travel_danger_prefix$ Последствия",
+    "POL": "$travel_danger_prefix$ pokłosie",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Our journey has brought us through [current_location.GetName]. What was once a lovely [current_location_barony.Custom('BaronyTownType')] has been reduced to a ghost of what it used to be.\\n\\nPiles of rubble that were once homes seethe smoke, choked by their destruction at the hands of a ruthless army. Weeping and covered with grime, a [zombie.GetWomanMan] searches what might have been a farm for anything left of [zombie.GetHerHis] possessions.\\n\\n[zombie.GetSheHe|U] notices us, clearly out of place in this wasteland, and darts toward our entourage!",
+    "RUS": "А вот и [current_location.GetName]. Некогда [current_location_barony.Custom('BaronyTownType')] невероятной красоты, ныне — бледная тень былого.\\n\\nГруды обломков там, где некогда горели теплым пламенем семейные очаги. Безжалостные руки солдат погасили пламя, уничтожили всё живое. [Select_CString(zombie.IsFemale, 'Перепачканная', 'Перепачканный' )] сажей [zombie.GetWomanMan], всхлипывая, роется в обугленных развалинах в поисках своих вещей.\\n\\n[zombie.GetSheHe|U] видит нас — среди грязи и пепла мою свиту трудно не заметить — и бросается к нам!",
+    "POL": "Nasza podróż doprowadziła nas do miejsca znanego jako [current_location.GetName]. Niegdyś [current_location_barony.Custom('BaronyTownType')] o niesamowitym pięknie, teraz jest bladym cieniem swojej dawnej chwały.\\n\\nZe stert gruzu, które kiedyś były domami, unosi się dym. Najwyraźniej zostały zdewastowane przez bezwzględną armię. Płacząc[Select_CString(zombie.IsFemale, 'a i pokryta', 'y i pokryty' )] brudem [zombie.GetWomanMan] przeszukuje miejsce, które kiedyś mogło być farmą, w poszukiwaniu resztek swojego dobytku.\\n\\nZauważa nas, wyraźnie nie na miejscu na tym pustkowiu, i rzuca się w stronę naszej świty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Стража! Остановите [zombie.GetHerHis]!»",
+    "POL": "Straże! Zatrzymajcie [Select_CString(zombie.IsFemale, 'tę kobietę', 'tego mężczyznę' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[zombie.GetFirstNameNoTooltip] killed on your orders",
+    "RUS": "[zombie.GetFirstNameNoTooltip] [Select_CString(zombie.IsFemale, 'убита', 'убит' )] по вашему приказу",
+    "POL": "[zombie.GetFirstNameNoTooltip] zostaje zabit[Select_CString(zombie.IsFemale, 'a', 'y' )] na twój orzkaz",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I'm sure [zombie.GetSheHe] means us no harm.",
+    "RUS": "Наверняка [zombie.GetSheHe] не хочет нам зла.",
+    "POL": "Jestem pew[Select_CString(ROOT.Char.IsFemale, 'na', 'ien' )], że nie ma złych zamiarów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«#EMP Стой!#! Возьми это и иди своей дорогой».",
+    "POL": "– #EMP Dość!#! Weź to i idź w swoją stronę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.good_intentions",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[zombie.GetFirstNameNoTooltip] means no harm",
+    "RUS": "[zombie.GetFirstNameNoTooltip] не желает вреда",
+    "POL": "[zombie.GetFirstNameNoTooltip] nie ma niecnych zamiarów",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1008.bad_intentions",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[zombie.GetFirstNameNoTooltip] has dark intentions",
+    "RUS": "[zombie.GetFirstNameNoTooltip] замышляет недоброе",
+    "POL": "[zombie.GetFirstNameNoTooltip] ma niecne intencje",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1008.t$, Good Intentions",
+    "RUS": "$travel_danger_events.1008.t$, добрые намерения",
+    "POL": "$travel_danger_events.1008.t$, dobre intencje",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The gaunt [zombie.GetWomanMan] quickly covers the ground between us, paying no mind at all to the dozens of bodies that litter the ground. [zombie.GetSheHe|U] bows [zombie.GetHerHis] head and addresses me:\\n\\n ",
+    "RUS": "[Select_CString(zombie.IsFemale, 'Истощенная', 'Истощенный' )] [zombie.GetWomanMan] быстро добирается до нас, не обращая внимания на десятки мертвых тел на [zombie.GetHerHis] пути. [zombie.GetSheHe|U] кланяется и обращается ко мне:\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], от моего дома остались лишь угли, моя жизнь совершенно разрушена. Я отдаю себя на вашу милость. #EMP Помогите, умоляю!#!»",
+    "POL": "Chuda osoba szybko pokonuje dzielący nas dystans, nie zwracając uwagi na dziesiątki ciał ścielących ziemię. Pochyla swoją głowę i zwraca się do mnie:\\n\\n– Wasza czcigodność, mój dom został spalony na popiół i nie mam już środków do życia. Zdaję się na twoją łaskę. #EMP Proszę, pomóż mi!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Бедняга...»",
+    "POL": "„Biedaczysko…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "#EMP Kill [zombie.GetHerHim] anyway!#!",
+    "RUS": "#EMP Всё равно убейте [SCOPE.sC('zombie').GetHerHis]!#!",
+    "POL": "#EMP Zabijcie [zombie.Custom('PL_go_ja')] tak czy inaczej!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Беру тебя под свою защиту!»",
+    "POL": "„Wezmę cię pod swoją ochronę!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1009.d",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Not really my problem, is it?",
+    "RUS": "Но это ведь не мое дело, правда?",
+    "POL": "To chyba nie mój problem, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1008.t$, Bad Intentions",
+    "RUS": "$travel_danger_events.1008.t$, дурные намерения",
+    "POL": "$travel_danger_events.1008.t$, złe intencje",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The gaunt [zombie.GetWomanMan] quickly covers the ground between us, paying no mind at all to the dozens of bodies that litter the ground. [zombie.GetSheHe|U] lunges toward me, with snarling maw and wild fury in [zombie.GetHerHis] eyes.",
+    "RUS": "[Select_CString(zombie.IsFemale, 'Истощенная', 'Истощенный' )] [zombie.GetWomanMan] быстро добирается до нас, не обращая внимания на десятки мертвых тел на [SCOPE.sC('zombie').GetHerHis] пути. [zombie.GetSheHe|U] бросается прямо ко мне, скаля зубы и бешено сверкая глазами.",
+    "POL": "Wychudzon[Select_CString(zombie.IsFemale, 'a kobieta', 'y mężczyzna' )] szybko pokonuje dystans między nami, nie zwracając uwagi na dziesiątki ciał ścielących ziemię. Warcząc, rzuca się w moją stronę z dziką furią w oczach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я справлюсь!»",
+    "POL": "„Poradzę sobie z tym!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Fended off wretch",
+    "RUS": "Отбились от доходяги",
+    "POL": "Odepchnięto nieszczęśni[Select_CString(zombie.IsFemale, 'czkę', 'ka' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Wounded by wretch",
+    "RUS": "Получили рану от доходяги",
+    "POL": "Odniesiono rany przez nieszczęśni[Select_CString(zombie.IsFemale, 'czkę', 'ka' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "#EMP Guards!#!",
+    "RUS": "#EMP Стража!#!",
+    "POL": "#EMP Straże!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Wretch fended off",
+    "RUS": "Доходягу прогнали",
+    "POL": "Nieszczęśni[Select_CString(zombie.IsFemale, 'czka odparta', 'k odparty' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Entourage member wounded",
+    "RUS": "Ранен член свиты",
+    "POL": "Ranny członek świty",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1010.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[zombie.GetFirstNameNoTooltip] scurries away",
+    "RUS": "[zombie.GetFirstNameNoTooltip] удирает",
+    "POL": "[zombie.GetFirstNameNoTooltip] ucieka",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Bitten by Frost",
+    "RUS": "Опасность: кусачий мороз",
+    "POL": "$travel_danger_prefix$ kąsający mróz",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.t_twice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Frozen Torments",
+    "RUS": "Опасность: лютый мороз",
+    "POL": "$travel_danger_prefix$ przenikliwe zimno",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.t_thrice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Deadly Frostbite",
+    "RUS": "Опасность: смертельный холод",
+    "POL": "$travel_danger_prefix$ zabójcze odmrożenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "It's been snowing for the past few days and the cold is unbearable. I look around and see that my entourage is struggling with it as well, so I decide to travel on foot alongside them. After we walk through the snowstorm for another hour [frostbite_victim.GetTitledFirstName] pulls me aside, while shaking [frostbite_victim.GetSheHe] yelps:\\n\\n",
+    "RUS": "Последние несколько дней идет снег, и холод уже просто невыносимый. Осмотревшись, я понимаю, что мои спутники тоже страдают от этого, и потому решаю идти пешком рядом с ними. После часового перехода через буран, [frostbite_victim.GetTitledFirstName] отводит меня в сторону и жалобно говорит:\\n\\n«[frostbite_victim.Custom2('RelationToMeShort', ROOT.Char)], помогите мне! [frostbite_victim.Custom('GetFrostbittenBodyPart')]! Я ничего не чувствую!»",
+    "POL": "Od kilku dni pada śnieg, a zimno jest nie do zniesienia. Rozglądam się i widzę, że moja świta również się z tym zmaga, więc postanawiam podróżować pieszo razem z nimi. Po godzinie wędrówki przez śnieżycę [frostbite_victim.GetTitledFirstName] odciąga mnie na bok i krzyczy, trzęsąc się od chłodu:\\n\\n– Proszę, [frostbite_victim.Custom2('RelationToMeShortVocative', ROOT.Char)], nie czuję już [frostbite_victim.Custom('GetFrostbittenBodyPart')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_frostbite_twice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Once again the travel turns a heavy toll on our caravan. Constant snowstorms and extremely low temperatures caused us to set up a camp. I check up on [frostbite_victim.GetTitledFirstName], as [frostbite_victim.GetSheHe] suffered from frostbite once before and now [frostbite_victim.GetSheHe] lays in a makeshift bed.\\n\\n",
+    "RUS": "И вновь путешествие собирает тяжкую дань с нашего каравана. Непрекращающиеся метели и низкие температуры вынуждают нас разбить лагерь. Я проверяю, как там [frostbite_victim.GetTitledFirstName], ведь [Select_CString(frostbite_victim.IsFemale, 'она', 'он' )] один раз уже [Select_CString(frostbite_victim.IsFemale, 'пострадала', 'пострадал' )] от обморожения и теперь лежит на импровизированной койке.\\n\\n«Мне нездоровится, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [frostbite_victim.Custom2('RelationToMeShort', ROOT.Char)|l]». В полном соответствии с моими ожиданиями, [frostbite_victim.Custom('GetFrostbittenBodyPart')] вновь страдает от обморожения!",
+    "POL": "Po raz kolejny podróż mocno dała się we znaki naszej karawanie. Ciągłe burze śnieżne i ekstremalnie niskie temperatury sprawiły, że musieliśmy rozbić obóz. Sprawdzam, jak czuje się [frostbite_victim.GetTitledFirstName], jako że już raz dopadło [frostbite_victim.Custom('PL_go_ja')] odmrożenie, a teraz leży w prowizorycznym łóżku.\\n\\n– Nie jest ze mną najlepiej, [frostbite_victim.Custom2('RelationToMeShortVocative', ROOT.Char)].\\n\\nJak można było się spodziewać, osoba ta znów nie czuje [frostbite_victim.Custom('GetFrostbittenBodyPart')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_frostbite_thrice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The winter surprises us again with the harsh treatment. Roads are windy and slippery, visibility is as low as our morale. I have to check on [frostbite_victim.GetTitledFirstName] as [frostbite_victim.GetSheHe] suffered from frostbite twice already.\\n\\n",
+    "RUS": "Зима вновь удивляет нас своей суровостью. По дорогам сложно передвигаться из-за ветра и льда, а видимость такая же низкая, как наш настрой. Я проверяю, как там [frostbite_victim.GetTitledFirstName], уже дважды [Select_CString(frostbite_victim.IsFemale, 'пострадавшая', 'пострадавший' )] от обморожения.\\n\\n«Как же холодно, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [frostbite_victim.Custom2('RelationToMeShort', ROOT.Char)|l]», — шепчет [Select_CString(frostbite_victim.IsFemale, 'она', 'он' )] слабым голосом. [frostbite_victim.GetNameNoTooltip] [Select_CString(frostbite_victim.IsFemale, 'заработала', 'заработал' )] уже третье обморожение, и холод наконец вытягивает из [Select_CString(frostbite_victim.IsFemale, 'нее', 'него' )] последние крохи жизни.",
+    "POL": "Zima po raz kolejny zaskakuje nas swoją surowością. Drogi są wietrzne i śliskie, a widoczność tak niska jak nasze morale. Muszę sprawdzić, jak radzi sobie [frostbite_victim.GetTitledFirstName], ponieważ już dwukrotnie dopadło [frostbite_victim.Custom('PL_go_ja')] odmrożenie.\\n\\n– Jest tak zimno, [frostbite_victim.Custom2('RelationToMeShortVocative', ROOT.Char)] – szepcze do mnie, po czym mdleje. Zimno dopadło [frostbite_victim.Custom('PL_go_ja')] po raz trzeci, by w końcu dobyć z [frostbite_victim.Custom('PL_niego_niej')] ostatnie tchnienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_head",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc$ I look closer at the [frostbite_victim.Custom('GetFrostbittenBodyPart')], the tip is covered in ice and a little bit swollen. I think it could get worse if I don't do anything!",
+    "RUS": "$travel_danger_events.1011.desc$ Я проверяю, как там [frostbite_victim.Custom('GetFrostbittenBodyPart')]. Кожа покраснела и опухла. Думаю, если ничего не предпринять, станет только хуже!",
+    "POL": "$travel_danger_events.1011.desc$ Dokonuję oględzin [frostbite_victim.Custom('GetFrostbittenBodyPart')] – koniuszek jest pokryty lodem i nieco spuchnięty. Jeśli nic nie zrobię, będzie tylko gorzej!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_upper_limb",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc$ [frostbite_victim.GetSheHe] tries to make a fist, but the pain is too strong. [frostbite_victim.GetHerHis] [frostbite_victim.Custom('GetFrostbittenBodyPart')] is swollen and turned into all shades of blue and black.",
+    "RUS": "$travel_danger_events.1011.desc$ [Select_CString(frostbite_victim.IsFemale, 'Она', 'Он' )] пытается сжать кулак, но боль слишком сильная. [Select_CString(frostbite_victim.IsFemale, 'Ее', 'Его' )] [frostbite_victim.Custom('GetFrostbittenBodyPart')] уже сине-черного цвета.",
+    "POL": "$travel_danger_events.1011.desc$ Próbuje zacisnąć pięść, ale ból jest zbyt silny. Opuchlizna [frostbite_victim.GetHerHis] [frostbite_victim.Custom('GetFrostbittenBodyPart')] zmienia kolor na wszystkie odcienie niebieskiego i czarnego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_lower_limb",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc$ I order [frostbite_victim.GetHerHim] to take off [frostbite_victim.GetHerHis] boot and have a look at the [frostbite_victim.Custom('GetFrostbittenBodyPart')]. It's all dark blue already and at this point it might be too late to save it.",
+    "RUS": "$travel_danger_events.1011.desc$ Я приказываю [Select_CString(frostbite_victim.IsFemale, 'ей', 'ему' )] снять обувь и присматриваюсь, как там [frostbite_victim.Custom('GetFrostbittenBodyPart')]. Пострадавшая часть уже вся темно-синяя. Возможно, сейчас уже поздно пытаться спасти ее.",
+    "POL": "$travel_danger_events.1011.desc$ Nakazuję [frostbite_victim.GetHerHim] zdjąć but, by dokonać oględzin [frostbite_victim.Custom('GetFrostbittenBodyPart')]. Kończyna jest już cała ciemnoniebieska i w tym momencie może być za późno, by ją uratować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_head_twice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_twice$ This time I examine [frostbite_victim.GetHerHis] [frostbite_victim.Custom('GetFrostbittenBodyPart')] and compare it with the ear. It has a lighter shade of blue, however, it might be because the frostbite on the [frostbite_victim.Custom('GetFrostbittenBodyPart')] is still fresh.",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_twice$ На этот раз [Select_CString(frostbite_victim.IsFemale, 'ее', 'его' )] [frostbite_victim.Custom('GetFrostbittenBodyPart')] удостаивается более тщательного осмотра и сравнения с ухом. Пострадавшая часть имеет светло-синий оттенок, но, возможно, это из-за того, что обморожение произошло недавно.",
+    "POL": "$travel_danger_events.1011.desc_frostbite_twice$ Tym razem dokonuję oględzin [frostbite_victim.GetHerHis] [frostbite_victim.Custom('GetFrostbittenBodyPart')] i porównuję z uchem. Ma jaśniejszy odcień niebieskiego, jednak może to być spowodowane tym, że odmrożenia [frostbite_victim.Custom('GetFrostbittenBodyPart')] wciąż są świeże.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_upper_limb_twice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_twice$ The old finger frostbite got even worse and now it's propagated to the whole [frostbite_victim.Custom('GetFrostbittenBodyPart')], at this pace [frostbite_victim.GetSheHe] will lose [frostbite_victim.GetHerHis] arm!",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_twice$ Обмороженному пальцу стало еще хуже, и теперь страдает [frostbite_victim.Custom('GetFrostbittenBodyPart')] целиком. Такими темпами [Select_CString(frostbite_victim.IsFemale, 'она', 'он' )] лишится руки!",
+    "POL": "$travel_danger_events.1011.desc_frostbite_twice$ Stare odmrożenie palca pogorszyło się jeszcze bardziej i teraz rozprzestrzenia się na resztę [frostbite_victim.Custom('GetFrostbittenBodyPart')]. W tym tempie straci [frostbite_victim.GetSheHe] rękę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_lower_limb_twice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_twice$ I grab [frostbite_victim.GetHerHis] boot to help [frostbite_victim.GetHerHim] take it off, we struggle for a while, but eventually we manage to reveal the swollen [frostbite_victim.Custom('GetFrostbittenBodyPart')]. [frostbite_victim.GetSheHe|U] will be losing his entire leg soon!",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_twice$ Я хватаю ботинок и помогаю [Select_CString(frostbite_victim.IsFemale, 'ей', 'ему' )] стянуть его. После некоторых усилий моему взгляду предстает [frostbite_victim.Custom('GetFrostbittenBodyPart')] — одна сплошная опухоль. Вскоре [Select_CString(frostbite_victim.IsFemale, 'она', 'он' )] останется без ноги!",
+    "POL": "$travel_danger_events.1011.desc_frostbite_twice$ Chwytam [frostbite_victim.GetHerHis] but, aby pomóc [frostbite_victim.GetHerHim] go zdjąć, walczymy przez chwilę, ale w końcu udaje nam się odsłonić opuchliznę [frostbite_victim.Custom('GetFrostbittenBodyPart')]. Wkrótce straci całą nogę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_head_thrice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_thrice$ Frostbite escalated to the other [frostbite_victim.Custom('GetFrostbittenBodyPart')] and now [frostbite_victim.GetHerHis] whole face is deep blue and cold as ice. How is this even possible?!",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_thrice$ Теперь уже и [frostbite_victim.Custom('GetFrostbittenBodyPart')] страдает от обморожения, и всё [Select_CString(frostbite_victim.IsFemale, 'ее', 'его' )] лицо темно-синего цвета и холодно как лед. Как такое возможно?!",
+    "POL": "$travel_danger_events.1011.desc_frostbite_thrice$ Odmrożenie rozprzestrzeniło się tak, że cała [frostbite_victim.GetHerHis] twarz jest ciemnoniebieska i zimna jak lód. Jak to w ogóle możliwe?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_upper_limb_thrice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_thrice$ The lost [frostbite_victim.Custom('GetFrostbittenBodyPart')] made it easy for the frostbite to spread further into the upper body, [frostbite_victim.GetHerHis] chest and neck is getting darker by the minutes.",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_thrice$ С потерей части тела обморожение легко распространяется выше по телу. [Select_CString(frostbite_victim.IsFemale, 'Ее', 'Его' )] грудь и шея темнеют на глазах.",
+    "POL": "$travel_danger_events.1011.desc_frostbite_thrice$ Utrata [frostbite_victim.Custom('GetFrostbittenBodyPart')] sprawiła, że odmrożenia rozprzestrzeniły się dalej na górną część ciała, a [frostbite_victim.GetHerHis] klatka piersiowa i szyja ciemnieją z minuty na minutę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.desc_lower_limb_thrice",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.desc_frostbite_thrice$ After losing the [frostbite_victim.Custom('GetFrostbittenBodyPart')] from previous frostbites the cold went straight for the abdomen and the whole body is slowly turning blue.",
+    "RUS": "$travel_danger_events.1011.desc_frostbite_thrice$ После потери части тела от обморожения холод двинулся вниз, и теперь уже всё тело постепенно синеет.",
+    "POL": "$travel_danger_events.1011.desc_frostbite_thrice$ Po utracie [frostbite_victim.Custom('GetFrostbittenBodyPart')] w wyniku poprzednich odmrożeń zimno przeszło prosto na brzuch, a całe ciało powoli robi się sine.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Let's burn the [to_be_burned.GetNameNoTooltip] to warm [frostbite_victim.GetHerHim] up.",
+    "RUS": "Пусть горит [to_be_burned.GetNameNoTooltip], это [Select_CString(frostbite_victim.IsFemale, 'ее', 'его' )] согреет.",
+    "POL": "Niech [to_be_burned.GetNameNoTooltip] spłonie, to [Select_CString(frostbite_victim.IsFemale, 'ją', 'go' )] ogrzeje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetTitledFirstNameNoTooltip] feels warmer",
+    "RUS": "[frostbite_victim.GetTitledFirstNameNoTooltip] согревается",
+    "POL": "[frostbite_victim.GetTitledFirstNameNoTooltip] rozgrzewa się",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.c.tt$",
+    "RUS": "$travel_danger_events.1011.c.tt$",
+    "POL": "$travel_danger_events.1011.c.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.a_frostbite_treatment_burn_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Perhaps, burning the [to_be_burned.GetNameNoTooltip] will help this time?",
+    "RUS": "Возможно, если сгорит [to_be_burned.GetNameNoTooltip], то на этот раз это поможет?",
+    "POL": "Może jeśli [to_be_burned.GetNameNoTooltip] się spali, to tym razem pomoże?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_physician",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Surely, [court_physician.GetTitledFirstNameNoTooltip] knows how to treat it!",
+    "RUS": "Наверняка [court_physician.GetTitledFirstNameNoTooltip] знает, как такое лечить!",
+    "POL": "Z pewnością [court_physician.GetTitledFirstNameNoTooltip] wie, jak to wyleczyć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_physician_success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.b.success$",
+    "RUS": "$travel_danger_events.1011.b.success$",
+    "POL": "$travel_danger_events.1011.b.success$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_physician_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1011.a.failure$",
+    "RUS": "$travel_danger_events.1011.a.failure$",
+    "POL": "$travel_danger_events.1011.a.failure$",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I read about a treatment in a manuscript once.",
+    "RUS": "Мне доводилось читать об этом в манускрипте.",
+    "POL": "Czytał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] kiedyś o tym w manuskrypcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Frostbite treatment is successful",
+    "RUS": "Лечение обморожения было успешным",
+    "POL": "Leczenie odmrożeń jest skuteczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Frostbite treatment fails",
+    "RUS": "Лечение обморожения безуспешно",
+    "POL": "Leczenie odmrożeń kończy się niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_root_knows_winter",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I'm something of an winter expert myself.",
+    "RUS": "О зиме я знаю если не всё, то очень многое.",
+    "POL": "Sam[Select_CString(ROOT.Char.IsFemale, 'a', '' )] jestem w pewnym sensie ekspert[Select_CString(ROOT.Char.IsFemale, 'ką', 'em' )] od zimy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_frostbite_treatment_root_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Maybe I botched it the first time, but now I know better!",
+    "RUS": "Может, в первый раз не получилось, но теперь-то я знаю, как надо!",
+    "POL": "Może schrzanił[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] to za pierwszym razem, ale teraz wiem lepiej!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_physician_knows_winter",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[court_physician.GetNameNoTooltip] knows winter better than any of us!",
+    "RUS": "[court_physician.GetNameNoTooltip] лучше всех нас знает зиму!",
+    "POL": "[court_physician.GetNameNoTooltip] zna zimę lepiej niż ktokolwiek z nas!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.b_frostbite_treatment_physician_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Maybe [court_physician.GetNameNoTooltip] can do a better job this time?",
+    "RUS": "Возможно, [court_physician.GetNameNoTooltip] на этот раз лучше сделает свое дело?",
+    "POL": "Może tym razem [court_physician.GetNameNoTooltip] poradzi sobie lepiej?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "We must keep on moving.",
+    "RUS": "Мы должны двигаться дальше.",
+    "POL": "Musimy iść dalej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetTitledFirstNamePossessiveNoTooltip] frostbite remains unchanged",
+    "RUS": "[frostbite_victim.GetTitledFirstNameNoTooltip] продолжает страдать от обморожения",
+    "POL": "[frostbite_victim.GetTitledFirstNameNoTooltip] nadal cierpi z powodu odmrożeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c.tt_mild",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetShortUIName] keeps the [GetModifier('travel_mild_frostbite_modifier').GetNameWithTooltip]",
+    "RUS": "[frostbite_victim.GetShortUIName]: [GetModifier('travel_mild_frostbite_modifier').GetNameWithTooltip] в сохранности",
+    "POL": "[frostbite_victim.GetShortUINameNotMe] ma [GetModifier('travel_mild_frostbite_modifier').GetNameWithTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c.tt_severe",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetTitledFirstNameNoTooltip] keeps the [GetModifier('travel_severe_frostbite_modifier').GetNameWithTooltip]",
+    "RUS": "[frostbite_victim.GetTitledFirstNameNoTooltip]: [GetModifier('travel_severe_frostbite_modifier').GetNameWithTooltip] в сохранности",
+    "POL": "[frostbite_victim.GetTitledFirstNameNoTooltip] ma [GetModifier('travel_severe_frostbite_modifier').GetNameWithTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetTitledFirstNameNoTooltip] endures",
+    "RUS": "[frostbite_victim.GetTitledFirstNameNoTooltip] поправляется",
+    "POL": "[frostbite_victim.GetTitledFirstNameNoTooltip] wytrzymuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetTitledFirstNamePossessiveNoTooltip] frostbite worsens",
+    "RUS": "[frostbite_victim.GetTitledFirstNameNoTooltip] получает еще более серьезное обморожение",
+    "POL": "[frostbite_victim.GetTitledFirstNameNoTooltip] ma jeszcze poważniejsze odmrożenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c_frostbite_treatment_none_success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[frostbite_victim.GetSheHe|U] endured it once, [frostbite_victim.GetSheHe] will do it again!",
+    "RUS": "[Select_CString(frostbite_victim.IsFemale, 'Она выдержала', 'Он выдержал' )] один раз, выдержит и во второй!",
+    "POL": "Wytrzymał[Select_CString(frostbite_victim.IsFemale, 'a', '' )] raz, wytrzyma i drugi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1011.c_frostbite_treatment_none_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "This time [frostbite_victim.GetSheHe] will be fine, we must go now!",
+    "RUS": "[Select_CString(frostbite_victim.IsFemale, 'Она', 'Он' )] будет в порядке, нужно двигаться дальше!",
+    "POL": "Tym razem nic [frostbite_victim.GetHerHim] nie będzie, musimy ruszać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Tempting Fruit",
+    "RUS": "Опасность: манящий плод",
+    "POL": "$travel_danger_prefix$ kuszący owoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Our road takes us through treacherous parts of [ROOT.Char.GetCurrentLocation.GetName]. While I scan for any dangers ahead, a rustling bush grabs my attention, could it be a wild animal? As I brace myself for impact, [poisonous_plant_eater.GetFirstName] jumps out of the bush instead, holding a plant.\\n\\n",
+    "RUS": "Наш путь заводит нас в опасные области владения [ROOT.Char.GetCurrentLocation.GetName]. Пока я высматриваю возможные опасности, мое внимание привлекает треск кустов. Что это, дикий зверь? Я готовлюсь принять удар, как вдруг из кустов выпрыгивает [poisonous_plant_eater.GetFirstName], сжимая в руке какое-то растение.\\n\\n«[poisonous_plant_eater.GetFirstNameNoTooltip], вы меня напугали! Что это у вас, какой-то фрукт?",
+    "POL": "Nasza droga prowadzi przez zdradliwe części miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetName]. Kiedy rozglądam się za niebezpieczeństwami, moją uwagę przykuwa szeleszczący krzak. Czy to może być dzikie zwierzę? Gdy przygotowuję się na uderzenie, z krzaka wyskakuje [poisonous_plant_eater.GetFirstName], trzymając roślinę.\\n\\n„Przestraszył[Select_CString(poisonous_plant_eater.IsFemale, 'aś', 'eś' )] mnie, [poisonous_plant_eater.GetFirstNameNoTooltip]! W każdym razie zobaczmy, co tu masz, jakiś owoc?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.desc_food_taster",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1012.desc$ We should ask [food_taster.GetFirstName] about it.",
+    "RUS": "$travel_danger_events.1012.desc$ Стоит спросить, что на этот счет думает [food_taster.GetFirstName]».\\n\\n«Отмечу, что это необычный деликатес, и ничто не говорит о немедленной опасности, но...» «Значит, его можно съесть!» — перебивает [poisonous_plant_eater.GetFirstNameNoTooltip].",
+    "POL": "$travel_danger_events.1012.desc$ Warto zapytać, co sądzi o tym [food_taster.GetFirstName]”.\\n\\n„Muszę przyznać, że to osobliwy przysmak i nic nie wskazuje na bezpośrednie zagrożenie, jednak…” „W takim razie można go bezpiecznie zjeść!” – [poisonous_plant_eater.GetFirstNameNoTooltip] szybko przerywa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.desc_unknown",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1012.desc$",
+    "RUS": "$travel_danger_events.1012.desc$!» — восклицаю я.\\n\\n«Да! Он #EMP так аппетитно выглядит#!, а запах... интересно, каков он на вкус? Может, я кусну немного?» — говорит [Select_CString(poisonous_plant_eater.IsFemale, 'она', 'он' )].",
+    "POL": "$travel_danger_events.1012.desc$” – wołam.\\n\\n„Tak! Wygląda i pachnie #EMP przepysznie#!. Zastanawiam się jak smakuje? Może wezmę tylko mały kęs?” – mówi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.desc_again",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Once more the road ahead is dangerous, so for safety we have to settle for the night. While the others set up the camp I catch [poisonous_plant_eater.GetFirstName] picking up another unknown fruit.\\n\\n",
+    "RUS": "Дорога впереди вновь становится опасной, и, чтобы не рисковать, мы решили сделать остановку на ночь. Я замечаю, что, пока остальные разбивают лагерь, [poisonous_plant_eater.GetFirstName] срывает очередной незнакомый плод.\\n\\n«Я восхищаюсь вашим любопытством, [poisonous_plant_eater.GetFirstNameNoTooltip]».\\n\\nЯ улыбаюсь, но [Select_CString(poisonous_plant_eater.IsFemale, 'она', 'он' )] отвечает мне заговорщическим взглядом, а затем выдает:\\n\\n«Я прошу прощения, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [poisonous_plant_eater.Custom2('RelationToMe', ROOT.Char)], но я просто не могу сдержаться!» — с этими словами [Select_CString(poisonous_plant_eater.IsFemale, 'она', 'он' )] впивается зубами в плод.",
+    "POL": "Po raz kolejny droga przed nami staje się zdradliwa, więc dla własnego bezpieczeństwa musimy zatrzymać się na noc. Podczas gdy inni rozbijają obóz, ja zauważam, jak [poisonous_plant_eater.GetFirstName] zrywa kolejny nieznany owoc.\\n\\n– Podziwiam twoją ciekawość, [poisonous_plant_eater.GetFirstNameNoTooltip].\\n\\nUśmiecham się, a [poisonous_plant_eater.GetSheHe] rzuca mi szelmowskie spojrzenie.\\n\\n– Przepraszam, [poisonous_plant_eater.Custom2('RelationToMeVocative', ROOT.Char)], ale nie mogę się powstrzymać – mówi, po czym próbuje zatopić zęby w owocu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Подождите, а вдруг он ядовитый?!»",
+    "POL": "„Zaczekaj, a co jeśli jest trujący?!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.a_again",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Хватит #EMP всё#! тянуть в рот!»",
+    "POL": "„Przestań wkładać #EMP wszystko#! do ust!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You grab the plant and toss it away",
+    "RUS": "Вы выхватываете плод и выбрасываете его",
+    "POL": "Bierzesz roślinę i wyrzucasz ją",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.regular_plant",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "It's a harmless plant after all",
+    "RUS": "В итоге растение оказывается безвредным",
+    "POL": "W końcu to nieszkodliwa roślina",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.touched_poisonous_plant",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "A rash appears where the plant touched",
+    "RUS": "В местах, где плод коснулся кожи, возникло покраснение",
+    "POL": "W miejscu dotknięcia rośliny pojawia się wysypka",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Let [poisonous_plant_eater.GetFirstNameNoTooltip] eat it.",
+    "RUS": "Пусть [poisonous_plant_eater.GetFirstNameNoTooltip] съест его.",
+    "POL": "Niech [poisonous_plant_eater.GetFirstNameNoTooltip] spróbuje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.ate_poisonous_plant",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "It causes a painful stomach ache",
+    "RUS": "Он вызывает боль в животе",
+    "POL": "Powoduje bolesne bóle brzucha",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.ate_delicious_plant",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "It reinvigorates the body and mind",
+    "RUS": "Он оздоравливает тело и разум",
+    "POL": "Pobudza ciało i umysł",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Но сначала его попробую я!»",
+    "POL": "„Tylko jeśli będę m[Select_CString(ROOT.Char.IsFemale, 'ogła', 'ógł' )] spróbować pierwsz[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1012.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You take the fruit and eat it",
+    "RUS": "Вы берете фрукт и съедаете его",
+    "POL": "Bierzesz owoc i zjadasz go",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_prefix$ Runaway or Lost?",
+    "RUS": "$travel_danger_prefix$ Беглец или заблудший?",
+    "POL": "$travel_danger_prefix$ ucieczka czy zagubienie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "As we manage to get through a dangerous path in [ROOT.Char.GetCurrentLocation.GetName], suddenly a strange feeling that someone is missing bothers me. I don't remember seeing [runaway_character.GetFirstName] all day.\\n\\n",
+    "RUS": "Мы сумели преодолеть опасный путь через владение [ROOT.Char.GetCurrentLocation.GetName]. Внезапно меня охватывает странное чувство, что кого-то не хватает. Я спрашиваю своих спутников, и все они сходятся во мнении, что [runaway_character.GetFirstName] весь день никому не [Select_CString(runaway_character.IsFemale, 'попадалась', 'попадался' )] на глаза.\\n\\n",
+    "POL": "Gdy udaje nam się przejść przez niebezpieczną ścieżkę w miejscu znanym jako [ROOT.Char.GetCurrentLocation.GetName], nagle ogarnia mnie dziwne uczucie, że kogoś brakuje. Osoba znana jako [runaway_character.GetFirstName] przez cały dzień nie nawinęła mi się na oczy.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.desc_rival",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1013.desc$Not that I complain, not having to see my rival's face counts as a good day in my book. However, it might scare off my other companions from going any more further down the [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')].",
+    "RUS": "$travel_danger_events.1013.desc$Я, конечно, не жалуюсь, ведь отсутствие соперника не может не радовать. Однако это может напугать остальных и отбить у них желание двигаться дальше.",
+    "POL": "$travel_danger_events.1013.desc$Nie żebym narzekał[Select_CString(ROOT.Char.IsFemale, 'a', '' )], brak konieczności oglądania twarzy rywal[Select_CString(runaway_character.IsFemale, 'ki', 'a' )] czyni mój dzień lepszym. Jednak może to przestraszyć resztę moich towarzyszy i zniechęcić ich do dalszego działania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.desc_lover",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1013.desc$At the same time, people are repeating a rumor that [runaway_character.GetSheHe] wanted to meet with [current_location_holder.GetTitledFirstName]. I know that we are passing by [current_location_holder.GetHerHis] lands, but I'm not sure why [runaway_character.GetFirstNameNoTooltip] would do that? I bet [runaway_character.GetSheHe] is just lost somewhere in the [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] as we speak!",
+    "RUS": "$travel_danger_events.1013.desc$В то же время ходят слухи, что [runaway_character.GetSheHe] и [current_location_holder.GetTitledFirstName] хотели встретиться. Я знаю, что мы проходим мимо [current_location_holder.GetHerHis] земель, но не до конца понимаю, при чём тут [runaway_character.GetFirstNameNoTooltip]? Наверняка [runaway_character.GetSheHe] в этот самый момент потеряно блуждает где-то по окрестностям!",
+    "POL": "$travel_danger_events.1013.desc$W tym samym czasie krążą plotki, że [runaway_character.GetSheHe] i [current_location_holder.GetTitledFirstName] chcą się niebawem spotkać. Wiem, że mijamy [current_location_holder.Custom('PL_jego_jej')] ziemie, ale nie do końca rozumiem, dlaczego [runaway_character.GetFirstNameNoTooltip] ma zamiar to zrobić. Założę się, że to nic takiego. [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')|U] wokół nas to po prostu idealne miejsce na przechadzkę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.desc_knight",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1013.desc$He was keeping the rearguard as we entered a war torn province. I suppose that wasn't the best idea knowing [runaway_character.GetHerHis] bravado, [runaway_character.GetSheHe] is probably already gunning for the front lines! Unless, [runaway_character.GetSheHe] is just lost somewhere in the [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')]?",
+    "RUS": "$travel_danger_events.1013.desc$[Select_CString(runaway_character.IsFemale, 'Она прикрывала', 'Он прикрывал' )] наши тылы в этой разоренной войной провинции. Полагаю, это было не лучшей идеей. Учитывая [runaway_character.GetHerHis] браваду, [runaway_character.GetSheHe] наверняка уже несется на передовую! Впрочем, [runaway_character.GetSheHe] [Select_CString(runaway_character.IsFemale, 'могла', 'мог' )] просто заблудиться, да?",
+    "POL": "$travel_danger_events.1013.desc$Osoba ta osłaniała nasze tyły w tej rozdartej wojną prowincji. Przypuszczam, że nie był to najlepszy pomysł. Znając [runaway_character.Custom('PL_jego_jej')] brawurę, prawdopodobnie już pędzi na linię frontu! Chyba że [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] to miejsce, które nagle wydało [runaway_character.Custom('PL_mu_jej')] się idealnym miejscem na przechadzkę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.desc_child",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "$travel_danger_events.1013.desc$That is worrisome, [runaway_character.GetSheHe] is still just a child! What if [runaway_character.GetSheHe] got lost somewhere in the [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] along the way? [runaway_character.GetSheHe|U] is probably lonely, and more importantly, starving!",
+    "RUS": "$travel_danger_events.1013.desc$Это тревожит меня, ведь [runaway_character.GetSheHe] еще ребенок! А вдруг [runaway_character.GetSheHe] где-то [Select_CString(runaway_character.IsFemale, 'потерялась', 'потерялся' )] по дороге? [runaway_character.GetSheHe|U], должно быть, блуждает в одиночестве, умирая от голода!",
+    "POL": "$travel_danger_events.1013.desc$To niepokojące, to tylko dziecko! Co jeśli [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] wokół nas sprawi, że zgubi drogę do obozowiska? Prawdopodobnie czuje samotność albo, co groźniejsze, głód!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Let's mount a search party for [runaway_character.GetHerHim].",
+    "RUS": "Давайте соберем поисковый отряд.",
+    "POL": "Zorganizujmy grupę poszukiwawczą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "The search party finds [runaway_character.GetFirstNameNoTooltip]",
+    "RUS": "Поисковому отряду удается [Select_CString(runaway_character.IsFemale, 'ее', 'его' )] найти",
+    "POL": "Grupa poszukiwawcza odnajduje osobę znaną jako [runaway_character.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.success_root",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You find [runaway_character.GetFirstNameNoTooltip]",
+    "RUS": "Вам удается [Select_CString(runaway_character.IsFemale, 'ее', 'его' )] найти",
+    "POL": "Odnajdujesz osobę znaną jako [runaway_character.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[runaway_character.GetFirstNameNoTooltip] is nowhere to be found",
+    "RUS": "[runaway_character.GetTitledFirstName] как сквозь землю [Select_CString(runaway_character.IsFemale, 'провалилась', 'провалился' )]",
+    "POL": "[runaway_character.GetFirstNameNoTooltip] znikn[Select_CString(runaway_character.IsFemale, 'ęła', 'ął' )] bez śladu",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.failure_root",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You wander around the [ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')] aimlessly",
+    "RUS": "Вы бесцельно бродите по округе",
+    "POL": "Błąkasz się bez celu po okolicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.runaway_joins",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[runaway_character.GetFirstNameNoTooltip] joins your court",
+    "RUS": "[runaway_character.GetFirstNameNoTooltip] присоединяется к вашему двору",
+    "POL": "[runaway_character.GetFirstNameNoTooltip] dołącza do twojego dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.runaway_return",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Rejoins the [entourage|E]",
+    "RUS": "Возвращается к [Concept( 'entourage', 'свите' )|E]",
+    "POL": "Ponownie dołącza do [Concept( 'entourage', 'świty' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I'll find [runaway_character.GetHerHim] myself!",
+    "RUS": "Я найду [Select_CString(runaway_character.IsFemale, 'ее', 'его' )] [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )]!",
+    "POL": "Odnajdę [runaway_character.Custom('PL_go_ja')] osobiście!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1013.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "I don't want to risk more people getting lost.",
+    "RUS": "Не хочу рисковать потерять еще больше людей.",
+    "POL": "Nie chcę ryzykować utraty kolejnych ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "delayed_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You are delayed",
+    "RUS": "Вы задержались",
+    "POL": "Jesteście opóźnieni",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_hired_foreign_guide",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Hired Foreign Guide",
+    "RUS": "Нанят чужеземный проводник",
+    "POL": "Zatrudniono zagranicznego przewodnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')|U] of",
+    "RUS": "[ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')|U]",
+    "POL": "[ROOT.Char.GetCurrentLocation.Custom('TerrainTypeProvince')|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.t.wetlands",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Woe",
+    "RUS": "Горя",
+    "POL": "Rozpaczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.t.floodplains",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Fear",
+    "RUS": "Страха",
+    "POL": "Strachu",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.t.jungle",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Jeopardy",
+    "RUS": "Опасности",
+    "POL": "Grozy",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.t.taiga",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Terror",
+    "RUS": "Ужаса",
+    "POL": "Zguby",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "We've been wandering for days to reach our destination, the entourage is tired, and so is my mighty steed, [ROOT.Char.Custom('WarhorseStoryName')]. As I am about to dismount, something startles my [ROOT.Char.Custom('HorseStoryMareStallion')], and [ROOT.Char.Custom('HorseStorySheHe')] rushes off in a random direction. I try to hold on for dear life before being tossed to the ground with a loud thud.\\n\\nAs I slowly stand up from the fall, [ROOT.Char.Custom('WarhorseStoryName')] starts whinnying in the distance, and my entire retinue runs closely behind to find out what is going on.\\n\\nMy horse is fighting for [ROOT.Char.Custom('HorseStoryHerHis')] life,#!",
+    "RUS": "Мы странствуем уже много дней, а цель нашего путешествия всё еще далеко. Мои спутники совершенно измотаны, даже мой верный скакун [ROOT.Char.Custom('WarhorseStoryName')] с трудом переставляет ноги. Когда я собираюсь спешиться, [ROOT.Char.Custom('HorseStoryMareStallion')] внезапно встает на дыбы и бросается вскачь куда глаза глядят. Я отчаянно пытаюсь удержаться в седле, но без толку: сбросив меня на землю, [ROOT.Char.Custom('HorseStorySheHe')] исчезает вдали.\\n\\nЯ с трудом поднимаюсь на ноги, меня сразу окружает сбежавшаяся свита. Издалека доносится перепуганное ржание, и мы бежим на звук.\\n\\n",
+    "POL": "Błądzimy w drodze do celu już od wielu dni. Świta jest zmęczona, podobnie zresztą jak mój wspaniały wierzchowiec, [ROOT.Char.Custom('WarhorseStoryName')]. Mam zamiar właśnie z niego zsiąść, gdy ten, przestraszony czymś, rzuca się galopem w przypadkowym kierunku. Trzymam się najmocniej, jak umiem, ale wkrótce i tak z głośnym tąpnięciem ląduję na ziemi.\\n\\nPodnosząc się powoli, słyszę, jak [ROOT.Char.Custom('WarhorseStoryName')] rży cicho gdzieś w dali. Moi towarzysze biegną już w jego kierunku, by sprawdzić, co się dzieje.\\n\\n[ROOT.Char.Custom('WarhorseStoryName')] walczy o życie,#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.wetlands",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "the swamp consuming [ROOT.Char.Custom('HorseStoryHerHim')], bit by bit.",
+    "RUS": "Несчастное животное угодило в болото. [ROOT.Char.Custom('WarhorseStoryName')] отчаянно борется за свою жизнь, но затхлая вода постепенно затягивает [ROOT.Char.Custom('HorseStoryHerHis')] в глубину.",
+    "POL": "kawałek po kawałku wciągany w odmęty bagna.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.floodplains",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "trampling through the currents to no avail.",
+    "RUS": "Несчастное животное угодило в стремнину. [ROOT.Char.Custom('WarhorseStoryName')] отчаянно борется за свою жизнь, но вода постепенно затягивает [ROOT.Char.Custom('HorseStoryHerHis')] на дно.",
+    "POL": "bezskutecznie młócąc kopytami w silnym nurcie wody.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.jungle",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "the sand trickling down [ROOT.Char.Custom('HorseStoryHerHis')] sides, slowly but steadily sinking into a sandpit.",
+    "RUS": "Несчастное животное угодило в зыбучие пески. [ROOT.Char.Custom('WarhorseStoryName')] отчаянно борется за свою жизнь, но песок постепенно накрывает [ROOT.Char.Custom('HorseStoryHerHis')] с головой.",
+    "POL": "powoli, ale nieustępliwie wciągany przez ruchome piaski.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.taiga",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "trying to find a way out of a sinkhole — a futile effort.",
+    "RUS": "Несчастное животное угодило в глубокую яму. [ROOT.Char.Custom('WarhorseStoryName')] отчаянно пытается выбраться, но у н[ROOT.Char.Custom('HorseStoryHerHis')] не получается.",
+    "POL": "usiłując wydostać się z leju – na próżno.",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Не сдавайся, [ROOT.Char.Custom('WarhorseStoryName')]! Борись до конца!»",
+    "POL": "– Walcz, [ROOT.Char.Custom('WarhorseStoryName')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "You save [ROOT.Char.Custom('WarhorseStoryName')]",
+    "RUS": "Благодаря вам [ROOT.Char.Custom('WarhorseStoryName')] спасается от верной гибели",
+    "POL": "[ROOT.Char.Custom('WarhorseStoryName')] przeżywa dzięki tobie",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('WarhorseStoryName')] gets dragged down",
+    "RUS": "[ROOT.Char.Custom('WarhorseStoryName')] не в силах выбраться из ловушки",
+    "POL": "[ROOT.Char.Custom('WarhorseStoryName')] znika pod powierzchnią",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Что вы стоите? Сделайте #EMP хоть что-нибудь#!!»",
+    "POL": "– Nie stój tak, trzeba #EMP coś#! zrobić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "[horse_helper.GetFirstNameNoTooltip] saves [ROOT.Char.Custom('WarhorseStoryName')]",
+    "RUS": "[horse_helper.GetFirstNameNoTooltip] бросается на помощь, и [ROOT.Char.Custom('WarhorseStoryName')] спасается от верной гибели",
+    "POL": "[ROOT.Char.Custom('WarhorseStoryName')] przeżywa dzięki postaci znanej jako [horse_helper.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "Both [horse_helper.GetFirstNameNoTooltip] and [ROOT.Char.Custom('WarhorseStoryName')] get dragged down",
+    "RUS": "[horse_helper.GetFirstNameNoTooltip] бросается на помощь, но ни [Select_CString(horse_helper.IsFemale,'она','он')], ни [ROOT.Char.Custom('WarhorseStoryName')] не могут выбраться из ловушки",
+    "POL": "[horse_helper.GetFirstNameNoTooltip] i [ROOT.Char.Custom('WarhorseStoryName')] znikają pod powierzchnią",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_danger_events.1020.c",
+    "FILE_PATH": "localization/belarusian/event_localization/travel_events/travel_danger_events_l_belarusian.json",
+    "ENG": "There's nothing we can do...",
+    "RUS": "Здесь уже ничего не поделать…",
+    "POL": "Nie możemy już nic zrobić…",
+    "BEL": ""
+  }
+]

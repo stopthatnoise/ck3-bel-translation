@@ -1,0 +1,314 @@
+[
+  {
+    "KEY": "hold_court_placeholder_gain_cgv",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "You gain #P 10#! Court Grandeur",
+    "RUS": "Вы получаете #P 10 ед.#! величия двора",
+    "POL": "Zyskujesz #P 10#! majestatu dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court_placeholder_lose_cgv",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "You lose #N 10#! Court Grandeur",
+    "RUS": "Вы теряете #N 10 ед.#! величия двора",
+    "POL": "Tracisz #N 10#! majestatu dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court_start_activity",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "You listen to the first petitioner",
+    "RUS": "Вы слушаете первого просителя",
+    "POL": "Wysłuchujesz pierwszego petenta",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court_header",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Hold Court:",
+    "RUS": "Устроить прием:",
+    "POL": "Zorganizuj audiencję:",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "$hold_court_header$ Commencement",
+    "RUS": "$hold_court_header$ начало",
+    "POL": "$hold_court_header$ rozpoczęcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Sitting on my throne, I gesture for my guards to open the doors of the hall. A stream of people file in, some lining up in front of my throne while others move out of the way so they can simply observe the proceedings.\\n\\nAfter several moments, all movement in the chamber has ceased, all faces turned towards mine expectantly. In front of me I count [ROOT.Var('num_petitioners').GetValue|V0] petitioners lined up in an orderly row, waiting for me to call on them.",
+    "RUS": "Я сажусь на трон и жестом приказываю страже открыть двери зала. Поток людей просачивается внутрь, часть выстраивается у моего трона, остальные расходятся в стороны, чтобы наблюдать за приемом.\\n\\nЧерез несколько мгновений чертог замирает, и все лица выжидательно поворачиваются ко мне. Прямо передо мной стоят просители — кажется, [ROOT.Var('num_petitioners').GetValue|V0]. Они выстроились в ряд, прилежно ожидая вызова.",
+    "POL": "Siedząc na swoim tronie, gestem nakazuję swoim strażnikom, aby otworzyli drzwi do sali. Do środka wpada tłum ludzi; niektórzy ustawiają się przed moim tronem, a inni ustępują z drogi, by móc po prostu obserwować przebieg audiencji.\\n\\nPo kilku chwilach w sali zapada cisza, a wszystkie twarze zwracają się ku mnie z oczekiwaniem. Przed sobą liczę [ROOT.Var('num_petitioners').GetValue|V0] petentów, ustawionych w kolejce i czekających, aż ich wezwę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Gesture for the first in line to approach.",
+    "RUS": "Подозвать первого просителя в очереди.",
+    "POL": "Wywołaj pierwszego petenta z kolejki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "On second thought, it is a beautiful day outside...",
+    "RUS": "Хотя на улице такая хорошая погода...",
+    "POL": "Po namyśle stwierdzam, że jest taki piękny dzień na zewnątrz…",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0001.b.tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Your audience ends and you send the petitioners home",
+    "RUS": "Прием окончен, и просители расходятся",
+    "POL": "Twoja audiencja kończy się, a petenci zostają odesłani do domów",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Indirect Espionage",
+    "RUS": "Шпионаж из вторых рук",
+    "POL": "Pośredni wywiad",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "My guest [rumormonger.GetTitledFirstName] approaches my throne with a smirk on [rumormonger.GetHerHis] face and bows deeply.\\n\\n",
+    "RUS": "[Select_CString(rumormonger.IsFemale, 'Моя гостья', 'Мой гость' )] [rumormonger.GetTitledFirstName] с усмешкой подходит к трону и низко кланяется.\\n\\n«Приветствую, ваше величество. Недавно мне довелось побывать в соседней державе. Оказалось, [neighboring_realm.GetName] — край весьма откровенных людей, которые не прочь поделиться #EMP удивительными#! байками о подданных местного правителя. А я, в свою очередь, с удовольствием поделюсь этими сведениями с вами — за разумную плату.",
+    "POL": "Mój gość, [rumormonger.GetTitledFirstName], podchodzi do mojego tronu z przebiegłym uśmiechem na twarzy i kłania się nisko.\\n\\n– Pozdrowienia, wasza wysokość. Odwiedzając ostatnio ziemie znane jako [neighboring_realm.GetNameNoTier], udało mi się odwiedzić dwór, którym rządzi [neighboring_ruler.GetTitledFirstName]. Posiadam garść #EMP fascynujących#! ciekawostek o kilku [neighboring_ruler.Custom('PL_jego_jej')] poddanych. Chętnie się nimi z tobą podzielę… za odpowiednią opłatą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "An hefty sum, but I cannot afford to remain ignorant.",
+    "RUS": "Сумма немалая, но неведение обойдется мне куда дороже.",
+    "POL": "To spora suma, ale nie mogę sobie pozwolić na niewiedzę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a.seducer",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Perhaps we can come to another arrangement?",
+    "RUS": "Возможно, мы сможем договориться по-другому?",
+    "POL": "Może uda nam się dojść do innego porozumienia?",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[rumormonger.GetTitledFirstNamePossessive] information contains valuable blackmail material",
+    "RUS": "[rumormonger.GetTitledFirstName] снабжает меня ценным компроматом",
+    "POL": "Informacje, które przedstawił[Select_CString( rumormonger.IsFemale, 'a', '' )] [rumormonger.GetTitledFirstName], zawierają cenny materiał do szantażu",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a.success.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[rumormonger.GetTitledFirstName] reveals every relevant [secret|E] [rumormonger.GetSheHe] knows to you",
+    "RUS": "[rumormonger.GetTitledFirstName] раскрывает вам все важные [Concept( 'secret', 'тайны' )|E], какие только знает",
+    "POL": "[rumormonger.GetTitledFirstName] zdradza ci każdy znaczący [secret|El], który zna",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[rumormonger.GetTitledFirstNamePossessive] information is nothing but idle gossip",
+    "RUS": "Все, что может предложить [rumormonger.GetTitledFirstName], — лишь жалкие сплетни",
+    "POL": "Informacje, które przedstawił[Select_CString( rumormonger.IsFemale, 'a', '' )] [rumormonger.GetTitledFirstName], to czcze plotki",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.a.failure.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[rumormonger.GetTitledFirstName] does not actually know any relevant [secrets|E]",
+    "RUS": "Выясняется, что [rumormonger.GetTitledFirstName] не знает никаких важных [Concept( 'secret', 'тайн' )|E]",
+    "POL": "W rzeczywistości [rumormonger.GetTitledFirstName] znie zna żadnych znaczących [Concept( 'secrets', 'sekretów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Nobody extorts me in front my own court! Guards, size [rumormonger.GetHerHim]!",
+    "RUS": "Вымогать у меня деньги на глазах у всего двора? Стража, взять [rumormonger.GetHerHis]!",
+    "POL": "Nikt nie będzie wyłudzać ode mnie pieniędzy przed moim własnym dworem! Straże, brać [Select_CString(rumormonger.IsFemale, 'ją', 'go' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Begone, rumormonger! My court has no place for the likes of you!",
+    "RUS": "Прочь, [Select_CString(rumormonger.IsFemale, 'сплетница', 'сплетник' )]! Таким, как ты, не место при моем дворе!",
+    "POL": "Odejdź, plotkar[Select_CString( rumormonger.IsFemale, 'o', 'zu' )]! Na moim dworze nie ma miejsca dla takich jak ty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "A Claim to War",
+    "RUS": "Заявка на войну",
+    "POL": "Roszczenie o wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«О, [Select_CString(ROOT.Char.IsFemale, 'щедрейшая', 'щедрейший' )] [ROOT.Char.GetTitledFirstNameNoTooltip]! Я — [claimant_guest.GetFirstName], и я [Select_CString(claimant_guest.IsFemale, 'пришла', 'пришел' )] издалека, чтобы просить тебя о помощи в искоренении великой несправедливости!»\\n\\nПрежде чем продолжить, [claimant_guest.GetWomanMan] низко кланяется и возобновляет хорошо отрепетированную речь: «[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] ныне правит землей, что зовется [target_title.GetNameNoTier], но так не может продолжаться. Ведь [Select_CString(claimant_guest.IsFemale, 'истинная правительница', 'истинный правитель' )] этого края — я!»\\n\\n«Если вы поможете мне заявить претензию, я присягну вам на верность и буду преданно служить до конца своих дней».",
+    "POL": "– Wszyscy wiedzą, że [ROOT.Char.GetTitledFirstNameNoTooltip] słynie ze swej hojności. Jestem [claimant_guest.GetFirstName] i przybywam z daleka, aby prosić cię o pomoc w naprawieniu wielkiej niesprawiedliwości!\\n\\n[claimant_guest.GetWomanMan|U] przede mną pochyla się w ukłonie, a następnie kontynuuje swoją dobrze przygotowaną przemowę.\\n\\n– [target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] zasiada obecnie na tronie obszaru znanego jako [target_title.GetNameNoTier], ale władza nad tymi ziemiami należy się prawowicie mnie! Jeśli pomożesz mi w wysunięciu mojego roszczenia, przysięgnę ci wierność i będę ci służyć lojalnie do końca mych dni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "I shall press your claim within the year!",
+    "RUS": "Не пройдет и года, как я поддержу вашу претензию!",
+    "POL": "Dołożę starań, by twoje roszczenie zostało rozpatrzone w ciągu roku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1011.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Please depart at once — I cannot risk offending the [target_character.GetTitleAsNameNoTooltip].",
+    "RUS": "Прошу, уходите сейчас же — чего доброго, [target_character.GetTitleAsNameNoTooltip|l] узнает об этом и расстроится.",
+    "POL": "Proszę odejdź natychmiast – nie mogę ryzykować, że [target_character.GetTitleAsNameNoTooltip|l] poczuje się urażon[Select_CString(target_character.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1011.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "I cannot help you, but please enjoy my hospitality.",
+    "RUS": "Я не в силах вам помочь, но можете рассчитывать на мое гостеприимство.",
+    "POL": "Nie mogę ci pomóc, ale skorzystaj z mojej gościnności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Dust To Dust",
+    "RUS": "Прах к праху",
+    "POL": "Z prochu w proch",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "A thin, raggedy peasant stands before me, gawking at the opulence of my throne room. Obviously distracted, I call [peasant.GetHerHim] to get [peasant.GetHerHis] attention.\\n\\n",
+    "RUS": "[Select_CString(peasant.IsFemale, 'Тощая оборванная крестьянка', 'Тощий оборванный крестьянин' )] во все глаза таращится на роскошь тронного зала. Я окликаю [peasant.GetHerHis].\\n\\n«Ох, простите, [ROOT.Char.Custom('FormOfAddressForLiege')]. Я... это... ну, деревня моя, [county.GetNameNoTier], в этом году того... Поветрие у нас случилось. Не только урожай, семена померли. Ничего не осталось, без помощи сами ноги протянем!»\\n\\nВновь оглядев мой тронный зал, [SCOPE.sCharacter('peasant').GetSheHe] добавляет: «Поделитесь чем не жалко, а?»",
+    "POL": "Stoi przede mną wychudzona, obdarta osoba, gapiąc się na przepych mojej sali tronowej. Widzę [peasant.GetHerHis] wyraźne rozproszenie, więc wołam [peasant.Custom('PL_go_ja')], by zwrócić [peasant.Custom('PL_jego_jej')] uwagę.\\n\\n– Och, niech [ROOT.Char.Custom('FormOfAddressForLiege')] wybaczy. Ja, yyy… Moją wioskę w miejscu znanym jako [county.GetNameNoTier] nawiedziła w tym roku zaraza. Straciliśmy nie tylko nasze plony, ale i nasiona. Nie mamy nic i bez pomocy będziemy głodować!\\n\\nRozglądając się ponownie po mojej sali tronowej, dodaje:\\n\\n– Z pewnością masz czym się podzielić, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "You will have the funds you need to rebuild.",
+    "RUS": "Вы получите деньги на отстройку.",
+    "POL": "Otrzymasz niezbędne fundusze do odbudowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.a.stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Let us establish a crop-sharing system with neighboring villages.",
+    "RUS": "Нужно организовать систему общего урожая с соседними деревнями.",
+    "POL": "Ustanówmy system podziału plonów z sąsiednimi wioskami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Your service will repay your debt.",
+    "RUS": "Вы отработаете свой долг.",
+    "POL": "Twoja służba spłaci twój dług.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.1021.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "If the fields are barren, you shall wield a sword.",
+    "RUS": "Если поля опустели, беритесь за мечи.",
+    "POL": "Jeśli pola są jałowe, będziesz władać mieczem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "county_or_15_dev",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[county.GetName] and every [realm|E] [county|E] with 15 or fewer [development|E]",
+    "RUS": "[county.GetName] и все [Concept( 'county', 'графства' )|E] [Concept( 'realm', 'державы' )|E], [Concept( 'development', 'развитие' )|E] которых 15 и ниже",
+    "POL": "[county.GetName] oraz każde [county|El] w [Concept('realm', 'państwie')|E] mające najwyżej 15 punktów [Concept('development', 'rozwoju')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "$hold_court_header$ Conclusion",
+    "RUS": "$hold_court_header$ завершение",
+    "POL": "$hold_court_header$ podsumowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "As the last petitioner departs, various courtiers follow them out of the room, having business to attend elsewhere. Others remain, talking amongst themselves about the recent proceedings.\\n\\nSoon the ceremonial formality of the proceedings has dropped away entirely, with the hum and bustle of normal courtly life taking its place.",
+    "RUS": "Уходит последний проситель, следом вереницей, возвращаясь к оставленным делам, тянутся придворные. Некоторые остаются, чтобы обсудить прием.\\n\\nВскоре от формальностей не остается и следа, и тишину сменяет привычный гомон придворной жизни.",
+    "POL": "Kiedy ostatni petent opuszcza salę, za nim podążają dworzanie mający do załatwienia swoje sprawy w innym miejscu. Część pozostaje i żywo dyskutuje na temat ostatniej audiencji.\\n\\nWkrótce uroczysta formalność audiencji całkowicie zanika, a w jej miejsce pojawia się szum i gwar normalnego dworskiego życia. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "My business here is done.",
+    "RUS": "Мои дела здесь закончены.",
+    "POL": "Załatwił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoje sprawy. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "It is good to let my subjects bask in awe of of my presence.",
+    "RUS": "Приятно позволять подданным купаться в лучах моей славы.",
+    "POL": "Dobrze jest pozwolić moim poddanym pławić się w zachwycie z powodu mojej obecności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.shy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "I can't wait to get back to my chambers...",
+    "RUS": "Скорее бы вернуться в покои...",
+    "POL": "Nie mogę się doczekać, kiedy wrócę do swoich komnat…",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.gregarious",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "This seems like a good opportunity to mingle with my court.",
+    "RUS": "Вот неплохая возможность ближе пообщаться с придворными.",
+    "POL": "Wydaje się, że to dobra okazja, aby spotkać się z moim dworem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court.0021.every_guest_and_courtier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "Every Guest and Courtier:",
+    "RUS": "Каждый гость и придворный:",
+    "POL": "Każdy gość i dworzanin:",
+    "BEL": ""
+  },
+  {
+    "KEY": "hold_court_1001_pool_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/hold_court_events_l_belarusian.json",
+    "ENG": "[rumormonger.GetShortUIName] leaves your [court|E]",
+    "RUS": "[rumormonger.GetShortUIName] покидает ваш [Concept( 'court', 'двор' )|E]",
+    "POL": "[rumormonger.GetShortUINameNotMe] opuszcza twój [court|El]",
+    "BEL": ""
+  }
+]

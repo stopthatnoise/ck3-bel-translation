@@ -1,0 +1,370 @@
+[
+  {
+    "KEY": "send_poem_interaction",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Send Poem",
+    "RUS": "Отправить поэму",
+    "POL": "Wyślij wiersz",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_poem_interaction_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Send a touching personal work to [recipient.GetTitledFirstNameNoTooltip]",
+    "RUS": "Отправить проникновенную личную поэму персонажу [recipient.GetTitledFirstNameNoTooltip]",
+    "POL": "[recipient.GetTitledFirstNameNoTooltip] otrzyma od ciebie osobistą i wzruszającą twórczość",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_poem_interaction.positive_auto_accept.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "As this poem is positive, [recipient.GetFirstNameNoTooltip] may accept it immediately if [recipient.GetSheHe] has a high enough [opinion|E] of you",
+    "RUS": "Поскольку эта поэма написана в положительном ключе, [recipient.GetFirstNameNoTooltip] может сразу же принять ее, если имеет достаточно высокое [opinion|El] о вас",
+    "POL": "Jako że wiersz jest pozytywny, [recipient.GetFirstNameNoTooltip] może go od razu zaakceptować, o ile ma o tobie wystarczająco dobrą [Concept('opinion', 'opinię')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_POEM_ROMANCE",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Work about Romance",
+    "RUS": "Поэма о романтике",
+    "POL": "Dzieło o romansie",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_POEM_MOURNING",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Work about Mourning",
+    "RUS": "Поэма о скорби",
+    "POL": "Dzieło o żałobie",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_POEM_LEGACY",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Work about Legacy",
+    "RUS": "Поэма о наследии",
+    "POL": "Dzieło o spuściźnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_POEM_STRIFE",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Work about Strife",
+    "RUS": "Поэма о борьбе",
+    "POL": "Dzieło o walce",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEND_POEM_INCOMPETENCE",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Work detailing their Incompetence",
+    "RUS": "Поэма о неумелости",
+    "POL": "Dzieło opisujące niekompetencję",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_poem_interaction.success",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "The poem is lauded",
+    "RUS": "Поэма встречена похвалой",
+    "POL": "Wiersz jest zachwalany",
+    "BEL": ""
+  },
+  {
+    "KEY": "send_poem_interaction.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "The poem is mocked",
+    "RUS": "Поэма встречена насмешками",
+    "POL": "Wiersz jest wyszydzany",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.000.generate_poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "#POE [actor.Custom('GeneratePoem_Title')]#!\\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\\n[actor.Custom('GeneratePoem_Outro_Rhyming')]",
+    "RUS": "#POE [actor.Custom('GeneratePoem_Title')]#!\\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\\n[actor.Custom('GeneratePoem_Outro_Rhyming')]",
+    "POL": "#POE [actor.Custom('GeneratePoem_Title')]#!\\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\\n[actor.Custom('GeneratePoem_Outro_Rhyming')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.000.intro.part1",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "The latest work of my [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.GetTitledFirstName], has become all the rage at [actor.Custom('GetCourt')] of late:",
+    "RUS": "Своей недавней работой [Select_CString(actor.IsFemale, 'моя', 'мой' )] [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))] [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'произвела', 'произвел' )] настоящий фурор [ROOT.Char.Custom('GetCourt_RU_Where')]:",
+    "POL": "Osoba imieniem [actor.GetTitledFirstName], a dla mnie [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], stworzyła nowe dzieło, które cieszy się ogromną popularnością w miejscu, którym jest [actor.Custom('GetCourt')]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.000.intro.part3",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "and [actor.GetFirstNameNoTooltip] has publicly dedicated it to #EMP me.#!",
+    "RUS": "и [actor.GetFirstNameNoTooltip] открыто [Select_CString(actor.IsFemale, 'посвятила', 'посвятил' )] эту поэму #EMP мне.#!",
+    "POL": "a [actor.GetFirstNameNoTooltip] publicznie zadedykował[Select_CString(actor.IsFemale, 'a', '' )] go #EMP mnie.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.000.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "So far, I've kept my thoughts to myself, but the buzz has grown too dramatic to ignore for much longer.",
+    "RUS": "До сих пор о моих мыслях не знал никто, кроме меня. Но поднявшуюся шумиху уже невозможно просто игнорировать.",
+    "POL": "Do tej pory zachowywał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] swe myśli dla siebie, jednak wrzawa wokół stała się zbyt głośna, by móc to nadal ignorować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "A Touch of Romance",
+    "RUS": "Немного романтики",
+    "POL": "Dotyk romansu",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.intro.part1$ the piece deals with feelings of love and romance, $trait_specific_interactions.000.intro.part3$",
+    "RUS": "$trait_specific_interactions.000.intro.part1$ в поэме говорится о любви и романтике, $trait_specific_interactions.000.intro.part3$",
+    "POL": "$trait_specific_interactions.000.intro.part1$ utwór mówi o miłości i romansie, $trait_specific_interactions.000.intro.part3$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.desc.poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "RUS": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "POL": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.outro$",
+    "RUS": "$trait_specific_interactions.000.outro$",
+    "POL": "$trait_specific_interactions.000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "I don't know quite how I feel about this...",
+    "RUS": "Я не до конца понимаю свои чувства на этот счет...",
+    "POL": "Nie wiem do końca, co o tym myśleć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "[actor.GetFirstNameNoTooltip], I can see this is #EMP truly#! heartfelt!",
+    "RUS": "[actor.GetFirstNameNoTooltip], вижу, что написано #EMP от всего сердца#!!",
+    "POL": "[actor.GetFirstNameNoTooltip], widzę, że jest napisany #EMP z głębi serca#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Pfft, drivel!",
+    "RUS": "Ерунда какая-то!",
+    "POL": "Pfft, bzdura!",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Solace in Script",
+    "RUS": "Утешение на письме",
+    "POL": "Pocieszenie na piśmie",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.intro.part1$ the piece deals with feelings of sorrow and loss, $trait_specific_interactions.000.intro.part3$",
+    "RUS": "$trait_specific_interactions.000.intro.part1$ в поэме говорится о чувстве скорби и потери, $trait_specific_interactions.000.intro.part3$",
+    "POL": "$trait_specific_interactions.000.intro.part1$ utwór mówi o uczuciu smutku i straty, $trait_specific_interactions.000.intro.part3$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.desc.poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "RUS": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "POL": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.outro$",
+    "RUS": "$trait_specific_interactions.000.outro$",
+    "POL": "$trait_specific_interactions.000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.a$",
+    "RUS": "$trait_specific_interactions.0001.a$",
+    "POL": "$trait_specific_interactions.0001.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.b",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.b$",
+    "RUS": "$trait_specific_interactions.0001.b$",
+    "POL": "$trait_specific_interactions.0001.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0011.c",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.c$",
+    "RUS": "$trait_specific_interactions.0001.c$",
+    "POL": "$trait_specific_interactions.0001.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.t",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Lines about Legacy",
+    "RUS": "Строки о наследии",
+    "POL": "Wersy o dziedzictwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.intro.part1$ the piece deals with memory and what we leave behind, $trait_specific_interactions.000.intro.part3$",
+    "RUS": "$trait_specific_interactions.000.intro.part1$ в поэме говорится о памяти и оставленном нами наследии, $trait_specific_interactions.000.intro.part3$",
+    "POL": "$trait_specific_interactions.000.intro.part1$ utwór mówi o pamięci i tym, co po sobie zostawiamy, $trait_specific_interactions.000.intro.part3$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.desc.poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "RUS": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "POL": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.outro$",
+    "RUS": "$trait_specific_interactions.000.outro$",
+    "POL": "$trait_specific_interactions.000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.a$",
+    "RUS": "$trait_specific_interactions.0001.a$",
+    "POL": "$trait_specific_interactions.0001.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0021.b",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.b$",
+    "RUS": "$trait_specific_interactions.0001.b$",
+    "POL": "$trait_specific_interactions.0001.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.t",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Striving Amidst Strife",
+    "RUS": "Борьба на пути к успеху",
+    "POL": "Dążenie pośród wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.intro.part1$ the piece deals with success and growing greatness, $trait_specific_interactions.000.intro.part3$",
+    "RUS": "$trait_specific_interactions.000.intro.part1$ в поэме говорится об успехе и растущем величии, $trait_specific_interactions.000.intro.part3$",
+    "POL": "$trait_specific_interactions.000.intro.part1$ utwór traktuje o sukcesie i rosnącej wielkości, $trait_specific_interactions.000.intro.part3$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.desc.poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "RUS": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "POL": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.outro$",
+    "RUS": "$trait_specific_interactions.000.outro$",
+    "POL": "$trait_specific_interactions.000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.a",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.a$",
+    "RUS": "$trait_specific_interactions.0001.a$",
+    "POL": "$trait_specific_interactions.0001.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0031.b",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.b$",
+    "RUS": "$trait_specific_interactions.0001.b$",
+    "POL": "$trait_specific_interactions.0001.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.t",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "The Dastardly [recipient.GetTitleAsNameNoTooltip]",
+    "RUS": "Подл[Select_CString(recipient.IsFemale, 'ая', 'ый' )] [recipient.GetTitleAsNameNoTooltip|l]",
+    "POL": "Nikczemn[Select_CString(recipient.IsFemale, 'a', 'y' )] [recipient.GetTitleAsNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.intro.part1$ the piece is derogatory, inflammatory, and dedicated #EMP specifically#! to me and my ",
+    "RUS": "$trait_specific_interactions.000.intro.part1$ поэма сочится презрением и оскорблениями и посвящена #EMP лично#! мне и моему «уникальному сочетанию бездарности и невоздержанности».",
+    "POL": "$trait_specific_interactions.000.intro.part1$ utwór jest uwłaczający, podżegający i poświęcony #EMP specjalnie#! mnie i mojej „wyjątkowej mieszance niekompetencji i braku umiaru”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.desc.poem",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "RUS": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "POL": "\\n\\n$trait_specific_interactions.000.generate_poem$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.000.outro$",
+    "RUS": "$trait_specific_interactions.000.outro$",
+    "POL": "$trait_specific_interactions.000.outro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.a",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "$trait_specific_interactions.0001.a$",
+    "RUS": "$trait_specific_interactions.0001.a$",
+    "POL": "$trait_specific_interactions.0001.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trait_specific_interactions.0041.b",
+    "FILE_PATH": "localization/belarusian/event_localization/trait_specific_events/trait_specific_interaction_events_l_belarusian.json",
+    "ENG": "Hmmm. Yes. #EMP How. Amusing.#!",
+    "RUS": "Хммм. Да. #EMP Крайне занятно.#!",
+    "POL": "Hmmm. Tak. #EMP Niezwykle zabawne.#!",
+    "BEL": ""
+  }
+]

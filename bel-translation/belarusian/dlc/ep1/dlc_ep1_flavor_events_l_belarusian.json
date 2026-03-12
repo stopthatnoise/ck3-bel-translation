@@ -1,0 +1,2618 @@
+[
+  {
+    "KEY": "tradition_header",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Traditions:",
+    "RUS": "Традиции:",
+    "POL": "Tradycje:",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$tradition_header$ A Visiting Eunuch",
+    "RUS": "$tradition_header$ Евнух в гостях",
+    "POL": "$tradition_header$ przybywający eunuch",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "A traveling eunuch is presenting [eunuch_target.GetHerselfHimself] at my court today.\\n\\n",
+    "RUS": "Сегодня к моему двору прибыл странствующий евнух.\\n\\n«Приветствую, [ROOT.Char.Custom('ComplimentAdjective')][Select_CString(ROOT.Char.IsFemale, 'ая', 'ый' )] [ROOT.Char.GetTitleTierName]», — с уважением произносит [eunuch_target.GetSheHe].\\n\\n«Меня зовут [eunuch_target.GetFirstName], я странствую по миру, делюсь знаниями с благородными королями-мудрецами и присматриваю за гаремами великих султанов. И теперь я здесь, чтобы предложить вам свои услуги. За умеренную плату».\\n\\nКакой интересный человек, возможно, мне стоит нанять [eunuch_target.GetHerHis]?",
+    "POL": "Na mój dwór przybywa dzisiaj wędrowny eunuch.\\n\\n– Witaj, wasza ekscelencjo. Jak wspaniale poznać osobę tak szanowaną, jak [ROOT.Char.GetTitleTierName]! – mówi gość z szacunkiem.\\n\\n– Nazywam się [eunuch_target.GetFirstName]. Jestem wędrowcem cieszącym się znamienitą reputacją – na co dzień użyczam swej wiedzy szlachetnym, uczonym królom i opiekuję się haremami wielkich sułtanów. Teraz jestem tutaj i oferuję ci swoje usługi. Za skromną opłatą, oczywiście.\\n\\nIntrygująca postać, może należy [eunuch_target.Custom('PL_go_ja')] przyjąć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "A fair offer, I accept.",
+    "RUS": "Это честное предложение, я принимаю его.",
+    "POL": "Dobra propozycja, przyjmuję ją.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[eunuch_target.GetFirstNameNoTooltip], my [eunuch_target.Custom('ComplimentAdjective')] friend, stay a while longer?",
+    "RUS": "[eunuch_target.GetFirstNameNoTooltip], мой [eunuch_target.Custom('ComplimentAdjective')]ый друг, вы не задержитесь у меня?",
+    "POL": "[eunuch_target.GetFirstNameNoTooltip], mój [eunuch_target.Custom('ComplimentAdjective')] przyjacielu, zostaniesz jeszcze chwilę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I do not require your services.",
+    "RUS": "Мне не нужны ваши услуги.",
+    "POL": "Nie potrzebuję twoich usług.",
+    "BEL": ""
+  },
+  {
+    "KEY": "eunuch_moves_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[eunuch_target.GetFirstNameNoTooltip] moves on to the [new_court.GetBaseName]",
+    "RUS": "[eunuch_target.GetFirstNameNoTooltip] отправляется в державу [new_court.GetBaseName]",
+    "POL": "[eunuch_target.GetFirstNameNoTooltip] przenosi się do [new_court.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.c.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You convince [eunuch_target.GetFirstNameNoTooltip] to stay",
+    "RUS": "[eunuch_target.GetFirstNameNoTooltip] соглашается остаться",
+    "POL": "[eunuch_target.GetFirstNameNoTooltip] zostaje przekonany do pozostania",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1000.c.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[eunuch_target.GetFirstNameNoTooltip] calls you a cheapskate and moves on",
+    "RUS": "[eunuch_target.GetFirstNameNoTooltip] называется вас скрягой и отправляется дальше",
+    "POL": "[eunuch_target.GetFirstNameNoTooltip] nazywa cię skąpcem i podąża dalej",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$tradition_header$ Tricks of the Trade",
+    "RUS": "$tradition_header$ Секреты мастерства",
+    "POL": "$tradition_header$ sztuczki handlowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The eunuch [eunuch_target.GetFirstName] steps into my view, [eunuch_target.Custom('quirk_pos_pp')].\\n\\n",
+    "RUS": "Евнух [eunuch_target.GetFirstName] подходит ко мне и [eunuch_target.Custom('quirk_pos_pp')].\\n\\n«Вы многое знаете, [Select_CString(ROOT.Char.IsFemale, 'великая', 'великий' )] [ROOT.Char.GetTitleTierName]. Но кое-что ускользает от вашего прозорливого разума — секреты и знания, которыми я охотно поделюсь с вами», — шепчет [eunuch_target.GetSheHe].\\n\\n«За умеренную цену».\\n\\nКак же иначе. Но мне все равно интересно.",
+    "POL": "Eunuch [eunuch_target.GetFirstName] staje przede mną, [eunuch_target.Custom('quirk_pos_pp')].\\n\\n„Wszechpotężn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleTierName|l] ma nieopisaną wiedzę, ale są takie rzeczy, które wymykają się nawet najbystrzejszym umysłom – mądrości i tajemnice, którymi chętnie się z tobą podzielę” – szepcze.\\n\\n„Za rozsądną cenę”.\\n\\nOczywiście. Ale nadal jestem zainteresowan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I have heard that you know the secret of language?",
+    "RUS": "Поговаривают, вы разбираетесь в языках?",
+    "POL": "Ponoć znasz tajniki nauki języka?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I have many foes. How do I vanquish them?",
+    "RUS": "У меня много врагов. Как мне избавиться от них?",
+    "POL": "Mam wielu wrogów. Jak ich pokonać?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "My realm must prosper, how can I see that it does?",
+    "RUS": "Моя держава должна процветать. Как мне добиться этого?",
+    "POL": "Moje państwo musi prosperować, jak mogę tego dopilnować?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.1200.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Charlatan! Your secrets are naught but make-believe.",
+    "RUS": "Шарлатан! Твои секреты — выдумка.",
+    "POL": "Szarlatan! Twoje tajemnice są tylko wymysłem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_language_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Secrets of Language",
+    "RUS": "Тайны языка",
+    "POL": "Tajemnice języka",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_language_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character has been privy to secrets pertaining to the learning of language.",
+    "RUS": "Этот персонаж посвящен в тайны изучения языков.",
+    "POL": "Ta postać jest wtajemniczona w sztukę nauki języków obcych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_murder_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Secrets of Revenge",
+    "RUS": "Тайны мести",
+    "POL": "Tajemnice zemsty",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_murder_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character has been privy to secrets pertaining to the vanquishing of one's foes.",
+    "RUS": "Этот персонаж посвящен в тайны уничтожения своих врагов.",
+    "POL": "Ta postać poznała tajniki eliminowania wrogów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_the_realm_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Secrets of the Realm",
+    "RUS": "Тайны державы",
+    "POL": "Tajemnice państwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "secrets_of_the_realm_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character has been privy to secrets pertaining to the management of one's capital.",
+    "RUS": "Этот персонаж посвящен в тайны управления столицей.",
+    "POL": "Ta postać poznała tajemnice związane z zarządzaniem własną stolicą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The Secret [scion_actual.Custom('GetDaughterSon')|U]",
+    "RUS": "[scion_actual.Custom('GetDaughterSon')|U]: Секрет",
+    "POL": "Sekretn[Select_CString( scion_actual.IsFemale, 'a', 'y' )] [scion_actual.Custom('GetDaughterSon')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "A petty business affair in town brings my retinue and I, thirsty and hungry, to the little smoke-filled tavern.\\n\\nOf all people, I least expected to find [scion_parent.GetTitledFirstName] sat at the back, poorly disguised with cloak and hood. Next to [scion_parent.GetHerHim] sits a young [scion_actual.GetWomanMan] who... it can't be!\\n\\nFrom [scion_actual.GetHerHis] face, the way [scion_actual.GetSheHe] glances around the room in wonder, and [scion_actual.GetHerHis] mimicking of the distinctive mannerisms of [scion_parent.GetFirstNameNoTooltip], I am #EMP convinced#! [scion_actual.GetSheHe] must be some secret bastard of the [scion_parent.GetTitleAsNameNoTooltip], perhaps seeing the world outside for the first time.",
+    "RUS": "Небольшое дельце привело меня и мою свиту в городок, и мы, голодные и уставшие, вошли в местную задымленную таверну.\\n\\nЧто мне точно не приходило в голову, так это то, что здесь нам встретится [scion_parent.GetTitledFirstName] в плаще с капюшоном, слабо скрывающим черты лица. Рядом с [Select_CString(scion_parent.IsFemale, 'ней', 'ним' )] сидит [Select_CString(scion_actual.IsFemale, 'молодая женщина, которая', 'молодой мужчина, который' )]... да быть не может!\\n\\nСудя по [scion_actual.GetHerHis] лицу, любопытным взглядам и попыткам вести себя точь-в-точь как [scion_parent.GetFirstNameNoTooltip], я #EMP с уверенностью#! могу сказать, что [scion_actual.GetSheHe], должно быть, бастард, которого [scion_parent.GetTitleAsNameNoTooltip|l] тщательно [Select_CString(scion_parent.IsFemale, 'скрывала', 'скрывал' )]. Возможно, [scion_actual.GetSheHe] впервые видит мир за пределами родных стен.",
+    "POL": "Drobny interes w mieście sprowadził mój orszak i mnie, spragnionych i głodnych, do małej, pełnej dymu karczmy.\\n\\nGdy tylko [Select_CString( ROOT.Char.IsFemale, 'weszłam', 'wszedłem' )] do środka, nie spodziewał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się, że będzie tam siedział[Select_CString( scion_parent.IsFemale, 'a', '' )] [scion_parent.GetTitledFirstName], słabo zamaskowan[Select_CString( scion_parent.IsFemale, 'a', 'y' )] peleryną i kapturem. Obok nie[Select_CString( scion_parent.IsFemale, 'j', 'go' )] siedzi młod[Select_CString( scion_actual.IsFemale, 'a', 'y' )] [scion_actual.GetWomanMan], któr[Select_CString( scion_actual.IsFemale, 'a', 'y' )]… To niemożliwe!\\n\\nPo [scion_actual.GetHerHis] twarzy, sposobie, w jaki rozgląda się po pomieszczeniu i manierze, którą charakteryzuje się [scion_parent.GetFirstNameNoTooltip], jestem #EMP przekonan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]#!, że to potajemny bękart, którego [Select_CString( scion_parent.IsFemale, 'urodziła', 'spłodził' )] [scion_parent.GetTitleAsNameNoTooltip|l]. Być może nawet po raz pierwszy widzi świat na zewnątrz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scion_parent.GetFirstNameNoTooltip]! Have you brought me a [scion_actual.Custom('GetBrideGroom')]?",
+    "RUS": "[scion_parent.GetFirstNameNoTooltip]! Вы привезли мне [Select_CString(scion_actual.IsFemale, 'невесту', 'жениха' )]?",
+    "POL": "[scion_parent.GetFirstNameNoTooltip]! Czy przyprowadził[Select_CString( scion_parent.IsFemale, 'aś', 'eś' )] mi [Select_CString( scion_actual.IsFemale, 'pannę młodą', 'pana młodego' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.a.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You forcibly negotiate a [marriage|E] [alliance|E]",
+    "RUS": "Вы насильно заключаете [Concept( 'alliance', 'союз' )|E] через [Concept( 'marriage', 'брак' )|E]",
+    "POL": "Wymuszasz [alliance|El] poprzez [marriage|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scion_parent.GetFirstNameNoTooltip] escapes with [scion_parent.GetHerHis] [scion_actual.Custom('GetDaughterSon')]",
+    "RUS": "[scion_parent.GetFirstNameNoTooltip] и [scion_parent.GetHerHis] [scion_actual.Custom('GetDaughterSon')] сбегают",
+    "POL": "[scion_parent.GetFirstNameNoTooltip] ucieka wraz ze swo[Select_CString( scion_actual.IsFemale, 'ją córką', 'im synem' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scion_parent.GetFirstNameNoTooltip]! Have you brought my [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('prospective_spouse'))] a [scion_actual.Custom('GetBrideGroom')]?",
+    "RUS": "[scion_parent.GetFirstNameNoTooltip]! Это [scion_actual.Custom('GetBrideGroom')], [Select_CString(scion_actual.IsFemale, 'на которой женится', 'за которого выйдет замуж' )] [Select_CString(prospective_spouse.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('prospective_spouse'))]?",
+    "POL": "[scion_parent.GetFirstNameNoTooltip]! Gdzie [scion_actual.Custom('GetBrideGroom')] dla osoby, którą jest [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('prospective_spouse'))]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Fetch the town crier, #EMP immediately#!!",
+    "RUS": "Глашатая сюда, #EMP немедленно#!!",
+    "POL": "#EMP Natychmiast#! sprowadźcie tu miejskiego herolda!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.c.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You find enough evidence to prove the bastard's existence",
+    "RUS": "Вы нашли достаточно доказательств существования бастарда",
+    "POL": "Znajdujesz wystarczające dowody na istnienie tego bękarta",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.c.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scion_parent.GetFirstNameNoTooltip] covers [scion_parent.GetHerHis] tracks too well",
+    "RUS": "[scion_parent.GetFirstNameNoTooltip] слишком хорошо заметает следы",
+    "POL": "[scion_parent.GetFirstNameNoTooltip] zbyt dobrze zaciera za sobą ślady",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Worry not, my [scion_parent.GetTitleAsNameNoTooltip], you can trust me to forget I saw you...",
+    "RUS": "Не волнуйтесь, [scion_parent.GetTitleAsNameNoTooltip|l], я забуду, что вы здесь были...",
+    "POL": "Niech [scion_parent.GetTitleAsNameNoTooltip|l] się nie zadręcza. Udam, że nie nic [Select_CString( ROOT.Char.IsFemale, 'widziałam', 'widziałem' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.tt.scion_escapes",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scion_actual.GetFirstName] is secreted away and never heard from again",
+    "RUS": "[scion_actual.GetFirstName] бесследно пропадает",
+    "POL": "[scion_actual.GetFirstName] znika bez śladu i nigdy więcej o [Select_CString( scion_actual.IsFemale, 'niej', 'nim' )] nie słyszano",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.e.no_bastards",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "A #EMP secret#! child? How odd. We'll eat elsewhere.",
+    "RUS": "#EMP Тайное#! дитя? Как странно. Поедим в другом месте.",
+    "POL": "Czyjeś #EMP niejawne#! dziecko? Jakie to dziwne. Chodźmy zjeść w innym miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0001.e.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This is none of our business. We'll eat elsewhere.",
+    "RUS": "Нас это не касается. Поедим в другом месте.",
+    "POL": "To nie jest nasza sprawa. Zjemy gdzie indziej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "An Absolute Shambles",
+    "RUS": "Полный бардак",
+    "POL": "Absolutny chaos",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], это не то, что вы подумали!» — кричит [diplomat_1.GetTitledFirstName], едва я переступаю порог обеденного зала.\\n\\nЧто ж, я #EMP думаю#!, что [diplomat_1.GetSheHe] [Select_CString(diplomat_1.IsFemale, 'устроила', 'устроил' )] полный разгром в комнате. Стены заляпаны едой, столы разве что в щепу не порублены, стулья составлены пирамидой, а [diplomat_2.GetTitledFirstName] без сознания (и без одежды) лежит на #EMP моей#! кровати, [Select_CString(diplomat_2.IsFemale, 'залитая', 'залитый' )] супом.\\n\\nДвое дипломатов прибыли вчера. У них было разрешение устроить небольшое пиршество с развлечениями, но это просто [ROOT.Char.GetFaith.NegativeAfterLife|U] на земле.",
+    "POL": "Niech [ROOT.Char.Custom('FormOfAddressForLiege')] mi wierzy, to nie jest to, na co wygląda! – woła [diplomat_1.GetTitledFirstName], gdy wchodzę do swojej ulubionej jadalni.\\n\\n#EMP Wygląda#! to tak, że całkowicie udało [diplomat_1.Custom('PL_mu_jej')] się zdemolować to pomieszczenie. Jedzenie oblepia ściany, a stoły są powywracane. Ktoś zbudował piramidę z krzeseł, a na jednym z #EMP moich#! łóżek leży wpółprzytomnie i zupełnie nago [diplomat_2.GetTitledFirstName], a [diplomat_1.Custom('PL_jego_jej')] twarz pokrywają resztki zupy.\\n\\nTen duet dyplomacki przybył dopiero wczoraj. Była moja zgoda na podanie dobrej strawy z domieszką lekkiej rozrywki, a nie na ucztę, która mogłaby poruszyć samo [ROOT.Char.GetFaith.NegativeAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You will pay for these damages, you lickspittle curs!",
+    "RUS": "Вы заплатите за ущерб, подхалимы!",
+    "POL": "Zapłacicie za te szkody, łachudry!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Alright, you trashed it, you can clean it up. SERVANTS! A mop!",
+    "RUS": "Хорошо, вы устроили беспорядок, вам и убирать. СЛУГИ! Выдайте им тряпку!",
+    "POL": "W porządku, zdemolowa[Select_CString( And(diplomat_1.IsFemale, diplomat_2.IsFemale), 'ły','li')]ście to, możecie posprzątać. SŁUŻBY! Mop!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Oh no, this party's not over yet: someone fill my goblet!",
+    "RUS": "О нет, пиршество еще не закончилось. Кто-нибудь, наполните мой кубок!",
+    "POL": "O nie, to jeszcze nie koniec zabawy. Niech ktoś napełni mój kielich!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "One night? Pathetic! Make way for the Party [ROOT.Char.GetTitleAsNameNoTooltip]!",
+    "RUS": "Всего одна ночь? Пф! Расступитесь, идет [ROOT.Char.GetTitleAsNameNoTooltip|l] пиров!",
+    "POL": "Tylko jedna noc? Żałosne! Zróbcie miejsca, oto nadchodzi [ROOT.Char.GetTitleAsNameNoTooltip|l] zabawy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.e",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Wordlessly leave the hall.",
+    "RUS": "Молча покинуть зал.",
+    "POL": "Bez słowa opuść salę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0011.e.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You leave them both to stew in their own fear",
+    "RUS": "Вы оставляете их наедине с собственным страхом",
+    "POL": "Zostawiasz [Select_CString( And(diplomat_1.IsFemale, diplomat_2.IsFemale), 'je same, by dręczył je', 'ich samych, by dręczył ich')] własny strach",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Two Realms Separated by a Courtly Language",
+    "RUS": "Державы, разделенные языком",
+    "POL": "Dwa państwa oddzielone dworskim językiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Giggling confronts me as I walk into the chamber: a gaggle of courtiers, led by [nitpicker.GetTitledFirstName], are all crowded around a recent letter from [rival_monarch.GetTitledFirstName].\\n\\n[nitpicker.GetFirstNameNoTooltip] waves me over with a shout of laughter.\\n\\n",
+    "RUS": "Когда я вхожу в помещение, меня встречает взрыв смеха. [nitpicker.GetTitledFirstName] и группа придворных собрались и читают письмо, что недавно [Select_CString(rival_monarch.IsFemale, 'прислала', 'прислал')] нам [rival_monarch.GetTitledFirstName].\\n\\n[nitpicker.GetFirstNameNoTooltip] со смехом приглашает меня присоединиться.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы непременно #EMP должны#! это прочесть! Пусть тут официальная печать державы [rival_realm.GetNameNoTier], но половину слов словно писал безграмотный крестьянин. Эти слабоумные даже согласные не могут правильно проставить, что уж там говорить о грамотной [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ой речи. Это просто #EMP уморительно#!».",
+    "POL": "Wchodząc do komnaty, zderzam się z chichotem: [nitpicker.GetTitledFirstName] z gromadką dworzan tłoczą się wokół niedawno przysłanego listu od persony znanej jako [rival_monarch.GetTitledFirstName].\\n\\n[nitpicker.GetFirstNameNoTooltip] macha do mnie, śmiejąc się głośno.\\n\\n– Musi [ROOT.Char.Custom('FormOfAddressForLiege')] po prostu to przeczytać! Ten list ma oficjalną pieczęć państwa o nazwie [rival_realm.GetNameNoTier], ale co drugie słowo jest napisane tak, jakby uczynił to niepiśmienny chłop. Te kmiotki nie wiedzą, co to spółgłoski, a co dopiero literacki język [ROOT.Char.GetCourtLanguage.GetName|l]! To jest #EMP przezabawne#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This missive is missing half the vowels! Disgusting!",
+    "RUS": "Да тут и половины гласных нет! Отвратительно!",
+    "POL": "W tym liście brakuje połowy samogłosek! Obrzydliwość!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Both [courts|E] lose [SCOPE.ScriptValue('ep1_flavour_0021_courts_lose_opinion_value')|N0] [opinion|E] of each other",
+    "RUS": "[courts|E] снизили [Concept( 'opinion', 'мнение' )|E] друг о друге на [SCOPE.ScriptValue('ep1_flavour_0021_courts_lose_opinion_value')|N0]",
+    "POL": "Oba [courts|El] tracą [SCOPE.ScriptValue('ep1_flavour_0021_courts_lose_opinion_value')|N0] [Concept( 'opinion', 'opinii' )|E] o sobie nawzajem",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.a.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] spellings are best!",
+    "RUS": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ое написание лучшее!",
+    "POL": "Pisownia [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] jest najlepsza!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[rival_monarch.GetPrimaryTitle.GetAdjectiveNoTooltip] spellings are best!",
+    "RUS": "[rival_monarch.GetPrimaryTitle.GetAdjectiveNoTooltip]ое написание лучшее!",
+    "POL": "Pisownia [rival_monarch.GetPrimaryTitle.GetAdjectiveNoTooltip] jest najlepsza!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Are they not our linguistic cousins?",
+    "RUS": "Мы же говорим на родственных языках?",
+    "POL": "Czyż nie mówimy podobnymi językami?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Both [courts|E] gain [SCOPE.ScriptValue('ep1_flavour_0021_courts_gain_opinion_value')|P0] [opinion|E] of each other",
+    "RUS": "[courts|E] на [SCOPE.ScriptValue('ep1_flavour_0021_courts_gain_opinion_value')|P0] ед. повысили [opinion|El] друг о друге",
+    "POL": "Oba [courts|El] zyskują [SCOPE.ScriptValue('ep1_flavour_0021_courts_gain_opinion_value')|P0] [Concept( 'opinion', 'opinii' )|E] o sobie nawzajem",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Two noble courts and not a sodding brain between them...",
+    "RUS": "Два благородных двора, а мозгов ни там ни там...",
+    "POL": "Dwa szlacheckie dwory, ale w żadnym nie ma pieprzonego rozumu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0021.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor.0021.a.tt$",
+    "RUS": "$ep1_flavor.0021.a.tt$",
+    "POL": "$ep1_flavor.0021.a.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "cultural_acceptance_courtly_spelling_differences",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Noble quibbling over spelling",
+    "RUS": "Дворяне спорят о написании",
+    "POL": "Szlachecki spór o pisownię",
+    "BEL": ""
+  },
+  {
+    "KEY": "cultural_acceptance_courtly_cousins",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Nobles bond over shared courtly language",
+    "RUS": "Дворян объединяет общий язык",
+    "POL": "Szlachta nawiązuje więź dzięki wspólnemu dworskiemu językowi",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Fresh at Court",
+    "RUS": "Недавно при дворе",
+    "POL": "Świeżacy na dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "T'is well-said that great minds require great traditions, and there are no greater scholastic initiation traditions than those of [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!\\n\\nThis week marks the induction of several new, talented scholars to the court, drawn from all around the realm, every one of whom is currently being subjected to various #EMP academic#! tests at a local inn.\\n\\nMy gaze falls on [scholar_1.GetFirstName], as [scholar_1.GetSheHe] suspiciously eyes the mysterious, frothing, fizzing beverage sat in front of [scholar_1.GetHerHim]. Behind the wary scholar, [scholar_2.GetFirstName] is topping up an entire #EMP jug#! with something thick and oozy, to many cheers and jeers from [scholar_2.GetHerHis] fellow academicians.",
+    "RUS": "Как говорится, выдающимся умам нужны выдающиеся традиции, и ни одна другая держава не проводит таких обрядов посвящения в ученые, как [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!\\n\\nНа этой неделе ко двору прибыло несколько новых талантливых ученых со всей державы, и все они проходят #EMP научную#! проверку на местном постоялом дворе.\\n\\nМне на глаза попадается [scholar_1.GetFirstName] — [scholar_1.GetSheHe] с подозрением смотрит на кружку с загадочной пенящейся и пузырящейся жидкостью. Рядом [scholar_2.GetFirstName] наполняет целый #EMP кувшин#! густой и вязкой жидкостью под одобрительные крики своих коллег.",
+    "POL": "Mawia się, że wybitne umysły wymagają wybitnych tradycji, a nie ma lepszych tradycji dla uczonych, niż te, które pielęgnuje [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!\\n\\nW tym tygodniu na dwór przybyło kilku utalentowanych ludzi intelektu z całego państwa i każdy jest obecnie poddawany różnym próbom #EMP akademickim#! w lokalnej gospodzie.\\n\\nW moje oko wpada [scholar_1.GetFirstName], gdy podejrzliwie patrzy na stojący przed [scholar_1.Custom('PL_nim_nia')] tajemniczy, pieniący się i syczący napój. Za plecami tej osoby [scholar_2.GetFirstName] napełnia #EMP dzbanek#! jakąś gęstą i lepką substancją, wywołując tym aprobujące okrzyki swoich współtowarzyszy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Down it, [scholar_1.GetFirstNameNoTooltip]!",
+    "RUS": "Пей, [scholar_1.GetFirstNameNoTooltip]!",
+    "POL": "Do dna, [scholar_1.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "We like to drink with [scholar_2.GetFirstNameNoTooltip], 'cause [scholar_2.GetFirstNameNoTooltip] is our mate!",
+    "RUS": "Нам по душе [scholar_2.GetFirstNameNoTooltip], птамушта [scholar_2.GetFirstNameNoTooltip] нам друг!",
+    "POL": "[scholar_2.GetFirstNameNoTooltip] wypije z nami, ponieważ bardzo [Select_CString( scholar_2.IsFemale, 'ją', 'go' )] lubimy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "There are some techniques that only experience can teach...",
+    "RUS": "Есть методы, которым вас может научить только знаток...",
+    "POL": "Niektórych technik nauczy tylko praktyka…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You show the fresh scholars how it's done",
+    "RUS": "Вы показываете начинающим ученым, как надо пить",
+    "POL": "Pokazujesz nowym uczonym, jak to się robi",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "These rituals are #EMP unbecoming#! of the scholarly.",
+    "RUS": "Подобные ритуалы #EMP неподобающий#!.",
+    "POL": "Takie rytuały są #EMP nie przystają#! nauce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.inspire.scholar_1.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scholar_1.GetFirstNameNoTooltip] becomes [inspired|E]",
+    "RUS": "[scholar_1.GetFirstNameNoTooltip] теперь [inspired|E]",
+    "POL": "[scholar_1.GetFirstNameNoTooltip] staje się [Select_CString(scholar_1.IsFemale, Concept('inspired', 'zainspirowana'), Concept('inspired', 'zainspirowany'))|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.0031.inspire.scholar_2.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scholar_2.GetFirstNameNoTooltip] becomes [inspired|E]",
+    "RUS": "[scholar_2.GetFirstNameNoTooltip] теперь [inspired|E]",
+    "POL": "[scholar_2.GetFirstNameNoTooltip] staje się [Select_CString(scholar_2.IsFemale, Concept('inspired', 'zainspirowana'), Concept('inspired', 'zainspirowany'))|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Martial Exercise",
+    "RUS": "Военные упражнения",
+    "POL": "Ćwiczenia wojskowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_intro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "As I inspect a local army camp, it is clear [marshal_scope.GetTitledFirstName] and [knight_scope.GetTitledFirstName] are trying to corner me. \\n\\n",
+    "RUS": "Во время осмотра местного военного лагеря ко мне подходят [marshal_scope.GetTitledFirstName] и [knight_scope.GetTitledFirstName].\\n\\n«Сюзерен, наши воины бездействуют в мирное время. Нужно их чем-то занять...» — обращается ко мне [marshal_scope.GetCouncilTitle].",
+    "POL": "Gdy przeprowadzam inspekcję lokalnego obozu wojskowego, [marshal_scope.GetTitledFirstName] i [knight_scope.GetTitledFirstName] bezsprzecznie starają się przyprzeć mnie do muru.\\n\\n– Seniorze, nasi wojownicy są bezczynni, gdy panuje pokój. Potrzebujemy czegoś, co zapewni im zajęcie… – zachęca mnie [marshal_scope.GetCouncilTitle|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_archers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наши [ROOT.Char.Custom('GetRegionalArcherMAA')|l] незаменимы, мы должны убедиться, что их стрелы всегда поражают цель».",
+    "POL": "„[ROOT.Char.Custom('GetRegionalArcherMAA')|U] są niezastąpieni. Musimy zadbać o to, by ich strzały zawsze znajdowały cele”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_infantry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наши [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] необходимы для победы, нужно держать их в форме».",
+    "POL": "„[ROOT.Char.Custom('GetRegionalInfantryMAA')|U] to klucz do zwycięstwa. Nie można pozwolić im zmięknąć”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ваши [ROOT.Char.Custom('GetRegionalCavalryMAA')|l] необычайно ценны на поле боя, не давайте им размякнуть».",
+    "POL": "„[ROOT.Char.Custom('GetRegionalCavalryMAA')] to nasze najcenniejsze jednostki, nie pozwólcie im się rozleniwić”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_archer_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Конные лучники — основа нашего войска, и состязания в стрельбе из лука сделают их только сильнее».",
+    "POL": "„Łucznicy na koniach to nasz kościec; zawody w łucznictwie konnym utrzymają ich w formie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_skirmishers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наши умелые [ROOT.Char.Custom('GetRegionalSkirmisherMAA')|l] должны участвовать в состязаниях, чтобы всегда находить свою цель».",
+    "POL": "„Nasi utalentowani [ROOT.Char.Custom('GetRegionalSkirmisherMAA')|l] muszą rywalizować, aby zawsze mieli swój cel”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_elephant_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Грозные слоны приведут нас к победе, они должны всегда быть наготове».",
+    "POL": "„Przerażające słonie przyniosą nam zwycięstwo; muszą być gotowe w każdej chwili”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_camel_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Верблюжья кавалерия — основа ваших войск, нужно уделить ей особое внимание».",
+    "POL": "„Witalni jeźdźcy na wielbłądach stanowią trzon waszych sił, musicie się na nich skupić”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_levies",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Беднякам нужны упражнения, чтобы в их призыве была какая-то польза».",
+    "POL": "„Biedni ludzie potrzebują ćwiczeń, aby byli sprawni, gdy zostaną powołani pod broń”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_bridge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Нет, наши усилия нужно направить в другое русло», — возражает [knight_scope.GetFirstNameNoTooltip].",
+    "POL": "\\n\\n„Nie, wysyłki są potrzebne gdzie indziej” – wtrąca się [knight_scope.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.desc_outro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "\\n\\nI suppose practice #EMP does#! make perfect...",
+    "RUS": "\\n\\nПолагаю, повторение #EMP действительно#! мать учения...",
+    "POL": "\\n\\nPrzypuszczam, że praktyka #EMP czyni#! mistrza…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Спорт — это для благородных, и он называется охотой».",
+    "POL": "„Sport jest dla szlachty i nazywa się polowaniem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.culture_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Every [THIS.Char.GetCulture.GetName] courtier and vassal",
+    "RUS": "Все #L [THIS.Char.GetCulture.GetCollectiveNoun|l]ие#! придворные и вассалы",
+    "POL": "Każdy dworzanin i wasal, których kultura jest [THIS.Char.GetCulture.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.knight_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Every [THIS.Char.Custom('MountedWarriorTerm')|U]",
+    "RUS": "Каждый [THIS.Char.Custom('MountedWarriorTerm')|l]",
+    "POL": "Każdy [THIS.Char.Custom('MountedWarriorTerm')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я и так достаточно трачу на солдат».",
+    "POL": "„I tak już wystarczająco dużo wydaję na wojsko”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.archers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Учите их, пока не начнут попадать в яблочко».",
+    "POL": "„Trenować ich tak długo, aż będą trafiać w sam środek tarczy”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.archers_longbow",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мужчины и мальчики будут учиться бить из длинного лука по мишеням».",
+    "POL": "„Mężczyźni i chłopcy będą szkolić się na strzelnicy długim łukiem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.infantry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наши [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] любят хорошо подраться».",
+    "POL": "„Tacy jak [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] kochają dobrą bijatykę”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Принесите колышки для палаток! Наши [ROOT.Char.Custom('GetRegionalCavalryMAA')|l] собираются в дорогу!»",
+    "POL": "„Przynieście kołki do namiotów! [ROOT.Char.Custom('GetRegionalCavalryMAA')|U] będą jeździć!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.cavalry_joust",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Копейному удару нужно учиться».",
+    "POL": "„Atakowanie wymaga dobrej techniki”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.cavalry_tzykanion",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Всадники будут играть в цинканион!»",
+    "POL": "„Jeźdźcy zagrają w tyzkanion!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.cavalry_chovgan",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пусть играют в човган!»",
+    "POL": "„Niech grają w chowgan!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.archer_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Повелители коней будут учиться стрелять по бегающим кроликам».",
+    "POL": "„Konni będą gonić za uciekającym królikiem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.skirmishers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мои [ROOT.Char.Custom('GetRegionalInfantryMAA')|l] не знают промаха».",
+    "POL": "„[ROOT.Char.Custom('GetRegionalInfantryMAA')|U] pod moją komendą to synonim niezawodności”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.elephant_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Махауты будут соперничать за славу!»",
+    "POL": "„Dosiadacze słoni będą rywalizować o chwałę!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.camel_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Racing will hone the camel rider's skills.",
+    "RUS": "«Гонки помогут верблюжьей кавалерии отточить свои навыки».",
+    "POL": "„Wyścigi będą doskonalić umiejętności jeźdźca na wielbłądzie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.levies_caid",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Все будут играть в кадь!»",
+    "POL": "„Każdy będzie kopać piłkę!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.levies",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Убедите простолюдинов держать себя в форме».",
+    "POL": "„Zachęcaj zwykły lud do utrzymania zwinności”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_archer_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Master Archers",
+    "RUS": "Умелые лучники",
+    "POL": "Mistrzowie łucznictwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_archer_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_infantry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Drilled Footmen",
+    "RUS": "Вымуштрованные пехотинцы",
+    "POL": "Wymusztrowani piechurzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_infantry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Practiced Riders",
+    "RUS": "Опытные всадники",
+    "POL": "Wprawieni jeźdźcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_acavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Feared Nomads",
+    "RUS": "Грозные кочевники",
+    "POL": "Wywołujący strach nomadzi",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_acavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_skirmisher_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Crack Skirmishers",
+    "RUS": "Великолепные застрельщики",
+    "POL": "Doborowi harcownicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_skirmisher_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_ecavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Elephant Games",
+    "RUS": "Слоновьи игры",
+    "POL": "Gry na słoniach",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_ecavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_ccavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Camel Races",
+    "RUS": "Гонки на верблюдах",
+    "POL": "Wyścigi wielbłądów",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_ccavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_levies_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Active Peasantry",
+    "RUS": "Активные крестьяне",
+    "POL": "Ruchliwe chłopstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_levies_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_knights_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Sponsored Hunts",
+    "RUS": "Поддержка охоты",
+    "POL": "Finansowane łowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_knights_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_2000_generic_modifier_desc$",
+    "RUS": "$ep1_2000_generic_modifier_desc$",
+    "POL": "$ep1_2000_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2000_generic_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character has encouraged martial sports to ensure key fighters are always ready.",
+    "RUS": "Этот персонаж поддерживает воинские состязания, чтобы основные войска всегда были в форме.",
+    "POL": "Ta postać zachęciła do uprawiania sportów walki, aby kluczowi wojownicy byli zawsze gotowi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "infantry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "infantry",
+    "RUS": "пехота",
+    "POL": "piechota",
+    "BEL": ""
+  },
+  {
+    "KEY": "cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "cavalry",
+    "RUS": "всадники",
+    "POL": "kawalerzyści",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2000.tradition_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Due to your [culture_possessive|E] [traditions|E]",
+    "RUS": "В силу [Concept( 'traditions', 'традиций' )|E] вашей [Concept( 'culture_possessive', 'культуры' )|E]",
+    "POL": "Ze względu na [traditions|El] twojej [culture_possessive|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Court of Vipers",
+    "RUS": "Змеиный клубок",
+    "POL": "Dwór żmij",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Each night, once the candles are doused and the dark [ROOT.Char.Custom('FortifiedBuilding')] falls silent, whispers of a plot to [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] me haunt the chambers.",
+    "RUS": "Каждую ночь, как погаснут свечи, а [ROOT.Char.Custom('FortifiedBuilding')|l] погрузится в тишину, меня начинают преследовать шепотки о заговоре с целью [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] меня.",
+    "POL": "Każdej nocy, gdy tylko ostatnia ze świec gaśnie, a budynek, który znamy jako[ROOT.Char.Custom('FortifiedBuilding')|l], pogrąża się w ciszy i mroku, nawiedzają mnie szepty o spisku, podczas którego planowane jest [real_plot.GetSchemeType.GetTypeNameNoTooltip|l] wobec mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_spy_real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[spymaster.GetCouncilTitleFirstName] seems certain that my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))], [real_plotter.GetTitledFirstName], is behind it... \\n\\n",
+    "RUS": "[spymaster.GetCouncilTitleFirstName] полагает, что за этим стоит [Select_CString(real_plotter.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))], [real_plotter.GetTitledFirstName]...\\n\\n",
+    "POL": "[spymaster.GetCouncilTitleFirstName] ma pewność, że stoi za tym znana mi osoba: [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_spy_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[spymaster.GetCouncilTitleFirstName] says that my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))], [scapegoat_1.GetTitledFirstName], is probably, #EMP maybe#! behind it... \\n\\n",
+    "RUS": "[spymaster.GetCouncilTitleFirstName] говорит, что за этим, возможно, #EMP вероятно#!, стоит [Select_CString(scapegoat_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))], [scapegoat_1.GetTitledFirstName]...\\n\\n",
+    "POL": "[spymaster.GetCouncilTitleFirstName] twierdzi, że prawdopodobnie, #EMP być może#!, stoi za tym znana mi osoba: [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_spy_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[spymaster.GetCouncilTitleFirstName] is almost nearly half-certain that my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], [scapegoat_2.GetTitledFirstName], is behind it... \\n\\n",
+    "RUS": "[spymaster.GetCouncilTitleFirstName] склоняется к мысли, что за этим стоит [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], [scapegoat_2.GetTitledFirstName]...\\n\\n",
+    "POL": "[spymaster.GetCouncilTitleFirstName] ma prawie połowę pewności, że to [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], [scapegoat_2.GetTitledFirstName], za tym stoi…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_1_real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_1.GetCouncilTitleFirstName] privately disagrees, arguing that [real_plotter.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))], is to blame, while",
+    "RUS": "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает и считает, что [Select_CString(real_plotter.IsFemale, 'виновата моя', 'виноват мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName], тогда как",
+    "POL": "[councillor_1.GetCouncilTitleFirstName] prywatnie nie zgadza się z tym, twierdząc, że winę ponosi znana mi osoba: [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName]. Jednakże",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_1_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_1.GetCouncilTitleFirstName] privately disagrees, arguing that the foul odor of [scapegoat_1.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))], warrants investigation, while",
+    "RUS": "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает — чутье подсказывает, что тут [Select_CString(scapegoat_1.IsFemale, 'приложила руку моя', 'приложил руку мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName], тогда как",
+    "POL": "[councillor_1.GetCouncilTitleFirstName] prywatnie się z tym nie zgadza, twierdząc, że to paskudny odór, jaki roztacza za sobą [scapegoat_1.GetTitledFirstName] – znana mi osoba ([ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))]) – wymaga dochodzenia. Jednakże",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_1_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_1.GetCouncilTitleFirstName] privately disagrees, arguing that [scapegoat_2.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], has a shifty demeanor, while",
+    "RUS": "[councillor_1.GetCouncilTitleFirstName] в личной беседе возражает и подчеркивает, что [scapegoat_2.GetTitledFirstName], [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], страдает перепадами настроения, тогда как",
+    "POL": "[councillor_1.GetCouncilTitleFirstName] prywatnie nie zgadza się z tym, twierdząc, że znana mi osoba, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))] [scapegoat_2.GetTitledFirstName], ma chytre usposobienie. Jednakże",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_2_real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_2.GetCouncilTitleFirstName] urges me to imprison my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))], [real_plotter.GetTitledFirstName], the ",
+    "RUS": "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(real_plotter.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName], «[Select_CString(real_plotter.IsFemale, 'явная предательница', 'явный предатель' )]» немедленно [Select_CString(real_plotter.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\\n\\n",
+    "POL": "[councillor_2.GetCouncilTitleFirstName] twierdzi, że to oczywista zdrada, i namawia mnie do uwięzienia znanej mi osoby, którą jest [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('real_plotter'))] [real_plotter.GetTitledFirstName], nim będzie za późno.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_2_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_2.GetCouncilTitleFirstName] urges me to imprison my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))], [scapegoat_1.GetTitledFirstName], the ",
+    "RUS": "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(scapegoat_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName], «ужас владения [scapegoat_1.GetCurrentLocation.GetNameNoTooltip]» немедленно [Select_CString(scapegoat_1.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\\n\\n",
+    "POL": "[councillor_2.GetCouncilTitleFirstName] namawia mnie do uwięzienia znanej mi osoby, którą jest [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_1'))] [scapegoat_1.GetTitledFirstName], zanim będzie za późno. Mówi przy tym, że to „upiór z ziem znanych jako [scapegoat_1.GetCurrentLocation.GetNameNoTooltip]”.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_2_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[councillor_2.GetCouncilTitleFirstName] urges me to imprison my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))], [scapegoat_2.GetTitledFirstName], the ",
+    "RUS": "[councillor_2.GetCouncilTitleFirstName] умоляет принять меры, чтобы [Select_CString(scapegoat_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))] [scapegoat_2.GetTitledFirstName], «[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l][Select_CString(scapegoat_2.IsFemale, 'ая дьяволица', 'ий дьявол' )]», немедленно [Select_CString(scapegoat_2.IsFemale, 'оказалась', 'оказался' )] за решеткой, пока еще не слишком поздно.\\n\\n",
+    "POL": "[councillor_2.GetCouncilTitleFirstName] namawia mnie do uwięzienia znanej mi osoby, którą jest [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scapegoat_2'))] [scapegoat_2.GetTitledFirstName], zanim będzie za późno. Mówi przy tym, że to „Bestia z ziem znanych jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_family",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Could my own flesh and blood be plotting against me?",
+    "RUS": "Неужели плоть от плоти моей будет интриговать против меня?",
+    "POL": "Czy moja własna rodzina może spiskować przeciwko mnie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_consort",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Could I be sharing my bed with someone who wants me dead?",
+    "RUS": "Неужели я делю постель с тем, кто желает мне смерти?",
+    "POL": "Czy mogę dzielić łoże z kimś, kto chce mojej śmierci?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_councillor",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Could one of my closest advisors really seek to harm me?",
+    "RUS": "Неужели один из доверенных советников действительно хочет мне навредить?",
+    "POL": "Czy któryś z moich najbliższych doradców mógłby chcieć mi zaszkodzić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_fallback",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I see betrayal behind every pair of eyes; scan courtiers' hands for hidden blades.",
+    "RUS": "Я вижу предательство в глазах каждого и высматриваю скрытые клинки в руках придворных.",
+    "POL": "W oczach wszystkich dostrzegam zdradę, a w dłoniach dworzan szukam ukrytych ostrzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.desc_outro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "By [ROOT.Char.GetFaith.HighGodName], I'm at my wit's end...",
+    "RUS": "О [ROOT.Char.GetFaith.HighGodName], у меня ум за разум заходит...",
+    "POL": "Na [ROOT.Char.GetFaith.HighGodNamePossessive], jestem u kresu wytrzymałości…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.a.real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "It is [real_plotter.GetTitledFirstNameNoTooltip], I am sure!",
+    "RUS": "Это [real_plotter.GetTitledFirstNameNoTooltip], наверняка!",
+    "POL": "To [real_plotter.GetTitledFirstNameNoTooltip], jestem o tym przekonan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.a.fake_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "It is [scapegoat_1.GetTitledFirstNameNoTooltip], I am sure!",
+    "RUS": "Это [scapegoat_1.GetTitledFirstNameNoTooltip], наверняка!",
+    "POL": "To [scapegoat_1.GetTitledFirstNameNoTooltip], jestem o tym przekonan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.a.fake_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "It is [scapegoat_2.GetTitledFirstNameNoTooltip], I am sure!",
+    "RUS": "Это [scapegoat_2.GetTitledFirstNameNoTooltip], наверняка!",
+    "POL": "To [scapegoat_2.GetTitledFirstNameNoTooltip], jestem o tym przekonan[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.b.real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "No... could it be [real_plotter.GetTitledFirstNameNoTooltip]?",
+    "RUS": "Нет... неужели это [real_plotter.GetTitledFirstNameNoTooltip]?",
+    "POL": "Nie… czy to m[Select_CString( real_plotter.IsFemale, 'ogła', 'ógł' )] być [real_plotter.GetTitledFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.b.fake_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "No... could it be [scapegoat_1.GetTitledFirstNameNoTooltip]?",
+    "RUS": "Нет... неужели это [scapegoat_1.GetTitledFirstNameNoTooltip]?",
+    "POL": "Nie… czy to m[Select_CString( real_plotter.IsFemale, 'ogła', 'ógł' )] być [scapegoat_1.GetTitledFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.b.fake_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "No... could it be [scapegoat_2.GetTitledFirstNameNoTooltip]?",
+    "RUS": "Нет... неужели это [scapegoat_2.GetTitledFirstNameNoTooltip]?",
+    "POL": "Nie… czy to m[Select_CString( real_plotter.IsFemale, 'ogła', 'ógł' )] być [scapegoat_2.GetTitledFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.c.real",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[real_plotter.GetTitledFirstNameNoTooltip] must be behind this.",
+    "RUS": "Должно быть, за этим стоит [real_plotter.GetTitledFirstNameNoTooltip].",
+    "POL": "[real_plotter.GetTitledFirstNameNoTooltip] musi za tym stać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.c.fake_1",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scapegoat_1.GetTitledFirstNameNoTooltip] must be behind this.",
+    "RUS": "Должно быть, за этим стоит [scapegoat_1.GetTitledFirstNameNoTooltip].",
+    "POL": "[scapegoat_1.GetTitledFirstNameNoTooltip] musi za tym stać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.c.fake_2",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[scapegoat_2.GetTitledFirstNameNoTooltip] must be behind this.",
+    "RUS": "Должно быть, за этим стоит [scapegoat_2.GetTitledFirstNameNoTooltip].",
+    "POL": "[scapegoat_2.GetTitledFirstNameNoTooltip] musi za tym stać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I will follow the thread.",
+    "RUS": "Я пойду по следу.",
+    "POL": "Będę kontrolować tę sprawę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.e",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Naught but rumors.",
+    "RUS": "Это лишь слухи.",
+    "POL": "To tylko plotki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.e.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The plot against you will progress",
+    "RUS": "Заговор против вас продолжится",
+    "POL": "Spisek przeciwko tobie zyska postęp",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.d.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You discover the true culprit",
+    "RUS": "Вы находите истинного виновника",
+    "POL": "Odkrywasz prawdziwego sprawcę",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.d.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You only find further doubt",
+    "RUS": "Вы лишь еще глубже увязаете в сомнениях",
+    "POL": "Zmagasz się z kolejnymi wątpliwościami",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.d.success_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The true plotter will be exposed and jailed",
+    "RUS": "Истинный заговорщик будет раскрыт и отправится в темницу",
+    "POL": "Prawdziwy spiskowiec zostanie zdemaskowany i uwięziony",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2010_failure_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Web of Lies",
+    "RUS": "Паутина лжи",
+    "POL": "Sieci kłamstw",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_2010_failure_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character's court is a Gordian knot of plotting interests.",
+    "RUS": "Двор этого персонажа представляет собой гордиев узел интриг.",
+    "POL": "Dwór tej postaci to gordyjski węzeł interesów spiskowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.guilty",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Guilt is confirmed",
+    "RUS": "Вина доказана",
+    "POL": "Wina jest potwierdzona",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2010.innocent",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Guilt is in doubt",
+    "RUS": "Вина под вопросом",
+    "POL": "Wina jest wątpliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Interservice Rivalry",
+    "RUS": "Войсковое соперничество",
+    "POL": "Rywalizacja między formacjami wojska",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Some healthy competition amongst soldiers is only natural, but the division between my [SCOPE.Custom('GetMAAType1')] and [SCOPE.Custom('GetMAAType2')] is stark. \\n\\nIts development is reflected in the growing animosity of their officers, [ROOT.Char.Custom('MountedWarriorTermPlural')] [knight_1.GetTitledFirstName] and [knight_2.GetTitledFirstName], who once again bicker before me. \\n\\n",
+    "RUS": "Здоровое соперничество между солдатами идет лишь на пользу делу, но мои [SCOPE.Custom('GetMAAType1')] и [SCOPE.Custom('GetMAAType2')] находятся в слишком уж явном противостоянии.\\n\\nЭто отразилось и на отношениях между офицерами, и [ROOT.Char.Custom('MountedWarriorTermPlural')] [knight_1.GetTitledFirstName] и [knight_2.GetTitledFirstName] в очередной раз устроили спор при мне.\\n\\n",
+    "POL": "Trochę zdrowej rywalizacji wśród żołnierzy to całkowicie normalna rzecz, ale [SCOPE.Custom('GetMAAType1')|l] i [SCOPE.Custom('GetMAAType2')|l] prawie skaczą sobie do gardeł.\\n\\nPostępująca wrogość wpływa również na ich oficerów; [ROOT.Char.Custom('MountedWarriorTermPlural')|l] [knight_1.GetTitledFirstName] oraz [knight_2.GetTitledFirstName] po raz kolejny sprzeczają się w mojej obecności.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_archers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...будем надеяться, что стрелы у вас не закончатся, а то ведь вам придется #EMP действительно#! сражаться!»",
+    "POL": "„…miejmy nadzieję, że nie zabraknie ci strzał; wtedy [Select_CString( knight_1.IsFemale, 'musiałabyś', 'musiałbyś' )] #EMP rzeczywiście#! walczyć!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_light_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...ударил и отбежал, ага? Как по мне, это больше походит на #EMP испугался и удрал#!!»",
+    "POL": "„…błyskawiczny atak, co? Raczej #EMP błyskawiczna ucieczka#!!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_heavy_infantry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...ах какие мы храбрые, с головы до пят облачились в доспехи!»",
+    "POL": "„…jakże [Select_CString( knight_1.IsFemale, '#EMP odważna#! musisz być, zakuta', '#EMP odważny#! musisz być, zakuty' )] od stóp do głów w zbroję!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_pikemen",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...что, боитесь, что враги подойдут к вам слишком #EMP близко#!?»",
+    "POL": "„…no co jest, boisz się, że wróg podejdzie #EMP za blisko#! do ciebie?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_heavy_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...а, понимаю: зачем #EMP сражаться#! с врагом, если можно его раздавить?»",
+    "POL": "„…rozumiem. Po co #EMP walczyć#! skoro można po prostu stratować wroga?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_archer_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...а вы хоть раз вообще #EMP видели#! противника, а то вечно скачете так быстро и так далеко?»",
+    "POL": "„…#EMP [Select_CString( knight_1.IsFemale, 'widziałaś', 'widziałeś' )]#! rzeczywiście kiedykolwiek wroga, czy po prostu jeździsz sobie szybko i daleko?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_skirmishers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...что, опять учитесь, как ослабить врага перед встречей с #EMP настоящими#! бойцами?»",
+    "POL": "„…znowu ich uczysz, jak być słabym przed #EMP prawdziwymi#! wojownikami?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_elephant_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«...всего-то слон? Оседлали бы кого-нибудь #EMP побольше#!».",
+    "POL": "„…co, zaledwie słoń? Nie chcesz dosiąść czegoś #EMP większego#!?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_1_camel_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Лошади пустыни? Как по мне, они больше похожи на #EMP коров#!».",
+    "POL": "„Konie pustyni? Mnie bardziej przypominają #EMP krowy#!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_bridge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[knight_2.GetFirstNameNoTooltip] sneers, before [knight_1.GetFirstNameNoTooltip] viciously retorts:",
+    "RUS": "[knight_2.GetFirstNameNoTooltip] усмехается, а [knight_1.GetFirstNameNoTooltip] яростно отвечает:",
+    "POL": "[knight_2.GetFirstNameNoTooltip] uśmiecha się szyderczo, po czym [knight_1.GetFirstNameNoTooltip] zjadliwie się odcina:",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_archers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ну нет, я не желаю выслушивать лекции от зазнавшегося охотника».",
+    "POL": "„Och, proszę, nie będę brać lekcji walki od [Select_CString( knight_2.IsFemale, 'podrzędnej łowczyni', 'podrzędnego łowcy' )]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_light_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Да, из уст якобы #EMP разведчика#! это звучит особенно весомо».",
+    "POL": "„Tak, te słowa muszą dużo znaczyć z ust [Select_CString( knight_2.IsFemale, 'fałszywej #EMP zwiadowczyni#!', 'fałszywego #EMP zwiadowcy#!' )]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_heavy_infantry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Легко говорить в такой #EMP толстой#! кольчуге».",
+    "POL": "„Łatwo mówić w takim #EMP ciężkim jak twój umysł#! pancerzu”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_pikemen",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Да, да, беги, прячься за своей стеной из иголок».",
+    "POL": "„Ha, idź i ukryj się za tym swoim murem grotów”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_heavy_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ха, да что вы понимаете, сидя на своих огромных конях».",
+    "POL": "„Pff, siedząc tam sobie wysoko na koniu, już dawno [Select_CString( knight_2.IsFemale, 'straciłaś', 'straciłeś' )] zdrowy punkt widzenia”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_archer_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не желаю выслушивать упреки зарвавшегося #EMP объездчика лошадей#! с луком».",
+    "POL": "– Żaden #EMP koniarzyna#! z łukiem nie będzie mi mówić, co mam robić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_skirmishers",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Поговорим, когда вы и взаправду обнажите меч, не говоря уж о том, чтобы его использовать».",
+    "POL": "„Porozmawiamy, gdy faktycznie obnażysz swój miecz, nie mówiąc o jego użyciu”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_elephant_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Говорит [knight_2.GetWomanMan], [Select_CString(knight_2.IsFemale, 'которая', 'который' )] ездит на огромном чудовище с бивнями».",
+    "POL": "„[Select_CString( knight_2.IsFemale, 'Powiedziała kobieta', 'Powiedział człowiek' )] na grzbiecie wielkiego, uzbrojonego w kły potwora”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.desc_knight_2_camel_cavalry",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Фу, не подходите, от вас несет верблюдом».",
+    "POL": "„Pfe, nie zbliżaj się, ten smród wielbłąda jest porażający”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[SCOPE.Custom('GetMAAType1')] — основа нашего войска!»",
+    "POL": "„[SCOPE.Custom('GetMAAType1')|U] to nasz filar!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Кем бы мы были, если бы не наши [SCOPE.Custom('GetMAAType2')|l]!»",
+    "POL": "„[SCOPE.Custom('GetMAAType2')|U] są dla nas wszystkim!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Как одно может обходиться без другого?»",
+    "POL": "„Jaki jest pożytek z jednego bez drugiego?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.c.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Your argument is convincing",
+    "RUS": "Ваш аргумент убедителен",
+    "POL": "Twój argument jest przekonujący",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.c.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Your argument falls flat",
+    "RUS": "Ваш аргумент слишком слаб",
+    "POL": "Twój argument ponosi klęskę",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2020.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Уймитесь уже, вы двое».",
+    "POL": "„Wy [Select_CString( And( knight_1.IsFemale, knight_2.IsFemale ), 'dwie', Select_CString( And( Not( knight_1.IsFemale ), Not( knight_2.IsFemale ) ), 'dwaj', 'dwoje' ) )], dajcie już sobie spokój”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_both_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Military Recognition",
+    "RUS": "Военное признание",
+    "POL": "Wojskowe uznanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_both_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character's knights are motivated by their liege's acknowledgement of their troops importance.",
+    "RUS": "Рыцарей этого персонажа вдохновило признание их значимости сюзереном.",
+    "POL": "Rycerze tej postaci są motywowani przez władcę podkreślającego znaczenie ich wojsk.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_archers_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_archers_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_light_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_light_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_heavy_infantry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_heavy_infantry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_pikemen_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_pikemen_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_heavy_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_heavy_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_archer_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_archer_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_skirmishers_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_skirmishers_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_elephant_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_elephant_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_camel_cavalry_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier$",
+    "RUS": "$ep1_flavor_2020_generic_modifier$",
+    "POL": "$ep1_flavor_2020_generic_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_camel_cavalry_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2020_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2020_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2020_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_generic_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Military Favoritism",
+    "RUS": "Военный фаворитизм",
+    "POL": "Wojskowa faworyzacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2020_generic_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character openly favors a contingent of their army, which strives to live up to the reputation.",
+    "RUS": "Этот персонаж открыто поддерживает часть своих войск, которые желают оправдать свою репутацию.",
+    "POL": "Ta postać otwarcie wspiera niektórych swoich żołnierzy, którzy chcą sprostać jej reputacji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Taking Sides",
+    "RUS": "Выбор сторон",
+    "POL": "Wybór strony",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_intro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] bureaucracy generally trundles forward under its own momentum, but once in a blue moon an issue without a clear solution rears its ugly head. \\n\\nToday, it is",
+    "RUS": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ая бюрократия обычно работает сама по себе, но раз в сто лет вдруг возникает проблема, не имеющая явного решения.\\n\\nСегодня передо мной предстали",
+    "POL": "Administracja [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] zazwyczaj toczy się do przodu pod wpływem własnego pędu, ale bardzo rzadko pojawia się problem bez jasnego rozwiązania.\\n\\nDziś, to",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_monk",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a noted [local_dispute_1.GetFaith.GetAdjective] [local_dispute_1.Custom('NunMonk')] of [local_county_1.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'видная', 'видный' )] #L [local_dispute_1.GetFaith.GetName|l][Select_CString(local_dispute_1.IsFemale, 'ая', 'ий' )]#! [local_dispute_1.Custom('NunMonk')] из владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], znana persona wyznająca [local_dispute_1.GetFaith.GetName|l] i jednocześnie [local_dispute_1.Custom('NunMonk')|l] z obszaru o nazwie [local_county_1.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_bishop",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], the [local_dispute_1.GetFaith.GetAdjective] [local_dispute_1.GetTitleAsNameNoTooltip] of [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], #L [local_dispute_1.GetFaith.GetName|l][Select_CString(local_dispute_1.IsFemale, 'ая', 'ий' )]#! [local_dispute_1.GetTitleAsNameNoTooltip|l] персонажа [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona wyznająca [local_dispute_1.GetFaith.GetName|l] i [local_dispute_1.GetTitleAsNameNoTooltip|l] obszaru: [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_baron",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], the [local_dispute_1.GetTitleAsNameNoTooltip] of [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], [local_dispute_1.GetTitleAsNameNoTooltip|l] персонажа [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], [local_dispute_1.GetTitleAsNameNoTooltip|l] obszaru: [local_dispute_1.GetPrimaryTitle.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_scholar",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], an eminent learned [local_dispute_1.GetWomanMan] in [local_county_1.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'видная ученая', 'видный ученый' )] из владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], wyjątkowo uczona persona z obszaru o nazwie [local_county_1.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_culture",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a leader of [local_county_1.GetNameNoTierPossessive] [local_dispute_1.GetCulture.GetName] minority,",
+    "RUS": "[local_dispute_1.GetFirstName], лидер #L [local_dispute_1.GetCulture.GetCollectiveNoun|l]ого#! меньшинства во владении [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona, która w obszarze o nazwie [local_county_1.GetNameNoTier] przewodzi mniejszości, której kulturą jest kultura [local_dispute_1.GetCulture.GetName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_faith",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a figurehead of [local_county_1.GetNameNoTierPossessive] [local_dispute_1.GetFaith.GetAdjective] population,",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'представляющая', 'представляющий' )] #L [local_dispute_1.GetFaith.GetName|l]ое#! население владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona, która w obszarze o nazwie [local_county_1.GetNameNoTier] symbolicznie przewodzi ludności wyznającej [local_dispute_1.GetFaith.GetName|l],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_judge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a celebrated local arbitrator of [local_county_1.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'прославленная', 'прославленный' )] судья из владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona, która w obszarze o nazwie [local_county_1.GetNameNoTier] uchodzi za osobę zdolną do zażegnywania wszelkich sporów,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_captain",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a commander of [local_county_1.GetNameNoTierPossessive] local garrison,",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'командующая', 'командующий' )] гарнизоном владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona, która w obszarze o nazwie [local_county_1.GetNameNoTier] dowodzi lokalnym garnizonem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_1_merchant",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstName], a leading merchant of [local_county_1.GetNameNoTier],",
+    "RUS": "[local_dispute_1.GetFirstName], [Select_CString(local_dispute_1.IsFemale, 'видная торговка', 'видный торговец' )] из владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_1.GetFirstName], persona, która w obszarze o nazwie [local_county_1.GetNameNoTier] z powodzeniem zajmuje się handlem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_bridge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "and",
+    "RUS": "и",
+    "POL": "oraz",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_monk",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a celebrated [local_dispute_2.GetFaith.GetAdjectiveNoTooltip] [local_dispute_2.Custom('NunMonk')] from [local_county_2.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'прославленная', 'прославленный' )] [local_dispute_2.GetFaith.GetNameNoTooltip|l][Select_CString(local_dispute_2.IsFemale, 'ая', 'ий' )] [local_dispute_2.Custom('NunMonk')] из владения [local_county_2.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], znana persona wyznająca [local_dispute_2.GetFaith.GetName|l] i jednocześnie [local_dispute_1.Custom('NunMonk')|l] z obszaru o nazwie [local_county_2.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_bishop",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], the [local_dispute_2.GetFaith.GetAdjective] [local_dispute_2.GetTitleAsNameNoTooltip] of [local_dispute_2.GetPrimaryTitle.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], #L [local_dispute_2.GetFaith.GetName|l][Select_CString(local_dispute_2.IsFemale, 'ая', 'ий' )]#! [local_dispute_2.GetTitleAsNameNoTooltip|l] персонажа [local_dispute_2.GetPrimaryTitle.GetNameNoTier]",
+    "POL": "[local_dispute_2.GetFirstName], persona wyznająca [local_dispute_2.GetFaith.GetName|l] i [local_dispute_2.GetTitleAsNameNoTooltip|l] obszaru: [local_dispute_2.GetPrimaryTitle.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_baron",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], [local_dispute_2.GetTitleAsNameNoTooltip] of [local_dispute_2.GetPrimaryTitle.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [local_dispute_2.GetTitleAsNameNoTooltip|l] персонажа [local_dispute_2.GetPrimaryTitle.GetNameNoTier]",
+    "POL": "[local_dispute_2.GetFirstName], [local_dispute_2.GetTitleAsNameNoTooltip|l] obszaru: [local_dispute_2.GetPrimaryTitle.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_scholar",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a noted [local_dispute_2.GetWomanMan] of letters in [local_county_1.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'выдающаяся', 'выдающийся' )] писатель из владения [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], słynna persona zajmująca się pisarstwem w obszarze o nazwie [local_county_1.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_culture",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a spokesman for [local_county_1.GetNameNoTierPossessive] [local_dispute_1.GetCulture.GetName] minority,",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'выступающая', 'выступающий' )] от имени #L [local_dispute_1.GetCulture.GetCollectiveNoun|l]ого#! меньшинства во владении [local_county_1.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], persona, którą mniejszość [local_dispute_1.GetCulture.GetName|l] z obszaru o nazwie [local_county_1.GetNameNoTier] wybrała na swojego przedstawiciela,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_faith",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a representative of [local_county_2.GetNameNoTierPossessive] [local_dispute_2.GetFaith.GetAdjective] minority,",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'представляющая', 'представляющий' )] интересы #L [local_dispute_2.GetFaith.GetName|l]ого#! меньшинства во владении [local_county_2.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], persona, którą zamieszkująca ziemie o nazwie [local_county_2.GetNameNoTier] mniejszość wyznająca [local_dispute_2.GetFaith.GetName] wybrała na swojego przedstawiciela,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_judge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], an eminent [local_county_2.GetTierAsNameNoTooltip|l] judge of [local_county_2.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'уважаемая', 'уважаемый' )] судья из владения [local_county_2.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], szanowana persona, która w obszarze o nazwie [local_county_2.GetNameNoTier] pełni rolę: [local_county_2.GetTierAsNameNoTooltip|l] i arbiter,",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_captain",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a well-known bailiff of [local_county_2.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'известная', 'известный' )] бейлиф из владения [local_county_2.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], dobrze znana persona pełniąca rolę rządcy w obszarze o nazwie [local_county_2.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_2_merchant",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstName], a prominent trader based in [local_county_2.GetNameNoTier],",
+    "RUS": "[local_dispute_2.GetFirstName], [Select_CString(local_dispute_2.IsFemale, 'известная торговка', 'известный торговец' )] из владения [local_county_2.GetNameNoTier],",
+    "POL": "[local_dispute_2.GetFirstName], znacząca persona parająca się handlem w obszarze o nazwie [local_county_2.GetNameNoTier],",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.desc_outro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "who have been butting heads.\\n\\nMy mind spins with petty details, and it soon becomes clear neither party is in the right, and only one will leave here satisfied...",
+    "RUS": "ведущие яростный спор.\\n\\nМеня буквально засыпали градом мелких деталей, и вскоре стало очевидно, что обе стороны неправы и удовлетворить всех не удастся...",
+    "POL": "w nieustępliwości sprzeczają się ze sobą.\\n\\nZaczyna mi się kręcić w głowie od natłoku drobnych szczegółów i wkrótce wiem, że żadna ze stron nie ma racji, a tylko jedna wyjdzie stąd zadowolona…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я считаю, что [Select_CString(local_dispute_2.IsFemale, 'права', 'прав' )] [local_dispute_1.GetTitledFirstNameNoTooltip]».",
+    "POL": "„[local_dispute_1.GetTitledFirstNameNoTooltip] ma moje poparcie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[local_dispute_2.GetTitledFirstNameNoTooltip] в своем праве».",
+    "POL": "„Rację ma [local_dispute_2.GetTitledFirstNameNoTooltip]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[local_dispute_1.Custom('GetLocalRole')|U], мне пригодится человек ваших талантов».",
+    "POL": "„[Select_CString( local_dispute_1.IsFemale, 'Taka', 'Taki' )] [local_dispute_1.Custom('GetLocalRole')|l] jak ty przyda mi się na dworze”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_1.GetFirstNameNoTooltip] joins your court",
+    "RUS": "[local_dispute_1.GetFirstNameNoTooltip] присоединяется к вашему двору",
+    "POL": "[local_dispute_1.GetFirstNameNoTooltip] dołącza do twojego dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Послужите мне, [local_dispute_2.Custom('GetLocalRole')|l]».",
+    "POL": "„[local_dispute_2.Custom('GetLocalRole')|U] znajdzie u mnie idealne zajęcie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2030.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[local_dispute_2.GetFirstNameNoTooltip] joins your court",
+    "RUS": "[local_dispute_2.GetFirstNameNoTooltip] присоединяется к вашему двору",
+    "POL": "[local_dispute_2.GetFirstNameNoTooltip] dołącza do twojego dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_positive_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Local Breakthrough",
+    "RUS": "Местное достижение",
+    "POL": "Lokalny przełom",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_positive_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This county has been decided in favor of in a local dispute with another in the realm.",
+    "RUS": "Это графство получило поддержку правителя в споре с другим графством державы.",
+    "POL": "To hrabstwo zostało wsparte przez władcę w sporze z innym hrabstwem w państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_negative_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Local Setback",
+    "RUS": "Местный спад",
+    "POL": "Lokalny regres",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_negative_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This county has been decided against in a local dispute with another in the realm.",
+    "RUS": "Это графство не получило поддержку правителя в споре с другим графством державы.",
+    "POL": "To hrabstwo nie uzyskało poparcia przez władcę w sporze z innym hrabstwem w państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_1_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Tax Ruling",
+    "RUS": "Налоговое постановление",
+    "POL": "Dekret podatkowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_2_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Judicial Ruling",
+    "RUS": "Судебное постановление",
+    "POL": "Dekret ws. sądów",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_3_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Just Ruling",
+    "RUS": "Справедливое постановление",
+    "POL": "Dekret ws. praworządności",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_4_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Recruitment Ruling",
+    "RUS": "Постановление о вербовке",
+    "POL": "Dekret poborowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_4_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_5_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Popular Ruling",
+    "RUS": "Народное постановление",
+    "POL": "Dekret ludowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_5_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_6_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Religious Ruling",
+    "RUS": "Религиозное постановление",
+    "POL": "Dekret religijny",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_6_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_7_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Civic Ruling",
+    "RUS": "Гражданское постановление",
+    "POL": "Dekret miejski",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_7_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_8_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Order Ruling",
+    "RUS": "Постановление о порядке",
+    "POL": "Dekret porządkowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_8_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_9_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Tolerant Ruling",
+    "RUS": "Толерантное постановление",
+    "POL": "Dekret ws. tolerancji",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_9_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_10_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Construction Ruling",
+    "RUS": "Постановление о строительстве",
+    "POL": "Dekret budowlany",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_10_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "RUS": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "POL": "$ep1_flavor_2030_boon_generic_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor_2030_boon_generic_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The legacy of a minor but precedential legal ruling by this character shapes the fortunes of their realm.",
+    "RUS": "Наследие небольшого судебного прецедента в правление этого персонажа повлияет на будущее этой державы.",
+    "POL": "Niewielkie, lecz nadające precedens orzeczenie prawne za rządów tej postaci ma wpływ na przyszłość jej państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_monk",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('NunMonk')]",
+    "RUS": "[ROOT.Char.Custom('NunMonk')]",
+    "POL": "[ROOT.Char.Custom('NunMonk')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_landed",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "RUS": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_culture",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCulture.GetNameNoTooltip]",
+    "RUS": "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip][Select_CString(ROOT.Char.IsFemale, 'ая женщина', 'ий муж' )]",
+    "POL": "[ROOT.Char.GetCulture.GetNameNoTooltip] osobistość",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_faith",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]",
+    "RUS": "[ROOT.Char.GetFaith.GetNameNoTooltip][Select_CString(ROOT.Char.IsFemale, 'ая женщина', 'ий муж' )]",
+    "POL": "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] osobistość",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_judge",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "judge",
+    "RUS": "судья",
+    "POL": "sędzia",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_captain",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "captain",
+    "RUS": "капитан",
+    "POL": "kapitan",
+    "BEL": ""
+  },
+  {
+    "KEY": "local_role_merchant",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "merchant",
+    "RUS": "торговец",
+    "POL": "kupiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Exotic Arms",
+    "RUS": "Экзотическое оружие",
+    "POL": "Egzotyczne uzbrojenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Along with their strange goods, merchants bring tall-tales from distant lands; unverifiable; full of wonder. \\n\\nA group of [foreign_merchant.GetCulture.GetNameNoTooltip] peddlers purport to have brought '#EMP [exotic_blade_holder.GetCulture.GetNameNoTooltip]#!' objects, said to have come from the faraway court of a great ruler: '#EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!', no less. \\n\\n[foreign_merchant.GetTitledFirstName], the leading trader, grins darkly,",
+    "RUS": "Торговцы приносят с собой не только свои странные товары, но и рассказы о далеких землях. Невероятные. Полные чудес.\\n\\nНесколько [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip|l]их торговцев привезли с собой странные #EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip|l]ие#! предметы. Говорят, эти вещи прибыли из далекой страны, где правит #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\\n\\n[foreign_merchant.GetTitledFirstName], предводитель торговцев, мрачно ухмыляется,",
+    "POL": "Wraz z dziwnymi towarami kupcy przywożą z odległych krain niewiarygodne historie, które są nieweryfikowalne oraz pełne cudów. \\n\\n[foreign_merchant.GetCulture.GetNameNoTooltip] grupa handlarzy twierdzi, że przyniosła przedmioty, które wykonali „#EMP [exotic_blade_holder.GetCulture.GetCollectiveNounNoTooltip]#!”. Podobno pochodzą z dalekiego dworu, na którym włada [Select_CString( exotic_blade_holder.IsFemale, 'nie kto inna, jak wielka', 'nie kto inny, jak wielki' )] #EMP [exotic_blade_holder.GetFullNameNoTooltipRegnal]#!.\\n\\n[foreign_merchant.GetTitledFirstName], główn[Select_CString(foreign_merchant.IsFemale, 'a handlarka', 'y handlarz' )], uśmiecha się mrocznie:",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.artifact",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я вижу, у вас есть [my_artifact.GetName]. Уступите этот артефакт мне, и взамен вам достанется [exotic_blade.Custom('ArtifactType')|l]...»",
+    "POL": "– Widzę, co tam masz – to [my_artifact.GetName]. Oddaj mi ten artefakt, a dostaniesz inny przedmiot niespotykanej rzadkości. [exotic_blade.Custom('ArtifactType')|U] – co ty na to?",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.gold",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«О [ROOT.Char.GetTitleAsNameNoTooltip|l], вам может достаться [exotic_blade.Custom('ArtifactType')|l], по особой цене...»\\n\\nДа, я вам охотно верю!",
+    "POL": "– [exotic_blade.Custom('ArtifactType')|U]… ten wspaniały unikat może być twój… Oczywiście za odpowiednią cenę. [ROOT.Char.GetTitleAsNameNoTooltip] raczy zerknąć…\\n\\nBrzmi to jak jedna wielka bajda!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "If only I had some way to verify the hawker's story...",
+    "RUS": "Была бы у меня возможность проверить эти небылицы...",
+    "POL": "Gdybym tylko [Select_CString( ROOT.Char.IsFemale, 'mogła', 'mógł' )] jakoś zweryfikować historię tego domokrążcy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_antiquarian",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "I look to [antiquarian.GetTitledFirstName] for guidance:",
+    "RUS": "Я жду, что посоветует [antiquarian.GetTitledFirstName]:",
+    "POL": "Czekam, aż doradzi mi [antiquarian.GetTitledFirstName]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_good_praise",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Это точно не подделка, работа определенно [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip]ая, причем хорошая».",
+    "POL": "– Z całym szacunkiem, to z pewnością nie podróbka. Przedmiot ten rzeczywiście pochodzi z ziem znanych jako [exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip] i jest wysokiej jakości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_good_unsure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не специалист в [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их изделиях, но выглядит неплохо».",
+    "POL": "– Nie znam zbyt dobrze wytworów z ziem znanych jako [exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip], lecz ten wygląda na solidnie wykonany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_good_warning",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я не советую вам приобретать эту вещь, на ней отчетливо видны следы ударов молота». [exotic_blade_holder.GetSheHe|U] глупо кивает мне.",
+    "POL": "„Nie mogę pochwalić tego przedmiotu, [Select_CString( ROOT.Char.IsFemale, 'moja pani', 'mój panie' )], te zagłębienia po młocie… pozostawiają wiele do życzenia” – mówi, głupio przytakując.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_bad_warning",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip] или нет, качество оставляет желать лучшего, и я сомневаюсь в заявленном происхождении оружия».",
+    "POL": "„[exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip] czy nie, ten przedmiot wygląda partacko, [Select_CString( ROOT.Char.IsFemale, 'moja pani', 'mój panie' )]. Bardzo wątpię w jego pochodzenie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_bad_unsure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Не могу сказать наверняка, но мне кажется, этот предмет не то, за что его выдают».",
+    "POL": "„Mam wątpliwości do tego, że ten przedmiot jest tym, na co się go kreuje”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.desc.outro_bad_praise",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Великолепная [exotic_blade_holder.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ая работа! Только взгляните, как блестит!»",
+    "POL": "– Cóż za perfekcyjny przykład rzemieślnictwa z ziem znanych jako [exotic_blade_holder.GetPrimaryTitle.GetNameNoTierNoTooltip]! Zobacz tylko, jak błyszczy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Полагаю, я могу расстаться с этой вещью...»",
+    "POL": "„Chyba mogę się z tym rozstać…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.tt_my",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You will lose your [my_artifact.GetName]",
+    "RUS": "Вы потеряете ваш артефакт: [my_artifact.GetName]",
+    "POL": "Stracisz swój artefakt [my_artifact.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.tt_exotic",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You will become the owner of [exotic_blade.GetNameNoTooltip]",
+    "RUS": "Вы станете владельцем артефакта [exotic_blade.GetNameNoTooltip]",
+    "POL": "Staniesz się właścicielem artefaktu: [exotic_blade.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.toast",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The [exotic_blade.Custom('ArtifactType')|l] is splendid",
+    "RUS": "[exotic_blade.Custom('ArtifactType')|U] выше всяких похвал",
+    "POL": "Cóż za [exotic_blade.Custom('ArtifactType')]. Coś wspaniałego!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.toast_poor",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The [exotic_blade.Custom('ArtifactType')|l] is lackluster",
+    "RUS": "[exotic_blade.Custom('ArtifactType')|U] оставляет желать лучшего",
+    "POL": "[exotic_blade.Custom('ArtifactType')|U] to nic wyjątkowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Принесите мой кошель!»",
+    "POL": "„Przynieś moją sakiewkę!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2040.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ха! #EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!, конечно! Вон отсюда!»",
+    "POL": "„Ha! »#EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!«… Co za bzdury! Wynoście się stąd!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "The Greater Good",
+    "RUS": "Высшее благо",
+    "POL": "Dla większego dobra",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[detective_scope.GetFirstName], a local [sandford_scope.GetTitle.GetHolder.GetTitleAsNamePossessiveNoTooltip] underling, requests a private audience, claiming to know who is behind the recent disappearances of [victim_scope.GetTitledFirstName] and other travelers to my court. \\n\\n",
+    "RUS": "[detective_scope.GetFirstName], мелкая сошка из владения [sandford_scope.GetTitle.GetHolder.GetTitleAsNameNoTooltip|l], просит аудиенции, уверяя, что знает, по чьей вине пропали [victim_scope.GetTitledFirstName] и другие путники, стремившиеся к моему двору.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Мне удалось обнаружить общество, которое возглавляет [grocer_scope.GetTitledFirstName], [Select_CString(grocer_scope.IsFemale, 'торговка', 'торговец' )]. Они называют себя [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ая стража и те, кто, по их мнению, марает величие державы [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l], часто пропадают без следа!»\\n\\nКогда я приглашаю к себе [Select_CString(grocer_scope.IsFemale, 'бакалейщицу', 'бакалейщика' )], [grocer_scope.GetSheHe] все отрицает, заявляя, что [detective_scope.GetFirstName] не в себе после долгих лет службы на суровых улицах владения [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]...",
+    "POL": "Jeden z podwładnych osoby znanej jako [sandford_scope.GetTitle.GetHolder.GetTitleAsNameNoTooltip|l] prosi o osobistą audiencję, twierdząc, że wie, z czyjego powodu zniknęli [victim_scope.GetTitledFirstName] i inni podróżujący na mój dwór.\\n\\n– Wasza czcigodność! Udało mi się zdemaskować sekretną klikę, której przewodzi [grocer_scope.GetTitledFirstName], kupiec. Nazywają siebie Strażą [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], a ci, którzy według nich plugawią majestat twojego państwa, szybko znikają bez śladu!\\n\\nKiedy przywołuję sprzedawcę jedzenia, wszystkiemu zaprzecza, twierdząc, że [detective_scope.GetWomanMan|l] ma urojenia od zbyt wielu lat spędzonych na surowych ulicach miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наверняка всему этому есть разумное объяснение».",
+    "POL": "„Jestem [Select_CString( ROOT.Char.IsFemale, 'pewna', 'pewien' )], że jest jakieś – rozsądne – wyjaśnienie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[detective_scope.GetFirstName] and [grocer_scope.GetFirstName] leave",
+    "RUS": "[detective_scope.GetFirstName] и [grocer_scope.GetFirstName] уходят",
+    "POL": "[detective_scope.GetFirstName] i [grocer_scope.GetFirstName] wychodzą",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.b",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пусть [grocer_scope.GetFirstNameNoTooltip] отправляется в темницу, а вы будете служить мне!»",
+    "POL": "„[grocer_scope.GetFirstNameNoTooltip] trafi do lochu, a ty będziesz mi służyć!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.b.title",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "A bloody busybody",
+    "RUS": "Проклятый проныра",
+    "POL": "Przeklęci intryganci",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Жаль, что вы влезли не в свое дело, [detective_scope.GetFirstNameNoTooltip]...»",
+    "POL": "„Przykro mi, że [Select_CString( detective_scope.IsFemale, 'zostałaś w to wplątana', 'zostałeś w to wplątany' )], [detective_scope.GetFirstNameNoTooltip]…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.c.title",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "No luck catching them killers",
+    "RUS": "Убийц поймать не удалось",
+    "POL": "Nie udało się złapać zabójców przyjezdnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2060.death_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[victim_scope.GetName] mysteriously disappeared",
+    "RUS": "[victim_scope.GetName] пропадает без следа",
+    "POL": "[victim_scope.GetName] [Select_CString( victim_scope.IsFemale, 'zniknęła', 'zniknął' )] w niewyjaśnionych okolicznościach",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.t",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "When Minds Collide",
+    "RUS": "Столкновение умов",
+    "POL": "Gdy zderzą się umysły",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "As I pass the library, the rumbles of [symposium_courtier.GetTitledFirstNamePossessive] discontent pique my interest. [symposium_courtier.GetSheHe|U] is debating [symposium_scholar.GetTitledFirstName], a visiting [symposium_scholar.GetCulture.GetNameNoTooltip] [symposium_scholar.Custom('GetScholarType')|l] of some repute. \\n\\n",
+    "RUS": "Когда я прохожу мимо библиотеки, мое внимание привлекает [symposium_courtier.GetTitledFirstName] своим громким недовольством. Спор ведут [symposium_courtier.GetSheHe] и [symposium_scholar.GetTitledFirstName], [symposium_scholar.GetCulture.GetCollectiveNounNoTooltip|l][Select_CString(symposium_scholar.IsFemale, 'ая гостья', 'ий гость' )] и [symposium_scholar.Custom('GetScholarType')|l] с определенной репутацией. \\n\\n",
+    "POL": "Kiedy mijam bibliotekę, moje zainteresowanie budzi [symposium_courtier.GetTitledFirstName], [Select_CString( symposium_courtier.IsFemale, 'która', 'który' )] głośno manifestuje swoje niezadowolenie w dyspucie. Drugą stroną jest [symposium_scholar.GetTitledFirstName], [symposium_scholar.GetCulture.GetNameNoTooltip|l] osobistość i [symposium_scholar.Custom('GetScholarType')|l] o pewnej renomie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.theo_same_faith",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы совершаете ту же ошибку, что и молодые [symposium_courtier.GetFaith.GetNameNoTooltip|l]ие служители, — задирает нос [symposium_courtier.GetFirstNameNoTooltip]. — Это приведет вас к ереси».\\n\\n«Но погодите, — отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Несомненно, [symposium_scholar.GetFaith.HighGodName] не хочет, чтобы [symposium_scholar.GetHerHis] учение было столь негибким, особенно в нашей интерпретации».",
+    "POL": "„Popełniasz te same błędy co młodzi [symposium_courtier.GetFaith.GetAdherentNamePluralNoTooltip|l]” – [symposium_courtier.GetFirstNameNoTooltip] kręci nosem. „Zaprawdę, to prosta droga do herezji”.\\n\\n„Daj spokój” – usilnie prosi [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l]. „Z pewnością [symposium_scholar.GetFaith.HighGodName] [Select_CString(EqualTo_string( symposium_scholar.GetFaith.HighGodNameSheHe, 'ona' ), 'nie chciała, aby jej', 'nie chciał, aby jego' )] nauki były tak nieelastyczne, zwłaszcza że zostawiono je nam jedynie do interpretacji”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.theo_same_faith_diff_cult",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я и представить себе не [Select_CString(symposium_courtier.IsFemale, 'могла', 'мог' )], насколько [symposium_courtier.GetFaith.GetAdjectiveNoTooltip|l] в [symposium_ruler.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ой интерпретации отклоняется от учения [symposium_scholar.GetFaith.HighGodNamePossessive]!» — фыркает [symposium_courtier.GetFirstNameNoTooltip].\\n\\n«Чушь, — вздымает палец [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Это [symposium_courtier.GetCulture.GetCollectiveNounNoTooltip|l]ие [symposium_courtier.GetFaith.GetAdherentNamePluralNoTooltip|l] сбились с пути истинного и вернулись к языческим обрядам».",
+    "POL": "– Nie było mi do tej pory wiadome, jak bardzo wiara [symposium_courtier.GetFaith.GetAdjectiveNoTooltip|l] wyznawana na terenach znanych jako [symposium_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] odbiegła od nauk, za którymi stoi [symposium_scholar.GetFaith.HighGodName]! – drwi [symposium_courtier.GetFirstNameNoTooltip]\\n\\n– Brednie – [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l] grozi palcem. – To [symposium_courtier.GetFaith.GetAdherentNamePluralNoTooltip|l] zbłądzili, cofając się do pogańskich zwyczajów, które propaguje kultura [symposium_courtier.GetCulture.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.theo_same_relig",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[symposium_courtier.GetFaith.GetAdjectiveNoTooltip] и [symposium_scholar.GetFaith.GetAdjectiveNoTooltip|l] во многом различны, — рассуждает [symposium_courtier.GetFirstNameNoTooltip]. — Ваша ересь отклонилась от учения [symposium_courtier.GetFaith.HighGodNamePossessive]».\\n\\n«Но [symposium_courtier.GetFaith.GetReligion.GetAdjectiveNoTooltip|l] по сути своей охватывает обе наши конфессии, — печально отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Только глупец расширяет ручей до размеров каньона».",
+    "POL": "„[symposium_courtier.GetFaith.GetNameNoTooltip|U] i [symposium_scholar.GetFaith.GetNameNoTooltip|l] różnią się znacznie bardziej, niż się zakłada” – wygłasza [symposium_courtier.GetFirstNameNoTooltip]. „Wasza herezja odbiegła od nauk [symposium_courtier.GetFaith.HighGodNamePossessive]”.\\n\\n„Prawdziwa natura [symposium_courtier.GetFaith.GetReligion.GetAdjectiveNoTooltip|l] obejmuje obie wiary” – mówi uroczyście [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l]. „Głupcem jest ten, kto ze strumyka robi żłób”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.theo_diff_relig",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне непонятно [symposium_scholar.GetFaith.GetReligion.GetNameNoTooltip|l]ое учение, — рассуждает [symposium_courtier.GetFirstNameNoTooltip]. — [symposium_scholar.GetFaith.HighGodName] выглядит как-то неубедительно. То ли дело [symposium_courtier.GetFaith.HighGodName]».\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] отвечает саркастической ухмылкой: «Многое вы понимаете! Жаль, вы [symposium_scholar.GetFaith.BishopNeuter], таких [symposium_scholar.GetFaith.PositiveAfterLife] сразу принимает!»",
+    "POL": "– Nigdy nie pojmę nauk, które głosi [symposium_scholar.GetFaith.GetReligion.GetNameNoTooltip|l] – stwierdza [symposium_courtier.GetFirstNameNoTooltip].\\n\\n– [symposium_scholar.GetFaith.HighGodName|U] wydaje się taką nieprzekonującą postacią w porównaniu do tego, co oferuje [symposium_courtier.GetFaith.HighGodName].\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U] [symposium_scholar.GetWomanMan|l] uśmiecha się sarkastycznie.\\n\\n– Cóż za bystry umysł! Niczym [symposium_scholar.GetFaith.BishopNeuter]! Gdy skończy się twoja droga na tym łez padole, z pewnością czeka cię [symposium_scholar.GetFaith.PositiveAfterLife]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.mystic",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«В царстве [symposium_courtier.GetFaith.HighGodNamePossessive] нет место эзотерике, — строго выговаривает [symposium_courtier.GetFirstNameNoTooltip]. — Это одно сплошное надувательство и нагнетание тайны».\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] отвечает презрительной улыбкой: «Вы просто боитесь того, чего не понимаете, а для учения вам не хватает ума или смелости».",
+    "POL": "„Na takie dziwaczne praktyki nie ma miejsca w królestwie [symposium_courtier.GetFaith.HighGodNamePossessive]” – beszta surowo [symposium_courtier.GetFirstNameNoTooltip]. „To nic innego jak mijanie się z prawdą pod postacią tajemniczości”.\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U] [symposium_scholar.GetWomanMan|l] uśmiecha się z pogardą: „Po prostu boisz się nieznanego, i brakuje ci odwagi lub rozumu, by spróbować poznać”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.medicine",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Лекарства, конечно, полезны, но [symposium_courtier.GetFaith.HighGodName] выносит окончательное решение, кому жить, а кому умереть, — жалуется [symposium_courtier.GetFirstNameNoTooltip]. — Душу припарками не исцелить».\\n\\n«Я смотрю, вы мало что смыслите в медицине, — вздыхает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Скольких можно было бы спасти без подобного невежества».",
+    "POL": "„Medycy oczywiście są przydatni, ale to [symposium_courtier.GetFaith.HighGodName] ostatecznie decyduje o życiu i śmierci” – utyskuje [symposium_courtier.GetFirstNameNoTooltip]. „Żadna liczba okładów nie wyleczy duszy”.\\n\\n„Widzę, że niewiele wiesz o medycynie” – wzdycha [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l]. „Ilu można było uratować, gdyby nie taka ignorancja”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.ling_same_cult",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ие записи превосходят все, что можно найти в державе [symposium_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip], — позевывая, говорит [symposium_courtier.GetFirstNameNoTooltip]. — Вам стоит захватить с собой пару книг, когда будете уезжать».\\n\\n«Невероятно, насколько же человек может ошибаться, — фыркает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Да еще и говорить при этом с такой уверенностью...»",
+    "POL": "– Pismo używane na ziemiach o nazwie [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] jest znacznie bardziej rozwinięte niż wszystko to, co może zaoferować [symposium_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] – ziewa [symposium_courtier.GetFirstNameNoTooltip].\\n\\n– Koniecznie musisz wziąć kilka książek ze sobą, gdy odejdziesz.\\n\\n– To niewiarygodne, jak bardzo ktoś może się mylić – parska [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l].\\n\\n– I to jeszcze z taką pewnością siebie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.ling_diff_cult",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[symposium_courtier.GetFaith.HighGodName], слышали бы вы себя! — в смущении восклицает [symposium_courtier.GetFirstNameNoTooltip]. — [symposium_scholar.GetCulture.GetCollectiveNounNoTooltip]ий диалект просто уродует [symposium_courtier.GetCulture.GetLanguage.GetNameNoTooltip|l] язык, вы с тем же успехом можете использовать [ling_cul_1_bonus.GetLanguage.GetNameNoTooltip|l]!»\\n\\n[symposium_scholar.GetFirstNameNoTooltip] берет себя в руки: «[symposium_ruler.GetTitledFirstName] и двор говорят на куда более чистом языке, чем тут».",
+    "POL": "– Na [symposium_courtier.GetFaith.HighGodNamePossessive], czy ty siebie słyszysz? – Wzdryga się [symposium_courtier.GetFirstNameNoTooltip]. – Ten dialekt, którym posługują się [symposium_scholar.GetCulture.GetCollectiveNounNoTooltip], tak batoży piękny język [symposium_courtier.GetCulture.GetLanguage.GetNameNoTooltip|l], jakby to był [ling_cul_1_bonus.GetLanguage.GetNameNoTooltip|l]!\\n\\n[symposium_scholar.GetFirstNameNoTooltip] uspokaja się.\\n\\n– [symposium_ruler.GetTitledFirstName] i [symposium_ruler.Custom('PL_jego_jej')] dwór mówią w języku o wiele czystszym niż ta nieistotna ględźba, którą posługuje się [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.ling_diff_lang",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вашему иноземному наречию не хватает изящества для обсуждения подобных идей, — уничижительно говорит [symposium_courtier.GetFirstNameNoTooltip]. — Вот поэтому и надо учить #EMP [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l]#!».\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] закатывает глаза и вспоминает [symposium_scholar.GetCulture.GetLanguage.GetNameNoTooltip|l], бормоча что-то на нем.",
+    "POL": "„Twojemu obcemu językowi brakuje finezji, aby dyskutować o takich myślach” – [symposium_courtier.GetFirstNameNoTooltip] mówi z przekąsem. „To dlatego właśnie [Select_CString( symposium_scholar.IsFemale, 'powinnaś', 'powinieneś' )] znać #EMP [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l]#!”.\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U] [symposium_scholar.GetWomanMan|l] przewraca oczami i przywołuje język [symposium_scholar.GetCulture.GetLanguage.GetNameNoTooltip|l], pogardliwie mamrocząc jakieś przeklaństwa pod swoim nosem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.fall_alchemy",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Такое соотношение никогда не сработает», — качает головой [symposium_courtier.GetFirstNameNoTooltip], рассматривая разложенные кусочки коры. — Это уже пробовали до нас».\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan] отвечает: «Все совершают ошибки, даже алхимики, возможно, они что-то упустили».",
+    "POL": "„Takie proporcje nie będą właściwe” – [symposium_courtier.GetFirstNameNoTooltip] potrząsa głową, pochylając się nad gryzmołami wyrytymi na kawałku kory. „Już tego wszystkiego wcześniej próbowano”.\\n\\n[symposium_scholar.Custom('GetYoungMiddleAgedOld')|U] [symposium_scholar.GetWomanMan|l] replikuje: „Każdy popełnia błędy – nawet alchemicy. Mogli coś przeoczyć”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.fall_stars",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Нет, нет, нет, эти теории были опровергнуты столетия назад, — хмурится [symposium_courtier.GetFirstNameNoTooltip] в искреннем недоумении. — Вы что же, не читали классические труды по астрономии?»\\n\\n«Вы читаете вместо того, чтобы думать, — отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Мы еще многого не знаем».",
+    "POL": "„Nie, nie, nie! Te teorie zostały obalone wieki temu” – [symposium_courtier.GetFirstNameNoTooltip] wywołuje na twarzy grymas wraz ze szczerym niedowierzaniem. „Nie [Select_CString( symposium_scholar.IsFemale, 'czytałaś', 'czytałeś' )] klasyków astronomii?”\\n\\n„Czytasz zamiast myśleć” – odpiera [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l]. „Nadal musimy się wiele nauczyć”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.desc.fall_books",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы #EMP явно#! читали не те книги, — отмахивается [symposium_courtier.GetFirstNameNoTooltip]. — Я составлю для вас список [symposium_courtier.GetCulture.GetCollectiveNounNoTooltip|l]их трудов...»\\n\\n«Меня это устроит, — отвечает [symposium_scholar.Custom('GetYoungMiddleAgedOld')][Select_CString(symposium_scholar.IsFemale, 'ая', 'ый' )] [symposium_scholar.GetWomanMan]. — Список #EMP явно#! будет коротким».",
+    "POL": "„#EMP Wyraźnie#! [Select_CString( symposium_scholar.IsFemale, 'czytałaś', 'czytałeś' )] złe książki” – mówi lekceważąco [symposium_courtier.GetFirstNameNoTooltip]. „Sporządzę dla ciebie listę [symposium_courtier.GetCulture.GetPrefixNoTooltip|l]kulturowych rekomendacji…”\\n\\n„W porządku” – odpiera spokojnie [symposium_scholar.Custom('GetYoungMiddleAgedOld')] [symposium_scholar.GetWomanMan|l]. „Widać #EMP wyraźnie#!, że nie będzie ona zbyt długa”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.a",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Не желаете остаться у меня подольше, [symposium_scholar.GetFirstNameNoTooltip]?»",
+    "POL": "„Może zostaniesz na trochę dłużej, [symposium_scholar.GetFirstNameNoTooltip]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.c",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вы неправы, и вот почему».",
+    "POL": "„Jesteś w błędzie, a oto dlaczego…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.c.lang",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мне не показалось, вы сейчас сказали именно это?»",
+    "POL": "„Czy [Select_CString( symposium_scholar.IsFemale, 'powiedziałaś', 'powiedziałeś' )] to, co myślę, że [Select_CString( symposium_scholar.IsFemale, 'powiedziałaś', 'powiedziałeś' )]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.c.success",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "You prove [symposium_scholar.GetFirstNameNoTooltip] wrong",
+    "RUS": "Вы доказываете, что [symposium_scholar.GetFirstNameNoTooltip] ошибается",
+    "POL": "Udowadniasz, że [symposium_scholar.GetFirstNameNoTooltip] się myli",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.c.failure",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[symposium_scholar.GetFirstNameNoTooltip] embarrasses you",
+    "RUS": "[symposium_scholar.GetFirstNameNoTooltip] приводит вас в смущение",
+    "POL": "[symposium_scholar.GetFirstNameNoTooltip] zawstydza cię",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[symposium_scholar.GetFirstNameNoTooltip] may join your court",
+    "RUS": "[symposium_scholar.GetFirstNameNoTooltip] может присоединиться к вашему двору",
+    "POL": "[symposium_scholar.GetFirstNameNoTooltip] może dołączyć do twojego dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.d",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Пора вам покинуть нас, [symposium_scholar.Custom('GetScholarType')|l]».",
+    "POL": "„[symposium_scholar.Custom('GetScholarType')|U] nie znajdzie dłużej tu swojego miejsca”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep1_flavor.2070.e",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Out, blasphemer!",
+    "RUS": "Вон отсюда!",
+    "POL": "Wynocha, bluźnierco!",
+    "BEL": ""
+  },
+  {
+    "KEY": "scholar_type_monk",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('NunMonk')]",
+    "RUS": "[ROOT.Char.Custom('NunMonk')]",
+    "POL": "[ROOT.Char.Custom('NunMonk')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scholar_type_fallback",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "student",
+    "RUS": "ученик",
+    "POL": "[Select_CString( ROOT.Char.IsFemale, 'uczennica', 'uczeń' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "detractor_of_courtly_love_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Detractor of Courtly Love",
+    "RUS": "Критик куртуазной любви",
+    "POL": "Przeciwnik dworskiej miłości",
+    "BEL": ""
+  },
+  {
+    "KEY": "detractor_of_courtly_love_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character doesn't believe in Platonic Love and Gentle Poetry.",
+    "RUS": "Этот персонаж не верит в платоническую любовь и куртуазную поэзию.",
+    "POL": "Ta postać nie wierzy w platoniczną miłość i subtelną poezję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "promoter_of_courtly_love_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Promoter of Courtly Love",
+    "RUS": "Поклонник куртуазной любви",
+    "POL": "Zwolennik dworskiej miłości",
+    "BEL": ""
+  },
+  {
+    "KEY": "promoter_of_courtly_love_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character raves about Platonic Love and Gentle Poetry.",
+    "RUS": "Этот персонаж в восторге от куртуазной поэзии и идеалов платонической любви.",
+    "POL": "Ta postać zachwyca się platoniczną miłością i subtelną poezją.",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_promoter_of_courtly_love",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Court of Love: $VALUE|0=-+$",
+    "RUS": "Двор влюбленных: $VALUE|0=-+$",
+    "POL": "Dwór miłości: $VALUE|0=-+$",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_detractor_of_courtly_love",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Court Denies Courtly Love: $VALUE|0=-+$",
+    "RUS": "Двор отрицает куртуазную любовь: $VALUE|0=-+$",
+    "POL": "Dwór zaprzecza dworskiej miłości: $VALUE|0=-+$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_9000.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[GetScheme('seduce').GetTypeName] [schemes|E] at your court are more successful for #P 20 years#!",
+    "RUS": "В течение следующих #P 20 лет#! [Concept( 'schemes', 'происки' )|E] типа «[GetScheme('seduce').GetTypeName]» при вашем дворе будут более успешны",
+    "POL": "[Concept('schemes', '$game_concept_schemes|q$')|E] „[GetScheme('seduce').GetTypeName]” są na twoim dworze bardziej stresujące przez #P 20 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_9000.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[GetScheme('seduce').GetTypeName] [schemes|E] at your court are less successful for #P 20 years#!",
+    "RUS": "В течение следующих #P 20 лет#! [Concept( 'schemes', 'происки' )|E] типа «[GetScheme('seduce').GetTypeName]» при вашем дворе будут менее успешны",
+    "POL": "[Concept('schemes', '$game_concept_schemes|q$')|E] „[GetScheme('seduce').GetTypeName]” są na twoim dworze mniej stresujące przez #P 20 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "knight_of_love_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Knight of Love",
+    "RUS": "Рыцарь любви",
+    "POL": "Rycerz miłości",
+    "BEL": ""
+  },
+  {
+    "KEY": "knight_of_love_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character fought for love, and won.",
+    "RUS": "Этот персонаж сражался за любовь — и победил.",
+    "POL": "Ta postać zwyciężyła w walce o miłość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fought_for_courtly_love_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Fought for Courtly Love",
+    "RUS": "Жертва куртуазной любви",
+    "POL": "Walka o dworską miłość",
+    "BEL": ""
+  },
+  {
+    "KEY": "fought_for_courtly_love_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character fought for love, and lost. Nevertheless, what a valiant show did they put on!",
+    "RUS": "Этот персонаж сражался за любовь — и потерпел поражение. Тем не менее такую решимость и отвагу запомнят надолго!",
+    "POL": "Ta postać przegrała w walce o miłość, lecz wykazała się niemałą śmiałością!",
+    "BEL": ""
+  },
+  {
+    "KEY": "promise_of_feasts_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Promise of Feasts to Come",
+    "RUS": "Пир горой",
+    "POL": "Obiecane uczty",
+    "BEL": ""
+  },
+  {
+    "KEY": "promise_of_feasts_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "This character wants to spoil their courtiers with feasts, and is loved for that. Feasts are cheaper for them.",
+    "RUS": "Этот персонаж стремится развлекать придворных частыми пирами, и за это пользуется всеобщим обожанием. Пиры обходятся ему дешевле.",
+    "POL": "Ta postać chce rozpieszczać swoich dworzan ucztami, czym zyskała sobie ich uwielbienie. Uczty są dla niej tańsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "more_work_less_fun_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "More Work, Less Fun",
+    "RUS": "Делу время, потехе час",
+    "POL": "Więcej pracy, mniej zabawy",
+    "BEL": ""
+  },
+  {
+    "KEY": "feasts_more_expensive_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "[GetActivityType('activity_feast').GetName] @gold_icon![gold|E] is increased#!",
+    "RUS": "[GetActivityType('activity_feast').GetName] требует больше @gold_icon![Concept('gold', 'золота')|E]#!",
+    "POL": "[GetActivityType('activity_feast').GetName] kosztuje więcej @gold_icon! [Concept('gold', 'złota')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feasts_more_expensive_modifier_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep1/dlc_ep1_flavor_events_l_belarusian.json",
+    "ENG": "Increased [GetActivityType('activity_feast').GetName] @gold_icon![gold|E] cost#!",
+    "RUS": "Расход @gold_icon![Concept('gold', 'золота')|E] на [GetActivityType('activity_feast').GetName] увеличен#!",
+    "POL": "Wyższy koszt w @gold_icon! [Concept('gold', 'złocie')|E] następującej aktywności: [GetActivityType('activity_feast').GetName|l]#!",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "KEY": "fp1_shieldmaiden.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "A Prospective [shieldmaiden.Custom('ShieldPersonFemaleMale')]",
+    "RUS": "[Select_CString(shieldmaiden.IsFemale, 'Выдающаяся', 'Выдающийся' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]",
+    "POL": "Przyszłościow[Select_CString( shieldmaiden.IsFemale, 'a', 'y' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('FormOfAddressForLiege')|U], I come before you asking a chance to prove myself,",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], я прошу вас дать мне шанс проявить себя», — говорит [Select_CString(shieldmaiden.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shieldmaiden'))] [shieldmaiden.GetTitledFirstName]. Я устраиваюсь поудобнее на своем троне, а двор внимательно прислушивается.\\n\\n«Я ничуть не хуже, чем ваши $knight_culture_player_plural_no_tooltip_lowercase$, но не могу занять место в стене щитов или во главе войск. Я могу вызвать на поединок рыцаря по имени [challenged_knight.GetTitledFirstName], чтобы доказать мою отвагу в бою».",
+    "POL": "– Niech [ROOT.Char.Custom('FormOfAddressForLiege')] raczy udzielić mi swojej uwagi. Przychodzę, prosząc o możliwość wykazania się – mówi [shieldmaiden.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shieldmaiden'))]. Intryguje mnie tym, przez co przekręcam się na swoim tronie, a cały dwór przygląda się nam z uwagą.\\n\\n– Mimo że twoi $knight_culture_player_plural_no_tooltip_lowercase$ wcale nie są lepsi ode mnie, nie wolno mi zajmować miejsca w szeregu z innymi tarczownikami ani dowodzić twoimi wojskami. Chcę zmierzyć się w pojedynku z osobą, którą jest [challenged_knight.GetTitledFirstName], i w ten sposób pokazać ci, że potrafię walczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Very well, you may duel [challenged_knight.GetTitledFirstNameNoTooltip].",
+    "RUS": "Хорошо, вы и [challenged_knight.GetTitledFirstNameNoTooltip] можете сразиться.",
+    "POL": "Bardzo dobrze. Ty i [challenged_knight.GetTitledFirstNameNoTooltip] stoczycie pojedynek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.a.tt_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[challenged_knight.GetFirstNameNoTooltip] triumphs",
+    "RUS": "[challenged_knight.GetFirstNameNoTooltip] побеждает",
+    "POL": "[challenged_knight.GetFirstNameNoTooltip] triumfuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.a.tt_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[shieldmaiden.GetFirstNameNoTooltip] is victorious",
+    "RUS": "[shieldmaiden.GetFirstNameNoTooltip] одерживает верх",
+    "POL": "[shieldmaiden.GetFirstNameNoTooltip] zwycięża",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[challenged_knight.GetFirstNameNoTooltip]? Oh no, you shall fight #EMP me#!!",
+    "RUS": "[challenged_knight.GetFirstNameNoTooltip]? О нет, вы будете биться #EMP со мной#!!",
+    "POL": "[challenged_knight.GetFirstNameNoTooltip]? O nie, będziesz walczyć ze #EMP mną#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.b.tt_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "You defeat [shieldmaiden.GetFirstNameNoTooltip]",
+    "RUS": "[shieldmaiden.GetFirstNameNoTooltip] терпит поражение",
+    "POL": "[shieldmaiden.GetFirstNameNoTooltip] zostaje pokonan[Select_CString( shieldmaiden.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.b.tt_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[shieldmaiden.GetFirstNameNoTooltip] sends you reeling",
+    "RUS": "[shieldmaiden.GetFirstNameNoTooltip] сбивает вас с ног",
+    "POL": "[shieldmaiden.GetFirstNameNoTooltip] daje ci popalić",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "The asking alone is courage enough.",
+    "RUS": "Сама просьба уже служит доказательством отваги.",
+    "POL": "Już sama prośba jest wystarczającą odwagą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_accepted_shieldmaiden_without_question",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Every [courtier|E] & [vassal|E] who thinks [shieldmaiden.GetWomenMen] can't fight",
+    "RUS": "Все [Concept( 'courtier', 'придворные' )|E] и [Concept( 'vassal', 'вассалы' )|E], считающие, что [shieldmaiden.GetWomenMen] не могут сражаться",
+    "POL": "Każdy [courtier|El] i [vassal|El], który uważa, że [shieldmaiden.GetWomenMen] nie mogą walczyć",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0001.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "A [shieldmaiden.Custom('ShieldPersonFemaleMale')]? Laughable!",
+    "RUS": "[shieldmaiden.Custom('ShieldPersonFemaleMale')]? Смех да и только!",
+    "POL": "[shieldmaiden.Custom('ShieldPersonFemaleMale')|U]? Śmiechu warte!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0011.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] Blocks Escape",
+    "RUS": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] мешает побегу",
+    "POL": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] blokuje ucieczkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0011.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Picking my cell's lock proves to be easier than expected. Slipping past guard after guard is harder, but I manage it, creeping like a shadow away from my prison.\\n\\nIt's not till I can practically #EMP taste#! freedom that it's snatched away from me. Rounding a corner, [shieldmaiden.GetTitledFirstName], [imprisoner.GetFirstNamePossessive] [shieldmaiden.Custom('ShieldPersonFemaleMale')|L] melts out of the darkness.\\n\\nI don't even register [shieldmaiden.GetHerHis] club till it's swinging right for my face.",
+    "RUS": "Вскрыть замок моей камеры оказалось проще, чем ожидалось. Проскочить мимо стражи уже сложнее, но мне удалось незаметной тенью выбраться из своей темницы.\\n\\nЯ уже почти #EMP чувствую#! вкус свободы, когда ее жестоко отнимают у меня. Прямо за углом, сливаясь с тенями, стоит [shieldmaiden.GetTitledFirstName], [shieldmaiden.Custom('ShieldPersonFemaleMale')|Ll], что держит при себе [imprisoner.GetFirstName].\\n\\nЯ даже не успеваю заметить [shieldmaiden.GetHerHis] дубинку, когда она прилетает мне прямо в лицо.",
+    "POL": "Wyłamanie zamka w celi okazało się łatwiejsze niż się spodziewał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Prześlizgnięcie się obok strażnika za strażnikiem jest trudniejsze, ale udaje mi się, wymykam się jak cień z mojego więzienia.\\n\\nDopiero gdy mogę praktycznie #EMP posmakować#! wolności, zostaje mi ona wyrwana. Za rogiem, [shieldmaiden.Custom('ShieldPersonFemaleMale')|L] [shieldmaiden.GetTitledFirstName], któr[Select_CString(shieldmaiden.IsFemale, 'ą', 'ego' )] zatrudnił[Select_CString(imprisoner.IsFemale, 'a', '' )] [imprisoner.GetFirstName], wyłania się z ciemności.\\n\\nNawet nie zauważam [shieldmaiden.GetHerHis] pałki, dopóki nie wymachuje nią prosto w moją twarz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0011.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Wait, no, don— ARRGH!",
+    "RUS": "Стой, не.. ААА!",
+    "POL": "Czekaj, nie, nie… ARRGH!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0012.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "$fp1_shieldmaiden.0011.t$",
+    "RUS": "$fp1_shieldmaiden.0011.t$",
+    "POL": "$fp1_shieldmaiden.0011.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0012.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[prisoner.GetTitledFirstName] was returned to confinement in the small hours of this morning, having almost successfully escaped in the night.\\n\\nThe prisoner stole past most of the guards, it seems, before being noticed by [shieldmaiden.GetTitledFirstName], out for a restless late-night walk.\\n\\nMy [shieldmaiden.Custom('ShieldPersonFemaleMale')] proceeded to beat [prisoner.GetFirstNameNoTooltip] bloody, only eventually hauling [prisoner.GetHerHim] back to [prisoner.GetHerHis] jailers.",
+    "RUS": "[prisoner.GetTitledFirstName] [Select_CString(prisoner.IsFemale, 'была водворена', 'был водворен' )] обратно в свою камеру уже под утро, после почти успешного ночного побега.\\n\\n[Select_CString(prisoner.IsFemale, 'Узнице', 'Узнику' )], похоже, удалось прокрасться мимо большинства стражников, а потом [Select_CString(prisoner.IsFemale, 'ее', 'его' )] [Select_CString(shieldmaiden.IsFemale, 'заметила', 'заметил' )] [shieldmaiden.GetTitledFirstName], без устали [Select_CString(shieldmaiden.IsFemale, 'совершавшая', 'совершавший' )] свой ночной обход.\\n\\n[Select_CString(shieldmaiden.IsFemale, 'Моя', 'Мой' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] безжалостно [Select_CString(shieldmaiden.IsFemale, 'избила', 'избил' )] [prisoner.GetHerHis], после чего [prisoner.GetFirstNameNoTooltip] [Select_CString(prisoner.IsFemale, 'была передана', 'был передан' )] в руки тюремщиков.",
+    "POL": "[prisoner.GetTitledFirstName] trafił[Select_CString( prisoner.IsFemale, 'a', '' )] z powrotem do aresztu we wczesnych godzinach porannych, po tym jak w nocy udało się [prisoner.GetHerHim] uciec.\\n\\nWydaje się, że wię[Select_CString( prisoner.IsFemale, 'źniarka ominęła', 'zień ominął' )] większość strażników, zanim zauważył[Select_CString( shieldmaiden.IsFemale, 'a', '' )] [Select_CString( prisoner.IsFemale, 'ją', 'go' )] [shieldmaiden.GetTitledFirstName], któr[Select_CString( shieldmaiden.IsFemale, 'a wybrała', 'y wybrał' )] się na nocny spacer.\\n\\nM[Select_CString( shieldmaiden.IsFemale, 'oja', 'ój' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] zacz[Select_CString( shieldmaiden.IsFemale, 'ęła', 'ął' )] bić [Select_CString( shieldmaiden.IsFemale, 'ją', 'go' )] do nieprzytomności, a następnie [prisoner.GetFirstNameNoTooltip] został[Select_CString( prisoner.IsFemale, 'a przyprowadzona', ' przyprowadzony' )] do strażników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0012.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Excellent work, [shieldmaiden.GetFirstNameNoTooltip].",
+    "RUS": "Отличная работа, [shieldmaiden.GetFirstNameNoTooltip].",
+    "POL": "Świetna robota, [shieldmaiden.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0012.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Why would you beat [prisoner.GetHerHim] so hard?!",
+    "RUS": "Зачем было избивать [prisoner.GetHerHis] так сильно?!",
+    "POL": "Dlaczego tak mocno [Select_CString( prisoner.IsFemale, 'ją', 'go' )] bijesz?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')]",
+    "RUS": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]",
+    "POL": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.desc.assassin",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "My assassin failed to kill [target.GetTitledFirstName]! Apparently [target.GetFirstNamePossessiveNoTooltip] [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetTitledFirstName] intervened, appearing seconds before the murder would have taken place and dispatching my hired killer.",
+    "RUS": "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'избежала', 'избежал' )] смерти от рук моего убийцы! Очевидно, [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [shieldmaiden.GetTitledFirstName], что [target.GetFirstNameNoTooltip] держит при себе, [Select_CString(shieldmaiden.IsFemale, 'вмешалась', 'вмешался' )], появившись за мгновения до предполагаемого убийства и устранив моего наемного убийцу.",
+    "POL": "[target.GetTitledFirstName] unikn[Select_CString(target.IsFemale, 'ęła', 'ął' )] śmierci z rąk mojego zabójcy! Najwyraźniej [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetTitledFirstName], któr[Select_CString(shieldmaiden.IsFemale, 'ą', 'ego' )] mianował[Select_CString(target.IsFemale, 'a', '' )] [target.GetFirstNameNoTooltip] zainterweniował[Select_CString(shieldmaiden.IsFemale, 'a', '' )], pojawiając się na kilka sekund przed zamachem i pozbywając się mojego najemnego zabójcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.desc.thugs",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "The thugs I hired to kill [target.GetTitledFirstName] have failed in their mission! Despite their viciousness, [target.GetFirstNamePossessiveNoTooltip] [shieldmaiden.Custom('ShieldPersonFemaleMale')] was able to keep [target.GetHerHim] from harm long enough that [target.GetHerHis] guards were able to rally and dispatch the remaining brigands.",
+    "RUS": "Нанятые мной убийцы, от рук которых [Select_CString(target.IsFemale, 'должна была', 'должен был' )] погибнуть [target.GetTitledFirstName], провалили задание! Напали они яростно, но [target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'оказалась не одна', 'оказался не один' )] — [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [Select_CString(shieldmaiden.IsFemale, 'защищала', 'защищал' )] [target.GetHerHis] долго и яростно, а подоспевшая стража добила оставшихся разбойников.",
+    "POL": "Wynajęci przeze mnie bandyci, z rąk których powin[Select_CString(target.IsFemale, 'na była', 'ien był' )] zginąć [target.GetTitledFirstName], nie wykonali misji! Pomimo ich okrucieństwa, [shieldmaiden.Custom('ShieldPersonFemaleMale')], któr[Select_CString(shieldmaiden.IsFemale, 'ą', 'ego' )] mianował[Select_CString(target.IsFemale, 'a', '' )] [target.GetFirstNameNoTooltip] był[Select_CString(shieldmaiden.IsFemale, 'a', '' )] w stanie uchronić [Select_CString(target.IsFemale, 'ją', 'go' )] przed krzywdą na tyle długo, że [target.GetHerHis] strażnicy byli w stanie zebrać się i rozprawić z pozostałymi bandytami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.desc.mob",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "While the mob I incited to kill [target.GetTitledFirstName] managed to drag [target.GetHerHim] off [target.GetHerHis] horse, they were unable to finish the job before [target.GetFirstNamePossessiveNoTooltip] [shieldmaiden.Custom('ShieldPersonFemaleMale')] intervened. [shieldmaiden.GetSheHe|U] mercilessly dispatched the peasants within striking range of [target.GetFirstNameNoTooltip] and scared the others into fleeing.",
+    "RUS": "Толпа, зажженная моими словами, отправилась за жертвой, и [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'была стянута', 'был стянут' )] с лошади, но не [Select_CString(target.IsFemale, 'погибла', 'погиб' )]. В последний момент [Select_CString(shieldmaiden.IsFemale, 'вмешалась', 'вмешался' )] [target.GetHerHis] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]. [shieldmaiden.GetSheHe|U] жестоко [Select_CString(shieldmaiden.IsFemale, 'расправилась', 'расправился' )] с крестьянами, имевшими глупость подойти слишком близко, а остальных [Select_CString(shieldmaiden.IsFemale, 'обратила', 'обратил' )] в бегство.",
+    "POL": "Chociaż podburzony przeze mnie tłum ruszył za ofiarą i [target.GetTitledFirstName] został[Select_CString(target.IsFemale, 'a ściągnięta', ' ściągnięty' )] z konia, nie udało im się dokończyć dzieła. W ostatniej chwili zainterweniował[Select_CString(shieldmaiden.IsFemale, 'a', '' )] [target.GetHerHis] [shieldmaiden.Custom('ShieldPersonFemaleMale')], bezlitośnie pozbywając się chłopów, którzy mieli czelność zbliżyć się zbytnio, a resztę zmusił[Select_CString(shieldmaiden.IsFemale, 'a', '' )] do ucieczki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.desc.lured_into_forest",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I had thought my plan to get [target.GetTitledFirstName] lost in the forest had gone perfectly when nightfall came without a sign of the wayward [target.Custom('GirlBoy')].\\n\\nUnfortunately, right as I was about to go to bed I got news that [target.GetFirstNamePossessiveNoTooltip] [shieldmaiden.Custom('ShieldPersonFemaleMale')] emerged from the woods with the [target.Custom('GirlBoy')] in tow. Apparently [shieldmaiden.GetSheHe] took it upon [shieldmaiden.GetHerselfHimself] to track [target.GetFirstNamePossessiveNoTooltip] trail through the woods and found him just before the hungry animals did.",
+    "RUS": "Мне казалось, что план безупречен и [target.GetTitledFirstName] вот-вот сгинет в лесной чаще — ведь, когда наступила ночь, [target.Custom('GirlBoy')] так и не [Select_CString(target.IsFemale, 'появилась', 'появился' )].\\n\\nК несчастью, когда ко мне уже подбирались первые сны, пришла весть, что из лесу [Select_CString(shieldmaiden.IsFemale, 'вышла', 'вышел' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l], а с [Select_CString(shieldmaiden.IsFemale, 'ней', 'ним' )] [target.Custom('GirlBoy')]. Судя по всему, [shieldmaiden.GetSheHe] [Select_CString(shieldmaiden.IsFemale, 'решила', 'решил' )] лично разыскать след ребенка в лесах и [Select_CString(shieldmaiden.IsFemale, 'нашла', 'нашел' )] прежде, чем [target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'стала', 'стал' )] добычей голодных зверей.",
+    "POL": "Myślał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )], że mój plan był doskonały i [target.GetTitledFirstName] znikn[Select_CString(target.IsFemale, 'ęła', 'ął' )] w lesie, ponieważ kiedy zapadł zmrok i nie było śladu po zabłąkan[Select_CString(target.IsFemale, 'ej dziewczynce', 'ym chłopcu' )].\\n\\nNiestety, gdy już miałem iść spać, dotarła do mnie wiadomość, że [shieldmaiden.Custom('ShieldPersonFemaleMale')] wyłonił się z lasu wraz z [Select_CString(target.IsFemale, 'dziewczynką', 'chłopcem' )]. Najwyraźniej postanowił[Select_CString(shieldmaiden.IsFemale, 'a', '' )] osobiście poszukać śladów dziecka w lesie i znalazł[Select_CString(shieldmaiden.IsFemale, 'a', '' )] je, zanim [target.GetFirstNameNoTooltip] padł[Select_CString(target.IsFemale, 'a', '' )] ofiarą wygłodniałych zwierząt.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.desc.child_pushed",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "The silly little [target.Custom('GirlBoy')] who would be [target.GetTitleAsNameNoTooltip] was stupid enough to fall into my trap! [target.GetFirstName] climbed up to the balcony edge just as planned, and my agent pushed [target.GetHerHim] off into the open air...\\n\\n..But what should have been a lethal fall wasn't, when [target.GetSheHe] was caught by [target.GetHerHis] [shieldmaiden.Custom('ShieldPersonFemaleMale')] just before hitting the ground. [target.GetSheHe|U] lives to see another day, and is unlikely to fall for that ploy again.",
+    "RUS": "Глупая мелюзга, для которой [target.GetTitleAsNameNoTooltip|l] — непомерно огромный титул, угодила в мою ловушку! Как и было задумано, [target.GetFirstName] [Select_CString(target.IsFemale, 'забралась', 'забрался' )] на край балкона, и мой посланник как следует [target.GetHerHis] подтолкнул...\\n\\n...Казалось бы, это верная смерть, но нет! У самой земли [target.GetHerHis] [Select_CString(shieldmaiden.IsFemale, 'поймала', 'поймал' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]. [target.GetSheHe|U] чувствует себя превосходно, и вряд ли попадется на подобную уловку второй раз.",
+    "POL": "[Select_CString(target.IsFemale, 'Durna mała dziewczynka, którą', 'Durny mały chłopiec, którym' )] jest [target.GetTitleAsNameNoTooltip], był[Select_CString(target.IsFemale, 'a', '' )] na tyle głupi[Select_CString(target.IsFemale, 'a', '' )], by wpaść w moją pułapkę! [target.GetFirstName] wspi[Select_CString(target.IsFemale, 'ęła', 'ął' )] się na krawędź balkonu zgodnie z planem, a mój wspólnik zepchnął [Select_CString(target.IsFemale, 'ją', 'go' )] na zewnątrz…\\n\\n…Ale to, co powinno skończyć śmiertelnym upadkiem, skończyło się inaczej, gdyż został[Select_CString(target.IsFemale, 'a złapana', ' złapany' )] przez [Select_CString(shieldmaiden.IsFemale, 'swoją tarczowniczkę', 'swojego tarczownika' )] tuż przed uderzeniem w ziemię. Udało [target.GetHerHim] się przeżyć kolejny dzień i jest mało prawdopodobne, by ponownie dał[Select_CString(target.IsFemale, 'a', '' )] się nabrać na tę sztuczkę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.shieldmaiden_dies",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\nAt the very least, [shieldmaiden.GetFirstNameNoTooltip] won't trouble me again, as [shieldmaiden.GetSheHe] has died from [shieldmaiden.GetHerHis] wounds.",
+    "RUS": "\\n\\nНо, по крайней мере, [shieldmaiden.GetFirstNameNoTooltip] мне больше не помешает, поскольку [shieldmaiden.GetSheHe] [Select_CString(shieldmaiden.IsFemale, 'скончалась', 'скончался' )] от полученных ран.",
+    "POL": "\\n\\nPrzynajmniej [shieldmaiden.GetFirstNameNoTooltip] nie będzie mi już dłużej dokuczać, gdyż zmarł[Select_CString( shieldmaiden.IsFemale, 'a', '' )] na skutek odniesionych ran.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "It's over...",
+    "RUS": "Всё кончено...",
+    "POL": "To koniec…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0021.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "... It's not over till I say it's over!",
+    "RUS": "...Это будет кончено, когда я так решу!",
+    "POL": "…Nie będzie końca, dopóki ja nie powiem, że to koniec!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')]",
+    "RUS": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]",
+    "POL": "$murder_save_header$ [shieldmaiden.Custom('ShieldPersonFemaleMale')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.assassin",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I almost #EMP died#! today! Had [shieldmaiden.GetFirstName] not noticed something amiss and followed me to my quarters, I'd be a corpse by now.\\n\\nThe first thing I heard of the assassin was [shieldmaiden.GetFirstNameNoTooltip] bodily tackling someone to the ground immediately behind me, and then it was all a blur of knives and fists till the assailant lay dead.",
+    "RUS": "Меня чуть #EMP не убили#! сегодня! Если бы [shieldmaiden.GetFirstName] не [Select_CString(shieldmaiden.IsFemale, 'заподозрила', 'заподозрил' )] неладное и не [Select_CString(shieldmaiden.IsFemale, 'проследовала', 'проследовал' )] за мной в мои покои, меня бы уже не было в живых.\\n\\nМне удалось заметить убийцу только после того, как [shieldmaiden.GetFirstNameNoTooltip] всем телом [Select_CString(shieldmaiden.IsFemale, 'бросилась', 'бросился' )] на него за моей спиной, а затем, после стремительной и яростной схватки, убийца упал мертвым.",
+    "POL": "Prawie dziś #EMP umarł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]#!! Gdyby [shieldmaiden.GetFirstName] nie zauważył[Select_CString( shieldmaiden.IsFemale, 'a', '' )], że coś jest nie tak i nie posz[Select_CString( shieldmaiden.IsFemale, 'ła', 'edł' )] za mną do mojej komnaty, był[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym już trupem.\\n\\nDowiedział[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się o istnieniu zabójcy dopiero wtedy, gdy [shieldmaiden.GetFirstNameNoTooltip] za moimi plecami rzucił[Select_CString( shieldmaiden.IsFemale, 'a', '' )] się na niego. Później zobaczył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] wirujące ostrze noża i napastnika leżącego na ziemi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.assassin.shieldmaiden_dies",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\nSadly, [shieldmaiden.GetFirstNameNoTooltip] paid the ultimate price. Though the assassin is dead, [shieldmaiden.GetHerHis] wounds proved fatal.",
+    "RUS": "\\n\\nУвы, [shieldmaiden.GetFirstNameNoTooltip] дорого [Select_CString(shieldmaiden.IsFemale, 'заплатила', 'заплатил' )] за победу. Убийца мертв, но и [shieldmaiden.GetHerHis] раны оказались смертельными.",
+    "POL": "\\n\\nNiestety, [shieldmaiden.GetFirstNameNoTooltip] zapłacił[Select_CString( shieldmaiden.IsFemale, 'a', '' )] za to najwyższą cenę. Chociaż zabójca nie żyje, [shieldmaiden.GetHerHis] rany okazały się śmiertelne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.thugs",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I am traveling with my retinue when a shout comes from a copse of trees. ",
+    "RUS": "Я скачу в сопровождении свиты, когда из-за деревьев внезапно раздается истошное: «В атаку! [ROOT.Char.GetTitleTierName] не 'должна', 'должен' уйти!» Засада!\\n\\nЭто не простые разбойники, охочие до золота, это наемные бандиты, и им нужна моя голова! Но [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [shieldmaiden.GetFirstNameNoTooltip] бросается между мной и кровожадным сбродом!\\n\\n[shieldmaiden.GetFirstNameNoTooltip|U] прикрывает меня, отбиваясь, а подоспевшая охрана разбирается с уцелевшими негодяями.",
+    "POL": "Podróżuję wraz z moim orszakiem, gdy z zagajnika drzew dobiega krzyk. „Nadjeżdża [ROOT.Char.GetTitleTierName|l]! Atak! Na [Select_CString(ROOT.Char.IsFemale, 'nią', 'niego' )]!” Zasadzka!\\n\\nTo nie są zwykli bandyci żądni mojego złota, ale bandyci żądni mojego życia! [Select_CString(shieldmaiden.IsFemale, 'Moja', 'Mój' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetFirstNameNoTooltip] rzuca się do obrony mojej osoby, wbiegając pomiędzy krwiożerczych bandytów a mnie.\\n\\n[shieldmaiden.GetFirstNameNoTooltip|U] rozpoczyna bojowy odwrót, podczas gdy moi wrogowie nacierają na naszą pozycję wymachując ostrzami. Wkrótce jednak inni strażnicy dołączają do obrony i rozprawiają się z pozostałymi napastnikami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.thugs.shieldmaiden_dies",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "It is only when the fighting has subsided that [shieldmaiden.GetSheHe] slumps to the ground, and I discover [shieldmaiden.GetHerHis] deep wounds. [shieldmaiden.GetSheHe] truly protected me until the very last...",
+    "RUS": "Лишь когда бой заканчивается, [shieldmaiden.GetSheHe] внезапно оседает на землю, и я вижу [shieldmaiden.GetHerHis] глубокие раны. [shieldmaiden.GetSheHe] действительно [Select_CString(shieldmaiden.IsFemale, 'защищала', 'защищал' )] меня до конца...",
+    "POL": "Dopiero gdy walka dobiegnie końca, osuwa się na ziemię, a ja odkrywam [shieldmaiden.GetHerHis] głębokie rany. Naprawdę chronił[Select_CString( shieldmaiden.IsFemale, 'a', '' )] mnie do samego końca…\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.mob",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I am riding through the streets of [home_province.GetName] when a mob of screaming and shouting peasants descends on my retinue. Before I realize what is happening, the commoners tear me from my horse and start beating me!\\n\\nMy [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetFirstName] rushes to my defense with [shieldmaiden.Custom('signature_weapon')] in hand, mercilessly [shieldmaiden.Custom('SignatureWeaponWoundVerb1PresentParticiple')] at the peasants who were striking me and, perhaps inglamorously, protecting me from further harm as I get buried underneath their corpses.",
+    "RUS": "Я скачу по улицам, и кажется, что [home_province.GetName] в полном покое, но вдруг на меня и мою свиту обрушивается орущая толпа крестьян. Не успеваю я понять, что происходит, как простолюдины выдирают меня из седла и начинают бить. \\n\\n[Select_CString(shieldmaiden.IsFemale, 'Моя', 'Мой' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [shieldmaiden.GetFirstName] бросается на мою защиту, [shieldmaiden.Custom('signature_weapon')] в [shieldmaiden.GetHerHis] руке беспощадно [shieldmaiden.Custom('SignatureWeaponWoundVerb1PresentParticiple')], и уцелевшие крестьяне начинают разбегаться. Меня же [shieldmaiden.GetSheHe] прикрывает от толпы не самым приятным, но действенным способом — заваливая трупами.",
+    "POL": "Jadę ulicami [home_province.GetAdjective], gdy wtem tłum krzyczących i wrzeszczących chłopów rzuca się na mój orszak. Nie wiem nawet, co się dzieje: pospólstwo zrzuca mnie z konia i zaczyna bić!\\n\\n[shieldmaiden.Custom('ShieldPersonFemaleMale')|U] [shieldmaiden.GetFirstName] rzuca się do obrony, a [shieldmaiden.Custom('signature_weapon')] kołysze się miarowo w ręku tej bohaterskiej osoby, bezlitośnie [shieldmaiden.Custom('SignatureWeaponWoundVerb1PresentParticiple')] chłopów, którzy mnie atakują. Być może w niezbyt przyjemny sposób chroni mnie też przed dalszą krzywdą, grzebiąc moje ciało pod ich ciałami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.mob.shieldmaiden_lives",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\nAfter the sounds of fighting cease [shieldmaiden.GetFirstNameNoTooltip] rolls the bodies off of me and helps me to my feet. Apart from us the street is now deserted, all of the conspirators dead or fled.",
+    "RUS": "\\n\\nКогда звуки боя стихают, [shieldmaiden.GetFirstNameNoTooltip] сбрасывает с меня тела и помогает встать. Кроме нас на улице никого нет, все заговорщики разбежались или погибли.",
+    "POL": "\\n\\nPo ustaniu odgłosów walki [shieldmaiden.GetFirstNameNoTooltip] zrzuca leżące na mnie ciała zabójców i pomaga mi stanąć na nogi. Oprócz nas ulica jest teraz opustoszała, wszyscy spiskowcy nie żyją lub uciekli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.mob.shieldmaiden_dies",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\nBy the time I extract myself from the corpse-pile, the street is deserted except for the bodies of the fallen — [shieldmaiden.GetFirstNameNoTooltip] among them.",
+    "RUS": "\\n\\nКогда я выбираюсь из кучи тел, на улице остаются только мертвецы. Среди них и [shieldmaiden.GetFirstNameNoTooltip].",
+    "POL": "\\n\\n Kiedy wydostaję się ze stosu trupów, ulica jest pusta, nie licząc ciał poległych, wśród których jest [shieldmaiden.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.lured_into_forest",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I was playing hide-and-seek with some courtiers in the woods when I realize it has been a very long time since I have heard anyone looking for me. Too long.\\n\\nI call out, but hear nothing. I've been abandoned... I try to find my way home, but I do not know which way is which, and it gets dark fast.\\n\\nSoon I can hear the beasts moving among the trees, but before they can reach me my [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetFirstName] is there, out of breath and brandishing a flaming torch. The fire seems to deter the beasts, who keep their distance as [shieldmaiden.GetSheHe] pants ",
+    "RUS": "Мы с придворными играем в прятки в лесу, и вдруг я понимаю, что слишком давно не слышу их голосов. Почему не ищут?\\n\\nЯ кричу, но в ответ тишина. Меня бросили... Пытаюсь найти дорогу домой, но не понимаю, в какую сторону идти. Быстро темнеет.\\n\\nВскоре я слышу звериную поступь за деревьями, но прежде, чем хищникам удается до меня добраться, появляется [Select_CString(shieldmaiden.IsFemale, 'запыхавшаяся', 'запыхавшийся' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l] [shieldmaiden.GetFirstName] с пылающим факелом в руке. Огонь распугивает зверей, и те расходятся, пока [shieldmaiden.GetSheHe], тяжело дыша, выпаливает: «По... пойдемте домой... мой... сюзерен...»",
+    "POL": "Bawił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się w lesie ze swoimi dworzanami w chowanego, kiedy zdał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] sobie sprawę, że od bardzo dawna nie słyszałem, aby ktoś mnie szukał. Upłynęło już zbyt dużo czasu.\\n\\nWołam, ale nic nie słyszę. Został[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] porzucon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]… Próbuję znaleźć drogę do domu, ale nie wiem, która z nich jest najkrótsza, a dzień bardzo szybko zmierza ku końcowi.\\n\\nWkrótce słyszę poruszające się wśród drzew bestie, ale zanim zdążą mnie dosięgnąć, pojawia się m[Select_CString( shieldmaiden.IsFemale, 'oja', 'ój' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')] [shieldmaiden.GetFirstName], zdyszan[Select_CString( shieldmaiden.IsFemale, 'a', 'y' )] i z płonącą pochodnią w dłoni. Ogień wydaje się odstraszać bestie, które trzymają się z daleka, a [shieldmaiden.GetSheHe] mówi: „ Chodźmy… do domu… m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.desc.child_pushed",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\n#EMP WHUMP#!\\n\\nI have fallen into the arms of my [shieldmaiden.Custom('ShieldPersonFemaleMale')], [shieldmaiden.GetFirstNameNoTooltip]. ",
+    "RUS": "\\n\\n#EMP БУХ!#!\\n\\nПадаю прямо кому-то в руки. «Глупое дитя!» — кричит [Select_CString(shieldmaiden.IsFemale, 'моя', 'мой' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')|l], [shieldmaiden.GetFirstNameNoTooltip]. — «Не прибеги я вовремя... ух, ладно. Давай найдем безопасное место».",
+    "POL": "\\n\\n#EMP PACH#!\\n\\n[Select_CString(shieldmaiden.IsFemale, 'Moja', 'Mój' )] [shieldmaiden.Custom('ShieldPersonFemaleMale')], [shieldmaiden.GetFirstNameNoTooltip] bierze mnie w ramiona. „Głupie dziecko! Gdybym nie dotarł[Select_CString(shieldmaiden.IsFemale, 'a', '' )] do ciebie na czas… Nieważne. Zabierzmy cię w bezpieczne miejsce”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.owner_discovered",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "\\n\\nOnly one person could be possibly be responsible for this attack: [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "RUS": "\\n\\nТолько один человек мог спланировать эту атаку — [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "POL": "\\n\\nTylko jedna osoba może być odpowiedzialna za ten atak: [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Who would want to have #EMP me#! killed?",
+    "RUS": "Кто мог желать #EMP мне#! смерти?",
+    "POL": "Kto chciałby #EMP mnie#! zabić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0022.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[owner.GetSheHe|U] will suffer for this!",
+    "RUS": "[owner.GetSheHe|U] за это поплатится!",
+    "POL": "Będzie za to cierpieć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] Gains Experience",
+    "RUS": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] набирается опыта",
+    "POL": "[shieldmaiden.Custom('ShieldPersonFemaleMale')] zyskuje doświadczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.desc.root",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Between wars, it's important to keep your skills sharp.\\n\\nThis policy is what finds me down at the training field, brutally beating, brawling, and berating my soldiers in my third mock battle of the day.\\n\\nThey moan when I call them back together for the fourth. Let them moan all they like: I have training to do.",
+    "RUS": "Между войнами важно поддерживать свои навыки на должном уровне.\\n\\nИменно в силу этого образа мысли я вновь яростно бью, колочу и ругаю своих воинов уже в третьем по счету учебном бою за сегодня.\\n\\nОни издают протяжный стон, когда я приказываю им собраться для четвертого боя. Пусть стонут сколько хотят: мне нужна практика.",
+    "POL": "W okresie międzywojennym ważne jest, aby utrzymywać dobrze rozwinięte umiejętności.\\n\\n\\nTo właśnie ta polityka sprawia, że jestem na poligonie, brutalnie bijąc, awanturując się i karcąc moich żołnierzy w trzeciej pozorowanej bitwie tego dnia.\\n\\nJęczą, gdy zwołuję ich z powrotem na czwartą. Niech sobie jęczą, ile chcą: mam trening do zrobienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.desc.courtier",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Watching [shieldmaiden.GetTitledFirstName] training is always an experience. [shieldmaiden.GetSheHe|U] fights with such ferocity, such fury, that it's easy to forget [shieldmaiden.GetSheHe] is only mock-skirmishing.\\n\\nBroken equipment and battered soldiers litter the field. A lull in the action sends a chorus of relieved moans up from [shieldmaiden.GetHerHis] weakened sparring partners.\\n\\nBut, almost like that, the break is over, and [shieldmaiden.GetFirstNameNoTooltip] is back at it.",
+    "RUS": "Смотреть, как тренируется [shieldmaiden.GetTitledFirstName], — это всегда новый опыт. [shieldmaiden.GetSheHe|U] сражается с такой яростью, что можно забыть о том, что это лишь учебный бой.\\n\\nПо всему полю валяется сломанное снаряжение и побитые воины. Перерыв в сражении порождает хоровой вздох облегчения от [shieldmaiden.GetHerHis] ослабевших партнеров по бою.\\n\\nА затем перерыв заканчивается, и [shieldmaiden.GetFirstNameNoTooltip] как ни в чем не бывало продолжает бой.",
+    "POL": "Oglądanie, jak [shieldmaiden.GetTitledFirstName] ćwiczy, zawsze jest wielkim przeżyciem. Walczy z taką zaciekłością, z taką furią, że łatwo zapomnieć, że to tylko pozorowana potyczka.\\n\\nPoobijany sprzęt i posiniaczeni żołnierze zaśmiecają pole bitwy. Krótka przerwa w akcji wywołuje chór jęków ulgi u [shieldmaiden.GetHerHis] osłabionych partnerów treningowych.\\n\\nPo chwili kończy się przerwa i [shieldmaiden.GetFirstNameNoTooltip] rzuca się w wir walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.a.root",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "My shield wall is unbreakable!",
+    "RUS": "Моя стена щитов неприступна!",
+    "POL": "Mój mur tarcz jest niezniszczalny!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.a.courtier",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "See how [shieldmaiden.GetSheHe] commands that shield wall!",
+    "RUS": "Видите, как [shieldmaiden.GetSheHe] командует этой стеной щитов!",
+    "POL": "Zobacz, jak dowodzi tym murem tarcz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.b.root",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I swing as hard as [shieldmaiden.GetFaith.WarGodName]!",
+    "RUS": "Я бью так же сильно, как [shieldmaiden.GetFaith.WarGodName]!",
+    "POL": "Uderzam tak mocno jak [shieldmaiden.GetFaith.WarGodName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.b.courtier",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "Look at [shieldmaiden.GetHerHim] swing [shieldmaiden.GetHerHis] blade!",
+    "RUS": "Только посмотрите на удары [shieldmaiden.GetHerHis] клинка!",
+    "POL": "Patrzcie, jak wymachuje swoim ostrzem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.c.root",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "I see every weakness in my foes!",
+    "RUS": "Я вижу все слабости моих врагов!",
+    "POL": "Widzę każdą słabość w swoich wrogach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_shieldmaiden.0032.c.courtier",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_shieldmaiden_events_l_belarusian.json",
+    "ENG": "[shieldmaiden.GetSheHe|U] always manages to find an opening!",
+    "RUS": "[shieldmaiden.GetSheHe|U] всегда находит слабое место!",
+    "POL": "Zawsze znajdzie słaby punkt!",
+    "BEL": ""
+  }
+]

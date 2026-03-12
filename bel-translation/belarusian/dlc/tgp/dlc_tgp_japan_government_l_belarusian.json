@@ -1,0 +1,1322 @@
+[
+  {
+    "KEY": "japan_personal_relation_ceremonial_liege_same",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_liege|E]",
+    "RUS": "[ceremonial_liege|E]",
+    "POL": "[ceremonial_liege|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_personal_relation_ceremonial_liege_other",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[liege.GetShortUINamePossessive] [ceremonial_liege|E]",
+    "RUS": "[ceremonial_liege|E] персонажа [liege.GetShortUIName]",
+    "POL": "[ceremonial_liege|E] postaci znanej jako [liege.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_personal_relation_ceremonial_regent_same",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_regent|E]",
+    "RUS": "[ceremonial_regent|E]",
+    "POL": "[ceremonial_regent|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_personal_relation_ceremonial_regent_other",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[vassal.GetShortUINamePossessive] [ceremonial_regent|E]",
+    "RUS": "[ceremonial_regent|E] персонажа [vassal.GetShortUIName]",
+    "POL": "[ceremonial_regent|E] postaci znanej jako [vassal.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_government",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Ritsuryō",
+    "RUS": "Рицурё",
+    "POL": "Ritsuryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_government_adjective",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$",
+    "RUS": "Рицурёск",
+    "POL": "$japan_administrative_government$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_government_with_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@government_type_ritsuryo! $japan_administrative_government$",
+    "RUS": "@government_type_ritsuryo! $japan_administrative_government$",
+    "POL": "@government_type_ritsuryo! $japan_administrative_government$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_government_vassals_label",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$ [obligations|E] are based on [GetPlayer.Custom('GetProvinceAdministrationConcept')]",
+    "RUS": "[Concept('obligations', 'Обязательства')|E] при рицурё определяет [GetPlayer.Custom('GetProvinceAdministrationConcept')]",
+    "POL": "[obligations|E] ritsuryō zależą od następującego rodzaju administracji: [GetPlayer.Custom('GetProvinceAdministrationConcept')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_government_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "\\n$japan_administrative_government$ is a type of [administrative|E] [government|E] unique to Japan.\\n\\nIt is a centralized [government_bureaucratic_type|E] [government_form|E] where [characters|E] are appointed as [governors|E] on behalf of their [liege|E], have access to [influence|E], and [noble_family|E] [house_head_heads|E] have a [family_manor|E] and [house_aspiration|E].\\n\\nA [kampaku|E] governs the [realm|E] on behalf of the [japanese_emperor|E], and may be elected from among [noble_family|E] [house_head_heads|E], or imposed by [faction|E] demand.\\n\\n$japan_administrative_government$ [vassals|E] generally govern only a single [county|E], but may reject the centralized system and become local [soryo|E] lords to build their own power, though this is usually considered a [criminal|E] act.\\n\\n$japan_administrative_government$ $game_concept_house_heads$ may create and join [house_blocs|E] within the [realm|E], which will support the [leading_house|E] in becoming $game_concept_kampaku$.\\n\\n$japan_government_domain_limit_help$\\n\\n#F The $japan_administrative_government$ system refers to the centralized administrative government of Japan, inspired by the Chinese Confucian bureaucracy.#!",
+    "RUS": "\\nРицурё — это уникальное для Японии [Concept('administrative', 'бюрократическое')|E] [Concept('government', 'правительство')|E].\\n\\nЭто [Concept('government_bureaucratic_type', 'бюрократическая')|E] [Concept('government_form', 'форма правления')|E], в которой [Concept('characters', 'персонажи')|E] назначаются [Concept('governors', 'губернаторами')|E] от лица своего [Concept('liege', 'сюзерена')|E], имеют доступ к [Concept('influence', 'влиянию')|E], а у [Concept('house_head_heads', 'глав')|E] [Concept('noble_family', 'благородных семейств')|E] есть доступ к [Concept('family_manor', 'семейной усадьбе')|E] и [Concept('house_aspiration', 'устремлению дома')|E].\\n\\n[Concept('kampaku', 'Кампаку')|E] управляет [Concept('realm', 'державой')|E] от имени [Concept('japanese_emperor', 'императора')|E]. Регента выбирают из числа [Concept('house_head_heads', 'глав')|E] [Concept('noble_family', 'благородных семейств')|E] и могут установить по требованию [Concept('faction', 'фракции')|E].\\n\\n[Concept('vassals', 'Вассалы')|E]-рицурё обычно управляют одним [Concept('county', 'графством')|E], но могут отказаться от централизованной системы и стать лордами-[Concept('soryo', 'сорё')|E], что дает им возможность укреплять свои силы без оглядки на центральное правительство. Впрочем, это обычно считается [Concept('criminal', 'преступлением')|E].\\n\\nГлавы домов рицурё могут создавать [Concept('house_bloc', 'блоки домов')|E] и вступать в существующие блоки в пределах [Concept('realm', 'державы')|E]. Эти блоки поддерживают [Concept('leading_house', 'основной дом')|E] в стремлении стать кампаку.\\n\\n$japan_government_domain_limit_help$\\n\\n#F Системой рицурё называют централизованное бюрократическое правительство Японии, созданное по образу китайской конфуцианской бюрократии.#!",
+    "POL": "\\n$japan_administrative_government$ to rodzaj [Concept('government', 'rządu')|E] [Concept('administrative', 'administracyjnego')|E] charakterystyczny dla Japonii.\\n\\nTo scentralizowana [Concept('government_bureaucratic_type', 'biurokratyczna')|E] [government_form|El], w ramach której [characters|El] piastują stanowiska [Concept('governors', 'gubernatorów')|E] w imieniu swojego [Concept('liege', 'seniora')|E] i mają dostęp do [Concept('influence', 'wpływu')|E], a [house_head_heads|El] [Concept('noble_family', 'rodzin szlacheckich')|E] mają [Concept('family_manor', 'rodzinną rezydencję')|E] i [Concept('house_aspiration', 'aspirację rodu')|E].\\n\\n[kampaku|E] zarządza [Concept('realm', 'państwem')|E] w imieniu [Concept('japanese_emperor', 'cesarza japońskiego')|E]. Może zostać wybrany spośród [Concept('house_head_heads', 'głów')|E] [Concept('noble_family', 'rodzin szlacheckich')|E] lub narzucony na skutek żądania [Concept('faction', 'frakcji')|E].\\n\\n[vassals|E] ritsuryō zasadniczo zarządzają tylko jednym [Concept('county', 'hrabstwem')|E], ale mogą odrzucić scentralizowany system, by zostać miejscowymi władcami [soryo|El] i budować własne rządy. Zwykle jednak uważane jest to za działanie [Concept('criminal', 'przestępcze')|E].\\n\\n$game_concept_house_heads$ w rządzie ritsuryō mogą tworzyć w [Concept('realm', 'państwie')|E] [house_blocs|El] i do nich dołączać. Będą one wspierać [leading_house|El] w dążeniu do uzyskania statusu kampaku.\\n\\n$japan_government_domain_limit_help$\\n\\n#F System rządów ritsuryō odwołuje się do scentralizowanych rządów administracyjnych Japonii, inspirowanych chińską biurokracją konfucjańską.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_government",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Sōryō",
+    "RUS": "Сорё",
+    "POL": "Sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_government_adjective",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_feudal_government$",
+    "RUS": "Сорёск",
+    "POL": "$japan_feudal_government$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_government_with_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@government_type_soryo! $japan_feudal_government$",
+    "RUS": "@government_type_soryo! $japan_feudal_government$",
+    "POL": "@government_type_soryo! $japan_feudal_government$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_government_vassals_label",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_feudal_government$ [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]",
+    "RUS": "[Concept('obligations', 'Обязательства')|E] сорё определяются [Concept('vassal_contract', 'вассальным договором')|E] с каждым из [Concept('vassal', 'вассалов')|E]",
+    "POL": "[obligations|E] sōryō zależą od [Concept('vassal_contract', 'kontraktu wasalnego')|E] [Concept('vassal', 'wasala')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_government_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "\\n$japan_feudal_government$ is a type of [feudal|E] [government|E] unique to Japan.\\n\\n$japan_feudal_government$ represents local lords who have discarded or supplanted the reach of the central [ritsuryo|E] government and rule provinces as their own fiefs.\\n\\n$japan_feudal_government$ Characters do not use [influence|E], but [noble_family|E] [house_head_heads|E] retain their [family_manor|E] and [house_aspiration|E].\\n\\nThough they cannot be elected [ceremonial_regent|E], $japan_feudal_government$ [rulers|E] may take power via the #V $replace_ceremonial_regent_faction_name$#! [faction|E], and use the #V Formalize Shōgunate#! [decision|E].\\n\\n$japan_feudal_government$ $game_concept_ceremonial_regents$ govern the [realm|E] on behalf of the [japanese_emperor|E], inherit by $single_heir_succession_law$ [succession|E], and may be overthrown by [faction|E] demand.\\n\\n$japan_feudal_government$ $game_concept_house_heads$ may create and join [house_blocs|E] within the [realm|E].\\n\\n$japan_government_domain_limit_help$\\n\\n#F $japan_feudal_government$ refers to the early stages of Japanese feudalization beginning in the Heian-period, increasingly formalized under the Kamakura-period's first Shōgunate.#!",
+    "RUS": "\\n$japan_feudal_government$ — это уникальное для Японии [Concept('feudal', 'феодальное')|E] [Concept('government', 'правительство')|E].\\n\\nСорё — это местные правители, отринувшие централизованное правительство [Concept('ritsuryo', 'рицурё')|E] или заменившие его в угоду возможности управлять провинциями как собственными ленами.\\n\\nПерсонажи-сорё не имеют [Concept('influence', 'влияния')|E], но [Concept('house_head_heads', 'главы')|E] [Concept('noble_family', 'благородных семейств')|E] сохраняют [Concept('family_manor', 'семейные усадьбы')|E] и [Concept('house_aspiration', 'устремления дома')|E].\\n\\nХотя они не могут избираться на роль [Concept('ceremonial_regent', 'церемониального регента')|E], [Concept('rulers', 'правители')|E]-сорё могут захватить власть с помощью [Concept('faction', 'фракции')|E] за #V замену регента#!, а затем принять [Concept('decision', 'решение')|E] #V узаконить сёгунат#!.\\n\\nРегент-сорё правит [Concept('realm', 'державой')|E] от лица [Concept('japanese_emperor', 'японского императора')|E]. Этот титул наследуется через [Concept('succession', 'наследование')|E] «$single_heir_succession_law$», и регента можно свергнуть по требованию [Concept('faction', 'фракции')|E].\\n\\nГлавы домов сорё могут создавать [Concept('house_bloc', 'блоки домов')|E] и вступать в существующие блоки в пределах [Concept('realm', 'державы')|E].\\n\\n$japan_government_domain_limit_help$\\n\\n#F Сорё — это зарождение японского феодализма в период Хэйан. Эта система официально оформилась во время первого сёгуната Камакуры.#!",
+    "POL": "\\n$japan_feudal_government$ to rodzaj [Concept('government', 'rządu')|E] [Concept('feudal', 'feudalnego')|E] charakterystyczny dla Japonii.\\n\\nSystem sōryō reprezentuje lokalnych władców, którzy odrzucili lub zastąpili zasięg centralnego rządu [ritsuryo|El] i rządzą prowincjami jako własnymi lennami.\\n\\nPostacie w ramach rządów sōryō nie wykorzystują [Concept('influence', 'wpływu')|E], ale [house_head_heads|El] [Concept('noble_family', 'rodzin szlacheckich')|E] zachowują [Concept('family_manor', 'rodzinną rezydencję')|E] i [Concept('house_aspiration', 'aspirację rodu')|E].\\n\\nChoć w systemie sōryō [Concept('rulers', 'władców')|E] nie można wybrać na [Concept('ceremonial_regent', 'regenta panującego')|E], mogą oni przejąć władzę siłą, działając w ramach [Concept('faction', 'frakcji')|E] #V $replace_ceremonial_regent_faction_name$#!, i użyć [Concept('decision', 'decyzji')|E] „#V Sformalizuj szogunat#!”.\\n\\n$game_concept_ceremonial_regents$ w systemie sōryō rządzą [Concept('realm', 'państwem')|E] w imieniu [Concept('japanese_emperor', 'cesarza japońskiego')|E], dziedziczą zgodnie z [Concept('succession', 'sukcesyjnym')|E] prawem „$single_heir_succession_law$” i mogą zostać obaleni na żądanie [Concept('faction', 'frakcji')|E].\\n\\n$game_concept_house_heads$ w rządzie sōryō mogą tworzyć w [Concept('realm', 'państwie')|E] [house_blocs|El] i do nich dołączać.\\n\\n$japan_government_domain_limit_help$\\n\\n#F System rządów sōryō odwołuje się do wczesnych etapów japońskiej feudalizacji, zapoczątkowanej w okresie Heian i stopniowo formalizowanej w okresie Kamakura, wraz z ustanowieniem pierwszego szogunatu.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_government_domain_limit_help",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@alert_icon! #HELP Japanese $game_concept_governments$ have a lower [domain_limit|E] than others, which may be increased by upgrading the $game_concept_family_manor$.#!",
+    "RUS": "@alert_icon! #HELP [Concept('domain_limit', 'Предел домена')|E] японских правительств ниже, чем у остальных, но его можно увеличить, улучшая усадьбу.#!",
+    "POL": "@alert_icon! #HELP Japońskie rządy mają niższy [domain_limit|El] niż inne, ale można go zwiększyć poprzez ulepszenie rodzinnej rezydencji.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_is_japanese_governor_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "You are a [GetGovernment('japan_administrative_government').GetName] [governor|E]",
+    "RUS": "Вы [Concept('governor', 'губернатор')|E] #TOOLTIP:GOVERNMENT_TYPE,japan_administrative_government #L рицурё#!#!",
+    "POL": "Jesteś [Concept('governor', 'gubernatorem')|E] [GetGovernment('japan_administrative_government').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_appointment_succession_law",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$ Appointment Succession",
+    "RUS": "Наследование через систему рицурё",
+    "POL": "Sukcesja mianowania ritsuryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_appointment_succession_law_subname",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Candidate with the Highest Score Inherits",
+    "RUS": "Кандидат с наивысшим счетом унаследует",
+    "POL": "Dziedziczy kandydat z najwyższym wynikiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_appointment_succession_law_effects",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "\\nA type of [appointment_succession_law|E]. Under $japanese_appointment_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. Any [adult|E] in the [realm|E] may strive to attain a [governorship|E] through various means from [scheming|E] to spending [influence|E].",
+    "RUS": "\\nРазновидность [Concept('appointment_succession_law', 'закона о наследовании через назначение')|E]. Наследование через систему рицурё предполагает, что [Concept('title', 'титул')|E] и все связанные с ним [Concept('holdings', 'владения')|E] получает кандидат с наивысшим счетом. Должность [Concept('governorship', 'губернатора')|E] может получить любой [Concept('adult', 'совершеннолетний')|E] подданный [Concept('realm', 'державы')|E]. Добиться этого поста можно при помощи самых разнообразных средств: от [Concept('scheming', 'происков')|E] до использования [Concept('influence', 'влияния')|E].",
+    "POL": "\\nRodzaj [Concept('appointment_succession_law', 'prawa sukcesyjnego mianowania')|E]. Zgodnie z prawem „$japanese_appointment_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Każda [adult|El] w [Concept('realm', 'państwie')|E] może starać się o [governorship|El] na rozmaite sposoby – poczynając od [Concept('scheming', 'spiskowania')|E], a kończąc na dysponowaniu [Concept('influence', 'wpływem')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_military_appointment_succession_law",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$ Military Succession",
+    "RUS": "Военное наследование через систему рицурё",
+    "POL": "Sukcesja wojskowa ritsuryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_military_appointment_succession_law_subname",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Candidate with the Highest Score Inherits",
+    "RUS": "Кандидат с наивысшим счетом унаследует",
+    "POL": "Dziedziczy kandydat z najwyższym wynikiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_military_appointment_succession_law_effects",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "\\nA type of [appointment_succession_law|E]. Under $japanese_military_appointment_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with highest [candidate_score|E]. Any [adult|E] in the [realm|E] may strive to attain a military [governorship|E] by having a good [martial_skill|E], gaining [commander_traits|E], or spending [influence|E].#!",
+    "RUS": "\\nРазновидность [Concept('appointment_succession_law', 'закона о наследовании через назначение')|E]. $japanese_military_appointment_succession_law$ предполагает, что [Concept('title', 'титул')|E] и все связанные с ним [Concept('holdings', 'владения')|E] получает кандидат с наивысшим [Concept('candidate_score', 'приоритетом претензий')|E]. Должность военного [Concept('governorship', 'губернатора')|E] может получить любой [Concept('adult', 'совершеннолетний')|E] подданный [Concept('realm', 'державы')|E]. Добиться этого поста можно при наличии развитого [Concept('martial_skill', 'навыка «военное дело»')|E], получая [Concept('commander_traits', 'свойства командира')|E] или расходуя [Concept('influence', 'влияние')|E].#!",
+    "POL": "\\nRodzaj [Concept('appointment_succession_law', 'prawa sukcesyjnego mianowania')|E]. Zgodnie z prawem „$japanese_military_appointment_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez osobę o najwyższym [Concept('candidate_score', 'wyniku kandydata')|E]. Każda [adult|El] w [Concept('realm', 'państwie')|E] może starać się o [governorship|El] militarne, utrzymując [martial_skill|El] na wysokim poziomie, zdobywając [commander_traits|El] lub dysponując [Concept('influence', 'wpływem')|E].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_regency_succession_law",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Japanese Regency Succession",
+    "RUS": "Наследование японского регентства",
+    "POL": "Sukcesja regencji japońskiej",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_regency_succession_law_subname",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$appointment_succession_law_subname$",
+    "RUS": "$appointment_succession_law_subname$",
+    "POL": "$appointment_succession_law_subname$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_regency_succession_law_effects",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Under $japanese_regency_succession_law$, the [title|E] and its associated [holdings|E] will be inherited by the candidate with the highest score. The pool of candidates includes the realm's [noble_families|E], [governors|E], and their family members.\\n\\nIf the [japanese_emperor|E] is chosen as the next [ceremonial_regent|E], they will be given the choice of either abdicating as [tenno|E] or attempting to re-establish direct rule!",
+    "RUS": "Наследование регентства предполагает, что [Concept('title', 'титул')|E] и все связанные с ним [Concept('holdings', 'владения')|E] получает кандидат с наивысшим счетом. В число потенциальных кандидатов входят представители [Concept('noble_families', 'благородных семейств')|E], [Concept('governors', 'губернаторы')|E] и члены их семей.\\n\\nЕсли следующим [Concept('ceremonial_regent', 'регентом')|E] станет [Concept('japanese_emperor', 'японский император')|E], он должен будет отречься от титула [Concept('tenno', 'тэнно')|E] или попытаться восстановить прямое управление!",
+    "POL": "Zgodnie z prawem „$japanese_regency_succession_law$” [title|El] i przysługujące posiadającej go osobie [holdings|El] są dziedziczone przez kandydata o najwyższym wyniku. Pula kandydatów obejmuje ograniczoną grupę mieszkańców państwa: należą do niej [noble_families|El], [governors|El] i członkowie ich rodzin.\\n\\nJeżeli kolejnym [Concept('ceremonial_regent', 'regentem panującym')|E] zostanie [japanese_emperor|El], będzie mógł abdykować do roli [tenno|El] lub podjąć próbę przywrócenia bezpośrednich rządów!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_past_kampaku_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Previous [ROOT.Char.GetDynasty.GetName] #weak [ceremonial_regents|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_past_kampaku_value')|0])#!",
+    "RUS": "Представители династии [ROOT.Char.GetDynasty.GetName] уже были #weak [Concept('ceremonial_regent', 'церемониальными регентами')|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_past_kampaku_value')|0])#!",
+    "POL": "Poprzedni #weak [ceremonial_regents|El] dynastii [ROOT.Char.GetDynasty.GetName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_past_kampaku_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_imperial_parent_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetHouse.GetBaseName] with [ceremonial_house|E] parents #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_parent_value')|0])#!",
+    "RUS": "Представитель дома [ROOT.Char.GetHouse.GetBaseName] с родителями из [Concept('ceremonial_house', 'церемониальной династии')|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_parent_value')|0])#!",
+    "POL": "Ród [ROOT.Char.GetHouse.GetBaseName] z rodzicami z [Concept('ceremonial_house', 'ceremonialnego rodu')|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_parent_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_imperial_child_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] with [ROOT.Char.GetHouse.GetBaseName] parents #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_child_value')|0])#!",
+    "RUS": "Член [Concept('ceremonial_house', 'церемониальной династии')|E] с родителями из дома [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_child_value')|0])#!",
+    "POL": "[ceremonial_house|E] z rodzicami z rodu [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_child_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_imperial_spouse_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetHouse.GetBaseName] [spouses|E] of [ceremonial_liege|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_imperial_spouse_value')|0])#!",
+    "RUS": "[Concept('spouses', 'Супруги')|E] [Concept('ceremonial_liege', 'церемониального сюзерена')|E] из дома [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_imperial_spouse_value')|0])#!",
+    "POL": "[spouses|E] [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E] wywodzący się z rodu [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_imperial_spouse_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_imperial_spouse_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] with [ROOT.Char.GetHouse.GetBaseName] [spouses|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_spouse_value')|0])#!",
+    "RUS": "Член [Concept('ceremonial_house', 'церемониальной династии')|E] в [Concept('spouses', 'браке')|E] с представителем дома [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_spouse_value')|0])#!",
+    "POL": "[ceremonial_house|E] z [Concept('spouses', 'małżonkami')|E] z rodu [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_spouse_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_dynasty_splendor_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetDynasty.GetName] [dynasty_prestige_level|E] ([dynasty|E])",
+    "RUS": "[Concept('dynasty_prestige_level', 'Уровень величия')|E] династии [ROOT.Char.GetDynasty.GetName] ([Concept('dynasty', 'династия')|E])",
+    "POL": "[dynasty_prestige_level|E] [Concept('dynasty', 'dynastii')|E] [ROOT.Char.GetDynasty.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_governorship_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetHouse.GetBaseName] [governorships|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_governorship_value')|0])#!",
+    "RUS": "[Concept('governorships', 'Губернаторства')|E] дома [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_governorship_value')|0])#!",
+    "POL": "[governorships|E] rodu [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_governorship_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_opinion_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_liege|E] [opinion|E]",
+    "RUS": "[Concept('opinion', 'Мнение')|E] [Concept('ceremonial_liege', 'церемониального сюзерена')|E]",
+    "POL": "[opinion|E] [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_devoted_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[GetTrait('devoted').GetName( GetNullCharacter )] [ROOT.Char.GetHouse.GetBaseName] members #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_devoted_value')|0])#!",
+    "RUS": "#TOOLTIP:GAME_TRAIT,devoted,GetNullCharacter #L Ревностные#!#! члены дома [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_devoted_value')|0])#!",
+    "POL": "Członkowie rodu [ROOT.Char.GetHouse.GetBaseName] posiadający następującą cechę: [GetTrait('devoted').GetName( GetNullCharacter )|l] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_devoted_value')|0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_house_member_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] Member",
+    "RUS": "Член [Concept('ceremonial_house', 'церемониальной династии')|E]",
+    "POL": "Członek [Concept('ceremonial_house', 'ceremonialnego rodu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_house_heir_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] [heir|E]",
+    "RUS": "[Concept('heir', 'Наследник')|E] [Concept('ceremonial_house', 'церемониальной династии')|E]",
+    "POL": "[heir|E] [Concept('ceremonial_house', 'ceremonialnego rodu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_house_non_heir_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Non-inheriting [ceremonial_house|E]",
+    "RUS": "Не наследник [Concept('ceremonial_house', 'церемониальной династии')|E]",
+    "POL": "Niedziedziczący [ceremonial_house|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_devoted_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Is a [GetTrait('devoted').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('devoted').GetName( GetNullCharacter )]",
+    "POL": "Ma cechę [GetTrait('devoted').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_domicile_capital_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetHouse.GetBaseName] [manor|E] in [capital|E]",
+    "RUS": "[Concept('manor', 'Усадьба')|E] дома [ROOT.Char.GetHouse.GetBaseName] находится в [Concept('capital', 'столице')|E]",
+    "POL": "[manor|E] rodu [ROOT.Char.GetHouse.GetBaseName] w [Concept('capital', 'stolicy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_age_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Age",
+    "RUS": "Возраст",
+    "POL": "Wiek",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_bloc_size_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Size of Lead [bloc|E]",
+    "RUS": "Размер возглавляемого [Concept('bloc', 'блока')|E]",
+    "POL": "Wielkość [Concept('bloc', 'koalicji')|E] przewodzącej",
+    "BEL": ""
+  },
+  {
+    "KEY": "japanese_kampaku_house_bloc_size_heir_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Size of Predecessor's [bloc|E]",
+    "RUS": "Размер [Concept('bloc', 'блока')|E] предшественника",
+    "POL": "Wielkość [Concept('bloc', 'koalicji')|E] poprzednika",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_regent_family",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Regent Family",
+    "RUS": "Семья регента",
+    "POL": "Rodzina regencka",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_regent_family_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The $game_concept_regent_family$ is the top [house|E] in an [realm|E] with a [ceremonial_regent|E].",
+    "RUS": "$game_concept_regent_family$ — главный [Concept('house', 'дом')|E] в [Concept('realm', 'державе')|E], которой правит [ceremonial_regent|El].",
+    "POL": "$game_concept_regent_family$ to najważniejszy [house|El] w [Concept('realm', 'państwie')|E], w którym rządzi [ceremonial_regent|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_house_bloc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "House Bloc",
+    "RUS": "Блок домов",
+    "POL": "Koalicja rodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_house_blocs",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "House Blocs",
+    "RUS": "Блоки домов",
+    "POL": "Koalicje rodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_house_bloc_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "House Bloc's",
+    "RUS": "Блока домов",
+    "POL": "Koalicji rodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc",
+    "RUS": "Блок",
+    "POL": "Koalicja",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_blocs",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Blocs",
+    "RUS": "Блоки",
+    "POL": "Koalicje",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc's",
+    "RUS": "Блока",
+    "POL": "Koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_house_bloc_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_house_bloc$ is an defensive alliance of [houses|E] within a [realm|E]. Any [member_house|E] who is attacked will be defended by all other $game_concept_member_houses$.\\n\\n[house_heads|E] decide whether to become [bloc_member_houses|E], with all ruling members of their House in the Realm following them.\\n\\nBlocs always have a [leading_house|E], whose $game_concept_house_head$ may expel other members, is the favored [ceremonial_regent|E] of all members, and whose [house_aspiration|E] determines the bonuses granted by higher levels of [cohesion|E].\\n\\nOnly $game_concept_leading_house_possessive$ $game_concept_house_head$ may create [factions|E] against the [top_liege|E], and all $game_concept_bloc_member_houses$ members will join all [factions|E] they create.",
+    "RUS": "Блок домов — это оборонительный союз [Concept('houses', 'домов')|E] [Concept('realm', 'державы')|E]. Если один из [Concept('member_house', 'домов-участников')|E] атакован, остальные дома придут на его защиту.\\n\\n[Concept('house_heads', 'Главы домов')|E] решают, становиться ли [Concept('bloc_member_houses', 'частью блока')|E], и все правящие члены их домов в пределах державы следуют за ними.\\n\\nВ блоках всегда есть [Concept('leading_house', 'основной дом')|E], глава которого может изгонять других участников, является предпочтительным [Concept('ceremonial_regent', 'церемониальным регентом')|E] для всех участников и чье [Concept('house_aspiration', 'устремление дома')|E] определяет бонусы от высокой [Concept('cohesion', 'сплоченности')|E].\\n\\nТолько главы основных домов могут создавать [Concept('factions', 'фракции')|E] против [Concept('top_liege', 'верховного сюзерена')|E], и все члены блока вступят в созданную [Concept('factions', 'фракцию')|E].",
+    "POL": "$game_concept_house_bloc$ to sojusz obronny [Concept('houses', 'rodów')|E] w [Concept('realm', 'państwie')|E]. Zaatakowany [member_house|El] będzie broniony przez wszystkie inne rody członkowskie.\\n\\nO tym, czy dane rody zostaną [Concept('bloc_member_houses', 'rodami członkowskimi koalicji')|E], decydują ich [house_heads|El]. Gdy taka decyzja zapadnie, wszyscy rządzący członkowie danego rodu w państwie pójdą w ślady głowy swojego rodu.\\n\\nNa czele każdej koalicji zawsze stoi [leading_house|El], którego głowa może wydalać innych członków i jest uznawana za faworyzowanego [Concept('ceremonial_regent', 'regenta panującego')|E] spośród wszystkich członków. [house_aspiration|E] przewodzącego decyduje o bonusach przyznawanych dzięki wyższym poziomom [Concept('cohesion', 'spójności')|E].\\n\\nJedynie głowa rodu przewodzącego może tworzyć [factions|El] przeciwne [Concept('top_liege', 'najwyższemu seniorowi')|E], a członkowie rodów członkowskich koalicji dołączą do wszystkich utworzonych przez głowę rodu [Concept('factions', 'frakcji')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_cohesion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Cohesion",
+    "RUS": "Сплоченность блока",
+    "POL": "Spójność koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_cohesion",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Cohesion",
+    "RUS": "Сплоченность",
+    "POL": "Spójność",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_cohesion_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$game_concept_cohesion$ measures the unity of a [house_bloc|E], with higher levels granting increasing benefits to members of [bloc_member_houses|E], based on the [leading_house_possessive|E] [house_aspiration|E].\\n\\nThe main source is [house_relations|E] between $game_concept_bloc_member_houses$, which can affect $game_concept_cohesion$ positively and negatively. Additionally, the Bloc's overall size or mismatched $game_concept_house_aspirations$ or [government|E] of members can reduce $game_concept_cohesion$.\\n\\nMaintaining a level of $game_concept_bloc_cohesion$ will bestow various bonuses on [member_houses|E], based on the Aspiration of the $game_concept_leading_house$.\\n\\nUpon reaching #V 0#! $game_concept_cohesion$ a $game_concept_house_bloc$ will automatically dissolve.",
+    "RUS": "$game_concept_cohesion$ отражает единство [Concept('house_bloc', 'блока домов')|E]. Чем выше этот показатель, тем больше преимуществ [Concept('bloc_member_houses', 'члены домов блока')|E] получают от [Concept('house_aspiration', 'устремления')|E] [Concept('leading_house', 'основного дома')|E].\\n\\nСплоченность главным образом зависит от [Concept('house_relations', 'отношений')|E] между домами членов блока, однако на ее уровень также влияют размер блока и различия в устремлениях и [Concept('government', 'формах правления')|E] членов блока.\\n\\nПоддерживая достаточный уровень сплоченности, [Concept('member_houses', 'члены блока')|E] будут получать различные бонусы в зависимости от устремления основного дома.\\n\\nПри достижении #V 0#! сплоченности блок будет автоматически распущен.",
+    "POL": "Wskaźnik spójności określa poziom zjednoczenia [Concept('house_bloc', 'koalicji rodów')|E]. Im jest wyższy, tym większe są korzyści dla członków [Concept('bloc_member_houses', 'rodów członkowskich koalicji')|E], uzależnione od [Concept('house_aspiration', 'aspiracji')|E] [leading_house_possessive|El].\\n\\nGłównym źródłem spójności są [house_relations|El] utrzymywane przez rody członkowskie koalicji. Relacje te mogą wpływać na spójność zarówno pozytywnie, jak i negatywnie. Negatywny wpływ na spójność może też mieć wielkość koalicji, a także niezgodne aspiracje rodów lub [government|El] członków.\\n\\nUtrzymywanie poziomu spójności koalicji zapewnia [Concept('member_houses', 'rodom członkowskim')|E] różne korzyści, które zależą od aspiracji rodu przewodzącego.\\n\\nGdy wartość spójności wyniesie #V 0#!, koalicja rodów zostanie automatycznie rozwiązana.",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_cohesion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#T @bloc_cohesion! $game_concept_bloc_cohesion$#!\\n\\n$game_concept_bloc_cohesion_desc$",
+    "RUS": "#T @bloc_cohesion! $game_concept_bloc_cohesion$#!\\n\\n$game_concept_bloc_cohesion_desc$",
+    "POL": "#T @bloc_cohesion! $game_concept_bloc_cohesion$#!\\n\\n$game_concept_bloc_cohesion_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Member House",
+    "RUS": "Дом члена блока",
+    "POL": "Ród członkowski koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Member Houses",
+    "RUS": "Дома членов блока",
+    "POL": "Rody członkowskie koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc House",
+    "RUS": "Дом блока",
+    "POL": "Ród koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Houses",
+    "RUS": "Дома блока",
+    "POL": "Rody koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_member_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Member House",
+    "RUS": "Дом-участник",
+    "POL": "Ród członkowski",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_member_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Member Houses",
+    "RUS": "Дома-участники",
+    "POL": "Rody członkowskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_house_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_bloc_member_house$ is any [house|E] that has joined a [house_bloc|E], including its [leading_house|E].",
+    "RUS": "Дом-участник блока — это [Concept('house', 'дом')|E], в том числе и [Concept('leading_house', 'основной дом')|E], присоединившийся к [Concept('house_bloc', 'блоку')|E].",
+    "POL": "$game_concept_bloc_member_house$ to dowolny [house|El], który dołączył do [Concept('house_bloc', 'koalicji rodów')|E], w tym [leading_house|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_aligned_bloc_member_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Aligned Bloc Member House",
+    "RUS": "Солидарный дом-участник блока",
+    "POL": "Zgodny ród członkowski koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_aligned_bloc_member_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Aligned Bloc Member Houses",
+    "RUS": "Солидарные дома членов блока",
+    "POL": "Zgodne rody członkowskie koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_aligned_bloc_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Aligned Bloc House",
+    "RUS": "Солидарный дом блока",
+    "POL": "Zgodny ród koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_aligned_bloc_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Aligned Bloc Houses",
+    "RUS": "Солидарные дома блока",
+    "POL": "Zgodne rody koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_aligned_bloc_member_house_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_aligned_bloc_member_house$ is a [house|E] that has joined a [house_bloc|E], and has the same [house_aspirations|E] as the [leading_house|E].",
+    "RUS": "$game_concept_aligned_bloc_member_house$ — это присоединившийся к [Concept('house_bloc', 'блоку')|E] [Concept('house', 'дом')|E], чьи [Concept('house_aspiration', 'устремления')|E] совпадают с [Concept('leading_house', 'основным домом')|E].",
+    "POL": "$game_concept_aligned_bloc_member_house$ to [house|El], który dołączył do [Concept('house_bloc', 'koalicji rodów')|E] i ma takie same [house_aspirations|El] jak [leading_house|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_divergent_bloc_member_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Divergent Bloc Member House",
+    "RUS": "Несогласный дом-участник блока",
+    "POL": "Odmienny ród członkowski koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_divergent_bloc_member_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Divergent Bloc Member Houses",
+    "RUS": "Несогласные дома членов блока",
+    "POL": "Odmienne rody członkowskie koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_divergent_bloc_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Divergent Bloc House",
+    "RUS": "Несогласный дом блока",
+    "POL": "Odmienny ród koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_divergent_bloc_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Divergent Bloc Houses",
+    "RUS": "Несогласные дома блока",
+    "POL": "Odmienne rody koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_divergent_bloc_member_house_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_divergent_bloc_member_house$ is a [house|E] that has joined a [house_bloc|E], but a different [house_aspirations|E] as the [leading_house|E].",
+    "RUS": "$game_concept_divergent_bloc_member_house$ — это присоединившийся к [Concept('house_bloc', 'блоку')|E] [Concept('house', 'дом')|E], чьи [Concept('house_aspiration', 'устремления')|E] не совпадают с [Concept('leading_house', 'основным домом')|E].",
+    "POL": "$game_concept_divergent_bloc_member_house$ to [house|El], który dołączył do [Concept('house_bloc', 'koalicji rodów')|E], ale ma inne [house_aspirations|El] niż [leading_house|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_ruler",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Member Ruler",
+    "RUS": "Правитель блока",
+    "POL": "Władca rodu członkowskiego koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_rulers",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Member Rulers",
+    "RUS": "Правители блока",
+    "POL": "Władcy rodów członkowskich koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_ruler",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Ruler",
+    "RUS": "Правитель блока",
+    "POL": "Władca koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_rulers",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Rulers",
+    "RUS": "Правители блока",
+    "POL": "Władcy koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_member_ruler_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_bloc_member_ruler$ is a [ruler|E] who is a member of a [house_bloc|E].",
+    "RUS": "Правитель блока — это [Concept('ruler', 'правитель')|E], являющийся членом [Concept('house_bloc', 'блока домов')|E].",
+    "POL": "$game_concept_bloc_member_ruler$ jest [Concept('ruler', 'władcą')|E], będącym członkiem [Concept('house_bloc', 'koalicji rodów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_leading_house",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Leading House",
+    "RUS": "Основной дом",
+    "POL": "Ród przewodzący",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_leading_houses",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Leading Houses",
+    "RUS": "Основные дома",
+    "POL": "Rody przewodzące",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_leading_house_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Leading House's",
+    "RUS": "Основного дома",
+    "POL": "Rodu przewodzącego",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_house_bloc_leadership",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "House Bloc Leadership",
+    "RUS": "Лидерство в блоке",
+    "POL": "Przywództwo nad koalicją rodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_leadership",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Leadership",
+    "RUS": "Лидерство в блоке",
+    "POL": "Przywództwo nad koalicją",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_leading_house_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "A $game_concept_leading_house$ is a [house|E] that is the agreed leader of a [house_bloc|E].",
+    "RUS": "Основной дом — это [Concept('house', 'дом')|E], который признали лидером [Concept('house_bloc', 'блока')|E].",
+    "POL": "$game_concept_leading_house$ jest [Concept('house', 'rodem')|E] zgodnie uznawanym za wiodący w [Concept('house_bloc', 'koalicji rodów')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "game_concept_bloc_leader",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Leader",
+    "RUS": "Лидер блока",
+    "POL": "Przywódca koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "JAPANESE_HOUSE_HEAD_ALLIANCE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[noble_family|E] [house_head|E]: $VALUE|=+0$",
+    "RUS": "[Concept('house_head', 'Глава')|E] [Concept('noble_family', 'благородного семейства')|E]: $VALUE|=+0$",
+    "POL": "[house_head|E] w [Concept('noble_family', 'rodzinie szlacheckiej')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_offensive_wars_ban_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[rulers|E] in [GetTitleByKey('e_japan').GetBaseNameNoTier] cannot declare external [wars|E] unless the [imperial_policy|E] is [GetLaw('imperial_expansion_law').GetName]",
+    "RUS": "[Concept('rulers', 'Правители')|E] державы [GetTitleByKey('e_japan').GetBaseNameNoTier] не могут объявлять внешние [Concept('wars', 'войны')|E], если не действует [Concept('imperial_policy', 'принцип имперской политики')|E] «[GetLaw('imperial_expansion_law').GetName]»",
+    "POL": "[rulers|E] w miejscu znanym jako [GetTitleByKey('e_japan').GetBaseNameNoTier] nie mogą wypowiadać [Concept('wars', 'wojen')|E] zewnętrznych, chyba że [Concept('imperial_policy', 'polityką cesarską')|E] jest „[GetLaw('imperial_expansion_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_line_cannot_be_governor_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[governorships|E] may not be given to the [ceremonial_liege|E] or those in their direct [line_of_succession|E]",
+    "RUS": "[Concept('governorships', 'Губернаторства')|E] нельзя передавать [Concept('ceremonial_liege', 'церемониальному сюзерену')|E] или обладателям первых мест в [Concept('line_of_succession', 'линии наследования')|E]",
+    "POL": "[Concept('governorships', 'Gubernatorstw')|E] nie można przekazać [Concept('ceremonial_liege', 'monarsze ceremonialnemu')|E] ani osobom będącym w bezpośredniej [Concept('line_of_succession', 'linii sukcesji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_cannot_be_governor_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[governorships|E] may not be given to the [ceremonial_liege|E]",
+    "RUS": "[Concept('ceremonial_liege', 'Церемониальному сюзерену')|E] нельзя передавать [Concept('governorships', 'губернаторства')|E]",
+    "POL": "[Concept('governorships', 'Gubernatorstw')|E] nie można przekazać [Concept('ceremonial_liege', 'monarsze ceremonialnemu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_house_can_not_be_ruler_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [ceremonial_liege|E] is the only member of the [ceremonial_house|E] who may become [ruler|E] via [influence_i|E][influence|E]",
+    "RUS": "[Concept('ceremonial_liege', 'Церемониальный сюзерен')|E] — единственный член [Concept('ceremonial_house', 'церемониального дома')|E], который может стать [Concept('ruler', 'правителем')|E] с помощью [influence_i][Concept('influence', 'влияния')|E]",
+    "POL": "Jedynym członkiem [Concept('ceremonial_house', 'ceremonialnego rodu')|E], który może zostać [Concept('ruler', 'władcą')|E] za sprawą [influence_i|E] [Concept('influence', 'wpływu')|E], jest [ceremonial_liege|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_only_heir_can_be_ruler_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [ceremonial_liege_possessive|E] [player_heir|E] is the only member of the [ceremonial_house|E] who may become [ruler|E] via [influence_i|E][influence|E]",
+    "RUS": "[Concept('player_heir', 'Наследник-игрок')|E] [Concept('ceremonial_liege_possessive', 'церемониального сюзерена')|E] — единственный член [Concept('ceremonial_house', 'церемониального дома')|E], который может стать [Concept('ruler', 'правителем')|E] с помощью [influence_i][Concept('influence', 'влияния')|E]",
+    "POL": "[player_heir|E] [ceremonial_liege_possessive|El] to jedyny członek [Concept('ceremonial_house', 'ceremonialnego rodu')|E], który może zostać [Concept('ruler', 'władcą')|E] za sprawą [influence_i|E] [Concept('influence', 'wpływu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_blocked_ceremonial_title_revocation_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [title|E] of the [ceremonial_liege|E] cannot be revoked!",
+    "RUS": "[Concept('title', 'Титул')|E] [Concept('ceremonial_liege', 'церемониального сюзерена')|E] нельзя отобрать!",
+    "POL": "[title|E] należący do [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E] nie może zostać odebrany!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_blocked_ruler_against_ceremonial_action_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "This action may not be take against the [ceremonial_liege|E]",
+    "RUS": "Это действие нельзя совершить против [Concept('ceremonial_liege', 'церемониального сюзерена')|E]",
+    "POL": "Tego działania nie można wykonać w odniesieniu do [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_blocked_ceremonial_house_matrilineal_marriage_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [ceremonial_liege|E] would not accept this",
+    "RUS": "[Concept('ceremonial_liege', 'Церемониальный сюзерен')|E] на это не согласится",
+    "POL": "[ceremonial_liege|E] tego nie zaakceptuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_is_ceremonial_liege_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] [CharAreIs(THIS.Char)] the [ceremonial_liege|E]",
+    "RUS": "[THIS.Char.GetShortUIName|U] — [Concept('ceremonial_liege', 'церемониальный сюзерен')|E]",
+    "POL": "[THIS.Char.GetShortUINameNotMe] jest [Concept('ceremonial_liege', 'monarchą ceremonialnym')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_has_ceremonial_liege_title_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] the [ceremonial_liege|E] [title|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetDefinitiveName|V])#!",
+    "RUS": "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'имеете', 'имеет')] [Concept('title', 'титул')|E] [Concept('ceremonial_liege', 'церемониального сюзерена')|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetDefinitiveName|V])#!",
+    "POL": "[THIS.Char.GetShortUINameNotMe] ma [title|El] [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetDefinitiveName|V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_has_ceremonial_liege_title_no_title_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] the [ceremonial_liege|E] [title|E]",
+    "RUS": "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'имеете', 'имеет')] [Concept('title', 'титул')|E] [Concept('ceremonial_liege', 'церемониального сюзерена')|E]",
+    "POL": "[THIS.Char.GetShortUINameNotMe] ma [title|El] [Concept('ceremonial_liege', 'monarchy ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_is_in_ceremonial_house_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] [CharAreIs( THIS.Char )] a member of the [ceremonial_house|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!",
+    "RUS": "[THIS.Char.GetShortUIName] [Select_CString(THIS.Char.IsLocalPlayer,'являетесь', 'является')] членом [Concept('ceremonial_house', 'церемониальной династии')|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!",
+    "POL": "[THIS.Char.GetShortUINameNotMe] jest członkiem [Concept('ceremonial_house', 'ceremonialnego rodu')|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_realm_has_ceremonial_liege_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U] has a [ceremonial_liege|E]",
+    "RUS": "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U] обладает [Concept('ceremonial_liege', 'церемониальным сюзереном')|E]",
+    "POL": "Miejsce znane jako [THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName] ma [Concept('ceremonial_liege', 'monarchę ceremonialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "influence_candidacy_interaction_desc_japan",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Spend [influence|E] to promote or undermine a character's candidacy for [recipient.GetTopLiege.Custom('GetGovernorConcept')] or [ceremonial_regent|E]",
+    "RUS": "Потратить [Concept('influence','влияние')|E] на поддержку или подрыв кандидатуры персонажа на пост «[recipient.GetTopLiege.Custom('GetGovernorConcept')]» или «[Concept('ceremonial_regent', 'церемониальный регент')|E]»",
+    "POL": "Wydaj [influence|El], by promować lub podważać kandydaturę postaci do jednego z następujących tytułów: [recipient.GetTopLiege.Custom('GetGovernorConcept')|l] lub [ceremonial_regent|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "request_appointment_support_desc_japan",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Ask [recipient.GetShortUINameNoTooltip] to promote you or a [house|E] member in becoming a future [actor.GetTopLiege.Custom('GetGovernorConcept')] or [ceremonial_regent|E]",
+    "RUS": "Попросить, чтобы [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'поддержала','поддержал' )] вас или члена вашего [Concept('house','дома')|E] в получении поста «[actor.GetTopLiege.Custom('GetGovernorConcept')]» или «[Concept('ceremonial_regent', 'церемониальный регент')|E]»",
+    "POL": "Poproś osobę, którą jest [recipient.GetShortUINameNotMeNoTooltip], aby promowała ciebie lub członka twojego [Concept('house', 'rodu')|E] jako kandydata do otrzymania w przyszłości następującego tytułu: [actor.GetTopLiege.Custom('GetGovernorConcept')|l] lub [ceremonial_regent|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "demand_admin_interaction_desc_japan",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Ask [recipient.GetShortUIName|U] to abandon [recipient.GetGovernment.GetAdjective] [government|E] and become a [GetGovernment('japan_administrative_government').GetName] [governor|E]",
+    "RUS": "Попросить, чтобы [recipient.GetShortUIName] [Select_CString(recipient.IsFemale, 'отказалась', 'отказался' )] от [recipient.GetGovernment.GetAdjective|l]ого [Concept('government', 'правительства')|E], и стать [Concept('governor', 'губернатором')|E] с типом «[GetGovernment('japan_administrative_government').GetName]»",
+    "POL": "Poproś osobę, którą jest [recipient.GetShortUINameNotMe], aby zmieniła obecny rodzaj [Concept('government', 'rządu')|E] ([recipient.GetGovernment.GetName|l]) na [GetGovernment('japan_administrative_government').GetName|l] i została jego [Concept('governor', 'gubernatorem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "defense_mobilization_law_valid_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "At least #V 1#! [de_jure|E] [county|E] of [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] must be held by another [realm|E], or the [top_liege|E] must be leading a defensive [war|E] against another $game_concept_realm$",
+    "RUS": "Хотя бы #V 1#! [Concept('de_jure', 'де-юре')|E] [Concept('county', 'графство')|E] державы [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] должно контролироваться другой [Concept('realm', 'державой')|E], или [Concept('top_liege', 'верховный сюзерен')|E] должен возглавлять оборонительную [Concept('war', 'войну')|E] против другой державы",
+    "POL": "Co najmniej #V 1#! [county|El] [de_jure|El] w miejscu o nazwie [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] musi należeć do innego [Concept('realm', 'państwa')|E] lub [top_liege|El] musi prowadzić [Concept('war', 'wojnę')|E] obronną przeciwko innemu państwu",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expansion_internal_peace_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [realm|E] needs to be at [peace|E]",
+    "RUS": "[Concept('realm', 'Держава')|E] должна жить [Concept('peace', 'в мире')|E]",
+    "POL": "[realm|E] musi być w stanie [Concept('peace', 'pokoju')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "shogunate_law_required",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Requires [feudal_government|E]",
+    "RUS": "Необходим [Concept('feudal_government', 'феодальный строй')|E]",
+    "POL": "Wymaga [Concept('feudal_government', 'rządu feudalnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CEREMONIAL_HOUSE_MARRYING_DOWN_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Marrying [ceremonial_house|E] [dynasty_prestige_level|E] Impact: $VALUE|=+0$",
+    "RUS": "Влияние брака с членом [Concept('ceremonial_house', 'церемониальной династии')|E] на [Concept('dynasty_prestige_level', 'уровень величия')|E]: $VALUE|=+0$",
+    "POL": "Wpływ poślubienia członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E] na [dynasty_prestige_level|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CEREMONIAL_HOUSE_MARRYING_NON_HOUSE_HEAD",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] marrying non-[noble_family|E] Head: $VALUE|=+0$",
+    "RUS": "Брак между [Concept('ceremonial_house', 'церемониальной династией')|E] и главой [Concept('noble_family', 'неблагородного')|E] семейства: $VALUE|=+0$",
+    "POL": "Małżeństwo członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E] z osobą spoza [Concept('noble_family', 'rodziny szlacheckiej')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CEREMONIAL_HOUSE_SECONDARY_SPOUSE_HEAD",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[ceremonial_house|E] reluctance to be secondary [spouse|E]: $VALUE|=+0$",
+    "RUS": "Нежелание [Concept('ceremonial_house', 'церемониальной династии')|E] оказаться в позиции второстепенного [Concept('spouse', 'супруга')|E]: $VALUE|=+0$",
+    "POL": "Opór członka [Concept('ceremonial_house', 'ceremonialnego rodu')|E] wobec zostania drugim [Concept('spouse', 'małżonkiem')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CEREMONIAL_HOUSE_PETITION_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$petition_ceremonial_liege_decision$: $VALUE|=+0$",
+    "RUS": "$petition_ceremonial_liege_decision$: $VALUE|=+0$",
+    "POL": "Decyzja „$petition_ceremonial_liege_decision$”: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "government_is_japanese",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Is [ritsuryo|E] or [soryo|E]",
+    "RUS": "[Concept('ritsuryo', 'рицурё')|E] или [Concept('soryo', 'Сорё')|E]",
+    "POL": "To [ritsuryo|El] lub [soryo|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_vassal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$game_concept_soryo$",
+    "RUS": "$game_concept_soryo$",
+    "POL": "$game_concept_soryo$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_feudal_vassal_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$game_concept_soryo_government_desc$",
+    "RUS": "$game_concept_soryo_government_desc$",
+    "POL": "$game_concept_soryo_government_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_obligations",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$ Obligations",
+    "RUS": "Обязательства рицурё",
+    "POL": "Zobowiązania rządu ritsuryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_provinces",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$administrative_themes$",
+    "RUS": "$administrative_themes$",
+    "POL": "$administrative_themes$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_vassal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_government$",
+    "RUS": "$japan_administrative_government$",
+    "POL": "$japan_administrative_government$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_vassal_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$game_concept_ritsuryo_government_desc$",
+    "RUS": "$game_concept_ritsuryo_government_desc$",
+    "POL": "$game_concept_ritsuryo_government_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_standard",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_standard_administration! Standard Administration",
+    "RUS": "@japan_administrative_standard_administration! Стандартная администрация",
+    "POL": "@japan_administrative_standard_administration! Administracja standardowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_standard_short",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_standard_administration! Standard",
+    "RUS": "@japan_administrative_standard_administration! Стандартная",
+    "POL": "@japan_administrative_standard_administration! Standardowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_standard_text_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_standard_administration!",
+    "RUS": "@japan_administrative_standard_administration!",
+    "POL": "@japan_administrative_standard_administration!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_standard_benefits",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#emphasis #bold [vassal|E] Benefits:#!#!\\nUses [GetLaw('japanese_appointment_succession_law').GetName]",
+    "RUS": "#emphasis #bold Преимущества для [Concept('vassal', 'вассалов')|E]:#!#!\\nИспользуется [GetLaw('japanese_appointment_succession_law').GetName|l]",
+    "POL": "#emphasis #bold Korzyści zapewniane przez [Concept('vassal', 'wasala')|E]:#!#!\\nKorzysta z prawa „[GetLaw('japanese_appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_standard_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#low A civil type that attends to the everyday needs of the government and the local inhabitants#!",
+    "RUS": "#low Тип администрации, которая занимается повседневными нуждами правительства и местных жителей#!",
+    "POL": "#low Administracja cywilna, która zaspokaja codzienne potrzeby rządu i lokalnych mieszkańców#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_trade_administration! Industrial Administration",
+    "RUS": "@japan_administrative_trade_administration! Промышленная администрация",
+    "POL": "@japan_administrative_trade_administration! Administracja przemysłowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade_short",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_trade_administration! Industrial",
+    "RUS": "@japan_administrative_trade_administration! Промышленная",
+    "POL": "@japan_administrative_trade_administration! Przemysłowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade_text_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_trade_administration!",
+    "RUS": "@japan_administrative_trade_administration!",
+    "POL": "@japan_administrative_trade_administration!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade_benefits",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#emphasis #bold [vassal|E] Benefits:#!#!\\nUses [GetLaw('japanese_appointment_succession_law').GetName]\\n\\n#alert_trial @alert_icon! Limited to [EmptyScope.ScriptValue('japan_administrative_province_trade_max_value')|V0]#!",
+    "RUS": "#emphasis #bold Преимущества для [Concept('vassal', 'вассалов')|E]:#!#!\\nИспользуется [GetLaw('japanese_appointment_succession_law').GetName|l]\\n\\n#alert_trial @alert_icon! Не более [EmptyScope.ScriptValue('japan_administrative_province_trade_max_value')|V0]#!",
+    "POL": "#emphasis #bold Korzyści zapewniane przez [Concept('vassal', 'wasala')|E]:#!#!\\nKorzysta z prawa „[GetLaw('japanese_appointment_succession_law').GetName]”\\n\\n#alert_trial @alert_icon! Limit: [EmptyScope.ScriptValue('japan_administrative_province_trade_max_value')|V0]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#low A civil administration that focuses on maritime commerce and long-term development.#!",
+    "RUS": "#low Администрация, делающая упор на морскую торговлю и долгосрочное развитие.#!",
+    "POL": "#low Administracja cywilna, która koncentruje się na handlu morskim i długoterminowym rozwoju.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_trade_amount_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_province_trade_short$ limit reached",
+    "RUS": "Достигнут лимит торговых администраций",
+    "POL": "$japan_administrative_province_trade_short$: osiągnięto limit",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_military_administration! Military Administration",
+    "RUS": "@japan_administrative_military_administration! Военная администрация",
+    "POL": "@japan_administrative_military_administration! Administracja militarna",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military_short",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_military_administration! Military",
+    "RUS": "@japan_administrative_military_administration! Военная",
+    "POL": "@japan_administrative_military_administration! Militarna",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military_text_icon",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "@japan_administrative_military_administration!",
+    "RUS": "@japan_administrative_military_administration!",
+    "POL": "@japan_administrative_military_administration!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military_benefits",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#emphasis #bold [vassal|E] Benefits:#!#!\\n$EFFECT_LIST_BULLET$ Uses [GetLaw('japanese_appointment_succession_law').GetName]\\n\\n#alert_trial @alert_icon! Limited to [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!",
+    "RUS": "#emphasis #bold Преимущества для [Concept('vassal', 'вассалов')|E]:#!#!\\n$EFFECT_LIST_BULLET$Используется [GetLaw('japanese_appointment_succession_law').GetName|l]\\n\\n#alert_trial @alert_icon! Не более [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!",
+    "POL": "#emphasis #bold Korzyści zapewniane przez [Concept('vassal', 'wasala')|E]:#!#!\\n$EFFECT_LIST_BULLET$ Korzysta z prawa „[GetLaw('japanese_appointment_succession_law').GetName]”\\n\\n#alert_trial @alert_icon! Limit: [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "#low A military administration focused on fortification and recruitment. Providing the realm with the means of protecting itself, or expanding its borders when necessary.#!",
+    "RUS": "#low Военная администрация, преимущественно занятая набором солдат и строительством укреплений. Дает державе возможность защищать себя или при необходимости расширять границы.#!",
+    "POL": "#low Administracja militarna skoncentrowana na tworzeniu umocnień i rekrutacji. Zapewnia państwu niezbędne środki do samoobrony oraz, w razie potrzeby, ekspansji jego granic.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_administrative_province_military_amount_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "$japan_administrative_province_military_short$ limit reached",
+    "RUS": "Достигнут лимит военных администраций",
+    "POL": "$japan_administrative_province_military_short$: osiągnięto limit",
+    "BEL": ""
+  },
+  {
+    "KEY": "should_hold_a_lower_tier_governorship_first",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "No held [governorship|E] of prior [title_rank|E]",
+    "RUS": "Не управляет [Concept('governorship', 'губернаторством')|E] более низкого [Concept('title_rank', 'ранга')|E]",
+    "POL": "Nie posiada [Concept('governorship', 'gubernatorstwa')|E] niższej [Concept('title_rank', 'rangi')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "soryo_or_bushido_trigger",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] [GetGovernment('japan_feudal_government').GetName] [government|E] or the [GetCultureTradition('tradition_tgp_bushido').GetName] [tradition|E]",
+    "RUS": "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'имеете', 'имеет')] [Concept('government', 'форму правления')|E] «[GetGovernment('japan_feudal_government').GetName]» или [Concept('tradition', 'традицию')|E] «[GetCultureTradition('tradition_tgp_bushido').GetName]»",
+    "POL": "[THIS.Char.GetShortUINameNotMe] ma określony [government|El] ([GetGovernment('japan_feudal_government').GetName|l]) lub [Concept('tradition', 'tradycję')|E] ([GetCultureTradition('tradition_tgp_bushido').GetName|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "challenge_house_head_japanese_admin",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Due to not having [GetGovernment('japan_feudal_government').GetName] [government|E] or the [GetCultureTradition('tradition_tgp_bushido').GetName] [tradition|E]:",
+    "RUS": "Из-за отсутствия [Concept('government', 'формы правления')|E] «[GetGovernment('japan_feudal_government').GetName]» или [Concept('tradition', 'традиции')|E] «[GetCultureTradition('tradition_tgp_bushido').GetName]»:",
+    "POL": "Ze względu na brak określonego [Concept('government', 'rządu')|E] ([GetGovernment('japan_feudal_government').GetName|l]) lub [Concept('tradition', 'tradycji')|E] ([GetCultureTradition('tradition_tgp_bushido').GetName|l]):",
+    "BEL": ""
+  },
+  {
+    "KEY": "BLOC_MEMBER_CALL_TO_ARMS_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "War is against my [bloc|E] member: $VALUE|=+0$",
+    "RUS": "Война ведется против члена моего [Concept('bloc', 'блока')|E]: $VALUE|=+0$",
+    "POL": "Wojna przeciwko członkowi mojej [Concept('bloc', 'koalicji')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "cannot_transfer_bloc_leader_as_vassal_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[house_heads|E] of [leading_houses|E] of [blocs|E] cannot be transferred as [vassals|E]",
+    "RUS": "[Concept('house_heads', 'Глав')|E] [Concept('leading_houses', 'основных домов')|E] [Concept('blocs', 'блоков')|E] нельзя передавать в качестве [Concept('vassals', 'вассалов')|E]",
+    "POL": "[Concept('house_heads', 'Głów')|E] [Concept('leading_houses', 'rodów przewodzących')|E] [Concept('blocs', 'koalicji')|E] nie można przekazywać w roli [Concept('vassals', 'wasali')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_japan_feudal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Yūhitsu",
+    "RUS": "Юхицу",
+    "POL": "Yūhitsu",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_japan_feudal_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Yūhitsu's",
+    "RUS": "Юхицу",
+    "POL": "Yūhitsu",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_japan_feudal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bugyō",
+    "RUS": "Бугё",
+    "POL": "Bugyō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_japan_feudal_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bugyō's",
+    "RUS": "Бугё",
+    "POL": "Bugyō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_japan_feudal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Taishō",
+    "RUS": "Тайсё",
+    "POL": "Taishō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_japan_feudal_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Taishō's",
+    "RUS": "Тайсё",
+    "POL": "Taishō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_japan_feudal",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Metsuke",
+    "RUS": "Мэцукэ",
+    "POL": "Metsuke",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_japan_feudal_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Metsuke's",
+    "RUS": "Мэцукэ",
+    "POL": "Metsuke",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_japan_administrative",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bettō",
+    "RUS": "Бэтто",
+    "POL": "Bettō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_japan_administrative_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bettō's",
+    "RUS": "Бэтто",
+    "POL": "Bettō",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_japan_administrative",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Karei",
+    "RUS": "Карэй",
+    "POL": "Karei",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_japan_administrative_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Karei's",
+    "RUS": "Карэй",
+    "POL": "Karei",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_japan_administrative",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Saburai",
+    "RUS": "Сабурай",
+    "POL": "Saburai",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_japan_administrative_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Saburai's",
+    "RUS": "Сабурай",
+    "POL": "Saburai",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_japan_administrative",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Mokudai",
+    "RUS": "Мокудай",
+    "POL": "Mokudai",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_japan_administrative_possessive",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Mokudai's",
+    "RUS": "Мокудай",
+    "POL": "Mokudai",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_government_japan_kingdom_restriction_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[GetGovernment('japan_administrative_government').GetName] and [GetGovernment('japan_feudal_government').GetName] [rulers|E] can only create [kingdoms|E] in Japan if they are [independent|E] or hold a [kingdom|E] [title|E] without holding [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "RUS": "[Concept('rulers', 'Правители')|E] #TOOLTIP:GOVERNMENT_TYPE,japan_administrative_government #L рицурё#!#! и #TOOLTIP:GOVERNMENT_TYPE,japan_feudal_government #L сорё#!#! могут создавать [Concept('kingdoms', 'королевства')|E] в Японии только при условии, что они [Concept('independent', 'независимы')|E] или владеют [Concept('kingdom', 'королевским')|E] [Concept('title', 'титулом')|E], но не правят самой #ONCLICK:TITLE,e_japan #TOOLTIP:LANDED_TITLE,e_japan #L Японией#!#!#!.",
+    "POL": "[rulers|E] [GetGovernment('japan_administrative_government').GetName|l] i [GetGovernment('japan_feudal_government').GetName|l] mogą tworzyć [kingdoms|El] w Japonii wyłącznie, gdy są [Concept('independent', 'niezależni')|E] lub posiadają [title|El] [Concept('kingdom', 'królestwa')|E], nie rządząc jednocześnie miejscem znanym jako [GetTitleByKey('e_japan').GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_government_japan_duchy_restriction_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[GetGovernment('japan_feudal_government').GetName] [counts|E] and [GetGovernment('japan_administrative_government').GetName] [governments|E] cannot usually create [de_jure|E] [duchies|E] on the islands of Japan\\n#HELP [GetGovernment('japan_feudal_government').GetName] [rulers|E] may bypass this using the [GetDecisionWithKey('tgp_japan_assert_regional_dominion_government_decision').GetName|V] [decision|E]",
+    "RUS": "[Concept('counts', 'Графы')|E]-#TOOLTIP:GOVERNMENT_TYPE,japan_feudal_government #L сорё#!#! и [Concept('governments', 'правительства')|E] #TOOLTIP:GOVERNMENT_TYPE,japan_administrative_government #L рицурё#!#! обычно не могут создавать [Concept('de_jure', 'де-юре')|E] [Concept('duchies', 'герцогства')|E] на Японских островах\\n#HELP [Concept('rulers', 'Правители')|E]-[GetGovernment('japan_feudal_government').GetName|l] могут обойти это ограничение с помощью [Concept('decision', 'решения')|E] «[GetDecisionWithKey('tgp_japan_assert_regional_dominion_government_decision').GetName|V]»",
+    "POL": "[counts|E] [GetGovernment('japan_feudal_government').GetName|l] i [governments|El][GetGovernment('japan_administrative_government').GetName|l] zwykle nie mogą tworzyć [Concept('duchies', 'księstw')|E] [de_jure|El] na wyspach japońskich\\n#HELP [rulers|E] [GetGovernment('japan_feudal_government').GetName|l] mogą obejść to ograniczenie, korzystając z [Concept('decision', 'decyzji')|E] „[GetDecisionWithKey('tgp_japan_assert_regional_dominion_government_decision').GetName|V]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_install_bloc_member_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] won [attacker.GetHerHisYour] [bloc_expansion_war|E] for the [target_title.GetBaseName]",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'выиграли', Select_CString(attacker.IsFemale, 'выиграла', 'выиграл' ))] [Concept( 'bloc_expansion_war', 'войну за расширение блока' )|E] во владение [target_title.GetBaseName]",
+    "POL": "Osoba znana jako [attacker.GetShortUINameNotMe] wygrała swoją [Concept('bloc_expansion_war', 'koalicyjną wojnę o ekspansję')|E] na terytorium znane jako [target_title.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_bloc_war_victory_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [winner.GetConfederation.GetName|V] proved its [supremacy|E] over the [icon.GetConfederation.GetName|V]",
+    "RUS": "Конфедерация [winner.GetConfederation.GetName|V] доказала свое [Concept( 'supremacy', 'превосходство' )|E] над конфедерацией [icon.GetConfederation.GetName|V]",
+    "POL": "Konfederacja o nazwie [winner.GetConfederation.GetName|V] udowodniła swoją [Concept('supremacy', 'supremację')|E] nad konfederacją znaną jako [icon.GetConfederation.GetName|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_bloc_war_defeat_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "The [loser.GetConfederation.GetName|V] was forced to accept the [supremacy|E] of the [icon.GetConfederation.GetName|V]",
+    "RUS": "Конфедерация [loser.GetConfederation.GetName|V] была вынуждена признать [Concept( 'supremacy', 'превосходство' )|E] конфедерации [icon.GetConfederation.GetName|V]",
+    "POL": "Konfederacja o nazwie [loser.GetConfederation.GetName|V] została zmuszona do uznania [Concept('supremacy', 'supremacji')|E] konfederacji znanej jako [icon.GetConfederation.GetName|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_leader_aspiration_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[house_head|E] changed the [house.GetBaseName] [aspiration|E]",
+    "RUS": "[Concept('house_head', 'Глава дома')|E] [house.GetBaseName] [Select_CString(house_head.IsFemale, 'изменила', 'изменил')] [aspiration|El] дома",
+    "POL": "[house_head|E] zmienia [Concept('aspiration', 'aspirację')|E] rodu [house.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_court_poet_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[court_poet_from_task.GetEmployer.GetShortUINamePossessive|U] [GetCourtPositionType('court_poet_court_position').GetName()], [court_poet_from_task.GetShortUIName], inspired unity",
+    "RUS": "[GetCourtPositionType('court_poet_court_position').GetName()] [Select_CString(court_poet_from_task.GetEmployer.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ',court_poet_from_task.GetEmployer.GetShortUIName))], [court_poet_from_task.GetShortUIName], [Select_CString(court_poet_from_task.IsFemale, 'вдохновила', 'вдохновил' )] единство",
+    "POL": "[court_poet_from_task.GetShortUINameNotMe], [GetCourtPositionType('court_poet_court_position').GetName()|l] osoby znanej jako [court_poet_from_task.GetEmployer.GetShortUINameNotMe], inspiruje do jedności",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_bloc_change_cohesion_festival_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[icon.GetShortUIName|U] fostered unity at a [GetActivityType( 'activity_festival').GetName]",
+    "RUS": "[icon.GetShortUIName|U] [Select_CString(icon.IsLocalPlayer, 'способствуете', 'способствует' )] объединению гостей занятия «[GetActivityType( 'activity_festival').GetName]»",
+    "POL": "[icon.GetShortUINameNotMe] wspiera jedność podczas aktywności typu [GetActivityType( 'activity_festival').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_bloc_cohesion_increased",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Cohesion Improved",
+    "RUS": "Сплоченность блока увеличена",
+    "POL": "Poprawiona spójność koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_bloc_cohesion_decreased",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "Bloc Cohesion Damaged",
+    "RUS": "Сплоченность блока уменьшена",
+    "POL": "Pogorszona spójność koalicji",
+    "BEL": ""
+  },
+  {
+    "KEY": "japan_castle_construction_trigger_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[GetGovernment('japan_administrative_government').GetName] [government|E] may only build or upgrade [castle|E] [holdings|E] while the [GetLaw('disarmament_law').GetName] [imperial_policy|E] is active",
+    "RUS": "[Concept('government', 'Правительство')|E] [GetGovernment('japan_administrative_government').GetName] может строить или улучшать только [Concept('castle', 'замковые')|E] [Concept('holdings', 'владения')|E], только если действует [Concept('imperial_policy', 'принцип имперской политики')|E] «[GetLaw('disarmament_law').GetName]»",
+    "POL": "[government|E] [GetGovernment('japan_administrative_government').GetName|l] może wznosić i ulepszać [holdings|El] [Concept('castle', 'zamkowe')|E] tylko, gdy aktywna jest [imperial_policy|El] „[GetLaw('disarmament_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "tenno_duchy_creation_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_japan_government_l_belarusian.json",
+    "ENG": "[duchy|E] and [kingdom|E] [titles|E] may be created on the islands of Japan",
+    "RUS": "На Японских островах можно создавать [Concept('duchy', 'герцогские')|E] и [Concept('kingdom', 'королевские')|E] [Concept('titles', 'титулы')|E]",
+    "POL": "Na wyspach japońskich można tworzyć [titles|El] [Concept('duchies', 'księstw')|E] i [Concept('kingdom', 'królestw')|E]",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "KEY": "RELIGION_TAG_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Is part of $RELIGION|V$",
+    "RUS": "Входит в $RELIGION|V$",
+    "POL": "Jest częścią $RELIGION|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_FERVOR_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[fervor|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "[fervor|E] $COMPARATOR$ $NUM|V0$",
+    "POL": "[fervor|E] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_FERVOR_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[fervor|E] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "[fervor|E] #bold не#! $NUM|V0$ $COMPARATOR$",
+    "POL": "[fervor|E] #bold nie#! wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_FERVOR_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName]'s [fervor|E] is $COMPARATOR$ $NUM|V0$",
+    "RUS": "[fervor|E] конфессии [FAITH.GetAdjective|l] $COMPARATOR$ $NUM|V0$",
+    "POL": "[fervor|E] wiary [FAITH.GetName|l] wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_FERVOR_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName]'s [fervor|E] is #bold not#! $COMPARATOR$ $NUM|V0$",
+    "RUS": "[fervor|E] конфессии [FAITH.GetAdjective|l] #bold не#! $COMPARATOR$ $NUM|V0$",
+    "POL": "[fervor|E] wiary [FAITH.GetName] #bold nie#! wynosi $COMPARATOR$ $NUM|V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_VIRTUES_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "Имеет [Concept('virtuous', 'добродетельные')|E] [Concept('traits', 'свойства')|E] в количестве $NUM|V0$",
+    "POL": "Ma $NUM|V0$ [Concept( 'traits', 'cech' )|E] uznanych za [Concept( 'virtuous', 'cnotliwe' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_VIRTUES_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has fewer than $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "Меньше $NUM|V0$ [Concept('virtuous', 'добродетельных')|E] [Concept('traits', 'свойств')|E]",
+    "POL": "Ma mniej niż $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_VIRTUES_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "У вас не менее $NUM|V0$ [Concept( 'virtuous', 'добродетельных' )|E] [Concept( 'traits', 'свойств' )|E]",
+    "POL": "Masz $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_VIRTUES_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have fewer than $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "У вас менее $NUM|V0$ [Concept( 'virtuous', 'добродетельных' )|E] [Concept( 'traits', 'свойств' )|E]",
+    "POL": "Masz mniej niż $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_VIRTUES_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetUIName] has $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')] имеет [Concept('virtuous', 'добродетельные')|E] [traits|E] в количестве $NUM|V0$",
+    "POL": "[CHARACTER.GetUINameNotMe] ma $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_VIRTUES_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetUIName] has fewer than $NUM|V0$ [virtuous|E] [traits|E]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')] имеет меньше $NUM|V0$ [Concept('virtuous', 'добродетельных')|E] [Concept('traits', 'свойств')|E]",
+    "POL": "[CHARACTER.GetUINameNotMe] ma mniej niż $NUM|V0$ [Concept( 'virtuous', 'cnotliwych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_SINS_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "Имеет [Concept('sinful', 'греховные')|E] [Concept('traits', 'свойства')|E] в количестве $NUM|V0$",
+    "POL": "Ma $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_SINS_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has fewer than $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "Меньше $NUM|V0$ [Concept('sinful', 'греховных')|E] [Concept('traits', 'свойств')|E]",
+    "POL": "Ma mniej niż $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_SINS_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "У вас не менее $NUM|V0$ [Concept( 'sinful', 'греховных' )|E] [Concept( 'traits', 'свойств' )|E]",
+    "POL": "Masz $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_SINS_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have fewer than $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "У вас менее $NUM|V0$ [Concept( 'sinful', 'греховных' )|E] [Concept( 'traits', 'свойств' )|E]",
+    "POL": "Masz mniej niż $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_SINS_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetUIName] has $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')] имеет [Concept('sinful', 'греховные')|E] [traits|El] в количестве $NUM|V0$",
+    "POL": "[CHARACTER.GetUINameNotMe] ma $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_FAITH_SINS_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetUIName] has fewer than $NUM|V0$ [sinful|E] [traits|E]",
+    "RUS": "[Select_CString(CHARACTER.IsLocalPlayer, '', 'Персонаж ')|U][CHARACTER.GetShortUINamePossessive|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '')] имеет меньше $NUM|V0$ [Concept('sinful', 'греховных')|E] [Concept('traits', 'свойств')|E]",
+    "POL": "[CHARACTER.GetUINameNotMe] ma mniej niż $NUM|V0$ [Concept( 'sinful', 'grzesznych' )|E] [Concept( 'traits', 'cech' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOLY_SITES_CONTROLLED_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "Контролирует [holy_sites|El] в количестве $NUM|V0$",
+    "POL": "Ma pod kontrolą $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HOLY_SITES_CONTROLLED_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has fewer than $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "Контролирует [holy_sites|El] в количестве меньше $NUM|V0$",
+    "POL": "Ma pod kontrolą mniej niż $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOLY_SITES_CONTROLLED_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "У вас есть контроль над $NUM|V0$ [Concept( 'holy_site', 'святынями' )|E]",
+    "POL": "Masz pod kontrolą $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HOLY_SITES_CONTROLLED_FIRST",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have fewer than $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "Вы контролируете менее $NUM|V0$ [Concept( 'holy_site', 'святынь' )|E]",
+    "POL": "Masz pod kontrolą mniej niż $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOLY_SITES_CONTROLLED_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName] has $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "[FAITH.GetAdjective] контролирует [holy_sites|El] в количестве $NUM|V0$",
+    "POL": "[FAITH.GetName] ma pod kontrolą $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HOLY_SITES_CONTROLLED_THIRD",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[FAITH.GetName] has fewer than $NUM|V0$ [holy_sites|E] under control",
+    "RUS": "[FAITH.GetAdjective] контролирует [holy_sites|El] в количестве меньше $NUM|V0$",
+    "POL": "[FAITH.GetName] ma pod kontrolą mniej niż $NUM|V0$ [Concept( 'holy_sites', 'miejsc świętych' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RELIGION_IS_SAME_AS",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Has the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Ma tę samą [Concept( 'religion', 'religię' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_RELIGION_IS_SAME_AS",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Does not have the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Иная [religion|El], чем у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "Nie ma tej samej [Concept( 'religion', 'religii' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_SAME_RELIGION",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете одну [Concept( 'religion', 'религию' )|E]",
+    "POL": "Masz tę samą [Concept( 'religion', 'religię' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_SAME_RELIGION",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You do #bold not#! have the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "Вы и [TARGET_CHARACTER.GetShortUIName] исповедуете #bold разные#! [Concept( 'religion', 'религии' )|E]",
+    "POL": "#bold Nie#! masz tej samej [Concept( 'religion', 'religii' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_SAME_RELIGION",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] has the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "У [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] та же [religion|El], что и у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] ma tę samą [Concept( 'religion', 'religię' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_SAME_RELIGION",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] does not have the same [religion|E] as [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "У [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] иная [religion|El], нежели у [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie ma tej samej [Concept( 'religion', 'religii' )|E] co [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IT_HAS_DOMINANT_RULING_GENDER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "The [doctrines] of [FAITH.GetName] allows [rulers] to grant [titles] to [CHARACTER.GetWomenMen]",
+    "RUS": "[doctrines] конфессии [FAITH.GetAdjective|l] гласят, что [CHARACTER.GetWomenMen] могут получать [titles|l] в дар от [Concept( 'rulers', 'правителей' )|E]",
+    "POL": "[doctrines|E] wiary [FAITH.GetName|l] zezwalają [Concept( 'rulers', 'władcom' )|E] na nadawanie [Concept( 'titles', 'tytułów' )|E] [Select_CString( CHARACTER.IsFemale, 'kobietom', 'mężczyznom' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "The [doctrines] of [FAITH.GetName] does #bold not#! allow [rulers] to grant [titles] to [TARGET_CHARACTER.GetWomenMen]",
+    "RUS": "[doctrines] конфессии [FAITH.GetAdjective|l] гласят, что [TARGET_CHARACTER.GetWomenMen] #bold не#! могут получать [titles|l] в дар от [Concept( 'rulers', 'правителей' )|E]",
+    "POL": "[doctrines|E] wiary [FAITH.GetName|l] #bold nie#! zezwalają [Concept( 'rulers', 'władcom' )|E] na nadawanie [Concept( 'titles', 'tytułów' )|E] [Select_CString( TARGET_CHARACTER.IsFemale, 'kobietom', 'mężczyznom' )]. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Your [realm|E] contains at least $VALUE|0V$ [FAITH.GetName] [holy_sites|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E]",
+    "RUS": "В вашей [Concept( 'realm', 'державе' )|E] есть хотя бы $VALUE|0V$ [FAITH.GetNameNoTooltip|l]их [Concept( 'holy_sites', 'святых мест' )|E] с [FAITH.GetNameNoTooltip|l]ими [Concept( 'holders', 'владельцами' )|E]",
+    "POL": "Twoje [realm|El] posiada co najmniej liczbę [Concept('holy_sites', 'miejsc świętych')|E] ([FAITH.GetName|l]), w których [holders|El] wyznają ową wiarę: $VALUE|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Your [realm|E] or [confederation|E] does #bold not#! contain at least $VALUE|0V$ [FAITH.GetName] [holy_sites|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E] #weak (Currently: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!",
+    "RUS": "В вашей [Concept('realm', 'державе')|E] или [Concept('confederation', 'конфедерации')|E]#bold нет#! хотя бы $VALUE|0V$ [FAITH.GetNameNoTooltip|l]их [Concept('holy_sites', 'святых мест')|E] с [FAITH.GetNameNoTooltip|l]ими [Concept('holders', 'владельцами')|E] #weak (Сейчас: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!",
+    "POL": "W twoim [Concept('realm', 'państwie')|E] lub w twojej [Concept('confederation', 'konfederacji')|E] #bold nie#! ma minimalnej wymaganej liczby ($VALUE|0V$) [Concept('holy_sites', 'miejsc świętych')|E], których [holders|El] wyznają następującą wiarę: [FAITH.GetName|l] #weak (Obecnie: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Your [realm|E] contains at least $VALUE|0V$ [FAITH.GetName] [holy_site|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E]",
+    "RUS": "В вашей [Concept('realm', 'державе')|E] есть хотя бы $VALUE|0V$ [FAITH.GetNameNoTooltip|l]их [Concept('holy_site', 'святых мест')|E] с [FAITH.GetNameNoTooltip|l]ими [Concept('holders', 'владельцами')|E]",
+    "POL": "W twoim [Concept('realm', 'państwie')|E] jest minimalna wymagana liczba ($VALUE|0V$) [Concept('holy_sites', 'miejsc świętych')|E], których [holders|El] wyznają następującą wiarę: [FAITH.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Your [realm|E] does #bold not#! contain at least $VALUE|0V$ [FAITH.GetName] [holy_site|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E]",
+    "RUS": "В вашей [Concept('realm', 'державе')|E] #bold нет#! хотя бы $VALUE|0V$ [FAITH.GetNameNoTooltip|l]их [Concept('holy_sites', 'святых мест')|E] с [FAITH.GetNameNoTooltip|l]ими [Concept('holders', 'владельцами')|E]",
+    "POL": "W twoim [Concept('realm', 'państwie')|E] #bold nie#! ma minimalnej wymaganej liczby ($VALUE|0V$) [Concept('holy_sites', 'miejsc świętych')|E], których [holders|El] wyznają następującą wiarę: [FAITH.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_RELIGION_TAG_TRIGGER",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Your [faith] is #bold not#! part of $RELIGION|V$",
+    "RUS": "Ваша [faith] #bold не#! принадлежит к религии «$RELIGION|V$»",
+    "POL": "Twoja [faith|El] #bold nie#! jest częścią $RELIGION|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CAN_LEGITIMIZE_BASTARDS_IN_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetFaith.GetName] allows [bastards|E] to be [legitimized|E]",
+    "RUS": "[CHARACTER.GetFaith.GetAdjective] позволяет [Concept( 'legitimized', 'признавать' )|E] [Concept( 'bastards', 'бастардов' )|E]",
+    "POL": "[CHARACTER.GetFaith.GetName] pozwala na [Concept( 'legitimized', 'legitymizację' )|E] [Concept( 'bastards', 'bękartów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetFaith.GetName] does #EMP not#! allow [bastards|E] to be [legitimized|E]",
+    "RUS": "[CHARACTER.GetFaith.GetAdjective] #EMP не#! позволяет [Concept( 'legitimized', 'признавать' )|E] [Concept( 'bastards', 'бастардов' )|E]",
+    "POL": "[CHARACTER.GetFaith.GetName] #EMP nie#! pozwala na [Concept( 'legitimized', 'legitymizację' )|E] [Concept( 'bastards', 'bękartów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You cannot become [head_of_faith|E] if it would make you at or above your [liege|E]'s [title_rank|E]",
+    "RUS": "Вы не можете стать [Concept( 'head_of_faith', 'главой конфессии' )|E], если в результате ваш [Concept( 'title_rank', 'ранг' )|E] станет выше, чем у [Concept( 'liege', 'сюзерена' )|E]",
+    "POL": "Nie możesz zostać [Concept( 'head_of_faith', 'głową wiary' )|E], jeżeli skutkowałoby to uzyskaniem równorzędnej lub wyższej [Concept( 'title_rank', 'rangi' )|E] od tej, którą posiada twój [Concept( 'liege', 'senior' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHAR_CAN_ONLY_CREATE_ONE_FAITH",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You have already reformed or created a new [faith|E] as this character!",
+    "RUS": "Вы уже реформировали или создали новую [Concept( 'faith', 'конфессию' )|E] этим персонажем!",
+    "POL": "Zreformowano lub utworzono już nową [Concept( 'faith', 'wiarę' )|E] tą postacią!",
+    "BEL": ""
+  },
+  {
+    "KEY": "has_forced_defender",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You are a forced defender",
+    "RUS": "Вы защитник поневоле",
+    "POL": "Jesteś zmuszony do pełnienia roli obrońcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "has_pledged_attacker",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You are a pledged attacker",
+    "RUS": "Вы нападаете в силу обещания",
+    "POL": "Jesteś zobowiązany do pełnienia roli atakującego",
+    "BEL": ""
+  },
+  {
+    "KEY": "they_have_pledged_as_attacker",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "They are a pledged attacker in your faith's [GREAT_HOLY_WAR.GetName]",
+    "RUS": "Они пообещали присоединиться к нападающим, когда начнется [GREAT_HOLY_WAR.GetName]",
+    "POL": "Są zobowiązani do roli atakujących w [GREAT_HOLY_WAR.GetName] twojej wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "has_pledged_defender",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "You are a pledged defender",
+    "RUS": "Вы защитник в силу обещания",
+    "POL": "Jesteś zobowiązany do pełnienia roli obrońcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ANY_FAITH_RULER_GLOBAL",
+    "FILE_PATH": "localization/belarusian/triggers/religion_triggers_l_belarusian.json",
+    "ENG": "Any [FAITH.GetAdjectiveNoTooltip] [ruler|E]",
+    "RUS": "Любой [Concept( 'ruler', 'правитель' )|E], исповедующий [FAITH.GetAdjectiveNoTooltip]",
+    "POL": "Dowolny [ruler|El] wyznający [FAITH.GetNameNoTooltip|l]",
+    "BEL": ""
+  }
+]

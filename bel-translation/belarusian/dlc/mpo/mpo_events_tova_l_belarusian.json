@@ -1,0 +1,818 @@
+[
+  {
+    "KEY": "mpo_events_tova.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A Cold Reception",
+    "RUS": "Прохладный прием",
+    "POL": "Chłodne przyjęcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Not long after my return, I notice [demanding_relation.GetTitledFirstName] trails after me with an expectant look on [demanding_relation.GetHerHis] face. We have not seen each other in a while, as [demanding_relation.GetSheHe] remained in court during my latest journey, but it is clear that [demanding_relation.GetSheHe] wishes for more than my company. \\n\\n[demanding_relation.GetSheHe|U] peers up at me with bright eyes and asks, ",
+    "RUS": "Вернувшись домой, я почти сразу замечаю, что [demanding_relation.GetTitledFirstName|l] всё время за мной ходит. Мы не виделись довольно давно: когда я [Select_CString(ROOT.Char.IsFemale, 'уехала', 'уехал')], [Select_CString(demanding_relation.IsFemale, 'она осталась', 'он остался')] при дворе. Теперь [Select_CString(demanding_relation.IsFemale, 'ей', 'ему')] от меня явно что-то нужно — и речь не только о моем обществе.\\n\\nНаконец [Select_CString(demanding_relation.IsFemale, 'она', 'он')] набирается смелости и спрашивает, хлопая ресницами: «Ты [Select_CString(ROOT.Char.IsFemale, 'привезла', 'привез')] мне гостинец?»\\n\\nЯ ощупываю карманы, но там только [ROOT.Char.Custom('RandomWeirdObject')]. Понятия не имею, откуда у меня такое…",
+    "POL": "Niedługo po moim powrocie zauważam, że [demanding_relation.GetTitledFirstName] chodzi za mną krok w krok z wyczekującym wyrazem twarzy. Dużo czasu minęło od naszego ostatniego spotkania. [demanding_relation.GetSheHe|U] zazwyczaj zostaje na dworze i tak też było podczas ostatniej z moich podróży, ale widzę wyraźnie, że liczy na coś więcej niż jedynie moje towarzystwo. \\n\\nPrzygląda mi się błyszczącymi oczami i pyta: – Masz dla mnie prezent ze swojej wyprawy?\\n\\nPrzeglądam kieszenie, ale znajduję w nich tylko [ROOT.Char.Custom('RandomWeirdObject')]. Zupełnie nie pamiętam, skąd ten przedmiot się u mnie wziął.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Let me tell you about my travels instead.",
+    "RUS": "Давай я лучше расскажу тебе о своих странствиях.",
+    "POL": "Pozwól, że zamiast tego opowiem ci o moich podróżach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You fail to impress [demanding_relation.GetTitledFirstName].",
+    "RUS": "[demanding_relation.GetFirstNameNoTooltip] не [Select_CString(provisions_merchant.IsFemale, 'впечатлена', 'впечатлен')] вашим рассказом.",
+    "POL": "[demanding_relation.GetTitledFirstName] nie jest pod wrażeniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.a.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You impress [demanding_relation.GetTitledFirstName].",
+    "RUS": "[demanding_relation.GetFirstNameNoTooltip] в восторге от вашего рассказа.",
+    "POL": "[demanding_relation.GetTitledFirstName] jest pod wrażeniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I will go to the market and buy you something.",
+    "RUS": "Я схожу на рынок и куплю тебе что-нибудь.",
+    "POL": "Pójdę na rynek i coś ci kupię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.b.equipped_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Purchased [wanderer_toy.GetName] for [demanding_relation.GetTitledFirstName].",
+    "RUS": "[demanding_relation.GetTitledFirstName] получит от вас подарок. Это будет [wanderer_toy.GetName|l].",
+    "POL": "Kupujesz dla osoby znanej jako [demanding_relation.GetTitledFirstName] następującą zabawkę: [wanderer_toy.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_toy_name",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Toy Horse",
+    "RUS": "Игрушечная лошадка",
+    "POL": "Zabawkowy koń",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_toy_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A wooden toy horse, exquisitely carved.",
+    "RUS": "Игрушечная лошадка, искусно вырезанная из дерева.",
+    "POL": "Pięknie wyrzeźbiony drewniany zabawkowy koń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Am I willing to lie to a child?",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Способна', 'Способен')] ли я солгать ребенку?",
+    "POL": "Czy naprawdę chcę skłamać dziecku?",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.c.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "[demanding_relation.GetTitledFirstName] is not easily deceived",
+    "RUS": "[demanding_relation.GetTitledFirstName] не верит вам",
+    "POL": "[demanding_relation.GetTitledFirstName] nie daje się łatwo zwieść",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0001.c.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You convince [demanding_relation.GetTitledFirstName] that the item is special",
+    "RUS": "[demanding_relation.GetTitledFirstName] верит, что эта вещица особенная",
+    "POL": "[demanding_relation.GetTitledFirstName] daje się przekonać, że to wyjątkowy przedmiot",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Distant Chords",
+    "RUS": "Далекая мелодия",
+    "POL": "Odległe akordy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DynamicIntroLanded",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "As I wander my halls",
+    "RUS": "Бродя по залам дворца",
+    "POL": "Kiedy przechadzam się po moich komnatach",
+    "BEL": ""
+  },
+  {
+    "KEY": "DynamicIntroWanderer",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "As I walk through camp",
+    "RUS": "Гуляя по лагерю",
+    "POL": "Kiedy przechadzam się po obozie",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('DynamicIntroLoc')], I hear the faint trickle of music from the courtyard. \\n\\nThe chords flow into a harmonious chorus, which stops me in my tracks and strikes me with a deep nostalgia. I do not need to hear the lyrics to know that this song is about homesickness. \\n\\nFollowing the sound, I am met with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('musician'))], [musician.GetTitledFirstName]. [musician.GetSheHe|U] has traveled some distance from home, and is playing [musician.GetHerHis] song as if to reminiscence about where [musician.GetSheHe] came from. \\n\\nIndeed, if I close my eyes, I can picture [journey_province.GetName]'s [journey_province.Custom('TerrainInspirationLoc')].",
+    "RUS": "[ROOT.Char.Custom('DynamicIntroLoc')], я слышу, как со двора доносятся слабые отзвуки музыки.\\n\\nМелодия куплета плавно перетекает в припев, и, почувствовав острый укол ностальгии, я замираю на месте. Я не разбираю слов, но тут и без них ясно: песня о тоске по дому.\\n\\nПодойдя ближе, я понимаю, что ее исполняет мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('musician'))] [musician.GetTitledFirstName|l]. Жизнь забросила [Select_CString(musician.IsFemale, 'ее', 'его')] далеко от дома, и сейчас, играя эту мелодию, [Select_CString(musician.IsFemale, 'она', 'он')] вспоминает родные [journey_province.GetAdjective|l]ие края.\\n\\nВ самом деле, закрыв глаза, я легко могу представить себе [journey_province.Custom('TerrainInspirationLoc')].",
+    "POL": "[ROOT.Char.Custom('DynamicIntroLoc')], do moich uszu napływają nikłe dźwięki muzyki dochodzące z dziedzińca. \\n\\nAkordy płynnie układają się w harmonijny refren i zatrzymują mnie w miejscu, wciągając w głęboką nostalgię. Nie muszę słyszeć słów, żeby wiedzieć, że pieśń traktuje o tęsknocie za domem. \\n\\nPodążając za dźwiękiem, spotykam osobę, którą jest [musician.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('musician'))]. Jest dość daleko od domu i zdaje się grać tę pieśń, aby przypomnieć sobie, skąd pochodzi. \\n\\nI rzeczywiście kiedy zamknę oczy, w wyobraźni ukazuje mi się jeden widok: [journey_province.GetName] i [journey_province.Custom('TerrainInspirationLoc')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I should visit this place someday.",
+    "RUS": "Надо будет посетить эти края.",
+    "POL": "Muszę kiedyś odwiedzić to miejsce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You may gain extra [wanderer_lifestyle|E] Experience if you visit [journey_province.GetName] in a [GetActivityType('activity_journey').GetName].",
+    "RUS": "Вы можете получить больше опыта [Concept('wanderer_lifestyle', 'пути скитальца')|E], если [GetActivityType('activity_journey').GetName] приведет вас в провинцию [journey_province.GetName].",
+    "POL": "Możesz uzyskać dodatkowe doświadczenie w [Concept('wanderer_lifestyle', 'wędrownym stylu życia')|E], jeśli [GetActivityType('activity_journey').GetName|l] obejmie odwiedziny w miejscu znanym jako [journey_province.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I shall use my love of music to recruit [musician.GetHerHim].",
+    "RUS": "Я могу привлечь [Select_CString(musician.IsFemale, 'ее', 'его' )] на службу с помощью своих познаний в музыке.",
+    "POL": "Muszę użyć swojej miłości do muzyki, aby [musician.Custom('PL_go_ja')] zrekrutować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.b.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Surely a cluster is preferable over a solitary chord?",
+    "RUS": "Аккорды звучат лучше отдельных нот, правда?",
+    "POL": "Zespół jest z pewnością lepszy niż samotny akord.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.b.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You successfully convince [musician.GetTitledFirstName] to join you",
+    "RUS": "[musician.GetTitledFirstName] соглашается присоединиться к вам",
+    "POL": "[musician.GetTitledFirstName] daje się przekonać, żeby do ciebie dołączyć",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.b.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You fail to convince [musician.GetTitledFirstName] to join you",
+    "RUS": "[musician.GetTitledFirstName] не желает присоединяться к вам",
+    "POL": "[musician.GetTitledFirstName] nie daje ci się przekonać",
+    "BEL": ""
+  },
+  {
+    "KEY": "cultural_acceptance_enjoyed_music",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The [cultural_acceptance|E] between the [journey_province.GetCounty.GetCulture.GetCollectiveNoun] and the [journey_provice.GetCounty.GetCulture.GetCollectiveNoun] increases by [minor_cultural_acceptance_gain].",
+    "RUS": "[journey_province.GetCounty.GetCulture.GetName] и [journey_provice.GetCounty.GetCulture.GetName|l] повышают [Concept( 'cultural_acceptance', 'взаимную терпимость' )|E] на [minor_cultural_acceptance_gain].",
+    "POL": "[journey_province.GetCounty.GetCulture.GetCollectiveNoun] i [journey_province.GetCounty.GetCulture.GetCollectiveNoun] zwiększają [Concept('cultural_acceptance', 'tolerancję kulturową')|E] względem siebie o [minor_cultural_acceptance_gain].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0002.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Sit for a while and enjoy the music.",
+    "RUS": "Я просто посижу рядом, наслаждаясь музыкой.",
+    "POL": "Przysiądź na chwilę i ciesz się muzyką.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A Jest Too Far",
+    "RUS": "Шутка, которая зашла слишком далеко",
+    "POL": "O jeden żart za daleko",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The ominous caw of a carrion call greets me as I clear the forest edge, where I am met with the sight of empty nooses swaying slightly from the [unruly_province.Custom('GetRandomRegionalWood')] branches. Three men in chains kneel below the nooses. One of them looks almost like [unruly_province_owner.GetTitledFirstName]. \\n\\n",
+    "RUS": "Выйдя на опушку леса, я слышу зловещее карканье и вижу, что с ветвей [unruly_province.Custom('GetRandomRegionalWood')] свисают петли. Там же на коленях стоят трое. Приглядевшись, я понимаю: [Select_CString(unruly_province_owner.IsFemale, 'одна', 'один' )] из них — [Select_CString(unruly_province_owner.IsFemale, 'вылитая', 'вылитый' )] [unruly_province_owner.GetTitledFirstName|l]!\\n\\n«Эти шавки насмехались над [Select_CString(unruly_province_owner.IsFemale, 'нашей госпожой', 'нашим господином' )]! — объявляет палач. — Они выдавали себя за актеров, хотели оклеветать власть. За это [unruly_province_owner.GetTitleTierName|l] приговаривает их к повешению!»\\n\\n«Умоляю, спасите!» — взывает ко мне один из крестьян.",
+    "POL": "Złowieszcze krakanie padlinożernych ptaków dociera do moich uszu, kiedy przekraczam granicę lasu, gdzie witają mnie huśtające się puste szubienice, które [unruly_province.Custom('GetRandomRegionalWood')] trzyma na swoich gałęziach. Pod nimi klęczą trzy osoby zakute w łańcuchy. Jedna z nich wygląda niemalże jak [unruly_province_owner.GetTitledFirstName]. \\n\\n– Te podrzędne ścierwa drwiły z naszego prawowitego władcy, którym jest [unruly_province_owner.GetTitleTierName]! – krzyczy kat. – To chłopscy buntownicy udający aktorów, a ta kampania oszczerstw zakończy się ich śmiercią. \\n\\n– Proszę, pomóż nam – woła do mnie jeden z oskarżonych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Остановите казнь. Это мои актеры».",
+    "POL": "– Tak właściwie to moi aktorzy i chcę ich odzyskać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Recruit the actors by convincing the executioner that they are your subjects and only you can decide about their fate.",
+    "RUS": "Чтобы нанять актеров, вам придется убедить палача, что они — ваши подданные и что вы будете судить их сами.",
+    "POL": "Zrekrutuj aktorów, żeby przekonać kata, że są twoimi poddanymi i tylko ty możesz decydować o ich losie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.a.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You convince the executioner that the actors and their fate belong to you",
+    "RUS": "Вам удается убедить палача, что это ваши актеры",
+    "POL": "Udaje ci się przekonać kata, że zarówno aktorzy, jak i ich los, należą do ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Your deceit is caught and [unruly_province_owner.GetTitledFirstName] hears about your actions",
+    "RUS": "Ваш обман раскрыт, и [unruly_province_owner.GetTitledFirstName|l] уже о нем знает",
+    "POL": "Twoje oszustwo zostaje odkryte, a [unruly_province_owner.GetTitledFirstName] dowiaduje się o twoich uczynkach",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Наказание не соответствует преступлению».",
+    "POL": "– Kara jest nieadekwatna do przestępstwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Convince the executioner to spare the prisoners' lives.",
+    "RUS": "Вы должны попытаться убедить палача пощадить осужденных.",
+    "POL": "Przekonaj kata, aby oszczędził więźniów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.b.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You convince the executioner to release the prisoners",
+    "RUS": "Вам удается убедить палача",
+    "POL": "Przekonujesz kata, żeby uwolnił więźniów",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.b.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You fail to convince the executioner and [unruly_province_owner.GetTitledFirstName] disapproves of your meddling",
+    "RUS": "Вам не удается убедить палача, а [unruly_province_owner.GetTitledFirstName|l] [Select_CString(unruly_province_owner.IsFemale, 'недовольна', 'недоволен' )] вашим вмешательством",
+    "POL": "Nie udaje ci się przekonać kata, a [unruly_province_owner.GetTitledFirstName] nie pochwala twojego wtrącania się",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I have places to be. Let's move on.",
+    "RUS": "Меня ждут другие дела.",
+    "POL": "Mam wiele spraw do załatwienia. Ruszajmy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0003.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "They should be rightly punished for their wicked ways!",
+    "RUS": "Преступники заслужили свое наказание!",
+    "POL": "Należy ich właściwie ukarać za ich niegodziwe uczynki!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Rank Disloyalty",
+    "RUS": "Солдатское недовольство",
+    "POL": "Nielojalność w szeregach",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The evening gloom is dispelled by the light from a crackling fire, where a group of my stationed soldiers share a meal together. \\n\\n",
+    "RUS": "Свет от потрескивающего костра рассеивает вечерний сумрак. Мои солдаты ужинают, сидя у огня.\\n\\n«Эту кашу невозможно жрать даже с закрытыми глазами и зажатым носом! Тошнит уже от этого месива! Одни сгнившие зерна!» — возмущается один из них.\\n\\nОстальные согласно ворчат, похлопывая его по плечу. Похоже, среди сослуживцев он пользуется уважением.",
+    "POL": "Światło bijące od trzaskającego ognia, przy którym grupa moich stacjonujących żołnierzy zebrała się na wspólny posiłek, odpędza wieczorne przygnębienie. \\n\\n– Nawet jak zamknę oczy i zatkam nos, trudno mi przełknąć te pomyje. Nie zniosę więcej tej papki, nie będę też dłużej podkradać tych zepsutych ziaren do codziennych posiłków! \\n\\nMówi to mężczyzna, który, sądząc po serdecznym odzewie i po tym, jak pozostali z aprobatą klepią go po ramieniu, jest przywódcą grupy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Stricter rations will teach them discipline.",
+    "RUS": "Я прикажу уменьшить рацион. Это научит их дисциплине.",
+    "POL": "Oszczędniejsze racje nauczą ich dyscypliny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.a.flavor",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Hopefully the discontented soldiers do not take any drastic measures...",
+    "RUS": "Надеюсь, недовольные солдаты не пойдут на крайние меры…",
+    "POL": "Miejmy nadzieję, że niezadowoleni żołnierze nie posuną się do żadnych drastycznych środków…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You sell a portion of the army provisions.",
+    "RUS": "Вы продаете часть армейских запасов.",
+    "POL": "Sprzedajesz część zapasów armii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I will have the leader's head.",
+    "RUS": "Я отрублю наглецу голову.",
+    "POL": "Przywódca zapłaci za to głową.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The young upstart is slain on the spot.",
+    "RUS": "Дерзкий солдат убит на месте.",
+    "POL": "Młody buntownik zostaje zabity na miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0004.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I will pay for better provisions.",
+    "RUS": "Я приобрету еду получше.",
+    "POL": "Zapłacę za lepszy prowiant.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0005.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Happy Soldiers",
+    "RUS": "Довольные солдаты",
+    "POL": "Zadowoleni żołnierze",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0005.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A pillar of smoke rises ahead, and even from some distance I can smell a pleasant and gamey roast. Following the scent, I catch a group of my stationed soldiers enjoying no less than three quails. \\n\\n",
+    "RUS": "Впереди поднимается столб дыма, но я уже отсюда чувствую манящий запах жареной дичи. Последовав за ним, я выхожу к своим солдатам и вижу, как они едят сразу трех перепелов.\\n\\n«К такой жизни легко привыкнуть! — заявляет самый разговорчивый. — Хорошо, когда вокруг тихо и спокойно. Хорошо, что у крестьян всегда много пищи. Хорошо, что мы живем в мирное время и что [Select_CString(ROOT.Char.IsFemale, 'наша', 'наш' )] [ROOT.Char.GetTitleTierName|l] [Select_CString(ROOT.Char.IsFemale, 'добра', 'добр' )] к своим людям!»",
+    "POL": "Przede mną unosi się słup dymu i nawet z odległości wyczuwam przyjemny zapach pieczonej zwierzyny. Podążając za nim, trafiam na grupę moich stacjonujących żołnierzy, którzy raczą się nie mniej niż trzema przepiórkami. \\n\\n– Do takiego życia można przywyknąć – mówi najgłośniejszy z całej grupy. – Cisza i spokój są dobre dla duszy, a gdziekolwiek pójdziemy, rolnicy mają jedzenie, którym mogą się podzielić. Mamy szczęście, że żyjemy w czasach pokoju i służymy osobie tak dobrej dla swojego ludu, jaką jest [ROOT.Char.GetTitleTierName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0005.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Whip the lazy bums into shape.",
+    "RUS": "Задать бездельникам трепку!",
+    "POL": "Naucz tych leniów porządku za pomocą bicza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0005.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Discipline them for not being vigilant.",
+    "RUS": "Устроить им выволочку за недостаток бдительности.",
+    "POL": "Ukarz ich za to, że stracili czujność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0005.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Take their happiness and kind words to heart.",
+    "RUS": "Порадоваться за счастливых солдат.",
+    "POL": "Weź sobie do serca ich szczęście i miłe słowa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0006.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Just Desserts",
+    "RUS": "По заслугам",
+    "POL": "Zasłużona kara",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0006.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Solemn news, my liege: Your soldiers have raided and burned granaries in [maa_province.GetCounty.GetName]. They raved about their empty stomachs and made treasonous claims that you, my liege, forced them to steal and plunder for their daily bread. \\n\\nSome have fled into the wilderness of the countryside, those who did not were slain on the spot by those loyal to you. Hunger makes men desperate, it seems.",
+    "RUS": "Тревожные новости, мой сюзерен. Ваши солдаты устроили набег на провинцию [maa_province.GetCounty.GetName] и сожгли всё зерно. Сказали, они несколько дней сидели без еды. Кое-кто даже имел наглость утверждать, что именно вы, мой сюзерен, вынудили их добывать пропитание таким образом.\\n\\nНекоторым налетчикам удалось скрыться в глуши, остальных перебили на месте верные вам люди. Голод и правда способен довести человека до отчаяния…",
+    "POL": "– Mam przykre wieści, wasza czcigodność. Twoi żołnierze najechali i spalili spichlerze w miejscu znanym jako [maa_province.GetCounty.GetName]. Bredzili o swoich pustych żołądkach i wysnuwali zdradzieckie twierdzenia, jakoby twoja osoba zmuszała ich do kradzieży i rabunków, żeby mogli zjeść posiłek. \\n\\n– Niektórzy uciekli w dziksze okolice, a ci, którzy nie zdołali, zostali z miejsca zamordowani przez tych, którzy są ci lojalni. Wygląda na to, że z głodu ludzie popadają w desperację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0006.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Those curs!",
+    "RUS": "Мерзавцы!",
+    "POL": "Co za kundle!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_special_flavor_events.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The Steppe of Endless Water",
+    "RUS": "Бескрайняя водная гладь",
+    "POL": "Step bezkresnej wody",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_special_flavor_events.0001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I heard tales about the sea. About its beauty and its terror and how it eclipses even the steppe in both. Today, I see the great water myself for the first time.\\n\\nAnd finally I understand the gleam in raconteurs' eyes while they scrambled for words to describe the endless water. I sit down and stare into the horizon, where the familiar clear sky of Tengri gently touches the blue water.\\n\\nI feel salty mist softly caressing my face. The serene rhythm of waves fills my ears. The tranquility of the sea is overwhelming, if only for a moment.",
+    "RUS": "Я знаю немало историй о море. Говорят, оно прекрасно — и в то же время внушает еще больше ужаса, чем наша бескрайняя степь. Сегодня я впервые вижу его необъятные просторы воочию.\\n\\nТеперь я понимаю тех, кто с горящими глазами пытается подобрать слова, чтобы описать эту бесконечную водную гладь. Устроившись на берегу, я вглядываюсь в горизонт и наблюдаю, как синее небо Тенгри сливается с голубой водой.\\n\\nЯ ощущаю нежные прикосновения солоноватого тумана и слушаю мерные звуки волн. Безмятежность моря поражает меня до глубины души…",
+    "POL": "O morzu znam tylko opowieści. O jego pięknie i grozie, i o tym, jak zarówno w jednym, jak i drugim przyćmiewa nawet stepy. Dziś po raz pierwszy widzę tę wielką wodę na własne oczy.\\n\\nW końcu rozumiem ten błysk w oku gawędziarzy, którzy szukali słów do opisania tej bezkresnej tafli. Siedzę i wpatruję się w horyzont, gdzie znajome, czyste niebo Tengriego delikatnie dotyka błękitu wody.\\n\\nCzuję, jak słona mgiełka łagodnie pieści moją twarz, a spokojny rytm fal wypełnia moje uszy. Spokój morza jest wszechogarniający, nawet jeśli trwa tylko chwilę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_special_flavor_events.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Such majesty...",
+    "RUS": "Это невероятно красиво…",
+    "POL": "Jest tak majestatyczne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_special_flavor_events.0001.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I think I will stay here for a while",
+    "RUS": "Пожалуй, я побуду здесь еще.",
+    "POL": "Chyba zostanę tu na chwilę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Knucklebone Shooting",
+    "RUS": "Игра в бабки",
+    "POL": "Rzucanie kośćmi",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I hear the familiar song of contest and #EMP — CRACK!#! — of bone tokens struck against their wooden target, long before my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('challenger_anda'))] [challenger_anda.GetTitledFirstName] approaches me with a yet more common glint of challenge in [challenger_anda.GetHerHis] eye.\\n\\n",
+    "RUS": "Я издалека слышу знакомую песню игроков и, конечно, #EMP треск#!, с которым костяшки ударяются о деревянную мишень. Вскоре [Select_CString(challenger_anda.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('challenger_anda'))] [challenger_anda.GetTitledFirstName] подбегает ко мне с горящими от азарта глазами.\\n\\n«Давай играть в [Glossary( 'шагай', 'SHAGAI_GLOSS')]! Будешь в моей команде?»",
+    "POL": "Znajome odgłosy zawodów i – #EMP BACH!#! – kości uderzających o drewniany cel docierają do moich uszu na długo, zanim [challenger_anda.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('challenger_anda'))], podchodzi do mnie z dobrze znanym błyskiem wyzwania w oczach.\\n\\n– Co powiesz na to, że połączymy siły i rozegramy rundkę w [Glossary( 'szagaj', 'SHAGAI_GLOSS' )]? – pyta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Let us outsmart our opponents.",
+    "RUS": "Давай перехитрим соперников.",
+    "POL": "Przechytrzmy przeciwników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.a.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You win the game using excellent tactics",
+    "RUS": "Вы проявляете чудеса тактики и побеждаете",
+    "POL": "Wygrywasz grę, używając doskonałej strategii",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.a.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Your mind proved dull",
+    "RUS": "Вы слишком туго соображали",
+    "POL": "Nie udało ci się wykazać bystrością umysłu",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "I will crush our opponents' tokens!",
+    "RUS": "Я перебью фишки соперников!",
+    "POL": "Zmiażdżę kości przeciwników!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.b.tt.success",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You won the game using your brawn",
+    "RUS": "Вы выиграли за счет силы",
+    "POL": "Wygrywasz grę, używając siły",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.b.tt.failure",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Your brawn proved feeble",
+    "RUS": "Вам не хватило сил",
+    "POL": "Nie udało ci się wykazać siłą",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0025.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Not today, friend.",
+    "RUS": "Не сегодня, дружок.",
+    "POL": "Nie dzisiaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_sharp_wits_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Sharp Wits",
+    "RUS": "Острый ум",
+    "POL": "Bystry umysł",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_sharp_wits_modifier.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "This character sharpens their senses and wits through tactical feats in knucklebone-shooting.",
+    "RUS": "Этот персонаж отточил ум и реакцию, продумывая тактику для игры в бабки.",
+    "POL": "Ta postać ma umysł ostry jak brzytwa dzięki taktycznym wyczynom podczas rzucania kośćmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_thunder_knuckles_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Thunder Knuckles",
+    "RUS": "Громовые кости",
+    "POL": "Piorunujące kłykcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_thunder_knuckles_modifier.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "This character throws knucklebones with with force alike a mighty thunderclap.",
+    "RUS": "Этот персонаж метает бабки с силой, подобной буре с громом и молниями.",
+    "POL": "Ta postać rzuca kośćmi z mocą pioruna.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A Sublime Vision",
+    "RUS": "Прекрасное видение",
+    "POL": "Niesamowita wizja",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The sun barely colors the horizon when my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visionary'))] [visionary.GetTitledFirstName] rushes to my side, cheeks painted in a flush and eyes alight.\\n\\n",
+    "RUS": "Рыжие лучи заката едва касаются горизонта, когда [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visionary'))] [visionary.GetTitledFirstName] прибегает ко мне с раскрасневшимся лицом и горящими глазами.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleTierName], во сне ко мне пришло удивительное видение! — восклицает [Select_CString(visionary.IsFemale, 'она', 'он' )]. —",
+    "POL": "Słońce ledwo zabarwia horyzont, gdy [visionary.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('visionary'))], podbiega do mnie z zarumienioną twarzą i błyskiem w oczach.\\n\\n– Niech [ROOT.Char.GetTitleTierName] mnie wysłucha! Muszę podzielić się wizją z mojego snu! – woła. – Oto, co mi się ukazało:",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.desc_red",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "a red ox with bells on its horns, throwing its head from side to side. It bellowed ",
+    "RUS": "Красный вол с рогами, обвешанными бубенчиками, который мерно качал головой. И он проревел,",
+    "POL": "czerwony wół z dzwonkami na rogach, rzucający łbem na prawo i lewo. Zawył, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.desc_white",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "a white leopard jumping from the clouds and gouging deep lines in the sand. It growled ",
+    "RUS": "Белый леопард спрыгнул с облаков и прочертил когтями глубокие борозды в песке. И он прорычал,",
+    "POL": "biały lampart, który zeskoczył z chmur i wyrył w piachu głębokie bruzdy. Warknął, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.desc_green",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "a green rooster running on the rays of the sun and shaking its wings. It crowed ",
+    "RUS": "Зеленый петух купался в лучах солнца, потрясая крыльями. Он прокричал,",
+    "POL": "zielony kogut zbiegający po promieniach słonecznych i potrząsający skrzydłami. Zapiał, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.desc_outro",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "that the great [ROOT.Char.GetTitledFirstNameNoTooltip] is destined to rule over both heaven and the earth!",
+    "RUS": "что [Select_CString(ROOT.Char.IsFemale, 'великая', 'великий' )] [ROOT.Char.GetTitledFirstNameNoTooltip] будет править землей и небесами!»",
+    "POL": "że [ROOT.Char.GetTitledFirstNameNoTooltip] – wspaniała osobistość! – pewnego dnia obejmie władzę nad niebem i ziemią!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "You are truly blessed with special talents!",
+    "RUS": "Да у тебя особый дар!",
+    "POL": "Pobłogosławiono cię wyjątkowymi talentami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The heavens must favor me and my deeds.",
+    "RUS": "Небеса благоволят мне и моим деяниям.",
+    "POL": "Niebiosa są przychylne mnie i moim działaniom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0030.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A fine story.",
+    "RUS": "Красивая история.",
+    "POL": "Wspaniała historia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Heaven's Favor",
+    "RUS": "Благоволение небес",
+    "POL": "Przychylność niebios",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_modifier.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "This character is emboldened by fortuitous visions.",
+    "RUS": "Этот персонаж приободрен благоприятными видениями.",
+    "POL": "Ta postać nabrała śmiałości dzięki pomyślnym wizjom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_martial_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "$mpo_heavens_favor_modifier$",
+    "RUS": "$mpo_heavens_favor_modifier$",
+    "POL": "$mpo_heavens_favor_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_martial_modifier.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "$mpo_heavens_favor_modifier.desc$",
+    "RUS": "$mpo_heavens_favor_modifier.desc$",
+    "POL": "$mpo_heavens_favor_modifier.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_diplo_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "$mpo_heavens_favor_modifier$",
+    "RUS": "$mpo_heavens_favor_modifier$",
+    "POL": "$mpo_heavens_favor_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_heavens_favor_diplo_modifier.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "$mpo_heavens_favor_modifier.desc$",
+    "RUS": "$mpo_heavens_favor_modifier.desc$",
+    "POL": "$mpo_heavens_favor_modifier.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The Man From the Mountain",
+    "RUS": "Житель гор",
+    "POL": "Człowiek z gór",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('distressed_anda'))] [distressed_anda.GetTitledFirstName] slaps the felt flap out of the way as he barges into my yurt. His breast heaves with pent-up frustration. \\n\\n",
+    "RUS": "Войлочный полог отлетает в сторону, и [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('distressed_anda'))] [distressed_anda.GetTitledFirstName] врывается ко мне в юрту. Грудь его вздымается от плохо сдерживаемого отчаяния. \\n\\n«Только послушай! — кричит он — [pregnant_woman.GetTitledFirstName] понесла, и я уверен, что не от меня».\\n\\n«На мои упреки она ответила, что во сне медведь сошел к ней с высокой горы и обратился облаком дыма, похожим на человека, который проник в ее живот. На следующее утро она почувствовала, что беременна».",
+    "POL": "[distressed_anda.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('distressed_anda'))], szarpie za filcową klapę jurty i wpada do środka. Jego pierś unosi się od ledwo powstrzymywanej frustracji.\\n\\n– Posłuchaj tylko! – wykrzykuje. – [pregnant_woman.GetTitledFirstName] jest brzemienna i to na pewno nie za moją sprawą!\\n\\n– Gdy zażądałem wyjaśnienia, powiedziała mi, że przyśnił jej się niedźwiedź, który zszedł z wielkiej góry. Bestia zamieniła się w dym w kształcie mężczyzny, a następnie ten dym opadł na jej brzuch. Następnego ranka zauważyła pierwsze objawy ciąży – opowiada.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Rejoice! The heavens sent you a child.",
+    "RUS": "Возрадуйся! Небеса послали тебе дитя.",
+    "POL": "Raduj się! Niebiosa zesłały ci dziecko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "The child may be born with a remarkable skill.",
+    "RUS": "Может родиться ребенок с особым талантом.",
+    "POL": "Być może dziecko urodzi się z jakąś niebywałą zdolnością.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "She feeds you nothing but lies.",
+    "RUS": "Она просто тебе врет.",
+    "POL": "Ta kobieta karmi cię kłamstwami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0035.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "That is the funniest thing I ever heard!",
+    "RUS": "Вот умора!",
+    "POL": "To przezabawna historia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A Treasured Friend",
+    "RUS": "Одаренный друг",
+    "POL": "Wartościowy przyjaciel",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetTitleAsName], пусть дружба наша крепче овечьего хребта, я хочу преподнести тебе подарок в знак моей нерушимой верности, — говорит [Select_CString(generous_anda.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('generous_anda'))] [generous_anda.GetTitledFirstName], когда мы греемся у костра.\\n\\n",
+    "POL": "– Niech [ROOT.Char.GetTitleAsName] mnie wysłucha! Choć nasza przyjaźń jest solidna niczym grzbiet owcy, pragnę wręczyć ci ten podarunek w dowód mojej niezachwianej lojalności – mówi [generous_anda.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('generous_anda'))], gdy siedzimy razem przy ognisku.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.desc_knucklebone",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "He reaches into his pocket and withdraws a pouch, which opens to reveal a copper-weighted [Glossary( 'shagai', 'SHAGAI_GLOSS')] token. Then, he continues, ",
+    "RUS": "[Select_CString(generous_anda.IsFemale, 'Она', 'Он' )] достает из кармана мешочек, внутри которого лежит залитая медью бабка для игры в [Glossary( 'шагай', 'SHAGAI_GLOSS')]. После [Select_CString(generous_anda.IsFemale, 'она', 'он' )] продолжает: «Я [Select_CString(generous_anda.IsFemale, 'выиграла', 'выиграл' )] с ней немало состязаний и верю, что она принесет тебе удачу».",
+    "POL": "Sięga do kieszeni i wyciąga sakiewkę, w której znajduje się obciążona miedzią kostka do gry w [Glossary( 'szagaj', 'SHAGAI_GLOSS' )].\\n\\n– Ta kostka pozwoliła mi wygrać niejedną grę. Z pewnością przyniesie ci szczęście.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.desc_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "He gestures towards the sheep's pastures in the distance and continues, ",
+    "RUS": "[Select_CString(generous_anda.IsFemale, 'Она', 'Он' )] указывает на пастбище вдалеке и продолжает: «Я [Select_CString(generous_anda.IsFemale, 'выиграла', 'выиграл' )] в [Glossary( 'шагай', 'SHAGAI_GLOSS')] целое стадо овец. Пусть они станут пищей и опорой для тебя и твоей семьи».",
+    "POL": "Wskazuje gestem na znajdujące się w oddali pastwiska i kontynuuje:\\n\\n– Jest tu stado owiec, które przyszło mi wygrać w [Glossary( 'szagaj', 'SHAGAI_GLOSS' )]. Od tej pory niechaj karmią i utrzymują twoją rodzinę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.desc_axe",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "He reveals a battle-axe, finely polished and no doubt equally sharp. Then, he continues, ",
+    "RUS": "[Select_CString(generous_anda.IsFemale, 'Она', 'Он' )] показывает мне боевой топор — прекрасно отполированный и, без сомнения, столь же прекрасно заточенный. Затем [Select_CString(generous_anda.IsFemale, 'она', 'он' )] продолжает. — Этот трофей достался мне в последнем сражении, где мы с тобой одержали победу. Я [Select_CString(generous_anda.IsFemale, 'вырвала', 'вырвал' )] его из мертвых рук поверженного врага».",
+    "POL": "Pokazuje topór bitewny, pięknie wypolerowany i bez wątpienia ostry, i kontynuuje:\\n\\n– Ten topór trafił w moje ręce podczas naszej ostatniej wspólnej walki. Udało mi się wyrwać go z zimnych dłoni poległego wroga.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Thank you for the generous offering.",
+    "RUS": "Спасибо за щедрый подарок.",
+    "POL": "Dziękuję za ten szczodry podarunek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.a.equipped_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Received [gift.GetName].",
+    "RUS": "Получен подарок: [gift.GetName].",
+    "POL": "Otrzymujesz podarunek: [gift.GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_events_tova.0045.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Your friendship is the only gift I need.",
+    "RUS": "Нет даров ценнее твоей дружбы.",
+    "POL": "Twoja przyjaźń to jedyny dar, którego mi trzeba.",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_bone_name",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Copper-Weighted knucklebone",
+    "RUS": "Медная бабка",
+    "POL": "Obciążona miedzią kość",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_bone_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A sheep's knuckle inlaid with copper for use in knucklebone shooting games.",
+    "RUS": "Утяжеленная медью овечья костяшка для игры в бабки.",
+    "POL": "Ozdobiona miedzią kość owcy wykorzystywana w grach polegających na rzucaniu kośćmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_axe_name",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "Axe of Conquest",
+    "RUS": "Топор завоевателя",
+    "POL": "Zdobyczny topór",
+    "BEL": ""
+  },
+  {
+    "KEY": "gifted_axe_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_events_tova_l_belarusian.json",
+    "ENG": "A battle-axe, perfectly balanced.",
+    "RUS": "Идеально сбалансированный боевой топор.",
+    "POL": "Idealnie wyważony topór bitewny.",
+    "BEL": ""
+  }
+]

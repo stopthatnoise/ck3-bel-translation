@@ -1,0 +1,482 @@
+[
+  {
+    "KEY": "fp1_tbc.0000.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "Trial-by-Combat",
+    "RUS": "Суд поединком",
+    "POL": "Pojedynek sądowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]",
+    "RUS": "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]",
+    "POL": "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "I arrive in the designated spot near [duel_location.GetBaseNameNoTier] in good time and find [champion.GetTitledFirstName] is already waiting for me, along with a small entourage of witnesses.",
+    "RUS": "Я прихожу вовремя. [duel_location.GetBaseNameNoTier] не пустует — [champion.GetTitledFirstName] с небольшой компанией свидетелей уже ждет меня.",
+    "POL": "Przybywam na wyznaczone miejsce w pobliżu [duel_location.GetAdjective] w odpowiednim czasie i spostrzegam, że [champion.GetTitledFirstName] już na mnie czeka wraz z małą świtą świadków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.desc.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nWhatever else [champion.GetSheHe] may be, [champion.GetFirstNameNoTooltip] is fit to fight, and willing to risk meeting me [champion.GetWomanMan] to [actor.GetWomanMan].",
+    "RUS": "\\n\\nЧто ни говори, а [champion.GetFirstNameNoTooltip] может сражаться, и [champion.GetSheHe] [Select_CString(champion.IsFemale, 'готова', 'готов' )] встретиться со мной лицом к лицу.",
+    "POL": "\\n\\nKimkolwiek by nie był[Select_CString(champion.IsFemale, 'a', '' )], [champion.GetFirstNameNoTooltip] jest zdoln[Select_CString(champion.IsFemale, 'a', 'y' )] do walki i gotow[Select_CString(champion.IsFemale, 'a', 'y' )] zaryzykować spotkanie ze mną jak [champion.GetWomanMan] z [Select_CString(actor.IsFemale, 'kobietą', 'mężczyzną' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.desc.recipient_has_champion",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "As [recipient.GetTitledFirstName] is unfit to fight [recipient.GetHerselfHimself], [champion.GetFirstNameNoTooltip] has agreed to champion for [recipient.GetHerHim].",
+    "RUS": "[recipient.GetTitledFirstName] не может сражаться самостоятельно, и [champion.GetFirstNameNoTooltip] будет биться за н[SCOPE.sC('recipient').GetHerHis].",
+    "POL": "Ponieważ [recipient.GetTitledFirstName] nie jest w stanie walczyć sam[Select_CString(recipient.IsFemale, 'a', 'emu' )], [champion.GetFirstNameNoTooltip] zgodził[Select_CString(champion.IsFemale, 'a', '' )] się walczyć za [Select_CString(recipient.IsFemale, 'nią', 'niego' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nThe formalities are brief. We all know why we're here, and we're long past the point of talking. Weapons are handed out, and our retinues retreat to observe from a safe distance.",
+    "RUS": "\\n\\nПодготовка не занимает много времени. Мы знаем, зачем собрались, а время разговоров давно прошло. Берем оружие, и сопровождающие отступают на безопасное расстояние.",
+    "POL": "\\n\\nFormalności są krótkie. Wszyscy wiemy, po co tu jesteśmy, i już dawno przestaliśmy rozmawiać. Broń zostaje wydana, a nasze zastępy wycofują się, by obserwować z bezpiecznej odległości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.trigger_failure.actor",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "My [trial_by_combat_trial|E] against [recipient.GetFirstNameNoTooltip] has invalidated",
+    "RUS": "Мой [Concept( 'trial_by_combat', 'суд поединком' )|E] против персонажа [recipient.GetFirstNameNoTooltip] отменен",
+    "POL": "Moja [trial_by_combat_trial|El] przeciwko postaci [recipient.GetFirstNameNoTooltip] została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.trigger_failure.recipient",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "My [trial_by_combat_trial|E] against [actor.GetFirstNameNoTooltip] has invalidated",
+    "RUS": "Мой [Concept( 'trial_by_combat', 'суд поединком' )|E] против персонажа [actor.GetFirstNameNoTooltip] отменен",
+    "POL": "Moja [trial_by_combat_trial|El] przeciwko postaci [actor.GetFirstNameNoTooltip] została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "May the best [actor.GetWomanMan] win.",
+    "RUS": "Пусть победит сильнейший.",
+    "POL": "Niech wygra najlepszy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0001.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "The [trial_by_combat|E] begins!",
+    "RUS": "[trial_by_combat|E] начинается!",
+    "POL": "[trial_by_combat|E] rozpoczyna się!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0021.trigger_failure.actor",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0001.trigger_failure.actor$",
+    "RUS": "$fp1_tbc.0001.trigger_failure.actor$",
+    "POL": "$fp1_tbc.0001.trigger_failure.actor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0021.trigger_failure.recipient",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0001.trigger_failure.recipient$",
+    "RUS": "$fp1_tbc.0001.trigger_failure.recipient$",
+    "POL": "$fp1_tbc.0001.trigger_failure.recipient$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0031.opening",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[recipient.Custom2('AppropriateGreeting',actor)]",
+    "RUS": "[recipient.Custom2('AppropriateGreeting',actor)]",
+    "POL": "[recipient.Custom2('AppropriateGreeting',actor)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0031.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "Fight #EMP you#!? Perhaps you should consider retiring to become a jester. There's not a chance in [recipient.GetFaith.NegativeAfterLife].\\n\\nPlease feel free to keep sending more written japes to [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].",
+    "RUS": "Драться с #EMP тобой#!? Пожалуй, тебе пора сменить деятельность и стать шутом. Даже [recipient.GetFaith.NegativeAfterLife] смеется над тобой.\\n\\nПродолжай веселье, [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] с нетерпением ждет твоих посланий.",
+    "POL": "Walczyć z #EMP tobą#!? Może rozważysz przejście na emeryturę i zostanie błaznem. To w ogóle nie wchodzi w rachubę.\\n\\nProszę nie krępuj się i wysyłaj więcej pisemnych żartów do miejsca znanego jako [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0031.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "That [recipient.Custom2('InsultAdjective', SCOPE.sC('actor'))] [recipient.Custom2('InsultNoun', SCOPE.sC('actor'))]!",
+    "RUS": "[recipient.Custom2('InsultAdjective', SCOPE.sC('actor'))|U] [recipient.Custom2('InsultNoun', SCOPE.sC('actor'))]!",
+    "POL": "Co za [recipient.Custom2('InsultNoun', SCOPE.sC('actor'))]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: Victory!",
+    "RUS": "$fp1_tbc.0000.t$: победа!",
+    "POL": "$fp1_tbc.0000.t$: zwycięstwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "Resting easy back in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I exult in my success, my [actor.Custom('signature_weapon')] laid across my lap.\\n\\n",
+    "RUS": "Вот и [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Я отдыхаю, наслаждаясь победой, [actor.Custom('signature_weapon')] лежит на колене.\\n\\n",
+    "POL": "Odpoczywając wygodnie na ziemiach znanych jako [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], cieszę się z mojego sukcesu. [actor.Custom('signature_weapon')|U] leży na moich kolanach.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.opponent_died",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[champion.GetTitledFirstNamePossessive] blood still cakes in fresh grooves and notches along the weapon's [actor.Custom('SignatureWeaponEndType')], reminding me of the [recipient.GetWomanMan]'s last moments.",
+    "RUS": "Глядя на ручейки крови, бегущие по оружию, я вспоминаю, как [Select_CString(champion.IsFemale, 'умирала', 'умирал' )] [champion.GetTitledFirstName].",
+    "POL": "Patrząc na wciąż lepiącą się w świeżych bruzdach i nacięciach wzdłuż rękojeści broni krew, przypominam sobie, jak umierał[Select_CString(champion.IsFemale, 'a', '' )] [champion.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.opponent_lives.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "The satisfying aches and pains rippling across my body remind me of small moments in the bout, little victories and fierce-fought defeats, each winding towards [recipient.GetTitledFirstNamePossessive] loss.",
+    "RUS": "Тело приятно побаливает, я мысленно перебираю отдельные моменты боя — малые победы, болезненные уступки, — благодаря которым [recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'потерпела', 'потерпел' )] поражение.",
+    "POL": "Satysfakcjonujące bóle falujące po moim ciele przypominają mi o małych chwilach w walce, małych zwycięstwach i zaciętych porażkach, z których każda ostatecznie spowoduje, że [recipient.GetTitledFirstName] przegra.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.opponent_lives.recipient_has_champion",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "In an ideal world, I'd have been able to land the winning blow squarely on [recipient.GetTitledFirstName]. Sadly, it wasn't to be; beating [champion.GetTitledFirstName] to a pulp would have to do instead.",
+    "RUS": "В идеальном мире мой удар [Select_CString(recipient.IsFemale, 'получила', 'получил' )] бы [recipient.GetTitledFirstName]. К несчастью, мир не идеален, и в кровавое месиво превращается [champion.GetTitledFirstName].",
+    "POL": "W idealnym świecie, mój zwycięski cios otrzymał[Select_CString(recipient.IsFemale, 'aby', 'by' )] [recipient.GetTitledFirstName]. Niestety, tak się nie stało; zamiast tego musi mi wystarczyć, że [champion.GetTitledFirstName] został[Select_CString(champion.IsFemale, 'a zbita', ' zbity' )] na miazgę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.reward.gold",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nA sack of silver rests against my shin, the satisfying weight a testament to justice well-served. I had each coin counted, one by one, in front of #EMP everyone#! before we rode home.",
+    "RUS": "\\n\\nНа лодыжку приятно давит мешочек с серебром — живое свидетельство торжества справедливости. Прежде чем мы отправились обратно, все монетки до единой были пересчитаны на глазах у #EMP всех#!.",
+    "POL": "\\n\\nSakiewka ze srebrem spoczywa na mojej goleni, a jej satysfakcjonujący ciężar jest świadectwem dobrze wymierzonej sprawiedliwości. Kazał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] policzyć każdą monetę, jedną po drugiej, przed #EMP wszystkimi#!, zanim pojechaliśmy do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.reward.weak_hook",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nIt took an hour or more for the last of the oaths to be sworn in front of our assembled witnesses. Some day, I'll invoke those oaths and take my payment in full.",
+    "RUS": "\\n\\nЧтобы произнести последние клятвы перед свидетелями, потребовалось не менее часа. Однажды я припомню эти клятвы и потребую выплатить все до конца.",
+    "POL": "\\n\\nMinęła co najmniej godzina, zanim ostatnia z przysiąg została złożona przed zgromadzonymi świadkami. Pewnego dnia powołam się na te przysięgi i odbiorę swoją zapłatę w całości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.reward.humiliation",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nThe long, drawn-out apology, the abasement, all of it witnessed by a gaggle of hired poets... simply #EMP glorious#!. It may be years before [recipient.GetFirstNameNoTooltip] recovers from this humiliation.",
+    "RUS": "\\n\\nДолгое, вымученное извинение, ползание на брюхе перед оравой наемных поэтов... просто #EMP великолепно#!. Пройдут годы, прежде чем [recipient.GetFirstNameNoTooltip] оправится от такого унижения.",
+    "POL": "\\n\\nDługie, rozwlekłe przeprosiny, upokorzenie, grupa wynajętych poetów jako naoczni świadkowie tego wszystkiego… Po prostu #EMP wspaniale#!. Może minąć wiele lat, zanim [recipient.GetFirstNameNoTooltip] otrząśnie się z tej hańby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nYesterday, we put our quarrel before [actor.GetFaith.PantheonTerm], and [actor.GetFaith.PantheonTerm] answered wisely.",
+    "RUS": "\\n\\nСо вчерашнего дня о нашей ссоре знает [actor.GetFaith.PantheonTerm], и [actor.GetFaith.PantheonTerm] выносит мудрое решение.",
+    "POL": "\\n\\nWczoraj bogowie i [actor.GetFaith.PantheonTerm] usłyszeli o naszym sporze i udzielili nam mądrej odpowiedzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0041.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "Justice is served.",
+    "RUS": "Справедливость восторжествовала.",
+    "POL": "Sprawiedliwości stało się zadość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: Defeat!",
+    "RUS": "$fp1_tbc.0000.t$: поражение!",
+    "POL": "$fp1_tbc.0000.t$: porażka!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "How did it come to this? I went before [actor.GetFaith.PantheonTerm] to seek #EMP justice#!, and I'm rewarded with suffering and humiliation. I spoke not one word the entire ride back to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\\n\\n",
+    "RUS": "Как такое могло произойти? Когда [actor.GetFaith.PantheonTerm] обещает #EMP торжество справедливости#!, разве должны меня постигнуть такие унижения и боль?! Впереди [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], но я всю дорогу храню абсолютное молчание.\\n\\n",
+    "POL": "Jak do tego doszło? Bogowie i [actor.GetFaith.PantheonTerm] patrzą na mnie, gdy szukam #EMP sprawiedliwości#!, ale w nagrodę dają mi jeno cierpienie i upokorzenie. Przez całą drogę powrotną do obszaru o nazwie [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] milczę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.desc.opponent_lives.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "I don't understand how [recipient.GetTitledFirstName] beat me. I was in the #EMP right#!. I was #EMP supposed#! to win, that's the whole point of a $game_concept_trial_by_combat$.",
+    "RUS": "Не понимаю, как [recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'сумела', 'сумел' )] меня победить. Правда была #EMP на моей стороне#!. Победа #EMP должна была#! быть моей, разве не в этом смысл [Concept( 'trial_by_combat', 'суда поединком' )|E]?",
+    "POL": "Nie rozumiem, jak [recipient.GetTitledFirstName] mnie pokonał[Select_CString(recipient.IsFemale, 'a', '' )]. Miał[Select_CString(actor.IsFemale, 'am', 'em' )] #EMP rację#!. #EMP Powin[Select_CString(actor.IsFemale, 'nam', 'ienem' )]#! był[Select_CString(actor.IsFemale, 'a', '' )] wygrać, na tym polega próba walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.desc.opponent_lives.recipient_has_champion",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "In a fair fight I'd #EMP obviously#! have beaten [recipient.GetFirstName]! Damn and blast [champion.GetTitledFirstName], and these hampering traditions!",
+    "RUS": "#EMP Ясное дело,#! в честном бою [recipient.GetFirstName] ни за что не [Select_CString(recipient.IsFemale, 'одержала', 'одержал' )] бы победу! Будь ты [Select_CString(champion.IsFemale, 'проклята', 'проклят' )], [champion.GetTitledFirstName], и будь прокляты замшелые традиции!",
+    "POL": "#EMP Oczywiście#! w uczciwej walce, [recipient.GetFirstName] nigdy by nie wygrał[Select_CString(recipient.IsFemale, 'a', '' )]! Niech cię szlag [champion.GetTitledFirstName] i te przeklęte tradycje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nNow all the world regards our issues settled and justice to have been meted out.",
+    "RUS": "\\n\\nТеперь все считают, что наш спор решен, а справедливость восторжествовала.",
+    "POL": "\\n\\nTeraz cały świat uważa, że nasze sprawy zostały załatwione, a sprawiedliwość wymierzona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0051.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "Pah, there was no justice here.",
+    "RUS": "Тьфу, нет здесь никакой справедливости.",
+    "POL": "Phi, tu nie było sprawiedliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: Selecting a Champion",
+    "RUS": "$fp1_tbc.0000.t$: выбор защитника",
+    "POL": "$fp1_tbc.0000.t$: wybór czempiona",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "I have agreed to [actor.GetTitledFirstNamePossessive] request for a $game_concept_trial_by_combat$, but it would be inappropriate for me to fight [actor.GetHerHim] personally.\\n\\nTradition demands that I choose a champion to fight on my behalf, but who to choose?",
+    "RUS": "Когда [actor.GetTitledFirstName] предлагает $game_concept_trial_by_combat$, я соглашаюсь, но сражаться лично было бы недостойно.\\n\\nОбычай требует от меня найти защитника моих интересов, но кто это будет?",
+    "POL": "Kiedy [actor.GetTitledFirstName] zaproponował[Select_CString(actor.IsFemale, 'a', '' )] próbę walki, zgodził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się, ale niestosowne byłoby walczyć z [Select_CString(actor.IsFemale, 'nią', 'nim' )] osobiście.\\n\\nTradycja wymaga, abym wybrał[Select_CString(ROOT.Char.IsFemale, 'a', '' )] czempiona, który będzie walczył w moim imieniu, ale kogo wybrać?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.bout_moves_forward",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "The bout moves forward...",
+    "RUS": "Бой продолжается...",
+    "POL": "Walka toczy się dalej…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_best.GetTitledFirstNameNoTooltip] is among the greatest of my $knight_culture_player_plural_no_tooltip_lowercase$!",
+    "RUS": "У меня есть могучие $knight_culture_player_plural_no_tooltip_lowercase$, и [knight_best.GetTitledFirstNameNoTooltip] — [Select_CString(knight_best.IsFemale, 'одна', 'один' )] из лучших!",
+    "POL": "[knight_best.GetTitledFirstNameNoTooltip] jest jednym z moich najwspanialszych $knight_culture_player_plural_possessive_no_tooltip_lowercase$!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_best.GetTitledFirstName] will fight for you",
+    "RUS": "[knight_best.GetTitledFirstName] будет сражаться за вас",
+    "POL": "[knight_best.GetTitledFirstName] będzie walczyć za ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_alternative.GetTitledFirstNameNoTooltip] is a good alternative...",
+    "RUS": "[knight_alternative.GetTitledFirstNameNoTooltip] — тоже хороший вариант...",
+    "POL": "[knight_alternative.GetTitledFirstNameNoTooltip] jest dobrą alternatywą…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_alternative.GetTitledFirstName] will fight for you",
+    "RUS": "[knight_alternative.GetTitledFirstName] будет сражаться за вас",
+    "POL": "[knight_alternative.GetTitledFirstName] będzie walczyć za ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "They say [knight_exotic.GetTitledFirstNameNoTooltip] is learned in combat?",
+    "RUS": "Говорят, [knight_exotic.GetTitledFirstNameNoTooltip] умеет сражаться?",
+    "POL": "Mówią, że [knight_exotic.GetTitledFirstNameNoTooltip] ma doświadczenie w walce?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_exotic.GetTitledFirstName] will fight for you",
+    "RUS": "[knight_exotic.GetTitledFirstName] будет сражаться за вас",
+    "POL": "[knight_exotic.GetTitledFirstName] będzie walczyć za ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "The love of [knight_opinion.GetTitledFirstNameNoTooltip] shall protect me.",
+    "RUS": "[knight_opinion.GetTitledFirstNameNoTooltip] любит меня и непременно защитит.",
+    "POL": "Miłość, którą darzy mnie [knight_opinion.GetTitledFirstNameNoTooltip], ochroni mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0101.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_opinion.GetTitledFirstName] will fight for you",
+    "RUS": "[knight_opinion.GetTitledFirstName] будет сражаться за вас",
+    "POL": "[knight_opinion.GetTitledFirstName] będzie walczyć za ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_ep1_tbc.0101.e",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "My already designated $champion_court_position$, [knight_alternative.GetTitledFirstNameNoTooltip], shall represent me.",
+    "RUS": "Вместо меня выступит $champion_court_position$ [knight_alternative.GetTitledFirstNameNoTooltip].",
+    "POL": "[Select_CString(knight_alternative.IsFemale, 'Moja wyznaczona', 'Mój wyznaczony' )] już osobist[Select_CString(knight_alternative.IsFemale, 'a czempionka', 'y czempion' )], [knight_alternative.GetTitledFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_ep1_tbc.0101.e.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[knight_alternative.GetTitledFirstName] will fight for you",
+    "RUS": "[knight_alternative.GetTitledFirstName] будет сражаться за вас",
+    "POL": "[knight_alternative.GetTitledFirstName] będzie walczyć za ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: Victory!",
+    "RUS": "$fp1_tbc.0000.t$: победа!",
+    "POL": "$fp1_tbc.0000.t$: zwycięstwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.PantheonTerm|U] smiled heartily on me yesterday!",
+    "RUS": "[recipient.GetFaith.PantheonTerm|U] меня любят! Вчера это снова подтвердилось!",
+    "POL": "[recipient.GetFaith.PantheonTerm|U] [Select_CString(EqualTo_string(recipient.GetFaith.PantheonTermHasHave, 'ma' ), 'uśmiechnął', 'uśmiechnęli' )] się wczoraj do mnie serdecznie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.desc.opponent_died.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nClosing my eyes, I can still feel the adrenaline surging through my system, muscles twitching with the ghost of the fight, frozen at the instant [actor.GetTitledFirstNamePossessive] life was cut short and my victory assured.",
+    "RUS": "\\n\\nЯ закрываю глаза и живо вспоминаю возбуждение, мускулы подрагивают, словно вновь переживают бой, и [actor.GetTitledFirstName] вновь и вновь умирает в воспоминаниях, подтверждая мою правоту.",
+    "POL": "\\n\\nZamykając oczy, wciąż czuję przypływ adrenaliny w moim organizmie, mięśnie drżące od ducha walki, zastygłe w chwili, gdy [actor.GetTitledFirstName] stracił[Select_CString( actor.IsFemale, 'a', '' )] życie, a moje zwycięstwo zostało zapewnione.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.desc.opponent_lives.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nNot only did I get to beat [actor.GetFirstName] bloody for [actor.GetHerHis] temerity, I conclusively proved [actor.GetHerHis] slanderous claims utterly baseless.",
+    "RUS": "\\n\\nДело не только в том, что [actor.GetFirstName] [Select_CString(actor.IsFemale, 'получила', 'получил' )] по заслугам за дерзость. Главное, всем стало ясно, что [actor.GetHerHis] обвинения против меня — жалкая клевета.",
+    "POL": "\\n\\nNie dość, że [actor.GetFirstName] został[Select_CString( actor.IsFemale, 'a pobita', ' pobity' )] przeze mnie do nieprzytomności za swoją zuchwałość, to jeszcze udało mi się udowodnić, że [actor.GetHerHis] oszczerstwa są całkowicie bezpodstawne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.desc.opponent_lives.recipient_has_champion",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nWatching [champion.GetFirstName] thrash the living daylights out of [actor.GetFirstName] was made all the sweeter with the knowledge that [champion.GetHerHis] victory absolves me of all blame.",
+    "RUS": "\\n\\nПриятно было смотреть, как [champion.GetFirstName] делает все, чтобы [actor.GetFirstName] [Select_CString(actor.IsFemale, 'увидела', 'увидел' )] небо с овчинку, но еще приятнее было знать, что [champion.GetHerHis] победа снимает с меня все обвинения.",
+    "POL": "\\n\\nOglądanie, jak [champion.GetFirstName] podejmuje wysiłki, by [actor.GetFirstName] od[Select_CString( actor.IsFemale, 'eszła', 'szedł' )] z tego świata, było tym słodsze, że [champion.GetHerHis] zwycięstwo uwalnia mnie od wszelkiej winy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps the next fool will think first before challenging [recipient.GetTitledFirstNameNicknamedNoTooltip] to a bout!",
+    "RUS": "\\n\\nНадеюсь, теперь любой дурак, решивший, что [recipient.GetTitledFirstNameNicknamedNoTooltip] — удачная добыча, трижды подумает, прежде чем бросить вызов!",
+    "POL": "\\n\\nMoże następny głupiec najpierw pomyśli, zanim zdecyduje, że [recipient.GetTitledFirstNameNicknamedNoTooltip] powin[Select_CString(recipient.IsFemale, 'na', 'ien' )] stoczyć z nim pojedynek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0111.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0041.a$",
+    "RUS": "$fp1_tbc.0041.a$",
+    "POL": "$fp1_tbc.0041.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0000.t$: Defeat!",
+    "RUS": "$fp1_tbc.0000.t$: поражение!",
+    "POL": "$fp1_tbc.0000.t$: porażka!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.PantheonTerm|U] did not smile on me yesterday.",
+    "RUS": "Если судить по вчерашнему дню, [recipient.GetFaith.PantheonTerm|U] мне не благоволит.",
+    "POL": "[recipient.GetFaith.PantheonTerm|U] nie uśmiecha[Select_CString( recipient.IsFemale, 'ła', 'ł' )] się do mnie wczoraj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.champion_lives.recipient_fighting",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "The aches and cuts riddling my body stand testament to that, each one a gift from [actor.GetFirstNamePossessive] [actor.Custom('signature_weapon')]. I'm lucky to be alive.",
+    "RUS": "Свидетельством тому синяки и порезы у меня на теле, которые оставили [actor.GetFirstName] и [SCOPE.sC('actor').GetHerHis] [actor.Custom('signature_weapon')]. Хорошо хоть не убили.",
+    "POL": "Świadczą o tym siniaki i rany na moim ciele, które pozostawił[Select_CString(actor.IsFemale, 'a', '' )] po sobie [actor.GetFirstName] i [actor.GetHerHis] [actor.Custom('signature_weapon')]. Mam szczęście, że żyję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.champion_lives.recipient_has_champion",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "When I chose [champion.GetTitledFirstName], I felt so sure that [champion.GetSheHe]'d trounce [actor.GetTitledFirstName], but [champion.GetSheHe]'s just lucky to be alive.",
+    "RUS": "Мне казалось, что уж [champion.GetTitledFirstName] непременно справится с таким соперником, как [actor.GetTitledFirstName], но [champion.GetSheHe] едва [Select_CString(champion.IsFemale, 'выжила', 'выжил' )].",
+    "POL": "Był[Select_CString(ROOT.Char.IsFemale, 'am pewna', 'em pewien' )], że [champion.GetTitledFirstName] poradzi sobie z tak[Select_CString(actor.IsFemale, 'ą przeciwniczką', 'im przeciwnikiem' )] jak [actor.GetTitledFirstName], ale [champion.GetSheHe] po prostu ma szczęście, że żyje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.reward.gold",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nWhen [actor.GetFirstNameNoTooltip] took [actor.GetHerHis] silver, [actor.GetSheHe] insisted on stopping to count it, coin by coin, forcing us to watch while luxuriating in the chagrin of my retinue.",
+    "RUS": "\\n\\nКогда [actor.GetFirstNameNoTooltip] [Select_CString(actor.IsFemale, 'взяла', 'взял' )] серебро, [actor.GetSheHe] [Select_CString(actor.IsFemale, 'настояла', 'настоял' )] на том, чтобы остановиться и пересчитать все до монеты, неприкрыто наслаждаясь досадой моих спутников.",
+    "POL": "\\n\\nKiedy [actor.GetFirstNameNoTooltip] zabrał[Select_CString( actor.IsFemale, 'a', '' )] swoje srebrniaki, uparł[Select_CString( actor.IsFemale, 'a', '' )] się, żeby je przeliczyć, moneta po monecie. Zmusił[Select_CString( actor.IsFemale, 'a', '' )] nas do patrzenia na to, jak rozkoszuje się zgorszeniem mojej świty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.reward.weak_hook",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nIt felt like an hour before the last of the oaths of debt were sworn and sealed in front of our assembled witnesses. Some day, [actor.GetFirstNameNoTooltip] will be back to call in the debt.",
+    "RUS": "\\n\\nПрошло не менее часа, прежде чем прозвучал последний долговой обет и свидетели подтвердили, что последняя печать поставлена. Однажды [actor.GetFirstNameNoTooltip] потребует этот долг.",
+    "POL": "\\n\\nCzuło się, że wybiła godzina do momentu złożenia ostatecznych przysiąg długu oraz ich pisemnych wersji przypieczętowanych przed zgromadzonymi świadkami. Pewnego dnia [actor.GetFirstNameNoTooltip] powróci, by odebrać te długi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.reward.humiliation",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nReading through [actor.GetFirstNamePossessiveNoTooltip] rambling ",
+    "RUS": "\\n\\nПока с моих уст срывались бредни, которые [actor.GetFirstNameNoTooltip] [Select_CString(actor.IsFemale, 'потребовала', 'потребовал' )] в качестве извинительной речи, зубы скрежетали на каждом вымученном слове. [actor.GetHerHis|U] наемные поэты веселились вовсю, запоминая все, что мне пришлось говорить.",
+    "POL": "\\n\\nOdczytywanie „przeprosin”, które [actor.GetFirstNameNoTooltip] napisał[Select_CString( actor.IsFemale, 'a', '' )] dla mnie, zajęło mi całą wieczność. Cały czas zaciskał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] zęby, wyrzucając z siebie te słowa. Wynajęci przez ni[Select_CString( actor.IsFemale, 'ą', 'ego' )] poeci chichotali w tle, utrwalając w pamięci każdy mój wyraz twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "\\n\\nVictory has gone to a fool and a beggar.",
+    "RUS": "\\n\\nПобеда досталась дураку и попрошайке.",
+    "POL": "\\n\\nZwycięstwo przypadło w udziale głupcowi i żebrakowi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_tbc.0121.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_trial_by_combat_events_l_belarusian.json",
+    "ENG": "$fp1_tbc.0051.a$",
+    "RUS": "$fp1_tbc.0051.a$",
+    "POL": "$fp1_tbc.0051.a$",
+    "BEL": ""
+  }
+]

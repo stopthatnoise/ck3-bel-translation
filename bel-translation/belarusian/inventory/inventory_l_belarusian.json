@@ -1,0 +1,2018 @@
+[
+  {
+    "KEY": "MOD_ARTIFACT_DECAY_REDUCTION_ADD",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[artifact|E] Decay Reduction",
+    "RUS": "Снижение разрушения [Concept('artifact', 'артефакта')|E]",
+    "POL": "Zmniejszenie utraty trwałości [Concept('artifact', 'artefaktu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MOD_ARTIFACT_DECAY_REDUCTION_MULT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$MOD_ARTIFACT_DECAY_REDUCTION_ADD$",
+    "RUS": "$MOD_ARTIFACT_DECAY_REDUCTION_ADD$",
+    "POL": "$MOD_ARTIFACT_DECAY_REDUCTION_ADD$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_created_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_created_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Created by [SelectLocalization( HISTORY_ENTRY.HasActor, HISTORY_ENTRY.GetActor.GetNameNoTooltip, 'UNKNOWN_BENEFACTOR' )] for [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] at [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "RUS": "Создатель: [SelectLocalization( HISTORY_ENTRY.HasActor, HISTORY_ENTRY.GetActor.GetNameNoTooltip, 'UNKNOWN_BENEFACTOR' )]\\nСоздано для: [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]\\nМесто создания: [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "POL": "[SelectLocalization( HISTORY_ENTRY.HasActor, HISTORY_ENTRY.GetActor.GetNameNoTooltip, 'UNKNOWN_BENEFACTOR' )|U] utworzył[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] dla postaci [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] na ziemiach znanych jako [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_stolen_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_stolen_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Stolen by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Похищено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] ukradł[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_created_before_history_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Unknown Creation",
+    "RUS": "Создание неизвестно",
+    "POL": "Twórca nieznany",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_created_before_history_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "The details surrounding the creation of this artifact are unknown",
+    "RUS": "Подробности создания этого артефакта неизвестны",
+    "POL": "Szczegóły dotyczące powstania tego artefaktu nie są znane",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_given_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_given_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Given to [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Подарено персонажу [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] otrzymał[Select_CString( HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] w darze",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_inherited_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_inherited_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Inherited by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Унаследовано персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] odziedziczył[Select_CString( HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_conquest_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_conquest_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Taken by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] in a war against [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Захвачено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] в войне против персонажа [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] zdobył[Select_CString( HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] w wojnie przeciwko [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_taken_in_siege_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_taken_in_siege_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Seized by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] after the siege of [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "RUS": "Захвачено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] после осады владения [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] zdobył[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] po oblężeniu ziem znanych jako [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_reforged_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_reforged_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforged by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] in [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "RUS": "Объединено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] из провинции [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] przekuł[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] na ziemiach znanych jako [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_discovered_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_discovered_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Discovered by [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal] for [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] at [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "RUS": "Открыто персонажем [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal] по поручению персонажа [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] в провинции [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "POL": "[HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal] odkrył[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] dla [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] na ziemiach znanych jako [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_claimed_by_house_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_claimed_by_house_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Claimed by [house|E] [HISTORY_ENTRY.GetActor.GetHouse.GetNameNoTooltip]",
+    "RUS": "Оспаривается [Concept( 'house', 'домом' )|E] [HISTORY_ENTRY.GetActor.GetHouse.GetNameNoTooltip]",
+    "POL": "[house|E] [HISTORY_ENTRY.GetActor.GetHouse.GetNameNoTooltip] wysunął roszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_won_in_duel_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_won_in_duel_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Won in duel by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Выиграно в поединке против персонажа [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] wygrał[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] w pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_taken_in_battle_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_taken_in_battle_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Taken by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] in the battle of [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "RUS": "Захвачено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] во время сражения в провинции [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] przej[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'ęła', 'ął' )] w bitwie pod [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_prize_created_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_prize_created_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Offered by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] as a [GetActivityType( 'activity_tournament' ).GetName] [prize|E]",
+    "RUS": "Персонаж [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] предложил этот артефакт в качестве [Concept( 'prize', 'приза' )|E] на таком мероприятии, как [GetActivityType( 'activity_tournament' ).GetName]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] oferował[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] jako [Concept( 'prize', 'nagrodę' )|E] w wielkim turnieju",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_prize_awarded_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_prize_awarded_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Awarded to [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] as a [contest|E] [prize|E]",
+    "RUS": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] [Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'получила', 'получил' )] этот артефакт в качестве [Concept( 'prize', 'приза' )|E] за победу в [Concept( 'contest', 'состязании' )|E]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] otrzymał[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )] jako [Concept( 'prize', 'nagrodę' )|E] w [Concept( 'contest', 'zawodach' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_creator_discovered_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_creator_discovered_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Discovered to have originally been created by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Выяснилось, что этот артефакт [Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'создала', 'создал' )] [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "Odkryto, że [Select_CString( HISTORY_ENTRY.GetRecipient.IsFemale, 'twórczynią', 'twórcą' )] jest [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_purchased_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_purchased_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Purchased by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Приобретено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] zakupił[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_ransomed_title",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[HISTORY_ENTRY.GetDate.GetString]",
+    "RUS": "[HISTORY_ENTRY.GetDate.GetString]",
+    "POL": "[HISTORY_ENTRY.GetDate.GetString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_history_ransomed_desc",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Ransomed by [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "RUS": "Выкуплено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]",
+    "POL": "[HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] wykupił[Select_CString(HISTORY_ENTRY.GetRecipient.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNKNOWN_BENEFACTOR",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "an unknown benefactor",
+    "RUS": "неизвестный благодетель",
+    "POL": "nieznany dobroczyńca",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_DURABILITY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Durability: $CURRENT|1$ / $MAX|1$",
+    "RUS": "Прочность: $CURRENT|1$ / $MAX|1$",
+    "POL": "Trwałość: $CURRENT|1$ / $MAX|1$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_HISTORY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Artifact History",
+    "RUS": "История артефакта",
+    "POL": "Historia artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "crown",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Crown",
+    "RUS": "Венец",
+    "POL": "Korona",
+    "BEL": ""
+  },
+  {
+    "KEY": "helmet",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Headgear",
+    "RUS": "Головной убор",
+    "POL": "Nakrycie głowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "miscellaneous",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "miscellaneous_when_not_court",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "regalia",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Regalia",
+    "RUS": "Регалия",
+    "POL": "Regalia",
+    "BEL": ""
+  },
+  {
+    "KEY": "journal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Journal",
+    "RUS": "Журнал",
+    "POL": "Dziennik",
+    "BEL": ""
+  },
+  {
+    "KEY": "weapon",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Weapon",
+    "RUS": "Оружие",
+    "POL": "Broń",
+    "BEL": ""
+  },
+  {
+    "KEY": "primary_armament",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$weapon$",
+    "RUS": "$weapon$",
+    "POL": "$weapon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "armor",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Armor",
+    "RUS": "Доспех",
+    "POL": "Zbroja",
+    "BEL": ""
+  },
+  {
+    "KEY": "trinket",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Trinket",
+    "RUS": "Украшение",
+    "POL": "Ozdoba",
+    "BEL": ""
+  },
+  {
+    "KEY": "trinket_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trinket_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trinket_3",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "trinket_4",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_pedestal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Pedestal Item",
+    "RUS": "Предмет для пьедестала",
+    "POL": "Obiekt na postument",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_helmet",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Headgear",
+    "RUS": "Головной убор",
+    "POL": "Nakrycie głowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_miscellaneous",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Trinket",
+    "RUS": "Украшение",
+    "POL": "Ozdoba",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_miscellaneous_when_not_court",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$miscellaneous_when_not_court$",
+    "RUS": "$miscellaneous_when_not_court$",
+    "POL": "$miscellaneous_when_not_court$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_armor",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Armor",
+    "RUS": "Доспех",
+    "POL": "Zbroja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_sculpture",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Furniture",
+    "RUS": "Мебель",
+    "POL": "Mebel",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_primary_armament",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Weapon",
+    "RUS": "Оружие",
+    "POL": "Broń",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_throne",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Throne",
+    "RUS": "Трон",
+    "POL": "Tron",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_wall_big",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Large Wall Ornament",
+    "RUS": "Большой настенный орнамент",
+    "POL": "Duży ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_regalia",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Regalia",
+    "RUS": "Регалии",
+    "POL": "Regalia",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_wall_small",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Small Wall Ornament",
+    "RUS": "Малый настенный орнамент",
+    "POL": "Mały ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_book",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Book",
+    "RUS": "Книга",
+    "POL": "Książka",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_slot_journal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Journal",
+    "RUS": "Журнал",
+    "POL": "Dziennik",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_crown",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Crown",
+    "RUS": "Корона",
+    "POL": "Korona",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_helmet",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Headgear",
+    "RUS": "Головной убор",
+    "POL": "Nakrycie głowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_helmet_simple",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$artifact_helmet$",
+    "RUS": "$artifact_helmet$",
+    "POL": "$artifact_helmet$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_miscellaneous",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$trinket$",
+    "RUS": "$trinket$",
+    "POL": "$trinket$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_journal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Journal",
+    "RUS": "Журнал",
+    "POL": "Dziennik",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_journal_simple",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$artifact_journal$",
+    "RUS": "$artifact_journal$",
+    "POL": "$artifact_journal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_regalia",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Regalia",
+    "RUS": "Регалии",
+    "POL": "Regalia",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_regalia_simple",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$regalia$",
+    "RUS": "$regalia$",
+    "POL": "$regalia$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Armor",
+    "RUS": "Доспех",
+    "POL": "Zbroja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_trinket",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Trinket",
+    "RUS": "Украшение",
+    "POL": "Ozdoba",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_pedestal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Pedestal Item",
+    "RUS": "Предмет для пьедестала",
+    "POL": "Obiekt na postument",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_wall_big",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Large Wall Ornament",
+    "RUS": "Большой настенный орнамент",
+    "POL": "Duży ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_tapestry",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Tapestry",
+    "RUS": "Гобелен",
+    "POL": "Tapiseria",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_sculpture",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Furniture",
+    "RUS": "Мебель",
+    "POL": "Mebel",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_scientific_apparatus",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Scientific Apparatus",
+    "RUS": "Научный прибор",
+    "POL": "Aparatura naukowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_wall_small",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Small Wall Ornament",
+    "RUS": "Малый настенный орнамент",
+    "POL": "Mały ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_animal_skull",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Animal Skull",
+    "RUS": "Череп животного",
+    "POL": "Zwierzęca czaszka",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_animal_hide",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Animal Hide",
+    "RUS": "Шкура животного",
+    "POL": "Zwierzęca skóra",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_animal_hide_big",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Massive Animal Hide",
+    "RUS": "Большая шкура животного",
+    "POL": "Masywna zwierzęca skóra",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_throne",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Throne",
+    "RUS": "Трон",
+    "POL": "Tron",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_box",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Box",
+    "RUS": "Шкатулка ",
+    "POL": "Pudełko",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_goblet",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Goblet",
+    "RUS": "Кубок ",
+    "POL": "Czara",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_jug",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Jug",
+    "RUS": "Кувшин",
+    "POL": "Dzbanek",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_book",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Book",
+    "RUS": "Книга",
+    "POL": "Książka",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_panacea",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Panacea",
+    "RUS": "Панацея ",
+    "POL": "Panaceum",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_elixir",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Elixir",
+    "RUS": "Эликсир",
+    "POL": "Eliksir",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_philosophers_stone",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Philosopher's Stone",
+    "RUS": "Философский камень",
+    "POL": "Kamień filozoficzny",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_sword",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "sword",
+    "RUS": "меч",
+    "POL": "miecz",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_axe",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "axe",
+    "RUS": "топор",
+    "POL": "topór",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_spear",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "spear",
+    "RUS": "копье",
+    "POL": "włócznia",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_hammer",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "hammer",
+    "RUS": "молот",
+    "POL": "młot",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_dagger",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "dagger",
+    "RUS": "кинжал",
+    "POL": "sztylet",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_mace",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "mace",
+    "RUS": "булава",
+    "POL": "buława",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_mail",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_plate",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_scale",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_lamellar",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_laminar",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_brigandine",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$armor$",
+    "RUS": "$armor$",
+    "POL": "$armor$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pedestal",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Pedestal",
+    "RUS": "Пьедестал",
+    "POL": "Postument",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_big",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Large Wall Ornament",
+    "RUS": "Большой настенный орнамент",
+    "POL": "Duży ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_small",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Small Wall Ornament",
+    "RUS": "Малый настенный орнамент",
+    "POL": "Mały ornament ścienny",
+    "BEL": ""
+  },
+  {
+    "KEY": "sculpture",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Furniture",
+    "RUS": "Мебель",
+    "POL": "Mebel",
+    "BEL": ""
+  },
+  {
+    "KEY": "throne",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Throne",
+    "RUS": "Трон",
+    "POL": "Tron",
+    "BEL": ""
+  },
+  {
+    "KEY": "book",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Book",
+    "RUS": "Книга",
+    "POL": "Książka",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_big_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_big$",
+    "RUS": "$wall_big$",
+    "POL": "$wall_big$",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_big_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_big$",
+    "RUS": "$wall_big$",
+    "POL": "$wall_big$",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_big_3",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_big$",
+    "RUS": "$wall_big$",
+    "POL": "$wall_big$",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_small_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_small$",
+    "RUS": "$wall_small$",
+    "POL": "$wall_small$",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_small_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_small$",
+    "RUS": "$wall_small$",
+    "POL": "$wall_small$",
+    "BEL": ""
+  },
+  {
+    "KEY": "wall_small_3",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$wall_small$",
+    "RUS": "$wall_small$",
+    "POL": "$wall_small$",
+    "BEL": ""
+  },
+  {
+    "KEY": "sculpture_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$sculpture$",
+    "RUS": "$sculpture$",
+    "POL": "$sculpture$",
+    "BEL": ""
+  },
+  {
+    "KEY": "sculpture_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$sculpture$",
+    "RUS": "$sculpture$",
+    "POL": "$sculpture$",
+    "BEL": ""
+  },
+  {
+    "KEY": "lectern_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$book$",
+    "RUS": "$book$",
+    "POL": "$book$",
+    "BEL": ""
+  },
+  {
+    "KEY": "lectern_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$book$",
+    "RUS": "$book$",
+    "POL": "$book$",
+    "BEL": ""
+  },
+  {
+    "KEY": "lectern_3",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$book$",
+    "RUS": "$book$",
+    "POL": "$book$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pedestal_1",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$pedestal$",
+    "RUS": "$pedestal$",
+    "POL": "$pedestal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pedestal_2",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$pedestal$",
+    "RUS": "$pedestal$",
+    "POL": "$pedestal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pedestal_3",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$pedestal$",
+    "RUS": "$pedestal$",
+    "POL": "$pedestal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pedestal_4",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "$pedestal$",
+    "RUS": "$pedestal$",
+    "POL": "$pedestal$",
+    "BEL": ""
+  },
+  {
+    "KEY": "common",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "masterwork",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Masterwork",
+    "RUS": "Мастерский",
+    "POL": "Mistrzowska",
+    "BEL": ""
+  },
+  {
+    "KEY": "famed",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Famed",
+    "RUS": "Знаменитый",
+    "POL": "Słynna",
+    "BEL": ""
+  },
+  {
+    "KEY": "illustrious",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Illustrious",
+    "RUS": "Великолепный",
+    "POL": "Znamienita",
+    "BEL": ""
+  },
+  {
+    "KEY": "legendary",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Legendary",
+    "RUS": "Легендарный",
+    "POL": "Legendarna",
+    "BEL": ""
+  },
+  {
+    "KEY": "rare",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Rare",
+    "RUS": "Редкий",
+    "POL": "Rzadka",
+    "BEL": ""
+  },
+  {
+    "KEY": "REFORGE_ARTIFACT_TITLE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforge Artifact",
+    "RUS": "Перековать артефакт",
+    "POL": "Przekuj artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "REFORGE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforge",
+    "RUS": "Перековать",
+    "POL": "Przekuj",
+    "BEL": ""
+  },
+  {
+    "KEY": "REFORGE_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T $REFORGE_ARTIFACT_TITLE$#!",
+    "RUS": "#T $REFORGE_ARTIFACT_TITLE$#!",
+    "POL": "#T $REFORGE_ARTIFACT_TITLE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "REPAIR_ARTIFACT_TITLE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Repair Artifact",
+    "RUS": "Починить артефакт",
+    "POL": "Napraw artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "REPAIR",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Repair",
+    "RUS": "Починить",
+    "POL": "Napraw",
+    "BEL": ""
+  },
+  {
+    "KEY": "REPAIR_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T $REPAIR_ARTIFACT_TITLE$#!",
+    "RUS": "#T $REPAIR_ARTIFACT_TITLE$#!",
+    "POL": "#T $REPAIR_ARTIFACT_TITLE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EFFECTS_ON_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Effects on [Artifact.GetName]",
+    "RUS": "Эффекты на артефакте «[Artifact.GetName]»",
+    "POL": "Efekty wobec: [Artifact.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_PAYS_REFORGE_COST",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] will pay $COST$ to reforge [ARTIFACT.GetName]",
+    "RUS": "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] заплатит $COST$, чтобы перековать артефакт «[ARTIFACT.GetName]»",
+    "POL": "[CHARACTER.GetShortUINameNotMe] zapłaci za przekucie artefaktu: [ARTIFACT.GetName]. Koszt: $COST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_PAYS_REPAIR_COST",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] will pay $COST$ to repair [ARTIFACT.GetName]",
+    "RUS": "[CHARACTER.GetNamePossessiveOrMy|U][Select_CString(CHARACTER.IsLocalPlayer, ' персонаж', '' )] заплатит $COST$, чтобы починить артефакт «[ARTIFACT.GetName]»",
+    "POL": "[CHARACTER.GetShortUINameNotMe] zapłaci za naprawienie artefaktu: [ARTIFACT.GetName]. Koszt: $COST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_NAME",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will change name to $NEW_NAME$",
+    "RUS": "Артефакт «[ARTIFACT.GetName]» теперь будет называться «$NEW_NAME$»",
+    "POL": "Artefakt [ARTIFACT.GetName] zmieni swoją nazwę na $NEW_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_DESC",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will change description",
+    "RUS": "Изменится описание артефакта «[ARTIFACT.GetName]»",
+    "POL": "Artefakt [ARTIFACT.GetName] zmieni swój opis",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_VISUALS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will change visuals",
+    "RUS": "[ARTIFACT.GetName] внешне изменится",
+    "POL": "Artefakt [ARTIFACT.GetName] zmieni swój wygląd",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_TYPE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will become a $NEW_TYPE$",
+    "RUS": "Артефакт «[ARTIFACT.GetName]» сменит тип на «$NEW_TYPE$»",
+    "POL": "Artefakt [ARTIFACT.GetName] zmieni się w $NEW_TYPE|l$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_RARITY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will change rarity and become $NEW_RARITY$",
+    "RUS": "Редкость артефакта «[ARTIFACT.GetName]» изменится на «$NEW_RARITY$»",
+    "POL": "Artefakt [ARTIFACT.GetName] zmieni swoją rzadkość na: $NEW_RARITY$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_MODIFIER",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will provide these benefits:\\n$NEW_MODIFIER$",
+    "RUS": "Артефакт «[ARTIFACT.GetName]» предоставит следующие бонусы:\\n$NEW_MODIFIER$",
+    "POL": "[ARTIFACT.GetName] zapewni korzyści:\\n$NEW_MODIFIER$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_TEMPLATE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will be a $NEW_TEMPLATE$",
+    "RUS": "Артефакт «[ARTIFACT.GetName]» станет $NEW_TEMPLATE$",
+    "POL": "Artefakt [ARTIFACT.GetName] stanie się: $NEW_TEMPLATE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CHANGES_DURABILITY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will change durability to $NEW_DURABILITY$ / $MAX_DURABILITY$",
+    "RUS": "Прочность артефакта «[ARTIFACT.GetName]» изменится на $NEW_DURABILITY$ / $MAX_DURABILITY$",
+    "POL": "[ARTIFACT.GetName] zmieni swoją trwałość na $NEW_DURABILITY$ / $MAX_DURABILITY$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_FULLY_REPAIRED",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetName] will be fully repaired and restored",
+    "RUS": "Артефакт «[ARTIFACT.GetName]» будет полностью восстановлен",
+    "POL": "Artefakt [ARTIFACT.GetName] zostanie w pełni naprawiony i odnowiony",
+    "BEL": ""
+  },
+  {
+    "KEY": "NEW_ARTIFACT_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "This is a newly acquired [artifact|e]",
+    "RUS": "Это новый [Concept( 'artifact', 'артефакт' )|E]",
+    "POL": "To jest nowo pozyskany [artifact|el]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_RARITY_AND_TYPE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetRarity] [ARTIFACT.GetType]",
+    "RUS": "[ARTIFACT.GetType] ([ARTIFACT.GetRarity] артефакт)",
+    "POL": "[ARTIFACT.GetType|U] (rzadkość: [ARTIFACT.GetRarity|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_TYPE_ONLY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetType]",
+    "RUS": "[ARTIFACT.GetType]",
+    "POL": "[ARTIFACT.GetType]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_RARITY_AND_SLOT_TYPE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetRarity] [ARTIFACT.GetSlotType]",
+    "RUS": "[ARTIFACT.GetSlotType] ([ARTIFACT.GetRarity] артефакт)",
+    "POL": "[ARTIFACT.GetSlotType|U] (rzadkość: [ARTIFACT.GetRarity|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_SLOT_TYPE_ONLY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[ARTIFACT.GetSlotType]",
+    "RUS": "[ARTIFACT.GetSlotType]",
+    "POL": "[ARTIFACT.GetSlotType]",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVENTORY_ARTIFACTS_SINGLE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[inventory_artifact|E]",
+    "RUS": "[inventory_artifact|E]",
+    "POL": "[inventory_artifact|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RENAME_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Rename Artifact#!",
+    "RUS": "#T Переименовать артефакт#!",
+    "POL": "#T Zmień nazwę artefaktu#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RENAME_ARTIFACT_TITLE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Rename [ARTIFACT.GetNameNoTooltip]",
+    "RUS": "Переименовать [ARTIFACT.GetNameNoTooltip]",
+    "POL": "Zmień nazwę [ARTIFACT.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RENAME_ARTIFACT_DESC",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Change the name of [ARTIFACT.GetNameNoTooltip]",
+    "RUS": "Изменить название артефакта «[ARTIFACT.GetNameNoTooltip]»",
+    "POL": "Zmień nazwę artefaktu [ARTIFACT.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RENAME_ARTIFACT_ACCEPT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Accept",
+    "RUS": "Принять",
+    "POL": "Akceptuj",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CURRENT_HOLDER",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Current Holder: [Artifact.GetOwner.GetName]",
+    "RUS": "Текущий владетель: [Artifact.GetOwner.GetName]",
+    "POL": "Obecny właściciel: [Artifact.GetOwner.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CREATOR",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Creator: [Artifact.GetCreator.GetName]",
+    "RUS": "Создатель: [Artifact.GetCreator.GetName]",
+    "POL": "Twórca: [Artifact.GetCreator.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DETAILS_TAB_HISTORY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "History",
+    "RUS": "История",
+    "POL": "Historia",
+    "BEL": ""
+  },
+  {
+    "KEY": "DETAILS_TAB_CLAIMS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Claimants",
+    "RUS": "Претенденты",
+    "POL": "Pretendenci",
+    "BEL": ""
+  },
+  {
+    "KEY": "DETAILS_TAB_CLAIM_INTERACTIONS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "You have a claim",
+    "RUS": "У вас есть претензия",
+    "POL": "Masz roszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "DETAILS_TAB_NO_CLAIMANTS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "No one has an [artifact_claim|E] on this [artifact|E]",
+    "RUS": "Ни у кого нет [Concept( 'artifact_claim', 'претензий' )|E] на этот [Concept( 'artifact', 'артефакт' )|E]",
+    "POL": "Nikt nie ma [Concept( 'artifact_claim', 'roszczeń' )|E] do tego [Concept( 'artifact', 'artefaktu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HAS_NO_ARTIFACTS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "No [artifacts|E]",
+    "RUS": "Нет [Concept( 'artifacts', 'артефактов' )|E]",
+    "POL": "Brak [Concept( 'artifacts', 'artefaktów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HAS_NO_CLAIMED_ARTIFACTS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "No [artifact_claims|E]",
+    "RUS": "[artifact_claims|E] отсутствуют",
+    "POL": "Brak [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_DETAILS_TITLE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Artifact Details",
+    "RUS": "Сведения об артефакте",
+    "POL": "Szczegóły artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_DETAILS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T $ARTIFACT_DETAILS_TITLE$#!",
+    "RUS": "#T $ARTIFACT_DETAILS_TITLE$#!",
+    "POL": "#T $ARTIFACT_DETAILS_TITLE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_SORTING_ALL_BUTTON",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "All",
+    "RUS": "Все",
+    "POL": "Wszystkie",
+    "BEL": ""
+  },
+  {
+    "KEY": "created",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Created",
+    "RUS": "Создан",
+    "POL": "Utworzono",
+    "BEL": ""
+  },
+  {
+    "KEY": "reforged",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforged",
+    "RUS": "Перекован",
+    "POL": "Przekuto",
+    "BEL": ""
+  },
+  {
+    "KEY": "given",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Given",
+    "RUS": "Отдан",
+    "POL": "Podarowano",
+    "BEL": ""
+  },
+  {
+    "KEY": "stolen",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Stolen",
+    "RUS": "Украден",
+    "POL": "Skradziono",
+    "BEL": ""
+  },
+  {
+    "KEY": "conquest",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Conquered",
+    "RUS": "Завоеван",
+    "POL": "Podbito",
+    "BEL": ""
+  },
+  {
+    "KEY": "created_before_history",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Unknown Creation",
+    "RUS": "Неизвестного происхождения",
+    "POL": "Nieznane pochodzenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "inherited",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Inherited",
+    "RUS": "Унаследован",
+    "POL": "Odziedziczono",
+    "BEL": ""
+  },
+  {
+    "KEY": "discovered",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Discovered",
+    "RUS": "Открыт",
+    "POL": "Odkryto",
+    "BEL": ""
+  },
+  {
+    "KEY": "taken_in_siege",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Taken in a Siege",
+    "RUS": "В осаде",
+    "POL": "Zdobyto podczas oblężenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "won_in_duel",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Won in a Duel",
+    "RUS": "Выиграно в поединке",
+    "POL": "Wygrano w pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "taken_in_battle",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Seized in a Battle",
+    "RUS": "Захвачено в сражении",
+    "POL": "Przejęto w bitwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_prize_creation",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Tournament Prize",
+    "RUS": "Приз турнира",
+    "POL": "Nagroda w turnieju",
+    "BEL": ""
+  },
+  {
+    "KEY": "tournament_prize_won",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Won in a Contest",
+    "RUS": "Выиграно в состязании",
+    "POL": "Wygrano w zawodach",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIMANT_ENTRY_HOUSE_HEAD",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "House Head: [ClaimantEntry.GetHouse.GetHeadOfHouse.GetName]",
+    "RUS": "Глава дома: [ClaimantEntry.GetHouse.GetHeadOfHouse.GetName]",
+    "POL": "Głowa rodu: [ClaimantEntry.GetHouse.GetHeadOfHouse.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_YEARS_UNTIL_DECAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Artifact.GetYearsUntilDecay] years",
+    "RUS": "[Artifact.GetYearsUntilDecay] лет",
+    "POL": "[Artifact.GetYearsUntilDecay] lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_DURABILITY_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Durability#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nAt the current rate of decay this [artifact|e] will last for [ARTIFACT.GetYearsUntilDecay] years before it runs out of [durability|E] and breaks.",
+    "RUS": "#T Прочность#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nПри нынешней скорости разрушения этот [Concept( 'artifact', 'артефакт' )|E] прослужит [ARTIFACT.GetYearsUntilDecay] лет, прежде чем у него закончится [Concept( 'durability', 'прочность' )|E] и он сломается.",
+    "POL": "#T Trwałość#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nPrzy obecnym tempie rozkładu ten [artifact|el] przetrwa jeszcze [ARTIFACT.GetYearsUntilDecay] lat, zanim skończy się jego [durability|El] i ulegnie zniszczeniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_DURABILITY_NO_DECAY_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Durability#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nThis [artifact|e] is not currently decaying and will last forever unless something causes it to lose [durability|E].",
+    "RUS": "#T Прочность#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nВ настоящий момент этот [Concept( 'artifact', 'артефакт' )|E] не разрушается и прослужит сколь угодно долго, если не начнет терять [Concept( 'durability', 'прочность' )|E].",
+    "POL": "#T Trwałość#!\\n#V $DURABILITY|1$ / $MAX_DURABILITY|1$#!\\nTen [artifact|el] nie ulega obecnie rozkładowi i będzie istniał wiecznie, chyba że coś spowoduje utratę przez niego [Concept( 'durability', 'trwałości' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECAY_TOTAL",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Yearly decay",
+    "RUS": "Ежегодное разрушение",
+    "POL": "Roczny rozkład",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECAY_BASE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Base decay",
+    "RUS": "Базовое разрушение",
+    "POL": "Podstawowy rozkład",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_HAS_NO_VALID_SLOT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X No available slot which can hold [ARTIFACT.GetName]#!",
+    "RUS": "@warning_icon! #X Нет ячеек для хранения артефакта «[ARTIFACT.GetName]»#!",
+    "POL": "@warning_icon! #X Brak dostępnego miejsca, w którym można umieścić [ARTIFACT.GetName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SLOT_CANNOT_HOLD_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X $SLOT$ cannot hold artifacts of type $TYPE$#!",
+    "RUS": "@warning_icon! #X $SLOT$ не подходит для хранения артефактов типа «$TYPE$»#!",
+    "POL": "@warning_icon! #X $SLOT$ nie może przechowywać artefaktów, takich jak $TYPE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EQUIP_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "\\n#I Click to equip this#!",
+    "RUS": "\\n#I Щелкните, чтобы взять артефакт#!",
+    "POL": "\\n#I Kliknij, aby wyposażyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNEQUIP_QUICK_TT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Unequip#!",
+    "RUS": "#T Снять#!",
+    "POL": "#T Zdejmij#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EQUIP_ARTIFACT_REPLACE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "\\n#I Click to replace $REPLACE_ARTIFACT$ with this#!",
+    "RUS": "\\n#I Щелкните, чтобы заменить артефакт «$REPLACE_ARTIFACT$» на этот#!",
+    "POL": "\\n#I Kliknij, aby zastąpić artefakt $REPLACE_ARTIFACT$ tym#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Select Artifact",
+    "RUS": "Выбрать артефакт",
+    "POL": "Wybierz artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_ALREADY_EQUIPPED_IN_SLOT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X [ARTIFACT.GetNameNoTooltip] is already equipped in this slot#!",
+    "RUS": "@warning_icon! #X Артефакт «[ARTIFACT.GetNameNoTooltip]» уже находится в этой ячейке#!",
+    "POL": "@warning_icon! #X [ARTIFACT.GetNameNoTooltip] znajduje się już w tym miejscu na artefakt#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVENTORY_SLOT_TT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T [InventorySlot.GetName] Slot\\n#![SelectLocalization( InventoryView.IsSelectedSlot( InventorySlot.Self ), 'SELECT_ARTIFACT_FOR_SLOT', 'SELECT_INVENTORY_SLOT' )]",
+    "RUS": "#T Ячейка «[InventorySlot.GetName]»\\n#![SelectLocalization( InventoryView.IsSelectedSlot( InventorySlot.Self ), 'SELECT_ARTIFACT_FOR_SLOT', 'SELECT_INVENTORY_SLOT' )]",
+    "POL": "#T Miejsce na [Select_CString(EqualTo_string(InventorySlot.GetName, 'Korona'), 'koronę', Select_CString(EqualTo_string(InventorySlot.GetName, 'Zbroja'), 'zbroję', Select_CString(EqualTo_string(InventorySlot.GetName, 'Ozdoba'), 'ozdobę', InventorySlot.GetName)))|l]\\n#![SelectLocalization( InventoryView.IsSelectedSlot( InventorySlot.Self ), 'SELECT_ARTIFACT_FOR_SLOT', 'SELECT_INVENTORY_SLOT' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_INVENTORY_SLOT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I Click to show [InventorySlot.GetName] Artifacts#!",
+    "RUS": "#I Щелкните, чтобы показать артефакт «[InventorySlot.GetName]»#!",
+    "POL": "#I Kliknij, aby wyświetlić [Select_CString(EqualTo_string(InventorySlot.GetName, 'Korona'), 'korony', Select_CString(EqualTo_string(InventorySlot.GetName, 'Zbroja'), 'zbroje', Select_CString(EqualTo_string(InventorySlot.GetName, 'Ozdoba'), 'ozdoby', Select_CString(EqualTo_string(InventorySlot.GetName, 'Broń'), 'bronie', InventorySlot.GetName))))|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_ARTIFACT_FOR_SLOT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I Click to deselect#!",
+    "RUS": "#I Щелкните, чтобы снять выделение#!",
+    "POL": "#I Kliknij, aby odznaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_DECLARE_WAR",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Character.GetShortUINameNoTooltip|U] cannot currently declare war for this [artifact|e]",
+    "RUS": "[Character.GetShortUINameNoTooltip|U] не может начать войну за этот [Concept( 'artifact', 'артефакт' )|E]",
+    "POL": "[Character.GetShortUINameNotMeNoTooltip|U] nie może wypowiedzieć obecnie wojny o ten [artifact|el]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CANNOT_DECLARE_WAR_SHORT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Cannot declare War",
+    "RUS": "Невозможно объявить войну",
+    "POL": "Nie można wypowiedzieć wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_CAN_DECLARE_WAR",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Character.GetShortUINameNoTooltip|U] can declare war for this [artifact|e]",
+    "RUS": "[Character.GetShortUINameNoTooltip|U] может начать войну за этот [Concept( 'artifact', 'артефакт' )|E]",
+    "POL": "[Character.GetShortUINameNotMeNoTooltip|U] może wypowiedzieć wojnę o ten [artifact|el]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DUEL_FOR_ARTIFACT_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Duel for Artifact#!",
+    "RUS": "#T Поединок за артефакт#!",
+    "POL": "#T Pojedynek o artefakt#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_SORT_ORDER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Change Artifact sort order#!",
+    "RUS": "#T Изменить порядок сортировки артефактов#!",
+    "POL": "#T Zmiana kolejności sortowania artefaktów#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CLAIM_SORT_ORDER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T Change [artifact_claim|e] sort order#!",
+    "RUS": "#T [artifact_claim|E]: изменить порядок сортировки#!",
+    "POL": "#T [artifact_claim|e]: zmień kolejność sortowania#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_SORTING_TAB_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[InventorySlotType.GetName] [artifacts|e]",
+    "RUS": "[artifacts|E]: [InventorySlotType.GetName]",
+    "POL": "[InventorySlotType.GetName] – [artifacts|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_SORTING_TAB_ALL_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "All [artifacts|e]",
+    "RUS": "Все [artifacts|El]",
+    "POL": "Wszystkie [artifacts|el]",
+    "BEL": ""
+  },
+  {
+    "KEY": "acquisition_date",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Acquisition Date",
+    "RUS": "Дата получения",
+    "POL": "Data pozyskania",
+    "BEL": ""
+  },
+  {
+    "KEY": "creation_date",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Creation Date",
+    "RUS": "Дата создания",
+    "POL": "Data stworzenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "type",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Type",
+    "RUS": "Тип",
+    "POL": "Rodzaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "rarity",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Rarity",
+    "RUS": "Редкость",
+    "POL": "Rzadkość",
+    "BEL": ""
+  },
+  {
+    "KEY": "name",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Name",
+    "RUS": "Название",
+    "POL": "Nazwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "durability",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Durability",
+    "RUS": "Прочность",
+    "POL": "Trwałość",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_type",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Artifact Type",
+    "RUS": "Тип артефакта",
+    "POL": "Rodzaj artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_type",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Claim Type",
+    "RUS": "Тип претензии",
+    "POL": "Rodzaj roszczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "UNEQUIP_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "\\n#I Click to unequip this#!",
+    "RUS": "\\n#I Щелкните, чтобы убрать артефакт#!",
+    "POL": "\\n#I Kliknij, aby zdjąć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_EQUIPPED_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T [artifact|e] is equipped#!",
+    "RUS": "#T [artifact|E] взят#!",
+    "POL": "#T [artifact|e] jest wyposażony#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_AT_MAX_DURABILITY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X [ARTIFACT.GetNameNoTooltip] is already at max durability#!",
+    "RUS": "@warning_icon! #X Артефакт «[ARTIFACT.GetNameNoTooltip]» уже обладает максимальной прочностью#!",
+    "POL": "@warning_icon! #X [ARTIFACT.GetNameNoTooltip] ma już maksymalną trwałość#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMMINENT_HOUSE_CLAIMANT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Artifact.GetOwner.GetHouse.GetName] #low ( [Artifact.GetYearsUntilHouseClaim( Artifact.GetOwner.Self )] years )#!",
+    "RUS": "[Artifact.GetOwner.GetHouse.GetName] #low ([Artifact.GetYearsUntilHouseClaim( Artifact.GetOwner.Self )] лет)#!",
+    "POL": "[Artifact.GetOwner.GetHouse.GetName] #low ( [Artifact.GetYearsUntilHouseClaim( Artifact.GetOwner.Self )] lat )#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOUSE_CLAIMS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#help House Claims:#!",
+    "RUS": "#help Претензии дома:#!",
+    "POL": "#help Roszczenia rodu:#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECAY_ARTIFACT_EQUIPPED",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Equipped",
+    "RUS": "Взят",
+    "POL": "Wyposażony",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECAY_ARTIFACT_DISPlAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "On Display",
+    "RUS": "Выставлен",
+    "POL": "Na wystawie",
+    "BEL": ""
+  },
+  {
+    "KEY": "DECAY_ARTIFACT_UNEQUIPPED",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "In Storage",
+    "RUS": "В хранилище",
+    "POL": "W przechowaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "DISPLAY_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I \\nClick to display#!",
+    "RUS": "#I \\nЩелкните, чтобы выставить#!",
+    "POL": "#I \\nKliknij, aby wystawić#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PUT_COURT_ARTIFACT_ON_DISPLAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I \\nClick to display here#!",
+    "RUS": "#I \\nЩелкните, чтобы выставить здесь#!",
+    "POL": "#I \\nKliknij, aby wystawić tutaj#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "REMOVE_COURT_ARTIFACT_FROM_DISPLAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I \\nClick to store#!",
+    "RUS": "#I \\nЩелкните, чтобы убрать в хранилище#!",
+    "POL": "#I \\nKliknij, aby schować#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MOVE_COURT_ARTIFACT_TO_DISPLAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#I \\nClick to move here#!",
+    "RUS": "#I \\nЩелкните, чтобы переместить сюда#!",
+    "POL": "#I \\nKliknij, aby przenieść tutaj#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COURT_ARTIFACT_ON_DISPLAY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#T [court_artifact|e] is on display#!",
+    "RUS": "#T [court_artifact|E] показывается#!",
+    "POL": "#T [court_artifact|e] jest na wystawie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ROYAL_COURT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Royal Court",
+    "RUS": "Монарший двор",
+    "POL": "Dwór monarszy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_STORAGE",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "All Court Artifacts",
+    "RUS": "Придворные артефакты",
+    "POL": "Wszystkie artefakty dworskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_CLAIMS",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Artifact Claims",
+    "RUS": "Претензии на артефакты",
+    "POL": "Roszczenia do artefaktów",
+    "BEL": ""
+  },
+  {
+    "KEY": "NEW_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#V New#!",
+    "RUS": "#V Новый#!",
+    "POL": "#V Nowy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EQUIPPED_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Select_CString( Artifact.IsCourtArtifact, 'Displayed', 'Equipped' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]",
+    "RUS": "[Select_CString( Artifact.IsCourtArtifact, 'Демонстрируется', 'Используется' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]",
+    "POL": "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GIFT_EQUIPPED_ARTIFACT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Select_CString( Artifact.IsCourtArtifact, 'Displayed', 'Equipped' )]",
+    "RUS": "[Select_CString( Artifact.IsCourtArtifact, 'Выставляется', 'Используется' )]",
+    "POL": "[Select_CString( Artifact.IsCourtArtifact, 'Wystawione', 'Wyposażone' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Since [Character.GetShortUIName] [Character.LocalPlayerString( 'have', 'has' )] no [royal_court|e], [Character.GetShortUIName] [Character.LocalPlayerString( 'have', 'has' )] nowhere to display these [court_artifacts|e].",
+    "RUS": "Так как [Character.GetShortUIName] не [Character.LocalPlayerString( 'имеете', 'имеет' )] [Concept( 'royal_court', 'монаршего двора' )|E], [Character.GetShortUIName] не [Character.LocalPlayerString( 'можете', 'может' )] выставить этот [court_artifact|El] на обозрение.",
+    "POL": "Jako że [Select_CString( Character.IsLocalPlayer, 'nie masz', Concatenate(Character.GetShortUINameNotMe, ' nie ma'))] dostępu do [Concept( 'royal_court', 'dworu monarszego' )|e], nie [Select_CString( Character.IsLocalPlayer, 'możesz', Concatenate(Character.GetShortUINameNotMe, ' może'))] nigdzie wystawić swoich [Concept( 'court_artifacts', 'dworskich artefaktów' )|e].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_TITLE_ASSOCIATION",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Inherited along with [Artifact.GetAssociatedTitle.GetNameWithUnderlying]",
+    "RUS": "Унаследовано вместе с титулом «[Artifact.GetAssociatedTitle.GetNameWithUnderlying]»",
+    "POL": "Dziedziczony wraz z „[Artifact.GetAssociatedTitle.GetNameWithUnderlying]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "EMPTY_INVENTORY_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X Cannot view Inventory since there are no [artifacts|e] or [artifact_claims|e] to display#!",
+    "RUS": "@warning_icon! #X Нельзя посмотреть инвентарь: нет [Concept( 'artifacts', 'артефактов' )|E] или [Concept( 'artifact_claims', 'претензий на артефакты' )|E] для демонстрации#!",
+    "POL": "@warning_icon! #X Nie można przejrzeć ekwipunku, gdyż nie ma [Concept( 'artifacts', 'artefaktów' )|e] lub [Concept( 'artifact_claims', 'roszczeń do artefaktów' )|e] do wyświetlenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_PERSONAL_CLAIM",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Personal Claim",
+    "RUS": "Личная претензия",
+    "POL": "Osobiste roszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_HOUSE_CLAIM",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "House Claim",
+    "RUS": "Претензия дома",
+    "POL": "Roszczenie rodowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "REFORGE_ARTIFACT_COMPLETELY",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforge [ARTIFACT.GetNameNoTooltip] into a $NEW_TYPE$",
+    "RUS": "Перековать артефакт «[ARTIFACT.GetNameNoTooltip]» в тип «$NEW_TYPE$»",
+    "POL": "Przekuj [ARTIFACT.GetNameNoTooltip] w $NEW_TYPE|l$",
+    "BEL": ""
+  },
+  {
+    "KEY": "REFORGE_COST",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Reforge Cost: $COST$",
+    "RUS": "Стоимость перековки: $COST$",
+    "POL": "Koszt przekucia: $COST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "REPAIR_COST",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Repair Cost: $COST$",
+    "RUS": "Стоимость починки : $COST$",
+    "POL": "Koszt naprawy: $COST$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CANNOT_REFORGE_WITHOUT_ANTIQUARIAN",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "@warning_icon! #X Cannot reforge [artifacts|e] without an $antiquarian_court_position$#!",
+    "RUS": "@warning_icon! #X Нельзя перековать [artifacts|El], так как у вас отсутствует $antiquarian_court_position$#!",
+    "POL": "@warning_icon! #X Nie można przekuć [Concept( 'artifacts', 'artefaktów' )|E] bez antykwariusza#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_FALLBACK_EFFECT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#S If you do not fulfill the requirements:#!\\n[Artifact.GetFallbackEffects]",
+    "RUS": "#S Если вы не отвечаете требованиям:#!\\n[Artifact.GetFallbackEffects]",
+    "POL": "#S Jeśli nie spełniasz wymagań:#!\\n[Artifact.GetFallbackEffects]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_EFFECT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[SelectLocalization( Artifact.HasCanBenefit, 'ARTIFACT_EFFECT_HAS_CAN_BENEFIT', '' )][Artifact.GetModifierEffects]",
+    "RUS": "[SelectLocalization( Artifact.HasCanBenefit, 'ARTIFACT_EFFECT_HAS_CAN_BENEFIT', '' )][Artifact.GetModifierEffects]",
+    "POL": "[SelectLocalization( Artifact.HasCanBenefit, 'ARTIFACT_EFFECT_HAS_CAN_BENEFIT', '' )][Artifact.GetModifierEffects]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_EFFECT_HAS_CAN_BENEFIT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "#S If you fulfill the #TOOLTIP:ARTIFACT_EFFECT_REQUIREMENT_TT #L Requirements#!#!:#!\\n",
+    "RUS": "#S Если вы отвечаете #TOOLTIP:ARTIFACT_EFFECT_REQUIREMENT_TT #L требованиям#!#!:#!\\n",
+    "POL": "#S Jeśli spełniasz #TOOLTIP:ARTIFACT_EFFECT_REQUIREMENT_TT #L wymagania#!#!:#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARTIFACT_EFFECT_REQUIREMENT_TT",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "[Artifact.GetCanBenefitPlayerDesc]",
+    "RUS": "[Artifact.GetCanBenefitPlayerDesc]",
+    "POL": "[Artifact.GetCanBenefitPlayerDesc]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_bowl",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Bowl",
+    "RUS": "Горшок",
+    "POL": "Misa",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_plate",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Plate",
+    "RUS": "Тарелка",
+    "POL": "Talerz",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_urn",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Urn",
+    "RUS": "Урна",
+    "POL": "Urna",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_tun_barrel",
+    "FILE_PATH": "localization/belarusian/inventory/inventory_l_belarusian.json",
+    "ENG": "Wine Tun",
+    "RUS": "Винный чан",
+    "POL": "Tun wina",
+    "BEL": ""
+  }
+]

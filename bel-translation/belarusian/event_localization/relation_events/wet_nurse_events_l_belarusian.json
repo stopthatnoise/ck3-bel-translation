@@ -1,0 +1,2842 @@
+[
+  {
+    "KEY": "bp2_decision.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$find_wet_nurse_decision$",
+    "RUS": "$find_wet_nurse_decision$",
+    "POL": "$find_wet_nurse_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "With a mind to provide the best of care to our [ROOT.Char.Custom('GetChildChildren')]$bp2_decision.0001.desc_candidates$",
+    "RUS": "Поскольку я хочу, чтобы у наших детей было все самое лучшее$bp2_decision.0001.desc_candidates$",
+    "POL": "Z myślą o zapewnieniu najlepszej opieki [Select_CString(EqualTo_string(ROOT.Char.Custom('GetChildChildren'), '$child_children_singular|q$' ), 'naszemu dziecku', 'naszym dzieciom' )], $bp2_decision.0001.desc_candidates$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.desc_widower",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Given that raising a child of status is far from a solitary task$bp2_decision.0001.desc_candidates$",
+    "RUS": "Поскольку с воспитанием ребенка благородных кровей трудно справиться без помощи$bp2_decision.0001.desc_candidates$",
+    "POL": "Mając na uwadze, że wychowywanie dziecka o pewnym statusie nie jest zadaniem dla jednej osoby, $bp2_decision.0001.desc_candidates$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.desc_candidates",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": ", I've had my functionaries seek out able women for the role of [GetCourtPositionType('wet_nurse_court_position').GetName()].\\n\\nNow, they present a few locals for my judgment.",
+    "RUS": ", мои служащие отправились на поиски женщины, из которой могла бы выйти [GetCourtPositionType('wet_nurse_court_position').GetName()|l].\\n\\nСегодня мне на выбор представили несколько кандидаток.",
+    "POL": "rozkazał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m swoim funkcjonariuszom, aby znaleźli kogoś, kto sprawdzi się jako [GetCourtPositionType('wet_nurse_court_position').GetName()|l].\\n\\nTeraz przedstawiają mi kilka osobistości, abym dokonał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] oceny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I prefer the experienced [wet_nurse_candidate_1.GetFirstNameNoTooltip].",
+    "RUS": "Доверия заслуживает более опытная [wet_nurse_candidate_1.GetFirstNameNoTooltip].",
+    "POL": "[wet_nurse_candidate_1.GetFirstNameNoTooltip] ma doświadczenie, które wzbudza we mnie zaufanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.a.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse_candidate_1.GetUINamePossessive] [aptitude|E] is [wet_nurse_candidate_1.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]",
+    "RUS": "[aptitude|E] персонажа [wet_nurse_candidate_1.GetUIName] составляет [wet_nurse_candidate_1.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]",
+    "POL": "[wet_nurse_candidate_1.GetUINameNotMe] ma [wet_nurse_candidate_1.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ))|l] [aptitude|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse_candidate_2.GetFirstNameNoTooltip] is good enough.",
+    "RUS": "[wet_nurse_candidate_2.GetFirstNameNoTooltip] сгодится.",
+    "POL": "[wet_nurse_candidate_2.GetFirstNameNoTooltip] jest wystarczająco dobr[Select_CString( wet_nurse_candidate_2.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.b.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse_candidate_2.GetUINamePossessive] [aptitude|E] is [wet_nurse_candidate_2.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]",
+    "RUS": "[aptitude|E] персонажа [wet_nurse_candidate_2.GetUIName] составляет [wet_nurse_candidate_2.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]",
+    "POL": "[wet_nurse_candidate_2.GetUINameNotMe] ma [wet_nurse_candidate_2.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ))|l] [aptitude|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I don't like any of them.",
+    "RUS": "Мне ни одна из них не нравится.",
+    "POL": "Nikt z nich mi nie odpowiada.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A Sick Leave",
+    "RUS": "Отпуск по болезни",
+    "POL": "Zwolnienie chorobowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The wet nurse, [wet_nurse.GetFirstName], has asked for an immediate audience with me.\\n\\n",
+    "RUS": "Кормилица, [wet_nurse.GetFirstName], попросила меня о срочной аудиенции.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [wet_nurse.Custom2('RelationToMe', ROOT.Char)], я заболела! Я вынуждена просить вас дать мне несколько дней отдыха, иначе мои скверные гуморы могут навредить вверенным мне детям».\\n\\n[wet_nurse.GetSheHe|U] произносит это тоном, явно свидетельствующим о ее нездоровом состоянии.",
+    "POL": "Mamka [wet_nurse.GetFirstName] prosi mnie o natychmiastową audiencję.\\n\\n– Źle się czuję, to chyba choroba! Muszę prosić cię o kilka dni odpoczynku, gdyż nie chcę, aby moje złe płyny humoralne dotknęły także dzieci, nad którymi sprawuję opiekę.\\n\\nJęczy chorobliwie, dając mi do zrozumienia, w jakim znajduje się stanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.desc_child_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My wet nurse, [wet_nurse.GetFirstName], isn't doing so well lately. [wet_nurse.GetSheHe|U]'s picked up on my concern.\\n\\n",
+    "RUS": "В последнее время моя кормилица, [wet_nurse.GetFirstName], неважно себя чувствует. [wet_nurse.GetSheHe|U] заметила мое беспокойство.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя дорогая', 'Мой дорогой' )] [wet_nurse.Custom2('RelationToMe', ROOT.Char)] [nursed_child.GetFirstName], мне нелегко это говорить, но я должна сказать тебе... меня поразила нехорошая хворь. Мне нужно будет на время удалиться, но ты не переживай! Я очень скоро к тебе вернусь».",
+    "POL": "[wet_nurse.GetFirstName], moja mamka, ostatnio słabuje. Widząc moje obawy, zwraca się do mnie.\\n\\n– [nursed_child.GetFirstName], moje kochanie… muszę ci coś wyznać. Trawi mnie ciężka choroba, więc z ciężkim sercem opuszczam cię na jakiś czas. Ale nie martw się! Wkrótce powrócę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Worry not, I'll take care of you.",
+    "RUS": "Не волнуйся, я о тебе позабочусь.",
+    "POL": "Nie martw się, zajmę się tobą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You finance a visit to a physician",
+    "RUS": "Вы оплачиваете посещение врача",
+    "POL": "Finansujesz wizytę u medyka",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Let's make it a permanent leave.",
+    "RUS": "Предлагаю вам уйти на покой.",
+    "POL": "Ustalmy, że to będzie twoje stałe zwolnienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse.GetFirstNamePossessiveNoTooltip] care is missed.",
+    "RUS": "Вам не хватает внимания, которое оказывала [wet_nurse.GetFirstNameNoTooltip].",
+    "POL": "Brak pomocy ze strony osoby, jaką jest [wet_nurse.GetFirstNameNoTooltip], daje się we znaki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Sickness? Stay away from my children!",
+    "RUS": "Болезнь? Не приближайтесь к моим детям!",
+    "POL": "Choroba? Trzymaj się z dala od moich dzieci!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.c_child_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Sickness? You better stay away from me!",
+    "RUS": "Болезнь? Не приближайтесь ко мне!",
+    "POL": "Choroba? Lepiej trzymaj się ode mnie z daleka!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.ill",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNameNoTooltip] contracts a disease",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] подхватывает болезнь",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] zachorowuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.healthy",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNameNoTooltip] fends off a disease",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] побеждает болезнь",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] walczy z chorobą",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7000.healthy.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetShortUIName] stays healthy",
+    "RUS": "[nursed_child.GetShortUIName] остается [Select_CString(nursed_child.IsFemale, 'здоровой', 'здоровым' )]",
+    "POL": "[nursed_child.GetShortUINameNotMe] pozostaje woln[Select_CString( nursed_child.IsFemale, 'a', 'y' )] od choroby",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Nursing a Suspicion",
+    "RUS": "Растущее подозрение",
+    "POL": "Z dozą podejrzliwości",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse.GetFirstName] is a wonderful wet nurse for my children, a caretaker to be appreciated. Nonetheless, lately, my [ROOT.Char.Custom2('RelationToMe', jealous_spouse)] [jealous_spouse.GetFirstName] is rather suspicious of [wet_nurse.GetHerHim].\\n\\n",
+    "RUS": "[wet_nurse.GetFirstName] — замечательная кормилица для моих детей, и я это ценю. Тем не менее, в последнее время [Select_CString(jealous_spouse.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', jealous_spouse)] [jealous_spouse.GetFirstName] относится к ней с подозрением.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [jealous_spouse.Custom2('RelationToMe', ROOT.Char)], я вижу, как возрос твой интерес к нашим детям с тех пор, как у нас на службе появилась эта шлюха [wet_nurse.GetFirstNameNoTooltip]! Не вдохновляют ли тебя часом ее #EMP обильность#!?»\\n\\n",
+    "POL": "[wet_nurse.GetFirstName] doskonale spełnia się w roli mamki dla moich dzieci, niemniej ostatnio [ROOT.Char.Custom2('RelationToMe', jealous_spouse)] mojej osoby, [jealous_spouse.GetFirstName], objawia wobec [wet_nurse.Custom('PL_niego_niej')] pewne podejrzenia.\\n\\n– [jealous_spouse.Custom2('RelationToMeVocative', ROOT.Char)|U], twoje zainteresowanie naszymi dziećmi szczególnie rozkwitło, odkąd [wet_nurse.GetFirstNameNoTooltip] pracuje u nas! Czyżby to [wet_nurse.Custom('PL_jego_jej')] #EMP obfitości#! tak cię inspirowały?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.desc_lover",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "It seems... I've been less than careful.",
+    "RUS": "Кажется... мне стоило быть осторожнее.",
+    "POL": "Wygląda na to, że… zapłacę za moją nieostrożność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.desc_no_lover",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[jealous_spouse.GetFirstNameNoTooltip] is attacking me over nothing! Right...?",
+    "RUS": "[jealous_spouse.GetFirstNameNoTooltip] [Select_CString(jealous_spouse.IsFemale, 'набросилась', 'набросился' )] на меня без причин! Так ведь?..",
+    "POL": "[jealous_spouse.GetFirstNameNoTooltip] atakuje mnie z byle powodu! Prawda…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You want me to ignore our offspring?!",
+    "RUS": "Ты хочешь, чтобы я не [Select_CString(ROOT.Char.IsFemale, 'обращала', 'обращал' )] внимания на наших детей?!",
+    "POL": "Chcesz, abym ignorował[Select_CString( ROOT.Char.IsFemale, 'a', '' )] nasze potomstwo?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This option is available because you have a [lover|E]",
+    "RUS": "Этот вариант доступен из-за ваших [Concept( 'lover', 'любовных' )|E] отношений на стороне",
+    "POL": "Ta opcja jest dostępna, ponieważ masz [Concept( 'lover', 'kochanka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Preposterous, my dear: you know I'm faithful!",
+    "RUS": "[Select_CString(jealous_spouse.IsFemale, 'Моя дорогая', 'Мой дорогой' )], это просто чушь. Ты же знаешь, я [Select_CString(ROOT.Char.IsFemale, 'верна', 'верен' )] тебе!",
+    "POL": "To niedorzeczne, m[Select_CString( ROOT.Char.IsFemale, 'oja droga', 'ój drogi' )]: wiesz, że jestem wiern[Select_CString( jealous_spouse.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.b.spouse_convinced",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You convince [jealous_spouse.GetFirstNameNoTooltip]",
+    "RUS": "[jealous_spouse.GetFirstNameNoTooltip] [Select_CString(jealous_spouse.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[jealous_spouse.GetFirstNameNoTooltip] wierzy ci",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.b.spouse_not_convinced",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[jealous_spouse.GetFirstNameNoTooltip] doesn't believe you",
+    "RUS": "[jealous_spouse.GetFirstNameNoTooltip] не верит вам",
+    "POL": "[jealous_spouse.GetFirstNameNoTooltip] nie wierzy ci",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I shall allay your fears.",
+    "RUS": "Я развею твои опасения.",
+    "POL": "Rozwieję twoje obawy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7001.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You are a known liar",
+    "RUS": "Все знают, что вы лжете",
+    "POL": "Wszyscy wiedzą o twoich skłonnościach do kłamstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Suckling Spouse",
+    "RUS": "Вскормленный супруг",
+    "POL": "Mleczni małżonkowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[court_chaplain.GetFirstName] barges into my [ROOT.Char.Custom('GetChamber')], a look of concern on [court_chaplain.GetHerHis] face.\\n\\n",
+    "RUS": "[court_chaplain.GetFirstName] врывается ко мне в [ROOT.Char.Custom('GetChamber_RU_1')] с обеспокоенным видом.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], простите за это вторжение, но дело не терпит отлагательств! Я [Select_CString(court_chaplain.IsFemale, 'узнала', 'узнал' )], что вы и [spouse.GetFirstName] в детстве были на попечении одной и той же кормилицы. Это делает ваш брак крайне неприемлемым, ведь вы молочные сиблинги. В глазах [ROOT.Char.GetFaith.HighGodNamePossessive] вы друг другу ближайшие родственники!»\\n\\nКакое неожиданное откровение! [court_chaplain.GetFirstNameNoTooltip] между тем продолжает.\\n\\n«Я советую вам немедленно развестись. В противном случае мне придется объявить ваш брак кровосмесительным».",
+    "POL": "[court_chaplain.GetFirstName] wdziera się do miejsca jakim jest [ROOT.Char.Custom('GetChamber')] z wyraźnym zaniepokojeniem na twarzy.\\n\\n– Wasza czcigodność wybaczy mi to wtargnięcie, ale mam coś ważnego do przekazania. Udało mi się dowiedzieć, że ta sama mamka wykarmiła zarówno osobę, którą jest [spouse.GetFirstName], jak i waszą mość. To sprawia, że wasze małżeństwo jest wysoce niestosowne! Jesteście mlecznym rodzeństwem, a w oczach [ROOT.Char.GetFaith.HighGodNamePossessive] najbliższą rodziną!\\n\\nSzokująca informacja! [court_chaplain.GetFirstNameNoTooltip] kontynuuje, zanim mogę cokolwiek powiedzieć.\\n\\n– Zalecam natychmiastowy rozwód. W przeciwnym razie nie pozostanie mi nic innego, jak uznać wasze małżeństwo za kazirodcze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Incestuous, you say? I just call it love!",
+    "RUS": "Вы говорите о кровосмешении, я же называю это любовью!",
+    "POL": "Kazirodztwo, powiadasz? Ja to nazywam miłością!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "We will divorce immediately.",
+    "RUS": "Мы немедленно разведемся.",
+    "POL": "Rozwiedziemy się natychmiast.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Maybe we can agree to forget about it...?",
+    "RUS": "Давайте договоримся и забудем об этом?..",
+    "POL": "Może umówimy się, że o tym zapomnimy…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.parental_neglect_effect",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNameNoTooltip] is furious",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] в ярости",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] wpada w złość",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.title",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNamePossessiveNoTooltip] First",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] делает первые шаги",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] i [nursed_child.GetHerHis] pierwsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Words",
+    "RUS": "$bp2_yearly.7003.title$ слова",
+    "POL": "$bp2_yearly.7003.title$ słowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Скорее, мой сюзерен, вы должны это услышать!»\\n\\nКормилица [wet_nurse.GetFirstName] чуть ли не силой вталкивает меня в [ROOT.Char.Custom('GetChamber')], где проживает [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', nursed_child)]. [wet_nurse.GetFirstNameNoTooltip] восторженно показывает пальцем на ребенка, так что я наклоняюсь и слушаю.\\n\\n",
+    "POL": "– Szybko, mój seniorze, musisz to usłyszeć!\\n\\nMamka [wet_nurse.GetFirstName] pospiesza mnie do miejsca, którym jest [ROOT.Char.Custom('GetChamber')], gdzie znajduje się [ROOT.Char.Custom2('RelationToMe', nursed_child)]. [wet_nurse.GetFirstNameNoTooltip] w podekscytowaniu wskazuje na nie palcem, wobec czego nachylam się i nasłuchuję, jakie dźwięki wydaje [nursed_child.GetFirstName].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNameNoTooltip] offers me a drool-y coin and says:\\n\\n",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] протягивает мне слюнявую монету и говорит:\\n\\n«З-зо, з-зо-лото...»",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] oferuje mi obślinioną monetę i wybąkuje:\\n\\n„S-z… s-l-o-to…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_secret",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "While pressing a finger to [nursed_child.GetHerHis] tiny lips, [nursed_child.GetFirstNameNoTooltip] whispers to me:\\n\\n",
+    "RUS": "Прижав палец к своим крошечным губам, [nursed_child.GetFirstNameNoTooltip] шепчет мне:\\n\\n«Секрет».",
+    "POL": "Przyciskając palec do swoich małych ust, [nursed_child.GetFirstNameNoTooltip] szepcze do mnie:\\n\\n„Sekret”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_motto",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[nursed_child.GetHouse.GetMotto]».\\n\\nНевероятно, девиз нашего дома [nursed_child.GetHouse.GetName]! [nursed_child.GetSheHe|U] [Select_CString(nursed_child.IsFemale, 'произнесла', 'произнес' )] его без запинки!",
+    "POL": "„[nursed_child.GetHouse.GetMotto]”.\\n\\nNiewiarygodne: motto naszego rodu [nursed_child.GetHouse.GetName]! Wybełkotał[Select_CString( nursed_child.IsFemale, 'a', '' )] je bez zająknięcia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_house",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[nursed_child.GetHouse.GetNameNoTooltip]».\\n\\nНевероятно! [nursed_child.GetFirstNameNoTooltip] [Select_CString(nursed_child.IsFemale, 'научилась', 'научился' )] выговаривать название нашего дома.",
+    "POL": "„[nursed_child.GetHouse.GetNameNoTooltip]”.\\n\\nNiewiarygodne! Wygląda na to, że [nursed_child.GetFirstNameNoTooltip] nauczył[Select_CString( nursed_child.IsFemale, 'a', '' )] się wymawiać nazwę naszego rodu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_military",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Гу-гу-гу... [nursed_child.Custom( 'KnightCultureNoTooltipLowercase' )]!»\\n\\nПохоже, [nursed_child.GetFirstNameNoTooltip] уже обладает воинственным духом!",
+    "POL": "– Gu-ba-nu… [nursed_child.Custom( 'KnightCultureNoTooltipLowercase' )]!\\n\\n[nursed_child.GetFirstNameNoTooltip] już pokazuje swoją duszę wojownika!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[nursed_child.GetFaith.random_GoodGodNames]».\\n\\nПохоже, [nursed_child.GetFirstNameNoTooltip] уже верует!",
+    "POL": "„[nursed_child.GetFaith.random_GoodGodNames]”.\\n\\nWygląda na to, że [nursed_child.GetFirstNameNoTooltip] odnalazł[Select_CString( nursed_child.IsFemale, 'a', '' )] swoją wiarę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_father",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Па... па...»",
+    "POL": "„Ta… ta…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.desc_mother",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ма... ма...»",
+    "POL": "„Ma… ma…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "How delightful!",
+    "RUS": "Очаровательно!",
+    "POL": "Jakież to wspaniałe!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "What else can [nursed_child.GetSheHe] say?",
+    "RUS": "Что еще [nursed_child.GetSheHe] может сказать?",
+    "POL": "Co jeszcze może powiedzieć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You pressure [nursed_child.GetFirstNameNoTooltip] to keep talking.",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] по вашему требованию продолжает говорить.",
+    "POL": "Wywierasz presję, aby [nursed_child.GetFirstNameNoTooltip] jeszcze coś powiedział[Select_CString( nursed_child.IsFemale, 'a', '' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7003.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I don't have time for this.",
+    "RUS": "Мне не до этого.",
+    "POL": "Nie mam na to czasu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Steps",
+    "RUS": "$bp2_yearly.7003.title$ шаги",
+    "POL": "$bp2_yearly.7003.title$ kroki",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I hear a commotion from my [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstNamePossessive] chambers. Hastening inside, I see the wet nurse, [wet_nurse.GetFirstName], is playing with [nursed_child.GetFirstName]. \\n\\n",
+    "RUS": "Я слышу какое-то шевеление, доносящееся из комнаты, где проживает [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstName]. Войдя внутрь, я вижу, что это моя кормилица, [wet_nurse.GetFirstName], и [nursed_child.GetFirstName] играют.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы как нельзя вовремя! [nursed_child.GetFirstNameNoTooltip] только что [Select_CString(nursed_child.IsFemale, 'сделала', 'сделал' )] свой первый шаг!» — в восторге кричит она.\\n\\n[nursed_child.GetFirstNameNoTooltip] держит ее за руку и пытается идти по комнате.",
+    "POL": "Dochodzą do mnie dźwięki zamieszania z komnaty, w której przebywa [nursed_child.GetFirstName], [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] mojej osoby. Gdy wbiegam do środka, okazuje się, że jest w trakcie zabawy z mamką imieniem [wet_nurse.GetFirstName].\\n\\n– [ROOT.Char.Custom('FormOfAddressForLiege')|U] ma doskonałe wyczucie czasu! [nursed_child.GetFirstNameNoTooltip] stawia właśnie swój pierwszy krok! – woła w podekscytowaniu mamka.\\n\\nTrzymając dziecko za ręce, próbuje prowadzić je po pokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Большой шаг для ребенка, но маленький шаг для правителя».",
+    "POL": "„Wielki krok dla dziecka. Mały krok dla władcy”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "What else can [nursed_child.GetSheHe] do?",
+    "RUS": "Что еще [nursed_child.GetSheHe] может сделать?",
+    "POL": "Co [nursed_child.GetSheHe|l] jeszcze potrafi?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You pressure [nursed_child.GetFirstNameNoTooltip] to keep walking.",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] по вашему требованию продолжает ходить.",
+    "POL": "Wywierasz presję, aby dziecko próbowało stawiać kroki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7004.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.c$",
+    "RUS": "$bp2_yearly.7003.c$",
+    "POL": "$bp2_yearly.7003.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Teething",
+    "RUS": "$bp2_yearly.7003.title$ прорезывание зуба",
+    "POL": "$bp2_yearly.7003.title$ ząbkowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "With my leave, my [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstName] and [nursed_child.GetHerHis] wet nurse parade into my [ROOT.Char.Custom('GetChamber')]. [wet_nurse.GetFirstName] poses like a herald and proclaims:\\n\\n",
+    "RUS": "С моего позволения [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', nursed_child)], [nursed_child.GetFirstName] с кормилицей входят ко мне в [ROOT.Char.Custom('GetChamber_RU_1')]. [wet_nurse.GetFirstName] принимает позу герольда и объявляет:\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы свидетель грандиозного события! [nursed_child.GetFirstNameNoTooltip] [Select_CString(nursed_child.IsFemale, 'пришла', 'пришел' )] к вам с подарком, — она подталкивает ребенка вперед. — Давай, [nursed_child.GetFirstNameNoTooltip], расскажи!»\\n\\n«[nursed_child.Custom2('RelationToMeShort', ROOT.Char)|U], у меня только что выпал зуб!» — [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] с гордостью демонстрирует беззубую улыбку и передает мне мешочек с выпавшим зубом внутри.",
+    "POL": "Za moim przyzwoleniem [nursed_child.GetFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', nursed_child)], i [nursed_child.Custom('PL_jego_jej')] mamka paradują poprzez miejsce, którym jest [ROOT.Char.Custom('GetChamber')]. Nagle [wet_nurse.GetFirstName], udając herolda, ogłasza:\\n\\n– Jest [ROOT.Char.Custom('FormOfAddressForLiege')] świadkiem czegoś niezwykłego! [nursed_child.GetFirstNameNoTooltip] ma dla ciebie wspaniały dar. – Lekko popycha dziecko do przodu. – Śmiało, powiedz [ROOT.Char.Custom('PL_mu_jej')]!\\n\\n– Wypadł mi ząb! – [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] z dumą prezentuje swój bezzębny uśmiech, wręczając mi woreczek z zębem w środku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Lovely! But keep your tooth as a good charm.",
+    "RUS": "Очаровательно! Но оставь зуб себе, на счастье.",
+    "POL": "Cudownie! Ale zachowaj tego zęba jako talizman.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Here: a gift befits a gift!",
+    "RUS": "Держи: подарок, достойный твоего!",
+    "POL": "Proszę, prezent za prezent!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You got a tooth",
+    "RUS": "Вы получили зуб",
+    "POL": "Otrzymujesz zęba",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7005.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.c$",
+    "RUS": "$bp2_yearly.7003.c$",
+    "POL": "$bp2_yearly.7003.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "child_teeth_memorabilia",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetNamePossessiveNoTooltip] Milk Tooth",
+    "RUS": "Молочный зуб персонажа [nursed_child.GetNameNoTooltip]",
+    "POL": "Ząb mleczny postaci [nursed_child.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "child_teeth_memorabilia_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetNamePossessiveNoTooltip] first fallen-out milk tooth.",
+    "RUS": "Первый выпавший молочный зуб персонажа [nursed_child.GetNameNoTooltip].",
+    "POL": "Pierwszy ząb mleczny, który [Select_CString( nursed_child.IsFemale, 'straciła', 'stracił' )] [nursed_child.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Enrobing",
+    "RUS": "$bp2_yearly.7003.title$ облачение",
+    "POL": "$bp2_yearly.7003.title$ ubieranie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "As I patiently await the fetching of my clothes, a servant stutters: ",
+    "RUS": "Я терпеливо жду, когда принесут мою одежду, когда слуга заикаясь сообщает: «П-простите, [ROOT.Char.Custom('FormOfAddressForLiege')]... но никто не может найти ваш наряд!»\\n\\n«Меня окружают неумехи!» — бормочу я, вырываясь из [ROOT.Char.Custom('GetChamber_RU_2')].\\n\\nИ только в [ROOT.Char.Custom('GetChamber_RU_4')], где проживает [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', nursed_child)], [nursed_child.GetFirstName], я нахожу не только свои наряды, но и кормилицу.\\n\\n«Я к этому непричастна, мой сюзерен, [nursed_child.GetSheHe] [Select_CString(nursed_child.IsFemale, 'сама оделась', 'сам оделся' )]!» — со смешком говорит мне [wet_nurse.GetFirstName].",
+    "POL": "Cierpliwie czekam, aż służący przyniosą moje szaty. – Wasz miłość… niestety nie możemy ich nigdzie znaleźć! – mówi sługa, jąkając się.\\n\\n– Otaczają mnie głupcy! – mamroczę, opuszczając miejsce, którym jest [ROOT.Char.Custom('GetChamber')].\\n\\nSwój ubiór znajduję dopiero w pokoju dziecięcym, gdzie przebywa [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] wraz ze swoją mamką.\\n\\n– To nie moja wina… Dziecko samo się przebrało! – mówi, chichocząc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The little scoundrel!",
+    "RUS": "[Select_CString(nursed_child.IsFemale, 'Маленькая негодница', 'Маленький негодник' )]!",
+    "POL": "A to mała franca!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7006.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "So, [nursed_child.GetSheHe]'s a [nursed_child.Custom('GetPrincessPrince')] of Fashion?",
+    "RUS": "Значит [nursed_child.GetSheHe] у нас [nursed_child.Custom('GetPrincessPrince')] моды?",
+    "POL": "A więc [nursed_child.GetFirstName] to teraz [nursed_child.Custom('GetPrincessPrince')|l] mody?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7006.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.c$",
+    "RUS": "$bp2_yearly.7003.c$",
+    "POL": "$bp2_yearly.7003.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Resentment",
+    "RUS": "$bp2_yearly.7003.title$ обида",
+    "POL": "$bp2_yearly.7003.title$ rozżalenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_start",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ах, дни твоего детства! Я всегда буду с теплотой вспоминать их», — говорит [Select_CString(reflecting_parent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [reflecting_parent.GetFirstName], без какого-либо повода.\\n\\nМеня переполняют воспоминания. Я #EMP знаю#!, что",
+    "POL": "– Ach, czas twojego dzieciństwa… Zawsze dobrze wspominam ten okres – [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)|U] [reflecting_parent.GetFirstName] dość nieoczekiwanie zaczyna marzyć.\\n\\nWspomnienia błyskawicznie wracają. #EMP Wiem#!, że",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.desc_start$ [reflecting_parent.GetSheHe] never cared for me. I #EMP know#! [reflecting_parent.GetHerHis] amusing moments were my worst trials.",
+    "RUS": "$bp2_yearly.7008.desc_start$ [reflecting_parent.GetSheHe] никогда не [Select_CString(reflecting_parent.IsFemale, 'заботилась', 'заботился' )] обо мне. Я #EMP знаю#!, что [reflecting_parent.GetHerHis] моменты радости оборачивались для меня худшими испытаниями.",
+    "POL": "$bp2_yearly.7008.desc_start$ [reflecting_parent.Custom('PL_jego_jej')] myśli i czyny nigdy nie były mi przychylne. Gdy na [reflecting_parent.Custom('PL_jego_jej')] twarzy gościł #EMP uśmiech#!, moja dusza cierpiała katusze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.desc_start$ my [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] was a foe to me as long as [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] lived.",
+    "RUS": "$bp2_yearly.7008.desc_start$ [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] до самой своей смерти [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'была', 'был' )] мне врагом.",
+    "POL": "$bp2_yearly.7008.desc_start$ [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] to osoba, która aż do śmierci źle mi życzyła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_word",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] even dismissed my first words!",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] даже [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'отмахнулась', 'отмахнулся' )] от моих первых слов!",
+    "POL": "Ta kanalia zignorowała nawet moje pierwsze słowa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_step",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] left, bored, as I took my first steps.",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'ушла', 'ушел' )], не посмотрев мои первые шаги.",
+    "POL": "Ta kanalia, widząc moje pierwsze kroki, zwyczajnie opuściła pomieszczenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_tooth",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] recoiled, disgusted, from my first lost tooth!",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] с отвращением [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'отшатнулась', 'отшатнулся' )] от моего первого выпавшего зуба!",
+    "POL": "Tę kanalię obrzydził mój pierwszy wypadnięty ząb!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_dress",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] ridiculed my childhood love of dress-up!",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'посмеялась', 'посмеялся' )] над моей детской любовью к переодеваниям!",
+    "POL": "Ta kanalia naśmiewała się z mojego dziecięcego zamiłowania do przebieranek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "\\n\\nI should have what's owed to me! Or perhaps... I'd best cease dwelling on the past?",
+    "RUS": "\\n\\nНужно взять то, что принадлежит мне по праву! Хотя... может, уже хватит жить прошлым?",
+    "POL": "\\n\\nCzas najwyższy odebrać, co moje! A może… lepiej nie rozpamiętywać przeszłości?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Отдай мне свои земли, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]!»",
+    "POL": "– Oddaj mi swoje ziemie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.a.tt_good",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[reflecting_parent.GetFirstNameNoTooltip] agrees with you",
+    "RUS": "[reflecting_parent.GetFirstNameNoTooltip] соглашается с вами",
+    "POL": "[reflecting_parent.GetFirstNameNoTooltip] przystaje na twoje żądanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.a.tt_bad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[reflecting_parent.GetFirstNameNoTooltip] offers something else instead",
+    "RUS": "[reflecting_parent.GetFirstNameNoTooltip] предлагает вам взамен кое-что другое",
+    "POL": "[reflecting_parent.GetFirstNameNoTooltip] oferuje w zamian coś innego",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Твои богатства должны быть моими!»",
+    "POL": "„To mnie zawdzięczasz swoją fortunę!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я тебя ненавижу и не хочу больше видеть!»",
+    "POL": "„Gardzę tobą i nie chcę cię już więcej widzieć!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.c_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Зачем было так ко мне относиться?!»",
+    "POL": "„Dlaczego tak mnie zaniedbywano?!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I would rather focus on my own children.",
+    "RUS": "Лучше займусь своими детьми.",
+    "POL": "Wolę skupić się na własnych dzieciach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.e",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Such treatment is... rightful.",
+    "RUS": "Подобное отношение... справедливо.",
+    "POL": "Takie traktowanie jest… słuszne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7008.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[reflecting_parent.GetFirstNameNoTooltip] will have to respond",
+    "RUS": "[reflecting_parent.GetFirstNameNoTooltip] будет [Select_CString(reflecting_parent.IsFemale, 'вынуждена', 'вынужден' )] ответить",
+    "POL": "[reflecting_parent.GetFirstNameNoTooltip] musi odpowiedzieć",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7003.title$ Bonds",
+    "RUS": "$bp2_yearly.7003.title$ узы",
+    "POL": "$bp2_yearly.7003.title$ więzi",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.desc_start$ my [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] saw the best in me, always strove to defend me. The finest moments of my childhood were the ones with [reflecting_parent.GetHerHim].",
+    "RUS": "$bp2_yearly.7008.desc_start$ [Select_CString(reflecting_parent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [Select_CString(reflecting_parent.IsFemale, 'видела', 'видел' )] во мне только хорошее и всегда меня [Select_CString(reflecting_parent.IsFemale, 'защищала', 'защищал' )]. Лучшие моменты моего детства связаны с [Select_CString(reflecting_parent.IsFemale, 'ней', 'ним' )].",
+    "POL": "$bp2_yearly.7008.desc_start$ [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] od zawsze widzi we mnie najlepsze cechy i zawsze staje w mojej obronie. To z [reflecting_parent.Custom('PL_nim_nia')] wiążą się moje najlepsze wspomnienia z dzieciństwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.desc_start$ my [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] held a deep devotion to me and, while my [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] lived, [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] too loved me fiercely.",
+    "RUS": "$bp2_yearly.7008.desc_start$ [Select_CString(reflecting_parent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [Select_CString(reflecting_parent.IsFemale, 'была искренне мне предана', 'был искренне мне предан' )] и, пока [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'была жива моя', 'был жив мой' )] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName], [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] тоже истово меня [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'любила', 'любил' )].",
+    "POL": "$bp2_yearly.7008.desc_start$ [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] to osoba, która zawsze była blisko mnie. A gdy inna bliska mi osoba, [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName], jeszcze żyła, również darzyła mnie nieustanną miłością.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_word",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "It was [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] who heard my first words.",
+    "RUS": "Именно [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'услышала', 'услышал' )] мои первые слова.",
+    "POL": "Ta osoba usłyszała moje pierwsze słowa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_step",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] helped me take my first steps.",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'помогла', 'помог' )] мне сделать первые шаги.",
+    "POL": "Ta osoba pomagała mi w stawianiu pierwszych kroków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_tooth",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] even accepted my milk tooth into [ROOT.Var('nursed_child_parent_var').Char.GetHerHis] own hand.",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] даже [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'взяла', 'взял' )] в руку мой молочный зуб.",
+    "POL": "Ta osoba wzięła nawet do ręki mój mleczny ząb.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_dress",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] encouraged my mischief, my dressing-up.",
+    "RUS": "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] [Select_CString(ROOT.Var('nursed_child_parent_var').Char.IsFemale, 'поощряла', 'поощрял' )] мои проказы, мои игры в переодевание.",
+    "POL": "Ta osoba wręcz zachęcała mnie do psot i przebieranek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps I should repay [ROOT.Var('nursed_child_parent_var').Char.GetHerHis] affection?",
+    "RUS": "\\n\\nВозможно, стоит отплатить за эту любовь?",
+    "POL": "\\n\\nByć może warto odwdzięczyć się [ROOT.Var('nursed_child_parent_var').Char.Custom('PL_mu_jej')] za to uczucie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.desc_end_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "\\n\\nIt's too late to thank [ROOT.Var('nursed_child_parent_var').Char.GetHerHim], though. My gratitude goes only to my [ROOT.Char.Custom2('RelationToMe', reflecting_parent)] now.",
+    "RUS": "\\n\\nУвы, для благодарностей уже слишком поздно. Всю мою благодарность получит [Select_CString(reflecting_parent.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', reflecting_parent)].",
+    "POL": "\\n\\nNiestety, jest już za późno, by [ROOT.Var('nursed_child_parent_var').Char.Custom('PL_mu_jej')] podziękować. Teraz obiektem mojej wdzięczności może być już tylko [ROOT.Char.Custom2('RelationToMe', reflecting_parent)].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я так тебя люблю, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]».",
+    "POL": "– Tak bardzo cię kocham, [nursed_child.Custom2('RelationToMeShortVocative', reflecting_parent)].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.a.tt_good",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.a.tt_good$",
+    "RUS": "$bp2_yearly.7008.a.tt_good$",
+    "POL": "$bp2_yearly.7008.a.tt_good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.a.tt_bad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[reflecting_parent.GetFirstNameNoTooltip] wants something in return",
+    "RUS": "[reflecting_parent.GetFirstNameNoTooltip] хочет что-то взамен",
+    "POL": "[reflecting_parent.GetFirstNameNoTooltip] chce czegoś w zamian",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I'll pass the loving care on to my children!",
+    "RUS": "Я передам любовь и заботу своим детям!",
+    "POL": "Otoczę moje dzieci miłością i troską!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7009.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Uh-huh. Family, gratitude... and so on.",
+    "RUS": "Ага. Семья, благодарность... и так далее.",
+    "POL": "Eee… Rodzina, wdzięczność… i tak dalej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.t$",
+    "RUS": "$bp2_yearly.7008.t$",
+    "POL": "$bp2_yearly.7008.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_start",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "As I discuss some court affairs with my [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstName], [nursed_child.GetSheHe] abruptly starts discussing [nursed_child.GetHerHis] childhood.\\n\\n",
+    "RUS": "Я и [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', nursed_child)], [nursed_child.GetFirstName], обсуждаем придворные дела, как вдруг [nursed_child.GetSheHe] меняет тему и начинает говорить о своем детстве.\\n\\n",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', nursed_child)|U] [nursed_child.GetFirstName] omawia ze mną sprawy dotyczące dworu. W pewnym momencie rozmowa schodzi na [nursed_child.Custom('PL_jego_jej')] dzieciństwo.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7010.desc_start$",
+    "RUS": "$bp2_yearly.7010.desc_start$«[Select_CString(ROOT.Char.IsFemale, 'Дорогая', 'Дорогой' )] [nursed_child.Custom2('RelationToMeShort', ROOT.Char)], признай: тебе никогда не было до меня дела, даже в детстве.",
+    "POL": "$bp2_yearly.7010.desc_start$– [nursed_child.Custom2('RelationToMeShortVocative', ROOT.Char)|U], musisz przyznać, że mój los nigdy, nawet w moim dzieciństwie, cię nie obchodził.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7010.desc_start$",
+    "RUS": "$bp2_yearly.7010.desc_start$«Нехорошо так говорить о мертвых, но признай, что [Select_CString(nursed_child.MakeScope.Var('nursed_child_parent_var').Char.IsFemale, 'моя была', 'мой был' )] наихудшим родителем!",
+    "POL": "$bp2_yearly.7010.desc_start$– [nursed_child.Custom2('RelationToMeShortVocative', ROOT.Char)|U], o martwych nie godzi się mówić źle, ale przyznaj: [nursed_child.Custom2('RelationToMeShort', nursed_child.MakeScope.Var('nursed_child_parent_var').Char)] to najgorszy rodzic, jaki kiedykolwiek chodził po tej ziemi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_word",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My first words were dismissed!",
+    "RUS": "От моих первых слов отмахнулись!",
+    "POL": "Moje pierwsze słowa zostały zignorowane!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_step",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My first steps went ignored!",
+    "RUS": "Мои первые шаги проигнорировали!",
+    "POL": "Moje pierwsze kroki zostały zignorowane!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_tooth",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The first teeth I shed were thrown away!",
+    "RUS": "Мой первый зуб просто выбросили!",
+    "POL": "Moje pierwsze wypadnięte zęby zostały wyrzucone!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_dress",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My dressing-up was ruthlessly ridiculed.",
+    "RUS": "Над моим переодеванием посмеялись.",
+    "POL": "Moje przebieranki były bezwzględnie wyśmiewane.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Is #EMP that#! love?",
+    "RUS": "И #EMP это#! любовь?»\\n\\n[nursed_child.GetFirstNameNoTooltip] говорит через силу, борясь с эмоциями, но голос не дрожит.",
+    "POL": "Czy #EMP tak#! wygląda miłość?\\n\\n[nursed_child.GetFirstNameNoTooltip] trzęsie się z emocji, ale stara się opanować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_title",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.a$",
+    "RUS": "$bp2_yearly.7008.a$",
+    "POL": "$bp2_yearly.7008.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.b$",
+    "RUS": "$bp2_yearly.7008.b$",
+    "POL": "$bp2_yearly.7008.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_hate",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.c$",
+    "RUS": "$bp2_yearly.7008.c$",
+    "POL": "$bp2_yearly.7008.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.desc_hate_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.c_dead_parent$",
+    "RUS": "$bp2_yearly.7008.c_dead_parent$",
+    "POL": "$bp2_yearly.7008.c_dead_parent$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I am willing to prove remorse.",
+    "RUS": "Я докажу свое раскаяние.",
+    "POL": "Mogę udowodnić swoją skruchę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.a.tt_good$",
+    "RUS": "$bp2_yearly.7008.a.tt_good$",
+    "POL": "$bp2_yearly.7008.a.tt_good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Отныне ты получишь от меня все необходимое!»",
+    "POL": "– Od teraz niczego ci już nie zabraknie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7008.a.tt_bad$",
+    "RUS": "$bp2_yearly.7008.a.tt_bad$",
+    "POL": "$bp2_yearly.7008.a.tt_bad$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Повзрослей».",
+    "POL": "– Dorośnij.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7010.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[reflecting_parent.GetFirstNameNoTooltip] doesn't really care",
+    "RUS": "[reflecting_parent.GetFirstNameNoTooltip] демонстрирует полное безразличие",
+    "POL": "[reflecting_parent.GetFirstNameNoTooltip] reaguje z obojętnością",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7009.t$",
+    "RUS": "$bp2_yearly.7009.t$",
+    "POL": "$bp2_yearly.7009.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7010.desc_start$",
+    "RUS": "$bp2_yearly.7010.desc_start$«[nursed_child.Custom2('RelationToMeShort', ROOT.Char)|U], ты [Select_CString(ROOT.Char.IsFemale, 'заботилась', 'заботился' )] обо мне, как собака о своих щенках. Все мои самые теплые воспоминания связаны с тобой.",
+    "POL": "$bp2_yearly.7010.desc_start$– [nursed_child.Custom2('RelationToMeShortVocative', ROOT.Char)|U], twoja troska o mnie na przestrzeni lat to mój wielki skarb. Moje najwcześniejsze i najcieplejsze wspomnienia są związane właśnie z tobą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_dead_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7010.desc_start$",
+    "RUS": "$bp2_yearly.7010.desc_start$«Когда [Select_CString(nursed_child.MakeScope.Var('nursed_child_parent_var').Char.IsFemale, 'моя', 'мой' )] [nursed_child.Custom2('RelationToMeShort', nursed_child.MakeScope.Var('nursed_child_parent_var').Char)] [Select_CString(nursed_child.MakeScope.Var('nursed_child_parent_var').Char.IsFemale, 'была', 'был' )] с нами, я [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.GetHerHis] [Select_CString(nursed_child.IsFemale, 'любила', 'любил' )] всем сердцем. Ты и [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.GetSheHe] всегда находили на меня время.",
+    "POL": "$bp2_yearly.7010.desc_start$– Choć [nursed_child.Custom2('RelationToMeShort', nursed_child.MakeScope.Var('nursed_child_parent_var').Char)] już nie żyje, musisz wiedzieć, że moja miłość do [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.Custom('PL_niego_niej')] była wielka. Doceniam to, że i [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.GetSheHe], i ty zawsze mieliście dla mnie czas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_word",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "When I spoke my first words!",
+    "RUS": "Когда я [Select_CString(nursed_child.IsFemale, 'произнесла', 'произнес' )] свои первые слова!",
+    "POL": "Pamiętam radość na moje pierwsze słowa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_step",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "When I took my first steps!",
+    "RUS": "Когда я [Select_CString(nursed_child.IsFemale, 'сделала', 'сделал' )] свои первые шаги!",
+    "POL": "Pamiętam radość na moje pierwsze kroki!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_tooth",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "When I placed my first fallen tooth in your hand.",
+    "RUS": "Когда я [Select_CString(nursed_child.IsFemale, 'вложила', 'вложил' )] тебе в руку свой первый выпавший зуб.",
+    "POL": "Pamiętam troskę, gdy wypadł mi mój pierwszy ząb.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_dress",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "When I played mischiefs and capered around!",
+    "RUS": "Когда я [Select_CString(nursed_child.IsFemale, 'проказничала и наряжалась', 'проказничал и наряжался' )]!",
+    "POL": "Pamiętam radość z moich psot i figli!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You held me so close.",
+    "RUS": "Мы были так близки».\\n\\n[nursed_child.GetSheHe|U] краснеет, лучась радостью.\\n\\n",
+    "POL": "To wiele dla mnie znaczy.\\n\\n[nursed_child.GetFirstNameNoTooltip] uśmiecha się i rumieni.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_receive_love",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.a$",
+    "RUS": "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.a$",
+    "POL": "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.desc_forwarded_love",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.b$",
+    "POL": "– $bp2_yearly.7011.desc_end$ – $bp2_yearly.7009.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я тоже очень тебя люблю, [ROOT.Char.Custom2('RelationToMeShort', nursed_child)]!»",
+    "POL": "– Ja również cię kocham, [ROOT.Char.Custom2('RelationToMeShortVocative', nursed_child)]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7009.a.tt_good$",
+    "RUS": "$bp2_yearly.7009.a.tt_good$",
+    "POL": "$bp2_yearly.7009.a.tt_good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Какая преданность!»",
+    "POL": "– Cóż za oddanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7009.a.tt_bad$",
+    "RUS": "$bp2_yearly.7009.a.tt_bad$",
+    "POL": "$bp2_yearly.7009.a.tt_bad$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Не стоит жить прошлым».",
+    "POL": "– Nie ma co rozpamiętywać przeszłości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7011.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7010.c.tt$",
+    "RUS": "$bp2_yearly.7010.c.tt$",
+    "POL": "$bp2_yearly.7010.c.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The Milk of A Nurse's Love",
+    "RUS": "Молоко любящей кормилицы",
+    "POL": "Mamka jak matka",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] totters in, disturbing my council meeting, and tries to pull me aside.\\n\\n",
+    "RUS": "[nursed_child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] входит в разгар совета и пытается оттащить меня в сторону.\\n\\n«[nursed_child.GetFirstNameNoTooltip]! Тебе здесь не место», — возражаю я, но [nursed_child.Custom('GirlBoy')] краснеет от злости и начинает кричать.\\n\\n«Я #EMP ненавижу#! тебя! Зачем ты так?! — [nursed_child.GetSheHe] всхлипывает, пока все собравшиеся смотрят на н[nursed_child.GetHerHis]. — Из-за тебя ушла моя [former_wet_nurse.GetFirstName]! Она не просто кормилица, я ее люблю ее как маму! #EMP Сильнее#!, чем маму!»",
+    "POL": "[nursed_child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] nieoczekiwanie wpada do sali obrad i próbuje mnie odciągnąć na stronę, przerywając spotkanie.\\n\\n– [nursed_child.GetFirstNameNoTooltip]! Nie powinno cię tu być! – oponuję, ale [nursed_child.Custom('PL_jego_jej')] twarz czerwienieje w złości.\\n\\n– #EMP Nienawidzę cię#!! Dlaczego mi to robisz?! – wrzeszczy, ale przerywa pod naporem oczu ludzi zgromadzonych w sali. – Dlaczego [former_wet_nurse.GetFirstName] musi odejść? To nie tylko moja mamka! Kocham ją jak własną matkę! Nawet #EMP bardziej!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Forgive me. I shall hire her back!",
+    "RUS": "Прости меня. Я верну ее!",
+    "POL": "Wybacz, zatrudnię ją z powrotem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You should respect your [nursed_child.Custom2('RelationToMePossessive', ROOT.Char)] decision.",
+    "RUS": "Уважай мое решение.",
+    "POL": "Decyzję, za którą stoi [nursed_child.Custom2('RelationToMe', ROOT.Char)], należy uszanować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.b_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You comfort and educate [nursed_child.GetFirstNameNoTooltip]",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] успокаивается и внемлет вашим наставлениям",
+    "POL": "Pocieszasz i pouczasz osobę, którą jest [nursed_child.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.b_loss",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[nursed_child.GetFirstNameNoTooltip] resents your domination",
+    "RUS": "[nursed_child.GetFirstNameNoTooltip] возмущается вашему поведению",
+    "POL": "[nursed_child.GetFirstNameNoTooltip] ma ci za złe twój upór",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7012.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Child, be silent!",
+    "RUS": "Тихо, дитя!",
+    "POL": "Uspokój się, moje dziecko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A Child's Grief",
+    "RUS": "Скорбь ребенка",
+    "POL": "Dziecięcy smutek",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Lately, [nursed_child.GetFirstName] has been wandering around, lost in [nursed_child.GetHerHis] thoughts. In [nursed_child.GetHerHis] chamber, I find [nursed_child.GetHerHim] crying into [nursed_child.GetHerHis] pillows. \\n\\n",
+    "RUS": "В последнее время [nursed_child.GetFirstName] часто слоняется без цели, уйдя в свои мысли. Я захожу в [nursed_child.GetHerHis] комнату и вижу, как [nursed_child.GetSheHe] плачет в подушку.\\n\\n«В чем дело, [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [Select_CString(nursed_child.IsFemale, 'моя', 'мой' )]?» — спрашиваю я, когда [nursed_child.GetSheHe] начинает успокаиваться.\\n\\n«Что происходит, когда умираешь? Я хочу знать... в порядке ли [former_wet_nurse.GetFirstName], — [nursed_child.GetSheHe] всхлипывает, сдерживая слезы. — Вдруг [ROOT.Char.GetFaith.DevilName] заставит ее укачивать своих детей?»\\n\\n[nursed_child.GetHerHis|U] голос срывается и [nursed_child.GetSheHe] начинает плакать самыми крупными слезами из всех, что мне приходилось видеть.",
+    "POL": "[nursed_child.GetFirstName] ostatnimi czasy snuje się ponuro po posiadłości, tonąc we własnych myślach. Wchodząc do [nursed_child.Custom('PL_jego_jej')] komnaty, zastaję [nursed_child.Custom('PL_go_ja')] z głową w poduszce, spod której dobiega głośny szloch.\\n\\n– Dziecko, co się stało? – pytam, próbując [nursed_child.Custom('PL_go_ja')] uspokoić.\\n\\n– Co się dzieje po śmierci? Zastanawiam się… czy [former_wet_nurse.GetFirstName] ma się dobrze – mówi, starając się opanować łzy. – Być może jest teraz mamką [ROOT.Char.GetFaith.DevilNamePossessive]?\\n\\n[nursed_child.Custom('PL_jego_jej')|U] głos zaczyna się łamać, z oczu płyną łzy wielkie jak groch.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Придет новая кормилица, и все наладится!»",
+    "POL": "– Twoja nowa mamka sprawi, że poczujesz się lepiej!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Triggers $bp2_decision.0001.t$",
+    "RUS": "Срабатывает решение «$bp2_decision.0001.t$»",
+    "POL": "Rozpoczyna poszukiwanie mamki",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Несомненно, ее пристанищем станет [nursed_child.GetFaith.PositiveAfterLife]».",
+    "POL": "– Na pewno jest teraz w lepszym miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7013.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Dead is dead.",
+    "RUS": "Кто умер тот умер.",
+    "POL": "Śmierć to śmierć. Nic po niej nie ma.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A Familiar Presence",
+    "RUS": "Знакомое присутствие",
+    "POL": "Znajoma obecność",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My wet nurse [wet_nurse.GetFirstName] tucks me into bed, moving to blow out the candles for the night.\\n\\n",
+    "RUS": "Моя кормилица [wet_nurse.GetFirstName] поправляет мне одеяло и идет задуть свечу перед сном.\\n\\n«Подожди! Я хочу кое-что сказать, — прошу я. — Мне нравится, что ты здесь... Без тебя мне было бы одиноко во владении [ROOT.Char.GetCurrentLocation.GetName]».\\n\\n[wet_nurse.GetFirstNameNoTooltip] явно испытывает неловкость от этих слов, но все равно тронута ими.\\n\\n«Я верная",
+    "POL": "Moja mamka [wet_nurse.GetFirstName] kładzie mnie do łóżka, zdmuchując jednocześnie palące się wokół świeczki.\\n\\n„Poczekaj! Chcę coś powiedzieć!” – błagam. „Podoba mi się, że tutaj jesteś… czuł[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym się tak[Select_CString( ROOT.Char.IsFemale, 'a samotna', 'i samotny' )], gdyby nie było cię teraz na ziemiach miejsca znanego jako [ROOT.Char.GetCurrentLocation.GetName]”.\\n\\n[wet_nurse.GetFirstNameNoTooltip] wydaje się być trochę skrępowana, ale i wzruszona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.desc_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "servant of [wet_nurse.GetFaith.HighGodName], as you'll be one day. Once you are strong in your faith, [wet_nurse.GetFaith.HighGodName] will guide and comfort you, and you'll have no need of me.",
+    "RUS": "слуга [wet_nurse.GetFaith.HighGodNamePossessive], однажды и ты войдешь в их число. Когда ты укрепишься в своей вере, [wet_nurse.GetFaith.HighGodName] будет направлять и опекать тебя, и тебе больше не потребуется моя забота».",
+    "POL": " „Jestem oddanym sługą [wet_nurse.GetFaith.HighGodNamePossessive], tak jak ty będziesz pewnego dnia. Kiedy będziesz siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] w swojej wierze, [wet_nurse.GetFaith.HighGodName] będzie cię [Select_CString(EqualTo_string(ROOT.Char.GetFaith.HighGodNameSheHe, 'ona' ), 'prowadziła i pocieszała', 'prowadził i pocieszał' )], i nie będziesz mnie potrzebować”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.desc_culture",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse.GetCulture.GetName], like you. We share our [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] hearts. [tradition.GetNameNoTooltip], [tradition_2.GetNameNoTooltip]... these are our ways! Whether great or small, we are all good folk.",
+    "RUS": "дочь #L [wet_nurse.GetCulture.GetCollectiveNoun|l]ого#! народа, как и ты. В наших сердцах живет [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l]. [tradition.GetNameNoTooltip], [tradition_2.GetNameNoTooltip|l]... таком наш образ жизни! Великие и малые, мы все добрые люди».",
+    "POL": "\\n\\n– W moich żyłach także płynie [wet_nurse.GetCulture.GetName|l] krew. Łączy nas [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] duch. [tradition.GetNameNoTooltip]… [tradition_2.GetNameNoTooltip]… To tradycje bliskie naszemu sercu! Mali i duzi – jesteśmy dobrymi ludźmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.desc_culture_no_trad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[wet_nurse.GetCulture.GetName], like you. We share our [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] hearts and our ancient ways! Whether great or small, we are all good folk.",
+    "RUS": "дочь #L [wet_nurse.GetCulture.GetCollectiveNoun|l]ого#! народа, как и ты. В наших сердцах живут [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] и древние традиции. Великие и малые, мы все добрые люди».",
+    "POL": "\\n\\n– W moich żyłach także płynie [wet_nurse.GetCulture.GetName|l] krew. Łączy nas [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] duch i zasady naszych przodków! Mali i duzi – jesteśmy dobrymi ludźmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Как бы мне хотелось, чтобы ты была моей мамой!»",
+    "POL": "„Chciał[Select_CString( ROOT.Char.IsFemale, 'a', '' )]bym, żebyś była moją mamą!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7014.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I won't forget this moment.",
+    "RUS": "Я не забуду это мгновение.",
+    "POL": "Nie zapomnę tej chwili.",
+    "BEL": ""
+  },
+  {
+    "KEY": "parenting_by_example",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Parenting by Example",
+    "RUS": "Примерный родитель",
+    "POL": "Wychowanie przykładem",
+    "BEL": ""
+  },
+  {
+    "KEY": "parenting_by_example_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This character's parents taught them to raise children with love and care.",
+    "RUS": "Родители этого персонажа научили его растить детей в любви и заботе.",
+    "POL": "Rodzice tej postaci nauczyli ją wychowywać dzieci z miłością i troską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "role_model_parent",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Role Model Parent",
+    "RUS": "Образцовый родитель",
+    "POL": "Wzór do naśladowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "role_model_parent_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This parent inspires their children to love and care for their own offspring.",
+    "RUS": "Этот родитель вдохновляет своих детей любить и заботиться о собственных отпрысках.",
+    "POL": "Ten rodzic inspiruje swoje dzieci do dbania o własne potomstwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_decision",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$",
+    "RUS": "$bp2_decision.0002.t$",
+    "POL": "$bp2_decision.0002.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_decision_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Youths of a certain age may participate in a rite of passage: a ritual that marks them as an adult of status in the tribe.",
+    "RUS": "По достижении определенного возраста молодежь должна пройти обряд инициации: ритуал, после которого они станут взрослыми в глазах племени.",
+    "POL": "Młodzieńcy w pewnym wieku mogą uczestniczyć w rytuale przejścia: ceremonii, która oznacza ich jako dorosłych o pewnym statusie w plemieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_decision_effect_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A youth engages in one of: $rites_of_passage_duel$, $rites_of_passage_scarification$, $rites_of_passage_seclusion$, $rites_of_passage_shaving$ or Elemental Cleansing",
+    "RUS": "Ребенок проходит одно из следующих испытаний: $rites_of_passage_duel$, $rites_of_passage_scarification$, $rites_of_passage_seclusion$, $rites_of_passage_shaving$ или Очищение стихией",
+    "POL": "Młodzieniec angażuje się w jedną z wymienionych aktywności: $rites_of_passage_duel$, $rites_of_passage_scarification$, $rites_of_passage_seclusion$, $rites_of_passage_shaving$ lub oczyszczanie z żywiołów",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_decision_confirm",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "It is time",
+    "RUS": "Пора",
+    "POL": "Najwyższy czas",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_duel",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Duel",
+    "RUS": "Поединок",
+    "POL": "Pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_scarification",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Scarification",
+    "RUS": "Шрамирование",
+    "POL": "Skaryfikacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_seclusion",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Seclusion",
+    "RUS": "Уединение",
+    "POL": "Odosobnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_shaving",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Hair-Shaving",
+    "RUS": "Сбривание волос",
+    "POL": "Golenie włosów",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Rites of Passage",
+    "RUS": "Обряд инициации",
+    "POL": "Rytuały przejścia",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Time brings new adults into a [ROOT.Char.GetCulture.GetName] tribe, but only proving ceremonies establish maturity, status, and worth. [teentribal.GetFirstName], my [ROOT.Char.Custom2('RelationToMeShort',teentribal)], is of a suitable age. Our [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l] people have three time-honored means of testing [teentribal.GetHerHis].\\n\\n",
+    "RUS": "Время приводит новых взрослых в #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ое#! племя, но требуется пройти церемонию и доказать свою зрелость, статус и ценность. [teentribal.GetFirstName], [Select_CString(teentribal.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort',teentribal)], как раз подходящего возраста. У нашего народа есть три проверенных временем способа подвергнуть [teentribal.GetHerHis] испытаниям.\\n\\n",
+    "POL": "Choć to czas sprowadza dorosłość na członków plemienia kultury, którą jest kultura [ROOT.Char.GetCulture.GetName|l], to odpowiednie ceremonie nadają im dojrzałość, status i wartość. [teentribal.GetFirstName], osoba którą dumnie określam jako [ROOT.Char.Custom2('RelationToMeShort',teentribal)], posiada już odpowiedni wiek. Nasz [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l] lud ustalił trzy sprawdzone metody ceremonialne.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Until I claim adulthood, my fellow [ROOT.Char.GetCulture.GetCollectiveNoun] will not respect me as a full member of my tribe. Our [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l]-minded people have three time-honored ceremonies to mark passage into maturity... and prove my worth as [ROOT.Char.GetTitleAsName].\\n\\n",
+    "RUS": "Пока я не докажу свою зрелость, другие [ROOT.Char.GetCulture.GetName|l] не будут уважать меня как полноценного члена племени. У нашего народа есть три проверенных временем церемонии, который помогут перейти во взрослую жизнь... и покажут, чего я стою как [ROOT.Char.GetTitleAsName|l].\\n\\n",
+    "POL": "Dopóki nie osiągnę dojrzałości, inni [ROOT.Char.GetCulture.GetCollectiveNoun] nie zaakceptują mnie jako pełnoprawnego członka społeczności. Ich umysłami kieruje [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l] etos. Ustanowili zatem trzy sprawdzone metody ceremonialne, stanowiące przejście w dorosłe życie… Udowodnię im, że z dumą mogę nosić tytuł, jakim jest [ROOT.Char.GetTitleAsName].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_duel",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "In a duel against another [ROOT.Char.GetCulture.GetName] [teentribal.GetWomanMan], we prevail by skill and strength.",
+    "RUS": "В поединке с соплеменниками мы побеждаем благодаря умению и силе.",
+    "POL": "Poprzez pojedynek z innym członkiem naszej społeczności, udowadniamy nasze umiejętności i naszą siłę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_scarification",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "In scarification, determination is etched into the skin.",
+    "RUS": "В обряде шрамирования решимость врезается в кожу.",
+    "POL": "W akcie skaryfikacji wycinamy na skórze naszą determinację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_seclusion",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "In seclusion, we test adaptability and foresight.",
+    "RUS": "В уединении мы проверяем умение приспосабливаться и мыслить наперед.",
+    "POL": "Swoje zdolności adaptacji i przewidywania poddajemy próbie odosobnienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_hair_shaving",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Shaving a head of winsome hair proves willpower.",
+    "RUS": "Сбривание с головы детских волос доказывает силу воли.",
+    "POL": "Siły naszej woli dowodzi akt zgolenia młodzieńczych włosów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_cleansing",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The cleansing power of $cleansing_type_element$ can be met only by patience and zeal.",
+    "RUS": "Очищение $cleansing_type_element$ нужно принимать с терпением и рвением.",
+    "POL": "Oczyszczająca moc $cleansing_type_element$ wzmacnia naszą cierpliwość i nasz zapał.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "\\n\\nIf [teentribal.GetFirstNameNoTooltip] passes any of these trials, [teentribal.GetSheHe] will be favored in the eyes of [ROOT.Char.GetFaith.HighGodName], and honored as a worthy [ROOT.Char.GetCulture.GetNameNoTooltip] [teentribal.GetWomanMan].",
+    "RUS": "\\n\\nЕсли [teentribal.GetFirstNameNoTooltip] пройдет любое из этих испытаний, [teentribal.GetSheHe] получит одобрение [ROOT.Char.GetFaith.HighGodNamePossessive] и станет достойным членом племени.",
+    "POL": "\\n\\nJeśli [teentribal.GetFirstNameNoTooltip] przejdzie przez wszystkie próby, zyska łaskę w oczach [ROOT.Char.GetFaith.HighGodNamePossessive] i uzna się [teentribal.Custom('PL_go_ja')] za osobę godną miana członka plemienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.desc_end_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "\\n\\nIf I pass any of these trials, I will become worthy in the eyes of [ROOT.Char.GetFaith.HighGodName], and an honored [ROOT.Char.GetCulture.GetNameNoTooltip] [teentribal.GetWomanMan].",
+    "RUS": "\\n\\nЕсли я пройду любое из этих испытаний, то получу одобрение [ROOT.Char.GetFaith.HighGodNamePossessive] и стану достойным членом племени.",
+    "POL": "\\n\\nJeśli przejdę przez wszystkie próby, zyskam łaskę w oczach [ROOT.Char.GetFaith.HighGodNamePossessive] i uzna się mnie za osobę godną miana członka plemienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Gains either a [personality_trait|E], [lifestyle_experience|E] or a [skill|E] point",
+    "RUS": "Получает [personality_trait|El], [lifestyle_experience|El] или очко [Concept( 'skill', 'навыка' )|E]",
+    "POL": "Zyskuje punkt [Concept( 'personality_trait', 'cechy charakteru' )|E], [Concept( 'lifestyle_experience', 'doświadczenia stylu życia' )|El] lub [skills|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.effect_modifier_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Gains either [GetModifier('proven_adult_modifier').GetNameWithTooltip] or [GetModifier('insecure_adult_modifier').GetNameWithTooltip] for #V 10 years#!",
+    "RUS": "Получает модификатор «[GetModifier('proven_adult_modifier').GetNameWithTooltip]» или «[GetModifier('insecure_adult_modifier').GetNameWithTooltip]» на #V 10 лет#!",
+    "POL": "Zyskuje [GetModifier('proven_adult_modifier').GetNameWithTooltip] lub [GetModifier('insecure_adult_modifier').GetNameWithTooltip] na #V 10 lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A duel.",
+    "RUS": "Поединок.",
+    "POL": "Pojedynek,",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.a.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "It shall be [teentribal.Custom('GirlBoy')] versus [teentribal.GetWomanMan]!",
+    "RUS": "[teentribal.Custom('GirlBoy')|U] против [Select_CString(teentribal.IsFemale, 'женщины', 'мужчины' )]!",
+    "POL": "[teentribal.Custom('GirlBoy')|U] kontra [teentribal.GetWomanMan]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You will choose a [single_combat_duel|E] opponent",
+    "RUS": "Вы выберете противника для [Concept( 'single_combat_duel', 'поединка' )|E]",
+    "POL": "Wybierzesz przeciwnika do [Concept('single_combat_duel', 'pojedynku')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.a.win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the fight is won",
+    "RUS": "Если бой выигран",
+    "POL": "Jeśli walka zostanie wygrana",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.a.lose",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the fight is lost",
+    "RUS": "Если бой проигран",
+    "POL": "Jeśli walka zostanie przegrana",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A scarification ritual.",
+    "RUS": "Ритуал шрамирования.",
+    "POL": "Rytuał skaryfikacji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Display for all the proof of mind's dominance over body!",
+    "RUS": "Наглядное свидетельство власти ума над телом!",
+    "POL": "Pokaż dowód na dominację umysłu nad ciałem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.b_scarred",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the scars are deep",
+    "RUS": "Если шрамы глубокие",
+    "POL": "Jeśli blizny są głębokie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.b_scarred.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Gains [GetTrait('scarred').GetName( GetNullCharacter )|LV] or [GetTrait('wounded_1').GetName( GetNullCharacter )|LV]",
+    "RUS": "Получит свойство «[GetTrait('scarred').GetName( GetNullCharacter )|LV]» или «[GetTrait('wounded_1').GetName( GetNullCharacter )|LV]»",
+    "POL": "Zyskuje [GetTrait('scarred').GetName( GetNullCharacter )|LVl] lub [GetTrait('wounded_1').GetName( GetNullCharacter )|LVl]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.b_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the blade is barely touched",
+    "RUS": "Если клинок едва царапает кожу",
+    "POL": "Jeśli blizny są płytkie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Seclusion.",
+    "RUS": "Уединение.",
+    "POL": "Odosobnienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The harsh wilderness reveals the true self.",
+    "RUS": "В суровой глуши раскрывается истинное «я».",
+    "POL": "Nieokiełznana dzicz ujawnia prawdziwe oblicze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c.destination",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You will choose a [travel_destination|E]",
+    "RUS": "Вы выберете [Concept('travel_destination', 'цель путешествия')|E]",
+    "POL": "Wybierzesz [travel_destination|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If seclusion is masterful",
+    "RUS": "Если уединение прошло удачно",
+    "POL": "Jeśli odosobnienie cię wzmocni",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c_lose",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If seclusion is harrowing",
+    "RUS": "Если уединение вас утомило",
+    "POL": "Jeśli odosobnienie cię pogrąży",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.c_trait",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Gains a [commander_trait|E] based on the destination's terrain",
+    "RUS": "Получает [commander_trait|El] исходя из типа местности в пункте назначения",
+    "POL": "Zyskuje [Concept('commander_trait', 'cechę dowódcy')|E] w oparciu o docelowy teren",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A head-shaving.",
+    "RUS": "Бритье головы.",
+    "POL": "Golenie głowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Let the privileges of childhood be shorn away!",
+    "RUS": "Сбреем привилегии детства!",
+    "POL": "Niech przywileje dzieciństwa odejdą na zawsze!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.d_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Gains an [artifact|E]",
+    "RUS": "Получает [artifact|El]",
+    "POL": "Zyskuje [artifact|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.d_bald",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If all is shaved away",
+    "RUS": "Если сбрито всё",
+    "POL": "Jeśli zostaną zgolone wszystkie włosy",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.d_shave",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If only a lock of hair is cut",
+    "RUS": "Если отрезана лишь прядь",
+    "POL": "Jeśli zostanie zgolony pukiel włosów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fire_cleanse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "fire",
+    "RUS": "огнем",
+    "POL": "ognia",
+    "BEL": ""
+  },
+  {
+    "KEY": "water_cleanse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "water",
+    "RUS": "водой",
+    "POL": "wody",
+    "BEL": ""
+  },
+  {
+    "KEY": "cleansing_type_element",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[SelectLocalization(ObjectsEqual(teentribal.MakeScope.Var('cleansing_type').GetFlagName, '$fire_cleanse|q$'),'fire_cleanse','water_cleanse')]",
+    "RUS": "[SelectLocalization(ObjectsEqual(teentribal.MakeScope.Var('cleansing_type').GetFlagName, '$fire_cleanse|q$'),'fire_cleanse', 'water_cleanse')]",
+    "POL": "[SelectLocalization(ObjectsEqual(teentribal.MakeScope.Var('cleansing_type').GetFlagName, '$fire_cleanse|q$'),'fire_cleanse','water_cleanse')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "passage_rites_effect.trait",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Something within awakens",
+    "RUS": "Нечто внутри пробуждается",
+    "POL": "Coś budzi się wewnątrz",
+    "BEL": ""
+  },
+  {
+    "KEY": "passage_rites_effect.xp",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Much wisdom and worldiness is gained",
+    "RUS": "Удалось получить изрядную мудрость",
+    "POL": "Nabyto wiele mądrości i doświadczenia życiowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "passage_rites_effect.skill",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Much is learned from the rite",
+    "RUS": "Ритуал многому научил",
+    "POL": "Wiele nauczono się z rytuału",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.e",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A $cleansing_type_element$ cleansing.",
+    "RUS": "Очищение $cleansing_type_element$.",
+    "POL": "Oczyszczenie za pomocą $cleansing_type_element$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.e.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The primal force of $cleansing_type_element$ will cleanse mind and body.",
+    "RUS": "Очищение $cleansing_type_element$ очистит разум и тело.",
+    "POL": "Pierwotna siła $cleansing_type_element$ oczyszcza umysł i ciało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.e.full",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the element is fully embraced",
+    "RUS": "Если принять стихию",
+    "POL": "Jeśli żywioł zostanie w pełni przyjęty",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.e.partially",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "If the ritual is half-hearted",
+    "RUS": "Если ритуал проведен лишь наполовину",
+    "POL": "Jeśli rytuał nie zostanie potraktowany w pełni poważnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.e_flip",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Chance to change a [sinful|E] [trait|E] into a [virtuous|E] one",
+    "RUS": "Вероятность заменить [Concept( 'sinful', 'греховное' )|E] [trait|El] на [Concept( 'virtuous', 'добродетельное' )|E]",
+    "POL": "Szansa na zmianę [Concept( 'sinful', 'grzesznej' )|E] [traits|El] w [Concept( 'virtuous', 'cnotliwą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.f",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.backout$.",
+    "RUS": "$bp2_decision.0002.backout$.",
+    "POL": "$bp2_decision.0002.backout$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.backout",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'I am',teentribal.GetFirstNameNoTooltip)] [SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'','is ')]not ready yet",
+    "RUS": "[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'Я нуждаюсь ',teentribal.GetFirstNameNoTooltip)] [SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'', 'нуждается ')]в дополнительной подготовке",
+    "POL": "Jeszcze nie czas",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_decision.0002.cooldown",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "@alert_icon! #alert_trial $bp2_decision.0002.t$ [decision|E] will become unavailable for #V 1 year#!",
+    "RUS": "@alert_icon! #alert_trial [decision|E] «$bp2_decision.0002.t$» будет недоступно в течение #V 1 года#!",
+    "POL": "@alert_icon! #alert_trial [decision|E] „$bp2_decision.0002.t$” będzie niedostępna przez #V 1 rok#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: $rites_of_passage_duel$",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_duel$",
+    "POL": "$bp2_decision.0002.t$: pojedynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A [ROOT.Char.GetCulture.GetName] [teentribal.GetWomanMan] must detest fear, reject weakness, and expect to know pain in life.\\n\\nThe young [teentribal.GetFirstName] has struck blows with other stripling youths, but never suffered the onslaught of a [ROOT.Char.GetCulture.GetNameNoTooltip] full-grown.\\n\\nMany are the stout warfarers of our tribe, but only one may test my [ROOT.Char.Custom2('RelationToMePossessive',teentribal)] worth.",
+    "RUS": "[ROOT.Char.GetCulture.GetName] должны презирать страх, отвергать слабость и знать, что такое боль.\\n\\n[Select_CString(teentribal.IsFemale, 'Юная', 'Юный' )] [teentribal.GetFirstName] [Select_CString(teentribal.IsFemale, 'обменивалась', 'обменивался' )] ударами с другими детьми, но не знает, что значит натиск взрослого представителя #L [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ого#! народа.\\n\\nВ нашем племени хватает крепких воинов, но [Select_CString(teentribal.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMePossessive',teentribal)] столкнется лишь с одним из них, чтобы проявить себя.",
+    "POL": "Każda osoba, w której żyłach płynie [ROOT.Char.GetCulture.GetName|l] krew, musi odrzucić strach, wyzbyć się słabości i nauczyć się znosić ból.\\n\\nMłoda osoba, jaką jest [teentribal.GetFirstName], nierzadko wymieniała ciosy z równymi sobie wiekiem, ale nigdy nie doznała ataku ze strony osoby dorosłej.\\n\\nW naszym plemieniu jest wielu zaciekłych wojowników, ale tylko jedna osoba jest w stanie poddać próbie wartość, jaką prezentuje ten bliski memu sercu członek plemienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.desc_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A warrior is birthed from struggle, born in blood.\\n\\nI have struck blows with other stripling youths, but never a truly worthy opponent: a [ROOT.Char.GetCulture.GetName] full-grown.\\n\\nMany are the stout warfarers of our tribe, but I can challenge only one to prove my readiness.",
+    "RUS": "Воин рождается в борьбе и в крови.\\n\\nМне доводилось обмениваться ударами с другими детьми, но с по-настоящему достойным противником, взрослым представителем #L [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ого#! народа, сталкиваться не приходилось.\\n\\nВ нашем племени хватает крепких воинов, но я могу бросить вызов лишь одному из них, чтобы проявить себя.",
+    "POL": "Wojownik rodzi się z walki, powstaje z krwi swoich wrogów.\\n\\nNierzadko zdarzało mi się wymieniać ciosy z równymi mi wiekiem, ale nigdy z prawdziwie godnym i dorosłym przeciwnikiem z mojego plemienia.\\n\\nW naszym plemieniu jest wielu zaciekłych wojowników, ale aby udowodnić swoją gotowość, mogę rzucić wyzwanie tylko jednemu z nich.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetSheHe|U] faces [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l]!",
+    "RUS": "[teentribal.GetSheHe|U] и [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l] сходятся в бою!",
+    "POL": "[teentribal.GetFirstName] zmierzy się z przeciwnikiem, którym jest [teentribal.Custom('PL_jego_jej')] [teentribal.Custom2('RelationToMeShort', family_duelist)|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.a_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.Custom2('RelationToMeShort', family_duelist)|U], I'll prove myself against you!",
+    "RUS": "[teentribal.Custom2('RelationToMeShort', family_duelist)|U], я покажу свою удаль в бою с вами!",
+    "POL": "[teentribal.Custom2('RelationToMeShortVocative', family_duelist)|U], udowodnię swoją wartość stając przeciwko tobie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] challenges [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l] [family_duelist.GetFirstName] to a [single_combat_duel|E]",
+    "RUS": "[teentribal.GetFirstName] будет участвовать в [Concept( 'single_combat_duel', 'поединке' )|E], противником будет [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l] [family_duelist.GetFirstName]",
+    "POL": "[teentribal.GetFirstName] wyzywa na [single_combat_duel|El] osobę, którą jest [teentribal.Custom('PL_jego_jej')] [teentribal.Custom2('RelationToMeShort', family_duelist)|l] [family_duelist.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.b_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I challenge my [ROOT.Char.Custom2('RelationToMeShort', duelist_1)], [duelist_1.GetFirstNameNoTooltip]!",
+    "RUS": "Моим противником будет [Select_CString(duelist_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', duelist_1)|l], [duelist_1.GetFirstNameNoTooltip]!",
+    "POL": "Wyzywam osobę, którą jest [duelist_1.GetFirstNameNoTooltip]! [ROOT.Char.Custom2('RelationToMeShortVocative', duelist_1)|U], stań ze mną do pojedynku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetSheHe|U] will duel my [teentribal.Custom2('RelationToMeShort', duelist_1)|l], [duelist_1.GetFirstNameNoTooltip]!",
+    "RUS": "[teentribal.GetHerHis|U] противником будет [Select_CString(duelist_1.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', duelist_1)|l], [duelist_1.GetFirstNameNoTooltip]!",
+    "POL": "[teentribal.GetFirstName] stanie do pojedynku z bliską mi osobą, którą jest [duelist_1.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] challenges [duelist_1.GetFirstName] to a [single_combat_duel|E]",
+    "RUS": "[teentribal.GetFirstName] бросает вызов, противником в [Concept( 'single_combat_duel', 'поединке' )|E] будет [duelist_1.GetFirstName]",
+    "POL": "[teentribal.GetFirstName] wyzywa na [single_combat_duel|El] osobę, którą jest [duelist_1.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The [duelist_2.Custom('ComplimentAdjective')] [duelist_2.GetFirstNameNoTooltip] — come forth!",
+    "RUS": "[duelist_2.Custom('ComplimentAdjective')|U][Select_CString(duelist_2.IsFemale, 'ая', 'ый' )] [duelist_2.GetFirstNameNoTooltip], выйди вперед!",
+    "POL": "[duelist_2.GetFirstNameNoTooltip], wiem, że [duelist_2.Custom('ComplimentAdjective')] z ciebie [duelist_2.GetWomanMan]. Staw mi czoła!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.c_root",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I'd rather fight my [ROOT.Char.Custom2('RelationToMeShort', duelist_2)], [duelist_2.GetFirstNameNoTooltip].",
+    "RUS": "Лучше моим противником будет [Select_CString(duelist_2.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', duelist_2)|l], [duelist_2.GetFirstNameNoTooltip]!",
+    "POL": "Wolę walczyć z osobą, którą jest [duelist_2.GetFirstNameNoTooltip]. [ROOT.Char.Custom2('RelationToMeShortVocative', duelist_2)|U], stań ze mną do pojedynku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] challenges [duelist_2.GetFirstName] to a [single_combat_duel|E]",
+    "RUS": "[teentribal.GetFirstName] бросает вызов, противником в [Concept( 'single_combat_duel', 'поединке' )|E] будет [duelist_2.GetFirstName]",
+    "POL": "[teentribal.GetFirstName] wyzywa na [single_combat_duel|El] osobę, którą jest [duelist_2.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7021.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: The $rites_of_passage_duel$ is Fought",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_duel$ проведен",
+    "POL": "$bp2_decision.0002.t$: pojedynek zostaje rozpoczęty",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.desc_child_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "As the [ROOT.Char.GetFaith.PriestNeuter]'s blessing ends, the challengers' weapons clang together. [sc_loser.GetFirstNamePossessive] experience allows [sc_loser.GetHerHim] to press an immediate advantage — but, even so, [sc_loser.GetSheHe] can't bat away [sc_victor.GetFirstNamePossessive] clever strikes for long.\\n\\nMy [ROOT.Char.Custom2('RelationToMe',teentribal)] sends [sc_loser.GetFirstNameNoTooltip] tumbling down.\\n\\n",
+    "RUS": "[ROOT.Char.GetFaith.PriestNeuter|U] заканчивает свое благословение, и оружие противников тут же ударяется друг о друга. [sc_loser.GetFirstName] благодаря своему опыту немедленно переходит в наступление, но даже так [sc_loser.GetHerHim] недолго удается отражать умелые выпады, которыми отвечает [sc_victor.GetFirstName].\\n\\n[Select_CString(teentribal.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe',teentribal)] сбивает соперника с ног.\\n\\n«Я сдаюсь! — стонет [Select_CString(sc_loser.IsFemale, 'старшая', 'старший' )] [sc_loser.GetWomanMan]. — [sc_victor.GetFirstNameNoTooltip] [Select_CString(sc_victor.IsFemale, 'разбила', 'разбил' )] мне костяшки и [Select_CString(sc_victor.IsFemale, 'залила', 'залил' )] глаза кровью: [sc_victor.GetSheHe] полноправный воин и [Select_CString(sc_victor.IsFemale, 'достойная', 'достойный' )] #L [ROOT.Char.GetCulture.GetCollectiveNoun|l][Select_CString(sc_victor.IsFemale, 'ая', 'ий' )]#! [sc_victor.GetWomanMan]!»\\n\\nНа этом обряд завершен.",
+    "POL": "Gdy [ROOT.Char.GetFaith.PriestNeuter] kończy swe błogosławieństwo, oponenci ruszają do walki. Doświadczenie, jakim dysponuje [sc_loser.GetFirstName], pozwala [sc_loser.Custom('PL_mu_jej')] na natychmiastowe przejęcie inicjatywy w walce. Nie jest jednak w stanie zbyt długo odpierać sprytnych ataków, jakie wyprowadza [sc_victor.GetFirstName].\\n\\n[sc_loser.GetFirstNameNoTooltip] ostatecznie upada.\\n\\n– Poddaję się! – krzyczy. – [sc_victor.GetFirstNameNoTooltip], okaleczając mnie i górując nade mną siłą, zyskuje prawo do miana wojownika. Nasza społeczność może być dumna z takiego członka!\\n\\nRytuał zostaje zakończony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.desc_child_lost",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The libations are barely sprinkled when [sc_loser.GetFirstName] launches a fierce assault! Under the hail of blows, [sc_victor.GetFirstNamePossessive] experience serves: [sc_victor.GetSheHe] lasts out the storm. My young [ROOT.Char.Custom2('RelationToMe',teentribal)], soon tiring, gives the fight [sc_loser.GetHerHis] all... but ends this rite with iron at [sc_loser.GetHerHis] throat.\\n\\nSeeing the fire still in [sc_victor.GetHerHis] opponent's eyes, [sc_victor.GetFirstNameNoTooltip] is gracious.\\n\\n",
+    "RUS": "Напитки чуть не расплескиваются, когда [sc_loser.GetFirstName] бросается в яростную атаку! Но благодаря своему опыту [sc_victor.GetFirstName] выдерживает натиск. [Select_CString(teentribal.IsFemale, 'Моя юная', 'Мой юный' )] [ROOT.Char.Custom2('RelationToMe',teentribal)] вкладывает все свои силы, но вскоре устает... и заканчивает обряд с прижатым к горлу оружием.\\n\\nВидя огонь в глазах противника, [sc_victor.GetFirstNameNoTooltip] проявляет милосердие.\\n\\n«Передо мной [sc_loser.GetWomanMan]! Борьбой, а не победой, заслуживает [sc_loser.GetFirstNameNoTooltip] место среди нас, проявив воинскую отвагу и #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ое#! мастерство».",
+    "POL": "Okrzyki powoli ucichają, a [sc_loser.GetFirstName] rozpoczyna zaciekły atak! [sc_victor.GetFirstName], dzięki swemu doświadczeniu, wytrzymuje nawałnicę ciosów. [sc_loser.GetFirstName], dając z siebie wszystko, szybko opada z sił i kończy rytuał z ostrzem na gardle.\\n\\n[sc_victor.GetFirstName], widząc ogień w [sc_loser.Custom('PL_jego_jej')] oczach, okazuje łaskę.\\n\\n– Oto stoi przede mną [sc_loser.GetWomanMan], co nie zwycięstwem, lecz determinacją zdobywa sobie miejsce między nami. [sc_loser.GetFirstNameNoTooltip] ma w sobie odwagę godną wojowników, z jakich słynie kultura [ROOT.Char.GetCulture.GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.desc_root_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Довольно! — вздыхает [sc_loser.GetFirstName], и [sc_loser.Custom('SignatureWeaponNameOrType')] выскальзывает в грязь из [sc_loser.GetHerHis] руки. — Добейте меня как [ROOT.Char.GetWomanMan], будет позором, если мою жизнь оборвет [teentribal.Custom('GirlBoy')]».\\n\\n«Но — #EMP что я говорю?#! Вы уже сражаетесь как [ROOT.Char.GetWomanMan]. Как [ROOT.Char.GetTitleAsName|l], как человек, знающий власть и победу! Я выскажусь от вашего имени и прослежу, чтобы вам предоставили больше привилегий».\\n\\nГотово. Мне удалось проявить себя.",
+    "POL": "– Dość! – [sc_loser.GetFirstName] dyszy ciężko, a [sc_loser.Custom('PL_jego_jej')] [sc_loser.Custom('SignatureWeaponNameOrType')] ląduje na ziemi. – Zadaj mi ostateczny cios niczym pełnoprawny członek naszego plemienia! Umrzeć z ręki dziecka to dla mnie ujma.\\n\\n– Ale… #EMP co ja mówię?#! Już teraz walczysz jak [ROOT.Char.GetWomanMan], jak [ROOT.Char.GetTitleAsName]. Zaznasz potęgi i zaznasz zwycięstwa! Przemówię w twoim imieniu i dopilnuję, aby twoje przywileje wzrosły.\\n\\nDokonało się. Udowadniam swoją wartość własnym orężem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.desc_root_lost",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Though I can't match the veterancy of [sc_victor.GetFirstName]... the rite can't end like this! I try struggling to my feet, readying myself, and I am disarmed. I chase after my weapon, but the foe blocks my way. #EMP It can't end like this!#! \\n\\n[sc_victor.GetFirstNameNoTooltip] gazes at me, amused.\\n\\n",
+    "RUS": "[sc_victor.GetFirstName] обладает колоссальным опытом, которому мне нечего противопоставить... ну не может же обряд закончиться вот так! Я пытаюсь подняться на ноги, готовлюсь и остаюсь без оружия. А когда я пытаюсь его поднять, на пути у меня встает мой противник. #EMP Нельзя, чтобы все вот так закончилось!#! \\n\\n[sc_victor.GetFirstNameNoTooltip] с довольным видом смотрит на меня.\\n\\n«Не спеши, о [ROOT.Char.Custom('RegionalFerociousAnimal')]! Вы, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetTitleAsName|l], свирепы, словно #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ий#! [ROOT.Char.Custom( 'KnightCultureNoTooltipLowercase' )]! Вы бились отважно и неважно, выиграли вы или проиграли. Я принимаю вас как члена племени».\\n\\n«Этот исход будет принят».",
+    "POL": "Mimo iż [sc_victor.GetFirstName] dominuje mnie swoim doświadczeniem… nie zamierzam tu przegrać! Z trudem podnoszę się z kolan i rzucam się po swoją broń, ale przeciwnik blokuje mi drogę. #EMP To nie może się tak skończyć!#!\\n\\n[sc_victor.GetFirstNameNoTooltip] patrzy na mnie z uśmiechem.\\n\\n– Walczysz niby [ROOT.Char.Custom('RegionalFerociousAnimal')]! [ROOT.Char.GetTitleAsName] to prawdziwie należny ci tytuł, bowiem masz w sercu dzikość, której pozazdrościłby ci każdy [ROOT.Char.Custom( 'KnightCultureNoTooltipLowercase' )], w którego żyłach płynie [ROOT.Char.GetCulture.GetName|l] krew! Za twą odważną walkę, pomimo porażki, nadaję ci tytuł członka naszego plemienia!\\n\\n– Niech słowa staną się faktem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.toast",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The duel shapes [teentribal.GetFirstNameNoTooltip]",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] обретает силу в поединке",
+    "POL": "[teentribal.GetFirstNameNoTooltip] kształtuje w pojedynku swój charakter",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Such is the resolve of the [teentribal.GetHouse.GetBaseNameNoTooltip]!",
+    "RUS": "Такова решимость дома [teentribal.GetHouse.GetBaseNameNoTooltip]!",
+    "POL": "Oto słynna nieustępliwość rodu [teentribal.GetHouse.GetBaseNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.a_victory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "To win is to gain confidence in the warrior's craft, and in oneself.",
+    "RUS": "Для победы нужна уверенность в воинском искусстве и в себе.",
+    "POL": "Zwyciężyć znaczy zdobyć zaufanie do wojowniczego rzemiosła i własnej siły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.a_loss",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] will never forget this loss... and [teentribal.GetSheHe] will learn that [teentribal.GetHerHis] tenacity has uses beyond the battlefield.",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] никогда не забудет это поражение... и узнает, что цепкость полезна не только на поле боя.",
+    "POL": "[teentribal.GetFirstNameNoTooltip] nigdy nie zapomni tej porażki… i nauczy się, że [teentribal.Custom('PL_jego_jej')] wytrwałość ma zastosowanie także poza polem walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The tribe will gain a new champion.",
+    "RUS": "Племя получит нового воителя.",
+    "POL": "Plemię zyska nowego czempiona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.b_victory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "There are still many tricks to learn, but this is a fine beginning!",
+    "RUS": "Нужно узнать еще немало уловок, но начало хорошее!",
+    "POL": "Choć dalsza droga nie będzie łatwa, to dobry start!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.b_loss",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] must be devoted to training, to the better-fought duels to come!",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] [Select_CString(teentribal.IsFemale, 'должна', 'должен' )] целиком посвятить себя тренировкам, чтобы лучше показать себя в будущих поединках!",
+    "POL": "[teentribal.GetFirstNameNoTooltip] musi poświęcić się treningom, aby zabłysnąć w przyszłych pojedynkach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A bloody scrap! A #EMP very#! bloody scrap...",
+    "RUS": "Кровавые ошметки! #EMP Очень#! кровавые ошметки...",
+    "POL": "Krwawe starcie! #EMP Bardzo#! krwawe…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.c_victory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Some kind of glee came, some wicked fervor awakened... with the flowing of gore.",
+    "RUS": "Пришло какое-то ликование, пробудился злобный пыл... и полетели клочья.",
+    "POL": "Płynąca posoka budzi… pewnego rodzaju podekscytowanie i mroczny zapał.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7022.c_loss",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I see a supply-counter here, not a fighter... if [teentribal.GetFirstNameNoTooltip] wants to live long.",
+    "RUS": "Я здесь вижу любителя считать припасы, а не бойца... если [teentribal.GetFirstNameNoTooltip] хочет еще пожить.",
+    "POL": "Jeśli [teentribal.GetFirstNameNoTooltip] chce żyć długo… niech w przyszłości chwyta za pióro, nie za broń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: $rites_of_passage_scarification$",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_scarification$",
+    "POL": "$bp2_decision.0002.t$: skaryfikacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The [ROOT.Char.GetCulture.GetCollectiveNoun] of my tribe gather to watch the scarification rite. With the smoke of sacred herbs thick in the air, my [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] begins the ceremony. Those assembled fall silent.\\n\\n[priest.GetSheHe|U] unsheathes the ritual blade.\\n\\n",
+    "RUS": "[ROOT.Char.GetCulture.GetName] моего племени собрались засвидетельствовать обряд шрамирования. В воздухе витает дым священных трав, и [Select_CString(priest.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] [priest.GetFirstName] начинает церемонию. Собравшиеся умолкают.\\n\\n[priest.GetSheHe|U] обнажает ритуальный клинок.\\n\\n«Здесь [teentribal.GetFirstName] из дома [teentribal.GetHouse.GetName], — провозглашает священнослужитель, — будет [Select_CString(teentribal.IsFemale, 'отмечена, иссечена и очищена', 'отмечен, иссечен и очищен' )] болью. В будущем при взгляде на н[teentribal.GetHerHis] мы будем видеть доказательство веры, мы будем видеть [Select_CString(teentribal.IsFemale, 'женщину', 'мужчину' )]!»",
+    "POL": "[ROOT.Char.GetCulture.GetCollectiveNoun] z mojego plemienia zebrali się, aby obserwować rytuał skaryfikacji. [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName], wciągając w nozdrza zapach świętych ziół, rozpoczyna ceremonię. Zapada kompletna cisza.\\n\\n[priest.GetFirstName] wyciąga rytualne ostrze i intonuje:\\n\\n– Oto przed wami [teentribal.GetFirstName] z rodu [teentribal.GetHouse.GetName]. Aby dojrzeć, za chwilę naznaczy swe ciało, narażając się na cierpienie. Gdy spojrzymy na [teentribal.Custom('PL_niego_nia')] w nadchodzących dniach, nie zobaczymy już dziecka, bowiem stać będzie przed nami [teentribal.GetWomanMan]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "To wear the proof is to know pride.",
+    "RUS": "Носящий доказательство знает, что такое гордость.",
+    "POL": "Niech to będzie dowód poznania i zrozumienia dumy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[priest.GetFirstNameNoTooltip] slices vigorously, again and again.",
+    "RUS": "[priest.GetFirstNameNoTooltip] режет рьяно, вновь и вновь.",
+    "POL": "[priest.GetFirstNameNoTooltip] z zapałem kilkukrotnie nacina ciało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.a_nothing",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The cuts are clean",
+    "RUS": "Порезы чистые",
+    "POL": "Cięcia są precyzyjne i czyste",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.a_scarred",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The cuts leave lasting marks",
+    "RUS": "Порезы оставляют неизгладимые следы",
+    "POL": "Cięcia pozostawiają trwałe ślady",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.a_wounded",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The cuts are savagely deep",
+    "RUS": "Порезы безумно глубоки",
+    "POL": "Cięcia są potwornie głębokie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Maybe this can be just... symbolic?",
+    "RUS": "Можно ограничиться... чем-то символичным?",
+    "POL": "Czy nie lepiej ograniczyć się do… symboliki?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[priest.GetFirstNameNoTooltip] is gentle with the blade, making only a scant impression.",
+    "RUS": "[priest.GetFirstNameNoTooltip] осторожно обращается с ножом, оставляя лишь легкие порезы.",
+    "POL": "[priest.GetFirstNameNoTooltip] delikatnie operuje ostrzem, nacinając jedynie wierzchnią warstwę skóry.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7023.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: $rites_of_passage_seclusion$",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_seclusion$",
+    "POL": "$bp2_decision.0002.t$: odosobnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Уединение обогащает тело и душу, — настаивает [Select_CString(priest.IsFemale, 'моя', 'мой' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] [priest.GetFirstName]. — В покое обретается мудрость! В выживании — сообразительность. Место должно быть гармоничным... но находиться в дикой глуши».\\n\\n[priest.GetSheHe|U] выдает скудный провиант.\\n\\n",
+    "POL": "– Odosobnienie wzmacnia ciało i ducha – nalega [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName]. – Ubogaca o spokój i roztropność! Wyposaża w przebiegłość i chęć przetrwania. Wybierz miejsce, w którym odnajdziesz harmonię… ale które jest dzikie i surowe.\\n\\n[priest.GetFirstName] rzuca ci skromne zapasy.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.desc_capital",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[teentribal.Custom('GirlBoy')|U] ничем не рискует дома, во владении [rite_location.GetName].",
+    "POL": "– [rite_location.GetTerrain.GetNameNoTooltip|U], obszar będący częścią miejsca o nazwie [rite_location.GetName], to bezpieczna przystań dla młodych osób.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.desc_abroad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "For a true test, consider the strange, faraway [abroad_location.GetTerrain.GetNameNoTooltip|l] of [abroad_location.GetName]!",
+    "RUS": "Для настоящего испытания стоит выбрать странные далекие земли владения [abroad_location.GetName]!",
+    "POL": "[abroad_location.GetTerrain.GetNameNoTooltip], obszar będący częścią miejsca o nazwie [abroad_location.GetName], to dalekie i przedziwne ziemie, które stanowią prawdziwe wyzwanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.desc_realm",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Or the rite-doer may journey briefly: to [realm_location.GetName], mayhap?",
+    "RUS": "При исполнении обряда не обязательно путешествовать далеко. Сойдет и [realm_location.GetName]?",
+    "POL": "A może [realm_location.GetName] to miejsce, które, choć leży niedaleko, zainteresuje cię najbardziej ze wszystkich?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.desc_end",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Now, child, go — with [priest.GetFaith.KnowledgeGodName]'s wisdom.",
+    "RUS": "А теперь ступай, дитя, да одарит тебя [priest.GetFaith.KnowledgeGodName] своей мудростью».",
+    "POL": "Ruszaj, moje dziecko. Niech spłynie na ciebie mądrość [priest.GetFaith.KnowledgeGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Off, to faraway lands!",
+    "RUS": "В далекие земли!",
+    "POL": "W drogę, ku dalekim ziemiom!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "#N Higher#! chance of danger",
+    "RUS": "#N Более высокая#! вероятность опасности",
+    "POL": "#N Wyższe#! prawdopodobieństwo zagrożenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.a.abroad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] will travel to the [abroad_location.GetTerrain.GetNameNoTooltip|l] of [abroad_location.GetName], within the realm of [foreign_ruler.GetName]",
+    "RUS": "[teentribal.GetFirstName] отправится во владение [abroad_location.GetName] в соседней державе, где правит [foreign_ruler.GetName]",
+    "POL": "[abroad_location.GetTerrain.GetNameNoTooltip|U], obszar będący częścią miejsca o nazwie [abroad_location.GetName], to cel podróży postaci znanej jako [teentribal.GetFirstName]. Ziemie te należą do państwa, którym rządzi [foreign_ruler.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Avoided all danger",
+    "RUS": "Удалось избежать опасностей",
+    "POL": "Wszystkie niebezpieczeństwa zostały uniknięte",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.lose",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Caught in danger",
+    "RUS": "Опасности настигли",
+    "POL": "Postać wpada w tarapaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The journey need not be too long.",
+    "RUS": "Путешествие может быть и не слишком долгим.",
+    "POL": "Podróż nie musi trwać długo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "#Z Medium#! chance of danger",
+    "RUS": "#Z Средняя#! вероятность опасности",
+    "POL": "#Z Średnie#! prawdopodobieństwo zagrożenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.b.realm",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] will travel to the [realm_location.GetTerrain.GetNameNoTooltip|l] of [realm_location.GetName]",
+    "RUS": "[teentribal.GetFirstName] отправится во владение [realm_location.GetName]",
+    "POL": "[realm_location.GetTerrain.GetNameNoTooltip|U], obszar będący częścią miejsca o nazwie [realm_location.GetName], to cel podróży postaci znanej jako [teentribal.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The local wild will serve.",
+    "RUS": "Сойдет и местная глушь.",
+    "POL": "Lokalna dzika przyroda nada się doskonale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "#P Lower#! chance of danger",
+    "RUS": "#P Небольшая#! вероятность опасности",
+    "POL": "#P Mniejsze#! prawdopodobieństwo zagrożenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.c.capital",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] will seclude on the [rite_location.GetTerrain.GetNameNoTooltip|l] of [rite_location.GetName], the [realm_capital|E]",
+    "RUS": "[teentribal.GetFirstName] уединится недалеко от [Concept( 'realm_capital', 'столичного' )|E] владения [rite_location.GetName]",
+    "POL": "[realm_capital|E] ([rite_location.GetName]), a konkretniej [rite_location.GetTerrain.GetNameNoTooltip|l], czyli obszar leżący w tej części państwa, będzie miejscem, w którym [teentribal.GetFirstName] spędzi okres odosobnienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.d",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7024.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: $rites_of_passage_seclusion$",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_seclusion$",
+    "POL": "$bp2_decision.0002.t$: odosobnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "— a slavering [teentribal.MakeScope.Var('animal_type').GetFlagName] stalks into my little camp!\\n\\nI cannot outrun this desperate creature. The beast must be outfought or outwitted. I've a fresh-killed hare close to hand...",
+    "RUS": "я вижу, что в моем небольшом лагере [teentribal.MakeScope.Var('animal_type').GetFlagName|l]!\\n\\nЯ не смогу обогнать голодного зверя. Действовать нужно силой или хитростью. У меня под рукой недавно убитый заяц...",
+    "POL": "krwiożercza bestia, jaką jest [teentribal.MakeScope.Var('animal_type').GetFlagName], zakrada się do mojego obozowiska!\\n\\nNie dam rady jej uciec – muszę walczyć lub sięgnąć po podstęp. Na szczęście mam pod ręką świeżo zabitego zająca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc_realm",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I arrive swiftly to the nearby [realm_location.GetTerrain.GetNameNoTooltip|l] of [realm_location.GetName] and immediately start to prepare for the night. While I am setting up a campfire to cook my dinner $bp2_yearly.7025.desc$",
+    "RUS": "Я быстро добираюсь до близлежащего владения [realm_location.GetName] и немедленно начинаю приготовления на ночь. Разводя костер, чтобы приготовить обед, $bp2_yearly.7025.desc$",
+    "POL": "A oto i [realm_location.GetTerrain.GetNameNoTooltip|l], część obszaru o nazwie [realm_location.GetName]. Dotarcie tu nie zajęło mi dużo czasu, jednak natychmiast po przybyciu szykuję obozowisko. Rozpalam ognisko, aby móc przygotować pożywienie, gdy nagle… $bp2_yearly.7025.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc_abroad",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Dawn rises over [seclusion_location.GetName]. The unknown [realm_location.GetTerrain.GetNameNoTooltip|l], devoid of local [seclusion_location.GetCounty.GetCulture.GetCollectiveNoun], is frightful by night and beauteous by morning's light.\\n\\nMy half-kindled campfire and I are not alone here $bp2_yearly.7025.desc$",
+    "RUS": "Над владением [seclusion_location.GetName] всходит солнце. Кругом [realm_location.GetTerrain.GetNameNoTooltip|l], ни следа #L [seclusion_location.GetCounty.GetCulture.GetCollectiveNoun|l]ого#! народа. Это место пугает в ночи, но прекрасно на рассвете.\\n\\nНо мы здесь не одни с моим слабым костерком, $bp2_yearly.7025.desc$",
+    "POL": "Nad miejscem o nazwie [seclusion_location.GetName] wstaje nowy świt. [realm_location.GetTerrain.GetNameNoTooltip|U] to pustkowie przerażające nocą, ale piękne w blasku porannej zorzy.\\n\\nNie dane mi jest jednak radowanie się samotnością – $bp2_yearly.7025.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc_capital",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I quickly find a good spot for my camp, right outside the [rite_location.GetName], so I immediately set up a campfire to prepare for the night and eat something warm. $bp2_yearly.7025.desc$",
+    "RUS": "Я быстро нахожу хорошее место для лагеря недалеко от владения [rite_location.GetName] и сразу же берусь за разведение костра, чтобы переждать ночь и приготовить горячую еду. Но $bp2_yearly.7025.desc$",
+    "POL": "Na obrzeżach miejsca o nazwie [rite_location.GetName] znajduję idealne miejsce na obóz. Sprawnie rozkładam obozowisko, aby przygotować się do snu i zjeść ciepły posiłek… Niestety, $bp2_yearly.7025.desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc_fight",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "perhaps, by hurling it, I may buy time to seize my bow?",
+    "RUS": "возможно, если метнуть добычу, я успею схватить лук?",
+    "POL": "Być może rzucając go na pożarcie bestii, zyskam wystarczająco dużo czasu, by sięgnąć po łuk?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.desc_outwit",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "perhaps I can subtly withdraw while that sates the [teentribal.MakeScope.Var('animal_type').GetFlagName]?",
+    "RUS": "возможно, я смогу незаметно отойти, пока зверь поедает его?",
+    "POL": "Być może zdołam się bezpiecznie wycofać, jeśli [teentribal.MakeScope.Var('animal_type').GetFlagName] się nim zadowoli?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "I shall sneak away and hide.",
+    "RUS": "Я скроюсь и затаюсь.",
+    "POL": "Wymknę się z obozu i ukryję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.a_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You creep away from the distracted beast",
+    "RUS": "Вы уползаете прочь от отвлекшегося зверя",
+    "POL": "Oddalasz się od rozproszonej bestii",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.a_lose",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The [teentribal.MakeScope.Var('animal_type').GetFlagName], riled, attacks you",
+    "RUS": "[teentribal.MakeScope.Var('animal_type').GetFlagName|U] приходит в неистовство и нападает на вас",
+    "POL": "[teentribal.MakeScope.Var('animal_type').GetFlagName] wścieka się i atakuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A [teentribal.MakeScope.Var('animal_type').GetFlagName] attacked during Seclusion",
+    "RUS": "Нападение зверя во время уединения",
+    "POL": "[teentribal.MakeScope.Var('animal_type').GetFlagName] atakuje cię, gdy przebywasz w odosobnieniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "With keen arrows, I'll drive off the [teentribal.MakeScope.Var('animal_type').GetFlagName]!",
+    "RUS": "[teentribal.MakeScope.Var('animal_type').GetFlagName|U] не устоит перед моими острыми стрелами!",
+    "POL": "Odpędzę bestię moimi ostrymi strzałami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.b_win",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The [teentribal.MakeScope.Var('animal_type').GetFlagName] flees, stung by arrows",
+    "RUS": "[teentribal.MakeScope.Var('animal_type').GetFlagName|U] бежит от жалящих стрел",
+    "POL": "Bestia, jaką jest [teentribal.MakeScope.Var('animal_type').GetFlagName], ucieka, raniona strzałami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7025.b_lose",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The unharmed [teentribal.MakeScope.Var('animal_type').GetFlagName] attacks",
+    "RUS": "[teentribal.MakeScope.Var('animal_type').GetFlagName|U] избегает стрел и атакует",
+    "POL": "[teentribal.MakeScope.Var('animal_type').GetFlagName] nie doznaje żadnych obrażeń i rzuca się na ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: $rites_of_passage_shaving$",
+    "RUS": "$bp2_decision.0002.t$: $rites_of_passage_shaving$",
+    "POL": "$bp2_decision.0002.t$: golenie włosów",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Tying fine braids and swishing comely locks in gratitude, the tribe assembles for the hair-shearing ritual.\\n\\nMy [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] grips [teentribal.GetFirstNamePossessive] hair and takes hold of an inscribed knife.\\n\\n",
+    "RUS": "Племя собирается на обряд срезания волос, заплетая косы и размахивая прядями.\\n\\n[Select_CString(priest.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] [priest.GetFirstName] хватает волосы, которые [Select_CString(teentribal.IsFemale, 'подставила', 'подставил' )] [teentribal.GetFirstName], и берет в руку украшенный нож.\\n\\n«[Select_CString(teentribal.IsFemale, 'Эта', 'Этот' )] [teentribal.Custom('GirlBoy')|l] готовится расстаться с детством ради будущего в рядах племени! [teentribal.GetSheHe|U] сбросит ненужные украшения, обнажив свою истинную природу и силу своего духа!»\\n\\n[priest.GetFirstName] опасливо смотрит в сою сторону.\\n\\n«...если так пожелает [ROOT.Char.GetTitleAsName|l]».",
+    "POL": "Plemię gromadzi się na rytuale postrzyżyn. Wokoło powiewają urodziwe loki i piękne warkocze zaplecione na znak wdzięczności.\\n\\n[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|U] [priest.GetFirstName] chwyta włosy osoby imieniem [teentribal.GetFirstName], w drugiej dłoni dzierżąc grawerowany nóż.\\n\\n– To dziecko pozostawia za sobą dziecięcą niewinność na rzecz służby naszemu plemieniu! Porzuca czas beztroski na rzecz swej prawdziwej natury i hartu ducha!\\n\\n[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|U] spogląda na mnie.\\n\\n– Jeśli [ROOT.Char.GetTitleAsName] tego zechce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.desc_child",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Tying fine braids and swishing comely locks in gratitude, the tribe assembles for the hair-shearing ritual.\\n\\nMy [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] grips my hair and takes hold of an inscribed knife.\\n\\n",
+    "RUS": "Племя собирается на обряд срезания волос, заплетая косы и размахивая прядями.\\n\\n[Select_CString(priest.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] [priest.GetFirstName] хватает мои волосы и берет в руку украшенный нож.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Наша', 'Наш' )] [ROOT.Char.GetTitleAsName|l] готовится расстаться с детством ради будущего в рядах племени! [teentribal.GetSheHe|U] сбросит ненужные украшения, обнажив свою истинную природу и силу своего духа!»\\n\\n[priest.GetFirstName] опасливо смотрит в сою сторону.\\n\\n«...если так пожелает [ROOT.Char.GetTitleAsNameNoTooltip|l]».",
+    "POL": "Plemię gromadzi się na rytuale postrzyżyn. Wokoło powiewają urodziwe loki i piękne warkocze zaplecione na znak wdzięczności.\\n\\n[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|U] [priest.GetFirstName] chwyta moje włosy, w drugiej dłoni dzierżąc grawerowany nóż.\\n\\n– [ROOT.Char.GetTitleAsName] pozostawia za sobą dziecięcą niewinność na rzecz służby naszemu plemieniu! Porzuca czas beztroski na rzecz swej prawdziwej natury i hartu ducha!\\n\\n[ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|U] spogląda na mnie.\\n\\n– Jeśli [ROOT.Char.GetTitleAsNameNoTooltip] tego zechce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Absolute dedication: a brutal, total shave.",
+    "RUS": "Абсолютная преданность: полное и жесткое бритье.",
+    "POL": "Całkowite poświęcenie: brutalne i całkowite zgolenie włosów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort',priest)] pulls [priest.GetHerHis] blade acros the entire scalp, with the proper vigor.",
+    "RUS": "[Select_CString(priest.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort',priest)] рьяно проводит ножом по всему черепу.",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort',priest)] przeciąga zręcznie swoim ostrzem po całej długości głowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.a.toast",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The ritual shaving is concluded.",
+    "RUS": "Ритуальное бритье завершено.",
+    "POL": "Rytuał golenia kończy się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Cut just one lock, to be kept always!",
+    "RUS": "Срежьте один локон, на память!",
+    "POL": "Utnij tylko jeden lok, aby go zachować na zawsze!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A slim bit of hair is shorn and placed in a ceremonial locket, a token of duty.",
+    "RUS": "Небольшой локон волос срезан и помещен в церемониальную шкатулку в знак исполнения долга.",
+    "POL": "Obcięty pukiel zostaje umieszczony w uroczystym medalionie na znak zobowiązania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.b.toast",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The hair-cutting is complete",
+    "RUS": "Срезание волос завершено",
+    "POL": "Rytuał strzyżenia kończy się",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7026.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: The Cleansing",
+    "RUS": "$bp2_decision.0002.t$: Очищение",
+    "POL": "$bp2_decision.0002.t$: oczyszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The tribe gathers reverently by water's edge, as the holy [priest.GetFirstName] hoists the ceremonial cup.\\n\\n",
+    "RUS": "Племя с почтением собралось у края воды, наблюдая, как [priest.GetFirstName] поднимает церемониальную чашу.\\n\\n«Из капель рождается море! Из [Select_CString(teentribal.IsFemale, 'девочки', 'мальчика' )] рождается [Select_CString(teentribal.IsFemale, 'женщина', 'мужчина' )]! Начнем же!» [Select_CString(priest.IsFemale, 'Она', 'Он' )] выливает священную воду на волосы и кожу.\\n\\n«О [priest.GetFaith.WaterGodName]! Пусть вода очистит тебя, дитя, пусть смоет твое детство и оставит мудрость зрелости».\\n\\nЯ тоже участвую в церемонии — священный водоем ждет.",
+    "POL": "Plemię gromadzi się z czcią nad brzegiem wody, a święta postać, jaką jest [priest.GetFirstName], podnosi ceremonialny kielich.\\n\\n– Jak morze ma swój początek z kilku kropel wody, tak i niech twoja dorosłość pocznie się z niedojrzałości! – [priest.GetFirstName] skrapla świętą wodą moje włosy i skórę.\\n\\n– W imię [priest.GetFaith.WaterGodNamePossessive]: niechaj ta woda oczyści cię! Niech zmyje z ciebie niedojrzałość, pozostawiając jedynie mądrość dorosłości.\\n\\nCzeka mnie kolejna część ceremonii – święta kąpiel.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "To near-drown is to know the water!",
+    "RUS": "Чтобы познать воду нужно в ней почти утонуть!",
+    "POL": "Aby poznać wodę, trzeba się jej oddać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The plunge into sacred water is... almost mortal in length.",
+    "RUS": "Погружение в священную воду... по длительности почти смертельно.",
+    "POL": "Zanurzenie w świętej wodzie trwa… niemal wiecznie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The rite requires... a light bathing.",
+    "RUS": "Для обряда требуется... небольшое купание.",
+    "POL": "Rytuał wymaga… zamoczenia się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "A brief dip: symbolism is the master of the waking world.",
+    "RUS": "Быстрое погружение: в нашем мире все завязано на символизм.",
+    "POL": "Krótka kąpiel: symbolika rządzi światem materialnym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7027.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The $cleansing_type_element$ cleansing is complete",
+    "RUS": "Очищение $cleansing_type_element$ завершено",
+    "POL": "Oczyszczenie za pomocą $cleansing_type_element$ jest zakończone",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.t$: The Cleansing",
+    "RUS": "$bp2_decision.0002.t$: Очищение",
+    "POL": "$bp2_decision.0002.t$: oczyszczenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Vast flames illuminate the stern faces of my tribesmen. my [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName], armed with a lance's butt, breaks down the bonfire and spreads embers into a glowing path.\\n\\nBreathe — breathe steadily, I implore.\\n\\n",
+    "RUS": "Полыхающее пламя освещает суровые лица моих соплеменников. [Select_CString(priest.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] [priest.GetFirstName] с древком копья в руке разбивает костер и разбрасывает уголья в светящуюся тропу.\\n\\nДышать, главное дышать ровно.\\n\\n«Это дитя готово присоединиться к вам?! — обращается [priest.GetFirstNameNoTooltip]. — [priest.GetFaith.WarGodName] будет судить, когда [teentribal.GetFirstName] пройдет испытание огнем! Ступай, дитя, пусть сгорит все недостойное, чтобы ты [Select_CString(teentribal.IsFemale, 'могла', 'мог' )] ступить на холодную землю как #L [ROOT.Char.GetCulture.GetCollectiveNoun|l][Select_CString(teentribal.IsFemale, 'ая', 'ий' )]#! [teentribal.GetWomanMan]!»",
+    "POL": "Ogromne płomienie oświetlają surowe twarze moich współplemieńców. [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] przy pomocy trzonka włóczni rozgarnia ognisko i tworzy żarzącą się ścieżkę.\\n\\nStaram się oddychać głęboko i spokojnie.\\n\\n– Czy to dziecko jest gotowe dołączyć w wasze szeregi?! – woła [priest.GetFirstNameNoTooltip]. – [teentribal.GetFirstName] musi stanąć do próby, a ostateczny werdykt należeć będzie do [priest.GetFaith.WarGodNamePossessive]! Ruszaj, moje dziecko! Wypal to, co niegodne, a staniesz na chłodnej ziemi jako dorosła osoba, w której żyłach płynie [ROOT.Char.GetCulture.GetName|l] krew!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[priest.GetFaith.WarGodName|U] carries the believer through!",
+    "RUS": "[priest.GetFaith.WarGodName|U] проведет верующего!",
+    "POL": "Z pomocą [priest.GetFaith.WarGodNamePossessive] przetrwam tę próbę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Deliberate, painstaking steps are taken during the firewalk.",
+    "RUS": "При хождении по углям нужно делать выверенные, болезненные шаги.",
+    "POL": "Spacer po ogniu składa się z powolnych, bolesnych kroków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Haste! Take it at a sprint.",
+    "RUS": "Бегом! Нужно пробежать через угли.",
+    "POL": "Przebiegnij przez ogień w pośpiechu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "The firewalk is honored, but the scuttle it's done with is swift as the wind.",
+    "RUS": "Хождение по углям достойно уважения, но завершить его можно со скоростью ветра.",
+    "POL": "Spacer po ogniu zostaje uznany, choć przeprowadzono go przy pomocy szybkich jak wiatr kroków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.c",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.f$",
+    "RUS": "$bp2_decision.0002.f$",
+    "POL": "$bp2_decision.0002.f$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_decision.0002.cooldown$",
+    "RUS": "$bp2_decision.0002.cooldown$",
+    "POL": "$bp2_decision.0002.cooldown$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7028.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "$bp2_yearly.7027.tt$",
+    "RUS": "$bp2_yearly.7027.tt$",
+    "POL": "$bp2_yearly.7027.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.t",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Rites of Passage: A Familiar Fear",
+    "RUS": "Обряд инициации: семейный страх",
+    "POL": "Rytuały przejścia: znany strach",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "As [ROOT.Char.GetTitleAsName], I give permission to the youths soon-to-perform rites of passage. Some make bold promises, oaths few [ROOT.Char.GetCulture.GetCollectiveNoun] could keep. Others, like my [ROOT.Char.Custom2('RelationToMeShort', teentribal)] [teentribal.GetFirstName], tremble.\\n\\nToday, the chosen trial is the same I myself once undertook:",
+    "RUS": "Я [ROOT.Char.GetTitleAsName|l], и именно я выдаю разрешения молодежи на прохождение обряда инициации. Некоторые из них дают смелые обещания и клятвы, сдержать которые могут далеко не все [ROOT.Char.GetCulture.GetName|l] могут сдержать. Другие, например, [Select_CString(teentribal.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', teentribal)] [teentribal.GetFirstName], дрожат.\\n\\nСегодня пройдет такое же испытание, какое когда-то пришлось проходить мне:",
+    "POL": "Jako [ROOT.Char.GetTitleAsName] daję znak młodym uczestnikom rytuałów przejścia na rozpoczęcie. Niektórzy składają śmiałe obietnice i przysięgi, których niewielu dorosłych byłoby w stanie dotrzymać.\\n\\nInni, w tym bliska mi osoba, którą jest [teentribal.GetFirstName], drżą ze strachu.\\n\\nDzisiejsza próba nie różni się od tej, której i mnie było dane stawić kiedyś czoła:",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_duel",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNamePossessiveNoTooltip] skill at arms is to be [teentribal.GetHerHis] worth. But I notice... [teentribal.GetSheHe] bears no sword.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] покажет, чего стоит, с оружием в руке. Но я замечаю... что у н[teentribal.GetHerHis] нет при себе меча.\\n\\n«Мой противник размером с гору! — стонет [teentribal.GetSheHe]. — Как мне победить, не прибегая к грязным уловкам?»",
+    "POL": "[teentribal.GetFirstNameNoTooltip] sprawdzi swe umiejętności w walce. Widzę jednak, że… w [teentribal.Custom('PL_jego_jej')] dłoni nie ma miecza.\\n\\n– Będę walczyć z człowiekiem wielkim jak góra! – lamentuje. – Jak mam wygrać, jeśli nie za pomocą brudnego zagrania?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_scarification",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNamePossessiveNoTooltip] face will be scarred, marking [teentribal.GetHerHim] forever as one of us. [teentribal.GetSheHe|U] cringes at the mere thought of the blade.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] вскоре украсит свое лицо шрамами, что навеки отметит [teentribal.GetHerHis] как члена нашего племени. [teentribal.GetSheHe|U] кривится от одной лишь мысли о клинке.\\n\\n«Я боюсь лишиться глаза! — стонет [teentribal.GetSheHe]. — Как мне подготовиться к чему-то настолько ужасному?»",
+    "POL": "[teentribal.Custom('PL_jego_jej')] twarz zostanie poddana skaryfikacji, a blizna będzie dowodem przynależności do naszego plemienia. [teentribal.GetFirstNameNoTooltip] drży jednak na samo wspomnienie ostrza.\\n\\n– Boję się, że stracę oko! – zawodzi. – Jak można się przygotować do tak przerażającego wydarzenia?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_seclusion",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] stands prepared for the path to seclusion, but poorly so. [teentribal.GetSheHe|U] lingers in embraces, with dewy eyes.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] готовится отправиться в уединение, но как-то плохо. [teentribal.GetSheHe|U] не спешит разрывать объятия, а в глазах стоят слезы.\\n\\n«Не дурной ли это знак? — спрашивает [teentribal.GetSheHe]. — Нет? И все же... погода не очень. Никто же не путешествует в такую погоду, да?»",
+    "POL": "[teentribal.GetFirstNameNoTooltip] przygotowuje się do samotnej wyprawy… z ociąganiem. Z załzawionymi oczami łka w moich ramionach.\\n\\n– Czy to zły omen? – pyta. – Nie? Ale… pogoda jest okropna. Kto rusza w drogę w taką pogodę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_hair_shaving",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNamePossessiveNoTooltip] hair is to be shaven. [teentribal.GetSheHe|U] clutches handfuls of it in white-knuckled dread.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] вскоре лишится своих волос. [teentribal.GetSheHe|U] отчаянно сжимает их в руках.\\n\\n«Говорят, у меня самые красивые волосы в племени! — протестует [teentribal.GetSheHe]. — Неужели нельзя срезать просто немного пушка?!»",
+    "POL": "[teentribal.GetFirstNameNoTooltip] straci wkrótce swe młodzieńcze włosy, które obecnie ściska w dłoniach tak mocno, że bieleją [teentribal.Custom('PL_mu_jej')] kłykcie.\\n\\n– Podobno moje włosy są najpiękniejsze w całym plemieniu! – woła. – Czy nie możemy zamiast nich złożyć ofiary z futra?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_fire_cleanse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNamePossessiveNoTooltip] feet are bare, so they may know cold before the firewalk. [teentribal.GetSheHe|U] eyes a small rush lamp suspiciously.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] стоит босяком, наслаждаясь холодом перед хождением через огонь. [teentribal.GetSheHe|U] с подозрением смотрит на пылающие угольки.\\n\\n«Есть ли какая-то правда в огне? — хнычет [teentribal.GetSheHe]. — Если от меня требуются страдания, то их будет с избытком...»",
+    "POL": "[teentribal.GetFirstNameNoTooltip] ma bose stopy, aby móc poczuć chłód przed przejściem przez ogień. Z podejrzliwością spogląda na małą świecę i pyta:\\n\\n– Czy w ogniu naprawdę można odnaleźć jakąś prawdę? Cóż… jeśli chcecie patrzeć, jak cierpię, nie zawiedziecie się…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.desc_water_cleanse",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] will be given to the water. [teentribal.GetSheHe|U] hardly seems eager to be submerged.\\n\\n",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] вскоре окунется в воду. [teentribal.GetSheHe|U], правда, не горит желанием.\\n\\n«А вдруг меня сожрет какое-нибудь существо из глубин, — возмущается [teentribal.GetSheHe]. — [ROOT.Char.GetFaith.PriestNeuter|U] тоже хочет убить меня...»",
+    "POL": "[teentribal.GetFirstNameNoTooltip] wkrótce ma się oddać żywiołowi wody, ale nie wyraża chęci, aby się zanurzyć.\\n\\n– Być może pożre mnie jakieś stworzenie z głębin – marudzi. – [ROOT.Char.GetFaith.PriestNeuter|U] najwyraźniej bardzo chce mojej zguby…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.a",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "My retelling of my rite will inspire [teentribal.GetHerHim]!",
+    "RUS": "Мой рассказ о собственном обряде вдохновит [teentribal.GetHerHis]!",
+    "POL": "Wspomnienia mojego rytuału z pewnością podniosą [teentribal.Custom('PL_go_ja')] na duchu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "With your words ringing in [teentribal.GetHerHis] ears, [teentribal.GetFirstNameNoTooltip] faces the trial with fine conviction.",
+    "RUS": "Пока ваши слова продолжают звучать в [teentribal.GetHerHis] ушах, [teentribal.GetFirstNameNoTooltip] уверенно принимает участие в обряде.",
+    "POL": "Po wysłuchaniu twoich opowieści [teentribal.GetFirstNameNoTooltip] z pełnym przekonaniem stawia czoła wyzwaniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.a.teaching",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] learns much from you",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] многому у вас учится",
+    "POL": "[teentribal.GetFirstNameNoTooltip] sporo się od ciebie dowiaduje",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.a.inspiration",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Your tale is wonderfully inspiring",
+    "RUS": "Ваш рассказ на удивление вдохновляет",
+    "POL": "Twoja opowieść jest bardzo inspirująca",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.b",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetSheHe|U] must suffer [teentribal.GetHerHis] own mistakes.",
+    "RUS": "[teentribal.GetSheHe|U] [Select_CString(teentribal.IsFemale, 'должна', 'должен' )] учиться на своих ошибках.",
+    "POL": "[teentribal.GetFirstNameNoTooltip] musi przełknąć własne błędy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] learns self-reliance",
+    "RUS": "[teentribal.GetFirstName] учится полагаться на себя",
+    "POL": "[teentribal.GetFirstName] uczy się polegać na sobie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.b.fail",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstName] does the rite poorly",
+    "RUS": "[teentribal.GetFirstName] неудачно проходит обряд",
+    "POL": "[teentribal.GetFirstName] nie radzi sobie podczas próby",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_yearly.7029.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNameNoTooltip] struggles on [teentribal.GetHerHis] lonesome, earning the strength of an adult grown or the shame of a failure.",
+    "RUS": "[teentribal.GetFirstNameNoTooltip] страдает в одиночестве и обретет силу взрослой жизни или позор неудачи.",
+    "POL": "[teentribal.GetFirstNameNoTooltip] mierzy się z tym w pojedynkę, zdobywając siłę dorosłego człowieka lub przeżywając wstyd związany z porażką.",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_trigger_chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Your [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] is available",
+    "RUS": "Ваш [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] доступен",
+    "POL": "Osoba, którą jest [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l], jest dostępna",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_trigger_not_proven",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Has not completed any rite of passage",
+    "RUS": "Не пройден какой-либо обряд инициации",
+    "POL": "Nie ukończyło żadnego rytuału przejścia",
+    "BEL": ""
+  },
+  {
+    "KEY": "rites_of_passage_trigger_delayed",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Delayed completing any rite of passage by 1 year",
+    "RUS": "Прохождение обряда инициации отложено на 1 год",
+    "POL": "Opóźnienie ukończenia jakiegokolwiek rytuału przejścia o 1 rok",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribal_hair",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Lock of [teentribal.GetFirstNamePossessive] Hair",
+    "RUS": "Локон волос персонажа [teentribal.GetFirstName]",
+    "POL": "Pukiel włosów należący do osoby, którą jest [teentribal.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tribal_hair.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "[teentribal.GetFirstNamePossessive] remainder of successful rites of passage into adulthood.",
+    "RUS": "Напоминание о том, что [teentribal.GetFirstName] [Select_CString(teentribal.IsFemale, 'прошла', 'прошел' )] обряд инициации.",
+    "POL": "Pamiątka udanego rytuału przejścia w dorosłość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "insecure_adult_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Insecure Tribal Adult",
+    "RUS": "Сомневающийся взрослый член племени",
+    "POL": "Niepewny dorosły członek plemienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "insecure_adult_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This character passed the $bp2_decision.0002.t$, but is still insecure about the life ahead.",
+    "RUS": "Этот персонаж прошел ритуал $bp2_decision.0002.t$, но это не принесло уверенности в будущей жизни.",
+    "POL": "Ta postać ukończyła pomyślnie rytuały przejścia, ale wciąż jest niepewna swojej przyszłości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "backdown_from_rite_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Insecure Tribal Youth",
+    "RUS": "Сомневающийся молодой член племени",
+    "POL": "Niepewny młody członek plemienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "backdown_from_rite_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This character committed poorly to their rite of passage; they are hounded by a feeling of unworthiness.",
+    "RUS": "Этот персонаж плохо показал себя во время обряда инициации и страдает от ощущения своего ничтожества.",
+    "POL": "Postać ta nie ukończyła swojego rytuału przejścia; prześladuje ją poczucie niegodności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "proven_adult_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Proven Tribal Adult",
+    "RUS": "Надежный взрослый член племени",
+    "POL": "Uznany dorosły współplemieniec",
+    "BEL": ""
+  },
+  {
+    "KEY": "proven_adult_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "This character passed the $bp2_decision.0002.t$ and is considered an honored adult member of the tribe.",
+    "RUS": "Этот персонаж прошел ритуал $bp2_decision.0002.t$ и считается взрослым членом племени.",
+    "POL": "Ta postać ukończyła rytuał przejścia i jest uważana za honorowego dorosłego członka plemienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "child_like_parent_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "Not Far From the Tree",
+    "RUS": "Недалеко от яблони",
+    "POL": "Niedaleko pada jabłko…",
+    "BEL": ""
+  },
+  {
+    "KEY": "child_like_parent_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "You become more like your dreaded parent, focused on yourself.",
+    "RUS": "Вы стали больше похожи на своего грозного родителя, сосредоточившись на себе.",
+    "POL": "Ta postać staje się podoba do swojego budzącego strach i skupionego na sobie rodzica",
+    "BEL": ""
+  },
+  {
+    "KEY": "fire_cleanse_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a fire cleansing",
+    "RUS": "очищение огнем",
+    "POL": "oczyszczenie w ogniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "water_cleanse_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a water cleansing",
+    "RUS": "очищение водой",
+    "POL": "oczyszczenie w wodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "shaving_hair_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a hair shaving",
+    "RUS": "сбривание волос",
+    "POL": "zgolenie włosów",
+    "BEL": ""
+  },
+  {
+    "KEY": "seclusion_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a seclusion",
+    "RUS": "уединение",
+    "POL": "odosobnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "scarification_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a scarification",
+    "RUS": "шрамирование",
+    "POL": "proces skaryfikacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "dueling_rite_memory",
+    "FILE_PATH": "localization/belarusian/event_localization/relation_events/wet_nurse_events_l_belarusian.json",
+    "ENG": "a duel",
+    "RUS": "поединок",
+    "POL": "pojedynek",
+    "BEL": ""
+  }
+]

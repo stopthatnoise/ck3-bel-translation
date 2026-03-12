@@ -1,0 +1,1594 @@
+[
+  {
+    "KEY": "SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[spouse|E]",
+    "RUS": "[Concept( 'spouse', Select_CString(CharacterWindow.GetCharacter.IsFemale, 'Супруг', 'Супруга' ) )|E]",
+    "POL": "[spouse|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "FORMER_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Former [spouse|E]",
+    "RUS": "[Select_CString(CharacterWindow.GetCharacter.IsFemale, 'Бывший', 'Бывшая' )] [Concept( 'spouse', Select_CString(CharacterWindow.GetCharacter.IsFemale, 'супруг', 'супруга' ) )|E]",
+    "POL": "Były [spouse|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SPOUSE_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "$SPOUSE$-[Character.GetDiarchTitle]",
+    "RUS": "$SPOUSE$-[Character.GetDiarchTitle|l]",
+    "POL": "$SPOUSE$-[Character.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BETROTHED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[betrothed|E]",
+    "RUS": "[betrothal|E]",
+    "POL": "[Select_CString( CharacterWindow.GetSecondaryCharater.IsFemale, Concept('betrothed', 'Zaręczona'), Concept('betrothed', 'Zaręczony') )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SPOUSES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Spouses",
+    "RUS": "Супруги",
+    "POL": "Małżonkowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONCUBINES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[concubines|E]",
+    "RUS": "[concubines|E]",
+    "POL": "[Select_CString( Character.IsFemale, Concept('concubines', 'Konkubenci'), Concept('concubines', 'Konkubiny') )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GAME_CONCEPT_CONCUBINE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[concubine|EU]",
+    "RUS": "[Concept( 'concubine', Select_CString(CharacterWindow.GetCharacter.IsFemale, 'Консорт', 'Наложница' ) )|EU]",
+    "POL": "[concubine|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONCUBINE_IS_VISIBLE_INFERTILE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Is Infertile#!",
+    "RUS": "@warning_icon! #X Не может иметь детей#!",
+    "POL": "@warning_icon! #X Jest bezpłodn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONCUBINE_MAN",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[concubine_male|E]",
+    "RUS": "[concubine_male|E]",
+    "POL": "[concubine_male|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONCUBINE_WOMAN",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[concubine_female|E]",
+    "RUS": "[concubine_female|E]",
+    "POL": "[concubine_female|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "REGULAR_MARRIAGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[marriage|E]",
+    "RUS": "[marriage|E]",
+    "POL": "[marriage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MATRILINEAL_MARRIAGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[matrilineal|E]",
+    "RUS": "[matrilineal|E]",
+    "POL": "[matrilineal|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "REGULAR_BETROTHAL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[betrothal|E]",
+    "RUS": "[betrothal|E]",
+    "POL": "[betrothal|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MATRILINEAL_BETROTHAL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[matrilineal|E]",
+    "RUS": "[matrilineal|E]",
+    "POL": "[matrilineal|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CONCUBINE_MARRIAGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[concubinage|E]",
+    "RUS": "[concubinage|E]",
+    "POL": "[concubinage|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_NAME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetUINameNotMeNoTooltip], ",
+    "RUS": "[Character.GetUINameNotMeNoTooltip],",
+    "POL": "[Character.GetUINameNotMeNoTooltip], ",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_NAME_SHORT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetShortUINameNotMeNoTooltip], ",
+    "RUS": "[Character.GetShortUINameNotMeNoTooltip],",
+    "POL": "[Character.GetShortUINameNotMeNoTooltip], ",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_NAME_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetUINameNotMeNoTooltip]",
+    "RUS": "[Character.GetUINameNotMeNoTooltip]",
+    "POL": "[Character.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_AGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": " [Character.GetAge]",
+    "RUS": "[Character.GetAge]",
+    "POL": " [Character.GetAge] l.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_AGE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetDeathOrBirthDateInfo]",
+    "RUS": "[Character.GetDeathOrBirthDateInfo]",
+    "POL": "[Character.GetDeathOrBirthDateInfo]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_VIEW_ALIVE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetHealthInfo]",
+    "RUS": "[Character.GetHealthInfo]",
+    "POL": "[Character.GetHealthInfo]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPRISONED_BY",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Concept( 'jailor', 'Jailor @crime_icon!' )|E]",
+    "RUS": "[Concept( 'jailor', 'Тюремщик @crime_icon!' )|E]",
+    "POL": "[Concept('jailor', '@crime_icon! Strażnik więzienny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WARDEN_OF",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Concept( 'warden', 'Warden @hostage_icon!' )|E]",
+    "RUS": "[Concept( 'warden', 'Принимающая сторона @hostage_icon!' )|E]",
+    "POL": "[Concept('warden', '@hostage_icon! Kurator')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SKILLS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[skills|E]",
+    "RUS": "[skills|E]",
+    "POL": "[skills|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAITS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[traits|E]",
+    "RUS": "[traits|E]",
+    "POL": "[traits|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIMS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[claims|E]",
+    "RUS": "[claims|E]",
+    "POL": "[claims|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "MODIFIERS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[modifiers|E]",
+    "RUS": "[modifiers|E]",
+    "POL": "[modifiers|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_NO_MODIFIERS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "No current character modifiers",
+    "RUS": "Нет текущих модификаторов персонажа",
+    "POL": "Brak obecnych modyfikatorów postaci",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TITLES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[GetDataModelSize(CharacterWindow.GetTitles)|V] [titles|E]",
+    "RUS": "[titles|E]: [GetDataModelSize(CharacterWindow.GetTitles)|V]",
+    "POL": "[titles|E]: [GetDataModelSize(CharacterWindow.GetTitles)|V] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TITLES_NOCOUNT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[titles|E]",
+    "RUS": "[titles|E]",
+    "POL": "[titles|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TITLES_SINGULAR",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[GetDataModelSize(CharacterWindow.GetTitles)|V] [title|E]",
+    "RUS": "[GetDataModelSize(CharacterWindow.GetTitles)|V] [title|El]",
+    "POL": "[titles|E]: [GetDataModelSize(CharacterWindow.GetTitles)|V] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TITLES_SHOW_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to expand [title|E] items#!",
+    "RUS": "#I Щелкните, чтобы развернуть [titles|El]#!",
+    "POL": "#I Kliknij, aby rozwinąć poszczególne [Concept( 'title', 'tytuły' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TITLES_HIDE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to hide expanded [title|E] items#!",
+    "RUS": "#I Щелкните, чтобы скрыть [titles|El]#!",
+    "POL": "#I Kliknij, aby ukryć rozwinięte [Concept( 'title', 'tytuły' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.Custom('GetRealmOrDomicileTooltip')]",
+    "RUS": "[Character.Custom('GetRealmOrDomicileTooltip')]",
+    "POL": "[Character.Custom('GetRealmOrDomicileTooltip')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE_LANDED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetGovernment.GetAdjective] [Character.GetPrimaryTitle.GetRankConcept]",
+    "RUS": "[Character.GetPrimaryTitle.GetRankConcept] ([Character.GetGovernment.GetName])",
+    "POL": "[Character.GetPrimaryTitle.GetRankConcept] – [Character.GetGovernment.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE_HOLY_ORDER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([ROOT.Char.GetFaith.GetAdjective])",
+    "RUS": "#L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.Custom('GetGovernmentIcon'), '' )][ROOT.Char.GetFaith.GetName]ий#! [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.GetGovernment.GetName, '' )|l]",
+    "POL": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] (wiara [ROOT.Char.GetFaith.GetAdjective|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE_MERCENARY",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]",
+    "RUS": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]",
+    "POL": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE_HOF",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [vassal|E] ([head_of_faith|E])",
+    "RUS": "#L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.Custom('GetGovernmentIcon'), '' )][SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )]$government_adj_end_iy$#! [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Concept('vassal', 'вассал'),Concept('vassal', 'Вассал'))|E] ([Concept('head_of_faith', 'глава конфессии')|E])",
+    "POL": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] – [vassal|El] ([head_of_faith|El])",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_REALM_TYPE_HOF_LANDED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([head_of_faith|E])",
+    "RUS": "#L [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), Character.Custom('GetGovernmentIcon'), '' )][SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE', '' )]$government_adj_end_iy$#! [Concept('head_of_faith', 'глава конфессии')|E]",
+    "POL": "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([head_of_faith|El])",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CIVIL_WAR_FACTION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[faction|E] in [civil_war|E]",
+    "RUS": "[faction|E] — [civil_war|E]",
+    "POL": "[faction|E] w [civil_war|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_DIPLOMACY",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Diplomacy",
+    "RUS": "Дипломатия",
+    "POL": "Dyplomacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_DIPLOMACY_SHOW_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to expand diplomacy items, and toggle diplomatic relations map mode#!",
+    "RUS": "#I Щелкните, чтобы развернуть дипломатические темы и включить/выключить режим карты «Дипломатические отношения»#!",
+    "POL": "#I Kliknij, aby rozwinąć elementy dyplomacji i przełączyć tryb stosunków dyplomatycznych na mapie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_DIPLOMACY_HIDE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to hide expanded diplomacy items, and toggle diplomatic relations map mode#!",
+    "RUS": "#I Щелкните, чтобы свернуть дипломатические темы и включить/выключить режим карты «Дипломатические отношения»#!",
+    "POL": "#I Kliknij, aby ukryć rozwinięte elementy dyplomacji i przełączyć tryb stosunków dyplomatycznych na mapie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CLAIMS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claims|E]",
+    "RUS": "[claims|E]: [GetDataModelSize(CharacterWindow.GetClaims)|V]",
+    "POL": "[claims|E]: [GetDataModelSize(CharacterWindow.GetClaims)|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CLAIMS_NOCOUNT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[claims|E]",
+    "RUS": "[claims|E]",
+    "POL": "[claims|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CLAIMS_SINGULAR",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claim|E]",
+    "RUS": "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claim|El]",
+    "POL": "[claims|E]: [GetDataModelSize(CharacterWindow.GetClaims)|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CLAIMS_SHOW_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to expand [claim|E] items#!",
+    "RUS": "#I Щелкните, чтобы развернуть [claims|El]#!",
+    "POL": "#I Kliknij, aby rozwinąć listę [Concept( 'claim', 'roszczeń' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CLAIMS_HIDE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to hide expanded [claim|E] items#!",
+    "RUS": "#I Нажмите, чтобы скрыть [claims|El]#!",
+    "POL": "#I Kliknij, aby ukryć rozwinięte [Concept( 'claim', 'roszczenia' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_MODIFIERS_SHOW_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to expand [modifiers|E]#!",
+    "RUS": "#I Щелкните, чтобы развернуть [Concept( 'modifiers', 'модификаторы' )|E]#!",
+    "POL": "#I Kliknij, aby rozwinąć [modifiers|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_MODIFIERS_HIDE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to hide expanded [modifiers|E]#!",
+    "RUS": "#I Щелкните, чтобы скрыть [Concept( 'modifiers', 'модификаторы' )|E]#!",
+    "POL": "#I Kliknij, aby ukryć rozwinięte [modifiers|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_MODIFIERS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( CharacterWindow.AreModifiersExpanded, 'CHARACTER_WINDOW_MODIFIERS_HIDE_TT', 'CHARACTER_WINDOW_MODIFIERS_SHOW_TT' )]",
+    "RUS": "[SelectLocalization( CharacterWindow.AreModifiersExpanded, 'CHARACTER_WINDOW_MODIFIERS_HIDE_TT', 'CHARACTER_WINDOW_MODIFIERS_SHOW_TT' )]",
+    "POL": "[SelectLocalization( CharacterWindow.AreModifiersExpanded, 'CHARACTER_WINDOW_MODIFIERS_HIDE_TT', 'CHARACTER_WINDOW_MODIFIERS_SHOW_TT' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_EXTRA_MODIFIERS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "+[CharacterWindow.GetExtraModifiersNumber]",
+    "RUS": "+[CharacterWindow.GetExtraModifiersNumber]",
+    "POL": "+[CharacterWindow.GetExtraModifiersNumber]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SEXUALITY_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Sexual Orientation: [Character.GetSexuality]#!\\nSex: [Select_CString( Character.IsFemale, 'Female', 'Male' )]",
+    "RUS": "#T Сексуальная ориентация: [Character.GetSexuality]#!\\nПол: [Select_CString( Character.IsFemale, 'Женский', 'Мужской' )]",
+    "POL": "#T Orientacja seksualna: [Character.GetSexuality]#!\\nPłeć: [Select_CString( Character.IsFemale, 'kobieta', 'mężczyzna' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_STRONG_CLAIM_ON",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@pressed_claim![pressed_claim|E]",
+    "RUS": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@pressed_claim![pressed_claim|E]",
+    "POL": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@pressed_claim! [pressed_claim|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_WEAK_CLAIM_ON",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@unpressed_claim![unpressed_claim|E]",
+    "RUS": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@unpressed_claim![unpressed_claim|E]",
+    "POL": "#T [TITLE.GetBaseNameNoTooltip]#!\\n@unpressed_claim! [unpressed_claim|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_IMPLICIT_CLAIM_ON",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [TITLE.GetBaseNameNoTooltip]#!\\n[implicit_claim|E]",
+    "RUS": "#T [TITLE.GetBaseNameNoTooltip]#!\\n[implicit_claim|E]",
+    "POL": "#T [TITLE.GetBaseNameNoTooltip]#!\\n[implicit_claim|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_TT_NAME_AGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!",
+    "RUS": "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!",
+    "POL": "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_TT_NAME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetUINameNotMeNoTooltip]",
+    "RUS": "[Character.GetUINameNotMeNoTooltip]",
+    "POL": "[Character.GetUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_TT_AGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetAge] years old",
+    "RUS": "Возраст: [Character.GetAge]",
+    "POL": "[Character.GetAge] [Select_CString( EqualTo_int32( Character.GetAge, '(int32)1' ), 'rok', Select_CString( And(GreaterThan_int32( Character.GetAge, '(int32)1' ), LessThan_int32(Character.GetAge, '(int32)5')), 'lata', Select_CString( And(GreaterThan_int32( Character.GetAge, '(int32)21' ), And(GreaterThan_float( Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( IntToFixedPoint(Character.GetAge),'(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( IntToFixedPoint(Character.GetAge),'(CFixedPoint)0.1'))) ),'(float)10'), '(float)1' ), LessThan_float(Multiply_float( Subtract_float( FixedPointToFloat(Multiply_CFixedPoint( IntToFixedPoint(Character.GetAge),'(CFixedPoint)0.1')), IntToFloat(FixedPointToInt(Multiply_CFixedPoint( IntToFixedPoint(Character.GetAge),'(CFixedPoint)0.1'))) ),'(float)10'), '(float)5'))) , 'lata', 'lat' ) ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COURTIERS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.Custom('GetCourtierPlural')|U]",
+    "RUS": "[Character.Custom('GetCourtierPlural')|U]",
+    "POL": "[Character.Custom('GetCourtierPlural')|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_UNLANDED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[unlanded|E]",
+    "RUS": "[unlanded|E]",
+    "POL": "[unlanded|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TAB_FAMILY",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Family",
+    "RUS": "Семья",
+    "POL": "Rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TAB_RELATIONS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Relationships",
+    "RUS": "Отношения",
+    "POL": "Relacje",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TAB_COURT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.Custom('GetCourtierPlural')|U]",
+    "RUS": "[Character.Custom('GetCourtierPlural')|U]",
+    "POL": "[Character.Custom('GetCourtierPlural')|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TAB_SECRETS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Secrets",
+    "RUS": "Секреты",
+    "POL": "Sekrety",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TAB_SUBJECTS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Subjects",
+    "RUS": "Подданные",
+    "POL": "Poddani",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_NO_SECRETS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#weak No known [secrets|E]#!",
+    "RUS": "#weak [secrets|E] неизвестны#!",
+    "POL": "#weak Brak znanych [Concept('secrets', 'sekretów')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_NO_RELATIONS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#weak Has no Relations#!",
+    "RUS": "#weak Отношений нет#!",
+    "POL": "#weak Nie ma relacji#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_NO_COURT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#weak Has no [court|E]#!",
+    "RUS": "#weak [court|El] отсутствует#!",
+    "POL": "#weak Nie ma [Concept('court', 'dworu')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_NO_VASSALS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#weak Has no [vassals|E]#!",
+    "RUS": "#weak [vassals|El] отсутствуют#!",
+    "POL": "#weak Nie ma [Concept('vassals', 'wasali')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_INTERACT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Interact with [Character.GetShortUINameNoTooltip]\\n#!#I Can also Right-click any Portrait to interact#!",
+    "RUS": "#T Взаимодействовать с персонажем [Character.GetShortUINameNoTooltip]\\n#!#I Для взаимодействия можно также щелкнуть правой кнопкой мыши по портрету#!",
+    "POL": "#T Interakcja z [Character.GetShortUINameNotMeNoTooltip]\\n#!#I Możesz również kliknąć prawym przyciskiem na dowolny portret, aby wejść w interakcję#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAMILY",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Family",
+    "RUS": "Семья",
+    "POL": "Rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "RELATIONS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Relations",
+    "RUS": "Отношения",
+    "POL": "Relacje",
+    "BEL": ""
+  },
+  {
+    "KEY": "SECONDARY_SPOUSES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Secondary Spouses",
+    "RUS": "Неглавные супруги",
+    "POL": "[Select_CString( Character.IsFemale, 'Drugorzędni małżnokowie', 'Drugorzędne małżonki' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GRANDPARENTS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Grandparents",
+    "RUS": "Предки",
+    "POL": "Dziadkowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "PARENTS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Parents",
+    "RUS": "Родители",
+    "POL": "Rodzice",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIBLINGS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Siblings",
+    "RUS": "Братья и сестры",
+    "POL": "Rodzeństwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHILDREN",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Children",
+    "RUS": "Дети",
+    "POL": "Dzieci",
+    "BEL": ""
+  },
+  {
+    "KEY": "GUARDIAN_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Guardian",
+    "RUS": "Опекун",
+    "POL": "Opiekun",
+    "BEL": ""
+  },
+  {
+    "KEY": "WARDS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Wards",
+    "RUS": "Подопечные",
+    "POL": "Wychowankowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "LOVERS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Lovers",
+    "RUS": "Любовники",
+    "POL": "Kochankowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "FRIENDS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Friends",
+    "RUS": "Друзья",
+    "POL": "Przyjaciele",
+    "BEL": ""
+  },
+  {
+    "KEY": "RIVALS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Rivals",
+    "RUS": "Соперники",
+    "POL": "Rywale",
+    "BEL": ""
+  },
+  {
+    "KEY": "GRUDGES_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Grudges",
+    "RUS": "Обиды",
+    "POL": "Urazy",
+    "BEL": ""
+  },
+  {
+    "KEY": "CRUSHES_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Crushes",
+    "RUS": "Увлечения",
+    "POL": "Sympatie",
+    "BEL": ""
+  },
+  {
+    "KEY": "BULLIES_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Bullies",
+    "RUS": "Обидчики",
+    "POL": "Dręczyciele",
+    "BEL": ""
+  },
+  {
+    "KEY": "VICTIMS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Victims",
+    "RUS": "Жертвы",
+    "POL": "Ofiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "DISCIPLE_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Disciples #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'disciple' ) ) )]/[Character.MakeScope().ScriptValue('disciples_limit_value')])#!",
+    "RUS": "Послушники #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'disciple' ) ) )]/[Character.MakeScope().ScriptValue('disciples_limit_value')])#!",
+    "POL": "Adepci #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'disciple' ) ) )]/[Character.MakeScope().ScriptValue('disciples_limit_value')])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ELDER_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Elder",
+    "RUS": "Старейшина",
+    "POL": "Starszy",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_SECRETS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CharacterWindow.GetCharacter.GetNamePossessiveOrMy|U] [secrets|E]",
+    "RUS": "[secrets|E]",
+    "POL": "[secrets|E] osoby znanej jako [CharacterWindow.GetCharacter.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_KNOWN_SECRETS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[secrets|E] known by [CharacterWindow.GetCharacter.GetNameOrMe]",
+    "RUS": "[secrets|E], известные персонажу [CharacterWindow.GetCharacter.GetName]",
+    "POL": "[secrets|E] znane postaci imieniem [CharacterWindow.GetCharacter.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_HOOKS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Your [hooks|E]",
+    "RUS": "Мое [hooks|El]",
+    "POL": "Twoje [Concept( 'hooks', 'haki' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_HOOKS_ON_CHARACTER_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Your [hooks|E] on [CharacterWindow.GetCharacter.GetNameOrMe]",
+    "RUS": "[CharacterWindow.GetCharacter.GetNameOrMe]: у вас есть [hooks|El]",
+    "POL": "Twoje [Concept('hooks', 'haki')|E] na postać [CharacterWindow.GetCharacter.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TARGET_HOOKS_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CharacterWindow.GetCharacter.GetNamePossessiveOrMy|U] [hooks|E] on you",
+    "RUS": "[hooks|E] на вас",
+    "POL": "[hooks|E] na ciebie dostępne dla postaci: [CharacterWindow.GetCharacter.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_INFO",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[health|E]: $STATE$",
+    "RUS": "[health|E]: $STATE$",
+    "POL": "[health|E]: $STATE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_DYING",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#N Dying#!",
+    "RUS": "#N Умирает#!",
+    "POL": "#N Umierający#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_NEAR_DEATH",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#N Near death#!",
+    "RUS": "#N При смерти#!",
+    "POL": "#N Blisko śmierci#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_POOR",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#Z Poor#!",
+    "RUS": "#Z Слабое#!",
+    "POL": "#Z Kiepskie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_FINE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#Z Fine#!",
+    "RUS": "#Z Неплохое#!",
+    "POL": "#Z Przyzwoite#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_GOOD",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#P Good#!",
+    "RUS": "#P Хорошее#!",
+    "POL": "#P Dobre#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_EXCELLENT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#P Excellent#!",
+    "RUS": "#P Отличное#!",
+    "POL": "#P Doskonałe#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_DYING_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is at Death's doorstep",
+    "RUS": "[CHARACTER.GetShortUIName|U] на пороге смерти",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest u progu śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_DYING_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "You are at Death's doorstep",
+    "RUS": "Вы на пороге смерти",
+    "POL": "Jesteś u progu śmierci",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_NEAR_DEATH_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is not long for this world...",
+    "RUS": "[CHARACTER.GetShortUIName|U] ненадолго задержится в этом мире...",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie pożyje długo na tym świecie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_NEAR_DEATH_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "You are not long for this world...",
+    "RUS": "Вы ненадолго задержитесь в этом мире...",
+    "POL": "Nie pożyjesz zbyt długo na tym świecie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_POOR_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is ailing",
+    "RUS": "[CHARACTER.GetShortUIName|U] болеет",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest schorowan[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_POOR_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "You are ailing",
+    "RUS": "Вы болеете",
+    "POL": "Jesteś schorowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_FINE_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is feeling fine",
+    "RUS": "[CHARACTER.GetShortUIName|U] нормально себя чувствует",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] czuje się dobrze",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_FINE_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "You are feeling fine",
+    "RUS": "Вы нормально себя чувствуете",
+    "POL": "Czujesz się dobrze",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_GOOD_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] humors are balanced",
+    "RUS": "Гуморы [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] в равновесии",
+    "POL": "Płyny humoralne postaci [CHARACTER.GetShortUINameNotMe|U] są wyrównane",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_GOOD_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Your humors are balanced",
+    "RUS": "Ваши гуморы в равновесии",
+    "POL": "Poziom twoich płynów humoralnych jest wyrównany",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_EXCELLENT_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is full of vim and vigor!",
+    "RUS": "[CHARACTER.GetShortUIName|U] пышет здоровьем!",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] jest peł[Select_CString( CHARACTER.IsFemale, 'na', 'en' )] życia i wigoru!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_EXCELLENT_DESC_ME",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "You are full of vim and vigor!",
+    "RUS": "Ваше здоровье в полном порядке!",
+    "POL": "Jesteś pełen życia i wigoru!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_SOURCES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Sources:",
+    "RUS": "Источники:",
+    "POL": "Źródła:",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_NEGATION_CAUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#P +$CAUSE$#! #weak (only countering penalties)#!",
+    "RUS": "#P +$CAUSE$#! #weak (только для компенсации штрафов)#!",
+    "POL": "#P +$CAUSE$#! #weak (tylko przeciwdziała minusom)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_POSITIVE_CAUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#P +$CAUSE$#!",
+    "RUS": "#P +$CAUSE$#!",
+    "POL": "#P +$CAUSE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HEALTH_NEGATIVE_CAUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#N -$CAUSE$#!",
+    "RUS": "#N -$CAUSE$#!",
+    "POL": "#N -$CAUSE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_ALLOW_MARRY_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Allow Marriage#!\\n#D Not implemented#!",
+    "RUS": "#T Позволить брак#!\\n#D Не добавлено в игру#!",
+    "POL": "#T Pozwól na małżeństwo#!\\n#D Nie zaimplementowano#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_ALLOW_BATTLE_TT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Allow Battle participation#!\\n#D Not implemented#!",
+    "RUS": "#T Позволить участие в битвах#!\\n#D Не добавлено в игру#!",
+    "POL": "#T Pozwól na uczestnictwo w bitwie#!\\n#D Nie zaimplementowano#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_NO_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "No Focus",
+    "RUS": "Нет фокуса",
+    "POL": "Brak priorytetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_CHOOSE_LIFESTYLE_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to choose Lifestyle#!",
+    "RUS": "#I Щелкните, чтобы выбрать жизненный путь#!",
+    "POL": "#I Kliknij, aby wybrać styl życia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_CHOOSE_EDUCATION_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to choose Choose Education Focus#!",
+    "RUS": "#I Щелкните, чтобы выбрать фокус образования#!",
+    "POL": "#I Kliknij, aby wybrać priorytet edukacji#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_VIEW_LIFESTYLE_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to view Lifestyle#!",
+    "RUS": "#I Щелкните, чтобы посмотреть жизненный путь#!",
+    "POL": "#I Kliknij, aby wyświetlić styl życia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_VIEW_EDUCATION_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to view Education Focus#!",
+    "RUS": "#I Щелкните, чтобы посмотреть фокус образования#!",
+    "POL": "#I Kliknij, aby wyświetlić priorytet edukacji#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LIFESTYLE_FOCUS_ICON_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [lifestyle|E]: [CHARACTER.GetFocus.GetName]#!",
+    "RUS": "#T [Concept( 'lifestyle', 'Путь' )|E] #TOOLTIP:FOCUS,$focus_RU_tt$ #L $focus_RU_RP$#!#!#!",
+    "POL": "#T [lifestyle|E]: [CHARACTER.GetFocus.GetName|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LIFESTYLE_FOCUS_ICON_HEADER_NO_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [lifestyle|E]: None#!",
+    "RUS": "#T Нет [Concept('lifestyle', 'жизненного пути')|E]#!",
+    "POL": "#T [lifestyle|E]: brak#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EDUCATION_FOCUS_ICON_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Education Focus: [CHARACTER.GetFocus.GetNameNoTooltip]#!",
+    "RUS": "#T Фокус $education_focus_RU_RP$#!",
+    "POL": "#T Priorytet edukacji: [CHARACTER.GetFocus.GetNameNoTooltip]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "EDUCATION_FOCUS_ICON_HEADER_NO_FOCUS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Education Focus: None#!",
+    "RUS": "#T Нет фокуса образования#!",
+    "POL": "#T Priorytet edukacji: brak#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SKILL_ITEM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[SkillItem.GetSkillBreakdownTooltip]\\n\\n#S Effects:#!\\n[SkillItem.GetSkillEffects]",
+    "RUS": "[SkillItem.GetSkillBreakdownTooltip]\\n\\n#S Эффекты:#!\\n[SkillItem.GetSkillEffects]",
+    "POL": "[SkillItem.GetSkillBreakdownTooltip]\\n\\n#S Efekty:#!\\n[SkillItem.GetSkillEffects]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SKILL_NO_EFFECT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "No effects at this level",
+    "RUS": "Нет эффектов на этом уровне",
+    "POL": "Brak efektów na tym poziomie",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOOK_FOR_MAX_OPINION_NONE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "no hook",
+    "RUS": "нет влияния",
+    "POL": "brak haka",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOOK_FOR_MAX_OPINION_WEAK",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[hook|E]",
+    "RUS": "[hook|E]",
+    "POL": "[Concept( 'hook', 'haka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOOK_FOR_MAX_OPINION_STRONG",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[strong_hook|E]",
+    "RUS": "[strong_hook|E]",
+    "POL": "[Concept( 'strong_hook', 'mocnego haka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_LEASE_APPROVAL_FROM_HOOK",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "you have a $TYPE$ on [CHARACTER.GetShortUIName]",
+    "RUS": "у вас есть $TYPE$ на персонажа [CHARACTER.GetShortUIName]",
+    "POL": "posiadasz $TYPE$ na [CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_LEASE_APPROVAL_FROM_OPINION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or greater",
+    "RUS": "[opinion|E] персонажа [CHARACTER.GetShortUIName] о вас $THRESHOLD|+=$ или выше",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub większą",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_NO_LEASE_APPROVAL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less",
+    "RUS": "[opinion|E] персонажа [CHARACTER.GetShortUIName] о вас $THRESHOLD|+=$ или ниже",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub mniejszą",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_NO_LEASE_APPROVAL_CAN_HOOK",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [opinion|E] of you is $THRESHOLD|+=$ or less and you do not have a $TYPE$ on [CHARACTER.GetHerHim]",
+    "RUS": "[opinion|E] персонажа [CHARACTER.GetShortUIName] о вас $THRESHOLD|+=$ или ниже и вы не имеете $TYPE$ на н[CHARACTER.GetHerHis]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma o tobie [Concept( 'opinion', 'opinię' )|E] $THRESHOLD|+=$ lub mniejszą oraz nie masz na [Select_CString(CHARACTER.IsFemale, 'nią', 'niego')] $TYPE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEOCRACY_LESSEE_APPROVAL_ENDORSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Your [realm_priest|E] endorses you#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\\n\\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]",
+    "RUS": "#T [realm_priest|E] поддерживает вас#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/мес. (из возможных [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/мес.)\\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]\\n\\nТаким образом, [CHARACTER.GetHerHis] [church_property|El] приносит вам ополчение и налоги, причина: $REASON$",
+    "POL": "#T Twój [realm_priest|El] cię popiera#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/miesiąc (możliwe maks. [gold_i] [TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/miesiąc)\\n[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (możliwe maks. [soldier_i] [TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V])\\n\\nOtrzymujesz podatki i poborowych z [CHARACTER.Custom('PL_jego_jej')] [Concept('church_property', 'posiadłości kościelnych')|E] ze względu na następujący powód: $REASON$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n#weak $NO_EFFECTS$#!\\n\\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]",
+    "RUS": "#T [realm_priest|E] #emphasis не#! поддерживает вас#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n#weak $NO_EFFECTS$#!\\n\\nТак как $REASON$, [CHARACTER.GetHerHis] [Concept('church_property', 'церковные владения')|E] не приносят вам ополчения и налогов",
+    "POL": "#T Twój [realm_priest|El] cię #emphasis nie#! popiera#!\\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\\n#weak $NO_EFFECTS$#!\\n\\nNie otrzymujesz podatków ani poborowych z [CHARACTER.Custom('PL_jego_jej')] [Concept('church_property', 'posiadłości kościelnych')|E] ze względu na następujący powód: $REASON$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "I receive the following from titles leased to [CHARACTER.GetShortUINameNoTooltip]:\\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month\\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]",
+    "RUS": "От титулов, переданных персонажу [CHARACTER.GetShortUINameNoTooltip], я получаю: \\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/мес.\\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]",
+    "POL": "Z dzierżawionych tytułów postaci [CHARACTER.GetShortUINameNotMeNoTooltip] otrzymuję:\\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/miesiąc\\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_THEOCRACY_LESSEE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T [church_property|E]#!\\n[Character.GetNumTitlesFromTheocraticLease] Temples\\n\\n[taxes|E]: [gold_i][Character.GetIncomeFromTheocraticLease|1+=]/month\\n[Character.GetIncomeBreakdownFromTheocraticLease]\\n\\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\\n[Character.GetLeviesBreakdownFromTheocraticLease]",
+    "RUS": "#T [church_property|E]#!\\n[Character.GetNumTitlesFromTheocraticLease] Храмы\\n\\n[taxes|E]: [gold_i][Character.GetIncomeFromTheocraticLease|1+=]/мес.\\n[Character.GetIncomeBreakdownFromTheocraticLease]\\n\\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\\n[Character.GetLeviesBreakdownFromTheocraticLease]",
+    "POL": "#T [church_property|E]#!\\nŚwiątynie: [Character.GetNumTitlesFromTheocraticLease]\\n\\n[taxes|E]: [gold_i][Character.GetIncomeFromTheocraticLease|1+=]/miesiąc\\n[Character.GetIncomeBreakdownFromTheocraticLease]\\n\\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\\n[Character.GetLeviesBreakdownFromTheocraticLease]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T $RELIGIOUS_HEAD$#!\\n\\n[taxes|E]: [gold_i][Character.GetIncomeAsReligiousHead|1+=]/month\\n[Character.GetIncomeBreakdownAsReligiousHead]",
+    "RUS": "#T $RELIGIOUS_HEAD$#!\\n\\n[taxes|E]: [gold_i][Character.GetIncomeAsReligiousHead|1+=]/мес.\\n[Character.GetIncomeBreakdownAsReligiousHead]",
+    "POL": "#T $RELIGIOUS_HEAD$#!\\n\\n[taxes|E]: [gold_i][Character.GetIncomeAsReligiousHead|1+=]/miesiąc\\n[Character.GetIncomeBreakdownAsReligiousHead]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEOCRATIC_LEASE_BREAKDOWN_TO_OTHER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "To [CHARACTER.GetUIName]",
+    "RUS": "Получатель — [CHARACTER.GetUIName]",
+    "POL": "Do [CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] does not endorse [TARGET_CHARACTER.GetShortUIName]#!",
+    "RUS": "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] не поддерживает [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]#!",
+    "POL": "@warning_icon! #X [CHARACTER.GetShortUINameNotMeNoTooltip] nie popiera [TARGET_CHARACTER.GetShortUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIM_TITLE_HOLDER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Current holder: [Claim.GetTitle.GetHolder.GetUIName]",
+    "RUS": "Текущий владетель: [Claim.GetTitle.GetHolder.GetUIName]",
+    "POL": "Obecny właściciel: [Claim.GetTitle.GetHolder.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIM_TITLE_NOT_CREATED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Title not yet created",
+    "RUS": "Титул еще не создан",
+    "POL": "Tytuł nie został jeszcze utworzony",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TOOLTIP_ME_BUTTON",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Go to player character#!",
+    "RUS": "#T Перейти к персонажу игрока#!",
+    "POL": "#T Idź do postaci gracza#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_BASTARD",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Bastard\\n#![Character.Custom('GetBastardTraitDesc')]",
+    "RUS": "#T Бастард\\n#![Character.Custom('GetBastardTraitDesc')]",
+    "POL": "#T Bękart\\n#![Character.Custom('GetBastardTraitDesc')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_BASTARD_HIGHBORN",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[ROOT.Char.LocalPlayerString( 'You are', 'THIRD_IS' )] a [bastard|E], and thus not a legitimate member of House [ROOT.Char.GetHouse.GetBaseName]",
+    "RUS": "[ROOT.Char.LocalPlayerString( 'Вы', 'THIRD_IS' )] — [bastard|El], то есть незаконный член дома [ROOT.Char.GetHouse.GetBaseName]",
+    "POL": "[ROOT.Char.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept('bastard', 'bękartem')|E], a zatem nie [Select_CString( ROOT.Char.IsLocalPlayer, 'jesteś', 'jest' )] prawowitym członkiem rodu [ROOT.Char.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_BASTARD_LOWBORN",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[ROOT.Char.LocalPlayerString( 'You are', 'THIRD_IS' )] a [bastard|E]",
+    "RUS": "[ROOT.Char.LocalPlayerString( 'Вы', 'THIRD_IS' )] — [bastard|El]",
+    "POL": "[ROOT.Char.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept('bastard', 'bękartem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_HOUSE_HEAD",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T House Head\\n#!$TT_HOUSE_HEAD_DESC$",
+    "RUS": "#T Глава дома\\n#!$TT_HOUSE_HEAD_DESC$",
+    "POL": "#T Głowa rodu\\n#!$TT_HOUSE_HEAD_DESC$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_DYNAST",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Dynasty Head\\n#!$TT_DYNAST_DESC$",
+    "RUS": "#T Глава династии\\n#!$TT_DYNAST_DESC$",
+    "POL": "#T Głowa dynastii\\n#!$TT_DYNAST_DESC$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_TT_YOU",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T You#!",
+    "RUS": "#T Вы#!",
+    "POL": "#T Ty#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TT_HOUSE_HEAD_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.LocalPlayerString( 'You are', 'THIRD_IS' )] the [house_head|E] of House [CHARACTER.GetHouse.GetBaseName]",
+    "RUS": "[CHARACTER.LocalPlayerString( 'Вы', 'THIRD_IS' )] — [house_head|El] [CHARACTER.GetHouse.GetBaseName]",
+    "POL": "[CHARACTER.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept( 'house_head', 'głową rodu' )|E] [CHARACTER.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TT_DYNAST_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.LocalPlayerString( 'You are', 'THIRD_IS' )] the [dynast|E] of Dynasty [CHARACTER.GetHouse.GetDynasty.GetName], in addition to being the [house_head|E] of House [CHARACTER.GetHouse.GetBaseName]",
+    "RUS": "[CHARACTER.LocalPlayerString( 'Вы', 'THIRD_IS' )] — [dynast|El] [CHARACTER.GetHouse.GetDynasty.GetBaseName], а также [house_head|El] [CHARACTER.GetHouse.GetBaseName]",
+    "POL": "[CHARACTER.LocalPlayerString( 'Jesteś', 'THIRD_IS' )] [Concept( 'dynast', 'głową dynastii' )|E] [CHARACTER.GetHouse.GetDynasty.GetName] oraz [Concept( 'house_head', 'głową rodu' )|E] [CHARACTER.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THIRD_IS",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetUIName] is",
+    "RUS": "[CHARACTER.GetUIName]",
+    "POL": "[CHARACTER.GetUINameNotMe] jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_COURTIER_SPONSOR_INSPIRATION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": ", or if you [sponsor|E] [Character.GetHerHis] [Character.GetCurrentInspiration.GetName]",
+    "RUS": ", или если вы [Concept( 'sponsor', 'поддержите' )|E] [Character.GetHerHis] [Character.GetCurrentInspiration.GetName]",
+    "POL": ", lub jeśli [Concept( 'sponsor', 'finansujesz' )|E] [Character.GetHerHis] [Character.GetCurrentInspiration.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_COURTIER_STAY_REASON",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "such as employment as a $knight_culture_player$ or a [councillor|E][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]",
+    "RUS": "например назначение на такие должности, как $knight_culture_player$ или [councillor|El][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]",
+    "POL": "np. zatrudnienie jako [GetPlayer.Custom( 'KnightCulture' )|l] albo [councillor|El][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_COURTIER_WANTS_TO_LEAVE_COURT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNoTooltip] might leave [TARGET_CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]. [CHARACTER.GetSheHe|U] will stay if given a reason, $CV_COURTIER_STAY_REASON$.",
+    "RUS": "[CHARACTER.GetShortUINameNoTooltip] может покинуть [CHARACTER.Custom('GetCourtConcept')|l] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]. [CHARACTER.GetSheHe|U] останется, если на то будет причина, $CV_COURTIER_STAY_REASON$.",
+    "POL": "[CHARACTER.GetShortUINameNotMeNoTooltip] może opuścić [CHARACTER.Custom('GetCourtConcept')|l] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]. Zostanie, jeśli będzie mieć ku temu powód, $CV_COURTIER_STAY_REASON$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_COURTIER_WILL_LEAVE_COURT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNoTooltip] will leave [TARGET_CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')] soon. [CHARACTER.GetSheHe|U] will only stay if given a reason, $CV_COURTIER_STAY_REASON$.",
+    "RUS": "[CHARACTER.GetShortUINameNoTooltip] вскоре покинет [CHARACTER.Custom('GetCourtConcept')|l] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]. [CHARACTER.GetSheHe|U] останется, только если на то будет причина, $CV_COURTIER_STAY_REASON$",
+    "POL": "[CHARACTER.GetShortUINameNotMeNoTooltip] niedługo opuści [CHARACTER.Custom('GetCourtConcept')|l] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]. Zostanie, jeśli będzie mieć ku temu powód, $CV_COURTIER_STAY_REASON$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_CLAIM_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Claim.GetTooltip|U]\\n$COA_TOOLTIP_CLICK_INFO_GUI$",
+    "RUS": "[Claim.GetTooltip|U]\\n$COA_TOOLTIP_CLICK_INFO_GUI$",
+    "POL": "[Claim.GetTooltip|U]\\n$COA_TOOLTIP_CLICK_INFO_GUI$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_FULL_DESCRIPTION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "RUS": "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "POL": "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_PERSONALITY_DESCRIPTION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "RUS": "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "POL": "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_RELATION_DESCRIPTION",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "$RELATION$",
+    "RUS": "$RELATION$",
+    "POL": "$RELATION$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_OPINION_OF_LIEGE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[opinion|E] of [liege|E]: ",
+    "RUS": "[opinion|E] о [Concept( 'liege', 'сюзерене' )|E]: ",
+    "POL": "[opinion|E] o [Concept( 'liege', 'seniorze' )|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_NEXT_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Show next former spouse",
+    "RUS": "Другие бывшие супруги",
+    "POL": "Pokaż następnego byłego małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_PREVIOUS_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Show former spouse",
+    "RUS": "Бывшие супруги",
+    "POL": "Pokaż byłego małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_FIND_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Find [spouse|E]\\n#!Arrange a [marriage|E] for [Character.GetUIName]\\n\\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "RUS": "#T Найти [Concept( 'spouse', Select_CString(Character.IsFemale, 'супруга', 'супругу' ) )|E]\\n#!Устроить [Concept( 'marriage', 'брак' )|E] персонажа [Character.GetUIName]\\n\\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "POL": "#T Znajdź [Concept( 'spouse', 'małżonka' )|E]\\n#!Zaaranżuj [marriage|El] postaci [Character.GetUINameNotMe]\\n\\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_FIND_SPOUSE_SELF",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Find [spouse|E]\\n#!Arrange a [marriage|E] for yourself\\n\\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "RUS": "#T Найти [Concept( 'spouse', 'супруга' )|E]\\n#!Устроить собственный [Concept( 'marriage', 'брак' )|E]\\n\\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "POL": "#T Znajdź [Select_CString(GetPlayer.IsFemale, Concept('spouse', 'małżonka'), Concept('spouse', 'małżonkę'))|E]\\n#!Zaaranżuj [Concept( 'marriage', 'małżeństwo' )|E] dla siebie\\n\\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Find [spouse|E]\\n#!Arrange a [marriage|E]",
+    "RUS": "#T Найти [Concept( 'spouse', 'супруга' )|E]\\n#!Устроить [Concept( 'marriage', 'брак' )|E]",
+    "POL": "#T Znajdź [Concept( 'spouse', 'małżonka' )|E]\\n#!Zaaranżuj [Concept( 'marriage', 'małżeństwo' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_GOTO_FIND_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Next: Find [spouse|E]#!",
+    "RUS": "#T Далее: найти [Concept( 'spouse', 'супруга' )|E]#!",
+    "POL": "#T Następny: znajdź [Concept( 'spouse', 'małżonka' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_GOTO_NEXT_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Next: [CHARACTER.GetUIName]#!",
+    "RUS": "#T Далее: [CHARACTER.GetUIName]#!",
+    "POL": "#T Następn[Select_CString( CHARACTER.IsFemale, 'a', 'y' )]: [CHARACTER.GetUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Previous: [CHARACTER.GetUIName]#!",
+    "RUS": "#T Раньше: [CHARACTER.GetUIName]#!",
+    "POL": "#T Poprzedni[Select_CString( CHARACTER.IsFemale, 'a', '' )]: [CHARACTER.GetUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Previous: Find [spouse|E]#!",
+    "RUS": "#T Ранее: найти [Concept( 'spouse', 'супруга' )|E]#!",
+    "POL": "#T Poprzedni: znajdź [Concept( 'spouse', 'małżonka' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_GOTO_DIARCH",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Next: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!",
+    "RUS": "#T Далее: [CHARACTER.GetLiege.GetDiarchTitle|l] [CHARACTER.GetUIName]#!",
+    "POL": "#T Następny: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CUSTOMIZE_PORTRAIT",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to open Barbershop#!",
+    "RUS": "#I Щелкните, чтобы открыть цирюльню#!",
+    "POL": "#I Kliknij, aby udać się do balwierza#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RENAME_CHARACTER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#I Click to rename the character#!",
+    "RUS": "#I Щелкните, чтобы переименовать персонажа#!",
+    "POL": "#I Kliknij, aby zmienić imię postaci#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CHILDREN_HEADING",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Children #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!",
+    "RUS": "Дети #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!",
+    "POL": "Dzieci #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_SIBLINGS_HEADING",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Siblings #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!",
+    "RUS": "Сиблинги #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!",
+    "POL": "Rodzeństwo #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CV_CONCUBINES_HEADING",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Concubines #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!",
+    "RUS": "Наложницы #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!",
+    "POL": "Konkubiny #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_RELATION_COMBINE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "$FIRST$ • $SECOND$",
+    "RUS": "$FIRST$ • $SECOND$",
+    "POL": "$FIRST$ • $SECOND$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FAITH_CHARACTER_WINDOW",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Faith.GetAdjectiveNoTooltip]",
+    "RUS": "[Faith.GetAdjectiveNoTooltip]",
+    "POL": "[Faith.GetAdjectiveNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CULTURE_CHARACTER_WINDOW",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Culture.GetNameNoTooltip]",
+    "RUS": "[Culture.GetCollectiveNounNoTooltip]ая",
+    "POL": "[Culture.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "VASSAL_SORT_POWER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "$CLAIMANT_SORT_STRENGTH$",
+    "RUS": "$CLAIMANT_SORT_STRENGTH$",
+    "POL": "$CLAIMANT_SORT_STRENGTH$",
+    "BEL": ""
+  },
+  {
+    "KEY": "FIND_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Find [spouse|E]",
+    "RUS": "Найти [Concept( 'spouse', Select_CString(CharacterWindow.GetCharacter.IsFemale, 'супруга', 'супругу' ) )|E]",
+    "POL": "Znajdź [Concept( 'spouse', 'małżonka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "KNOWN_LANGUAGES_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Known [languages|E]#!\\n[Character.GetKnownLanguagesString]\\n\\n#weak Current [language_limit|E]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] out of [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!",
+    "RUS": "#T Известные [Concept( 'languages', 'языки' )|E]#!\\n[Character.GetKnownLanguagesString]\\n\\n#weak Текущий [Concept( 'language_limit', 'лимит языков' )|E]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] из [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!",
+    "POL": "#T Znane [languages|El]#!\\n[Character.GetKnownLanguagesString]\\n\\n#weak Obecny [language_limit|El]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] z [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "REQUEST_CONTRIBUTION_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]",
+    "RUS": "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]",
+    "POL": "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "REQUEST_CONTRIBUTION_ERROR_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "@warning_icon! [great_project_contributor|E] cannot be selected until all requirements for the [contribution|E] are fulfilled",
+    "RUS": "@warning_icon! Вы не можете выбрать [Concept('great_project_contributor', 'участника проекта')|E], пока не будут выполнены все условия для [Concept('contribution', 'вклада')|E]",
+    "POL": "@warning_icon! Nie można wybrać [Concept('great_project_contributor', 'kontrybutora')|E] do momentu spełnienia wszystkich wymogów dla [Concept('contribution', 'wkładu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EXTENDED_RELATIONS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[Character.GetRelationToStringExtended( GetPlayer )]",
+    "RUS": "[Character.GetRelationToStringExtended( GetPlayer )]",
+    "POL": "[Character.GetRelationToStringExtended( GetPlayer )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_WINDOW_LEGITIMACY_LEVEL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]",
+    "RUS": "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]",
+    "POL": "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIARCH_ICON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#T Active [power_sharing|E]\\n#![Character.GetShortUIName|U] [CharAreIs(Character)] [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle]",
+    "RUS": "#T Активное [Concept('power_sharing', 'разделение полномочий')|E]\\n#!Для [Select_CString(Character.GetLiege.IsLocalPlayer, 'вас', Concatenate('персонажа ',Character.GetLiege.GetShortUIName))] [Character.GetShortUIName] — [Character.GetLiege.GetDiarchTitle]",
+    "POL": "#T Aktywne [power_sharing|El]\\n#![Character.GetShortUINameNotMe] to [Character.GetLiege.GetDiarchTitle] osoby znanej jako [Character.GetLiege.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RADIANCE_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!",
+    "RUS": "[mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!",
+    "POL": "[mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RADIANCE_TOOLTIP_DISABLED",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "@warning_icon! #WARNING Character must have the #HIGH $building_mandala_capital_01$#! [great_building|E] or higher in order to have [mandala_radiance|E]#!",
+    "RUS": "@warning_icon! #WARNING Персонаж должен владеть [Concept('great_building', 'грандиозной постройкой')|E] #HIGH «Украшенный храм»#! или выше, чтобы обладать [Concept('mandala_radiance', 'великолепием мандалы')|E]#!",
+    "POL": "@warning_icon! #WARNING Aby otrzymać [mandala_radiance|El], postać musi posiadać [Concept('great_building', 'budowlę okazałą')|E], którą jest #HIGH bogato zdobiona świątynia#!, lub budowlę wyższego poziomu#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MANDALA_ASPECT_DESC",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[mandala_aspect|E]",
+    "RUS": "[mandala_aspect|E]",
+    "POL": "[mandala_aspect|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ROSE_FROM_THE_ASHES",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[GetModifier('mandala_rise_from_the_ashes_modifier').GetNameWithTooltip]",
+    "RUS": "[GetModifier('mandala_rise_from_the_ashes_modifier').GetNameWithTooltip]",
+    "POL": "[GetModifier('mandala_rise_from_the_ashes_modifier').GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_A_TRIBUTARY_OF_A_MANDALA",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "[tributary|E] of a God King",
+    "RUS": "[tributary|E] Божественного владыки",
+    "POL": "[tributary|E] króla-boga",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_A_VASSAL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "I am a [vassal|E]",
+    "RUS": "Я [Concept('vassal', 'вассал')|E]",
+    "POL": "Jestem [Concept('vassal', 'wasalem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TARNISHED_MANDALA",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "Recently lost a war of tyranny",
+    "RUS": "Недавнее поражение в войне против тирании",
+    "POL": "Niedawno przegrano wojnę przeciwko tyranii",
+    "BEL": ""
+  },
+  {
+    "KEY": "RUINED_MANDALA_CAPITAL",
+    "FILE_PATH": "localization/belarusian/gui/character_window_l_belarusian.json",
+    "ENG": "#WARNING #HIGH $building_type_mandala_capital_01$#! is [ruined|E]#!",
+    "RUS": "#WARNING #HIGH Главный храмовый комплекс#! [Concept('ruined','разрушен')|E]#!",
+    "POL": "#WARNING #HIGH $building_type_mandala_capital_01$#! jest [Concept('ruined', 'zrujnowany')|E]#!",
+    "BEL": ""
+  }
+]

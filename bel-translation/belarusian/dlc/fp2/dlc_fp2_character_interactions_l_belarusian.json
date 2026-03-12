@@ -1,0 +1,1002 @@
+[
+  {
+    "KEY": "purchase_truce_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Purchase Truce",
+    "RUS": "Купить перемирие",
+    "POL": "Kup rozejm",
+    "BEL": ""
+  },
+  {
+    "KEY": "PURCHASE_TRUCE_NOTIFICATION",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You and I should be friends, not foes! Please, accept this gift in exchange for your signature on a treaty of mutual good will.",
+    "RUS": "Нам с вами нужно дружить, а не враждовать! Прошу, примите этот дар в обмен на подписание договора о взаимных добрых намерениях.",
+    "POL": "Ty i ja powinniśmy być przyjaciółmi, a nie wrogami! Proszę, przyjmij ten dar w zamian za twój podpis na traktacie o wzajemnej życzliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "purchase_truce_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Negotiate a preemptive [truce|E] with [recipient.GetTitledFirstName] in exchange for [gold|E]",
+    "RUS": "Договориться о немедленном [Concept( 'truce', 'перемирии' )|E] с персонажем [recipient.GetTitledFirstName] в обмен на [Concept( 'gold', 'золото' )|E].",
+    "POL": "Wynegocjuj prewencyjny [truce|El] z [recipient.GetTitledFirstName] w zamian za [gold|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "purchase_truce_interaction.accept.actor.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] has accepted my tribute",
+    "RUS": "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'приняла', 'принял' )] мою дань",
+    "POL": "[recipient.GetTitledFirstName] zaakceptował[Select_CString( recipient.IsFemale, 'a', '' )] mój trybut",
+    "BEL": ""
+  },
+  {
+    "KEY": "purchase_truce_interaction.accept.recipient.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName] sends me gold",
+    "RUS": "[actor.GetTitledFirstName] шлет мне золото",
+    "POL": "[actor.GetTitledFirstName] przesyła mi złoto",
+    "BEL": ""
+  },
+  {
+    "KEY": "purchase_truce_interaction.decline.actor.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] has refused my tribute",
+    "RUS": "[recipient.GetTitledFirstName] [Select_CString(recipient.IsFemale, 'отказалась', 'отказался' )] от моей дани",
+    "POL": "[recipient.GetTitledFirstName] odrzucił[Select_CString( recipient.IsFemale, 'a', '' )] mój trybut",
+    "BEL": ""
+  },
+  {
+    "KEY": "purchase_truce_interaction.decline.recipient.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName] fears my intentions",
+    "RUS": "[actor.GetTitledFirstName] боится моих намерений",
+    "POL": "[actor.GetTitledFirstName] obawia się moich intencji",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_PURCHASED",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "\\nTruce signed in exchange for a large payment of [gold|E] from [actor.GetTitledFirstName] to [recipient.GetTitledFirstName]",
+    "RUS": "\\nВ обмен на большую сумму [Concept( 'gold', 'золота' )|E] [actor.GetTitledFirstName] и [recipient.GetTitledFirstName] подписывают перемирие.",
+    "POL": "\\nRozejm podpisany w zamian za dużą opłatę [Concept( 'gold', 'złota' )|E], którą [actor.GetTitledFirstName] przekazał[Select_CString( actor.IsFemale, 'a', '' )] [recipient.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_SUM_SMALL",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Small Sum",
+    "RUS": "Скромная сумма",
+    "POL": "Mała suma",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_SUM_MEDIUM",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Medium Sum",
+    "RUS": "Средняя сумма",
+    "POL": "Średnia suma",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_SUM_LARGE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Large Sum",
+    "RUS": "Большая сумма",
+    "POL": "Pokaźna suma",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AMOUNT_OF_GOLD_OFFERED",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Amount of [gold|E] Offered: $VALUE|=+0$",
+    "RUS": "Количество предложенного [Concept( 'gold', 'золота' )|E]: $VALUE|=+0$",
+    "POL": "Ilość oferowanego [Concept( 'gold', 'złota' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_COULD_USE_SOME_POCKET_MONEY",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstNamePossessive] treasury is low: $VALUE|=+0$",
+    "RUS": "[recipient.GetTitledFirstNamePossessive] имеет мало денег: $VALUE|=+0$",
+    "POL": "[Select_CString( recipient.IsLocalPlayer, 'Masz prawie pusty skarbiec', Concatenate(recipient.GetTitledFirstName, ' ma prawie pusty skarbiec' ))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_LIKES_FREEDOM_TO_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Wants the freedom to [war|E]: $VALUE|=+0$",
+    "RUS": "Хочет беспрепятственно вести [Concept( 'war', 'войны' )|E]: $VALUE|=+0$",
+    "POL": "Chce bez przeszkód prowadzić [Concept( 'war', 'wojnę' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_IN_DEBT",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Is in [debt|E]: $VALUE|=+0$",
+    "RUS": "В [Concept( 'debt', 'долгах' )|E]: $VALUE|=+0$",
+    "POL": "Zmaga się z [Concept( 'debt', 'zadłużeniem' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_PACIFIST_FAITH",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetFaith.GetName] is pacifist: $VALUE|=+0$",
+    "RUS": "[recipient.GetFaith.GetAdjective] — пацифистская вера: $VALUE|=+0$",
+    "POL": "Wiara [recipient.GetFaith.GetAdjective|l] jest pacyfistyczna: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_PACIFIST_CULTURE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetCulture.GetName] is pacifist: $VALUE|=+0$",
+    "RUS": "#L [recipient.GetCulture.GetCollectiveNoun]ая#! культура — пацифистская: $VALUE|=+0$",
+    "POL": "Kultura [recipient.GetCulture.GetName|l] jest pacyfistyczna: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_PERSONALLY_CLAIMS_YOUR_LAND",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] has personal [claims|E] on your land: $VALUE|=+0$",
+    "RUS": "[recipient.GetTitledFirstName] имеет личные [Concept( 'claims', 'претензии' )|E] на ваши земли: $VALUE|=+0$",
+    "POL": "[recipient.GetTitledFirstName] ma osobiste [claims|El] do twoich ziem: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_DE_JURE_CLAIMS_YOUR_LAND",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] has [de_jure|E] [claims|E] on your land: $VALUE|=+0$",
+    "RUS": "[recipient.GetTitledFirstName] имеет [de_jure|El] [Concept('claims', 'претензии')|E] на ваши земли: $VALUE|=+0$",
+    "POL": "[recipient.GetTitledFirstName] ma [claims|El] [de_jure|El] do twoich ziem: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_RECIPIENT_IS_MUCH_WEAKER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetSheHe|U] is much weaker than you: $VALUE|=+0$",
+    "RUS": "[recipient.GetSheHe|U] намного слабее вас: $VALUE|=+0$",
+    "POL": "Jest znacznie słabsz[Select_CString( recipient.IsFemale, 'a', 'y' )] od ciebie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_RECIPIENT_IS_SOMEWHAT_WEAKER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetSheHe|U] is somewhat weaker than you: $VALUE|=+0$",
+    "RUS": "[recipient.GetSheHe|U] несколько слабее вас: $VALUE|=+0$",
+    "POL": "Jest nieco słabsz[Select_CString( recipient.IsFemale, 'a', 'y' )] od ciebie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_RECIPIENT_IS_ROUGHLY_EQUAL",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetSheHe|U] is roughly equal in strength to you: $VALUE|=+0$",
+    "RUS": "[recipient.GetSheHe|U] [Select_CString(recipient.IsFemale, 'схожа', 'схож' )] с вами по силе: $VALUE|=+0$",
+    "POL": "Jest mniej więcej tak samo siln[Select_CString( recipient.IsFemale, 'a', 'y' )] jak ty: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_RECIPIENT_IS_SOMEWHAT_STRONGER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetSheHe|U] is somewhat stronger than you: $VALUE|=+0$",
+    "RUS": "[recipient.GetSheHe|U] несколько сильнее вас: $VALUE|=+0$",
+    "POL": "Jest nieco silniejsz[Select_CString( recipient.IsFemale, 'a', 'y' )] od ciebie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_RECIPIENT_IS_MUCH_STRONGER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetSheHe|U] is much stronger than you: $VALUE|=+0$",
+    "RUS": "[recipient.GetSheHe|U] намного сильнее вас: $VALUE|=+0$",
+    "POL": "Jest znacznie silniejsz[Select_CString( recipient.IsFemale, 'a', 'y' )] od ciebie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_PACIFIST_FAITH_2",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetFaith.GetName] is pacifist: $VALUE|=+0$",
+    "RUS": "[secondary_recipient.GetFaith.GetAdjective] — пацифистская вера: $VALUE|=+0$",
+    "POL": "Wiara [secondary_recipient.GetFaith.GetAdjective|l] jest pacyfistyczna: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_PACIFIST_CULTURE_2",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetCulture.GetName] is pacifist: $VALUE|=+0$",
+    "RUS": "#L [secondary_recipient.GetCulture.GetCollectiveNoun]ая#! культура — пацифистская: $VALUE|=+0$",
+    "POL": "Kultura [secondary_recipient.GetCulture.GetName|l] jest pacyfistyczna: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_FAR_AWAY",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetShortUIName] is far away: $VALUE|=+0$",
+    "RUS": "[secondary_recipient.GetShortUIName] далеко: $VALUE|=+0$",
+    "POL": "[secondary_recipient.GetShortUINameNotMe] przebywa obecnie gdzieś daleko: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "PT_AI_IS_VERY_FAR_AWAY",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[secondary_recipient.GetShortUIName] is very far away: $VALUE|=+0$",
+    "RUS": "[secondary_recipient.GetShortUIName] очень далеко: $VALUE|=+0$",
+    "POL": "[secondary_recipient.GetShortUINameNotMe] przebywa obecnie gdzieś bardzo daleko: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTOR_HIGH_MOVEMENT_POWER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] have high [movement_power|E]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] обладает очень [Concept('movement_power', 'влиятельным движением')|E]: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] ma dużą [Concept('movement_power', 'siłę ruchu')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$game_concept_incite_revolts_interaction$",
+    "RUS": "$game_concept_incite_revolts_interaction$",
+    "POL": "$game_concept_incite_revolts_interaction$",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Invest [gold|E] in order to destabilize [recipient.GetHerHis] [realm|E]",
+    "RUS": "Потратить [Concept( 'gold', 'золото' )|E] на дестабилизацию [recipient.GetHerHis] [Concept( 'realm', 'державы' )|E]",
+    "POL": "Zainwestuj [gold|El], aby zdestabilizować [recipient.GetHerHis] [realm|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "small_investment",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Small investment",
+    "RUS": "Небольшое вложение",
+    "POL": "Mała inwestycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "medium_investment",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Medium investment",
+    "RUS": "Среднее вложение",
+    "POL": "Średnia inwestycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "high_investment",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Large investment",
+    "RUS": "Значительное вложение",
+    "POL": "Duża inwestycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "apply_small_investment_in_revolt_on_random_county",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "A random county will gain [GetModifier('small_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "RUS": "Случайное графство получит модификатор «[GetModifier('small_investment_in_revolt_modifier').GetNameWithTooltip]»",
+    "POL": "Losowo wybrane hrabstwo zyska: [GetModifier('small_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "apply_medium_investment_in_revolt_on_random_county",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "A random county will gain [GetModifier('medium_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "RUS": "Случайное графство получит модификатор «[GetModifier('medium_investment_in_revolt_modifier').GetNameWithTooltip]»",
+    "POL": "Losowo wybrane hrabstwo zyska: [GetModifier('medium_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "apply_high_investment_in_revolt_on_random_county",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "A random county will gain [GetModifier('high_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "RUS": "Случайное графство получит модификатор «[GetModifier('high_investment_in_revolt_modifier').GetNameWithTooltip]»",
+    "POL": "Losowo wybrane hrabstwo zyska: [GetModifier('high_investment_in_revolt_modifier').GetNameWithTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "at_least_one_county_with_neutral_negative_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "At least one [county|E] has a negative [county_opinion|E]",
+    "RUS": "Как минимум у одного [Concept( 'county', 'графства' )|E] отрицательное [Concept( 'county_opinion', 'мнение' )|E]",
+    "POL": "Co najmniej jedno [county|El] ma negatywną [Concept( 'county_opinion', 'powszechną opinię' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "must_select_an_investment",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You must select an investment level",
+    "RUS": "Необходимо выбрать уровень инвестиций",
+    "POL": "Musisz wybrać poziom inwestycji",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction_result.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Revolt funded in [chosen_county.GetName]",
+    "RUS": "Поддержано восстание в графстве [chosen_county.GetName]",
+    "POL": "Wsparto bunt na terenie [chosen_county.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction_result.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "The discontent is growing, and hopefully a revolt will start soon.",
+    "RUS": "Недовольство растет и, будем надеяться, скоро начнется мятеж.",
+    "POL": "Niezadowolenie wzmaga i miejmy nadzieję, że wkrótce wybuchnie rewolta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction_notif_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] connects me to the revolt",
+    "RUS": "[recipient.GetShortUINameNoTooltip] узнает о моей причастности к восстанию",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] wiąże mnie z tym buntem",
+    "BEL": ""
+  },
+  {
+    "KEY": "incite_revolts_interaction_notif_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUINameNoTooltip] does not notice my meddling",
+    "RUS": "[recipient.GetShortUINameNoTooltip] не замечает моего вмешательства",
+    "POL": "[recipient.GetShortUINameNotMeNoTooltip] nie zauważa mojej ingerencji",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforce_truce_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Enforce Truce",
+    "RUS": "Навязать перемирие",
+    "POL": "Wyegzekwuj rozejm",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforce_truce_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Enforce a [truce|E] to end a [war|E] involving an [independent|E] or same [realm|E] [struggle_involved|E] [ruler|E] of a lower [rank|E]",
+    "RUS": "Навязать [Concept( 'truce', 'перемирие' )|E] и завершить [Concept( 'war', 'войну' )|E] с участием [Concept( 'independent', 'независимого' )|E] или принадлежащего к одной с вами [Concept( 'realm', 'державе' )|E] [Concept( 'ruler', 'правителя' )|E] ниже [Concept( 'rank', 'рангом' )|E], [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E]",
+    "POL": "Wyegzekwuj [truce|El], aby zakończyć [Concept( 'war', 'wojnę' )|E], w której udział bierze [independent|El] lub [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] niższej [Concept( 'rank', 'rangi' )|E] tego samego [realms|El] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforce_truce_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Come, it is time for the [target.GetName] to come to an end!",
+    "RUS": "Ну же, пусть [target.GetName] закончится!",
+    "POL": "No dalej, niech [target.GetName] wreszcie się skończy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_ENFORCE_TRUCE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Enforced Truce",
+    "RUS": "Навязанное перемирие",
+    "POL": "Wyegzekwowano rozejm",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforce_truce_interaction_actor_toast",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Truce Enforced",
+    "RUS": "Перемирие навязано",
+    "POL": "Wymuszony rozejm",
+    "BEL": ""
+  },
+  {
+    "KEY": "enforce_truce_interaction_toast",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Truce Enforced by [actor.GetTitledFirstName]",
+    "RUS": "Перемирие навязано персонажем [actor.GetTitledFirstName]",
+    "POL": "[actor.GetTitledFirstName] wyegzekwował[Select_CString( actor.IsFemale, 'a', '' )] rozejm",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_enforce_truce_war_with_not_involved_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "The other [war_leader|E] is not [struggle_involved|E] in the [iberian_struggle|E]",
+    "RUS": "Другой [war_leader|El] не [Concept( 'struggle_involved', 'участвует' )|E] в [Concept( 'iberian_struggle', 'иберийской борьбе' )|E].",
+    "POL": "Inny [war_leader|El] nie jest [Concept( 'struggle_involved', 'zaangażowany' )|E] w [Concept( 'iberian_struggle', 'iberyjskie zmagania' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_enforce_truce_liege_or_independent_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] or [recipient.GetHerHis] enemy must be an [independent_ruler|E] or of equal or lower [rank|E] in the same [realm|E]",
+    "RUS": "[recipient.GetTitledFirstName] или [recipient.GetHerHis] враг должен быть [Concept( 'independent_ruler', 'независимым правителем' )|E] или принадлежать к одной с вами [Concept( 'realm', 'державе' )|E] и быть не выше вас [Concept( 'rank', 'рангом' )|E]",
+    "POL": "[recipient.GetTitledFirstName] lub [recipient.GetHerHis] wróg musi być [Concept( 'independent_ruler', 'niezależnym władcą' )|E], równym bądź niższym [Concept( 'rank', 'rangą' )|E] w tym samym [Concept( 'realm', 'państwie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_enforce_truce_tier_difference_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Both [war_leaders|E] must be of an equal or lower [rank|E] than you",
+    "RUS": "Оба [Concept( 'war_leaders', 'лидера' )|E] должны быть не выше вас [Concept( 'rank', 'рангом' )|E]",
+    "POL": "Obaj [Concept( 'war_leaders', 'przywódcy wojny' )|E] muszą mieć taką samą [Concept( 'rank', 'rangę' )|E] co ty lub niższą",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_enforce_truce_other_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[truce_1.GetTitledFirstName|Z] and [truce_2.GetTitledFirstName|Z] get a [truce|E] for #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] years#!",
+    "RUS": "[truce_1.GetTitledFirstName|Z] и [truce_2.GetTitledFirstName|Z] получают [Concept( 'truce', 'перемирие' )|E] на #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] л.#!",
+    "POL": "[truce_1.GetTitledFirstName|Z] i [truce_2.GetTitledFirstName|Z] zawierają [truce|El] na #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] lat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_enforce_truce_peacemaker_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You get a [truce|E] with [truce_1.GetTitledFirstName|Z] and [truce_2.GetTitledFirstName|Z] for #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] years#!",
+    "RUS": "Вы, [truce_1.GetTitledFirstName|Z] и [truce_2.GetTitledFirstName|Z] получаете [Concept( 'truce', 'перемирие' )|E] на #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] л.#!",
+    "POL": "Ty i [truce_1.GetTitledFirstName|Z] oraz [truce_2.GetTitledFirstName|Z] zawieracie [truce|El] na #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] lata#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pending_enforce_truce_flag_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] or their enemy is already considering an [enforced_truce|E]",
+    "RUS": "[recipient.GetTitledFirstName] или [recipient.GetHerHis] враг уже рассматривает [Concept( 'enforced_truce', 'навязанное перемирие' )|E]",
+    "POL": "[recipient.GetTitledFirstName] lub [recipient.GetHerHis] wróg już rozważa [Concept( 'enforced_truce', 'wyegzekwowanie rozejmu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_LIEGE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] is your [vassal|E] or below: $VALUE|=+0$",
+    "RUS": "[recipient.GetTitledFirstName] — ваш [vassal|E] или вассал вассала: $VALUE|=+0$",
+    "POL": "[recipient.GetTitledFirstName] jest twoim [Concept( 'vassal', 'wasalem' )|E] lub postacią niższą rangą: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_SMALL_ARMY_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Your [army|E] is too small to enforce this [truce|E]: $VALUE|=+0$",
+    "RUS": "Ваша [army|El] слишком мала, чтобы навязать [Concept( 'truce', 'перемирие' )|E]: $VALUE|=+0$",
+    "POL": "Twoja [army|El] jest zbyt mała, aby wyegzekwować ten [truce|El]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_HOLY_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] is fighting a [holy_war|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetTitledFirstName] ведет [Concept( 'holy_war', 'священную войну' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetTitledFirstName] bierze udział w [Concept( 'holy_war', 'świętej wojnie' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_WAR_NEW_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "War has only just begun: $VALUE|=+0$",
+    "RUS": "Война еще только началась: $VALUE|=+0$",
+    "POL": "Wojna właśnie się zaczęła: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_WAR_OLD_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "War is dragging on: $VALUE|=+0$",
+    "RUS": "Война затянулась: $VALUE|=+0$",
+    "POL": "Wojna się przedłuża: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_ALLY_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] is your [ally|E]",
+    "RUS": "[recipient.GetTitledFirstName] — ваш [Concept( 'ally', 'союзник' )|E]",
+    "POL": "[recipient.GetTitledFirstName] jest two[Select_CString( recipient.IsFemale, 'ją', 'im' )] [Select_CString(recipient.IsFemale, Concept('ally', 'sojuszniczką'), Concept('ally', 'sojusznikiem'))|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_HOF_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You are [recipient.GetTitledFirstNamePossessive] [head_of_faith|E]",
+    "RUS": "Вы [head_of_faith|El], которой придерживается [recipient.GetTitledFirstName]",
+    "POL": "Jesteś [Concept( 'head_of_faith', 'głową wiary' )|E], za którą podąża [recipient.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_DYNAST_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You are [recipient.GetTitledFirstNamePossessive] [dynast|E]",
+    "RUS": "Вы [dynast|El], к которой принадлежит [recipient.GetTitledFirstName]",
+    "POL": "Jesteś [Concept( 'dynast', 'głową dynastii' )|E], do której należy [recipient.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ET_AI_HOUSE_HEAD_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You are [recipient.GetTitledFirstNamePossessive] [house_head|E]",
+    "RUS": "Вы [house_head|El], к которому принадлежит [recipient.GetTitledFirstName]",
+    "POL": "Jesteś [Concept( 'house_head', 'głową rodu' )|E], do którego należy [recipient.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$game_concept_bargain_fealty$",
+    "RUS": "$game_concept_bargain_fealty$",
+    "POL": "$game_concept_bargain_fealty$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$game_concept_bargain_fealty_desc$",
+    "RUS": "$game_concept_bargain_fealty_desc$",
+    "POL": "$game_concept_bargain_fealty_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You will find my soldiers a welcome addition to your forces!",
+    "RUS": "С моими солдатами ваши войска станут еще сильнее!",
+    "POL": "Moi żołnierze będą mile widzianym uzupełnieniem twoich sił!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty_border_raid_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Cannot [bargain_fealty|E] over a [border_raid|E]",
+    "RUS": "Нельзя [Concept( 'bargain_fealty', 'договариваться о верности' )|E] из-за [Concept( 'border_raid', 'пограничного налета' )|E]",
+    "POL": "Nie można [Concept( 'bargain_fealty', 'pertraktować stosunku lennego' )|E] podczas [Concept( 'border_raid', 'najazdu granicznego' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty_struggle_clash_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Cannot [bargain_fealty|E] over a [struggle_conquest|E] ",
+    "RUS": "Нельзя вовлекать в [Concept( 'struggle_conquest', 'конфликт' )|E] [Concept( 'struggle_interloper', 'вмешавшихся персонажей' )|E] ",
+    "POL": "Nie można [Concept( 'bargain_fealty', 'pertraktować stosunku lennego' )|E] podczas [Concept( 'struggle_conquest', 'starć w zmaganiach' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bargain_fealty",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$bargain_fealty_interaction$",
+    "RUS": "$bargain_fealty_interaction$",
+    "POL": "$bargain_fealty_interaction$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_OUTNUMBERED_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] is heavily outnumbered: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] имеет намного меньше сил: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] ma znaczną przewagę liczebną: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_DIFFERENT_CULTURE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUINamePossessive|U] [culture|E] is different to [recipient.GetShortUINamePossessive]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] и [recipient.GetShortUIName] принадлежат к разным [Concept( 'culture', 'культурам' )|E]: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] i [recipient.GetShortUINameNotMe] [Select_CString( Or(actor.IsLocalPlayer, recipient.IsLocalPlayer), 'mamy', 'mają')] inną [Concept( 'culture', 'kulturę' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_DIFFERENT_FAITH_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUINamePossessive|U] [faith|E] is different to [recipient.GetShortUINamePossessive]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] и [recipient.GetShortUIName] принадлежат к разным [Concept( 'faith', 'конфессиям' )|E]: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] i [recipient.GetShortUINameNotMe] [Select_CString( Or(actor.IsLocalPlayer, recipient.IsLocalPlayer), 'mamy', 'mają')] inną [Concept( 'faith', 'wiarę' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_DE_JURE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] is [recipient.GetShortUINamePossessive] [de_jure|E] [vassal|E]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] — [de_jure|El] [vassal|El] персонажа [recipient.GetShortUIName]: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] jest [Select_CString( recipient.IsLocalPlayer, 'twoim ', '')][Concept( 'vassal', 'wasalem' )|E] [de_jure|El][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUINameNotMe.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_TOO_LARGE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUINamePossessive|U] [realm|E] is too large: $VALUE|=+0$",
+    "RUS": "[realm|E] персонажа [actor.GetShortUIName] слишком велика: $VALUE|=+0$",
+    "POL": "[realm|E] osoby znanej jako [actor.GetShortUINameNotMe] jest zbyt duże: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "BF_AI_SAME_DYNASTY_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUINamePossessive|U] is of [recipient.GetShortUINamePossessive|U] [dynasty|E]: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] и [recipient.GetShortUIName] принадлежат к одной [Concept( 'dynasty', 'династии' )|E]: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] należy do [Select_CString( recipient.IsLocalPlayer, 'twojej ', '')][Concept( 'dynasty', 'dynastii' )|E][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUINameNotMe))]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Offer Military Assistance",
+    "RUS": "Предложить военную помощь",
+    "POL": "Zaoferuj wsparcie wojskowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[SelectLocalization( ObjectsEqual(actor.GetGovernment.GetName, GetGovernment('landless_adventurer_government').GetName), 'contract_assistance_interaction_desc_laamp', 'contract_assistance_interaction_desc_struggle' )]",
+    "RUS": "[SelectLocalization( ObjectsEqual(actor.GetGovernment.GetName, GetGovernment('landless_adventurer_government').GetName), 'contract_assistance_interaction_desc_laamp', 'contract_assistance_interaction_desc_struggle' )]",
+    "POL": "[SelectLocalization( ObjectsEqual(actor.GetGovernment.GetName, GetGovernment('landless_adventurer_government').GetName), 'contract_assistance_interaction_desc_laamp', 'contract_assistance_interaction_desc_struggle' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction_desc_laamp",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Offer to join the [war|E] of a [ruler|E] in exchange for [gold|E].",
+    "RUS": "Предложить присоединиться к [Concept('war', 'войне')|E] [Concept('ruler', 'правителя')|E] в обмен на [Concept('gold', 'золото')|E].",
+    "POL": "Zaoferuj dołączenie do [Concept('war', 'wojny')|E], w której uczestniczy inny [ruler|El], w zamian za [gold|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction_desc_struggle",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Offer to join in one of their [wars|E] in exchange for [gold|E], since you are both [struggle_involved|E] in the same [struggle|E].",
+    "RUS": "Предложить присоединиться за [Concept('gold', 'золото')|E] к одной из [Concept('wars', 'войн')|E] этого персонажа, так как вы вместе [Concept('struggle_involved', 'вовлечены')|E] в одну и ту же [Concept('struggle', 'борьбу')|E].",
+    "POL": "Zaoferuj dołączenie do jednej z [Concept('wars', 'wojen')|E] w zamian za [gold|El], ponieważ zarówno ty, jak i twój przeciwnik jesteście [Concept('struggle_involved', 'zaangażowani')|E] w te same [Concept('struggle', 'zmagania')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "My troops could be very useful in your conflict; we need only agree a price.",
+    "RUS": "Мои войска пригодятся вам в конфликте. Нужно лишь договориться о цене.",
+    "POL": "Moje wojska mogą być bardzo przydatne w twoim konflikcie; musimy tylko uzgodnić cenę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_WINNING_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is winning the [war|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] выигрывает [Concept( 'war', 'войну' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] wygrywa [Concept( 'war', 'wojnę' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_LOSING_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is losing the [war|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] проигрывает [Concept( 'war', 'войну' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] przegrywa [Concept( 'war', 'wojnę' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_OUTNUMBERED_MINOR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is outnumbered: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] численно уступает врагу: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma przewagę liczebną: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_UNINTERESTED_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is not interested in help for this war: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] не желает помощи в этой войне: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] nie jest zainteresowan[Select_CString( recipient.IsFemale, 'a', 'y' )] udzieleniem pomocy w tej wojnie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_OUTNUMBER_ENEMY_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] outnumbers their enemy: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] имеет больше сил, чем у врага: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma przewagę liczebną nad swoim przeciwnikiem: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_OUTNUMBERED_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is heavily outnumbered: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] имеет намного меньше сил: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma znaczną przewagę liczebną: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_EXTRA_GOLD_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] has [gold|E] to spend: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] обладает запасами [Concept( 'gold', 'золота' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma wystarczającą ilość [Concept( 'gold', 'złota' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_MARTIAL_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] finds your [martial|E] [skill|E] impressive: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] восхищается вашим [Concept( 'skill', 'навыком' )|E] [Concept( 'martial', 'военного дела' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] uważa, że twoje [skills|El] [Concept( 'martial', 'walki' )|E] są imponujące: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_CANNOT_AFFORD_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] has little [gold|E]: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] не имеет достаточно [Concept( 'gold', 'золота' )|E]: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] ma za mało [Concept( 'gold', 'złota' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_FEW_TROOPS_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] [army|E] is too small to be relevant: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] обладает слишком малочисленной [Concept( 'army', 'армией' )|E]: $VALUE|=+0$",
+    "POL": "[army|E] osoby znanej jako [actor.GetShortUINameNotMe] jest zbyt mała, aby miała znaczenie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_DEFENSIVE_WAR_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetShortUIName|U] is defending [recipient.GetHerselfHimself]: $VALUE|=+0$",
+    "RUS": "[recipient.GetShortUIName|U] обороняется: $VALUE|=+0$",
+    "POL": "[recipient.GetShortUINameNotMe|U] broni się samodzielnie: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_FAILURE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[actor.GetShortUIName|U] past failures as a contractor: $VALUE|=+0$",
+    "RUS": "[actor.GetShortUIName|U] в прошлом [Select_CString(actor.IsFemale, 'провалила', 'провалил' )] контракты: $VALUE|=+0$",
+    "POL": "[actor.GetShortUINameNotMe|U] ma niepowodzenia jako strona kontraktu: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "OA_AI_LOYALTY_TOWARDS_ALLIES_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Loyalty towards [ally|E]: $VALUE|=+0$",
+    "RUS": "Верность [Concept( 'ally', 'союзнику' )|E]: $VALUE|=+0$",
+    "POL": "Lojalność wobec [Concept( 'ally', 'sojusznika' )|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_interaction_condition_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "If [actor.GetShortUINamePossessive] [war_contribution|E] is at least [SCOPE.ScriptValue('saved_contribution_value')|Z0] when the [war|E] ends:",
+    "RUS": "Если [actor.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:",
+    "POL": "Jeżeli [war_contribution|El] osoby znanej jako [actor.GetShortUINameNotMe] wynosi co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0] w momencie zakończenia [Concept('war', 'wojny')|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_title",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$contract_assistance_interaction$: War Ends",
+    "RUS": "$contract_assistance_interaction$: Война окончена",
+    "POL": "$contract_assistance_interaction$: koniec wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_hirer_paid_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You paid [contract_assistance_helper.GetShortUIName] for [contract_assistance|E], as [contract_assistance_helper.GetHerHis] [war_contribution|E] was at least [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "RUS": "Вы заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "POL": "[contract_assistance_helper.GetShortUINameNotMe] otrzymał[Select_CString( contract_assistance_helper.IsFemale, 'a', '' )] od ciebie wynagrodzenie za [contract_assistance|El], jako że [contract_assistance_helper.GetHerHis] [war_contribution|El] wynosił co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_helper_paid_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You were paid by [contract_assistance_hirer.GetShortUIName] for [contract_assistance|E], as your [war_contribution|E] was at least [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "RUS": "[contract_assistance_hirer.GetShortUIName] [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "POL": "[contract_assistance_hirer.GetShortUINameNotMe] przekazał[Select_CString( contract_assistance_hirer.IsFemale, 'a', '' )] ci wynagrodzenie za [contract_assistance|El], jako że twój [war_contribution|El] wynosił co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_hirer_kept_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You did not pay [contract_assistance_helper.GetShortUIName] for [contract_assistance|E], as [contract_assistance_helper.GetHerHis] [war_contribution|E] was less than [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "RUS": "Вы не заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку [contract_assistance_helper.GetHerHis] [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "POL": "[contract_assistance_helper.GetShortUINameNotMe] nie otrzymał[Select_CString( contract_assistance_helper.IsFemale, 'a', '' )] od ciebie wynagrodzenia za [contract_assistance|El], jako że [contract_assistance_helper.GetHerHis] [war_contribution|El] wynosił mniej niż [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_helper_kept_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You were not paid by [contract_assistance_hirer.GetShortUIName] for [contract_assistance|E], as your [war_contribution|E] was less than [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "RUS": "[contract_assistance_hirer.GetShortUIName] не [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку ваш [Concept( 'war_contribution', 'вклад' )|E] составил меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]",
+    "POL": "[contract_assistance_hirer.GetShortUINameNotMe] nie przekazał[Select_CString( contract_assistance_hirer.IsFemale, 'a', '' )] ci wynagrodzenia za [contract_assistance|El], jako że twój [war_contribution|El] wynosił mniej niż [SCOPE.ScriptValue('saved_contribution_value')|Z0].",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_hirer_invalidated_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You did not pay [contract_assistance_helper.GetShortUIName] for [contract_assistance|E], because the war was invalidated",
+    "RUS": "Вы не заплатили персонажу [contract_assistance_helper.GetShortUIName] по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку война стала недействительной",
+    "POL": "[contract_assistance_helper.GetShortUINameNotMe] nie otrzymał[Select_CString( contract_assistance_helper.IsFemale, 'a', '' )] od ciebie wynagrodzenia za [contract_assistance|El], ponieważ wojna została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_msg_helper_invalidated_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You were not paid by [contract_assistance_hirer.GetShortUIName] for [contract_assistance|E], because the war was invalidated",
+    "RUS": "[contract_assistance_hirer.GetShortUIName] не [Select_CString(contract_assistance_hirer.IsFemale, 'заплатила', 'заплатил' )] вам по [Concept( 'contract_assistance', 'контракту о помощи' )|E], поскольку война стала недействительной",
+    "POL": "[contract_assistance_hirer.GetShortUINameNotMe] nie przekazał[Select_CString( contract_assistance_hirer.IsFemale, 'a', '' )] ci wynagrodzenia za [contract_assistance|El], ponieważ wojna została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_war_already_contracted_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You are already [contract_assisting|E] in a war",
+    "RUS": "Вы уже [Concept('contract_assisting', 'оказываете военную помощь')|E]",
+    "POL": "Już [Concept('contract_assisting', 'udzielasz wsparcia wojskowego')|E] w wojnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "contract_assistance_tier_too_high_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "A mighty [actor.GetTitleAsNameNoTooltip] cannot serve at the pleasure of such a small [recipient.GetTitleAsNameNoTooltip]",
+    "RUS": "[Select_CString(actor.IsFemale, 'Могущественная', 'Могущественный' )] [actor.GetTitleAsNameNoTooltip] не станет прислуживать только потому, что так [Select_CString(recipient.IsFemale, 'пожелала ничтожная', 'пожелал ничтожный' )] [recipient.GetTitleAsNameNoTooltip]",
+    "POL": "Ktoś tak potężny jak [actor.GetTitleAsNameNoTooltip] nie może spełniać zachcianek kogoś tak nieznaczącego jak [recipient.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Invite To Activity",
+    "RUS": "Пригласить поучаствовать",
+    "POL": "Zaproś do udziału w aktywności",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Invite a [ruler|E] from another [realm|E] to join you in a feast or a hunt",
+    "RUS": "Пригласить [Concept( 'ruler', 'правителя' )|E] другой [Concept( 'realm', 'державы' )|E] присоединиться к вам на пиру или на охоте",
+    "POL": "Zaproś [Concept( 'ruler', 'władcę' )|E] z innego [realms|El], aby przyłączył się do ciebie na ucztę lub polowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to.feast.tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You start a [GetActivityType('activity_feast').GetName] with [recipient.GetTitledFirstName] as a special guest",
+    "RUS": "Вы начнете занятие «[GetActivityType('activity_feast').GetName]», где [recipient.GetTitledFirstName] станет особым гостем",
+    "POL": "Rozpoczynasz aktywność taką jak [GetActivityType('activity_feast').GetName|l], podczas której [recipient.GetTitledFirstName] jest gościem wyjątkowym",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to.hunt.tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You call a [GetActivityType('activity_hunt').GetName] with [recipient.GetTitledFirstName] as a special guest",
+    "RUS": "По вашему созыву начнется [GetActivityType('activity_hunt').GetName], где [recipient.GetTitledFirstName] станет особым гостем",
+    "POL": "Zarządzasz aktywność taką jak [GetActivityType('activity_hunt').GetName|l], podczas której [recipient.GetTitledFirstName] jest gościem wyjątkowym",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVITE_FOREIGN_RULER_TO_NOTIFICATION",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You and I should be friends! Please, accept my invitation to partake in a relaxing activity.",
+    "RUS": "Мы с вами должны быть друзьями. Приглашаю вас расслабиться и вместе провести время.",
+    "POL": "Ty i ja powinn[Select_CString( And(ROOT.Char.IsFemale, actor.IsFemale), 'yśmy być przyjaciółkami','iśmy być przyjaciółmi')]! Proszę, przyjmij moje zaproszenie do udziału w relaksującym zajęciu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "invited_to_hunt.accept.actor.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] accepted your invitation to join your hunt",
+    "RUS": "[recipient.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'приняла', 'принял' )] ваше приглашение присоединиться к охоте",
+    "POL": "[recipient.GetTitledFirstName] przyj[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] twoje zaproszenie do udziału w polowaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "invited_to_feast.accept.actor.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] accepted your invitation to join your feast",
+    "RUS": "[recipient.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'приняла', 'принял' )] ваше приглашение присоединиться к пиру",
+    "POL": "[recipient.GetTitledFirstName] przyj[Select_CString( recipient.IsFemale, 'ęła', 'ął' )] twoje zaproszenie na ucztę",
+    "BEL": ""
+  },
+  {
+    "KEY": "invited_to_hunt.accept.recipient.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You accepted [actor.GetTitledFirstName]'s invitation to hunt",
+    "RUS": "Вы приняли приглашение персонажа [actor.GetTitledFirstName] присоединиться к охоте",
+    "POL": "Zaakcepował[Select_CString( GetPlayer.IsFemale, 'aś', 'eś' )] zaproszenie na polowanie, które wysłał[Select_CString( actor.IsFemale, 'a', '' )] ci [actor.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "invited_to_feast.accept.recipient.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You accepted [actor.GetTitledFirstName]'s invitation to feast",
+    "RUS": "Вы приняли приглашение персонажа [actor.GetTitledFirstName] присоединиться к пиру",
+    "POL": "Zaakcepował[Select_CString( GetPlayer.IsFemale, 'aś', 'eś' )] zaproszenie na ucztę, które wysłał[Select_CString( actor.IsFemale, 'a', '' )] ci [actor.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to.decline.actor.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetTitledFirstName] declined your invitation",
+    "RUS": "[recipient.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'отклонила', 'отклонил' )] ваше приглашение",
+    "POL": "[recipient.GetTitledFirstName] odrzucił[Select_CString( recipient.IsFemale, 'a', '' )] twoje zaproszenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "invite_foreign_ruler_to.decline.recipient.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "You declined [actor.GetTitledFirstName]'s invitation",
+    "RUS": "Вы отклонили приглашение персонажа [actor.GetTitledFirstName]",
+    "POL": "Odrzucił[Select_CString( GetPlayer.IsFemale, 'aś', 'eś' )] zaproszenie, które wysłał[Select_CString( actor.IsFemale, 'a', '' )] ci [actor.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVITE_TO_HUNT",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$start_hunt_decision$",
+    "RUS": "$start_hunt_decision$",
+    "POL": "$start_hunt_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "INVITE_TO_FEAST",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$host_feast_decision$",
+    "RUS": "$host_feast_decision$",
+    "POL": "$host_feast_decision$",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_ended_before_response",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "The war already ended",
+    "RUS": "Война уже закончилась",
+    "POL": "Wojna już się zakończyła",
+    "BEL": ""
+  },
+  {
+    "KEY": "AI_STRUGGLE_INTENT",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Struggle agenda: $VALUE|=+0$",
+    "RUS": "Отношение к борьбе: $VALUE|=+0$",
+    "POL": "Stosunek do zmagania: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "request_contract_assistance_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Ask for Military Assistance",
+    "RUS": "Попросить военной помощи",
+    "POL": "Poproś o wsparcie wojskowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "request_contract_assistance_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Offer [gold|E] to [recipient.GetShortUINameNoTooltip] for joining in one of your [wars|E], since you are both [struggle_involved|E] in the same [struggle|E].",
+    "RUS": "Предложить персонажу [recipient.GetShortUINameNoTooltip] за [Concept('gold', 'золото')|E] присоединиться к одной из ваших [Concept('wars', 'войн')|E], , так как вы вместе [Concept('struggle_involved', 'вовлечены')|E] в одну и ту же [Concept('struggle', 'борьбу')|E].",
+    "POL": "Zaoferuj [gold|El] osobie znanej jako [recipient.GetShortUINameNotMeNoTooltip] za dołączenie do jednej z twoich [Concept('wars', 'wojen')|E], ponieważ zarówno ty, jak i twój przeciwnik jesteście [Concept('struggle_involved', 'zaangażowani')|E] w te same [Concept('struggle', 'zmagania')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "request_contract_assistance_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "Your troops could be very useful in my conflict; we need only agree a price.",
+    "RUS": "Ваши войска пригодятся нам в конфликте. Нужно лишь договориться о цене.",
+    "POL": "Twoje wojska mogą być bardzo przydatne w moim konflikcie; musimy tylko uzgodnić cenę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "request_contract_assistance_interaction_condition_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "If [recipient.GetShortUINamePossessive] [war_contribution|E] is at least [SCOPE.ScriptValue('saved_contribution_value')|Z0] when the [war|E] ends:",
+    "RUS": "Если [recipient.GetShortUIName] до окончания [Concept( 'war', 'войны' )|E] внесет [Concept( 'war_contribution', 'вклад' )|E] не меньше [SCOPE.ScriptValue('saved_contribution_value')|Z0]:",
+    "POL": "Jeżeli [Select_CString( recipient.IsLocalPlayer, 'twój ', '' )][war_contribution|El][Select_CString( recipient.IsLocalPlayer, '', Concatenate(' postaci ', recipient.GetShortUINameNotMe))] wynosi co najmniej [SCOPE.ScriptValue('saved_contribution_value')|Z0] w momencie końca [wars|El]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "share_known_secrets_interaction_extra_icon",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "$hook_extra_icon$",
+    "RUS": "$hook_extra_icon$",
+    "POL": "$hook_extra_icon$",
+    "BEL": ""
+  },
+  {
+    "KEY": "no_activity_available",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_character_interactions_l_belarusian.json",
+    "ENG": "There is no [activity|E] available",
+    "RUS": "Нет доступных [Concept( 'activity', 'занятий' )|E]",
+    "POL": "Nie można realizować żadnej [Concept( 'activity', 'aktywności' )|E]",
+    "BEL": ""
+  }
+]

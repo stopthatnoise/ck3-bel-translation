@@ -1,0 +1,538 @@
+[
+  {
+    "KEY": "court_outcome.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "$court_event_title$ Now or Never",
+    "RUS": "$court_event_title$ Сейчас или никогда",
+    "POL": "$court_event_title$ teraz lub nigdy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Oh, [target.GetFirstName], my [target.Custom('LoverPetName')]! I long for your embrace! I think I will die without the sweet nectar of your kisses!\\n\\nEven though my feelings are pure, there are so many who would judge us. Should I go to [target.GetHerHim]? Or must I stay away?",
+    "RUS": "О [target.GetFirstName], [target.Custom('LoverPetName')] [Select_CString(target.IsFemale, 'моя', 'мой' )]! Я жажду быть с тобой! Нет силы жить без сладкого нектара твоих поцелуев!\\n\\nХотя чувства мои чисты, слишком многие нас осудят. Пойти к н[target.GetHerHim]? Или держаться подальше?",
+    "POL": "Och, [target.GetFirstName], [target.Custom('LoverPetName_possessive')]! Tęsknię za twoimi objęciami! Myślę, że umrę bez słodkiego nektaru twoich pocałunków!\\n\\nNawet jeśli moje uczucia są czyste, jest tak wielu, którzy nas osądzą. Czy powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] do [Select_CString(target.IsFemale, 'niej', 'niego' )] pójść? A może muszę trzymać się z daleka?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I cannot risk [target.GetHerHis] safety...",
+    "RUS": "Я не могу рисковать [target.GetHerHis] безопасностью...",
+    "POL": "Nie mogę ryzykować [target.GetHerHis] bezpieczeństwa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Nothing shall come between us!",
+    "RUS": "Нас ничто не сможет разлучить!",
+    "POL": "Nic nie może nas rozdzielić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Is It Love?",
+    "RUS": "Это любовь?",
+    "POL": "Czy to jest miłość?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I can scarce remember what my life was like before [owner.GetFirstName] declared [owner.GetHerHis] feelings for me. Those days seem so bleak, so dreary... But with [owner.GetHerHim] by my side, everything and anything suddenly seems possible!\\n\\nI wish we could go on like this forever, but deep down, I know I must make my choice. Am I brave enough to give in to my feelings, or must I shut my heart to [owner.GetFirstNameNoTooltip] forever?",
+    "RUS": "Я с трудом вспоминаю, что со мной было до того, как [owner.GetFirstName] [Select_CString(owner.IsFemale, 'объявила', 'объявил' )] мне о своих чувствах. Те дни кажутся такими пустыми, такими мрачными... Но когда [SCOPE.sCharacter('owner').GetSheHe] рядом, кажется, что все возможно!\\n\\nХотелось бы мне, чтобы это продолжалось вечно, но в глубине души я знаю, что выбор делать придется. Хватит ли мне смелости отдаться чувствам, или [owner.GetFirstNameNoTooltip] навеки исчезнет из моего сердца?",
+    "POL": "Z trudem przypominam sobie, jak wyglądało moje życie, zanim [owner.GetFirstName] wyznał[Select_CString( owner.IsFemale, 'a', '' )] mi swoje uczucia. Tamte dni wydają się takie mroczne, takie ponure… Ale z ni[Select_CString( owner.IsFemale, 'ą', 'm' )] u mego boku, wszystko nagle wydaje się możliwe!\\n\\nChciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )], abyśmy mogli żyć wiecznie w ten sposób, ale w głębi duszy wiem, że muszę dokonać wyboru. Czy jestem na tyle odważn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], by poddać się swoim uczuciom, czy też na zawsze muszę zamknąć przed ni[Select_CString( owner.IsFemale, 'ą', 'm' )] swoje serce?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I can scarce remember what my life was like before [owner.GetFirstName] declared [owner.GetHerHis] love for me. I am flattered, but also overwhelmed by [owner.GetHerHis] attentions. I find myself longing for some peace and quiet.\\n\\nYet, I cannot help but worry. Would I be throwing away my only prospect of true love? That cannot be right! Can it...?",
+    "RUS": "Я с трудом вспоминаю, что со мной было до того, как [owner.GetFirstName] [Select_CString(owner.IsFemale, 'объявила', 'объявил' )] мне о своих чувствах. Мне очень приятно, но [owner.GetHerHis] внимания слишком много. Внезапно я понимаю, что мечтаю о тишине и покое.\\n\\nИ все же я сомневаюсь. Неужели я лишу себя единственной надежды на истинную любовь? Это ведь неправильно! Или иначе нельзя?..",
+    "POL": "Z trudem przypominam sobie, jak wyglądało moje życie, zanim [owner.GetFirstName] wyznał[Select_CString( owner.IsFemale, 'a', '' )] mi miłość. Schlebia mi to, ale jestem też przytłoczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] je[Select_CString( owner.IsFemale, 'j', 'go' )] uwagą. Tęsknię za ciszą i spokojem.\\n\\nMimo tego nie mogę uwolnić się od obaw. Czy odrzucił[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] swoją jedyną szansę na prawdziwą miłość? To nie może być słuszne! Ale czy to możliwe…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I am yours, [owner.GetFirstNameNoTooltip]. Now and forever!",
+    "RUS": "Мы принадлежим друг другу, [owner.GetFirstNameNoTooltip]. Отныне и навсегда!",
+    "POL": "Jestem tw[Select_CString( ROOT.Char.IsFemale, 'oja', 'ój' )]. Teraz i na zawsze!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[owner.GetShortUIName|U] might become my Soulmate",
+    "RUS": "Возможно, [owner.GetShortUIName|U] станет для меня родственной душой",
+    "POL": "[owner.GetShortUINameNotMe|U] może zostać moją bratnią duszą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "One true love's kiss is all I can give.",
+    "RUS": "Все, что я могу обещать, — единственный поцелуй истинной любви.",
+    "POL": "Jeden pocałunek prawdziwej miłości to wszystko, co mogę dać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[owner.GetSheHe|U] deserves a kiss, at least, for [owner.GetHerHis] devotion.",
+    "RUS": "[owner.GetSheHe|U] заслуживает поцелуя — хотя бы за упорство.",
+    "POL": "[owner.GetSheHe|U] za swoje oddanie zasługuje chociaż na pocałunek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[owner.GetShortUIName|U] will #bold not#! become my Soulmate",
+    "RUS": "[owner.GetShortUIName|U] #bold не#! станет мне родственной душой",
+    "POL": "[owner.GetShortUINameNotMe|U] #bold nie#! zostanie moją bratnią duszą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0003.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "This infatuation ends today.",
+    "RUS": "Эта любовная горячка должна закончиться прямо сейчас.",
+    "POL": "To zauroczenie zakończy się dzisiaj wraz zachodem słońca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.kiss.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] and I share a kiss",
+    "RUS": "[target.GetShortUIName|U] и я целуемся",
+    "POL": "[target.GetShortUINameNotMe|U] i ja całujemy się",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.0001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I go ahead with my attempt to Romance [target.GetTitledFirstName]",
+    "RUS": "[target.GetTitledFirstName] остается объектом моих ухаживаний",
+    "POL": "Kontynuuję swoją próbę romansu z [target.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "$court_event_title$ The Wild Hunt",
+    "RUS": "$court_event_title$ Дикая охота",
+    "POL": "$court_event_title$ dziki łów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.i_invite.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "When [target.GetTitledFirstName] suggested a hunt, I did not hesitate to organize one. I would do anything for a mere glimpse of my [target.Custom('LoverPetName')]!",
+    "RUS": "Когда [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] [Select_CString(target.IsFemale, 'предложила', 'предложил' )] поохотиться вместе, мне стало ясно, что надо устраивать охоту. Я все сделаю, лишь бы [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')] хоть на миг [Select_CString(target.IsFemale, 'оказалась', 'оказался' )] рядом!",
+    "POL": "Kiedy [target.GetTitledFirstName] zasugerował[Select_CString(target.IsFemale, 'a', '' )] polowanie, nie wahał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] się go zorganizować. Zrobił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] wszystko, żeby [target.Custom('LoverPetName')] był[Select_CString(target.IsFemale, 'a', '' )] ze mną chociaż przez chwilę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.own_invite.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "When [target.GetFirstName] invited me to a hunt, I did not hesitate to accept. I could not imagine a more lovely sight than [target.GetHerHis] stunning profile atop the back of a stallion!",
+    "RUS": "Когда [target.GetFirstName] [Select_CString(target.IsFemale, 'предложила', 'предложил' )] поохотиться вместе, у меня и мысли не было отказываться. Нет в мире зрелища прекраснее, чем [target.GetHerHis] потрясающий профиль, когда [target.GetFirstName] в седле!",
+    "POL": "Kiedy [target.GetFirstName] zaprosił[Select_CString( target.IsFemale, 'a', '' )] mnie na polowanie, bez wahania się zgodził[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]. Nie mogł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] sobie wyobrazić piękniejszego widoku niż je[Select_CString( target.IsFemale, 'j', 'go' )] olśniewający profil na grzbiecie ogiera!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.liege_invite.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "When [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] invited me to a hunt, I did not hesitate to accept. I would do anything for a mere glimpse of my [target.Custom('LoverPetName')]!",
+    "RUS": "Когда [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] [Select_CString(target.IsFemale, 'предложила', 'предложил' )] поохотиться вместе, у меня и мысли не было отказываться. Я все сделаю, лишь бы [Select_CString(target.IsFemale, 'моя', 'мой' )] [target.Custom('LoverPetName')] хоть на миг [Select_CString(target.IsFemale, 'оказалась', 'оказался' )] рядом!",
+    "POL": "Kiedy [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] zaprosił[Select_CString(target.IsFemale, 'a', '' )] mnie na polowanie, bez wahania się zgodził[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Zrobił[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] wszystko, żeby [target.Custom('LoverPetName')] był[Select_CString(target.IsFemale, 'a', '' )] ze mną chociaż przez chwilę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\nI am stalking through the underbrush, my page at my heel and my hound just ahead. It seems as if it has found a trail! Then suddenly my concentration is shattered by a [target.GetWomanMan]'s scream!",
+    "RUS": "\\n\\nЯ пробираюсь через кустарник, паж — у стремени, гончая — впереди. И кажется, она напала на след! Вдруг я слышу, как где-то кричит [target.GetWomanMan]!",
+    "POL": "\\n\\nPrzedzieram się przez zarośla, mój paź drepcze mi po pietach, a mój pies jest tuż za mną. Wygląda na to, że znalazł trop! Nagle moją koncentrację przerywa krzyk [Select_CString(target.IsFemale, 'kobiety', 'mężczyzny' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я иду, любовь моя!»",
+    "POL": "„Idę po ciebie, kochanie!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Perhaps it would be wiser to send the page...",
+    "RUS": "Возможно, разумнее отправить пажа...",
+    "POL": "Może mądrzejszym rozwiązaniem byłoby wysłać gońca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "It was probably just a bird.",
+    "RUS": "Это, наверное, просто птица.",
+    "POL": "To pewnie był tylko ptak.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip] is attacked by a wild beast",
+    "RUS": "[target.GetFirstNameNoTooltip] в опасности! На [Select_CString(target.IsFemale, 'нее', 'него' )] напал дикий зверь",
+    "POL": "[target.GetFirstNameNoTooltip] został[Select_CString( target.IsFemale, 'a', '' )] zaatakowan[Select_CString( target.IsFemale, 'a', 'y' )] przez dziką bestię",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1000.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip] was never in danger",
+    "RUS": "[target.GetFirstNameNoTooltip] в порядке. Никакой опасности не было",
+    "POL": "[target.GetFirstNameNoTooltip] nigdy nie był[Select_CString(target.IsFemale, 'a', '' )] w niebezpieczeństwie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Within what must have been a minute, but felt like an hour, I reach a clearing. [target.GetFirstName] is on the ground before me, disheveled and weaponless. Opposite [target.GetHerHim], and just about to strike, stands a huge [ROOT.Char.Custom('GetAnimalType')]!\\n\\nMy arrow strikes true and the beast falls to the ground. For a moment all [target.GetFirstNameNoTooltip] can do is stare, but then [target.GetSheHe] stumbles towards me and throws [target.GetHerselfHimself] into my arms.",
+    "RUS": "Проходит не больше минуты, которая кажется мне часом, и я добираюсь до опушки. [target.GetFirstName] сидит на земле — [Select_CString(target.IsFemale, 'взъерошенная', 'взъерошенный' )] и без оружия. Напротив н[target.GetHerHis] стоит [ROOT.Char.Custom('GetAnimalType')] и уже готовится к прыжку!\\n\\nМоя стрела бьет точно в цель, и зверь падает на землю. Мгновение [target.GetFirstNameNoTooltip] лишь безмолвно смотрит на происходящее, но потом [target.GetSheHe] бросается ко мне и падает в мои объятия.",
+    "POL": "Docieram na polanę w ciągu minuty, która wydawała się trwać niczym godzina. [target.GetFirstName] leży na ziemi bez broni i w nieporządku. Naprzeciwko [target.Custom('PL_niego_niej')] przymierza się do ataku [ROOT.Char.Custom('GetAnimalType')] olbrzymich rozmiarów!\\n\\nMoja strzała trafia celnie i bestia pada na ziemię. Przez chwilę [target.GetFirstNameNoTooltip] tkwi w bezruchu, ale niebawem zaczyna utykać w moim kierunku i rzuca mi się w ramiona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I need you, my love, right here and now!",
+    "RUS": "Я хочу быть с тобой, любовь моя, прямо здесь и сейчас!",
+    "POL": "Potrzebuję cię, moja miłości, tu i teraz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "One sweet kiss is the only reward I crave.",
+    "RUS": "Мне нужна лишь одна награда — твой сладчайший поцелуй.",
+    "POL": "Jeden słodki pocałunek to jedyna nagroda, której pragnę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[target.GetFirstName]! Я иду!» — я прорываюсь на поляну сквозь заросли, сердце колотится как бешеное, пот заливает лицо.\\n\\nНо мне открывается совершенно неожиданный вид. [ROOT.Char.Custom('GetAnimalType')|U] есть, да, но зверь уже повержен, и между глаз у него торчит стрела. [target.GetFirstNameNoTooltip] опускает лук, поворачиваясь ко мне.\\n\\n«В чем дело, [owner.GetTitledFirstNameNoTooltip]? Думали, я не сумею защитить себя?»",
+    "POL": "– [target.GetFirstName]! Już biegnę!\\n\\nPrzebijam się na polanę przez wysokie zarośla; moje serce bije dziko, a po twarzy spływa pot.\\n\\nWidok, który ukazuje się moim oczom, nie jest jednak tym, czego się spodziewam. Owszem, jest tu [ROOT.Char.Custom('GetAnimalType')], jednak między ślepiami bestii tkwi strzała. [target.GetFirstNameNoTooltip] opuszcza swój łuk i odwraca się w moją stronę.\\n\\n– [owner.GetTitledFirstNameNoTooltip|U]? O co chodzi? Myślisz, że nie potrafię się obronić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I... I got lost?",
+    "RUS": "Я... Я [Select_CString(ROOT.Char.IsFemale, 'заблудилась', 'заблудился' )]?",
+    "POL": "Czy… czy ja się zgubił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "As I draw closer, the screams intensify. It must be my [target.Custom('RomanticComplimentAdjective')] [target.GetFirstName] — I would recognize [target.GetHerHis] voice anywhere!\\n\\nBut there is something #EMP odd#! about [target.GetHerHis] screams. It doesn't really sound like [target.GetFirstNameNoTooltip] is afraid... Or that [target.GetSheHe] is in pain...\\n\\nMy heart sinks as I finally see [target.GetHerHim]: naked as the day [target.GetSheHe] was born, rolling around in the grass with [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].",
+    "RUS": "Когда я приближаюсь, крики усиливаются. Должно быть, это [target.Custom('RomanticComplimentAdjective')][Select_CString(target.IsFemale, 'ая', 'ый' )] [target.GetFirstName] — я узнаю [target.GetHerHis] голос где угодно!\\n\\nНо есть что-то #EMP странное#! в [target.GetHerHis] криках. Не похоже, что [target.GetFirstNameNoTooltip] боится... или испытывает боль...\\n\\nМое сердце разбивается вдребезги, когда я наконец вижу [target.GetHerHis]: голые, словно новорожденные, [target.GetSheHe] и [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] кувыркаются в траве.",
+    "POL": "Gdy się zbliżam, krzyki się nasilają. To musi być [Select_CString(target.IsFemale, 'moja', 'mój' )] [target.Custom('RomanticComplimentAdjective')] [target.GetFirstName] – wszędzie rozpoznałabym [target.GetHerHis] głos!\\n\\nJednakże w [target.GetHerHis] krzykach jest coś #EMP dziwnego#!. Nie brzmią tak, jakby [target.GetFirstNameNoTooltip] się bał[Select_CString(target.IsFemale, 'a', '' )]… albo cierpiał[Select_CString(target.IsFemale, 'a', '' )] z bólu.\\n\\nSerce mi się kraje, gdy w końcu [Select_CString(target.IsFemale, 'ją', 'go' )] widzę: nag[Select_CString(target.IsFemale, 'ą', 'iego' )] jak w dniu narodzin i tarzając[Select_CString(target.IsFemale, 'ą', 'ego' )] się w trawie, a [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] razem z [Select_CString(target.IsFemale, 'nią', 'nim' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetSheHe|U] clearly has no room in [target.GetHerHis] heart for me.",
+    "RUS": "В [target.GetHerHis] сердце явно нет места для меня.",
+    "POL": "Najwyraźniej nie ma dla mnie miejsca w [target.GetHerHis] sercu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[targets_lover.GetFirstNameNoTooltip] will rue the day [targets_lover.GetSheHe] crossed my path!",
+    "RUS": "[targets_lover.GetFirstNameNoTooltip] проклянет тот день, когда [Select_CString(targets_lover.IsFemale, 'осмелилась', 'осмелился' )] перейти мне дорогу!",
+    "POL": "[targets_lover.GetFirstNameNoTooltip] pożałuje dnia, w którym [Select_CString(targets_lover.IsFemale, 'weszła', 'wszedł' )] mi w drogę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I will save [target.GetHerHim] from that beast!",
+    "RUS": "Я спасу [target.GetHerHis] от этого чудовища!",
+    "POL": "Uratuję [Select_CString(target.IsFemale, 'ją', 'go' )] przed tą bestią!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.c.murder_undiscovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "My arrow strikes [targets_lover.GetFirstNameNoTooltip]",
+    "RUS": "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'убита', 'убит' )] моей стрелой",
+    "POL": "[targets_lover.GetFirstNameNoTooltip] zostaje trafion[Select_CString(targets_lover.IsFemale, 'a', 'y' )] moją strzałą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.c.murder_discovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "My arrow strikes [targets_lover.GetFirstNameNoTooltip] but I am discovered",
+    "RUS": "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'убита', 'убит' )] моей стрелой, но меня раскрыли",
+    "POL": "[targets_lover.GetFirstNameNoTooltip] zostaje trafion[Select_CString(targets_lover.IsFemale, 'a', 'y' )] moją strzałą, ale odkryto mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.c.murder_attempt",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I miss and flee the scene",
+    "RUS": "Я промахиваюсь и сбегаю",
+    "POL": "Chybiam i uciekam",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.d",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "If I can't have [target.GetHerHim], no one can!",
+    "RUS": "Если [target.GetSheHe] не достанется мне, то не достанется никому!",
+    "POL": "Jeśli ja nie mogę [Select_CString(target.IsFemale, 'jej', 'go' )] mieć, nikt nie będzie miał!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.d.murder_undiscovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "My arrow strikes [target.GetFirstNameNoTooltip]",
+    "RUS": "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'убита', 'убит' )] моей стрелой",
+    "POL": "[target.GetFirstNameNoTooltip] zostaje trafion[Select_CString(target.IsFemale, 'a', 'y' )] moją strzałą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1005.d.murder_discovered",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "My arrow strikes [target.GetFirstNameNoTooltip] but I am discovered",
+    "RUS": "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'убита', 'убит' )] моей стрелой, но меня раскрыли",
+    "POL": "[target.GetFirstNameNoTooltip] zostaje trafion[Select_CString(target.IsFemale, 'a', 'y' )] moją strzałą, ale odkryto mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "The Wild Hunt",
+    "RUS": "Дикая охота",
+    "POL": "Dziki łów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I am out riding when my horse suddenly throws itself off the path. The fall is unavoidable and knocks the air out of my lungs. When I look up, I find myself face to face with a [owner.Custom('GetAnimalType')]!\\n\\nBefore I get a chance to scream, the beast collapses, an arrow between its eyes.\\n\\n",
+    "RUS": "Лошадь внезапно бросается прочь с дороги. Падение неминуемо, и вот земля резко выбивает воздух у меня из легких. Когда мне удается поднять голову, на меня скалится [owner.Custom('GetAnimalType')]!\\n\\nНо не успеваю я закричать, как зверь валится наземь со стрелой между глаз.\\n\\n«[target.GetFirstNameNoTooltip], [target.Custom('LoverPetName')]! Я [Select_CString(owner.IsFemale, 'боялась', 'боялся' )], что потеряю тебя!» [Select_CString(owner.IsFemale, 'Мой герой', 'Моя героиня' )] — [owner.GetTitledFirstName] собственной персоной!",
+    "POL": "Jadę konno, gdy mój koń nagle skręca z drogi. Upadek jest nieunikniony i wypycha mi powietrze z płuc. Kiedy podnoszę głowę, widzę, że [owner.Custom('GetAnimalType')] stoi ze mną twarzą w twarz!\\n\\nZanim zdążył[Select_CString(target.IsFemale, 'am', 'em' )] krzyknąć, bestia pada, a między jej oczami pojawia się strzała.\\n\\n„[target.GetFirstNameNoTooltip], [target.Custom('LoverPetName_possessive')]! Myślał[Select_CString(owner.IsFemale, 'am', 'em' )], że cię stracił[Select_CString(owner.IsFemale, 'am', 'em' )]!” [Select_CString(ROOT.Char.IsFemale, 'Moją bohaterką', 'Moim bohaterem' )] jest nikt inny jak [owner.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "We share one kiss, sweet like honey.",
+    "RUS": "Мы сливаемся в сладком как мед поцелуе.",
+    "POL": "Łączymy się w pocałunku słodkim jak miód.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "$court_event_title$ Intruder",
+    "RUS": "$court_event_title$ Злоумышленник",
+    "POL": "$court_event_title$ intruz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Every time I close my eyes, I see [target.GetTitledFirstNamePossessive] face. Sleep will not come. I cannot wait another moment — cloaked in shadows, I make my way to",
+    "RUS": "Стоит мне закрыть глаза, как передо мной появляется [target.GetTitledFirstName]. Сон не приходит. Я больше не могу ждать. Укрывшись в тенях, я отправляюсь в путь, и цель моя —",
+    "POL": "[target.GetTitledFirstName] ukazuje mi się za każdym razem, gdy tylko zamykam oczy. Sen nie nadchodzi. Nie mogę czekać ani chwili dłużej – skryt[Select_CString(ROOT.Char.IsFemale, 'a', 'y' )] w cieniu, podążam do",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.targets_residence.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetHerHis] [target.Custom('ResidenceBuilding')].",
+    "RUS": "[target.GetHerHis] [target.Custom('ResidenceBuilding')].",
+    "POL": "miejsca, którym jest [target.Custom('PL_jego_jej')] [target.Custom('ResidenceBuilding')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.my_residence.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "the garden outside [target.GetHerHis] living quarters.",
+    "RUS": "сад перед [target.GetHerHis] покоями.",
+    "POL": "ogrodu znajdującego się przed [target.GetHerHis] kwaterą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.targets_host_residence.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "the [target_host.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')].",
+    "RUS": "[target.Custom('ResidenceBuilding')], что строит [target_host.GetTitledFirstName].",
+    "POL": "miejsca, którym jest [target.Custom('ResidenceBuilding')] osoby znanej jako [target_host.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "\\n\\nThe sight of [target.GetFirstNamePossessiveNoTooltip] chamber window makes my heart stutter. So close, and yet so far!\\n\\nBut wait — who is that, climbing up the tower? The shady figure stops by [target.GetFirstNamePossessiveNoTooltip] window and unlatches the shutters...",
+    "RUS": "\\n\\nВид окна покоев, где живет [target.GetFirstNameNoTooltip], холодит мне сердце! Так близко и в то же время — так далеко!\\n\\nНо что это, кто-то взбирается по башне? Укрытая тенями фигура останавливается напротив окна и открывает створки...",
+    "POL": "\\n\\nWidok okna komnaty, w której na co dzień przebywa [target.GetFirstNameNoTooltip], sprawia, że serce mi się kraje. Tak blisko, a jednak tak daleko!\\n\\nAle zaraz, kto wspina się na wieżę? Cienista postać zatrzymuje się pod oknem i otwiera okiennice…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "My [target.Custom('LoverPetName')] is in danger — I must save [target.GetHerHim]!",
+    "RUS": "[Select_CString(target.IsFemale, 'Моя', 'Мой' )] [target.Custom('LoverPetName')] в опасности! Нужно спасти [target.GetHerHis]!",
+    "POL": "[target.Custom('LoverPetName')|U] jest w niebezpieczeństwie – Muszę [Select_CString(target.IsFemale, 'ją', 'go' )] uratować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.b",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Стража! #EMP Стража!#! В башне чужой!",
+    "POL": "„Straż! #EMP Straż!#! W wieży jest intruz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] is hurt by the intruder",
+    "RUS": "[target.GetShortUIName|U] [Select_CString(target.IsFemale, 'ранена', 'ранен' )] злоумышленником",
+    "POL": "[target.GetShortUINameNotMe|U] zostaje zranion[Select_CString(target.IsFemale, 'a', 'y' )] przez intruza",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] escapes unharmed",
+    "RUS": "[target.GetShortUIName|U] сбегает [Select_CString(target.IsFemale, 'невредимой', 'невредимым' )]",
+    "POL": "[target.GetShortUINameNotMe|U] ucieka bez szwanku",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1100.c",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I did not come here to wrestle a burglar.",
+    "RUS": "Я здесь не для того, чтобы бороться с грабителем.",
+    "POL": "Nie przysz[Select_CString(ROOT.Char.IsFemale, 'łam', 'edłem' )] tu, by walczyć z włamywaczem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1101.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "The sounds from the struggle above is the greatest motivator I have ever known. Without care for life or limb, I hoist myself through [target.GetTitledFirstNamePossessive] window.\\n\\n",
+    "RUS": "Звуки борьбы наверху вдохновляют меня сильнее, чем что-либо в моей жизни. Не заботясь о жизни и здоровье, я бросаюсь в окно.\\n\\n",
+    "POL": "Odgłosy walki powyżej to największy motywator, jaki kiedykolwiek znał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Nie bacząc na życie i zdrowie, wciągam się przez okno komnaty, w której na co dzień przebywa [target.GetTitledFirstName].\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1101.owner_fights.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I feel as if I have plunged into a frozen lake. [target.GetFirstNameNoTooltip] is on the floor, the intruder pushing [target.GetHerHim] down, a gleaming blade between them. With a roar, I grab the villain by the collar and throw [ROOT.Char.GetHerHim] into the wall. The rest is a blur.\\n\\nWhen the danger is over, I turn towards [target.GetHerHim].",
+    "RUS": "Я чувствую себя так, словно ныряю в ледяное озеро. [target.GetFirstNameNoTooltip] лежит на полу, злоумышленник навалился на н[target.GetHerHis] сверху, а между ними блистает нож. С ревом я хватаю злодея за воротник и швыряю к стене. Дальше все словно в тумане.\\n\\nКогда опасности больше нет, я поворачиваюсь к [Select_CString(target.IsFemale, 'ней', 'нему' )].",
+    "POL": "Czuję się, jakbym nurkował[Select_CString(GetPlayer.IsFemale, 'a', '' )] w zamarzniętym jeziorze. [target.GetFirstNameNoTooltip] leży na podłodze, a intruz[Select_CString(ROOT.Char.IsFemale, 'ka', '' )] na [Select_CString(target.IsFemale, 'niej', 'nim' )], a między nimi lśni ostrze. Z rykiem chwytam złoczyńcę za kołnierz i rzucam [Select_CString(ROOT.Char.IsFemale, 'nią', 'nim' )] o ścianę. Od tego momentu wszystko się rozmywa.\\n\\nKiedy niebezpieczeństwo minęło, zwracam się do [Select_CString(target.IsFemale, 'niej', 'niego' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1101.target_fights.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "The scene that meets me is not what I expected. Overturned furniture, shredded curtains, and [target.GetFirstName] standing over an unmoving body with a bloodied dagger in [target.GetHerHis] hand.\\n\\n",
+    "RUS": "Мне открывается неожиданное зрелище. Перевернутая мебель, разорванные занавески, и [target.GetFirstName] стоит над неподвижным телом с окровавленным кинжалом в руке.\\n\\n",
+    "POL": "Widok, z którym się spotykam, nie jest tym, czego się spodziewał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Przewrócone meble, poszarpane zasłony i [target.GetFirstName] stojąc[Select_CString(target.IsFemale, 'a', 'y' )] nad nieruchomym ciałem z zakrwawionym sztyletem w ręku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1101.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[target.GetFirstNameNoTooltip], вы в порядке?» — осторожно спрашиваю я. Мои слова словно снимают чары, [target.GetSheHe] наконец приходит в себя и бросается ко мне. «О [target.GetFaith.HighGodName], как хорошо, что вы здесь, [ROOT.Char.GetFirstNameNoTooltip]!»",
+    "POL": "– Wszystko w porządku? – pytam ostrożnie. Jakby moje słowa były zaklęciem, [target.GetFirstNameNoTooltip] w końcu budzi się z letargu i rzuca się w moje ramiona.\\n\\n– [target.GetFaith.HighGodName] mi świadkiem, dzięki, że tu jesteś, [ROOT.Char.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1101.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I will never let you get into harm's way again!",
+    "RUS": "Теперь я буду защищать вас от любой опасности!",
+    "POL": "Nigdy więcej nie pozwolę ci wpaść w niebezpieczeństwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1102.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Что вы делаете здесь?!» — спрашивает [target.GetSheHe] дрожащим голосом. Я поднимаю руки в знак мирных намерений, но [target.GetSheHe] достает кинжал. «Не подходите! Уйдите сейчас же, или я #EMP сделаю#! вам больно!»",
+    "POL": "„Co ty tu robisz?!” – pyta drżącym głosem. Podnoszę ręce, w geście pokoju, lecz [target.GetSheHe] wyciąga sztylet: „Nie zbliżaj się! Odejdź natychmiast, albo #EMP zrobię#! ci krzywdę!”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1102.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I only tried to help!",
+    "RUS": "Я только хочу помочь!",
+    "POL": "Probował[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] ci tylko pomóc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1103.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "The sounds from the struggle above is the greatest motivator I have ever known. Before I have even had a chance to make a plan, I reach the window. I hoist myself up — but the sight before me is not what I expected.\\n\\n[target.GetTitledFirstName] isn't exactly... #EMP struggling#!. No, [target.GetSheHe] seems to be truly enjoying [target.GetHerselfHimself] — together with [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].",
+    "RUS": "Звуки борьбы наверху вдохновляют меня сильнее, чем что-либо в моей жизни. Не успев ничего спланировать, я прыгаю к окну. Перелезаю внутрь, и... мне открывается совершенно неожиданное зрелище.\\n\\n[target.GetTitledFirstName] не то чтобы... #EMP борется#!. Нет, [target.GetSheHe], похоже, получает наслаждение... [target.GetSheHe] и [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].",
+    "POL": "Odgłosy walki powyżej to największy motywator, jaki znam. Zanim zdążył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] obmyślić plan, docieram do okna. Podciągam się i zastany widok nie jest taki, jakiego się spodziewał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )].\\n\\n[target.GetTitledFirstName] nie do końca… #EMP walczy#!. Nie, wygląda na to, że [target.GetSheHe] i [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] doskonale się ze sobą bawią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1105.t",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Intruder",
+    "RUS": "Злоумышленник",
+    "POL": "Intruz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1105.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "#EMP Crash!#! I... where am I? What's going on? I peer into the darkness, my eyes adjusting. #EMP [ROOT.Char.GetFaith.HighGodName].#! There is someone by my bedroom window.\\n\\n",
+    "RUS": "#EMP Хлоп!#! Я... где я? Что происходит? Я всматриваюсь в темноту, и мои глаза постепенно привыкают. #EMP Во имя [ROOT.Char.GetFaith.HighGodNamePossessive]!#! Кто-то стоит у окна моей спальни.\\n\\n",
+    "POL": "#EMP Trzask!#! Gdzie… ja jestem? Co się dzieje? Widzę tylko ciemność, lecz moje oczy stopniowo przystosowują się do otaczającego mnie mroku. #EMP [ROOT.Char.GetFaith.HighGodName]#! mi świadkiem, ktoś stoi przy oknie mojej sypialni!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1105.owner_fights.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I scramble out of bed and run for the door, but the intruder is faster. [owner.GetSheHe|U] grabs my arm, tugs, and I fall. Before I can scream, a hand is covering my mouth.\\n\\n",
+    "RUS": "Я выбираюсь из кровати и бегу к двери, но злоумышленник слишком быстр. Он хватает меня за руку и сбивает с ног. Я не успеваю закричать, прежде чем рука зажимает мне рот.\\n\\n«Слушай внимательно, [ROOT.Char.GetTitleAsNameNoTooltip|l]. Делай, как я говорю, и никто...» Его слова обрываются булькающим звуком, когда кинжал входит ему в шею.\\n\\n«[target.GetFirstNameNoTooltip], вы в порядке?» — этот голос я узнаю где угодно. Мой спаситель — [owner.GetTitledFirstName] собственной персоной!",
+    "POL": "Zrywam się z łóżka i biegnę do drzwi, ale intruz jest szybszy. Łapie mnie za ramię, szarpie, a ja upadam. Zanim zdążę krzyknąć, dłoń zakrywa mi usta.\\n\\n„Posłuchaj uważnie, [ROOT.Char.GetTitleAsNameNoTooltip|l]. Jeśli zrobisz to, co mówię, nikomu się nic…” [owner.GetHerHis|U] słowa zamieniają się w bełkot, gdy sztylet wbija się głęboko w [owner.GetHerHis] szyję.\\n\\n„[target.GetFirstNameNoTooltip], wszystko w porządku?” Wszędzie rozpoznał[Select_CString(ROOT.Char.IsFemale, 'abym', 'bym' )] ten głos. [Select_CString(owner.IsFemale, 'Moją wybawczynią', 'Moim wybawcą' )] jest nikt inny jak [owner.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1105.target_fights.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "I scramble out of bed, reaching for the dagger on the nightstand. The intruder grabs my arm, tugs, and I spin around — sinking the blade deep into [owner.GetHerHis] stomach. [owner.GetSheHe|U] looks at me for an endlessly long moment, [owner.GetHerHis] lips moving without a sound. Then [owner.GetSheHe] falls to the ground.\\n\\n",
+    "RUS": "Я выбираюсь из кровати и тянусь к кинжалу на столике. Злоумышленник хватает меня за руку, дергает, я поворачиваюсь и вгоняю кинжал ему глубоко в живот. Злодей смотрит на меня бесконечно долгим взглядом, его губы беззвучно шевелятся. Затем он падает на пол.\\n\\n«[target.GetFirstNameNoTooltip], вы в порядке?» — у окна стоит [owner.GetTitledFirstName] собственной персоной с клинком в руке, [Select_CString(owner.IsFemale, 'готовая', 'готовый' )] защитить меня. Я бросаюсь в [owner.GetHerHis] объятия и крепко прижимаюсь к н[owner.GetHerHim].",
+    "POL": "Wyskakuję z łóżka, sięgając po sztylet leżący na nocnej szafce. Intruz[Select_CString( owner.IsFemale, 'ka', '' )] łapie mnie za ramię, szarpie, a ja obracam się zatapiając ostrze głęboko w je[Select_CString( owner.IsFemale, 'j', 'go' )] brzuchu. Patrzy na mnie przez nieskończenie długą chwilę; je[Select_CString( owner.IsFemale, 'j', 'go' )] usta poruszają się bez dźwięku. Po chwili upada na ziemię.\\n\\n– [target.GetFirstNameNoTooltip], nic ci nie jest? – przy oknie stoi nie kto inny jak [owner.GetTitledFirstName], z ostrzem w ręku, gotow[Select_CString( owner.IsFemale, 'a', 'y' )] mnie bronić. Rzucam się ni[Select_CString( owner.IsFemale, 'ą', 'ego' )], a on[Select_CString( owner.IsFemale, 'a', '' )] mocno mnie obejmuje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_outcome.1105.a",
+    "FILE_PATH": "localization/belarusian/event_localization/schemes/court/court_outcome_events_l_belarusian.json",
+    "ENG": "Oh, my love! Never let me out of your sight again!",
+    "RUS": "Ах, любовь моя! Больше никогда не выпускай меня из виду!",
+    "POL": "Och, moja miłości! Nigdy więcej nie spuszczaj mnie z oka!",
+    "BEL": ""
+  }
+]

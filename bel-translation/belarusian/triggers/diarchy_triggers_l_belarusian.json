@@ -1,0 +1,538 @@
+[
+  {
+    "KEY": "MY_HAS_DIARCHY_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarchy|E] type allows this",
+    "RUS": "Мой тип [Concept( 'diarchy', 'диархии' )|E] это позволяет",
+    "POL": "Mój typ [Concept('diarchy', 'dzielenia władzy')|E] pozwala na to",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MY_HAS_DIARCHY_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarchy|E] type does #bold not#! allow this",
+    "RUS": "Мой тип [Concept( 'diarchy', 'диархии' )|E] #bold не#! позволяет этого",
+    "POL": "Mój typ [Concept('diarchy', 'dzielenia władzy')|E] #bold nie#! pozwala na to",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_HAS_DIARCHY_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarchy|E] type allows this",
+    "RUS": "Тип [Concept( 'diarchy', 'диархии' )|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] это позволяет",
+    "POL": "Typ [Concept('diarchy', 'dzielenia władzy')|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe] pozwala na to",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEIR_HAS_DIARCHY_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarchy|E] type does #bold not#! allow this",
+    "RUS": "Тип [Concept( 'diarchy', 'диархии' )|E] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] #bold не#! позволяет этого",
+    "POL": "Typ [Concept('diarchy', 'dzielenia władzy')|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe] #bold nie#! pozwala na to",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_HAS_DIARCHY_ACTIVE_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "The [scales_of_power|E] in your [CHARACTER.GetDiarchyTypeName] favor you enough",
+    "RUS": "[scales_of_power|E] достаточно сдвинуто в вашу пользу",
+    "POL": "[scales_of_power|E] w twoim systemie rządów znanym jako [CHARACTER.GetDiarchyTypeName|l] są dostatecznie przychylone na twoją korzyść",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MY_HAS_DIARCHY_ACTIVE_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "The [scales_of_power|E] in your [CHARACTER.GetDiarchyTypeName] are swung against you",
+    "RUS": "[scales_of_power|E] сдвинуто против вас",
+    "POL": "[scales_of_power|E] w twoim systemie rządów znanym jako [CHARACTER.GetDiarchyTypeName|l] są przechylone na twoją niekorzyść",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_HAS_DIARCHY_ACTIVE_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "The [scales_of_power|E] in [CHARACTER.GetShortUINamePossessive] [CHARACTER.GetDiarchyTypeName] are swung against [CHARACTER.GetHerHim]",
+    "RUS": "[scales_of_power|E] в диархии персонажа [CHARACTER.GetShortUIName] сдвинуто против н[CHARACTER.GetHerHis|l]",
+    "POL": "[scales_of_power|E] postaci, o której mówi się [CHARACTER.GetShortUINameNotMe], w systemie rządów znanym jako [CHARACTER.GetDiarchyTypeName|l], są przechylone na jej niekorzyść",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEIR_HAS_DIARCHY_ACTIVE_PARAMETER",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "The [scales_of_power|E] in [CHARACTER.GetShortUINamePossessive] [CHARACTER.GetDiarchyTypeName] favor [CHARACTER.GetHerHim] too strongly",
+    "RUS": "[scales_of_power|E] в диархии персонажа [CHARACTER.GetShortUIName] сильно сдвинуто в [CHARACTER.GetHerHis|l] пользу",
+    "POL": "[scales_of_power|E] postaci, o której mówi się [CHARACTER.GetShortUINameNotMe], w systemie rządów znanym jako [CHARACTER.GetDiarchyTypeName|l], są przechylone zbyt mocno na jej korzyść",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_DIARCHY_POWER_LEVEL_GREATER_THAN",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [scales_of_power|E] is greater than $NUM|0$",
+    "RUS": "Мое [scales_of_power|E] больше, чем $NUM|0$",
+    "POL": "Moje [scales_of_power|El] są większe niż $NUM|0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_DIARCHY_POWER_LEVEL_GREATER_THAN",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [scales_of_power|E] is greater than $NUM|0$",
+    "RUS": "[scales_of_power|E] персонажа [CHARACTER.GetShortUIName] больше, чем $NUM|0$",
+    "POL": "Wartość [Concept('scales_of_power', 'szal władzy')|E] postaci znanej jako [CHARACTER.GetShortUINameNotMe] jest większa niż $NUM|0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_DIARCHY_SUCCESSOR",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am in a [line_of_succession|E] to [share_power|E] with my [liege|E]",
+    "RUS": "Я в [Concept( 'line_of_succession', 'очереди наследования' )|E] [Concept( 'sharing_power', 'разделения полномочий' )|E] с моим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "Jestem w [Concept( 'line_of_succession', 'linii sukcesji' )|E] do [Concept( 'sharing_power', 'dzielenia władzy' )|E] z moim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_DIARCHY_SUCCESSOR",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am not in a [line_of_succession|E] to [share_power|E] with my [liege|E]",
+    "RUS": "Я не в [Concept( 'line_of_succession', 'очереди наследования' )|E] [Concept( 'sharing_power', 'разделения полномочий' )|E] с моим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "Nie jestem w [Concept( 'line_of_succession', 'linii sukcesji' )|E] do [Concept( 'sharing_power', 'dzielenia władzy' )|E] z moim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_DIARCHY_SUCCESSOR",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is in a [line_of_succession|E] to [share_power|E] with [CHARACTER.GetHerHis] [liege|E]",
+    "RUS": "[CHARACTER.GetShortUIName] в [Concept( 'line_of_succession', 'очереди наследования' )|E] [Concept( 'sharing_power', 'разделения полномочий' )|E] с [CHARACTER.GetHerHis|l] [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] jest w [Concept( 'line_of_succession', 'linii sukcesji' )|E] do [Concept( 'sharing_power', 'dzielenia władzy' )|E] ze swoim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_DIARCHY_SUCCESSOR",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is not in a [line_of_succession|E] to [share_power|E] with [CHARACTER.GetHerHis] [liege|E]",
+    "RUS": "[CHARACTER.GetShortUIName] не в [Concept( 'line_of_succession', 'очереди наследования' )|E] [Concept( 'sharing_power', 'разделения полномочий' )|E] с [CHARACTER.GetHerHis|l] [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] nie jest w [Concept( 'line_of_succession', 'linii sukcesji' )|E] do [Concept( 'sharing_power', 'dzielenia władzy' )|E] ze swoim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am currently [sharing_power|E]",
+    "RUS": "Я [Concept( 'sharing_power', 'разделяю полномочия' )|E]",
+    "POL": "Obecnie [Concept( 'sharing_power', 'dzielę' )|E] się władzą",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am currently not [sharing_power|E]",
+    "RUS": "Я не [Concept( 'sharing_power', 'разделяю полномочия' )|E]",
+    "POL": "Obecnie nie [Concept( 'sharing_power', 'dzielę' )|E] się władzą",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is currently [sharing_power|E]",
+    "RUS": "[CHARACTER.GetShortUIName] [Concept( 'sharing_power', 'разделяет полномочия' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] obecnie [Concept( 'sharing_power', 'dzieli się władzą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_ACTIVE_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is currently not [sharing_power|E]",
+    "RUS": "[CHARACTER.GetShortUIName] не [Concept( 'sharing_power', 'разделяет полномочия' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] obecnie nie [Concept( 'sharing_power', 'dzieli się władzą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "Я [TARGET_CHARACTER.GetDiarchTitle|l] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Jestem osobą znaną jako [TARGET_CHARACTER.GetDiarchTitle|l] w imieniu postaci, o której mówi się [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am not [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "Я не [TARGET_CHARACTER.GetDiarchTitle|l] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "Nie jestem osobą znaną jako [TARGET_CHARACTER.GetDiarchTitle|l] w imieniu postaci, o której mówi się [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetShortUIName] — [TARGET_CHARACTER.GetDiarchTitle|l] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] jest osobą znaną jako [TARGET_CHARACTER.GetDiarchTitle|l] w imieniu postaci, o której mówi się [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] is not [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetShortUIName] — не [TARGET_CHARACTER.GetDiarchTitle|l] персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] nie jest osobą znaną jako [TARGET_CHARACTER.GetDiarchTitle|l] w imieniu postaci, o której mówi się [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARE_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "Is [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "[TARGET_CHARACTER.GetDiarchTitle] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', TARGET_CHARACTER.GetShortUIName))]",
+    "POL": "To [TARGET_CHARACTER.GetDiarchTitle|l] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_ARE_DIARCH_OF_TARGET",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "Is not [TARGET_CHARACTER.GetShortUINamePossessive] [TARGET_CHARACTER.GetDiarchTitle]",
+    "RUS": "Не [TARGET_CHARACTER.GetDiarchTitle|l] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', TARGET_CHARACTER.GetShortUIName))]",
+    "POL": "To nie jest [TARGET_CHARACTER.GetDiarchTitle|l] osoby znanej jako [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am [sharing_power|E] with my [liege|E]",
+    "RUS": "Я [Concept( 'sharing_power', 'разделяю полномочия' )|E] со своим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "[Concept( 'sharing_power', 'Dzielę władzę' )|E] z moim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I am not [sharing_power|E] with my [liege|E]",
+    "RUS": "Я не [Concept( 'sharing_power', 'разделяю полномочия' )|E] со своим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "Nie [Concept( 'sharing_power', 'dzielę władzy' )|E] z moim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] shares power with [CHARACTER.GetHerHis] [liege|E]",
+    "RUS": "[CHARACTER.GetShortUIName] [Concept( 'sharing_power', 'разделяет полномочия' )|E] со своим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] [Concept( 'sharing_power', 'dzieli władzę' )|E] ze swoim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] does not share power with [CHARACTER.GetHerHis] [liege|E]",
+    "RUS": "[CHARACTER.GetShortUIName] не [Concept( 'sharing_power', 'разделяет полномочия' )|E] со своим [Concept( 'liege', 'сюзереном' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] nie [Concept( 'sharing_power', 'dzieli władzy' )|E] ze swoim [Concept( 'liege', 'seniorem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_CAUSED_STRIFE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I have caused $COMPARATOR$ $NUM|0$ [strife|E]",
+    "RUS": "Мной вызвано $COMPARATOR$ $NUM|0$ [Concept( 'strife', 'недовольства' )|E]",
+    "POL": "Moje działania zwiększyły [Concept('strife', 'niezgodę')|E] o $COMPARATOR$ $NUM|0$ pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_CAUSED_STRIFE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I have #bold not#! caused $COMPARATOR$ $NUM|0$ [strife|E]",
+    "RUS": "Мной #bold не#! вызвано $COMPARATOR$ $NUM|0$ [Concept( 'strife', 'недовольства' )|E]",
+    "POL": "Moje działania #bold nie#! zwiększyły [Concept('strife', 'niezgody')|E] o $COMPARATOR$ $NUM|0$ pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_CAUSED_STRIFE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has caused $COMPARATOR$ $NUM|0$ [strife|E]",
+    "RUS": "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'вызвала', 'вызвал' )] $COMPARATOR$ $NUM|0$ [Concept( 'strife', 'недовольства' )|E]",
+    "POL": "Postać znana jako [CHARACTER.GetShortUINameNotMe] zwiększyła [Concept('strife', 'niezgodę')|E] o $COMPARATOR$ $NUM|0$ pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_CAUSED_STRIFE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has #bold not#! caused $COMPARATOR$ $NUM|0$ [strife|E]",
+    "RUS": "[CHARACTER.GetShortUIName] #bold не#! [Select_CString(CHARACTER.IsFemale, 'вызвала', 'вызвал' )] $COMPARATOR$ $NUM|0$ [Concept( 'strife', 'недовольства' )|E]",
+    "POL": "Postać znana jako [CHARACTER.GetShortUINameNotMe] #bold nie#! zwiększyła [Concept('strife', 'niezgody')|E] o $COMPARATOR$ $NUM|0$ pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_SPENT_YEARS_IN_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I've spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] [sharing_power|E]",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], [Concept( 'sharing_power', 'разделяя полномочия' )|E]",
+    "POL": "[Concept('sharing_power', 'Dzielę się władzą')|E] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_SPENT_YEARS_IN_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I have #bold not#! spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] [sharing_power|E]",
+    "RUS": "Я #bold не#! [Select_CString(ROOT.Char.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], [Concept( 'sharing_power', 'разделяя полномочия' )|E]",
+    "POL": "#bold Nie#! [Concept('sharing_power', 'dzielę się władzą')|E] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_SPENT_YEARS_IN_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] [sharing_power|E]",
+    "RUS": "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], [Concept( 'sharing_power', 'разделяя полномочия' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] [Concept('sharing_power', 'dzieli się władzą')|E] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_SPENT_YEARS_IN_DIARCHY",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has #bold not#! spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] [sharing_power|E]",
+    "RUS": "[CHARACTER.GetShortUIName] #bold не#! [Select_CString(CHARACTER.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], [Concept( 'sharing_power', 'разделяя полномочия' )|E]",
+    "POL": "[CHARACTER.GetShortUINameNotMe] #bold nie#! [Concept('sharing_power', 'dzieli się władzą')|E] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_SPENT_YEARS_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I've spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] as a [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], занимая должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "Pełnię stanowisko znane jako [CHARACTER.GetLiege.GetDiarchTitle|l] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_SPENT_YEARS_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I have #bold not#! spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] as a [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "Я #bold не#! [Select_CString(ROOT.Char.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], занимая должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "#bold Nie#! mam za sobą $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )] na stanowisku znanym jako [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_SPENT_YEARS_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] as a [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], занимая должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "[CHARACTER.GetShortUINameNotMe] od $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )] pełni stanowisko znane jako [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_SPENT_YEARS_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has #bold not#! spent $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'year', 'years' )] as a [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetShortUIName] #bold не#! [Select_CString(CHARACTER.IsFemale, 'провела', 'провел' )] $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'г.', 'л.' )], занимая должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "[CHARACTER.GetShortUINameNotMe] #bold nie#! ma za sobą $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'roku', 'lat' )] na stanowisku znanym jako [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_ACTIVE_MANDATE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I have a [mandate|E] to [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "RUS": "У меня есть [Concept( 'mandate', 'мандат' )|E] [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "POL": "Mam [mandate|El]: [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_ACTIVE_MANDATE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I do #bold not#! have a [mandate|E] to [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "RUS": "У меня #bold нет#! [Concept( 'mandate', 'мандата' )|E] [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "POL": "#bold Nie#! mam [Concept('mandate', 'mandatu')|E]: [SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_ACTIVE_MANDATE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] has an active [mandate|E] to $MANDATE_TYPE$",
+    "RUS": "[CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsFemale, 'имеете', 'имеет' )] активный [mandate|El] $MANDATE_TYPE$",
+    "POL": "[CHARACTER.GetShortUINameNotMe] ma aktywny [mandate|El]: $MANDATE_TYPE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_ACTIVE_MANDATE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] doesn't have an active [mandate|E] to $MANDATE_TYPE$",
+    "RUS": "[CHARACTER.GetShortUIName] не имеет активного [Concept( 'mandate', 'мандата' )|E] $MANDATE_TYPE$",
+    "POL": "[CHARACTER.GetShortUINameNotMe] nie ma aktywnego [Concept('mandate', 'mandatu')|E]: $MANDATE_TYPE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_MANDATE_TYPE_QUALIFICATION",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My qualification for the $MANDATE_TYPE$ [mandate|E] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя пригодность для [Concept( 'mandate', 'мандата' )|E] $MANDATE_TYPE$ $COMPARATOR$ $NUM|0V$",
+    "POL": "Moja kwalifikacja do danego [Concept('mandate', 'mandatu')|E] ($MANDATE_TYPE$) wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_MANDATE_TYPE_QUALIFICATION",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My qualification for the $MANDATE_TYPE$ [mandate|E] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя пригодность для [Concept( 'mandate', 'мандата' )|E] $MANDATE_TYPE$ #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "Moja kwalifikacja do danego [Concept('mandate', 'mandatu')|E] ($MANDATE_TYPE$) #bold nie#! wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_MANDATE_TYPE_QUALIFICATION",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] qualification for the $MANDATE_TYPE$ [mandate|E] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает пригодностью для [Concept( 'mandate', 'мандата' )|E] $MANDATE_TYPE$ $COMPARATOR$ $NUM|0V$",
+    "POL": "Kwalifikacja postaci znanej jako [CHARACTER.GetShortUINameNotMe] do danego [Concept('mandate', 'mandatu')|E] ($MANDATE_TYPE$) wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_MANDATE_TYPE_QUALIFICATION",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName] qualification for the $MANDATE_TYPE$ [mandate|E] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает пригодностью для [Concept( 'mandate', 'мандата' )|E] $MANDATE_TYPE$ #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "Kwalifikacja postaci znanej jako [CHARACTER.GetShortUINameNotMe] do danego [Concept('mandate', 'mandatu')|E] ($MANDATE_TYPE$) #bold nie#! wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_DIARCH_APTITUDE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarch_aptitude|E] as [CHARACTER.GetDiarchTitle] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя [diarch_aptitude|E] для должности «[CHARACTER.GetDiarchTitle]» $COMPARATOR$ $NUM|0V$",
+    "POL": "Moje [diarch_aptitude|El] na stanowisku o nazwie [CHARACTER.GetDiarchTitle|l] wynoszą $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MY_DIARCH_APTITUDE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarch_aptitude|E] as [CHARACTER.GetDiarchTitle] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя [diarch_aptitude|E] для должности «[CHARACTER.GetDiarchTitle]» #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "Moje [diarch_aptitude|El] na stanowisku o nazwie [CHARACTER.GetDiarchTitle|l] #bold nie#! wynoszą $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_DIARCH_APTITUDE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarch_aptitude|E] as [CHARACTER.GetDiarchTitle] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает [Concept( 'diarch_aptitude', 'пригодностью' )|E] для должности «[CHARACTER.GetDiarchTitle]» $COMPARATOR$ $NUM|0V$",
+    "POL": "[diarch_aptitude|E] osoby o imieniu [CHARACTER.GetShortUINameNotMe] zajmującej stanowisko o nazwie [CHARACTER.GetDiarchTitle|l] wynoszą $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEIR_DIARCH_APTITUDE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarch_aptitude|E] as [CHARACTER.GetDiarchTitle] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает [Concept( 'diarch_aptitude', 'пригодностью' )|E] для должности «[CHARACTER.GetDiarchTitle]» #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "[diarch_aptitude|E] osoby o imieniu [CHARACTER.GetShortUINameNotMe] zajmującej stanowisko o nazwie [CHARACTER.GetDiarchTitle|l] #bold nie#! wynoszą $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MY_LOYALTY_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarch_loyalty|E] as [CHARACTER.GetDiarchTitle] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя [diarch_loyalty|E] на должности «[CHARACTER.GetDiarchTitle]» $COMPARATOR$ $NUM|0V$",
+    "POL": "Moja [diarch_loyalty|El] na stanowisku o nazwie [CHARACTER.GetDiarchTitle|l] wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_MY_LOYALTY_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "My [diarch_loyalty|E] as [CHARACTER.GetDiarchTitle] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "Моя [diarch_loyalty|E] на должности «[CHARACTER.GetDiarchTitle]» #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "Moja [diarch_loyalty|El] na stanowisku o nazwie [CHARACTER.GetDiarchTitle|l] #bold nie#! wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEIR_LOYALTY_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarch_loyalty|E] as [CHARACTER.GetDiarchTitle] is $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает [Concept( 'diarch_loyalty', 'верностью' )|E] на должности «[CHARACTER.GetDiarchTitle]» $COMPARATOR$ $NUM|0V$",
+    "POL": "[diarch_loyalty|E] osoby o imieniu [CHARACTER.GetShortUINameNotMe] zajmującej stanowisko o nazwie [CHARACTER.GetDiarchTitle|l] wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEIR_LOYALTY_AS_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] [diarch_loyalty|E] as [CHARACTER.GetDiarchTitle] is #bold not#! $COMPARATOR$ $NUM|0V$",
+    "RUS": "[CHARACTER.GetShortUIName] обладает [Concept( 'diarch_loyalty', 'верностью' )|E] на должности «[CHARACTER.GetDiarchTitle]» #bold не#! $COMPARATOR$ $NUM|0V$",
+    "POL": "[diarch_loyalty|E] osoby o imieniu [CHARACTER.GetShortUINameNotMe] zajmującej stanowisko o nazwie [CHARACTER.GetDiarchTitle|l] #bold nie#! wynosi $COMPARATOR$ $NUM|0V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetLiege.GetName] designated me as [CHARACTER.GetLiege.GetHerHis] [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetLiege.GetName] [Select_CString(CHARACTER.GetLiege.IsFemale, 'назначила', 'назначил' )] меня на должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "Osoba znana jako [CHARACTER.GetLiege.GetName] wyznaczyła mnie na stanowisko o nazwie [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I'm not a designated [CHARACTER.GetLiege.GetDiarchTitle] of [CHARACTER.GetLiege.GetName]",
+    "RUS": "Я не [CHARACTER.GetLiege.GetDiarchTitle|l] персонажа [CHARACTER.GetLiege.GetName]",
+    "POL": "Osoba znana jako [CHARACTER.GetLiege.GetName] nie wyznaczyła mnie na stanowisko o nazwie [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetLiege.GetName] designated [CHARACTER.GetName] as [CHARACTER.GetLiege.GetHerHis] [CHARACTER.GetLiege.GetDiarchTitle]",
+    "RUS": "[CHARACTER.GetLiege.GetName] [Select_CString(CHARACTER.GetLiege.IsFemale, 'назначила', 'назначил' )] персонажа [CHARACTER.GetName] на должность «[CHARACTER.GetLiege.GetDiarchTitle]»",
+    "POL": "Osoba znana jako [CHARACTER.GetLiege.GetName] wyznaczyła postać, którą jest [CHARACTER.GetName], na stanowisko o nazwie [CHARACTER.GetLiege.GetDiarchTitle|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] not a designated [CHARACTER.GetLiege.GetDiarchTitle] of [CHARACTER.GetLiege.GetName]",
+    "RUS": "[CHARACTER.GetName] не [CHARACTER.GetLiege.GetDiarchTitle|l] персонажа [CHARACTER.GetLiege.GetName]",
+    "POL": "Osoba znana jako [CHARACTER.GetLiege.GetName] nie została wyznaczona na stanowisko o nazwie [CHARACTER.GetLiege.GetDiarchTitle|l] przez postać, którą jest [CHARACTER.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TIME_AFTER_DESIGNATED_DIARCH",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "Time since diarch was designated is $COMPARATOR$ $DURATION|V$",
+    "RUS": "С назначения диарха прошло $COMPARATOR$ $DURATION|V$",
+    "POL": "Czas, który upłynął od wyznaczenia koregenta: $COMPARATOR$ $DURATION|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I'm [sharing_power|E] in $DIARCHY_TYPE$",
+    "RUS": "Я [Concept( 'sharing_power', 'разделяю полномочия' )|E] в диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – w tym systemie rządów [Concept('sharing_power', 'dzielę się władzą')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "I'm not in $DIARCHY_TYPE$",
+    "RUS": "У меня нет диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – nie należę do tego systemu rządów",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] is [sharing_power|E] in $DIARCHY_TYPE$",
+    "RUS": "[CHARACTER.GetName] [Concept( 'sharing_power', 'разделяет полномочия' )|E] в диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – [CHARACTER.GetName] [Concept('sharing_power', 'dzieli się władzą')|E] w tym systemie rządów",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] is not in $DIARCHY_TYPE$",
+    "RUS": "[CHARACTER.GetUIName] не [Select_CString(CHARACTER.IsLocalPlayer, 'имеете', 'имеет' )] диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – [CHARACTER.GetName] nie należy do tego systemu rządów",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "Is [sharing_power|E] in $DIARCHY_TYPE$",
+    "RUS": "[Concept( 'sharing_power', 'Разделяет полномочия' )|E] в диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – [Concept('sharing_power', 'dzieli władzę')|E] w tym systemie rządów",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_HAVE_DIARCHY_TYPE",
+    "FILE_PATH": "localization/belarusian/triggers/diarchy_triggers_l_belarusian.json",
+    "ENG": "Is not in $DIARCHY_TYPE$",
+    "RUS": "Не в диархии «$DIARCHY_TYPE$»",
+    "POL": "$DIARCHY_TYPE$ – nie należy do tego systemu rządów",
+    "BEL": ""
+  }
+]

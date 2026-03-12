@@ -1,0 +1,434 @@
+[
+  {
+    "KEY": "feast_main_stew_flood.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "The Stew Sea",
+    "RUS": "Море жаркого",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.stew_introduction_blamed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "I had had a little too much to drink when I stumbled into the huge cauldron hanging over the fireplace in the feasting hall. It unlatched and came loose, and its savory broth welled forth to cover the floor in a sea of stew!",
+    "RUS": "Над очагом пиршественного зала висел огромный котел. Когда же было выпито достаточно — и даже чуть больше, чем следовало, почва ушла у меня из-под ног, мы рухнули на пол в обнимку с этим котлом и поплыли по бескрайнему морю жаркого!",
+    "POL": "[Select_CString(ROOT.Char.IsFemale, 'Wypiłam', 'Wypiłem')] trochę za dużo – [Select_CString(ROOT.Char.IsFemale, 'wpadłam', 'wpadłem')] na ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając podłogę morzem gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.stew_introduction_blame",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In a drunken stumble, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stew_sea_blamed'))], [stew_sea_blamed.GetTitledFirstName], unlatched the enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover the floor in a sea of stew!",
+    "RUS": "В пьяном угаре [Select_CString(stew_sea_blamed.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stew_sea_blamed'))] [stew_sea_blamed.GetTitledFirstName] [Select_CString(stew_sea_blamed.IsFemale, 'споткнулась', 'споткнулся' )] и [Select_CString(stew_sea_blamed.IsFemale, 'налетела', 'налетел' )] на огромный котел, что висел над очагом в центре пиршественного зала. Вкуснейшее жаркое морем разлилось по всему залу!",
+    "POL": "[Select_CString(stew_sea_blamed.IsFemale, 'Moja kompletnie wstawiona', 'Mój kompletnie wstawiony')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stew_sea_blamed'))], [stew_sea_blamed.GetTitledFirstName], przewrócił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając podłogę morzem gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.stew_introduction",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In the bustle of the feast, one of [activity.GetOwner.GetTitledFirstNamePossessive] servants accidentally unlatched the enormous cauldron that hung over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!",
+    "RUS": "Посреди пира кто-то из прислуги [activity.GetOwner.GetTitledFirstNamePossessive] случайно опрокинул огромный котел, что висел над очагом в центре пиршественного зала. Вкуснейшее жаркое морем разлилось по всему залу!",
+    "POL": "W zgiełku biesiady, jeden ze sług gospodarza przypadkowo potrącił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając połowę sali w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.someone_got_covered",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nThe [stew_sea_gets_covered.Custom('stew_flood_covered_adjective')] [stew_sea_gets_covered.GetTitledFirstName] was caught by the rushing wave and loudly cursed [stew_sea_gets_covered.GetHerHis] ruined appearance as grease ran down [stew_sea_gets_covered.GetHerHis] face.",
+    "RUS": "\\n\\n[stew_sea_gets_covered.Custom('stew_flood_covered_adjective')|U][Select_CString(stew_sea_gets_covered.IsFemale, 'ая', 'ый' )] [stew_sea_gets_covered.GetTitledFirstName] [Select_CString(stew_sea_gets_covered.IsFemale, 'оказалась', 'оказался' )] в плену ароматных волн. [SCOPE.sCharacter('stew_sea_gets_covered').GetSheHe|U] [Select_CString(stew_sea_gets_covered.IsFemale, 'стирала', 'стирал' )] стекающий с лица жир и громко [Select_CString(stew_sea_gets_covered.IsFemale, 'сокрушалась', 'сокрушался' )] о безвозвратно испорченной одежде.",
+    "POL": "\\n\\n[stew_sea_gets_covered.Custom('stew_flood_covered_adjective')|U][Select_CString(stew_sea_gets_covered.IsFemale, 'a', 'y')] [stew_sea_gets_covered.GetTitledFirstName] [Select_CString(stew_sea_gets_covered.IsFemale, 'została dosięgnięta', 'został dosięgnięty')] przez pędzącą falę, a po chwili głośno przeklinał swój zrujnowany wygląd i tłuszcz spływający po swojej twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.splash_desc_standard",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nGuests rushed to the other side of the hall as the thick mass spread greasy tendrils among skipping feet.",
+    "RUS": "\\n\\nГости рванулись к противоположной стене, а у самых их ног жирными щупальцами извивалось горячее варево.",
+    "POL": "\\n\\nGoście w pośpiechu przechodzili na drugą stronę sali, gdy gęsta masa rozprzestrzeniała się tłustymi strużkami wśród przeskakujących stóp.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.every_target",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\nGiving in to [stew_sea_glutton.GetHerHis] insatiable hunger [stew_sea_glutton.GetTitledFirstName] collapsed to the floor, swallowing as much as [stew_sea_glutton.GetSheHe] could of the meaty mess while [stew_sea_horrified_character.GetTitledFirstName] watched in utter horror.",
+    "RUS": "\\nИ вот уже [stew_sea_glutton.GetTitledFirstName] не может противиться неутолимому голоду и падает на пол, до тошноты набивая рот мясистой массой, а [stew_sea_horrified_character.GetTitledFirstName] с ужасом смотрит на эту вакханалию.",
+    "POL": "\\nPoddając się swojemu nienasyconemu głodowi [stew_sea_glutton.GetTitledFirstName] run[Select_CString( stew_sea_glutton.IsFemale, 'ęła', 'ął' )] na podłogę, połykając jak najwięcej mięsnej papki, podczas gdy [stew_sea_horrified_character.GetTitledFirstName] patrzył[Select_CString( stew_sea_horrified_character.IsFemale, 'a', '' )] na to wszystko z przerażeniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.only_glutton",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nGiving in to [stew_sea_glutton.GetHerHis] insatiable hunger [stew_sea_glutton.GetTitledFirstName] collapsed to the floor, swallowing as much as [stew_sea_glutton.GetSheHe] could of the meaty mess.",
+    "RUS": "\\n\\nИ вот уже [stew_sea_glutton.GetTitledFirstName] не может противиться неутолимому голоду и падает на пол, до тошноты набивая рот мясистой массой.",
+    "POL": "\\n\\nUlegając nienasyconemu głodowi, [stew_sea_glutton.GetTitledFirstName] upadł[Select_CString( stew_sea_glutton.IsFemale, 'a', '' )] się na podłogę, połykając jak najwięcej mięsnej papki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.only_horror",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] stood catatonic in the middle of it all, shocked and horrified at the decadent waste.",
+    "RUS": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] стоит посреди этой неразберихи, не в силах двинуться от ужаса и осознания того, сколь велика и сколь бессмысленна потеря.",
+    "POL": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] stał[Select_CString( stew_sea_horrified_character.IsFemale, 'a', '' )] w środku tego wszystkiego w stanie katatonii, zszokowan[Select_CString( stew_sea_horrified_character.IsFemale, 'a', 'y' )] i przerażon[Select_CString( stew_sea_horrified_character.IsFemale, 'a', 'y' )] dekadenckim marnotrawstwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "I have never seen so much stew.",
+    "RUS": "В моей жизни никогда не было столько жаркого.",
+    "POL": "Nigdy nie [Select_CString(ROOT.Char.IsFemale, 'widziałam', 'widziałem')] tak dużo gulaszu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "The Stew Sea",
+    "RUS": "Море жаркого",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.stew_introduction_blame",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In a drunken stumble [stew_sea_blamed.GetTitledFirstName] unlatched an enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!",
+    "RUS": "В пьяном угаре [stew_sea_blamed.GetTitledFirstName] [Select_CString(stew_sea_blamed.IsFemale, 'споткнулась', 'споткнулся' )] и [Select_CString(stew_sea_blamed.IsFemale, 'опрокинула', 'опрокинул' )] огромный котел, бурливший на очаге посреди чертога. Хлынувшее на пол море вкуснейшего рагу залило половину пиршественного зала!",
+    "POL": "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] odbezpieczył[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem na środku sali biesiadnej! Rosół z gulaszem wypłynął i pokrył połowę pomieszczenia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.stew_introduction",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In the bustle of the feast, an idiot of a servant managed to unlatch the enormous cauldron that hung over the fireplace in the feasting hall! Savory broth welled forth to cover half the floor in a sea of stew!",
+    "RUS": "В разгар пира какой-то идиот из прислуги случайно опрокинул огромный котел, бурливший на очаге посреди чертога. Хлынувшее на пол море вкуснейшего рагу залило половину пиршественного зала!",
+    "POL": "W zgiełku uczty, jakiś idiota ze służby zdołał odbezpieczyć ogromny kocioł, który wisiał nad kominkiem w sali biesiadnej! Rosół z gulaszem wypłynął i pokrył połowę pomieszczenia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.someone_got_covered",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nThe [stew_sea_gets_covered.Custom('stew_flood_covered_adjective')] [stew_sea_gets_covered.GetTitledFirstName], seated next to the cauldron, was caught by the rushing wave and loudly cursed [stew_sea_gets_covered.GetHerHis] ruined appearance as grease ran down [stew_sea_gets_covered.GetHerHis] face.",
+    "RUS": "\\n\\n[stew_sea_gets_covered.Custom('stew_flood_covered_adjective')|U][Select_CString(stew_sea_gets_covered.IsFemale, 'ая', 'ый' )] [stew_sea_gets_covered.GetTitledFirstName], [Select_CString(stew_sea_gets_covered.IsFemale, 'сидевшая', 'сидевший' )] рядом с котлом, [Select_CString(stew_sea_gets_covered.IsFemale, 'оказалась', 'оказался' )] в плену ароматных волн. [SCOPE.sCharacter('stew_sea_gets_covered').GetSheHe|U] [Select_CString(stew_sea_gets_covered.IsFemale, 'стирала', 'стирал' )] стекающий с лица жир и громко [Select_CString(stew_sea_gets_covered.IsFemale, 'сокрушалась', 'сокрушался' )] о безвозвратно испорченной одежде.",
+    "POL": "\\n\\n[stew_sea_gets_covered.GetTitledFirstName], któr[Select_CString( stew_sea_gets_covered.IsFemale, 'a', 'y' )] siedział[Select_CString( stew_sea_gets_covered.IsFemale, 'a', '' )] obok kotła i niczego nie podejrzewał[Select_CString( stew_sea_gets_covered.IsFemale, 'a', '' )], został[Select_CString( stew_sea_gets_covered.IsFemale, 'a', '' )] zaskoczon[Select_CString( stew_sea_gets_covered.IsFemale, 'a', 'y' )] wylewającą się na [Select_CString( stew_sea_gets_covered.IsFemale, 'nią', 'niego' )] treścią gulaszu. Głośno przeklinał[Select_CString( stew_sea_gets_covered.IsFemale, 'a', '' )] z powodu zniszczonego wyglądu, wycierając tłuszcz spływający [Select_CString( stew_sea_gets_covered.IsFemale, 'jej', 'mu' )] z twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.splash_desc_standard",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Guests rushed to the other side of the hall as the thick mass spread greasy tendrils among skipping feet.",
+    "RUS": "Гости рванулись к противоположной стене, а у самых их ног жирными щупальцами извивалось горячее варево.",
+    "POL": "Goście w pośpiechu przechodzili na drugą stronę sali, gdy gęsta masa rozprzestrzeniała się tłustymi strużkami wśród przeskakujących stóp.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.every_target",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nGiving in to [stew_sea_glutton.GetHerHis] insatiable hunger [stew_sea_glutton.GetTitledFirstName] collapsed to the floor, swallowing as much as [stew_sea_glutton.GetSheHe] could of the meaty mess while [stew_sea_horrified_character.GetTitledFirstName] watched in utter horror.",
+    "RUS": "\\n\\nИ вот уже [stew_sea_glutton.GetTitledFirstName] не может противиться неутолимому голоду и падает на пол, до тошноты набивая рот мясистой массой, а [stew_sea_horrified_character.GetTitledFirstName] с ужасом смотрит на эту вакханалию.",
+    "POL": "\\n\\nPoddając się swojemu nienasyconemu głodowi [stew_sea_glutton.GetTitledFirstName] run[Select_CString( stew_sea_glutton.IsFemale, 'ęła', 'ął' )] na podłogę, połykając jak najwięcej mięsnej papki, podczas gdy [stew_sea_horrified_character.GetTitledFirstName] patrzył[Select_CString( stew_sea_horrified_character.IsFemale, 'a', '' )] na to wszystko z przerażeniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.only_glutton",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\nGiving in to [stew_sea_glutton.GetHerHis] insatiable hunger [stew_sea_glutton.GetTitledFirstName] collapsed to the floor, swallowing as much as [stew_sea_glutton.GetSheHe] could of the meaty mess.",
+    "RUS": "\\n\\nИ вот уже [stew_sea_glutton.GetTitledFirstName] не может противиться неутолимому голоду и падает на пол, до тошноты набивая рот мясистой массой.",
+    "POL": "\\n\\nUlegając nienasyconemu głodowi, [stew_sea_glutton.GetTitledFirstName] upadł[Select_CString( stew_sea_glutton.IsFemale, 'a', '' )] się na podłogę, połykając jak najwięcej mięsnej papki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.only_horror",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] stood catatonic in the middle of it all, shocked and horrified at the decadent waste.",
+    "RUS": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] стоит посреди этой неразберихи, не в силах двинуться от ужаса и осознания того, сколь велика и сколь бессмысленна потеря.",
+    "POL": "\\n\\n[stew_sea_horrified_character.GetTitledFirstName] stał[Select_CString( stew_sea_horrified_character.IsFemale, 'a', '' )] w środku tego wszystkiego w stanie katatonii, zszokowan[Select_CString( stew_sea_horrified_character.IsFemale, 'a', 'y' )] i przerażon[Select_CString( stew_sea_horrified_character.IsFemale, 'a', 'y' )] dekadenckim marnotrawstwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Curse this mess!",
+    "RUS": "Проклятье, что за кавардак!",
+    "POL": "Przeklęty bałagan!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Sea of Stew",
+    "RUS": "Море жаркого",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0004.stew_introduction_blame",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In a drunken stumble [stew_sea_blamed.GetTitledFirstName] unlatched an enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the floor in a sea of stew!",
+    "RUS": "В пьяном угаре [stew_sea_blamed.GetTitledFirstName] [Select_CString(stew_sea_blamed.IsFemale, 'споткнулась', 'споткнулся' )] и [Select_CString(stew_sea_blamed.IsFemale, 'опрокинула', 'опрокинул' )] огромный котел, бурливший на очаге посреди чертога. Хлынувшее на пол море вкуснейшего рагу залило половину пиршественного зала!",
+    "POL": "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] odbezpieczył[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem pośrodku sali! Słony bulion wypłynął, pokrywając połowę podłogi w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0004.stew_introduction",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In the bustle of the feast, one of [activity.GetOwner.GetTitledFirstNamePossessive] servants accidentally unlatched the enormous cauldron that hung over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!",
+    "RUS": "Посреди пира кто-то из прислуги [activity.GetOwner.GetTitledFirstNamePossessive] случайно опрокинул огромный котел, что висел над очагом в центре пиршественного зала. Вкуснейшее жаркое морем разлилось по всему залу!",
+    "POL": "W zgiełku biesiady, jeden ze sług gospodarza przypadkowo potrącił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając połowę sali w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0004.getting_covered",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\nI was sitting too close, and the greasy meal washed over me like a wave brewed in the depths of [ROOT.Char.GetFaith.NegativeAfterLife]. My clothes may be cleaned, but the stinging shame of a hall full of laughter will never wash off.",
+    "RUS": "\\nНе нужно было сидеть так близко! Меня с ног до головы окатило жирной волной, столь огромной, что породить такую в силах лишь [ROOT.Char.GetFaith.NegativeAfterLife]! Одежду отстирают, а вот от взрыва насмешек, которыми облили меня прочие пирующие, мне не отмыться никогда.",
+    "POL": "\\nSiedzę zbyt blisko, a tłusty posiłek spływa po mnie jak fala warzona w najgłębszych czeluściach otchłani, którą znamy jako [ROOT.Char.GetFaith.NegativeAfterLife]. Moje ubranie może zostać wyczyszczone, ale wstydu płynącego z sali pełnej śmiechu nigdy nie zmyję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Why would this happen to me?!",
+    "RUS": "За что мне все это?!",
+    "POL": "Dlaczego mnie to spotkało?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Sea of Stew",
+    "RUS": "Море жаркого",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.stew_introduction_blame",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In a drunken stumble [stew_sea_blamed.GetTitledFirstName] unlatched an enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the floor in a sea of stew!",
+    "RUS": "В пьяном угаре [stew_sea_blamed.GetTitledFirstName] [Select_CString(stew_sea_blamed.IsFemale, 'споткнулась', 'споткнулся' )] и [Select_CString(stew_sea_blamed.IsFemale, 'опрокинула', 'опрокинул' )] огромный котел, бурливший на очаге посреди чертога. Хлынувшее на пол море вкуснейшего рагу залило половину пиршественного зала!",
+    "POL": "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] odbezpieczył[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem pośrodku sali! Słony bulion wypłynął, pokrywając połowę podłogi w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.stew_introduction",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In the bustle of the feast, one of [activity.GetOwner.GetTitledFirstNamePossessive] servants accidentally unlatched the enormous cauldron that hung over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!",
+    "RUS": "Посреди пира кто-то из прислуги [activity.GetOwner.GetTitledFirstNamePossessive] случайно опрокинул огромный котел, что висел над очагом в центре пиршественного зала. Вкуснейшее жаркое морем разлилось по всему залу!",
+    "POL": "W zgiełku biesiady, jeden ze sług gospodarza przypadkowo potrącił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając połowę sali w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.cannot_resist",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\nWith all that delicious food spilling everywhere, I just could not help myself. Before I knew what was happening I was on all four, lapping up stew like a common dog! I was not even thinking of what the other guests would think, much less the host!",
+    "RUS": "\\nКак можно удержаться, когда еда вокруг буквально разливается морем?! Прежде чем мой разум осознал, что происходит, тело упало на четвереньки и принялось жадно лакать жаркое, подобно собаке! И меня совершенно не волновало, что подумают гости, [Select_CString(activity.GetOwner.IsFemale, 'хозяйка', 'хозяин' )]... да кто угодно!",
+    "POL": "\\nPrzy tym rozlewającym się wszędzie pysznym jedzeniu nie mogł[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] się powstrzymać. Zanim się zorientował[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], co się dzieje, był[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] na czworakach, chłonąc gulasz jak zwykły pies! Nie myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] nawet o tym, co pomyślą inni goście, a tym bardziej gospodarz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.being_watched",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "\\nThrough it all I was only vaguely aware of [stew_sea_horrified_character.GetTitledFirstName] watching me with a face twisted in disgust.",
+    "RUS": "\\nМельком мне удалось заметить, что [stew_sea_horrified_character.GetTitledFirstName] глядит на меня с искаженным от отвращения лицом.",
+    "POL": "\\nPrzez cały czas miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] tylko mglistą świadomość, że [stew_sea_horrified_character.GetTitledFirstName] przygląda mi się z miną wyrażającą obrzydzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "It was just too good!",
+    "RUS": "Но было слишком вкусно!",
+    "POL": "To było po prostu zbyt dobre!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Sea of Stew",
+    "RUS": "Море жаркого",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0006.stew_introduction_blame",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In a drunken stumble [stew_sea_blamed.GetTitledFirstName] unlatched an enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the floor in a sea of stew!",
+    "RUS": "В пьяном угаре [stew_sea_blamed.GetTitledFirstName] [Select_CString(stew_sea_blamed.IsFemale, 'споткнулась', 'споткнулся' )] и [Select_CString(stew_sea_blamed.IsFemale, 'опрокинула', 'опрокинул' )] огромный котел, бурливший на очаге посреди чертога. Хлынувшее на пол море вкуснейшего рагу залило половину пиршественного зала!",
+    "POL": "W pijackim potknięciu [stew_sea_blamed.GetTitledFirstName] potracił[Select_CString( stew_sea_blamed.IsFemale, 'a', '' )] ogromny kocioł wiszący nad kominkiem pośrodku sali! Słony bulion wypłynął, pokrywając połowę podłogi w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0006.stew_introduction",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "In the bustle of the feast, one of [activity.GetOwner.GetTitledFirstNamePossessive] servants accidentally unlatched the enormous cauldron that hung over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!",
+    "RUS": "Посреди пира кто-то из прислуги [activity.GetOwner.GetTitledFirstNamePossessive] случайно опрокинул огромный котел, что висел над очагом в центре пиршественного зала. Вкуснейшее жаркое морем разлилось по всему залу!",
+    "POL": "W zgiełku biesiady, jeden ze sług gospodarza przypadkowo potrącił ogromny kocioł wiszący nad kominkiem w sali biesiadnej. Kocioł spadł z wieszaka, a znajdujący się w nim wyśmienity wywar wypłynął ze środka, pokrywając połowę sali w morzu gulaszu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0006.shocking_experience",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "It was all too much, seeing the sheer amount of food that would have been served to the guests, made worse by the fact that it was now going to waste.",
+    "RUS": "Это было просто невыносимо. Огромное количество еды, предназначенной гостям, теперь предназначалось выгребной яме.",
+    "POL": "To wszystko było zbyt wiele, patrząc na ilość jedzenia, które miało być podane gościom, co gorsza, teraz się marnowało.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "I have to look away.",
+    "RUS": "Нужно отвернуться.",
+    "POL": "Nie mogę na to patrzeć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0041.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "A Full Belly",
+    "RUS": "Полный живот",
+    "POL": "Pełen brzuch",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0041.blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "We all smile satisfied, our host has reason to be proud. Although [stew_sea_blamed.GetTitledFirstName] might carry more shame than satisfaction after overturning the cauldron!",
+    "RUS": "На наших лицах довольные улыбки — [Select_CString(activity.GetOwner.IsFemale, 'хозяйка', 'хозяин' )] может гордиться, пир вышел на славу. Конечно, [stew_sea_blamed.GetTitledFirstName], позабыв о радости, стыдится за перевернутый котел!",
+    "POL": "Wszyscy uśmiechamy się zadowoleni, dostarczając naszemu gospodarzowi powody do dumy. Chociaż [stew_sea_blamed.GetTitledFirstName] może doświadczać więcej wstydu niż satysfakcji po przewróceniu kociołka!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0041.no_blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "We all smile satisfied, leaving our host with reason to be proud. Apart from the servant who overturned the stew cauldron. That was quite a shameful moment.",
+    "RUS": "На наших лицах довольные улыбки — [Select_CString(activity.GetOwner.IsFemale, 'хозяйка', 'хозяин' )] может гордиться, пир вышел на славу. Если не думать о том, что прислуга перевернула котел. Это, конечно, позорная история.",
+    "POL": "Wszyscy uśmiechamy się zadowoleni, dostarczając naszemu gospodarzowi powody do dumy. Oczywiście poza sługą, który przewrócił kociołek z gulaszem. To był dość wstydliwy moment.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0041.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "What a good feast.",
+    "RUS": "Хороший вышел пир.",
+    "POL": "Cóż za dobra uczta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0042.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Full Bellies",
+    "RUS": "Полные животы",
+    "POL": "Pełne brzuchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0042.blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "All my guests smile satisfied at their plates when I look at them, proud of my display of generosity. That said, [stew_sea_blamed.GetTitledFirstName] might carry more shame than satisfaction after overturning the cauldron! Cleaning up will not be cheap.",
+    "RUS": "Довольные гости сыто улыбаются, и я могу без ложной скромности сказать, что прием им был оказан отменный. Конечно, [stew_sea_blamed.GetTitledFirstName], позабыв о радости, стыдится за перевернутый котел! Уборка нам обойдется недешево.",
+    "POL": "Widzę, że wszyscy moi goście, będący pod wrażeniem mojej hojności, uśmiechają się zadowoleni do swoich talerzy. To stwierdziwszy, [stew_sea_blamed.GetTitledFirstName] może mieć więcej wstydu niż satysfakcji po przewróceniu kociołka! Sprzątanie nie będzie tanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0042.no_blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "All my guests smile satisfied at their plates when I look at them, proud of my display of generosity. That said, I might have to do something about that damned servant who overturned the stew cauldron. And cleaning up will not be cheap.",
+    "RUS": "На лицах сидящих за столами гостей довольные улыбки, и я могу без ложной скромности сказать, что прием им оказан отменный. Нужно только что-нибудь сделать с проклятой прислугой, опрокинувшей котел с жарким. Уборка выйдет не из дешевых.",
+    "POL": "Widzę, że wszyscy moi goście, będący pod wrażeniem mojej hojności, uśmiechają się zadowoleni do swoich talerzy. To stwierdziwszy, być może będę musiał[Select_CString( ROOT.Char.IsFemale, 'a', '' )] coś zrobić z tym przeklętym sługą, który przewrócił kociołek z gulaszem. Sprzątanie nie będzie tanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0042.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "We should do this more often!",
+    "RUS": "Нам надо чаще так встречаться!",
+    "POL": "Powinniśmy robić to częściej!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0043.blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "The feast will soon be over, and I can leave to tend my shame.\\nThat damned meat stew got everywhere, and I am unsure I will ever get the smell out of my hair! It will be a long while before I forget what [stew_sea_blamed.GetTitledFirstName] did to me.",
+    "RUS": "Пир наконец-то близок к завершению, и я могу убраться прочь, зализывать нанесенные позором раны.\\nКуда только не затекло проклятое жаркое! Не знаю, смогу ли я когда-нибудь избавиться от его запаха в волосах? Ох, не скоро я забуду, что [Select_CString(stew_sea_blamed.IsFemale, 'сделала', 'сделал' )] со мною [stew_sea_blamed.GetTitledFirstName].",
+    "POL": "Uczta wkrótce się skończy, a ja będę m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] odejść, by pozbyć się ogarniającego mnie wstydu.\\n\\nTen przeklęty gulasz mięsny dostał się wszędzie i nie jestem [Select_CString(ROOT.Char.IsFemale, 'pewna', 'pewien' )], czy kiedykolwiek pozbędę się tego zapachu z moich włosów! Upłynie dużo czasu, nim zapomnę, co [stew_sea_blamed.GetTitledFirstName] mi zrobił[Select_CString(stew_sea_blamed.IsFemale, 'a', '' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0043.no_blame_placed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "The feast will soon be over, and I can leave to tend my shame.\\nThat damned meat stew got everywhere, and I am unsure I will ever get the smell out of my hair! It will be a long while before I forget what that servant did to me.",
+    "RUS": "Пир наконец-то близок к завершению, и я могу убраться прочь, зализывать нанесенные позором раны.\\nКуда только не затекло проклятое жаркое! Не знаю, смогу ли я когда-нибудь избавиться от его запаха в волосах? Ох, не скоро я забуду, что сотворила со мною проклятая прислуга.",
+    "POL": "Uczta wkrótce się skończy, a ja będę m[Select_CString( ROOT.Char.IsFemale, 'ogła', 'ógł' )] odejść, by pozbyć się ogarniającego mnie wstydu.\\n\\nTen przeklęty gulasz mięsny dostał się wszędzie i nie jestem [Select_CString(ROOT.Char.IsFemale, 'pewna', 'pewien' )], czy kiedykolwiek pozbędę się tego zapachu z moich włosów! Upłynie dużo czasu, nim zapomnę, co ten sługa mi zrobił.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0043.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "I will never eat stew again.",
+    "RUS": "К жаркому я больше и пальцем не притронусь.",
+    "POL": "Nigdy więcej nie zjem gulaszu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0044.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "The feast will soon be over, after having the smell of stew hang over it like a specter. I cannot believe I would be the one to be so unlucky, and I just... wish it had not happened!",
+    "RUS": "Пир близится к завершению, но запах жаркого все еще висит над нами, подобно призраку. Поверить не могу, что именно мне выпал столь печальный жребий... Лучше бы всего этого не было!",
+    "POL": "Uczta wkrótce dobiegnie końca, a zapach gulaszu unosi się nad nią jak widmo. Nie mogę uwierzyć, że to ja miał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] takiego pecha i po prostu… chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )], aby to się nigdy nie wydarzyło!",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_main_stew_flood.0044.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "I hope people were too drunk to remember.",
+    "RUS": "Надеюсь, все были слишком пьяны и быстро все забудут.",
+    "POL": "Mam nadzieję, że ludzie byli zbyt pijani, by to zapamiętać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stew_flood_covered_adjective_wrathful",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "irritable",
+    "RUS": "раздражительн",
+    "POL": "drażliwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "stew_flood_covered_adjective_proud",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "proud",
+    "RUS": "величав",
+    "POL": "dumna",
+    "BEL": ""
+  },
+  {
+    "KEY": "stew_flood_covered_adjective_beautiful",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "beautiful",
+    "RUS": "прелестн",
+    "POL": "piękna",
+    "BEL": ""
+  },
+  {
+    "KEY": "stew_flood_fallback_adjective",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "unsuspecting",
+    "RUS": "беззаботн",
+    "POL": "niepodejrzewająca",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_stew_flood_log_title",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "Stew Flood",
+    "RUS": "Потоп из рагу",
+    "POL": "Morze gulaszu",
+    "BEL": ""
+  },
+  {
+    "KEY": "feast_stew_flood_log",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/feast_main_stew_flood_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetTitledFirstName] was covered in hot stew after a giant spillage incident.",
+    "RUS": "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'Персонаж ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' персонаж', '' )] был весь облит горячим рагу после происшествия с разлитым котлом.",
+    "POL": "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, Select_CString(TARGET_CHARACTER.IsFemale, 'Zostałaś', 'Zostałeś' ), Concatenate(TARGET_CHARACTER.GetTitledFirstName, Select_CString(TARGET_CHARACTER.IsFemale, ' została', ' został' )))] oblan[Select_CString(TARGET_CHARACTER.IsFemale, 'a', 'y' )] gorącym gulaszem po incydencie z wylanym kociołkiem.",
+    "BEL": ""
+  }
+]

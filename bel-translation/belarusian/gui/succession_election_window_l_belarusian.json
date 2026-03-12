@@ -1,0 +1,410 @@
+[
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_TITLE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Election for the [title_heir|E]",
+    "RUS": "Выбор [Concept( 'title_heir', 'наследника' )|E]",
+    "POL": "Wybory na [Concept( 'title_heir', 'sukcesora tytułu' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_CANDIDATES",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Candidates ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])",
+    "RUS": "Кандидаты ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])",
+    "POL": "Kandydaci ([GetDataModelSize( SuccessionElectionWindow.GetCandidates.GetList )])",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Electors ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])",
+    "RUS": "Выборщики ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])",
+    "POL": "Elektorzy ([GetDataModelSize( SuccessionElectionWindow.GetElectors.GetList )])",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_THEIR_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[Character.GetHerHis|U] Electors",
+    "RUS": "[Character.GetHerHis|U] выборщики",
+    "POL": "[Character.GetHerHis|U] elektorzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_CANDIDATE_SCORE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Total score of this candidate: [SuccessionElectionWindowCandidate.GetScore|V]#!\\nElectors voting for [SuccessionElectionWindowCandidate.GetCandidate.GetUINameNoTooltip]:\\n[SuccessionElectionWindowCandidate.GetVotesInFavor]\\n\\nThe candidate with the highest score will inherit the title on [succession|E].",
+    "RUS": "#T Общий счет этого кандидата: [SuccessionElectionWindowCandidate.GetScore|V]#!\\n[SuccessionElectionWindowCandidate.GetCandidate.GetUINameNoTooltip] получит поддержку следующих электоров:\\n[SuccessionElectionWindowCandidate.GetVotesInFavor]\\n\\nКандидат с наивысшим счетом [Concept( 'succession', 'унаследует' )|E] титул.",
+    "POL": "#T Całkowity wynik twojego kandydata: [SuccessionElectionWindowCandidate.GetScore|V]#!\\nElektorzy głosujący na [Select_CString( SuccessionElectionWindowCandidate.GetCandidate.IsLocalPlayer, 'ciebie', Concatenate('', SuccessionElectionWindowCandidate.GetCandidate.GetUINameNotMeNoTooltip))]:\\n[SuccessionElectionWindowCandidate.GetVotesInFavor]\\nKandydat z najwyższym wynikiem odziedziczy tytuł w drodze [Concept( 'succession', 'sukcesji' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_CANDIDATE_RANK",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Rank: [SuccessionElectionWindowCandidate.GetElectionRank|V]",
+    "RUS": "Ранг: [SuccessionElectionWindowCandidate.GetElectionRank|V]",
+    "POL": "Ranga: [SuccessionElectionWindowCandidate.GetElectionRank|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_NOMINATE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Nominate",
+    "RUS": "Выдвинуть",
+    "POL": "Nominuj",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_FORCE_VOTE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Force Vote",
+    "RUS": "Заставить проголосовать",
+    "POL": "Wymuś głos",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Supporting [SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate.GetShortUINameNoTooltip]#!",
+    "RUS": "#T Поддерживает персонажа [SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate.GetShortUINameNoTooltip]#!",
+    "POL": "#T Wsparcie dla [Select_CString( SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate.IsLocalPlayer, 'ciebie', SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate.GetShortUINameNotMeNoTooltip )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE_TT",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Supporting [SuccessionElectionWindow.GetElectorFromCharacter( Character.Self ).GetElectorCandidate.GetCandidate.GetShortUINameNoTooltip]#!",
+    "RUS": "#T Поддерживает персонажа [SuccessionElectionWindow.GetElectorFromCharacter( Character.Self ).GetElectorCandidate.GetCandidate.GetShortUINameNoTooltip]#!",
+    "POL": "#T Wsparcie dla [Select_CString( SuccessionElectionWindow.GetElectorFromCharacter( Character.Self ).GetElectorCandidate.GetCandidate.IsLocalPlayer, 'ciebie', SuccessionElectionWindow.GetElectorFromCharacter( Character.Self ).GetElectorCandidate.GetCandidate.GetShortUINameNotMeNoTooltip )]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_PLAYER_NOMINEE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Your candidate, [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNotMeNoTooltip]#!",
+    "RUS": "#T Ваш кандидат, [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNotMeNoTooltip]#!",
+    "POL": "#T Twój kandydat, [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNotMeNoTooltip]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_PLAYER_NOMINEE_INFO",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#weak Will vote for [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNoTooltip] if [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetHerHis] score is greater than [SuccessionElectionWindowElector.GetElectorCandidate.GetScore|+]#!",
+    "RUS": "#weak Будет голосовать за персонажа [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNoTooltip], когда [SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetHerHis] счет станет выше, чем [SuccessionElectionWindowElector.GetElectorCandidate.GetScore|+]#!",
+    "POL": "#weak Zagłosuje na [Select_CString( SuccessionElectionWindow.GetTitle.GetPlayerNominee.IsLocalPlayer, 'ciebie', SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetShortUINameNotMeNoTooltip )], jeśli [Select_CString( SuccessionElectionWindow.GetTitle.GetPlayerNominee.IsLocalPlayer, 'twój', SuccessionElectionWindow.GetTitle.GetPlayerNominee.GetHerHis )] wynik będzie większy niż [SuccessionElectionWindowElector.GetElectorCandidate.GetScore|+]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_IS_OTHER_PLAYER",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n[Character.PlayerName|V] decides",
+    "RUS": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n[Character.PlayerName|V] принимает решение",
+    "POL": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\nDecyzja postaci [Character.PlayerName|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_IS_LOCAL_PLAYER",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\nI decide",
+    "RUS": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n Я принимаю решение",
+    "POL": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\nMoja decyzja",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_FORCED_VOTE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n$SUCCESSION_ELECTION_WINDOW_TT_FORCED_VOTE$",
+    "RUS": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n$SUCCESSION_ELECTION_WINDOW_TT_FORCED_VOTE$",
+    "POL": "$SUCCESSION_ELECTION_WINDOW_VOTE_BREAKDOWN_NOMINEE$\\n$SUCCESSION_ELECTION_WINDOW_TT_FORCED_VOTE$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_VOTE_REASON_SUM",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Score: $VALUE|+$",
+    "RUS": "Счет: $VALUE|+$",
+    "POL": "Wynik: $VALUE|+$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_ELECTOR_VOTE_STRENGTH_SUM",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T [vote_strength|E]: $VALUE|+$#!",
+    "RUS": "#T [vote_strength|E]: $VALUE|+$#!",
+    "POL": "#T [vote_strength|E]: $VALUE|+$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_VOTE_FORCED_ME",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "You are forced to vote the same as [TARGET_CHARACTER.GetUIName]",
+    "RUS": "Вы вынуждены голосовать так же, как [TARGET_CHARACTER.GetUIName]",
+    "POL": "Wymuszono na tobie głosowanie tak samo jak [TARGET_CHARACTER.GetUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_VOTE_FORCED_THIRD",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNotMeNoTooltip] is forced to vote the same as [TARGET_CHARACTER.GetUIName]",
+    "RUS": "По принуждению [CHARACTER.GetShortUINameNotMeNoTooltip] голосует так же, как [TARGET_CHARACTER.GetUIName]",
+    "POL": "[CHARACTER.GetShortUINameNotMeNoTooltip] został[Select_CString( CHARACTER.IsFemale, 'a', '' )] zmuszon[Select_CString( CHARACTER.IsFemale, 'a', 'y' )] do zagłosowania tak samo jak [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'ja', Concatenate('', TARGET_CHARACTER.GetUINameNotMe))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Your Candidate",
+    "RUS": "Ваш кандидат",
+    "POL": "Twój kandydat",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_INFO",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[Character.GetShortUINameNoTooltip]",
+    "RUS": "[Character.GetShortUINameNoTooltip]",
+    "POL": "[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_SELECT_CANDIDATE_INFO",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Nominate a Candidate below",
+    "RUS": "Выдвините кандидата из списка ниже",
+    "POL": "Nominuj kandydata z poniższej listy",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_VOTING_STRENGTH",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Your Voting Strength: ",
+    "RUS": "Сила вашего голоса",
+    "POL": "Siła twojego głosu:",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_NO_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "No [electors|E] vote for [Character.GetHerHim]",
+    "RUS": "[electors|E] не голосуют за н[Character.GetHerHis]",
+    "POL": "Brak [Concept( 'electors', 'elektorów' )|E], którzy na [Select_CString( Character.IsFemale, 'nią', 'niego' )] głosują",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_NUM_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#high [GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors )]#! [Select_CString( GreaterThan_int32( GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors ), '(int32)1' ), 'Electors vote', 'Elector votes' )] for [Character.GetHerHim]",
+    "RUS": "#high [GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors )]#! [Select_CString( GreaterThan_int32( GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors ), '(int32)1' ), 'Выборщики голосуют', 'Выборщик голосует' )] за н[Character.GetHerHis]",
+    "POL": "#high [GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors )]#! [Select_CString( GreaterThan_int32( GetDataModelSize( SuccessionElectionWindowCandidate.GetElectors ), '(int32)1' ), 'Elektorzy głosujący', 'Elektor głosujący' )] na [Select_CString( Character.IsFemale, 'nią', 'niego' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_RULES_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Electors: #bold [SuccessionElectionWindow.GetElectorsGrouping|E]#!",
+    "RUS": "Выборщики: #bold [SuccessionElectionWindow.GetElectorsGrouping|El]#!",
+    "POL": "Elektorzy: #bold [SuccessionElectionWindow.GetElectorsGrouping|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_RULES_CANDIDATES",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Candidates: #bold [SuccessionElectionWindow.GetCandidatesGrouping|E]#!",
+    "RUS": "Кандидаты: #bold [SuccessionElectionWindow.GetCandidatesGrouping|El]#!",
+    "POL": "Kandydaci: #bold [SuccessionElectionWindow.GetCandidatesGrouping|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLOSE_ELECTION_VIEW",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Back to Title View",
+    "RUS": "Вернуться к окну титула",
+    "POL": "Powrót do widoku tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_TT_FORCED_VOTE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Vote forced by [hook|E]",
+    "RUS": "Голос отдан, поскольку оказывалось [hooks|El]",
+    "POL": "Głos wymuszony przez [Concept( 'hook', 'haka' )|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_LAW",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Succession Law: [SuccessionElectionWindow.GetSuccessionLaw.GetName]",
+    "RUS": "Закон о наследовании: [SuccessionElectionWindow.GetSuccessionLaw.GetName]",
+    "POL": "Prawo sukcesji: [SuccessionElectionWindow.GetSuccessionLaw.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_TOGGLE_ELECTORS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Toggle Elector List#!",
+    "RUS": "#T Переключить список выборщиков#!",
+    "POL": "#T Przełącz listę elektorów#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_ELECTOR_ENTRY",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINameNotMe]: $STRENGTH|V$",
+    "RUS": "[CHARACTER.GetShortUINameNotMe]: $STRENGTH|V$",
+    "POL": "[CHARACTER.GetShortUINameNotMe]: $STRENGTH|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_CANDIDATE_SCORE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Score: [SuccessionElectionWindowElectorVote.GetScore|+]",
+    "RUS": "Счет: [SuccessionElectionWindowElectorVote.GetScore|+]",
+    "POL": "Wynik: [SuccessionElectionWindowElectorVote.GetScore|+]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_ELECTOR_PREFERENCE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Preference for my candidate: [SuccessionElectionWindowElector.GetScoreDiff|+]",
+    "RUS": "Требования к моему кандидату: [SuccessionElectionWindowElector.GetScoreDiff|+]",
+    "POL": "Preferowanie mojego kandydata: [SuccessionElectionWindowElector.GetScoreDiff|+]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_ELECTOR_MY_CHOICE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Second choice",
+    "RUS": "Альтернативная кандидатура",
+    "POL": "Drugi wybór",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_NOT_ELECTOR",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "You are not one of the [electors|E] and cannot vote",
+    "RUS": "Вы не являетесь [Concept( 'elector', 'выборщиком' )|E] и не можете голосовать",
+    "POL": "Nie jesteś jednym z [Concept( 'electors', 'elektorów' )|E] i nie masz prawa głosu",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_CANDIDATE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Candidate",
+    "RUS": "Кандидаты",
+    "POL": "Kandydat",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_RANK",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Rank: [SuccessionElectionWindow.GetCandidateFromCharacter( SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate ).GetElectionRank]",
+    "RUS": "Ранг: [SuccessionElectionWindow.GetCandidateFromCharacter( SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate ).GetElectionRank]",
+    "POL": "Ranga: [SuccessionElectionWindow.GetCandidateFromCharacter( SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate ).GetElectionRank]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_NO_PLAYER_NOMINEE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T No Player candidate#!\\nYou need to nominate someone to see the difference in elector's preference",
+    "RUS": "#T Нет кандидата от игрока#!\\nВам нужно выдвинуть кого-нибудь, чтобы увидеть различия в предпочтениях выборщиков",
+    "POL": "#T Brak kandydata gracza#!\\nMusisz nominować jakąś postać, aby zobaczyć różnicę w preferencjach elektorów",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_STANCE_WIN",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Next in line for Succession",
+    "RUS": "Следующий наследник",
+    "POL": "Postać jest następna w linii sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_STANCE_LOSS",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Not next in line for Succession",
+    "RUS": "Не следующий наследник",
+    "POL": "Postać nie jest następna w linii sukcesji",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_STANCE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[SelectLocalization( EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' ), 'SUCCESSION_ELECTION_WINDOW_STANCE_WIN', 'SUCCESSION_ELECTION_WINDOW_STANCE_LOSS' )]",
+    "RUS": "[SelectLocalization( EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' ), 'SUCCESSION_ELECTION_WINDOW_STANCE_WIN', 'SUCCESSION_ELECTION_WINDOW_STANCE_LOSS' )]",
+    "POL": "[SelectLocalization( EqualTo_int32( SuccessionElectionWindowCandidate.GetElectionRank, '(int32)1' ), 'SUCCESSION_ELECTION_WINDOW_STANCE_WIN', 'SUCCESSION_ELECTION_WINDOW_STANCE_LOSS' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ELECTION_CANDIDATE_RELEVANCE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Relevance",
+    "RUS": "Значимость",
+    "POL": "Stosowność",
+    "BEL": ""
+  },
+  {
+    "KEY": "ELECTION_CANDIDATE_SCORE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "Vote score",
+    "RUS": "Голоса",
+    "POL": "Wynik głosowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "ELECTION_NO_CANDIDATE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "No Candidate Chosen",
+    "RUS": "Кандидат не выбран",
+    "POL": "Nie wybrano kandydata",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_CAST_VOTE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Cast vote#!",
+    "RUS": "#T Проголосовать#!",
+    "POL": "#T Oddaj głos#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_SUPPORT",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "#T Support#!",
+    "RUS": "#T Поддержать#!",
+    "POL": "#T Wspieraj#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_VOTE_BUTTON",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[GetPlayer.Custom('GetSuccessionVoteSupport')]",
+    "RUS": "[GetPlayer.Custom('GetSuccessionVoteSupport')]",
+    "POL": "[GetPlayer.Custom('GetSuccessionVoteSupport')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X Not part of my [dynasty|E]#!",
+    "RUS": "@warning_icon! #X Не принадлежит к вашей [Concept( 'dynasty', 'династии' )|E]#!",
+    "POL": "@warning_icon! #X Nie jest częścią mojej [Concept( 'dynasty', 'dynastii' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "\\n$SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY$",
+    "RUS": "\\n$SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY$",
+    "POL": "\\n$SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOMINATE_CANDIDATE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/succession_election_window_l_belarusian.json",
+    "ENG": "[Title.GetCanCharacterControlVoteReason( GetPlayer )][SelectLocalization( ObjectsEqual( Character.GetDynasty, GetPlayer.GetDynasty ), '', 'SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE' )]",
+    "RUS": "[Title.GetCanCharacterControlVoteReason( GetPlayer )][SelectLocalization( ObjectsEqual( Character.GetDynasty, GetPlayer.GetDynasty ), '', 'SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE' )]",
+    "POL": "[Title.GetCanCharacterControlVoteReason( GetPlayer )][SelectLocalization( ObjectsEqual( Character.GetDynasty, GetPlayer.GetDynasty ), '', 'SUCCESSION_ELECTION_WINDOW_MY_CANDIDATE_NOT_MY_DYNASTY_NEWLINE' )]",
+    "BEL": ""
+  }
+]

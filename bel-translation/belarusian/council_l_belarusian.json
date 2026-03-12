@@ -1,0 +1,2522 @@
+[
+  {
+    "KEY": "COUNCIL_SAME_CHARACTER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot be Councillor and Council owner at the same time.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может быть одновременно советником и главой совета.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może zasiadać we własnej radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_NOT_LIEGE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] must be the liege of [TARGET_CHARACTER.GetShortUIName] to assign it as Councillor.",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'должна', 'должен' )] быть сюзереном персонажа [TARGET_CHARACTER.GetShortUIName], чтобы назначить [TARGET_CHARACTER.GetHerHis] советником.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] musi być na dworze [TARGET_CHARACTER.GetShortUINameNotMe], aby przydzielić go jako radnego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_NOT_VALID_POSITION",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot have a $NAME$ councillor in the council.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может иметь советника с должностью $NAME$.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może mieć radnego $NAME$ w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_NOT_VALID_CHARACTER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "The $NAME$ position is not valid for [CHARACTER.GetShortUIName].",
+    "RUS": "$NAME$ не годится для [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )].",
+    "POL": "Stanowisko $NAME$ nie jest właściwe dla [CHARACTER.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_NOT_VALID_TASK",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Trying to assign an invalid task",
+    "RUS": "Попытка назначить неверное задание",
+    "POL": "Próba przypisania nieprawidłowego zadania",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_POSITION_FILLED",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] Council already has a $NAME$",
+    "RUS": "В совете персонажа [CHARACTER.GetShortUIName] уже есть $NAME$",
+    "POL": "Rada [CHARACTER.GetShortUINameNotMe] posiada już $NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_TAKE_NO_POSITION",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot take [TARGET_CHARACTER.GetShortUINamePossessive] Council position because [TARGET_CHARACTER.GetSheHe] is not on the Council.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может отнять должность советника: [TARGET_CHARACTER.GetShortUIName] не состоит в совете.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może przejąć stanowiska od postaci [TARGET_CHARACTER.GetShortUINameNotMe], ponieważ nie zasiada w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_SWAP_NO_POSITION",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot swap Council positions with [TARGET_CHARACTER.GetShortUIName] because [TARGET_CHARACTER_2.GetShortUIName] is not on the Council.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может поменяться местами в совете с персонажем [TARGET_CHARACTER.GetShortUIName], поскольку [TARGET_CHARACTER_2.GetShortUIName] не состоит в совете.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może zamienić stanowisk z postacią [TARGET_CHARACTER.GetShortUINameNotMe], ponieważ [TARGET_CHARACTER_2.GetShortUINameNotMe] nie zasiada w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_SWAP_EQUAL",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER_2.GetShortUIName] cannot swap Council positions because they have the same position already.",
+    "RUS": "[TARGET_CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER_2.GetShortUIName] не могут поменяться местами, потому что занимают одинаковую должность.",
+    "POL": "[TARGET_CHARACTER.GetShortUINameNotMe|U] i [TARGET_CHARACTER_2.GetShortUINameNotMe] nie mogą zamieniać się stanowiskami, ponieważ mają one już takie samo stanowisko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_FIRE_NO_COUNCILLOR",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot fire [TARGET_CHARACTER.GetShortUIName] from the Council because [TARGET_CHARACTER.GetSheHe] does not have this Council position.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может уволить персонажа [TARGET_CHARACTER.GetShortUIName] из совета, потому что не имеет нужной должности.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może wyrzucić postaci [TARGET_CHARACTER.GetShortUINameNotMe] ze stanowiska radnego, ponieważ nie piastuje tego stanowiska w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_NOT_LIEGE_TASK",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] must be the liege of [TARGET_CHARACTER.GetShortUIName] to be able to assign [TARGET_CHARACTER.GetHerHim] a task.",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'должна', 'должен' )] быть сюзереном персонажа [TARGET_CHARACTER.GetShortUIName], чтобы назначить задание.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] musi być seniorem postaci [TARGET_CHARACTER.GetShortUINameNotMe], aby przydzielić [Select_CString( TARGET_CHARACTER.IsFemale, 'jej', 'mu' )] zadanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_TASK_COUNCILLOR",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot give a task to [TARGET_CHARACTER.GetShortUIName] because [TARGET_CHARACTER.GetSheHe] does not have a Council position.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не [Select_CString(CHARACTER.IsLocalPlayer, 'можете', 'может' )] дать задание [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ему персонажу', '' )], потому что [Select_CString(TARGET_CHARACTER.IsFemale, 'она', 'он' )] не занимает нужной должности.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może powierzyć zadania postaci [TARGET_CHARACTER.GetShortUINameNotMe], ponieważ nie piastuje stanowiska w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_TAKE_TASK_COUNCIL_TYPE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive] current $ACTUAL_POS$ council position is not the $REQUIRED_POS$ required for the $TASK_NAME$ task.",
+    "RUS": "Нынешняя должность персонажа [CHARACTER.GetShortUIName], $ACTUAL_POS$, не соответствует должности $REQUIRED_POS$, требуемой для задания $TASK_NAME$.",
+    "POL": "Obecne stanowisko postaci [CHARACTER.GetShortUINameNotMe] ($ACTUAL_POS$) to nie jest $REQUIRED_POS$ potrzebny do zadania $TASK_NAME$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_TAKE_TASK_CHARACTER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] does not fit the requirements to perform the $TASK_NAME$ task.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не отвечает требованиям для выполнения задания $TASK_NAME$.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie spełnia wymagań do wykonania zadania $TASK_NAME$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_CANCEL_TASK_COUNCILLOR",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] cannot cancel a task of [TARGET_CHARACTER.GetShortUIName] because does not have a Council position.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не может отменить задание персонажа [TARGET_CHARACTER.GetShortUIName], поскольку не имеет должности в совете.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie może anulować zadania postaci [TARGET_CHARACTER.GetShortUINameNotMe], ponieważ nie zasiada w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCIL_CANT_CANCEL_NO_RUNING",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] is not running any task.",
+    "RUS": "[CHARACTER.GetShortUIName|U] не имеет задания.",
+    "POL": "[CHARACTER.GetShortUINameNotMe|U] nie wykonuje żadnego zadania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_COUNCIL_TASK_TITLE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "#T $TASK$#!",
+    "RUS": "#T $TASK$#!",
+    "POL": "#T $TASK$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_NO_CHARACTER_IN_POSITION",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "No $POSITION$",
+    "RUS": "$POSITION$ отсутствует",
+    "POL": "Nie $POSITION$",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_COUNCIL_TASK_SEND_COUNTY",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [COUNTY.GetTitle.GetName]",
+    "RUS": "[COUNCIL_TASK.GetPositionName] получит задание: [COUNCIL_TASK_TYPE.GetName]. Цель — [COUNTY.GetTitle.GetName]",
+    "POL": "[COUNCIL_TASK.GetPositionName]: wyślij do realizacji zadania „[COUNCIL_TASK_TYPE.GetName]” na ziemie: [COUNTY.GetTitle.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_COUNCIL_TASK_SEND_COURT",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [TARGET.GetShortUINamePossessive] court",
+    "RUS": "[COUNCIL_TASK.GetPositionName] получит задание: [COUNCIL_TASK_TYPE.GetName]. Цель — двор персонажа [TARGET.GetShortUIName]",
+    "POL": "Wyślij [COUNCIL_TASK.GetPositionNamePossesive] na zadanie „[COUNCIL_TASK_TYPE.GetName]” na dwór postaci [TARGET.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "START_COUNCIL_TASK_ABORTED",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "\\n@warning_icon! #X Your [COUNCIL_TASK.GetPositionNamePossesive] current Task ('[COUNCIL_TASK.GetTaskType.GetName]') will be aborted.#!",
+    "RUS": "\\n@warning_icon! #X Выполнение задания, которым занимается [COUNCIL_TASK.GetPositionNamePossesive] («[COUNCIL_TASK.GetTaskType.GetName]») будет прервано.#!",
+    "POL": "\\n@warning_icon! #X Aktualne zadanie [COUNCIL_TASK.GetPositionNamePossesive|l] („[COUNCIL_TASK.GetTaskType.GetName]”) zostanie przerwane.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_TASK_ALREADY_IN_PROCESS",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "The task is already being executed",
+    "RUS": "Задание уже выполняется",
+    "POL": "Zadanie jest już realizowane",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_TIMEOUT_FIRE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "@warning_icon! #X The [councillor|E] cannot be fired until [DATE.GetString]#!",
+    "RUS": "@warning_icon! #X [councillor|E] не может лишиться должности до [DATE.GetString]#!",
+    "POL": "@warning_icon! #X [councillor|E] nie może być zwolniony przed [DATE.GetString]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_TIMEOUT_REASSIGN",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "@warning_icon! #X The [councillor|E] cannot be reassigned until [DATE.GetString]#!",
+    "RUS": "@warning_icon! #X Невозможно сменить должность [Concept( 'councillor', 'советника' )|E] до [DATE.GetString]#!",
+    "POL": "@warning_icon! #X [councillor|E] nie może być ponownie wybrany przed [DATE.GetString]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_ALREADY_CHANGED",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "@warning_icon! #X The [councillor|E] has already been fired or assigned once#!",
+    "RUS": "@warning_icon! #X [councillor|E] уже был однажды уволен или назначен#!",
+    "POL": "@warning_icon! #X [councillor|E] został już raz wyrzucony ze stanowiska lub ponownie przydzielony#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_CAN_CHANGE_ONCE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "@warning_icon! #X Once appointed as [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] cannot be fired or assigned another position#!",
+    "RUS": "@warning_icon! #X Если [CHARACTER.GetShortUIName] займет пост «[COUNCIL_POSITION_TYPE.GetName|V]», уволить [CHARACTER.GetHerHis] или назначить на другой пост будет невозможно#!",
+    "POL": "@warning_icon! #X Raz powołany jako [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUINameNotMe] nie może być zwolniony lub przydzielony gdzie indziej#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_CLICK_TO_HIRE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Click to appoint a [ActiveCouncilTask.GetPositionName|E]",
+    "RUS": "Нажмите, чтобы назначить на должность [ActiveCouncilTask.GetPositionName|El]",
+    "POL": "Kliknij, aby wyznaczyć [Select_CString(EqualTo_string(ActiveCouncilTask.GetPositionName, '$councillor_steward|q$'), 'zarządcę', ActiveCouncilTask.GetPositionNamePossesive)|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_BLANK_LIEGE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Your [liege|E] has no [ActiveCouncilTask.GetPositionName|E]",
+    "RUS": "В совете вашего [Concept('liege', 'сюзерена' )|E] отсутствует [ActiveCouncilTask.GetPositionName|E]",
+    "POL": "Twój [liege|El] nie posiada [ActiveCouncilTask.GetPositionNamePossesive|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_SPOUSE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [available_spouse|E]",
+    "RUS": "Нет [Concept('available_spouse', 'доступного супруга' )|E]",
+    "POL": "Nie masz [Concept( 'available_spouse', 'dostępnego małżonka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_LIEGE_MISSING_SPOUSE",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CouncilWindow.GetCharacter.GetShortUIName] has no [available_spouse|E]",
+    "RUS": "У [Select_CString(CouncilWindow.GetCharacter.IsLocalPlayer, '', 'персонажа ' )][CouncilWindow.GetCharacter.GetNamePossessiveOrMy][Select_CString(CouncilWindow.GetCharacter.IsLocalPlayer, 'его персонажа', '' )] нет [Concept('available_spouse',Select_CString(CouncilWindow.GetCharacter.IsFemale, 'свободного супруга', 'свободной супруги' ))|E]",
+    "POL": "[CouncilWindow.GetCharacter.GetShortUINameNotMe] nie posiada [Concept('available_spouse', 'dostępnego małżonka')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_WILL_BE_ASSIGNED",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "The [councillor|E] is about to be assigned",
+    "RUS": "Будет назначен [councillor|El]",
+    "POL": "[councillor|E] zostanie wkrótce przydzielony",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_VIZIER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [vizier|E] or [spouse|E]",
+    "RUS": "У вас нет [Concept( 'vizier', 'визиря' )|E] или [Concept( 'spouse', 'супруга' )|E]",
+    "POL": "Nie posiadasz [Concept( 'vizier', 'wezyra' )|E] ani [Concept( 'spouse', 'małżonka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_LIEGE_MISSING_VIZIER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "[CouncilWindow.GetCharacter.GetShortUIName] has no [vizier|E] or [spouse|E]",
+    "RUS": "У [Select_CString(CouncilWindow.GetCharacter.IsLocalPlayer, '', 'персонажа ' )][CouncilWindow.GetCharacter.GetNamePossessiveOrMy][Select_CString(CouncilWindow.GetCharacter.IsLocalPlayer, 'его персонажа', '' )] отсутствует [vizier|El] или [spouse|El]",
+    "POL": "[CouncilWindow.GetCharacter.GetShortUINameNotMe] nie posiada [Concept( 'vizier', 'wezyra' )|E] ani [Concept( 'spouse', 'małżonka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_CHANCELLOR",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [chancellor|E]",
+    "RUS": "У вас отсутствует [chancellor|El]",
+    "POL": "Nie masz [Concept( 'chancellor', 'kanclerza' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_MARSHAL",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [marshal|E]",
+    "RUS": "У вас отсутствует [marshal|El]",
+    "POL": "Nie masz [Concept( 'marshal', 'marszałka' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_STEWARD",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [steward|E]",
+    "RUS": "У вас отсутствует [steward|El]",
+    "POL": "Nie masz [Concept( 'steward', 'zarządcy' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_SPYMASTER",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [spymaster|E]",
+    "RUS": "У вас отсутствует [spymaster|El]",
+    "POL": "Nie masz [Concept( 'spymaster', 'mistrza szpiegów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNCILLOR_MISSING_COURT_CHAPLAIN",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "You have no [court_chaplain|E]",
+    "RUS": "У вас отсутствует [court_chaplain|El]",
+    "POL": "Nie masz [Concept( 'court_chaplain', 'nadwornego kapelana' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "learn_on_the_job_modifier",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$learn_on_the_job_perk_name$",
+    "RUS": "$learn_on_the_job_perk_name$",
+    "POL": "$learn_on_the_job_perk_name$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_coregent",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Coregent",
+    "RUS": "Сорегент",
+    "POL": "Współregent",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_coregent_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Coregent's",
+    "RUS": "Сорегент",
+    "POL": "Współregenta",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chancellor",
+    "RUS": "Канцлер",
+    "POL": "Kanclerz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chancellor's",
+    "RUS": "Канцлер",
+    "POL": "Kanclerza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_chancellor_desc$",
+    "RUS": "$game_concept_chancellor_desc$",
+    "POL": "$game_concept_chancellor_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Steward",
+    "RUS": "Управляющий",
+    "POL": "Zarządca",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Steward's",
+    "RUS": "Управляющий",
+    "POL": "Zarządcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_steward_desc$",
+    "RUS": "$game_concept_steward_desc$",
+    "POL": "$game_concept_steward_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Marshal",
+    "RUS": "Маршал",
+    "POL": "Marszałek",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Marshal's",
+    "RUS": "Маршал",
+    "POL": "Marszałka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_marshal_desc$",
+    "RUS": "$game_concept_marshal_desc$",
+    "POL": "$game_concept_marshal_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Spymaster",
+    "RUS": "Тайный советник",
+    "POL": "Mistrz szpiegów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Spymaster's",
+    "RUS": "Тайный советник",
+    "POL": "Mistrza szpiegów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_spymaster_desc$",
+    "RUS": "$game_concept_spymaster_desc$",
+    "POL": "$game_concept_spymaster_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Chaplain",
+    "RUS": "Придворный капеллан",
+    "POL": "Nadworny kapelan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Chaplain's",
+    "RUS": "Придворный капеллан",
+    "POL": "Nadwornego kapelana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_court_chaplain_desc$",
+    "RUS": "$game_concept_court_chaplain_desc$",
+    "POL": "$game_concept_court_chaplain_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_vizier",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Confidant",
+    "RUS": "Наперсник",
+    "POL": "Powiernik",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_vizier_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "As a [clan_government|E] Ruler you can decide to assign either your [vizier|E] or any of your [spouses|E] as your Confidant. Whoever you choose will support you in your daily tasks.",
+    "RUS": "Вы как правитель с [Concept( 'clan_government', 'клановым строем' )|E] можете назначить [Concept( 'vizier', 'визиря' )|E] или любую из своих [Concept( 'spouses', 'супруг' )|E] своим наперсником. Выбранный вами персонаж будет поддерживать вас в рутинных делах.",
+    "POL": "Jako władca [Concept('clan_government', 'rządu klanowego')|E] możesz wyznaczyć swojego [Concept('vizier', 'wezyra')|E] lub któregokolwiek ze swoich [Concept('spouses', 'małżonków')|E] jako swojego powiernika. Ktokolwiek zostanie wybrany, będzie wspierać cię w codziennych zadaniach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_vizier_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Confidant's",
+    "RUS": "Наперсник",
+    "POL": "Powiernika",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kurultai Member",
+    "RUS": "Участник курултая",
+    "POL": "Członek kurułtaju",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kurultai Member's",
+    "RUS": "Участник курултая",
+    "POL": "Członka kurułtaju",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_1",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai$",
+    "RUS": "$councillor_kurultai$",
+    "POL": "$councillor_kurultai$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_1_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai_possessive$",
+    "RUS": "$councillor_kurultai_possessive$",
+    "POL": "$councillor_kurultai_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_1_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_kurultai_desc$",
+    "RUS": "$game_concept_kurultai_desc$",
+    "POL": "$game_concept_kurultai_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_2",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai$",
+    "RUS": "$councillor_kurultai$",
+    "POL": "$councillor_kurultai$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_2_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai_possessive$",
+    "RUS": "$councillor_kurultai_possessive$",
+    "POL": "$councillor_kurultai_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_2_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_kurultai_desc$",
+    "RUS": "$game_concept_kurultai_desc$",
+    "POL": "$game_concept_kurultai_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_3",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai$",
+    "RUS": "$councillor_kurultai$",
+    "POL": "$councillor_kurultai$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_3_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai_possessive$",
+    "RUS": "$councillor_kurultai_possessive$",
+    "POL": "$councillor_kurultai_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_3_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_kurultai_desc$",
+    "RUS": "$game_concept_kurultai_desc$",
+    "POL": "$game_concept_kurultai_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_4",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai$",
+    "RUS": "$councillor_kurultai$",
+    "POL": "$councillor_kurultai$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_4_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_kurultai_possessive$",
+    "RUS": "$councillor_kurultai_possessive$",
+    "POL": "$councillor_kurultai_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_kurultai_4_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_kurultai_desc$",
+    "RUS": "$game_concept_kurultai_desc$",
+    "POL": "$game_concept_kurultai_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop",
+    "RUS": "Викарный епископ",
+    "POL": "Biskup sufragan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop's",
+    "RUS": "Викарный епископ",
+    "POL": "Biskupa sufragana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop",
+    "RUS": "Епископ",
+    "POL": "Biskup",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop's",
+    "RUS": "Епископ",
+    "POL": "Biskupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Archbishop",
+    "RUS": "Архиепископ",
+    "POL": "Arcybiskup",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Archbishop's",
+    "RUS": "Архиепископ",
+    "POL": "Arcybiskupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch",
+    "RUS": "Патриарх",
+    "POL": "Patriarcha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_empire_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch",
+    "RUS": "Матриарх",
+    "POL": "Matrona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch's",
+    "RUS": "Патриарх",
+    "POL": "Patriarchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_theocrat_empire_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch's",
+    "RUS": "Матриарх",
+    "POL": "Matrony",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop",
+    "RUS": "Викарный епископ",
+    "POL": "Biskup sufragan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop's",
+    "RUS": "Викарный епископ",
+    "POL": "Biskupa sufragana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop",
+    "RUS": "Епископ",
+    "POL": "Biskup",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop's",
+    "RUS": "Епископ",
+    "POL": "Biskupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Archbishop",
+    "RUS": "Архиепископ",
+    "POL": "Arcybiskup",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Archbishop's",
+    "RUS": "Архиепископ",
+    "POL": "Arcybiskupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch",
+    "RUS": "Патриарх",
+    "POL": "Patriarcha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_empire_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch",
+    "RUS": "Матриарх",
+    "POL": "Matrona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch's",
+    "RUS": "Патриарх",
+    "POL": "Patriarchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_christian_empire_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch's",
+    "RUS": "Матриарх",
+    "POL": "Matrony",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop",
+    "RUS": "Викарный епископ",
+    "POL": "Biskup sufragan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Suffragan Bishop's",
+    "RUS": "Викарный епископ",
+    "POL": "Biskupa sufragana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop",
+    "RUS": "Епископ",
+    "POL": "Biskup",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Bishop's",
+    "RUS": "Епископ",
+    "POL": "Biskupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch",
+    "RUS": "Патриарх",
+    "POL": "Patriarcha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_kingdom_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch",
+    "RUS": "Матриарх",
+    "POL": "Matrona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch's",
+    "RUS": "Патриарх",
+    "POL": "Patriarchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_kingdom_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch's",
+    "RUS": "Матриарх",
+    "POL": "Matrony",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch",
+    "RUS": "Патриарх",
+    "POL": "Patriarcha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_empire_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch",
+    "RUS": "Матриарх",
+    "POL": "Matrona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Patriarch's",
+    "RUS": "Патриарх",
+    "POL": "Patriarchy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_orthodox_empire_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Matriarch's",
+    "RUS": "Матриарх",
+    "POL": "Matrony",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Imam",
+    "RUS": "Придворный имам",
+    "POL": "Nadworny imam",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Imam's",
+    "RUS": "Придворный имам",
+    "POL": "Nadwornego imama",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mufti",
+    "RUS": "Муфтий",
+    "POL": "Mufti",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mufti's",
+    "RUS": "Муфтий",
+    "POL": "Muftiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Allamah",
+    "RUS": "Аллама",
+    "POL": "Allamah",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Allamah's",
+    "RUS": "Аллама",
+    "POL": "Allamaha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Allamah",
+    "RUS": "Великий аллама",
+    "POL": "Wielki allamah",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_islam_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Allamah's",
+    "RUS": "Великий аллама",
+    "POL": "Wielkiego allamaha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Qadi",
+    "RUS": "Кади",
+    "POL": "Kadi",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Qadi's",
+    "RUS": "Кади",
+    "POL": "Kadiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Ayatollah",
+    "RUS": "Аятолла",
+    "POL": "Ajatollah",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Ayatollah's",
+    "RUS": "Аятолла",
+    "POL": "Ajatollaha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Ayatollah",
+    "RUS": "Великий аятолла",
+    "POL": "Wielki ajatollah",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_ismaili_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Ayatollah's",
+    "RUS": "Великий аятолла",
+    "POL": "Wielkiego ajatollaha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Peshimam",
+    "RUS": "Пешимам",
+    "POL": "Peszimam",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Peshimam's",
+    "RUS": "Пешимам",
+    "POL": "Peshimamy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Pîr",
+    "RUS": "Пир",
+    "POL": "Pîr",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Pîr's",
+    "RUS": "Пир",
+    "POL": "Pîry",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Sheikh",
+    "RUS": "Шейх",
+    "POL": "Szejk",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Sheikh's",
+    "RUS": "Шейх",
+    "POL": "Sheikha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baba Sheikh",
+    "RUS": "Баба шейх",
+    "POL": "Baba Szejk",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_yazidi_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baba Sheikh's",
+    "RUS": "Баба шейх",
+    "POL": "Baba Sheikha",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_bon_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Banchenpo",
+    "RUS": "Банченпо",
+    "POL": "Panczen",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_bon_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Banchenpo's",
+    "RUS": "Банченпо",
+    "POL": "Panczena",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Upadhyaya",
+    "RUS": "Упадхьяя",
+    "POL": "Upadhjaja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Upadhyayani",
+    "RUS": "Упадхьяяни",
+    "POL": "Upadhjaja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Upadhyaya's",
+    "RUS": "Упадхьяя",
+    "POL": "Upadhjaja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Upadhyayani's",
+    "RUS": "Упадхьяяни",
+    "POL": "Upadhjaji",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Purohit",
+    "RUS": "Пурохита",
+    "POL": "Purohit",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Purohit's",
+    "RUS": "Пурохита",
+    "POL": "Purohity",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Rajpurohit",
+    "RUS": "Раджпурохита",
+    "POL": "Radźpurohit",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Rajpurohit's",
+    "RUS": "Раджпурохита",
+    "POL": "Radźpurohity",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Marajpurohit",
+    "RUS": "Мараджпурохита",
+    "POL": "Maradżpurohit",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhism_religion_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Marajpurohit's",
+    "RUS": "Мараджпурохита",
+    "POL": "Maradżpurohit",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_dualism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Didaskalos",
+    "RUS": "Дидаскал",
+    "POL": "Didaskalos",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_dualism_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Didaskalos",
+    "RUS": "Дидаскал",
+    "POL": "Didaskalos",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_dualism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Didaskalos'",
+    "RUS": "Дидаскал",
+    "POL": "Didaskalosa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_dualism_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Didaskalos'",
+    "RUS": "Дидаскал",
+    "POL": "Didaskalosa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Godi",
+    "RUS": "Годи",
+    "POL": "Godi",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Gydja",
+    "RUS": "Гидья",
+    "POL": "Gydja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Godi's",
+    "RUS": "Годи",
+    "POL": "Godi’a",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Gydja's",
+    "RUS": "Гидьи",
+    "POL": "Gydja’a",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Hofgoði",
+    "RUS": "Ховгоди",
+    "POL": "Hofgoði",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Hofgoði's",
+    "RUS": "Ховгоди",
+    "POL": "Hofgoði",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Riksgoði",
+    "RUS": "Риксгоди",
+    "POL": "Riksgoði",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Riksgoði's",
+    "RUS": "Риксгоди",
+    "POL": "Riksgoði’a",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kjárrgoði",
+    "RUS": "Кьяргоди",
+    "POL": "Kjárrgoði",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_germanic_religion_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kjárrgoði's",
+    "RUS": "Кьяргоди",
+    "POL": "Kjárrgoði’a",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Flamen",
+    "RUS": "Фламин",
+    "POL": "Flamen",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vestal",
+    "RUS": "Весталка",
+    "POL": "Vestalis",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Flamen's",
+    "RUS": "Фламин",
+    "POL": "Flamini",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vestal's",
+    "RUS": "Весталка",
+    "POL": "Vestali",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Pontifex",
+    "RUS": "Понтифик",
+    "POL": "Pontyfik",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Pontifex's",
+    "RUS": "Понтифик",
+    "POL": "Pontyfika",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Oracle",
+    "RUS": "Оракул",
+    "POL": "Wyrocznia",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_kingdom_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Sybil",
+    "RUS": "Сивилла",
+    "POL": "Sybilla",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Oracle's",
+    "RUS": "Оракул",
+    "POL": "Wyroczni",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_hellenism_religion_kingdom_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Sybil's",
+    "RUS": "Сивилла",
+    "POL": "Sybilli",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kohen",
+    "RUS": "Коген",
+    "POL": "Kohen",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Kohen's",
+    "RUS": "Коген",
+    "POL": "Kohena",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Rabban",
+    "RUS": "Раввин",
+    "POL": "Rabban",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Rabban's",
+    "RUS": "Раввин",
+    "POL": "Rabbana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Nasi",
+    "RUS": "Наси",
+    "POL": "Nasi",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Nasi's",
+    "RUS": "Наси",
+    "POL": "Nasiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_empire",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Gadol",
+    "RUS": "Гадол",
+    "POL": "Gadol",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_judaism_religion_empire_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Gadol's",
+    "RUS": "Гадол",
+    "POL": "Gadola",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_magyarism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Táltos",
+    "RUS": "Талтош",
+    "POL": "Táltos",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_magyarism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Táltos'",
+    "RUS": "Талтоша",
+    "POL": "Táltosa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Shaman",
+    "RUS": "Придворный шаман",
+    "POL": "Nadworny Szaman",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Shaman's",
+    "RUS": "Придворный шаман",
+    "POL": "Nadwornego Szamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Shaman",
+    "RUS": "Шаман",
+    "POL": "Szaman",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Shaman's",
+    "RUS": "Шаман",
+    "POL": "Szamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Shaman",
+    "RUS": "Верховный шаман",
+    "POL": "Najwyższy szaman",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_kingdom_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_court_chaplain_paganism_religion_kingdom$",
+    "RUS": "$councillor_court_chaplain_paganism_religion_kingdom$",
+    "POL": "$councillor_court_chaplain_paganism_religion_kingdom$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Shaman's",
+    "RUS": "Верховный шаман",
+    "POL": "Najwyższego szamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_paganism_religion_kingdom_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_court_chaplain_paganism_religion_kingdom_possessive$",
+    "RUS": "$councillor_court_chaplain_paganism_religion_kingdom_possessive$",
+    "POL": "$councillor_court_chaplain_paganism_religion_kingdom_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Seer",
+    "RUS": "Придворный провидец",
+    "POL": "Nadworny jasnowidz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Seeress",
+    "RUS": "Придворная провидица",
+    "POL": "Nadworna jasnowidzka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Seer's",
+    "RUS": "Придворный провидец",
+    "POL": "Nadwornego jasnowidza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Seeress'",
+    "RUS": "Придворная провидица",
+    "POL": "Nadwornej jasnowidzki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vaidilė",
+    "RUS": "Вайделот",
+    "POL": "Wajdelota",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_duchy_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vaidilutė",
+    "RUS": "Вайделотка",
+    "POL": "Wajdelotka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vaidilė's",
+    "RUS": "Вайделот",
+    "POL": "Wajdeloty",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_baltic_religion_duchy_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vaidilutė",
+    "RUS": "Вайделотка",
+    "POL": "Wajdelotki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Zhrets",
+    "RUS": "Жрец",
+    "POL": "Żerca",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_duchy_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Zhritsa",
+    "RUS": "Жрица",
+    "POL": "Żerczyni",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Zhrets'",
+    "RUS": "Жрец",
+    "POL": "Żercy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_duchy_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Zhritsa's",
+    "RUS": "Жрица",
+    "POL": "Żerczyni",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Volkhv",
+    "RUS": "Волхв",
+    "POL": "Wołchw",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_kingdom_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vedunya",
+    "RUS": "Ворожея",
+    "POL": "Wiedunia",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Volkhv's",
+    "RUS": "Волхв",
+    "POL": "Wołchwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_slavic_religion_kingdom_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Vedunya's",
+    "RUS": "Ворожея",
+    "POL": "Wołchwy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_finno_ugric_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Noaidi",
+    "RUS": "Нойда",
+    "POL": "Noaidi",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_finno_ugric_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Noaidi's",
+    "RUS": "Нойда",
+    "POL": "Noaidiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priest",
+    "RUS": "Придворный священник",
+    "POL": "Nadworny Kapłan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_county_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priestess",
+    "RUS": "Придворная священница",
+    "POL": "Nadworna Kapłanka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priest's",
+    "RUS": "Придворный священник",
+    "POL": "Nadwornego Kapłana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_county_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priestess'",
+    "RUS": "Придворная священница",
+    "POL": "Nadwornej Kapłanki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Libationer",
+    "RUS": "Возливающий",
+    "POL": "Libacjonista",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Libationer's",
+    "RUS": "Возливающий",
+    "POL": "Libacjonista",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Libationer",
+    "RUS": "Верховный возливающий",
+    "POL": "Wielki Libacjonista",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_taoism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Libationer's",
+    "RUS": "Верховный возливающий",
+    "POL": "Wielkiego Libacjonisty",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_tengrism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Shaman",
+    "RUS": "Шаман",
+    "POL": "Szaman",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_tengrism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Shaman's",
+    "RUS": "Шаман",
+    "POL": "Szamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_tengrism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Shaman",
+    "RUS": "Верховный шаман",
+    "POL": "Wielki szaman",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_tengrism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "High Shaman's",
+    "RUS": "Верховный шаман",
+    "POL": "Największego szamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Hogon",
+    "RUS": "Огон",
+    "POL": "Hogon",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Hogon's",
+    "RUS": "Огон",
+    "POL": "Hogona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_bori_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Adjingi",
+    "RUS": "Аджинги",
+    "POL": "Adżingi",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_bori_religion_duchy_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Magadja",
+    "RUS": "Магаджа",
+    "POL": "Magadja",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_bori_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Adjingi's",
+    "RUS": "Аджинги",
+    "POL": "Adżingiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_bori_religion_duchy_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Magadja's",
+    "RUS": "Магаджи",
+    "POL": "Magadji",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_roog_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Saltigue",
+    "RUS": "Салтигуе",
+    "POL": "Saltiki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_west_african_roog_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Saltigue's",
+    "RUS": "Салтигуе",
+    "POL": "Saltiki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_county",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Herbad",
+    "RUS": "Хирбад",
+    "POL": "Herbad",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_county_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Herbad's",
+    "RUS": "Хирбад",
+    "POL": "Herbada",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mobed",
+    "RUS": "Мобед",
+    "POL": "Mobed",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_duchy_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mobedyar",
+    "RUS": "Мобедъяр",
+    "POL": "Mobediara",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mobed's",
+    "RUS": "Мобед",
+    "POL": "Mobeda",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_duchy_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Mobedyar's",
+    "RUS": "Мобедъяр",
+    "POL": "Mobediary",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Dastur",
+    "RUS": "Дастур",
+    "POL": "Dastur",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_kingdom_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Dastuyar",
+    "RUS": "Дастуяр",
+    "POL": "Dastujar",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Dastur's",
+    "RUS": "Дастур",
+    "POL": "Dastura",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zoroastrianism_religion_kingdom_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Dastuyar's",
+    "RUS": "Дастуяр",
+    "POL": "Dastujari",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zunism_religion_duchy",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Diviner",
+    "RUS": "Предсказатель",
+    "POL": "Wróżbita",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zunism_religion_duchy_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Diviner's",
+    "RUS": "Предсказатель",
+    "POL": "Wróżbity",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zunism_religion_kingdom",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Diviner",
+    "RUS": "Великий предсказатель",
+    "POL": "Wielki Wróżbita",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_zunism_religion_kingdom_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Diviner's",
+    "RUS": "Великий предсказатель",
+    "POL": "Wielkiego Wróżbity",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_mandala_government",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Priest",
+    "RUS": "Верховный священник",
+    "POL": "Główny kapłan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_mandala_government_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Priest's",
+    "RUS": "Верховный священник",
+    "POL": "Głównego kapłana",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_mandala_government_female",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Priestess",
+    "RUS": "Верховная священница",
+    "POL": "Główna kapłanka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_mandala_government_female_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Priestess'",
+    "RUS": "Верховная священница",
+    "POL": "Głównej kapłanki",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Chancellor",
+    "RUS": "Старший канцлер",
+    "POL": "Wielki kanclerz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Chancellor's",
+    "RUS": "Старший канцлер",
+    "POL": "Wielkiego kanclerza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "General-in-Chief",
+    "RUS": "Главнокомандующий",
+    "POL": "Naczelny dowódca",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "General-in-Chief's",
+    "RUS": "Главнокомандующий",
+    "POL": "Naczelnego dowódcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Minister of Revenue",
+    "RUS": "Министр доходов",
+    "POL": "Minister dochodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Minister of Revenue's",
+    "RUS": "Министр доходов",
+    "POL": "Ministra dochodów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Imperial Censor",
+    "RUS": "Имперский цензор",
+    "POL": "Cesarski cenzor",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Imperial Censor's",
+    "RUS": "Имперский цензор",
+    "POL": "Cesarskiego cenzora",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Minister of Rites",
+    "RUS": "Министр обрядов",
+    "POL": "Minister rytuałów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Minister of Rites'",
+    "RUS": "Министр обрядов",
+    "POL": "Ministra rytuałów",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_non_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_chancellor_celestial_government_imperial$",
+    "RUS": "$councillor_chancellor_celestial_government_imperial$",
+    "POL": "$councillor_chancellor_celestial_government_imperial$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_non_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$councillor_chancellor_celestial_government_imperial_possessive$",
+    "RUS": "$councillor_chancellor_celestial_government_imperial_possessive$",
+    "POL": "$councillor_chancellor_celestial_government_imperial_possessive$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_non_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Treasurer",
+    "RUS": "Великий казначей",
+    "POL": "Wielki skarbnik",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_non_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Treasurer's",
+    "RUS": "Великий казначей",
+    "POL": "Wielkiego skarbnika",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_non_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand General",
+    "RUS": "Великий полководец",
+    "POL": "Wielki generał",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_non_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand General's",
+    "RUS": "Великий полководец",
+    "POL": "Wielkiego generała",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_non_celestial_government_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Censor",
+    "RUS": "Великий державный наблюдатель",
+    "POL": "Wielki cenzor",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_non_celestial_government_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Grand Censor's",
+    "RUS": "Великий державный наблюдатель",
+    "POL": "Wielkiego cenzora",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_government_non_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Secretary",
+    "RUS": "Главный секретарь",
+    "POL": "Główny sekretarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_government_non_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Chief Secretary's",
+    "RUS": "Главный секретарь",
+    "POL": "Głównego sekretarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_government_non_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Army Supervisor",
+    "RUS": "Инспектор армий",
+    "POL": "Nadzorca armii",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_government_non_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Army Supervisor's",
+    "RUS": "Инспектор армий",
+    "POL": "Nadzorcy armii",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_government_non_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Fiscal Commissioner",
+    "RUS": "Налоговый комиссар",
+    "POL": "Komisarz finansowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_government_non_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Fiscal Commissioner's",
+    "RUS": "Налоговый комиссар",
+    "POL": "Komisarza finansowego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_government_non_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Investigating Censor",
+    "RUS": "Цензор-следователь",
+    "POL": "Śledczy cenzor",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_government_non_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Investigating Censor's",
+    "RUS": "Цензор-следователь",
+    "POL": "Śledczego cenzora",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_celestial_government_non_imperial",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Ritualist",
+    "RUS": "Знаток ритуалов",
+    "POL": "Rytualista",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_celestial_government_non_imperial_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Ritualist's",
+    "RUS": "Знаток ритуалов",
+    "POL": "Rytualisty",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhist_chinese",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Héshàng",
+    "RUS": "Хэшан",
+    "POL": "Héshàng",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhist_chinese_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Héshàng's",
+    "RUS": "Хэшана",
+    "POL": "Héshànga",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_daoist_chinese",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Taozhang",
+    "RUS": "Даочжан",
+    "POL": "Taozhang",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_daoist_chinese_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Taozhang's",
+    "RUS": "Даочжана",
+    "POL": "Taozhanga",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_confucian_chinese",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Lisheng",
+    "RUS": "Лишэн",
+    "POL": "Lisheng",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_confucian_chinese_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Lisheng's",
+    "RUS": "Лишэна",
+    "POL": "Lishenga",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhist_tibetan",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Banchenpo ",
+    "RUS": "Банченпо",
+    "POL": "Banchenpo",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_buddhist_tibetan_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Banchenpo's",
+    "RUS": "Банченпо",
+    "POL": "Banchenpo",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_family_head",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Private Secretary",
+    "RUS": "Личный секретарь",
+    "POL": "Prywatny sekretarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_chancellor_celestial_family_head_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Private Secretary's",
+    "RUS": "Личного секретаря",
+    "POL": "Prywatnego sekretarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_family_head",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Guard Captain",
+    "RUS": "Капитан гвардии",
+    "POL": "Kapitan straży",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_marshal_celestial_family_head_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Guard Captain's",
+    "RUS": "Капитана гвардии",
+    "POL": "Kapitana straży",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_family_head",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Estate Manager",
+    "RUS": "Управляющий поместьем",
+    "POL": "Zarządca majątku",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_steward_celestial_family_head_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Estate Manager's",
+    "RUS": "Управляющего поместьем",
+    "POL": "Zarządcy majątku",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_family_head",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Observer",
+    "RUS": "Наблюдатель",
+    "POL": "Obserwator",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spymaster_celestial_family_head_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Observer's",
+    "RUS": "Наблюдателя",
+    "POL": "Obserwatora",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Spouse",
+    "RUS": "Супруг",
+    "POL": "Małżonek",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_desc",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "$game_concept_spouse_desc$",
+    "RUS": "$game_concept_spouse_desc$",
+    "POL": "$game_concept_spouse_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_prince_consort",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Prince Consort",
+    "RUS": "Консорт",
+    "POL": "Książę małżonek",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_husband",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Husband",
+    "RUS": "Муж",
+    "POL": "Mąż",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_empress",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Empress",
+    "RUS": "Императрица",
+    "POL": "Cesarzowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_queen",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Queen",
+    "RUS": "Королева",
+    "POL": "Królowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_duchess",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Duchess",
+    "RUS": "Герцогиня",
+    "POL": "Księżna",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_countess",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Countess",
+    "RUS": "Графиня",
+    "POL": "Hrabina",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_baroness",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baroness",
+    "RUS": "Баронесса",
+    "POL": "Baronowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_emperor",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Emperor",
+    "RUS": "Император",
+    "POL": "Cesarz",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_king",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "King",
+    "RUS": "Король",
+    "POL": "Król",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_duke",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Duke",
+    "RUS": "Герцог",
+    "POL": "Książę",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_count",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Count",
+    "RUS": "Граф",
+    "POL": "Hrabia",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_baron",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baron",
+    "RUS": "Барон",
+    "POL": "Baron",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_consort",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Consort",
+    "RUS": "Консорт",
+    "POL": "Małżonek",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Spouse's",
+    "RUS": "Супруга",
+    "POL": "Małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_prince_consort_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Prince Consort's",
+    "RUS": "Консорта",
+    "POL": "Księcia małżonka",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_husband_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Husband's",
+    "RUS": "Мужа",
+    "POL": "Męża",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_empress_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Empress'",
+    "RUS": "Императрицы",
+    "POL": "Cesarzowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_queen_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Queen's",
+    "RUS": "Королевы",
+    "POL": "Królowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_duchess_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Duchess'",
+    "RUS": "Герцогини",
+    "POL": "Księżnej",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_countess_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Countess'",
+    "RUS": "Графини",
+    "POL": "Hrabiny",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_baroness_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baroness'",
+    "RUS": "Баронессы",
+    "POL": "Baronowej",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_emperor_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Emperor's",
+    "RUS": "Императора",
+    "POL": "Cesarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_king_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "King's",
+    "RUS": "Короля",
+    "POL": "Króla",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_duke_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Duke's",
+    "RUS": "Герцога",
+    "POL": "Księcia",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_count_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Count's",
+    "RUS": "Графа",
+    "POL": "Hrabiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_spouse_baron_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Baron's",
+    "RUS": "Барона",
+    "POL": "Barona",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_leaving_court_message_title",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Councillor Left Court",
+    "RUS": "Советник покинул двор",
+    "POL": "Radny opuścił dwór",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_leaving_court_marriage_notification",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your [old_employer.Custom('GetCourtConcept')] as a result of [councillor.GetHerHis] [marriage|E] to a [landed|E] spouse. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!",
+    "RUS": "Ваш[Select_CString(councillor.IsFemale, 'а', '' )] [council_task.GetPositionName|l], [councillor.GetShortUINameNoTooltip|U], [Select_CString(councillor.IsFemale, 'покинула', 'покинул' )] занимаемую должность и ваш [old_employer.Custom('GetCourtConcept')|l], вступив в [Concept('marriage', 'брак')|E] с человеком, [Concept('landed', 'владеющим землей')|E]. #weak ([councillor.GetPrimarySpouse.GetShortUIName|U])#!",
+    "POL": "Osoba służąca u ciebie jako [council_task.GetPositionName|l], [councillor.GetShortUINameNotMeNoTooltip], opuściła stanowisko i twój [old_employer.Custom('GetCourtConcept')|l] w wyniku zawarcia [Concept('marriage', 'małżeństwa')|E] z osobą [landed|El]. #weak ([councillor.GetPrimarySpouse.GetShortUINameNotMe])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_leaving_court_landed_notification",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your [old_employer.Custom('GetCourtConcept')] after gaining a [title|E]. #weak ([councillor.GetPrimaryTitle.GetBaseName|V])#!",
+    "RUS": "Ваш[Select_CString(councillor.IsFemale, 'а', '' )] [council_task.GetPositionName|l], [councillor.GetShortUINameNoTooltip|U], [Select_CString(councillor.IsFemale, 'покинула', 'покинул' )] занимаемую должность и ваш [old_employer.Custom('GetCourtConcept')|l] после получения [Concept('title', 'титула')|E]. #weak ([councillor.GetPrimaryTitle.GetBaseName|V])#!",
+    "POL": "Osoba służąca u ciebie jako [council_task.GetPositionName|l], [councillor.GetShortUINameNotMeNoTooltip], opuściła stanowisko i twój [old_employer.Custom('GetCourtConcept')|l] w wyniku uzyskania [Concept('title', 'tytułu')|E]. #weak ([councillor.GetPrimaryTitle.GetBaseName|V])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_leaving_court_generic_fallback_notification",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Your [old_employer.Custom2('RelationToMeShort', councillor)], [councillor.GetShortUINameNoTooltip|U], has left [councillor.GetHerHis] [council|E] position and your [old_employer.Custom('GetCourtConcept')].",
+    "RUS": "Ваш[Select_CString(councillor.IsFemale, 'а', '' )] [old_employer.Custom2('RelationToMeShort', councillor)|l], [councillor.GetShortUINameNoTooltip|U], [Select_CString(councillor.IsFemale, 'покинула', 'покинул' )] занимаемую должность в [Concept('council', 'совете')|E] и ваш [old_employer.Custom('GetCourtConcept')|l].",
+    "POL": "Osoba służąca u ciebie jako [council_task.GetPositionName|l], [councillor.GetShortUINameNotMeNoTooltip], opuściła stanowisko w [Concept('council', 'radzie')|E] i twój [old_employer.Custom('GetCourtConcept')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_shintoism_religion",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priest",
+    "RUS": "Придворный священник",
+    "POL": "Nadworny kapłan",
+    "BEL": ""
+  },
+  {
+    "KEY": "councillor_court_chaplain_shintoism_religion_possessive",
+    "FILE_PATH": "localization/belarusian/council_l_belarusian.json",
+    "ENG": "Court Priest's",
+    "RUS": "Придворный священник",
+    "POL": "Nadwornego kapłana",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,570 @@
+[
+  {
+    "KEY": "fp1_jomsvikings.0001.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "A Helping Hand from [leader.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]",
+    "RUS": "[leader.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] протягивает руку помощи",
+    "POL": "Pomocna dłoń z miejsca znanego jako [leader.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Quartered in their fortress of [leader.GetCapitalLocation.GetTitle.GetNameNoTier], the [leader.GetPrimaryTitle.GetNameNoTier] are a warrior order devoted to protecting the Old Ways of the [leader.GetFaith.GetName] faith against change, dishonor, and foreign faiths.\\n\\nFor my piety and virtue, [leader.GetTitledFirstName] has sent me a choice of two retainers: [retainer_a.GetFirstName],",
+    "RUS": "[leader.GetPrimaryTitle.GetNameNoTier], живущие в крепости [leader.GetCapitalLocation.GetTitle.GetNameNoTier], — защитников старых традиций. За спинами этих воинов [leader.GetFaith.GetAdjective|l] может не бояться перемен, бесчестия и наступления чужеземных конфессий.\\n\\nЗа моё благочестие и добродетель [leader.GetTitledFirstName] собирается прислать мне одного из двух гвардейцев на выбор: [retainer_a.GetFirstName],",
+    "POL": "Zamieszkali w swojej fortecy [leader.GetCapitalLocation.GetTitle.GetNameNoTier], [leader.GetPrimaryTitle.GetNameNoTier] są wojownikami oddanymi obronie starych zwyczajów wiary [leader.GetFaith.GetName], występującymi przeciwko jej reformacjom i zhańbieniu oraz innym wyznaniom.\\n\\nDoceniając moją pobożność i cnotę, [leader.GetTitledFirstName] przysłał[Select_CString( leader.IsFemale, 'a', '' )] mi [Select_CString( And(retainer_a.IsFemale, retainer_b.IsFemale ), 'dwie doradczynie', Select_CString( Or(retainer_a.IsFemale, retainer_b.IsFemale ), 'dwoje doradców', 'dwóch doradców' ) )]: [retainer_a.GetFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.zealous",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who sacked a hundred churches,",
+    "RUS": "гроза сотни церквей,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a splądrowała', 'y splądrował' )] sto kościołów,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.wrathful",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who once tore a bear clean in two,",
+    "RUS": "кому однажды довелось разорвать медведя пополам,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a raz rozerwała', 'y raz rozerwał' )] niedźwiedzia na pół,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.impatient",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who is quicker than lightning,",
+    "RUS": "чьи движения быстрее молнии,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a jest szybsza', 'y jest szybszy' )] niż błyskawica,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.arrogant",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who would have been the next [leader.GetTitleAsNameNoTooltip],",
+    "RUS": "кого [leader.GetTitleAsNameNoTooltip|l] в будущем видит на своём месте,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a', 'y' )] być może zostanie kimś takim jak [leader.GetTitleAsNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.brave",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who beat a troll in a fist-fight,",
+    "RUS": "чьи кулаки однажды уложили тролля,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a pokonała', 'y pokonał' )] trolla w walce na pięści,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.ambitious",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who wishes to die the most glorious death ever,",
+    "RUS": "чья главная мечта — умереть так, чтобы войти в легенды,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a', 'y' )] chce umrzeć najwspanialszą śmiercią w dziejach,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.diligent",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who never stops training,",
+    "RUS": "чьи тренировки никогда не прекращаются,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a', 'y' )] nigdy nie przestaje trenować,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.gregarious",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who has befriended the gods themselves,",
+    "RUS": "чьи друзья — сами боги,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a zaprzyjaźniła', 'y zaprzyjaźnił' )] się z samymi bogami,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.stubborn",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who tore down a mountain stone by stone,",
+    "RUS": "чьи руки разобрали гору по камешку,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a rozebrała', 'y rozebrał' )] górę kamień po kamieniu,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.fickle",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "whose capricious mind fooled [leader.GetFaith.DevilName] [leader.GetFaith.DevilHerselfHimself],",
+    "RUS": "от чьей непредсказуемости даже [leader.GetFaith.DevilName] остаётся в дураках,",
+    "POL": "które[Select_CString(retainer_a.IsFemale, 'j', 'go' )] niesforny umysł oszukał samego [leader.GetFaith.DevilNamePossessive],",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.vengeful",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who has never let a grudge go unavenged,",
+    "RUS": "чья месть неотвратима,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a', 'y' )] nigdy nie pozostawił[Select_CString(retainer_a.IsFemale, 'a', '' )] urazy niepomszczonej,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.viking",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "who kills ten peasants each day abroad,",
+    "RUS": "кто убивает по десять крестьян в день на чужбине,",
+    "POL": "któr[Select_CString(retainer_a.IsFemale, 'a', 'y' )] podczas łupieżczych najazdów zabija dziesięciu chłopów dziennie,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.connector",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "or [retainer_b.GetFirstName],",
+    "RUS": "или [retainer_b.GetFirstName],",
+    "POL": "oraz [retainer_b.GetFirstName],",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "as well as [leader.GetHerHis] compliments for my devotion.\\n\\nOne shall stay, and the other return to the [leader.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "а также витиевато восхищается моей набожностью.\\n\\nМне можно оставить одного гвардейца, второго же [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] ждёт обратно.",
+    "POL": "i tak jak [leader.GetHerHis] mistrz[Select_CString( leader.IsFemale, 'yni', '' )], docenia moje oddanie bogom.\\n\\nJeden z nich może zostać ze mną, a drugi wróci do [leader.GetPrimaryTitle.GetAdjectiveNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[retainer_a.GetFirstNameNoTooltip] seems a formidable strategist!",
+    "RUS": "[retainer_a.GetFirstNameNoTooltip], похоже, хороший стратег!",
+    "POL": "[retainer_a.GetFirstNameNoTooltip] wydaje się nadzwyczajnym strategiem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "What an imposing warrior [retainer_b.GetFirstNameNoTooltip] is...",
+    "RUS": "[Select_CString(retainer_b.IsFemale, 'Эта', 'Этот' )] [retainer_b.GetFirstNameNoTooltip], похоже, грозный боец.",
+    "POL": "Jakże imponując[Select_CString(retainer_b.IsFemale, 'ą wojowniczką', 'ym wojownikiem' )] jest [retainer_b.GetFirstNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0001.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "I have warriors aplenty already, thanks.",
+    "RUS": "Спасибо, у меня достаточно воинов.",
+    "POL": "Mam już wystarczająco wielu wojowników, dzięki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.t.reformed_norse",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Wroth of the Old Ways",
+    "RUS": "Ярость старых традиций",
+    "POL": "Gniew starych bogów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.t.reformed_other",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Wroth of the Old Gods",
+    "RUS": "Ярость старых богов",
+    "POL": "Gniew starych bogów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.t.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetPrimaryTitle.GetNameNoTierNoTooltip] Pirates",
+    "RUS": "Пираты провинции [leader.GetPrimaryTitle.GetNameNoTierNoTooltip]",
+    "POL": "[leader.GetPrimaryTitle.GetNameNoTierNoTooltip] napadają!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Disaster! A lightning raid by [leader.GetTitledFirstName] of the [leader.GetPrimaryTitle.GetNameNoTier] on [target_county.GetNameNoTier] threatens to set half the county ablaze!\\n\\n",
+    "RUS": "Катастрофа! [leader.GetTitledFirstName] из державы [leader.GetPrimaryTitle.GetNameNoTier] [Select_CString(leader.IsFemale, 'устроила', 'устроил' )] стремительный налёт и грозится спалить половину графства [target_county.GetNameNoTier]!\\n\\n",
+    "POL": "Katastrofa! [leader.GetTitledFirstName], któr[Select_CString(leader.IsFemale, 'a', 'y' )] zorganizował[Select_CString(leader.IsFemale, 'a', '' )] błyskawiczny najazd na [target_county.GetNameNoTier], grozi spaleniem całego hrabstwa!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.desc.ideological_reformist",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Branding [ROOT.Char.GetFaith.GetName] a foul perversion of the faith of our ancestors, these accursed pirates are slaughtering our [ROOT.Char.GetFaith.PriestNeuterPlural] en masse, torching our [ROOT.Char.GetFaith.HouseOfWorshipPlural], and claim to be doing all of it in the name of [leader.GetFaith.HighGodName]!",
+    "RUS": "Проклятые пираты заявляют, что [ROOT.Char.GetFaith.GetAdjective|l] — подлое извращение веры наших предков, и наши [ROOT.Char.GetFaith.PriestNeuterPlural] погибают от их рук целыми толпами, а [ROOT.Char.GetFaith.HouseOfWorshipPlural] горят! Мерзавцы утверждают, что их ведёт [leader.GetFaith.HighGodName]!",
+    "POL": "Obwołując [ROOT.Char.GetFaith.GetName] ohydnym wypaczeniem wiary naszych przodków i twierdząc, że robią to wszystko w imię [leader.GetFaith.HighGodNamePossessive], ci przeklęci piraci palą nasze [ROOT.Char.GetFaith.HouseOfWorshipPlural], a nasi [ROOT.Char.GetFaith.PriestNeuterPlural] są masowo mordowani!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.desc.ideological_other",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Fundamentalist [leader.GetFaith.GetAdherentNamePlural], these pirates consider [ROOT.Char.GetFaith.GetReligion.GetName] to be a threat to their way of life. More than merely gathering plunder, the reavers are slaughtering [ROOT.Char.GetFaith.PriestNeuterPlural], burning [ROOT.Char.GetFaith.HouseOfWorshipPlural], and screaming bloody murder about their false gods.",
+    "RUS": "Эти пираты-консерваторы [leader.GetFaith.GetAdherentNamePlural|l] считают, что [ROOT.Char.GetFaith.GetReligion.GetAdjective|l] попирает их традиции. Разбойники не просто устраивают грабежи — под их истошные вопли во славу лжебогов гибнут наши [ROOT.Char.GetFaith.PriestNeuterPlural|l] и горят [ROOT.Char.GetFaith.HouseOfWorshipPlural].",
+    "POL": "Piraccy fundamentalni [leader.GetFaith.GetAdherentNamePlural] uważają [ROOT.Char.GetFaith.GetReligion.GetName|l] za zagrożenie dla ich stylu życia. Ci łupieżcy nie skupili się tylko na plądrowaniu okolicy. W akompaniamencie okrzyków na cześć ich fałszywych bogów, mordowani są nasi [ROOT.Char.GetFaith.PriestNeuterPlural] oraz palone [ROOT.Char.GetFaith.HouseOfWorshipPlural].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.desc.economic",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Though the [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] bear no particular grudges against a [ROOT.Char.GetFaith.GetAdherentName] like myself, they still depend on plunder and raiding to survive, and my lands are a tempting target. Perhaps... perhaps paying them a heavy gafol could yet spare my subjects?",
+    "RUS": "Хотя [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] не считают, что [ROOT.Char.GetFaith.GetAdherentName|l] вроде меня — непременно враг, грабёж и налёты остаются для них основным средством выживания, а мои земли — соблазнительная цель. Возможно... хорошая дань спасёт моих подданных?",
+    "POL": "Chociaż [leader.GetPrimaryTitle.GetNameNoTierNoTooltip] nie są szczególni niechętni wierze jaką wyznają [ROOT.Char.GetFaith.GetAdherentNamePlural] tacy jak ja, nadal polegają na grabieży jako sposobie na przetrwanie. A moje ziemie są kuszącym celem. Być może… zapłacenie im wysokiego okupu mogłoby oszczędzić moich poddanych?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "\\n\\nThere's no time to raise an army. I can strike with whatever forces I have to hand, or I can grit my teeth till they leave.",
+    "RUS": "\\n\\nСобирать армию некогда. Я могу ударить теми силами, что имею, или поскрипеть зубами, пока они не уйдут.",
+    "POL": "\\n\\nNie ma czasu na wystawienie armii. Mogę uderzyć siłami, które mam już pod ręką albo zacisnąć zęby, dopóki nie odejdą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Grab whoever we have, to arms!",
+    "RUS": "Хватайте всё, что под руку подвернётся, и к оружию!",
+    "POL": "Poderwij do broni kogokolwiek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.a.tt_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The pirates are cut off and destroyed",
+    "RUS": "Пираты отрезаны и уничтожены",
+    "POL": "Piraci zostali odcięci i pokonani",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.a.tt_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetTitledFirstNameNoTooltip] wreaks havoc as [leader.GetSheHe] flees",
+    "RUS": "Убегая, [leader.GetTitledFirstNameNoTooltip] рушит всё на своём пути",
+    "POL": "[leader.GetTitledFirstNameNoTooltip] sieje spustoszenie podczas ucieczki",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.b.benefactor",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Perhaps [benefactor.GetTitledFirstNameNoTooltip] could simply send us new [ROOT.Char.GetFaith.PriestNeuterPlural]?",
+    "RUS": "Нам нужны новые [ROOT.Char.GetFaith.PriestNeuterPlural]. Может, [benefactor.GetTitledFirstNameNoTooltip] просто пришлёт их?",
+    "POL": "Być może [benefactor.GetTitledFirstNameNoTooltip] m[Select_CString( benefactor.IsFemale, 'ogłaby', 'ógłby' )] sprawić, że nowi [ROOT.Char.GetFaith.PriestNeuterPlural] do nas przybędą?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.b.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Regrettable, but we could import replacement [ROOT.Char.GetFaith.PriestNeuterPlural]...",
+    "RUS": "Жаль, но у нас есть [ROOT.Char.GetFaith.PriestNeuterPlural] на замену...",
+    "POL": "Żałuję, ale inni [ROOT.Char.GetFaith.PriestNeuterPlural] mogliby ich zastąpić…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "`Gather the gafol; it's cheaper in the long run.",
+    "RUS": "Собирайте дань, всё равно дешевле обойдётся.",
+    "POL": "`Zapłać okup – to tańsze rozwiązanie w dłuższej perspektywie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetTitledFirstName] retreats without incident",
+    "RUS": "[leader.GetTitledFirstName] отступает без происшествий",
+    "POL": "[leader.GetTitledFirstName] wycofuje się bez żadnych incydentów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.d",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "How is this anything but a local problem?",
+    "RUS": "Это же местная проблема. Как она касается нас?",
+    "POL": "Jak to możliwe, że jest to tylko problem lokalny? ",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0011.d.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "You leave [target_county.GetNameNoTier] to burn",
+    "RUS": "Пусть [target_county.GetNameNoTier] горит",
+    "POL": "Skazujesz [target_county.GetNameNoTier] na spalenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Parleying with Pirates",
+    "RUS": "Переговоры с пиратами",
+    "POL": "Pertraktacje z piratami",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "It's with some suspicion that I receive a delegation of disorderly thugs from the [leader.GetPrimaryTitle.GetNameNoTier], presenting a letter from [leader.GetTitledFirstName].\\n\\nFierce reavers and plunderers both at sea and on land, these religious fundamentalists are some of the most notorious and deadly pirates in the world.\\n\\nLike any good [ROOT.Char.GetFaith.GetAdherentName], I've listened to the stories of their piety and prowess with a mixture of awe and fear. Now it seems their [leader.GetTitleAsNameNoTooltip] is offering me command of this gaggle of volunteers, provided I use them to raid and plunder for [ROOT.Char.GetFaith.PantheonTerm].",
+    "RUS": "[leader.GetPrimaryTitle.GetNameNoTier] присылает делегацию, но невоспитанный сброд вызывает у меня разве что подозрения. С ними [leader.GetTitledFirstName] передает письмо.\\n\\nЭти религиозные фундаменталисты, яростные разбойники и грабители суши и моря — одни из самых знаменитых и смертоносных пиратов в мире.\\n\\nКак добрый [ROOT.Char.GetFaith.GetAdherentName|l], я выслушиваю россказни об их благочестии и доблести со смесью страха и восхищения. Похоже, [leader.GetTitleAsNameNoTooltip|l] предлагает мне взять эту ораву добровольцев под крыло, если я обещаю грабить и разбойничать, как велят [ROOT.Char.GetFaith.PantheonTerm].",
+    "POL": "Z pewnym podejrzeniem przyjmuję delegację zbirów z legendarnej drużyny, której przewodzi [leader.GetPrimaryTitle.GetNameNoTier]. Okazuje się, że [leader.GetTitledFirstName] ich rękoma przysłał mi list.\\n\\nCi religijni fundamentaliści, bezwzględni rabusie i grabieżcy – zarówno na lądzie, jak i na morzu – to jedni z najbardziej znanych i niebezpiecznych piratów na świecie.\\n\\nJak każdy dobry [ROOT.Char.GetFaith.GetAdherentName|l] znam opowiadane z mieszaniną podziwu i strachu historie o ich pobożności oraz odwadze. Wygląda na to, że ich [leader.GetTitleAsNameNoTooltip|l] oferuje mi dowództwo nad tą bandą ochotników pod warunkiem, że użyję ich do napadów i grabieży w imię naszych bogów. [ROOT.Char.GetFaith.PantheonTerm] to potęga.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Pirates that take orders? Intriguing...",
+    "RUS": "Пираты, готовые выполнять приказы? Любопытно...",
+    "POL": "Piraci, którzy przyjmują rozkazy? Intrygujące…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The [army|E] will include special hard-to-kill $jomsviking_pirates$ [men_at_arms|E]",
+    "RUS": "В [Concept( 'army', 'армии' )|E] появятся очень живучие [Concept( 'men_at_arms', 'профессиональные солдаты' )|E] — $jomsviking_pirates$",
+    "POL": "Nasza [army|El] otrzyma specjalne, trudne do zabicia oddziały, zawierające [Concept( 'men_at_arms', 'zbrojnych' )|E] znanych jako jomswikińscy piraci",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Just the reputable sailors, I think.",
+    "RUS": "Они похожи на надёжных моряков.",
+    "POL": "W mojej opinii to tylko renomowani żeglarze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The [army|E] will include recruitable $bondi$ [men_at_arms|E]",
+    "RUS": "Для найма в [Concept( 'army', 'армию' )|E] будут доступны [Concept( 'men_at_arms', 'профессиональные солдаты' )|E] — $bondi$",
+    "POL": "Nasza [army|El] otrzyma specjalne oddziały, zawierające [Concept( 'men_at_arms', 'zbrojnych' )|E], znanych jako bondi",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0021.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "I prefer my soldiers a bit more... disciplined.",
+    "RUS": "Я предпочитаю более... дисциплинированных солдат.",
+    "POL": "Wolę moich żołnierzy, trochę bardziej… zdyscyplinowanych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "A Disgrace to the Gods",
+    "RUS": "Позор перед богами",
+    "POL": "Hańba w obliczu bogów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!» — с громким воплем в мой тронный зал влетает [Select_CString(leader.IsFemale, 'полуголая', 'полуголый' )] [leader.GetTitledFirstName].\\n\\n«Твои прегрешения и вопиющее бесчестие — позор, от которого повсеместно страдают [leader.GetFaith.GetAdherentNamePlural|l], и [leader.GetPrimaryTitle.GetNameNoTier] больше не станет этого терпеть! Довольно оправданий, довольно увёрток! Хольмганг! #EMP Здесь#! и #EMP сейчас#!!»\\n\\nСтражники в замешательстве сжимают оружие. Один мой сигнал, и они двинутся к [Select_CString(leader.IsFemale, 'незваной гостье', 'незваному гостю' )].\\n\\nНесомненно, от моего решения многое зависит.",
+    "POL": "„#EMP [ROOT.Char.GetFirstNameNoTooltip]#!!” [leader.GetTitledFirstName] wdarł[Select_CString(leader.IsFemale, 'a', '')] się do mojej sali tronowej na wpół ubran[Select_CString(leader.IsFemale, 'a', 'y' )] z krzykiem na ustach.\\n\\n„Wszyscy [leader.GetFaith.GetAdherentNamePlural] dostrzegają twoje grzeszne postępowanie oraz rażącą nikczemność. [leader.GetPrimaryTitle.GetNameNoTier] nie pozwolą dłużej na okrywanie naszej wiary hańbą! Żadnych wymówek, żadnych sztuczek, stań do walki, #EMP tu#! i #EMP teraz#!!”\\n\\nMoi zdezorientowani strażnicy chwytają za broń, gotowi w każdej chwili ruszyć na intruza.\\n\\nCokolwiek zrobię, wieść o moich działaniach bez wątpienia rozniesie się po świecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "I'll send you to Valhöll with a smile!",
+    "RUS": "Я отправлю тебя в Вальхаллу с улыбкой!",
+    "POL": "Wyślę cię do Walhalli z uśmiechem na ustach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "You immediately enter into a [single_combat_fight|E]",
+    "RUS": "Вы немедленно начинаете [Concept( 'single_combat_fight', 'поединок' )|E]",
+    "POL": "Natychmiast rozpoczynasz [single_combat_fight|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.a.tt_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "You win the bout",
+    "RUS": "Вы выиграли поединок",
+    "POL": "Wygrywasz walkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.a.tt_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetTitledFirstName] wins the bout",
+    "RUS": "[leader.GetTitledFirstName] выигрывает поединок",
+    "POL": "[leader.GetTitledFirstName] wygrywa walkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "You were a fool to come alone. Guards!",
+    "RUS": "Глупо было приходить в одиночку. Стража!",
+    "POL": "Był[Select_CString(leader.IsFemale, 'aś', 'eś' )] głup[Select_CString(leader.IsFemale, 'ia', 'cem' )] przychodząc w pojedynkę. Straże!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.b.tt_success",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetTitledFirstName] is shackled & hauled off to the dungeon",
+    "RUS": "[leader.GetTitledFirstName] в цепях отправляется в подземелье",
+    "POL": "[leader.GetTitledFirstName] zostaje zakut[Select_CString(leader.IsFemale, 'a', 'y')] w kajdany i zaciągnięt[Select_CString(leader.IsFemale, 'a', 'y')] do lochu",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.b.tt_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "[leader.GetTitledFirstName] effects a daring escape",
+    "RUS": "[leader.GetTitledFirstName] устраивает дерзкий побег",
+    "POL": "[leader.GetTitledFirstName] brawurowo ucieka",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0041.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "You know you're just a pretentious pirate, right? Run along.",
+    "RUS": "Ты ведь просто пират с непомерной гордыней. Иди себе.",
+    "POL": "Wiesz, że jesteś tylko piratem, prawda? Uciekaj stąd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0042.trigger_failure",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Your bout against [leader.GetTitledFirstNameNoTooltip] has invalidated",
+    "RUS": "Ваш бой с персонажем [leader.GetTitledFirstNameNoTooltip] более не действителен",
+    "POL": "Wasza walka została unieważniona",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0044.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "$fp1_jomsvikings.0041.t$: Vindication",
+    "RUS": "$fp1_jomsvikings.0041.t$: возмездие",
+    "POL": "$fp1_jomsvikings.0041.t$: odkupienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0044.desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "With [leader.GetTitledFirstName] slumped lifeless at my feet, the throne room becomes deathly silent. Nary so much as a whisper can be heard, no breathing save my own ragged gasps.\\n\\nQuietly, I pull my clothes back on.\\n\\nOne by one, I make eye contact with each and every person still in here.",
+    "RUS": "[leader.GetTitledFirstName] оседает безжизненной грудой мне под ноги, и в тронном зале повисает мёртвое молчание. Ни шёпота, ни вздоха — будто все звуки спрятались в страхе перед моим прерывистым дыханием.\\n\\nЯ тихо одеваюсь.\\n\\nМои глаза обводят всех оставшихся — одного за другим.",
+    "POL": "Tuż po tym, gdy [leader.GetTitledFirstName] upadł[Select_CString(leader.IsFemale, 'a', '' )] bez życia u mych stóp, w sali tronowej zapanowała śmiertelna cisza. \\n\\nNie słychać nawet szeptu. Niczego poza moim własnym, urywanym oddechem.\\n\\nPo cichu wciągam na siebie ubrania i nawiązuję kontakt wzrokowy z każdą osobą, która jeszcze tu jest.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0044.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Anyone #EMP else#! want to have a go?",
+    "RUS": "#EMP Ещё#! желающие будут?",
+    "POL": "Czy #EMP ktoś#! jeszcze chciałby spróbować?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0044.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The justness of my rule is proven once more!",
+    "RUS": "Законность моего правления вновь подтвердилась!",
+    "POL": "Słuszność moich rządów została po raz kolejny udowodniona!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.0044.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "This simply shows how unworthy a faith [leader.GetFaith.GetNameNoTooltip] is...",
+    "RUS": "Ещё одно подтверждение тому, что [leader.GetFaith.GetAdjectiveNoTooltip|l] ничего не стоит...",
+    "POL": "To pokazuje jak niegodną wiarą jest [leader.GetFaith.GetNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.t",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Waning of the Old Ways",
+    "RUS": "Угасание старых традиций",
+    "POL": "Upadek starych bogów",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.desc.intro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "With the fall of their last fortress, the [title.GetNameNoTier] have been utterly extinguished.\\n\\n",
+    "RUS": "Последняя твердыня пала, и [title.GetNameNoTier] исчезли с лица земли.\\n\\n",
+    "POL": "Wraz z upadkiem ich ostatniej fortecy, [title.GetNameNoTier] zostali całkowicie rozbici.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.desc.reformed_asatru_exists",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Despite their best efforts at holding back the tide of change, schism came to their faith, as it did to Christianity and Islam before it.\\n\\nWhether the reformists win out or the faithful fall foreign beliefs, ",
+    "RUS": "Несмотря на упорные попытки сдержать перемены, их конфессию, как прежде христианство и ислам, постиг раскол.\\n\\nКто бы ни победил — реформисты или верные, — ",
+    "POL": "Pomimo poczynionych przez nich starań, by powstrzymać falę zmian, w ich wierze doszło do rozłamu, podobnie jak wcześniej w chrześcijaństwie i islamie.\\n\\nNiezależnie od tego czy reformatorzy zwyciężą, czy też dotychczasowi wyznawcy upadną pod naporem obcych religii,",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.desc.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "In the end, they were simply not enough to hold back the tide of foreign faiths, and",
+    "RUS": "В конце концов им не хватило сил сдержать наплыв чуждых верований, и теперь",
+    "POL": "Ostatecznie, ich wysiłki nie wystarczyły, aby powstrzymać napór obcych wierzeń, i",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.desc.outro",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "it now seems inevitable that [leader.GetFaith.GetName] is doomed to the waste heap of history.",
+    "RUS": "ясно одно — скоро [leader.GetFaith.GetAdjective|l] упокоится на свалке истории.",
+    "POL": "wydaje się nieuniknionym, że wiara [leader.GetFaith.GetAdjectiveNoTooltip|l] zniknie w mrokach historii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.holy_order_destroyed",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The [title.GetNameNoTier] have been destroyed.",
+    "RUS": "Титул [title.GetNameNoTier] был уничтожен.",
+    "POL": "[title.GetNameNoTier] zostali unicestwieni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.a",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The gods forsake us!",
+    "RUS": "Боги оставили нас!",
+    "POL": "Bogowie nas opuścili!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.a.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The Jomsvikings will no longer hand out boons to the pious",
+    "RUS": "Йомсвикинги больше не награждают благочестивых",
+    "POL": "Jomswikingowie nie będą już rozdawać dobrodziejstw pobożnym postaciom",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.b",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Good riddance to bad rubbish!",
+    "RUS": "Долой старый хлам!",
+    "POL": "Nikt nie będzie po nich płakać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.b.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "The Jomsvikings will no longer reave unbelievers",
+    "RUS": "Йомсвикинги больше не грабят неверных",
+    "POL": "Jomswikingowie nie będą już dłużej plądrować niewiernych",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.c",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "Yhomz-who?",
+    "RUS": "Йомс... кто?",
+    "POL": "Joms-kto?",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp1_jomsvikings.1001.c.tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp1/dlc_fp1_jomsviking_events_l_belarusian.json",
+    "ENG": "$fp1_jomsvikings.1001.b.tt$",
+    "RUS": "$fp1_jomsvikings.1001.b.tt$",
+    "POL": "$fp1_jomsvikings.1001.b.tt$",
+    "BEL": ""
+  }
+]

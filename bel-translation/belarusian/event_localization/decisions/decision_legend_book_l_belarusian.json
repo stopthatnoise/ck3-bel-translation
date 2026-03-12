@@ -1,0 +1,42 @@
+[
+  {
+    "KEY": "ce1_decision_events.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_legend_book_l_belarusian.json",
+    "ENG": "Write It Down",
+    "RUS": "Все запишите",
+    "POL": "Zanotuj wszystko",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_decision_events.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_legend_book_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName] greets me with a pleased smile. [chronicler.GetHerHis|U] reading lamp has almost run out of oil.\\n\\n",
+    "RUS": "[Select_CString(chronicler.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName] встречает меня довольной улыбкой. В [Select_CString(chronicler.IsFemale, 'ее', 'его' )] лампе для чтения почти закончилось масло.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], — говорит [Select_CString(chronicler.IsFemale, 'она', 'он' )], кладя на стол великолепно украшенную книгу, — мы тщательно записали каждую мелочь, каждый подвиг, каждое сражение, каждое приключение и каждый роман».\\n\\n«Вся ваша жизнь, — продолжает [Select_CString(chronicler.IsFemale, 'она', 'он' )], — записана на века».",
+    "POL": "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))|U] [chronicler.GetFirstName] wita mnie z zadowolonym uśmiechem. [chronicler.GetHerHis|U] lampka do czytania prawie się wyczerpała.\\n\\n[ROOT.Char.Custom('FormOfAddressForLiege')|U] może mieć pewność – mówi, odkładając pięknie zdobioną księgę – że skrupulatnie zapisaliśmy każdy szczegół, każdy wyczyn, każdą bitwę, każdą wyprawę i każdy romans.\\n\\n– Wszystko to – kontynuuje – zapisane na wieki wieków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_decision_events.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_legend_book_l_belarusian.json",
+    "ENG": "Delightful!",
+    "RUS": "Восхитительно!",
+    "POL": "Zachwycające!",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_book",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_legend_book_l_belarusian.json",
+    "ENG": "[ROOT.Var('finished_legend_var').Legend.GetName]",
+    "RUS": "[ROOT.Var('finished_legend_var').Legend.GetName]",
+    "POL": "[ROOT.Var('finished_legend_var').Legend.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "legend_book_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/decisions/decision_legend_book_l_belarusian.json",
+    "ENG": "#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('opening')]#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetTitledFirstNamePossessiveNoTooltip|U] legend culminates in a marvelous adventure: [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetHerHis] great deeds of arms were such that all kings had wonder thereof and many nobles and commoners came to [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetHerHis] encounter, for they wished to see the legend in the flesh.#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('conclusion')]#!",
+    "RUS": "#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('opening')]#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetTitledFirstNameNoTooltip|U] завершает свою легенду невероятным приключением: [Select_CString(ROOT.Var('finished_legend_var').Legend.GetProtagonist.IsFemale, 'ее', 'его' )] воинские подвиги были столь велики, что им дивились цари и короли, и множество знати и простого люда прибыли увидеть [Select_CString(ROOT.Var('finished_legend_var').Legend.GetProtagonist.IsFemale, 'ее', 'его' )], дабы узреть легенду во плоти.#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('conclusion')]#!",
+    "POL": "#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('opening')]#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetTitledFirstNameNoTooltip|U] kończy swoją legendę niesamowitą przygodą: [ROOT.Var('finished_legend_var').Legend.GetProtagonist.GetHerHis] wyczyny zbrojne były tak wielkie, że podziwiali je wszyscy królowie, a wielu szlachciców i plebejuszy przybywało, aby ujrzeć wcielenie legendy.#!\\n\\n#EMP [ROOT.Var('finished_legend_var').Legend.GetChapterDescriptionByName('conclusion')]#!",
+    "BEL": ""
+  }
+]

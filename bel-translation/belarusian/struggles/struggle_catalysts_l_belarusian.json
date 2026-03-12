@@ -1,0 +1,2010 @@
+[
+  {
+    "KEY": "PHASE_CATALYST_DESCRIPTION_HEADER",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "#S Catalysts towards [StrugglePhase.GetNameNoTooltip]#!",
+    "RUS": "#S Катализация к фазе [StrugglePhase.GetNameNoTooltip]#!",
+    "POL": "#S Katalizatory w kierunku [Select_CString( EqualTo_string( StrugglePhase.GetNameNoTooltip, '$struggle_iberia_phase_hostility|q$' ), 'wrogości', Select_CString( EqualTo_string( StrugglePhase.GetNameNoTooltip, '$struggle_iberia_phase_compromise|q$' ), 'kompromisu', Select_CString( EqualTo_string( StrugglePhase.GetNameNoTooltip, '$struggle_iberia_phase_conciliation|q$' ), 'pojednania' , StrugglePhase.GetNameNoTooltip )))|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PHASE_CATALYST_DESCRIPTION_HEADER_INFO",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "#I Complete Catalysts any number of times to increase the phase progress#!",
+    "RUS": "#I Завершите катализацию сколько угодно раз, чтобы увеличить прогресс фазы#!",
+    "POL": "#I Ukończ katalizatory dowolną ilość razy, aby zwiększyć postęp fazy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PHASE_CATALYST_DESCRIPTION_ENTRY",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[CatalystEntry.GetCatalystDescription]",
+    "RUS": "[CatalystEntry.GetCatalystDescription]",
+    "POL": "[CatalystEntry.GetCatalystDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "PHASE_CATALYST_COMPLETIONS",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[Select_CString(GreaterThan_int32(Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst), '(int32)0'), '#COLOR_GREEN ', '#COLOR_GRAY ')]x[Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst)]#!",
+    "RUS": "[Select_CString(GreaterThan_int32(Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst), '(int32)0'), '#COLOR_GREEN ', '#COLOR_GRAY ')]x[Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst)]#!",
+    "POL": "[Select_CString(GreaterThan_int32(Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst), '(int32)0'), '#COLOR_GREEN ', '#COLOR_GRAY ')]×[Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst)]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_passing_of_time",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: ежегодное изменение",
+    "POL": "Roczna zmiana statusu [Concept('struggle_catalyst_catalyst', 'katalizatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_passing_of_time_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: Natural flow towards this [struggle_phase|E]",
+    "RUS": "Каждый год смещается в сторону этой [Concept('struggle_phase', 'фазы борьбы')|E]",
+    "POL": "Roczna zmiana statusu: naturalne dążenie do [Concept('struggle_phase', 'fazy zmagań')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_demanding_important_conversion",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Demanded Conversion [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: требование обращения",
+    "POL": "[struggle_catalyst_catalyst|E]: zażądano nawrócenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_demanding_important_conversion_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[demand_conversion|E] from an [struggle_involved|E] [ruler|E]",
+    "RUS": "[demand_conversion|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "[Concept( 'demand_conversion', 'Zażądano nawrócenia' )|E] [Concept( 'struggle_involved', 'zaangażowanego' )|E] [Concept( 'ruler', 'władcy' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_enforcing_de_jure_claims",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Enforced [de_jure|E] [claims|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: навязывание [de_jure|E] [Concept( 'claims', 'претензий' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: wymuszono [claims|El] [de_jure|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_enforcing_de_jure_claims_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Enforce [de_jure|E] [claims|E] against another $game_concept_struggle_involved$ $game_concept_character$",
+    "RUS": "Навязать [de_jure|El] [claims|El] другому [Concept( 'struggle_involved', 'вовлеченному в борьбу' )|E] [Concept( 'character', 'персонажу' )|E]",
+    "POL": "Wymuszenie [Concept( 'claims', 'roszczeń' )|E] [de_jure|E] innej [Concept( 'struggle_involved', 'zaangażowanej' )|E] [Concept( 'character', 'postaci' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_creating_a_holy_order",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Created a [holy_order|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: создан [Concept( 'holy_order', 'священный орден' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: założono [holy_order|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_creating_a_holy_order_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Create a [holy_order|E]",
+    "RUS": "Создать [holy_order|El]",
+    "POL": "Utworzenie [Concept( 'holy_order', 'zakonu świętego' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_winning_large_conquest_war",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Won Aggressive [war|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: победа в масштабной [Concept( 'war', 'войне' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: wygrano [Concept('war', 'wojnę')|E] ofensywną",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_winning_large_conquest_war_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win [struggle_large_conquest|E] [war|E] against another [struggle_involved|E] [ruler|E]",
+    "RUS": "Победить другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] в [Concept( 'war', 'войне' )|E] с целью [Concept( 'struggle_large_conquest', 'крупного завоевания' )|E]",
+    "POL": "Wygranie rozpoczętej [wars|El] ([struggle_large_conquest|El]) przeciwko innemu [Concept( 'struggle_involved', 'zaangażowanemu' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_bought_important_truce",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Bought [truce|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: плата за [Concept( 'truce', 'перемирие' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: kupiono [truce|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_bought_important_truce_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Purchase a [truce|E] from another [struggle_involved|E] [ruler|E]",
+    "RUS": "Заплатить за [Concept( 'truce', 'перемирие' )|E] другому [Concept( 'struggle_involved', 'вовлеченному в борьбу' )|E] [Concept( 'ruler', 'правителю' )|E]",
+    "POL": "Kupno [Concept( 'truce', 'rozejmu' )|E] od innego [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gave_independence_to_powerful_diff_faith_culture_vassal",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Granted Independence [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: предоставлена независимость",
+    "POL": "[struggle_catalyst_catalyst|E]: przyznano niezależność",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gave_independence_to_powerful_diff_faith_culture_vassal_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Give independence to a [powerful_vassal|E] of a different [faith|E] or [culture|E]",
+    "RUS": "Предоставить независимость [Concept( 'powerful_vassal', 'могущественному вассалу' )|E] иной [Concept( 'faith', 'конфессии' )|E] или [Concept( 'culture', 'культуры' )|E]",
+    "POL": "Przyznanie niezależności [Concept( 'powerful_vassal', 'wpływowemu wasalowi' )|E] innej [faiths|El] lub [cultures|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Agreed to Faction Demand [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: согласие с требованием фракции",
+    "POL": "[struggle_catalyst_catalyst|E]: zaakceptowano żądania frakcji",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Accept the demands of a [peasant_faction|E] or [popular_faction|E]",
+    "RUS": "Принять требования [Concept( 'peasant_faction', 'крестьян' )|E] или [Concept( 'popular_faction', 'популистов' )|E]",
+    "POL": "Zaakceptowanie żądań [Concept( 'peasant_faction', 'frakcji chłopskiej' )|E] lub [Concept( 'popular_faction', 'populistycznej' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_granted_powerful_diff_faith_vassal_religious_protection",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Granted inclusive [vassal_contract|E] Change [struggle_catalyst_catalyst|E]",
+    "RUS": "[Concept('struggle_catalyst_catalyst', 'Катализация')|E]: [Concept('vassal_contract', 'вассальный договор')|E] изменен в пользу религиозной терпимости",
+    "POL": "Przyznano globalny [struggle_catalyst_catalyst|El] zmiany [Concept('vassal_contract', 'kontraktu wasalnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_granted_powerful_diff_faith_vassal_religious_protection_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Offer a [powerful_vassal|E] [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] via [vassal_contract|E]",
+    "RUS": "Предложить [Concept('powerful_vassal', 'могущественному вассалу')|E] [Concept('vassal_contract', 'вассальный договор')|E], включающий пункт «[GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E]»",
+    "POL": "Na mocy [Concept('vassal_contract', 'kontraktu wasalnego')|E] zaproponuj [Concept('powerful_vassal', 'wasalowi wpływowemu')|E] zobowiązanie „[GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|El]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_best_friend_soulmate_with_very_important_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Twin Souls [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: родственные души",
+    "POL": "[struggle_catalyst_catalyst|E]: bliźniacze dusze",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_best_friend_soulmate_with_very_important_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Become either [best_friends|E] or [soulmates|E] with an [struggle_involved|E] [ruler|E]",
+    "RUS": "Стать [Concept( 'best_friends', 'лучшими друзьями' )|E] или [Concept( 'soulmates', 'родственными душами' )|E] с [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E]",
+    "POL": "Stanie się z [Concept( 'best_friends', 'najlepszymi przyjaciółmi' )|E] lub [Concept( 'soulmates', 'bratnimi duszami' )|E] z [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_friend_lover_with_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Twin Souls [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: родственные души",
+    "POL": "[struggle_catalyst_catalyst|E]: bliźniacze dusze",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_friend_lover_with_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Become either [friends|E] or [lovers|E] with an [struggle_involved|E] [ruler|E]",
+    "RUS": "Стать [Concept( 'friends', 'друзьями' )|E] или [Concept( 'lovers', 'любовниками' )|E] с [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E]",
+    "POL": "Stanie się [Concept( 'friends', 'przyjaciółmi' )|E] lub [Concept( 'lovers', 'kochankami' )|E] z [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_formed_interreligious_alliance_with_important_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Formed Interreligious [alliance|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [Concept( 'alliance', 'союз' )|E], игнорирующий религиозные различия",
+    "POL": "[struggle_catalyst_catalyst|E]: zawarto ponadreligijny [alliance|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_formed_interreligious_alliance_with_important_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Form an [alliance|E] with [struggle_involved|E] [ruler|E] of a different [faith|E]",
+    "RUS": "Заключить [alliance|El] с [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E] с иной [Concept( 'faith', 'конфессией' )|E]",
+    "POL": "Zawarcie [Concept( 'alliance', 'sojuszu' )|E] z [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E] innej [faiths|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_hybridise_or_diverge_regional_cultures",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[hybridized|E] or [diverge|E] [struggle|E] [cultures|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: в [Concept( 'struggle', 'борьбу' )|E] вовлечены [Concept( 'hybridized', 'гибридные' )|E] или [Concept( 'diverge', 'отделившиеся' )|E] [Concept( 'culture', 'культуры' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: [Concept( 'hybridize', 'Zhybrydyzowano' )|E] lub [Concept( 'diverge', 'oddzielono' )|E] [Concept( 'struggle', 'zmagające się' )|E] [cultures|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_hybridise_or_diverge_regional_cultures_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[hybridize|E] two [struggle_involved|E] [cultures|E] or [diverge|E] one",
+    "RUS": "[Concept( 'hybridize', 'Создать гибрид' )|E] двух [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] или [Concept( 'diverge', 'отделить' )|E] новую",
+    "POL": "[Concept( 'hybridize', 'Zhybrydyzowanie' )|E] dwóch [Concept( 'struggle_involved', 'zaangażowanych' )|E] [Concept( 'culture', 'kultur' )|E] lub [Concept( 'diverge', 'oddzielenie' )|E] jednej",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revoked_powerful_diff_faith_vassal_religious_protection",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Revoked inclusive [vassal_contract|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[Concept('struggle_catalyst_catalyst', 'Катализация')|E]: из [Concept('vassal_contract', 'вассального договора')|E] исключена религиозная терпимость",
+    "POL": "Anulowano globalny [struggle_catalyst_catalyst|El] [Concept('vassal_contract', 'kontraktu wasalnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revoked_powerful_diff_faith_vassal_religious_protection_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Remove [powerful_vassal_possessive|E] [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] [vassal_contract|E]",
+    "RUS": "Отозвать из [Concept('vassal_contract', 'договора')|E] с [Concept('powerful_vassal_possessive', 'могущественным вассалом')|E] пункт «[GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E]»",
+    "POL": "Wycofaj [vassal_contract|El] [powerful_vassal_possessive|El] obejmujący zobowiązanie „[GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|El]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_broke_truce_against_important_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Broke [truce|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: нарушено [Concept( 'truce', 'перемирие' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: zerwano [truce|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_broke_truce_against_important_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Break a [truce|E] with an [struggle_involved|E] [ruler|E]",
+    "RUS": "Нарушить [truce|El] с [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E]",
+    "POL": "Zerwanie [Concept( 'truce', 'rozejmu' )|E] z [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_discovery_of_very_important_murder",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Exposed sectarian [GetScheme('murder').GetTypeName] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: раскрыты еретичные происки «[GetScheme('murder').GetTypeName]»",
+    "POL": "[struggle_catalyst_catalyst|E]: ujawniono sekciarskie [GetScheme('murder').GetTypeName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_discovery_of_very_important_murder_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Expose that an [struggle_involved|E] King, [head_of_faith|E] or [culture_head|E] was murdered",
+    "RUS": "Раскрыть, что [Concept( 'struggle_involved', 'вовлеченный в борьбу' )|E] король, [head_of_faith|El] или [culture_head|El] был убит",
+    "POL": "Ujawnienie, że [Concept( 'struggle_involved', 'zaangażowany' )|E] król, [head_of_faith|El] lub [culture_head|El] został zamordowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_fabricating_duchy_level_claims",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Fabricated [duchy|E] [claims|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: поддельные [Concept( 'claims', 'претензии' )|E] на [Concept( 'duchy', 'герцогство' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: sfabrykowano [claims|El] do [Concept('duchy', 'księstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_fabricating_duchy_level_claims_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[fabricate_claim|E] on a [duchy|E]-[title_tier|E] [title|E] within the Struggle region",
+    "RUS": "[fabricate_claim|E] на [Concept( 'title', 'титул' )|E] [Concept( 'duchy', 'герцогского' )|E] [Concept( 'title_tier', 'уровня' )|E] в области борьбы",
+    "POL": "[Concept( 'fabricate_claim', 'Fabrykacja roszczenia' )|E] do [Concept( 'title', 'tytułu' )|E] o [Concept( 'title_tier', 'poziomie' )|E] [Concept( 'duchy', 'księstwa' )|E] w obrębie regionu zmagań",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_with_major_uninvolved_power",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[allied|E] with foreign power [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: в [Concept( 'allied', 'союзе' )|E] с иностранной державой",
+    "POL": "[struggle_catalyst_catalyst|E]: zawarto [alliance|El] z obcym mocarstwem",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_with_major_uninvolved_power_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Form an [alliance|E] with an [struggle_uninvolved|E] [realm|E] that has at least [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0] [realm_size|E]",
+    "RUS": "Заключить [Concept( 'alliance', 'союз' )|E] с [Concept( 'realm', 'державой' )|E], [Concept( 'struggle_uninvolved', 'не участвующей в борьбе' )|E], [Concept( 'realm_size', 'размер владений' )|E] которой не менее чем [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0]",
+    "POL": "Zawarcie [Concept( 'alliance', 'sojuszu' )|E] z [Concept( 'struggle_uninvolved', 'niezaangażowanym' )|E] [Concept( 'realm', 'państwem' )|E], którego [Concept( 'realm_size', 'rozmiar' )|E] wynosi co najmniej [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_independent_involved_rulers",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[allied|E] with another [struggle_involved|E] [independent_ruler|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [Concept( 'allied', 'Союз' )|E] с другим [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'independent_ruler', 'независимым правителем' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: zawarto [Concept('allied', 'sojusz')|E] z innym [Concept('struggle_involved', 'zaangażowanym')|E] [Concept('independent_ruler', 'władcą niezależnym')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_independent_involved_rulers_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Form an [alliance|E] with another [independent_ruler|E] who is [struggle_involved|E]",
+    "RUS": "Образовать [Concept( 'alliance', 'союз' )|E] с другим [Concept( 'independent_ruler', 'независимым правителем' )|E], [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E]",
+    "POL": "Zawarcie [Concept('alliance', 'sojuszu')|E] z innym [Concept('struggle_involved', 'zaangażowanym')|E] [Concept('independent_ruler', 'władcą niezależnym')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_accepted_independence_faction_demands",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$ [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: $catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$",
+    "POL": "[struggle_catalyst_catalyst|E]: $catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_accepted_independence_faction_demands_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Accept the demands of a [peasant_faction|E] or [popular_faction|E]",
+    "RUS": "Принять требования [Concept( 'peasant_faction', 'крестьян' )|E] или [Concept( 'popular_faction', 'популистов' )|E]",
+    "POL": "Zaakceptowanie żądań [Concept( 'peasant_faction', 'frakcji chłopskiej' )|E] lub [Concept( 'popular_faction', 'populistycznej' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_conducted_border_raid",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Conducted [border_raid|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: сделана [Concept( 'border_raid', 'вылазка' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: poprowadzono [border_raid|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_conducted_border_raid_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Start [border_raids|E] on a neighboring [county|E] held by another $game_concept_struggle_involved$ $game_concept_character$",
+    "RUS": "Устроить [Concept( 'border_raiding', 'вылазки' )|E] на территорию соседнего [Concept( 'county', 'графства' )|E], которое принадлежит другому [Concept( 'struggle_involved', 'участвующему в борьбе' )|E] [Concept( 'character', 'персонажу' )|E]",
+    "POL": "Rozpoczęcie [Concept( 'border_raids', 'najazdów granicznych' )|E] na sąsiednie [county|El] należące do innej [Concept( 'struggle_involved', 'zaangażowanej' )|E] [Concept( 'character', 'postaci' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_learned_new_language_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Learned [language|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: выучен [language|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: poznano [language|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_learned_new_language_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Learn the [language|E] of an [struggle_involved|E] [ruler|E]",
+    "RUS": "Выучить [language|El] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Nauka [Concept( 'language', 'języka' )|E], którym posługuje się [Concept( 'struggle_involved', 'zaangażowany' )|E] [Concept( 'ruler', 'władca' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_conciliation",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$fp2_small_council_modifier$ Conciliation [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: $fp2_small_council_modifier$, примирение",
+    "POL": "[struggle_catalyst_catalyst|E]: pojednanie na synodzie w Toledo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_conciliation_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Council of Toledo decides to promote peace in Iberia",
+    "RUS": "Толедский собор решает выступить за мир в Иберии",
+    "POL": "Synod w Toledo postanawia promować pokój w Iberii",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_compromise",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$fp2_small_council_modifier$ Compromise [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: $fp2_small_council_modifier$, компромисс",
+    "POL": "[struggle_catalyst_catalyst|E]: kompromis na synodzie w Toledo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_compromise_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_toledo_council_conciliation_desc$",
+    "RUS": "$catalyst_toledo_council_conciliation_desc$",
+    "POL": "$catalyst_toledo_council_conciliation_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_hostility",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$fp2_small_council_modifier$ Hostility [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: $fp2_small_council_modifier$, вражда",
+    "POL": "[struggle_catalyst_catalyst|E]: wrogość na synodzie w Toledo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_hostility_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Council of Toledo enflames tensions in Iberia",
+    "RUS": "Толедский собор разжигает распри в Иберии",
+    "POL": "Synod w Toledo zaognia napięcia w Iberii",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_tension",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$fp2_small_council_modifier$ Tension [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: $fp2_small_council_modifier$, напряженность",
+    "POL": "[struggle_catalyst_catalyst|E]: napięcia na synodzie w Toledo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_toledo_council_tension_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_toledo_council_hostility_desc$",
+    "RUS": "$catalyst_toledo_council_hostility_desc$",
+    "POL": "$catalyst_toledo_council_hostility_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprisoned a [duke|E] or higher [title_tier|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: заточение в тюрьму правителя [Concept('title_tier', 'уровня')|E] [Concept('duke', 'герцога')|E] или выше",
+    "POL": "[struggle_catalyst_catalyst|E]: uwięzienie postaci będącej [Concept('duke', 'księciem')|E] lub o wyższym [Concept('title_tier', 'poziomie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprison a [duke|E] or higher rank [character|E], including [head_of_faith|E] and [cultural_head|E]",
+    "RUS": "Заключить в тюрьму [Concept( 'character', 'персонажа' )|E] в ранге [Concept( 'duke', 'герцога' )|E] или выше, в том числе [Concept( 'head_of_faith', 'главу конфессии' )|E] или [Concept( 'cultural_head', 'культурного идеолога' )|E]",
+    "POL": "Uwięzienie [Concept( 'duke', 'księcia' )|E] lub wyższej rangą [Concept( 'character', 'postaci' )|E], w tym [Concept( 'head_of_faith', 'głowy wiary' )|E] lub [Concept( 'cultural_head', 'głowy kultury' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_successfully_expelled_interloper",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win [iberian_reclamation|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: выиграна [iberian_reclamation|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: wygranie [Concept('iberian_reclamation', 'rekonkwisty iberyjskiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_successfully_expelled_interloper_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win an [iberian_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$",
+    "RUS": "Выиграть [Concept('iberian_reclamation', 'иберийскую рекламацию')|E] против [Concept('struggle_uninvolved', 'не вовлеченного в борьбу')|E] персонажа",
+    "POL": "Wygranie [Concept('iberian_reclamation', 'rekonkwisty iberyjskiej')|E] przeciwko [Concept( 'struggle_uninvolved', 'niezaangażowanej' )|E] [Concept( 'character', 'postaci' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_truce_was_enforced",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[enforced_truce|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [enforced_truce|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: [Concept( 'enforced_truce', 'Wyegzekwowano rozejm' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_truce_was_enforced_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[enforced_truce|E] between [struggle_involved|E] [ruler|E]",
+    "RUS": "[enforced_truce|E] с [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E]",
+    "POL": "[enforced_truce|E] pomiędzy [Concept( 'struggle_involved', 'zaangażowanymi' )|E] [Concept( 'ruler', 'władcami' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Executed a [duke|E] or higher [title_tier|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: казнь правителя [Concept('title_tier', 'уровня')|E] [Concept('duke', 'герцога')|E] или выше",
+    "POL": "[struggle_catalyst_catalyst|E]: egzekucja postaci będącej [Concept('duke', 'księciem')|E] lub o wyższym [Concept('title_tier', 'poziomie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Execute a [duke|E] or higher rank [character|E], including [head_of_faith|E] and [cultural_head|E]",
+    "RUS": "Казнить [Concept( 'character', 'персонажа' )|E] в ранге [Concept( 'duke', 'герцога' )|E] или выше, в том числе [Concept( 'head_of_faith', 'главу конфессии' )|E] или [Concept( 'cultural_head', 'культурного идеолога' )|E]",
+    "POL": "Wykonanie egzekucji [Concept( 'duke', 'księcia' )|E] lub wyższej rangą [Concept( 'character', 'postaci' )|E], w tym [Concept( 'head_of_faith', 'głowy wiary' )|E] lub [Concept( 'cultural_head', 'głowy kultury' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_castle",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "built in a [castle|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: застроить [castle|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: wzniesiono [castle|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_castle_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Construct a [building|E] in a [castle|E] [holding|E]",
+    "RUS": "Построить [building|El] в [Concept( 'castle', 'замковом' )|E] [Concept( 'holding', 'владении' )|E]",
+    "POL": "Wzniesienie [Concept( 'building', 'budowli' )|E] w [holdings|El] [Concept( 'castle', 'zamkowej' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_city",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "built in a [city|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: застроить [city|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: wzniesiono [city|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_city_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Construct a [building|E] in a [city|E] [holding|E]",
+    "RUS": "Построить [building|El] в [Concept( 'city', 'городском' )|E] [Concept( 'holding', 'владении' )|E]",
+    "POL": "Wzniesienie [Concept( 'building', 'budowli' )|E] w [holdings|El] [Concept( 'city', 'miastowej' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_release_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Released a [ruler|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: освобожденный [ruler|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: uwolniono [Concept('ruler', 'władcę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_release_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Release an [struggle_involved|E] [ruler|E] from [prison|E] without any request",
+    "RUS": "Отпустить из [Concept( 'prison', 'тюрьмы' )|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] без каких-либо требований",
+    "POL": "Zwolnienie z [Concept( 'prison', 'więzienia' )|E] [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El] bez żadnej prośby",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ransom_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Ransom [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: выкуп",
+    "POL": "[struggle_catalyst_catalyst|E]: wykupiono",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ransom_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Ransom an [struggle_involved|E] [ruler|E]",
+    "RUS": "Выкупить [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Wykupienie [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gift_independent_ruler",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Gift sent [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: отправка подарка",
+    "POL": "[struggle_catalyst_catalyst|E]: wysłano podarunek",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gift_independent_ruler_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Send a [gift|E] or [artifact|E] to an [struggle_involved|E] [ruler|E]",
+    "RUS": "Отправить [gift|El] или [artifact|El] [Concept( 'struggle_involved', 'вовлеченному в борьбу' )|E] [Concept( 'ruler', 'правителю' )|E]",
+    "POL": "Wysłanie [Concept( 'gift', 'podarunku' )|E] lub [Concept( 'artifact', 'artefaktu' )|E] [Concept( 'struggle_involved', 'zaangażowanemu' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_very_important_child_change_culture_or_faith",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_very_important_child_change_culture_or_faith_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Have one of your [children|E] convert to a [faith|E] or [culture|E] held by a [ruler|E]",
+    "RUS": "Обратить одного из своих [Concept( 'children', 'детей' )|E] в [Concept( 'faith', 'конфессию' )|E] или [Concept( 'culture', 'культуру' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Zmiana [faiths|El] lub [cultures|El] jednego ze swoich [Concept( 'children', 'dzieci' )|E] na te wyznawane przez [Concept( 'ruler', 'władcę' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_vassalize_independent_ruler",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Vassalized an [independent_ruler] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: вассализация [Concept( 'independent_ruler', 'независимого правителя' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: zwasalizowano [Concept('independent_ruler', 'niezależnego władcę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_vassalize_independent_ruler_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Vassalize an [independent_ruler|E]",
+    "RUS": "Сделайте [Concept( 'independent_ruler', 'независимого правителя' )|E] своим вассалом",
+    "POL": "Wasalizacja [Concept( 'independent_ruler', 'niezależnego władcy' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_join_war_as_assisant",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Joined a war [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: вступление в войну",
+    "POL": "[struggle_catalyst_catalyst|E]: dołączono do wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_join_war_as_assisant_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Join a war by selling your services to a non-[allied|E] [struggle_involved|E] [ruler|E]",
+    "RUS": "Вступить в войну, продав свои услуги [Concept('struggle_involved','вовлеченному в борьбу')|E] [Concept('ruler','правителю')|E], не являющемуся вашим [Concept('allied', 'союзником')|E]",
+    "POL": "Dołączenie do wojny poprzez sprzedaż usług [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E], który nie jest z tobą [allied|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_win_any_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Won a [war|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: выигранная [Concept('war', 'война')|E]",
+    "POL": "[struggle_catalyst_catalyst|E] – wygrano [Concept('war', 'wojnę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_win_any_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win a [war|E] you started against another [struggle_involved|E] [ruler|E]",
+    "RUS": "Выиграть [Concept('war', 'войну')|E], начатую вами против другого [Concept('struggle_involved', 'вовлеченного в борьбу')|E] [Concept('ruler', 'правителя')|E]",
+    "POL": "Wygranie rozpoczętej przez ciebie [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_becomes_rival_with_involved",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Escalated rivalry [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: разжигание соперничества",
+    "POL": "[struggle_catalyst_catalyst|E]: eskalacja rywalizacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_becomes_rival_with_involved_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Become [rival|E] or [nemesis|E] with another [struggle_involved|E] [ruler|E]",
+    "RUS": "Стать [Concept( 'rival', 'соперником' )|E] или [Concept( 'nemesis', 'заклятым врагом' )|E] другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Stanie się [Concept( 'rival', 'rywalem' )|E] lub [Concept( 'nemesis', 'śmiertelnym wrogiem' )|E] dla [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_using_a_hook_on_very_important_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Used [hook|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: используется [Concept( 'hook', 'влияние' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: użyto [Concept('hook', 'haka')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_using_a_hook_on_very_important_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Use a [hook|E] on an [struggle_involved|E] [ruler|E]",
+    "RUS": "Использовать [hooks|El] на [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Użycie [Concept( 'hook', 'haka' )|E] na [Concept( 'struggle_involved', 'zaangażowanego' )|E] [Concept( 'ruler', 'władcę' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_usurp_title_fp2",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Usurped a [title|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: узурпация [Concept( 'title', 'титула' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: uzurpacja [Concept('titles', 'tytułu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_usurp_title_fp2_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Usurp a [title|E] which is part of the [de_jure|E] of $e_spain$",
+    "RUS": "Узурпировать [Concept( 'title', 'титул' )|E], [Concept( 'de_jure', 'де-юре' )|E] являющийся частью державы $e_spain$",
+    "POL": "Uzurpowanie [Concept('title', 'tytułu')|E] [de_jure|El] zapewniającego część Hiszpanii",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_important_character",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Murdered [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: убийство",
+    "POL": "[struggle_catalyst_catalyst|E]: morderstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_important_character_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Kill an [struggle_involved|E] [ruler|E]",
+    "RUS": "Убить [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Zamordowanie [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forced_conversion",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Converted [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: обращение",
+    "POL": "[struggle_catalyst_catalyst|E]: nawrócenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forced_conversion_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Convert an [struggle_involved|E] [ruler|E] or [county|E]",
+    "RUS": "Обратить [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] или [county|El]",
+    "POL": "Nawrócenie [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El] lub [Concept('county', 'hrabstwa')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_claim_on_title_fp2",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Acquired [claim|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: полученная [claim|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: pozyskanie [Concept('claims', 'roszczenia')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_claim_on_title_fp2_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Acquire a [claim|E] on a [title|E] under the [de_jure|E] of $e_spain$",
+    "RUS": "Получить [Concept( 'claim', 'претензию' )|E] на [Concept( 'title', 'титул' )|E], [Concept( 'de_jure', 'де-юре' )|E] являющийся частью державы $e_spain$",
+    "POL": "Pozyskanie [Concept('claim', 'roszczenia')|E] do [Concept('title', 'tytułu')|E] [de_jure|El] zapewniającego część Hiszpanii",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_important",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Exposed [secret|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: раскрытие [Concept( 'secret', 'секрета' )|El]",
+    "POL": "[struggle_catalyst_catalyst|E]: ujawniono [secret|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_important_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Reveal the [secret|E] of an [struggle_involved|E] [ruler|E]",
+    "RUS": "Раскрыть [secret|El] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Ujawnienie [Concept( 'secret', 'sekretu' )|E] [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_sign_truce_outside_war",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Signed [truce|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: подписание [Concept( 'truce', 'перемирия' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: podpisano [truce|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_sign_truce_outside_war_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Sign a [truce|E] outside of a [war|E] with another [struggle_involved|E] [ruler|E]",
+    "RUS": "Заключить [truce|El] вне [wars|El] с другим [Concept( 'struggle_involved', 'вовлеченным в борьбу' )|E] [Concept( 'ruler', 'правителем' )|E]",
+    "POL": "Zawarcie [Concept( 'truce', 'rozejmu' )|El] poza [Concept( 'war', 'wojną' )|E] z innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'ruler', 'władcą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_improve_development_vassal_diff_faith_culture",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Development increased [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: рост развития",
+    "POL": "[struggle_catalyst_catalyst|E]: zwiększono rozwój",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_improve_development_vassal_diff_faith_culture_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Increase the [development|E] of a [county|E] of a different [faith|E] or [culture|E]",
+    "RUS": "Увеличить [development|El] в [Concept( 'county', 'графстве' )|E] иной [Concept( 'faith', 'конфессии' )|E] или [Concept( 'culture', 'культуры' )|E]",
+    "POL": "Zwiększenie [Concept( 'development', 'rozwoju' )|E] w [Concept( 'county', 'hrabstwie' )|E] z inną [Concept( 'faith', 'wiarą' )|E] lub [Concept( 'culture', 'kulturą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_independence_from_non_dejure_vassal",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Granted Independence [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: предоставлена независимость",
+    "POL": "[struggle_catalyst_catalyst|E]: przyznano niezależność",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_independence_from_non_dejure_vassal_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$grant_independence_interaction$ to a non-[de_jure|E] [vassal|E]",
+    "RUS": "$grant_independence_interaction$ не-[de_jure|El] [Concept( 'vassal', 'вассалу' )|E]",
+    "POL": "Przyznanie niezależności niebędącemu [de_jure|El] [Concept( 'vassal', 'wasalowi' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grant_privilege_to_diff_faith_culture_vassal",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Granted privilege [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: дарование привилегий",
+    "POL": "[struggle_catalyst_catalyst|E]: przyznano przywileje",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grant_privilege_to_diff_faith_culture_vassal_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Grant better [vassal_contract|E] or [title|E] to a [vassal|E] from a different [faith|E] or [culture|E]",
+    "RUS": "Даровать лучший [Concept('vassal_contract', 'вассальный договор')|E] или [Concept('title', 'титул')|E] [Concept('vassal', 'вассалу')|E] другой [Concept('faith', 'конфессии')|E] или [Concept('culture', 'культуры')|E]",
+    "POL": "Przyznaj lepszy [vassal_contract|El] bądź [title|El] [Concept('vassal', 'wasalowi')|E] innej [Concept('faith', 'wiary')|E] lub [Concept('culture', 'kultury')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_invite_diff_faith_culture_to_feast",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Invited to [GetActivityType('activity_feast').GetName] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: Приглашение на [GetActivityType('activity_feast').GetName|l]",
+    "POL": "[struggle_catalyst_catalyst|E]: zaproszono na ucztę",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_invite_diff_faith_culture_to_feast_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Invite an [struggle_involved|E] [ruler|E] of a different [faith|E] or [culture|E] to a [GetActivityType('activity_feast').GetName]",
+    "RUS": "Пригласить на [GetActivityType('activity_feast').GetName] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] иной [Concept( 'faith', 'конфессии' )|E] или [Concept( 'culture', 'культуры' )|E]",
+    "POL": "Zaproszenie [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulers|El] innej [faiths|El] lub [cultures|El] na ucztę",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grant_land_local_noble",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Granted to local noble [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: передано в дар местному дворянину",
+    "POL": "[struggle_catalyst_catalyst|E]: przyznano miejscowemu szlachcicowi",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grant_land_local_noble_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Grant one of your [counties|E] to a local noble of an [struggle_involved|E] [culture|E]",
+    "RUS": "Отдать одно из ваших [Concept( 'counties', 'графств' )|E] местному дворянину, принадлежащему к [Concept( 'struggle_involved', 'вовлеченной в борьбу' )|E] [Concept( 'culture', 'культуре' )|E]",
+    "POL": "Przyznanie jednego z twoich [Concept( 'counties', 'hrabstw' )|E] miejscowemu szlachcicowi należącemu do [Concept( 'struggle_involved', 'zaangażowanej' )|E] [cultures|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_convert_local_culture_faith",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Converted to local beliefs [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: обращение в местную веру",
+    "POL": "[struggle_catalyst_catalyst|E]: nawrócenie na miejscowe wierzenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_convert_local_culture_faith_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Convert to the local [struggle_involved|E] [culture|E] or [faith|E]",
+    "RUS": "Обратиться в местную [Concept( 'struggle_involved', 'вовлеченную в борьбу' )|E] [Concept( 'faith', 'конфессию' )|E] или [Concept( 'culture', 'культуру' )|E]",
+    "POL": "Przejście na miejscową [Concept( 'struggle_involved', 'zaangażowaną' )|E] [Concept( 'culture', 'kulturę' )|E] lub [Concept( 'faith', 'wiarę' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_raided_involved",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Raided [struggle_involved|E] [ruler|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: налет на [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] — [Concept( 'struggle_catalyst_catalyst', 'катализация' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: najechano [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('ruler', 'władcę')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_raided_involved_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Complete a [raid|E] against an [struggle_involved|E] [ruler|E]",
+    "RUS": "Совершить [Concept( 'raid', 'налет' )|E] на [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Ukończenie [Concept( 'raid', 'najazdu' )|E] przeciwko [Concept( 'struggle_involved', 'zaangażowanemu' )|E] [rulers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_populist_uprise",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Had a populist or peasant uprising [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: народное или крестьянское восстание",
+    "POL": "[struggle_catalyst_catalyst|E]: wybuch powstania chłopskiego lub populistycznego",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_populist_uprise_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Have a [Concept('civil_wars','Populist or Peasant Uprising')|E] as an [struggle_involved|E] [ruler|E]",
+    "RUS": "Заполучить [Concept( 'civil_wars', 'гражданскую войну' )|E] в роли [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Doświadczenie [Concept('civil_war', 'powstania chłopskiego lub populistycznego')|E] jako [Concept('struggle_involved', 'zaangażowany')|E] [ruler|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revoke_title",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Revoked a title [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: лишение титула",
+    "POL": "[struggle_catalyst_catalyst|E]: odebrano tytuł",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revoke_title_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[revoke|E] a [title|E] (including [leased|E] [titles|E])",
+    "RUS": "[Concept( 'revoke', 'Лишить' )|E] [Concept( 'title', 'титула' )|E] (в том числе [Concept( 'leased', 'арендованных' )|E] [Concept( 'titles', 'титулов' )|E])",
+    "POL": "[Concept('revoke', 'Odebranie')|E] [Concept('title', 'tytułu')|E] (w tym [Concept('titles', 'tytułów')|E] [Concept('leased', 'dzierżawionych')|E])",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_claim_on_title_fp3",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_gain_claim_on_title_fp2$",
+    "RUS": "$catalyst_gain_claim_on_title_fp2$",
+    "POL": "$catalyst_gain_claim_on_title_fp2$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_claim_on_title_fp3_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Acquire a [claim|E] on a [title|E] under the [de_jure|E] of $e_persia$",
+    "RUS": "Получить [Concept( 'claim', 'претензию' )|E] на [Concept( 'title', 'титул' )|E], [Concept( 'de_jure', 'де-юре' )|E] являющийся частью державы $e_persia$",
+    "POL": "Pozyskanie [Concept('claim', 'roszczenia')|E] do [Concept('title', 'tytułu')|E] [de_jure|El] zapewniającego część imperium perskiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_usurp_title_fp3",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_usurp_title_fp2$",
+    "RUS": "$catalyst_usurp_title_fp2$",
+    "POL": "$catalyst_usurp_title_fp2$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_usurp_title_fp3_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Usurp a [title|E] which is part of the [de_jure|E] of $e_persia$",
+    "RUS": "Узурпировать [Concept( 'title', 'титул' )|E], [Concept( 'de_jure', 'де-юре' )|E] являющийся частью державы $e_persia$",
+    "POL": "Uzurpowanie [Concept('title', 'tytułu')|E] [de_jure|El] zapewniającego część imperium perskiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_supporter_fp3",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] [Concept( 'decision', 'решил' )|E] принять следующую роль: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Ważna [character|El] podjęła [Concept('decision', 'decyzję')|E], że będzie odtąd znana jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_supporter_fp3_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] [Concept( 'decision', 'решает' )|E] принять следующую роль: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Ważna [character|El] podejmuje [Concept('decision', 'decyzję')|E], że będzie odtąd znana jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_detractor_fp3",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] [Concept( 'decision', 'решил' )|E] принять следующую роль: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Ważna [character|El] podjęła [Concept('decision', 'decyzję')|E], że będzie odtąd znana jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_detractor_fp3_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] [Concept( 'decision', 'решает' )|E] принять следующую роль: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Ważna [character|El] podejmuje [Concept('decision', 'decyzję')|E], że będzie odtąd znana jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ruler_chooses_persian_faith",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "An important [character|E] took the [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName] [decision|E]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] принял [Concept( 'decision', 'решение' )|E]: [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]",
+    "POL": "Ważna [character|El] podjęła [Concept('decision', 'decyzję')|E] „[GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ruler_chooses_persian_faith_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Important [character|E] takes the [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName] [decision|E]",
+    "RUS": "Важный [Concept( 'character', 'персонаж' )|E] принимает [Concept( 'decision', 'решение' )|E]: [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]",
+    "POL": "Ważna [character|El] podejmuje [Concept('decision', 'decyzję')|E] „[GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_islamic_temple_construction",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Built a new [islam_religion.GetName] [temple_holding|E]",
+    "RUS": "Персонаж построил [Concept( 'temple_holding', 'храмовые владения' )|E]: [islam_religion.GetName]",
+    "POL": "Wybudowanie nowej [Concept('temple_holding', 'posiadłości świątynnej')|E] w celu praktykowania religii, którą jest [islam_religion.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_islamic_temple_construction_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Construct a new [temple_holding|E] in an #high Islamic#! province",
+    "RUS": "Построить новые [Concept( 'temple_holding', 'храмовые владения' )|E] в #high исламской#! провинции",
+    "POL": "Wzniesienie nowej [Concept('temple_holding', 'posiadłości świątynnej')|E] w #high muzułmańskiej#! prowincji",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_install_loyalist_cb",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Successfully used the [fp3_install_loyalist_cb|E] [casus_belli|E]",
+    "RUS": "Успешно использует [Concept( 'casus_belli', 'казус белли' )|E] «[Concept( 'fp3_install_loyalist_cb', 'Посадить на трон сторонника' )|E]»",
+    "POL": "Skutecznie wykorzystano [casus_belli|El], którym jest [Concept('fp3_install_loyalist_cb', 'obsadzenie zwolennika na urzędzie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_install_loyalist_cb_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Successfully use the [fp3_install_loyalist_cb|E] [casus_belli|E]",
+    "RUS": "Успешно использовать [Concept( 'casus_belli', 'казус белли' )|E] «[Concept( 'fp3_install_loyalist_cb', 'Посадить на трон сторонника' )|E]»",
+    "POL": "Skuteczne wykorzystanie [casus_belli|El], którym jest [Concept('fp3_install_loyalist_cb', 'obsadzenie zwolennika na urzędzie')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_cadet_branch_created",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Created a [cadet_branch|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: создана [Concept( 'cadet_branch', 'младшая линия' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: zapoczątkowano [Concept('cadet_branch', 'linię boczną dynastii')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_cadet_branch_created_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Create a new [house|E] by [cadet_branching|E]",
+    "RUS": "Создать новый [Concept( 'house', 'дом' )|E] через [Concept( 'cadet_branching', 'отделение младших' )|E]",
+    "POL": "Zapoczątkowanie nowego [Concept('house', 'rodu')|E] poprzez [Concept('cadet_branch', 'linię boczną dynastii')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_struggle_vassals_from_interlopers_uninvolved",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Obtained [vassal|E] from an [struggle_uninvolved|E] [struggle_interloper|E] or [struggle_uninvolved|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: получен [Concept( 'vassal', 'вассал' )|E] от [Concept( 'struggle_interloper', 'вмешательства' )|E] или [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: pozyskano [Concept('vassal', 'wasala')|E] od [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_struggle_vassals_from_interlopers_uninvolved_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Obtain a [struggle_involved|E] [vassal|E] from an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E]",
+    "RUS": "Получить [Concept('struggle_involved', 'вовлеченного')|E] [Concept('vassal', 'вассала')|E] от [Concept('struggle_interloper', 'вмешательства')|E] или [Concept('struggle_uninvolved', 'не вовлеченного в борьбу')|E] [Concept('ruler', 'правителя')|E]",
+    "POL": "Pozyskanie [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('vassal', 'wasala')|E] od [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_struggle_titles_from_interlopers_uninvolved",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Obtained [title|E] from an [struggle_uninvolved|E] [struggle_interloper|E] or [struggle_uninvolved|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: получен [Concept( 'title', 'титул' )|E] от [Concept( 'struggle_interloper', 'вмешательства' )|E] или [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: pozyskano [title|El] od [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gain_struggle_titles_from_interlopers_uninvolved_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Obtain a [title|E] within the [struggle_region|E] from an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E]",
+    "RUS": "Получить [Concept( 'title', 'титул' )|E] в [Concept( 'struggle_region', 'области борьбы' )|E] от [Concept( 'struggle_interloper', 'вмешательства' )|E] или [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Pozyskanie [Concept('title', 'tytułu')|E] w [Concept('struggle_region', 'regionie zmagań')|E] od [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_interloper_uninvolved_gain_struggle_vassals",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Lost a [vassal|E] to a [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: потерян [Concept( 'vassal', 'вассал' )|E] в результате [Concept( 'struggle_interloper', 'вмешательства' )|E] или действий [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: utracono [Concept('vassal', 'wasala')|E] na rzecz [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_interloper_uninvolved_gain_struggle_vassals_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Lose a [struggle_involved|E] [vassal|E] to a [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E]",
+    "RUS": "Потерять [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'vassal', 'вассала' )|E] в результате [Concept( 'struggle_interloper', 'вмешательства' )|E] или действий [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Utrata [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('vassal', 'wasala')|E] na rzecz [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_interloper_uninvolved_gain_struggle_titles",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Lost a [title|E] to [struggle_involved|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [Concept( 'title', 'титул' )|E] забрал [Concept( 'struggle_involved', 'вовлеченный в борьбу' )|E] соперник",
+    "POL": "Utracono [title|El] na rzecz [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('struggle_catalyst_catalyst', 'katalizatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_interloper_uninvolved_gain_struggle_titles_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Lose a [title|E] within the [struggle_region|E] to an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E]",
+    "RUS": "Потерять [Concept( 'title', 'титул' )|E] в [Concept( 'struggle_region', 'области борьбы' )|E] от [Concept( 'struggle_interloper', 'вмешательства' )|E] или в результате действий [Concept( 'struggle_uninvolved', 'не вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Utrata [Concept('title', 'tytułu')|E] w [Concept('struggle_region', 'regionie zmagań')|E] na rzecz [Concept('struggle_interloper', 'intruza')|E] lub [Concept('struggle_uninvolved', 'niezaangażowanego')|E] [Concept('ruler', 'władcy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_declare_any_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Started a [war|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: начатая [Concept( 'war', 'война' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: rozpoczęcie [Concept('war', 'wojny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_win_unfair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_win_any_war_within_the_region$",
+    "RUS": "$catalyst_win_any_war_within_the_region$",
+    "POL": "$catalyst_win_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_win_unfair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win a [war|E] started against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Выиграть [Concept( 'war', 'войну' )|E], начатую вами против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (более низкого [Concept( 'title_tier', 'уровня' )|E]), как [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Wygranie rozpoczętej [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule niższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_win_fair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_win_any_war_within_the_region$",
+    "RUS": "$catalyst_win_any_war_within_the_region$",
+    "POL": "$catalyst_win_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_win_fair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win a [war|E] started against another [struggle_involved|E] [ruler|E] (of same [title_tier|E] or higher) as a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Выиграть [Concept( 'war', 'войну' )|E], начатую вами против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (того же [Concept( 'title_tier', 'уровня' )|E] или выше), как [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Wygranie rozpoczętej [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule równego lub wyższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_declare_unfair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_declare_any_war_within_the_region$",
+    "RUS": "$catalyst_declare_any_war_within_the_region$",
+    "POL": "$catalyst_declare_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_declare_unfair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Начать [Concept( 'war', 'войну' )|E] против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (более низкого [Concept( 'title_tier', 'уровня' )|E]), как [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Rozpoczęcie [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule niższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_declare_fair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_declare_any_war_within_the_region$",
+    "RUS": "$catalyst_declare_any_war_within_the_region$",
+    "POL": "$catalyst_declare_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_declare_fair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of same [title_tier|E] or higher) as a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Начать [Concept( 'war', 'войну' )|E] против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (того же [Concept( 'title_tier', 'уровня' )|E] или выше), как [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Rozpoczęcie [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule równego lub wyższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_win_unfair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_win_any_war_within_the_region$",
+    "RUS": "$catalyst_win_any_war_within_the_region$",
+    "POL": "$catalyst_win_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_win_unfair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win a [war|E] started against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Выиграть [Concept( 'war', 'войну' )|E], начатую вами против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (более низкого [Concept( 'title_tier', 'уровня' )|E]), как [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Wygranie rozpoczętej [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule niższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_win_fair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_win_any_war_within_the_region$",
+    "RUS": "$catalyst_win_any_war_within_the_region$",
+    "POL": "$catalyst_win_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_win_fair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Win a [war|E] started against another [struggle_involved|E] [ruler|E] (of same [title_tier|E] or higher) as a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Выиграть [Concept( 'war', 'войну' )|E], начатую вами против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (того же [Concept( 'title_tier', 'уровня' )|E] или выше), как [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Wygranie rozpoczętej [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule równego lub wyższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_declare_unfair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_declare_any_war_within_the_region$",
+    "RUS": "$catalyst_declare_any_war_within_the_region$",
+    "POL": "$catalyst_declare_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_declare_unfair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Начать [Concept( 'war', 'войну' )|E] против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (более низкого [Concept( 'title_tier', 'уровня' )|E]), как [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Rozpoczęcie [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule niższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_declare_fair_war_within_the_region",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_declare_any_war_within_the_region$",
+    "RUS": "$catalyst_declare_any_war_within_the_region$",
+    "POL": "$catalyst_declare_any_war_within_the_region$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_declare_fair_war_within_the_region_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of same [title_tier|E] or higher) as a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Начать [Concept( 'war', 'войну' )|E] против другого [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] (того же [Concept( 'title_tier', 'уровня' )|E] или выше), как [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Rozpoczęcie [Concept('war', 'wojny')|E] przeciwko innemu [Concept('struggle_involved', 'zaangażowanemu')|E] [Concept('ruler', 'władcy')|E] (o tytule równego lub wyższego [Concept('title_tier', 'poziomu')|E]) jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_war_ends_in_white_peace_between_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Had a [war|E] end in [white_peace|E]",
+    "RUS": "[Concept( 'war', 'Война' )|E] закончилась [Concept( 'white_peace', 'миром на условиях статус-кво' )|E]",
+    "POL": "Zakończono [Concept('war', 'wojnę')|E] [Concept('white_peace', 'białym pokojem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_war_ends_in_white_peace_between_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [war|E] between $supporter_and_detractor$ ends with [white_peace|E]",
+    "RUS": "[Concept( 'war', 'Война' )|E] между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] заканчивается [Concept( 'white_peace', 'миром на условиях статус-кво' )|E]",
+    "POL": "[war|E], którą toczyli ze sobą $supporter_and_detractor$, kończy się [Concept('white_peace', 'białym pokojem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_supporter_detractor_rulers",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[alliance|E] formed between $supporter_and_detractor$ [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] образовался [Concept( 'alliance', 'союз' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: nawiązano [alliance|El] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_supporter_detractor_rulers_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "An [alliance|E] is formed between $supporter_and_detractor$",
+    "RUS": "Между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] образовался [Concept( 'alliance', 'союз' )|E]",
+    "POL": "Nawiązanie [Concept('alliance', 'sojuszu')|E] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_detractor_uninvolved_rulers",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[allied|E] with foreign power [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [Concept( 'allied', 'в союзе' )|E] с зарубежной державой",
+    "POL": "[struggle_catalyst_catalyst|E]: nawiązano [alliance|El] z obcym mocarstwem",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_forming_alliance_between_detractor_uninvolved_rulers_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Form an [alliance|E] with an [struggle_uninvolved|E] [realm|E] as a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Заключить [Concept( 'alliance', 'союз' )|E] с [Concept( 'struggle_uninvolved', 'не вовлеченной в борьбу' )|E] [Concept( 'realm', 'державой' )|E] в роли «[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]»",
+    "POL": "Nawiązanie [Concept('alliance', 'sojuszu')|E] z [Concept('struggle_uninvolved', 'niezaangażowanym')|E] [Concept('realm', 'państwem')|E] jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gift_supporter_detractor_ruler",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_gift_independent_ruler$",
+    "RUS": "$catalyst_gift_independent_ruler$",
+    "POL": "$catalyst_gift_independent_ruler$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_gift_supporter_detractor_ruler_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [gift|E] or [artifact|E] is sent between $supporter_and_detractor$",
+    "RUS": "Между #TOOLTIP:GAME_TRAIT,fp3_struggle_supporter,$CHARACTER_ID$ #L сторонником #!#! и #TOOLTIP:GAME_TRAIT,fp3_struggle_detractor,$CHARACTER_ID$ #L недоброжелателем халифата#!#! перешел из рук в руки [Concept( 'gift', 'подарок' )|E] или [Concept( 'artifact', 'артефакт' )|E]",
+    "POL": "[gift|E] lub [artifact|El] został wymieniony między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_forced_conversion",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_forced_conversion$",
+    "RUS": "$catalyst_forced_conversion$",
+    "POL": "$catalyst_forced_conversion$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_supporter_forced_conversion_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Convert a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E]",
+    "RUS": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] — обратить [Concept( 'ruler', 'правителя' )|E] в другую веру",
+    "POL": "Nawrócenie [Concept('ruler', 'władcy')|E], którym jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_forced_conversion",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_forced_conversion$",
+    "RUS": "$catalyst_forced_conversion$",
+    "POL": "$catalyst_forced_conversion$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_detractor_forced_conversion_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Convert a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E]",
+    "RUS": "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] — обратить [Concept( 'ruler', 'правителя' )|E] в другую веру",
+    "POL": "Nawrócenie [Concept('ruler', 'władcy')|E], którym jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_release_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_release_important$",
+    "RUS": "$catalyst_release_important$",
+    "POL": "$catalyst_release_important$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_release_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Someone is released from [prison|E] without any demands made between $supporter_and_detractor$",
+    "RUS": "Кто-то освобожден из [Concept( 'prison', 'тюрьмы' )|E]. Персонажи [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] не обменивались требованиями.",
+    "POL": "Wypuszczono kogoś z [Concept('prison', 'więzienia')|E] bez formułowania żądań między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ransom_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_ransom_important$",
+    "RUS": "$catalyst_ransom_important$",
+    "POL": "$catalyst_ransom_important$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_ransom_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Ransom an [struggle_involved|E] [ruler|E] between $supporter_and_detractor$",
+    "RUS": "Выкупить [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] с участием персонажей [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Zapłata okupu za [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('ruler', 'władcę')|E] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprisoned [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] находится в тюрьме",
+    "POL": "[struggle_catalyst_catalyst|E]: uwięziono osobę, którą jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprison a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] — заточить персонажа в тюрьму",
+    "POL": "Uwięzienie osoby, którą jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_supporter",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprisoned [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] находится в тюрьме",
+    "POL": "[struggle_catalyst_catalyst|E]: uwięziono osobę, którą jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_imprison_supporter_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Imprison a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] — заточить персонажа в тюрьму",
+    "POL": "Uwięzienie osoby, którą jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_becomes_rival_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_becomes_rival_with_involved$",
+    "RUS": "$catalyst_becomes_rival_with_involved$",
+    "POL": "$catalyst_becomes_rival_with_involved$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_becomes_rival_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$supporter_and_detractor_caps$ become [rival|E] or [nemesis|E]",
+    "RUS": "Персонажи [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] становятся [Concept( 'rival', 'соперниками' )|E] или [Concept( 'nemesis', 'заклятыми врагами' )|E]",
+    "POL": "$supporter_and_detractor_caps$ stają się [Concept('rivals', 'rywalami')|E] lub [Concept('nemeses', 'śmiertelnymi wrogami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_best_friend_soulmate_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_became_best_friend_soulmate_with_very_important_character$",
+    "RUS": "$catalyst_became_best_friend_soulmate_with_very_important_character$",
+    "POL": "$catalyst_became_best_friend_soulmate_with_very_important_character$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_best_friend_soulmate_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$supporter_and_detractor_caps$ become [best_friends|E] or [soulmates|E]",
+    "RUS": "Персонажи [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] становятся [Concept( 'best_friends', 'лучшими друзьями' )|E] или [Concept( 'soulmates', 'родственными душами' )|E]",
+    "POL": "$supporter_and_detractor_caps$ stają się [Concept('best_friends', 'najlepszymi przyjaciółmi')|E] lub [Concept('soulmates', 'bratnimi duszami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_friend_lover_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_became_friend_lover_with_character$",
+    "RUS": "$catalyst_became_friend_lover_with_character$",
+    "POL": "$catalyst_became_friend_lover_with_character$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_became_friend_lover_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$supporter_and_detractor_caps$ become [friends|E] or [lovers|E]",
+    "RUS": "Персонажи [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] становятся [Concept( 'friends', 'друзьями' )|E] или [Concept( 'lovers', 'любовниками' )|E]",
+    "POL": "$supporter_and_detractor_caps$ stają się [Concept('friends', 'przyjaciółmi')|E] lub [Concept('lovers', 'kochankami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_supporter",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_unnatural_death_important_character$",
+    "RUS": "$catalyst_unnatural_death_important_character$",
+    "POL": "$catalyst_unnatural_death_important_character$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_supporter_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E] is killed",
+    "RUS": "Убит [Concept( 'ruler', 'правитель' )|E] со свойством «[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]»",
+    "POL": "[ruler|E], którym jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l], zostaje zabity",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_unnatural_death_important_character$",
+    "RUS": "$catalyst_unnatural_death_important_character$",
+    "POL": "$catalyst_unnatural_death_important_character$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_unnatural_death_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E] is killed",
+    "RUS": "Убит [Concept( 'ruler', 'правитель' )|E] со свойством «[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]»",
+    "POL": "[ruler|E], którym jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l], zostaje zabity",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_supporter",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_reveal_secret_important$",
+    "RUS": "$catalyst_reveal_secret_important$",
+    "POL": "$catalyst_reveal_secret_important$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_supporter_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Reveal the [secret|E] of a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E]",
+    "RUS": "Раскрыть [Concept( 'secret', 'секрет' )|E] [Concept( 'ruler', 'правителя' )|E] с ролью «[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]»",
+    "POL": "Ujawnienie [Concept('secret', 'sekretu')|E] [Concept('ruler', 'władcy')|E], którym jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_reveal_secret_important$",
+    "RUS": "$catalyst_reveal_secret_important$",
+    "POL": "$catalyst_reveal_secret_important$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_reveal_secret_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Reveal the [secret|E] of a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E]",
+    "RUS": "Раскрыть [Concept( 'secret', 'секрет' )|E] [Concept( 'ruler', 'правителя' )|E] с ролью «[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]»",
+    "POL": "Ujawnienie [Concept('secret', 'sekretu')|E] [Concept('ruler', 'władcy')|E], którym jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$harmonious$ [house|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: гармоничный [Concept( 'house', 'дом' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: harmonijny [house|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "or more [struggle_involved|E] [house_heads|E] with $harmonious$ [house_unity|E]",
+    "RUS": "или больше [Concept( 'house_heads', 'глав' )|E] [Concept( 'struggle_involved', 'вовлеченных' )|E] домов с гармоничным уровнем [Concept( 'house_unity', 'единства' )|E]",
+    "POL": "lub więcej [Concept('struggle_involved', 'zaangażowanych')|E] [Concept('house_heads', 'głów rodów')|E] z [Concept('house_unity', 'jednością rodu')|E] na poziomie harmonijnym",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_major",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_harmonious$",
+    "RUS": "$catalyst_yearly_influential_house_is_harmonious$",
+    "POL": "$catalyst_yearly_influential_house_is_harmonious$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_major_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_major_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_major_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_major_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_medium",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_harmonious$",
+    "RUS": "$catalyst_yearly_influential_house_is_harmonious$",
+    "POL": "$catalyst_yearly_influential_house_is_harmonious$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_medium_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_medium_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_medium_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_medium_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_minor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_harmonious$",
+    "RUS": "$catalyst_yearly_influential_house_is_harmonious$",
+    "POL": "$catalyst_yearly_influential_house_is_harmonious$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_minor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minor_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minor_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minor_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_minimal",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_harmonious$",
+    "RUS": "$catalyst_yearly_influential_house_is_harmonious$",
+    "POL": "$catalyst_yearly_influential_house_is_harmonious$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_harmonious_minimal_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minimal_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minimal_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minimal_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$antagonistic$ [house|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: враждебный [Concept( 'house', 'дом' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: antagonistyczny [house|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "or more [struggle_involved|E] [house_heads|E] with $antagonistic$ [house_unity|E]",
+    "RUS": "или больше [Concept( 'house_heads', 'глав' )|E] [Concept( 'struggle_involved', 'вовлеченных' )|E] домов с враждебным уровнем [Concept( 'house_unity', 'единства' )|E]",
+    "POL": "lub więcej [Concept('struggle_involved', 'zaangażowanych')|E] [Concept('house_heads', 'głów rodów')|E] z [Concept('house_unity', 'jednością rodu')|E] na poziomie antagonistycznym",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_major",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "RUS": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "POL": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_major_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_major_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_major_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_major_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_medium",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "RUS": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "POL": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_medium_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_medium_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_medium_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_medium_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_minor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "RUS": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "POL": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_minor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minor_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minor_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minor_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_minimal",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "RUS": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "POL": "$catalyst_yearly_influential_house_is_antagonistic$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_yearly_influential_house_is_antagonistic_minimal_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minimal_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "RUS": "Ежегодное изменение: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minimal_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "POL": "Roczna zmiana statusu: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minimal_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_invite_involved_as_honorary_guests_to_feast_hunt",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Honorary guest [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: почетный гость",
+    "POL": "[struggle_catalyst_catalyst|E]: gość honorowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_invite_involved_as_honorary_guests_to_feast_hunt_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Invite an [struggle_involved|E] [ruler|E] to a Feast or Hunt [activity|E] as an [honorary_guest|E]",
+    "RUS": "Пригласить [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E] на [Concept('activity', 'пир или охоту')|E] в роли [Concept( 'honorary_guest', 'почетного гостя' )|E]",
+    "POL": "Zaproszenie [Concept('struggle_involved', 'zaangażowanego')|E] [Concept('ruler', 'władcy')|E] jako [Concept('honorary_guest', 'gościa honorowego')|E] podczas [Concept('activity', 'aktywności')|E], którą jest uczta lub polowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_abandon_hook_on_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[hook|E] abandoned [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: отмена [Concept( 'hook', 'влияния' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: utracono [hook|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_abandon_hook_on_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [hook|E] is abandoned between $supporter_and_detractor$",
+    "RUS": "Между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] больше нет [Concept( 'hook', 'влияния' )|E]",
+    "POL": "Utrata [Concept('hook', 'haka')|E] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grants_pardon_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Pardon granted [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: даровано помилование",
+    "POL": "[struggle_catalyst_catalyst|E]: przyznano ułaskawienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grants_pardon_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [crime|E] is pardoned between $supporter_and_detractor$",
+    "RUS": "Между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] было прощено [Concept( 'crime', 'преступление' )|E]",
+    "POL": "Przyznanie ułaskawienia za [crime|El] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grants_vassal_to_de_jure_liege_supporter_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Transferred to [de_jure|E] liege [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: произошла передача [Concept( 'de_jure', 'номинальному' )|E] сюзерену",
+    "POL": "[struggle_catalyst_catalyst|E]: przeniesiono do seniora [de_jure|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_grants_vassal_to_de_jure_liege_supporter_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [vassal|E] is transferred to their [de_jure|E] liege between $supporter_and_detractor$",
+    "RUS": "Между персонажами [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] произошла передача [Concept( 'vassal', 'вассала' )|E] [Concept( 'de_jure', 'номинальному' )|E] сюзерену",
+    "POL": "Przeniesienie [Concept('vassal', 'wasala')|E] do seniora [de_jure|El] między stronami ($supporter_and_detractor$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_turn_supporter_into_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Changed side [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: произошла смена сторон",
+    "POL": "[struggle_catalyst_catalyst|E]: zmieniono stronę",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_turn_supporter_into_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] becomes a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] принимает новую роль: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] staje się osobą znaną jako [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_turn_detractor_into_supporter",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Changed side [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: произошла смена сторон",
+    "POL": "[struggle_catalyst_catalyst|E]: zmieniono stronę",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_turn_detractor_into_supporter_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] becomes a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] принимает новую роль: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] staje się osobą znaną jako [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_holdings",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "built in a [holding|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: построено [Concept( 'holding', 'владение' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: wzniesienie budowli w [Concept('holding', 'posiadłości')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_new_building_in_holdings_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Construct a [building|E] in any [holding|E]",
+    "RUS": "Построить [Concept( 'building', 'здание' )|E] в любом [Concept( 'holding', 'владении' )|E]",
+    "POL": "Wzniesienie [Concept('building', 'budowli')|E] w dowolnej [Concept('holding', 'posiadłości')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_supporter",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Executed a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: казнен персонаж — [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "[struggle_catalyst_catalyst|E]: stracono osobę, którą jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_supporter_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Execute a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "RUS": "Казнить персонажа — [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]",
+    "POL": "Stracenie osoby, którą jest [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Executed a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: казнен персонаж — [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "[struggle_catalyst_catalyst|E]: stracono osobę, którą jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_execute_detractor_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Execute a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "Казнить персонажа — [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "Stracenie osoby, którą jest [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_missing_caliphate_or_arabian_empire",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: either the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] were destroyed",
+    "RUS": "Ежегодное изменение: уничтожены либо [GetTitleByKey('d_sunni').GetBaseName], либо [GetTitleByKey('e_arabia').GetBaseName]",
+    "POL": "Roczna zmiana statusu: doszło do zniszczenia miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_missing_caliphate_or_arabian_empire_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Yearly Drift: either the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] are destroyed",
+    "RUS": "Ежегодное изменение: уничтожены либо [GetTitleByKey('d_sunni').GetBaseName], либо [GetTitleByKey('e_arabia').GetBaseName]",
+    "POL": "Roczna zmiana statusu: zniszczenie miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_or_emperor_loses_revolt_war",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[holder|E] of the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] lost a [civil_war|E]",
+    "RUS": "[Concept( 'holder', 'Носитель' )|E] титула [GetTitleByKey('d_sunni').GetBaseName] или [GetTitleByKey('e_arabia').GetBaseName] проиграл [Concept( 'civil_war', 'гражданскую войну' )|E]",
+    "POL": "[holder|E] miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName], przegrywa [Concept('civil_war', 'wojnę domową')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_or_emperor_loses_revolt_war_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The [holder|E] of the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] loses a [civil_war|E]",
+    "RUS": "[Concept( 'holder', 'Носитель' )|E] титула [GetTitleByKey('d_sunni').GetBaseName] или [GetTitleByKey('e_arabia').GetBaseName] проигрывает [Concept( 'civil_war', 'гражданскую войну' )|E]",
+    "POL": "[holder|E] miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName], przegrywa [Concept('civil_war', 'wojnę domową')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_or_emperor_accepts_faction_demands",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "[holder|E] of the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] accepted a [faction|E]'s demands",
+    "RUS": "[Concept( 'holder', 'Носитель' )|E] титула [GetTitleByKey('d_sunni').GetBaseName] или [GetTitleByKey('e_arabia').GetBaseName] принял требования [Concept( 'faction', 'фракции' )|E]",
+    "POL": "[holder|E] miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName], spełnia żądania [Concept('faction', 'frakcji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_or_emperor_accepts_faction_demands_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The [holder|E] of the [GetTitleByKey('d_sunni').GetBaseName] or the [GetTitleByKey('e_arabia').GetBaseName] accepts a [faction|E]'s demands",
+    "RUS": "[Concept( 'holder', 'Носитель' )|E] титула [GetTitleByKey('d_sunni').GetBaseName] или [GetTitleByKey('e_arabia').GetBaseName] принимает требования [Concept( 'faction', 'фракции' )|E]",
+    "POL": "[holder|E] miejsca, którym jest [GetTitleByKey('d_sunni').GetBaseName] lub [GetTitleByKey('e_arabia').GetBaseName], spełnia żądania [Concept('faction', 'frakcji')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_died_violently",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Sunni [GetFaithByKey('ashari').ReligiousHeadName|U] died violently",
+    "RUS": "[GetFaithByKey('ashari').ReligiousHeadName|U] суннитов умер насильственной смертью",
+    "POL": "[GetFaithByKey('ashari').ReligiousHeadName|U] sunnitów zginął brutalną śmiercią",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_died_violently_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Sunni [GetFaithByKey('ashari').ReligiousHeadName|U] dies violently\\n#WEAK ([EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] year cooldown)#!",
+    "RUS": "[GetFaithByKey('ashari').ReligiousHeadName|U] суннитов умирает насильственной смертью\\n#WEAK ([EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] г./лет восстановления)#!",
+    "POL": "[GetFaithByKey('ashari').ReligiousHeadName|U] sunnitów zginął brutalną śmiercią\\n#WEAK (Czas odnowienia w latach: [EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_died_naturally",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Sunni [GetFaithByKey('ashari').ReligiousHeadName|U] died naturally",
+    "RUS": "[GetFaithByKey('ashari').ReligiousHeadName|U] суннитов умер естественной смертью",
+    "POL": "[GetFaithByKey('ashari').ReligiousHeadName|U] sunnitów zmarł z przyczyn naturalnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_caliph_died_naturally_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "The Sunni [GetFaithByKey('ashari').ReligiousHeadName|U] dies naturally\\n#WEAK ([EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] year cooldown)#!",
+    "RUS": "[GetFaithByKey('ashari').ReligiousHeadName|U] суннитов умирает естественной смертью\\n#WEAK ([EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] г./лет восстановления)#!",
+    "POL": "[GetFaithByKey('ashari').ReligiousHeadName|U] zmarł z przyczyn naturalnych\\n#WEAK (Czas odnowienia w latach: [EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "supporter_and_detractor",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l] i [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "supporter_and_detractor_caps",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "RUS": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]",
+    "POL": "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] i [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revealed_secret_faith_non_islam",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Revealed non-[GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: раскрыта тайная #L не[GetReligionByKey('islam_religion').GetName|l]ая#! [Concept( 'faith', 'конфессия' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: odkryto sekretną [Concept('faith', 'wiarę')|E], którą nie jest [GetReligionByKey('islam_religion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revealed_secret_faith_non_islam_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Reveal non-[GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E]",
+    "RUS": "Раскрытие тайной #L не[GetReligionByKey('islam_religion').GetName|l]ой#! [Concept( 'faith', 'конфессии' )|E]",
+    "POL": "Odkrycie sekretnej [Concept('faith', 'wiary')|E], którą nie jest [GetReligionByKey('islam_religion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revealed_secret_faith_islam",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Revealed [GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E] [struggle_catalyst_catalyst|E]",
+    "RUS": "[struggle_catalyst_catalyst|E]: раскрыта тайная #L [GetReligionByKey('islam_religion').GetName|l]ая#! [Concept( 'faith', 'конфессия' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: odkryto sekretną [Concept('faith', 'wiarę')|E], którą jest [GetReligionByKey('islam_religion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_revealed_secret_faith_islam_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "Reveal [GetReligionByKey('islam_religion').GetAdjective] Secret [faith|E]",
+    "RUS": "Раскрытие тайной #L [GetReligionByKey('islam_religion').GetName|l]ой#! [Concept( 'faith',  'конфессии' )|E]",
+    "POL": "[struggle_catalyst_catalyst|E]: odkryto sekretną [Concept('faith', 'wiarę')|E], którą nie jest [GetReligionByKey('islam_religion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_unrest",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A loud proclamation of dissatisfaction during a coronation",
+    "RUS": "Публичное проявление недовольства во время коронации",
+    "POL": "Głośny wyraz niezadowolenia podczas koronacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_unrest_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of shaking up the status quo",
+    "RUS": "В ходе [Concept('coronation', 'коронации')|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l] вступили в жаркий спор. Дискуссия привела к всеобщему выражению поддержки радикальных перемен",
+    "POL": "Zawzięta dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec zmiany status quo",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_concession",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A loud proclamation of dissatisfaction during a coronation",
+    "RUS": "Публичное проявление недовольства во время коронации",
+    "POL": "Głośny wyraz niezadowolenia podczas koronacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_concession_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of finding a middle ground",
+    "RUS": "В ходе [Concept('coronation', 'коронации')|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l] вступили в жаркий спор. Дискуссия привела к всеобщему выражению поддержки компромиссного решения",
+    "POL": "Zawzięta dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec znalezienia kompromisu",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_stabilization",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "$catalyst_coronation_event_unrest$",
+    "RUS": "$catalyst_coronation_event_unrest$",
+    "POL": "$catalyst_coronation_event_unrest$",
+    "BEL": ""
+  },
+  {
+    "KEY": "catalyst_coronation_event_stabilization_desc",
+    "FILE_PATH": "localization/belarusian/struggles/struggle_catalysts_l_belarusian.json",
+    "ENG": "A heated discussion between $supporter_and_detractor$ during a [coronation|E] ended in loud support of stability",
+    "RUS": "В ходе [Concept('coronation', 'коронации')|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )|l] и [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )|l] вступили в жаркий спор. Дискуссия привела к всеобщему выражению поддержки текущего курса",
+    "POL": "Zawzięta dyskusja, którą podczas [Concept('coronation', 'koronacji')|E] toczyły ze sobą osoby znane jako $supporter_and_detractor$, zakończyła się wyrażeniem głośnego poparcia wobec stabilności",
+    "BEL": ""
+  }
+]

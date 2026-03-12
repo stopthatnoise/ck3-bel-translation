@@ -1,0 +1,1330 @@
+[
+  {
+    "KEY": "bp2_hostage_system.0100.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "By Any Means",
+    "RUS": "Любой ценой",
+    "POL": "Za wszelką cenę",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my [war.Custom('WarCasusBelliShort')] now set in motion, the fate of my hostage, [hostage_home_court.GetTitledFirstNamePossessive] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], remains to be decided.\\n\\n",
+    "RUS": "[war.Custom('WarCasusBelliShort')] уже идет полным ходом, и теперь предстоит решить, какую судьбу встретит мой заложник и [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] персонажа [hostage_home_court.GetTitledFirstName], [hostage.GetFirstName].\\n\\n",
+    "POL": "Moja [war.Custom('WarCasusBelliShort')] już się rozpoczęła. Teraz los mojego zakładnika, którym jest [hostage.GetFirstName], [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] osoby znanej jako [hostage_home_court.GetTitledFirstName], pozostaje do rozstrzygnięcia.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Any and all damage I can inflict upon the [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip] fiends is useful, and [hostage_home_court.GetFirstNameNoTooltip] has only [hostage_home_court.GetHerselfHimself] to blame.",
+    "RUS": "Любой ущерб, какой я смогу причинить [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им отродьям, лишним не будет, и пусть [hostage_home_court.GetFirstNameNoTooltip] пеняет на себя.",
+    "POL": "Wszelkie szkody, jakie zdołam wyrządzić tym potworom z [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip], będą na wagę złota. A [hostage_home_court.GetFirstNameNoTooltip] może winić jedynie siebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.executed_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "That fiend executed my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))], [victim.GetFirstName]. Justice demands I am ruthless...",
+    "RUS": "[Select_CString(victim.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))], [victim.GetFirstName], [Select_CString(victim.IsFemale, 'была казнена', 'был казнен' )] этими мерзавцами. Справедливости ради мне нужно проявить жестокость...",
+    "POL": "Osoba z mojej rodziny, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))] [victim.GetFirstName], została stracona przez tego potwora. Sprawiedliwość wymaga ode mnie bezwzględności…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.spared_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_home_court.GetFirstNameNoTooltip] showed my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], clemency. Perhaps leaving our disputes to the battlefields is warranted...",
+    "RUS": "[hostage_home_court.GetFirstNameNoTooltip] [Select_CString(hostage_home_court.IsFemale, 'проявила', 'проявил' )] милосердие, и [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], в безопасности. Возможно, стоит оставить наши противоречия для полей сражений...",
+    "POL": "Persona znana jako [hostage_home_court.GetFirstNameNoTooltip] okazała dobroć osobie z mojej rodziny, którą jest [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName]. Być może pozostawienie naszych sporów na polach bitew to dobry pomysł…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nThough what of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName] — [my_hostage.GetSheHe] is at [hostage_home_court.GetTitledFirstNamePossessiveNoTooltip] mercy...",
+    "RUS": "\\n\\nНо вот [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName] — [my_hostage.GetHerHis] жизнью всецело распоряжается [hostage_home_court.GetTitledFirstNameNoTooltip]...",
+    "POL": "\\n\\nAle [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] – co z [my_hostage.Custom('PL_nim_nia')] będzie? [hostage_home_court.GetTitledFirstNameNoTooltip] może okazać [my_hostage.Custom('PL_mu_jej')] litość lub też nie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have made my decision.",
+    "RUS": "Я знаю, как поступлю.",
+    "POL": "Już wiem, co zrobię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0100.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetFirstNameNoTooltip] is safe, for now.",
+    "RUS": "[hostage.GetFirstNameNoTooltip] в безопасности, пока.",
+    "POL": "[hostage.GetFirstNameNoTooltip] na razie nie musi obawiać się o swoje bezpieczeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0110.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Empty Promise",
+    "RUS": "Пустое обещание",
+    "POL": "Czcze obietnice",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0110.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Despite sending [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], to my court, [hostage_home_court.GetTitledFirstName], the treacherous [hostage_home_court.Custom2('InsultNoun', ROOT.Char)], brings war on me from [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\n[hostage_home_court.GetSheHe|U] must think me faint of heart, or have no regard at all for [hostage.GetFirstNamePossessiveNoTooltip] welfare, to wage a [war.Custom('WarCasusBelliShort')] against [hostage_home_court.GetHerHis] hostage's warden...",
+    "RUS": "Хотя [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], находится у меня при дворе по [hostage_home_court.GetHerHis] же предложению, [hostage_home_court.GetTitledFirstName], [Select_CString(hostage_home_court.IsFemale, 'вероломная', 'вероломный' )] [hostage_home_court.Custom2('InsultNoun', ROOT.Char)], объявляет войну державе [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\n[hostage_home_court.GetSheHe|U], должно быть, считает меня [Select_CString(ROOT.Char.IsFemale, 'малодушной', 'малодушным' )], или же [hostage_home_court.GetHerHis] вообще не волнует, какую участь встретит [hostage.GetFirstNameNoTooltip], иначе никак не объяснить, почему ведется [war.Custom('WarCasusBelliShort')] против державы с [hostage_home_court.GetHerHis] заложником...",
+    "POL": "[hostage.GetFirstName], [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] osoby znanej jako [hostage_home_court.GetTitledFirstName], na jej polecenie trafia na mój dwór. Niestety, [hostage_home_court.GetTitledFirstName] to [hostage_home_court.Custom2('InsultNoun', ROOT.Char)] o zdradzieckim charakterze, gdyż z miejsca o nazwie [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip] sprowadza do mnie wojnę.\\n\\nAlbo uważa, że mam słabe nerwy, albo wcale nie przejmuje się losem swojego zakładnika, skoro podejmuje przeciwko jego kuratorowi zbrojne działanie takie jak [war.Custom('WarCasusBelliShort')]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0110.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_home_court.GetFirstNameNoTooltip] made [hostage_home_court.GetHerHis] choice.",
+    "RUS": "[hostage_home_court.GetFirstNameNoTooltip] [Select_CString(hostage_home_court.IsFemale, 'сделала', 'сделал' )] свой выбор.",
+    "POL": "[hostage_home_court.GetFirstNameNoTooltip] już wie, co zrobi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0110.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Let's not be hasty...",
+    "RUS": "Лучше не торопиться...",
+    "POL": "Nie działajmy pochopnie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0120.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "My Friend's Enemy",
+    "RUS": "Враг моего друга",
+    "POL": "Wróg mojego przyjaciela",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0120.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Events conspire against my hostage, [hostage_home_court.GetTitledFirstNamePossessive] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName]. Though I took [hostage.GetHerHis] into my court with honorable intentions, I have other obligations to uphold in [war_joiner_ally.GetTitledFirstNamePossessive] [war.Custom('WarCasusBelliShort')]...\\n\\n",
+    "RUS": "События складываются таким образом, что [hostage.GetFirstName], [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] персонажа [hostage_home_court.GetTitledFirstName], рискует жизнью. Хотя [hostage.GetHerHis] пребывание при моем дворе продиктовано моими благородными намерениями, у меня есть и иные обязательства. [war_joiner_ally.GetTitledFirstName] призывает меня, [war.Custom('WarCasusBelliShort')] начинается...\\n\\n",
+    "POL": "Wydarzenia obracają się przeciwko mojemu zakładnikowi, którym jest [hostage.GetFirstName], [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] osoby znanej jako [hostage_home_court.GetTitledFirstName]. Chociaż zakładnik został przeze mnie przyjęty na dwór ze szlachetnych powodów, mam inne zobowiązania, które muszę dotrzymać – wymusza je na mnie [war.Custom('WarCasusBelliShort')] osoby, którą jest [war_joiner_ally.GetTitledFirstName]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0120.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Peace with [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip] was my aim, but there is no longer anything to be done. Mercy might maintain a degree of trust, but then again, all is fair in times of war.",
+    "RUS": "Мне хотелось, чтобы я и [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip] находились в мире, но тут уже ничего не поделать. Милосердие может помочь сохранить остатки доверия, но все же на войне все средства хороши.",
+    "POL": "Moim celem było zawarcie pokoju z ziemiami znanymi jako [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip], ale teraz już nic się nie da zrobić. Miłosierdzie może zapewnić pewien stopień zaufania, ale z drugiej strony na wojnie wszystko jest dozwolone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0120.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The situation has changed.",
+    "RUS": "Ситуация изменилась.",
+    "POL": "Sytuacja uległa zmianie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0120.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "This is between [war_joiner_ally.GetFirstNameNoTooltip] and [hostage_home_court.GetFirstNameNoTooltip]...",
+    "RUS": "Пусть  [war_joiner_ally.GetFirstNameNoTooltip] и [hostage_home_court.GetFirstNameNoTooltip] решают свои разногласия между собой...",
+    "POL": "To sprawa pomiędzy osobami, którymi są [war_joiner_ally.GetFirstNameNoTooltip] i [hostage_home_court.GetFirstNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0130.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "My Enemy's Friend",
+    "RUS": "Друг моего врага",
+    "POL": "Przyjaciel mojego wroga",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0130.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have learned that [hostage_home_court.GetTitledFirstName] foolishly takes up arms alongside my enemy [war_joiner_ally.GetTitledFirstName], despite sending [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], to be my hostage.\\n\\nThis petty [war.Custom('WarCasusBelliShort')] has lain bare the worth of [hostage_home_court.GetHerHis] promises of peace, let alone [hostage_home_court.GetHerHis] callous disregard for [hostage.GetFirstNameNoTooltip].",
+    "RUS": "Мне сообщили, что [hostage_home_court.GetTitledFirstName] по-глупости [Select_CString(hostage_home_court.IsFemale, 'откликнулась', 'откликнулся' )] на призыв к войне, которую [Select_CString(war_joiner_ally.IsFemale, 'объявила', 'объявил' )] [war_joiner_ally.GetTitledFirstName], несмотря на то, что [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], проживает у меня в качестве заложника.\\n\\n[war.Custom('WarCasusBelliShort')] сводит на нет все [hostage_home_court.GetHerHis] заверения о мире, и [hostage_home_court.GetHerHim] явно все равно, какую участь встретит [hostage.GetFirstNameNoTooltip].",
+    "POL": "Dowiaduję się, że [hostage_home_court.GetTitledFirstName] niemądrze przystępuje do wojny u boku mojego wroga, którym jest [war_joiner_ally.GetTitledFirstName]. W dodatku robi to pomimo wysłania do mnie w roli zakładnika osoby, którą jest [hostage.GetFirstName], [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))].\\n\\nTa błaha [war.Custom('WarCasusBelliShort')] obnaża całą prawdę o tym, ile warte są obietnice pokoju, które składa [hostage_home_court.GetTitledFirstName], nie mówiąc już o bezdusznym traktowaniu swojego zakładnika.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0130.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I do not make empty threats.",
+    "RUS": "Я не бросаюсь пустыми угрозами.",
+    "POL": "Nie rzucam pustych gróźb.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0130.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Things are not so black and white.",
+    "RUS": "Мир не делится на черное и белое.",
+    "POL": "Nie wszystko jest takie czarno-białe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[executioner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[executioner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[executioner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Your miserable attempt to deceive me with your promises of peace ends today. May your [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], find more peace in [executioner.GetFaith.PositiveAfterLife].",
+    "RUS": "Ваша жалкая попытка обмануть меня своими обещаниями мира закончится сегодня. Пусть [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], упокоится с миром, и да пример [executioner.GetFaith.PositiveAfterLife] [Select_CString(hostage.IsFemale, 'ее', 'его' )] в свои объятия.",
+    "POL": "Dzisiaj kończy się Twoja żałosna próba oszukania mnie obietnicami pokoju. Mam nadzieję, że osoba z Twojej rodziny, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], znajdzie pokój w miejscu znanym nam jako [executioner.GetFaith.PositiveAfterLife].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.defender",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Your dishonorable invasion, even after sending your [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], as my hostage, can have only one response. May both [hostage.GetSheHe] and [executioner.GetFaith.HighGodName] forgive you.",
+    "RUS": "Ваше бесчестное вторжение, особенно в свете того, что [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], у меня в заложниках, заслуживает лишь одного ответа. И да простят вас [hostage.GetSheHe] и [executioner.GetFaith.HighGodName].",
+    "POL": "Najpierw na Twoje własne polecenie osoba z Twojej rodziny, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], zostaje do mnie wysłana jako zakładnik, a później mimo to najeżdżasz moje ziemie. Na tak haniebny czyn mogę odpowiedzieć w tylko jeden sposób. Mam nadzieję, że [hostage.GetFirstName] i [executioner.GetFaith.HighGodName] Ci wybaczą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.attacker_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "We find ourselves at war thanks to [war_joiner_ally.GetTitledFirstName], and as such the life of my hostage, your [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], is forfeit.",
+    "RUS": "Мы с вами ведем войну, которую [Select_CString(war_joiner_ally.IsFemale, 'развязала', 'развязал' )] [war_joiner_ally.GetTitledFirstName], и потому мой заложник, [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], расстанется с жизнью.",
+    "POL": "Toczymy ze sobą wojnę, do której doprowadziła jedna osoba: [war_joiner_ally.GetTitledFirstName]. W tej sytuacji życie mojego zakładnika, którym jest jednocześnie ktoś z Twojej rodziny, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], dobiega końca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.defender_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Your treachery has cost your [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], [hostage.GetHerHis] life. I only hope your friendship with [war_joiner_ally.GetTitledFirstName] was worth it.",
+    "RUS": "Из-за вашего предательства [Select_CString(hostage.IsFemale, 'умерла', 'умер' )] [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName]. Надеюсь, [war_joiner_ally.GetTitledFirstName] как союзник того стоит.",
+    "POL": "W wyniku Twojej zdrady osoba z Twojej rodziny, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], traci życie. Mam nadzieję, że Twoja przyjaźń z kimś takim jak [war_joiner_ally.GetTitledFirstName] była tego warta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.a.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Unthinkable...",
+    "RUS": "Немыслимо...",
+    "POL": "Nie do pomyślenia…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.a.defender",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "You will pay...",
+    "RUS": "Вы поплатитесь...",
+    "POL": "Zapłacisz…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.a.attacker_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "How could [executioner.GetSheHe]...",
+    "RUS": "Как [executioner.GetSheHe] [Select_CString(executioner.IsFemale, 'могла', 'мог' )]...",
+    "POL": "Jak tak można…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0140.a.defender_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Heartless...",
+    "RUS": "Как жестоко...",
+    "POL": "Bez serca…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_sparer.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[hostage_sparer.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[hostage_sparer.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have decided to spare your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName],",
+    "RUS": "В силу принятого мной решения [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], будет жить,",
+    "POL": "Postanawiam, że osoba z Twojej rodziny, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], nie straci życia –",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "for [hostage.GetSheHe] is merely an innocent pawn in your deceitful games.",
+    "RUS": "ведь [hostage.GetSheHe] лишь невинная пешка в вашей коварной игре.",
+    "POL": "jest zaledwie niewinnym pionkiem w Twoich podstępnych grach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.defender",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "despite your treacherous attack in contempt of our pacts.",
+    "RUS": "несмотря на ваше предательское нападение в нарушение наших договоренностей.",
+    "POL": "pomimo Twojego zdradzieckiego ataku wbrew zawartym przez nas paktom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.attacker_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "for [hostage.GetSheHe] need not suffer on [war_joiner_ally.GetTitledFirstNamePossessive] account.",
+    "RUS": "ведь [hostage.GetSheHe] не [Select_CString(hostage.IsFemale, 'должна', 'должен' )] страдать за решения, ответственность за которые несет [war_joiner_ally.GetTitledFirstName].",
+    "POL": "nie musi cierpieć z powodu kogoś takiego jak [war_joiner_ally.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.defender_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "for [hostage.GetSheHe] need not suffer on [war_joiner_ally.GetTitledFirstNamePossessive] account.",
+    "RUS": "ведь [hostage.GetSheHe] не [Select_CString(hostage.IsFemale, 'должна', 'должен' )] страдать за решения, ответственность за которые несет [war_joiner_ally.GetTitledFirstName].",
+    "POL": "nie musi cierpieć z powodu kogoś takiego jak [war_joiner_ally.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.request",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI trust you will show the same mercy to my [spared.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName].",
+    "RUS": "\\n\\nНадеюсь, вы проявите ответное милосердие, и [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [spared.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName] не пострадает.",
+    "POL": "\\n\\nUfam, że również osoba bliska mnie, [spared.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName], może liczyć na Twoje miłosierdzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.a.attacker",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Thank [ROOT.Char.GetFaith.HighGodName]...",
+    "RUS": "Благодарю тебя, [ROOT.Char.GetFaith.HighGodName]...",
+    "POL": "Dobrze, że opatrzność czuwa…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.a.defender",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Perhaps [hostage_sparer.GetSheHe] is not all bad...",
+    "RUS": "Возможно, [hostage_sparer.GetSheHe] не так уж [Select_CString(hostage_sparer.IsFemale, 'плоха', 'плох' )]...",
+    "POL": "Może jednak [hostage_sparer.GetSheHe] ma w sobie odrobinę dobra…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.a.attacker_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "That's a relief...",
+    "RUS": "Какое облегчение...",
+    "POL": "Co za ulga…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0141.a.defender_ally",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "That's something, at least...",
+    "RUS": "Ну хоть что-то...",
+    "POL": "Dobre i to…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Fully Grown",
+    "RUS": "Достижение зрелости",
+    "POL": "Dojrzałość",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "My hostage, [hostage.GetFirstName], is now a [hostage.GetWomanMan], and looking forward to soon being sent home, as is the custom. [hostage.GetHerHis|U] [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))], [hostage_home_court.GetTitledFirstName], will certainly be hoping as much.",
+    "RUS": "Мой заложник, [hostage.GetFirstName], теперь [hostage.GetWomanMan] и вскоре, согласно традициям, [Select_CString(hostage.IsFemale, 'должна', 'должен' )] отбыть домой. [hostage.GetHerHis|U] [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))], [hostage_home_court.GetTitledFirstName], точно рассчитывает на это.",
+    "POL": "Mój zakładnik, [hostage.GetFirstName], to już dorosła osoba. Nie może się doczekać, aż zgodnie z obyczajem wróci do domu. [hostage.GetHerHis|U] [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))], [hostage_home_court.GetTitledFirstName], z pewnością liczy na to samo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps it is indeed better to maintain goodwill, at least while my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], remains in [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip] clutches...",
+    "RUS": "\\n\\nВозможно, и впрямь стоит совершить жест доброй воли, раз уж [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], до сих пор в [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их лапах...",
+    "POL": "\\n\\nByć może rzeczywiście lepiej jest zachować dobrą wolę, przynajmniej dopóki bliska mi osoba, którą jest [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName], pozostaje w szponach [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.closing",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI, however, must look to the interests of my #EMP own#! house.",
+    "RUS": "\\n\\nНо в первую очередь нужно думать об интересах #EMP моего#! дома.",
+    "POL": "\\n\\nJednakże muszę mieć wzgląd na interesy #EMP mojego#! rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Get your things, it is time to go home.",
+    "RUS": "Собирай вещи, пора отправляться домой.",
+    "POL": "Pakuj rzeczy, pora do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetFirstNameNoTooltip] must stay a little while longer.",
+    "RUS": "[hostage.GetFirstNameNoTooltip] немного у меня задержится.",
+    "POL": "[hostage.GetFirstNameNoTooltip] musi zostać trochę dłużej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0200.b.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Once [my_hostage.GetFirstNameNoTooltip] is returned, [hostage.GetFirstNameNoTooltip] will be.",
+    "RUS": "Вернется [my_hostage.GetFirstNameNoTooltip], вернется и [hostage.GetFirstNameNoTooltip].",
+    "POL": "Gdy [my_hostage.GetFirstNameNoTooltip] wróci, [hostage.GetFirstNameNoTooltip] również trafi z powrotem do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "hostage_more_likely_to_return_tt",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_home_court.GetTitledFirstName] will be more likely to return [my_hostage.GetFirstName]",
+    "RUS": "[hostage_home_court.GetTitledFirstName] с большей вероятностью вернет мне заложника",
+    "POL": "Istnieje większa szansa, że [hostage_home_court.GetTitledFirstName] zwróci osobę, którą jest [my_hostage.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], sent away to be a [hostage_warden.GetPrimaryTitle.GetAdjectiveNoTooltip] hostage, will at last returned a grown [hostage.GetWomanMan]! The pact with [hostage_warden.GetTitledFirstName] is ended, but my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] is safe.",
+    "RUS": "[Select_CString(hostage.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], [Select_CString(hostage.IsFemale, 'отправленная', 'отправленный' )] в качестве заложника в [hostage_warden.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ие земли, наконец-то вернется, став уже совсем [Select_CString(hostage.IsFemale, 'взрослой', 'взрослым' )]! Договор, что заключили я и [hostage_warden.GetTitledFirstName], больше не действителен, но [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] в безопасности.",
+    "POL": "Osoba z mojej rodziny – [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], czyli [hostage.GetTitledFirstName] – została wysłana w roli zakładnika do [hostage_warden.GetPrimaryTitle.GetAdjectiveNoTooltip], lecz nareszcie wraca – już jako [hostage.GetWomanMan]! A [hostage_warden.GetTitledFirstName]? Pakt, który mnie z [hostage_warden.Custom('PL_nim_nia')] łączył, już nie obowiązuje, ale najważniejsze, że [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] nie musi się obawiać o swoje bezpieczeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.my_hostage_adult",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[hostage_warden.GetFirstNamePossessiveNoTooltip] [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], remains my hostage, though a grown [my_hostage.GetWomanMan], and watches with some envy. It would only be fair to return [my_hostage.GetHerHim] too...",
+    "RUS": "\\n\\nУже успев повзрослеть, [my_hostage.GetFirstName], [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] персонажа [hostage_warden.GetFirstNameNoTooltip], с некоторой завистью наблюдает за этим. Будет справедливо вернуть и [my_hostage.GetHerHis]...",
+    "POL": "\\n\\n[my_hostage.GetFirstName], [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] osoby, którą jest [hostage_warden.GetFirstNameNoTooltip], pozostaje moim zakładnikiem, chociaż to już [my_hostage.GetWomanMan]. Patrzy na wszystko z zazdrością. Byłoby sprawiedliwie pozwolić wrócić i [my_hostage.Custom('PL_jemu_jej')]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[hostage_warden.GetFirstNamePossessiveNoTooltip] [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], remains my hostage, though [my_hostage.GetSheHe] is still only a [my_hostage.Custom('GirlBoy')].",
+    "RUS": "ь\\n\\n[my_hostage.GetFirstName], [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] персонажа [hostage_warden.GetFirstNameNoTooltip], остается у меня в заложниках, впрочем, [my_hostage.GetSheHe] еще [my_hostage.Custom('GirlBoy')].",
+    "POL": "\\n\\n[my_hostage.GetFirstName], [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] osoby, którą jest [hostage_warden.GetFirstNameNoTooltip], pozostaje moim zakładnikiem, chociaż to jeszcze [my_hostage.Custom('GirlBoy')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "There is so much to catch up on!",
+    "RUS": "Нам столько надо рассказать друг другу!",
+    "POL": "Jest tyle do nadrobienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[my_hostage.GetFirstNameNoTooltip] can go too.",
+    "RUS": "[my_hostage.GetFirstNameNoTooltip] тоже может вернуться.",
+    "POL": "[my_hostage.GetFirstNameNoTooltip] też może iść.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.c",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Perhaps when [my_hostage.GetSheHe] is older.",
+    "RUS": "Возможно, когда [my_hostage.GetSheHe] повзрослеет.",
+    "POL": "Może jak trochę podrośnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0201.c.adult",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I do not think so.",
+    "RUS": "Я так не думаю.",
+    "POL": "Nie wydaje mi się.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0202.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Awaited Return",
+    "RUS": "Ожидание возвращения",
+    "POL": "Wyczekiwany powrót",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0202.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I waited hopefully as my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstNamePossessive], birthday approached, it being the custom for hostages to be sent home once they are no longer children.\\n\\nAlas, it seems [hostage_warden.GetTitledFirstNamePossessive] plan is to keep [hostage.GetFirstNameNoTooltip] at [hostage_warden.GetCapitalLocation.GetNameNoTooltip] a while longer...\\n\\n",
+    "RUS": "Я с нетерпением [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], когда вернется [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], отсчитывая дни до [Select_CString(hostage.IsFemale, 'ее', 'его' )] дня рождения, ведь по традиции заложников отпускают, когда те перестают быть детьми.\\n\\nНо увы, [hostage_warden.GetTitledFirstName] хочет, чтобы [hostage.GetFirstNameNoTooltip] еще какое-то время [Select_CString(hostage.IsFemale, 'оставалась', 'оставался' )] во владении [hostage_warden.GetCapitalLocation.GetNameNoTooltip]...\\n\\n",
+    "POL": "Z nadzieją wyczekuję, aż [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] będzie mieć urodziny, gdyż zwyczaj nakazuje, aby zakładników, którzy nie są już dziećmi, odesłać do domu.\\n\\nNiestety wygląda na to, że [hostage_warden.GetTitledFirstName] ma inne plany i [hostage.GetFirstNameNoTooltip] zostanie w miejscu znanym jako [hostage_warden.GetCapitalLocation.GetNameNoTooltip] troszeczkę dłużej…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0202.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "There must be a good reason.",
+    "RUS": "Должно быть, на это есть причина.",
+    "POL": "Musi istnieć dobry powód.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0203.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Home Again",
+    "RUS": "Снова дома",
+    "POL": "Z powrotem w domu",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0203.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I waited with some trepidation for [hostage_home_court.GetTitledFirstNamePossessive] response, after sending [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], on [hostage.GetHerHis] way.\\n\\n",
+    "RUS": "Я с некоторой тревогой [Select_CString(ROOT.Char.IsFemale, 'ожидала', 'ожидал' )], что сделает [hostage_home_court.GetTitledFirstName] после того, как [hostage_home_court.GetHerHis] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(hostage.IsFemale, 'отправилась', 'отправился' )] домой.\\n\\n",
+    "POL": "Z niecierpliwością wyczekuję, aż [hostage_home_court.GetTitledFirstName] przekaże odpowiedź po tym, jak osoba z [hostage_home_court.Custom('PL_jego_jej')] otoczenia, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], wyruszyła w drogę.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0203.closing",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The response was swift, however, and my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], soon at my gates!",
+    "RUS": "Но ответа долго ждать не пришлось, и [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], вскоре уже [Select_CString(my_hostage.IsFemale, 'стояла', 'стоял' )] у ворот!",
+    "POL": "Odpowiedź nadeszła szybko i [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] wkrótce staje u mych bram!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0204.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Stuck in Limbo",
+    "RUS": "В подвешенном состоянии",
+    "POL": "W otchłani",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0204.closing",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The response was clear; [hostage_home_court.GetSheHe] must regrettably keep hold of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], for the foreseeable future, to ensure continued peace...",
+    "RUS": "Ответ был однозначным, [hostage_home_court.GetSheHe] сожалеет, но [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], в обозримом будущем останется в заложниках во имя мира...",
+    "POL": "Odpowiedź nie pozostawiała wątpliwości – [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] musi w najbliższej przyszłości pozostać w roli zakładnika dla utrzymania pokoju…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0204.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Poor [my_hostage.Custom('GirlBoy')]...",
+    "RUS": "[Select_CString(my_hostage.IsFemale, 'Бедная', 'Бедный' )] [my_hostage.Custom('GirlBoy')]...",
+    "POL": "Biedactwo…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "On My Watch",
+    "RUS": "Под моим надзором",
+    "POL": "Na mojej warcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "A hostage's safe conduct is the responsibility, the oath, of a warden. I make a pact of honor to protect [hostage.GetHerHim] from harm,",
+    "RUS": "Безопасность заложника находится на совести принимающей стороны. Несмотря на мою клятву защищать [hostage.GetHerHis] от всех напастей,",
+    "POL": "Dbanie o bezpieczeństwo zakładnika to obowiązek kuratora, który składał przysięgę. Zawieram pakt honoru, aby chronić [hostage.Custom('PL_go_ja')] przed wszelkim złem,",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.killer",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "and slew [hostage.GetFirstName] all the same.",
+    "RUS": "[hostage.GetFirstName] погибает от моей руки.",
+    "POL": "ale tak czy inaczej [hostage.GetFirstName] ginie z moich rąk.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.violent",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "but [hostage.GetFirstName] has met a most sticky end at my court.",
+    "RUS": "[hostage.GetFirstName] встречает печальный конец при моем дворе.",
+    "POL": "jednak koniec końców [hostage.GetFirstName] umiera w niesłychanie paskudny sposób na mym dworze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "and yet [hostage.GetFirstName] now lays dead.",
+    "RUS": "[hostage.GetFirstName] теперь [Select_CString(hostage.IsFemale, 'мертва', 'мертв' )].",
+    "POL": "a [hostage.GetFirstName] i tak leży trupem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nThere is nothing to be done; [hostage_home_court.GetTitledFirstName] will be furious once word reaches the [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip] court, and our agreements cast aside.",
+    "RUS": "\\n\\nУже ничего не поделать. [hostage_home_court.GetTitledFirstName] придет в ярость, когда новости достигнут [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ого двора, а наше соглашение отныне недействительно.",
+    "POL": "\\n\\nNie można już nic zrobić; [hostage_home_court.GetTitledFirstName] wpadnie w szał, gdy tylko wieści dotrą na dwór [hostage_home_court.GetPrimaryTitle.GetAdjectiveNoTooltip], a nasze porozumienia stracą ważność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI only hope [hostage_home_court.GetTitledFirstName] thinks better of taking justice upon my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName].",
+    "RUS": "\\n\\nМне остается лишь надеяться, что [hostage_home_court.GetTitledFirstName] сохранит хладнокровие, и [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName] не станет жертвой возмездия.",
+    "POL": "\\n\\nMogę tylko liczyć na to, że [hostage_home_court.GetTitledFirstName] porzuci swoje zamiary i bliska mi osoba, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName], nie zostanie pociągnięta do odpowiedzialności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.a.killer",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Oh well...",
+    "RUS": "Что ж...",
+    "POL": "No cóż…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.a.violent",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Most unfortunate...",
+    "RUS": "Как неудачно...",
+    "POL": "Niefortunnie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0300.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Tragic...",
+    "RUS": "Какая трагедия...",
+    "POL": "To tragiczne…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[hostage_warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[hostage_warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I regret to inform you that your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], is dead.\\n\\n",
+    "RUS": "С прискорбием сообщаю, что [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(hostage.IsFemale, 'умерла', 'умер' )].\\n\\n",
+    "POL": "Z żalem informuję, że osoba z Twojej rodziny, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], nie żyje.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.killer",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Know that I had no choice but to take [hostage.GetHerHis] life.",
+    "RUS": "Знайте, что у меня не было иного выхода, кроме как лишить [hostage.GetHerHis] жизни.",
+    "POL": "Wiedz, że nie było innego wyboru niż odebranie [hostage.Custom('PL_mu_jej')] życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.violent",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The way [hostage.GetSheHe] left this world, whilst under my protection, will haunt me.",
+    "RUS": "Память о том, что [hostage.GetSheHe] [Select_CString(hostage.IsFemale, 'покинула', 'покинул' )] этот мир, находясь под моим покровительством, будет преследовать меня до конца моих дней.",
+    "POL": "Opuszcza ten świat, będąc przecież pod moją opieką – będzie mnie to prześladować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.fallback",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Forgive me for so utterly failing in my duties as [hostage.GetHerHis] warden.",
+    "RUS": "Простите мне столь вопиющие небрежение своими обязанностями принимающей стороны.",
+    "POL": "Wybacz mi zaniedbanie moich obowiązków kuratora.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I hope you may one day forgive me, for both our sakes.",
+    "RUS": "Ради нашего общего блага надеюсь, что однажды вы сможете меня простить.",
+    "POL": "Mam nadzieję, że pewnego dnia mi wybaczysz – dla Twojego i mojego dobra.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nWhatever transpired here, my [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], is innocent in this matter.",
+    "RUS": "\\n\\nЧтобы здесь ни произошло, [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], не имеет к этому отношения.",
+    "POL": "\\n\\nCokolwiek tu zaszło, [hostage_warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] nie ponosi w tej kwestii winy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.a.killer",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "That... #EMP bastard!#!",
+    "RUS": "Вот же... #EMP мразь!#!",
+    "POL": "A to… #EMP pomiot!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.a.violent",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetFirstNameNoTooltip]... why...?",
+    "RUS": "[hostage.GetFirstNameNoTooltip]... почему?..",
+    "POL": "[hostage.GetFirstNameNoTooltip]… Dlaczego…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "It cannot be...",
+    "RUS": "Я не верю...",
+    "POL": "Nie może być…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0301.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "An eye for an eye!",
+    "RUS": "Око за око!",
+    "POL": "Oko za oko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "A Change in Circumstances",
+    "RUS": "Обстоятельства изменились",
+    "POL": "Zmiana okoliczności",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.landed_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my hostage, [hostage.GetFirstNamePossessive], inheritance of [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], I now find myself caring for a [hostage.GetTitleAsNameNoTooltip]!",
+    "RUS": "Поскольку мой заложник [hostage.GetFirstName], наследует титул [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], теперь у меня на попечении находится [hostage.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Ponieważ mój zakładnik, [hostage.GetFirstName], dziedziczy ziemie znane jako [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], pod moją opieką znajduje się teraz [hostage.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.ruler_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my hostage, [hostage.GetFirstName], now in charge of a [hostage.GetDomicile.GetType.GetName|l] of [hostage.GetHerHis] own, I find myself caring for a [hostage.GetTitleAsNameNoTooltip]!",
+    "RUS": "Поскольку мой заложник [hostage.GetFirstName] [Select_CString(hostage.IsFemale, 'унаследовала', 'унаследовал' )] власть и теперь [Select_CString(hostage.IsFemale, 'ей', 'ему' )] принадлежит [hostage.GetDomicile.GetType.GetName|l], отныне у меня на попечении находится [Select_CString(hostage.IsFemale, 'настоящая', 'настоящий' )] [hostage.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Ponieważ mój zakładnik, [hostage.GetFirstName], posiada teraz swój własny [hostage.GetDomicile.GetType.GetName|l], pod moją opieką znajduje się teraz [hostage.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.imprisoned_hostage_self",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my erstwhile hostage, [hostage.GetFirstName], now languishing in my jail, my pact with [home_court.GetTitledFirstName] is most definitely over.",
+    "RUS": "Поскольку мой бывший заложник [hostage.GetFirstName] теперь находится в моей темнице, договоренность, что заключили я и [home_court.GetTitledFirstName], уже точно не действительна.",
+    "POL": "Ponieważ mój dawny zakładnik, [hostage.GetFirstName], gnije teraz w więzieniu, mój pakt z osobą, którą jest [home_court.GetTitledFirstName] z pewnością straci rację bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.imprisoned_hostage_fail",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my erstwhile hostage, [hostage.GetFirstName], having eluded my attempts to imprison [hostage.GetHerHim], my pact with [home_court.GetTitledFirstName] is most definitely over.",
+    "RUS": "Поскольку мой бывший заложник [hostage.GetFirstName] [Select_CString(hostage.IsFemale, 'избежала', 'избежал' )] моих попыток заточить [hostage.GetHerHis] в темницу, договоренность, что заключили я и [home_court.GetTitledFirstName], уже точно не действительна.",
+    "POL": "Ponieważ mój dawny zakładnik, [hostage.GetFirstName], nie dał się zamknąć w więzieniu, mój pakt z osobą, którą jest [home_court.GetTitledFirstName], z pewnością straci ważność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.imprisoned_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my hostage, [hostage.GetFirstName], languishing in [imprisoner.GetTitledFirstNamePossessive] jail, my pact with [home_court.GetTitledFirstName] finds itself suddenly without purpose.",
+    "RUS": "Поскольку мой заложник [hostage.GetFirstName] теперь в темнице, куда [hostage.GetHerHis] [Select_CString(imprisoner.IsFemale, 'бросила', 'бросил' )] [imprisoner.GetTitledFirstName], договоренность, что заключили я и [home_court.GetTitledFirstName], внезапно теряет смысл.",
+    "POL": "Ponieważ mój zakładnik, [hostage.GetFirstName], gnije w więzieniu należącym do osoby znanej jako [imprisoner.GetTitledFirstName], mój pakt z osobą, którą jest [home_court.GetTitledFirstName] nie ma już racji bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.unrelated_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my hostage, [hostage.GetFirstNamePossessive], no longer of any relevance to [home_court.GetTitledFirstName], our pact finds itself suddenly without purpose.",
+    "RUS": "Поскольку [home_court.GetTitledFirstName] считает, что мой заложник [hostage.GetFirstName] больше не представляет ценности, наша договоренность теряет смысл.",
+    "POL": "Ponieważ mój zakładnik, [hostage.GetFirstName], nie obchodzi już osoby, którą jest [home_court.GetTitledFirstName], nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.unlanded_warden_title",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With the loss of [lost_title.GetNameNoTierNoTooltip], my pact with [home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], finds itself suddenly without purpose.",
+    "RUS": "После потери моих [lost_title.GetAdjectiveNoTooltip|l]их владений [home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], решает, что наша договоренность утратила смысл.",
+    "POL": "Utrata miejsca znanego jako [lost_title.GetNameNoTierNoTooltip] powoduje, że mój pakt z osobą, którą jest [home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika o imieniu [hostage.GetFirstName], przestaje mieć rację bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.unlanded_warden",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With the loss of my lands, my pact with [home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], finds itself suddenly without purpose.",
+    "RUS": "После потери моих владений [home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], решает, что наша договоренность утратила смысл.",
+    "POL": "Utrata moich ziem powoduje, że mój pakt z osobą, którą jest [home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika o imieniu [hostage.GetFirstName], przestaje mieć rację bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.unlanded_home_court_title",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], has lost [home_court.GetHerHis] [lost_title.GetAdjectiveNoTooltip] lands, and our pact finds itself suddenly without purpose.",
+    "RUS": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], [Select_CString(home_court.IsFemale, 'лишилась', 'лишился' )] своих [lost_title.GetAdjectiveNoTooltip|l]их земель, и наша договоренность резко утратила смысл.",
+    "POL": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika, którym jest [hostage.GetFirstName], traci ziemie [lost_title.GetAdjectiveNoTooltip], więc nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.unlanded_home_court",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], has lost [home_court.GetHerHis] lands, and our pact finds itself suddenly without purpose.",
+    "RUS": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], [Select_CString(home_court.IsFemale, 'лишилась', 'лишился' )] своих земель, и наша договоренность резко утратила смысл.",
+    "POL": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika, którym jest [hostage.GetFirstName], traci swoje ziemie, więc nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.dead_home_court",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], has died without securing the [home_court.GetHouse.GetBaseNameNoTooltip] succession, and our pact finds itself suddenly without purpose.",
+    "RUS": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], [Select_CString(home_court.IsFemale, 'умерла', 'умер' )], не обеспечив преемственность в доме [home_court.GetHouse.GetBaseNameNoTooltip], и наша договоренность резко утратила смысл.",
+    "POL": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika, którym jest [hostage.GetFirstName], umiera bez dziedzica rodu [home_court.GetHouse.GetBaseNameNoTooltip], więc nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.imprisoned_self",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[home_court.GetFirstNameNoTooltip] won't be happy...",
+    "RUS": "\\n\\n[home_court.GetFirstNameNoTooltip] будет не в восторге...",
+    "POL": "\\n\\n[home_court.GetFirstNameNoTooltip] nie będzie się cieszyć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.imprisoned",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI'm sure [hostage.GetFirstNameNoTooltip] will soon be set free...",
+    "RUS": "\\n\\nНаверняка [hostage.GetFirstNameNoTooltip] вскоре обретет свободу...",
+    "POL": "\\n\\nZ pewnością [hostage.GetFirstNameNoTooltip] wyjdzie niedługo na wolność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.ruler",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[hostage.GetFirstNameNoTooltip] will soon depart to take [hostage.GetHerHis] throne in [hostage.GetCapitalLocation.GetName].",
+    "RUS": "\\n\\n[hostage.GetFirstNameNoTooltip] вскоре отправится в путь, чтобы занять свой трон во владении [hostage.GetCapitalLocation.GetName].",
+    "POL": "\\n\\n[hostage.GetFirstNameNoTooltip] niedługo wyruszy, by przejąć tron w miejscu o nazwie [hostage.GetCapitalLocation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.family",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[hostage.GetFirstNameNoTooltip] is free to take [hostage.GetHerHis] leave and rejoin [hostage.GetHerHis] family, if [hostage.GetSheHe] so chooses.",
+    "RUS": "\\n\\n[hostage.GetFirstNameNoTooltip] при желании может отправиться домой, к своей семье.",
+    "POL": "\\n\\n[hostage.GetFirstNameNoTooltip] może teraz wyjechać i wrócić do swojej rodziny, jeżeli tak zadecyduje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.no_family",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n[hostage.GetFirstNameNoTooltip] is free to take [hostage.GetHerHis] leave, though [hostage.GetHerHis] fate is far from certain.",
+    "RUS": "\\n\\n[hostage.GetFirstNameNoTooltip] может отправиться домой, впрочем, [hostage.GetHerHis] судьба остается неясной.",
+    "POL": "\\n\\n[hostage.GetFirstNameNoTooltip] może teraz wyjechać, chociaż [hostage.Custom('PL_jego_jej')] los jest niepewny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.adopted",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my erstwhile hostage, [hostage.GetFirstName], now considered a firm part of House [ROOT.Char.GetHouse.GetBaseName], the prior arrangement with [home_court.GetTitledFirstName] is redundant.",
+    "RUS": "Поскольку мой бывший заложник, [hostage.GetFirstName], теперь считается частью дома [ROOT.Char.GetHouse.GetBaseName], соглашение, что некогда заключили я и [home_court.GetTitledFirstName], утратило смысл.",
+    "POL": "Ponieważ mój dawny zakładnik, [hostage.GetFirstName], jest teraz w pełni częścią rodu [ROOT.Char.GetHouse.GetBaseName], ustalenia poczynione z osobą, którą jest [home_court.GetTitledFirstName], przestały mieć jakąkolwiek wartość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.adopted_stay",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nAll the same, [hostage.GetSheHe] has gladly decided to remain at my court in [ROOT.Char.GetCapitalLocation.GetName] for the time being.",
+    "RUS": "\\n\\nИ все равно [hostage.GetSheHe] охотно [Select_CString(hostage.IsFemale, 'решила', 'решил' )] на какое-то время остаться при моем дворе во владении [ROOT.Char.GetCapitalLocation.GetName].",
+    "POL": "\\n\\nMimo to [hostage.GetFirstName] postanawia z chęcią zostać jeszcze przez jakiś czas na mym dworze w miejscu, które zwie się [ROOT.Char.GetCapitalLocation.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI expect my own [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], back in turn.",
+    "RUS": "\\n\\nЯ рассчитываю, что и [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] скоро вернется домой.",
+    "POL": "\\n\\nOczekuję, że w zamian wróci do mnie [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "There is nothing to be done.",
+    "RUS": "Ничего не поделать.",
+    "POL": "Nic już się nie da zrobić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "And [hostage.GetSheHe] is most welcome!",
+    "RUS": "И [hostage.GetSheHe] найдет здесь теплый прием!",
+    "POL": "Przywitamy [hostage.Custom('PL_go_ja')] z otwartymi ramionami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0400.home",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetFirstNameNoTooltip] leaves",
+    "RUS": "[hostage.GetFirstNameNoTooltip] уезжает",
+    "POL": "[hostage.GetFirstNameNoTooltip] wyjeżdża",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.landed_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstNamePossessive], inheritance of [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], [warden.GetTitledFirstName] now finds [warden.GetHerselfHimself] caring for a [hostage.GetTitleAsNameNoTooltip]!",
+    "RUS": "Поскольку [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], наследует титул [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], [warden.GetTitledFirstName] внезапно обнаруживает, что на попечении у н[warden.GetHerHis] находится [hostage.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Ponieważ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] dziedziczy ziemie o nazwie [hostage.GetPrimaryTitle.GetNameNoTierNoTooltip], pod opieką osoby, którą jest [warden.GetTitledFirstName], znajduje się teraz [hostage.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.ruler_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], now in charge of a [hostage.GetDomicile.GetType.GetName|l] of [hostage.GetHerHis] own, [warden.GetTitledFirstName] finds [warden.GetHerselfHimself] caring for a [hostage.GetTitleAsNameNoTooltip]!",
+    "RUS": "Поскольку [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] [Select_CString(hostage.IsFemale, 'унаследовала', 'унаследовал' )] власть и теперь [Select_CString(hostage.IsFemale, 'ей', 'ему' )] принадлежит [hostage.GetDomicile.GetType.GetName|l], [warden.GetTitledFirstName] может похвастать, что отныне у [Select_CString(warden.IsFemale, 'нее', 'него' )] на попечении находится [Select_CString(hostage.IsFemale, 'настоящая', 'настоящий' )] [hostage.GetTitleAsNameNoTooltip|l]!",
+    "POL": "Ponieważ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] posiada teraz swój własny [hostage.GetDomicile.GetType.GetName|l], pod opieką osoby znanej jako [warden.GetTitledFirstName] znajduje się teraz [hostage.GetTitleAsNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.imprisoned_hostage_self",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have learned my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], has outrageously been imprisoned by [warden.GetTitledFirstName], who promised to care for [warden.GetHerHim] as a hostage.",
+    "RUS": "Теперь я знаю, что [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], самым возмутительным образом [Select_CString(hostage.IsFemale, 'была брошена', 'был брошен' )] в темницу, и стоит за этим [warden.GetTitledFirstName], [Select_CString(warden.IsFemale, 'обещавшая', 'обещавший' )] заботиться о [Select_CString(hostage.IsFemale, 'ней', 'нем' )].",
+    "POL": "Doszły mnie słuchy o pewnym oburzającym zdarzeniu: [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] przebywa teraz w więzieniu należącym do osoby znanej jako [warden.GetTitledFirstName], choć zgodnie z obietnicą zakładnik miał otrzymać opiekę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.imprisoned_hostage_fail",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have learned my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], has narrowly escaped being jailed by [hostage.GetHerHis] warden, [imprisoner.GetTitledFirstName]!",
+    "RUS": "Теперь я знаю, что [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], едва [Select_CString(hostage.IsFemale, 'избежала', 'избежал' )] заточения в темницу, за которым стоит [imprisoner.GetTitledFirstName]!",
+    "POL": "Doszły mnie słuchy, że bliska mi osoba, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], ledwo uciekła i uniknęła wtrącenia do więzienia przez swojego kuratora, którym jest [imprisoner.GetTitledFirstName]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.imprisoned_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], languishing in [imprisoner.GetTitledFirstNamePossessive] jail, my pact with [warden.GetTitledFirstName] finds itself suddenly without purpose.",
+    "RUS": "Поскольку [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], теперь в темнице, куда [hostage.GetHerHis] [Select_CString(imprisoner.IsFemale, 'бросила', 'бросил' )] [imprisoner.GetTitledFirstName], договоренность, что заключили я и [warden.GetTitledFirstName], внезапно теряет смысл.",
+    "POL": "Ponieważ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], gnije w więzieniu należącym do osoby znanej jako [imprisoner.GetTitledFirstName], mój pakt z osobą, którą jest [warden.GetTitledFirstName] nie ma już racji bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.unrelated_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With [hostage.GetFirstName], sent from here to be a [warden.GetPrimaryTitle.GetAdjectiveNoTooltip] hostage, no longer of any relevance to [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], our pact with [warden.GetTitledFirstName] finds itself suddenly without purpose.",
+    "RUS": "Поскольку [hostage.GetTitledFirstName], [Select_CString(hostage.IsFemale, 'отправленная', 'отправленный' )] быть [warden.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им заложником, больше не представляет ценности, договоренность, что заключили я и [warden.GetTitledFirstName], теряет смысл.",
+    "POL": "Ponieważ [hostage.GetFirstName], czyli osoba wysłana stąd jako zakładnik z [warden.GetPrimaryTitle.GetAdjectiveNoTooltip], nie ma już żadnego znaczenia na ziemiach znanych jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], nasz pakt z osobą, którą jest [warden.GetTitledFirstName], nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.unlanded_home_court_title",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With the loss of [lost_title.GetNameNoTierNoTooltip], my pact with [warden.GetTitledFirstName], warden of my [home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], finds itself suddenly without purpose.",
+    "RUS": "После потери моих [lost_title.GetAdjectiveNoTooltip|l]их владений [warden.GetTitledFirstName], на попечении [Select_CString(warden.IsFemale, 'которой', 'которого' )] находится [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], решает, что наша договоренность утратила смысл.",
+    "POL": "Utrata miejsca znanego jako [lost_title.GetNameNoTierNoTooltip] powoduje, że mój pakt z osobą, którą jest [warden.GetTitledFirstName], a której zakładnikiem jest osoba o imieniu [hostage.GetFirstName], a dla mnie [home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))], przestaje mieć rację bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.unlanded_home_court",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "With the loss of my lands, my pact with [warden.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] of my hostage, [hostage.GetFirstName], finds itself suddenly without purpose.",
+    "RUS": "После потери моих владений [warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] моего заложника по имени [hostage.GetFirstName], решает, что наша договоренность утратила смысл.",
+    "POL": "Utrata moich ziem powoduje, że mój pakt z osobą, którą jest [warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] mojego zakładnika o imieniu [hostage.GetFirstName], przestaje mieć rację bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.unlanded_warden_title",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[warden.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] of my hostage, [hostage.GetFirstName], has lost [warden.GetHerHis] [lost_title.GetAdjectiveNoTooltip] lands, and our pact finds itself suddenly without purpose.",
+    "RUS": "[warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], [Select_CString(warden.IsFemale, 'лишилась', 'лишился' )] своих [lost_title.GetAdjectiveNoTooltip|l]их земель, и наша договоренность резко утратила смысл.",
+    "POL": "[warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] mojego zakładnika, którym jest [hostage.GetFirstName], traci ziemie [lost_title.GetAdjectiveNoTooltip], więc nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.unlanded_warden",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[warden.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] of my hostage, [hostage.GetFirstName], has lost [warden.GetHerHis] lands, and our pact finds itself suddenly without purpose.",
+    "RUS": "[warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], [Select_CString(warden.IsFemale, 'лишилась', 'лишился' )] своих земель, и наша договоренность резко утратила смысл.",
+    "POL": "[warden.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('warden'))] mojego zakładnika, którym jest [hostage.GetFirstName], traci swoje ziemie, więc nasz pakt nie ma teraz żadnej wartości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.dead_warden",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[warden.GetTitledFirstName], the Warden of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], has died without securing the [warden.GetHouse.GetBaseNameNoTooltip] succession.",
+    "RUS": "[warden.GetTitledFirstName], принимающая сторона, у которой [Select_CString(hostage.IsFemale, 'находилась моя', 'находился мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], [Select_CString(warden.IsFemale, 'умерла', 'умер' )], не обеспечив преемственность в доме [warden.GetHouse.GetBaseNameNoTooltip].",
+    "POL": "[warden.GetTitledFirstName], kurator bliskiej mi osoby, którą jest [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName], umiera, nie pozostawiając żadnego dziedzica rodu [warden.GetHouse.GetBaseNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.imprisoned",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI pray [ROOT.Char.GetFaith.HighGodName] is kind and [hostage.GetFirstNameNoTooltip] soon set free.",
+    "RUS": "\\n\\nМне остается лишь уповать на милосердие [ROOT.Char.GetFaith.HighGodNamePossessive] и надеяться, что [hostage.GetFirstNameNoTooltip] вскоре обретет свободу.",
+    "POL": "\\n\\nModlę się o łaskę [ROOT.Char.GetFaith.HighGodNamePossessive] i o to, że [hostage.GetFirstNameNoTooltip] niedługo wyjdzie na wolność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.imprisoned_fail",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nAn outrageous way to treat a hostage, to be sure, but [hostage.GetFirstNamePossessiveNoTooltip] safe return is a blessing.",
+    "RUS": "\\n\\nВозмутительно обращаться с заложниками подобным образом, но теперь нет сомнений, что [hostage.GetFirstNameNoTooltip] вернется домой.",
+    "POL": "\\n\\nOwszem, zakładników nie powinno się traktować w tak skandaliczny sposób, ale bezpieczny powrót osoby, którą jest [hostage.GetFirstNameNoTooltip], to błogosławieństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.adopted",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have heard rumors that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], now considers [hostage.GetHerselfHimself] a part of House [hostage.GetHouse.GetBaseName]! [warden.GetTitledFirstName], that [warden.Custom2('InsultNoun', ROOT.Char)], must have poisoned [hostage.GetHerHis] mind!",
+    "RUS": "До меня дошли слухи, что [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], теперь считает себя частью дома [hostage.GetHouse.GetBaseName]! [warden.GetTitledFirstName], [warden.Custom2('InsultNoun', ROOT.Char)], чтоб [warden.GetHerHis], должно быть, [Select_CString(warden.IsFemale, 'задурила', 'задурил' )] [Select_CString(hostage.IsFemale, 'ей', 'ему' )] голову!",
+    "POL": "Pogłoski mówią, że [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] [hostage.GetFirstName] uważa, iż należy teraz do rodu [hostage.GetHouse.GetBaseName]! To oczywiste, że osoba znana jako [warden.GetTitledFirstName] namąciła [hostage.Custom('PL_mu_jej')] w głowie! A to [warden.Custom2('InsultNoun', ROOT.Char)]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.adopted_stay",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nIt is even said [hostage.GetFirstNameNoTooltip] considers #EMP [warden.GetCapitalLocation.GetName]#! to be [hostage.GetHerHis] true home, not [ROOT.Char.GetCapitalLocation.GetName]!",
+    "RUS": "\\n\\nПоговаривают даже, что [hostage.GetFirstNameNoTooltip] теперь считает своим настоящим домом владение #EMP [warden.GetCapitalLocation.GetName]#!, а не [ROOT.Char.GetCapitalLocation.GetName]!",
+    "POL": "\\n\\nMało tego – podobno [hostage.GetFirstNameNoTooltip] twierdzi, że [hostage.Custom('PL_jego_jej')] prawdziwy dom to wcale nie [ROOT.Char.GetCapitalLocation.GetName], tylko #EMP [warden.GetCapitalLocation.GetName]#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "So be it.",
+    "RUS": "Да будет так.",
+    "POL": "Niech tak będzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0401.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Treachery!",
+    "RUS": "Предательство!",
+    "POL": "Zdrada!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0402.inherited",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Word came this morning from [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]; my [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], is dead...\\n\\nThey say [home_court.GetSheHe] [home_court.GetDeathReasonHideKiller].\\n\\n[warden.GetTitledFirstName] has granted me leave, and, as [home_court.GetFirstNamePossessiveNoTooltip] heir, I must be strong and take up the mantle of [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].",
+    "RUS": "Этим утром из владения [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] пришла весть о том, что [Select_CString(home_court.IsFemale, 'моя', 'мой' )] [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], [Select_CString(home_court.IsFemale, 'умерла', 'умер' )]...\\n\\nГоворят, [home_court.GetSheHe] [home_court.GetDeathReasonHideKiller].\\n\\nПоскольку титул «[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]» будет унаследован мной, [warden.GetTitledFirstName] [Select_CString(warden.IsFemale, 'позволила', 'позволил' )] мне вернуться домой.",
+    "POL": "Tego ranka otrzymaliśmy wieści z miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]: [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))], czyli [home_court.GetTitledFirstName], nie żyje…\\n\\nMówią, że osoba ta… [home_court.GetDeathReasonHideKiller].\\n\\n[warden.GetTitledFirstName] pozwala mi opuścić to miejsce, a jako dziedzic osoby, która była znana pod imieniem [home_court.GetFirstNameNoTooltip], muszę wykazać się siłą, gdyż [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] to teraz moje ziemie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0402.dead",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI shall never get to look upon my [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] again...",
+    "RUS": "\\n\\nЯ и [Select_CString(home_court.IsFemale, 'моя', 'мой' )] [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] больше никогда не увидимся...",
+    "POL": "\\n\\nJuż nigdy więcej nie zobaczę twojej twarzy, [hostage.Custom2('RelationToMeVocative', SCOPE.sC('home_court'))]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0402.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "We must go.",
+    "RUS": "Нам пора.",
+    "POL": "Musimy iść.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Change in Fortune",
+    "RUS": "Перемена судьбы",
+    "POL": "Zmienny los",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The circumstances of [home_court.GetTitledFirstName], the [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] of my hostage, [hostage.GetFirstName], have changed; [home_court.GetSheHe] now finds [home_court.GetHerselfHimself] reduced to a mere [home_court.GetTitleAsNameNoTooltip].\\n\\nOur pact was made under quite different assumptions, and it might be wise to now reconsider...",
+    "RUS": "[home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] моего заложника по имени [hostage.GetFirstName], в силу превратностей судьбы теперь просто [home_court.GetTitleAsNameNoTooltip|l].\\n\\nНаша договоренность заключалась в иных обстоятельствах, и, возможно, ее стоит пересмотреть...",
+    "POL": "Sytuacja osoby, którą jest [home_court.GetTitledFirstName], [hostage.Custom2('RelationToMe', SCOPE.sC('home_court'))] mojego zakładnika o imieniu [hostage.GetFirstName], uległa zmianie. Teraz to zaledwie [home_court.GetTitleAsNameNoTooltip].\\n\\nNasz pakt został zawarty w oparciu o zupełnie inne założenia i być może mądrze byłoby go teraz ponownie rozważyć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetFirstNameNoTooltip] and [my_hostage.GetFirstNameNoTooltip] will return home.",
+    "RUS": "[hostage.GetFirstNameNoTooltip] и [my_hostage.GetFirstNameNoTooltip] вернутся домой.",
+    "POL": "[hostage.GetFirstNameNoTooltip] i [my_hostage.GetFirstNameNoTooltip] wrócą do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.b",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[my_hostage.GetFirstNameNoTooltip] must return at once.",
+    "RUS": "[my_hostage.GetFirstNameNoTooltip] [Select_CString(my_hostage.IsFemale, 'должна', 'должен' )] немедленно вернуться домой.",
+    "POL": "[my_hostage.GetFirstNameNoTooltip] musi natychmiast wrócić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.c",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "You are of no further use, [hostage.GetFirstNameNoTooltip].",
+    "RUS": "От тебя больше нет пользы, [hostage.GetFirstNameNoTooltip].",
+    "POL": "Już się nie przydasz, [hostage.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0410.d",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Nothing changes.",
+    "RUS": "Ничего не изменилось.",
+    "POL": "Nic się nie zmienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[warden.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Your circumstances have changed since your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], was sent to be my hostage.\\n\\n",
+    "RUS": "Обстоятельства изменились с тех пор, как [Select_CString(hostage.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], [Select_CString(hostage.IsFemale, 'была отправлена', 'был отправлен' )] ко мне в качестве заложника.\\n\\n",
+    "POL": "Twoja sytuacja zmieniła się, odkąd bliska Ci osoba, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] – czyli [hostage.GetTitledFirstName] – jest moim zakładnikiem.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.my_hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I demand you return my [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetTitledFirstName], immediately.",
+    "RUS": "Я требую, чтобы [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetTitledFirstName], немедленно [Select_CString(my_hostage.IsFemale, 'вернулась', 'вернулся' )] домой.",
+    "POL": "[warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))|U], [my_hostage.GetTitledFirstName], ma natychmiast wrócić – to rozkaz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.hostage",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetSheHe|U] will soon return, and our pact is forfeit.",
+    "RUS": "[hostage.GetSheHe|U] вскоре вернется к вам, и наше соглашение будет расторгнуто.",
+    "POL": "[hostage.GetTitledFirstName] niedługo wróci, a nasz pakt traci ważność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.both",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetTitledFirstName] is on [hostage.GetHerHis] way, as I am sure [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], will soon be.",
+    "RUS": "[hostage.GetTitledFirstName] уже в пути, и я надеюсь, что [Select_CString(my_hostage.IsFemale, 'моя', 'мой' )] [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))], [my_hostage.GetFirstName], тоже вскоре вернется ко мне.",
+    "POL": "[hostage.GetTitledFirstName] jest w drodze i z pewnością [warden.Custom2('RelationToMe', SCOPE.sC('my_hostage'))] [my_hostage.GetFirstName] niedługo też będzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0411.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Very well.",
+    "RUS": "Хорошо.",
+    "POL": "Dobrze więc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.t",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "A New Home",
+    "RUS": "Новый дом",
+    "POL": "Nowy dom",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I am informed my hostage, [hostage.GetFirstName], has at last arrived from [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "Мне сообщили, что [hostage.GetFirstName], мой заложник, наконец-то [Select_CString(hostage.IsFemale, 'прибыла', 'прибыл' )] из державы [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "POL": "Poinformowano mnie, że mój zakładnik, [hostage.GetFirstName], w końcu przybywa z miejsca o nazwie [hostage_home_court.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.anxious",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_home_court.GetTitledFirstNamePossessive] [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] will no doubt be anxious about [hostage.GetHerHis] new life in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "Несомненно, [hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))] персонажа [hostage_home_court.GetTitledFirstName] с опаской примет свою новую жизнь в державе [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "POL": "[hostage_home_court.Custom2('RelationToMe', SCOPE.sC('hostage'))|U] osoby, którą jest [hostage_home_court.GetTitledFirstName], z pewnością ma obawy dotyczące [hostage.Custom('PL_jego_jej')] nowego życia w miejscu znanym jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.home",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[Select_CString(hostage_home_court.IsFemale, 'Твоя', 'Твой' )] [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))] тебя не подведет, — уверяю я [hostage.GetHerHis]. — С тобой будет хорошо обращаться».",
+    "POL": "\\n\\n– [hostage.Custom2('RelationToMe', SCOPE.sC('hostage_home_court'))|U] chce dla ciebie dobrze – zapewniam [hostage.Custom('PL_go_ja')]. – Będziemy cię tu dobrze traktować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.away",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nI'm sure my people will make [hostage.GetHerHim] feel right at home.",
+    "RUS": "\\n\\nНаверняка мои подданные помогут [hostage.GetHerHim] чувствовать себя как дома.",
+    "POL": "\\n\\nZ pewnością z pomocą moich ludzi poczuje się jak w domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.a.home",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I'll show you to your room.",
+    "RUS": "Я провожу тебя в твою комнату.",
+    "POL": "Zaprowadzę cię do twojego pokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0500.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "The pact is in place.",
+    "RUS": "Договор заключен.",
+    "POL": "Pakt został zawarty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Greetings [hostage.Custom2('RelationToMe', hostage_home_court)],",
+    "RUS": "Приветствую, [hostage.Custom2('RelationToMe', hostage_home_court)].",
+    "POL": "Pozdrowienia, [hostage.Custom2('RelationToMeVocative', hostage_home_court)],",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have arrived safely in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip], and [hostage_warden.GetTitledFirstName] has affirmed your pact.\\n\\n",
+    "RUS": "Я в безопасности в державе [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip], и [hostage_warden.GetTitledFirstName] [Select_CString(hostage_warden.IsFemale, 'подтвердила', 'подтвердил' )] вашу договоренность.\\n\\n",
+    "POL": "podróż minęła bezpiecznie, jestem już w miejscu, które zwie się [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip], a [hostage_warden.GetTitledFirstName] potwierdza Wasz pakt.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.child_alone",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "There are no other children here, and the place is very strange.",
+    "RUS": "Здесь нет других детей, и всё вокруг такое странное.",
+    "POL": "Nie ma tu innych dzieci, to miejsce jest bardzo dziwne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.child",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I have met the other children of the court. They seem nice.",
+    "RUS": "При дворе есть другие дети. Они кажутся неплохими.",
+    "POL": "Znam już pozostałe dzieci na dworze. Wydają się miłe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.adult",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Please, do not forget about me.",
+    "RUS": "Пожалуйста, не забывай обо мне.",
+    "POL": "Proszę, nie zapomnij o mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.a.child_alone",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Poor [hostage.Custom('GirlBoy')]...",
+    "RUS": "[Select_CString(hostage.IsFemale, 'Бедная', 'Бедный' )] [hostage.Custom('GirlBoy')]...",
+    "POL": "Biedactwo…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.a.child",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I hope [hostage.GetSheHe] is happy there.",
+    "RUS": "Надеюсь, [hostage.GetSheHe] там [Select_CString(hostage.IsFemale, 'счастлива', 'счастлив' )].",
+    "POL": "Mam nadzieję, że zazna tam szczęścia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0501.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "All according to plan.",
+    "RUS": "Все идет по плану.",
+    "POL": "Wszystko zgodnie z planem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0502.opening",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage_warden.Custom2('AppropriateGreeting', hostage_home_court)]",
+    "RUS": "[hostage_warden.Custom2('AppropriateGreeting', hostage_home_court)]",
+    "POL": "[hostage_warden.Custom2('AppropriateGreeting', hostage_home_court)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0502.desc",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName] has safely arrived in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\nConsider our pact confirmed.",
+    "RUS": "[Select_CString(hostage.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], благополучно [Select_CString(hostage.IsFemale, 'прибыла', 'прибыл' )] в державу [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\nСчитайте наш договор подтвержденным.",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))|U] [hostage.GetFirstName] bezpiecznie dociera do miejsca o nazwie [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip].\\n\\nMożesz uznać nasz pakt za wiążący.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0502.a",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "Very good.",
+    "RUS": "Очень хорошо.",
+    "POL": "Bardzo dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.intro",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "I am informed by the guard that my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], approaches [ROOT.Char.GetCapitalLocation.GetNameNoTooltip],",
+    "RUS": "Стража сообщает мне, что [Select_CString(hostage.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))], [hostage.GetFirstName], приближается к владению [ROOT.Char.GetCapitalLocation.GetNameNoTooltip],",
+    "POL": "Strażnik poinformował mnie, że [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hostage'))] o imieniu [hostage.GetFirstName] zbliża się do ziem znanych jako [ROOT.Char.GetCapitalLocation.GetNameNoTooltip],",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.duration_short",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "though it seems it was only yesterday [hostage.GetSheHe] departed for [warden.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "хотя [hostage.GetSheHe] вроде бы только вчера [Select_CString(hostage.IsFemale, 'отправилась', 'отправился' )] в державу [warden.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "POL": "chociaż wydaje się, że [hostage.Custom('PL_jego_jej')] podróż do miejsca o nazwie [warden.GetPrimaryTitle.GetNameNoTierNoTooltip] rozpoczęła się zaledwie wczoraj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.duration_long",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "after many years away in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "RUS": "возвращаясь после множества лет, проведенных в державе [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "POL": "po wielu latach spędzonych w miejscu o nazwie [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.duration",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "back from [hostage.GetHerHis] stay in [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "RUS": "возвращаясь после пребывания в державе [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "POL": "wróciwszy z pobytu w miejscu o nazwie [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.older",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "[hostage.GetSheHe|U] is older, but I recognize [hostage.GetHerHim] at once.",
+    "RUS": "[hostage.GetSheHe|U] старше, но я узнаю [hostage.GetHerHis] с первого взгляда.",
+    "POL": "Chociaż przybyło [hostage.Custom('PL_mu_jej')] lat, od razu [hostage.Custom('PL_go_ja')] rozpoznaję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.home",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nWe embrace at the gates, ",
+    "RUS": "\\n\\nМы обнимаемся в проеме ворот. «Расскажи мне все, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [Select_CString(hostage.IsFemale, 'моя', 'мой' )]! Тебе не причинили вреда?»",
+    "POL": "\\n\\nŚciskamy się przy bramie. – Musisz mi o wszystkim opowiedzieć, [ROOT.Char.Custom2('RelationToMeShortVocative', SCOPE.sC('hostage'))]! Było strasznie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp2_hostage_system.0510.away",
+    "FILE_PATH": "localization/belarusian/dlc/bp2/dlc_bp2_hostage_system_events_l_belarusian.json",
+    "ENG": "\\n\\nWe will catch up when I am home.",
+    "RUS": "\\n\\nМы обо всем поговорим, когда я вернусь домой.",
+    "POL": "\\n\\nNadrobimy zaległości, gdy wrócę do domu.",
+    "BEL": ""
+  }
+]

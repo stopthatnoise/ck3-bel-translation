@@ -1,0 +1,826 @@
+[
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CURRENT_DYNASTY",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[GetTitleByKey('h_china').GetDefinitiveName|U]",
+    "RUS": "[GetTitleByKey('h_china').GetDefinitiveName|U]",
+    "POL": "[GetTitleByKey('h_china').GetDefinitiveName|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CURRENT_ERA",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SituationPhase.GetName] Era",
+    "RUS": "Эпоха [SituationPhase.GetName]",
+    "POL": "Epoka: [SituationPhase.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_ERA_START",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Started: [SituationPhase.GetStartDate.GetStringShort]",
+    "RUS": "Начало: [SituationPhase.GetStartDate.GetStringShort]",
+    "POL": "Początek: [SituationPhase.GetStartDate.GetStringShort]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_EFFECTS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Era Effects",
+    "RUS": "Эффекты эпохи",
+    "POL": "Efekty epoki",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_ALL_GROUPS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "All Groups",
+    "RUS": "Все группы",
+    "POL": "Wszystkie grupy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_YOUR_GROUP_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "(Your Power: #V #underline [Character.MakeScope.Var('movement_power').GetValue|0]#!#!)",
+    "RUS": "(ваша сила: #V #underline [Character.MakeScope.Var('movement_power').GetValue|0]#!#!)",
+    "POL": "(twoja siła: #V #underline [Character.MakeScope.Var('movement_power').GetValue|0]#!#!)",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_YOUR_GROUP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SelectLocalization( ObjectsEqual( SituationParticipantGroup.GetSituation.Self, GetSituation('dynastic_cycle') ), 'SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_HEGEMON','')]",
+    "RUS": "[SelectLocalization( ObjectsEqual( SituationParticipantGroup.GetSituation.Self, GetSituation('dynastic_cycle') ), 'SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_HEGEMON','')]",
+    "POL": "[SelectLocalization( ObjectsEqual( SituationParticipantGroup.GetSituation.Self, GetSituation('dynastic_cycle') ), 'SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_HEGEMON','')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_HEADER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Current Era",
+    "RUS": "Текущая эпоха",
+    "POL": "Bieżąca epoka",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_LEGITIMACY_TITLE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Mandate of Heaven",
+    "RUS": "Небесный мандат",
+    "POL": "Mandat niebios",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_LEGITIMACY_TEXT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[legitimacy|E] - [Character.GetLegitimacyType.GetFlavorName(Character.GetLegitimacyLevel.Self)]",
+    "RUS": "[Concept('legitimacy', 'Легитимность')|E] — [Character.GetLegitimacyType.GetFlavorName(Character.GetLegitimacyLevel.Self)]",
+    "POL": "[legitimacy|E] – [Character.GetLegitimacyType.GetFlavorName(Character.GetLegitimacyLevel.Self)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_TEXT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[favored_era|E]: [SelectLocalization(Character.IsPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_AI')]",
+    "RUS": "[favored_era|E]: [SelectLocalization(Character.IsPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_AI')]",
+    "POL": "[favored_era|El]: [SelectLocalization(Character.IsPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_AI')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SelectLocalization( Character.IsLocalPlayer, '#V You#! decide','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER_OTHER')]",
+    "RUS": "[SelectLocalization( Character.IsLocalPlayer, '#V вы#! решаете','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER_OTHER')]",
+    "POL": "[SelectLocalization( Character.IsLocalPlayer, '#V You#! decide','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER_OTHER')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_PLAYER_OTHER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#V [Character.PlayerName]#! decides",
+    "RUS": "#V [Character.PlayerName]#! решает",
+    "POL": "Decyduje #V [Character.PlayerName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_AI",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SelectLocalization(GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value'), '(CFixedPoint)0' ),'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_ADVANCEMENT','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_EXPANSION')]",
+    "RUS": "[SelectLocalization(GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value'), '(CFixedPoint)0' ),'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_ADVANCEMENT','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_EXPANSION')]",
+    "POL": "[SelectLocalization(GreaterThanOrEqualTo_CFixedPoint( Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value'), '(CFixedPoint)0' ),'DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_ADVANCEMENT','DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_EXPANSION')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_ADVANCEMENT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]",
+    "RUS": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_PICK_EXPANSION",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]",
+    "RUS": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBUG_DYNASTIC_CYCLE_WINDOW_HEGEMON_STABILITY_VALUE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value')]",
+    "RUS": "[Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value')]",
+    "POL": "[Character.MakeScope.ScriptValue('hegemon_favored_stability_phase_value')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TAB_ERA_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Era#!",
+    "RUS": "#T Эпоха#!",
+    "POL": "#T Epoka#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TAB_GROUP_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Groups#!",
+    "RUS": "#T Группы#!",
+    "POL": "#T Grupy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PHASES_LIST_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T $DYNASTIC_CYCLE_WINDOW_PHASES_LIST$#!\\n$CLICK_TO_VIEW$",
+    "RUS": "#T $DYNASTIC_CYCLE_WINDOW_PHASES_LIST$#!\\n$CLICK_TO_VIEW$",
+    "POL": "#T $DYNASTIC_CYCLE_WINDOW_PHASES_LIST$#!\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_EFFECTS_ON_GROUP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Effects during current Era: [SituationPhase.GetType.GetNameWithIcon]",
+    "RUS": "Эффекты в текущей эпохе: [SituationPhase.GetType.GetNameWithIcon]",
+    "POL": "Efekty w obecnej epoce: [SituationPhase.GetType.GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_EFFECTS_ON_GROUP_FUTURE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Effects during selected potential Era: [SituationPhaseType.GetNameWithIcon]",
+    "RUS": "Эффекты в следующей выбранной эре: [SituationPhaseType.GetNameWithIcon]",
+    "POL": "Efekty w wybranej potencjalnej epoce: [SituationPhaseType.GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_GROUP_MEMBERS_BUTTON_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[GetDataModelSize( SituationParticipantGroup.GetCharacters )] Participants",
+    "RUS": "Участники: [GetDataModelSize( SituationParticipantGroup.GetCharacters )]",
+    "POL": "Uczestnicy: [GetDataModelSize( SituationParticipantGroup.GetCharacters )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_GROUP_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "RUS": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "POL": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_GROUP_POWER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [movement_power|E]: [SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]#!\\nTotal [personal_movement_power|E] of all members of the [SituationParticipantGroup.GetName]\\n\\n[SituationDynasticCycleWindow.GetMovementPowerValueDesc( SituationParticipantGroup.Self )]",
+    "RUS": "#T [movement_power|E]: [SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]#!\\nСуммарная [Concept('personal_movement_power', 'личная сила в движении')|E] всех участников группы [SituationParticipantGroup.GetName]\\n\\n[SituationDynasticCycleWindow.GetMovementPowerValueDesc( SituationParticipantGroup.Self )]",
+    "POL": "#T [movement_power|E]: [SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]#!\\nŁączna [Concept('personal_movement_power', 'osobista siła członków ruchu')|E] o nazwie [SituationParticipantGroup.GetName]\\n\\n[SituationDynasticCycleWindow.GetMovementPowerValueDesc( SituationParticipantGroup.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_GROUP_LEADER_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[movement_leader|E]",
+    "RUS": "[movement_leader|E]",
+    "POL": "[movement_leader|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_GROUP_YOUR_GROUP_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Your [movement|E]",
+    "RUS": "Ваше [Concept('movement', 'движение')|E]",
+    "POL": "Twój [movement|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_EFFECTS_OF_ERA",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Effects on You ([SituationSubRegion.GetCharacterParticipantGroup( GetPlayer ).GetName])",
+    "RUS": "Влияние на вас ([SituationSubRegion.GetCharacterParticipantGroup( GetPlayer ).GetName])",
+    "POL": "Efekty wpływające na ciebie ([SituationSubRegion.GetCharacterParticipantGroup( GetPlayer ).GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Current Era",
+    "RUS": "Текущая эпоха",
+    "POL": "Bieżąca epoka",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_FUTURE_ERA_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Potential Era",
+    "RUS": "Возможная эра",
+    "POL": "Przyszła epoka",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_STABLE_ERA_TYPE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[dynastic_cycle_era_type_stable|E]",
+    "RUS": "[Concept('dynastic_cycle_era_type_stable', 'Стабильный тип эры')|E]",
+    "POL": "[dynastic_cycle_era_type_stable|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_UNSTABLE_ERA_TYPE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[dynastic_cycle_era_type_unstable|E]",
+    "RUS": "[Concept('dynastic_cycle_era_type_unstable', 'Нестабильный тип эры')|E]",
+    "POL": "[dynastic_cycle_era_type_unstable|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CHAOTIC_ERA_TYPE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[dynastic_cycle_era_type_chaotic|E]",
+    "RUS": "[Concept('dynastic_cycle_era_type_chaotic', 'Хаотический тип эры')|E]",
+    "POL": "[dynastic_cycle_era_type_chaotic|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_OTHER_RULERS_ERA_CHANGE",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "If an outside [ruler|E] conquers [GetTitleByKey('h_china').GetDefinitiveName], they will start a new dynasty in the [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName] Era",
+    "RUS": "Если внешний [Concept('ruler', 'правитель')|E] захватывает титул [GetTitleByKey('h_china').GetDefinitiveName], он начинает новую династию в эре «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]»",
+    "POL": "Jeżeli obcy [ruler|El] podbije miejsce znane jako [GetTitleByKey('h_china').GetDefinitiveName], zapoczątkuje nową dynastię w epoce, którą jest [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_MANDATE_OF_HEAVEN_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[son_of_heaven|E]",
+    "RUS": "[son_of_heaven|E]",
+    "POL": "[son_of_heaven|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_ACTIONS_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Actions",
+    "RUS": "Действия",
+    "POL": "Działania",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PARTICIPANT_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[personal_movement_power_short|E]: [movement_power_i][Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])",
+    "RUS": "[personal_movement_power_short|E]: [movement_power_i][Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])",
+    "POL": "[personal_movement_power_short|E]: [movement_power_i] [Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PARTICIPANT_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Show Dynastic Cycle Interactions#!",
+    "RUS": "#T Показать взаимодействия с династическим циклом#!",
+    "POL": "#T Pokaż interakcje związane z cyklem dynastii#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Catalysts towards [FutureSituationPhase.GetType.GetName]",
+    "RUS": "Катализаторы в сторону фазы «[FutureSituationPhase.GetType.GetName]»",
+    "POL": "Katalizatory prowadzące do fazy „[FutureSituationPhase.GetType.GetNameNoTooltip]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PHASES_LIST",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Eras of [SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]",
+    "RUS": "Эры ситуации «[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]»",
+    "POL": "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip] – epoki",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HISTORY_LIST",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "History of [SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]",
+    "RUS": "История ситуации «[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip]»",
+    "POL": "[SituationDynasticCycleWindow.GetSituation.GetNameNoTooltip] – historia",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "All Catalysts",
+    "RUS": "Все катализаторы",
+    "POL": "Wszystkie katalizatory",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [situation_catalyst_catalysts|E] towards [SituationPhaseType.GetNameNoTooltip]#!\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [situation_catalyst_catalysts|E], приближающие фазу «[SituationPhaseType.GetNameNoTooltip]»#!\\n$CLICK_TO_VIEW$",
+    "POL": "#T [SituationPhaseType.GetNameNoTooltip]: [situation_catalyst_catalysts|El]#!\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_CATALYSTS_LIST_PROGRESSBAR_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Progress towards [SituationPhaseType.GetName]: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!",
+    "RUS": "#T Прогресс приближения к фазе «[SituationPhaseType.GetName]»: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!",
+    "POL": "#T [SituationPhaseType.GetName] – postęp: $SITUATION_PHASE_POINT_TAKEOVER_VALUE|V$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_DESC",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "This $game_concept_dynastic_cycle_era_short$ begins if enough [situation_catalyst_catalysts|E] trigger",
+    "RUS": "Эта эра начинается, когда срабатывает достаточно [Concept('situation_catalyst_catalysts', 'катализаций')|E]",
+    "POL": "$game_concept_dynastic_cycle_era_short$ zaczyna się po wywołaniu dostatecznej liczby [Concept('situation_catalyst_catalysts', 'katalizatorów')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS_HISTORY_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T History of The Dynastic Cycle#!\\n$CLICK_TO_VIEW$",
+    "RUS": "#T История династического цикла#!\\n$CLICK_TO_VIEW$",
+    "POL": "#T Historia cyklu dynastii#!\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_MEMBER_LIST_TT_MEMBERS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [movement|E] Members: [GetDataModelSize( SituationParticipantGroup.GetCharacters )|V]#!\\n#I Click to show all members#!",
+    "RUS": "#T Члены [Concept('movement', 'движения')|E]: [GetDataModelSize( SituationParticipantGroup.GetCharacters )|V]#!\\n#I Нажмите, чтобы показать всех членов#!",
+    "POL": "#T Członkowie [Concept('movement', 'ruchu')|E]: [GetDataModelSize( SituationParticipantGroup.GetCharacters )|V]#!\\n#I Kliknij, aby pokazać wszystkich członków#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_TOGGLE_MEMBER_LIST_TT_CHAOS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Warlords: [GetDataModelSize( SituationWindow.GetSituation.GetParticipatingCharacters )|V]#!\\n#I Click to show all warlords#!",
+    "RUS": "#T Военачальники: [GetDataModelSize( SituationWindow.GetSituation.GetParticipatingCharacters )|V]#!\\n#I Нажмите, чтобы показать всех военачальников#!",
+    "POL": "#T Watażkowie: [GetDataModelSize( SituationWindow.GetSituation.GetParticipatingCharacters )|V]#!\\n#I Kliknij, aby pokazać wszystkich watażków#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_FAVORED_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [favored_era|E]: [SituationPhaseType.GetNameNoTooltip|V]#!\\n[SelectLocalization( SituationDynasticCycleWindow.GetHegemonyTitle.GetHolder.IsValid, SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_TOOLTIP' ), SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_TOOLTIP' ) )]",
+    "RUS": "#T [favored_era|E]: [SituationPhaseType.GetNameNoTooltip|V]#!\\n[SelectLocalization( SituationDynasticCycleWindow.GetHegemonyTitle.GetHolder.IsValid, SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_TOOLTIP' ), SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_TOOLTIP' ) )]",
+    "POL": "#T [favored_era|E]: [SituationPhaseType.GetNameNoTooltip|Vl]#!\\n[SelectLocalization( SituationDynasticCycleWindow.GetHegemonyTitle.GetHolder.IsValid, SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_TOOLTIP' ), SelectLocalization( Character.IsLocalPlayer, 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_ME_TOOLTIP', 'DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_TOOLTIP' ) )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_FAVORED_MOVEMENT_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [favored_movement|E]: [SituationParticipantGroup.GetNameNoTooltip|V]#!\\n[son_of_heaven|E] favors this Movement",
+    "RUS": "#T [favored_movement|E]: [SituationParticipantGroup.GetNameNoTooltip|V]#!\\n[son_of_heaven|E] поддерживает это движение",
+    "POL": "#T [favored_movement|E]: [SituationParticipantGroup.GetNameNoTooltip|Vl]#!\\n[son_of_heaven|E] faworyzuje ten ruch",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "If [Character.GetShortUIName] united China, [Character.GetSheHe] would choose to begin an [dynastic_cycle_era_short|E] of [SituationPhaseType.GetName|V]",
+    "RUS": "Если [Character.GetShortUIName] объединит Китай, [Select_CString(Character.IsFemale, 'она', 'он')] выберет [Concept('dynastic_cycle_era_short', 'эру')|E] «[SituationPhaseType.GetName|V]»",
+    "POL": "Jeżeli [Character.GetShortUINameNotMe] zjednoczy Chiny, rozpocznie [Concept('dynastic_cycle_era_short', 'epokę')|E], którą jest [SituationPhaseType.GetName|Vl]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "If [Character.GetShortUIName] stabilized China, [Character.GetSheHe] would choose to begin an [dynastic_cycle_era_short|E] of [SituationPhaseType.GetName|V]",
+    "RUS": "Если [Character.GetShortUIName] стабилизирует Китай, [Select_CString(Character.IsFemale, 'она', 'он')] выберет [Concept('dynastic_cycle_era_short', 'эру')|E] «[SituationPhaseType.GetName|V]»",
+    "POL": "Jeżeli [Character.GetShortUINameNotMe] wprowadzi stabilizację w Chinach, rozpocznie [Concept('dynastic_cycle_era_short', 'epokę')|E], którą jest [SituationPhaseType.GetName|Vl]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_UNITE_CHINA_FAVORED_PHASE_ME_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "If you manage to unite China, you will begin an [dynastic_cycle_era_short|E] of [SituationPhaseType.GetName|V]",
+    "RUS": "Если вы объедините Китай, вы начнёте [Concept('dynastic_cycle_era_short', 'эру')|E] «[SituationPhaseType.GetName|V]»",
+    "POL": "Jeżeli uda ci się zjednoczyć Chiny, rozpoczniesz [Concept('dynastic_cycle_era_short', 'epokę')|E], którą jest [SituationPhaseType.GetName|Vl]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_HEGEMON_FAVORED_PHASE_ME_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "If you manage to stabilize China, you will begin an [dynastic_cycle_era_short|E] of [SituationPhaseType.GetName|V]",
+    "RUS": "Если вы стабилизируете Китай, вы начнёте [Concept('dynastic_cycle_era_short', 'эру')|E] «[SituationPhaseType.GetName|V]»",
+    "POL": "Jeżeli uda ci się wprowadzić stabilizację w Chinach, rozpoczniesz [Concept('dynastic_cycle_era_short', 'epokę')|E], którą jest [SituationPhaseType.GetName|Vl]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PARTICIPANT_GROUP_LIST_HEADER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SituationParticipantCharacterList.GetSelectedParticipantGroup.GetNameNoTooltip]",
+    "RUS": "[SituationParticipantCharacterList.GetSelectedParticipantGroup.GetNameNoTooltip]",
+    "POL": "[SituationParticipantCharacterList.GetSelectedParticipantGroup.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_MOVEMENT_LEADER_LABEL",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[movement_leader|E]",
+    "RUS": "[movement_leader|E]",
+    "POL": "[movement_leader|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PORTRAIT_MOVEMENT_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[movement_power_i][Character.MakeScope.Var('movement_power').GetValue|0V]",
+    "RUS": "[movement_power_i][Character.MakeScope.Var('movement_power').GetValue|0V]",
+    "POL": "[movement_power_i] [Character.MakeScope.Var('movement_power').GetValue|0V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PORTRAIT_MOVEMENT_POWER_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope().Var( 'movement_power' ).GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "RUS": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope().Var( 'movement_power' ).GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "POL": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope().Var( 'movement_power' ).GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_HUD_PERSONAL_MOVEMENT_POWER_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope.Var('movement_power').GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "RUS": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope.Var('movement_power').GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "POL": "#T [movement_power_i] [personal_movement_power|E]: [Character.MakeScope.Var('movement_power').GetValue|0V]\\n#![Character.MakeScope().GetScriptValueDesc( 'movement_power_character_value' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_HUD_GROUP_POWER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [movement_power_i] [SituationParticipantGroup.GetNameNoTooltip]: [SituationParticipantGroup.MakeScope().Var( 'movement_power' ).GetValue|V0]#!\\nTotal [personal_movement_power|E] of all members of the [SituationParticipantGroup.GetName]\\n\\n[SituationParticipantGroup.MakeScope().GetScriptValueDesc( 'movement_power_value' )]\\n\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [movement_power_i] [SituationParticipantGroup.GetNameNoTooltip]: [SituationParticipantGroup.MakeScope().Var( 'movement_power' ).GetValue|V0]#!\\nСуммарная [Concept('personal_movement_power', 'личная сила в движении')|E] всех участников группы [SituationParticipantGroup.GetName]\\n\\n[SituationParticipantGroup.MakeScope().GetScriptValueDesc( 'movement_power_value' )]\\n\\n$CLICK_TO_VIEW$",
+    "POL": "#T [movement_power_i] [SituationParticipantGroup.GetNameNoTooltip]: [SituationParticipantGroup.MakeScope().Var( 'movement_power' ).GetValue|V0]#!\\nŁączna [Concept('personal_movement_power', 'osobista siła')|E] wszystkich członków ruchu o nazwie [SituationParticipantGroup.GetName]\\n\\n[SituationParticipantGroup.MakeScope().GetScriptValueDesc( 'movement_power_value' )]\\n\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_HUD_GROUP_OWNED_LAND_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [GetSituation('dynastic_cycle').GetName]: [SituationParticipantGroup.GetNameNoTooltip]#!\\n[SituationParticipantGroup.GetDescription]\\n\\nYou hold @house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLandPercentage|V0%] of the [counties|E] in the [GetSituation('dynastic_cycle').GetNameNoTooltip].\\n\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [GetSituation('dynastic_cycle').GetName]: [SituationParticipantGroup.GetNameNoTooltip]#!\\n[SituationParticipantGroup.GetDescription]\\n\\nВы владеете @house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLandPercentage|V0%] от всех [Concept('counties', 'графств')|E], вовлеченных в ситуацию «[GetSituation('dynastic_cycle').GetNameNoTooltip]».\\n\\n$CLICK_TO_VIEW$",
+    "POL": "#T [GetSituation('dynastic_cycle').GetName]: [SituationParticipantGroup.GetNameNoTooltip]#!\\n[SituationParticipantGroup.GetDescription]\\n\\nPosiadasz @house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLandPercentage|V0%] [Concept('counties', 'hrabstw')|E] w następującej sytuacji: „[GetSituation('dynastic_cycle').GetNameNoTooltip]”.\\n\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PORTRAIT_INDEPENDENT_RULER_LAND",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "@house_realm_county_control_icon! [SituationDynasticCycleWindow.GetLandHeldPercentage( Character.Self )|V0%]",
+    "RUS": "@house_realm_county_control_icon! [SituationDynasticCycleWindow.GetLandHeldPercentage( Character.Self )|V0%]",
+    "POL": "@house_realm_county_control_icon! [SituationDynasticCycleWindow.GetLandHeldPercentage( Character.Self )|V0%]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_PORTRAIT_INDEPENDENT_RULER_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "@soldier_icon! [SituationDynasticCycleWindow.GetMilitaryStrength( Character.Self )|V0]",
+    "RUS": "@soldier_icon! [SituationDynasticCycleWindow.GetMilitaryStrength( Character.Self )|V0]",
+    "POL": "@soldier_icon! [SituationDynasticCycleWindow.GetMilitaryStrength( Character.Self )|V0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_MOVEMENT_TAB_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "RUS": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "POL": "[SituationDynasticCycleWindow.GetMovementPowerValue( SituationParticipantGroup.Self )|V0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_HUD_INDEPENDENT_RULER_LAND",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "@house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLand|V0%]",
+    "RUS": "@house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLand|V0%]",
+    "POL": "@house_realm_county_control_icon! [InGameBottomBar.GetDynasticCycleOwnedLand|V0%]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CUSTOM_SORT_MOVEMENT_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "$game_concept_movement_power$",
+    "RUS": "$game_concept_movement_power$",
+    "POL": "$game_concept_movement_power$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CUSTOM_SORT_INDIVIDUAL_MOVEMENT_POWER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "$personal_movement_power$",
+    "RUS": "$personal_movement_power$",
+    "POL": "$personal_movement_power$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CUSTOM_SORT_MOVEMENT_LAND_HELD",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Percentage of land held",
+    "RUS": "Доля земель во владении",
+    "POL": "Procent posiadanej ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_WINDOW_MOVEMENT_DEMANDS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Petition [son_of_heaven|E] as [movement_leader|E]",
+    "RUS": "Обратиться к [Concept('son_of_heaven', 'Сыну Неба')|E] в качестве [Concept('movement_leader', 'лидера движения')|E]",
+    "POL": "Zaproponuj, aby [Concept('movement_leader', 'przywódcą ruchu')|E] został [son_of_heaven|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_tab_dynastic_cycle",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Dynastic Cycle",
+    "RUS": "Династический цикл",
+    "POL": "Cykl dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_tab_movements",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Political Movements",
+    "RUS": "Политические движения",
+    "POL": "Ruchy polityczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Dynastic Cycle interactions",
+    "RUS": "Взаимодействия с династическим циклом",
+    "POL": "Interakcje związane z cyklem dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_type_dynastic_cycle",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Dynastic Cycle",
+    "RUS": "Династический цикл",
+    "POL": "Cykl dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_type_dynastic_cycle_desc",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "$game_concept_dynastic_cycle_desc$",
+    "RUS": "$game_concept_dynastic_cycle_desc$",
+    "POL": "$game_concept_dynastic_cycle_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_EVENT_MY_MOVEMENT_HEADER",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "My Movement ([Character.Custom('GetMyMovement')])",
+    "RUS": "Мое движение ([Character.Custom('GetMyMovement')])",
+    "POL": "Mój ruch ([Character.Custom('GetMyMovement')])",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_EVENT_MY_MOVEMENT_EFFECTS",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "My [personal_movement_power|E]: [movement_power_i][Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])\\nMy [movement_leader|E]: [Situation.GetParticipantGroupByCharacter( Character.Self ).MakeScope.Var('movement_leader').Char.GetShortUIName|U]\\n\\n[Situation.GetTopCurrentPhase.GetType.GetParticipantGroupEffectTooltipBreakdown( Situation.GetTopCharacterParticipantGroup( Character.Self ).GetType )]",
+    "RUS": "Моя [personal_movement_power|El]: [movement_power_i][Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])\\n[Concept('movement_leader', 'Лидер')|E] моего движения: [Situation.GetParticipantGroupByCharacter( Character.Self ).MakeScope.Var('movement_leader').Char.GetShortUIName|U]\\n\\n[Situation.GetTopCurrentPhase.GetType.GetParticipantGroupEffectTooltipBreakdown( Situation.GetTopCharacterParticipantGroup( Character.Self ).GetType )]",
+    "POL": "Moja [personal_movement_power|El]: [movement_power_i] [Character.MakeScope.Var('movement_power_individual').GetValue|V0] (+[Character.MakeScope.Var('movement_power_disciples').GetValue|0])\\nMój [movement_leader|El]: [Situation.GetParticipantGroupByCharacter( Character.Self ).MakeScope.Var('movement_leader').Char.GetShortUINameNotMe]\\n\\n[Situation.GetTopCurrentPhase.GetType.GetParticipantGroupEffectTooltipBreakdown( Situation.GetTopCharacterParticipantGroup( Character.Self ).GetType )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_EVENT_CURRENT_ERA",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Current Era ([SituationPhase.GetName])",
+    "RUS": "Текущая эпоха ([SituationPhase.GetName])",
+    "POL": "Bieżąca epoka ([SituationPhase.GetName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_CURRENT_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Current Era: [SituationPhase.GetName]#!\\n$CLICK_TO_VIEW$",
+    "RUS": "#T Текущая эра: [SituationPhase.GetName]#!\\n$CLICK_TO_VIEW$",
+    "POL": "#T Bieżąca epoka: [SituationPhase.GetName|l]#!\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_POSSIBLE_FUTURE_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Potential Era: [FutureSituationPhase.GetType.GetName]\\n#!Progress: [FutureSituationPhase.GetProgress|V]/[FutureSituationPhase.GetTakeoverPoints]\\n\\n#I Click to preview#!",
+    "RUS": "#T Возможная эра: [FutureSituationPhase.GetType.GetName]\\n#!Прогресс: [FutureSituationPhase.GetProgress|V]/[FutureSituationPhase.GetTakeoverPoints]\\n\\n#I Нажмите, чтобы просмотреть#!",
+    "POL": "#T Przyszła epoka: [FutureSituationPhase.GetType.GetName|l]\\n#!Postęp: [FutureSituationPhase.GetProgress|V]/[FutureSituationPhase.GetTakeoverPoints]\\n\\n#I Kliknij, aby zobaczyć podgląd#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "RUS": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "POL": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$CLICK_TO_VIEW$",
+    "POL": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$DYNASTIC_CYCLE_WINDOW_GROUP_YOUR_GROUP_LABEL$\\n\\n$CLICK_TO_VIEW$",
+    "RUS": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$DYNASTIC_CYCLE_WINDOW_GROUP_YOUR_GROUP_LABEL$\\n\\n$CLICK_TO_VIEW$",
+    "POL": "#T [SituationParticipantGroup.GetNameNoTooltip]#!\\n$DYNASTIC_CYCLE_WINDOW_GROUP_YOUR_GROUP_LABEL$\\n\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_qin",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The lands of the former Seven Warring States are united by the Qin dynasty, the first truly imperial dynasty",
+    "RUS": "Земли бывших Семи Сражающихся царств объединены под властью династии Цинь — первой по-настоящему императорской династии.",
+    "POL": "Dynastia Qin – pierwsza prawdziwie cesarska – jednoczy ziemie dawnych siedmiu Walczących Królestw",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_collapse_of_the_qin",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Plagued by internal rebellions, the Qin dynasty soon collapses into eighteen feuding kingdoms",
+    "RUS": "Скоротечно сражённая внутренними мятежами, династия Цинь распадается на восемнадцать враждующих царств.",
+    "POL": "Nękana wewnętrznymi buntami dynastia Qin wkrótce upada, dzieląc się na osiemnaście walczących ze sobą królestw",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_han",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Order is restored to the land by the triumph of the Han dynasty over its rivals",
+    "RUS": "Порядок в Поднебесной восстановлен с триумфом династии Хань над её соперниками.",
+    "POL": "Triumf dynastii Han nad jej rywalami pozwala przywrócić porządek na tych ziemiach",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_yellow_turban_rebellion",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Discontent masses, inspired by revolutionary prophecy, rise up against the Han dynasty, leading to decades of internal strife",
+    "RUS": "Недовольные массы, вдохновлённые пророчествами о переменах, поднимают мятеж против династии Хань, что приводит к десятилетиям внутренней смуты.",
+    "POL": "Niezadowolone masy, zainspirowane rewolucyjnymi przepowiedniami, buntują się przeciwko dynastii Han, co prowadzi do dziesięcioleci wewnętrznych konfliktów",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_three_kingdoms_period",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "With the enforced abdication of the last emperor of the Han dynasty, an age of partition between the three kingdoms of Wei, Shu, and Wu is officially inaugurated",
+    "RUS": "После вынужденного отречения последнего императора династии Хань официально начинается эпоха раздела между тремя царствами: Вэй, Шу и У.",
+    "POL": "Wymuszona abdykacja ostatniego cesarza z dynastii Han zapoczątkowała epokę podziału ziem na trzy królestwa: Wei, Shu i Wu",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_jin",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The Three Kingdoms period is brought to an end by the regent of Wei, who forces the emperor to abdicate and establishes the Jin dynasty",
+    "RUS": "Эпохе Троецарствия приходит конец, когда регент царства Вэй принуждает своего императора к отречению и основывает династию Цзинь.",
+    "POL": "Epoka Trzech Królestw kończy się dzięki działaniom regenta Wei, który zmusza cesarza do abdykacji i ustanawia dynastię Jin",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_war_of_the_eight_princes",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The reign of Emperor Hui of Jin is one of frequent strife, as princes of the imperial house wage war over control of the emperor",
+    "RUS": "Правление императора Хуэй-ди из Цзинь ознаменовано чередой междоусобиц, поскольку князья императорского дома ведут войну за контроль над правителем.",
+    "POL": "Panowanie cesarza Hui z dynastii Jin było okresem częstych konfliktów, ponieważ cesarzewicze toczyli wojny o kontrolę nad cesarzem",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_sixteen_kingdoms",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The establishment of a breakaway kingdom in Sichuan heralds the distintegration of the north into fractured rival states",
+    "RUS": "Образование отколовшегося царства в Сычуани предвещает распад севера на множество враждующих государств.",
+    "POL": "Powstanie odrębnego królestwa w Syczuanie zwiastuje rozpad północy na podzielone, rywalizujące ze sobą państwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_northern_southern_dynasties",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The chaos of the Sixteen Kingdoms period gradually gives way to the more consolidated Northern and Southern Dynasties, although reunification remains a dream",
+    "RUS": "Хаос эпохи Шестнадцати государств постепенно сменяется более объединенными династиями Юга и Севера, однако воссоединение остаётся несбыточной мечтой.",
+    "POL": "Chaos epoki Szesnastu Królestw stopniowo ustępuje miejsca bardziej skonsolidowanym dynastiom północy i południa, chociaż zjednoczenie wciąż pozostaje odległym marzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_sui",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "In the aftermath of the demise of the unstable Emperor Xuan of Northern Zhou, his father-in-law seizes power and founds the Sui dynasty",
+    "RUS": "После кончины неуправляемого императора Сюань-ди из Северной Чжоу его тесть захватывает власть и основывает династию Суй.",
+    "POL": "Po śmierci niezrównoważonego cesarza Xuana z północnej dynastii Zhou jego teść przejmuje władzę i zakłada dynastię Sui",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_decline_of_the_sui",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Costly infrastructure projects and military misadventures bring the Sui dynasty to its knees; the emperor is murdered, and a child seated in his place",
+    "RUS": "Разорительные инфраструктурные проекты и военные авантюры подкашивают династию Суй; император убит, а на трон возведён младенец.",
+    "POL": "Kosztowne projekty infrastrukturalne i niepowodzenia militarne doprowadzają dynastię Sui do upadku. Cesarz zostaje zamordowany, a jego miejsce zajmuje dziecko",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_tang",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "Compelling the Sui child-emperor to resign, the imperial regent ascends as the first emperor of the Tang dynasty",
+    "RUS": "Принудив малолетнего императора Суй к отречению, имперский регент восходит на престол как первый император династии Тан.",
+    "POL": "Regent cesarski zmusza nieletniego cesarza Sui do abdykacji i wstępuje na tron jako pierwszy cesarz z dynastii Tang",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_an_lushan_rebellion",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "General Ān Lùshān leads a unsuccessful rebellion against the Tang, with catastrophic consequences for millions",
+    "RUS": "Генерал Ань Лушань поднимает масштабный, но в конечном счёте неудачный мятеж против династии Тан, что имеет катастрофические последствия для миллионов людей.",
+    "POL": "Generał Ān Lùshān przewodzi nieudanej rebelii przeciwko dynastii Tang, co ma katastrofalne skutki dla milionów ludzi",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_collapse_of_the_tang",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The murder of the final Tang emperor marks the end of the dynasty, with more than a dozen warlords competing for recognition as its successor",
+    "RUS": "Убийство последнего императора Тан знаменует конец династии, после чего более десятка военачальников начинают оспаривать право считаться её преемником.",
+    "POL": "Morderstwo ostatniego cesarza z dynastii Tang przypieczętowało jej upadek, a kilkunastu watażków rozpoczyna walkę o władzę",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_rise_of_the_song",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "A brilliant general unites the warring kingdoms and ushers in a new era of peace and prosperity as the founder of the Song dynasty",
+    "RUS": "Блестящий полководец объединяет враждующие царства и, став основателем династии Сун, открывает новую эру мира и процветания.",
+    "POL": "Genialny generał jednoczy walczące królestwa, zapoczątkowując nową epokę pokoju i dobrobytu jako założyciel dynastii Song",
+    "BEL": ""
+  },
+  {
+    "KEY": "cycle_history_key_sack_of_kaifeng_by_jin",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "The Song dynasty suffers a major defeat when the imperial capital is raided by the Jurchen Jin dynasty, the emperor himself taken prisoner",
+    "RUS": "Династия Сун терпит крах, когда имперскую столицу разграбила чжурчжэньская династия Цзинь, а самого императора взяли в плен.",
+    "POL": "Dynastia Song ponosi klęskę, gdy dynastia Jin Jurchenów atakuje cesarską stolicę, a sam cesarz zostaje wzięty do niewoli",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_OPEN_CYCLE_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T $situation_type_dynastic_cycle$#!\\n$DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetName]\\n$DYNASTIC_CYCLE_WINDOW_FUTURE_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetLeadingPhaseType.GetName]\\n\\n$CLICK_TO_VIEW$",
+    "RUS": "#T $situation_type_dynastic_cycle$#!\\n$DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetName]\\n$DYNASTIC_CYCLE_WINDOW_FUTURE_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetLeadingPhaseType.GetName]\\n\\n$CLICK_TO_VIEW$",
+    "POL": "#T $situation_type_dynastic_cycle$#!\\n$DYNASTIC_CYCLE_WINDOW_CURRENT_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetName]\\n$DYNASTIC_CYCLE_WINDOW_FUTURE_ERA_LABEL$: faza sytuacji [Situation.GetTopSubRegion.GetCurrentPhase.GetLeadingPhaseType.GetName|l]\\n\\n$CLICK_TO_VIEW$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_PHASE_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "RUS": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "POL": "[SelectLocalization( SituationParticipantGroup.IsCharacterParticipant( GetPlayer ), 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_YOUR_MOVEMENT', 'DYNASTIC_CYCLE_POLITICAL_MOVEMENT_TAB_TOOLTIP_NOT_YOUR_MOVEMENT' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_CURRENT_PHASE_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Viewing Era: [SituationPhaseType.GetName]#!",
+    "RUS": "#T Просмотр эпохи: [SituationPhaseType.GetName]#!",
+    "POL": "#T Wyświetlanie epoki: [SituationPhaseType.GetName|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_POTENTIAL_PHASE_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#T Previewing Era: [SituationPhaseType.GetName]#!",
+    "RUS": "#T Предпросмотр эпохи: [SituationPhaseType.GetName]#!",
+    "POL": "#T Podgląd epoki: [SituationPhaseType.GetName|l]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DYNASTIC_CYCLE_CLICK_TO_GO_BACK_TT",
+    "FILE_PATH": "localization/belarusian/situations/situation_dynastic_cycle_l_belarusian.json",
+    "ENG": "#I Click to view Current Era",
+    "RUS": "#I Щелкните, чтобы посмотреть текущую эпоху",
+    "POL": "#I Kliknij, aby wyświetlić bieżącą epokę",
+    "BEL": ""
+  }
+]

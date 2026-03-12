@@ -1,0 +1,458 @@
+[
+  {
+    "KEY": "bp1_yearly.6000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "For the Sins of a [my_rival.GetMotherFather|U]",
+    "RUS": "За грехи [Select_CString(my_rival.IsFemale, 'моей матери', 'моего отца' )]",
+    "POL": "Za grzechy [Select_CString(my_rival.IsFemale, 'matki', 'ojca' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "A loud scream cuts through the bustle outside my [ROOT.Char.Custom('ResidenceBuilding')].\\n\\n",
+    "RUS": "Окрестности сотрясаются от громкого вопля.\\n\\n«[Select_CString(ROOT.Char.IsFemale, 'Ненавистная', 'Ненавистный' )] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rivals_child'))|U]! [Select_CString(my_rival.IsFemale, 'Моя мать', 'Мой отец' )] — [my_rival.GetTitledFirstName], а значит именно я заставлю тебя поплатиться за злодеяния!\\nВыходи, или весь мир узнает, что ты отказываешься защищать собственную честь!»\\n\\nЯ поворачиваюсь и вижу [Select_CString(rivals_child.IsFemale, 'женщину, которая', 'мужчину, который' )] прожигает меня полным гнева взглядом. В [Select_CString(rivals_child.IsFemale, 'ее', 'его' )] глазах светится решимость защитить честь [Select_CString(my_rival.IsFemale, 'матери', 'отца' )].\\n\\nСтража рядом — одного приказа будет достаточно, чтобы выскочку вышвырнули за ворота. Пусть осознает свое бессилие и унижение.",
+    "POL": "[ROOT.Char.Custom('ResidenceBuilding')|U] i teren wokół toną w gwarze, który przecina głośny krzyk.\\n\\n– Jesteś [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rivals_child'))]! Stoi przed tobą [rivals_child.Custom('GetDaughterSon')] osoby znanej jako [my_rival.GetTitledFirstName]! Koniec tego dobrego, teraz odpowiesz za swoje nikczemne występki. Zmierz się ze mną albo świat dowie się, że boisz się bronić własnego honoru!\\n\\nGdy się odwracam, dostrzegam [rivals_child.Custom('PL_jego_jej')] płonące oczy, z których bije pragnienie obrony honoru własnego rodzica.\\n\\nMoi strażnicy wciąż są w pobliżu – wystarczy jeden rozkaz, by [rivals_child.Custom('PL_go_ja')] stąd wyrzucić. Niech uświadomi sobie swoją bezsilność i upokorzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "My quarrel is with your [my_rival.GetMotherFather], not with you.",
+    "RUS": "Я в ссоре с [Select_CString(my_rival.IsFemale, 'твоей матерью', 'твоим отцом' )], а не с тобой.",
+    "POL": "Spieram się z [Select_CString(my_rival.IsFemale, 'twoją matką', 'twoim ojcem' )], nie z tobą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "I accept the challenge!",
+    "RUS": "Я принимаю вызов!",
+    "POL": "Przyjmuję wyzwanie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Guards! Get this #EMP child#! out of here.",
+    "RUS": "Стража! Уведите отсюда это #EMP дитя#!.",
+    "POL": "Straże! Zabierzcie stąd tego #EMP bachora#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Attempt to convince [rivals_child.GetFirstNameNoTooltip] to leave",
+    "RUS": "Положиться на силу убеждения: возможно, [rivals_child.GetFirstNameNoTooltip] уйдет самостоятельно",
+    "POL": "Spróbuj przekonać osobę o imieniu [rivals_child.GetFirstNameNoTooltip], aby odeszła",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "You convince [rivals_child.GetFirstName] to back down",
+    "RUS": "[rivals_child.GetFirstName] соглашается отступить",
+    "POL": "Przekonujesz, aby [rivals_child.GetFirstName] się wycofał[Select_CString(rivals_child.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstName] finds your condescension humiliating",
+    "RUS": "[rivals_child.GetFirstName] считает вашу снисходительность оскорбительной",
+    "POL": "[rivals_child.GetFirstName] uważa twoją protekcjonalność za upokarzającą",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6000.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "#V Duel#! [rivals_child.GetFirstNameNoTooltip] to teach [rivals_child.GetHerHim] [rivals_child.GetHerHis] place!\\n#weak This duel may lead to death.#!\\nIf you win, you will gain [prestige_i] [prestige|E]\\n\\nYour [prowess|E]: [prowess_i]#V [SCOPE.GetRootScope.GetCharacter.GetProwess]#!\\n[rivals_child.GetFirstNamePossessive] [prowess|E]: [prowess_i]#V [rivals_child.GetProwess]#!",
+    "RUS": "#V Сразитесь#! с персонажем [rivals_child.GetFirstNameNoTooltip] — пусть знает свое место!\\n#weak Этот поединок может закончиться смертью.#!\\nВ случае победы вы получите [prestige_i] [Concept( 'prestige', 'престиж' )|E]\\n\\nВаша [Concept( 'prowess', 'доблесть' )|E]: [prowess_i]#V [SCOPE.GetRootScope.GetCharacter.GetProwess]#!\\n[prowess|E] персонажа [rivals_child.GetFirstName]: [prowess_i]#V [rivals_child.GetProwess]#!",
+    "POL": "Ty i [rivals_child.GetFirstNameNoTooltip] staniecie do #V pojedynku#!, abyś m[Select_CString( GetPlayer.IsFemale, 'ogła', 'ógł' )] pokazać [rivals_child.GetHerHim] gdzie jest [rivals_child.GetHerHis] miejsce!\\n#weak Ten pojedynek może doprowadzić do śmierci.#!\\nJeżeli wygrasz, zyskasz [prestige_i] [prestige|El]\\n\\nTwoja [prowess|El]: [prowess_i]#V [SCOPE.GetRootScope.GetCharacter.GetProwess]#!\\n\\n[prowess|E] postaci [rivals_child.GetFirstName]: [prowess_i]#V [rivals_child.GetProwess]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6001.victory_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstName] was defeated and sent on [rivals_child.GetHerHis] way",
+    "RUS": "[rivals_child.GetFirstName] терпит поражение и отправляется восвояси",
+    "POL": "Osoba o imieniu [rivals_child.GetFirstName] została pokonana i odesłana",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6002.trigger_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "My duel against [rivals_child.GetFirstNameNoTooltip] has been invalidated",
+    "RUS": "Мой поединок с персонажем [rivals_child.GetFirstNameNoTooltip] отменен",
+    "POL": "Mój pojedynek przeciwko postaci [rivals_child.GetFirstNameNoTooltip] został unieważniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "defused_feud_escalation_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Defused Feud Escalation",
+    "RUS": "Удалось предотвратить развитие вражды",
+    "POL": "Eskalacja konfliktu zażegnana",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Something Rash",
+    "RUS": "Поспешность",
+    "POL": "Nieostrożne zachowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(rivals_child.IsFemale, 'сделала', 'сделал' )] только то, что [Select_CString(rivals_child.IsFemale, 'была должна, — защитила', 'был должен, — защитил' )] твою честь!»\\n\\n[rivals_child.GetFirstNameNoTooltip] рассказывает мне о произошедшем со смесью стыда и гордости на лице. Судя по всему, [rivals_child.GetHerHis] желание защитить честь рода подтолкнуло [rivals_child.GetHerHis] устроить засаду на моего врага, когда [attacked_rival.GetTitledFirstName] [Select_CString(attacked_rival.IsFemale, 'находилась', 'находился' )] у себя дома.\\n\\nКонечно же, [attacked_rival.GetFirstNameNoTooltip] не [Select_CString(attacked_rival.IsFemale, 'стала', 'стал' )] терпеть подобной наглости, [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'получила', 'получил' )] свою долю унижения и [Select_CString(rivals_child.IsFemale, 'была отправлена', 'был отправлен' )] домой.",
+    "POL": "– Moje zachowanie było konieczne, aby bronić twojego honoru!\\n\\n[rivals_child.GetFirstNameNoTooltip] wykazuje dziwną mieszankę wstydu i dumy, kiedy wyjaśnia mi, co się stało. Najwyraźniej bardzo chcąc bronić mojego nazwiska rodowego, moje dziecko przygotowało zasadzkę na mojego wroga, którym jest [attacked_rival.GetTitledFirstName], w [attacked_rival.Custom('PL_jego_jej')] domu.\\n\\nZostało jednak szybko upokorzone i odesłane do mnie do domu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "You have done well [rivals_child.Custom('GetDaughterSon')]!",
+    "RUS": "Ты молодец, [rivals_child.Custom('GetDaughterSon')]!",
+    "POL": "Dobrze się spisał[Select_CString( rivals_child.IsFemale, 'aś córko', 'eś synu' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "not_controlling_child_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "You will lose prestige for not being able to control your [rivals_child.Custom('GetDaughterSon')]",
+    "RUS": "Вы потеряете престиж за то, что не можете контролировать собственное дитя",
+    "POL": "Stracisz prestiż za to, że nie potrafisz kontrolować swoje[Select_CString( rivals_child.IsFemale, 'j córki', 'go syna' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "How could you do this? We must compensate [attacked_rival.GetTitledFirstNameNoTooltip]",
+    "RUS": "Как ты [Select_CString(rivals_child.IsFemale, 'могла', 'мог' )]? Теперь [attacked_rival.GetTitledFirstNameNoTooltip] потребует компенсации",
+    "POL": "Jak mogł[Select_CString( rivals_child.IsFemale, 'a', 'e' )]ś to zrobić? [attacked_rival.GetTitledFirstNameNoTooltip] musi otrzymać jakąś rekompensatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "child_let_down_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstNameNoTooltip] will be disappointed in your lack of support",
+    "RUS": "[rivals_child.GetFirstNameNoTooltip] разочаруется в вас за отсутствие поддержки",
+    "POL": "[rivals_child.GetFirstNameNoTooltip] będzie zawiedzion[Select_CString( rivals_child.IsFemale, 'a', 'y' )] brakiem wsparcia z twojej strony",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "To Kill a [rivals_child.Custom('GetDaughterSon')|U]",
+    "RUS": "[rivals_child.Custom('GetDaughterSon')|U] умирает",
+    "POL": "Zabić [Select_CString( rivals_child.IsFemale, 'córkę', 'syna' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "As I look down on the body of [rivals_child.GetFirstName] I am increasingly coming to the realization that this duel will have consequences. I have killed the [rivals_child.Custom('GetDaughterSon')] of a [my_rival.GetWomanMan] I consider to be my enemy, and soon the world will know what I have done.",
+    "RUS": "Глядя, как [rivals_child.GetFirstName] лежит на земле без движения, я все сильнее осознаю, что последствия поединка не заставят себя ждать. От моей руки [Select_CString(rivals_child.IsFemale, 'пала', 'пал' )] [rivals_child.Custom('GetDaughterSon')] моего врага, и вскоре мир об этом узнает.",
+    "POL": "Gdy [rivals_child.GetFirstName] leży bezwładnie na ziemi, coraz bardziej dociera do mnie jakie będą konsekwencje tego pojedynku. Zabił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m [Select_CString( rivals_child.IsFemale, 'córkę', 'syna' )] [Select_CString( my_rival.IsFemale, 'kobiety, którą', 'mężczyzny, którego' )] uważam za swojego wroga. Wkrótce cały świat dowie się, co zrobił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "I must offer my condolences to [my_rival.GetTitledFirstNameNoTooltip].",
+    "RUS": "[my_rival.GetTitledFirstNameNoTooltip] получит мои соболезнования. Иначе нельзя.",
+    "POL": "[my_rival.GetTitledFirstNameNoTooltip] otrzyma ode mnie kondolencje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[my_rival.GetFirstNameNoTooltip] has only reaped what [my_rival.GetSheHe] has sown!",
+    "RUS": "[my_rival.GetFirstNameNoTooltip] [Select_CString(my_rival.IsFemale, 'пожала', 'пожал' )] то, что [Select_CString(my_rival.IsFemale, 'посеяла', 'посеял' )]!",
+    "POL": "[my_rival.GetFirstNameNoTooltip] zebrał[Select_CString( my_rival.IsFemale, 'a', '' )] tylko to, co zasiał[Select_CString( my_rival.IsFemale, 'a', '' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "killed_my_child",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Killer of my Child",
+    "RUS": "Убийца моего ребенка",
+    "POL": "Zabójca mojego dziecka",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Triumphant Homecoming?",
+    "RUS": "Возвращение с победой?",
+    "POL": "Triumfalny powrót?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(rivals_child.IsFemale, 'сделала', 'сделал' )] только то, что [Select_CString(rivals_child.IsFemale, 'была должна — защитила', 'был должен — защитил' )] твою честь!»\\n\\n[rivals_child.GetFirstNameNoTooltip] рассказывает мне о произошедшем со странной смесью невероятной гордости и легкой тревоги на лице. Судя по всему, [rivals_child.GetHerHis] желание защитить честь рода подтолкнуло [rivals_child.GetHerHis] устроить засаду на моего врага, когда [attacked_rival.GetTitledFirstName] [Select_CString(attacked_rival.IsFemale, 'находилась', 'находился' )] у себя дома.\\n\\nПри этом [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'одолела', 'одолел' )] противника в поединке один на один.",
+    "POL": "„Zrobił[Select_CString(rivals_child.IsFemale, 'am', 'em' )] to, co należało zrobić, aby obronić twój honor!”\\n\\n[rivals_child.GetFirstNameNoTooltip] wykazuje dziwną mieszankę silnej dumy i lekkiego przerażenia, gdy wyjaśnia, co się wydarzyło. Wygląda na to, że w swoim zapale do obrony nazwiska przyczaił[Select_CString(rivals_child.IsFemale, 'a', '' )] się, kiedy wrog[Select_CString(attacked_rival.IsFemale, 'a', 'i' )] mi [attacked_rival.GetTitledFirstName] był[Select_CString(attacked_rival.IsFemale, 'a', '' )] w swoim domu.\\n\\n[rivals_child.GetFirstNameNoTooltip] był[Select_CString(rivals_child.IsFemale, 'a', '' )] w stanie [Select_CString(attacked_rival.IsFemale, 'ją', 'go' )] pokonać, zwyciężając w pojedynku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "A valuable lesson for [attacked_rival.GetFirstNameNoTooltip]",
+    "RUS": "Что ж, [attacked_rival.GetFirstNameNoTooltip] [Select_CString(attacked_rival.IsFemale, 'получила', 'получил' )] ценный урок",
+    "POL": "[attacked_rival.GetFirstNameNoTooltip] dostał[Select_CString(attacked_rival.IsFemale, 'a', '' )] wartościową lekcję",
+    "BEL": ""
+  },
+  {
+    "KEY": "rewarding_success_in_child_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstName] will be rewarded",
+    "RUS": "[rivals_child.GetFirstName] получит награду",
+    "POL": "[rivals_child.GetFirstName] otrzyma nagrodę",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6005.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "This is all wrong! We must compensate [attacked_rival.GetTitledFirstNameNoTooltip]",
+    "RUS": "Так нельзя! [attacked_rival.GetTitledFirstNameNoTooltip] [Select_CString(attacked_rival.IsFemale, 'должна', 'должен' )] получить компенсацию!",
+    "POL": "To wszystko jest złe! [attacked_rival.GetTitledFirstNameNoTooltip] musi otrzymać zadośćuczynienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6005.outcome_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstName] was victorious and our good name has been humiliated",
+    "RUS": "[rivals_child.GetFirstName] [Select_CString(rivals_child.IsFemale, 'одержала', 'одержал' )] победу, и наше доброе имя покрыто позором",
+    "POL": "Osoba o imieniu [rivals_child.GetFirstName] zwyciężyła, a nasze dobre imię zostało upokorzone",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "A Hero Returns?",
+    "RUS": "Возвращение героя?",
+    "POL": "Powrót bohatera?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я [Select_CString(rivals_child.IsFemale, 'сделала', 'сделал' )] только то, что [Select_CString(rivals_child.IsFemale, 'была должна, — защитила', 'был должен, — защитил' )] твою честь!»\\n\\n[rivals_child.GetFirstNameNoTooltip] рассказывает мне о произошедшем со странной смесью невероятной гордости и легкой тревоги на лице. Судя по всему, [rivals_child.GetHerHis] желание защитить честь рода подтолкнуло [rivals_child.GetHerHis] устроить засаду на моего врага, когда [attacked_rival.GetTitledFirstName] [Select_CString(attacked_rival.IsFemale, 'находилась', 'находился' )] у себя дома.\\n\\nПри этом [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'убила', 'убил' )] противника в поединке один на один.",
+    "POL": "„Zrobił[Select_CString(rivals_child.IsFemale, 'am', 'em' )] to, co musiał[Select_CString(rivals_child.IsFemale, 'am', 'em' )], aby obronić twój honor!”\\n\\n[rivals_child.GetFirstNameNoTooltip] wykazuje dziwną mieszankę silnej dumy i lekkiego przerażenia, gdy wyjaśnia, co się wydarzyło. Wygląda na to, że w swoim zapale do obrony nazwiska przyczaił[Select_CString(rivals_child.IsFemale, 'a', '' )] się, kiedy wrog[Select_CString(attacked_rival.IsFemale, 'a', 'i' )] mi [attacked_rival.GetTitledFirstName] był[Select_CString(attacked_rival.IsFemale, 'a', '' )] w swoim domu.\\n\\n[rivals_child.GetFirstNameNoTooltip] był[Select_CString(rivals_child.IsFemale, 'a', '' )] w stanie zwyciężyć, zabijając [Select_CString(attacked_rival.IsFemale, 'ją', 'go' )] w pojedynku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "You make me proud [rivals_child.Custom('GetDaughterSon')]",
+    "RUS": "Я горжусь тобой, [rivals_child.Custom('GetDaughterSon')]!",
+    "POL": "Napawasz mnie dumą, [Select_CString(rivals_child.IsFemale, 'córko', 'synu' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.outcome_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstName] defeated and killed [my_rival.GetFirstName]",
+    "RUS": "[rivals_child.GetFirstName] [Select_CString(rivals_child.IsFemale, 'победила и убила', 'победил и убил' )] персонажа [my_rival.GetFirstName]",
+    "POL": "[rivals_child.GetFirstName] pokonuje i zabija osobę o imieniu [my_rival.GetFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "murdered_my_vassal_crime",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Murder",
+    "RUS": "Убийство",
+    "POL": "Morderstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "How could you do this? We must compensate [rivals_beneficiary.GetTitledFirstNameNoTooltip]",
+    "RUS": "Как ты [Select_CString(rivals_child.IsFemale, 'могла', 'мог' )]? Теперь [rivals_beneficiary.GetTitledFirstNameNoTooltip] потребует компенсации",
+    "POL": "Jak mogł[Select_CString( rivals_child.IsFemale, 'a', 'e' )]ś to zrobić? [rivals_beneficiary.GetTitledFirstNameNoTooltip] musi otrzymać jakąś rekompensatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.c",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "A donation to charity will offset the evil deed",
+    "RUS": "Щедрое пожертвование на благотворительность покроет злодеяние",
+    "POL": "Darowizna na cele charytatywne zrównoważy zły uczynek",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6006.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[rivals_child.GetFirstNameNoTooltip] will be disappointed in your lack of support",
+    "RUS": "[rivals_child.GetFirstNameNoTooltip] разочаруется в вас за отсутствие поддержки",
+    "POL": "[rivals_child.GetFirstNameNoTooltip] będzie zawiedzion[Select_CString( rivals_child.IsFemale, 'a', 'y' )] brakiem wsparcia z twojej strony",
+    "BEL": ""
+  },
+  {
+    "KEY": "defended_family_honor_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Defended Family Honor",
+    "RUS": "Честь семьи под защитой",
+    "POL": "Broniono honoru rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "attacked_by_rivals_child",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Feuding Family",
+    "RUS": "Вражда семей",
+    "POL": "Zwaśniona rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "The Loss of a [rivals_child.Custom('GetDaughterSon')]",
+    "RUS": "Гибель ребенка",
+    "POL": "Utrata [Select_CString( rivals_child.IsFemale, 'córki', 'syna' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "It seems my [rivals_child.Custom('GetDaughterSon')], [rivals_child.GetTitledFirstName], has been inspired by my hatred for my rival, [attacked_rival.GetTitledFirstName], and has taken it upon [rivals_child.GetHerselfHimself] to end our feud.\\n\\nDriven by youthful enthusiasm, [rivals_child.GetFirstNameNoTooltip] ambushed [attacked_rival.GetFirstNameNoTooltip] and was mercilessly killed in the ensuing combat.",
+    "RUS": "Судя по всему, [Select_CString(rivals_child.IsFemale, 'моя', 'мой' )] [rivals_child.Custom('GetDaughterSon')] [rivals_child.GetTitledFirstName], [Select_CString(rivals_child.IsFemale, 'поняла', 'понял' )], насколько [Select_CString(attacked_rival.IsFemale, 'ненавистна', 'ненавистен' )] мне [attacked_rival.GetTitledFirstName], и [Select_CString(rivals_child.IsFemale, 'решила', 'решил' )] лично покончить с враждой наших семейств.\\n\\nПереполнившись юношеским энтузиазмом, [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'напала', 'напал' )] на моего врага и [attacked_rival.GetFirstNameNoTooltip] беспощадно [Select_CString(attacked_rival.IsFemale, 'убила', 'убил' )] [SCOPE.sC('rivals_child').GetHerHis] на поединке.",
+    "POL": "Najwyraźniej moje dziecko, [rivals_child.GetTitledFirstName], zainspirowało się moją nienawiścią do osoby, którą jest [attacked_rival.GetTitledFirstName] i z którą rywalizuję, i postanowiło położyć kres naszej waśni.\\n\\nKierując się młodzieńczym entuzjazmem, moja latorośl, [rivals_child.GetFirstNameNoTooltip], przygotowała zasadzkę na rywala i została bezlitośnie zabita w walce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.desc.apology",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "\\n\\nThis news comes together with a letter from [attacked_rival.GetTitledFirstNameNoTooltip] [attacked_rival.GetHerselfHimself], declaring that while [rivals_child.GetFirstNameNoTooltip] met with a just end for attacking someone in their home, [rivals_child.GetSheHe] regrets what has happened and [rivals_child.GetSheHe] will be compensating me financially for my loss.",
+    "RUS": "\\n\\nВскоре после мрачных новостей [attacked_rival.GetTitledFirstNameNoTooltip] присылает письмо, в котором заверяет: несмотря на то что [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'погибла', 'погиб' )] справедливо — за нападение на человека в [SCOPE.sC('attacked_rival').GetHerHis] собственном доме, — [attacked_rival.GetTitledFirstNameNoTooltip] сожалеет о произошедшем и намеревается компенсировать мою потерю финансово.",
+    "POL": "\\n\\nWiadomość o tym nadeszła wraz z listem, którego autorem jest [attacked_rival.GetTitledFirstNameNoTooltip]. Nadawca pisze, że chociaż moje dziecko spotkał sprawiedliwy koniec za zaatakowanie kogoś w jego własnym domu, żałuje, że [rivals_child.GetFirstNameNoTooltip] nie żyje, i wynagrodzi mi finansowo moją stratę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[attacked_rival.GetFirstNameNoTooltip] will regret this day!",
+    "RUS": "[attacked_rival.GetFirstNameNoTooltip] еще пожалеет об этом дне!",
+    "POL": "[attacked_rival.GetFirstNameNoTooltip] będzie żałować tego dnia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.a.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Swear further vengeance on [attacked_rival.GetFirstNameNoTooltip]",
+    "RUS": "Поклясться отомстить персонажу [attacked_rival.GetFirstNameNoTooltip]",
+    "POL": "Przyrzeknij dalszą zemstę na osobie o imieniu [attacked_rival.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "What have I done!?",
+    "RUS": "Неужели это из-за меня?!",
+    "POL": "Co ja zrobił[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m!?",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.b.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Attempt to avoid further bloodshed",
+    "RUS": "Попытаться предотвратить дальнейшее кровопролитие",
+    "POL": "Próba uniknięcia dalszego rozlewu krwi",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.vengeance.outcome_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[my_rival.GetFirstName] has sworn to avenge [rivals_child.GetFirstNameNoTooltip]",
+    "RUS": "[my_rival.GetFirstName] [Select_CString(my_rival.IsFemale, 'поклялась', 'поклялся' )] отомстить за то, что [Select_CString(rivals_child.IsFemale, 'погибла', 'погиб' )] [rivals_child.GetFirstNameNoTooltip]",
+    "POL": "[my_rival.GetFirstName] przyrzeka pomścić osobę o imieniu [rivals_child.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "bp1_yearly.6010.deescalation.outcome_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "[my_rival.GetFirstName] has learned of the death of [rivals_child.GetFirstNameNoTooltip]",
+    "RUS": "[my_rival.GetFirstName] [Select_CString(my_rival.IsFemale, 'узнала', 'узнал' )] о том, что [rivals_child.GetFirstNameNoTooltip] [Select_CString(rivals_child.IsFemale, 'погибла', 'погиб' )]",
+    "POL": "[my_rival.GetFirstName] dowiaduje się o śmierci swojego dziecka, którym jest [rivals_child.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_child_6010",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Every sibling of [rivals_child.GetFirstNameNoTooltip]",
+    "RUS": "Все сиблинги персонажа [rivals_child.GetFirstNameNoTooltip]",
+    "POL": "Każde rodzeństwo osoby o imieniu [rivals_child.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Inspiring Leadership",
+    "RUS": "Вдохновляющее лидерство",
+    "POL": "Inspirujące przywództwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "As I consider a plea for help from my vassal, [inspiring_vassal.GetTitledFirstName], I suddenly realize just how good my relationship with my own liege, [ROOT.Char.GetLiege.GetTitledFirstName], has always been.\\n\\nIt occurs to me that I would do well to strive to emulate the dutiful conduct of [ROOT.Char.GetLiege.GetFirstNameNoTooltip] in my dealings with everyone I have an obligation to. This way I might inspire the same sense of duty in those beholden to me.",
+    "RUS": "Я раздумываю над прошением, которое [Select_CString(inspiring_vassal.IsFemale, 'подала', 'подал' )] мне [inspiring_vassal.GetTitledFirstName], мой вассал, и внезапно осознаю, как хорошо относится ко мне сюзерен — [ROOT.Char.GetLiege.GetTitledFirstName]. И это взаимно.\\n\\nЯ понимаю, что мне стоит перенять добросовестность, с которой [ROOT.Char.GetLiege.GetFirstNameNoTooltip] относится к делам. Именно так и нужно вести дела со всеми, перед кем у меня есть обязательства. Возможно, тогда и в них вспыхнет такое же чувство долга.",
+    "POL": "Kiedy zastanawiam się, czy [inspiring_vassal.GetTitledFirstName] może mi pomóc, nagle zdaję sobie sprawę, że [ROOT.Char.GetLiege.GetTitledFirstName] to osoba, z którą zawsze łączyły mnie dobre stosunki.\\n\\nPrzychodzi mi do głowy, że dobrze by było naśladować posłuszeństwo osoby, którą jest [ROOT.Char.GetLiege.GetFirstNameNoTooltip], przed wszystkimi, wobec których mam jakieś zobowiązania. W ten sposób może uda mi się wzbudzić takie samo poczucie obowiązku u tych, którzy są mi coś dłużni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Take this [inspiring_vassal.GetTitledFirstNameNoTooltip], and tell me if you ever need more.",
+    "RUS": "Возьми это, [inspiring_vassal.GetTitledFirstNameNoTooltip], и сообщи, если потребуется еще.",
+    "POL": "Jako [inspiring_vassal.GetTitledFirstNameNoTooltip] przyjmij to ode mnie. Powiedz, jeśli to nie wystarczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Loyal is just another word for weak.",
+    "RUS": "Верность — лишь одно из названий слабости.",
+    "POL": "Lojalność to tylko kolejne określenie słabości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Leading by Example?",
+    "RUS": "Своим примером?",
+    "POL": "Dawanie przykładu?",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "A recent conflict between my vassal, [targeted_vassal.GetTitledFirstName] and [targeted_vassal.GetHerHis] own subjects have necessitated a sudden visit to [targeted_vassal.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. My mere presence seemingly resolved the matter and the local peasants appear content that their complaints have been heard by me.\\n\\nAs I wander empty corridors late at night I ponder my disappointing relationship with my own liege, [ROOT.Char.GetLiege.GetTitledFirstName]. [ROOT.Char.GetLiege.GetSheHe|U] has always been quick to demand my obedience but rarely has [ROOT.Char.GetLiege.GetSheHe] come to my aid like I just did for [targeted_vassal.GetTitledFirstNameNoTooltip].",
+    "RUS": "Не так давно мой вассал [targeted_vassal.GetTitledFirstName] [Select_CString(targeted_vassal.IsFemale, 'поссорилась', 'поссорился' )] с собственными подданными. Что ж, это дело требует моего личного присутствия — встречай, [targeted_vassal.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. И вот результат — одного моего присутствия, похоже, хватило, чтобы решить вопрос. Местным крестьянам довольно было высказаться лично мне.\\n\\nПоздней ночью я прохаживаюсь по пустым коридорам и размышляю о том, какие же плохие отношения у нас с сюзереном. [ROOT.Char.GetLiege.GetTitledFirstName] постоянно требует от меня покорности, но очень редко [ROOT.Char.GetLiege.GetSheHe] оказывает помощь, какую только что [Select_CString(targeted_vassal.IsFemale, 'получила', 'получил' )] от меня [targeted_vassal.GetTitledFirstNameNoTooltip].",
+    "POL": "[targeted_vassal.GetTitledFirstName] to mój wasal – niedawno osoba ta popadła w konflikt ze swoimi poddanymi, co wymagało mojej nagłej wizyty w miejscu znanym jako [targeted_vassal.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Najwyraźniej sama moja obecność zdołała rozwiązać problem, a miejscowych chłopów zadowolił fakt, że ich skargi zostały przeze mnie wysłuchane.\\n\\nSpacerując po pustych korytarzach późną nocą, rozmyślam o tym, że [ROOT.Char.GetLiege.GetTitledFirstName] to osoba, z którą łączą mnie rozczarowujące stosunki. Zawsze chętnie wymaga ode mnie posłuszności, jednak sama rzadko przychodzi mi z pomocą. Ja i [targeted_vassal.GetTitledFirstNameNoTooltip] mamy na przykład zupełnie inną relację – to ktoś, kto potrzebował mojej pomocy, a mnie udało się ją zapewnić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "Reciprocity is what moves the world, not duty.",
+    "RUS": "Миром правит не долг, а взаимопомощь.",
+    "POL": "To wzajemne uczynki, a nie poczucie obowiązku, napędzają świat.",
+    "BEL": ""
+  },
+  {
+    "KEY": "culture_tradition_events.2001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/yearly_events/yearly_feud_l_belarusian.json",
+    "ENG": "I must strive to be better than [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip].",
+    "RUS": "Мне нужно стать лучше, чем [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip].",
+    "POL": "Muszę być kimś lepszym niż [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip].",
+    "BEL": ""
+  }
+]

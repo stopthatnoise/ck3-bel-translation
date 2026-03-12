@@ -1,0 +1,1098 @@
+[
+  {
+    "KEY": "pilgrimage_intent.1000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ A Crisis of Faith",
+    "RUS": "$zealotry_intent_header$ Кризис веры",
+    "POL": "$zealotry_intent_header$ kryzys wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "As I continue my holy journey, I encounter a [sad_peasant.GetWomanMan] by the roadside, caked in filth and wet with [sad_peasant.GetHerHis] tears.\\n\\n",
+    "RUS": "Продолжая свой путь в святые места, я [Select_CString(ROOT.Char.IsFemale, 'повстречала', 'повстречал' )] у дороги [Select_CString(sad_peasant.IsFemale, 'женщину', 'мужчину' )] в грязи и слезах.\\n\\n«Ну, теперь-то ты радуешься? У меня больше ничего нет! Как мне жить в мире, которым правит такое жестокое создание, как [sad_peasant.GetFaith.HighGodName|U]?»\\n\\nОчевидно, [Select_CString(sad_peasant.IsFemale, 'она', 'он' )] в отчаянии и переживает кризис веры.",
+    "POL": "Gdy kontynuuję moją świętą podróż, przy drodze moim oczom ukazuje się [sad_peasant.GetWomanMan] z widoczną warstwą brudu na ciele i twarzą ociekającą łzami.\\n\\n– Podoba ci się obecny stan rzeczy? Przez twoje działania nie mam już nic! Jak mam dalej żyć w świecie rządzonym przez istotę tak okrutną jak [sad_peasant.GetFaith.HighGodName]?\\n\\n[sad_peasant.GetWomanMan|U] jest najwyraźniej w desperacji i kryzysie wiary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetFaith.HealthGodName|U] — вот ответ на твои вопросы».",
+    "POL": "– Odpowiedzi szukaj u [ROOT.Char.GetFaith.HealthGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a.alternate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Могу я предложить тебе другой путь?»",
+    "POL": "– Czy mogę pokazać ci inną perspektywę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a.conversion_succesful.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Conversion Successful",
+    "RUS": "Успешное обращение",
+    "POL": "Udane nawrócenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a.conversion_succesful.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You convert [sad_peasant.GetHerHim]",
+    "RUS": "Вы обращаете [Select_CString(sad_peasant.IsFemale, 'ее', 'его' )] в свою веру.",
+    "POL": "Udaje ci się [sad_peasant.Custom('PL_go_ja')] nawrócić",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a.conversion_failed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Conversion Failed",
+    "RUS": "Неудачное обращение",
+    "POL": "Nieudane nawrócenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.a.conversion_failed.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You fail to convert [sad_peasant.GetHerHim]",
+    "RUS": "Вы не смогли обратить [Select_CString(sad_peasant.IsFemale, 'ее', 'его' )] в свою веру.",
+    "POL": "Nie udaje ci się [sad_peasant.Custom('PL_go_jej')] nawrócić",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы идем в святые места. Пошли с нами».",
+    "POL": "– Jesteśmy w świętej podróży. Dołącz do nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.b.joined.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Joins Pilgrimage",
+    "RUS": "Присоединяется к паломничеству",
+    "POL": "Dołączenie do pielgrzymki",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.b.joined.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "[sad_peasant.GetSheHe|U] joins your pilgrimage",
+    "RUS": "[Select_CString(sad_peasant.IsFemale, 'Она', 'Он' )] присоединяется к вашему паломничеству",
+    "POL": "[sad_peasant.GetWomanMan] dołącza do twojej pielgrzymki",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.b.not_joined.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Invitation Declined",
+    "RUS": "Приглашение отклонено",
+    "POL": "Zaproszenie odrzucone",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.b.not_joined.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "[sad_peasant.GetSheHe|U] is not convinced",
+    "RUS": "[Select_CString(sad_peasant.IsFemale, 'Она', 'Он' )] не [Select_CString(sad_peasant.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "Nie udało ci się [sad_peasant.Custom('PL_go_jej')] przekonać",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "These are [ROOT.Char.GetFaith.TricksterGodNamePossessive|U] tears.",
+    "RUS": "Это слезы, что роняет [ROOT.Char.GetFaith.TricksterGodName|U].",
+    "POL": "Oto łzy [ROOT.Char.GetFaith.TricksterGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ Impressionable Youth",
+    "RUS": "$zealotry_intent_header$ Впечатлительная молодежь",
+    "POL": "$zealotry_intent_header$ podatna na wpływy młodzież",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We've already seen many a strange faith on our journey to the holy land, and as we pass through [ROOT.Char.GetCurrentLocation.GetName], I spot a group of children roughhousing on the roadside.\\n\\nThey all immediately stop to stare at us with wonder in their eyes, as if we were mere curiosities. Have they never seen [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] pilgrims before? One child in particular appears to be of noble bearing! Perhaps the child would enjoy some stories from the [ROOT.Char.GetFaith.ReligiousText].",
+    "RUS": "На своем пути в святые места мы уже видели немало странных верований. Кругом [ROOT.Char.GetCurrentLocation.GetName], и мы замечаем группку детей, играющих на обочине.\\n\\nДети сразу же прекращают игру и смотрят на нас с любопытством, как на какую-то диковину. Неужто [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] для них в новинку? Один ребенок явно из благородной семьи. Возможно, [ROOT.Char.GetFaith.ReligiousText] впечатлит его?",
+    "POL": "Podczas naszej podróży do ziemi świętej moja świta natykała się już na wiele dziwnych wierzeń. Teraz, kiedy przejeżdżamy przez miejsce o nazwie [ROOT.Char.GetCurrentLocation.GetName], zauważam grupę dzieci bawiących się na poboczu drogi.\\n\\nWszystkie one natychmiast zamierają w bezruchu i patrzą na nas ze zdziwieniem w oczach, jakbyśmy byli zwykłymi dziwadłami. Czy nigdy wcześniej nie widziały, jak pielgrzymują [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]? Jedno dziecko w szczególności wydaje się mieć szlacheckie pochodzenie! Być może spodobałoby mu się opowieści z księgi o nazwie [ROOT.Char.GetFaith.ReligiousText].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я научу тебя».",
+    "POL": "– Wszystkiego was nauczę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.a.conversion_succesful.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.b.joined.t$",
+    "RUS": "$pilgrimage_intent.1000.b.joined.t$",
+    "POL": "$pilgrimage_intent.1000.b.joined.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.a.conversion_succesful.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You convert the child",
+    "RUS": "Вы обращаете ребенка в свою веру",
+    "POL": "Nawracasz dziecko",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.a.conversion_failed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "RUS": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "POL": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.a.conversion_failed.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You fail to convert the child",
+    "RUS": "Вам не удается обратить ребенка в свою веру",
+    "POL": "Nie udaje ci nawrócić dziecka",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Let's press on.",
+    "RUS": "Идем дальше.",
+    "POL": "Ruszajmy w dalszą drogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ Passing Travelers",
+    "RUS": "$zealotry_intent_header$ Проходящие мимо путники",
+    "POL": "$zealotry_intent_header$ przejeżdżający podróżni",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We continue our journey through [ROOT.Char.GetCurrentLocation.GetName], our feet growing sore and weary.\\n\\nWe spy a noble from the local court just up ahead and [convertable_courtier.GetSheHe] rides up to meet our group.\\n\\n",
+    "RUS": "Мы продолжаем свой путь. Кругом [ROOT.Char.GetCurrentLocation.GetName]. Мы устали, наши ноги болят.\\n\\nВпереди мы замечаем [Select_CString(convertable_courtier.IsFemale, 'придворную аристократку', 'придворного аристократа' )]. [Select_CString(convertable_courtier.IsFemale, 'она', 'он' )] подъезжает к нам.\\n\\n«Мне кажется, ты [Select_CString(ROOT.Char.IsFemale, 'заблудилась', 'заблудился' )]. Это же [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], что здесь может делать [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]?»",
+    "POL": "Kontynuujemy naszą podróż przez miejsce o nazwie [ROOT.Char.GetCurrentLocation.GetName], a nasze stopy stają się coraz bardziej obolałe i zmęczone.\\n\\nTuż przed nami dostrzegamy szlachcica z dworu położonego nieopodal. Wyjeżdża naszej grupie na spotkanie.\\n\\n– Wygląda na to, że się zgubiliście przyjaciele. Co skromni [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] robią w miejscu o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Мы идем в святые места. Присоединяйся к нам».",
+    "POL": "– Jesteśmy w świętej podróży. Dołącz do nas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.a.conversion_succesful.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "RUS": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "POL": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.a.conversion_succesful.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You convert [convertable_courtier.GetHerHim]",
+    "RUS": "Вы обращаете [Select_CString(convertable_courtier.IsFemale, 'ее', 'его' )] в свою веру",
+    "POL": "Udaje ci się [convertable_courtier.Custom('PL_go_ja')] nawrócić",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.a.conversion_failed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "RUS": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "POL": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.a.conversion_failed.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You fail to convert [convertable_courtier.GetHerHim]",
+    "RUS": "Вы не смогли обратить [Select_CString(convertable_courtier.IsFemale, 'ее', 'его' )] в свою веру.",
+    "POL": "Nie udaje ci się [convertable_courtier.Custom('PL_go_jej')] nawrócić",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Тебя это не касается!»",
+    "POL": "– To nie twoja sprawa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ Unfamiliar Pilgrims",
+    "RUS": "$zealotry_intent_header$ Незнакомые паломники",
+    "POL": "$zealotry_intent_header$ nieznani pielgrzymi",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We have encountered many [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] pilgrims on our route thus far, and all have been pious and devoted to [ROOT.Char.GetFaith.HighGodNamePossessive|U] will.\\n\\nHowever, we soon come into the company of a group of strange travelers from distant lands. They introduce themselves as [pilgrim_character.GetFaith.GetAdherentNamePlural], and tell us that this route is sacred to their people too.",
+    "RUS": "Нам в пути повстречалось много паломников [ROOT.Char.GetFaith.GetNameNoTooltip]ой веры, все они были набожны, и [ROOT.Char.GetFaith.HighGodName|U] для них важнее всего.\\n\\nВскоре, однако, мы наткнулись на группу странных путников из далеких земель. Они представились, как [pilgrim_character.GetFaith.GetAdherentNamePlural|l], и сказали, что этот путь священен и для них.",
+    "POL": "Do tej pory spotkaliśmy już na naszej trasie wielu pielgrzymów, którymi byli [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip], i wszyscy oni byli pobożni i oddani woli [ROOT.Char.GetFaith.HighGodNamePossessive].\\n\\nWkrótce jednak znaleźliśmy się w towarzystwie grupy dziwnych podróżników z odległych krain. Przedstawiają się jako [pilgrim_character.GetFaith.GetAdherentNamePlural] i mówią nam, że ta trasa jest święta również dla ich ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Лишь [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l] могут идти по этому пути».",
+    "POL": "– Tylko [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] może odbywać tę podróż.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.a.conversion_succesful.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "RUS": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "POL": "$pilgrimage_intent.1000.a.conversion_succesful.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.a.conversion_succesful.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You convert the pilgrims",
+    "RUS": "Вы обращаете паломников в свою веру",
+    "POL": "Nawracasz pielgrzymów",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.a.conversion_failed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "RUS": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "POL": "$pilgrimage_intent.1000.a.conversion_failed.t$",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.a.conversion_failed.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You fail to convert the pilgrims",
+    "RUS": "Вам не удается обратить паломников в свою веру",
+    "POL": "Nie udaje ci nawrócić pielgrzymów",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Расскажите, что для вас значит [pilgrim_character.GetFaith.HighGodName|U]».",
+    "POL": "– Powiedzcie mi, jak czcicie [pilgrim_character.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1020.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We are so alike, they should come with us!",
+    "RUS": "Мы с ними похожи. Пусть они пойдут с нами!",
+    "POL": "Mamy ze sobą tyle wspólnego, że powinni pojechać z nami!",
+    "BEL": ""
+  },
+  {
+    "KEY": "cheaper_to_convert_to_pilgrim_faith_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You gain a #P 50%#! discount for converting to [THIS.Char.GetFaith.GetName]",
+    "RUS": "Вы получите #P 50%#! скидку на обращение в [THIS.Char.GetFaith.GetAdjective|l]",
+    "POL": "Zyskujesz #P 50%#! zniżki za przejście na wiarę, którą jest [THIS.Char.GetFaith.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1030.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ A Calm Clearing",
+    "RUS": "$reflections_intent_header$ Спокойная поляна",
+    "POL": "$reflections_intent_header$ spokojna polana",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1030.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Here in the quietness of the [ROOT.Char.GetCurrentLocation.GetName] roadside, I feel an overwhelming sense of peace and tranquility wash over me, like none I've experienced before.\\n\\nJust beyond a small ridge, I see a clearing off the side of the path where neither man nor beast seems to have entered in decades. I can feel [ROOT.Char.GetFaith.HighGodNamePossessive|U] presence here, and perhaps I ought to linger here in quiet contemplation for a while.",
+    "RUS": "Вокруг меня [ROOT.Char.GetCurrentLocation.GetName], и здесь, на обочине тихой тропы, я чувствую такой мир и спокойствие, каких не чувствовал никогда раньше.\\n\\nЗа небольшим перевалом показалась полянка, куда словно бы десятилетия не ступала ничья нога. Я чувствую здесь присутствие [ROOT.Char.GetFaith.HighGodNamePossessive|U]. Возможно, стоит задержаться на этой полянке для размышлений и созерцания.",
+    "POL": "Tutaj, w ciszy przydroży miejsca o nazwie [ROOT.Char.GetCurrentLocation.GetName], czuję przytłaczające poczucie spokoju i ukojenia, jakiego nigdy wcześniej nie było mi dane doświadczyć.\\n\\nTuż za niewielkim wzniesieniem widzę polanę z boku ścieżki, na którą od dziesięcioleci nie zapuszczał się nikt – ani człowiek, ani zwierzę. Czuję tu obecność [ROOT.Char.GetFaith.HighGodNamePossessive] i być może pozostanę tu przez chwilę, aby pokontemplować w ciszy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1030.desc_sea",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Out here at sea, when the weather is calm and not a ship is to be seen on the horizon, the peace and quiet is overwhelming. [ROOT.Char.GetFaith.HighGodNamePossessive|U] presence is particularly strong here, and it fills me to the brim.\\n\\nPerhaps we should seize the opportunity for quiet contemplation by lingering in this bay just a while longer?",
+    "RUS": "Здесь, в море, когда стоит спокойная погода, а на горизонте не видно и полоски суши, тебя охватывают тишина и покой. Присутствие [ROOT.Char.GetFaith.HighGodNamePossessive|U] особенно сильно ощущается здесь, и оно переполняет меня.\\n\\nВозможно, мы должны воспользоваться случаем задержаться здесь подольше, чтобы спокойно предаваться размышлениям?",
+    "POL": "Tutaj, na morzu, przy sprzyjającej pogodzie i gdy na horyzoncie nie widać żadnego statku, cisza i spokój są przytłaczające. Obecność [ROOT.Char.GetFaith.HighGodNamePossessive] jest tutaj szczególnie silna i wypełnia mnie po brzegi.\\n\\nByć może powinniśmy skorzystać z okazji do cichej kontemplacji, pozostając w tej zatoce jeszcze przez chwilę?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1030.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "This is [ROOT.Char.GetFaith.HighGodNamePossessive|U] will.",
+    "RUS": "Этого хочет [ROOT.Char.GetFaith.HighGodName|U].",
+    "POL": "Taka jest wola [ROOT.Char.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1030.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We mustn't delay!",
+    "RUS": "Задерживаться нельзя!",
+    "POL": "Nie możemy zwlekać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ A Beastly Omen",
+    "RUS": "$reflections_intent_header$ Вещий зверь",
+    "POL": "$reflections_intent_header$ diabelski omen",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "As we make our way down this holy road we travel, we are suddenly made to stop as a beast steps out right into the middle of our path.\\n\\n",
+    "RUS": "Мы идем по священному пути, но вдруг нам приходится остановиться — перед нами на дорогу выходит зверь.",
+    "POL": "Gdy podążamy tą świętą drogą, nagle zostajemy zmuszeni do zatrzymania się, gdy na sam środek naszej ścieżki wychodzi bestia.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.desc.mid.pred",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "A mighty [ROOT.Char.Custom('GetAnimalType')] stands between me and the holy land.",
+    "RUS": "Это [ROOT.Char.Custom('GetAnimalType')|l]. Могучий зверь стоит между мной и святой землей.",
+    "POL": "Między mną a ziemią świętą stoi [ROOT.Char.Custom('GetAnimalType')] o potężnej posturze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.desc.mid.prey",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "A humble [ROOT.Char.Custom('GetAnimalType')] stares at our holy caravan.",
+    "RUS": "Это [ROOT.Char.Custom('GetAnimalType')|l]. Пугливый зверь внимательно смотрит на нашу процессию.",
+    "POL": "[ROOT.Char.Custom('GetAnimalType')|U] o pokornym spojrzeniu wpatruje się w naszą świętą karawanę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nThere is something of a knowing look on the beast's face. As if the mind of a wise old [ROOT.Char.GetWomanMan] resides behind those feral eyes. [ROOT.Char.GetSheHe|U] blinks and then carries on [ROOT.Char.GetHerHis] way.",
+    "RUS": "\\n\\nЗверь смотрит на нас удивительно понимающим взглядом, словно за глазами животного скрыт разум [Select_CString(ROOT.Char.IsFemale, 'мудрой старой женщины', 'мудрого старика' )]. Затем он, моргнув, уходит своей дорогой.",
+    "POL": "\\n\\nNa twarzy bestii maluje się coś w rodzaju świadomego spojrzenia, zupełnie jakby za tymi zdziczałymi oczami krył się umysł starego, mądrego człowieka. Mruga i idzie dalej swoją drogą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "That [ROOT.Char.Custom('GetAnimalType')] is a messenger from [ROOT.Char.GetFaith.HighGodName]! Follow [ROOT.Char.GetHerHim]!",
+    "RUS": "[ROOT.Char.Custom('GetAnimalType')|U] — знак, что посылает мне [ROOT.Char.GetFaith.HighGodName]! За [Select_CString(ROOT.Char.IsFemale, 'ней', 'ним' )]!",
+    "POL": "[ROOT.Char.Custom('GetAnimalType')|U] na naszej drodze to posłaniec [ROOT.Char.GetFaith.HighGodNamePossessive]! Podążajmy za nim!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.you_lose_the_animal.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Animal Lost",
+    "RUS": "Зверь потерян",
+    "POL": "Zwierzę uciekło",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.you_lose_the_animal.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You lost the [ROOT.Char.Custom('GetAnimalType')]",
+    "RUS": "[ROOT.Char.Custom('GetAnimalType')|U] скрывается из виду.",
+    "POL": "Gubisz trop, a [ROOT.Char.Custom('GetAnimalType')] ci ucieka",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1040.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We can't be distracted.",
+    "RUS": "Нельзя отвлекаться.",
+    "POL": "Nie możemy się rozpraszać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Omen: a Successful Hunt",
+    "RUS": "Вещий зверь: удачная охота",
+    "POL": "Omen: udane polowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I diligently follow the [ROOT.Char.Custom('GetAnimalType')], being careful that [ROOT.Char.GetSheHe] does not notice me.\\n\\nEventually, [ROOT.Char.GetSheHe] meets [ROOT.Char.GetHerHis] prey: a small bird.",
+    "RUS": "Я прилежно следую за зверем, делая все, чтобы [ROOT.Char.Custom('GetAnimalType')] не [Select_CString(ROOT.Char.IsFemale, 'заметила', 'заметил' )] меня. В итоге зверь обнаруживает добычу — маленькую птичку.",
+    "POL": "Bacznie podążam za zwierzęciem, uważając, by mnie nie zauważyło.\\n\\nW końcu spotyka swoją zdobycz: małego ptaka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.desc.mid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "The [ROOT.Char.Custom('GetAnimalType')] makes [ROOT.Char.GetHerHis] move, and as the bird feebly attempts to escape, it is quickly torn into feathers and gore.",
+    "RUS": "[ROOT.Char.Custom('GetAnimalType')|U] атакует и молниеносно разрывает птичку на части, превращая в облачко перьев.",
+    "POL": "[ROOT.Char.Custom('GetAnimalType')|U] robi ruch, a gdy ptak podejmuje anemiczną próbę ucieczki, szybko zostaje rozerwany na strzępy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nWhat could [ROOT.Char.GetFaith.HighGodName|U] have meant by that?",
+    "RUS": "\\n\\nЧто мне хочет сказать этим [ROOT.Char.GetFaith.HighGodName|U]?",
+    "POL": "\\n\\nJaki był w tym wszystkim cel [ROOT.Char.GetFaith.HighGodNamePossessive]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "My wars will be successful!",
+    "RUS": "Я преуспею в войнах!",
+    "POL": "Moje wojny zakończą się sukcesem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1041.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "My enemies will fall when I pounce!",
+    "RUS": "Мои враги падут предо мной!",
+    "POL": "Moi wrogowie ulegną, gdy ich dopadnę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1042.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Omen: a Failed Hunt",
+    "RUS": "Вещий зверь: неудачная охота",
+    "POL": "Omen: nieudane polowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1042.desc.mid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "The [ROOT.Char.Custom('GetAnimalType')] waits and waits for [ROOT.Char.GetHerHis] opening, and eventually attacks the bird only for it to slip away and flutter off into the open sky.",
+    "RUS": "[ROOT.Char.Custom('GetAnimalType')|U] выжидает удачного момента и бросается на птицу, но та ускользает и улетает.",
+    "POL": "[ROOT.Char.Custom('GetAnimalType')|U] czeka i czeka na dogodny moment, aż w końcu atakuje ptaka tylko po to, by ten uciekł i wzbił się w przestworza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1042.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I am the [ROOT.Char.Custom('GetAnimalType')], and my enemies will best me.",
+    "RUS": "Я [ROOT.Char.Custom('GetAnimalType')|l], и мои враги одолеют меня.",
+    "POL": "Jam jest [ROOT.Char.Custom('GetAnimalType')] i nie mogę równać się ze swoimi wrogami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1042.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I am the bird, and I will escape an ill fate!",
+    "RUS": "Я птица, и я избегну дурной судьбы!",
+    "POL": "Jestem ptakiem i uniknę okrutnego losu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Omen: a Happy Family",
+    "RUS": "Вещий зверь: счастливая семья",
+    "POL": "Omen: szczęśliwa rodzina",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I follow the [ROOT.Char.Custom('GetAnimalType')], staying far behind to not startle [ROOT.Char.GetHerHim]. Eventually, [ROOT.Char.GetSheHe] meets another [ROOT.Char.Custom('GetAnimalType')] in the clearing, [ROOT.Char.GetHerHis] mate perhaps?\\n\\n",
+    "RUS": "[ROOT.Char.Custom('GetAnimalType')|U] уходит все дальше, и я следую за животным, стараясь не спугнуть. Вскоре на просеке к объекту моей слежки присоединяется другое животное. Вероятно, они — пара?\\n\\n",
+    "POL": "Podążam za zwierzęciem, pozostając daleko w tyle, aby go nie wystraszyć. W końcu [ROOT.Char.Custom('GetAnimalType')] spotyka innego przedstawiciela swojego gatunku na polanie. Być może to partner zwierza?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.desc.mid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "The two butt heads a little, but soon nuzzle each other and then promptly disappear into the wilderness together.",
+    "RUS": "Два зверя слегка бодаются лбами, затем начинают обнюхивать друг друга и вместе исчезают в зарослях.",
+    "POL": "Ta dwójka tryka się głowami, ale wkrótce tuli się do siebie i szybko znika razem w dziczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I will soon have a child!",
+    "RUS": "У меня скоро будет ребенок!",
+    "POL": "Wkrótce będę mieć dziecko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I must make friends of my enemies.",
+    "RUS": "Я обращу своих врагов в друзей.",
+    "POL": "Muszę sprawić, aby moi wrogowie stali się moimi przyjaciółmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1043.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I should put my family first.",
+    "RUS": "Нужно ставить на первое место семью.",
+    "POL": "Muszę stawiać rodzinę na pierwszym miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1044.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Omen: a Grizzly Sight",
+    "RUS": "Вещий зверь: мрачное зрелище",
+    "POL": "Omen: widok grizzly",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1044.desc.mid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "The two approach each other, but before they can meet, a blurry shadowy figure leaps out from nowhere and reduces the poor thing to a bloody smear right in front of its fellow's eyes.",
+    "RUS": "Два зверя приближаются друг к другу, но прежде чем они успевают встретиться, из ниоткуда выпрыгивает темная фигура и разрывает животное в кровавые клочья прямо на глазах у партнера.",
+    "POL": "Ta dwójka zbliża się do siebie, ale zanim zdążą się spotkać, znienacka wyskakuje niewyraźna, podejrzana postać, która zamienia biedaczysko w krwawą plamę na oczach jego partnera.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1044.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Something is coming for me!",
+    "RUS": "Меня подстерегает опасность!",
+    "POL": "Coś się do mnie zbliża!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1044.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I will destroy my enemies without being noticed!",
+    "RUS": "Я уничтожу своих врагов так, что они и не заметят!",
+    "POL": "Zniszczę moich wrogów, pozostając w ukryciu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "you_follow_the_animal_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You follow the animal deeper...",
+    "RUS": "Вы следуете за животным дальше...",
+    "POL": "Podążasz za zwierzęciem w głąb…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ An Earthly Contemplation",
+    "RUS": "$reflections_intent_header$ Мирские размышления",
+    "POL": "$reflections_intent_header$ przyziemne kontemplacje",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Along the path to the holy land, I've met with all kinds of pilgrims both young and old. It's as if I'm witnessing a tapestry of my own life play out before me.\\n\\n",
+    "RUS": "По пути в святую землю мне попадались самые разные паломники, как юные, так и старые. Передо мной словно встают картины из моей собственной жизни.\\n\\n",
+    "POL": "Na drodze do ziemi świętej dane mi było spotkać różnego rodzaju pielgrzymów, zarówno młodych, jak i starszych. To tak, jakby na własne oczy oglądać sceny z gobelinu ilustrującego własne życie.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.desc.mid.old",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Silver hair and wrinkled skin always seemed so distant, until they came to me. I can't help but feel that this pilgrimage may be my last, before I take the ultimate journey to [ROOT.Char.GetFaith.PositiveAfterLife|U].",
+    "RUS": "Седые волосы, морщинистая кожа — все это казалось таким далеким, пока не пришло лично ко мне. Я не могу удержаться от чувства, что это паломничество может стать для меня последним, а потом — [ROOT.Char.GetFaith.PositiveAfterLife|U].",
+    "POL": "Siwe włosy i zmarszczki na skórze zawsze wydawały się bardzo odległe, dopóki nie nawiedziły i mnie. Nie mogę oprzeć się wrażeniu, że ta pielgrzymka może być moją ostatnią, zanim wyruszę w ostateczną podróż do krainy znanej jako [ROOT.Char.GetFaith.PositiveAfterLife|U].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.desc.mid.young_and_dying",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "In my ill-health, my life is likely to not be as long as most. Seeing the smiling faces of those fortunate enough to be withered by age, I cannot help but feel envious of their long lives.",
+    "RUS": "Здоровье у меня слабое, и жизнь моя вряд ли будет долгой. Видя улыбки тех, кому посчастливилось дожить до старости, я не могу удержаться от зависти.",
+    "POL": "Biorąc pod uwagę mój zły stan zdrowia, moje życie prawdopodobnie nie będzie tak długie jak większości osób. Widząc uśmiechnięte twarze tych, którzy mają to szczęście, że nie uschli z wiekiem, nie mogę przestać zazdrościć im długiego życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.desc.mid.young",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I still have much life left to live, and yet it all seems so short when faced with the concept of eternity.",
+    "RUS": "Мне предстоит еще немало пожить, но что все эти годы в сравнении с вечностью?",
+    "POL": "Pozostało mi jeszcze wiele życia, a jednak wszystko to wydaje się takie krótkie w obliczu pojęcia wieczności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps I ought to stop a while and contemplate life's brevity.",
+    "RUS": "\\n\\nВозможно, мне стоит остановиться и обдумать скоротечность жизни.",
+    "POL": "\\n\\nByć może to najwyższy czas, by zatrzymać się na chwilę i pokontemplować ulotność życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I will make the most of my time.",
+    "RUS": "Я возьму от оставшейся жизни все.",
+    "POL": "Wykorzystam swój czas jak najlepiej jak tylko mogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I still have so much life to live!",
+    "RUS": "У меня еще так много всего впереди!",
+    "POL": "Mam przed sobą jeszcze wiele lat życia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1050.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "These ideas make my heart ache.",
+    "RUS": "От этих идей у меня болит сердце.",
+    "POL": "Od tych myśli rozbolało mnie serce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ The Empires of Yesteryear",
+    "RUS": "$reflections_intent_header$ Империи минувших лет",
+    "POL": "$reflections_intent_header$ imperium zamierzchłych czasów",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Wandering this path, I have encountered many reminders of those who came before me.\\n\\nHere in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip],",
+    "RUS": "На этом пути мне часто попадались напоминания о тех, кто был здесь до меня.\\n\\nКругом [ROOT.Char.GetCurrentLocation.GetNameNoTooltip],",
+    "POL": "Wędrując tą ścieżką, dane mi było widzieć wiele pamiątek po tych, którzy byli przede mną.\\n\\nTutaj, w miejscu o nazwie [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.rome",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I have come across the crumbling remains of a shrine to the ancient Roman pantheon. [GetFaithByKey('hellenic_pagan').FertilityGodName|U] in all [GetFaithByKey('hellenic_pagan').FertilityGodHerHis] beauty smiles at me with a half-cracked mouth, and [GetFaithByKey('hellenic_pagan').HighGodNamePossessive] face has been eroded almost beyond recognition.",
+    "RUS": "и мне встретились останки святилища древнеримского пантеона. [GetFaithByKey('hellenic_pagan').FertilityGodName|U] во всей свое красоте улыбается мне надтреснутым ртом, а лицо [GetFaithByKey('hellenic_pagan').HighGodNamePossessive] разъедено почти до неузнаваемости.",
+    "POL": "znajdują się rozpadające się pozostałości świątyni starożytnego rzymskiego panteonu. [GetFaithByKey('hellenic_pagan').FertilityGodName] w całej swojej urodzie uśmiecha się do mnie na wpół popękanymi ustami, a twarz [GetFaithByKey('hellenic_pagan').HighGodNamePossessive] została zniszczona niemal nie do poznania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.israel",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I have seen countless reminders of the ancient Hebrews who once journeyed here as their promised land. The ancient temples which once stood as places of worship to [GetFaithByKey('rabbinism').HighGodName|U] have now been left to decay as the Hebrews were driven once again into exodus.",
+    "RUS": "и мне встретились бесчисленные напоминания о древних евреях, что некогда шли сюда в свою землю обетованную. Древние храмы, в которых некогда почитался [GetFaithByKey('rabbinism').HighGodName|U], теперь ветшают в запустении — евреи опять в изгнании.",
+    "POL": "można natknąć się na niezliczone dowody obecności starożytnych Hebrajczyków, którzy niegdyś podróżowali tutaj, jako że tu była ich ziemia obiecana. Starożytne świątynie, które kiedyś były miejscami kultu [GetFaithByKey('rabbinism').HighGodNamePossessive], teraz niszczeją, ponieważ Hebrajczycy zostali ponownie zmuszeni do opuszczenia tych ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.egypt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I see the towering monuments of the ancient pharaohs. They spent entire lifetimes crafting these gargantuan tributes to their Gods made from alabaster and gold, only for them now to grow dusty with sand and brittle with age.",
+    "RUS": "и мне попадаются монументы фараонов древности. Всю свою жизнь они возводили эти гигантские статуи своим богам из гипса и золота, лишь для того, чтобы теперь эти изваяния ветшали и осыпались от старости.",
+    "POL": "widzę wysokie grobowce starożytnych faraonów. Spędzili oni całe życie na tworzeniu tych gigantycznych alabastrowych i złotych pomników dla swoich bogów tylko po to, by teraz ginęły pod grupą grubą warstwą piasku i kruszały ze starości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.persia",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I keep finding reminders of the ancient Sassanids, Parthinians, and Seleucids. Countless empires have come and gone here in Persia, and yet Persia itself remains. Old Zoroastrian temples remain in disrepair across the whole nation, and perhaps one day even our holy cities will crumble into dust.",
+    "RUS": "и мне попадаются осколки древних цивилизаций сасанидов, парфян и селевкидов. Бесчисленное множество империй зарождалось и умирало здесь, в Персии, сама же Персия осталась. По всей стране приходят в запустение зороастрийские храмы, и, быть может, однажды даже наши священные города обратятся в пыль.",
+    "POL": "wciąż znajduję pamiątki po starożytnych Sasanidach, Partach i Seleucydach. Niezliczone imperia pojawiały się i znikały w Persji, a jednak sama Persja pozostaje. W całym kraju stare świątynie zoroastryjskie popadają w ruinę, a być może pewnego dnia nawet nasze święte miasta obrócą się w pył.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.ashokas_pillars",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I find yet another of Ashoka's pillars, built so long ago. Each one is inscribed with edicts issued by Emperor Ashoka centuries ago. These Dharmic monuments are now all over the lands which once made up the Mauryan Empire, but the Empire itself is but dust.",
+    "RUS": "и я нахожу еще одну из колонн Ашоки, воздвигнутых в давние времена. Все они исписаны эдиктами, что много сотен лет назад издал император Ашока. Эти дхармические монументы расставлены по всей территории империи Маурьев, сама же империя рассыпалась в прах.",
+    "POL": "Odnajduję kolejny ze zbudowanych dawno temu filarów Aśoki – na każdym z nich wyryte są edykty wydane przez cesarza Aśokę wieki temu. Te dharmiczne pomniki znajdują się teraz na ziemiach, które niegdyś tworzyły Imperium Maurjów, choć po samym imperium już nie ma śladu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.kush",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I see reminders of the many empires which have risen and fell here along the Nile. The pyramids of the Kush, Aksumite temples, one can hardly travel anywhere without laying eyes upon a crumbling monument of the past.",
+    "RUS": "и я вижу остатки многих империй, появлявшихся и исчезавших здесь, вдоль Нила. Пирамиды царства Куш, аксумские храмы — куда ни кинь взгляд, всюду здесь обломки прошлого.",
+    "POL": "Widzę pozostałości po niezliczonych imperiach, które powstawały i upadły wzdłuż Nilu. Piramidy królestwa Kusz, świątynie Aksumitów. Gdy jest się w podróży, gdzie by nie spojrzeć, wszędzie trafia się na niszczejące pomniki przeszłości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.mid.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I see reminders of those who inhabited this land long before us. Old temples, broken weapons, random fractures of objects beyond recognition. Time claims us all, and the deities we worship and the way in which we worship them is always in flux.",
+    "RUS": "и я вижу, что осталось от тех, кто населял эту землю задолго до нас. Старые храмы, сломанное оружие, осколки каких-то уже неузнаваемых предметов. Время побеждает все. И наши божества, и то, как мы им поклоняемся, — все это постоянно меняется.",
+    "POL": "Widzę pamiątki po tych, którzy zamieszkiwali te ziemie na długo przed nami. Stare świątynie, zniszczona broń, przypadkowe odłamki przedmiotów nie do poznania. Czas rządzi nami wszystkimi, a bóstwa, które czcimy i sposób, w jaki to robimy, ciągle się zmieniają.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nPerhaps one day, some other [ROOT.Char.GetWomanMan] will wander this path and contemplate the fallen [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] and the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith practiced by its [ROOT.Char.GetTitleAsNameNoTooltip|U].",
+    "RUS": "\\n\\nВозможно, однажды кто-нибудь другой пройдет этим путем и будет размышлять: вот когда-то здесь простиралась держава [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] и процветало [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l].",
+    "POL": "\\n\\nByć może pewnego dnia jakiś inny człowiek będzie wędrował tą ścieżką, a przedmiotem jego kontemplacji będzie nieistniejące już wtedy miejsce o nazwie [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] i praktykowana przez jego władcę wiara [ROOT.Char.GetFaith.GetAdjectiveNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I should contemplate old empires.",
+    "RUS": "Я буду размышлять о старых империях.",
+    "POL": "Muszę oddawać się kontemplacji starych imperiów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I should contemplate ancient faiths.",
+    "RUS": "Я буду размышлять о древних религиях.",
+    "POL": "Muszę oddawać się kontemplacji wiar starożytnego świata.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1060.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Nonsense, [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] will last forever!",
+    "RUS": "Ерунда! [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] будет существовать вечно!",
+    "POL": "Nonsens, miejsce tak chwalebne, jak [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], będzie istnieć po wsze czasy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.drive_to_succeed.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Driven to Succeed",
+    "RUS": "Стремление к успеху",
+    "POL": "Motywacja w drodze do sukcesu",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.existential_dread.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Existential Dread",
+    "RUS": "Экзистенциальный ужас",
+    "POL": "Lęk egzystencjalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.existential_dread.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You are filled with existential dread",
+    "RUS": "Вы полны экзистенциального ужаса",
+    "POL": "Przepełnia cię lęk egzystencjalny",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.drive_to_survive.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Driven to Survive",
+    "RUS": "Стремление к успеху",
+    "POL": "Wola przetrwania",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.drive_to_survive.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You are driven to survive",
+    "RUS": "Вы стремитесь к успеху",
+    "POL": "Masz w sobie wolę przetrwania",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.imperial_contemplation.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Imperial Contemplation",
+    "RUS": "Размышления об империях",
+    "POL": "Refleksje o imperiach",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.imperial_contemplation.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You contemplate the brevity of Empires",
+    "RUS": "Вы размышляете о бренности империй",
+    "POL": "Kontemplujesz ulotność imperiów",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.godly_meditation.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Godly Meditation",
+    "RUS": "Размышления о боге",
+    "POL": "Medytacje o boskości",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.godly_meditation.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You contemplate the nature of the divine",
+    "RUS": "Вы размышляете о божественной природе",
+    "POL": "Kontemplujesz naturę boskości",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.failed_contemplation.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Failed Contemplation",
+    "RUS": "Бесплодное размышление",
+    "POL": "Kontemplacja zakończona niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage.failed_contemplation.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "You make no progress",
+    "RUS": "Ваши размышления не дали результатов",
+    "POL": "Nie robisz żadnych postępów",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1100.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ Starry Skies",
+    "RUS": "$reflections_intent_header$ Звездное небо",
+    "POL": "$reflections_intent_header$ gwieździste niebo",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1100.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Out here, late at night, I sometimes look to the stars and wonder. What is our purpose in life?\\n\\nCan [ROOT.Char.GetFaith.PantheonTerm] even see me, this far from home? What am I doing all this for?",
+    "RUS": "Глубокой ночью, вдали от всего, я иногда размышляю, глядя на звезды. В чем смысл жизни?\\n\\nВидят ли меня [ROOT.Char.GetFaith.PantheonTerm], когда я так далеко от дома? Зачем я все это делаю?",
+    "POL": "Tutaj, późno w nocy, spoglądam czasem w gwiazdy i rozmyślam. Jaki jest nasz cel w życiu?\\n\\nCzy [ROOT.Char.GetFaith.PantheonTerm] w ogóle mnie widzą tak daleko od domu? Po co to wszystko robię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1100.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "It is my sacred duty, of course!",
+    "RUS": "Конечно же, это мой священный долг!",
+    "POL": "To oczywiście mój święty obowiązek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1100.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "What I truly want is to enjoy and experience other cultures.",
+    "RUS": "Чего я по-настоящему хочу, так это познать и изучить другие культуры.",
+    "POL": "To, czego naprawdę pragnę, to czerpać radość z obcowania z innymi kulturami i doświadczać ich.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1100.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I do no more than what is required in my position.",
+    "RUS": "Я не делаю ничего сверх того, что требуется на моем посту.",
+    "POL": "Nie robię nic ponad to, co jest konieczne dla osoby na moim stanowisku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Sea Legs",
+    "RUS": "Привычка к морю",
+    "POL": "Jak ryba w wodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.t_altruism",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$altruism_intent_header$ $pilgrimage_intent.1110.t$",
+    "RUS": "$altruism_intent_header$ $pilgrimage_intent.1110.t$",
+    "POL": "$altruism_intent_header$ jak ryba w wodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.t_reflection",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$reflections_intent_header$ $pilgrimage_intent.1110.t$",
+    "RUS": "$reflections_intent_header$ $pilgrimage_intent.1110.t$",
+    "POL": "$reflections_intent_header$ jak ryba w wodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.t_zealot",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ $pilgrimage_intent.1110.t$",
+    "RUS": "$zealotry_intent_header$ $pilgrimage_intent.1110.t$",
+    "POL": "$zealotry_intent_header$ jak ryba w wodzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Walking around the ship on our journey to [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], I spot a fellow pilgrim who does not seem to be doing very well. Clearly [affected_pilgrim.GetHerHis] sea legs were never instilled.\\n\\n[affected_pilgrim.GetSheHe|U] whimpers softly, squatted by the railing, and holds on to it for dear life with a face that shifts in pale nuances.",
+    "RUS": "Прогуливаясь по кораблю во время путешествия к владению [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], я замечаю другого паломника, которому, похоже, нездоровится. Очевидно, [Select_CString(affected_pilgrim.IsFemale, 'ее', 'его' )] мучает морская болезнь.\\n\\n[Select_CString(affected_pilgrim.IsFemale, 'Она', 'Он' )] тихонько стонет, присев у борта и вцепившись в него изо всех сил, а лицо — сплошь оттенки серого.",
+    "POL": "Spacerując po statku podczas naszej podróży do miejsca o nazwie [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], zauważam innego pielgrzyma, który nie wydaje się radzić sobie zbyt dobrze. Najwyraźniej umiejętność chodzenia po kołyszącym się statku nigdy nie została [affected_pilgrim.Custom('PL_mu_jej')] wpojona.\\n\\nJęczy cicho, kucając przy barierce, której trzyma się kurczowo z coraz bledszym wyrazem twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.desc.outro_altruism",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nI should try to comfort [affected_pilgrim.GetHerHim] somehow. Maybe I should offer [affected_pilgrim.GetHerHim] some of my water?",
+    "RUS": "\\n\\nНужно попытаться помочь [Select_CString(affected_pilgrim.IsFemale, 'ей', 'ему' )]. Может быть, поделиться водой?",
+    "POL": "\\n\\nWypada spróbować jakoś [affected_pilgrim.Custom('PL_go_ja')] pocieszyć. Może zaoferować [affected_pilgrim.Custom('PL_mu_jej')] mojej wody?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.desc.outro_reflection",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nI can only sympathize with [affected_pilgrim.GetHerHim]. Why #EMP do#! we put ourselves through these, sometimes life-threatening, perils?",
+    "RUS": "\\n\\nОстается только посочувствовать [Select_CString(affected_pilgrim.IsFemale, 'ей', 'ему' )]. #EMP Зачем#! мы подвергаем себя этим смертельным опасностям?",
+    "POL": "\\n\\nMogę tylko [affected_pilgrim.Custom('PL_mu_jej')] współczuć. Dlaczego #EMP narażamy#! się na te, czasami zagrażające życiu, niebezpieczeństwa?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.desc.outro_zealot",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "\\n\\nI am sure [ROOT.Char.GetFaith.PantheonTerm] will assist us. Maybe we should do some prayers to expedite the process?",
+    "RUS": "\\n\\n[ROOT.Char.GetFaith.PantheonTerm|U] с нами, мы не беспомощны. Возможно, молитвы могут ускорить наше путешествие?",
+    "POL": "\\n\\nNie mam wątpliwości, że [ROOT.Char.GetFaith.PantheonTerm] nam pomogą. Może powinniśmy się pomodlić, aby przyspieszyć ten proces?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Everything will be alright, just hold on.",
+    "RUS": "Все будет хорошо, просто держитесь.",
+    "POL": "Wszystko będzie dobrze, tylko się trzymaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Trials and tribulations #EMP are#! par for the course...",
+    "RUS": "Трудности и испытания — #EMP неотъемлемая#! часть пути...",
+    "POL": "Próby i cierpienia #EMP są#! normą…",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Let us pray for your recovery.",
+    "RUS": "Нужно помолиться об исцелении.",
+    "POL": "Módlmy się o twój powrót do zdrowia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.d",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "I should have some herbs for that.",
+    "RUS": "У меня должны быть травы на этот случай.",
+    "POL": "Być może mam na to jakieś zioła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.1110.e",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Glad that's not me.",
+    "RUS": "Хорошо, что не я на [Select_CString(affected_pilgrim.IsFemale, 'ее', 'его' )] месте.",
+    "POL": "Cieszę się, że to nie ja.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "$zealotry_intent_header$ A Smitten [ROOT.Char.Custom('GetDerogatoryNonbeliever')|U]",
+    "RUS": "$zealotry_intent_header$ [Select_CString(ROOT.Char.IsFemale, 'влюбленная', 'влюбленный' )] [ROOT.Char.Custom('GetDerogatoryNonbeliever')|l]",
+    "POL": "$zealotry_intent_header$ zauroczony [ROOT.Char.Custom('GetDerogatoryNonbeliever')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "In the markets of [background_market_scope.GetName] a familiar [smitten_heathen.GetWomanMan] makes an appearance. Like a puppy, [smitten_heathen.GetSheHe] has followed us for days.\\n\\nWith pleading eyes, [smitten_heathen.GetSheHe] exclaims: ",
+    "RUS": "[background_market_scope.GetName]. На местном рынке мы видим [Select_CString(smitten_heathen.IsFemale, 'знакомую нам женщину', 'знакомого нам мужчину' )], что идет за нами уже несколько дней.\\n\\nГлядя на меня умоляющим взором, [smitten_heathen.GetSheHe] восклицает: «[Select_CString(ROOT.Char.IsFemale, 'Моя госпожа', 'мой господин' )], [Select_CString(entourage_to_marry_2.IsFemale, 'твоя', 'твой' )], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))], [entourage_to_marry_2.GetFirstName], — полюбит ли [Select_CString(entourage_to_marry_2.IsFemale, 'она', 'он' )] меня когда-нибудь? Ведь [Select_CString(entourage_to_marry_2.IsFemale, 'она', 'он' )] [entourage_to_marry_2.GetFaith.GetAdherentName|l], а я исповедую [smitten_heathen.GetFaith.GetAdjective|l]. Есть ли у меня шанс?»\\n\\n[Select_CString(smitten_heathen.IsFemale, 'Вопрошающая явно влюблена', 'Вопрошающий явно влюблен' )] до безумия, [entourage_to_marry_2.GetFirstNameNoTooltip] же не выказывает особого энтузиазма. Что скажет [ROOT.Char.GetFaith.HighGodName] о таком союзе?",
+    "POL": "Na targowisku w mieście o nazwie [background_market_scope.GetName] pojawia się [smitten_heathen.GetWomanMan] o znajomej twarzy. Niczym szczeniak podąża za nami od wielu dni.\\n\\nRobiąc błagalne oczy, woła:\\n\\n– Wasza czcigodność, chcę poruszyć temat pewnej osoby – czy[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] o imieniu [entourage_to_marry_2.GetFirstName] kiedykolwiek mnie pokocha? Dla [entourage_to_marry_2.Custom('PL_niego_niej')] liczy się wiara [entourage_to_marry_2.GetFaith.GetAdjectiveNoTooltip|l], a dla mnie [smitten_heathen.GetFaith.GetAdjective|l]… Ale może jest jakaś szansa?\\n\\nWidać po [smitten_heathen.Custom('PL_nim_niej')] zauroczenie, ale [entourage_to_marry_2.GetFirstNameNoTooltip] chyba nie ma pełnego przekonania. Czy można liczyć, że [ROOT.Char.GetFaith.HighGodName] zaakceptuje taki związek?",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.seducer",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Let me show you how it's done!",
+    "RUS": "Сейчас я покажу тебе, как надо!",
+    "POL": "Pokażę ci, jak to się robi!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.seducer.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Teach the [smitten_heathen.GetWomanMan] a trick or two to wrap [entourage_to_marry_2.GetFirstName] around [smitten_heathen.GetHerHis] finger.",
+    "RUS": "Научить [Select_CString(smitten_heathen.IsFemale, 'влюбленную женщину', 'влюбленного мужчину' )] паре трюков, чтобы [entourage_to_marry_2.GetFirstName] скорее [Select_CString(entourage_to_marry_2.IsFemale, 'поддалась', 'поддался' )] на [Select_CString(smitten_heathen.IsFemale, 'ее', 'его' )] ухаживания.",
+    "POL": "Naucz [smitten_heathen.Custom('PL_go_ja')] sztuczki czy dwóch, które pozwolą [smitten_heathen.Custom('PL_mu_jej')] owinąć sobie osobę o imieniu [entourage_to_marry_2.GetFirstName] wokół palca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.a.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "In their union, [ROOT.Char.GetFaith.HighGodName] shall find a new servant!",
+    "RUS": "В их союзе [ROOT.Char.GetFaith.HighGodName] обретет нового приверженца!",
+    "POL": "Dzięki ich związkowi królestwo [ROOT.Char.GetFaith.HighGodNamePossessive] zyska nowego sługę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.b.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "[smitten_heathen.GetFaith.GetAdherentNamePlural] are sure to have interesting courtship rituals, I must observe them.",
+    "RUS": "[smitten_heathen.GetFaith.GetAdherentNamePlural] известны интересными ритуалами ухаживания. Надо их соблюдать.",
+    "POL": "[smitten_heathen.GetFaith.GetAdherentNamePlural|U] na pewno mają ciekawe sposoby na zaloty. Muszę ich poobserwować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Accept [ROOT.Char.GetFaith.HighGodName], and [entourage_to_marry_2.GetSheHe] will be yours.",
+    "RUS": "Признай, что [ROOT.Char.GetFaith.HighGodName] властвует над тобой, и [Select_CString(entourage_to_marry_2.IsFemale, 'возлюбленная', 'возлюбленный' )] у тебя в руках.",
+    "POL": "Przyjmuj zwierzchnictwo [ROOT.Char.GetFaith.HighGodNamePossessive], a w nagrodę ty i [entourage_to_marry_2.GetFirstName] zostaniecie parą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "Oh my dear, you should talk to #EMP [entourage_to_marry_2.GetHerHim]#!, not me!",
+    "RUS": "Радость моя, об этом надо спрашивать #EMP [Select_CString(entourage_to_marry_2.IsFemale, 'ее', 'его' )]#!, не меня!",
+    "POL": "Och, musisz porozmawiać o tym z #EMP [entourage_to_marry_2.Custom('PL_nim_nia')]#!, nie ze mną!",
+    "BEL": ""
+  },
+  {
+    "KEY": "pilgrimage_intent.9000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "We don't have time for this...",
+    "RUS": "У нас нет на это времени.",
+    "POL": "Nie mamy na to teraz czasu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "hit_it_off_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "They hit it off",
+    "RUS": "Они находят общий язык",
+    "POL": "Świetnie się dogadują",
+    "BEL": ""
+  },
+  {
+    "KEY": "they_fight_publicly_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/pilgrimage_intent_events_l_belarusian.json",
+    "ENG": "They cause a scene",
+    "RUS": "Они устраивают сцену",
+    "POL": "Robią scenę",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "KEY": "court_chaplain_task.0201.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0301.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "I have prowled through documents both ancient and... of less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName]!\\n\\nAll that is missing is one little bribe...",
+    "RUS": "После долгих поисков в документах более древнего и... менее надежного происхождения у меня появилось достаточно материалов, доказывающих, что вы — [ROOT.Char.GetLadyLord|U] графства [county.GetNameNoTier]!\\n\\nНе хватает лишь небольшого денежного вознаграждения...",
+    "POL": "Przeszukał[Select_CString(councillor.IsFemale, 'am', 'em' )] wszystkie dokumenty, zarówno te starożytne, jak i te… o wątpliwym pochodzeniu. W końcu mam wystarczającą ilość materiału dowodowego, aby wykazać, że [county.GetName] należy do ciebie, [Select_CString(ROOT.Char.IsFemale, 'Pani', 'Panie' )]!\\n\\nBrakuje tylko jednej małej łapówki…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0301.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "See it done!",
+    "RUS": "Да будет так!",
+    "POL": "Załatw to!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0301.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "No, I cannot.",
+    "RUS": "Нет, я не могу так поступить.",
+    "POL": "Nie, nie mogę tego zrobić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0301.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Lose all Fabricate Claim progress",
+    "RUS": "Все поддельные документы будут уничтожены",
+    "POL": "Utrata całego postępu fabrykowania roszczeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0302.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "I have prowled through documents both ancient and of... less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName].\\n\\nIndeed, I could even argue you are the rightful [ROOT.Char.GetLadyLord|U] of the [duchy.GetName]!",
+    "RUS": "После долгих поисков в документах более древнего и... менее надежного происхождения у меня появилось достаточно материалов, доказывающих, что вы — [ROOT.Char.GetLadyLord|U] графства [county.GetNameNoTier]!\\n\\nБолее того, [duchy.GetName] отныне ваша земля!",
+    "POL": "Przeszukał[Select_CString(councillor.IsFemale, 'am', 'em' )] wszystkie dokumenty, zarówno te starożytne, jak i te… o wątpliwym pochodzeniu. W końcu mam wystarczającą ilość materiału dowodowego, aby wykazać, że [county.GetName] należy do Ciebie, [Select_CString( ROOT.Char.IsFemale, 'Pani', 'Panie' )]!\\n\\nPrzy odrobinie większego wysiłku był[Select_CString(councillor.IsFemale, 'abym', 'bym' )] w stanie dowieść, że [duchy.GetName] również do ciebie należy, [Select_CString(ROOT.Char.IsFemale, 'moja Pani', 'mój Panie' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0302.desc_heretic_addition",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "I have prowled through documents both ancient and of... less certain provenance. I finally have enough material to make the case that you are the rightful [ROOT.Char.GetLadyLord|U] of the [county.GetName].\\n\\nSeeing as [duchy_holder.GetFirstName] unfortunately insists on being #EMP [duchy_holder.GetFaith.GetAdherentName]#!, I could even argue that you have a claim to the [duchy.GetName] – by divine right!",
+    "RUS": "После долгих поисков в документах более древнего и... менее надежного происхождения у меня появилось достаточно материалов, доказывающих, что вы — по праву [ROOT.Char.GetLadyLord] графства [county.GetNameNoTier]! \\n\\nУчитывая, что [duchy_holder.GetFirstName] утверждает, будто [duchy_holder.GetSheHe] — #EMP [duchy_holder.GetFaith.GetAdherentName|l]#!, думаю, вы можете выдвинуть претензию и заявить, что [duchy.GetName] принадлежит вам по священному праву!",
+    "POL": "Przeszukał[Select_CString(councillor.IsFemale, 'am', 'em' )] wszystkie dokumenty, zarówno te starożytne, jak i te… o wątpliwym pochodzeniu. W końcu mam wystarczającą ilość materiału dowodowego, aby wykazać, że [county.GetName] należy do ciebie, [Select_CString(ROOT.Char.IsFemale, 'Pani', 'Panie' )]!\\n\\nPonieważ [duchy_holder.GetFirstName] niestety trwa uparcie, jako #EMP [duchy_holder.GetFaith.GetAdherentName]#! [Select_CString(councillor.IsFemale, 'mogłabym', 'mógłbym' )] nawet argumentować, że masz prawo do [duchy.GetAdjective] – na mocy boskiego prawa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0302.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Present my claim on [county.GetNameNoTierNoTooltip].",
+    "RUS": "Заяви о моих правах на графство [county.GetNameNoTierNoTooltip].",
+    "POL": "Przedstaw moje roszczenia do [county.GetAdjectiveNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0302.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Yes! All of [duchy.GetNameNoTierNoTooltip] will be mine!",
+    "RUS": "Да! [duchy.GetNameNoTierNoTooltip] — мои земли по праву!",
+    "POL": "Tak! Całe Księstwo [duchy.GetAdjectiveNoTooltip] będzie moje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0311.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "A Claim on [county.GetNameNoTierNoTooltip]!",
+    "RUS": "Претензия на графство [county.GetNameNoTierNoTooltip]!",
+    "POL": "Roszczenie do [county.GetAdjectiveNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0311.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "For months, [councillor.GetTitledFirstName], [councillor_liege.GetTitledFirstNamePossessive] [councillor.GetCouncilTitle], has been digging up spurious contracts and fabricated histories.",
+    "RUS": "Вот уже несколько месяцев [councillor.GetTitledFirstName], [councillor.GetCouncilTitle|l] персонажа [SCOPE.sC('councillor_liege').GetTitledFirstName], выискивает сомнительные договора и подложные истории.",
+    "POL": "Zasiadający w radzie [councillor.GetTitledFirstName], [councillor.GetCouncilTitle], której przewodzi [councillor_liege.GetTitledFirstName], od miesięcy wydobywa na światło dzienne fałszywe umowy i sfabrykowane historie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0311.end",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "\\n\\nNow [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] dares act as if it all amounts to a legitimate claim on the [county.GetName]!",
+    "RUS": "\\n\\nИ теперь [councillor_liege.GetTitleTierName|l] [councillor_liege.GetFirstName] без угрызений совести действует так, словно имеет законные права на графство [county.GetNameNoTier]!",
+    "POL": "\\n\\nTeraz [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] zachowuje się tak, jakby to wszystko sprowadzało się do prawowitego roszczenia względem [county.GetAdjective]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0311.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Lies and more lies!",
+    "RUS": "Это все ложь!",
+    "POL": "Kłamstwa i jeszcze raz kłamstwa!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0312.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Does [councillor_liege.GetFirstNameNoTooltip] have no shame?!",
+    "RUS": "[councillor_liege.GetFirstNameNoTooltip] не знает, что такое совесть?!",
+    "POL": "Czy [councillor_liege.GetFirstNameNoTooltip] nie ma wstydu?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.0313.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "A Claim on [county.GetNameNoTierNoTooltip]!",
+    "RUS": "Претензия на графство [county.GetNameNoTierNoTooltip]!",
+    "POL": "Roszczenie do [county.GetAdjectiveNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.1001.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Preaching Unorthodox Doctrine",
+    "RUS": "Проповедование нетрадиционной доктрины",
+    "POL": " Głoszenie nieortodoksyjnej doktryny",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.1002.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Poor Rhetoric",
+    "RUS": "Неубедительные речи",
+    "POL": "Kiepska retoryka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.1101.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Impressive Rhetoric",
+    "RUS": "Впечатляющие речи",
+    "POL": "Imponująca retoryka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.2001.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Resistance to Conversion",
+    "RUS": "Сопротивление обращению",
+    "POL": "Opór przed nawróceniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.2002.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Popular Resistance to Conversion",
+    "RUS": "Народ противится обращению",
+    "POL": "Powszechny opór względem konwersji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.2101.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Enthusiastic Conversions",
+    "RUS": "Активное обращение",
+    "POL": "Entuzjastyczne nawrócenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.2102.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "New [councillor.GetFaith.HouseOfWorshipPlural|U] Established",
+    "RUS": "Основаны новые [councillor.GetFaith.HouseOfWorshipPlural]",
+    "POL": "Założono nowe [councillor.GetFaith.HouseOfWorshipPlural|l] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.2103.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Fresh Converts Volunteer",
+    "RUS": "Новообращенные добровольцы",
+    "POL": "Nowo nawróceni ochotnicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Undermining Order",
+    "RUS": "Подрыв общественного порядка",
+    "POL": "Podważanie istniejącego ładu",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "My [councillor.GetCouncilTitle], [councillor.GetFirstName], seems deeply concerned when [councillor.GetSheHe] comes to me.\\n\\n",
+    "RUS": "Мне кажется, [Select_CString(councillor.IsFemale, 'моя', 'мой' )] [councillor.GetCouncilTitle], [councillor.GetFirstName], последнее время о чем-то тревожится.\\n\\n«Теперь все знают, что я... выясняю, нет ли у вас законного права претендовать на графство [county.GetNameNoTier]. Очевидно, многие верные вам вассалы недовольны тем, что вы плетете подобные интриги».",
+    "POL": "M[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [councillor.GetCouncilTitle], [councillor.GetFirstName], wydaje się być głęboko zaniepokojon[Select_CString( councillor.IsFemale, 'a', 'y' )], gdy do mnie przychodzi.\\n\\n– Wyszło na jaw, że… badam istnienie twojego słusznego i prawowitego roszczenia do [county.GetAdjective]. Muszę jednak powiedzieć, że wielu twoich wasali jest zdenerwowanych tym, że ich [ROOT.Char.GetTitleTierName] m[Select_CString( ROOT.Char.IsFemale, 'ogłaby', 'ógłby' )] zignorować ich lojalność i postąpić przeciwko nim w ten sposób.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "How could you let them catch you?!",
+    "RUS": "Почему тебя заметили?!",
+    "POL": "Jak mogł[Select_CString( councillor.IsFemale, 'aś', 'eś' )] pozwolić, żeby cię złapali?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3002.notification",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Accused of Claim Fabrication",
+    "RUS": "Обвинение в подделке документов",
+    "POL": "Oskarżenie o fabrykowanie roszczeń",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3003.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "It has come to my attention that your [councillor.GetCouncilTitle], [councillor.GetFirstName], is working to fabricate a spurious claim on the [county.GetName]. I implore you to remember that you are [ROOT.Char.GetTitleTierName] by right, not by greed.",
+    "RUS": "До меня дошли сведения, что [Select_CString(councillor.IsFemale, 'ваша', 'ваш' )] [councillor.GetCouncilTitle|l], [councillor.GetFirstName], занимается созданием подложных документов, которые позволят вам претендовать на графство [county.GetNameNoTier]. Молю вас, вспомните, что вы [ROOT.Char.GetTitleTierName|l] по праву, а не из корысти.",
+    "POL": "Doszły mnie słuchy, że tw[Select_CString( councillor.IsFemale, 'oja radna', 'ój radny' )] [councillor.GetCouncilTitle], [councillor.GetFirstName] pracuje nad sfabrykowaniem roszczenia do [county.GetAdjective]. Proszę tylko, abyś pamiętał[Select_CString( ROOT.Char.IsFemale, 'a', '' )], że jesteś władc[Select_CString( ROOT.Char.IsFemale, 'zynią', 'ą' )] z mocy prawa, a nie chciwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "I know what I am doing, [vassal.GetFirstNameNoTooltip].",
+    "RUS": "Я знаю, что делаю, [vassal.GetFirstNameNoTooltip].",
+    "POL": "Wiem, co robię, [vassal.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Learn your place, [vassal.GetTitledFirstNameNoTooltip].",
+    "RUS": "Помни свое место, [vassal.GetTitledFirstNameNoTooltip].",
+    "POL": "Pamiętaj gdzie twoje miejsce, [vassal.GetTitledFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3004.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "[target.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[target.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[target.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "It has become clear that your [councillor.GetCouncilTitle] is working to establish a false and spurious claim on the [county.GetName]. Do not think that this kind of dishonorable action will go without response.",
+    "RUS": "Мне стало известно, что [Select_CString(councillor.IsFemale, 'ваша', 'ваш' )] [councillor.GetCouncilTitle|l] готовит подложные документы, позволяющие претендовать на графство [county.GetNameNoTier]. Вы думаете, столь бесчестные действия останутся незамеченными?",
+    "POL": "Stało się jasne, że tw[Select_CString( councillor.IsFemale, 'oja', 'ój' )] [councillor.GetCouncilTitle] pracuje na rzecz sfabrykowania roszczenia do [county.GetAdjective]. Proszę nie myśleć, że tego rodzaju niehonorowe działania pozostaną bez reakcji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_chaplain_task.3004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/councillor_task_events/court_chaplain_task_events_l_belarusian.json",
+    "ENG": "Oh, but there #EMP is#! a basis for a claim here.",
+    "RUS": "О, но ведь там #EMP есть#! основания для претензии.",
+    "POL": "Och, ale tutaj #EMP mam#! podstawę do tego roszczenia.",
+    "BEL": ""
+  }
+]

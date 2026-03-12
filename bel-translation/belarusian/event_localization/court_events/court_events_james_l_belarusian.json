@@ -1,0 +1,810 @@
+[
+  {
+    "KEY": "court.0101.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Lowlife at Court",
+    "RUS": "Преступник при дворе",
+    "POL": "Zwyrodnialec przed osądem",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A prisoner by the name of [lowborn_criminal.GetName] has been brought before [executioner.GetName] for",
+    "RUS": "Преступник по имени [lowborn_criminal.GetName] предстает перед палачом по имени [executioner.GetName] по обвинению",
+    "POL": "[Select_CString(lowborn_criminal.IsFemale, 'Więźniarka', 'Więzień' )] imieniem [lowborn_criminal.GetName] zostaje postawion[Select_CString(lowborn_criminal.IsFemale, 'a', 'y' )] przed katem, któr[Select_CString( executioner.IsFemale, 'ą', 'ym' )] jest [executioner.GetName], pod zarzutem",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.murderer",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "an unspeakable murder!\\n\\n",
+    "RUS": "в немыслимом убийстве!\\n\\n",
+    "POL": "nieopisanego morderstwa!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.deviant",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "acts of beastliness and unholy vice!\\n\\n",
+    "RUS": "в непристойном и греховном поведении!\\n\\n",
+    "POL": "aktów bestialstwa i bezbożnych występków!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.witch",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "acts of wickedness and crimes against [lowborn_criminal.GetFaith.HighGodName]!\\n\\n",
+    "RUS": "в порочности и преступлениях против [lowborn_criminal.GetFaith.HighGodNamePossessive]!\\n\\n",
+    "POL": "aktów bezecności i zbrodni przeciwko sile wyższej, którą znamy jako [lowborn_criminal.GetFaith.HighGodName]!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.lazy",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "disobeying the orders of [lowborn_criminal.GetHerHis] master. As an apprentice to the village mason, [lowborn_criminal.GetName] has been accused of answering back to [lowborn_criminal.GetHerHis] master, disobeying orders, and even challenging [lowborn_criminal.GetHerHis] master's expertise.",
+    "RUS": "в неподчинении приказам господина. Находясь в обучении у деревенского каменщика, [lowborn_criminal.GetName] [Select_CString(lowborn_criminal.IsFemale, 'дерзила', 'дерзил' )], [Select_CString(lowborn_criminal.IsFemale, 'выказывала', 'выказывал' )] неповиновение и даже [Select_CString(lowborn_criminal.IsFemale, 'оспаривала', 'оспаривал' )] мастерство каменщика.",
+    "POL": "nieposłuszeństwa wobec rozkazów swojego mistrza. Jako czeladnik wiejskiego murarza, [lowborn_criminal.GetName] został[Select_CString( lowborn_criminal.IsFemale, 'a oskarżona', ' oskarżony' )] o sprzeczanie się ze swoim mistrzem, niesłuchanie rozkazów, a nawet kwestionowanie jego umiejętności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.thief",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "numerous counts of thievery across the realm.\\n\\n This lowlife has bled this great [ROOT.Char.GetPrimaryTitle.GetName] dry with all [lowborn_criminal.GetHerHis] appropriation of crown properties such as bread, vegetables, and even clothing!",
+    "RUS": "в многочисленных кражах по всей державе.\\n\\n[Select_CString(lowborn_criminal.IsFemale, 'Эта преступница разорила', 'Этот преступник разорил' )] державу [ROOT.Char.GetPrimaryTitle.GetName], похищая собственность короны в виде хлеба, овощей и даже одежды!",
+    "POL": "licznych kradzieży w całym państwie.\\n\\n[Select_CString( ROOT.Char.IsFemale, 'Wielka', 'Wielki' )] [ROOT.Char.GetPrimaryTitle.GetName|l] [Select_CString( ROOT.Char.IsFemale, 'była ogałacana', 'był ogałacany' )] przez tego zwyrodnialca, gdyż kradł majątek korony w postaci chleba, warzyw, a nawet ubrań!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.sumptuary",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "violating the sumptuary law of [ROOT.Char.GetTitleAsNameNoTooltip].\\n\\n [lowborn_criminal.GetSheHe] has been wearing all sorts of gaudy and unsightly fabrics and mismatched clothing. This is more than a mere crime against [ROOT.Char.GetTitleAsNameNoTooltip], this is a crime against common decency.",
+    "RUS": "в нарушении сословных законов, кои устанавливает [ROOT.Char.GetTitleAsNameNoTooltip|l].\\n\\n[lowborn_criminal.GetSheHe|U] [Select_CString(lowborn_criminal.IsFemale, 'наряжалась', 'наряжался' )] в разноцветную, безвкусную и не сочетающуюся одежду. Это не просто преступление против державы, которой правит [ROOT.Char.GetTitleAsNameNoTooltip|l], это преступление против правил общественного приличия.",
+    "POL": "pogwałcenia prawa antyzbytkowego, jakie ustanowił[Select_CString( ROOT.Char.IsFemale, 'a', '' )] [ROOT.Char.GetTitleAsNameNoTooltip|l].\\n\\n[Select_CString( lowborn_criminal.IsFemale, 'Winowajczyni', 'Winowajca' )] nosi wszelkiego rodzaju krzykliwe, szpetne i niedopasowane odzienie. To nie tylko przestępstwo przeciwko władzy, którą sprawuje [ROOT.Char.GetTitleAsNameNoTooltip|l], ale także zbrodnia przeciwko zwykłej przyzwoitości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.cannibal",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetName] and [lowborn_criminal.GetHerHis] family have been living in a cave near [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] luring in travelers with the promise of food and shelter. [lowborn_criminal.GetHerHis|U] family are believed to have cannibalized over a thousand travelers this way, and the residents of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] demand justice.",
+    "RUS": "[lowborn_criminal.GetName] и [lowborn_criminal.GetHerHis] семья жили в пещере недалеко от владения [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] и заманивали к себе путников обещаниями пищи и крова. Считается, что таким образом [lowborn_criminal.GetHerHis] семья съела больше тысячи путников, и жители владения [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] требуют справедливости.",
+    "POL": "[lowborn_criminal.GetName] i [lowborn_criminal.GetHerHis] rodzina mieszkali w jaskini w okolicach miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], wabiąc podróżnych obietnicą jedzenia i schronienia. Uważa się, że [lowborn_criminal.GetHerHis] rodzina uśmierciła w ten sposób ponad tysiąc podróżnych, zaś mieszkańcy w miejscu znanym jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] domagają się wymierzenia sprawiedliwości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.sadistic",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "The criminal sliced open the throat of the miller and ransacked his home. On top of this, [lowborn_criminal.GetSheHe] forced the miller's wife to cook [lowborn_criminal.GetHerHim] eggs which [lowborn_criminal.GetSheHe] proceeded to eat from the deceased miller's body, while forcing the wife to join [lowborn_criminal.GetHerHim].",
+    "RUS": "[Select_CString(lowborn_criminal.IsFemale, 'Преступница зарезала мельника и ограбила', 'Преступник зарезал мельника и ограбил' )] его дом. Кроме того, [lowborn_criminal.GetSheHe] [Select_CString(lowborn_criminal.IsFemale, 'заставила', 'заставил' )] жену мельника приготовить [lowborn_criminal.GetHerHim] яйца, а затем [Select_CString(lowborn_criminal.IsFemale, 'съела', 'съел' )] их, разложив на теле мельника и принудив его жену присоединиться.",
+    "POL": "Przestępc[Select_CString( lowborn_criminal.IsFemale, 'zyni poderżnęła', 'a poderżnął' )] gardło młynarzowi i splądrował[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] jego dom. Na dodatek zmusił[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] żonę młynarza do ugotowania [lowborn_criminal.GetHerHim] jajek, które następnie zjadł[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] na ciele zmarłego młynarza, zmuszając zarazem jego żonę, aby do nie[Select_CString( lowborn_criminal.IsFemale, 'j', 'go' )] dołączyła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.priest",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A [lowborn_criminal.GetFaith.PriestNeuter], [lowborn_criminal.GetName] murdered a member of [lowborn_criminal.GetHerHis] own flock. This wretch attempted to receive a pardon for [lowborn_criminal.GetHerHis] crime from the [lowborn_criminal.GetFaith.GetAdjective] authorities, but the guards caught [lowborn_criminal.GetHerHim] re-entering [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] and promptly apprehended this wicked [lowborn_criminal.GetFaith.PriestNeuter].",
+    "RUS": "[lowborn_criminal.GetFaith.PriestNeuter|U], [lowborn_criminal.GetName] [Select_CString(lowborn_criminal.IsFemale, 'убила', 'убил' )] одного из своих прихожан. [Select_CString(lowborn_criminal.IsFemale, 'Негодяйка пыталась', 'Негодяй пытался' )] получить прощение у #L [lowborn_criminal.GetFaith.GetName|l]их#! властей, но стража поймала [lowborn_criminal.GetHerHis] за попыткой проникнуть во владение [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], и теперь [lowborn_criminal.GetFaith.PriestNeuter] под арестом.",
+    "POL": "[lowborn_criminal.GetFaith.PriestNeuter|U] [lowborn_criminal.GetName] morduje owieczkę z własnego stada wiernych. Ta [lowborn_criminal.GetFaith.GetAdjective|l] łachudra próbowała otrzymać przebaczenie od władz swojego wyznania, lecz gdy wracała do miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], u bram została bezzwłocznie aresztowana przez straż.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.stableboy",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetName] was caught in the midst of explicit acts with the [lowborn_criminal.Custom('servant_for_romance')]. Not only is this an act of infidelity, it is an insult to the honor of House [ROOT.Char.GetHouse.GetBaseNameNoTooltip]!",
+    "RUS": "[lowborn_criminal.GetName] и [lowborn_criminal.Custom('servant_for_romance')] попались в компрометирующей ситуации. Это не просто акт неверности, это оскорбление чести дома [ROOT.Char.GetHouse.GetBaseNameNoTooltip]!",
+    "POL": "[lowborn_criminal.GetName] i [lowborn_criminal.Custom('servant_for_romance')|l]! To te osoby przyłapano podczas rozpustnych czynów, stanowiących nie tylko akt niewierności, ale także plamę na honorze rodu [ROOT.Char.GetHouse.GetBaseNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.kinky",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetName] was found chained to a post, coated top-to-toe in gruel with an unsightly device attached to [lowborn_criminal.GetHerHis] nether regions. Wounds on [lowborn_criminal.GetHerHis] body indicate injury for the sake of pleasure, and the prisoner seems entirely averse to shame for [lowborn_criminal.GetHerHis] unnatural desires.",
+    "RUS": "[lowborn_criminal.GetName] [Select_CString(lowborn_criminal.IsFemale, 'была найдена прикованной', 'был найден прикованным' )] к столбу, [Select_CString(lowborn_criminal.IsFemale, 'покрытой', 'покрытым' )] помоями и с отвратительного вида устройством, прикрепленным к нижней части [lowborn_criminal.GetHerHis] тела. Раны на теле свидетельствуют об увечьях с целью получения удовольствия, и [Select_CString(lowborn_criminal.IsFemale, 'узница', 'узник' )] совершенно не испытывает стыда за свои противоестественные желания.",
+    "POL": "[lowborn_criminal.GetName] został[Select_CString( lowborn_criminal.IsFemale, 'a znaleziona przykuta i oblana', ' znaleziony przykuty do słupa i oblany' )] od stóp do głów kleikiem, z nieestetycznym urządzeniem przymocowanym do [lowborn_criminal.GetHerHis] okolic intymnych. Rany na [lowborn_criminal.GetHerHis] ciele wskazują na obrażenia zadawane dla przyjemności, a wię[Select_CString( lowborn_criminal.IsFemale, 'źniarka', 'zień' )] wydaje się całkowicie unikać wstydu za swoje nienaturalne pragnienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.animals",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "The prisoner was caught in the midst of committing unholy acts with a member of [lowborn_criminal.GetHerHis] cattle, a horse, and a honeycomb. Such an act of deviancy defies the will of [lowborn_criminal.GetFaith.HighGodName] and is a crime not only to nature but decency and good sense!",
+    "RUS": "[Select_CString(lowborn_criminal.IsFemale, 'Узницу', 'Узника' )] застукали за греховным действом с участием [lowborn_criminal.GetHerHis] коровы, коня и пчелиных сот. Подобное противно воле [lowborn_criminal.GetFaith.HighGodNamePossessive] и является преступлением против природы, а также достоинства и правил приличия!",
+    "POL": "[Select_CString( lowborn_criminal.IsFemale, 'Więźniarka została przyłapana', 'Więzień został przyłapany' )] na popełnianiu bezbożnych czynów ze swoim bydłem, koniem i plastrami miodu. Taki akt dewiacji niezgodny jest z wolą [lowborn_criminal.GetFaith.HighGodNamePossessive] i jest zbrodnią nie tylko wobec natury, ale także przyzwoitości i zdrowego rozsądku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.baby_soup",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetName] has been reported by the local townsfolk of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] for the unspeakable act of boiling [lowborn_criminal.GetHerHis] own newborn children alive along with some herbs and vegetables. This beastly act was an effort to unnaturally prolong [lowborn_criminal.GetHerHis] life!",
+    "RUS": "[lowborn_criminal.GetName], как сообщают жители владения [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [Select_CString(lowborn_criminal.IsFemale, 'творила', 'творил' )] немыслимое и живьем [Select_CString(lowborn_criminal.IsFemale, 'варила', 'варил' )] своих новорожденных детей с травами и овощами. Подобное злодеяние было попыткой продлить себе жизнь!",
+    "POL": "Mieszkańcy miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] donieśli, że [lowborn_criminal.GetName] dopuścił[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] się niecnego czynu polegającego na ugotowaniu żywcem własnych nowo narodzonych dzieci wraz z jakimiś ziołami i warzywami. Ten bestialski czyn był próbą nienaturalnego przedłużenia [lowborn_criminal.GetHerHis] życia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.suspicious_healer",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "As a healer, [lowborn_criminal.GetName] has been accused of using foul magic to bring death to the sick and elderly of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [lowborn_criminal.GetName]'s misdeeds are too many to number, earning [lowborn_criminal.GetHerHim] the nickname “the Angel of [lowborn_criminal.GetFaith.DeathDeityName]”.",
+    "RUS": "Целитель, [lowborn_criminal.GetName], обвиняется в использовании черной магии для убийства больных и стариков во владении [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [lowborn_criminal.GetName] [Select_CString(lowborn_criminal.IsFemale, 'совершила', 'совершил' )] столько злодеяний, что [Select_CString(lowborn_criminal.IsFemale, 'заслужила', 'заслужил' )] прозвище «[lowborn_criminal.GetFaith.DeathDeityName] во плоти».",
+    "POL": "Jako [Select_CString( lowborn_criminal.IsFemale, 'uzdrowicielka', 'uzdrowiciel' )] [lowborn_criminal.GetName] [Select_CString( lowborn_criminal.IsFemale, 'została oskarżona', 'został oskarżony' )] o stosowanie plugawych czarów, by ściągnąć śmierć na starców i schorowanych mieszkających w murach [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [lowborn_criminal.GetHerHis|U] występki są tak liczne, że nadano [lowborn_criminal.GetHerHim] przydomek „Anioła [lowborn_criminal.GetFaith.DeathDeityNamePossessive]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.devil_worshiper",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Thought to be a pious [lowborn_criminal.GetWomanMan], [lowborn_criminal.GetName] held a private shrine within their own dwellings, but upon inspection [lowborn_criminal.GetSheHe] was found to not be worshipping [lowborn_criminal.GetFaith.HighGodName], but [lowborn_criminal.GetFaith.WitchGodName], and making unholy sacrifices to [lowborn_criminal.GetFaith.WitchGodHerHim]!",
+    "RUS": "Все считали [Select_CString(lowborn_criminal.IsFemale, 'ее благочестивой женщиной', 'его благочестивым мужчиной' )], [lowborn_criminal.GetName] [Select_CString(lowborn_criminal.IsFemale, 'построила', 'построил' )] в своем жилище небольшое святилище, но при пристальном изучении выяснилось, что объектом поклонения является не [lowborn_criminal.GetFaith.HighGodName], а [lowborn_criminal.GetFaith.WitchGodName], а само святилище используется для нечестивых жертвоприношений!",
+    "POL": "[lowborn_criminal.GetName] to osoba powszechnie uważana za pobożną, która znana była z tego, że urządziła prywatną świątynię w swoim własnym domu. Po wizytacji okazało się jednak, że nie oddaje ona czci sile wyższej, którą znamy jako [lowborn_criminal.GetFaith.HighGodName], ale innemu bóstwu, jakim jest [lowborn_criminal.GetFaith.WitchGodName]! Składa też bezbożne ofiary!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "\\n\\n[executioner.GetName] insists [lowborn_criminal.GetSheHe] is as appalled with this sinner as any would be, and asks you what should become of this wretched individual.",
+    "RUS": "\\n\\n[executioner.GetName] уверяет, что испытывает глубокое отвращение к [Select_CString(lowborn_criminal.IsFemale, 'этой грешнице', 'этому грешнику' )], и спрашивает, какое наказание полагается за столь отвратительное преступление.",
+    "POL": "\\n\\n[executioner.GetName] zapewnia, że czuje głębokie obrzydzenie – tak jak reszta – do [Select_CString( lowborn_criminal.IsFemale, 'tej grzeszniczki', 'tego grzesznika' )] i pyta, jaka kara należy się za tak haniebną zbrodnię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.cannibal",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Chop the entire family up for the hounds.",
+    "RUS": "Пустите всю семью на корм собакам.",
+    "POL": "Posiekać całą rodzinę i rzucić psom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.sadistic",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A few rounds on the wheel should straighten them out.",
+    "RUS": "Несколько кругов на колесе заставят исправиться.",
+    "POL": "Kilka rundek na kole powinno przywołać ich do porządku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.priest.sky",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Have the vultures feast on [lowborn_criminal.GetHerHis] body... alive.",
+    "RUS": "Пусть стервятники съедят [lowborn_criminal.GetHerHis] тело... заживо.",
+    "POL": "Niech sępy ucztują na [lowborn_criminal.GetHerHis] ciele… żywym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.priest",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Make sure [lowborn_criminal.GetSheHe] has a proper burial... alive.",
+    "RUS": "Убедитесь, что [lowborn_criminal.GetHerHis] похоронят... заживо.",
+    "POL": "Upewnicie się, że zostanie odpowiednio pochowan[Select_CString( lowborn_criminal.IsFemale, 'a... żywa', 'y... żywy' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.stableboy",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Have [lowborn_criminal.GetHerHis] privates removed and fed to the horses.",
+    "RUS": "Отрежьте [lowborn_criminal.GetHerHis] достоинство и скормите коням.",
+    "POL": "Niech usuną [lowborn_criminal.GetHerHim] intymną część ciała i nakarmią nią konie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.kinky",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Have [lowborn_criminal.GetHerHim] publicly whipped until death.",
+    "RUS": "Пусть [lowborn_criminal.GetHerHis] публично запорют досмерти.",
+    "POL": "Niech [Select_CString( lowborn_criminal.IsFemale, 'ją', 'go' )] publicznie biczują aż do śmierci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.animals",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Burn [lowborn_criminal.GetHerHim] alive with [lowborn_criminal.GetHerHis] cattle.",
+    "RUS": "Сожгите [lowborn_criminal.GetHerHis] заживо вместе со скотом.",
+    "POL": "Spalić [Select_CString( lowborn_criminal.IsFemale, 'ją', 'go' )] żywcem razem z [lowborn_criminal.GetHerHis] bydłem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.baby_soup",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Cast [lowborn_criminal.GetHerHim] into a cauldron of tar.",
+    "RUS": "Бросьте [lowborn_criminal.GetHerHis] в котел со смолой.",
+    "POL": "Wrzućcie [Select_CString( lowborn_criminal.IsFemale, 'ją', 'go' )] do kotła ze smołą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.suspicious_healer",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Have [lowborn_criminal.GetHerHim] sample some “medicine” [lowborn_criminal.GetHerselfHimself].",
+    "RUS": "Пусть примет собственное «лекарство».",
+    "POL": "Niech sam[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] spróbuje trochę „lekarstwa”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a.devil_worshiper",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Perhaps an open flame will help [lowborn_criminal.GetHerHim] feel close to [lowborn_criminal.GetHerHis] [lowborn_criminal.GetFaith.WitchGodMistressMaster].",
+    "RUS": "Возможно, через огонь [lowborn_criminal.GetSheHe] и [lowborn_criminal.GetHerHis] [lowborn_criminal.GetFaith.WitchGodMistressMaster] станут ближе.",
+    "POL": "Być może żywy ogień pomoże [lowborn_criminal.GetHerHim] poczuć bliskość [Select_CString(EqualTo_string( lowborn_criminal.GetFaith.WitchGodSheHe, 'ona' ), 'swojej pani', 'swojego pana' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Torture until death is the only answer.",
+    "RUS": "Единственный вариант — запытать до смерти.",
+    "POL": "Tortury aż do śmierci to jedyna odpowiedź.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Do with them what you will.",
+    "RUS": "Поступайте по своему усмотрению.",
+    "POL": "Zróbcie z nimi, co chcecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.c.deviant",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetSheHe|U] sounds like [lowborn_criminal.GetSheHe] knows a good time!",
+    "RUS": "Похоже, [lowborn_criminal.GetSheHe] знает толк в развлечениях!",
+    "POL": "Brzmi jakby znał[Select_CString( lowborn_criminal.IsFemale, 'a', '' )] się na dobrej zabawie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.c.beastiality",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "... #EMP and#! a horse? [lowborn_criminal.GetSheHe|U]'s a creative genius!",
+    "RUS": "... #EMP и#! конь? [lowborn_criminal.GetSheHe|U] просто гений!",
+    "POL": "…#EMP i#! z koniem? Jakże pomysłowe!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[lowborn_criminal.GetNameNoTooltip] knows how to have fun!",
+    "RUS": "[lowborn_criminal.GetNameNoTooltip|U] умеет развлекаться!",
+    "POL": "[lowborn_criminal.GetNameNoTooltip] wie, jak się bawić!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0101.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Lock them up, I'll decide later...",
+    "RUS": "Поместите под стражу, я приму решение потом...",
+    "POL": "Zamknijcie ich, zdecyduję później…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0102.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "The Social Stain of Execution",
+    "RUS": "Общественное презрение к казни",
+    "POL": "Społeczne piętno egzekucji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0102.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I see [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] sitting with a melancholic look on [executioner.GetHerHis] face, and as I enquire as to what is troubling [executioner.GetHerHis] dark mind [executioner.GetSheHe] sighs.\\n\\n “Y'see m'[ROOT.Char.GetLadyLord], every night I have to travel so far outside of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] to sleep. Executioners aren't permitted inside the boundaries of the city. Not that I don't love torturing or nothing, it just gets lonely when the only voices I hear are the screams of the damned.”",
+    "RUS": "Я вижу, как [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] сидит с печальным выражением лица, и на вопрос, что тревожит [executioner.GetHerHis] мрачный ум, [executioner.GetSheHe] вздыхает.\\n\\n«Понимаете, [ROOT.Char.GetLadyLord], каждую ночь перед сном мне приходится уходить на окраины владения [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Палачам нельзя находиться в пределах города. Не скажу, что не люблю пытки, но становится одиноко, когда рядом слышны лишь крики обреченных».",
+    "POL": "Widzę, jak [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] siedzi z melancholijnym wyrazem twarzy, a kiedy pytam, co trapi [executioner.GetHerHis] mroczny umysł, wzdycha.\\n\\n„Tak się składa, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], że każdej nocy muszę podróżować tak daleko poza miejsce znane jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], aby się wyspać. Katom nie wolno przebywać w granicach miasta. Nie, żebym nie lubił[Select_CString( executioner.IsFemale, 'a', '' )] torturować czy coś, ale po prostu doświadczam samotności, gdy jedyne głosy, jakie słyszę, to krzyki potępionych”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0102.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Sleep in the castle tonight, friend.",
+    "RUS": "Проведите эту ночь в замке.",
+    "POL": "Śpij dziś w zamku, przyjaci[Select_CString( executioner.IsFemale, 'ółko', 'elu' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0102.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "It's a hard life, but some must live it.",
+    "RUS": "Жизнь трудна, но кто-то же должен.",
+    "POL": "To bez wątpienia ciężkie życie, ale ktoś musi to robić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0102.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Hah! You're no more worthy of sympathy than the rats in my gutter!",
+    "RUS": "Ха! Вы заслуживаете симпатии не больше, чем крысы в канаве!",
+    "POL": "Hah! Nie jesteś bardziej godn[Select_CString( executioner.IsFemale, 'a', 'y' )] współczucia niż szczury w moim rynsztoku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A Grave Opportunity",
+    "RUS": "Гробовая удача",
+    "POL": "Śmiertelna okazja",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[executioner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has been catching my eye as of late, as [executioner.GetSheHe] appears to be wearing increasingly expensive attire and strutting around like a peacock.\\n\\nUpon enquiry, [executioner.GetSheHe] gives me a yellow toothy grin and tells me [executioner.GetSheHe] has been appropriating things of value from the damned.",
+    "RUS": "[executioner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] в последнее время часто привлекает мое внимание, поскольку носит всё более дорогие наряды и расхаживает как павлин.\\n\\nНа мой вопрос [executioner.GetSheHe] скалит желтые зубы в ухмылке и отвечает, что забирает вещи у осужденных.",
+    "POL": "[executioner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] przykuwa ostatnio moją uwagę, ponieważ wydaje się nosić coraz droższe stroje i przechadzać jak paw.\\n\\nNa moje pytanie ukazuje żółty, szczerbaty uśmiech i mówi mi, że przywłaszczył[Select_CString( executioner.IsFemale, 'a', '' )] sobie wartościowe rzeczy od przeklętych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.hair_and_teeth",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[executioner.GetHerHis|U] enterprise involves selling locks of prisoners' hair to doll makers, teeth to those who lack them, and even eyeballs to those practicing witchcraft.",
+    "RUS": "[executioner.GetHerHis|U] деятельность включает в себя продажу кукольникам прядей волос заключенных, продажу зубов тем, у кого их нет, и даже глаза находят покупателей в лице колдунов.",
+    "POL": "[executioner.GetHerHis|U] działalność polega na sprzedawaniu kłębków włosów więźniów lalkarzom, zębów tym, którym ich brakuje, a nawet gałek ocznych osobom uprawiającym czary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.jewelry",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[executioner.GetSheHe|U] has confessed to stealing items of clothing and jewelry from the damned and selling them, making a tidy profit from what limited possessions those in the dungeons have left. [executioner.GetSheHe|U] has even been stealing from the corpses of the recently deceased!",
+    "RUS": "[executioner.GetSheHe|U] признается в краже у осужденных одежды и украшений, продажа которых позволяла получать неплохой доход. [executioner.GetSheHe|U] даже [Select_CString(executioner.IsFemale, 'крала', 'крал' )] с трупов недавно умерших!",
+    "POL": "Przyznał[Select_CString( executioner.IsFemale, 'a', '' )] się do kradzieży ubrań i biżuterii od potępionych i sprzedawania ich, zarabiając na tym, co pozostało z ograniczonego dobytku tych, którzy znaleźli się w lochach. Okradał[Select_CString( executioner.IsFemale, 'a', 'y' )] nawet zwłoki niedawno zmarłych!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.meat",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[executioner.GetSheHe|U] has been butchering the recently deceased and selling their cuts on the market as exotic meat! [executioner.GetSheHe|U] claims that this is a greater alternative to giving the approved funeral rites as the damned are unworthy of such last requests.",
+    "RUS": "[executioner.GetSheHe|U] [Select_CString(executioner.IsFemale, 'разделывала', 'разделывал' )] трупы недавно умерших, продавая их части на рынке под видом экзотического мяса! [executioner.GetSheHe|U] заявляет, что это лучше, чем предоставлять подобающие похороны тем, кто их не заслуживает.",
+    "POL": "Rozbierał[Select_CString( executioner.IsFemale, 'a', '' )] na części ciała niedawno zmarłych i sprzedawał[Select_CString( executioner.IsFemale, 'a', '' )] je na rynku jako egzotyczne mięso! Twierdzi, że jest to lepsza alternatywa dla odprawienia zatwierdzonych obrzędów pogrzebowych, gdyż potępieni nie są godni takich ostatnich próśb.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.saint_bones",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[executioner.GetSheHe|U] has been removing viscera from the bones of lowborn prisoners and selling them off as counterfeit artifacts, deceiving foreign visitors and holy men into buying these items as if they were the bones of Saints!",
+    "RUS": "[executioner.GetSheHe|U] [Select_CString(executioner.IsFemale, 'вынимала', 'вынимал' )] костный мозг из костей безродных заключенных, продавая эти кости под видом артефактов и обманывая иноземцев и священнослужителей, которые покупали эти кости, считая их костями святых!",
+    "POL": "Usuwał[Select_CString( executioner.IsFemale, 'a', '' )] wnętrzności z kości nisko urodzonych więźniów i sprzedawał[Select_CString( executioner.IsFemale, 'a', '' )] je jako podrobione artefakty, oszukując zagranicznych gości i religijnych ludzi, by kupowali te przedmioty, jakby to rzeczywiście były kości świętych!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "\\n\\nClearly, [executioner.GetSheHe] has been making a tidy sum from the enterprise, paying no mind to what others may think of [executioner.GetHerHis] beastly business.",
+    "RUS": "\\n\\nНесомненно, [executioner.GetSheHe] неплохо зарабатывает на этом, не заботясь, что окружающие думают о подобной практике.",
+    "POL": "\\n\\nBezsprzecznie widać, że zarobił[Select_CString( executioner.IsFemale, 'a', '' )] na tym przedsięwzięciu niezłą sumkę, nie zwracając uwagi na to, co inni mogą myśleć o [executioner.GetHerHis] bestialskim biznesie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Cut me in on this and I promise you'll get more prisoners!",
+    "RUS": "Возьми меня в долю, и получишь еще больше заключенных!",
+    "POL": "Wkręć mnie w to, a obiecuję, że otrzymasz więcej więźniów!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "This ghastly trade ends now!",
+    "RUS": "Пора покончить с этой гнусной торговлей!",
+    "POL": "Ten upiorny handel kończy się właśnie teraz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0103.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I shall pretend I didn't hear that.",
+    "RUS": "Притворюсь, что ничего не знаю.",
+    "POL": "Udam, że tego nie słyszał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0104.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "An Unhealthy Obsession",
+    "RUS": "Нездоровое увлечение",
+    "POL": "Niezdrowa obsesja",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0104.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "“Ooh! Ooh! Then what did you do?” I hear the chipper tune of my beloved ward, [morbid_child.GetName], echoing through the halls of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. To my astonishment, I see [morbid_child.GetHerHim] looking up at [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] with a kind of whimsical adoration I'm yet to have seen in the [morbid_child.Custom('GirlBoy')]. “I lit the flame and the rat started to burrow right into his chest to escape! Classic, he sung like a nightingale!” The executioner lets out a mocking squeal, much to the amusement of my [morbid_child.Custom('PetName')] [morbid_child.GetName].",
+    "RUS": "«Ого! Ого! А что вы сделали потом?» — щебечет [Select_CString(morbid_child.IsFemale, 'моя дорогая подопечная', 'мой дорогой подопечный' )] [morbid_child.GetName]. К своему удивлению, я обнаруживаю [morbid_child.GetHerHis] внимающим всему, что говорит [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)], с благоговейным обожанием, ранее не виданным мной. «Потом я [Select_CString(executioner.IsFemale, 'запалила', 'запалил' )] огонь, и крыса начала расцарапывать его грудную клетку, чтобы сбежать! Срабатывает всегда, он сразу же запел соловьем!» — палач насмешливо подвизгивает, от чего [morbid_child.Custom('PetName')] [morbid_child.GetName] приходит в полный восторг.",
+    "POL": "– Och! Och! I co wtedy? – mówi z ekscytacją [morbid_child.GetName], dziecko, którym się opiekuję, a echo [morbid_child.Custom('PL_jego_jej')] słów odbija się od murów stolicy ziem znanych jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Obok siedzi [executioner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] i, ku mojemu zdziwieniu, [morbid_child.GetFirstNameNoTooltip] patrzy ku tej osobie z dziwacznym uwielbieniem, jakiego próżno zazwyczaj szukać w oczach tego dziecka.\\n\\n– Pojawił się ogień, a szczur w popłochu zaczął drążyć jego klatkę piersiową, aby uciec! Klasyka, zaczął śpiewać jak słowik! – kat prycha kpiąco, a [morbid_child.Custom('PetName')] [morbid_child.GetName] najwyraźniej świetnie się bawi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0104.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Hilarious! Then what happened?",
+    "RUS": "Просто умора! А что было потом?",
+    "POL": "Niesamowite! I co było później?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0104.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "This grim fascination ends now!",
+    "RUS": "Это жестокое развлечение закончится сейчас же!",
+    "POL": "Ta ponura fascynacja kończy się właśnie teraz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0104.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I'll pretend I didn't hear anything.",
+    "RUS": "Сделаю вид, что ничего не знаю.",
+    "POL": "Udam, że nic nie słyszał[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0106.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Dark Theaters for Dark Deeds",
+    "RUS": "Темная сцена для темных дел",
+    "POL": "Mroczne miejsca dla mrocznych czynów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0106.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Twilight in court, the executioner has slumped out of [executioner.GetHerHis] dreary dwellings and presented [executioner.GetHerselfHimself] by the light of the court braziers, fresh blood staining [executioner.GetHerHis] tattered apparel and a grimy pair of pliers dripping in hand. “M'[ROOT.Char.GetLadyLord], as of late, I've been thinking. How far can I go when making them scream?”",
+    "RUS": "Когда на двор опустились сумерки, палач [Select_CString(executioner.IsFemale, 'покинула', 'покинул' )] свою жуткую обитель и [Select_CString(executioner.IsFemale, 'явила', 'явил' )] себя свету жаровен в окровавленной одежде и с пыточными клещами в руке. «[ROOT.Char.GetLadyLord|U], в последнее время я часто думаю над тем, как далеко могу зайти, чтобы заставить допрашиваемого кричать?»",
+    "POL": "Gdy zmierzch zapadł na dworze, [Select_CString( executioner.IsFemale, 'kobieta kat wyszła', 'kat wyszedł' )] ze swoich ponurych siedzib i zaprezentował[Select_CString( executioner.IsFemale, 'a', '' )] się przy świetle dworskich palenisk. Świeża krew plami [executioner.GetHerHis] potarganą odzież, a w rękach znajduje się para zakrwawionych szczypiec. „M[Select_CString( executioner.IsFemale, 'oja pani', 'ój panie' )], ostatnio tak sobie [Select_CString( executioner.IsFemale, 'myślałam', 'myślałem' )]… Jak daleko mogę się posunąć, gdy zmuszam ich do krzyku?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0106.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Anything to extract a confession.",
+    "RUS": "Делайте что угодно, лишь бы выдавить признание.",
+    "POL": "Tak daleko, jak trzeba, by wymusić przyznanie się do winy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0106.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Be gentle on these poor wretched souls.",
+    "RUS": "Проявите сострадание к бедным грешникам.",
+    "POL": "Bądź łagodn[Select_CString( executioner.IsFemale, 'a', 'y' )] dla tych biednych, nieszczęsnych dusz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0106.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "What you do in that dreadful place is your business.",
+    "RUS": "Мне нет дела до того, чем вы занимаетесь в этом жутком месте.",
+    "POL": "To, co zrobisz w tym strasznym miejscu, to twoja sprawa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[unruly_child.GetNameNoTooltip] in Despair",
+    "RUS": "[unruly_child.GetNameNoTooltip] в отчаянии",
+    "POL": "[unruly_child.GetNameNoTooltip] w rozpaczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "From my throne, I hear the visceral cries of [unruly_child.Custom2('MyCharacterIntroduction', ROOT.Char)] and the sounds of a struggle. Promptly bolting up and racing down the hallway, I skid to a stop when I see [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)] restraining the poor [unruly_child.Custom('GetLassLad')] with one arm and awkwardly clutching a book with the other.\\n\\nI barely have time to bark a demand for explanation when both begin blurting out their version of events.\\n\\n",
+    "RUS": "Я сижу на престоле, когда до меня вдруг доносятся душераздирающие вопли и звуки борьбы. Это же [unruly_child.Custom2('MyCharacterIntroduction', ROOT.Char)]! Я немедленно вскакиваю и бегу по коридору, где вижу странную картину: [Select_CString(unruly_child.IsFemale, 'несчастная', 'несчастный' )] [unruly_child.Custom('GetLassLad')] ожесточенно вырывается, а [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)] всеми силами пытается удержать [SCOPE.sC('unruly_child').GetHerHis] одной рукой. Во второй руке неловко зажата книга.\\n\\nЕдва я требую объяснений, как оба выпаливают свои версии произошедшего.\\n\\n«[unruly_child.GetName] сопротивляется любым попыткам зачитать [unruly_child.GetHerHim] мое произведение искусства, а ведь его тема — как раз [tutor.Custom('GetTutorEducation')]!» — жалуется [Select_CString(tutor.IsFemale, 'наставница', 'наставник' )].\\n\\n«Да я тысячу раз уже [Select_CString(unruly_child.IsFemale, 'слышала', 'слышал' )] эту #EMP скукотищу#!! — протестует [unruly_child.GetName]. — От нее даже мухи засыпают!»",
+    "POL": "Siedząc na tronie, słyszę odgłosy jakiejś sprzeczki i głośny płacz. Uświadamiam sobie, że to [unruly_child.Custom2('MyCharacterIntroduction', ROOT.Char)], zrywam się więc na nogi, pędzę przez korytarz i na końcu zastaję taki obraz: [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)] przytrzymuje biedne dziecko jedną ręką, podczas gdy w drugiej trzyma nieporęcznie jakąś książkę.\\n\\nZanim udało mi się wydukać prośbę o wyjaśnienia, obie strony konfliktu zaczęły głośno przedstawiać swoje wersje wydarzeń.\\n\\n– [unruly_child.GetTitledFirstNameNoTooltip] opiera się wszelkim próbom przeczytania [unruly_child.Custom('PL_mu_jej')] mojego arcydzieła pt. „[tutor.Custom('GetTutorEducation')|U] a życie”! – skarży się pedagog.\\n\\n– Czytamy tę drętwą książkę już setny raz! – protestuje [unruly_child.GetNameNoTooltip]. – Jest taka #EMP nudna#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[unruly_child.GetNameNoTooltip], trust that [tutor.GetNameNoTooltip] knows best.",
+    "RUS": "[unruly_child.GetNameNoTooltip], пойми, что [tutor.GetNameNoTooltip] знает, что говорит.",
+    "POL": "[unruly_child.GetNameNoTooltip], [tutor.GetNameNoTooltip] wie lepiej, zaufaj [tutor.GetHerHim].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.a.tt.1",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "There's a chance [unruly_child.GetShortUINamePossessiveNoTooltip] education will improve",
+    "RUS": "Есть шанс, что [unruly_child.GetShortUINameNoTooltip] начнет получать более основательное образование",
+    "POL": "Istnieje szansa, że edukacja osoby znanej jako [unruly_child.GetShortUINameNotMeNoTooltip] przyniesie lepsze rezultaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.a.tt.2",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[tutor.GetShortUINameNoTooltip] will work even harder as [GetCourtPositionType('court_tutor_court_position').GetName()]",
+    "RUS": "[tutor.GetShortUINameNoTooltip] будет усерднее исполнять свои обязанности, как [GetCourtPositionType('court_tutor_court_position').GetName()|l]",
+    "POL": "[tutor.GetShortUINameNotMeNoTooltip] będzie pracować jeszcze ciężej jako [GetCourtPositionType('court_tutor_court_position').GetName()|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "This book sounds fascinating; perhaps I could buy it from you?",
+    "RUS": "По-моему, чудесная книга, может быть, мне стоит приобрести ее?",
+    "POL": "Ta książka brzmi fascynująco; m[Select_CString( ROOT.Char.IsFemale, 'ogłabym', 'ógłbym' )] ją od ciebie odkupić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_liege_support",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Liege's Support",
+    "RUS": "Поддержка сюзерена",
+    "POL": "Wsparcie seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You gain a Book Artifact",
+    "RUS": "Вы получаете артефакт — книгу",
+    "POL": "Zdobywasz artefakt książkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0107.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Perhaps the [unruly_child.Custom('GetLassLad')] should learn something else...",
+    "RUS": "Может, пусть [unruly_child.Custom('GetLassLad')] учится чему-то другому?",
+    "POL": "Może [Select_CString( unruly_child.IsFemale, 'dziewczyna powinna', 'chłopak powinien' )] uczyć się czegoś innego…",
+    "BEL": ""
+  },
+  {
+    "KEY": "buy_book_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You gain a Book [court_artifact|E]",
+    "RUS": "Вы получаете [court_artifact|El] — книгу",
+    "POL": "Zdobywasz [court_artifact|El] książkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0108.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A Spectacular Courtier",
+    "RUS": "Импозантный придворный",
+    "POL": "Widowiskow[Select_CString(foreign_prince.IsFemale, 'a dworzanka', 'y dworzanin' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0108.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Claiming to be an exile from a faraway land, [foreign_prince.Custom('GetPrincessPrince')] [foreign_prince.GetName] has appeared in court accompanied by a vast array of exotic animals and has already performed incredible works of charity throughout the streets of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\\n\\nThe magnanimously wealthy foreigner has declared [foreign_prince.GetHerHis] intent to marry [available_child.Custom2('MyCharacterIntroduction', ROOT.Char)]!\\n\\nAs much as the court is abuzz with enthusiasm for this exotic [foreign_prince.Custom('GetPrincessPrince')], not everyone is convinced. [sceptical_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] claims to have never heard of the distant land the foreigner claims to be from and cannot find it on any maps.\\n\\n[sceptical_courtier.GetSheHe|U], along with several other like-minded followers, has denounced [foreign_prince.Custom('GetPrincessPrince')] [foreign_prince.GetName] as a charlatan and insists that we punish [foreign_prince.GetHerHim] for attempting to deceive [available_child.GetName] into marrying a #EMP lowborn#!.",
+    "RUS": "[foreign_prince.GetName], [Select_CString(foreign_prince.IsFemale, 'которая', 'который' )] утверждает, будто [SCOPE.sCharacter('foreign_prince').GetSheHe] — [foreign_prince.Custom('GetPrincessPrince')] в изгнании из далекой страны, [Select_CString(foreign_prince.IsFemale, 'прибыла', 'прибыл' )] ко двору с целым экзотическим зверинцем. [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] полнится слухами о [SCOPE.sC('foreign_prince').GetHerHis] щедрости!\\n\\n[Select_CString(foreign_prince.IsFemale, 'Богатая и великодушная чужеземка заявила', 'Богатый и великодушный чужеземец заявил' )], что намеревается вступить в брак, и целью [foreign_prince.GetHerHis] намерений [Select_CString(available_child.IsFemale, 'стала не кто иная', 'стал не кто иной' )], как [available_child.Custom2('MyCharacterIntroduction', ROOT.Char)]!\\n\\nИ хотя [Select_CString(foreign_prince.IsFemale, 'экзотическая', 'экзотический' )] [foreign_prince.Custom('GetPrincessPrince')] вызывает при дворе восхищение, с доверием все не так просто. [sceptical_courtier.GetName] утверждает, что края, в котором будто бы [Select_CString(foreign_prince.IsFemale, 'родилась чужеземка', 'родился чужеземец' )], нет ни на одной карте.\\n\\n[sceptical_courtier.GetSheHe|U], пользуясь поддержкой единомышленников, заявляет, что [foreign_prince.Custom('GetPrincessPrince')] [foreign_prince.GetName] — [Select_CString(foreign_prince.IsFemale, 'мошенница', 'мошенник' )] и требует суровой кары. Шутка ли, [available_child.GetName] [Select_CString(available_child.IsFemale, 'могла', 'мог' )] осквернить нашу династию браком с #EMP [Select_CString(foreign_prince.IsFemale, 'простолюдинкой', 'простолюдином' )]#!.",
+    "POL": "Podając się za wygnańca z odległej krainy, [foreign_prince.Custom('GetPrincessPrince')|l] [foreign_prince.GetName] pojawił[Select_CString(foreign_prince.IsFemale, 'a', '' )] na dworze w towarzystwie ogromnej ilości egzotycznych zwierząt i już dokonał[Select_CString(foreign_prince.IsFemale, 'a', '' )] niesamowitych aktów miłosierdzia na ulicach miasta znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\\n\\nWspaniałomyślnie bogat[Select_CString(foreign_prince.IsFemale, 'a cudzoziemka oświadczyła', 'y cudzoziemiec oświadczył' )], że pragnie by [available_child.Custom2('MyCharacterIntroduction', ROOT.Char)] został[Select_CString(available_child.IsFemale, 'a', '' )] [foreign_prince.GetHerHis] [Select_CString(available_child.IsFemale, 'żoną', 'mężem' )]!\\n\\nO ile dwór jest pełen entuzjazmu dla tej egzotyczne[Select_CString(foreign_prince.IsFemale, 'j księżniczki', 'go księcia' )], nie wszyscy są przekonani. [sceptical_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] twierdzi, że nigdy nie słyszał[Select_CString(sceptical_courtier.IsFemale, 'a', '' )] o odległej krainie, z której rzekomo pochodzi cudzoziem[Select_CString(foreign_prince.IsFemale, 'ka', 'iec' )] i nie może jej znaleźć na żadnych mapach.\\n\\nWraz z kilkoma innymi podobnie myślącymi poplecznikami, potępił[Select_CString(sceptical_courtier.IsFemale, 'a', '' )] księ[Select_CString(foreign_prince.IsFemale, 'żniczkę jako szarlatankę', 'cia jako szarlatana' )] i nalega, abyśmy ukarali [Select_CString(foreign_prince.IsFemale, 'ją', 'go' )] za próbę oszustwa, za sprawą którego [available_child.GetName] miał[Select_CString(available_child.IsFemale, 'aby', 'by' )] poślubić osobę #EMP nisko urodzoną#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0108.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Don't be a killjoy, [sceptical_courtier.GetNameNoTooltip]. They shall marry in the morning!",
+    "RUS": "Не порть людям удовольствие, [sceptical_courtier.GetNameNoTooltip]. С утра же они поженятся!",
+    "POL": "Nie bądź złośliw[Select_CString( sceptical_courtier.IsFemale, 'a', 'y' )], [sceptical_courtier.GetNameNoTooltip]. Pobiorą się rano!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0108.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[sceptical_courtier.GetNameNoTooltip] is right! To the dungeon with [foreign_prince.GetHerHim]!",
+    "RUS": "[sceptical_courtier.GetNameNoTooltip] [Select_CString(sceptical_courtier.IsFemale, 'права', 'прав' )]! Бросить [foreign_prince.GetHerHis] в темницу!",
+    "POL": "[sceptical_courtier.GetNameNoTooltip] ma rację! Do lochu z ni[Select_CString( foreign_prince.IsFemale, 'ą', 'm' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0108.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Thank you for the visit, [foreign_prince.Custom('GetPrincessPrince')] [foreign_prince.GetFirstNameNoTooltip], but you should leave.",
+    "RUS": "Поблагодарите [foreign_prince.GetHerHis] за визит и попросите уйти.",
+    "POL": "Dziękuję za twoja wizytę, [Select_CString( foreign_prince.IsFemale, 'księżno', 'księciu' )] [foreign_prince.GetFirstNameNoTooltip], ale powin[Select_CString( foreign_prince.IsFemale, 'naś', 'ieneś' )] wyjechać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "An Anatomical Expert",
+    "RUS": "Дока в анатомии",
+    "POL": "Ekspert[Select_CString(executioner.IsFemale, 'ka', '' )] od anatomii",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "As I wander around my court, I hear [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)], making conversation with [learned_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] about the nature of healing and medicine. [executioner.GetSheHe|U] seems remarkably familiar with the workings of the human body.\\n\\n",
+    "RUS": "Прогуливаясь по двору, я слышу нечто весьма удивительное. [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] и [learned_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] беседуют о лекарствах и природе целительства. [Select_CString(executioner.IsFemale, 'Ее', 'Его' )] познания об устройстве человеческого тела просто удивительны.\\n\\n«Когда все время режешь людей, начинаешь мало-помалу понимать, какими мы должны быть по замыслу [executioner.GetFaith.HighGodNamePossessive]», — говорит [Select_CString(executioner.IsFemale, 'она', 'он' )], завершая рассказ о том, как лечить воспалившиеся раны пиявками.\\n\\nПохоже, свои познания в человеческой анатомии [executioner.GetNameNoTooltip] использует, чтобы помогать местным жителям и даже врачует худородных обитателей моих темниц.",
+    "POL": "Gdy wędruję po swoim dworze, słyszę, jak [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] i [learned_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] prowadzą rozmowę o naturze leczenia i medycyny. [executioner.GetNameNoTooltip] wydaje się znać niezwykle dobrze na funkcjonowaniu ludzkiego ciała.\\n\\n– Spędzając całe dni na rozcinaniu ludzi, zawsze można dowiedzieć się co nieco o działaniu stworzenia [executioner.GetFaith.HighGodNamePossessive] – mówi, opisawszy swoje metody użycia pijawek do oczyszczenia zgnilizny z zainfekowanej rany.\\n\\nWygląda na to, że [executioner.GetNameNoTooltip] używa swojej wiedzy na temat anatomii człowieka, aby nieść pomoc mieszkańcom miejsca o nazwie [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], a nawet szumowinom w moim lochu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You are wasted as an executioner! Come be my physician!",
+    "RUS": "Какой талант прозябает в безвестности! Бросай палаческий труд, будь моим врачом!",
+    "POL": "Marnujesz się jako kat! Bądź mo[Select_CString( executioner.IsFemale, 'ją nadworną medyczką', 'im nadwornym medykiem' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Do not waste your time on healing these lowlifes!",
+    "RUS": "Не трать время на эту бедноту!",
+    "POL": "Nie trać czasu na leczenie tych szumowin!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Fascinating, perhaps you may tutor me in some of your methods.",
+    "RUS": "Крайне занимательно! Поделишься со мной кое-какими приемами?",
+    "POL": "Fascynujące, może nauczysz mnie niektórych ze swoich metod.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0109.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Good work! Continue serving the sick and needy of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].",
+    "RUS": "Прекрасная работа! [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] нуждается в таких опытных и щедрых врачах.",
+    "POL": "Dobra robota! Kontynuuj służbę chorym i potrzebującym z miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A Lecture on Lustfulness",
+    "RUS": "Нотации о похоти",
+    "POL": "Lekcja o pożądaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I am strutting around my court, satisfied with another night filled with lust and passion when I find myself cornered by [parent.Custom2('MyCharacterIntroduction', ROOT.Char)] and [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]! They each eye me up with a look somewhere between disgust, predation, and concern.\\n",
+    "RUS": "Я прогуливаюсь по двору, смакуя воспоминания о минувшей ночи, полной страсти и похоти. Внезапно передо мной как из-под земли вырастают [parent.Custom2('MyCharacterIntroduction', ROOT.Char)] и [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]! Оба глядят на меня со смесью отвращения, злости и тревоги.\\n«Что все это значит?» — требую я ответа.\\n\\n",
+    "POL": "Przechadzam się po moim dworze, zadowolon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] z kolejnej nocy wypełnionej żądzą i namiętnością, kiedy wpadam w sidła, które zastawi[Select_CString( And(chaplain.IsFemale, parent.IsFemale), 'ły','li')] na mnie [parent.Custom2('MyCharacterIntroduction', ROOT.Char)] i [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]! Każd[Select_CString( And(chaplain.IsFemale, parent.IsFemale), 'a','y')] z nich przygląda mi się z miną gdzieś pomiędzy obrzydzeniem, drapieżnością i troską.\\n„Co to ma znaczyć?” – pytam.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.desc.deviant",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«О, [ROOT.Char.Custom('GetDaughterSon')] [Select_CString(ROOT.Char.IsFemale, 'моя', 'мой' )], я очень волнуюсь о твоей душе. Каждую ночь ты предаешься животным страстям с таким упоением, что [ROOT.Char.GetFaith.FertilityGodName] вот-вот с омерзением отвернется от тебя».",
+    "POL": "„O [Select_CString( ROOT.Char.IsFemale, 'córko moja', 'synu mój' )], bardzo się martwię o twoją duszę. Każdej nocy dopuszczasz się aktów bestialstwa, które sprawiłyby, że [ROOT.Char.GetFaith.FertilityGodName] [Select_CString(EqualTo_string(ROOT.Char.GetFaith.FertilityGodSheHe, 'ona' ), 'odwróciłaby', 'odwróciłby' )] się ze wstrętem”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.desc.pox",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«В твоей постели бывает больше людей, чем блох в шерсти иного пса. Боюсь, что когда ты утолишь свою страсть, герпес будет меньшей из твоих бед».",
+    "POL": "„Masz więcej kochan[Select_CString( ROOT.Char.IsFemale, 'ków', 'ek' )] niż dziki pies pcheł. Obawiam się, że ospa kochan[Select_CString( ROOT.Char.IsFemale, 'ka', 'ki' )] może nie być jedyną rzeczą, która zabarwi twoje ciało, gdy twoja żądza zostanie zaspokojona”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.desc.notspecial",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Твое тело — храм, а ты превращаешь его в бордель! Сколько нечестивых связей нужно, чтобы заполнить алчную дыру, что зияет на месте твоей души?»",
+    "POL": "„Twoje ciało jest świątynią, a jednak traktujesz je jak burdel! Czy kiedykolwiek znajdzie się wystarczająco dużo kochan[Select_CString( ROOT.Char.IsFemale, 'ków', 'nek' )], by zaspokoić tę dziurę, w której powinna być twoja dusza?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "My [parent.GetMotherFather] chastises me with little remorse.\\n\\n",
+    "RUS": "[parent.GetMotherFather|U] говорит с обидой и укором.\\n\\n«Ты каждую ночь тянешься к земным благам, забыв о высшем, но [ROOT.Char.GetFaith.NegativeAfterLife] все ближе!» — добавляет [chaplain.GetNameNoTooltip]. «Мы пришли, чтобы спасти твою душу, дорогое дитя. Принеси обет безбрачия — иного пути избавить твою душу от вечных мук уже не осталось».",
+    "POL": "[parent.GetMotherFather|U] karci mnie, starając się wywołać u mnie wyrzuty sumienia.\\n\\n– Każdej nocy, kiedy oddajesz się tym ziemskim rozkoszom, przybliżasz się o krok do miejsca wiecznej kaźni, które znamy jako [ROOT.Char.GetFaith.NegativeAfterLife]! – dodaje [chaplain.GetNameNoTooltip]. – Chcemy ocalić twoją duszę, drogie dziecko. Musisz złożyć śluby celibatu, gdyż tylko to i nic innego może ocalić twoją duszę od wiecznej udręki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "What insolence! To the dungeon!",
+    "RUS": "Какая дерзость! В темницу!",
+    "POL": "Co za bezczelność! Do lochu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You are right, I fear for my immortal soul.",
+    "RUS": "Вы правы, я опасаюсь за свою бессмертную душу.",
+    "POL": "Masz rację, boję się o swoją nieśmiertelną duszę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0110.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I shall not be confined to sensual imprisonment!",
+    "RUS": "Я не собираюсь запирать свои чувства!",
+    "POL": "Nie pozwolę zniewolić moich zmysłowych pragnień!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0111.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A Relic of Revenge",
+    "RUS": "Предмет мести",
+    "POL": "Relikwia spełnionej zemsty",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0111.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "As I wander the court, I find myself running into a heated discussion between [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] and [antiquarian.Custom2('MyCharacterIntroduction', ROOT.Char)] over whether or not the skull of [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] would make for a fitting artifact for my court.\\n\\n",
+    "RUS": "Во время прогулки по двору я слышу оживленный разговор. [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] и [antiquarian.Custom2('MyCharacterIntroduction', ROOT.Char)] с жаром спорят, насколько хорошим подарком к моему двору станет [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] — вернее, [rival.GetHerHis] череп.\\n\\n«А, [ROOT.Char.Custom('FormOfAddressForLiege')], я тут говорю, что ежели [rival.GetTitledFirstNameNoTooltip] ни с того ни с сего отдаст концы, так я могу подарить вам [rival.GetHerHis] черепушку». — [executioner.GetName] с детским восторгом потирает пропитанные кровью руки. — «А можно зубы [rival.GetHerHis] взять и сделать модное ожерельице!»\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], — протестует [antiquarian.GetTitledFirstNameNoTooltip], — вы ведь не станете всерьез поручать мне превращение столь мрачной вещи в артефакт, достойный вашего двора! Быть может, этому... существу вообще не стоит выходить из своих подвалов, а реликвиями пусть занимаются те, кто имеет о них хоть малейшее понятие?»",
+    "POL": "Gdy przechadzam się po dworze, napotykam na gorącą dyskusję, w której udział biorą [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] oraz [antiquarian.Custom2('MyCharacterIntroduction', ROOT.Char)]. Spierają się o to, czy czaszka kogoś takiego jak [rival.Custom2('MyCharacterIntroduction', ROOT.Char)] będzie odpowiednim artefaktem dla mojego dworu.\\n\\n– Ach, wasza czcigodność, chcę dać ci tę oto czaszkę jako prezent, z racji tego, że osoba znana jako [rival.GetTitledFirstNameNoTooltip] zmarła przedwcześnie. – [executioner.GetName] pociera swoje zakrwawione dłonie z dziecięcą radością.\\n\\n– A może [rival.GetHerHis] zęby posłużą za elementy jakiegoś fikuśnego naszyjnika!?\\n\\n– Z pewnością nie chce [ROOT.Char.Custom('FormOfAddressForLiege')], by taki anormalny przedmiot został przerobiony na relikwię godną tego dworu! – protestuje [antiquarian.GetTitledFirstNameNoTooltip]. – Być może ta kreatura powinna pozostać w lochach, gdzie jest jej miejsce, a sprawę relikwii i antyków lepiej pozostawić ekspertom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0111.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "[rival.GetHerHis|U] skull would make for a fine curiosity to unveil at feasts!",
+    "RUS": "[rival.GetHerHis|U] череп украсит любой пир!",
+    "POL": "[rival.GetHerHis|U] czaszka stanie się świetną ciekawostką do zaprezentowania na ucztach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0111.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "An utterly grotesque idea.",
+    "RUS": "Совершенно чудовищная мысль.",
+    "POL": "Całkowicie groteskowy pomysł.",
+    "BEL": ""
+  },
+  {
+    "KEY": "get_skull_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You gain a Skull [court_artifact|E]",
+    "RUS": "Вы получаете [court_artifact|El] — череп",
+    "POL": "Zyskujesz [court_artifact|El] – czaszkę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "A Closeted Cadaver",
+    "RUS": "Скелет в шкафу",
+    "POL": "Zwłoki w zamknięciu",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "I find myself venturing deep into my illustrious wardrobe, hungry for what magnificent fabrics lie closer to the back. I find a tartan bag, far heavier than any others, and upon slicing it open, fall backwards on myself as the potent stench of a rotting corpse flares at my nostrils.\\n\\nThe body of a stranger, partially decomposed, mummified, and sitting in a pool of [corpse.GetHerHis] own juices, yawns slowly out at me.\\n\\nI shriek like a babe, and as if summoned by my call, [guilty_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] appears in the doorway, a knowing look of guilt and revulsion writ across [guilty_courtier.GetHerHis] face.\\n\\n",
+    "RUS": "Недра моего гардероба манят все сильнее: я предвкушаю, какие сокровища, должно быть, висят в задних рядах. И вот я нахожу мешок из шотландки, но он куда тяжелее остальных. Едва разрезав клетчатую ткань, я отшатываюсь и падаю, не в силах вынести убийственную вонь гниющего трупа.\\n\\nНадо мной нависает тело незнакомца, частично разложившееся, иссохшее, сидящее в луже собственных жидкостей.\\n\\nИз моего горла вырывается детский визг, и в дверном проеме немедленно возникает [guilty_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] со знакомым выражением вины и омерзения на лице.\\n\\n«Умоляю, [ROOT.Char.Custom('FormOfAddressForLiege')], поверьте, это была самозащита! [corpse.GetName] [Select_CString(corpse.IsFemale, 'вломилась', 'вломился' )] в ваши покои и, если бы я [Select_CString(guilty_courtier.IsFemale, 'стояла', 'стоял' )] сложа руки, [Select_CString(corpse.IsFemale, 'убила', 'убил' )] меня... или [Select_CString(corpse.IsFemale, 'сотворила', 'сотворил' )] бы [guilty_courtier.GetFaith.HighGodName] знает что!»\\n\\nОчевидно, [guilty_courtier.GetNameNoTooltip] настолько [Select_CString(guilty_courtier.IsFemale, 'поглощена', 'поглощен' )] виной, что и не собирается оправдываться. «Прошу вас, пусть об этом никто не узнает, а я обещаю заказать вам такое одеяние, что и [Select_CString(ROOT.Char.IsFemale, 'самая богатая', 'самый богатый' )] [ROOT.Char.GetTitleAsNameNoTooltip|l] позеленеет от зависти!»",
+    "POL": "Coraz bardziej zagłębiam się w mojej wspaniałej garderobie, chcąc dowiedzieć się, jakież to wspaniałe tkaniny kryją się w jej tylnej części. Nagle natrafiam na kraciasty wór znacznie cięższy od innych, a gdy go otwieram, odruchowo upadam do tyłu, nie mogąc znieść morderczego smrodu gnijących zwłok.\\n\\nCiało obcego mi człowieka – częściowo w fazie rozkładu, zmumifikowane i pływające w kałuży własnych płynów ustrojowych – powoli przewraca się w moją stronę.\\n\\nZ mojego gardła wyrywa się niemowlęcy pisk i, jakby na zawołanie, w drzwiach pojawia się [guilty_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] z winą i obrzydzeniem wymalowanymi na twarzy.\\n\\n– Musi mi [ROOT.Char.Custom('FormOfAddressForLiege')] uwierzyć, że to było działanie w obronie własnej! Ta osoba włamała się do komnat waszej mości i, gdyby nie moja reakcja, zabiłaby mnie i tylko [guilty_courtier.GetFaith.HighGodName] wie, co jeszcze by zrobiła!\\n\\nWygląda na to, że [guilty_courtier.GetNameNoTooltip] ma ogromne wyrzuty sumienia, skoro od razu do wszystkiego się przyznaje.\\n\\n– Błagam, niech wasza mość zgodzi się udawać, że o niczym nie wie, a otrzyma ode mnie szatę tak wspaniałą, że nawet [ROOT.Char.GetTitleAsNameNoTooltip] o największym majątku zzielenieje z zazdrości!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Green as this body? A good deal.",
+    "RUS": "Позеленеет, как этот труп? Отличная идея.",
+    "POL": "Zzielenieje jak te zwłoki? Wchodzę w to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You gain a Regalia Artifact",
+    "RUS": "Вы получаете артефакт — регалии",
+    "POL": "Zyskujesz artefakt – regalia",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Soon all of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] will know what you've done!",
+    "RUS": "Скоро [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] узнает о твоем преступлении!",
+    "POL": "Wszyscy mieszkańcy stolicy obszaru znanego jako [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] dowiedzą się o twoich postępkach!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.0112.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "Let us never speak of this again.",
+    "RUS": "Давай забудем об этом навсегда.",
+    "POL": "Zapomnijmy o tym na dobre.",
+    "BEL": ""
+  },
+  {
+    "KEY": "get_regalia_artifact",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_events_james_l_belarusian.json",
+    "ENG": "You gain a Regalia [artifact|E]",
+    "RUS": "Вы получаете [artifact|El] — регалии",
+    "POL": "Zyskujesz [artifact|El] – regalia",
+    "BEL": ""
+  }
+]

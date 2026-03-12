@@ -1,0 +1,722 @@
+[
+  {
+    "KEY": "scheme_odds.misc_is_herder",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target.GetFirstName] is a [herder|E]",
+    "RUS": "[target.GetFirstName] — [Concept('herder', 'пастух')|E]",
+    "POL": "[target.GetFirstName] jest [Concept('herder', 'pasterzem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_agent_aptitude.is_herder",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Is a [herder|E]",
+    "RUS": "[Concept('herder', 'Пастух')|E]",
+    "POL": "Jest [Concept('herder', 'pasterzem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "SCHEME_STEAL_HERD_IS_HERDER",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$scheme_odds.misc_is_herder$: $VALUE|=+0$",
+    "RUS": "$scheme_odds.misc_is_herder$: $VALUE|=+0$",
+    "POL": "$scheme_odds.misc_is_herder$: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SCHEME_STEAL_HERD_GALLOWSBAIT",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[GetTrait('gallowsbait').GetName( GetNullCharacter )]: $VALUE|=+0$",
+    "RUS": "[GetTrait('gallowsbait').GetName( GetNullCharacter )]: $VALUE|=+0$",
+    "POL": "[GetTrait('gallowsbait').GetName( GetNullCharacter )]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "SCHEME_STEAL_HERD_AMOUNT",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[herd|E] amount: $VALUE|=+0$",
+    "RUS": "Количество [Concept('herd', 'стад')|E]: $VALUE|=+0$",
+    "POL": "Liczebność [Concept('herd', 'gromady')|E]: $VALUE|=+0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAS_ATTEMPTED_TO_STEAL_HERD_BEFORE",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target.GetShortUIName|U] knows that you have attempted to steal [target.GetHerHis] Herd before: $VALUE|+0=$",
+    "RUS": "[target.GetShortUIName|U] знает, что вы когда-то пытались украсть [Select_CString(target.IsFemale, 'ее', 'его' )] стада: $VALUE|+0=$",
+    "POL": "[target.GetShortUINameNotMe] wie, że masz za sobą próbę kradzieży [target.Custom('PL_jego_jej')] gromady: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "stole_my_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Stole my Herd",
+    "RUS": "Похититель моих стад",
+    "POL": "Skradziono moją gromadę",
+    "BEL": ""
+  },
+  {
+    "KEY": "stole_my_herd_crime",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Stole my Herd",
+    "RUS": "Похититель моих стад",
+    "POL": "Skradziono moją gromadę",
+    "BEL": ""
+  },
+  {
+    "KEY": "stole_lieges_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Stole my Liege's Herd",
+    "RUS": "Похититель стад моего сюзерена",
+    "POL": "Skradziono gromadę mojego seniora",
+    "BEL": ""
+  },
+  {
+    "KEY": "stole_vassals_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Stole my Vassal's Herd",
+    "RUS": "Похититель стад моего вассала",
+    "POL": "Skradziono gromadę mojego wasala",
+    "BEL": ""
+  },
+  {
+    "KEY": "attempted_to_steal_herd_crime",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Attempted to Steal my Herd",
+    "RUS": "Этот человек пытался украсть у меня стада",
+    "POL": "Próbowano ukraść moją gromadę",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Steal Herd",
+    "RUS": "Угнать стадо",
+    "POL": "Ukradnij gromadę",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction_notification",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Steal Herd",
+    "RUS": "Угнать стадо",
+    "POL": "Ukradnij gromadę",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_action",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Steal the Herd of",
+    "RUS": "Угнать стадо персонажа",
+    "POL": "Ukradnij gromadę, której właścicielem jest",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I'll try to steal [herd|E] from [SCHEME.GetTargetCharacter.GetShortUIName]",
+    "RUS": "Я попытаюсь угнать [Concept('herd', 'стада')|E] у персонажа [SCHEME.GetTargetCharacter.GetShortUIName]",
+    "POL": "Spróbuję ukraść [Concept('herd', 'gromadę')|E] osobie, którą jest [SCHEME.GetTargetCharacter.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_desc_general",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "In a Steal Herd [scheme|E], you try to steal [herd|E] from another ruler",
+    "RUS": "[Concept('scheme', 'Происки')|E] «Похищение стада» — это попытка украсть [Concept('herd', 'стада')|E] у другого правителя",
+    "POL": "W ramach [Concept('scheme', 'spisku')|E] „Ukradnij gromadę” próbujesz ukraść [Concept('herd', 'gromadę')|E] innego władcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "@scheme_icon! Steal Herd Scheme Ends",
+    "RUS": "@scheme_icon! Происки «Похищение стада» завершаются",
+    "POL": "@scheme_icon! Zakończono spisek „Ukradnij gromadę”",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_invalidated_war",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Due to your war, you can no longer $steal_herd_action$ [target.GetShortUIName]",
+    "RUS": "Из-за вашей войны вы больше не можете угнать стада персонажа [target.GetShortUIName]",
+    "POL": "Ze względu na toczoną przez ciebie wojnę nie możesz już ukraść gromady, której właścicielem jest [target.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_invalidated_war_target",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Due to [target.GetHerHis] war, you can no longer $steal_herd_action$ [target.GetShortUIName]",
+    "RUS": "Вы больше не можете угнать стада персонажа [target.GetShortUIName] из-за [Select_CString(target.IsFemale, 'ее', 'его' )] войны",
+    "POL": "Ze względu na wojnę, którą toczy [target.GetShortUINameNotMe], nie możesz już ukraść należącej do [target.Custom('PL_niego_niej')] gromady",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_invalidated_no_herd",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Due to [target.GetShortUIName] no longer having any herd, you can no longer $steal_herd_action$ [target.GetShortUIName]",
+    "RUS": "Вы больше не можете угнать стада персонажа [target.GetShortUIName] — у [Select_CString(target.IsFemale, 'нее', 'него' )] не осталось стад",
+    "POL": "Nie możesz ukraść gromady, której właścicielem jest [target.GetShortUINameNotMe], ponieważ nie ma [target.GetSheHe] już ani jednej",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd$",
+    "RUS": "$steal_herd$",
+    "POL": "$steal_herd$",
+    "BEL": ""
+  },
+  {
+    "KEY": "scheme_interaction_tt_steal_herd_approved",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Attempt to steal [herd|E] from [recipient.GetShortUIName]",
+    "RUS": "Попытка угнать [Concept('herd', 'стада')|E] у [Select_CString(recipient.IsLocalPlayer, 'вас', Concatenate('персонажа ',recipient.GetShortUIName))]",
+    "POL": "Spróbuj ukraść [Concept('herd', 'gromadę')|E] osobie, którą jest [recipient.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "schemes.t.herd_amount",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Amount to Steal",
+    "RUS": "Цель кражи",
+    "POL": "Jaką część ukraść?",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_low",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "A #P small#! amount of [herd|E]",
+    "RUS": "#P Малая#! часть [Concept('herd', 'стада')|E]",
+    "POL": "#P Niewielką#! część [Concept('herd', 'gromady')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction.tt.low",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to smuggle a few horses from [recipient.GetShortUINamePossessive] camp\\n\\n[scheme|E] Success Chance: #p +10%#!",
+    "RUS": "Вы пытаетесь увести пару лошадей из лагеря персонажа [recipient.GetShortUIName]\\n\\nШанс на успех [Concept('scheme', 'происков')|E]: #p +10%#!",
+    "POL": "Próbujesz przemycić kilka koni z obozu, którego właścicielem jest [recipient.GetShortUINameNotMe]\\n\\nSzansa powodzenia [Concept('scheme', 'spisku')|E]: #p +10%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_normal",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "A #color_yellow moderate#! amount of [herd|E]",
+    "RUS": "#color_yellow Средняя#! часть [Concept('herd', 'стада')|E]",
+    "POL": "#color_yellow Umiarkowaną#! część [Concept('herd', 'gromady')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction.tt.normal",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to capture a sizeable portion of [recipient.GetShortUINamePossessive] flock\\n\\n[scheme|E] Success Chance will #bold not#! be affected",
+    "RUS": "Вы пытаетесь угнать внушительную часть табуна персонажа [recipient.GetShortUIName]\\n\\nШанс на успех [Concept('scheme', 'происков')|E] #bold не#! изменится",
+    "POL": "Próbujesz zdobyć znaczną część stada, którego właścicielem jest [recipient.GetShortUINameNotMe]\\n\\nSzansa powodzenia [Concept('scheme', 'spisku')|E] #bold nie#! ulegnie zmianie",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_high",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "A #n large#! amount of [herd|E]",
+    "RUS": "#n Большая#! часть [Concept('herd', 'стада')|E]",
+    "POL": "#n Większą#! część [Concept('herd', 'gromady')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction.tt.high",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to steal a great deal of [recipient.GetShortUINamePossessive] [herd|E]\\n\\n[scheme|E] Success Chance: #n -10%#!",
+    "RUS": "Вы пытаетесь угнать огромную часть [Concept('herd', 'стада')|E] персонажа [recipient.GetShortUIName]\\n\\nШанс на успех [Concept('scheme', 'происков')|E]: #n -10%#!",
+    "POL": "Próbujesz ukraść większość [Concept('herd', 'gromady')|E], której właścicielem jest [recipient.GetShortUINameNotMe]\\n\\nSzansa powodzenia [Concept('scheme', 'spisku')|E]: #n -10%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_blocked_target_none",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[TARGET_CHARACTER.GetName] has no [herd|E]",
+    "RUS": "У [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'вас', Concatenate('персонажа ',TARGET_CHARACTER.GetShortUIName))] нет [Concept('herd', 'стад')|E]",
+    "POL": "[TARGET_CHARACTER.GetName] nie ma [Concept('herd', 'gromady')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_interaction_tt.warning",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "#warning @warning_icon! Successfully stealing will put you at or above your [herd|E] Capacity#!",
+    "RUS": "#warning @warning_icon! Если угон пройдет успешно, вы достигнете максимальной величины [Concept('herd', 'стад')|E] или превысите ее#!",
+    "POL": "#warning @warning_icon! Udana kradzież spowoduje osiągnięcie lub przekroczenie twojego limitu [Concept('herd', 'gromady')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_vassal_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Every [powerful_vassal|E] of [target.GetShortUIName]:\\n$EFFECT_LIST_BULLET$Loses #n 15#! [opinion|E] of #V you#! #weak (-0.60/year) (Stole my Liege's Herd)#!",
+    "RUS": "Каждый [Concept('powerful_vassal', 'могущественный вассал')|E] в [Select_CString(target.IsLocalPlayer, 'вашем распоряжении', Concatenate('распоряжении персонажа ',target.GetShortUIName))]:\\n$EFFECT_LIST_BULLET$Теряет #n 15#! ед. [Concept('opinion', 'мнения')|E] о #V вас#! #weak (-0.60/year) (Похититель стад моего сюзерена)#!",
+    "POL": "Każdy [powerful_vassal|El] osoby, którą jest [target.GetShortUINameNotMe]:\\n$EFFECT_LIST_BULLET$ Traci #n 15#! pkt [Concept('opinion', 'opinii')|E] o #V tobie#! #weak (-0,60/rok) („Skradziono gromadę mojego seniora”)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_event_title",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Steal Herd:",
+    "RUS": "Похищение стада:",
+    "POL": "Kradzież gromady:",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1001.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd_event_title$ Success!",
+    "RUS": "$steal_herd_event_title$ успех!",
+    "POL": "$steal_herd_event_title$ sukces!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))], [courtier.GetName], trots into the camp pridefully. Trailing [courtier.GetHerHim], an unfamiliar shepherd guides livestock towards me.\\n\\n",
+    "RUS": "[Select_CString(courtier.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))] [courtier.GetName] горделивой походкой входит в лагерь. За [Select_CString(courtier.IsFemale, 'ней', 'ним' )] следует незнакомый пастух, который подводит ко мне несколько голов скота.\\n\\n«[target.GetTitledFirstName] шлет „подарок“!» — восклицает [courtier.GetName]. И пока я указываю пастуху, куда отвести новых животных, я невольно ухмыляюсь. Стадо растет, а мне для этого не пришлось и пальцем о палец ударить.",
+    "POL": "[courtier.GetName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))], dumnie wjeżdża kłusem do obozu. W ślad za [courtier.Custom('PL_nim_nia')] nieznajomy pasterz prowadzi w moją stronę żywy inwentarz.\\n\\n– To z obozu, którego właścicielem jest [target.GetTitledFirstName]! – woła. Gdy przekierowuję dostawę nowych zwierząt, na twarz wstępuje mi chytry uśmiech. Moja gromada rośnie w siłę i to niewielkim kosztem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1001.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I'm grateful for your 'generosity', [target.GetFirstNameNoTooltip]!",
+    "RUS": "Спасибо за «щедрость», [target.GetFirstNameNoTooltip]!",
+    "POL": "[target.GetFirstNameNoTooltip], dziękuję za twoją „szczodrość”!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[courtier.GetSheHe|U] delves into the details our thievery, including our mastery over [target.GetFirstNamePossessiveNoTooltip] defenses. Because we infiltrated [target.GetFirstNamePossessiveNoTooltip] camp with such ease, I wonder what else I can take from [target.GetHerHis] grasp...",
+    "RUS": "[Select_CString(courtier.IsFemale, 'Она', 'Он' )] в подробностях рассказывает о краже, смакуя моменты, когда становилось особенно ясно, насколько [Select_CString(target.IsFemale, 'беззащитна', 'беззащитен' )] перед нами [target.GetFirstNameNoTooltip]. А если мы так легко проникли к [Select_CString(target.IsFemale, 'ней', 'нему' )] в лагерь, интересно, что еще можно у [Select_CString(target.IsFemale, 'нее', 'него' )] прихватить...",
+    "POL": "[courtier.GetName] zagłębia się w szczegóły dokonanej kradzieży, opisując też naszą przewagę nad obroną, którą dysponuje [target.GetFirstNameNoTooltip]. Ponieważ [target.Custom('PL_jego_jej')] obóz udało nam się zinfiltrować z taką łatwością, zastanawiam się, co jeszcze mogę [target.Custom('PL_mu_jej')] zabrać…",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[courtier.GetFirstNameNoTooltip], can you explain that again?",
+    "RUS": "[courtier.GetFirstNameNoTooltip], давай-ка вот об этом поподробнее.",
+    "POL": "[courtier.GetFirstNameNoTooltip], możesz to wyjaśnić jeszcze raz?",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.a_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to steal more of [target.GetFirstNamePossessiveNoTooltip] [herd|E]",
+    "RUS": "Вы пробуете угнать больше [Concept('herd', 'скота')|E] у персонажа [target.GetFirstNameNoTooltip]",
+    "POL": "Próbujesz ukraść więcej z [Concept('herd', 'gromady')|E], której właścicielem jest [target.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.win",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Your thievery continues",
+    "RUS": "Вы продолжаете воровать",
+    "POL": "Kontynuujesz kradzież",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.lose",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You are unable to take more",
+    "RUS": "Вы не можете забрать больше",
+    "POL": "Nie dasz rady zabrać więcej",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I would search [target.GetHerHis] coffers.",
+    "RUS": "Нужно обыскать [Select_CString(target.IsFemale, 'ее', 'его' )] закрома.",
+    "POL": "Dobrze by było przeszukać [target.Custom('PL_jego_jej')] szkatuły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.b_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to steal gold from [target.GetFirstNameNoTooltip]",
+    "RUS": "Вы пробуете стащить золото у персонажа [target.GetFirstNameNoTooltip]",
+    "POL": "Próbujesz ukraść złoto osobie, którą jest [target.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target.GetPrimarySpouse.GetFirstName] also belongs to [target.GetFirstNameNoTooltip], for now.",
+    "RUS": "[target.GetFirstNameNoTooltip] владеет еще кое-кем. [target.GetPrimarySpouse.GetFirstName] тоже в [Select_CString(target.IsFemale, 'ее', 'его' )] власти... пока что.",
+    "POL": "[target.GetPrimarySpouse.GetFirstName] również należy do osoby, którą jest [target.GetFirstNameNoTooltip]. Do czasu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.c_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I start a [GetScheme('seduce').GetTypeName] [scheme|E] against [target.GetPrimarySpouse.GetFirstName] with an #p increased#! #V Success Chance#!",
+    "RUS": "Я начинаю [Concept('scheme', 'происки')|E] «[GetScheme('seduce').GetTypeName]». Их цель — [target.GetPrimarySpouse.GetFirstName]. #V Шанс на успех#! #p повышен#!",
+    "POL": "Rozpoczynam [scheme|El] „[GetScheme('seduce').GetTypeName]”, którego celem jest [target.GetPrimarySpouse.GetFirstName], ze #p zwiększoną#! #V szansą powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_seduce_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Herder's Touch",
+    "RUS": "Пастушьи методы",
+    "POL": "Ręka pasterza",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_murder_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Agents in the Pastures",
+    "RUS": "Агенты на пастбищах",
+    "POL": "Szpiedzy na pastwiskach",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target.GetHerHis|U] life, perhaps?",
+    "RUS": "А может, [Select_CString(target.IsFemale, 'ее', 'его' )] жизнь?",
+    "POL": "Może [target.Custom('PL_jego_jej')] życie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.d_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I start a [GetScheme('murder').GetTypeName] [scheme|E] against [target.GetFirstName] with an #p increased#! #V Success Chance#!",
+    "RUS": "Я начинаю [Concept('scheme', 'происки')|E] «[GetScheme('murder').GetTypeName]». Их цель — [target.GetFirstName]. #V Шанс на успех#! #p повышен#!",
+    "POL": "Rozpoczynam [scheme|El] „[GetScheme('murder').GetTypeName]”, którego celem jest [target.GetFirstName], ze #p zwiększoną#! #V szansą powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1003.e",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "I have taken enough for now.",
+    "RUS": "Пока что с меня хватит.",
+    "POL": "Na ten moment udało mi się zabrać już dość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1002.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd_event_title$ Stolen Herd!",
+    "RUS": "$steal_herd_event_title$ угнанный скот!",
+    "POL": "$steal_herd_event_title$ skradziona gromada!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1002.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[spymaster.GetName] comes to me bearing grave news. ",
+    "RUS": "[spymaster.GetName] приносит дурные вести: «[ROOT.Char.GetFirstName], пропало несколько животных, которых мы держали во дворе».\\n\\n[Select_CString(spymaster.IsFemale, 'Она', 'Он' )] прокашливается: «Мы тщательно всё обыскали, и, похоже, это [owner.GetName] [Select_CString(owner.IsFemale, 'послала', 'послал' )] своих прихвостней за скотом и [Select_CString(owner.IsFemale, 'убедила', 'убедил' )] пастуха, что это ваш собственный приказ».",
+    "POL": "[spymaster.GetName] podchodzi do mnie, przynosząc złe wieści.\\n\\n– [ROOT.Char.GetFirstName], część zwierząt, które trzymaliśmy na zewnątrz, nie była pilnowana. – Odchrząkuje, po czym ciągnie dalej. – Po dokładnym zbadaniu sprawy wygląda na to, że stoi za tym [owner.GetName]. [owner.Custom('PL_jego_jej')|U] pachołkowie zostali tu wysłani, by odzyskać stado, i udało im się przekonać pasterza, że działają w twoim imieniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1002.desc_monies",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "\\n\\nAfter hearing this revelation, I notice a chest, once half-full of fine jewelry, now dwindled in size. Knowing the perpetrator is the same, I sigh.",
+    "RUS": "\\n\\nЯ выслушиваю эти откровения и вдруг замечаю сундук, который еще недавно был до половины забит драгоценностями, а сейчас в нем едва покрыто дно. Понимая, что здесь наверняка поработал один и тот же преступник, я вздыхаю.",
+    "POL": "\\n\\nSłysząc te wieści, spoglądam na skrzynię, która do niedawna była połowicznie wypełniona misternie wykonaną biżuterią, a która to teraz ma jej w sobie znacznie mniej. Wiedząc, że sprawca doświadczył tego samego, wzdycham.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.1002.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "May you live eternally in [ROOT.Char.GetFaith.NegativeAfterLife], [owner.GetFirstNameNoTooltip]!",
+    "RUS": "Тебя ждет [ROOT.Char.GetFaith.NegativeAfterLife], [owner.GetFirstNameNoTooltip]!",
+    "POL": "[owner.GetFirstNameNoTooltip]! Niech cię [ROOT.Char.GetFaith.NegativeAfterLife] pochłonie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2001.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd_event_title$ Failure",
+    "RUS": "$steal_herd_event_title$ провал",
+    "POL": "$steal_herd_event_title$ porażka",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "My plot to steal herd from [target.GetTitledFirstName] had been carried out as planned, but my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))] [courtier.GetTitledFirstName] returns empty-handed, bringing not even a hank of wool to showcase their triumph.\\n\\n",
+    "RUS": "Все получилось, и [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'была ограблена', 'был ограблен' )], как планировалось, вот только [Select_CString(courtier.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))] [courtier.GetTitledFirstName] возвращается с пустыми руками. Победа не принесла нам ни шерстинки.\\n\\n«Прости, [owner.GetFirstNameNoTooltip], но [target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'напала', 'напал' )] на наш след, — вздыхает [courtier.GetFirstNameNoTooltip]. — Хорошо еще, что нам удалось сбежать до прибытия [Select_CString(target.IsFemale, 'ее', 'его' )] всадников.",
+    "POL": "Kradzież gromady, której właścicielem jest [target.GetTitledFirstName], została przeprowadzona zgodnie z moim planem, ale [courtier.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))], powraca z pustymi rękami, nie przynosząc nawet kłębka wełny na znak triumfu.\\n\\n– [owner.GetFirstNameNoTooltip], przepraszam najmocniej. [target.GetFirstNameNoTooltip] depcze nam po piętach. –[courtier.GetFirstNameNoTooltip] wzdycha. – Na szczęście udało nam się uciec, nim dogonili nas [target.Custom('PL_jego_jej')] jeźdźcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2001.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target.GetFirstNameNoTooltip] must have divine protection...",
+    "RUS": "Наверное, [target.GetFirstNameNoTooltip] под защитой самих небес...",
+    "POL": "[target.GetFirstNameNoTooltip] musi być pod boską ochroną…",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2002.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[courtier.GetName] leads me outdoors, and to my dismay, a flock is missing!\\n\\n[courtier.GetFirstNameNoTooltip] explains that we failed to steal flock from [target.GetTitledFirstName]. But instead of letting our riders escape, [target.GetSheHe] immediately took [target.GetHerHis] retribution, and sent a band after [courtier.GetFirstNameNoTooltip] and the others involved, leading them straight to my pastures. [target.GetHerHis|U] riders took sheep and other livestock, and left swiftly.",
+    "RUS": "[courtier.GetName] ведет меня наружу, и, к моему величайшему огорчению, табуна нет!\\n\\n[courtier.GetFirstNameNoTooltip] объясняет, что украсть табун не вышло. При этом [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'решила', 'решил' )] не оставлять наших всадников без возмездия. [Select_CString(target.IsFemale, 'Ее', 'Его' )] отряд поскакал за нашим, и так [courtier.GetFirstNameNoTooltip] с соучастниками вывели их к моим пастбищам. «Гости» забрали овец и прочий скот и стремительно ускакали.",
+    "POL": "[courtier.GetName] prowadzi mnie na zewnątrz, gdzie, ku mojemu przerażeniu, brakuje trzody!\\n\\n[courtier.GetFirstNameNoTooltip] wyjaśnia, że nie udało nam się ukraść zwierząt należących do osoby znanej jako [target.GetTitledFirstName], która zamiast pozwolić naszym jeźdźcom uciec, natychmiast rozkazała swojej bandzie podjąć mściwą pogoń. [courtier.GetFirstNameNoTooltip] i reszta doprowadzili ich prosto do moich pastwisk. Wrogowie zabrali owce i resztę żywego inwentarza, po czym szybko uciekli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2002.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "How could we be so incompetent?!",
+    "RUS": "Как можно быть такими раззявами?!",
+    "POL": "Jak możemy być tak niekompetentni?",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2003.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "The Herd of [owner.GetTitledFirstName]",
+    "RUS": "[owner.GetTitledFirstName] и [Select_CString(owner.IsFemale, 'ее', 'его' )] стада",
+    "POL": "Gromada, której właścicielem jest [owner.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2003.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "A commotion brews, and [courtier.GetName] approaches with it. [courtier.GetSheHe|U] smiles, gesturing for me to step into the courtyard.\\n\\nOutside, [courtier.GetSheHe] points to a herd of sheep and horses, guided by one of my riders. [courtier.GetFirstNameNoTooltip] looks at me intently. ",
+    "RUS": "Я слышу какой-то шум и вижу, как приближается [courtier.GetName]. [Select_CString(courtier.IsFemale, 'Она', 'Он' )] улыбается и жестом приглашает меня выйти наружу.\\n\\nВо дворе один из моих всадников ведет стадо овец и лошадей. [courtier.GetFirstNameNoTooltip] пристально смотрит на меня. «[Select_CString(owner.IsFemale, 'Эта нахалка', 'Этот нахал' )] [owner.GetFirstNameNoTooltip]! — говорит [Select_CString(courtier.IsFemale, 'она', 'он' )]. — [Select_CString(owner.IsFemale, 'Она думала', 'Он думал' )], что сумеет тайком навредить #italic вам#! и забрать ваш табун! К счастью, [courtier.GetFaith.HighGodName] благоволит нам. Этими прекрасными животными прежде [Select_CString(owner.IsFemale, 'владела сама', 'владел сам' )] [owner.GetFirstNameNoTooltip]».",
+    "POL": "Wybucha zamieszanie, wraz z którym zbliża się do mnie [courtier.GetName]. Uśmiecha się, wskazując gestem, że mam wyjść na zewnątrz.\\n\\nTam pokazuje z kolei stado owiec i koni, prowadzone przez jednego z moich jeźdźców, po czym spogląda na mnie płonącym wzrokiem.\\n\\n– [owner.GetFirstNameNoTooltip]! A niech [owner.Custom('PL_go_ja')] licho! – mówi. – Żeby tak próbować #italic ci#! zaszkodzić i zabrać twój żywy inwentarz! Na szczęście boski plan wyglądał zgoła inaczej. Te wspaniałe zwierzęta należały właśnie do [owner.Custom('PL_niego_niej')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_outcome.2003.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Your failures benefit me today, [owner.GetFirstNameNoTooltip]!",
+    "RUS": "Что ж, твои невзгоды идут мне на пользу, [owner.GetFirstNameNoTooltip]!",
+    "POL": "[owner.GetFirstNameNoTooltip], twoje porażki są dziś moim sukcesem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd_event_title$ Guard",
+    "RUS": "$steal_herd_event_title$ охрана",
+    "POL": "$steal_herd_event_title$ straże",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "In order to steal [target.GetTitledFirstNamePossessive] herd, I must know [target.GetHerHis] land and people. So I set out to take note of which pastures are near to [target.GetHerHis] home, and which are far and lonely.\\n\\nObserving the heights near the [target.GetCapitalLocation.GetTitle.GetName], warriors led by a [target_knight.GetWomanMan] on horseback approach my retinue from behind. ",
+    "RUS": "Чтобы украсть стада, которыми пока что владеет [target.GetTitledFirstName], нужно изучить [Select_CString(target.IsFemale, 'ее', 'его' )] земли и их жителей. Я отправляюсь на разведку, чтобы понять, какие пастбища ближе к [Select_CString(target.IsFemale, 'ее', 'его' )] дому, а какие дальше и слабее охраняются.\\n\\nПока я осматриваю возвышенность, за которой начинается [target.GetCapitalLocation.GetTitle.GetName], сзади подходит отряд воинов с [Select_CString(target_knight.IsFemale, 'всадницей', 'всадником' )] во главе. «Что вам здесь нужно?» — спрашивает [Select_CString(target_knight.IsFemale, 'предводительница', 'предводитель' )].",
+    "POL": "By ukraść stado, którego właścicielem jest [target.GetTitledFirstName], muszę poznać [target.Custom('PL_jego_jej')] ziemie i ludzi. Wyruszam więc, by sprawdzić, które pastwiska znajdują się blisko [target.Custom('PL_jego_jej')] domu, a które są oddalone i pozostawione same sobie.\\n\\nWojownicy obserwujący wyżyny w pobliżu miejsca znanego jako [target.GetCapitalLocation.GetTitle.GetName], którym przewodzi [target_knight.GetWomanMan] na koniu, zachodzą mnie od tyłu.\\n\\n– Co was tu sprowadza? – pyta ich przywódca, [target_knight.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Someone to test my mettle!",
+    "RUS": "Помериться с кем-нибудь силами!",
+    "POL": "Szukam wyzwań!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.a_win",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You impress [target_knight.GetFirstNameNoTooltip] with your fighting skills",
+    "RUS": "[target_knight.GetFirstNameNoTooltip] [Select_CString(target_knight.IsFemale, 'впечатлена', 'впечатлен' )] вашей боевой подготовкой",
+    "POL": "[target_knight.GetFirstNameNoTooltip] jest pod wrażeniem twoich umiejętności bojowych",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.duel_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You attempt to divert [target_knight.GetFirstNamePossessiveNoTooltip] attention",
+    "RUS": "Вы пытаетесь отвлечь [Select_CString(target_knight.IsFemale, 'ее', 'его' )] внимание",
+    "POL": "Próbujesz odwrócić uwagę osoby, którą jest [target_knight.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.lose",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target_knight.GetFirstNameNoTooltip] bests you",
+    "RUS": "[target_knight.GetFirstNameNoTooltip] одолевает вас",
+    "POL": "[target_knight.GetFirstNameNoTooltip] pokonuje cię",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Appreciating [target.GetFirstNamePossessiveNoTooltip] domain, of course.",
+    "RUS": "Смотрю, как хорошо [target.GetFirstNameNoTooltip] заботится о своих владениях, и радуюсь.",
+    "POL": "Chęć podziwiania domeny, którą rządzi [target.GetFirstNameNoTooltip], oczywiście.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.b_win",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[target_knight.GetFirstNameNoTooltip] appreciates your sentiment",
+    "RUS": "[target_knight.GetFirstNameNoTooltip] принимает комплимент",
+    "POL": "[target_knight.GetFirstNameNoTooltip] docenia twoje uczucia",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Enjoying a drink! Will you join?",
+    "RUS": "Наслаждаюсь выпивкой! Желаешь?",
+    "POL": "Rozsmakowuję się w napitku! Zechcesz dołączyć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.c_win",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You and [target_knight.GetFirstNameNoTooltip] drink the night away",
+    "RUS": "Вы и [target_knight.GetFirstNameNoTooltip] пьете всю ночь напролет",
+    "POL": "[target_knight.GetFirstNameNoTooltip] pije z tobą całą noc",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.c_win_big",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You convince drunk [target_knight.GetFirstNameNoTooltip] to join your cause",
+    "RUS": "[Select_CString(target_knight.IsFemale, 'Хмельная', 'Хмельной' )] [target_knight.GetFirstNameNoTooltip] поддается уговорам и решает присоединиться к вам",
+    "POL": "Po pijaku [target_knight.GetFirstNameNoTooltip] daje ci się przekonać i dołącza do ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1001.d",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Nothing, I'll be on my way.",
+    "RUS": "Да ничего, я просто пойду.",
+    "POL": "Nic. Czas na mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.t",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "$steal_herd_event_title$ Undercover Shepherd",
+    "RUS": "$steal_herd_event_title$ затаившийся пастух",
+    "POL": "$steal_herd_event_title$ pasterz pod przykrywką",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[chosen_agent.GetName] tells me that [target.GetTitledFirstNamePossessive] shepherds often fail to guide a single sheep in [target.GetHerHis] herd.\\n\\n",
+    "RUS": "[chosen_agent.GetName] говорит, что [target.GetTitledFirstName] держит пастухов, которые зачастую не могут справиться с одной-единственной овцой в стаде.\\n\\n«Почему бы тебе не одеться пастухом? Может, [target.GetFirstNameNoTooltip] примет твое предложение „помочь“ нерадивым пастухам?» — предлагаю я. [chosen_agent.GetFirstNameNoTooltip] обеспокоенно смотрит на меня и вздыхает.",
+    "POL": "[chosen_agent.GetName] informuje mnie, że pasterzom, których zatrudnia [target.GetTitledFirstName], często nie udaje się sprowadzić do stajni ani jednej owcy.\\n\\n– A może udaj się tam w stroju pasterza? Niech [target.GetFirstNameNoTooltip] z tobą porozmawia. Zaproponuj, że „pomożesz” [target.Custom('PL_jego_jej')] nieudolnym pasterzom – sugeruję. [chosen_agent.GetFirstNameNoTooltip] posyła mi niespokojne spojrzenie, po czym wzdycha.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.a",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Go on, [chosen_agent.GetFirstNameNoTooltip], help [target.GetHerHim] out!",
+    "RUS": "Ну же, [chosen_agent.GetFirstNameNoTooltip], выручи [Select_CString(target.IsFemale, 'ее', 'его' )]!",
+    "POL": "No dalej, [chosen_agent.GetFirstNameNoTooltip], pomóż [target.Custom('PL_mu_jej')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.b",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "And I know just what you should say...",
+    "RUS": "И я даже знаю, что тебе нужно говорить...",
+    "POL": "Nawet wiem, co najlepiej powiedzieć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.c",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Actually, never mind.",
+    "RUS": "А впрочем, забудь.",
+    "POL": "W sumie to nieważne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.duel_desc",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[chosen_agent.GetFirstName] poses as a shepherd",
+    "RUS": "[chosen_agent.GetFirstName] притворяется [Select_CString(chosen_agent.IsFemale, 'пастушкой', 'пастухом' )]",
+    "POL": "[chosen_agent.GetFirstName] udaje pasterza",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.win",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[chosen_agent.GetHerHis|U] disguise is convincing",
+    "RUS": "[Select_CString(chosen_agent.IsFemale, 'Ее', 'Его' )] маскировка выглядит убедительно",
+    "POL": "[chosen_agent.Custom('PL_jego_jej')|U] przebranie jest przekonujące",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.b_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "You help [chosen_agent.GetFirstName] with [chosen_agent.GetHerHis] disguise",
+    "RUS": "[chosen_agent.GetFirstName] маскируется с вашей помощью",
+    "POL": "Pomagasz [chosen_agent.Custom('PL_mu_jej')] z przebraniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "steal_herd_ongoing.1002.lose",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "[chosen_agent.GetSheHe|U] can't pull off the look",
+    "RUS": "У [Select_CString(chosen_agent.IsFemale, 'нее', 'него' )] не получается убедительно притвориться",
+    "POL": "[chosen_agent.GetFirstName] nie potrafi wczuć się w rolę",
+    "BEL": ""
+  },
+  {
+    "KEY": "random_negative_scheme_modifier_tt",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "The Scheme Steal the Herd of [target.GetNameNoTooltip] gains a #n negative#! modifier",
+    "RUS": "Происки «Угнать стадо персонажа [target.GetNameNoTooltip]» получают #n отрицательный#! модификатор",
+    "POL": "Spisek „Ukradnij gromadę, której właścicielem jest [target.GetNameNoTooltip]” zyskuje #n negatywny#! modyfikator",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_observation_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Land Survey",
+    "RUS": "Изучение территорий",
+    "POL": "Zwiad",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_almost_caught_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Prying Eyes",
+    "RUS": "Любопытные глаза",
+    "POL": "Ciekawski wzrok",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_almost_caught_modifier_2",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Arising Suspicion",
+    "RUS": "Крепнущее подозрение",
+    "POL": "Narastające podejrzenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_almost_caught_modifier_3",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Minor Setbacks",
+    "RUS": "Небольшие заминки",
+    "POL": "Pomniejsze przeszkody",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_friend_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Internal Connections",
+    "RUS": "Внутренние связи",
+    "POL": "Wewnętrzne koneksje",
+    "BEL": ""
+  },
+  {
+    "KEY": "mpo_steal_herd_shepherd_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/mpo/mpo_schemes_l_belarusian.json",
+    "ENG": "Hired Help",
+    "RUS": "Помощь извне",
+    "POL": "Zatrudniona pomoc",
+    "BEL": ""
+  }
+]

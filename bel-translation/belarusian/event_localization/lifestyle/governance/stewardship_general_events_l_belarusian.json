@@ -1,0 +1,578 @@
+[
+  {
+    "KEY": "stewardship_lifestyle_rank_up_indication",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "I might gain a [stewardship_lifestyle|E] [perk|E]",
+    "RUS": "Я могу получить [perk|El] [Concept( 'stewardship_lifestyle', 'управления' )|E]",
+    "POL": "Mogę zyskać [perk|El] z zakresu [Concept( 'stewardship_lifestyle', 'ścieżki zarządzania' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Accusations of [witch.Custom('MagicPracticeTerm')|U]",
+    "RUS": "[witch.Custom('MagicPracticeTerm')|U]",
+    "POL": "Oskarżenia o [witch.Custom('MagicPracticeTerm')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Bloodstained cloth... crows' feathers... strange-smelling concoctions. This is the evidence presented to me by a group of villagers from [target_county.GetNameNoTier] as proof that [witch.GetFirstName] has been practicing [witch.Custom('MagicPracticeTerm')] in [witch.GetHerHis] hut on the outskirts of their village.\\n\\nThe villagers claim [witch.GetHerHis] evil works must be the cause of their [witch.Custom('MagicSuperstitionTerm')] and are calling for [witch.GetHerHis] execution.",
+    "RUS": "Заляпанные кровью одежды... корона из перьев... странно пахнущие зелья. Это принесли мне селяне из владения [target_county.GetNameNoTier], чтобы доказать, что [witch.GetFirstName] практикует [witch.Custom('MagicPracticeTerm')] в хижине на окраине деревни.\\n\\nСеляне заявляют, что [witch.GetHerHis] злодеяния наверняка вызывали [witch.Custom('MagicSuperstitionTerm')], и требуют [witch.GetHerHis] казни.",
+    "POL": "Zakrwawione szmaty… wronie pióra… dziwnie pachnące mikstury. Jest to dowód przedstawiony mi przez grupę wieśniaków z [target_county.GetAdjectiveNoTooltip] mający udowodnić, iż [witch.GetFirstName] [Select_CString(witch.IsFemale, 'praktykowała', 'praktykował')] [witch.Custom('MagicPracticeTerm')] w swojej chacie na obrzeżach ich wioski.\\n\\nMieszkańcy wioski twierdzą, że [witch.GetHerHis] złe czyny są przyczyną [witch.Custom('MagicSuperstitionTerm')] i domagają się [witch.GetHerHis] egzekucji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "That 'evidence' is circumstantial. Release [witch.GetHerHim].",
+    "RUS": "Эти «доказательства» несущественны. Освободите [SCOPE.sC('witch').GetHerHis]",
+    "POL": "Ten „dowód” jest jedynie poszlaką. Uwolnić [Select_CString(witch.IsFemale, 'ją', 'go')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[witch.GetSheHe|U] must burn for [witch.GetHerHis] crimes against [ROOT.Char.GetFaith.HighGodName]!",
+    "RUS": "[witch.GetSheHe|U] сгорит на костре за свои преступления против [ROOT.Char.GetFaith.HighGodNamePossessive]!",
+    "POL": "[ROOT.Char.GetFaith.HighGodName] sprawi, że spłonie [witch.GetSheHe] za swoje zbrodnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "A [witch.Custom('MagicUserTerm')] you say? I could use a new advisor.",
+    "RUS": "Говорите, [witch.Custom('MagicUserTerm')]? Мне пригодится новый советник.",
+    "POL": "Mówisz, że to [witch.Custom('MagicUserTerm')]? Przydałby mi się nowy doradca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.d",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Stage an elaborate execution for [witch.GetHerHim]...",
+    "RUS": "Устройте [witch.GetHerHim] зрелищную казнь...",
+    "POL": "Zorganizować wyszukaną egzekucję dla [Select_CString(witch.IsFemale, 'niej', 'niego')]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.1054.d.flavor",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "...but in reality sneak [witch.GetHerHim] back to my court!",
+    "RUS": "...но в действительности доставьте [SCOPE.sC('witch').GetHerHis] к моему двору!",
+    "POL": "…ale w rzeczywistości przemycić [Select_CString(witch.IsFemale, 'ją', 'go')] z powrotem na mój dwór!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "A Nose for Profit",
+    "RUS": "Нюх на выгоду",
+    "POL": "Nos do interesów",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.desc_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "While out on a leisurely stroll, the cry of a particular merchant stands out from the regular hustle and bustle of the street.\\n\\n",
+    "RUS": "Во время прогулки я слышу, как крик одного из торговцев выбивается из общего гомона улицы.\\n\\n«Приветствую вас, [ROOT.Char.Custom('FormOfAddressForLiege')]! Если вам не жаль расстаться со звонкой монетой, мне есть что предложить!»",
+    "POL": "Podczas spokojnego spaceru okrzyk pewnego kupca wybija się ponad zwykły zgiełk ulicy.\\n\\n– Niech [ROOT.Char.Custom('FormOfAddressForLiege')] raczy przyjąć moje pozdrowienia! – zwraca się do mnie. – Mam wspaniały asortyment towarów, jeśli tylko wasza czcigodność dysponuje funduszami…",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "\\n\\nThe merchant's stall is positively brimming with baubles and haberdasheries.",
+    "RUS": "\\n\\nПрилавок торговца ломится от самых разных безделушек.",
+    "POL": "\\n\\nStoisko kupieckie jest wprost przepełnione błyskotkami i pasmanterią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.desc_high_skill",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "$stewardship_general.2001.desc$ As a skilled purveyor of fine wares, a couple of trinkets catch my eye in the overflow of knickknacks.",
+    "RUS": "$stewardship_general.2001.desc$ Мой опытный взгляд собирателя ценностей выхватывает пару любопытных вещиц в груде никчемного хлама.",
+    "POL": "$stewardship_general.2001.desc$ Jako, że jestem wprawnym dostawcą drobiazgów, w natłoku bibelotów moją uwagę przykuwa kilka drobiazgów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.desc_steward",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "\\n\\nAs I peer at the myriad of goods in the stall, I can hear [helpful_councillor.GetShortUIName] murmur, 'The etchings on that piece must be real... and quite valuable, too!'. [helpful_councillor.GetSheHe|U] glances at me with a triumphant smile.",
+    "RUS": "\\n\\nЯ рассматриваю огромную груду товаров на прилавке и слышу, как [helpful_councillor.GetShortUIName] бормочет: «А вот эта гравировка, пожалуй, настоящая... весьма ценная вещица!» [helpful_councillor.GetSheHe|U] смотрит на меня с довольной улыбкой.",
+    "POL": "\\n\\nPrzyglądając się niezliczonym towarom na straganie, słyszę, jak [helpful_councillor.GetShortUINameNotMe] pomrukuje: „Akwaforty na tym kawałku muszą być prawdziwe… i całkiem cenne!”. Spogląda na mnie z triumfalnym uśmiechem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.desc_chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "\\n\\nMy companion [helpful_councillor.GetShortUIName] stops dead in [helpful_councillor.GetHerHis] tracks, head cocked and intently staring at something in the merchant's stall. [helpful_councillor.GetSheHe|U] leans in and confides with a hushed voice 'That 'bauble' over there, it is clearly a sacred relic from days gone past. It would be wise to acquire such a trinket.'",
+    "RUS": "\\n\\n[Select_CString(helpful_councillor.IsFemale, 'Моя спутница', 'Мой спутник' )] [helpful_councillor.GetShortUIName] останавливается как [Select_CString(helpful_councillor.IsFemale, 'вкопанная', 'вкопанный' )], склонив голову на плечо и пристально разглядывая нечто на прилавке. [Select_CString(helpful_councillor.IsFemale, 'Она', 'Он' )] наклоняется ко мне и тихо шепчет: «Вон та „побрякушка“ — священная реликвия былых времен. Приобрести ее было бы мудрым решением».",
+    "POL": "\\n\\nMój towarzysz, [helpful_councillor.GetShortUINameNotMe], zatrzymuje się w miejscu z głową zadartą do góry, wpatrując się w coś na straganie kupieckim. Pochyla się w moją stronę i mówi ściszonym głosem.\\n\\n– To »cudeńko« to musi być święty relikt minionych czasów. Mądrze byłoby nabyć taki drobiazg.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_success_msg.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Successful Haggle",
+    "RUS": "Вам удалось сбить цену",
+    "POL": "Udane targowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_failure_msg.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Failed Haggle",
+    "RUS": "Торг не удался",
+    "POL": "Nieudane targowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_free_msg.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Your haggling skills proved to be excellent",
+    "RUS": "Вы действительно отлично торгуетесь",
+    "POL": "Twoje umiejętności targowania się okazały się doskonałe",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_tiny_msg.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Your haggling skills were adequate",
+    "RUS": "Вы неплохо торгуетесь",
+    "POL": "Twoje umiejętności targowania się były wystarczające",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_minor_msg.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Your haggling skills were poor",
+    "RUS": "Вы не очень хорошо торгуетесь",
+    "POL": "Twoje umiejętności targowania się były kiepskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general_2001_expensive_msg.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You were outwitted by the merchant",
+    "RUS": "Торговец вас переиграл",
+    "POL": "Kupiec cię przechytrzył",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.free",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You strike a real bargain",
+    "RUS": "Торг принес вам огромную выгоду",
+    "POL": "Udało ci się dobić targu",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.tiny_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You are a decent negotiator",
+    "RUS": "Вы неплохо ведете переговоры",
+    "POL": "Jesteś dobr[Select_CString(ROOT.Char.IsFemale, 'ą negocjatorką', 'ym negocjatorem' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.minor_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "That wasn't a great deal",
+    "RUS": "Вы заключили не очень выгодную сделку",
+    "POL": "To nie było nic wielkiego",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.expensive_cost",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The merchant outwitted you",
+    "RUS": "Торговец вас переиграл",
+    "POL": "Kupiec cię przechytrzył",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_haggle_cheap_trinket_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You opt for the cheap trinket",
+    "RUS": "Вы выбираете дешевое украшение",
+    "POL": "Wybierasz tani drobiazg",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_haggle_expensive_trinket_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You opt for the expensive trinket",
+    "RUS": "Вы выбираете дорогое украшение",
+    "POL": "Wybierasz drogi drobiazg",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_haggle_helpful_trinket_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You opt for the suggested trinket",
+    "RUS": "Вы выбираете рекомендованное украшение",
+    "POL": "Wybierasz sugerowany drobiazg",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "I feel lucky.",
+    "RUS": "Мне повезет.",
+    "POL": "Czuję, że mam szczęście.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.a.ignore_help",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "This one should be a steal.",
+    "RUS": "Это практически даром.",
+    "POL": "To powinien być strzał w dziesiątkę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The detail of this bauble intrigues me.",
+    "RUS": "Узор на этом украшении меня завораживает.",
+    "POL": "Intryguje mnie szczegółowość tego świecidełka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.b.ignore_help",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "I believe this piece will be the more lucrative choice.",
+    "RUS": "Пожалуй, стоит выбрать вот эту вещицу.",
+    "POL": "Myślę, że ten jest bardziej satysfakcjonującym wyborem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.c.steward",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "I trust your expertise in the area, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helpful_councillor')) ].",
+    "RUS": "Я доверяю твоему мнению, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helpful_councillor')) ].",
+    "POL": "Ufam twojej wiedzy w tej dziedzinie, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helpful_councillor')) ].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.c.chaplain",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Your words sound wise to me, [helpful_councillor.GetFirstNameNoTooltip].",
+    "RUS": "Я думаю, что твои слова мудры, [helpful_councillor.GetFirstNameNoTooltip].",
+    "POL": "Twoje słowa brzmią dla mnie mądrze, [helpful_councillor.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.d",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Let us move on.",
+    "RUS": "Пойдем дальше.",
+    "POL": "Idźmy dalej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.d.irritable",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "I said #EMP no#!. Now go away before #EMP I make you go away!#!",
+    "RUS": "Говорю же: #EMP нет#!. А теперь поди прочь, #EMP пока тебя не заставили!#!",
+    "POL": "Powiedział[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] #EMP nie#!. A teraz odejdź, zanim #EMP ja sprawię, że odejdziesz!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2001.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Trinket Received",
+    "RUS": "Получено украшение",
+    "POL": "Otrzymano drobiazg",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "An Impressive Display",
+    "RUS": "Впечатляющее зрелище",
+    "POL": "Imponujący pokaz",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.t_insulting",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "An Insulting Display",
+    "RUS": "Оскорбительное зрелище",
+    "POL": "Obelżywy pokaz",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Once we're past the next two stalls, ",
+    "RUS": "Когда мы минуем еще пару прилавков, ",
+    "POL": "Gdy mijamy dwa następne stragany, ",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.desc_impressed",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[helpful_councillor.GetTitledFirstNameNoTooltip] beams at me.\\n\\n'Yes, quite good indeed! I couldn't have done it much better myself.'\\n\\n[helpful_councillor.GetSheHe|U] casually eyes the baubles in the stall next to us and shoots me an anticipating side-glance.",
+    "RUS": "[helpful_councillor.GetTitledFirstNameNoTooltip] радостно улыбается.\\n\\n«Да! И впрямь отлично! Я бы и [Select_CString(helpful_councillor.IsFemale, 'сама не справилась', 'сам не справился' )] лучше».\\n\\n[helpful_councillor.GetSheHe|U] небрежно разглядывает ближайший прилавок и время от времени бросает на меня одобрительные взгляды.",
+    "POL": "[helpful_councillor.GetTitledFirstNameNoTooltip] patrzy na mnie radośnie.\\n\\n„Tak, naprawdę dobrze! Sam[Select_CString(helpful_councillor.IsFemale, 'a nie mogłabym', ' nie mógłbym' )] zrobić tego lepiej”.\\n\\nNieznacznie przygląda się drobiazgom na stoisku obok nas i rzuca mi wyczekujące spojrzenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.desc_very_impressed",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[helpful_councillor.GetTitledFirstNameNoTooltip] tugs at my sleeve in excitement.\\n\\n'By [ROOT.Char.GetFaith.HighGodName], that was a most delicious display! Such eloquence! One could barely keep up with the perpetual honey-soaked phrases in that bartering #EMP dance#!.' \\n\\n[helpful_councillor.GetSheHe|U] looks at me bewildered and with admiration.",
+    "RUS": "[helpful_councillor.GetTitledFirstNameNoTooltip] восторженно сжимает мою руку.\\n\\n«Храни вас [ROOT.Char.GetFaith.HighGodName], что это было за зрелище! Какое красноречие! Сколько медоточивых речей! То был не торг, но настоящий #EMP танец#!». \\n\\n[helpful_councillor.GetSheHe|U] смотрит на меня, словно не узнавая, в немом восхищении.",
+    "POL": "[helpful_councillor.GetTitledFirstNameNoTooltip|U] z podekscytowaniem ciągnie mnie za rękaw.\\n\\n– [ROOT.Char.GetFaith.HighGodName] mi świadkiem, cóż to był za pokaz! Co za elokwencja! Ledwie można było nadążyć za nieustannymi zniewalającymi frazami rzucanymi w tym negocjacyjnym #EMP tańcu#!.\\n\\nPatrzy na mnie ze zdumieniem i podziwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.desc_insulted",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[helpful_councillor.GetTitledFirstNameNoTooltip] looks at me disapprovingly.\\n\\n'That was an... interesting display for certain. I'm not quite sure what our aim was, [ROOT.Char.Custom('FormOfAddressForLiege')], but I'm sure the merchant got what they wanted...\\n\\n[helpful_councillor.GetSheHe|U] starts strolling ahead, marking the end of our conversation.",
+    "RUS": "[helpful_councillor.GetTitledFirstNameNoTooltip] глядит с неодобрением.\\n\\n«Это было... интересно, не поспоришь. Правда, я не очень понимаю, какую цель вы преследовали, [ROOT.Char.Custom('FormOfAddressForLiege')], но торговца вы определенно порадовали...\\n\\n[helpful_councillor.GetSheHe|U] обрывает разговор и бредет дальше.",
+    "POL": "[helpful_councillor.GetTitledFirstNameNoTooltip] spogląda na mnie z dezaprobatą.\\n\\n– To był z pewnością… interesujący pokaz. Nie wiem do końca, jaki był nasz cel, wasza czcigodność, ale na pewno kupiec dostał to, czego chciał…\\n\\nZaczyna iść przed siebie, co oznacza koniec naszej rozmowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.desc_very_insulted",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[helpful_councillor.GetTitledFirstNameNoTooltip] lets out an antagonistic snort.\\n\\n'Anyone of lesser intellect would argue [bought_trinket.GetName] is barely deserving of the name. But #EMP I am sure#! we made the right call here...'\\n\\n[helpful_councillor.GetSheHe|U] is clearly disgruntled by my poor display earlier.",
+    "RUS": "[helpful_councillor.GetTitledFirstNameNoTooltip] протестующе сопит.\\n\\n«Тот, чьи познания не столь глубоки, мог бы поспорить, что [bought_trinket.GetName] вряд ли заслуживает такого внимания. Но #EMP я знаю наверняка#!, что мы правильно поступили...»\\n\\n[helpful_councillor.GetSheHe|U] заметно [Select_CString(helpful_councillor.IsFemale, 'расстроена', 'расстроен' )] моим недавним поведением.",
+    "POL": "[helpful_councillor.GetTitledFirstNameNoTooltip] wydaje z siebie pogardliwe parsknięcie.\\n\\n„Każdy o mniejszym intelekcie stwierdziłby, że [bought_trinket.GetName] ledwie zasługuje na swoje miano. Ale #EMP jestem pew[Select_CString(helpful_councillor.IsFemale, 'na', 'ien' )]#!, że [Select_CString( And( helpful_councillor.IsFemale, ROOT.Char.IsFemale), 'podjęłyśmy', 'podjęliśmy' )] właściwą decyzję…”\\n\\nJest wyraźnie zdenerwowan[Select_CString(helpful_councillor.IsFemale, 'a', 'y' )] moim słabym pokazem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.a.high_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Maybe I could teach you a couple of strategies.",
+    "RUS": "Возможно, я научу тебя паре приемов.",
+    "POL": "Może [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] nauczyć cię kilku strategii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.mentor_success",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You reminisce about the minutiae of bartering all night long",
+    "RUS": "Вы всю ночь в подробностях вспоминаете, как торговались",
+    "POL": "Spędzasz całą noc na opowiadaniu szczegółów związanych z targowaniem się",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.mentor_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[helpful_councillor.GetTitledFirstNameNoTooltip] wasn't quite convinced",
+    "RUS": "[helpful_councillor.GetTitledFirstNameNoTooltip] не [Select_CString(helpful_councillor.IsFemale, 'убеждена', 'убежден' )]",
+    "POL": "[helpful_councillor.GetTitledFirstNameNoTooltip] nie był[Select_CString(helpful_councillor.IsFemale, 'a do końca przekonana', ' do końca przekonany' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.impressed",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "That was a fine barter, wasn't it.",
+    "RUS": "Неплохо поторговались, правда?",
+    "POL": "To był niezły targ, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.b.high_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "It was merely a test. #EMP I#! got what I wanted.",
+    "RUS": "Это была просто проверка. Теперь у меня есть то, что было #EMP мне#! нужно.",
+    "POL": "To był tylko test. #EMP Dostał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]#! to, czego chciał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.convince_success",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Ah yes, [bought_trinket.GetName] is a much better investment because... ",
+    "RUS": "Ах, да, [bought_trinket.GetName] — гораздо более выгодное вложение, ведь... ",
+    "POL": "Ach tak, [bought_trinket.GetName] jest znacznie lepszą inwestycją, ponieważ… ",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.convince_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "$stewardship_general.2002.mentor_failure$",
+    "RUS": "$stewardship_general.2002.mentor_failure$",
+    "POL": "$stewardship_general.2002.mentor_failure$",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.t_success",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Successful Persuasion",
+    "RUS": "Успешное убеждение",
+    "POL": "Udana próba perswazji",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.t_failure",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Failed Persuasion",
+    "RUS": "Убеждение не удалось",
+    "POL": "Nieudana próba perswazji",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.2002.insulted",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "What's done is done.",
+    "RUS": "Что сделано, то сделано",
+    "POL": "Co się stało, to się nie odstanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The Carps",
+    "RUS": "Карпы",
+    "POL": "Karpie",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Я могу построить вам потрясающий пруд с карпами, если на то будет ваше желание, [ROOT.Char.Custom('FormOfAddressForLiege')]!»\\n\\nУ строителя, что стоит передо мной, отличная репутация, и мои придворные в восторге от перспективы...",
+    "POL": "– Jeżeli interesuje cię staw dla karpi, mogę go dla ciebie zbudować, wasza czcigodność!\\n\\nBudowniczy przede mną ma dobre kwalifikacje, a moi dworzanie wydają się bardzo podekscytowani tą sytuacją…",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You will have all the resources you need!",
+    "RUS": "Ты получишь все необходимое!",
+    "POL": "Dostaniesz wszystko, co będzie potrzebne!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Is that #EMP truly#! the best deal you can give me?",
+    "RUS": "Это #EMP правда#! лучший вариант из возможных?",
+    "POL": "Czy to #EMP naprawdę#! najlepsza oferta, jaką możesz mi zaoferować?",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.b.message_1",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "You make a great deal",
+    "RUS": "Вы заключаете отличную сделку",
+    "POL": "Robisz dobry interes",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.b.message_2",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The builder outwits you",
+    "RUS": "Строитель сумел вас перехитрить",
+    "POL": "Budowniczy przechytrza cie",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Stop wasting my time!",
+    "RUS": "Хватит тратить мое время!",
+    "POL": "Nie marnuj mojego czasu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5011.every_courtier",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Every [courtier|E]",
+    "RUS": "Каждое [courtier|El]",
+    "POL": "Każdy [courtier|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5013.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Beasts of the Deep",
+    "RUS": "Твари из глубин",
+    "POL": "Bestie z głębin",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5013.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "As I stroll through the gardens, I notice my [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] sitting on a rock by the carp pond. Leaning down over the edge, [carp_food.GetSheHe] trails [carp_food.GetHerHis] fingers through the water. A shadow stirs beneath the surface...",
+    "RUS": "Прогуливаясь по саду, я замечаю, как [Select_CString(carp_food.IsFemale, 'моя', 'мой' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] сидит на камне рядом с карповым прудом и водит пальцами по воде. В глубине вод мелькает тень...",
+    "POL": "Gdy spaceruję po ogrodach, zauważam, że [Select_CString(carp_food.IsFemale, 'moja', 'mój')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName] siedzi na skale przy stawie karpiowym. Pochylając się nad brzegiem, przesuwa swoje palce po wodzie. Pod wodą widać jakiś poruszający się cień…",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5013.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "[carp_food.GetFirstNameNoTooltip], step back! Step back from... NOOO!",
+    "RUS": "[carp_food.GetFirstNameNoTooltip], назад! Отойди от... НЕ-Е-Е-ЕТ!",
+    "POL": "[carp_food.GetFirstNameNoTooltip], odsuń się! Odsuń się od… NIEEE!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.t",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Rogue Servant",
+    "RUS": "Вороватый слуга",
+    "POL": "Nieuczciw[Select_CString(servant_character.IsFemale, 'a służka', 'y sługa' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "A lowly [servant_character.Custom('lowly_servant_type')] has been stealing from my [ROOT.Char.Custom('GetCourt')]!",
+    "RUS": "[Select_CString(servant_character.IsFemale, 'Мелкая', 'Мелкий' )] [servant_character.Custom('lowly_servant_type')] [Select_CString(servant_character.IsFemale, 'обворовывала', 'обворовывал' )] мой [ROOT.Char.Custom('GetCourt_RU_Acc')]!",
+    "POL": "[servant_character.Custom('lowly_servant_type')|U] okrada mój [ROOT.Char.Custom('GetCourt')|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.desc_highgod",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and mercy in the name of [ROOT.Char.GetFaith.HouseholdGodName].",
+    "RUS": "Теперь [servant_character.GetWomanMan] ползает предо мной на коленях и что-то всхлипывает о голодных детях и милосердии во имя [ROOT.Char.GetFaith.HighGodNamePossessive].",
+    "POL": "[servant_character.GetWomanMan|U] kłania się przede mną, bełkocze o głodnych dzieciach i miłosierdziu w imię [ROOT.Char.GetFaith.HouseholdGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.desc_other",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and pleading for mercy.",
+    "RUS": "Теперь [servant_character.GetWomanMan] ползает предо мной на коленях, что-то всхлипывает о голодных детях и молит о милосердии.",
+    "POL": "[servant_character.GetWomanMan|U] kłania się przede mną, bełkocze o głodnych dzieciach i błaga o litość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.desc_ending",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Пожалуйста, [ROOT.Char.GetLadyLord], я сделаю все, что вы попросите!»",
+    "POL": "\\n\\n„Proszę [Select_CString(ROOT.Char.IsFemale, 'moja pani', 'mój panie' )], zrobię wszystko, o co mnie poprosisz!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.a",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Show [servant_character.GetHerHim] what true hunger feels like.",
+    "RUS": "Показать [servant_character.GetHerHim], что такое настоящий голод.",
+    "POL": "Pokaż [servant_character.GetHerHim] czym jest prawdziwy głód.",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.b",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Imprison [servant_character.GetHerHim].",
+    "RUS": "В темницу [servant_character.GetHerHis].",
+    "POL": "Uwięź [Select_CString( servant_character.IsFemale, 'ją', 'go' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "stewardship_general.5041.c",
+    "FILE_PATH": "localization/belarusian/event_localization/lifestyle/governance/stewardship_general_events_l_belarusian.json",
+    "ENG": "Show mercy and win [servant_character.GetHerHis] loyalty.",
+    "RUS": "Проявить милосердие и заслужить [servant_character.GetHerHis] преданность.",
+    "POL": "Okaż litość i zdobądź [servant_character.GetHerHis] lojalność.",
+    "BEL": ""
+  }
+]

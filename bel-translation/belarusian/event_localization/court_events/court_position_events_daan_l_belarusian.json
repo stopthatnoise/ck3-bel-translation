@@ -1,0 +1,242 @@
+[
+  {
+    "KEY": "court_position_management_event.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Vacated: [court_position_type.GetNameNoTooltip()]",
+    "RUS": "Освободилась должность: [court_position_type.GetNameNoTooltip()]",
+    "POL": "Wolny urząd: [court_position_type.GetNameNoTooltip()|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "My [court_position_type.GetName()] court position was vacated by [employee.GetFullName].",
+    "RUS": "[employee.GetFullName] [Select_CString(employee.IsFemale,'оставила', 'оставил')] придворную должность «[court_position_type.GetName()]».",
+    "POL": "Osoba znana jako [employee.GetFullName] zwolniła urząd dworski, którym jest [court_position_type.GetName()|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.desc.dead",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[employee.GetSheHe|U] [employee.GetDeathReason].",
+    "RUS": "[employee.GetSheHe|U] [employee.GetDeathReason].",
+    "POL": "Osoba ta [employee.GetDeathReason].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.desc.one_candidate",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nMy advisors have found only one candidate that could fill the position, [candidate_1.GetFullName].",
+    "RUS": "\\n\\nСоветники видят только одного достойного кандидата [Select_CString(employee.IsFemale,'ей', 'ему')] на замену — это [candidate_1.GetFullName].",
+    "POL": "\\n\\nMoi doradcy znaleźli tylko jednego kandydata, który mógłby objąć ten urząd, i jest nim [candidate_1.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.desc.two_candidates",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nMy advisors have suggested some candidates from my realm that could fill the position, namely [candidate_1.GetFullName] and [candidate_2.GetFullName].",
+    "RUS": "\\n\\nСоветники предлагают несколько подходящих кандидатов [Select_CString(employee.IsFemale,'ей', 'ему')] на замену — это [candidate_1.GetFullName] и [candidate_2.GetFullName].",
+    "POL": "\\n\\nMoi doradcy zasugerowali kilkoro kandydatów z mojego otoczenia, którzy mogliby objąć ten urząd. To [candidate_1.GetFullName] oraz [candidate_2.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.desc.no_candidates",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nMy advisors have found no candidates to replace [employee.GetHerHim] from my realm.",
+    "RUS": "\\n\\nСоветники не знают, кто мог бы [Select_CString(employee.IsFemale,'ее', 'его')] заменить.",
+    "POL": "\\n\\nMoi doradcy nie znaleźli w moim państwie nikogo, kto mógłby [employee.Custom('PL_go_ja')] zastąpić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[candidate_1.GetFirstNameNoTooltip] is right for the job!",
+    "RUS": "[candidate_1.GetFirstNameNoTooltip] подойдет!",
+    "POL": "[candidate_1.GetFirstNameNoTooltip] to odpowiednia osoba do tej pracy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.a.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[candidate_1.GetUINamePossessive] [aptitude|E] is [candidate_1.GetCourtPositionAptitude( court_position_type )]",
+    "RUS": "[aptitude|E] персонажа [candidate_1.GetUIName] — [candidate_1.GetCourtPositionAptitude( court_position_type )]",
+    "POL": "[aptitude|E] osoby znanej jako [candidate_1.GetUINameNotMe]: [candidate_1.GetCourtPositionAptitude( court_position_type )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[candidate_2.GetFirstNameNoTooltip] will do.",
+    "RUS": "[candidate_2.GetFirstNameNoTooltip] меня вполне устроит.",
+    "POL": "[candidate_2.GetFirstNameNoTooltip] się do tego nada.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.b.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[candidate_2.GetUINamePossessive] [aptitude|E] is [candidate_2.GetCourtPositionAptitude( court_position_type )]",
+    "RUS": "[aptitude|E] персонажа [candidate_2.GetUIName] — [candidate_2.GetCourtPositionAptitude( court_position_type )]",
+    "POL": "[aptitude|E] osoby znanej jako [candidate_2.GetUINameNotMe]: [candidate_2.GetCourtPositionAptitude( court_position_type )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Perhaps we can find some suitable candidates elsewhere...",
+    "RUS": "Возможно, мы найдем подходящую кандидатуру за пределами страны…",
+    "POL": "Być może znajdziemy kilku odpowiednich kandydatów gdzie indziej…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Open the [GetDecision('recruit_court_position_decision').GetName] [decision|E]",
+    "RUS": "Открыть [Concept('decision', 'решение')|E] «[GetDecision('recruit_court_position_decision').GetName]»",
+    "POL": "Otwórz [Concept('decision', 'decyzję')|E] „[GetDecision('recruit_court_position_decision').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "I will figure this out myself...",
+    "RUS": "Я [Select_CString(ROOT.Char.IsFemale, 'сама', 'сам' )] решу, кого назначить.",
+    "POL": "Zajmę się tym osobiście…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Open the interface to appoint a new [court_position_type.GetName]",
+    "RUS": "Открыть панель, чтобы назначить нового придворного на должность «[court_position_type.GetName]»",
+    "POL": "Otwórz interfejs, aby mianować nową osobę na urząd, którym jest [court_position_type.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0001.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Leave it vacant, for now.",
+    "RUS": "Пусть должность пока остается вакантной.",
+    "POL": "Na razie urząd pozostanie nieobsadzony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Vacated: [court_position_type.GetNameNoTooltip()]",
+    "RUS": "Освободилась должность: [court_position_type.GetNameNoTooltip()]",
+    "POL": "Wolny urząd: [court_position_type.GetNameNoTooltip()|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "[employee.GetFullName] is no longer my [court_position_type.GetName()].",
+    "RUS": "[employee.GetFullName] мне больше не [court_position_type.GetName()|l].",
+    "POL": "[employee.GetFullName] nie pracuje już jako [court_position_type.GetName()|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.desc.dead",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.desc.dead$",
+    "RUS": "$court_position_management_event.0001.desc.dead$",
+    "POL": "$court_position_management_event.0001.desc.dead$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.desc.one_candidate",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nMy know of only one candidate from my camp that could fill the role, [candidate_1.GetFullName].",
+    "RUS": "\\n\\nМои люди считают, что в лагере есть лишь один подходящий кандидат на эту должность: [candidate_1.GetFullName].",
+    "POL": "\\n\\nZnam tylko jedną osobę z mojego obozu, która mogłaby pełnić tę funkcję. To [candidate_1.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.desc.two_candidates",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nPeople have suggested some candidates from my camp that could fill the role, namely [candidate_1.GetFullName] and [candidate_2.GetFullName].",
+    "RUS": "\\n\\nМои люди предлагают несколько подходящих кандидатов на эту должность — это [candidate_1.GetFullName] и [candidate_2.GetFullName].",
+    "POL": "\\n\\nLudzie zasugerowali kilkoro kandydatów z mojego obozu, którzy mogliby pełnić tę funkcję. To [candidate_1.GetFullName] oraz [candidate_2.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.desc.no_candidates",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "\\n\\nMy have found no candidates to replace [employee.GetHerHim] from my camp.",
+    "RUS": "\\n\\nМои люди не знают, кто мог бы [Select_CString(employee.IsFemale,'ее', 'его')] заменить.",
+    "POL": "\\n\\nW moim obozie nie udało mi się znaleźć nikogo, kto mógłby [employee.Custom('PL_go_ja')] zastąpić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.a$",
+    "RUS": "$court_position_management_event.0001.a$",
+    "POL": "$court_position_management_event.0001.a$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.a.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.a.aptitude$",
+    "RUS": "$court_position_management_event.0001.a.aptitude$",
+    "POL": "$court_position_management_event.0001.a.aptitude$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.b$",
+    "RUS": "$court_position_management_event.0001.b$",
+    "POL": "$court_position_management_event.0001.b$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.b.aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.b.aptitude$",
+    "RUS": "$court_position_management_event.0001.b.aptitude$",
+    "POL": "$court_position_management_event.0001.b.aptitude$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.c$",
+    "RUS": "$court_position_management_event.0001.c$",
+    "POL": "$court_position_management_event.0001.c$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "Open the [GetDecision('recruit_court_position_decision').GetName] [decision|E]",
+    "RUS": "Открыть [Concept('decision', 'решение')|E] «[GetDecision('recruit_court_position_decision').GetName]»",
+    "POL": "Otwórz [Concept('decision', 'decyzję')|E] „[GetDecision('recruit_court_position_decision').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.d$",
+    "RUS": "$court_position_management_event.0001.d$",
+    "POL": "$court_position_management_event.0001.d$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.d.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.d.tt$",
+    "RUS": "$court_position_management_event.0001.d.tt$",
+    "POL": "$court_position_management_event.0001.d.tt$",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_management_event.0002.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/court_position_events_daan_l_belarusian.json",
+    "ENG": "$court_position_management_event.0001.e$",
+    "RUS": "$court_position_management_event.0001.e$",
+    "POL": "$court_position_management_event.0001.e$",
+    "BEL": ""
+  }
+]

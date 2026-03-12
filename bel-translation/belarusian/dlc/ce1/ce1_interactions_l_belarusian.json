@@ -1,0 +1,146 @@
+[
+  {
+    "KEY": "PROMOTE_LEGEND_NOTIFICATION",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "You have surely heard the good word of my legend? It would behoove you to tell others of it.",
+    "RUS": "Вы наверняка слышали много хорошего о моей легенде? Вам надлежит поведать о ней другим.",
+    "POL": "Zapewne znasz moją legendę? Byłoby dobrze, gdyby i inni się o niej dowiedzieli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "Send [gold_i][gold|E]",
+    "RUS": "Послать [gold_i][Concept('gold', 'золото')|E]",
+    "POL": "Wyślij [gold_i] [gold|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE_TT",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[gold_i][gold|E] sent: $VALUE|+0=$",
+    "RUS": "Отправлено [gold_i][Concept('gold', 'золото')|E]: $VALUE|+0=$",
+    "POL": "Wysłane [gold_i] [gold|El]: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "LEGEND_HOOK_USED",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[hook|E] used: $VALUE|+0=$",
+    "RUS": "Использовано [Concept( 'hook', 'влияние' )|E]: $VALUE|+0=$",
+    "POL": "Wykorzystano [Concept( 'hook', 'haka' )|E]: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_ask_to_promote_legend_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "Ask to Promote Legend",
+    "RUS": "Попросить распространить легенду",
+    "POL": "Poproś o promowanie legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_ask_to_promote_legend_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "Request that [recipient.GetFirstName] become a Promoter of your [legend|E].",
+    "RUS": "Попросить, чтобы [recipient.GetFirstName] [Select_CString(recipient.IsFemale, 'стала', 'стал' )] покровителем вашей [Concept( 'legend', 'легенды' )|E].",
+    "POL": "Poproś, aby [recipient.GetFirstName] został[Select_CString( recipient.IsFemale, 'a', '' )] promotorem twojej [legends|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_ask_to_promote_legend_acceptance_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetFirstNameNoTooltip] begins Promoting your Legend",
+    "RUS": "[recipient.GetFirstNameNoTooltip] начинает покровительствовать вашей легенде",
+    "POL": "[recipient.GetFirstNameNoTooltip] zaczyna promować twoją legendę",
+    "BEL": ""
+  },
+  {
+    "KEY": "ce1_ask_to_promote_legend_decline_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetFirstNameNoTooltip] refuses to Promote your Legend",
+    "RUS": "[recipient.GetFirstNameNoTooltip] отказывается покровительствовать вашей легенде",
+    "POL": "[recipient.GetFirstNameNoTooltip] odmawia promowania twojej legendy",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_already_promoting_legend_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[recipient.GetFirstNameNoTooltip] is already spreading a Legend",
+    "RUS": "[recipient.GetFirstNameNoTooltip] уже покровительствует легенде",
+    "POL": "[recipient.GetFirstNameNoTooltip] już rozprzestrzenia legendę",
+    "BEL": ""
+  },
+  {
+    "KEY": "recipient_close_or_neighbor_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "#color_white [recipient.GetTitledFirstName]#! needs to either be of the [actor.GetDynasty.GetName] dynasty, be a [friend|E] or [lover|E] of #color_white [actor.GetName]#!, owner of a [county|E] neighboring the Legend, or know the [actor.GetCulture.GetLanguage.GetName] language, to be able to spread the Legend",
+    "RUS": "Чтобы распространять легенду, #color_white [recipient.GetTitledFirstName]#! [Select_CString(recipient.IsFemale, 'должна', 'должен' )] принадлежать к династии [actor.GetDynasty.GetName], [Select_CString(recipient.IsFemale, 'она', 'он' )] и #color_white [actor.GetName]#! должны состоять в [Concept( 'friend', 'дружеских' )|E] или [Concept( 'lover', 'романтических' )|E] отношениях, [Select_CString(recipient.IsFemale, 'она', 'он' )] [Select_CString(recipient.IsFemale, 'должна', 'должен' )] владеть [Concept( 'county', 'графством' )|E], соседствующим с легендой, или знать [actor.GetCulture.GetLanguage.GetName|l] язык",
+    "POL": "Aby móc opowiadać o legendzie, #color_white [recipient.GetTitledFirstName]#! musi być członkiem dynastii [actor.GetDynasty.GetName], [Concept('friend', 'przyjacielem')|E] lub [Concept('lover', 'kochankiem')|E] osoby znanej jako #color_white [actor.GetName]#!, właścicielem [Concept('county', 'hrabstwa')|E] sąsiadującego z osobą będącą przedmiotem legendy lub znać język [actor.GetCulture.GetLanguage.GetName|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOO_HIGH_PROMOTER_MAINTENANCE_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "Cost is higher than [income|E]: $VALUE|+0=$",
+    "RUS": "Стоимость превышает [Concept( 'income', 'доход' )|E]: $VALUE|+0=$",
+    "POL": "Koszt jest większy niż [income|El]: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TIER_REASON_COUNT",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[title_tier|E] ([count|E]): $VALUE|+0=$",
+    "RUS": "[Concept( 'title_tier', 'Уровень титула' )|E] ([Concept( 'count', 'граф' )|E]): $VALUE|+0=$",
+    "POL": "[title_tier|E] ([count|El]): $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TIER_REASON_DUKE",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[title_tier|E] ([duke|E]): $VALUE|+0=$",
+    "RUS": "[Concept( 'title_tier', 'Уровень титула' )|E] ([Concept( 'duke', 'герцог' )|E]): $VALUE|+0=$",
+    "POL": "[title_tier|E] ([duke|El]): $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TIER_REASON_KING",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[title_tier|E] ([king|E]): $VALUE|+0=$",
+    "RUS": "[Concept( 'title_tier', 'Уровень титула' )|E] ([Concept( 'king', 'король' )|E]): $VALUE|+0=$",
+    "POL": "[title_tier|E] ([king|El]): $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TIER_REASON_EMPEROR",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "[title_tier|E] ([emperor|E]): $VALUE|+0=$",
+    "RUS": "[Concept( 'title_tier', 'Уровень титула' )|E] ([Concept( 'emperor', 'император' )|E]): $VALUE|+0=$",
+    "POL": "[title_tier|E] ([emperor|El]): $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "REASON_ILLUSTRIOUS_LEGEND",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "$game_concept_legend_illustrious$ $game_concept_legend$: $VALUE|+0=$",
+    "RUS": "Выдающаяся легенда: $VALUE|+0=$",
+    "POL": "$game_concept_legend_illustrious$ legenda: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "REASON_MYTHICAL_LEGEND",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "$game_concept_legend_mythical$ $game_concept_legend$: $VALUE|+0=$",
+    "RUS": "Мифическая легенда: $VALUE|+0=$",
+    "POL": "$game_concept_legend_mythical$ legenda: $VALUE|+0=$",
+    "BEL": ""
+  },
+  {
+    "KEY": "IS_CONTACT_REASON",
+    "FILE_PATH": "localization/belarusian/dlc/ce1/ce1_interactions_l_belarusian.json",
+    "ENG": "Is your [contact_list_contact|E]: $VALUE|+0=$",
+    "RUS": "Ваш [Concept('contact_list_contact', 'покровитель')|E]: $VALUE|+0=$",
+    "POL": "Jest twoim [Concept('contact_list_contact', 'patronem')|E]: $VALUE|+0=$",
+    "BEL": ""
+  }
+]

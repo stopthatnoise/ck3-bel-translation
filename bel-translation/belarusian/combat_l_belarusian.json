@@ -1,0 +1,810 @@
+[
+  {
+    "KEY": "COMBAT_NAME",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Battle of [PROVINCE.GetNameNoTooltip]",
+    "RUS": "Битва в провинции [PROVINCE.GetNameNoTooltip]",
+    "POL": "Bitwa pod [PROVINCE.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOTAL_DEAD_AND_INITIAL_MEN",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$DEAD$",
+    "RUS": "$DEAD$",
+    "POL": "$DEAD$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOTAL_DEAD_AND_INITIAL_MEN_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Casualties: $DEAD|V$\\nInitial [soldiers|E]: $INITIAL|V$",
+    "RUS": "Потери: $DEAD|V$\\nИзначально [soldier|El]: $INITIAL|V$",
+    "POL": "Ofiary: $DEAD|V$\\nPoczątkowi [soldiers|El]: $INITIAL|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOTAL_INITIAL_MEN",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Initial [soldiers|E]",
+    "RUS": "Изначальное число [soldier|El]",
+    "POL": "Początkowi [soldiers|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOTAL_MEN_ALIVE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[soldiers|E] alive",
+    "RUS": "Живых [soldier|El]",
+    "POL": "[soldiers|E] żyją",
+    "BEL": ""
+  },
+  {
+    "KEY": "TOTAL_MEN_DEAD",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Casualties",
+    "RUS": "Потери",
+    "POL": "Ofiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_BALANCE_ATTACKER_WINNING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "The Attacker is currently winning",
+    "RUS": "В настоящий момент побеждают атакующие",
+    "POL": "Atakujący aktualnie wygrywa",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_BALANCE_DEFENDER_WINNING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "The Defender is currently winning",
+    "RUS": "В настоящий момент побеждают защитники",
+    "POL": "Obrońca aktualnie wygrywa",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_BALANCE_UNDECIDED",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "The [battle|E] is currently undecided",
+    "RUS": "Исход [Concept('battle', 'битвы')|E] пока не решен",
+    "POL": "[battle|E] jest obecnie nierozstrzygnięta",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_CURRENT_PHASE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Current [combat_phase|E]: [ConceptByKey('$PHASE|Vq$')]",
+    "RUS": "Текущая [Concept( 'combat_phase', 'фаза битвы' )|E]: [ConceptByKey('$PHASE|Vq$')]",
+    "POL": "Aktualna [combat_phase|El]: [ConceptByKey('$PHASE|Vq$')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_CURRENT_PHASE_DAYS_LEFT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Days Left In The Current [combat_phase|E]: $VALUE|V$",
+    "RUS": "Текущая [Concept( 'combat_phase', 'фаза битвы' )|E] продлится $VALUE|V$ дн.",
+    "POL": "Pozostałe dni w obecnej [Concept('combat_phase', 'fazie bitwy')|E]: $VALUE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_TOTAL_DAYS",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Total length of [battle|E]: $DAYS|V$",
+    "RUS": "[battle|E] длится $DAYS|V$",
+    "POL": "Całkowita długość [battles|El]: $DAYS|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ATTACKER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Attacker",
+    "RUS": "Атакующий",
+    "POL": "Atakujący",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEFENDER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Defender",
+    "RUS": "Защитник",
+    "POL": "Obrońca",
+    "BEL": ""
+  },
+  {
+    "KEY": "ARMY",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Army",
+    "RUS": "Армия",
+    "POL": "Armia",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_MODIFIER_HEADER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$TYPE$: $VALUE|2+=%$",
+    "RUS": "$TYPE$: $VALUE|2+=%$",
+    "POL": "$TYPE$: $VALUE|2+=%$",
+    "BEL": ""
+  },
+  {
+    "KEY": "END_OF_COMBAT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[battle|E] has ended",
+    "RUS": "[battle|E] закончилась",
+    "POL": "[battle|E] zakończona",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEPLOYED",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Deployed: ",
+    "RUS": "Развернуто: ",
+    "POL": "Rozmieszczony:",
+    "BEL": ""
+  },
+  {
+    "KEY": "DIED",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Died: ",
+    "RUS": "Погибло: ",
+    "POL": "Zmarł: ",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_maneuver",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Battle Formations",
+    "RUS": "Боевые построения",
+    "POL": "Manewry bitewne",
+    "BEL": ""
+  },
+  {
+    "KEY": "ford_river",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Fording River",
+    "RUS": "Переправа через реку",
+    "POL": "Przeprawa przez rzekę",
+    "BEL": ""
+  },
+  {
+    "KEY": "take_high_ground",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Taking High Ground",
+    "RUS": "Занятие господствующей высоты",
+    "POL": "Zajmowanie wzniesienia",
+    "BEL": ""
+  },
+  {
+    "KEY": "sleeping_camp",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Sleeping in Camp",
+    "RUS": "Сон в лагере",
+    "POL": "Spanie w obozie",
+    "BEL": ""
+  },
+  {
+    "KEY": "rousing_speech",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Rousing Speech",
+    "RUS": "Ободряющая речь",
+    "POL": "Porywające przemówienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_skirmish",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Skirmish",
+    "RUS": "Столкновение",
+    "POL": "Potyczka",
+    "BEL": ""
+  },
+  {
+    "KEY": "cover",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Take Cover",
+    "RUS": "В укрытии",
+    "POL": "Ukrycie",
+    "BEL": ""
+  },
+  {
+    "KEY": "extended_skirmish",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Extended Skirmish",
+    "RUS": "Затяжное столкновение",
+    "POL": "Wydłużona potyczka",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_melee",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Melee",
+    "RUS": "Ближний бой",
+    "POL": "Walka wręcz",
+    "BEL": ""
+  },
+  {
+    "KEY": "desperate_stand",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Desperate Stand",
+    "RUS": "Отчаянная оборона",
+    "POL": "Desperackie starcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "lead_the_charge",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Lead the Charge",
+    "RUS": "Во главе атаки",
+    "POL": "Dowodzenie atakiem",
+    "BEL": ""
+  },
+  {
+    "KEY": "press_the_breach",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Press the Breach",
+    "RUS": "Пробитый строй",
+    "POL": "Przełamanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "rallying_cry",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Rallying Cry",
+    "RUS": "Объединяющий лозунг",
+    "POL": "Okrzyk bojowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "character_duel",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Duel Challenge",
+    "RUS": "Вызов на поединок",
+    "POL": "Pojedynek – wyzwanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "character_duel_response",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Duel Response",
+    "RUS": "Вызов принят",
+    "POL": "Pojedynek – odpowiedź",
+    "BEL": ""
+  },
+  {
+    "KEY": "feigned_retreat",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Feigned Retreat",
+    "RUS": "Ложное отступление",
+    "POL": "Pozorowany odwrót",
+    "BEL": ""
+  },
+  {
+    "KEY": "feigned_retreat_response",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Vulnerable Push",
+    "RUS": "Уязвимый натиск",
+    "POL": "Bezbronne natarcie",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_retreat",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Retreat",
+    "RUS": "Отступление",
+    "POL": "Odwrót",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_pursuit",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Pursuit",
+    "RUS": "Преследование",
+    "POL": "Pogoń",
+    "BEL": ""
+  },
+  {
+    "KEY": "overextension",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Overextension",
+    "RUS": "Растянутый строй",
+    "POL": "Nadmierny przerost",
+    "BEL": ""
+  },
+  {
+    "KEY": "frenzied_pursuit",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Frenzied Pursuit",
+    "RUS": "Яростное преследование",
+    "POL": "Szalona pogoń",
+    "BEL": ""
+  },
+  {
+    "KEY": "sacrificial_countercharge",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Sacrificial Countercharge",
+    "RUS": "Самоубийственная атака",
+    "POL": "Ofiarny kontratak",
+    "BEL": ""
+  },
+  {
+    "KEY": "looting",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Looting Enemy Camp",
+    "RUS": "Разграбление вражеского лагеря",
+    "POL": "Plądrowanie obozu wroga",
+    "BEL": ""
+  },
+  {
+    "KEY": "frightened",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Frightened",
+    "RUS": "Испуг",
+    "POL": "Przerażenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PHASE_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[CombatWindow.GetPhaseTooltip]\\n\\n[CombatWindow.GetCombat.PhaseFrozenInfo]",
+    "RUS": "[CombatWindow.GetPhaseTooltip]\\n\\n[CombatWindow.GetCombat.PhaseFrozenInfo]",
+    "POL": "[CombatWindow.GetPhaseTooltip]\\n\\n[CombatWindow.GetCombat.PhaseFrozenInfo]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_ACTION_HEADER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$NAME$",
+    "RUS": "$NAME$",
+    "POL": "$NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_ACTION_LEVEL",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Level: $VALUE|V$",
+    "RUS": "Уровень: $VALUE|V$",
+    "POL": "Poziom: $VALUE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "default_maneuver_desc",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Getting the forces arranged on the battlefield in an orderly fashion.",
+    "RUS": "Выставить войска на поле битвы в боевой порядок.",
+    "POL": "Organizacja sił na polu walki",
+    "BEL": ""
+  },
+  {
+    "KEY": "VICTORY_LABEL",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#P Victory#!",
+    "RUS": "#P Победа#!",
+    "POL": "#P Zwycięstwo#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "LOSS_LABEL",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#N Defeat#!",
+    "RUS": "#N Поражение#!",
+    "POL": "#N Porażka#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SIEGE_NAME",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[siege|E] of $NAME|V$",
+    "RUS": "[siege|E] $NAME|V$",
+    "POL": "[Concept( 'siege', 'Oblężenie' )|E] $NAME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "RAID_NAME",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[raid|E] of [PROVINCE.GetNameNoTooltip|V]",
+    "RUS": "[raid|E] [PROVINCE.GetNameNoTooltip|V]",
+    "POL": "[Concept( 'raid', 'Najazd' )|E] [PROVINCE.GetNameNoTooltip|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BARTER_NAME",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[barter|E] Mission at [PROVINCE.GetNameNoTooltip|V]",
+    "RUS": "[barter|E] в провинции [PROVINCE.GetNameNoTooltip|V]",
+    "POL": "Misja [barter|El] w miejscu o nazwie [PROVINCE.GetNameNoTooltip|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_0",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "No Stars",
+    "RUS": "Нет звезд",
+    "POL": "Brak gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_1",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "1/5 Star",
+    "RUS": "1/5 звезд",
+    "POL": "1/5 gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_2",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "2/5 Stars",
+    "RUS": "2/5 звезд",
+    "POL": "2/5 gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_3",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "3/5 Stars",
+    "RUS": "3/5 звезд",
+    "POL": "3/5 gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_4",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "4/5 Stars",
+    "RUS": "4/5 звезд",
+    "POL": "4/5 gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_action_5",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "5/5 Stars",
+    "RUS": "5/5 звезд",
+    "POL": "5/5 gwiazdek",
+    "BEL": ""
+  },
+  {
+    "KEY": "BALANCED_ADVANTAGE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T [advantage|E]: No side has the Advantage#!",
+    "RUS": "#T [advantage|E]: ни у одной из сторон нет преимущества#!",
+    "POL": "#T [advantage|E]: żadna strona nie ma przewagi#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "HAVE_ADVANTAGE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T [advantage|E]: $ADVANTAGE$ $COMBAT_RELATION_FAVOR$#!\\n$COMBAT_RELATION_POSSESIVE|U$ damage is increased by $ADVANTAGE_DAMAGE_FACTOR|V0%$",
+    "RUS": "#T [advantage|E]: $ADVANTAGE$ $COMBAT_RELATION_FAVOR$.#!\\nУрон $COMBAT_RELATION_POSSESIVE$ увеличен на $ADVANTAGE_DAMAGE_FACTOR|V0%$",
+    "POL": "#T [advantage|E]: $ADVANTAGE$ $COMBAT_RELATION_FAVOR$#!\\n$COMBAT_RELATION_POSSESIVE|U$ obrażenia zwiększone o $ADVANTAGE_DAMAGE_FACTOR|V0%$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADVANTAGE_POSITIVE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$VALUE|0P$",
+    "RUS": "$VALUE|0P$",
+    "POL": "$VALUE|0P$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADVANTAGE_NEGATIVE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$VALUE|0N$",
+    "RUS": "$VALUE|0N$",
+    "POL": "$VALUE|0N$",
+    "BEL": ""
+  },
+  {
+    "KEY": "defender_river",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Defending a River Crossing",
+    "RUS": "Оборона переправы через реку",
+    "POL": "Obrona podczas przeprawy przez rzekę",
+    "BEL": ""
+  },
+  {
+    "KEY": "defender_river_large",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Defending a Major River Crossing",
+    "RUS": "Оборона переправы через большую реку",
+    "POL": "Obrona podczas przeprawy przez główną rzekę",
+    "BEL": ""
+  },
+  {
+    "KEY": "defender_strait",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Defending a Strait Crossing",
+    "RUS": "Оборона переправы через пролив",
+    "POL": "Obrona podczas przejścia przez cieśninę",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_EARLY_BATTLE_PHASE_TOOLTIP_HEADING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Early Battle Phase#!",
+    "RUS": "#T Ранняя фаза битвы#!",
+    "POL": "#T Wczesna faza bitwy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_LATE_BATTLE_PHASE_TOOLTIP_HEADING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Late Battle Phase#!",
+    "RUS": "#T Поздняя фаза битвы#!",
+    "POL": "#T Późna faza bitwy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_RETREAT_TOOLTIP_POSSIBLE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Either side can choose to retreat in an orderly fashion\\n#I Right-click on the map to order your Army to retreat there#!",
+    "RUS": "Любая сторона может выбрать организованное отступление\\n#I Щелкните правой кнопкой мыши по тому месту на карте, куда должна отступить ваша армия#!",
+    "POL": "Każda ze stron może zdecydować o planowanym odwrocie\\n#I Kliknij PPM na mapie, aby rozkazać swojej armii odwrót do wskazanego punktu#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_OVERRUN_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "If the army is defeated in the Early Battle Phase, it will be completely destroyed",
+    "RUS": "Армия, разбитая в ранней фазе битвы, полностью уничтожается",
+    "POL": "Jeśli armia zostanie pokonana we wczesnej fazie bitwy, zostanie całkowicie zniszczona",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_NO_RETREAT_TOO_EARLY",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Ordered retreat will be possible in the Late Battle Phase (in $DAYS|V$ days)",
+    "RUS": "Начать организованное отступление можно в последней фазе битвы (через $DAYS|V$ дн.)",
+    "POL": "Zorganizowany odwrót będzie możliwy w późnej fazie bitwy (za $DAYS|V$ dni)",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_NO_RETREAT_PURSUIT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "@warning_icon! Cannot retreat in pursuit phase",
+    "RUS": "@warning_icon! В фазе преследования отступать невозможно",
+    "POL": "@warning_icon! Nie można wycofać się w fazie pogoni",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_NO_RETREAT_LANDLESS",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "@warning_icon! Cannot retreat as landless commander",
+    "RUS": "@warning_icon! Безземельные командиры не могут отступать",
+    "POL": "@warning_icon! Nie może się wycofać jako dowódca bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_NO_RETREAT_DISALLOWED",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "@warning_icon! Cannot retreat, the situation does not allow it",
+    "RUS": "@warning_icon! В этой ситуации отступление невозможно",
+    "POL": "@warning_icon! Nie można dokonać odwrotu – sytuacja na to nie pozwala",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_phase_maneuver",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Maneuver",
+    "RUS": "Маневрирование",
+    "POL": "Manewr",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_phase_main",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Main",
+    "RUS": "Основная",
+    "POL": "Główny",
+    "BEL": ""
+  },
+  {
+    "KEY": "combat_phase_pursuit",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Pursuit",
+    "RUS": "Преследование",
+    "POL": "Pogoń",
+    "BEL": ""
+  },
+  {
+    "KEY": "tooltip_combat_phase_maneuver",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Current [combat_phase|E]: [maneuver|E]#!",
+    "RUS": "#T Текущая [combat_phase|El]: [maneuver|El]#!",
+    "POL": "#T Obecna [combat_phase|El]: [maneuver|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tooltip_combat_phase_main",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Current [combat_phase|E]: [main_phase|E]#!",
+    "RUS": "#T Текущая [Concept( 'combat_phase', 'фаза битвы' )|E]: [main_phase|El]#!",
+    "POL": "#T Obecna [combat_phase|El]: [main_phase|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tooltip_combat_phase_pursuit",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Current [combat_phase|E]: [aftermath|E]#!",
+    "RUS": "#T Текущая [Concept( 'combat_phase', 'фаза битвы' )|E]: [aftermath|El]#!",
+    "POL": "#T Obecna [combat_phase|El]: [aftermath|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_WIDTH_BREAKDOWN_HEADER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[combat_width|E]: $VALUE|V$",
+    "RUS": "[combat_width|E]: $VALUE|V$",
+    "POL": "[combat_width|E]: $VALUE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MEN_AT_ARMS_DESC",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$MEN_AT_ARMS_TYPE|V$: $VALUE|0$",
+    "RUS": "$MEN_AT_ARMS_TYPE|V$: $VALUE|0$",
+    "POL": "$MEN_AT_ARMS_TYPE|V$: $VALUE|0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "COUNTERED",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "countered",
+    "RUS": "отбито",
+    "POL": "Skontrował",
+    "BEL": ""
+  },
+  {
+    "KEY": "PURSUING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Pursuing",
+    "RUS": "Преследование",
+    "POL": "Pościg",
+    "BEL": ""
+  },
+  {
+    "KEY": "RETREATING",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Retreating",
+    "RUS": "Отступление",
+    "POL": "Odwrót",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_WIDTH_BASE_DESCRIPTION",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$BASE_COLON$ #weak (Half the total of all [soldiers|E] at the start of battle)#!",
+    "RUS": "$BASE_COLON$ #weak (Половина общего числа [soldier|El] в начале битвы)#!",
+    "POL": "$BASE_COLON$ #weak (Połowa wszystkich [Concept( 'soldiers', 'żołnierzy' )|E] na początku bitwy)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_LEVEL_0",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "You will lose decisively",
+    "RUS": "Вас ждет неминуемое поражение",
+    "POL": "Zdecydowanie przegrasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_LEVEL_1",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "You will probably lose",
+    "RUS": "Возможно, вы проиграете",
+    "POL": "Prawdopodobnie przegrasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_LEVEL_2",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "The chances are even",
+    "RUS": "Шансы равны",
+    "POL": "Szanse są wyrównane",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_LEVEL_3",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "You will probably win",
+    "RUS": "Возможно, вы выиграете",
+    "POL": "Prawdopodobnie wygrasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_LEVEL_4",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "You will win decisively",
+    "RUS": "Вас ждет верная победа",
+    "POL": "Zdecydowanie wygrasz",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_EDGE_BETTER_COMMANDER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Better [army_commander|E]",
+    "RUS": "Лучший [army_commander|El]",
+    "POL": "Lepszy [Concept( 'army_commander', 'dowódca armii' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "More [commander_traits|E]",
+    "RUS": "Более многочисленные [commander_traits|El]",
+    "POL": "Więcej [Concept('commander_traits', 'cech dowódcy')|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_COMBAT_HEADER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Potential Battle (in $DURATION$)",
+    "RUS": "Возможная битва (через $DURATION$)",
+    "POL": "Potencjalna bitwa (za $DURATION$)",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "More [soldiers|E]",
+    "RUS": "Больше [soldier|El]",
+    "POL": "Więcej [Concept( 'soldiers', 'żołnierzy' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_EDGE_QUALITY_COUNT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "Higher [troop_quality|E]",
+    "RUS": "Более высокая [troop_quality|El]",
+    "POL": "Lepsza [troop_quality|El] oddziałów",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_EDGE_MAA_COUNTER",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "More [men_at_arms_counter|E]",
+    "RUS": "Более многочисленное [men_at_arms_counter|El]",
+    "POL": "Więcej [Concept('men_at_arms_counter', 'kontr zbrojnych')|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_PREDICTION_DEBUG_SCORE",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#D (DEBUG SCORE: $VALUE$)#!",
+    "RUS": "#D (DEBUG SCORE: $VALUE$)#!",
+    "POL": "#D (DEBUG WYNIK: $VALUE$)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAA_COUNTERED_IN_COMBAT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "$NAME$: $EFFECTIVENESS|%V0$",
+    "RUS": "$NAME$: $EFFECTIVENESS|%V0$",
+    "POL": "$NAME$: $EFFECTIVENESS|%V0$",
+    "BEL": ""
+  },
+  {
+    "KEY": "MAAS_COUNTERED_IN_COMBAT",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "[men_at_arms|E] fighting at reduced effectiveness due to [men_at_arms_counter|E]:",
+    "RUS": "[men_at_arms|E] сражается с меньшей эффективностью, поскольку присутствует [men_at_arms_counter|El]:",
+    "POL": "Walczący [men_at_arms|El] ma zmniejszoną skuteczność z powodu [men_at_arms_counter|El]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMBAT_ON_MAP_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T [Combat.GetName]#!\\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\\n#I Click to view#!",
+    "RUS": "#T [Combat.GetName]#!\\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] против [Combat.GetRightSide.GetCurrentFightingMen|0]\\n#I Нажмите, чтобы посмотреть#!",
+    "POL": "#T [Combat.GetName]#!\\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\\n#I Kliknij, aby zobaczyć#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "COMMANDER_ADVANTAGE_DESC",
+    "FILE_PATH": "localization/belarusian/combat_l_belarusian.json",
+    "ENG": "#T Commander [advantage|E]: $ADVANTAGE$#!\\nMartial skill: $SKILL|+=$\\n$MODIFIERS$",
+    "RUS": "#T [advantage|E] командира: $ADVANTAGE$#!\\nНавык «Военное дело»: $SKILL|+=$\\n$MODIFIERS$",
+    "POL": "#T [Concept( 'advantage', 'Przewaga' )|E] dowódcy: $ADVANTAGE$#!\\nUmiejętność walki: $SKILL|+=$\\n$MODIFIERS$",
+    "BEL": ""
+  }
+]

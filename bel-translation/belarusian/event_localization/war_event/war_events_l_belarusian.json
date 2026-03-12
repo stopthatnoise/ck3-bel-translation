@@ -1,0 +1,490 @@
+[
+  {
+    "KEY": "war_event.1901",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [attacker_winner.GetUIName], won [attacker_winner.GetHerHis] [war|E] against [defender_loser.GetUIName]!",
+    "RUS": "Ваш [Concept('liege', 'сюзерен')|E], [attacker_winner.GetUIName], побеждает в [Concept('war', 'войне')|E]. [defender_loser.GetUIName] [Select_CString(defender_loser.IsLocalPlayer,'потерпели',Select_CString(defender_loser.IsFemale,'потерпела', 'потерпел'))] поражение!",
+    "POL": "Twój [liege|El], [attacker_winner.GetUINameNotMe], wygrywa swoją [Concept('war', 'wojnę')|E] przeciwko osobie znanej jako [defender_loser.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1902",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [defender_loser.GetUIName], lost [defender_loser.GetHerHis] [war|E] against [attacker_winner.GetUIName]!",
+    "RUS": "Ваш [Concept('liege', 'сюзерен')|E], [defender_loser.GetUIName], терпит поражение в [Concept('war', 'войне')|E]. [attacker_winner.GetUIName] [Select_CString(attacker_winner.IsLocalPlayer,'победили',Select_CString(attacker_winner.IsFemale,'победила', 'победил'))]!",
+    "POL": "Twój [liege|El], [defender_loser.GetUINameNotMe], przegrywa swoją [Concept('war', 'wojnę')|E] przeciwko osobie znanej jako [attacker_winner.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1903",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [attacker_white_peace.GetUIName], has signed a [white_peace|E] with [defender_white_peace.GetUIName]!",
+    "RUS": "Ваш [Concept( 'liege', 'сюзерен' )|E], [attacker_white_peace.GetUIName], и [defender_white_peace.GetShortUIName] закончили войну в [Concept( 'white_peace', 'статус-кво' )|E]!",
+    "POL": "Twój [liege|El], [attacker_white_peace.GetUINameNotMe], zawiera [white_peace|El] z osobą znaną jako [defender_white_peace.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1904",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [defender_white_peace.GetUIName], has signed a [white_peace|E] with [attacker_white_peace.GetUIName]!",
+    "RUS": "Ваш [Concept( 'liege', 'сюзерен' )|E], [defender_white_peace.GetUIName], и [attacker_white_peace.GetShortUIName] закончили войну в [Concept( 'white_peace', 'статус-кво' )|E]!",
+    "POL": "Twój [liege|El], [defender_white_peace.GetUINameNotMe], zawiera [white_peace|El] z osobą znaną jako [attacker_white_peace.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1905",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [attacker_loser.GetUIName], lost [attacker_loser.GetHerHis] war against [defender_winner.GetUIName]!",
+    "RUS": "Ваш [Concept('liege', 'сюзерен')|E], [attacker_loser.GetUIName], терпит поражение в [Concept('war', 'войне')|E]. [defender_winner.GetUIName] [Select_CString(defender_winner.IsLocalPlayer,'победили',Select_CString(defender_winner.IsFemale,'победила', 'победил'))]!",
+    "POL": "Twój [liege|El], [attacker_loser.GetUINameNotMe], przegrywa swoją wojnę przeciwko osobie znanej jako [defender_winner.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1906",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your [liege|E], [defender_winner.GetUIName], won [defender_winner.GetHerHis] war against [attacker_loser.GetUIName]!",
+    "RUS": "Ваш [Concept('liege', 'сюзерен')|E], [defender_winner.GetUIName], побеждает в [Concept('war', 'войне')|E]. [attacker_loser.GetUIName] [Select_CString(attacker_loser.IsLocalPlayer,'потерпели',Select_CString(attacker_loser.IsFemale,'потерпела', 'потерпел'))] поражение!",
+    "POL": "Twój [liege|El], [defender_winner.GetUINameNotMe], przegrywa swoją wojnę przeciwko osobie znanej jako [attacker_loser.GetUINameNotMe]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.notification_liege_win.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Liege Won War",
+    "RUS": "Сюзерен выиграл войну",
+    "POL": "Senior wygrał wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.notification_liege_loss.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Liege Lost War",
+    "RUS": "Сюзерен проиграл войну",
+    "POL": "Senior przegrał wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "My Liege Declares War",
+    "RUS": "Мой сюзерен объявляет войну",
+    "POL": "Mój senior wypowiada wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "It is strange how quickly a situation can change during war.\\n\\nIn the midst of fighting against [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], a missive from [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] arrives. [liege_invalidator.GetSheHe|U] is telling me to abandon my own cause and join [liege_invalidator.GetHerHim] in #EMP [liege_invalidator.GetHerHis]#! war against [recipient.GetTitledFirstName].",
+    "RUS": "Странно, как быстро все меняется на войне.\\n\\nЯ и [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] воюем, и тут приходит сообщение: [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] требует остановить мой поход и помочь [liege_invalidator.GetHerHim] в #EMP [liege_invalidator.GetHerHis] собственной#! войне, целью которой также является [recipient.GetTitledFirstName].",
+    "POL": "To dziwne, jak szybko sytuacja może się zmienić podczas wojny. \\n\\nGdy ja i [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] walczymy ze sobą zaciekle, przychodzi wiadomość. [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] żąda, abym [Select_CString( ROOT.Char.IsFemale, 'porzuciła swoją kampanię i dołączyła', 'porzucił swoją kampanię i dołączył' )] do [Select_CString( liege_invalidator.IsFemale, 'niej', 'niego' )] w #EMP [liege_invalidator.GetHerHis]#! własnej wojnie, której celem jest również [recipient.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "B-but what about my war!? Damn you!",
+    "RUS": "Н-но как же моя война?! Чтоб вас!",
+    "POL": "A-ale co z moją wojną!? Niech Cię!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Since [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] now wages war against you my forces will join [liege_invalidator.GetHerHis] cause.",
+    "RUS": "Поскольку [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] ведет войну против вас, мои войска поддержат [liege_invalidator.GetHerHis].",
+    "POL": "Jako że [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] prowadzi teraz wojnę przeciwko tobie, moje siły przyłączą się do [liege_invalidator.GetHerHis] sprawy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "So be it.",
+    "RUS": "Да будет так.",
+    "POL": "Niech tak będzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "A New Opponent",
+    "RUS": "Новый соперник",
+    "POL": "Nowy przeciwnik",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Nothing in this world is certain, especially in times of war. The [war.GetName] has been no different.\\n\\nAs this conflict is no longer against [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)] but [defender.Custom2('MyCharacterIntroduction', ROOT.Char)] instead, it might be wise to reevaluate the situation.",
+    "RUS": "В мире нет ничего незыблемого, особенно в военное время. [war.GetName] снова это подтверждает.\\n\\nТеперь наш противник уже не [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)], но [defender.Custom2('MyCharacterIntroduction', ROOT.Char)]. Возможно, пора пересмотреть стратегию.",
+    "POL": "Nic na tym świecie nie jest pewne, zwłaszcza w czasach wojny. [war.GetName|U] nie różni się niczym spośród innych wojen.\\n\\nJako że celem tego konfliktu nie jest już [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)], lecz [defender.Custom2('MyCharacterIntroduction', ROOT.Char)], mądrze byłoby dokonać ponownej oceny sytuacji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "My goal is still the same.",
+    "RUS": "У меня все та же цель.",
+    "POL": "Mój cel jest wciąż ten sam.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "The war rages on",
+    "RUS": "Война продолжается",
+    "POL": "Wojna trwa dalej",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "This is no longer the best course of action.",
+    "RUS": "Это уже не лучший вариант.",
+    "POL": "To już nie jest najlepszy sposób działania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Perhaps we can strike a deal?",
+    "RUS": "Возможно, мы сможем договориться?",
+    "POL": "Może uda nam się dobić targu?",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2001.c.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Request a large sum of gold from [defender.GetTitledFirstName] in return for ending the war",
+    "RUS": "Пусть [defender.GetTitledFirstName] хорошо заплатит золотом, и война закончится",
+    "POL": "Zażądaj dużej sumy w złocie od osoby znanej jako [defender.GetTitledFirstName] w zamian za zakończenie wojny",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "We have regrettably found ourselves on opposing sides in this conflict. It was never my intention, and thus I will withdraw my troops.",
+    "RUS": "Я сожалею, что мы оказались по разные стороны конфликта. Мне никогда этого не хотелось, и потому я увожу войска.",
+    "POL": "Niestety, w tym konflikcie znaleźliśmy się po przeciwnych stronach. To nigdy nie było moim zamiarem, dlatego wycofam swoje wojska.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "A wise choice.",
+    "RUS": "Мудрый выбор.",
+    "POL": "Mądry wybór.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[harald.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[harald.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[harald.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Given we find ourselves now at odds, perhaps we can strike a deal to resolve this conflict peacefully?\\n\\nI shall withdraw my troops, given the correct sum of gold...",
+    "RUS": "Учитывая наше затруднительное положение, предлагаю заключить сделку и решить дело миром.\\n\\nЯ выведу войска в обмен на надлежащее количество золота…",
+    "POL": "Jesteśmy teraz na wojennej ścieżce, ale może uda nam się zawrzeć układ, który rozwiąże ten konflikt pokojowo?\\n\\nWycofam swoje wojska, jeśli otrzymam odpowiednią ilość złota…",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "A good deal.",
+    "RUS": "Хорошая сделка.",
+    "POL": "Dobry układ.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Never!",
+    "RUS": "Ни за что!",
+    "POL": "Nigdy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your wisdom precedes you. You have yourself a deal.",
+    "RUS": "Ваша мудрость не вызывает сомнений. Мы заключим сделку.",
+    "POL": "Twoja mądrość Cię wyprzedza. Umowa stoi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Excellent!",
+    "RUS": "Прекрасно!",
+    "POL": "Doskonale!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[william.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "I am afraid I must reject your offer. We shall meet on the battlefield.",
+    "RUS": "Боюсь, мне придется отклонить ваше предложение. Встретимся на поле боя.",
+    "POL": "Obawiam się, że muszę odrzucić Twoją ofertę. Spotkamy się na polu bitwy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.2006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "War it is.",
+    "RUS": "Что ж, быть войне.",
+    "POL": "A więc wojna.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Two years ago you promised to aid me in the [war.GetName], yet so far you have done nothing to support me in this endeavor.\\n\\nWhat is the point of our alliance if you never to even lift a finger to help me?",
+    "RUS": "[war.GetName] идет уже давно. Два года назад вы обещали, мне помощь, но на деле никакой поддержки не было.\\n\\nВ чем смысл нашего союза, если вы и пальцем не пошевелили ради меня?",
+    "POL": "Dwa lata temu obiecał[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] mi pomoc w [war.GetName], ale jak dotąd nie zrobił[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] nic, aby wesprzeć mnie w tych wysiłkach.\\n\\nJaki jest sens naszego sojuszu, jeśli nawet nie kiwniesz palcem, aby mi pomóc?",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "I will send my troops to your aid immediately!",
+    "RUS": "Я немедленно отправлю войска вам на помощь!",
+    "POL": "Natychmiast wyślę ci żołnierzy na pomoc!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "If I do not earn any [war_contribution|E] within 12 months I will lose a [prestige_level|E] and place my alliance with [war_owner.GetTitledFirstNameNoTooltip] at risk!",
+    "RUS": "Если в ближайшие 12 месяцев я не внесу свой [Concept('war_contribution', 'вклад в войну')|E], то потеряю [Concept('prestige_level', 'уровень репутации')|E], и [war_owner.GetTitledFirstNameNoTooltip] может пересмотреть условия нашего союза!",
+    "POL": "Jeśli w ciągu 12 miesięcy nie zdobędę [Concept( 'war_contribution', 'wkładu wojennego' )|E], stracę [Concept( 'prestige_level', 'poziom prestiżu' )|E] i wystawię sojusz z [war_owner.GetTitledFirstNameNoTooltip] na ryzyko!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "This chest of gold should make up for my absence...",
+    "RUS": "Этот сундук золота станет лучшим извинением за мое отсутствие...",
+    "POL": "Ta skrzynia złota powinna wynagrodzić moją nieobecność…",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "I will no longer be expected to send soldiers to fight in [war.GetName].",
+    "RUS": "[war.GetName] — не место для моих солдат. Я больше не буду посылать войска.",
+    "POL": "Nie będę już wysyłał żołnierzy do walki w [war.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3001.c",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "I apologize, I should not have claimed that I would help.",
+    "RUS": "Прошу прощения, мне не следовало обещать помощь.",
+    "POL": "Przepraszam, nie powinienem był twierdzić, że pomogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[SCOPE.sC('war_owner').Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3002.desc.start",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Despite your promise to send troops to my aid, I still have yet to see a single one of your soldiers on the battlefield.",
+    "RUS": "Несмотря на ваше обещание прислать войска мне на помощь, ни один из ваших солдат еще не появился на поле боя.",
+    "POL": "Pomimo twojej obietnicy wysłania żołnierzy na pomoc, nadal nie widzę ani jednego z twoich żołnierzy na polu bitwy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3002.desc.end.1",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "By breaking your oath this way you have brought dishonor upon yourself and your family.",
+    "RUS": "Нарушив клятвы, вы навлекли позор на себя и свой род.",
+    "POL": "Łamiąc w ten sposób przysięgę, sprowadziłeś hańbę na siebie i swoją rodzinę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3003.desc.end.2",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your failure in this regard has severely damaged my trust in you, [ROOT.Char.GetTitledFirstName].",
+    "RUS": "Вы серьезно подорвали мое доверие, [ROOT.Char.GetTitledFirstName].",
+    "POL": "Twoja porażka w tym względzie poważnie nadszarpnęła moje zaufanie do Ciebie, [ROOT.Char.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3002.1.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Very well.",
+    "RUS": "Ну хорошо.",
+    "POL": "Bardzo dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3003.2.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "I will do better next time.",
+    "RUS": "Я исправлюсь.",
+    "POL": "Następnym razem zrobię to lepiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3003.2.b",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Maybe I should just end our alliance...?",
+    "RUS": "Может, просто разорвем наш союз?..",
+    "POL": "Może powinienem po prostu zakończyć nasz sojusz…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.both_neighbors.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Neighbors' War Resolved",
+    "RUS": "Война соседей окончена",
+    "POL": "Wojna sąsiadów rozstrzygnięta",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.both_neighbors.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your neighbor [winner.GetTitledFirstName] won against your other neighbor [loser.GetTitledFirstName] in the [war.GetName]!",
+    "RUS": "[Select_CString(winner.IsFemale, 'Ваша соседка', 'Ваш сосед' )] [winner.GetTitledFirstName] [Select_CString(winner.IsFemale, 'выиграла', 'выиграл' )] войну [war.GetName]. [loser.GetTitledFirstName], [Select_CString(loser.IsFemale, 'проигравшая', 'проигравший' )] войну, также является [Select_CString(loser.IsFemale, 'вашей соседкой', 'вашим соседом' )]!",
+    "POL": "Tw[Select_CString( winner.IsFemale, 'oja sąsiadka', 'ój sąsiad' )] [winner.GetTitledFirstName] wygrał[Select_CString( winner.IsFemale, 'a', '' )] wojnę z twoim drugim sąsiadem [loser.GetTitledFirstName] ([war.GetName|U])",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.only_winner.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Neighboring Ruler Won War",
+    "RUS": "Правитель по соседству выиграл войну",
+    "POL": "Sąsiedni władca wygrał wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.only_winner.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your neighbor [winner.GetTitledFirstName] has won against [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] in the [war.GetName]!",
+    "RUS": "[Select_CString(winner.IsFemale, 'Ваша соседка', 'Ваш сосед' )] [winner.GetTitledFirstName] [Select_CString(winner.IsFemale, 'выиграла', 'выиграл' )] войну «[war.GetName]». [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] [Select_CString(loser.IsFemale, 'разбита', 'разбит' )]!",
+    "POL": "Tw[Select_CString( winner.IsFemale, 'oja sąsiadka', 'ój sąsiad' )] [winner.GetTitledFirstName] wygrał[Select_CString( winner.IsFemale, 'a', '' )] wojnę, w której celem był[Select_CString( loser.IsFemale, 'a', '' )] [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] ([war.GetName|U])",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.only_loser.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Neighboring Ruler Lost War",
+    "RUS": "Правитель по соседству проиграл войну",
+    "POL": "Sąsiedni władca przegrał wojnę",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.neighbor_war.only_loser.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your neighbor [loser.GetTitledFirstName] has lost against [winner.Custom2('YourCharacterIntroductionNoComma', this_player)] in the [war.GetName]!",
+    "RUS": "[Select_CString(loser.IsFemale, 'Ваша соседка', 'Ваш сосед' )] [loser.GetTitledFirstName] [Select_CString(loser.IsFemale, 'проиграла', 'проиграл' )] войну «[war.GetName]». Победитель — [winner.Custom2('YourCharacterIntroductionNoComma', this_player)]!",
+    "POL": "Tw[Select_CString( loser.IsFemale, 'oja sąsiadka', 'ój sąsiad' )] [loser.GetTitledFirstName] przegrał[Select_CString( loser.IsFemale, 'a', '' )] wojnę, w której celem był[Select_CString( winner.IsFemale, 'a', '' )] [winner.Custom2('YourCharacterIntroductionNoComma', this_player)] ([war.GetName|U])",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3101.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Newfound Faith",
+    "RUS": "Новообретенная вера",
+    "POL": "Nowo odkryta wiara",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "news has reached me of [defender.GetTitledFirstNamePossessive] conversion to [defender.GetFaith.GetNameNoTooltip]. I no longer have a [ROOT.Char.GetFaith.HighGodName]-given right to wage war on [defender.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "до меня докатилась новость, что [defender.GetTitledFirstNamePossessive] [Select_CString(defender.IsFemale,'приняла', 'принял')] #L [defender.GetFaith.GetNameNoTooltip|l]ую#! веру. [ROOT.Char.GetFaith.HighGodName] больше не позволяет мне воевать с [Select_CString(defender.IsFemale,'ней', 'ним')], и [defender.GetPrimaryTitle.GetNameNoTierNoTooltip] не может принадлежать мне по праву.",
+    "POL": "dotarły do mnie wieści o tym, że [defender.GetTitledFirstName] od teraz wyznaje wiarę znaną jako [defender.GetFaith.GetNameNoTooltip|l]. Już nie mam powodu do wypowiedzenia [defender.Custom('PL_mu_jej')] wojny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3101.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "The time has come to put down our swords.",
+    "RUS": "Пришло время опустить клинки.",
+    "POL": "Nadszedł czas, aby odłożyć nasze miecze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3101.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[war.GetName] continues",
+    "RUS": "[war.GetName] продолжается",
+    "POL": "[war.GetName] trwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3101.b",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[defender.GetSheHe|U] thinks this will stop me? Ha!",
+    "RUS": "[defender.GetSheHe|U] думает, что меня это остановит? Ха!",
+    "POL": "[defender.GetSheHe|U] myśli, że to mnie powstrzyma? Ha!",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3102.t",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "RUS": "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "POL": "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3102.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "Your newfound faith in [ROOT.Char.GetFaith.HighGodName] is hardly convincing. My cause is still righteous — there will be no mercy.",
+    "RUS": "Интересно, верит ли [ROOT.Char.GetFaith.HighGodName] в твое внезапное прозрение? Меня оно точно не убедило. Мое дело все еще правое, пощады не будет!",
+    "POL": "Twoja nowo odkryta wiara w [ROOT.Char.GetFaith.HighGodNamePossessive] jest mało przekonująca. Moja sprawa jest nadal słuszna – nie będzie żadnego miłosierdzia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "war_event.3102.a",
+    "FILE_PATH": "localization/belarusian/event_localization/war_event/war_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom('CulturalCurse')|U]!",
+    "RUS": "Вот [ROOT.Char.Custom('CulturalCurse')]!",
+    "POL": "[ROOT.Char.Custom('CulturalCurse')|U]!",
+    "BEL": ""
+  }
+]

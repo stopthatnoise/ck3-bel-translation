@@ -1,0 +1,2370 @@
+[
+  {
+    "KEY": "HISTORICAL_CHARACTER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "#T Historical Character#!\\n\\n#high [Character.Custom('HistoricalCharacterDesc')]#!\\n\\n#weak This character is historical, but might deviate compared to [Character.GetHerHis] real-life counterpart based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] historical date of prominence by around 1-5 years.#!",
+    "RUS": "#T Исторический персонаж#!\\n\\n#high [Character.Custom('HistoricalCharacterDesc')]#!\\n\\n#weak Этот персонаж исторический, но может отличаться от своего реального прототипа в зависимости от [Concept('culture', 'культуры')|E] и [Concept('faith', 'конфессии')|E] родного владения. Кроме того, [Select_CString(Character.IsFemale, 'она', 'он' )] может появиться чуть раньше или позже (от года до 5 лет) исторически значимого для этого персонажа события.#!",
+    "POL": "#T Postać historyczna#!\\n\\n#high [Character.Custom('HistoricalCharacterDesc')]#!\\n\\n#weak Ta postać jest historyczna, ale może różnić się od swojego pierwowzoru w zależności od [Concept('culture', 'kultury')|E] miejsca, z którego wywodzi się w grze, oraz praktykowanej tam [Concept('faith', 'wiary')|E]. Czas pojawienia się postaci może być nieznacznie przesunięty względem rzeczywistości o 1–5 lat.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "danger_dynasty_abandon_tt",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "#X @warning_icon! You will abandon your [dynasty|E] and will not be able to resume playing as them!#!",
+    "RUS": "#X @warning_icon! Вы отречетесь от своей [Concept('dynasty', 'династии')|E] и не сможете возобновить игру за нее!#!",
+    "POL": "#X @warning_icon! Porzucisz swoją [Concept('dynasty', 'dynastię')|E] i nie będziesz już w stanie nią dalej grać!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "will_wander_tt",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "[historical_character.GetFullName] will become a [wanderer|E]",
+    "RUS": "[historical_character.GetFullName] станет [Concept('wanderer', 'скитальцем')|E]",
+    "POL": "[historical_character.GetFullName] zostanie [Concept('wanderer', 'wędrowcem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.t",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Echoes of History: [historical_character.GetFullNameNicknamedNoTooltip]",
+    "RUS": "Эхо истории: [historical_character.GetFullNameNicknamedNoTooltip]",
+    "POL": "Echa historii: [historical_character.GetFullNameNicknamedNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "[historical_character.Custom('HistoricalCharacterJobDesc')] known as [historical_character.GetFullNameNicknamed] is reportedly wandering my realm in search of employ. [historical_character.GetSheHe|U] hails from the [birth_location.GetName], and has a certain air about [historical_character.GetHerHim]... [historical_character.Custom('DescriptorPositiveStandalone')] yet somewhat [historical_character.Custom('DescriptorNegativeStandalone')].\\n\\n\\n@historical_character_icon! #weak This character is historical:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "RUS": "[historical_character.Custom('HistoricalCharacterJobDesc')] по имени [historical_character.GetFullNameNicknamed], по слухам, блуждает по моим землям в поисках нанимателя. [Select_CString(historical_character.IsFemale, 'Ее', 'Его' )] родиной является [birth_location.GetName], и есть в этом человеке что-то... [historical_character.Custom('DescriptorPositiveStandalone')]ое, но в то же время [historical_character.Custom('DescriptorNegativeStandalone')]ое.\\n\\n\\n@historical_character_icon! #weak Это исторический персонаж:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "POL": "[historical_character.Custom('HistoricalCharacterJobDesc')], osoba znana jako [historical_character.GetFullNameNicknamed], przemierza moje państwo, rzekomo poszukując zatrudnienia. Wywodzi się z miejsca, które zwie się [birth_location.GetName], a wokół siebie roztacza osobliwą aurę… Jest to postać [historical_character.Custom('DescriptorPositiveStandalone')], a jednocześnie [historical_character.Custom('DescriptorNegativeStandalone')].\\n\\n\\n@historical_character_icon! #weak Ta postać jest historyczna:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events_alternative.desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "[historical_character.Custom('HistoricalCharacterJobDesc')], known as [historical_character.GetFullNameNicknamed], has made a name for [historical_character.GetHerselfHimself] at court. [historical_character.GetSheHe|U] is [historical_character.Custom('DescriptorPositiveStandalone')], and while I cannot put my finger on it, there is something extraordinary about [historical_character.GetHerHim]...\\n\\n\\n@historical_character_icon! #weak This character is historical:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "RUS": "[historical_character.Custom('HistoricalCharacterJobDesc')] по имени [historical_character.GetFullNameNicknamed] [Select_CString(historical_character.IsFemale, 'сумела', 'сумел' )] отличиться при дворе. [Select_CString(historical_character.IsFemale, 'Она показала', 'Он показал' )] себя человеком на редкость [historical_character.Custom('DescriptorPositiveStandalone')]ым. Есть в [Select_CString(historical_character.IsFemale, 'ней', 'нём' )] что-то… особенное, но не могу сказать, что именно.\\n\\n\\n@historical_character_icon! #weak Это исторический персонаж:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "POL": "[historical_character.Custom('HistoricalCharacterJobDesc')], osoba znana jako [historical_character.GetFullNameNicknamed], cieszy się na dworze znakomitą renomą. Jest to po prostu postać [historical_character.Custom('DescriptorPositiveStandalone')] i ma w sobie coś nadzwyczajnego, choć trudno mi stwierdzić, co…\\n\\n\\n@historical_character_icon! #weak Ta postać jest historyczna:#!\\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.1.a",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "I wonder what destiny lies before [historical_character.GetHerHim]...",
+    "RUS": "Интересно, какая судьба [Select_CString(historical_character.IsFemale, 'ей', 'ему' )] уготована...",
+    "POL": "Ciekawe, jaka czeka [historical_character.Custom('PL_go_ja')] przyszłość…",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.1.b",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Such a [historical_character.GetWomanMan] could serve me well!",
+    "RUS": "Такой человек может послужить и мне!",
+    "POL": "Ktoś taki mógłby mi się przydać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.1.c",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "[historical_character.GetFullNameNoTooltip]? Who cares!",
+    "RUS": "[historical_character.GetFullNameNoTooltip]? Какое мне дело!",
+    "POL": "[historical_character.GetFullNameNoTooltip]? A kogo [historical_character.GetSheHe] obchodzi?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.2.t",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Religious Reform: Success",
+    "RUS": "Религиозная реформа: успех",
+    "POL": "Religijna reforma: sukces",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.2.desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "[inspiration_owner.GetFullName] has spent countless days and nights poring over books, scriptures, and has penned countless documents and theses. [inspiration_owner.GetHerHis|U] genius is unquestionable as I read what [inspiration_owner.GetSheHe] has written...\\n\\nIncredible. This could change #EMP everything.#!",
+    "RUS": "[inspiration_owner.GetFullName] [Select_CString(inspiration_owner.IsFemale, 'провела', 'провел' )] множество дней и ночей над книгами, составив неисчислимое количество документов и сочинений. Я читаю написанные [Select_CString(inspiration_owner.IsFemale, 'ей', 'им' )] тексты, и [Select_CString(inspiration_owner.IsFemale, 'ее', 'его' )] гений не вызывает сомнений...\\n\\nНевероятно. Это может изменить #EMP все.#!",
+    "POL": "[inspiration_owner.GetFullName] ma za sobą niezliczone dnie i noce spędzone nad księgami i manuskryptami, a spod [inspiration_owner.Custom('PL_jego_jej')] pióra wyszedł ogrom dokumentów i rozpraw. Czytając prace tej osoby, dochodzę do wniosku, że cechuje się ona niewątpliwym geniuszem.\\n\\nCoś niesamowitego. To może zmienić #EMP wszystko#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_char_creation_events.2.a",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "These sacred words must be shared!",
+    "RUS": "Эти священные тексты нужно распространить!",
+    "POL": "Trzeba głosić te święte słowa wzdłuż i wszerz!",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_reformer_modifier",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Religious Reformer",
+    "RUS": "Религиозный реформатор",
+    "POL": "Krzewiciel religijnych reform",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_reformer_modifier_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Aided by a great mind, this character is poised to create a new faith.\\n\\nThis modifier will be removed if a new [faith|E] is created",
+    "RUS": "Этот персонаж может создать новую конфессию, опираясь на силу выдающегося ума.\\n\\nЭтот модификатор будет удален при создании новой [Concept('faith', 'конфессии')|E]",
+    "POL": "Ta postać ma wybitny umysł, który pozwoli jej stworzyć nową wiarę.\\n\\nTen modyfikator zostanie usunięty po utworzeniu nowej [Concept('faith', 'wiary')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "mass_conversion_tt",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Grants one use of the #V $legendary_conversion$#! [decision|E]",
+    "RUS": "Позволяет один раз использовать [Concept('decision', 'решение')|E] #V $legendary_conversion$#!",
+    "POL": "Zapewnia możliwość jednorazowego użycia [Concept('decision', 'decyzji')|E] „#V $legendary_conversion$#!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_inspiration",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Religious Inspiration",
+    "RUS": "Религиозное вдохновение",
+    "POL": "Religijna inspiracja",
+    "BEL": ""
+  },
+  {
+    "KEY": "religious_inspiration_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A character who has a Religious Inspiration is [inspired|E] to pour their heart and soul into researching the intricacies and mysteries of [faith|E]. They are often great reformers or leaders of religious movements. This Inspiration is #EMP very rare.#!",
+    "RUS": "Персонаж с религиозным вдохновением [Concept('inspired', 'вдохновлен')|E] вложить сердце и душу в исследование тонкостей и тайн [Concept('faith', 'веры')|E]. Подобные персонажи часто становятся великими реформаторами или лидерами религиозных движений. Это #EMP очень редкое#! вдохновение.",
+    "POL": "Postacie, które czują religijną inspirację, są [inspired|E] do tego, aby poświęcić serce i duszę badaniom nad zawiłymi tajemnicami [Concept('faith', 'wiary')|E]. To często wybitni reformatorzy lub znakomici przywódcy ruchów religijnych. Ta inspiracja występuje #EMP bardzo rzadko#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.karunakara",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Karunakara was a famous general of the Chola king Kulottunga and crushed both enemies and traitors against the Chola cause. Karunakara's life is described in the Kalinkkattuparani poem, where his domination of Kalinga and subsequent paying homage to Kulottunga is idolized.",
+    "RUS": "Карунакара — выдающийся полководец чольского царя Кулотунги, победивший множество внешних и внутренних врагов Чолы. О его жизни рассказывается в поэме «Калингаттуппарани», которая прославляет завоевание Калинги и преклонение Карунакары перед Кулотунгой.",
+    "POL": "Karunakara był wybitnym generałem króla Chola Kulottungi, który miażdżył w walce zarówno wrogów, jak i zdrajców imperium Chola. Jego życie zostało opisane w poemacie „Kalinkkattuparani”, który szczególnie wychwala zwycięstwo Karunakary nad Kalingą oraz oddanie przez niego hołdu Kulottundze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.sekkilhar",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "As a genius child Sekkilhar was recruited at an early age by Raja Kulothunga as a valued minister and statesman. Sekkilhar is most known for having written Periya Puranam, the lifestory of the 63 Shaiva Nayanars in 4253 verses. Eventually Sekkilhar himself was canonized and he remains a procession deity in the region.",
+    "RUS": "Гениальный Секкилар поступил на службу совсем юным. Раджа Кулотхунга высоко ценил его как советника и государственного деятеля. Однако наибольшую известность Секкилару принесло сочинение «Перия-пуранам» — жизнеописание 63 шиваистских наянаров в 4253 стихах. Впоследствии и сам Секкилар был признан святым и по сей день остается в регионе божеством процессий.",
+    "POL": "Sekkilhar od dziecka przejawiał przebłyski geniuszu, dlatego już w młodym wieku został zatrudniony przez radżę Kulothungę jako wybitny minister i mąż stanu. Najbardziej zasłynął jako autor 4253-wersetowej epopei zatytułowanej „Periya Puranam”, która opisuje życie 63 najanmarów śiwaickich. Ostatecznie sam Sekkilhar został uznany w swym regionie za bóstwo procesyjne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.omar_khayyam",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Omar Khayyam was an 11th-century Persian polymath, poet, mathematician, and astronomer. Best known today for his poetry, collected in ",
+    "RUS": "Омар Хайям — знаменитый персидский философ, поэт, математик и астроном XI века. Наибольшую известность ему принёс сборник стихов «Рубайят», однако он также внес значительный вклад в развитие алгебры и астрономии. Его труды по классификации кубических уравнений и их решению считаются одним из величайших достижений математики.",
+    "POL": "Omar Chajjam był perskim polimatem, poetą, matematykiem i astronomem z XI wieku. Najbardziej znany jest dziś ze swojej poezji, zebranej w „Rubajjat”. Wniósł znaczący wkład w rozwój algebry i astronomii w Persji. Jego praca nad klasyfikacją i rozwiązywaniem równań sześciennych stanowi monumentalne osiągnięcie w matematyce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.bhaskaracharya",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Bhaskaracharya, was a 12th-century Indian mathematician and astronomer who wrote the seminal work ",
+    "RUS": "Бхаскарачарья — выдающийся индийский математик и астроном XII века, автор фундаментального труда «Сиддханта-широмани». Всеобъемлющий трактат состоит из нескольких частей, посвященных арифметике, алгебре, математике движения планет и сферической тригонометрии. Эти расчеты на пять с лишним столетий опередили труды Ньютона и Лейбница.",
+    "POL": "Bhaskaracharya był XII-wiecznym hinduskim matematykiem i astronomem, spod którego pióra wyszło głoszące nowatorskie idee dzieło zatytułowane „Siddhanta Shiromani”. Ta obszerna rozprawa dotyczy tematów takich jak arytmetyka, algebra, matematyka planetarna i trygonometria sferyczna. Jego prace w dziedzinie metod obliczeń wyprzedzają teksty Newtona i Leibniza o ponad pięć wieków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.joseph_rabban",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Joseph Rabban was a prominent figure in the Jewish community of 9th-century Malabar. The Chera king granted him rights and privileges for the Jewish community in Cochin, and Rabban's leadership helped solidify the Jewish presence and influence in southern India. His actions ensured autonomy and respect for their commercial and cultural contributions.",
+    "RUS": "Иосиф Раббан был видным деятелем еврейской общины Малабара IX века. Царь Черы пожаловал кочинским евреям во главе с Раббаном многочисленные права и привилегии, что способствовало распространению их влияния в южной Индии. Политика Раббана обеспечила автономию еврейской общины и всеобщее признание ее вклада в культуру и коммерцию региона.",
+    "POL": "Joseph Rabban był wybitną postacią w żydowskiej społeczności Malabaru z IX wieku. Król Chera nadał mu prawa i przywileje dla społeczności żydowskiej w Cochin. Przywództwo Rabbana umocniło obecność i wpływy Żydów w południowych Indiach, a jego działania zapewniły Żydom autonomię oraz szacunek dla ich wkładu handlowego i kulturowego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.atisha",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "One of the greatest names in Medieval Buddhism, Atisha was a religious leader originally from Bengal, but strongly associated with the Vikramashila monastery in Bihar. Through his works he was responsible for the spread of Mahayana as well as Vajrayana Buddhism throughout South East Asia and Tibet.",
+    "RUS": "Один из величайших мыслителей средневекового буддизма, Атиша, родился в Бенгалии, однако его имя прочно связывается с монастырем Викрамашила в Бихаре. Он внес неоценимый вклад в распространение буддизма махаяны и ваджраяны в Юго-Восточной Азии и в Тибете.",
+    "POL": "Atisza, jedna z najwybitniejszych twarzy średniowiecznego buddyzmu, był przywódcą religijnym pochodzącym z Bengalu, silnie związanym z klasztorem Vikramashila w Biharze. Dzięki swoim dziełom przyczynił się do rozprzestrzeniania buddyzmu mahajany i wadżrajany w Azji Południowo-Wschodniej oraz Tybecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.hemachandra",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hemachandra was a 12th-century Indian scholar, polymath, and Jain monk. He made significant contributions to mathematics, grammar, prosody, and philosophy. Hemachandra's ",
+    "RUS": "Хемачандра — индийский ученый, полимат и монах-джайнист XII века. Он внес значительный вклад в изучение математики, грамматики, стихосложения и философии, его «Сиддха-хема-шабданушасана» считается важнейшим произведением джайнской литературы. Учение Хемачандры оказало огромное влияние на преподавание и практику джайнизма.",
+    "POL": "Hemachandra był XII-wiecznym indyjskim uczonym, polimatem i mnichem dżinijskim. Wniósł znaczący wkład w matematykę, gramatykę, prozodię i filozofię. Jego dzieło „Siddhahem” jest kluczowym tekstem w literaturze dżinijskiej, a nauki Hemachandry wywarły ogromny wpływ na edukację i praktyki dżinijskie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.kshemendra",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kshemendra was an 11th-century Kashmiri poet and scholar, versatile in his literary creations that spanned satirical works, parodies, and religious texts. His notable works include ",
+    "RUS": "Кшемендра — кашмирский поэт и ученый XI века. Его литературное наследие включает широкий спектр произведений, от сатиры и пародий до религиозных текстов. Такие произведения, как «Самая матрика» («Слепок времени») и «Дарпа-далана» («Сокрушение гордыни»), выделяются на фоне классической санскритской литературы остроумной критикой современных автору нравов.",
+    "POL": "Kshemendra był XI-wiecznym kaszmirskim poetą i uczonym o wszechstronnym dorobku literackim, który obejmuje dzieła satyryczne, parodie i teksty religijne. W swoich znaczących dziełach zatytułowanych „Samaya Matrika” i „Darpadalana” humorystycznie krytykuje ówczesne obyczaje, co czyni go wyjątkową postacią wśród twórców klasycznej literatury sanskryckiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.akka_mahadevi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Akka Mahadevi was a 12th-century Kannada poet and a prominent figure in the Lingayat Bhakti movement. Known for her vachanas or poetic compositions, she pursued a path of spiritual devotion and liberation, challenging societal norms by renouncing worldly life and advocating for the equality and empowerment of women in spiritual practices.",
+    "RUS": "Акка Махадеви — поэтесса XII века, творившая на языке каннада, автор множества поэтических сочинений-вачан. Видная представительница движения бхакти лингаятов, она придавала особое значение набожности и духовному освобождению. Бросив вызов общественным нормам, она отреклась от мирской жизни и добивалась равноправия женщин в духовной практике.",
+    "POL": "Akka Mahadevi była XII-wieczną poetką tworzącą w języku kannada i wybitną postacią ruchu lingajatów i bhakti. Znana ze swoich vachanas, czyli poetyckich kompozycji, podążała ścieżką duchowego oddania i wyzwolenia. Rzucała wyzwanie normom społecznym, wyrzekając się życia doczesnego oraz opowiadając się za równością i wzmocnieniem pozycji kobiet w praktykach duchowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.namdev",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Namdev was a 13th-century Marathi saint and poet, known for his devotional songs dedicated to Vithoba and as a prominent figure in the Bhakti movement in Maharashtra. Popular with the common people his works also greatly increased the spread and prestige of the Marathi language as one of poetry and religion.",
+    "RUS": "Намдев — маратхский поэт и святой XIII века, выдающийся представитель движения бхакти в Махараштре, прославившийся своими религиозными песнями в честь Витхобы. Его творчество пользовалось огромной популярностью среди простого народа, оно сыграло заметную роль в трансформации маратхи в язык поэзии и религии.",
+    "POL": "Namdew był XIII-wiecznym świętym i poetą tworzącym utwory w języku marathi. Zasłynął jako autor nabożnych pieśni poświęconych Withobie oraz wybitna postać ruchu bhakti w Maharasztrze. Jego popularne wśród zwykłych ludzi utwory znacznie przyczyniły się do zwiększenia prestiżu języka marathi oraz spopularyzowania go w poezji i sferze religijnej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.madhvacharya",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Madhvacharya was a 13th-century Indian philosopher and the chief proponent of the Dvaita school of Vedanta. He taught that the soul (Atman) and the ultimate reality (Brahman) are distinct, a stark contrast to the non-dualistic philosophies prevailing at the time. His writings and debates significantly shaped Hindu theology.",
+    "RUS": "Мадхвачарья — индийский философ XIII века, основатель традиции двайта-веданты. Он учил, что душа (Атман) и абсолютное бытие (Брахман) не тождественны друг другу, что полностью противоречило господствовавшим тогда недвойственным учениям. Его сочинения значительно повлияли на формирование теологии индуизма.",
+    "POL": "Madhwa Anandatirtha był XIII-wiecznym indyjskim filozofem i głównym zwolennikiem szkoły dwajtawedanty. Nauczał, że dusza (Atman) i absolut (Brahman) są odrębne, co stanowiło wyraźny kontrast z niedualistycznymi filozofiami dominującymi w tamtym czasie. Jego pisma i debaty znacząco ukształtowały teologię hinduską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.vidyapati",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Vidyapati was a 14th-century poet and scholar from Bihar, India. He is renowned for his love songs and devotional hymns dedicated to Shiva, which deeply influenced the Bhakti movement. His works are celebrated for their lyrical beauty and profound emotional expression.",
+    "RUS": "Видьяпати — крупный индийский поэт и ученый XIV века из Бихара. Он прославился любовными песнями, а также религиозными гимнами в честь Шивы, оказавшими немалое влияние на движение бхакти. Сочинения Видьяпати отличались особой поэтичностью и мощной эмоциональной выразительностью.",
+    "POL": "Vidyapati był XIV-wiecznym poetą i uczonym z Biharu w Indiach. Znany jest ze swoich pieśni miłosnych i hymnów poświęconych Śiwie, które wywarły głęboki wpływ na ruch bhakti. Jego dzieła słyną z lirycznego piękna i głębokiej ekspresji emocjonalnej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.abhinavagupta",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Abhinavagupta was a 10th-11th century Indian philosopher, and mystic, from Kashmir. He is considered one of the greatest scholars of the Non-Dual Shaivism. Abhinavagupta's works influence Hindu philosophy, especially his theories on aesthetics and spirituality in his commentary, ",
+    "RUS": "Абхинавагупта — индийский мистик и философ, живший в Кашмире на рубеже X–XI веков. Он считается одним из наиболее выдающихся теоретиков недвойственного шиваизма. Труды Абхинавагупты оказали заметное влияние на философию индуизма, особенно учение об эстетике и духовности, изложенное в комментариях «Абхинавабхарати».",
+    "POL": "Abhinavagupta był indyjskim filozofem i mistykiem z Kaszmiru, żyjącym na przełomie X i XI wieku. Uznawany jest za jednego z najwybitniejszych uczonych niedualistycznego śiwaizmu. Jego prace, zwłaszcza rozprawa nosząca tytuł „Abhinavabharati”, miały znaczący wpływ na filozofię hinduską, szczególnie w zakresie estetyki i duchowości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.basava",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Basava was a 12th-century Indian philosopher and social reformer who founded the Lingayatism movement. His teachings challenged the traditional caste system and emphasized devotion to Lord Shiva. Basava's vachanas, or poetic compositions, advocated spiritual equality and shaped the Bhakti movement. His ideas significantly impacted medieval Indian society and religion.",
+    "RUS": "Басава — индийский философ и социальный реформатор XII века, основатель секты лингаятов. Его учение отвергало традиционную кастовую систему и почитало Шиву как единого бога. В своих вачанах (поэтических сочинениях) Басава проповедовал духовное равенство всех людей. Его идеи легли в основу движения бхакти и оказали значительное влияние на средневековое индийское общество и религию.",
+    "POL": "Basawa był XII-wiecznym indyjskim filozofem i reformatorem społecznym, który założył ruch lingajatów. Jego nauki kwestionowały tradycyjny system kastowy i kładły nacisk na oddanie Śiwie. Napisane przez niego wachany, czyli poetyckie kompozycje, promowały duchową równość i kształtowały ruch bhaktów. Idee Basawy znacząco wpłynęły na średniowieczne społeczeństwo i religię Indii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.hildegard",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hildegard von Bingen was a forward-thinking abbess, mystic, writer, and composer, renowned for her religious visions and scholarly works. She authored texts on theology, medicine, and music, contributing to medieval Christian thought. Hildegard was also known for her liturgical compositions and plays, emphasizing spiritual and holistic healing.",
+    "RUS": "Хильдегарда Бингенская — выдающаяся аббатиса, писательница, мистик и композитор, автор книг видений и множества научных работ. Ее труды по теологии, медицине и музыке внесли значительный вклад в средневековую христианскую мысль. Кроме того, Хильдегарда прославилась литургическими песнопениями и постановками, посвященными исцелению тела и души.",
+    "POL": "Hildegarda z Bingen była wizjonerską opatką, mistyczką, pisarką i kompozytorką, znaną ze swoich religijnych wizji i prac naukowych. Pisała na temat teologii, medycyny i muzyki, przyczyniając się do rozwoju średniowiecznej myśli chrześcijańskiej. Hildegarda była również znana ze swoich kompozycji liturgicznych i sztuk teatralnych, w których kładła nacisk na duchowe i holistyczne uzdrowienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.thomas_aquinas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Thomas Aquinas was a Dominican theologian and philosopher, famous for uniting Aristotelian philosophy with Christian theology in his ",
+    "RUS": "Фома Аквинский — монах-доминиканец, философ и богослов, автор трактата «Сумма теологии». Он связывал христианское вероучение с философией Аристотеля и доказывал, что разум и вера не противоречат друг другу. Работы Фомы Аквинского оказали заметное влияние на христианскую доктрину, естественное право и этику. Через полвека после смерти он был канонизирован, впоследствии ему присвоили звание Учителя Церкви.",
+    "POL": "Tomasz z Akwinu był dominikańskim teologiem i filozofem, znanym z połączenia filozofii arystotelesowskiej z teologią chrześcijańską w swoim dziele „Summa Theologica”. Był orędownikiem zgodności rozumu i wiary, znacząco wpływając na doktrynę chrześcijańską, prawo naturalne i etykę. Dziedzictwo Tomasza przetrwało jako dorobek kanonizowanego świętego i doktora Kościoła.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.dante_alighieri",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Dante Alighieri was an Italian poet renowned for ",
+    "RUS": "Данте Алигьери — итальянский поэт, автор знаменитой «Божественной комедии», рассказывающей о путешествии по Аду, Чистилищу и Раю. Его творчество оказало огромное влияние на западноевропейскую литературу и христианское богословие. Многие из стихов Данте посвящены вопросам морали и природы человека. Благодарные потомки назвали его «отцом итальянского языка».",
+    "POL": "Dante Alighieri był włoskim poetą, który zasłynął jako autor „Boskiej komedii”, poematu epickiego o podróży przez piekło, czyściec i raj. Jego twórczość wywarła trwały wpływ na zachodnią literaturę i teologię chrześcijańską. Zgłębianie przez Dantego moralności i ludzkiej natury przyniosło mu tytuł „ojca języka włoskiego”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.thomas_becket",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Thomas Becket was an English archbishop and martyr, best known for his conflict with King Henry II over the rights of the Church. His staunch defense of ecclesiastical authority led to his murder in Canterbury Cathedral in 1170. Becket's martyrdom solidified his status as a saint, with his shrine at Canterbury becoming a significant pilgrimage site.",
+    "RUS": "Томас Бекет — английский архиепископ, вошедший в историю благодаря своему конфликту с королем Генрихом II. Он упорно защищал привилегии церкви от посягательств короны, и за это в 1170 году был убит прямо на ступенях алтаря Кентерберийского собора. За свою мученическую смерть Бекет был причислен к лику святых, а его гробница в Кентербери стала местом массового паломничества.",
+    "POL": "Tomasz Becket był angielskim arcybiskupem i męczennikiem, który zapisał się w annałach historii z powodu toczenia z królem Henrykiem II konfliktu na gruncie praw Kościoła. Jego zagorzała obrona władzy kościelnej doprowadziła do tego, że w 1170 roku w katedrze w Canterbury padł ofiarą zabójstwa. Męczeństwo Becketa umocniło jego status świętego, a katedra jego imienia w Canterbury stała się ważnym miejscem pielgrzymek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.maimonides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Maimonides was a 12th-century Jewish philosopher and scholar. He is best known for his ",
+    "RUS": "Маймонид — еврейский философ и ученый XII века. Он кодифицировал еврейское законы в книге «Мишне Тора» и написал «Путеводитель растерянных», где рассматривал отношения между религией и философией. Маймонид считается одним из самых влиятельных еврейских мыслителей в истории.",
+    "POL": "Majmonides był XII-wiecznym żydowskim filozofem i uczonym. Najbardziej znany jest z dzieła „Miszne Tora” – kodyfikacji prawa żydowskiego – oraz „Przewodnika błądzących”, który dotyczy relacji między religią a filozofią. Uważany jest za jednego z najbardziej wpływowych myślicieli żydowskich w historii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.chretien_de_troyes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Chrétien's stories, written in Old French, played a key role in developing the Arthurian legend. His introduction of courtly love and the Holy Grail in works such as ",
+    "RUS": "Написанные на старофранцузском языке сочинения Кретьена легли в основу легенды о короле Артуре. Темы куртуазной любви и поисков Святого Грааля, поднятые им в романах «Ланселот, или Рыцарь телеги» и «Персеваль, или Повесть о Граале», оказали огромное влияние на рыцарскую литературу. В сочинениях Кретьена прославляются идеалы рыцарства, героизма и куртуазной любви.",
+    "POL": "Historie Chrétiena, napisane w języku starofrancuskim, odegrały kluczową rolę w rozwoju legendy arturiańskiej. Wprowadzenie przez niego motywu dworskiej miłości i Świętego Graala w dziełach takich jak „Lancelot z Jeziora, czyli Rycerz na podwodzie” i „Percewal z Walii, czyli Opowieść o Graalu” miało znaczący wpływ na literaturę rycerską. Pisma Chrétiena podkreślają tematy rycerskości, bohaterstwa i dworskiej miłości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.egil_skallagrimrsson",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A renowned Icelandic warrior-poet, Egil Skallagrímsson is the central figure in ",
+    "RUS": "Прославленный исландский воин-скальд Эгиль Скаллагримссон — центральный персонаж «Саги об Эгиле». Он отличался не только выдающимся поэтическим даром, но и буйным нравом. Эгиль совершил немало воинских подвигов, в числе которых набеги викингов на Англию, и сыграл важную роль в заселении Исландии.",
+    "POL": "Słynny islandzki poeta i wojownik Egil Skallagrímsson jest główną postacią „Sagi o Egilu”. Został zapamiętany za swój gwałtowny temperament oraz talent literacki. W historii zapisały się jego brutalne czyny, poruszające wersety i znaczące dokonania w tworzeniu na Islandii pierwszych osad oraz organizowaniu wikińskich najazdów na Anglię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.gunnlaug_ormstunga",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gunnlaug Ormstunga, the protagonist of ",
+    "RUS": "Гуннлауг Змеиный Язык, герой «Саги о Гуннлауге» — знаменитый воин-скальд, прославившийся своими дальними странствиями и соперничеством с другими поэтами. Сага повествует о трагической истории его любви и о противостоянии со скальдом-соперником. В ней отражается отношение викингов к вопросам чести и славы.",
+    "POL": "Gunnlaug Ormstunga, bohater „Sagi o Gunnlaugu Wężowym Języku”, był wikingiem, wojownikiem i poetą znanym ze swoich podróży i rywalizacji w tworzeniu poezji. Saga opowiada o jego tragicznej historii miłosnej oraz walce z poetyckim rywalem, oddając dynamikę honoru i sławy w społeczeństwie wikingów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.torbjorg_the_seeress",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Þorbjörg the Seeress is a prophetic figure featured in ",
+    "RUS": "Торбьерг Малая Вёльва — прорицательница, упоминаемая в «Саге об Эрике Рыжем». Она обладала даром пророчества и владела тайнами сейда, скандинавского волшебства. Поселенцы в Гренландии обращались к ней, чтобы узнать, что ждет их в будущем. Описание ее появления в саге показывает, какую важную роль в жизни скандинавов играли прорицатели.",
+    "POL": "Þorbjörg lítilvölva jest wieszczką przedstawioną w „Sadze o Eryku Rudym”. Ta znana z praktykowania spá (proroctwa) i seiðr (nordyckiej magii) kobieta odgrywała kluczową rolę w przewidywaniu przyszłych wydarzeń. Jej ceremonialne występowanie w sadze odzwierciedla nordycką wiarę w moc proroctwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.erik_rode",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Erik Röde, also known as Erik the Red, was a Viking explorer and founder of the first Norse settlements in Greenland. He is known for his adventurous spirit and for leading the colonization efforts, establishing a community that would last for several centuries.",
+    "RUS": "Эйрик Рауда, также известный как Эрик Рыжий, — викинг-мореплаватель, основавший первые поселения скандинавов в Гренландии. Усилиями этого неугомонного авантюриста была создана община, просуществовавшая несколько столетий.",
+    "POL": "Eryk Rudy był wikińskim odkrywcą i założycielem pierwszych nordyckich osad na Grenlandii. Ten znany ze swojego hardego ducha mężczyzna przewodził działaniom kolonizacyjnym i założył społeczność, która przetrwała kilka stuleci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.alhazen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hasan al-Haytham was an 11th-century Arab mathematician and physicist, famed for his work in optics. His book ",
+    "RUS": "Хасан аль-Хайсам — арабский математик и физик XI века, известный своим изучением оптики. Его фундаментальный труд «Китаб аль-маназир» («Книга оптики») заложил основы современной оптики и оказал заметное влияние на средневековую западную науку. Аль-Хайсам — важный представитель Золотого века ислама, для его работ характерен строгий экспериментальный подход.",
+    "POL": "Hasan al-Hajsam był arabskim matematykiem i fizykiem z XI wieku znanym ze swojego wkładu w dziedzinę optyki. Jego praca „Kitab al-Manazir” (w dosłownym tłumaczeniu „księga optyki”) ustanowiła zasady nowoczesnej optyki i wywarła wpływ na zachodnią naukę w średniowieczu. Hasan został zapamiętany za swoje rygorystyczne, eksperymentalne metody oraz znaczący wkład w dorobek złotego wieku islamu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.ibn_battuta",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ibn Battuta was a 14th-century Moroccan explorer known for his extensive travels, spanning over 120,000 kilometers across the Islamic world and beyond. His travelogue, ",
+    "RUS": "Ибн Баттута — известный марокканский путешественник XIV века. За свою жизнь он преодолел около 120 000 километров как в исламском мире, так и за его пределами. Его путевые заметки содержат подробные сведения о различных обществах и культурах Средневековья, и он заслуженно считается одним из самых прославленных путешественников в истории.",
+    "POL": "Ibn Battuta był XIV-wiecznym marokańskim odkrywcą znanym z odbywania długich, bo obejmujących ponad 120 000 kilometrów, podróży przez świat islamu i nie tylko. Jego dziennik podróży pod tytułem „Rihla” oferuje szczegółowy wgląd w średniowieczne kultury i społeczeństwa, czyniąc Battutę jednym z najbardziej uznanych podróżników w historii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.william_of_ockham",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "William of Ockham was a 14th-century English philosopher and theologian, renowned for ",
+    "RUS": "Уильям Оккам — английский философ и богослов XIV века. Он прославился благодаря «бритве Оккама» — принципу, по которому из всех возможных объяснений следует выбирать самое простое. Оккам был крупным представителем схоластической традиции, он выступал против власти папы и поддерживал разделение светской и духовной власти. Его работы оказали немалое влияние на развитие логики, а также научной и политической мысли.",
+    "POL": "William Ockham był XIV-wiecznym angielskim filozofem i teologiem znanym z metody zwanej „brzytwą Ockhama” – reguły, wedle której różnorakie zagadnienia należy wyjaśniać jak najprościej. Jako kluczowa postać w tradycji scholastycznej kwestionował autorytet Kościoła i opowiadał się za oddzieleniem władzy świeckiej od religijnej. Jego idee wpłynęły na rozwój logiki, nauki i myśli politycznej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.geoffrey_chaucer",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Geoffrey Chaucer was a 14th-century English poet and author, best known for ",
+    "RUS": "Джефри Чосер — английский поэт и писатель XIV века, наиболее известен как автор «Кентерберийских рассказов», сборника новелл о паломничестве в Кентербери. Чосер с искрометным юмором изучает нравы средневекового общества, описывая в своих произведениях живых и ярких персонажей. За вклад в английскую литературу Чосера называют «отцом английской поэзии».",
+    "POL": "Geoffrey Chaucer był XIV-wiecznym angielskim poetą i pisarzem, który najbardziej zasłynął jako autor „Opowieści kanterberyjskich”, zbioru opowiadań relacjonujących pielgrzymkę do Canterbury. Jego twórczość słynie z wyrazistych postaci, humoru i szczegółowych opisów średniowiecznego społeczeństwa. Wkład Chaucera w literaturę angielską przyniósł mu tytuł „ojca poezji angielskiej”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.aaron_of_lincoln",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Aaron of Lincoln was a 12th-century English financier and moneylender, known for being one of the wealthiest Jews in medieval England. He provided significant loans to nobility and the Church for building projects, including cathedrals. After his death, King Henry II seized his vast assets.",
+    "RUS": "Аарон из Линкольна — английский финансист и ростовщик XII века, один из самых богатых евреев средневековой Англии. Он предоставлял крупные займы знати и церкви, на его деньги было построено несколько соборов. После смерти Аарона его огромные богатства были конфискованы королем Генрихом II.",
+    "POL": "Aaron z Lincoln był XII-wiecznym angielskim finansistą i lichwiarzem, znanym jako jeden z najbogatszych Żydów w średniowiecznej Anglii. Udzielał znaczących pożyczek szlachcie i Kościołowi na projekty budowlane, w tym na budowę katedr. Po jego śmierci król Henryk II przejął jego ogromny majątek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.john_wycliffe",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "John Wycliffe was a 14th-century English theologian and reformer, known for his early criticism of the Catholic Church's practices. He advocated for translating the Bible into English, laying the groundwork for the Protestant Reformation. Wycliffe's teachings, which questioned church authority, influenced the Lollard movement and later reformers like Martin Luther.",
+    "RUS": "Джон Уиклиф — английский богослов и церковный реформатор XIV века, считающийся одним из предтеч протестантизма. Он выступал за перевод Библии на английский язык и часто критиковал злоупотребления католической церкви. Его учение, направленное против влияния церкви на светскую жизнь, повлияло на движение лоллардов, а также на реформаторов последующих веков, включая Мартина Лютера.",
+    "POL": "John Wycliffe był XIV-wiecznym angielskim teologiem i reformatorem, znanym z wczesnej krytyki praktyk Kościoła katolickiego. Opowiadał się za tłumaczeniem Biblii na język angielski, kładąc podwaliny pod reformację protestancką. Nauki Wycliffe’a, które kwestionowały autorytet Kościoła, wywarły wpływ na ruch Lollardów i późniejszych reformatorów, takich jak Marcin Luter.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.roger_bacon",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Roger Bacon was a 13th-century English philosopher and Franciscan friar, recognized for his early advocacy of the scientific method. He emphasized observation and experimentation in his studies, contributing to the development of empirical science. Bacon's work in optics and alchemy influenced later scholars during the medieval period.",
+    "RUS": "Роджер Бэкон — английский философ XIII века, монах-францисканец, известный сторонник научного метода. Он придавал большое значение наблюдениям и экспериментам и тем самым немало способствовал развитию эмпирической науки. Его работы в области оптики и алхимии оказали значительное влияние на других ученых Средневековья.",
+    "POL": "Roger Bacon był XIII-wiecznym angielskim filozofem i zakonnikiem franciszkańskim, znanym z wczesnego propagowania metody naukowej. W swoich badaniach kładł nacisk na obserwację i eksperymenty, przyczyniając się do rozwoju nauk empirycznych. Jego prace w dziedzinie optyki i alchemii wywarły wpływ na późniejszych uczonych w okresie średniowiecza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.heloise_dargenteuil",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Héloïse d'Argenteuil was a 12th-century French abbess and scholar, best known for her correspondence with Peter Abelard. Her letters are renowned for their passionate and intellectual content, illustrating her deep intellect and emotional depth. Héloïse later became abbess of Paraclete Abbey, where she demonstrated strong leadership.",
+    "RUS": "Элоиза д’Аржантёй — французская аббатиса XII века, ученая, известная своей перепиской с Пьером Абеляром. Письма Элоизы демонстрируют ее страстную натуру, незаурядный интеллект и эмоциональную глубину. Позже она стала настоятельницей аббатства Параклет, где проявила себя способным лидером.",
+    "POL": "Heloiza d’Argenteuil była XII-wieczną francuską opatką i uczoną, najbardziej znaną ze swojej korespondencji z Piotrem Abelardem. Jej listy słyną z namiętnej i intelektualnej treści ilustrującej jej wnikliwy umysł oraz emocjonalną głębię. Heloiza została później przeoryszą opactwa Paraclete, gdzie wykazała się doskonałymi umiejętnościami przywódczymi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.peter_abelard",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Peter Abelard was a 12th-century French philosopher and theologian, famous for his scholastic approach and controversial relationship with Héloïse. His book ",
+    "RUS": "Пьер Абеляр — французский философ и богослов XII века, известный схоласт, прославившийся благодаря скандальному роману с Элоизой. В книге Sic et Non («Да и нет») для разрешения вопросов теологии он использовал диалектические рассуждения. Жизнь и творчество Абеляра оказали немалое влияние на средневековую философию, а история его любви к Элоизе стала классическим средневековым сюжетом.",
+    "POL": "Piotr Abelard był XII-wiecznym francuskim filozofem i teologiem, który zasłynął ze swojego scholastycznego spojrzenia na świat i kontrowersyjnego związku z Heloizą. W swoim dziele „Sic et Non” snuł rozważania związane z różnymi teologicznymi pytaniami, stosując rozumowanie dialektyczne. Życie i dzieła tej postaci miały znaczący wpływ na filozofię średniowiecza, podczas gdy romans Abelarda z Heloizą stanowi klasyczną opowieść z tamtych czasów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.petrarch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Petrarch was a 14th-century Italian scholar and poet, widely regarded as the ",
+    "RUS": "Петрарка — итальянский ученый и поэт XIV века. Его часто называют «отцом гуманизма». Наиболее известны его сонеты и поэмы, в частности сборник «Канцоньере», посвященный его безответной любви к Лауре. Произведения Петрарки, подчеркивавшие значение личности и важность классического образования, оказали ключевое влияние на гуманизм эпохи Возрождения.",
+    "POL": "Petrarca był XIV-wiecznym włoskim uczonym i poetą, powszechnie określanym mianem ojca humanizmu. Najbardziej zasłynął ze swoich sonetów i poematów, zwłaszcza „Canzoniere”, utworu opisującego jego nieodwzajemnioną miłość do Laury. Twórczość Petrarki stanowiła kluczowy element rozwoju humanizmu w okresie renesansu, podkreślając wagę indywidualności oraz nauk klasycznych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.christine_pizan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Christine de Pizan was a 14th-century French writer and poet, renowned for her works advocating women's rights and education. She wrote ",
+    "RUS": "Кристина Пизанская — французская писательница и поэтесса XIV века, прославившаяся произведениями в защиту прав и доступности образования для женщин. В своей «Книге о граде женском» она прославляла достижения женщин и критиковала женоненавистнические взгляды своего времени. Кристина была одной из первых, кто затронул тему гендерного равенства, и сейчас считается одной из прародительниц феминизма в средневековой Европе.",
+    "POL": "Christine de Pizan była XIV-wieczną francuską pisarką i poetką, która zasłynęła z dzieł opowiadających się za edukacją i prawami kobiet. To autorka „Księgi o Mieście Pań” podważającej panującą ówcześnie mizoginię i stanowiącą hołd dla osiągnięć żeńskiej części społeczeństwa. Christine de Pizan jako pierwsza pisała teksty na temat równości płci, co uczyniło ją pionierką feminizmu w średniowiecznej Europie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.giotto_di_bondone",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Giotto di Bondone was a 13th-14th-century Italian painter and architect, celebrated for his innovative use of perspective and realism in art. His work marked a departure from the stylized Byzantine tradition, laying the foundation for the Renaissance. Giotto's frescoes in the Scrovegni Chapel in Padua are considered masterpieces, influencing generations of artists.",
+    "RUS": "Джотто ди Бондоне — итальянский живописец и архитектор XIII–XIV веков, выдающийся новатор, привнесший в изобразительное искусство перспективу и реализм. Отойдя от стилизации, характерной для византийской традиции, он заложил своим творчеством основу для искусства Возрождения. Фрески Джотто, украсившие капеллу Скровеньи в Падуе, — это шедевры, повлиявшие на несколько поколений художников.",
+    "POL": "Giotto di Bondone był włoskim malarzem i architektem żyjącym na przełomie XIII i XIV wieku. Zasłynął z innowacyjnego wykorzystania perspektywy i realizmu w sztuce, a jego prace stanowiły odejście od stylizowanej tradycji bizantyjskiej, kładąc podwaliny pod renesans. Freski Giotta w kaplicy Scrovegni w Padwie są uważane za arcydzieła, które wywarły wpływ na pokolenia artystów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.fibonacci",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Leonardo Fibonacci was a 12th-13th-century Italian mathematician best known for introducing the Hindu-Arabic numeral system to Europe. His book ",
+    "RUS": "Леонардо Фибоначчи — знаменитый итальянский математик XII–XIII веков. Именно его труд Liber Abaci («Книга абака») популяризировал арабскую арифметику и использование индийско-арабских цифр в западном мире. Его имя было увековечено в последовательности Фибоначчи — математической концепции, описывающей закономерности, часто встречающиеся в природе и в различных областях знаний.",
+    "POL": "Leonardo Fibonacci był włoskim matematykiem żyjącym na przełomie XII i XIII wieku. Najbardziej zasłynął z wprowadzenia w Europie hindusko-arabskiego systemu liczbowego. Jego dzieło „Liber Abaci” spopularyzowało użycie cyfr arabskich i arytmetyki w świecie zachodnim. Fibonacci jest znany również z sekwencji Fibonacciego, koncepcji matematycznej opisującej wzory występujące w naturze i różnych dziedzinach nauki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.giovanni_boccaccio",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Giovanni Boccaccio was a 14th-century Italian writer and poet, best known for his work ",
+    "RUS": "Джованни Боккаччо — итальянский писатель и поэт XIV века. Главное его произведение — «Декамерон», сборник историй, рассказанных десятью людьми, которые пытаются спастись от эпидемии Черной смерти. Благодаря дару рассказчика и глубокому знанию человеческой природы Боккаччо стал ключевой фигурой литературы раннего Возрождения. Его произведения повлияли на более поздних писателей, таких как Чосер, и сыграли важную роль в формировании итальянской литературной традиции.",
+    "POL": "Giovanni Boccaccio był XIV-wiecznym włoskim pisarzem i poetą najbardziej znanym z dzieła „Dekameron”, zbioru opowieści przedstawionych przez dziesięć osób uciekających przed czarną śmiercią. Żywe narracje i analiza ludzkich zachowań uczyniły Boccaccia kluczową postacią literatury wczesnego renesansu. Jego dzieła wywarły wpływ na późniejszych pisarzy, takich jak Chaucer, i pomogły ukształtować włoską tradycję literacką.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.snorri_sturluson",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Snorri Sturluson was a 13th-century Icelandic historian, poet, and politician, renowned for authoring the ",
+    "RUS": "Снорри Стурлусон — исландский историк, поэт и политический деятель XIII века, автор «Младшей Эдды» (Эдды в прозе), основополагающей работы по скандинавской мифологии. Его произведения стали основой для современного понимания древнескандинавского наследия. Считается, что Снорри также был автором «Круга земного», хроники норвежских конунгов, где реальные исторические события сочетаются с легендами и фольклором.",
+    "POL": "Snorri Sturluson to XIII-wieczny islandzki historyk, poeta i polityk znany jako autor „Eddy młodszej”, fundamentalnego dzieła mitologii nordyckiej. Jego utwory są kluczowymi źródłami dla współczesnego rozumienia dziedzictwa nordyckiego. Dzieła Sturlusona obejmują również „Heimskringlę”, kronikę norweskich królów, która łączy historię z folklorem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.hrotsvitha",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hrotsvitha was a 10th-century German canoness, poet, and playwright, known as the first female dramatist of the Christian era. Writing from Gandersheim Abbey, she composed plays, poems, and legends that incorporated Christian themes with classical influences, often celebrating the strength and intellect of women.",
+    "RUS": "Хросвита — германская монахиня X века, поэтесса и автор пьес. Ее считают первой женщиной-драматургом в христианском мире. Хросвиту в юном возрасте определили в аббатство Гандерсгейм, именно там она сочинила все свои пьесы, поэмы и легенды. Христианская тематика в ее творчестве сочеталась с античными мотивами, при этом многие произведения восхваляли женскую силу и ум.",
+    "POL": "Hrotsvitha, niemiecka mniszka, poetka i dramatopisarka z X wieku, jest uważana za pierwszą dramatopisarkę ery chrześcijańskiej. W klasztorze Gandersheim pisała sztuki, wiersze i legendy, które łączyły motywy chrześcijańskie z wpływami klasycznymi, często oddając hołd sile i intelektowi kobiet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.ramanuja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ramanuja was an 11th-century Indian theologian, known for his foundational role in establishing the Sri Vaishnavism tradition. He advocated for devotion to Vishnu, promoting a personal and compassionate approach to spirituality. His interpretations of Vedanta emphasized qualified non-dualism, a significant departure from other schools of thought.",
+    "RUS": "Рамануджа — индийский теолог XI века, основатель и главный представитель традиции шри-вишнуизма. Он проповедовал личное почитание Вишну и обретение духовности через сострадание. Его толкование веданты утверждало ограниченную недвойственность, что заметно отличало его от других религиозных течений в индуизме.",
+    "POL": "Ramanudźa był XI-wiecznym indyjskim teologiem znanym z fundamentalnej roli, jaką odegrał w ustanowieniu tradycji śriwajsznawy. Opowiadał się za oddaniem Wisznu, promując osobiste i empatyczne podejście do duchowości. Jego interpretacje wedanty kładły nacisk na względną niedualność, co stanowiło znaczące odejście od innych szkół myślenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.arnaldus_de_villa_nova",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Arnaldus de Villa Nova was a 13th-century Catalan physician, alchemist, and scholar, renowned for his contributions to medicine and chemistry. He was an early advocate for the scientific method in medical practice and is credited with numerous medical texts and alchemical writings. His work significantly influenced European medical thought and the emerging field of chemistry.",
+    "RUS": "Арнольд де Вилланова — каталонский врач, алхимик и ученый XIII века, оставивший значительный вклад в медицину и химию. Он был активным сторонником использования научного метода в медицинской практике, его авторству приписывают большое количество работ по алхимии и врачеванию. Труды Виллановы сильно повлияли на европейскую медицинскую науку и на зарождающуюся химию.",
+    "POL": "Arnaldus de Villa Nova to XIII-wieczny kataloński lekarz, alchemik i uczony znany ze swojego wkładu w medycynę i chemię. Był wczesnym orędownikiem metody naukowej w praktyce lekarskiej i przypisuje mu się liczne teksty z dziedziny medycyny oraz alchemii. Jego działalność znacząco wpłynęła na europejską myśl medyczną i raczkujące dopiero nauki chemiczne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.ibn_khaldun",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ibn Khaldun was a 14th-century Arab scholar from Tunis, considered one of the fathers of modern sociology, historiography, and economics. His most famous work, the ",
+    "RUS": "Ибн Хальдун — арабский ученый XIV века из Туниса, считающийся одним из отцов современной социологии, историографии и экономики. Его самая известная работа, «Мукаддима» («Введение»), — это попытка освободить исторические и социальные явления от наслоения мифов и объяснить их путем анализа причин и следствий, социальных конфликтов и экономических факторов.",
+    "POL": "Ibn Chaldun był XIV-wiecznym arabskim uczonym z Tunisu, uważanym za jednego z ojców współczesnej socjologii, historiografii i ekonomii. Jego najsłynniejsze dzieło „Al-Mukaddima”, którego tytuł oznacza dosłownie „wprowadzenie”, stanowi wczesną próbę odarcia zjawisk historycznych i społecznych z mitów oraz przeanalizowania ich pod kątem przyczyn i skutków, konfliktów społecznych, a także czynników ekonomicznych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.rumi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rumi was a 13th-century Persian poet, theologian, and Sufi mystic. His profound spiritual legacy is encapsulated in his poetic works, notably the ",
+    "RUS": "Руми — персидский поэт, богослов и мистик-суфий XIII века. Его обширное духовное наследие воплощено в многочисленных поэтических произведениях, среди которых выделяется поэма «Маснави», которую нередко называют «Кораном на персидском языке». В своем учении Руми проповедует безусловную любовь, терпимость и достижение божественной истины посредством индивидуального духовного опыта.",
+    "POL": "Rumi był XIII-wiecznym perskim poetą, teologiem i mistykiem sufickim. Jego głębokie duchowe dziedzictwo przejawia się w spisanych przez niego dziełach poetyckich, w szczególności w „Masnawi”, które często określa się mianem perskiego Koranu. Nauki Rumiego podkreślają bezwarunkową miłość, tolerancję i dążenie do boskiej prawdy poprzez osobiste doświadczenia duchowe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.avicenna",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Avicenna, also known as Ibn Sina, was a Persian polymath who is regarded as one of the most significant physicians, astronomers, thinkers, and writers of the Islamic Golden Age. He is best known for his monumental works ",
+    "RUS": "Авиценна, или Ибн Сина — персидский врач, астроном, мыслитель и писатель, один из самых видных представителей Золотого века ислама. Его фундаментальные труды «Книга исцеления» и «Канон медицины» на протяжении веков использовались в качестве основных текстов по медицине как в исламском мире, так и в Европе.",
+    "POL": "Awicenna, znany również jako Ibn Sina, był perskim polimatem, którego uważa się za jednego z najważniejszych lekarzy, astronomów, myślicieli i pisarzy złotego wieku islamu. Najbardziej znany jest ze swoich monumentalnych dzieł „Sufficientia” i „Canon medicinae”, które przez wieki służyły jako standardowe teksty medyczne zarówno w świecie islamskim, jak i w Europie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.averroes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Averroes (Ibn Rushd) was a 12th-century Andalusian polymath renowned for his writings on Aristotelian philosophy. His work focused on integrating Islamic traditions with classical Greek philosophy. His efforts to rationalize philosophy made him a central figure in both Islamic and European intellectual history, contributing significantly to the Renaissance.",
+    "RUS": "Аверроэс, или Ибн Рушд — андалузский ученый XII века, известный своими трудами по философии Аристотеля. В своих работах Ибн Рушд стремился объединить традиции ислама с античной греческой философией. Его попытки рационализировать философию превратили Ибн Рушда в ведущую фигуру исламской и европейской интеллектуальной мысли и повлияли на философию эпохи Возрождения.",
+    "POL": "Awerroes (Ibn Ruszd) był XII-wiecznym andaluzyjskim polimatem znanym ze swoich rozpraw na temat filozofii arystotelesowskiej. Jego prace koncentrowały się na integracji tradycji islamskich z klasyczną filozofią grecką. Wysiłki Awerroesa na rzecz racjonalizacji filozofii uczyniły go centralną postacią zarówno w islamskiej, jak i europejskiej historii intelektualnej, znacząco przyczyniając się do rozkwitu renesansu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.al_biruni",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Al-Biruni was an 11th-century Persian scholar and polymath who made significant contributions across various scientific disciplines, including astronomy, mathematics, and geography. He wrote extensively on the Earth's radius and compiled a comprehensive study of India's religions and philosophies after accompanying the Ghaznavid invasion.",
+    "RUS": "Аль-Бируни — известный персидский ученый и мыслитель XI века, автор множества трудов по различным дисциплинам, включая астрономию, математику и географию. Сопровождая армию Газневидов, Аль-Бируни составил обширное исследование религий и философских школ Индии. Среди прочего, ему удалось рассчитать радиус Земли.",
+    "POL": "Al-Biruni był perskim uczonym i polimatem z XI wieku, który wniósł znaczący wkład w różne dziedziny nauki, w tym astronomię, matematykę i geografię. Pisał obszernie na temat promienia Ziemi oraz opracował kompleksowe studium religii i filozofii Indii po tym, jak towarzyszył inwazji Ghaznawidów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.rashi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rashi (Shlomo Yitzchaki) was an 11th-century French rabbi and revered Jewish scholar, renowned for his comprehensive commentaries on the Talmud and the Hebrew Bible. His works have had a profound and enduring impact on Jewish study, law, and are integral to traditional Jewish education.",
+    "RUS": "Раши (Шломо Ицхаки) — французский раввин XI века, крупнейший средневековый комментатор Талмуда и Танаха. Его работы оказали глубокое влияние на исследования иудейского богословия и права. Они и по сей день являются неотъемлемой частью традиционного еврейского образования.",
+    "POL": "Raszi, znany również jako Szlomo ben Icchak, był francuskim rabinem z XI wieku i szanowanym żydowskim uczonym znanym z obszernych komentarzy do Talmudu i Biblii hebrajskiej. Jego prace wywarły głęboki i trwały wpływ na nauki żydowskie oraz prawo, stanowiąc integralną część tradycyjnej edukacji żydowskiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.yehuda_halevi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Yehuda Halevi was a 12th-century Spanish Jewish poet and philosopher, celebrated for his poignant poetry and philosophical dialogue. In ",
+    "RUS": "Иегуда Галеви — испанский еврейский поэт и мыслитель XII века, автор философских диалогов и поэтических произведений, пронизанных тонким лиризмом. Книга «Кузари», в которой Галеви обосновывает религиозные истины иудаизма, полна глубокой тоски по Сиону; набожность в его творчестве сочетается с богатой лирической традицией. Галеви по праву считается центральной фигурой средневековой литературы на иврите.",
+    "POL": "Jehuda Halewi był XII-wiecznym żydowskim poetą i filozofem mieszkającym w Hiszpanii, znanym z przejmującej poezji i filozoficznych dialogów. W „Kuzari” Halewi broni filozoficznych prawd judaizmu i wyraża swoją głęboką tęsknotę za Syjonem. Jego pisma łączą pobożność religijną z bogatą tradycją liryczną, czyniąc go centralną postacią średniowiecznej literatury hebrajskiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.shaprut",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hasdai ibn Shaprut was a 10th-century Jewish physician, diplomat, and scholar in Muslim Spain. Serving as a confidant to Caliph Abd ar-Rahman III, he played a pivotal role in the intellectual and diplomatic courts of Córdoba, fostering cultural exchanges between Jewish and Islamic scholars.",
+    "RUS": "Хасдай ибн Шапрут — еврейский врач, дипломат и ученый X века, живший в мусульманской части Испании. Как доверенное лицо халифа Абд ар-Рахмана III, он занимал важную позицию в интеллектуальных и дипломатических кругах Кордовы и активно способствовал культурному обмену между еврейскими и исламскими учеными.",
+    "POL": "Chasdaj ibn Szaprut był X-wiecznym żydowskim lekarzem, dyplomatą i uczonym w muzułmańskiej Hiszpanii. Jako powiernik kalifa Abd ar-Rahmana III odegrał kluczową rolę na intelektualnych i dyplomatycznych dworach Kordoby, wspierając wymianę kulturową między żydowskimi i islamskimi uczonymi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.gersonides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Levi ben Gershon (Gersonides) was a 14th-century French Jewish philosopher, astronomer, and mathematician. Renowned for his scientific approach, he authored several influential and treatises on mathematics and astronomy. He is also known for his work in improving the design of astronomical instruments and for his philosophical exploration of free will and divine foreknowledge.",
+    "RUS": "Леви бен Гершон (Герсонид) — французский и еврейский философ, астроном и математик XIV века. Он написал несколько влиятельных трактатов по математике и астрономии, в которых придерживался строгого научного подхода. Помимо этого, перу Герсонида принадлежат философские размышления о свободе воли и божественном предвидении, также он усовершенствовал астрономические приборы, применяемые в навигации.",
+    "POL": "Lewi ben Gerszon (Gersonides) był XIV-wiecznym francuskim filozofem, astronomem i matematykiem pochodzenia żydowskiego. To autor kilku wpływowych traktatów na temat matematyki i astronomii, znany ze swojego naukowego podejścia do rozważań. Ben Gerszon zasłynął również z pracy nad udoskonaleniem konstrukcji instrumentów astronomicznych oraz z filozoficznych badań nad wolną wolą i boską przedwiedzą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.ezra",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Abraham ibn Ezra was a 12th-century Jewish scholar, poet, and polymath from Spain. Known for his profound contributions to biblical commentary, astrology, and mathematics, ibn Ezra traveled extensively across the Mediterranean, influencing intellectual circles with his writings.",
+    "RUS": "Авраам ибн Эзра — испанский и еврейский ученый, поэт и мыслитель XII века, сделавший значительный вклад в библейскую экзегетику, астрологию и математику. Ибн Эзра много путешествовал, его работы высоко ценили в интеллектуальных кругах многих держав Средиземноморья.",
+    "POL": "Abraham ibn Ezra był XII-wiecznym żydowskim uczonym, poetą i polimatem z Hiszpanii. Ibn Ezra, znany ze swojego głębokiego wkładu w komentarze biblijne, astrologię i matematykę, podróżował po całym basenie Morza Śródziemnego, wywierając swoimi dziełami wpływ na liczne kręgi intelektualne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.gabriol",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Solomon ibn Gabirol was an 11th-century Jewish philosopher and poet from Muslim Spain. Known for his Neoplatonic works, most notably ",
+    "RUS": "Шломо ибн Габироль — еврейский философ и поэт XI века из мусульманской части Испании. В своих неоплатонических трудах Ибн Габироль исследовал природу Бога и Вселенной. Его главная работа, книга Fons Vitae («Источник жизни»), оказала заметное влияние на иудейскую и христианскую мысль. Ибн Габироль был плодовитым поэтом, оставившим множество стихотворных произведений на иврите.",
+    "POL": "Salomon ibn Gabirol był XI-wiecznym żydowskim filozofem i poetą z muzułmańskiej Hiszpanii. Znany jest ze swoich neoplatońskich dzieł, w szczególności „Fons Vitae”, pracy znanej również pod tytułem „Źródło życia”. Badał naturę Boga i wszechświata, znacząco wpływając na myśl żydowską i chrześcijańską. Ibn Gabirol był również płodnym twórcą poezji hebrajskiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.nachmanides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nachmanides, also known as Moses ben Nahman or Ramban, was a 13th-century Jewish scholar and theologian. Renowned for his profound commentary on the Torah and his leadership in the Jewish community of Girona, Nachmanides famously defended Jewish beliefs in the Disputation of Barcelona in 1263. His writings and teachings blend Jewish law, mysticism, and ethical teachings.",
+    "RUS": "Нахманид, также известный как Моше бен Нахман или Рамбан, — еврейский ученый и богослов XIII века, глава еврейской общины Жироны. Будучи авторитетным комментатором Торы, Нахманид представлял интересы иудеев в знаменитом диспуте с христианами в Барселоне (1263 г.) Его труды сочетают в себе элементы иудейского права, мистицизм Каббалы и наставления по этике.",
+    "POL": "Nachmanides, znany również jako Mojżesz ben Nahman lub Ramban, był XIII-wiecznym żydowskim uczonym i teologiem. Znany ze swoich głębokich komentarzy do Tory oraz przywództwa w społeczności żydowskiej w Gironie Nachmanides słynnie bronił żydowskich przekonań podczas dysputy w Barcelonie w 1263 roku. Jego pisma i nauki łączą żydowskie prawo, mistycyzm i nauki etyczne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.crescas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hasdai Crescas was a 14th-century Jewish philosopher, noted for challenging the prevailing Aristotelian philosophy of his time. He is best known for his philosophical work ",
+    "RUS": "Хасдай Крескас — еврейский мыслитель XIV века, противник учения Аристотеля, под чьим влиянием в те годы находился иудаизм. Его самый известный текст — книга Or Adonai («Свет Господа»), оспаривающий аристотелевскую философскую мысль. Труды Крескаса заложили основы современной иудейской философии и повлияли на таких мыслителей, как Спиноза.",
+    "POL": "Chasdaj Kreskas był XIV-wiecznym żydowskim filozofem, który kwestionował dominującą w jego czasach filozofię arystotelesowską. Najbardziej znany jest z dzieła filozoficznego „Or Adonai” (tytuł ten oznacza dosłownie „światło Pana”), w którym polemizował z poglądami arystotelesowskimi i położył podwaliny pod nowoczesną filozofię żydowską, wpływając na myślicieli takich jak Spinoza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.saadia",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Saadia Gaon was a 10th-century Jewish philosopher, theologian, and scholar. He served as the head of the famed Sura Academy and is renowned for his works on Jewish law and his philosophical treatise ",
+    "RUS": "Саадия Гаон — еврейский философ, богослов и ученый X века. Он возглавлял знаменитую академию в Суре и прославился работами по иудейскому праву. Важнейшее сочинение Саадии — философский трактат «Верования и мнения», ставший первой попыткой систематически изложить иудейское богословие и соединить его с элементами греческой философии.",
+    "POL": "Saadja ben Josef był żydowskim filozofem, teologiem i uczonym z X wieku. Służył jako szef słynnej Akademii Sura i wsławił się pracami na temat prawa żydowskiego oraz traktatem filozoficznym „Emunoth ve-Deoth” (tytuł ten oznacza dosłownie „księga wierzeń i opinii”). Ów traktat był pierwszą usystematyzowaną próbą integracji teologii żydowskiej z elementami filozofii greckiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.awkal",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Yusuf ibn 'Awkal was a 10th-century Jewish merchant and traveler from the Islamic world, known for his detailed accounts of his trade journeys across the Mediterranean, Near East, and parts of Africa. His writings provide valuable insights into the commercial practices, cultural interactions, and the vibrant life of Jewish communities along his trade routes.",
+    "RUS": "Юсуф ибн Авкал — еврейский купец и путешественник X века из Египта, оставивший подробные отчеты о своих торговых поездках по Средиземноморью, Ближнему Востоку и некоторым частям Африки. Его записи ценны тем, что дают представление о торговых делах, культурных взаимодействиях и активной жизни еврейских общин, которые ему довелось посетить.",
+    "POL": "Jusuf ibn 'Awkal był X-wiecznym żydowskim kupcem i podróżnikiem ze świata islamu. Jego szczegółowe relacje z podróży handlowych przez Morze Śródziemne, Bliski Wschód i część Afryki dostarczają cennych informacji o praktykach handlowych, interakcjach kulturowych oraz tętniących życiem społecznościach żydowskich wzdłuż jego szlaków handlowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.benjamin_of_tudela",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Benjamin of Tudela was a 12th-century Jewish traveler and explorer. He is best known for his travel diary, ",
+    "RUS": "Вениамин Тудельский — еврейский путешественник и исследователь XII века. В оставленных им записках описываются поездки автора по странам Европы, Азии и Африки. «Путешествия Вениамина» содержат подробные сообщения о еврейских общинах, разбросанных по всему средневековому миру.",
+    "POL": "Beniamin z Tudeli był XII-wiecznym żydowskim podróżnikiem i odkrywcą. Jego dziennik z podróży zatytułowany „Masa’ot Binyamin” (co oznacza „podróże Beniamina”) dokumentuje wyprawy po Europie, Azji i Afryce. Beniamin przedstawił szczegółowe opisy społeczności żydowskich w średniowiecznym świecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.marco_polo",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Marco Polo was a Venetian merchant, explorer, and writer who traveled through Asia along the Silk Road between 1271 and 1295. His extensive accounts of his travels to China under Kublai Khan's rule were published as ",
+    "RUS": "Марко Поло — венецианский купец, исследователь и писатель, который в 1271–1295 годах путешествовал по Азии вдоль Шелкового пути. Подробный отчет о его посещении Китая под властью хана Хубилая, опубликованный под названием «Книга чудес света», дал европейцам широкое представление о странах и культурах Азии.",
+    "POL": "Marco Polo był weneckim kupcem, odkrywcą i pisarzem, który w latach 1271–1295 podróżował po Azji śladem Jedwabnego Szlaku. Jego szczegółowa relacja z podróży do Chin pod rządami Kubilaj-chana, opublikowana pod tytułem „Opisanie świata”, stanowiła dla Europejczyków bogate źródło wiedzy na temat azjatyckich ziem i kultur.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.bridget_of_sweden",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Bridget of Sweden was a 14th-century mystic and saint, known for her deep religious visions and the founding of the Bridgettine Order. After the death of her husband, she dedicated her life to religious service and made several pilgrimages to holy sites.",
+    "RUS": "Бригитта Шведская — писательница и святая XIV века, основательница ордена бригитток, известная своими мистическими видениями. После смерти мужа она посвятила себя религиозному служению и совершила несколько паломничеств к святым местам.",
+    "POL": "Brygida Szwedzka była XIV-wieczną mistyczką i świętą, która zasłynęła z doświadczania głębokich wizji religijnych oraz założenia Zakonu Brygidek. Po śmierci męża poświęciła życie służbie religijnej i odbyła wiele pielgrzymek do miejsc świętych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.meister_eckhart",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Meister Eckhart was a 13th-century theologian, philosopher, and mystic, known for his influential teachings on the nature of God and the human soul's relationship to the divine. His sermons and writings explore themes of detachment, divine birth in the soul, and the identity of being.",
+    "RUS": "Мейстер Экхарт — богослов, философ и мистик XIII века, создатель влиятельного учения о природе Бога и взаимоотношении человеческой души с абсолютом. В своих трудах и проповедях Экхарт рассматривает темы отрешенности, сущности бытия и божественной искры в человеческой душе.",
+    "POL": "Meister Eckhart był XIII-wiecznym teologiem, filozofem i mistykiem, którego nauki miały ogromny wpływ na rozumienie natury Boga i relacji ludzkiej duszy z boskością. Jego kazania i pisma zgłębiają tematy oddzielenia, boskich narodzin w duszy oraz tożsamości bytu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.jangar",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Jangar is the legendary hero of the Oirat epic ",
+    "RUS": "Джангар — легендарный герой ойратского «Эпоса о Джангаре». Он построил сказочный город Шамбхалу и проявил себя мудрым и отважным правителем. Битвы Джангара с врагами и его стремление вернуть мир и процветание своей стране воплощают борьбу и идеалы ойратов.",
+    "POL": "Dżangar to legendarny bohater ojrackiego eposu o tytule zbieżnym z jego imieniem. Zasłynął z budowy fantastycznego miasta Szambala oraz mądrego i odważnego przewodzenia swojemu ludowi. Jego walki z wrogami oraz dążenie do przywrócenia pokoju i dobrobytu na ziemiach Ojratów odzwierciedlają ideały i zmagania tego ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.zawisza",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Zawisza the Black was a 15th-century Polish knight and military commander, renowned for his valor and chivalry. Zawisza distinguished himself at the Battle of Grünwald in 1410 and later served in various royal courts. He died heroically during the siege of Golubac fortress in 1428 while serving in a crusade against the Ottoman Empire.",
+    "RUS": "Завиша Черный — польский воин и полководец XV века, прославившийся своей доблестью и рыцарским благородством. В 1410 году Завиша отличился в Грюнвальдской битве, затем служил при дворе нескольких королей. Присоединившись к крестовому походу против османов, он героически погиб при осаде Голубацкой крепости в 1428 году.",
+    "POL": "Zawisza Czarny był XV-wiecznym polskim rycerzem i dowódcą wojskowym słynącym z męstwa i rycerskości. W 1410 roku wykazał się ogromną odwagą w bitwie pod Grunwaldem, a później służył na różnych dworach królewskich. Zginął bohatersko podczas oblężenia twierdzy Golubac w 1428 roku, uczestnicząc w krucjacie przeciwko Imperium Osmańskiemu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.theophanes_the_greek",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Theophanes the Greek was a prominent Byzantine painter. He brought expressive, emotional depth to the development of Russian iconography, which departed from the more formal Byzantine style. His most notable contributions include frescoes in the Church of the Transfiguration in Novgorod and the Annunciation Cathedral in Moscow.",
+    "RUS": "Феофан Грек — выдающийся византийский живописец. Отойдя от формального стиля, характерного для византийского искусства, он привнес выразительную эмоциональную глубину в русскую иконописную традицию. Самые известные работы Феофана Грека — фрески в церкви Преображения в Новгороде и Благовещенском соборе Москвы.",
+    "POL": "Teofan Grek był wybitnym malarzem bizantyjskim, który wprowadził do rosyjskiej ikonografii głębię ekspresji i emocji, odchodząc od bardziej formalnego stylu Bizancjum. Jego najbardziej znaczące dzieła to freski w nowogrodzkiej cerkwi Przemienienia Pańskiego oraz w moskiewskim soborze Zwiastowania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.nicetas_choniates",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nicetas Choniates was a Byzantine government official and historian in the late 12th and early 13th centuries. Renowned for his work ",
+    "RUS": "Никита Хониат — византийский чиновник и историк конца XII — начала XIII века. Его «Хроника» подробно описывает жизнь и политику Византии с 1118 по 1207 год, охватывая период упадка Византийской империи и события Четвертого крестового похода.",
+    "POL": "Niketas Choniates był bizantyjskim urzędnikiem państwowym i historykiem żyjącym na przełomie XII i XIII wieku. Jego dzieło „Historia” szczegółowo opisuje życie i politykę Bizancjum w latach 1118–1207, w tym upadek Cesarstwa Bizantyjskiego i przebieg IV wyprawy krzyżowej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.michael_psellos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Michael Psellos was an 11th-century Byzantine philosopher, politician, and historian. Serving as a courtier under several emperors, Psellos was pivotal in the revival of Greek philosophy and sciences in the Byzantine court. His most notable work, ",
+    "RUS": "Михаил Пселл — византийский философ, политик и историк XI века. Как приближенный нескольких императоров, он сыграл важную роль в возрождении греческой философии и науки при византийском дворе. В самом известном своем труде, «Хронографии», Пселл подробно и с глубоким пониманием описывает византийскую политику и придворную жизнь.",
+    "POL": "Michał Psellos był XI-wiecznym bizantyjskim filozofem, politykiem i historykiem. Jako dworzanin pod rządami kilku cesarzy odegrał kluczową rolę w odrodzeniu greckiej filozofii i nauk na dworze bizantyjskim. Jego najbardziej uznane dzieło, „Kronika”, zawiera wnikliwy i szczegółowy opis bizantyjskiej polityki oraz życia dworskiego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.john_tzetzes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "John Tzetzes was a 12th-century Byzantine scholar known for his vast literary output and erudition in classical literature. He wrote extensively on grammatical, historical, and mythological subjects, with his most famous works being ",
+    "RUS": "Иоанн Цец — византийский ученый XII века, знаток античной литературы и автор множества сочинений, в том числе по грамматике, истории и мифологии. Самое известное произведение Цеца — «Хилиады», или «Книга историй», сборник исторических и мифологических сюжетов, изложенных в стихотворной форме.",
+    "POL": "Jan Tzetzes był XII-wiecznym bizantyjskim uczonym, który wsławił się ogromnym dorobkiem literackim i erudycją w literaturze klasycznej. Pisał obszernie na tematy z dziedziny gramatyki, historii i mitologii. Jego najsłynniejsze dzieło to „Chiliady” (znane również jako „Księgi historii”) – zbiór historycznych i mitologicznych anegdot w formie wiersza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.theophylact_of_ohrid",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Theophylact was an 11th-century Byzantine archbishop and scholar. During his tenure as archbishop of Ohrid, he played a crucial role in the religious and cultural life of the region, exerting a significant influence on Eastern Orthodox theology.",
+    "RUS": "Феофилакт — византийский священник и писатель XI века. Будучи архиепископом Охрида, он сыграл заметную роль в религиозной и культурной жизни региона и оказал значительное влияние на богословскую мысль восточного православия.",
+    "POL": "Teofilakt był XI-wiecznym bizantyjskim arcybiskupem i uczonym. Jako arcybiskup Ochrydy odegrał kluczową rolę w życiu religijnym i kulturalnym regionu, wywierając znaczący wpływ na teologię prawosławną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.eustathius_of_thessalonica",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Eustathius of Thessalonica was a 12th-century Byzantine scholar, theologian, and Archbishop of Thessalonica. Renowned for his prolific writing, Eustathius authored detailed commentaries on Homer's works. His tenure as archbishop was marked by his efforts to rebuild and reform the church's role in society post the Sicilian invasion of Thessalonica.",
+    "RUS": "Евстафий Солунский — архиепископ Салоник, византийский ученый и богослов XII века. Среди множества его произведений особо выделяются обширные комментарии к «Илиаде» и «Одиссее» Гомера. Занимая пост архиепископа, он приложил значительные усилия к возрождению и реформированию роли церкви в обществе после сицилийского вторжения в Салоники.",
+    "POL": "Eustacjusz z Tesaloniki był XII-wiecznym bizantyjskim uczonym, teologiem i arcybiskupem Tesaloniki. Jego płodna twórczość pisarska zaowocowała szczegółowymi komentarzami do dzieł Homera. Podczas swojej kadencji arcybiskupa Eustacjusz podejmował wysiłki na rzecz odbudowy i reformy roli kościoła w społeczeństwie po sycylijskiej inwazji na Tesalonikę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.nicephorus_blemmydes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nicephorus Blemmydes was a 13th-century Byzantine scholar and theologian. He founded a school and a monastery where he taught and lived most of his life. Blemmydes wrote extensively on philosophy, theology, and science, striving to reconcile classical philosophical ideas with Christian doctrine.",
+    "RUS": "Никифор Влеммид — византийский ученый и богослов XIII века. Он основал монастырь, в котором прожил большую часть своей жизни, и при нем школу, где сам и преподавал. Влеммид оставил много сочинений на тему философии, богословия и науки. В своих трудах он старался примирить философские идеи античности с христианской доктриной.",
+    "POL": "Nicefor Blemmydes był XIII-wiecznym bizantyjskim uczonym i teologiem. Założył szkołę i klasztor, w których nauczał i mieszkał przez większość życia. Blemmydes pisał obszernie na temat filozofii, teologii i nauki, starając się pogodzić klasyczne idee filozoficzne z doktryną chrześcijańską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.georgius_pachymeres",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Georgius Pachymeres was a 13th-century Byzantine historian and scholar known for his comprehensive work, ",
+    "RUS": "Георгий Пахимер — византийский историк и ученый XIII века, автор всеобъемлющих «Исторических записок», в которых излагается история Византийской империи с 1255 по 1308 год. В его работах подробно описывается правление династии Палеологов и последствия латинской оккупации.",
+    "POL": "Jerzy Pachymeres, XIII-wieczny bizantyjski historyk i uczony, stworzył obszerne dzieło „Dzieje współczesne”, które opisuje historię Cesarstwa Bizantyjskiego na przestrzeni lat 1255–1308. Jego teksty szczegółowo przedstawiają panowanie dynastii Paleologów oraz wpływ okupacji łacińskiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.manuel_moschopoulos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Manuel Moschopoulos was a Byzantine scholar and grammarian in the late 13th and early 14th centuries, best known for his work in reviving classical Greek learning and literature. He wrote extensively on grammatical subjects and produced commentaries on classical authors, aiming to preserve and clarify ancient texts.",
+    "RUS": "Мануил Мосхопул — византийский ученый и грамматик конца XIII — начала XIV века, известный своими трудами на ниве возрождения античной греческой философии и литературы. Желая сохранить и объяснить древние тексты, Мосхопул составил обширные комментарии к античным авторам. Кроме того, его перу принадлежит множество работ на тему грамматики.",
+    "POL": "Manuel Moschopul, bizantyjski uczony i gramatyk z przełomu XIII i XIV wieku, zasłynął z ożywienia ducha klasycznej greckiej nauki i literatury. Jego prace obejmują obszerne teksty poruszające tematy z zakresu gramatyki oraz komentarze do dzieł klasycznych autorów, mające na celu objaśnienie treści starożytnych tekstów i zachowanie ich dla przyszłych pokoleń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.theodore_metochites",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A Renaissance man before the Renaissance, Metochites was a polymath who excelled in philosophy, astronomy, mathematics, and art, serving as the chief minister under Emperor Andronikos II Palaiologos. He is best known for his patronage of the Chora Church in Constantinople, where he commissioned extensive mosaics and frescoes.",
+    "RUS": "Метохита можно назвать истинным человеком эпохи Возрождения, хотя жил он намного раньше. Он был энциклопедистом, знатоком философии, астрономии, математики и искусства, другом и великим логофетом (придворным советником) императора Андроника II Палеолога. Метохит покровительствовал монастырю Хора, в церкви которого по его заказу были созданы мозаики и фрески.",
+    "POL": "Teodor Metochita to postać, którą można było określić mianem człowieka renesansu jeszcze przed nadejściem tej światłej epoki, był to bowiem polimat wyróżniający się wybitnością w dziedzinach filozofii, astronomii, matematyki i sztuki. Służył jako główny minister cesarza Andronika II Paleologa. Najbardziej zasłynął z patronatu nad kościołem na Chorze w Konstantynopolu, dla którego zlecił wykonanie bogatych mozaik i fresków.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.michael_choniates",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Michael Choniates was a 12th-century Byzantine scholar, poet, and ecclesiastical figure, renowned for his tenure as the Archbishop of Athens from 1182 to 1204. In a time of declining Byzantine control, he strove to uphold the cultural and intellectual traditions of Athens.",
+    "RUS": "Михаил Хониат — византийский ученый, поэт и церковный деятель XII века. С 1182 по 1204 год он занимал должность афинского митрополита. В этот период центральная власть была в глубоком упадке, и Хониат сделал многое, чтобы сберечь культурные и философские традиции Афин.",
+    "POL": "Michał Choniates, XII-wieczny bizantyjski uczony, poeta i duchowny, pełnił funkcję arcybiskupa Aten w latach 1182–1204. W okresie słabnącej kontroli Bizancjum z oddaniem starał się podtrzymywać kulturalne i intelektualne tradycje Aten.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.joseph_tarchaneiotes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Joseph Tarchaneiotes was a Byzantine general active during the late 11th century, known primarily for his role in the Byzantine military campaigns against the Seljuk Turks. Serving under Emperor Alexios I Komnenos, Tarchaneiotes played a key role in several critical battles, including the successful defense of Nicaea.",
+    "RUS": "Иосиф Тарханиот — византийский полководец конца XI века, участник византийских военных кампаний против турок-сельджуков. Сражаясь под началом императора Алексея I Комнина, Тарханиот сыграл важную роль в ряде решающих битв, включая успешную оборону Никеи.",
+    "POL": "Józef Tarchaneiotes, bizantyjski generał z końca XI wieku, wyróżnił się w kampaniach wojskowych przeciwko Turkom seldżuckim. Służąc cesarzowi Aleksemu I Komnenowi, odegrał kluczową rolę w kilku decydujących bitwach, w tym w udanej obronie Nicei.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.gemistus_pletho",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gemistus Pletho was a 15th-century philosopher. A staunch advocate of Neoplatonism, Pletho played a critical role in the intellectual revival that prefigured the fall of Constantinople. He was instrumental during the Council of Florence, where he argued for the reunification of the Orthodox and Catholic churches.",
+    "RUS": "Гемист Плифон — философ XV века. Будучи ярым сторонником неоплатонизма, Плифон сыграл ключевую роль в интеллектуальном возрождении, непосредственно предшествовавшем падению Константинополя. Он был активным участником Ферраро-Флорентийского собора, где выступал за преодоление раскола между православной и католической церквями.",
+    "POL": "Gemist Pleton, XV-wieczny filozof i zagorzały zwolennik neoplatonizmu, odegrał kluczową rolę w odrodzeniu intelektualnym, które poprzedziło upadek Konstantynopola. Jego działalność podczas soboru florenckiego była znacząca, gdyż opowiadał się za zjednoczeniem Kościoła prawosławnego i katolickiego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.arethas_of_caesarea",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Arethas of Caesarea was a 10th-century archbishop, scholar, and prolific collector of ancient Greek manuscripts. Serving as the Archbishop of Caesarea in Cappadocia, Arethas made significant contributions to the intellectual and cultural life of Byzantium, ensuring the survival of classical knowledge that would later influence the Renaissance.",
+    "RUS": "Арефа Кесарийский — священник, ученый и заядлый коллекционер древнегреческих рукописей, живший в X веке. В должности архиепископа Кесарии Каппадокийской Арефа внес заметный вклад в интеллектуальную и культурную жизнь Византии. Античные знания, которые он сохранил, впоследствии оказали огромное влияние на деятелей эпохи Возрождения.",
+    "POL": "Aretas z Cezarei to X-wieczny arcybiskup i uczony oraz gorliwy kolekcjoner starogreckich manuskryptów. Podczas piastowania roli arcybiskupa Cezarei w Kapadocji wniósł znaczący wkład w intelektualne i kulturalne życie Bizancjum, dbając o przetrwanie klasycznej wiedzy, która później wywarła wpływ na renesans.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.basil_lekapenos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Basil Lekapenos was a powerful eunuch and administrator who served as the chief minister during the reign of several Byzantine emperors in the late 10th and early 11th centuries. An illegitimate son of Emperor Romanos I, Basil wielded substantial influence within the Byzantine court through his role as parakoimomenos, or chamberlain.",
+    "RUS": "Василий Лакапин — могущественный евнух и способный администратор, министр нескольких византийских императоров в конце X — начале XI века. Незаконнорожденный сын императора Романа I, Василий занимал должность паракоймоменоса, то есть постельничего, и обладал огромным влиянием при византийском дворе.",
+    "POL": "Bazyli Lekapen to wpływowy eunuch i urzędnik, który pełnił stanowisko głównego ministra za panowania kilku cesarzy bizantyjskich na przełomie X i XI wieku. Jako nieślubny syn cesarza Romana I miał znaczne wpływy na dworze bizantyjskim, pełniąc funkcję parakoimomenosa, czyli szambelana.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.john_the_orphanotrophos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "John the Orphanotrophos was a notable eunuch and influential court official in the early 11th century during the reign of Emperor Michael IV. As the head of the orphanotrophos, the public official responsible for the welfare of orphans and the poor, John amassed considerable power and influence.",
+    "RUS": "Иоанн Орфанотроф — влиятельный евнух и чиновник при дворе императора Михаила IV, живший в начале XI века. Несмотря на скромную должность орфанотрофа — чиновника, руководящего сиротскими приютами империи, — Иоанн обладал огромной властью и авторитетом.",
+    "POL": "Jan Orphanotrophos, wpływowy eunuch i urzędnik dworski z początku XI wieku, służył za panowania cesarza Michała IV. Jako posiadacz tytułu orphanotrophosa odpowiadał za opiekę nad sierotami i ubogimi, co pozwoliło mu uzyskać znaczną władzę i spore wpływy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.samonas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Samonas was a notable eunuch and influential court official during the late 9th and early 10th centuries under Emperor Leo VI the Wise. Originally from Samosata, he rose to prominence through his position as the parakoimomenos, or the emperor's chamberlain, where he wielded considerable power within the Byzantine court.",
+    "RUS": "Самона — влиятельный евнух и чиновник при дворе императора Льва VI Мудрого, живший в конце IX  — начале X века. Заняв должность паракоймоменоса, то есть постельничего императора, этот уроженец Самосаты обрел немалое могущество при византийском дворе.",
+    "POL": "Samonas, wpływowy eunuch i urzędnik dworski z końca IX i początku X wieku, służył za panowania cesarza Leona VI Filozofa. Pochodził z Samosaty. Wpływy zyskał, pełniąc funkcję parakoimomenosa, czyli cesarskiego szambelana. Pozwoliło mu to sprawować na dworze bizantyjskim znaczącą władzę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.peter_the_eunuch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Peter the Eunuch was a prominent Byzantine court official and trusted advisor during the reign of Emperor Michael IV in the 11th century. Serving as the parakoimomenos, Peter played a critical role in supporting Michael IV's ascent to the throne and promoted the interests of the monastery of Stoudios.",
+    "RUS": "Петр Евнух — видный византийский чиновник двора и доверенный советник императора Михаила IV в XI веке. Заняв должность паракоймоменоса, он сыграл ключевую роль в восхождении Михаила IV на престол. Петр покровительствовал Студийскому монастырю.",
+    "POL": "Piotr, wybitny eunuch, bizantyjski urzędnik dworski i zaufany doradca cesarza Michała IV w XI wieku, pełnił funkcję parakoimomenosa. Odegrał kluczową rolę w dążeniach Michała IV do wstąpienia na tron, a ponadto był orędownikiem interesów klasztoru Studion.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.constantine_the_paphlagonian",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Constantine the Paphlagonian was a Byzantine eunuch and influential court official in the 9th century. He served as the parakoimomenos, or chamberlain, to Emperor Leo VI the Wise. He is renowned for his efforts to maintain stability within the court during a period of political intrigue and factionalism.",
+    "RUS": "Константин Пафлагонский — византийский евнух и влиятельный придворный чиновник IX века. Он занимал должность паракоймоменоса, то есть постельничего императора Льва VI Мудрого. В период интриг и постоянных раздоров Константин сумел обеспечить стабильность императорского двора.",
+    "POL": "Konstantyn z Paflagonii, bizantyjski eunuch i wpływowy urzędnik dworski żyjący w IX wieku, pełnił funkcję parakoimomenosa, czyli szambelana cesarza Leona VI Filozofa. Zasłynął ze starań utrzymania stabilności na dworze w czasie, w którym powstało wiele politycznych intryg i frakcji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.peter_the_stratopedarches",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Peter 'the Stratopedarches' was a notable 10th century military commander and eunuch who ",
+    "RUS": "Стратопедарх Петр — видный евнух-полководец X века, «муж деятельный и храбрый». Он играл заметную роль в годы правления императора Василия II и погиб при подавлении мятежа полководца Варды Склира.",
+    "POL": "Piotr Stratopedarches był wybitnym X-wiecznym dowódcą wojskowym i eunuchem, który odznaczał się niezwykłą siłą fizyczną. Odegrał kluczową rolę w rządach cesarza Bazylego II, szczególnie podczas buntu podniesionego z inicjatywy generała Bardasa Sklerosa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.basilios_bessarion",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Basilios Bessarion was a 15th-century scholar, philosopher, and cardinal. Bessarion converted to Catholicism and advocated for the union of the Orthodox and Catholic Churches during the Council of Florence, arguing that such a move would reinforce Christian unity against the growing Ottoman threat.",
+    "RUS": "Виссарион Никейский — ученый и философ XV века, кардинал. Перейдя в католичество, он выступал за воссоединение православной и католической церквей на Ферраро-Флорентийском соборе. Виссарион верил, что христианский мир должен объединиться, чтобы противостоять растущей османской угрозе.",
+    "POL": "Bessarion, znany również jako Basilios, był XV-wiecznym uczonym, filozofem i kardynałem. Przeszedł na katolicyzm i podczas soboru florenckiego opowiadał się za zjednoczeniem Kościoła prawosławnego i katolickiego, argumentując, że takie posunięcie wzmocniłoby jedność chrześcijan wobec rosnącego zagrożenia ze strony Osmanów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.demetrios_kydones",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Demetrios Kydones was a prominent 14th-century scholar, translator, and diplomat, known for his advocacy of the Latin and Roman Catholic traditions within the Orthodox Byzantine Empire. He translated many works of Thomas Aquinas and other Latin scholastic philosophers into Greek.",
+    "RUS": "Димитрий Кидон — выдающийся ученый, переводчик и дипломат XIV века, приверженец латинских и римско-католических традиций в православной Византийской империи. Он перевел на греческий язык труды Фомы Аквинского и других латинских схоластов.",
+    "POL": "Demetriusz Kydones był wybitnym XIV-wiecznym uczonym, tłumaczem i dyplomatą, który promował tradycje łacińskie i rzymskokatolickie w prawosławnym Cesarstwie Bizantyjskim. Przetłumaczył na grecki wiele dzieł Tomasza z Akwinu i innych łacińskich filozofów scholastycznych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.manuel_holobolos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Manuel Holobolos was a 13th-century scholar and official, known for his literary and rhetorical skills. He served in various administrative roles under several Byzantine emperors and is best remembered for his eloquent letters and speeches.",
+    "RUS": "Мануил Оловол — ученый и чиновник XIII века, оратор, обладавший выдающимися литературными способностями. Он занимал различные административные должности при дворе нескольких византийских императоров и оставил после себя множество выразительно написанных писем и речей.",
+    "POL": "Manuel Holobol był uczonym i urzędnikiem z XIII wieku, którego ceniono za umiejętności literackie i retoryczne. Pełnił różne funkcje administracyjne pod rządami kilku cesarzy bizantyjskich, a jego elokwentne listy i przemówienia zapewniły mu szczególne miejsce w annałach historii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.john_axuch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "John Axuch was a 12th-century Byzantine military commander and the chief minister under Emperor John II Komnenos. Originally a Seljuk Turk captured as a child and raised within the imperial household, Axuch rose to become the emperor's most trusted advisor and friend.",
+    "RUS": "Иоанн Аксух — византийский полководец XII века, первый министр при императоре Иоанне II Комнине. Аксух, турок-сельджук по происхождению, ребенком попал в византийский плен и воспитывался в императорской семье. Со временем он стал другом и самым доверенным советником императора.",
+    "POL": "Jan Aksuch był XII-wiecznym bizantyjskim dowódcą wojskowym i głównym ministrem cesarza Jana II Komnena. Pochodził z dynastii Turków seldżuckich; jako dziecko został pojmany i wychowany na dworze cesarskim. Aksuch zyskał sobie przyjaźń cesarza, który uczynił go swoim najbardziej zaufanym doradcą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.mkhitar_gosh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Mkhitar Gosh was a 12th-century Armenian scholar, cleric, and jurist, renowned for his contributions to Armenian law and literature. He authored one of the earliest codifications of Armenian law, the ",
+    "RUS": "Мхитар Гош — видный армянский ученый, священник и юрист XII века, чьи работы внесли значительный вклад в армянскую литературу и право. Его «Судебник» стал основой для всей последующей армянской правовой мысли.",
+    "POL": "Mychitar Gosz był XII-wiecznym ormiańskim uczonym, duchownym i prawnikiem, który wniósł znaczący wkład w ormiańskie prawo i literaturę. Jest autorem jednej z najwcześniejszych kodyfikacji prawa ormiańskiego zatytułowanej „Datastanagirk”, co w dosłownym tłumaczeniu oznacza „księgę prawa”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.shota_rustaveli",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Shota Rustaveli was a 12th-century Georgian poet and one of the greatest contributors to Georgian literature. He is best known for his epic poem ",
+    "RUS": "Шота Руставели — грузинский поэт XII века, крупнейший представитель литературы Грузии. Он прославился эпической поэмой «Витязь в тигровой шкуре», которая считается одним из величайших литературных произведений на грузинском языке.",
+    "POL": "Szota Rustaweli był XII-wiecznym gruzińskim poetą i jednym z najwybitniejszych twórców literatury na swoich ziemiach. Jego poemat epicki „Rycerz w tygrysiej skórze” jest uważany za arcydzieło literatury narodowej Gruzji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.grigor_tatevatsi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Grigor Tatevatsi was a 14th-century Armenian philosopher, theologian, and scholar, renowned for his role as a teacher and head of the Tatev Monastery's school in medieval Armenia.",
+    "RUS": "Григор Татеваци — армянский философ, богослов и ученый XIV века, преподаватель и ректор средневекового университета при Татевском монастыре в Армении.",
+    "POL": "Grzegorz z Tatewu był XIV-wiecznym ormiańskim filozofem, teologiem i uczonym, który pełnił rolę nauczyciela i naczelnika w szkole umiejscowionej w monastyrze Tatew.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.sargis_pitsak",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Sargis Pitsak was a 14th-century Armenian manuscript illuminator and scribe, renowned for his contributions to the art of medieval Armenian bookmaking.",
+    "RUS": "Саргис Пицак — армянский иллюстратор и переписчик рукописей, живший в XIV веке. Он считается одним из величайших мастеров средневековой армянской миниатюры.",
+    "POL": "Sargis Pitsak był XIV-wiecznym ormiańskim iluminatorem i skrybą, który wniósł znaczący wkład w sztukę średniowiecznego księgarstwa w Armenii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.medici",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Averardo de' Medici, also known as Bicci, was an early ancestor of the illustrious Medici family, which rose to prominence in Florence during the Renaissance. Averardo was instrumental in establishing the family's wealth and status in Florence's political and social circles.",
+    "RUS": "Аверардо де Медичи, также известный как Биччи, был одним из предков славного рода Медичи — самого влиятельного флорентийского семейства эпохи Возрождения. Богатство Аверардо стало отправной точкой для стремительного роста политического влияния семьи во Флоренции.",
+    "POL": "Averardo de’ Medici, znany również jako Bicci, był wczesnym przodkiem znamienitej rodziny Medici, która zyskała sławę we Florencji w okresie renesansu. Odegrał kluczową rolę w budowaniu bogactwa oraz pozycji swojego rodu we florenckich kręgach politycznych i społecznych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.borgia",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Alfonso de Borgia was a Spanish cardinal and diplomat who later became Pope Callixtus III in 1455. Before his papacy, he served as a respected jurist and administrator, playing a key role in reconciling the conflicting parties of the Compromise of Caspe.",
+    "RUS": "Альфонсо де Борджа — испанский кардинал и дипломат, в 1455 году избранный папой под именем Каликст III. Прежде чем занять папский престол, он был уважаемым юристом и администратором. Альфонсо сыграл заметную роль при заключении компромисса в Каспе, которым завершилось междуцарствие Арагонской короны.",
+    "POL": "Alfonso de Borgia był hiszpańskim kardynałem i dyplomatą, który w 1455 roku został papieżem i przyjął imię Kalikst III. Przed rozpoczęciem pontyfikatu był szanowanym prawnikiem i administratorem, odgrywając kluczową rolę w pogodzeniu stron podczas zawartego w Caspe kompromisu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.william_wallace",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "William Wallace was a Scottish knight and a prominent leader during the Wars of Scottish Independence against England in the late 13th century. Known for his bold tactics and fierce patriotism, Wallace famously defeated the English army at the Battle of Stirling Bridge in 1297 and was appointed Guardian of Scotland.",
+    "RUS": "Уильям Уоллес — знаменитый шотландский рыцарь, один из вождей первой войны за независимость Шотландии от Англии в конце XIII века. Смелый тактик и убежденный патриот, Уоллес блестяще разгромил англичан в битве на Стерлингском мосту в 1297 году и был назначен Хранителем Шотландии.",
+    "POL": "William Wallace był szkockim rycerzem i wybitnym przywódcą, który zasłynął podczas wojen o niepodległość Szkocji toczonych z Anglią pod koniec XIII wieku. Jego odważna taktyka i zaciekły patriotyzm pozwoliły mu pokonać armię angielską w bitwie pod Stirling Bridge w 1297 roku. Wskutek tego osiągnięcia został obwołany strażnikiem królestwa Szkocji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.la_hire",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Étienne de Vignolles, famously known as La Hire, was a key military commander during the latter phases of the Hundred Years' War. Renowned for his bravery and prowess in battle, La Hire was one of the principal commanders under Joan of Arc.",
+    "RUS": "Этьен де Виньоль, известный под прозвищем Ла Гир, — французский воин, принимавший участие в последней фазе Столетней войны. Этот грозный и безрассудно храбрый боец был одним из главных военачальников в войске Жанны д'Арк.",
+    "POL": "Étienne de Vignolles, zwany także La Hirem, odegrał kluczową rolę jako dowódca wojskowy w drugiej fazie wojny stuletniej. Słynął z odwagi i umiejętności bojowych, będąc jednym z głównych dowódców pod wodzą Joanny d’Arc.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.bar_sauma",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rabban Bar Sauma was a Nestorian monk-turned-diplomat from Yuan dynasty China. Originally setting out on an unsuccessful pilgrimage to Jerusalem, he instead spent years in Baghdad. Later in life, he served as a Mongol ambassador to Europe, meeting with European monarchs, the Byzantine Emperor, and the Pope to discuss a potential Franco-Mongol alliance.",
+    "RUS": "Раббан Саума — несторианский монах и дипломат родом из захваченного монголами Китая. Отправившись паломником в Иерусалим, но так и не достигнув цели, Саума поселился в Багдаде. Впоследствии ильхан отправил его послом в Европу, чтобы обсудить потенциальный франко-монгольский союз. В ходе своего посольства Саума встречался с европейскими монархами, византийским императором и даже Папой Римским.",
+    "POL": "Rabban Bar Sauma to nestoriański mnich i dyplomata z Chin dynastii Yuan. Podjął się pielgrzymki do Jerozolimy, lecz podróż zakończyła się niepowodzeniem i zamiast tego Bar Sauma trafił do Bagdadu, gdzie spędził wiele lat. Później wyruszył do Europy, w której jako mongolski ambasador spotkał się z europejskimi monarchami, cesarzem bizantyjskim i papieżem, aby omówić zawarcie sojuszu francusko-mongolskiego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.hodja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nasreddin ",
+    "RUS": "Ходжа Насреддин — фольклорный герой и популярный литературный персонаж во многих тюркских культурах. Насреддин — мудрый и находчивый старик, мастер давать загадочные советы и остроумно выпутываться из любых трудностей.",
+    "POL": "Hodża Nasreddin to ludowy bohater i legendarna postać literacka w kulturze tureckiej. Często jest przedstawiany jako mądry i błyskotliwy starzec, który udziela zagadkowych rad lub wpada w tarapaty, lecz zawsze wychodzi z nich cało dzięki swojemu bystremu umysłowi i poczuciu humoru.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.widukind_of_corvey",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Widukind of Corvey was a 10th-century Saxon monk and historian, renowned for his work ",
+    "RUS": "Видукинд Корвейский — саксонский монах и историк X века, автор хроники «Деяния саксов» («Res gestae Saxonicae»), в которой описана история саксонского народа с глубокой древности и до правления императора Оттона I.",
+    "POL": "Widukind z Korbei, saski mnich i historyk z X wieku, zasłynął jako autor dzieła „Res gestae Saxonicae”. Kronika ta szczegółowo opisuje czyny Sasów, ze szczególnym uwzględnieniem panowania cesarza Ottona I.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.roger_de_flor",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Roger de Flor was a prominent mercenary captain and adventurer of the late 13th and early 14th centuries. Originally a Templar knight, he later became the leader of the Almogàvers, forming the Catalan Company. He fought for Andronikos II and Michael IX, the latter which had him assassinated due to his growing influence within the Byzantine Empire.",
+    "RUS": "Рожер де Флор — известный кондотьер и авантюрист конца XIII — начала XIV века. Бывший рыцарь-тамплиер, он встал во главе отряда наемников-альмогаваров, превратив его в знаменитую Каталонскую компанию. Впоследствии Рожер воевал на стороне византийского императора Андроника II, а затем — Михаила IX. Последний, страшась растущего влияния кондотьера, приказал его убить.",
+    "POL": "Roger de Flor, wybitny kapitan najemników i poszukiwacz przygód z przełomu XIII i XIV wieku, rozpoczął swoją karierę jako rycerz templariuszy. Później stanął na czele Almogawarów, którzy utworzyli Kompanię Katalońską. Walczył dla Andronika II i Michała IX, jednak jego rosnące wpływy w Cesarstwie Bizantyjskim doprowadziły do tego, że Michał IX nakazał go zamordować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.regino_of_prum",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Regino of Prüm was a notable 9th-century Benedictine monk, historian, and music theorist. He served as the abbot of Prüm Abbey until his expulsion in 899, after which he became abbot of St. Martin's Abbey in Trier. He is best known for his chronicle the ",
+    "RUS": "Регино Прюмский — хронист и теоретик музыки IX века, монах-бенедиктинец, автор труда Chronicon («Всемирная хроника»). Регино служил аббатом Прюмского монастыря, а после своего изгнания в 899 году возглавил аббатство Св. Мартина в Трире.",
+    "POL": "Regino z Prüm, wybitny benedyktyński mnich żyjący w IX wieku, zasłynął jako historyk i teoretyk muzyki. Pełnił funkcję opata klasztoru w Prüm do 899 roku, kiedy to został z niego wydalony. Następnie objął stanowisko opata klasztoru św. Marcina w Trewirze. Jego najważniejszym dziełem jest kronika „Chronicon”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.geoffrey_of_monmouth",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Geoffrey of Monmouth was a 12th-century Welsh cleric and one of the most significant figures in the development of British historiography and Arthurian literature. His seminal work, ",
+    "RUS": "Гальфрид Монмутский — валлийский священник XII века, один из основателей британской историографии и ключевая для развития артуровского цикла фигура. Его главный труд, Historia Regum Britanniae («История королей Британии»), — псевдоисторическая хроника, повествующая о жизни легендарных британских правителей.",
+    "POL": "Geoffrey z Monmouth, XII-wieczny walijski duchowny, odegrał kluczową rolę w rozwoju brytyjskiej historiografii i literatury arturiańskiej. Jego przełomowe dzieło „Historia Regum Britanniae” (historia królów Brytanii) to pseudohistoryczna kronika opisująca życie brytyjskich władców.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.raiktor",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "In 1081, amid the turmoil following Alexios I Komnenos's rise to power, Raiktor, a monk, falsely claimed to be the deposed Emperor Michael VII. Seizing this opportunity, Norman duke Robert Guiscard used Raiktor's claim to justify his invasion of the Balkans. Despite the deception being uncovered, Guiscard continued with his campaign, parading Raiktor before Dyrrachium to gain support. Ultimately, Guiscard abandoned Raiktor as the ruse failed, likely leading to Raiktor's quiet disposal once he was no longer useful.",
+    "RUS": "В 1081 году, когда Византия была охвачена хаосом после прихода к власти Алексея I Комнина, при дворе нормандского герцога Апулии Роберта Гискара объявился беглый монах по имени Ректор, выдававший себя за свергнутого императора Михаила VII. Герцог воспользовался этим предлогом, чтобы начать вторжение на Балканы. Обман был быстро раскрыт, однако Гискар продолжил кампанию — он даже демонстрировал Лжемихаила жителям осажденного Диррахия, убеждая их открыть ворота. В конечном счете нужда в самозванце отпала, и от Ректора тихо избавились.",
+    "POL": "W 1081 roku, w czasie zamieszania panującego po objęciu władzy przez Aleksego I Komnena, mnich Raiktor fałszywie podawał się za obalonego cesarza Michała VII. Wykorzystując tę sytuację, normański książę Robert Guiscard uznał roszczenia Raiktora za pretekst do podjęcia inwazji na Bałkany. Mimo ujawnienia oszustwa mnicha Guiscard kontynuował swoją kampanię i przywiódł Raiktora do Dyrrachium, prezentując go ważnym osobistościom celem zdobycia poparcia. Ponieważ podstęp zawiódł, Guiscard ostatecznie porzucił Raiktora. Mnich przestał być użyteczny, co prawdopodobnie doprowadziło do jego dyskretnego usunięcia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.nichiren",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A radical and uncompromising reformer of Japanese Buddhism, $Nichiren$ declared devotion to the Lotus Sutra as the sole path to salvation. Fiercely critical of rival sects and political complacency, he endured exile and assassination attempts for his teachings. His legacy sparked the creation of a unique, nationalistic school of Buddhism that endures to this day.",
+    "RUS": "Нитирэн был крайне радикальным и принципиальным реформатором буддизма, который считал, что лишь четкое следование Сутре лотоса может привести человека к спасению. При этом он жестко критиковал другие буддийские школы и сложившуюся политическую систему, за что неоднократно попадал в ссылку и становился жертвой покушений. Его учение легло в основу уникального японского направления буддизма, которое существует и по сей день.",
+    "POL": "$Nichiren$, radykalny i bezkompromisowy reformator japońskiego buddyzmu, zadeklarował oddanie Sutrze Lotosu jako jedynej ścieżce do zbawienia. Zaciekle krytykując rywalizujące sekty i polityczne samozadowolenie, przeżył wygnanie i próby zabójstwa za swoje nauki. Jego spuścizna zapoczątkowała powstanie unikalnej, nacjonalistycznej szkoły buddyzmu, która przetrwała do dziś.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.dogen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Founder of the Sōtō school of Zen Buddhism in Japan, revered for his teachings on meditation and his major work Shōbōgenzō which shaped Japanese Zen philosophy.",
+    "RUS": "Основатель дзен-буддийской школы Сото, известный своим учением о медитации и трудом «Сёбогэндзо», который во многом сформировал японскую философию дзен.",
+    "POL": "Założyciel sōtō, japońskiej szkoły buddyzmu zen, czczony za swoje nauki o medytacji i główne dzieło pt. „Shōbōgenzō”, które ukształtowało japońską filozofię zen.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.kokan_shiren",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rinzai Zen monk, poet, and historian of the Kamakura period; compiled Zenrin Kokuhōki (a notable Buddhist history text) and poetry anthologies blending Zen insight with literary elegance.",
+    "RUS": "Монах школы Риндзай, поэт и историк периода Камакура, написавший обширный исторический труд «Дзэнрин Кокухоки» и множество поэтических сборников, которые объединили в себе его литературный талант и буддийскую проницательность.",
+    "POL": "Mnich szkoły rinzai zen, poeta i historyk okresu Kamakura; skompilował „Zenrin Kokuhōki” (znaczący tekst historii buddyzmu) i antologie poezji łączące wnikliwość zen z literacką elegancją.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.jeong_mong_ju",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A statesman, scholar, and poet of late Goryeo, Chŏng Mong-ju was revered for his unwavering loyalty to the dynasty in its final days. A master of Neo-Confucian thought and diplomacy, he opposed the rise of the Joseon regime and was assassinated for his principles. His final poem, expressing steadfast fidelity, remains one of Korea's most famous verses.",
+    "RUS": "Чон Монджу был государственным деятелем, ученым и поэтом позднего периода Корё. Он известен тем, что сохранял преданность правящей династии вплоть до ее падения. Будучи выдающимся неоконфуцианским мыслителем и дипломатом, он выступал против власти династии Чосон, за что впоследствии и был убит. Даже в своем последнем произведении он выражал свою непоколебимую верность прежнему господину, и сегодня оно по праву считается одним из самых известных корейских стихотворений.",
+    "POL": "Mąż stanu, uczony i poeta późnego okresu Goryeo, Chŏng Mong-ju był szanowany za niezachwianą lojalność wobec dynastii w jej ostatnich dniach. Mistrz myśli neokonfucjańskiej i dyplomacji, sprzeciwił się powstaniu reżimu dynastii Joseon i został zamordowany za wyznawanie swoich zasad. Jego ostatni wiersz, wyrażający niezachwianą wierność, pozostaje jednym z najbardziej znanych w Korei.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.yi_saek",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A pivotal Confucian scholar of late Goryeo, Yi Saek introduced Zhu Xi's Neo-Confucianism to Korea and trained a generation of future Joseon reformers. Though he supported educational reform, he remained loyal to the Goryeo dynasty and refused office under its successors. His influence bridged two dynasties and shaped Korean thought for centuries.",
+    "RUS": "Будучи ключевой фигурой корейского конфуцианства позднего Корё, Ли Сэк одним из первых начал распространять в Корее неоконфуцианские идеи Чжу Си и впоследствии воспитал целое поколение реформаторов эпохи Чосон. Хотя Ли Сэк поддерживал проведение образовательных реформ, он в то же время хранил верность династии Корё и отказывался служить новой власти. В конечном итоге его идеи послужили связующим звеном между двумя династиями и сформировали корейскую философскую мысль на столетия вперед.",
+    "POL": "Yi Saek, kluczowy konfucjański uczony późnego okresu Goryeo, wprowadził neokonfucjanizm Zhu Xi do Korei i wyszkolił pokolenie przyszłych reformatorów z dynastii Joseon. Choć wspierał reformy edukacyjne, pozostał lojalny wobec dynastii Goryeo i odmówił objęcia urzędu pod rządami jej następców. Jego wpływ połączył dwie dynastie i ukształtował koreańską myśl na wieki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.jinul",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A visionary Seon monk of the Goryeo period, $Ji_nul$ sought to reform Korean Buddhism through unifying meditative practice and doctrinal study. Founding the Jogye Order at Songgwangsa, he emphasized personal enlightenment within monastic discipline. His teachings laid the foundation for Korean Seon as it is practiced today, fusing Zen insight with scholastic depth.",
+    "RUS": "$Ji_nul$ — выдающийся монах буддийской школы Сон, живший в эпоху Корё. Он стремился реформировать корейский буддизм, объединив практики медитации с изучением философских текстов. Это привело его к созданию при храме Сонгванса ордена Чоге, который продвигал идею о достижении просветления через соблюдение монашеской дисциплины. Так, учение Чинуля соединило в себе интуитивно понятную дзенскую мудрость и более строгий академический подход к познанию, тем самым заложив основы современной корейской школы Сон.",
+    "POL": "$Ji_nul$, wizjonerski mnich sŏn z okresu Goryeo, starał się zreformować koreański buddyzm poprzez zjednoczenie praktyki medytacyjnej i nauk doktrynalnych. Po założeniu zakonu Jogye w klasztorze Songgwangsa kładł nacisk na osobiste oświecenie w ramach dyscypliny klasztornej. Jego nauki położyły podwaliny pod koreańską szkołę sŏn w formie praktykowanej dzisiaj, łącząc wnikliwość zen z głębią scholastyczną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.prapanca",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Court poet and historiographer in Majapahit Java, author of the epic poem Nagarakretagama (1365) which detailed Majapahit's glory and geography; his work is a key source on Javanese history and statecraft.",
+    "RUS": "Прапанча был придворным поэтом и историком в яванской империи Маджапахит. В 1365 году он написал эпическую поэму «Нагаракертагама», в которой подробно описал географическое и политическое устройство Маджапахита. Это произведение является одним из главных источников сведений об истории и государственном аппарате Явы той эпохи.",
+    "POL": "Nadworny poeta i historiograf w jawajskim Madżapahicie, autor epickiego poematu „Nagarakretagama” (1365 r.), w którym szczegółowo opisywał chwałę i geografię Madżapahitu. Jego praca jest kluczowym źródłem na temat jawajskiej historii i zarządzania państwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.tantular",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A renowned Javanese poet, Mpu Tantular authored the Kakawin Sutasoma, introducing the phrase ",
+    "RUS": "Известный яванский поэт Мпу Тантулар написал поэму «Какавин Сутасома», где использовал фразу «Bhinneka Tunggal Ika» («единство в многообразии»), которая впоследствии стала национальным девизом Индонезии.",
+    "POL": "Znany jawajski poeta, Mpu Tantular, był autorem poematu „Kakawin Sutasoma” i wprowadził frazę Bhinneka Tunggal Ika („Jedność w różnorodności”), przyjętą później jako narodowe motto Indonezji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.kanwa",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A court poet during King Airlangga's reign, Mpu Kanwa composed the Kakawin Arjunawiwaha, an epic poem blending Hindu mythology with Javanese ideals.",
+    "RUS": "Служа поэтом при дворе короля Аирланга, Мпу Канва написал «Какавин Арджунавиваха» — эпическую поэму, в которой индуистская мифология сочетается с литературными и культурными традициями Явы.",
+    "POL": "Jako nadworny poeta za panowania króla Airlanggi, Mpu Kanwa skomponował „Kakawin Arjunawiwahę”, epicki poemat łączący hinduską mitologię z jawajskimi ideałami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.sedah",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Commissioned by King Jayabhaya, Mpu Sedah began composing the Kakawin Bhāratayuddha, an adaptation of the Mahabharata, which was later completed by Mpu Panuluh.",
+    "RUS": "Получив поручение короля Джаябхаи, Мпу Седа начал сочинять «Какавин Бхаратаюдха» — яванскую адаптацию «Махабхараты», которая позже была завершена поэтом Мпу Панулухом.",
+    "POL": "Na zlecenie króla Jayabhayi Mpu Sedah zaczął komponować „Kakawin Bhāratayuddhę”, adaptację „Mahabharaty”, którą później dokończył Mpu Panuluh.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.panuluh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Mpu Panuluh completed the Kakawin Bhāratayuddha and authored the Kakawin Hariwangsa, contributing significantly to Javanese literary tradition.",
+    "RUS": "Мпу Панулух не только завершил создание «Какавина Бхаратаюдха», но и написал «Какавин Харивангса», чем внес значительный вклад в яванскую литературу.",
+    "POL": "Mpu Panuluh dokończył „Kakawin Bhāratayuddhę” i napisał „Kakawin Hariwangsę”, wnosząc znaczący wkład w jawajską tradycję literacką.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.dharmaja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A poet during King Airlangga's reign, Mpu Dharmaja is known for composing the Kakawin Smaradahana, a poem that influenced later Javanese literature.",
+    "RUS": "Мпу Дхармаджа был поэтом во времена правления короля Аирланги. Он известен тем, что написал поэму «Какавин Смарадахана», которая в дальнейшем оказала значительное влияние яванскую литературу.",
+    "POL": "Mpu Dharmaja, poeta z czasów panowania króla Airlanggi, znany jest ze stworzenia poematu „Kakawin Smaradahana”, który wywarł wpływ na późniejszą literaturę jawajską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.monaguna",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Mpu Monaguna is credited with composing the Kakawin Sumanasantaka, a poetic work that reflects the fusion of Hindu narratives with Javanese culture.",
+    "RUS": "Мпу Монагуне приписывается создание «Какавина Суманасантака» — литературного произведения, объединяющего классические индуистские сюжеты с яванской культурой.",
+    "POL": "Mpu Monagunie przypisuje się skomponowanie „Kakawin Sumanasantaki”, dzieła poetyckiego, które odzwierciedla połączenie hinduskich opowieści z kulturą jawajską.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.kuturan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A revered religious figure in Balinese history, Mpu Kuturan is credited with unifying various sects of Hinduism in Bali and establishing the Desa Adat system, which integrates religious and customary laws.",
+    "RUS": "Выдающийся религиозный деятель в истории Бали. Считается, что именно Мпу Кутуран объединил разные течения индуизма на Бали и создал особую форму общинного устройства, которая сочетает в себе религиозные и правовые обычаи жителей острова.",
+    "POL": "Mpu Kuturanowi, szanowanej postaci religijnej w historii Bali, przypisuje się zjednoczenie różnych sekt hinduizmu na Bali i stworzenie systemu desa adat, który integruje prawa religijne i zwyczajowe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.dwijendra",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A spiritual leader who played a significant role in spreading Hinduism in Lombok and Bali, Mpu Dwijendra is known for his teachings and establishment of temples across the islands.",
+    "RUS": "Мпу Двиджендра — духовный лидер, сыгравший значительную роль в распространении индуизма на островах Ломбок и Бали. Он обрел известность благодаря своему учению и основанию множества храмов на островах Малайского архипелага.",
+    "POL": "Mpu Dwijendra, duchowy przywódca, który odegrał znaczącą rolę w szerzeniu hinduizmu na Lombok i Bali, jest znany ze swoich nauk i zakładania świątyń na różnych wyspach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.kavindrarimathana",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kavindrarimathana was a prominent architect and engineer during the reign of King Rajendravarman II. He is credited with designing significant temples, including Pre Rup and East Mebon, showcasing the architectural prowess of the Khmer Empire.",
+    "RUS": "Кавиндрариматхана был выдающимся архитектором и инженером времен правления короля Раджендравармана II. Ему приписывают создание наиболее известных кхмерских храмов, включая Пре-Руп и Восточный Мебон, которые являются символом архитектурных достижений Кхмерской империи.",
+    "POL": "Kavindrarimathana był wybitnym architektem i inżynierem za panowania króla Rajendravarmana II. Przypisuje mu się zaprojektowanie znaczących świątyń, w tym Pre Rup i Wschodniego Mebonu, pokazujących architektoniczne umiejętności imperium Khmerów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.daun_penh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A revered widow of the 14th century, Daun Penh is said to have discovered sacred Buddha statues inside a floating koki tree during a flood on the Tonlé Sap. Interpreting it as a divine sign, she established a hilltop shrine, Wat Phnom, where she enshrined the relics. Her act of devotion gave rise to the city of Phnom Penh, which bears her name.",
+    "RUS": "Даун Пень была богатой вдовой, жившей в XIV веке. По преданию, во время разлива реки Тонлесап она обнаружила фигурки Будды внутри ствола плывущего дерева коки. Увидев в этом божественное знамение, она основала на вершине холма святилище Ват Пном, куда и поместила реликвии. Вскоре поблизости возник город Пномпень, который был назван в честь нее.",
+    "POL": "Według przekazów Daun Penh – szanowana wdowa żyjąca w XIV wieku – odkryła święte posągi Buddy w pniu koki dryfującym na wezbranych wodach Tonlé Sap. Uznając to za boski znak, wzniosła na wzgórzu świątynię Wat Phnom, a potem złożyła w niej znalezione skarby. Jej akt oddania dał początek miastu Phnom Penh, które do dziś nosi jej imię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.yue_fei",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "One of China's most celebrated generals, Yue Fei rose from humble origins to become the stalwart defender of the Southern Song against the invading Jurchen Jin. Unwavering in his loyalty to the emperor and the ideal of national unity, he was betrayed by corrupt officials and executed unjustly. His legacy remains a symbol of patriotism and integrity.",
+    "RUS": "Юэ Фэй родился в семье бедных крестьян, однако это не помешало ему стать одним из величайших китайских генералов. Он известен тем, что смог защитить границы Южной Сун, остановив наступление чжурчжэней из империи Цзинь. Несмотря на бесконечную преданность императору и идее национального единства, позднее он был ложно обвинен коррумпированными чиновниками и казнен. По сей день Юэ Фэй остается символом верности и патриотизма для китайского народа.",
+    "POL": "Wywodzący się z prostego ludu Yue Fei był jednym najsłynniejszych generałów Chin, który niezłomnie bronił dynastii Południowej Song przed najazdami Dżurdżenów z państwa Jin. Niezachwiana lojalność wobec cesarza i wiara w ideę jedności narodowej nie uchroniły go jednak przed zdradą ze strony skorumpowanych urzędników i straceniem. Jego życie i niesprawiedliwa śmierć do dziś pozostają symbolem patriotyzmu i prawości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.wen_tianxiang",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A revered scholar-general of the late Southern Song, Wen Tianxiang stood as a beacon of resistance against the Mongol conquest. Captured after a failed defense of the dynasty, he refused to serve the Yuan and died a martyr. His prison-composed poetry, particularly the ",
+    "RUS": "Вэнь Тяньсян — знаменитый ученый и военный деятель времен позднего периода Южной Сун, ставший символом сопротивления монгольскому нашествию. Попав в плен после неудачной попытки защитить правящую династию, он отказался перейти на службу к Юань и был казнен. Написанные в заточении стихи, в частности «Песня моего прямого духа», увековечили его фигуру как идеал преданности и добродетели.",
+    "POL": "Wen Tianxiang to czcigodny, uczony generał z późnego okresu dynastii Południowej Song, który stanowi symbol oporu przeciwko mongolskiemu podbojowi. Pojmany po nieudanej obronie dynastii, odmówił służby dla Yuanów i zginął jako męczennik. Więzienna poezja Tianxianga, a zwłaszcza „Pieśń o Sprawiedliwości”, utrwaliła jego dziedzictwo jako wzór cnoty i lojalności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.fan_zhongyan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Northern Song statesman, chancellor, and Neo-Confucian scholar known for his famous maxim ",
+    "RUS": "Государственный деятель, канцлер и неоконфуцианский ученый периода эпохи Северной Сун, известный своим знаменитым изречением: «Будь первым в тревогах мира и последним в его радостях». Среди прочих достижений Фань Чжунъянь провел масштабные общественные реформы, направленные на повышение эффективности работы правительства и обеспечение благополучия населения.",
+    "POL": "Państwowiec, kanclerz i neokonfucjański uczony z czasów dynastii Północnej Song, znany z maksymy „Bądź pierwszym, który się martwi, i ostatnim, który się cieszy”. Wprowadził przełomowe reformy mające na celu usprawnienie rządów i poprawę opieki społecznej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.li_qingzhao",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "One of China's greatest female poets, celebrated for her Ci (lyric) poetry of the Song dynasty which poignantly expresses personal loss and the elegance of the bygone era.",
+    "RUS": "Одна из величайших поэтесс Китая времен династии Сун. Ее поздние произведения невероятно точно передают боль от утраты близкого человека и тоску по ушедшей эпохе.",
+    "POL": "Jedna z najwybitniejszych chińskich poetek z czasów dynastii Song. Zasłynęła z lirycznej poezji Ci, która w przejmujący sposób wyraża uczucie osobistej straty oraz elegancję minionej epoki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.qiu_chuji",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Revered Taoist master (one of the Seven True Taoists of the North) and advisor to Genghis Khan; traveled from North China to Central Asia to counsel the Khan on governance and longevity, helping establish early Yuan religious policy.",
+    "RUS": "Цю Чуцзи — известный даосский монах, один из Семи Подлинных Учителей Севера и советник Чингисхана. С последним он путешествовал из Северного Китая в Среднюю Азию, давая великому хану рекомендации по вопросам управления и здоровья, а также помогая формировать религиозную политику, которая позднее стала использоваться династией Юань.",
+    "POL": "Czcigodny mistrz taoistyczny (jeden z Siedmiu Prawdziwych Taoistów Północy) i doradca Czyngis-chana. Wyruszył z północnych Chin do Azji Centralnej, aby doradzać chanowi w sprawach dotyczących rządzenia i długowieczności, pomagając ustanowić wczesną politykę religijną dynastii Yuan.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.chu_van_an",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Esteemed Confucian teacher of the Tran dynasty, head of the Imperial Academy in Thăng Long; known for his integrity, educational reforms, and the famous petition of the ",
+    "RUS": "Знаменитый конфуцианец, учитель на службе династии Чан и глава Имперской академии в Тханглонге. Он вошел в историю благодаря своим образовательным реформам и обращению под названием «Семь обезглавливаний», в котором он призывал императора казнить коррумпированных чиновников.",
+    "POL": "Poważany nauczyciel konfucjański z dynastii Tran, kierujący Akademią Cesarską w Thăng Long. Zasłynął uczciwością, reformami edukacyjnymi oraz słynną petycją „Siedmiu ścięć”, w której wzywał króla do wyeliminowania skorumpowanych urzędników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.nguyen_thuyen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "13th-century poet-official credited with pioneering the use of Nôm script (vernacular Vietnamese writing) in literature. Remembered for composing verses that legendarily drove away crocodiles, symbolizing the potency of Vietnamese language and learning.",
+    "RUS": "Поэт и государственный деятель XIII века, которому приписывают создание первого литературного произведения с использованием тьы-ном — старинной вьетнамской письменности. Принято считать, что это было заклинание в стихотворной форме, предназначенное для отпугивания крокодилов.",
+    "POL": "Poeta-urzędnik z XIII wieku, uznawany za prekursora użycia wietnamskiego pisma ludowego Nôm w literaturze. Został zapamiętany jako autor wierszy, które według legendy przepędziły krokodyle, symbolizując potęgę wiedzy i wietnamskiego języka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.pham_ngu_lao",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Famed general of the Tran dynasty who helped repel multiple Mongol invasions in the 13th century. A peasant by birth, he rose through valor and became a symbol of patriotism (also subject of a famous poem highlighting his dedication).",
+    "RUS": "Великий генерал на службе династии Чан, который принимал участие в отражении монгольского нашествия в XIII веке. Несмотря на свое низкое происхождение, благодаря храбрости он достиг больших высот на военном поприще и стал для вьетнамцев важным символом преданности и патриотизма.",
+    "POL": "Słynny generał z dynastii Tran, który w XIII wieku pomógł odeprzeć liczne najazdy Mongołów. Choć pochodzenie miał chłopskie, dzięki męstwu wspiął się na wysokie stanowisko i został symbolem patriotyzmu (oraz bohaterem słynnego wiersza podkreślającego jego oddanie).",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.sakata_kintoki",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A mighty warrior from the mountains of Sagami, $dynn_Satake$ $Kin_toki$ is said to have served $dynn_Minamoto$ $Yorimitsu$ with great strength and loyalty. His legendary feats as ",
+    "RUS": "По легенде, Саката Кинтоки был могучим воином с гор Сагами, который с невиданным рвением и преданностью служил Минамото Ёримицу. Он известен своими великими подвигами, в числе которых борьба с медведями, вырывание из земли деревьев голыми руками и даже сражения с демонами.",
+    "POL": "Mówi się, że $Kin_toki$ z rodu $dynn_Satake$, potężny wojownik z gór Sagami, służył $Yorimitsu$ z rodu $dynn_Minamoto$ z wielkim zapałem i lojalnością. Jako Kintarō zapisał się w historii legendarnymi czynami, takimi jak zapasy z niedźwiedziami, wyrywanie drzew z korzeniami czy śmiałe szarżowanie do walki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.takezaki_suenaga",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A fiercely loyal samurai of the Kamakura shogunate, $dynn_Takezaki$ $Suenaga$ gained fame for his valor during the Mongol invasions of Japan. Determined to receive proper recognition for his service, he commissioned illustrated scrolls that recorded his deeds.",
+    "RUS": "Такэдзаки Суэнага, преданный самурай сёгуната Камакура, снискал славу в боях против монгольских захватчиков, вторгшихся в Японию. Желая получить должное признание за свою службу, он заказал свитки с рисунками, изображающими его военные подвиги.",
+    "POL": "Niezwykle lojalny samuraj szogunatu Kamakura, $Suenaga$ z rodu $dynn_Takezaki$, zasłynął dzięki odwadze podczas mongolskich najazdów na Japonię. Zdeterminowany, by zdobyć za swoje zasługi należyte uznanie, zlecił wykonanie ilustrowanych zwojów, które upamiętniły jego czyny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.eisai",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Born into a shrine family, $Eisai$ became a monk, but was dissatisfied by the dominant Pundarika, or Tendai, schools of Buddhism, and traveled to China to study the teachings of Dhyana, or Chan, thinkers. On his return, he introduced these ideas to Japan, founding the Zen Rinzai school, establishing its first temple, and re-popularizing green tea.",
+    "RUS": "Эйсай родился в семье священника. Желая пойти по стопам отца, он стал монахом, однако вскоре усомнился в учении школы Тэндай и отправился в Китай, где начал обучаться у дзэн-буддистов. Вернувшись в Японию, он начал распространять их идеи и основал первый в стране дзэнский монастырь, при котором также была создана школа Риндзай. Кроме того, Эйсай привез из Китая зеленый чай, который обрел в Японии большую популярность.",
+    "POL": "Urodzony w rodzinie kapłańskiej $Eisai$ został mnichem, lecz nie godził się z dominującymi szkołami buddyzmu – pundarika oraz tendai – i udał się do Chin, aby studiować nauki myślicieli dhjana, znanych także jako Chan. Po powrocie idee te szerzył w Japonii. Założył szkołę Zen Rinzai, ufundował jej pierwszy klasztor oraz ponownie spopularyzował picie zielonej herbaty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.ippen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$Ippen$ studied scripture from a young age before returning to secular life. While on pilgrimage in Kumano, kami revealed to him the path to enlightenment: ecstatic recital of the [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')]. Divinely inspired, $Ippen$ returned to the cloth as a devoted Pure Land monk and teacher, traveling across Japan with a band of ardent followers and founding the Ji-shū school.",
+    "RUS": "Иппэн с юных лет изучал священные тексты, но, повзрослев, начал вести мирскую жизнь. Однако во время паломничества к святилищам Кумано духи ками поведали ему, что путь к просветлению лежит через регулярное чтение молитвы [Glossary( 'нэмбуцу', 'GLOSS_NEMBUTSU')|l]. Вдохновленный этим откровением, Иппэн принял монашество и стал проповедником школы Чистой земли. Собрав группу верных последователей, он много путешествовал по Японии и в конечном итоге основал собственную школу Дзисю.",
+    "POL": "$Ippen$, zanim powrócił do życia świeckiego, od najmłodszych lat studiował święte pisma. Podczas jego pielgrzymki do Kumano kami objawili mu drogę do oświecenia, którą miała być ekstatyczna recytacja [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')]. Natchniony przez bóstwa $Ippen$ powrócił do stanu duchownego jako oddany mnich i głosiciel Czystej Krainy, podróżując po Japonii z grupą gorliwych wyznawców i zakładając szkołę ji-shū.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.myoe",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Orphaned as a boy, $MyO_e$ studied a wide variety schools, with $Mongaku$ and $Eisai$ among his teachers, but was left cold. Seeking solitude from the debates of the monasteries, he returned to the once popular Kegon teachings, revitalizing them with infusions of Shingon and Tendai thought, and rejecting the fascination with [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')].",
+    "RUS": "Мёэ стал сиротой в раннем возрасте, что пробудило в нем интерес к различным буддийским учениям. Он обучался под руководством таких известных священников, как Монгаку и Эйсай, но ни одна из представленных ему школ не произвела на него впечатления. Желая устраниться от бесконечных споров между монахами разных течений буддизма, Мёэ обратился к древнему учению школы Кэгон и вдохнул в него новую жизнь, добавив в него элементы Сингон и Тэндай, а также осудив модную в то время практику [Glossary( 'нэмбуцу', 'GLOSS_NEMBUTSU')].",
+    "POL": "Osierocony w dzieciństwie $MyO_e$ studiował w różnych szkołach, za nauczycieli mając między innymi osobistości takie jak $Mongaku$ i $Eisai$. Nie wyróżniał się jednak i był im obojętny. Szukając spokoju od klasztornych sporów, powrócił do niegdyś popularnych nauk kegon i tchnął w nie nowe życie poprzez wpływy myśli shingon i tendai, odrzucając natomiast fascynację [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.honen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$HO_nen$ was ordained as a child after his father was assassinated, and successfully climbed the Tendai priesthood. Dissatisfied with the great comfort monks enjoyed in contrast to the wretchedness of the common people, $HO_nen$ recognized the [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')] as an inclusive doctrine, and became a leading Pure Land teacher. His radical ideas incurred the wrath of other sects, leading to his exile in the Jogen persecution.",
+    "RUS": "Хонэн принял монашество вскоре после убийства его отца, еще будучи совсем ребенком. Хотя он занял весьма высокое положение в духовной иерархии школы Тэндай, его возмущала роскошь, в которой жили другие монахи, пока простой народ нищенствовал. Тогда, увидев в практике [Glossary( 'нэмбуцу', 'GLOSS_NEMBUTSU')] доступный путь к спасению для всех людей, он стал одним из ведущих проповедников учения Чистой земли. Его радикальные взгляды вызывали гнев представителей других буддийских течений, поэтому во время гонений периода Дзёгэн он был изгнан из столицы.",
+    "POL": "Kiedy $HO_nen$ był jeszcze dzieckiem, jego ojca zamordowano, a on sam został wyświęcony do roli duchownego. Od tamtego czasu z powodzeniem wspinał się po szczeblach szkoły tendai. Niezadowolony z kontrastu między komfortowym życiem mnichów a nędzą zwykłych ludzi $HO_nen$ dostrzegł w [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')] doktrynę otwartą dla wszystkich i stał się czołowym głosicielem Czystej Krainy. Jego radykalne poglądy wywołały gniew innych sekt, co doprowadziło do jego wygnania podczas prześladowań w okresie Jogen.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.shinran",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A child orphan, $Shinran$ was ordained at a young age, but struggled in the priesthood. Guided to seek out fellow monk $HO_nen$ in a vision, $Shinran$ became a leading disciple and suffered exile in the Jogen persecution. Ardently continuing to preach [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')] Pure Land to the people, he would eventually found his own school, the Jōdo Shinshū, or True Pure Land Sect, now the most widely practiced in Japan.",
+    "RUS": "Лишившись родителей в раннем детстве, Синран поступил в монастырь, но спустя некоторое время разочаровался в своей службе. Глубоко погрузившись в духовные практики, он получил видение, которое привело его к монаху по имени Хонэн. Синран стал его верным последователем и даже разделил с ним ссылку во время гонений периода Дзёгэн. Несмотря на изгнание, он продолжал рьяно проповедовать народу учение о [Glossary( 'нэмбуцу', 'GLOSS_NEMBUTSU')] и впоследствии основал собственную школу Дзёдо-синсю, которая ныне является наиболее популярной буддийской школой в Японии.",
+    "POL": "Choć osierocony w dzieciństwie $Shinran$ został wyświęcony już w młodym wieku, w kapłaństwie napotykał trudności. Pewnego dnia doświadczył wizji, która nakazała mu odnalezienie mnicha imieniem $HO_nen$. Pod jego opieką stał się wybitnym uczniem, a kiedy został wygnany podczas prześladowań w okresie Jogen, gorliwie kontynuował głoszenie ludziom nauk Czystej Krainy zawartych w [Glossary( 'nembutsu', 'GLOSS_NEMBUTSU')]. Ostatecznie $Shinran$ założył własną szkołę, jōdo shinshū, czyli Prawdziwą Szkołę Czystej Krainy, która dziś jest najpowszechniej praktykowaną w Japonii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.mibu_tadamine",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Despite humble origins, $Tadamine$ gained great renown for his waka poetry after appearing at a competition, receiving an imperial commission and patronage from the Fujiwara family. Along with his son, $Tadami$, he is counted among The Thirty-Six Immortal Poets of Japan, with over eighty-one poems thought to be included in imperial anthologies.",
+    "RUS": "Будучи выходцем из простой семьи, Тадаминэ обрел славу как мастер жанра вака. Блистательно выступив на поэтическом состязании, он заслужил признание императорского двора и получил покровительство могущественного дома Фудзивара. Вместе со своим сыном Тадами он входит в число «тридцати шести бессмертных поэтов» Японии, и порядка восьмидесяти одного его стихотворения включены в императорские антологии поэзии.",
+    "POL": "Choć zaczynał skromnie, $Tadamine$ jego poezja waka przyniosła mu po udziale w konkursie wielki rozgłos, cesarskie zlecenia oraz patronat rodu Fujiwarów. Wraz ze swoim synem, znanym jako $Tadami$, jest zaliczany do Trzydziestu Sześciu Mistrzów Poezji Japonii, a ponad osiemdziesiąt jeden jego wierszy znalazło się w cesarskich antologiach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.murasaki",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Great-granddaughter of famed poet Fujiwara Kanesuke, Lady Murasaki was born into the erudite Yoshikado family, serving as lady-in-waiting to Emperor Ichijo's empress, Fujiwara Shōshi. Her talent for poetry was soon noted, and she was counted among the Thirty-Six Immortal Women Poets. Today she is best known for her diary, her rivalry with fellow poet #EMP Sei Shōnagon#!, and the #EMP Tale of Genji#!, perhaps the earliest novel.",
+    "RUS": "Правнучка знаменитого поэта Фудзивара Канэсукэ, госпожа Мурасаки родилась в образованной семье Ёсикадо и была придворной дамой Фудзивара Сёси, супруги императора Итидзё. Вскоре на ее поэтические таланты обратили внимание, и она вошла в список тридцати шести бессмертных женщин-поэтов. Сегодня ее в первую очередь знают по ее дневнику, соперничающему с дневником другой поэтессы, #EMP Сэй-Сёнагон#!, и #EMP «Повести о Гэндзи»#!, возможно, одному из самых первых романов.",
+    "POL": "Pani Murasaki, prawnuczka słynnego poety Kanesuke Fujiwary, przyszła na świat w oświeconej rodzinie Yoshikadów i była damą dworu cesarzowej Shōshi Fujiwary, małżonki cesarza Ichijo. Szybko dostrzeżono jej talent poetycki i zaliczono ją w poczet Trzydziestu Sześciu Mistrzyń Poezji. Dziś najbardziej słynie ze swoich pamiętników, rywalizacji z poetką #EMP Sei Shōnagon#! oraz #EMP Opowieści o Genjim#!, uważanej za prawdopodobnie pierwszą powieść na świecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "generic_importance",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "This character is of real-life historical importance.",
+    "RUS": "У этого персонажа был реальный прототип, заметно повлиявший на мировую историю.",
+    "POL": "To prawdziwa postać, która zapisała się w annałach historii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.poet",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A renowned and well-respected poet",
+    "RUS": "Известный и почитаемый поэт",
+    "POL": "Znany i poważany poeta",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.theologian",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A pious and accomplished theologian",
+    "RUS": "Мудрый и благочестивый богослов",
+    "POL": "Znakomity teolog o wielkiej pobożności",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.monk",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A pious and well-respect [GetTrait('devoted').GetNameNoTooltip( ROOT.Char )|l]",
+    "RUS": "[Select_CString(ROOT.Char.IsFemale, 'Благочестивая и уважаемая', 'Благочестивый и уважаемый' )] [GetTrait('devoted').GetNameNoTooltip( ROOT.Char )|l]",
+    "POL": "Pobożna, szacowna osoba z cechą [GetTrait('devoted').GetNameNoTooltip( ROOT.Char )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.scholar",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A renowned scholar",
+    "RUS": "Известный ученый",
+    "POL": "Słynny uczony",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.warrior_poet",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A mighty and famous warrior-poet",
+    "RUS": "Могучий и прославленный поэт-воин",
+    "POL": "Słynny i mocarny wojownik poeta",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.soothsayer",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A soothsayer with prophetic visions",
+    "RUS": "Обладатель дара пророческих видений",
+    "POL": "Wieszcz doświadczający proroczych wizji",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.explorer",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A well-known and daring explorer",
+    "RUS": "Знаменитый и бесстрашный путешественник",
+    "POL": "Dzielny podróżnik o wielkiej sławie",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.banker",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A skilled and wealthy banker",
+    "RUS": "Одаренный и богатый банкир",
+    "POL": "Kompetentny i zamożny bankier",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.merchant",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A shrewd and successful merchant",
+    "RUS": "Хитроумный и удачливый купец",
+    "POL": "Obrotny i odnoszący sukcesy kupiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.artist",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A talented and sought-after artist",
+    "RUS": "Талантливый и востребованный художник",
+    "POL": "Utalentowany i rozchwytywany artysta",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.physician",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A capable and skilled physician",
+    "RUS": "Умелый и опытный врач",
+    "POL": "Zdolny i doskonale wyszkolony medyk",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.warrior",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A mighty and feared warrior",
+    "RUS": "Могучий и грозный воин",
+    "POL": "Słynny wojownik wzbudzający strach",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.gallant_knight",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A gallant [ROOT.Char.Custom('KnightCultureNoTooltip')|l]",
+    "RUS": "Галантный [ROOT.Char.Custom('KnightCultureNoTooltip')|l]",
+    "POL": "Dzielny [ROOT.Char.Custom('KnightCultureNoTooltip')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.strategist",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A masterful strategist and commander",
+    "RUS": "Талантливый полководец и стратег",
+    "POL": "Mistrzowski strateg i dowódca",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.eunuch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A skilled and subservient eunuch",
+    "RUS": "Опытный и послушный евнух",
+    "POL": "Kompetentny i czołobitny eunuch",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.diplomat",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A tactful and well-liked diplomat",
+    "RUS": "Тактичный и обаятельный дипломат",
+    "POL": "Taktowny i szanowany dyplomata",
+    "BEL": ""
+  },
+  {
+    "KEY": "historical_character.author",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A prolific author and poet",
+    "RUS": "Плодовитый писатель и поэт",
+    "POL": "Płodny autor i poeta",
+    "BEL": ""
+  },
+  {
+    "KEY": "rule_historical_characters",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Historical Characters",
+    "RUS": "Исторические персонажи",
+    "POL": "Postacie historyczne",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_default_historical_characters",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Default",
+    "RUS": "По умолчанию",
+    "POL": "Domyślnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_default_historical_characters_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will only be notified if they are born in your [domain|E] or if they are very well-known.",
+    "RUS": "В игре могут появляться различные исторические персонажи, такие как Фома Аквинский, Ибн Баттута и Хильдегарда Бингенская. Вы будете получать уведомления о самых известных персонажах и о персонажах, рожденных в пределах вашего [Concept( 'domain', 'домена' )|E].",
+    "POL": "Pojawiać się mogą różne postacie historyczne takie jak Tomasz z Akwinu, Ibn Battuta lub Hildegarda z Bingen. Powiadomienie otrzymasz tylko, jeśli są to postacie bardzo znane lub ich narodziny nastąpiły w twojej [Concept('domain', 'domenie')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_all_historical_characters",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "#high Notify All#!",
+    "RUS": "#high Уведомлять обо всех#!",
+    "POL": "#high Powiadamiaj o wszystkich#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_all_historical_characters_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Various historical characters such as Thomas Aquinas, Ibn Battuta, or Hildegard von Bingen can spawn. You will be notified of everyone born within your entire sub-[realm|E].",
+    "RUS": "В игре могут появляться различные исторические персонажи, такие, как Фома Аквинский, Ибн Баттута и Хильдегарда Бингенская. Вы будете получать уведомления обо всех родившихся в вашей части [Concept('realm', 'державы')|E].",
+    "POL": "Pojawiać się mogą różne postacie historyczne takie jak Tomasz z Akwinu, Ibn Battuta lub Hildegarda z Bingen. Będziesz otrzymywać powiadomienia o wszystkich osobach urodzonych w podległym ci [Concept('realm', 'państwie')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_no_historical_characters",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "#high Disable Spawns#!",
+    "RUS": "#high Отключить появление#!",
+    "POL": "#high Wyłącz pojawianie się#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "setting_no_historical_characters_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "No historical characters will spawn.",
+    "RUS": "Исторические персонажи не будут появляться.",
+    "POL": "Nie będą pojawiać się żadne postacie historyczne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "Basava",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Basava",
+    "RUS": "Басава",
+    "POL": "Basawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "Dante",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Dante",
+    "RUS": "Данте",
+    "POL": "Dante",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Bingen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Bingen",
+    "RUS": "Бингенский",
+    "POL": "Bingenów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Aquinas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Aquinas",
+    "RUS": "Аквинский",
+    "POL": "Akwińskich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynnp_ben",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "ben ",
+    "RUS": "бен ",
+    "POL": "ben ",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Maimon",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Maimon",
+    "RUS": "Маймон",
+    "POL": "Majmonów",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_maimonides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Maimonides",
+    "RUS": "Маймонид",
+    "POL": "Majmonides",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_maimonides_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$historical_character.maimonides$",
+    "RUS": "$historical_character.maimonides$",
+    "POL": "$historical_character.maimonides$",
+    "BEL": ""
+  },
+  {
+    "KEY": "Chretien",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Chrétien",
+    "RUS": "Кретьен",
+    "POL": "Chrétien",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Skallagrimsson",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Skallagrímsson",
+    "RUS": "Скаллагримссон",
+    "POL": "Skallagrímssonów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Rode",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Röde",
+    "RUS": "Рыжий",
+    "POL": "Rudych",
+    "BEL": ""
+  },
+  {
+    "KEY": "Gunnlaug",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gunnlaug",
+    "RUS": "Гуннлауг",
+    "POL": "Gunnlaug",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_seeress",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Seeress",
+    "RUS": "Пророк",
+    "POL": "lítilvölva",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_al_haytham",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "al-Haytham",
+    "RUS": "аль-Хайсам",
+    "POL": "al-Hajsamów",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_alhazen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Alhazen",
+    "RUS": "Альгазен",
+    "POL": "Alhazen",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_alhazen_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$historical_character.alhazen$",
+    "RUS": "$historical_character.alhazen$",
+    "POL": "$historical_character.alhazen$",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_ibn_battuta",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ibn Battuta",
+    "RUS": "Ибн Баттута",
+    "POL": "Ibn Battuta",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_ibn_battuta_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A patronymic literally meaning ",
+    "RUS": "Отчество, буквально переводящееся как «сын утенка».",
+    "POL": "Nazwisko patronimiczne oznaczające dosłownie „syn kaczątka”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_of_ockham",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ockham",
+    "RUS": "Оккам",
+    "POL": "Ockhamów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_chaucer",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Chaucer",
+    "RUS": "Чосер",
+    "POL": "Chaucerów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Wycliffe",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Wycliffe",
+    "RUS": "Уиклиф",
+    "POL": "Wycliffe’ów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Argenteuil",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Argenteuil",
+    "RUS": "Аржантёй",
+    "POL": "Argenteuilów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Bondone",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Bondone",
+    "RUS": "Бондоне",
+    "POL": "Bondone’ów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Pizan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Pizan",
+    "RUS": "Пизанский",
+    "POL": "Pizanów",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_petrarch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Petrarch",
+    "RUS": "Петрарка",
+    "POL": "Petrarca",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_petrarch_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$historical_character.petrarch$",
+    "RUS": "$historical_character.petrarch$",
+    "POL": "$historical_character.petrarch$",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_giotto",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Giotto",
+    "RUS": "Джотто",
+    "POL": "Giotto",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Sturluson",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Sturluson",
+    "RUS": "Стурлусон",
+    "POL": "Sturlusonów",
+    "BEL": ""
+  },
+  {
+    "KEY": "Hrotsvitha",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hrotsvitha",
+    "RUS": "Хросвита",
+    "POL": "Hrotsvitha",
+    "BEL": ""
+  },
+  {
+    "KEY": "Ramanuja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ramanuja",
+    "RUS": "Рамануджа",
+    "POL": "Ramanudźa",
+    "BEL": ""
+  },
+  {
+    "KEY": "Arnaldus",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Arnaldus",
+    "RUS": "Арнальд",
+    "POL": "Arnaldus",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Villa_Nova",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Villa Nova",
+    "RUS": "Вила-Нова",
+    "POL": "Villów Novych",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_avicenna",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Avicenna",
+    "RUS": "Авиценна",
+    "POL": "Awicenna",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_avicenna_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$historical_character.avicenna$",
+    "RUS": "$historical_character.avicenna$",
+    "POL": "$historical_character.avicenna$",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_averroes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Averroes",
+    "RUS": "Аверроэс",
+    "POL": "Awerroes",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_averroes_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "$historical_character.averroes$",
+    "RUS": "$historical_character.averroes$",
+    "POL": "$historical_character.averroes$",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_khalduni",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Khalduni",
+    "RUS": "Хальдуни",
+    "POL": "Chaldunich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_rumi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rumi",
+    "RUS": "Руми",
+    "POL": "Rumich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Rushdi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rushdi",
+    "RUS": "Рушди",
+    "POL": "Ruszdich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Biruni",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Biruni",
+    "RUS": "Бируни",
+    "POL": "Birunich",
+    "BEL": ""
+  },
+  {
+    "KEY": "Jalaluddin",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Jalaluddin",
+    "RUS": "Джалаладдин",
+    "POL": "Jalaluddin",
+    "BEL": ""
+  },
+  {
+    "KEY": "Abu_al-Walid",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Abu al-Walid",
+    "RUS": "Абу аль-Валид",
+    "POL": "Abu al-Walid",
+    "BEL": ""
+  },
+  {
+    "KEY": "Abu_Rayhan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Abu Rayhan",
+    "RUS": "Абу Рейхан",
+    "POL": "Abu Rajhan",
+    "BEL": ""
+  },
+  {
+    "KEY": "Yehuda",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Yehuda",
+    "RUS": "Йехуда",
+    "POL": "Jehuda",
+    "BEL": ""
+  },
+  {
+    "KEY": "Hasdai",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hasdai",
+    "RUS": "Хасдай",
+    "POL": "Hasdai",
+    "BEL": ""
+  },
+  {
+    "KEY": "Saadia",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Saadia",
+    "RUS": "Саадия",
+    "POL": "Saadia",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_rashi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rashi",
+    "RUS": "Раши",
+    "POL": "Raszi",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_gersonides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gersonides",
+    "RUS": "Герсонид",
+    "POL": "Gersonides",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_nachmanides",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nachmanides",
+    "RUS": "Нахманид",
+    "POL": "Nachmanides",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Yitzchaki",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Yitzchaki",
+    "RUS": "Ицхаки",
+    "POL": "ben Icchaków",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Halevi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Halevi",
+    "RUS": "Галеви",
+    "POL": "Halewich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Shaprut",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Shaprut",
+    "RUS": "Шафрут",
+    "POL": "Szaprutów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Gershon",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gershon",
+    "RUS": "Гершон",
+    "POL": "Gerszonów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Ezra",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ezra",
+    "RUS": "Эзра",
+    "POL": "Ezrów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Gabirol",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gabirol",
+    "RUS": "Габироль",
+    "POL": "Gabirolów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Nahman",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nahman",
+    "RUS": "Нахман",
+    "POL": "Nahmanów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Crescas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Crescas",
+    "RUS": "Крескас",
+    "POL": "Kreskasów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Gaon",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gaon",
+    "RUS": "Гаон",
+    "POL": "ben Josefów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Awkal",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "'Awkal",
+    "RUS": "Авкал",
+    "POL": "’Awkalich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Tudela",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Tudela",
+    "RUS": "Тудела",
+    "POL": "Tudelskich",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_heliga",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Heliga",
+    "RUS": "Хелига",
+    "POL": "Heliga",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_meister",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Meister",
+    "RUS": "Майстер",
+    "POL": "Meister",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Eckhart",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Eckhart",
+    "RUS": "Экхарт",
+    "POL": "Eckhartów",
+    "BEL": ""
+  },
+  {
+    "KEY": "Jangar",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Jangar",
+    "RUS": "Джангар",
+    "POL": "Dżangar",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_greek",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Greek",
+    "RUS": "Грек",
+    "POL": "Grek",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_orphanotrophos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Orphanotrophos",
+    "RUS": "Орфанотроф",
+    "POL": "Orphanotrophos",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_paphlagonian",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Paphlagonian",
+    "RUS": "Пафлагонск",
+    "POL": "z Paflagonii",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_of_ohrid",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "of Ohrid",
+    "RUS": "Охрид",
+    "POL": "z Ochrydy",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_of_thessalonica",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "of Thessalonica",
+    "RUS": "из Фессалоник",
+    "POL": "z Tesaloniki",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_of_caesarea",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "of Caesarea",
+    "RUS": "из Цезареи",
+    "POL": "z Cezarei",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_of_pisidia",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "of Pisidia",
+    "RUS": "из Писидии",
+    "POL": "z Pizydii",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_stratopedarches",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Stratopedarches",
+    "RUS": "Стратопедарх",
+    "POL": "Stratopedarches",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Tzetzes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Tzetzes",
+    "RUS": "Цец",
+    "POL": "Tzetzesów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Pachymeres",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Pachymeres",
+    "RUS": "Пахимер",
+    "POL": "Pachymeresów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Moschopoulos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Moschopoulos",
+    "RUS": "Мосхопул",
+    "POL": "Moschopulów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Pletho",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Pletho",
+    "RUS": "Плифон",
+    "POL": "Pletonów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Kydones",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kydones",
+    "RUS": "Кидон",
+    "POL": "Kydonesów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Holobolos",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Holobolos",
+    "RUS": "Оловол",
+    "POL": "Holobolów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Axuch",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Axuch",
+    "RUS": "Аксух",
+    "POL": "Aksuchów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Gosh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gosh",
+    "RUS": "Гош",
+    "POL": "Goszów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Rustaveli",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Rustaveli",
+    "RUS": "Руставели",
+    "POL": "Rustawelich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Tatevatsi",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Tatevatsi",
+    "RUS": "Татеваци",
+    "POL": "Tatewskich",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Pitsak",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Pitsak",
+    "RUS": "Пицак",
+    "POL": "Pitsaków",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Czarny",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Czarny",
+    "RUS": "Черный",
+    "POL": "Czarnych",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Blemmydes",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Blemmydes",
+    "RUS": "Влеммид",
+    "POL": "Blemmydesów",
+    "BEL": ""
+  },
+  {
+    "KEY": "Eustathius",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Eustathius",
+    "RUS": "Евстафий",
+    "POL": "Eustacjusz",
+    "BEL": ""
+  },
+  {
+    "KEY": "Nicephorus",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Nicephorus",
+    "RUS": "Никифор",
+    "POL": "Nicefor",
+    "BEL": ""
+  },
+  {
+    "KEY": "Gemistus",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Gemistus",
+    "RUS": "Гемист",
+    "POL": "Gemist",
+    "BEL": ""
+  },
+  {
+    "KEY": "Arethas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Arethas",
+    "RUS": "Арефа",
+    "POL": "Aretas",
+    "BEL": ""
+  },
+  {
+    "KEY": "Samonas",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Samonas",
+    "RUS": "Самона",
+    "POL": "Samonas",
+    "BEL": ""
+  },
+  {
+    "KEY": "Mkhitar",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Mkhitar",
+    "RUS": "Мхитар",
+    "POL": "Mychitar",
+    "BEL": ""
+  },
+  {
+    "KEY": "Zawisza",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Zawisza",
+    "RUS": "Завиша",
+    "POL": "Zawisza",
+    "BEL": ""
+  },
+  {
+    "KEY": "Averardo",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Averardo",
+    "RUS": "Аверардо",
+    "POL": "Averardo",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Vignolles",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Vignolles",
+    "RUS": "Виньоль",
+    "POL": "Vignollesów",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Hodja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Hodja",
+    "RUS": "Ходжа",
+    "POL": "Hodżów",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_the_hodja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "the Hodja",
+    "RUS": "Ходжа",
+    "POL": "Hodża",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_la_hire",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "La Hire",
+    "RUS": "Ла Гир",
+    "POL": "La Hire",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_la_hire_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "There are many explanations for where the nickname ",
+    "RUS": "Существует много объяснений происхождения прозвища «Ла Гир». Кто-то говорит, что это англичане прозвали его «Гнев Господен» от старо-французского «hīra», «гнев» или «сердитый». Другое предположение выводит это прозвище от французского слова «hérisson» («еж»), данного ему за вздорный характер.",
+    "POL": "Istnieje wiele teorii na temat pochodzenia przydomka „La Hire”. Niektórzy uważają, że wywodzi się on z angielskiego zwrotu „the Hire-God” (oznaczającego „gniew Boga”). Inni twierdzą, że pochodzi od starofrancuskiego słowa „hīra” tłumaczonego jako „gniew” lub „gniewny”. Imię to może mieć też związek z francuskim słowem „hérisson” (w dosłownym znaczeniu: „jeż”), co nawiązuje do ostrego charakteru jego właściciela.",
+    "BEL": ""
+  },
+  {
+    "KEY": "Regino",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Regino",
+    "RUS": "Регино",
+    "POL": "Regino",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Prum",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Prüm",
+    "RUS": "Прюмский",
+    "POL": "Prümów",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_mpu",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Mpu",
+    "RUS": "Мпу",
+    "POL": "Mpu",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_mpu_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "A title similar to 'Master'.",
+    "RUS": "Титул, близкий по значению к слову «господин»",
+    "POL": "Tytuł odpowiadający określeniu „mistrz”",
+    "BEL": ""
+  },
+  {
+    "KEY": "Prapanca",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Prapanca",
+    "RUS": "Прапанка",
+    "POL": "Prapanca",
+    "BEL": ""
+  },
+  {
+    "KEY": "Tantular",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Tantular",
+    "RUS": "Тантулар",
+    "POL": "Tantular",
+    "BEL": ""
+  },
+  {
+    "KEY": "Kanwa",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kanwa",
+    "RUS": "Канва",
+    "POL": "Kanwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "Sedah",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Sedah",
+    "RUS": "Седа",
+    "POL": "Sedah",
+    "BEL": ""
+  },
+  {
+    "KEY": "Panuluh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Panuluh",
+    "RUS": "Панулух",
+    "POL": "Panuluh",
+    "BEL": ""
+  },
+  {
+    "KEY": "Dharmaja",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Dharmaja",
+    "RUS": "Дхармаджа",
+    "POL": "Dharmaja",
+    "BEL": ""
+  },
+  {
+    "KEY": "Monaguna",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Monaguna",
+    "RUS": "Монагуна",
+    "POL": "Monaguna",
+    "BEL": ""
+  },
+  {
+    "KEY": "Kuturan",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kuturan",
+    "RUS": "Кутуран",
+    "POL": "Kuturan",
+    "BEL": ""
+  },
+  {
+    "KEY": "Daun",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Daun",
+    "RUS": "Даун",
+    "POL": "Daun",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Penh",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Penh",
+    "RUS": "Пень",
+    "POL": "Penh",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynn_Qiu",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Qiu",
+    "RUS": "Цю",
+    "POL": "Qiu",
+    "BEL": ""
+  },
+  {
+    "KEY": "van_an",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Văn An",
+    "RUS": "Ван Ан",
+    "POL": "Văn An",
+    "BEL": ""
+  },
+  {
+    "KEY": "thuyen",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Thuyên",
+    "RUS": "Тхуиэн",
+    "POL": "Thuyên",
+    "BEL": ""
+  },
+  {
+    "KEY": "ngu_lao",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Ngũ Lão",
+    "RUS": "Нгу Лао",
+    "POL": "Ngũ Lão",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_kintaro",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Kintarō",
+    "RUS": "Кинтаро",
+    "POL": "Kintarō",
+    "BEL": ""
+  },
+  {
+    "KEY": "nick_kintaro_desc",
+    "FILE_PATH": "localization/belarusian/historical_characters_l_belarusian.json",
+    "ENG": "Often translated as 'Golden Boy', this character symbolizes the virility of masculine youth.",
+    "RUS": "Имя этого персонажа, символизирующего юношескую силу, обычно переводится как «золотой мальчик»",
+    "POL": "Określenie zwykle tłumaczone jako „Złoty Chłopiec”. Ta postać symbolizuje witalność młodzieńczej męskości.",
+    "BEL": ""
+  }
+]

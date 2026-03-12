@@ -1,0 +1,1266 @@
+[
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Claim the Mandate of Heaven",
+    "RUS": "Заявить права на Небесный мандат",
+    "POL": "Sięgnij po mandat niebios",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Amidst a divided [GetTitleByKey('h_china').GetNameNoTier], the Heavens never fail to seek out one worthy of celestial favor, the next to wield the very highest of Mandates.\\n\\nThe Dynastic Cycle must flow on and, thus... #EMP I#! have been chosen by the Heavens!",
+    "RUS": "[GetTitleByKey('h_china').GetNameNoTier] разделена, но Небеса не прекращают поиски тех, кто обретет высшее благословение и примет высочайший мандат.\\n\\nДинастический цикл должен продолжаться, а значит... Небеса избрали #EMP меня#!!",
+    "POL": "[GetTitleByKey('h_china').GetNameNoTier] są podzielone, lecz niebiosa nie zawodzą – zawsze zdołają odnaleźć kogoś godnego ich łaski i najwyższego z mandatów.\\n\\nCykl dynastyczny musi trwać i dlatego… niebiosa wybrały właśnie #EMP mnie#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Assert Imperial Hegemony",
+    "RUS": "Установление имперской гегемонии",
+    "POL": "Zaprowadź cesarską hegemonię",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision_county_percentage_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You control at least [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] of [GetTitleByKey('h_china').GetDefinitiveNamePossessive] [de_jure|E] [counties|E]",
+    "RUS": "Вы контролируете хотя бы [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] [de_jure|El] [Concept('counties', 'графств')|E] державы [GetTitleByKey('h_china').GetDefinitiveName]",
+    "POL": "Sprawujesz kontrolę nad co najmniej [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] z [Concept('counts', 'hrabstw')|E] [de_jure|El] w miejscu znanym jako [GetTitleByKey('h_china').GetDefinitiveName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision_phase_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You select the [situation.GetName] [situation_situations_possessive|E] next [dynastic_cycle_era_type_stable|E]",
+    "RUS": "Вы выбираете следующий [Concept('dynastic_cycle_era_type_stable', 'стабильный тип эры')|E] [Concept('situation_situations_possessive', 'ситуации')|E] «[situation.GetName]»",
+    "POL": "Wybierasz kolejną [Concept('dynastic_cycle_era_type_stable', 'epokę stabilności')|E] [situation_situations_possessive|El] „[situation.GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_claim_mandate_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Gain the [GetTitleByKey('h_china').GetDefinitiveName|U] [title|E] and transition the [GetSituation('dynastic_cycle').GetName] to [dynastic_cycle_era_type_stable|E]",
+    "RUS": "Вы получаете [Concept('title', 'титул')|E] «[GetTitleByKey('h_china').GetDefinitiveName|U]» и переводите ситуацию «[GetSituation('dynastic_cycle').GetName]» в [Concept('dynastic_cycle_era_type_stable', 'стабильный тип эры')|E]",
+    "POL": "Zdobądź [title|El] do miejsca znanego jako [GetTitleByKey('h_china').GetDefinitiveName] i przejdź do [Concept('dynastic_cycle_era_type_stable', 'epoki stabilności')|E] sytuacji „[GetSituation('dynastic_cycle').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_mandate_decision_county_percentage_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "#V You#! must control at least [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] of the [GetTitleByKey('h_china').GetDefinitiveNamePossessive] [de_jure|E] [counties|E] #weak (Current: [SCOPE.ScriptValue('claim_mandate_china_control_percent_value')|0]%)#!",
+    "RUS": "#V Вы#! должны контролировать хотя бы [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] [Concept('de_jure', 'де-юре')|E] [Concept('counties', 'графств')|E] державы [GetTitleByKey('h_china').GetDefinitiveName] #weak (сейчас: [SCOPE.ScriptValue('claim_mandate_china_control_percent_value')|0]%)#!",
+    "POL": "#V Musisz#! sprawować kontrolę nad co najmniej [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] z [Concept('counts', 'hrabstw')|E] [de_jure|El] w miejscu znanym jako [GetTitleByKey('h_china').GetDefinitiveName] #weak (obecnie kontrolujesz: [SCOPE.ScriptValue('claim_mandate_china_control_percent_value')|0]%)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_mandate_decision_phase_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[THIS.Char.GetShortUIName|U] will select the next [dynastic_cycle_era_type_stable|E] of the [situation.GetName]",
+    "RUS": "[THIS.Char.GetShortUIName|U] [Select_CString(THIS.Char.IsLocalPlayer, 'выберете', 'выберет')] следующий [Concept('dynastic_cycle_era_type_stable', 'стабильный тип эры')|E] для ситуации «[situation.GetName]»",
+    "POL": "[THIS.Char.GetShortUINameNotMe] wybierze kolejną [Concept('dynastic_cycle_era_type_stable', 'epokę stabilności')|E] sytuacji „[situation.GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_mandate_turn_vassal_celestial_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Every [de_jure|E] [vassal|E] of [GetTitleByKey('h_china').GetDefinitiveName|U] within your [realm|E] who is not a [GetGovernment( 'republic_government' ).GetNameWithIcon] or [GetGovernment( 'theocracy_government' ).GetNameWithIcon] will adopt the [GetGovernment( 'celestial_government' ).GetNameWithIcon] [government|E]",
+    "RUS": "Каждый [Concept('de_jure', 'де-юре')|E]-[Concept('vassal', 'вассал')|E] #ONCLICK:TITLE,h_china #TOOLTIP:LANDED_TITLE,h_china #L Китайской гегемонии#!#!#! в вашей [Concept('realm', 'державе')|E], но не [GetGovernment( 'republic_government' ).GetNameWithIcon] или [GetGovernment( 'theocracy_government' ).GetNameWithIcon] введет [Concept('government', 'правительство')|E] «[GetGovernment( 'celestial_government' ).GetNameWithIcon]»",
+    "POL": "Każdy [vassal|El] [de_jure|El] miejsca znanego jako [GetTitleByKey('h_china').GetDefinitiveName|U] w twoim [Concept('realm', 'państwie')|E], którego rządem nie jest [GetGovernment( 'republic_government' ).GetNameWithIcon|l] ani [GetGovernment( 'theocracy_government' ).GetNameWithIcon|l], przyjmie następującą formę [Concept('government', 'rządu')|E]: [GetGovernment( 'celestial_government' ).GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_mandate_trigger_conquest_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituation('dynastic_cycle').GetName] transitions to the [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetNameWithIcon] [dynastic_cycle_era_type_unstable|E]",
+    "RUS": "[GetSituation('dynastic_cycle').GetName] переходит в [Concept('dynastic_cycle_era_type_unstable', 'нестабильную эру')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetNameWithIcon]»",
+    "POL": "[GetSituation('dynastic_cycle').GetName]: przejście w [Concept('dynastic_cycle_era_type_unstable', 'epokę destabilizacji')|E] ([GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetNameWithIcon|l])",
+    "BEL": ""
+  },
+  {
+    "KEY": "claim_mandate_turn_independent_realms_celestial_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Every [independent_ruler|E] in the [dynastic_cycle|E] who has a [GetGovernment( 'celestial_government' ).GetNameWithIcon] [government|E] or the same [heritage|E] as #V you#! will become your [vassal|E] and adopt [GetGovernment( 'celestial_government' ).GetNameWithIcon] [government|E]",
+    "RUS": "Каждый [Concept('independent_ruler', 'независимый правитель')|E] в [Concept('dynastic_cycle', 'династическом цикле')|E], имеющий [Concept('government', 'форму правления')|E] «[GetGovernment( 'celestial_government' ).GetNameWithIcon]» или обладающий тем же [Concept('heritage', 'наследием')|E], что и #V вы#!, станет вашим [Concept('vassal', 'вассалом')|E] и примет [Concept('government', 'форму правления')|E] «[GetGovernment( 'celestial_government' ).GetNameWithIcon]»",
+    "POL": "Każdy [independent_ruler|El] w [Concept('dynastic_cycle', 'cyklu dynastii')|E], u którego funkcjonuje [government|El] [GetGovernment( 'celestial_government' ).GetNameWithIcon|l] lub który ma tę samą [Concept('heritage', 'spuściznę')|E] co #V ty#!, stanie się twoim [Concept('vassal', 'wasalem')|E] i przyjmie [government|El] [GetGovernment( 'celestial_government' ).GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_for_appointments",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Promote Cultural Governors",
+    "RUS": "Продвижение губернаторов-соотечественников",
+    "POL": "Promuj gubernatorów tej samej kultury",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_for_appointments_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "I cannot lean on the preexisting bureaucracy. No, I need to have reliable and trustworthy governors in order to rule efficiently. By promoting my own culture, it will be much easier for my own kind to assume control of the many provinces within [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]",
+    "RUS": "Я не могу опираться на существующую бюрократию. Для эффективного правления мне требуются надежные и верные губернаторы. Если я поддержу свою культуру, моим соотечественникам будет намного легче взять под свой контроль многочисленные провинции державы [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]",
+    "POL": "Nie mogę polegać na zastanej biurokracji. Żeby skutecznie rządzić, muszę mieć zaufanych i niezawodnych gubernatorów. Jeżeli zacznę promować własną kulturę, moim pobratymcom łatwiej przyjdzie przejąć kontrolę nad licznymi prowincjami miejsca o nazwie [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_for_appointments_confirm_1",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "We shall favor all [ROOT.Char.GetCulture.GetNameNoTooltip]",
+    "RUS": "Все [ROOT.Char.GetCulture.GetNameNoTooltip|l] получат наше расположение",
+    "POL": "Kultura [ROOT.Char.GetCulture.GetNameNoTooltip] będzie cieszyć się u nas specjalnymi względami",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_for_appointments_confirm_2",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "No culture will get special treatment",
+    "RUS": "Ни одна из культур не получит особого отношения",
+    "POL": "Żadna kultura nie będzie traktowana wyjątkowo",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_for_appointments_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Improve the [candidate_score|E] for those of your [culture|E]",
+    "RUS": "Повышает [Concept('candidate_score','приоритет претензий')|E] для представителей вашей [Concept('culture', 'культуры')|E]",
+    "POL": "Popraw [candidate_score|El] osób będących częścią twojej [Concept('culture', 'kultury')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_conquest_favor_own_culture_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[characters|E] of your [culture|E] #weak ([hegemon_favored_culture.GetNameNoTooltip])#! get a higher [candidate_score|E] for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "[Concept('characters', 'Персонажи')|E] вашей [Concept('culture', 'культуры')|E] #weak ([hegemon_favored_culture.GetNameNoTooltip|l])#! получают больший [Concept('candidate_score','приоритет претензий')|E] в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "[characters|E] z twojej [Concept('culture', 'kultury')|E] #weak (kultura [hegemon_favored_culture.GetNameNoTooltip|l])#! uzyskują wyższy [candidate_score|El] w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_conquest_stop_favored_culture_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[situation.MakeScope.Var('dynastic_cycle_favored_culture').Culture.GetName] [culture|E] will no longer have increased [candidate_score|E] for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "#L [situation.MakeScope.Var('dynastic_cycle_favored_culture').Culture.GetCollectiveNoun]ая#! [Concept('culture', 'культура')|E] отныне не будет получать больший [Concept('candidate_score','приоритет претензий')|E] в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "[culture|E] [situation.MakeScope.Var('dynastic_cycle_favored_culture').Culture.GetName|l] nie będzie dłużej faworyzowana i jej członkowie nie będą mieć zwiększonego [Concept('candidate_score', 'wyniku kandydata')|E] w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Promote Culture",
+    "RUS": "Поддержать культуру",
+    "POL": "Promuj kulturę",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Promote your [culture|E] for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "Поддержать представителей вашей [Concept('culture', 'культуры')|E] в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "Promuj swoją [Concept('culture', 'kulturę')|E] w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_favor_own_culture_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$situation_dynastic_cycle_favor_own_culture_desc$",
+    "RUS": "$situation_dynastic_cycle_favor_own_culture_desc$",
+    "POL": "$situation_dynastic_cycle_favor_own_culture_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_remove_favor_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Stop Promoting Culture",
+    "RUS": "Прекратить поддержку культуры",
+    "POL": "Zaprzestań promowania kultury",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_remove_favor_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Stop promoting the current [culture|E] for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "Прекратить поддержку представителей вашей [Concept('culture', 'культуры')|E] в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "Zaprzestań promowania [Concept('culture', 'kultury')|E] w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_remove_favor_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$situation_dynastic_cycle_remove_favor_desc$",
+    "RUS": "$situation_dynastic_cycle_remove_favor_desc$",
+    "POL": "$situation_dynastic_cycle_remove_favor_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_own_culture_already_favored_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Your [culture|E] is already being promoted for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "Ваша [Concept('culture', 'культура')|E] уже получает поддержку в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "Twoja [culture|E] jest już promowana w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "situation_dynastic_cycle_no_favored_culture_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "No [culture|E] is currently being promoted for [GetLaw('appointment_succession_law').GetName]",
+    "RUS": "Ни одна из [Concept('culture', 'культур')|E] не получает поддержку в рамках закона «[GetLaw('appointment_succession_law').GetName]»",
+    "POL": "Żadna [culture|E] nie jest obecnie promowana w ramach prawa „[GetLaw('appointment_succession_law').GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_conquerer_promoted_culture",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[son_of_heaven|E] promoting [ROOT.Char.GetCulture.GetName] [culture|E]",
+    "RUS": "[Concept('son_of_heaven', 'Сын Неба')|E] поддерживает #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ую#! [Concept('culture', 'культуру')|E]",
+    "POL": "[son_of_heaven|E] promuje [Concept('culture', 'kulturę')|E], która jest [ROOT.Char.GetCulture.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_duchy_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[duchy_name.GetNameNoTierNoTooltip]",
+    "RUS": "[duchy_name.GetNameNoTierNoTooltip]",
+    "POL": "[duchy_name.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "capital_kingdom_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[kingdom_name.GetNameNoTierNoTooltip]",
+    "RUS": "[kingdom_name.GetNameNoTierNoTooltip]",
+    "POL": "[kingdom_name.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "new_realm_title_name_from_var",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[ROOT.Var( 'new_realm_title_name' ).GetFlagKey]",
+    "RUS": "[ROOT.Var( 'new_realm_title_name' ).GetFlagKey]",
+    "POL": "[ROOT.Var( 'new_realm_title_name' ).GetFlagKey]",
+    "BEL": ""
+  },
+  {
+    "KEY": "new_realm_title_name_entered_text",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetLocalizedText('new_realm_title_name')]",
+    "RUS": "[ROOT.Char.GetLocalizedText('new_realm_title_name')]",
+    "POL": "[ROOT.Char.GetLocalizedText('new_realm_title_name')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Call Debate",
+    "RUS": "Провести дебаты",
+    "POL": "Zwołaj debatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Merit, influence, #EMP power#!. They matter little if you are incapable of putting forth valid arguments for you and your cause. To convince others that you are worthy of, nay #EMP deserve#!, a more powerful position.",
+    "RUS": "Заслуги, влияние, #EMP власть#!. Они ничего не значат, если вы не в состоянии привести весомые доводы в пользу своей точки зрения и убедить других, что вы достойны, нет, #EMP заслуживаете#! более важной должности.",
+    "POL": "Zasługi, wpływ, #EMP władza#!. To wszystko niewiele się liczy, jeśli nie potrafisz przedstawić sensownych argumentów na rzecz swojej sprawy… Przekonać innych, że jesteś osobą wartą stanowiska zapewniającego większą władzę, a wręcz #EMP zasługujesz na nie#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Call for a debate with another prominent member of a [movement|E]",
+    "RUS": "Провести дебаты с другим видным членом [Concept('movement', 'движения')|E]",
+    "POL": "Wezwij do debaty innego prominentnego członka [Concept('movement', 'ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Call for debate",
+    "RUS": "Провести дебаты",
+    "POL": "Wezwij do debaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_debate_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Imperial Debate",
+    "RUS": "Имперские дебаты",
+    "POL": "Cesarska debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_debate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$imperial_debate_tooltip$",
+    "RUS": "$imperial_debate_tooltip$",
+    "POL": "$imperial_debate_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_debate_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Arrange a debate with the [movement_leader|E] of the Empowered [movement|E] in an attempt to empower your own [movement|E]\\n\\nThe debate will take place at court where the [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip] determines the winner",
+    "RUS": "Провести дебаты с [Concept('movement_leader', 'лидером')|E] сильного [Concept('movement', 'движения')|E], чтобы попытаться усилить собственное [Concept('movement', 'движение')|E]\\n\\nДебаты пройдут во дворце, и [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip|l] определит победителя",
+    "POL": "Zorganizuj debatę z udziałem [Concept('movement_leader', 'przywódcy ruchu')|E] stojącego na czele umocnionego [Concept('movement', 'ruchu')|E] i spróbuj umocnić własny [movement|El]\\n\\nDebata odbędzie się na dworze, a zwycięzcę wskaże [GetPlayer.GetTopLiege.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_debate_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$game_concept_movement_leader$ Debate",
+    "RUS": "Дебаты с лидером движения",
+    "POL": "Debata przywódców ruchu",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_debate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$movement_debate_tooltip$",
+    "RUS": "$movement_debate_tooltip$",
+    "POL": "$movement_debate_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_debate_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Arrange a debate with your [movement_leader|E] in an attempt to seize leadership",
+    "RUS": "Провести дебаты с [Concept('movement_leader', 'лидером вашего движения')|E] и попытаться захватить лидерство",
+    "POL": "Zorganizuj debatę ze swoim [Concept('movement_leader', 'przywódcą ruchu')|E], aby spróbować przejąć władzę",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_already_a_movement_leader",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You are the [movement_leader|E]",
+    "RUS": "Вы [Concept('movement_leader', 'лидер движения')|E]",
+    "POL": "Jesteś [Concept('movement_leader', 'przywódcą ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_not_a_movement_leader",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You are #bold not#! the [movement_leader|E]",
+    "RUS": "Вы #bold не#! [Concept('movement_leader', 'лидер движения')|E]",
+    "POL": "#bold Nie#! jesteś [Concept('movement_leader', 'przywódcą ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_a_movement_leader_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Is a [movement_leader|E]",
+    "RUS": "Является [Concept('movement_leader', 'лидером движения')|E]",
+    "POL": "Jest [Concept('movement_leader', 'przywódcą ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "you_are_a_movement_leader_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You are a [movement_leader|E]",
+    "RUS": "Вы [Concept('movement_leader', 'лидер движения')|E]",
+    "POL": "Jesteś [Concept('movement_leader', 'przywódcą ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "you_are_a_movement_leader_desc_value",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$you_are_a_movement_leader_desc$: $ai_will_do_debug$",
+    "RUS": "$you_are_a_movement_leader_desc$: $ai_will_do_debug$",
+    "POL": "$you_are_a_movement_leader_desc$: $ai_will_do_debug$",
+    "BEL": ""
+  },
+  {
+    "KEY": "arrange_debate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Arrange a political debate",
+    "RUS": "Провести политические дебаты",
+    "POL": "Zorganizuj debatę polityczną",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_success_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Success Chance is determined by:\\n$EFFECT_LIST_BULLET$[learning_i|E] [learning_skill|E]\\n$EFFECT_LIST_BULLET$[diplomacy_i|E] [diplomacy_skill|E]\\n$EFFECT_LIST_BULLET$[movement_power_i][movement_power|E]\\n$EFFECT_LIST_BULLET$[skills|E] of [disciples|E]",
+    "RUS": "Шанс успеха определяют:\\n$EFFECT_LIST_BULLET$[learning_i|E] [Concept('learning_skill', 'Навык «ученость»')|E]\\n$EFFECT_LIST_BULLET$[diplomacy_i|E] [Concept('diplomacy_skill', 'Навык «дипломатия»')|E]\\n$EFFECT_LIST_BULLET$[movement_power_i][movement_power|EU]\\n$EFFECT_LIST_BULLET$[Concept('skills', 'Навыки')|E] [Concept('disciples', 'послушников')|E]",
+    "POL": "Wpływ na szansę powodzenia mają:\\n$EFFECT_LIST_BULLET$[learning_i|E] [learning_skill|E]\\n$EFFECT_LIST_BULLET$[diplomacy_i|E] [diplomacy_skill|E]\\n$EFFECT_LIST_BULLET$[movement_power_i] [movement_power|E]\\n$EFFECT_LIST_BULLET$[skills|E] [Concept('disciples', 'adeptów')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_imperial_debate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Challenge [challenged_movement_leader.GetShortUIName], [movement_leader|E] of the [current_empowered_movement.GetName], to a debate",
+    "RUS": "Провести дебаты, оппонентом в которых [Select_CString(challenged_movement_leader.IsLocalPlayer, 'станете', 'станет')] [challenged_movement_leader.GetShortUIName], [Concept('movement_leader', 'лидер движения')|E] «[current_empowered_movement.GetName]»",
+    "POL": "Rzuć wyzwanie: niech [movement_leader|El] o nazwie [current_empowered_movement.GetName], [challenged_movement_leader.GetShortUINameNotMe], stanie do udziału w debacie",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_imperial_debate_success_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Winning the debate will Empower the [my_movement.GetName]",
+    "RUS": "Победа в дебатах усилит клику «[my_movement.GetName]»",
+    "POL": "Zwycięstwo w debacie umocni ruch o nazwie [my_movement.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_movement_debate_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Challenge [movement_leader|E] [challenged_movement_leader.GetShortUIName] to a debate for the leadership of the [my_movement.GetName]",
+    "RUS": "Провести дебаты за лидерство в движении «[my_movement.GetName]», оппонентом в которых станет [Concept('movement_leader', 'лидер движения')|E] [challenged_movement_leader.GetShortUIName]",
+    "POL": "Rzuć wyzwanie: niech [movement_leader|El], [challenged_movement_leader.GetShortUINameNotMe], stanie do udziału w debacie i zawalczy o przywództwo nad ruchem o nazwie [my_movement.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_is_ongoing_imperial_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "The [movement_leader|E] of the Empowered [movement|E] is busy",
+    "RUS": "[Concept('movement_leader', 'Лидер')|E] сильного [Concept('movement', 'движения')|E] занят",
+    "POL": "[movement_leader|E] stojący na czele umocnionego [movement|El] jest zajęty",
+    "BEL": ""
+  },
+  {
+    "KEY": "dynastic_cycle_debate_is_ongoing_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "The [movement_leader|E] is busy",
+    "RUS": "[Concept('movement_leader', 'Лидер движения')|E] занят",
+    "POL": "[movement_leader|E] jest zajęty",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Retire from Heading the [ROOT.Char.GetHouse.GetNameNoTooltip] House",
+    "RUS": "Перестать быть главой дома [ROOT.Char.GetHouse.GetNameNoTooltip]",
+    "POL": "Zrezygnuj z bycia głową rodu [ROOT.Char.GetHouse.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Retire to your family [estate|E] and renounce all [titles|E] including the [house_head|E] title. Entrust everything to your [house_possessive|E] heir and follow [ROOT.Char.GetHouse.GetHeirOfHouse.GetNamePossessive] career.",
+    "RUS": "Уйти на покой в [Concept('estate', 'имение') |E] вашего семейства и отказаться от всех [Concept('titles', 'титулов')|E], включая звание [Concept('house_head', 'главы дома')|E], в пользу [Select_CString(ROOT.Char.GetHouse.GetHeirOfHouse.IsFemale, 'вашей наследницы', 'вашего наследника')] по имени [ROOT.Char.GetHouse.GetHeirOfHouse.GetName].",
+    "POL": "Wróć do [Concept('estate', 'majątku')|E] rodzinnego, zrzekając się wszystkich [Concept('titles', 'tytułów')|E], w tym tytułu [Concept('house_head', 'głowy rodu')|E]. Powierz wszystko dziedzicowi [house_possessive|El] i śledź rozwój kariery postaci znanej jako [ROOT.Char.GetHouse.GetHeirOfHouse.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_no_heir_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Retire to your family [estate|E] and renounce all [titles|E] including the [house_head|E] title. Entrust everything to your [house_possessive|E] heir.",
+    "RUS": "Уйти на покой в [Concept('estate', 'имение') |E] вашего семейства и отказаться от всех [Concept('titles', 'титулов')|E], включая звание [Concept('house_head', 'главы дома')|E], в пользу наследника [Concept('house_possessive', 'дома')|E].",
+    "POL": "Wróć do [Concept('estate', 'majątku')|E] rodzinnego, zrzekając się wszystkich [Concept('titles', 'tytułów')|E], w tym tytułu [Concept('house_head', 'głowy rodu')|E]. Powierz wszystko dziedzicowi [house_possessive|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Renounce all [titles|E] and pass the [house_head|E] title to your [heir|E]",
+    "RUS": "Отказаться от всех [Concept('titles', 'титулов')|E] и передать звание [Concept('house_head', 'главы дома')|E] вашему [Concept('heir', 'наследнику')|E]",
+    "POL": "Zrzeknij się wszystkich [Concept('titles', 'tytułów')|E] i przekaż tytuł [Concept('house_head', 'głowy rodu')|E] swojemu [Concept('heir', 'dziedzicowi')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_tt.title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You must have a [noble_family|E] [title|E]",
+    "RUS": "У вас должен быть [Concept('title', 'титул')|E] [Concept('noble_family', 'благородного семейства')|E]",
+    "POL": "Musisz mieć [title|El] [Concept('noble_family', 'rodziny szlacheckiej')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_tt.heir",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Your [heir|E] must be an available adult",
+    "RUS": "Ваш [Concept('heir', 'наследник')|E] должен быть допустимым взрослым",
+    "POL": "Twój [heir|El] musi być postacią dorosłą",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Let the young sprout",
+    "RUS": "Пора дать дорогу молодым",
+    "POL": "Dajmy rozkwitnąć młodzieży",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You step down and lose all [titles|E]",
+    "RUS": "Вы уходите в отставку и теряете все [Concept('titles', 'титулы')|E]",
+    "POL": "Ustępujesz i tracisz wszystkie [titles|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_toast_title",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You Step Down",
+    "RUS": "Вы уходите в отставку",
+    "POL": "Ustępujesz",
+    "BEL": ""
+  },
+  {
+    "KEY": "renounce_noble_family_title_decision_toast_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[new_player.GetName] is the new ruler of the realm",
+    "RUS": "[Select_CString(new_player.IsFemale, 'Новой правительницей', 'Новым правителем' )] ваших владений становится [new_player.GetName]",
+    "POL": "[new_player.GetName] to nowy władca państwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Favor an Era",
+    "RUS": "Определить следующую эру",
+    "POL": "Faworyzuj epokę",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era_hegemon_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "The burdens of state weigh heavily upon me. The [mandate_of_heaven|E] is mine to bear and uphold, and the wheels of [GetSituation('dynastic_cycle').GetName] turn inexorably with every decision I make. The future of all those who dwell under Heaven rests in my hands; shall our future be one of peace and prosperity, or victories won and foreign sovereigns brought to submission?",
+    "RUS": "Бремя государства довлеет надо мной. Мне суждено поддерживать [Concept('mandate_of_heaven', 'Небесный мандат')|E], и [GetSituation('dynastic_cycle').GetName|l] неудержимо движется вперед с каждым принятым мной решением. Будущее всех жителей Поднебесной в моих руках. Будет ли оно полно мира и процветания или славных побед и подчинения иноземных владык?",
+    "POL": "Na moich barkach ciążą losy państwa. [mandate_of_heaven|E] należy do mnie, a każda moja decyzja wzmaga [GetSituation('dynastic_cycle').GetName|l]. Przyszłość wszystkich ludów tej ziemi spoczywa w moich rękach. Czy czeka nas pokój i dobrobyt, czy też epoka zwycięstw i podporządkowywania sobie obcych władców?",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era_chaos_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "If I am to one day accept the sacred responsibility of the [mandate_of_heaven|E], then I must conduct myself as a sovereign would, and give thought to the plentitudes that will look to me as the master of all land under Heaven. If – nay, #EMP when#! – that time comes, will their future be one of peace and prosperity, or victories won and foreign sovereigns brought to submission?",
+    "RUS": "Если я надеюсь однажды принять священные обязательства [Concept('mandate_of_heaven', 'Небесного мандата')|E], нужно вести себя как владыка и не забывать о тех, кто будет видеть во мне властителя всех земель под небом. Если — нет, #EMP когда#! — это время настанет, будет ли оно полно мира и процветания или славных побед и подчинения иноземных владык?",
+    "POL": "Jeśli pewnego dnia mam przyjąć świętą odpowiedzialność [Concept('mandate_of_heaven', 'mandatu niebios')|E], muszę postępować jak suweren i mieć na względzie rzesze ludzi, które uznają mnie za zwierzchnika całej ziemi. Jeżeli otrzymam ten zaszczyt – choć jest to wyłącznie #EMP kwestią czasu#! – to czy lud mój zyska pokój i dobrobyt, czy też wkroczy w epokę zwycięstw i podporządkowywania sobie obcych władców?",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era_decision_hegemon_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[son_of_heaven|E] can set either [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] or [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] as [favored_era|E]",
+    "RUS": "[Concept('son_of_heaven', 'Сын Неба')|E] может установить в качестве [Concept('favored_era', 'предпочтительной эры')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]» или «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]»",
+    "POL": "[son_of_heaven|E] może wybrać na [Concept('favored_era', 'epokę faworyzowaną')|E] jedną z następujących epok: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName|l] lub [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era_decision_chaos_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Every [independent_ruler|E] in the [dynastic_cycle|E] can set either [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] or [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] as [favored_era|E]",
+    "RUS": "Каждый [Concept('independent_ruler', 'независимый правитель')|E] в [Concept('dynastic_cycle', 'династическом цикле')|E] может установить в качестве [Concept('favored_era', 'предпочтительной эры')|E] «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]» или «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]»",
+    "POL": "Każdy [independent_ruler|El] w [Concept('dynastic_cycle', 'cyklu dynastii')|E] może wybrać na [Concept('favored_era', 'epokę faworyzowaną')|E] jedną z następujących epok: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName|l] lub [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "1",
+    "RUS": "1",
+    "POL": "1",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]",
+    "RUS": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] as [favored_era|E]",
+    "RUS": "Выбирает «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]» в качестве [Concept('favored_era', 'предпочтительной эры')|E]",
+    "POL": "Na [Concept('favored_era', 'epokę faworyzowaną')|E] zostaje wybrana następująca epoka: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "2",
+    "RUS": "2",
+    "POL": "2",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]",
+    "RUS": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] as [favored_era|E]",
+    "RUS": "Выбирает «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]» в качестве [Concept('favored_era', 'предпочтительной эры')|E]",
+    "POL": "Na [Concept('favored_era', 'epokę faworyzowaną')|E] zostaje wybrana następująca epoka: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_dynastic_cycle_era_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Select as Favored",
+    "RUS": "Выбрать предпочитаемый тип эры",
+    "POL": "Wybierz jako epokę faworyzowaną",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_FAVOR_ERA",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Choose Era",
+    "RUS": "Выбрать эру",
+    "POL": "Wybierz epokę",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$favor_advancement_tooltip$",
+    "RUS": "$favor_advancement_tooltip$",
+    "POL": "$favor_advancement_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_movement_power_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]: [movement_power_i]#P +200#!",
+    "RUS": "[movement_power|E] «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]»: [movement_power_i]#P +200#!",
+    "POL": "[movement_power|E] o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]: [movement_power_i] #P +200#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_movement_power_chaos_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "If [GetTitleByKey('h_china').GetName] is restored, [movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] will be increased by [movement_power_i]#P 200#!",
+    "RUS": "Если держава [GetTitleByKey('h_china').GetName] восстановлена, [Concept('movement_power', 'сила движения')|E] «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]» увеличится на #P 200#![movement_power_i]",
+    "POL": "Jeśli nastąpi odbudowa miejsca znanego jako [GetTitleByKey('h_china').GetName], [movement_power|El] o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] wzrośnie o [movement_power_i] #P 200#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$favor_expansion_tooltip$",
+    "RUS": "$favor_expansion_tooltip$",
+    "POL": "$favor_expansion_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_movement_power_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power_i]#P +200#!",
+    "RUS": "[movement_power|E] «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]»: [movement_power_i]#P +200#!",
+    "POL": "[movement_power|E] o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]: [movement_power_i] #P +200#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_movement_power_chaos_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "If [GetTitleByKey('h_china').GetName] is restored, [movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] will be increased by [movement_power_i]#P 200#!",
+    "RUS": "Если держава [GetTitleByKey('h_china').GetName] восстановлена, [Concept('movement_power', 'сила движения')|E] «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]» увеличится на #P 200#![movement_power_i]",
+    "POL": "Jeśli nastąpi odbudowa miejsca znanego jako [GetTitleByKey('h_china').GetName], [movement_power|El] o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] wzrośnie o [movement_power_i] #P 200#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_movement_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Favor a Movement",
+    "RUS": "Отдать предпочтение движению",
+    "POL": "Wybierz ruch faworyzowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_movement_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "While all [movements|E] can influence the [dynastic_cycle|E], some are more impactful than others. As the [ROOT.Char.GetTitleAsNameNoTooltip] I can bestow my heavenly grace upon one of the [movements|E] and declare them a [favored_movement|E] of the Heavens.",
+    "RUS": "Все [Concept('movements', 'движения')|E] могут влиять на ход [Concept('dynastic_cycle', 'династического цикла')|E], но некоторые из них имеют больший вес, чем остальные. Как [ROOT.Char.GetTitleAsNameNoTooltip|l], я могу даровать одному из них свою благосклонность и объявить его [Concept('favored_movement', 'предпочитаемым движением')|E].",
+    "POL": "Choć na [dynastic_cycle|El] mogą wpływać wszystkie [movements|El], niektóre z nich są bardziej wpływowe niż pozostałe. Jako [ROOT.Char.GetTitleAsNameNoTooltip] mogę okazać jednemu z [Concept('movements', 'ruchów')|E] niebiańską łaskę, ogłaszając go [Concept('favored_movement', 'faworyzowanym ruchem')|E] z woli niebios.",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_movement_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[son_of_heaven|E] can set any [movement|E] as a [favored_movement|E]. [GetActivityType('activity_debate').GetName] can be called by other [characters|E] to vie for their [movement|E] to be favored instead.",
+    "RUS": "[Concept('son_of_heaven', 'Сын Неба')|E] может объявить любое [Concept('movement', 'движение')|E] [Concept('favored_movement', 'предпочитаемым')|E]. В свою очередь, [GetActivityType('activity_debate').GetName|l] могут использоваться другими [Concept('characters', 'персонажами')|E], чтобы склонить Сына Неба на сторону своего [Concept('movement', 'движения')|E].",
+    "POL": "[son_of_heaven|E] może uczynić [Concept('favored_movement', 'faworyzowanym ruchem')|E] dowolnie wybrany [movement|El]. [GetActivityType('activity_debate').GetName] to aktywność, dzięki której inne [characters|El] mogą starać się o faworyzację własnego [Concept('movement', 'ruchu')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_FAVOR_MOVEMENT",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Choose Movement",
+    "RUS": "Выбрать движение",
+    "POL": "Wybierz ruch",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_movement_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_movement_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]",
+    "RUS": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]",
+    "POL": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_advancement_movement_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] as [favored_movement|E]",
+    "RUS": "Выбрать «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]» в качестве [Concept('favored_movement', 'предпочитаемого движения')|E]",
+    "POL": "Na [favored_movement|El] zostaje wybrany ruch o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_movement_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_movement_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetNameNoTooltip]",
+    "RUS": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetNameNoTooltip]",
+    "POL": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_expansion_movement_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] as [favored_movement|E]",
+    "RUS": "Выбрать «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]» в качестве [Concept('favored_movement', 'предпочитаемого движения')|E]",
+    "POL": "Na [favored_movement|El] zostaje wybrany ruch o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_conservative_movement_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_conservative_movement_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetNameNoTooltip]",
+    "RUS": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetNameNoTooltip]",
+    "POL": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_conservative_movement_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] as [favored_movement|E]",
+    "RUS": "Выбрать «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]» в качестве [Concept('favored_movement', 'предпочитаемого движения')|E]",
+    "POL": "Na [favored_movement|El] zostaje wybrany ruch o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_pro_hegemon_movement_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_pro_hegemon_movement_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]",
+    "RUS": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]",
+    "POL": "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_pro_hegemon_movement_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Sets [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] as [favored_movement|E]",
+    "RUS": "Выбрать «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]» в качестве [Concept('favored_movement', 'предпочитаемого движения')|E]",
+    "POL": "Na [favored_movement|El] zostaje wybrany ruch o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_movement_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Select as Favored",
+    "RUS": "Выбрать предпочитаемое движение",
+    "POL": "Wybierz jako ruch faworyzowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "favor_movement_decision.tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[hegemon.GetTitleAsNameNoTooltip] picks Favored Movement",
+    "RUS": "[hegemon.GetTitleAsNameNoTooltip] выбирает предпочитаемое движение",
+    "POL": "[hegemon.GetTitleAsNameNoTooltip] wybiera ruch faworyzowany",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.opening",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[hegemon.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "RUS": "[hegemon.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "POL": "[hegemon.Custom2('AppropriateGreeting', ROOT.Char)]",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.desc_intro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "I have been listening closely to the will of the Heaves.",
+    "RUS": "Небеса донесли до меня свою волю,",
+    "POL": "uważnie nasłuchuję woli niebios.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "What I heard made me bestow my favors upon [new_favored_movement.GetName].",
+    "RUS": "и это откровение побудило меня даровать движению «[new_favored_movement.GetName]» свою благосклонность.",
+    "POL": "To, co dotarło do moich uszu, skłania mnie do faworyzacji ruchu znanego jako [new_favored_movement.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.desc_former",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "We are no longer pleased with [former_favored_movement.GetName]. I have to entrust the future to [new_favored_movement.GetName].",
+    "RUS": "и это откровение подорвало мое доверие к движению «[former_favored_movement.GetName]». Теперь я понимаю, что именно [new_favored_movement.GetName] — наша единственная надежда на светлое будущее.",
+    "POL": "Poczynania ruchu o nazwie [former_favored_movement.GetName] już nas nie zadowalają. Mogę już tylko powierzyć przyszłość przedstawicielom ruchu znanego jako [new_favored_movement.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.desc_outro",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Rejoice the upcoming prosperous times!",
+    "RUS": "Возрадуйтесь, ибо теперь нашу державу ждет процветание!",
+    "POL": "Radujmy się na myśl o czekającej nas pomyślności!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.a_new",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Heavens are not mistaken, so is the [hegemon.GetTitleAsNameNoTooltip].",
+    "RUS": "Небеса никогда не ошибаются, и [hegemon.GetTitleAsNameNoTooltip|l] тоже.",
+    "POL": "Niebiosa są nieomylne – tak jak [hegemon.GetTitleAsNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.a_former",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "There must have been a mistake?",
+    "RUS": "Возможно, это просто недоразумение…",
+    "POL": "To musi być pomyłka…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.0111.a_other",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "A sign from the Heavens.",
+    "RUS": "Это знак свыше.",
+    "POL": "To znak z niebios.",
+    "BEL": ""
+  },
+  {
+    "KEY": "favored_movement_consults_heaven_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Shape the Dynastic Cycle",
+    "RUS": "Изменить династический цикл",
+    "POL": "Ukształtuj cykl dynastii",
+    "BEL": ""
+  },
+  {
+    "KEY": "favored_movement_consults_heaven_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "By the grace of [son_of_heaven|E], I am more than capable of affecting not only the destiny of my own family, but whole [GetSituation('dynastic_cycle').GetTopSubRegion.GetName]. Let Heaven be my witness, I will turn the wheels of the [dynastic_cycle|E] one way or another!",
+    "RUS": "По милости [Concept('son_of_heaven', 'Сына Неба')|E] в моей власти влиять не только на судьбу моей семьи, но и на весь регион [GetSituation('dynastic_cycle').GetTopSubRegion.GetName]. Небеса мне свидетель, я заставлю крутиться колеса [Concept('dynastic_cycle', 'династического цикла')|E]!",
+    "POL": "Dzięki łasce [Concept('son_of_heaven', 'syna niebios')|E] mogę wpłynąć na losy nie tylko mojej rodziny, ale i całego miejsca znanego jako [GetSituation('dynastic_cycle').GetTopSubRegion.GetName]. Niech niebo będzie mi świadkiem, że zmienię [dynastic_cycle|El] za wszelką cenę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "favored_movement_consults_heaven_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Shape the Cycle by triggering [dynastic_cycle_possessive|E] [dynastic_cycle_catalyst|E]",
+    "RUS": "Изменить цикл, запустив [Concept('dynastic_cycle_catalyst', 'катализатор')|E] [Concept('dynastic_cycle_possessive', 'династического цикла')|E]",
+    "POL": "Ukształtuj cykl, wywołując [Concept('dynastic_cycle_catalyst', 'katalizator')|E] [dynastic_cycle_possessive|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_advancement_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to add points to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и добавить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby dodać punkty na rzecz następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_advancement_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_advancement_catalyst_desc' )]",
+    "RUS": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_advancement_catalyst_desc' )]",
+    "POL": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_advancement_catalyst_desc' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_advancement_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push toward [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]",
+    "RUS": "Направиться в сторону фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip] – próbuj osiągnąć",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_advancement_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to remove points from [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и удалить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby odjąć punkty od następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_advancement_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$negative_advancement_catalyst_desc$",
+    "RUS": "$negative_advancement_catalyst_desc$",
+    "POL": "$negative_advancement_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_advancement_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push away [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]",
+    "RUS": "Отдалиться от фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip] – przeciwdziałaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_expansion_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to add points to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и добавить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby dodać punkty na rzecz następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_expansion_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_expansion_catalyst_desc' )]",
+    "RUS": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_expansion_catalyst_desc' )]",
+    "POL": "[SelectLocalization( ObjectsEqual( GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName, GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName ), 'positive_instability_catalyst_desc_warning', 'positive_expansion_catalyst_desc' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_expansion_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push toward [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]",
+    "RUS": "Направиться в сторону фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip] – próbuj osiągnąć",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_expansion_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to remove points from [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и удалить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby odjąć punkty od następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_expansion_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$negative_expansion_catalyst_desc$",
+    "RUS": "$negative_expansion_catalyst_desc$",
+    "POL": "$negative_expansion_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_expansion_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push away [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]",
+    "RUS": "Отдалиться от фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetNameNoTooltip] – przeciwdziałaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_chaos_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to add points to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и добавить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby dodać punkty na rzecz następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_chaos_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$positive_chaos_catalyst_desc$",
+    "RUS": "$positive_chaos_catalyst_desc$",
+    "POL": "$positive_chaos_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_chaos_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push toward [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip]",
+    "RUS": "Направиться в сторону фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip] – próbuj osiągnąć",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_chaos_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to remove points from [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и удалить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby odjąć punkty od następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_chaos_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$negative_chaos_catalyst_desc$",
+    "RUS": "$negative_chaos_catalyst_desc$",
+    "POL": "$negative_chaos_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_chaos_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push away [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip]",
+    "RUS": "Отдалиться от фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetNameNoTooltip] – przeciwdziałaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_instability_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push toward [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip]",
+    "RUS": "Направиться в сторону фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip] – próbuj osiągnąć",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_instability_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to add points to [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и добавить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby dodać punkty na rzecz następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_instability_catalyst_desc_warning",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$positive_instability_catalyst_desc$.\\n@alert_icon! #alert_trial In order to progress to a different [dynastic_cycle_era_type_stable|E] the [dynastic_cycle|E] has to go through the [dynastic_cycle_era_type_unstable|E] first#!",
+    "RUS": "$positive_instability_catalyst_desc$.\\n@alert_icon! #alert_trial Чтобы перейти в другую [Concept('dynastic_cycle_era_type_stable', 'стабильную эру')|E] [Concept('dynastic_cycle', 'династического цикла')|E], сначала необходимо пройти через [Concept('dynastic_cycle_era_type_unstable', 'период нестабильности')|E]#!",
+    "POL": "$positive_instability_catalyst_desc$.\\n@alert_icon! #alert_trial Aby przejść do innej [Concept('dynastic_cycle_era_type_stable', 'epoki stabilności')|E], [dynastic_cycle|El] musi najpierw przejść przez [Concept('dynastic_cycle_era_type_unstable', 'epokę destabilizacji')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_instability_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$positive_instability_catalyst_desc$",
+    "RUS": "$positive_instability_catalyst_desc$",
+    "POL": "$positive_instability_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_instability_catalyst_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Push away [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip]",
+    "RUS": "Отдалиться от фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip]»",
+    "POL": "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameNoTooltip] – przeciwdziałaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_instability_catalyst_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Trigger a [dynastic_cycle_catalyst|E] to remove points from [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon]",
+    "RUS": "Запустить [Concept('dynastic_cycle_catalyst', 'катализатор династического цикла')|E] и удалить очки фазы «[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon]»",
+    "POL": "Wywołaj [dynastic_cycle_catalyst|El], aby odjąć punkty od następującej sytuacji: [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetNameWithIcon|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_instability_catalyst_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "$negative_instability_catalyst_desc$",
+    "RUS": "$negative_instability_catalyst_desc$",
+    "POL": "$negative_instability_catalyst_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "favored_movement_consults_heaven_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Thus speaks the Heavens",
+    "RUS": "Такова воля Небес",
+    "POL": "Taka jest wola niebios",
+    "BEL": ""
+  },
+  {
+    "KEY": "SELECT_CONSULT_HEAVEN",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Consult Heaven",
+    "RUS": "Обратиться к Небесам",
+    "POL": "Skonsultuj się z niebiosami",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_advancement_catalyst_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either [son_of_heaven|E] or a member of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]",
+    "RUS": "Вы должны быть [Concept('son_of_heaven', 'Сыном Неба')|E] или членом движения «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]»",
+    "POL": "Musisz być [Concept('son_of_heaven', 'synem niebios')|E] lub członkiem ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_advancement_catalyst_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either [son_of_heaven|E] or a member of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]",
+    "RUS": "Вы должны быть [Concept('son_of_heaven', 'Сыном Неба')|E] или членом движения «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]»",
+    "POL": "Musisz być [Concept('son_of_heaven', 'synem niebios')|E] lub członkiem ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "positive_expansion_catalyst_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either [son_of_heaven|E] or a member of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]",
+    "RUS": "Вы должны быть [Concept('son_of_heaven', 'Сыном Неба')|E] или членом движения «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]»",
+    "POL": "Musisz być [Concept('son_of_heaven', 'synem niebios')|E] lub członkiem ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "negative_expansion_catalyst_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either [son_of_heaven|E] or a member of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]",
+    "RUS": "Вы должны быть [Concept('son_of_heaven', 'Сыном Неба')|E] или членом движения «[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]»",
+    "POL": "Musisz być [Concept('son_of_heaven', 'synem niebios')|E] lub członkiem ruchu o nazwie [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_consults_heaven_decision",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Consult Heaven",
+    "RUS": "Обратиться к Небесам",
+    "POL": "Skonsultuj się z niebiosami",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_consults_heaven_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "By the grace of [son_of_heaven|E], my [movement|E] and I have direct access to Heaven's will. This may change the course of the fate of the [dynastic_cycle|E].",
+    "RUS": "По милости [Concept('son_of_heaven', 'Сына Неба')|E] мое [Concept('movement', 'движение')|E] и я получили прямой доступ к воле Небес. Это может повлиять на ход [Concept('dynastic_cycle', 'династического цикла')|E].",
+    "POL": "Z łaski [Concept('son_of_heaven', 'syna niebios')|E] mój [movement|El] i ja mamy bezpośredni wgląd w wolę nieba. To może odmienić przebieg [Concept('dynastic_cycle', 'cyklu dynastii')|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_consults_heaven_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "[house_head|E] consults Heaven to trigger [dynastic_cycle_possessive|E] [dynastic_cycle_catalyst|E]",
+    "RUS": "[Concept('house_head', 'Глава дома')|E] обращается к Небесам, чтобы запустить [Concept('dynastic_cycle_catalyst', 'катализатор')|E] [Concept('dynastic_cycle_possessive', 'династического цикла')|E]",
+    "POL": "[house_head|E] konsultuje się z niebiosami, aby wywołać [Concept('dynastic_cycle_catalyst', 'katalizator')|E] [dynastic_cycle_possessive|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "house_head_consults_heaven_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "For a better future!",
+    "RUS": "Ради лучшего будущего!",
+    "POL": "Za lepszą przyszłość!",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_none_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Devotion",
+    "RUS": "Набожность",
+    "POL": "Oddanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_none_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Leverage your own [piety_level|E]",
+    "RUS": "Воспользоваться своим [Concept('piety_level', 'уровнем набожности')|E]",
+    "POL": "Wykorzystaj swój [piety_level|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_powerful_family_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Status",
+    "RUS": "Статус",
+    "POL": "Status",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_powerful_family_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Leverage your position as a [powerful_family|E]",
+    "RUS": "Воспользоваться своим положением [Concept('powerful_family', 'могущественного семейства')|E]",
+    "POL": "Wykorzystaj swoją pozycję [Concept('powerful_family', 'wpływowej rodziny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_governors_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Administration",
+    "RUS": "Администрация",
+    "POL": "Administracja",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_governors_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Leverage your family's [governors|E] influence",
+    "RUS": "Воспользоваться влиянием [Concept('governors', 'губернаторов')|E] из вашего семейства",
+    "POL": "Wykorzystaj wpływ [Concept('governors', 'gubernatorów')|E] ze swojej rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_merit_name",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Merit",
+    "RUS": "Заслуги",
+    "POL": "Zasługi",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_merit_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "Leverage your family's combined [merit|E]",
+    "RUS": "Воспользоваться суммарными [Concept('merit', 'заслугами')|E] вашей семьи",
+    "POL": "Wykorzystaj łączne [merit|El] swojej rodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_governors_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have at least 20 [extended_family|E] members who are [governors|E]",
+    "RUS": "У вас не менее 20 [Concept('extended_family', 'дальних родственников')|E], являющихся [Concept('governors', 'губернаторами')|E]",
+    "POL": "Masz co najmniej 20 członków [Concept('extended_family', 'dalszej rodziny')|E], którzy są [Concept('governors', 'gubernatorami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "discount_family_merit_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have at least 10 [extended_family|E] members of [GetModifier( 'merit_level_6' ).GetNameWithTooltip|L] or higher",
+    "RUS": "У вас не менее 10 [Concept('extended_family', 'дальних родственников')|E] с #TOOLTIP:STATIC_MODIFIER,merit_level_6 #V #L заслугами 4-го ранга#!#!#! или выше",
+    "POL": "Masz co najmniej 10 członków [Concept('extended_family', 'dalszej rodziny')|E], których ranga zasług to co najmniej: [GetModifier( 'merit_level_6' ).GetNameWithTooltip|Ll]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_in_a_movement_with_leader_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either a [movement_leader|E], a [house_head|E] or a [minister_grand_chancellor|E]",
+    "RUS": "Вы должны быть [Concept('movement_leader', 'лидером движения')|E], [Concept('house_head', 'главой дома')|E] или [Concept('minister_grand_chancellor', 'верховным канцлером')|E]",
+    "POL": "Musisz być [Concept('movement_leader', 'przywódcą ruchu')|E], [Concept('house_head', 'głową rodu')|E] lub [Concept('minister_grand_chancellor', 'wielkim kanclerzem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "can_consult_heaven_tt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_situation_decisions_l_belarusian.json",
+    "ENG": "You have to be either the [movement_leader|E] of a [favored_movement|E], [son_of_heaven|E] or a [minister_grand_chancellor|E]",
+    "RUS": "Вы должны быть [Concept('movement_leader', 'лидером')|E] [Concept('favored_movement', 'предпочитаемого движения')|E], [Concept('son_of_heaven', 'Сыном Неба')|E] или [Concept('minister_grand_chancellor', 'верховным канцлером')|E]",
+    "POL": "Musisz być [Concept('movement_leader', 'przywódcą')|E] [Concept('favored_movement', 'faworyzowanego ruchu')|E], [Concept('son_of_heaven', 'synem niebios')|E] lub [Concept('minister_grand_chancellor', 'wielkim kanclerzem')|E]",
+    "BEL": ""
+  }
+]

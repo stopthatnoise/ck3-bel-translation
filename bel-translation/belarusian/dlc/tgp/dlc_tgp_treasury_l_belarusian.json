@@ -1,0 +1,666 @@
+[
+  {
+    "KEY": "treasury_concept",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury|E]",
+    "RUS": "[Concept('treasury', 'Государственная казна')|E]",
+    "POL": "[treasury|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_icon_concept",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_i|E]",
+    "RUS": "[treasury_i|E]",
+    "POL": "[treasury_i|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "transfer_small_gold_amount_to_treasury_interaction",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Supplement Treasury",
+    "RUS": "Пополнить казну",
+    "POL": "Uzupełnij skarbiec",
+    "BEL": ""
+  },
+  {
+    "KEY": "transfer_gold_amount_to_treasury_interaction_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "",
+    "RUS": "",
+    "POL": "",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "#T Supplement Treasury#!\\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\\n\\n#i Right-click to transfer [gold_i]#V 50#!\\n#i Ctrl-left-click to transfer [gold_i]#V 500#!",
+    "RUS": "#T Пополнить казну#!\\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\\n\\n#i Щелкните ПКМ, чтобы передать #V 50#![gold_i]\\n#i Щелкните ЛКМ с зажатым Ctrl, чтобы передать #V 500#![gold_i]",
+    "POL": "#T Uzupełnij skarbiec#!\\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\\n\\n#i Kliknij prawym przyciskiem myszy, aby przesłać [gold_i] #V 50#!\\n#i Kliknij lewym przyciskiem myszy z naciśniętym klawiszem Ctrl, aby przesłać [gold_i] #V 500#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "transfer_treasury_because_you_are_greedy",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Because you are [GetTrait('greedy').GetName( GetNullCharacter )]:",
+    "RUS": "Так как у вас есть свойство «[GetTrait('greedy').GetName( GetNullCharacter )]»:",
+    "POL": "Ponieważ masz określoną cechę ([GetTrait('greedy').GetName( GetNullCharacter )|l]):",
+    "BEL": ""
+  },
+  {
+    "KEY": "transfer_treasury_because_you_are_generous",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Because you are [GetTrait('generous').GetName( GetNullCharacter)]:",
+    "RUS": "Так как у вас есть свойство «[GetTrait('generous').GetName( GetNullCharacter )]»:",
+    "POL": "Ponieważ masz określoną cechę ([GetTrait('generous').GetName( GetNullCharacter)|l]):",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "#T Withdraw Gold#!\\nWithdraw [gold_i][Character.CalcScriptedValue('medium_treasury_value')|0] from your Treasury, with some consequences.\\n[AddLine( Decision.GetCommandDescForPlayer)]\\n#i Click to open [Decision.GetName]#!",
+    "RUS": "#T Изъять золото#!\\nИзъять [Character.CalcScriptedValue('medium_treasury_value')|0][gold_i] из казны. Это не обойдется без последствий…\\n[AddLine( Decision.GetCommandDescForPlayer)]\\n#i Щелкните, чтобы открыть решение «[Decision.GetName]»#!",
+    "POL": "#T Wypłać złoto#!\\nWypłać [gold_i] [Character.CalcScriptedValue('medium_treasury_value')|0] szt. złota ze swojego skarbca, ponosząc odpowiednie konsekwencje.\\n[AddLine( Decision.GetCommandDescForPlayer)]\\n#i Kliknij, aby otworzyć decyzję „[Decision.GetName]”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "extract_gold_from_treasury",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Withdraw Funds from Treasury",
+    "RUS": "Изъятие средств из казны",
+    "POL": "Wypłacenie środków ze skarbca",
+    "BEL": ""
+  },
+  {
+    "KEY": "extract_gold_from_treasury_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "We have the opportunity and right to re-allocate previously earmarked government resources from the [treasury|E] of [GetPlayer.GetPrimaryTitle.GetDefinitiveName], to be made available for my personal usage.\\nThis public act might cause some raised eyebrows though.",
+    "RUS": "У нас есть полное право перераспределить средства из #L [GetPlayer.GetPrimaryTitle.GetAdjective|l]ой#! [Concept('treasury', 'казны')|E], ранее отложенные на правительственные нужды, чтобы покрыть мои собственные расходы.\\nКонечно, не все одобрят это решение…",
+    "POL": "Mamy możliwość i prawo do ponownego przydzielenia wcześniej wyasygnowanych środków rządowych ze [Concept('treasury', 'skarbca')|E] miejsca znanego jako [GetPlayer.GetPrimaryTitle.GetDefinitiveName], które zostaną udostępnione do mojego osobistego użytku.\\nTen publiczny akt może jednak wywołać pewne zdziwienie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "extract_gold_from_treasury_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "We have the opportunity and right to re-allocate previously earmarked government resources from the [treasury|E] of [GetPlayer.GetPrimaryTitle.GetDefinitiveName].",
+    "RUS": "У нас есть полное право перераспределить средства из #L [GetPlayer.GetPrimaryTitle.GetAdjective|l]ой#! [Concept('treasury', 'казны')|E], ранее отложенные на правительственные нужды.",
+    "POL": "Mamy możliwość i prawo do ponownego przydzielenia wcześniej wyasygnowanych środków rządowych ze [Concept('treasury', 'skarbca')|E] miejsca znanego jako [GetPlayer.GetPrimaryTitle.GetDefinitiveName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "extract_gold_from_treasury_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "I don't need to explain myself...",
+    "RUS": "Я не [Select_CString(ROOT.Char.IsFemale, 'обязана', 'обязан' )] ни перед кем объясняться.",
+    "POL": "Nie muszę się tłumaczyć…",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dipped_into_treasury_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Dipped into Treasury",
+    "RUS": "Нецелевое использование казны",
+    "POL": "Naruszono zasoby skarbca",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dipped_into_treasury_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "This character has excessively dipped into their government treasury for personal expenditures, which is frowned upon.\\n",
+    "RUS": "Этот персонаж изъял немалую сумму из казны правительства на личные расходы. Это считается проступком.\\n",
+    "POL": "Ta postać zbyt chętnie sięga po środki ze skarbca rządowego w celu pokrycia osobistych wydatków, a to jest źle widziane.\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_minister_dipped_into_treasury_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$tgp_dipped_into_treasury_modifier$",
+    "RUS": "$tgp_dipped_into_treasury_modifier$",
+    "POL": "$tgp_dipped_into_treasury_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_minister_dipped_into_treasury_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$tgp_dipped_into_treasury_modifier_desc$",
+    "RUS": "$tgp_dipped_into_treasury_modifier_desc$",
+    "POL": "$tgp_dipped_into_treasury_modifier_desc$",
+    "BEL": ""
+  },
+  {
+    "KEY": "TREASURY_MONTHLY_INCOME",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Monthly Income",
+    "RUS": "Ежемесячный доход",
+    "POL": "Miesięczny [Concept('income', 'dochód')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TREASURY_MONTHLY_EXPENSES",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Monthly Expenses",
+    "RUS": "Ежемесячные расходы",
+    "POL": "Miesięczne wydatki",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLICK_TO_OPEN_TREASURY_BUDGETING",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Click to open Treasury Budget",
+    "RUS": "Щелкните, чтобы открыть бюджет казны",
+    "POL": "Kliknij, aby otworzyć widok budżetu skarbca",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_TITLE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Change Treasury Budgets",
+    "RUS": "Изменить бюджет казны",
+    "POL": "Zmiana budżetu skarbca",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATED",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "New [treasury_budget|E] Calculation",
+    "RUS": "Вычисление нового [Concept('treasury_budget', 'бюджета казны')|E]",
+    "POL": "Nowe wyliczenia [Concept('treasury_budget', 'budżetu skarbca')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECTS",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Effects of Budget Enactment",
+    "RUS": "Эффекты принятия бюджета",
+    "POL": "Efekty uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CATEGORY_MINISTRY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_ministry_budget|E]",
+    "RUS": "[treasury_ministry_budget|E]",
+    "POL": "[treasury_ministry_budget|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CATEGORY_SALARY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_salary_budget|E]",
+    "RUS": "[treasury_salary_budget|E]",
+    "POL": "[treasury_salary_budget|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CATEGORY_MILITARY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_military_budget|E]",
+    "RUS": "[treasury_military_budget|E]",
+    "POL": "[treasury_military_budget|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_TREASURY_LABEL",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Treasury: [treasury_i] [Character.GetTreasury|0]",
+    "RUS": "Имперская казна: [Character.GetTreasury|0] [treasury_i]",
+    "POL": "Skarbiec: [treasury_i] [Character.GetTreasury|0]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_MONTHLY_INCOME_LABEL",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Monthly income:  [treasury_i] [GetPlayerMonthlyTreasury|1+=]",
+    "RUS": "Ежемесячный доход: [GetPlayerMonthlyTreasury|1+=] [treasury_i]",
+    "POL": "Miesięczny dochód: [treasury_i] [GetPlayerMonthlyTreasury|1+=]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_PREVIOUS_BUDGET",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Previous [treasury_budget_capacity|E]: [treasury_i] [TreasuryBudgetChangeWindow.GetCurrentBudgetCapacity|1=] (enacted: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort])",
+    "RUS": "Предыдущая [Concept('treasury_budget_capacity', 'величина бюджета')|E]: [TreasuryBudgetChangeWindow.GetCurrentBudgetCapacity|1=] [treasury_i] (принято: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort])",
+    "POL": "Wcześniejszy [treasury_budget_capacity|El]: [treasury_i] [TreasuryBudgetChangeWindow.GetCurrentBudgetCapacity|1=] (uchwalono: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort])",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_BUDGET_CAPACITY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Current [treasury_budget_capacity|E]: [treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetCapacity|1=] (change: [TreasuryBudgetChangeWindow.GetBudgetCapacityDiff|1=+])",
+    "RUS": "Текущая [Concept('treasury_budget_capacity', 'величина бюджета')|E]: [TreasuryBudgetChangeWindow.GetNewBudgetCapacity|1=] [treasury_i] (изменение: [TreasuryBudgetChangeWindow.GetBudgetCapacityDiff|1=+])",
+    "POL": "Obecny [treasury_budget_capacity|El]: [treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetCapacity|1=] (zmiana: [TreasuryBudgetChangeWindow.GetBudgetCapacityDiff|1=+])",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_GROUP_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Group",
+    "RUS": "Группа",
+    "POL": "Grupa",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_CHARACTERS_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Recipients",
+    "RUS": "Получатели",
+    "POL": "Odbiorcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Allocation",
+    "RUS": "Выделение средств",
+    "POL": "Przydział",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_BASE_RATE_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_budget_base_rate_short|E]",
+    "RUS": "[treasury_budget_base_rate_short|E]",
+    "POL": "[treasury_budget_base_rate_short|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_TOTAL_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Total",
+    "RUS": "Всего",
+    "POL": "Łącznie",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_TREND_HEADER",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_budget_category_trend_short|E]",
+    "RUS": "[treasury_budget_category_trend_short|E]",
+    "POL": "[treasury_budget_category_trend_short|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_TREND",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[TreasuryBudgetChangeWindow.GetBudgetTotalDiff( GuiLawGroup.Self )|2+=]",
+    "RUS": "[TreasuryBudgetChangeWindow.GetBudgetTotalDiff( GuiLawGroup.Self )|2+=]",
+    "POL": "[TreasuryBudgetChangeWindow.GetBudgetTotalDiff( GuiLawGroup.Self )|2+=]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_RECEIVER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Previous budget enactment start: [TreasuryBudgetChangeWindow.GetCurrentBudgetReceiverCount( GuiLawGroup.Self )] (change: [TreasuryBudgetChangeWindow.GetBudgetRecipientCountDiff( GuiLawGroup.Self )|+=])",
+    "RUS": "Начало принятия предыдущего бюджета: [TreasuryBudgetChangeWindow.GetCurrentBudgetReceiverCount( GuiLawGroup.Self )] (изменение: [TreasuryBudgetChangeWindow.GetBudgetRecipientCountDiff( GuiLawGroup.Self )|+=])",
+    "POL": "Początek uchwalania poprzedniego budżetu: [TreasuryBudgetChangeWindow.GetCurrentBudgetReceiverCount( GuiLawGroup.Self )] (zmiana: [TreasuryBudgetChangeWindow.GetBudgetRecipientCountDiff( GuiLawGroup.Self )|+=])",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_TREASURY",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]",
+    "RUS": "[TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2] [treasury_i]",
+    "POL": "[treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_GOLD",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[gold_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]",
+    "RUS": "[TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2] [gold_i]",
+    "POL": "[gold_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_TOTAL",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Total",
+    "RUS": "Всего",
+    "POL": "Łącznie",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_UNALLOCATED",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_budget_unallocated_short|E]",
+    "RUS": "[treasury_budget_unallocated_short|E]",
+    "POL": "[treasury_budget_unallocated_short|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_DEFICIT",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[treasury_budget_deficit_short|E]",
+    "RUS": "[treasury_budget_deficit_short|E]",
+    "POL": "[treasury_budget_deficit_short|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EXPLANATION",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "#weak If you plan to gain more vassals before the next budget enactment, you might want to budget for less than 100% of your [treasury_budget_capacity|E], since for each [treasury_budget_category|E] the [treasury_budget_base_rate|E] you will establish when enacting a budget is fixed per-recipient.#!",
+    "RUS": "#weak Если вы планируете увеличить количество вассалов до следующего принятия бюджета, возможно, стоит планировать бюджет не на все 100% [Concept('treasury_budget_capacity', 'его величины')|E], поскольку [Concept('treasury_budget_base_rate', 'базовый норматив')|E] для каждой [Concept('treasury_budget_category', 'статьи')|E] определяется в момент принятия бюджета и остается неизменным для каждого получателя.#!",
+    "POL": "#weak Jeśli planujesz pozyskać więcej wasali przed uchwaleniem kolejnego budżetu, lepiej przydzielić mniej niż 100% środków w ramach [Concept('treasury_budget_capacity', 'limitu budżetu')|E], ponieważ [treasury_budget_base_rate|El], którą wprowadzisz, uchwalając budżet, będzie miała stałą wartość przypadającą na każdego odbiorcę. Zasada ta dotyczy każdej [Concept('treasury_budget_category', 'kategorii budżetu')|E].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_DEFICIT_WARNING",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "#warning @warning_icon! Total of the budget exceeds your [treasury_budget_capacity|E] and will be drawn from your collected [treasury|E].#!",
+    "RUS": "#warning @warning_icon! Суммарный бюджет превышает [Concept('treasury_budget_capacity', 'величину вашего бюджета')|E]. Разница будет покрываться из вашей [Concept('treasury', 'казны')|E].#!",
+    "POL": "#warning @warning_icon! Suma budżetu przekracza [treasury_budget_capacity|El]. Nadmiarowe koszty zostaną pokryte ze środków zgromadzonych w twoim [Concept('treasury', 'skarbcu')|E].#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Cost: [TreasuryBudgetChangeWindow.GetTotalChangeCostShort]",
+    "RUS": "Стоимость: [TreasuryBudgetChangeWindow.GetTotalChangeCostShort]",
+    "POL": "Koszt: [TreasuryBudgetChangeWindow.GetTotalChangeCostShort]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "#T Total Cost#!\\n[TreasuryBudgetChangeWindow.GetTotalChangeCostDescription]",
+    "RUS": "#T Общая стоимость#!\\n[TreasuryBudgetChangeWindow.GetTotalChangeCostDescription]",
+    "POL": "#T Koszt całkowity#!\\n[TreasuryBudgetChangeWindow.GetTotalChangeCostDescription]",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_LAWS",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Change Allocation Laws",
+    "RUS": "Изменить законы о выделении средств",
+    "POL": "Zmień prawo związane z przydziałem budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_ENACT_BUDGET",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Enact Budget",
+    "RUS": "Принять бюджет",
+    "POL": "Uchwal budżet",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Last budget enacted: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort]\\n",
+    "RUS": "Последний принятый бюджет: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort]\\n",
+    "POL": "Ostatni uchwalony budżet: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort]\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE_TITLE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "\\nRecipient income changes:\\n",
+    "RUS": "\\nИзменение дохода получателя:\\n",
+    "POL": "\\nZmiany dochodu odbiorców:\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$BULLET$ #indent_newline:2 $CATEGORY_NAME$: $BASE_RATE_CHANGE_PERCENTAGE|%0+=$#!\\n",
+    "RUS": "$BULLET$ #indent_newline:2 $CATEGORY_NAME$: $BASE_RATE_CHANGE_PERCENTAGE|%0+=$#!\\n",
+    "POL": "$BULLET$ #indent_newline:2 $CATEGORY_NAME$: $BASE_RATE_CHANGE_PERCENTAGE|%0+=$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_TITLE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "\\nOpinion effects:\\n",
+    "RUS": "\\nЭффекты на мнение:\\n",
+    "POL": "\\nEfekty związane z opinią:\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$CATEGORY_NAME$ recipients gain:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+0$ [opinion|E]\\n#!",
+    "RUS": "Получатели ($CATEGORY_NAME$) получают:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+0$ [Concept('opinion', 'мнения')|E]\\n#!",
+    "POL": "$CATEGORY_NAME$ – odbiorcy zyskują następujące modyfikatory:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+0$ pkt [Concept('opinion', 'opinii')|E]\\n#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_DURATION",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$CATEGORY_NAME$ recipients gain:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+=0$ [opinion|E] for $DURATION$#!\\n",
+    "RUS": "Получатели ($CATEGORY_NAME$) получают:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+=0$ [Concept('opinion', 'мнения')|E] на $DURATION$#!\\n",
+    "POL": "$CATEGORY_NAME$ – odbiorcy zyskują następujące modyfikatory:\\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+=0$ pkt [Concept('opinion', 'opinii')|E] na okres $DURATION$#!\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS_TITLE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "\\nChanged allocation effects:\\n",
+    "RUS": "\\nИзмененные эффекты выделения средств:\\n",
+    "POL": "\\nEfekty związane ze zmianą przydziału:\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "$LAW_DESC$[AddLine('$ENACT_DESC|q$')]\\n\\n",
+    "RUS": "$LAW_DESC$[AddLine('$ENACT_DESC|q$')]\\n\\n",
+    "POL": "$LAW_DESC$[AddLine('$ENACT_DESC|q$')]\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_COST_LAW_CHANGE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "[LawGroup.GetName]: $BREAKDOWN$\\n",
+    "RUS": "[LawGroup.GetName]: $BREAKDOWN$\\n",
+    "POL": "[LawGroup.GetName]: $BREAKDOWN$\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_COST_ENACTMENT",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Enactment: $BREAKDOWN$\\n",
+    "RUS": "Принятие: $BREAKDOWN$\\n",
+    "POL": "Uchwalenie: $BREAKDOWN$\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "WINDOW_TREASURY_BUDGET_CHANGE_TOP_LIEGE",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "@warning_icon! #X Only [CHARACTER.GetUIName] can enact a new budget#!",
+    "RUS": "@warning_icon! #X Только [CHARACTER.GetUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'можете', 'может')] принимать новый бюджет#!",
+    "POL": "@warning_icon! #X Uchwalić nowy budżet może wyłącznie [CHARACTER.GetUINameNotMe]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_reduction_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [treasury_ministry_budget|E] reduction",
+    "RUS": "Значительное урезание [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Znaczna obniżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_reduction_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [treasury_ministry_budget|E] reduction",
+    "RUS": "Умеренное урезание [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Średnia obniżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_reduction_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [treasury_ministry_budget|E] reduction",
+    "RUS": "Небольшое урезание [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Nieznaczna obniżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_increase_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [treasury_ministry_budget|E] increase",
+    "RUS": "Значительное увеличение [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Znaczna podwyżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_increase_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [treasury_ministry_budget|E] increase",
+    "RUS": "Умеренное увеличение [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Średnia podwyżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_ministry_increase_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [treasury_ministry_budget|E] increase",
+    "RUS": "Небольшое увеличение [Concept('treasury_ministry_budget', 'бюджета министерств')|E]",
+    "POL": "Nieznaczna podwyżka [Concept('treasury_ministry_budget', 'budżetu ministerialnego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_reduction_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [treasury_military_budget|E] reduction",
+    "RUS": "Значительное урезание [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Znaczna obniżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_reduction_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [treasury_military_budget|E] reduction",
+    "RUS": "Умеренное урезание [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Średnia obniżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_reduction_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [treasury_military_budget|E] reduction",
+    "RUS": "Небольшое урезание [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Nieznaczna obniżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_increase_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [treasury_military_budget|E] increase",
+    "RUS": "Значительное увеличение [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Znaczna podwyżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_increase_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [treasury_military_budget|E] increase",
+    "RUS": "Умеренное увеличение [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Średnia podwyżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_military_increase_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [treasury_military_budget|E] increase",
+    "RUS": "Небольшое увеличение [Concept('treasury_military_budget', 'военного бюджета')|E]",
+    "POL": "Nieznaczna podwyżka [Concept('treasury_military_budget', 'budżetu wojskowego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_reduction_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [governor_salary|E] reduction",
+    "RUS": "Значительное урезание [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Znaczna obniżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_reduction_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [governor_salary|E] reduction",
+    "RUS": "Умеренное урезание [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Średnia obniżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_reduction_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [governor_salary|E] reduction",
+    "RUS": "Небольшое урезание [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Nieznaczna obniżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_increase_large",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Large [governor_salary|E] increase",
+    "RUS": "Значительное увеличение [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Znaczna podwyżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_increase_medium",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Medium [governor_salary|E] increase",
+    "RUS": "Умеренное увеличение [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Średnia podwyżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_budget_salary_increase_small",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Small [governor_salary|E] increase",
+    "RUS": "Небольшое увеличение [Concept('governor_salary', 'жалования губернаторов')|E]",
+    "POL": "Nieznaczna podwyżka [Concept('governor_salary', 'wynagrodzenia gubernatora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "five_years_since_budget",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Five years since last budget enactment",
+    "RUS": "Пять лет с предыдущего принятия бюджета",
+    "POL": "Pięć lat od ostatniego uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "four_years_since_budget",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Four years since last budget enactment",
+    "RUS": "Четыре года с предыдущего принятия бюджета",
+    "POL": "Cztery lata od ostatniego uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "three_years_since_budget",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Three years since last budget enactment",
+    "RUS": "Три года с предыдущего принятия бюджета",
+    "POL": "Trzy lata od ostatniego uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "two_years_since_budget",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Two years since last budget enactment",
+    "RUS": "Два года с предыдущего принятия бюджета",
+    "POL": "Dwa lata od ostatniego uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "one_year_since_budget",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "One year since last budget enactment",
+    "RUS": "Один год с предыдущего принятия бюджета",
+    "POL": "Rok od ostatniego uchwalenia budżetu",
+    "BEL": ""
+  },
+  {
+    "KEY": "treasury_in_debt",
+    "FILE_PATH": "localization/belarusian/dlc/tgp/dlc_tgp_treasury_l_belarusian.json",
+    "ENG": "Treasury in debt",
+    "RUS": "Казна в долгах",
+    "POL": "Zadłużenie skarbca",
+    "BEL": ""
+  }
+]

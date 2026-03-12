@@ -1,0 +1,674 @@
+[
+  {
+    "KEY": "activity_debate",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Debate",
+    "RUS": "Дебаты",
+    "POL": "Debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_plural",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Debates",
+    "RUS": "Дебаты",
+    "POL": "Debaty",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_destination_selection",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "You can only host a $activity_debate$ in a [capital|E] belonging to you, your [movement_leader|E], your [liege|E] or [GetTitleByKey('h_china').GetName].",
+    "RUS": "Устраивать дебаты можно только в [Concept('capital', 'столице')|E], которая принадлежит вам, [Concept('movement_leader', 'лидеру вашего движения')|E], вашему [Concept('liege', 'сюзерену')|E] или державе [GetTitleByKey('h_china').GetName].",
+    "POL": "Debatę możesz zorganizować w [Concept('capital', 'stolicy')|E] należącej do ciebie, [Concept('movement_leader', 'przywódcy')|E] twojego ruchu, twojego [Concept('liege', 'seniora')|E] lub miejsca o nazwie [GetTitleByKey('h_china').GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_selection_tooltip",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Host the [GetActivityType('activity_debate').GetName] to vie for political power — seize control for yourself or your movement $activity_debate_host_rewards$",
+    "RUS": "Организовать #TOOLTIP:ACTIVITY_TYPE,activity_debate #L дебаты#!#!, чтобы побороться за политическое влияние или повысить силу вашего движения $activity_debate_host_rewards$",
+    "POL": "Zorganizuj aktywność o nazwie [GetActivityType('activity_debate').GetName|l], aby podjąć się rywalizacji o władzę polityczną – przejmij kontrolę w imieniu swoim lub swojego ruchu $activity_debate_host_rewards$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Merit, influence, #EMP power#! — These matter little if you are incapable of putting forth valid arguments for you and your cause.\\n\\nCall for a debate to convince others that you are worthy of more power, or challenge another movement to put your own in a more favorable position.",
+    "RUS": "Заслуги, влияние и #EMP власть#! ничего не значат, если вы не в состоянии привести весомые доводы в пользу своей точки зрения.\\n\\nОрганизуйте дебаты и убедите других, что вы заслуживаете большей власти, или же попытайтесь повысить силу своего движения, бросив вызов своим оппонентам.",
+    "POL": "Zasługi, wpływ, #EMP władza#! – to wszystko ma niewielkie znaczenie, jeśli nie potrafisz przedstawić sensownych argumentów na rzecz swojej sprawy.\\n\\nZwołaj debatę, aby przekonać ludzi, że zasługujesz na większą władzę, lub żeby zakwestionować inny ruch, zapewniając własnemu lepszą pozycję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_host_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$activity_debate_host_rewards$$activity_debate_guest_rewards$",
+    "RUS": "$activity_debate_host_rewards$$activity_debate_guest_rewards$",
+    "POL": "$activity_debate_host_rewards$$activity_debate_guest_rewards$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_host_rewards",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$[movement_power_i] [movement_power|E]\\n$BULLET_WITH_TAB$[influence_i|E] [influence|E]\\n$BULLET_WITH_TAB$[merit_i|E] [merit|E]",
+    "RUS": "\\n$BULLET_WITH_TAB$[movement_power_i] [movement_power|E]\\n$BULLET_WITH_TAB$[influence_i|E] [influence|E]\\n$BULLET_WITH_TAB$[merit_i|E] [merit|E]",
+    "POL": "\\n$BULLET_WITH_TAB$[movement_power_i] [movement_power|E]\\n$BULLET_WITH_TAB$[influence_i|E] [influence|E]\\n$BULLET_WITH_TAB$[merit_i|E] [merit|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_guest_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$May gain [disciples|E]\\n$BULLET_WITH_TAB$May increase your [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]",
+    "RUS": "\\n$BULLET_WITH_TAB$Можно получить [Concept('disciples', 'послушников')|E]\\n$BULLET_WITH_TAB$Можно получить [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('confucian_education').GetName( GetNullCharacter )]»",
+    "POL": "\\n$BULLET_WITH_TAB$Możliwość pozyskania [Concept('disciples', 'adeptów')|E]\\n$BULLET_WITH_TAB$Możliwość zwiększenia [Concept('trait_level_track_xp', 'doświadczenia cechy')|E] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_guest_rewards",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "\\n$BULLET_WITH_TAB$Participants may gain [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\\n$BULLET_WITH_TAB$Participants may gain an [elder|E]",
+    "RUS": "\\n$BULLET_WITH_TAB$Участники могут получить [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('confucian_education').GetName( GetNullCharacter )]»\\n$BULLET_WITH_TAB$Участники могут получить [Concept('elder', 'старейшину')|E]",
+    "POL": "\\n$BULLET_WITH_TAB$Uczestnicy mogą zyskać [trait_level_track_xp|El] [GetTrait('confucian_education').GetName( GetNullCharacter )|l]\\n$BULLET_WITH_TAB$Uczestnicy mogą pozyskać [Concept('elder', 'starszego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_base_cost",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Base Cost",
+    "RUS": "Базовая стоимость",
+    "POL": "Koszt podstawowy",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_predicted_cost",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Predicted Cost",
+    "RUS": "Ожидаемая стоимость",
+    "POL": "Przewidywany koszt",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_host_an_a",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "a",
+    "RUS": "$POSSESSIVE_SPECIAL$",
+    "POL": "$articleblank_blank$",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_province_kaifeng_palace_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#P ++ $building_type_kaifeng_palace_01$#!",
+    "RUS": "#P ++ $building_type_kaifeng_palace_01$#!",
+    "POL": "#P ++ $building_type_kaifeng_palace_01$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_province_desc_leader_capital_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#P + [capital|E] of [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] (your [movement_leader|E])#!",
+    "RUS": "#P + [Concept('capital', 'Столица')|E], откуда правит [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] ([Concept('movement_leader', 'лидер вашего движения')|E])#!",
+    "POL": "#P + [capital|E] osoby znanej jako [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUINameNotMe] (twojego [Concept('movement_leader', 'przywódcy ruchu')|E])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_province_desc_liege_capital_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#P + [capital|E] of your [liege|E]#!",
+    "RUS": "#P + [Concept('capital', 'Столица')|E] вашего [Concept('liege', 'сюзерена')|E]#!",
+    "POL": "#P + [capital|E] twojego [Concept('liege', 'seniora')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_location_validity_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Not a [capital|E] belonging to you, your [movement_leader|E], your [liege|E] or [GetTitleByKey('h_china').GetName]",
+    "RUS": "Не является вашей [Concept('capital', 'столицей')|E], столицей [Concept('movement_leader', 'лидера вашего движения')|E], вашего [Concept('liege', 'сюзерена')|E] или державы [GetTitleByKey('h_china').GetName]",
+    "POL": "Nie jest [Concept('capital', 'stolicą')|E] należącą do ciebie, [Concept('movement_leader', 'przywódcy')|E] twojego ruchu, twojego [Concept('liege', 'seniora')|E] ani miejsca o nazwie [GetTitleByKey('h_china').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_guest_help_text",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Any invited [activity_guests|E] will spectate or participate in the debate. Successful arguments gives [movement_power|E], or detracts power from another movement. Attending the debates is a good opportunity to gain [merit|E], further a [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E], and potentially secure an [elder|E]",
+    "RUS": "Приглашенные [Concept('activity_guests', 'гости')|E] могут принимать участие в дебатах или просто наблюдать за ними. Убедительные доводы повышают [Concept('movement_power', 'силу вашего движения')|E] или снижают силу другого движения. Кроме того, присутствие на мероприятии дает возможность получить [Concept('merit', 'заслуги')|E], заработать [Concept('trait_level_track_xp', 'опыт свойства')|E] «[GetTrait('confucian_education').GetName( GetNullCharacter )]» и стать послушником у [Concept('elder', 'старейшины')|E].",
+    "POL": "Każdy z zaproszonych [Concept('activity_guests', 'gości aktywności')|E] będzie obserwatorem lub uczestnikiem debaty. Przekonujące argumenty zwiększają [Concept('movement_power', 'siłę ruchu')|E] lub odbierają ją innemu ruchowi. Uczestnictwo w debatach stanowi dobrą okazję na zdobycie [Concept('merit', 'zasług')|E], zwiększenie [Concept('trait_level_track_xp', 'doświadczenia cechy')|E] [GetTrait('confucian_education').GetName( GetNullCharacter )|l] i – potencjalnie – pozyskanie [Concept('elder', 'starszego')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "reached_disciple_limit",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "You have reached the maximum amount of disciples",
+    "RUS": "Вы набрали максимальное количество послушников",
+    "POL": "Osiągnięto maksymalną liczbę adeptów",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_already_the_favored_movement",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The [GetPlayer.Custom('GetMyMovementNoTooltip')] is already the [favored_movement|E]",
+    "RUS": "[GetPlayer.Custom('GetMyMovementNoTooltip')] уже [favored_movement|El]",
+    "POL": "Ruch o nazwie [GetPlayer.Custom('GetMyMovementNoTooltip')] jest już [Concept('favored_movement', 'faworyzowanym ruchem')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "is_already_leader_and_favored_movement",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The [GetPlayer.Custom('GetMyMovementNoTooltip')] is already the [favored_movement|E] and [GetPlayer.GetShortUIName] are its [movement_leader|E]",
+    "RUS": "Движение «[GetPlayer.Custom('GetMyMovementNoTooltip')]» уже является [Concept('favored_movement', 'предпочитаемым')|E], а [GetPlayer.GetShortUIName] — его [Concept('movement_leader', 'лидер')|E]",
+    "POL": "Ruch o nazwie [GetPlayer.Custom('GetMyMovementNoTooltip')] jest już [Concept('favored_movement', 'faworyzowanym ruchem')|E], a [GetPlayer.GetShortUINameNotMe] jest jego [Concept('movement_leader', 'przywódcą')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gained_many_disciples",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Gained [disciple_3.GetShortUIName|U], [disciple_2.GetShortUIName], and [disciple_1.GetShortUIName|U] as [disciples|E]",
+    "RUS": "Получены [disciple_3.GetShortUIName], [disciple_2.GetShortUIName] и [disciple_1.GetShortUIName] в качестве [Concept('disciples', 'послушников')|E]",
+    "POL": "Pozyskujesz osoby znane jako [disciple_3.GetShortUINameNotMe], [disciple_2.GetShortUINameNotMe] i [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gained_few_disciples",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Gained [disciple_2.GetShortUIName|U] and [disciple_1.GetShortUIName] as [disciples|E]",
+    "RUS": "Получены [disciple_2.GetShortUIName] и [disciple_1.GetShortUIName] в качестве [Concept('disciples', 'послушников')|E]",
+    "POL": "Pozyskujesz osoby znane jako [disciple_2.GetShortUINameNotMe] i [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gained_one_disciple",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Gained [disciple_1.GetShortUIName|U] as [disciple|E]",
+    "RUS": "[Select_CString(disciple_1.IsFemale, 'Получена', 'Получен' )] [disciple_1.GetShortUIName] в качестве [Concept('disciple', 'послушника')|E]",
+    "POL": "Pozyskujesz osobę znaną jako [disciple_1.GetShortUINameNotMe] do grona swoich [Concept('disciples', 'adeptów')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "gained_new_elder_tt",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Gained [guest.MakeScope.Var('new_elder').Char.GetFirstName] as elder",
+    "RUS": "[Select_CString(guest.MakeScope.Var('new_elder').Char.IsFemale, 'Получена', 'Получен' )] [guest.MakeScope.Var('new_elder').Char.GetFirstName] в качестве старейшины",
+    "POL": "Osoba znana jako [guest.MakeScope.Var('new_elder').Char.GetFirstName] zostaje twoim starszym",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_window_character_honorary_guest_leader",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[Concept('movement_leader','Challenged Leader')|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "RUS": "[Concept('movement_leader', 'Получивший вызов лидер')|E]\\n[Character.GetShortUINameNoTooltip|U]",
+    "POL": "[Concept('movement_leader', 'Zakwestionowany przywódca')|E]\\n[Character.GetShortUINameNotMeNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_debate_movement_members",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[GetPlayer.Custom('GetMyMovement')] Members",
+    "RUS": "Участники движения «[GetPlayer.Custom('GetMyMovement')]»",
+    "POL": "[GetPlayer.Custom('GetMyMovement')] – członkowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_invite_rule_debate_movement_other_members",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Other Movement Members",
+    "RUS": "Участники другого движения",
+    "POL": "Inni członkowie ruchu",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_leader_for_host",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Movement Leader",
+    "RUS": "Лидер движения",
+    "POL": "Przywódca ruchu",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_leader_desc_for_host",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Challenged leader of the [GetPlayer.Custom('GetMyMovement')]",
+    "RUS": "Брошен вызов лидеру движения «[GetPlayer.Custom('GetMyMovement')]»",
+    "POL": "Zakwestionowano pozycję przywódcy ruchu o nazwie [GetPlayer.Custom('GetMyMovement')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "movement_leader",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Challenged Movement Leader",
+    "RUS": "Брошен вызов лидеру движения",
+    "POL": "Zakwestionowano pozycję przywódcy ruchu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ACTIVITY_GUEST_IS_IMPERIAL_REASON",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Activity is $debate_type_favor$",
+    "RUS": "Занятие — $debate_type_favor$",
+    "POL": "Aktywność to cesarska debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_phase_discussion",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Preparation",
+    "RUS": "Подготовка",
+    "POL": "Przygotowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_phase_discussion_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The study halls are alive with polite discussions, as debaters try to deduce what positions are the most strategic.",
+    "RUS": "В залах проходят вежливые беседы, в ходе которых дебатеры пытаются выстроить свою стратегию спора.",
+    "POL": "W klasach rozbrzmiewają uprzejme dyskusje, w trakcie których uczestnicy debaty próbują określić najbardziej strategiczne pozycje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_phase_debate",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Debate",
+    "RUS": "Дебаты",
+    "POL": "Debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_phase_debate_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The time for orderly debate has come. Only the sharpest mind will prevail.",
+    "RUS": "Пришло время начать дебаты. Пусть победит обладатель самого острого ума!",
+    "POL": "Nadszedł czas na oficjalną debatę. Zwycięży ten, kto wykaże się najświatlejszym umysłem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_type_leadership",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Debate $Movement$",
+    "RUS": "Дебаты внутри движения",
+    "POL": "$Movement$ – debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_type_leadership_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ Debate members of your movement to become [movement_leader|E]\\n\\n#weak By wit or cunning, I will be in charge.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Устроить дебаты с членами своего движения, чтобы стать его [Concept('movement_leader', 'лидером')|E]\\n\\n#weak Умом или хитростью я добьюсь своего.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Debatuj z członkami swojego ruchu, aby zostać jego [Concept('movement_leader', 'przywódcą')|E]\\n\\n#weak Na czele ruchu stanę ja – czy to przy pomocy wiedzy, czy sprytu.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_type_favor",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Imperial Debate",
+    "RUS": "Имперские дебаты",
+    "POL": "Cesarska debata",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_type_favor_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$ Debate another movement before [son_of_heaven|E] to make the [GetPlayer.Custom('GetMyMovementNoTooltip')] the [favored_movement|E]\\n\\n#weak A ship ought to be steered by the right crew.#!",
+    "RUS": "$EFFECT_LIST_BULLET$ Устроить дебаты с другим движением в присутствии [Concept('son_of_heaven', 'Сына Неба')|E], чтобы сделать движение «[GetPlayer.Custom('GetMyMovementNoTooltip')]» [Concept('favored_movement', 'предпочитаемым')|E]\\n\\n#weak Без правильной команды корабль не поплывет.#!",
+    "POL": "$EFFECT_LIST_BULLET$ Debatuj z członkiem innego ruchu w obecności [Concept('son_of_heaven', 'syna niebios')|E], aby ruch o nazwie [GetPlayer.Custom('GetMyMovementNoTooltip')] stał się [Concept('favored_movement', 'faworyzowanym ruchem')|E]\\n\\n#weak Sterowanie okrętem należy powierzyć odpowiedniej załodze.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_option_books",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$adult_education_option_books$",
+    "RUS": "$adult_education_option_books$",
+    "POL": "$adult_education_option_books$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_bad",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$adult_education_books_bad$",
+    "RUS": "$adult_education_books_bad$",
+    "POL": "$adult_education_books_bad$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_bad_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$Decreased [gold|E] cost\\n\\n#weak I carry my learnings with me wherever I go. Only those uncertain of their claims needs to hide behind the arguments of other scholars.#!",
+    "RUS": "$EFFECT_LIST_BULLET$Снижает затраты [Concept('gold', 'золота')|E]\\n\\n#weak Я всегда ношу с собой свои собственные записи, а на тексты других ученых пусть полагаются те, кто не уверен в своих знаниях.#!",
+    "POL": "$EFFECT_LIST_BULLET$Niższy koszt w [Concept('gold', 'złocie')|E]\\n\\n#weak Całą niezbędną wiedzę mam w głowie. Tylko ktoś niepewny swojego stanowiska musi chować się za słowami innych uczonych.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_normal",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Scrolls and Notes",
+    "RUS": "Свитки и заметки",
+    "POL": "Zwoje i zapiski",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_normal_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$Slightly increased Activity Success\\n\\n#weak I need only the essential texts and commentaries to make my arguments.#!",
+    "RUS": "$EFFECT_LIST_BULLET$Немного повышает вероятность успеха занятия\\n\\n#weak Для обоснования своей точки зрения мне необходимы лишь несколько наиболее важных текстов и комментарии к ним.#!",
+    "POL": "$EFFECT_LIST_BULLET$Nieznacznie większy sukces aktywności\\n\\n#weak Do umotywowania swojego stanowiska potrzebuję tylko podstawowych tekstów i analiz.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_good",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$adult_education_books_good$",
+    "RUS": "$adult_education_books_good$",
+    "POL": "$adult_education_books_good$",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_books_good_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$EFFECT_LIST_BULLET$Increased Activity Success\\n\\n#weak I shall bring a veritable fount of knowledge to impress guests and back my arguments.#!",
+    "RUS": "$EFFECT_LIST_BULLET$Повышает вероятность успеха занятия\\n\\n#weak Я возьму с собой множество текстов, которые помогут мне представить свои доводы и произвести впечатление на гостей.#!",
+    "POL": "$EFFECT_LIST_BULLET$Większy sukces aktywności\\n\\n#weak Wezmę ze sobą istną skarbnicę wiedzy i umotywuję swoje stanowisko, imponując przy tym gościom#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_argument_major_decrease_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#N #bold Major decrease#!#! to your #V Chance of Success#!",
+    "RUS": "#N #bold Значительное снижение#!#! ваших #V шансов на успех#!",
+    "POL": "#N #bold Znaczny spadek#!#! twojej #V szansy powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_argument_moderate_decrease_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#N Moderate decrease#! to your #V Chance of Success#!",
+    "RUS": "#N Умеренное снижение#! ваших #V шансов на успех#!",
+    "POL": "#N Umiarkowany spadek#! twojej #V szansy powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_argument_moderate_increase_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#P Moderate increase#! to your #V Chance of Success#!",
+    "RUS": "#P Умеренное повышение#! ваших #V шансов на успех#!",
+    "POL": "#P Umiarkowany wzrost#! twojej #V szansy powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_argument_major_increase_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#P #bold Major increase#!#! to your #V Chance of Success#!",
+    "RUS": "#P #bold Значительное повышение#!#! ваших #V шансов на успех#!",
+    "POL": "#P #bold Znaczny wzrost#!#! twojej #V szansy powodzenia#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.crowd_approval_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe spectators nod in agreement.",
+    "RUS": "\\n\\nЗрители согласно кивают.",
+    "POL": "\\n\\nWidzowie z aprobatą przytakują.",
+    "BEL": ""
+  },
+  {
+    "KEY": "tgp_dynastic_cycle_decision_event.crowd_disapproval_desc",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "\\n\\nThe spectators shake their heads in disapproval.",
+    "RUS": "\\n\\nЗрители неодобрительно качают головами.",
+    "POL": "\\n\\nWidzowie z dezaprobatą kręcą głowami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_conclusion_desc_leadership_winner",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The debate for the leadership of [GetPlayer.Custom('GetMyMovement')] is complete, with me declared as the victor!",
+    "RUS": "Дебаты за главенство в движении «[GetPlayer.Custom('GetMyMovement')]» завершены, меня объявили победителем!",
+    "POL": "Debata o przywództwo w ruchu o nazwie [GetPlayer.Custom('GetMyMovement')] dobiegła końca i to mnie ogłoszono zwycięzcą!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_conclusion_desc_leadership_loser",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "My plans were foiled and [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] remains leader of the [GetPlayer.Custom('GetMyMovement')].",
+    "RUS": "Мои планы провалились, [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] остается лидером движения «[GetPlayer.Custom('GetMyMovement')]».",
+    "POL": "Moje plany zostały udaremnione, a [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] wciąż zajmuje pozycję przywódcy ruchu o nazwie [GetPlayer.Custom('GetMyMovement')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_conclusion_desc_leadership_challenged_loser",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] is declared leader of the [GetPlayer.Custom('GetMyMovement')] despite my efforts.",
+    "RUS": "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] объявлен лидером движения «[GetPlayer.Custom('GetMyMovement')]», несмотря на мои усилия.",
+    "POL": "Pomimo moich starań to [Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] zostaje przywódcą ruchu znanego jako [GetPlayer.Custom('GetMyMovement')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_conclusion_desc_favor_winner",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The debate for the [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] favor is complete, with the [GetPlayer.Custom('GetMyMovement')] declared the victor!",
+    "RUS": "Дебаты завершены, теперь [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] благосклонно относится к движению «[GetPlayer.Custom('GetMyMovement')]»!",
+    "POL": "Debata o przychylność osoby, którą jest [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] dobiegła końca, a ruch o nazwie [GetPlayer.Custom('GetMyMovement')] odniósł zwycięstwo!",
+    "BEL": ""
+  },
+  {
+    "KEY": "activity_debate_conclusion_desc_favor_loser",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "I have not been successful in securing the [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] favor for the [GetPlayer.Custom('GetMyMovement')]. I will have to try harder next time.",
+    "RUS": "Мне не удалось добиться успеха, [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] ничуть не лучше относится к движению «[GetPlayer.Custom('GetMyMovement')]». В следующий раз нужно приложить больше усилий.",
+    "POL": "Nie udało mi się zapewnić ruchowi o nazwie [GetPlayer.Custom('GetMyMovement')] przychylności osoby, którą jest [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]. Następnym razem muszę się bardziej postarać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_conclusion_fallback",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "The [GetActivityType( 'activity_debate' ).GetName] has drawn to a close.",
+    "RUS": "[GetActivityType( 'activity_debate' ).GetName] завершились.",
+    "POL": "Aktywność, którą jest [GetActivityType( 'activity_debate' ).GetName] dobiegła końca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_become_movement_leader_reward_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Leadership Seized",
+    "RUS": "Лидерство захвачено",
+    "POL": "Przejęte przywództwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_become_movement_leader_reward",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[debate_winner.GetShortUIName] won the debate and became the new [movement_leader|E] of the [debate_winner.Custom('GetMyMovement')]",
+    "RUS": "[debate_winner.GetShortUIName] [Select_CString(debate_winner.IsLocalPlayer, 'выиграли', Select_CString(debate_winner.IsFemale, 'выиграла', 'выиграл' ))] дебаты, став новым [Concept('movement_leader', 'лидером движения')|E] «[debate_winner.Custom('GetMyMovement')]»",
+    "POL": "Osoba znana jako [debate_winner.GetShortUINameNotMe] zwyciężyła w debacie i zostaje nowym [Concept('movement_leader', 'przywódcą ruchu')|E] o nazwie [debate_winner.Custom('GetMyMovement')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_remain_movement_leader_reward_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Leadership Defended",
+    "RUS": "Лидерство удалось отстоять",
+    "POL": "Zachowane przywództwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_remain_movement_leader_reward",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[debate_winner.GetShortUIName] won the debate and remains [movement_leader|E] of the [debate_winner.Custom('GetMyMovement')]",
+    "RUS": "[debate_winner.GetShortUIName] [Select_CString(debate_winner.IsLocalPlayer, 'выиграли', Select_CString(debate_winner.IsFemale, 'выиграла', 'выиграл' ))] дебаты, оставшись [Concept('movement_leader', 'лидером движения')|E] «[debate_winner.Custom('GetMyMovement')]»",
+    "POL": "Osoba znana jako [debate_winner.GetShortUINameNotMe] zwyciężyła w debacie i wciąż pozostaje [Concept('movement_leader', 'przywódcą ruchu')|E] o nazwie [debate_winner.Custom('GetMyMovement')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_increase_movement_power_reward_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Movement Strengthened",
+    "RUS": "Движение усилилось",
+    "POL": "Ruch wzmocniony",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_increase_movement_power_reward",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Gained [movement_power|E]",
+    "RUS": "Получена [Concept('movement_power', 'сила')|E]",
+    "POL": "Zyskano [Concept('movement_power', 'siłę ruchu')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_loss_cost_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Lost Debate",
+    "RUS": "Проигранные дебаты",
+    "POL": "Przegrano debatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_loss_cost",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Losses",
+    "RUS": "Потери",
+    "POL": "Straty",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_host_rewards_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Hosted Debate",
+    "RUS": "Организатор дебатов",
+    "POL": "Zorganizowano debatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "debate_guest_rewards_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "Attended Debate",
+    "RUS": "Посещение дебатов",
+    "POL": "Wzięto udział w debacie",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_movement_ridiculed_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "[second.GetShortUIName|U] ridiculed [first.GetShortUINamePossessive|U] movement.",
+    "RUS": "[second.GetShortUIName|U] [Select_CString(second.IsLocalPlayer, 'высмеяли', Select_CString(second.IsFemale, 'высмеяла', 'высмеял' ))] движение [Select_CString(first.IsLocalPlayer, 'вашего персонажа', Concatenate('персонажа ', first.GetShortUIName|U))].",
+    "POL": "[second.GetShortUINameNotMe] szydzi z ruchu, do którego należy osoba znana jako [first.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_debate_brought_huangdi_gift_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$apa_brought_huangdi_gift_title$",
+    "RUS": "$apa_brought_huangdi_gift_title$",
+    "POL": "$apa_brought_huangdi_gift_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_debate_entrant_disagreement_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$apa_entrant_disagreement_title$",
+    "RUS": "$apa_entrant_disagreement_title$",
+    "POL": "$apa_entrant_disagreement_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_debate_found_disciple_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$apa_found_disciple_title$",
+    "RUS": "$apa_found_disciple_title$",
+    "POL": "$apa_found_disciple_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "apa_debate_fruitful_debate_title",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$apa_impressed_teacher_title$",
+    "RUS": "$apa_impressed_teacher_title$",
+    "POL": "$apa_impressed_teacher_title$",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_TITLE_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "#T Debate Sentiment#!",
+    "RUS": "#T Оспорить утверждение#!",
+    "POL": "#T Debatowe sentymenty#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_GENERAL_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\nA debate is evaluated based on the performance of each participant. Whoever is able to most efficiently sway the spectator(s) will be more likely to be proclaimed winner.",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\nДебаты оцениваются в зависимости от того, как выступил каждый из участников. Обычно победителем становится тот, кому удается склонить аудиторию на свою сторону.",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\nWynik debaty jest ustalany na podstawie wystąpień jej uczestników. Na zwycięstwo największe szanse ma ten, kto najskuteczniej przekona widownię do swoich racji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_YOU_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\nHow likely [Activity.MakeScope.Var('debate_contender').Char.GetShortUIName] [CharAreIs(Character)] to win the debate",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\nВероятность того, что [Activity.MakeScope.Var('debate_contender').Char.GetShortUIName] [Select_CString(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, 'станете', 'станет')] победителем дебатов",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\nZ jakim prawdopodobieństwem [Activity.MakeScope.Var('debate_contender').Char.GetShortUINameNotMe] wygra debatę",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_OPPONENT_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\nHow likely [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] to win the debate and stay in power",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\nВероятность того, что [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [Select_CString(Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer, 'станете', 'станет')] победителем дебатов и сохранит власть",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\nZ jakim prawdopodobieństwem [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUINameNotMe] wygra debatę i pozostanie przy władzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_1_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] will win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, 'выиграете', 'выиграет')]",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUINameNotMe] zwycięży",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_2_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] heavily favored to win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, 'лидируете', 'лидирует')] с заметным перевесом",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUINameNotMe] to mocny faworyt do zwycięstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_3_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] slightly favored to win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, 'лидируете', 'лидирует')] с незначительным перевесом",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUINameNotMe] to poniekąd faworyt do zwycięstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_4_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] and [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] have an equal chance of winning",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] и [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [Select_CString(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, 'имеете', Select_CString(Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer, 'имеете', 'имеют'))] равные шансы на победу",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUINameNotMe] i [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUINameNotMe] mają równe szanse na zwycięstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_5_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] slightly favored to win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer, 'лидируете', 'лидирует')] с незначительным перевесом",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUINameNotMe] to poniekąd faworyt do zwycięstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_6_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] heavily favored to win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer, 'лидируете', 'лидирует')] с заметным перевесом",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUINameNotMe] to mocny faworyt do zwycięstwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "DEBATE_PROGRESS_MARKER_7_TT",
+    "FILE_PATH": "localization/belarusian/activities/debate_activity_l_belarusian.json",
+    "ENG": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] will win",
+    "RUS": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Select_CString(Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer, 'выиграете', 'выиграет')]",
+    "POL": "$DEBATE_PROGRESS_TITLE_TT$\\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUINameNotMe] zwycięży",
+    "BEL": ""
+  }
+]

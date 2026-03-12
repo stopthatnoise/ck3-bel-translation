@@ -1,0 +1,242 @@
+[
+  {
+    "KEY": "I_AM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "I am being held hostage",
+    "RUS": "Меня держат в заложниках",
+    "POL": "Jestem przetrzymywan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] jako zakładni[Select_CString(CHARACTER.IsFemale, 'czka', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "I am not a hostage",
+    "RUS": "Я не заложник",
+    "POL": "Nie jestem przetrzymywan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] jako zakładni[Select_CString(CHARACTER.IsFemale, 'czka', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] is being held hostage",
+    "RUS": "[CHARACTER.GetName] удерживается в заложниках",
+    "POL": "[CHARACTER.GetName] jest przetrzymywan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] jako zakładni[Select_CString(CHARACTER.IsFemale, 'czka', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] is not being held hostage",
+    "RUS": "[CHARACTER.GetName] не удерживается в заложниках",
+    "POL": "[CHARACTER.GetName] nie jest przetrzymywan[Select_CString(CHARACTER.IsFemale, 'a', 'y' )] jako zakładni[Select_CString(CHARACTER.IsFemale, 'czka', 'k' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_AM_HOSTAGE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "I am a warden",
+    "RUS": "Я принимающая сторона",
+    "POL": "Jestem kurator[Select_CString(CHARACTER.IsFemale, 'ką', 'em' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_AM_HOSTAGE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "I am not a warden",
+    "RUS": "Я не принимающая сторона",
+    "POL": "Nie jestem kurator[Select_CString(CHARACTER.IsFemale, 'ką', 'em' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_ARE_HOSTAGE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] are a warden",
+    "RUS": "[CHARACTER.GetName] — принимающая сторона",
+    "POL": "[CHARACTER.GetName] jest kurator[Select_CString(CHARACTER.IsFemale, 'ką', 'em' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_ARE_HOSTAGE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] are not a warden",
+    "RUS": "[CHARACTER.GetName] не принимающая сторона",
+    "POL": "[CHARACTER.GetName] nie jest kurator[Select_CString(CHARACTER.IsFemale, 'ką', 'em' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_HOSTAGES_ABROAD",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName|U] have hostages abroad",
+    "RUS": "[CHARACTER.GetName|U] имете заложников заграницей",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Mam', Concatenate(CHARACTER.GetName, ' ma' ))|U] zakładników za granicą",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_HOSTAGES_ABROAD",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName|U] doesn't have hostages abroad",
+    "RUS": "[CHARACTER.GetName|U] не имеете заложников заграницей",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Nie mam', Concatenate(CHARACTER.GetName, ' nie ma' ))|U] zakładników za granicą",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_HOSTAGES_ABROAD",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] has hostages abroad",
+    "RUS": "[CHARACTER.GetName] имеет заложников заграницей",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Mam', Concatenate(CHARACTER.GetName, ' ma' ))|U] zakładników za granicą",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_HOSTAGES_ABROAD",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetName] doesn't have hostages abroad",
+    "RUS": "[CHARACTER.GetName] не имеет заложников заграницей",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Nie mam', Concatenate(CHARACTER.GetName, ' nie ma' ))|U] zakładników za granicą",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] are held hostage by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] находитесь в заложниках у персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate( CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] are not held hostage by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] не находитесь в заложниках у персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate( CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] are held hostage by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] находится в заложниках у персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate( CHARACTER.GetShortUINameNotMe , Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_WARDEN",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] are not held hostage by [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] не находится в заложниках у персонажа [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate( CHARACTER.GetShortUINameNotMe , Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] postaci [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_HAVE_HOME_COURT",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] home court is [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] считаете родным двором тот, где правит [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Moim rodzimym dworem', Concatenate( 'Rodzimym dworem postaci ', CHARACTER.GetShortUINameNotMe))|U] włada [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_HAVE_HOME_COURT",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] home court is not [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] не считаете родным двором тот, где правит [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Moim rodzimym dworem', Concatenate( 'Rodzimym dworem postaci ', CHARACTER.GetShortUINameNotMe))|U] nie włada [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_HAVE_HOME_COURT",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] home court is [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] считает родным двором тот, где правит [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Moim rodzimym dworem', Concatenate( 'Rodzimym dworem postaci ', CHARACTER.GetShortUINameNotMe))|U] włada [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_HAVE_HOME_COURT",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUINamePossessive|U] home court is not [TARGET_CHARACTER.GetShortUIName]",
+    "RUS": "[CHARACTER.GetShortUIName|U] не считает родным двором тот, где правит [TARGET_CHARACTER.GetShortUIName]",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, 'Moim rodzimym dworem', Concatenate( 'Rodzimym dworem postaci ', CHARACTER.GetShortUINameNotMe))|U] nie włada [TARGET_CHARACTER.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_WAS_CHILD_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have been a hostage since childhood",
+    "RUS": "[CHARACTER.GetShortUIName|U] удерживались в заложниках с детства",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] od dzieciństwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_WAS_CHILD_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have not been a hostage since childhood",
+    "RUS": "[CHARACTER.GetShortUIName|U] не удерживались в заложниках с детства",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] od dzieciństwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_WERE_CHILD_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have been a hostage since childhood",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'удерживалась', 'удерживался' )] в заложниках с детства",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] od dzieciństwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_WERE_CHILD_HOSTAGE",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have not been a hostage since childhood",
+    "RUS": "[CHARACTER.GetShortUIName|U] не [Select_CString(CHARACTER.IsFemale, 'удерживалась', 'удерживался' )] в заложниках с детства",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] od dzieciństwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "I_WAS_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have been a hostage for $TIME|V$",
+    "RUS": "[CHARACTER.GetShortUIName|U] были в заложниках $TIME|V$",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] przez $TIME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_I_WAS_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have not been a hostage for $TIME|V$",
+    "RUS": "[CHARACTER.GetShortUIName|U] не были в заложниках $TIME|V$",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] przez $TIME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "THEY_WERE_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have been a hostage for $TIME|V$",
+    "RUS": "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'была', 'был' )] в заложниках $TIME|V$",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Byłam', 'Byłem' ), Concatenate(CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' była', ' był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] przez $TIME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_THEY_WERE_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "[CHARACTER.GetShortUIName|U] have not been a hostage for $TIME|V$",
+    "RUS": "[CHARACTER.GetShortUIName|U] не [Select_CString(CHARACTER.IsFemale, 'была', 'был' )] в заложниках $TIME|V$",
+    "POL": "[Select_CString( CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'Nie byłam', ' Nie byłem' ), Concatenate( CHARACTER.GetShortUINameNotMe, Select_CString(CHARACTER.IsFemale, ' nie była', ' nie był' ) ))|U] zakładni[Select_CString(CHARACTER.IsFemale, 'czką', 'kiem' )] przez $TIME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "GLOBAL_WAS_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "Time spent as a hostage is $TIME|V$",
+    "RUS": "Проведено $TIME|V$ в качестве заложника",
+    "POL": "Czas spędzony jako zakładnik to $TIME|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "NOT_GLOBAL_WAS_HOSTAGE_FOR",
+    "FILE_PATH": "localization/belarusian/triggers/hostage_triggers_l_belarusian.json",
+    "ENG": "Time spent as a hostage is not $TIME|V$",
+    "RUS": "Проведено не $TIME|V$ в качестве заложника",
+    "POL": "Czas spędzony jako zakładnik to nie $TIME|V$",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,2602 @@
+[
+  {
+    "KEY": "petition_liege_header",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Petition:",
+    "RUS": "Обращение:",
+    "POL": "Prośba o audiencję:",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "RUS": "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "POL": "[petition_vassal.Custom2('AppropriateGreetingPositive', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My entourage and I have just arrived in [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] after wearying travel to meet with you.\\n\\nI request an audience at your earliest convenience.",
+    "RUS": "Я и моя свита только возвращаемся после долгого изнурительного путешествия. Вот наконец и [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\\n\\nЯ прошу аудиенции и надеюсь получить ее как можно скорее.",
+    "POL": "Moja świta i ja mamy za sobą męczącą podróż, ale nareszcie udało nam się dotrzeć do miejsca o nazwie [petition_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\\n\\nGorąco liczę, że w niedługim czasie zechcesz udzielić mi audiencji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Fetch [petition_vassal.GetTitledFirstNameNoTooltip] and bring [petition_vassal.GetHerHim] to me!",
+    "RUS": "Подать [petition_vassal.GetHersHis] сюда!",
+    "POL": "Niech [petition_vassal.GetTitledFirstNameNoTooltip] przyjdzie do mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You receive [petition_vassal.GetTitledFirstName] in your [royal_court|E]",
+    "RUS": "[petition_vassal.GetTitledFirstName] прибывает на прием к вашему [Concept( 'royal_court', 'двору' )|E]",
+    "POL": "[petition_vassal.GetTitledFirstName] pojawia się na twoim [Concept( 'royal_court', 'dworze monarszym' )|E] ",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I am too busy to deal with [petition_vassal.GetHerHim] right now.",
+    "RUS": "У меня слишком много дел, [petition_vassal.GetHerHim] подождет.",
+    "POL": "Jestem zbyt zajęt[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], by się teraz ni[Select_CString( petition_vassal.IsFemale, 'ą', 'm' )] zajmować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.b.arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Bah, I have no time to entertain a mere #EMP [petition_vassal.GetTitleAsNameNoTooltip]#!!",
+    "RUS": "Пф, [Select_CString(petition_vassal.IsFemale, 'какая-то', 'какой-то' )] #EMP [petition_vassal.GetTitleAsNameNoTooltip|l]#!. Мне некогда!",
+    "POL": "Pff, to tylko [Select_CString( petition_vassal.IsFemale, 'jakaś zwyczajna', 'jakiś zwyczajny' )] #EMP [petition_vassal.GetTitleAsNameNoTooltip|l]#!! Nie mam czasu [Select_CString( petition_vassal.IsFemale, 'jej', 'go' )] zabawiać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.b.humble",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Send [petition_vassal.GetTitledFirstNameNoTooltip] my deepest regrets that I cannot see [petition_vassal.GetHerHim].",
+    "RUS": "[petition_vassal.GetTitledFirstNameNoTooltip] не попадет ко мне на прием, но передайте [petition_vassal.GetHerHim] мое глубочайшее сожаление.",
+    "POL": "[petition_vassal.GetTitledFirstNameNoTooltip|U] teraz się ze mną nie spotka. Przekażcie [petition_vassal.GetHerHim] moje najgłębsze ubolewanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You send [petition_vassal.GetTitledFirstName] away",
+    "RUS": "[petition_vassal.GetTitledFirstName] уходит",
+    "POL": "Odsyłasz postać [petition_vassal.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0009.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[petition_liege.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Unfortunately you have arrived at a difficult time, and I must inform you that I am unable to receive you and your company in my halls.",
+    "RUS": "К сожалению, сейчас трудные времена, и я с прискорбием сообщаю, что не смогу принять вас и ваших сопровождающих в моем чертоге.",
+    "POL": "Niestety, przybył[Select_CString( ROOT.Char.IsFemale, 'aś', 'eś' )] w niewłaściwym momencie i muszę Cię poinformować, że nie mogę gościć w swoich salach ani ciebie, ani towarzyszących tobie osób.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Refusing to even #EMP listen#! to me? The nerve of that [petition_liege.GetWomanMan]!",
+    "RUS": "Не хочет даже #EMP выслушать#! меня? Какая наглость!",
+    "POL": "Odmawia mi nawet #EMP posłuchania#!? Co za bezczelny człowiek!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Gold",
+    "RUS": "$petition_liege_header$ Золото",
+    "POL": "$petition_liege_header$ złoto",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Council Appointment",
+    "RUS": "$petition_liege_header$ Назначение в совет",
+    "POL": "$petition_liege_header$ stanowisko w radzie",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Settle Debts",
+    "RUS": "$petition_liege_header$ Выплата долгов",
+    "POL": "$petition_liege_header$ uregulowanie zadłużenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Military Assistance",
+    "RUS": "$petition_liege_header$ Военная помощь",
+    "POL": "$petition_liege_header$ wsparcie wojskowe",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.end_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ End Vassal Wars",
+    "RUS": "$petition_liege_header$ Закончить войны вассалов",
+    "POL": "$petition_liege_header$ zakończenie wojny między wasalami",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Dismantle Faction",
+    "RUS": "$petition_liege_header$ Роспуск фракции",
+    "POL": "$petition_liege_header$ rozwiązanie frakcji",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Bailiff Request",
+    "RUS": "$petition_liege_header$ Нужен бейлиф",
+    "POL": "$petition_liege_header$ prośba o włodarza",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Sponsor Priests",
+    "RUS": "$petition_liege_header$ Поддержать священников",
+    "POL": "$petition_liege_header$ ufundowanie działalności kapłanów",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Royal Visit",
+    "RUS": "$petition_liege_header$ Монарший визит",
+    "POL": "$petition_liege_header$ wizyta monarsza",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Fortify Border",
+    "RUS": "$petition_liege_header$ Укрепить границу",
+    "POL": "$petition_liege_header$ wzmocnienie granicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Title Claimant",
+    "RUS": "$petition_liege_header$ Претендент на титул",
+    "POL": "$petition_liege_header$ prawo do tytułu",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Vassal Claimant",
+    "RUS": "$petition_liege_header$ Вассал-претендент",
+    "POL": "$petition_liege_header$ prawo do tytułu wasala",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Urban Development",
+    "RUS": "$petition_liege_header$ Развитие городов",
+    "POL": "$petition_liege_header$ rozwój obszarów miejskich",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Underwrite [petition_vassal.GetFaith.HouseOfWorship|U]",
+    "RUS": "$petition_liege_header$ [petition_vassal.GetFaith.HouseOfWorship|U]",
+    "POL": "$petition_liege_header$ [petition_vassal.GetFaith.HouseOfWorship] w budowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Develop Capital",
+    "RUS": "$petition_liege_header$ Улучшить столицу",
+    "POL": "$petition_liege_header$ rozwój stolicy",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.t.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ $japan_feudal_government$ Fief",
+    "RUS": "$petition_liege_header$ Феод сорё",
+    "POL": "$petition_liege_header$ lenno sōryō",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_vassal.GetTitledFirstName] is at last shown into my great hall, and wastes no time before walking up to my throne and bowing deeply. \\n\\n",
+    "RUS": "[petition_vassal.GetTitledFirstName] наконец-то появляется в моем зале и без промедления подходит к моему трону, отвешивая глубокий поклон. \\n\\n«Спасибо, что приняли меня, мой сюзерен. Я [Select_CString(petition_vassal.IsFemale, 'пришла', 'пришел' )] к вам с очень важной просьбой —",
+    "POL": "[petition_vassal.GetTitledFirstName] został[Select_CString( petition_vassal.IsFemale, 'a', '' )] wreszcie wprowadzon[Select_CString( petition_vassal.IsFemale, 'a', 'y' )] do mojej wielkiej sali i nie tracąc czasu, pod[Select_CString( petition_vassal.IsFemale, 'eszła', 'szedł' )] do mojego tronu i głęboko się ukłonił[Select_CString( petition_vassal.IsFemale, 'a', '' )]. \\n\\n„Dziękuję, że mnie dostrzegasz, m[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )]. Przychodzę do ciebie z naglącą prośbą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "please my [petition_liege.GetLadyLord], let me sit on your council.",
+    "RUS": "пожалуйста, [petition_liege.GetLadyLord], позвольте мне заседать в совете».\\n\\n«Мои способности остаются без внимания, тогда как [petition_vassal.GetWomenMen] куда более скромных талантов имеют возможность высказываться на высшем уровне. Я разделю бремя управления державой, а в вашем совете появится [petition_vassal.Custom('GetCouncilPositionRequest')] с выдающимися способностями».",
+    "POL": "Proszę cię, m[Select_CString( petition_liege.IsFemale, 'oja pani', 'ój panie' )], pozwól mi zasiąść w twojej radzie”.\\n\\n„Moje talenty są pomijane, podczas gdy niższej rangi [petition_vassal.GetWomenMen] mają wpływ na wiele istotnych spraw. Chcę dzielić ciężary państwa jako twój [petition_vassal.Custom('GetCouncilPositionRequest')|l]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I wonder if you could spare gold for a loyal subject, given my service and loyalty hence.",
+    "RUS": "не могли бы вы выделить немного золота для вашего покорного слуги в награду за мою преданную и верную службу?»\\n\\n«Клянусь, оно будет потрачено исключительно в интересах нашей державы».",
+    "POL": "\\n\\n– Pragnę poprosić o nieco złota w zamian za moją dotychczasową lojalność i służbę. Zapewniam, że zostanie ono wykorzystane z korzyścią dla państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I have run into some... financial difficulties, due to events entirely beyond my control.",
+    "RUS": "у меня возникли определенные... трудности с деньгами из-за не зависящих от меня событий».\\n\\n«Ради блага державы, не могли бы вы помочь мне расплатиться по счетам?»",
+    "POL": "Mam pewne… problemy finansowe, spowodowane wydarzeniami, na których zaistnienie nie miał[Select_CString( petition_vassal.IsFemale, 'am', 'em' )] żadnego wpływu”.\\n\\n„Dla dobra państwa, pomożesz mi wyrównać rachunki?”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the [petition_war.GetName] goes poorly; [second_party.GetTitledFirstNameNoTooltip] has the advantage. \\n\\nMy [petition_liege.GetLadyLord], my defeats are yours as well. Lend me your support, for the good of the realm.",
+    "RUS": "[petition_war.GetName] проходит неудачно для меня, и [second_party.GetTitledFirstNameNoTooltip] одерживает верх».\\n\\n«[petition_liege.GetLadyLord|U], мое поражение обернется поражением и для вас. Поддержите меня, ради блага державы».",
+    "POL": "[petition_war.GetName|U] idzie mi słabo; [second_party.GetTitledFirstNameNoTooltip] ma nade mną przewagę”.\\n\\n„M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], moje porażki są również twoimi. Użycz mi swego wsparcia, dla dobra państwa”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.end_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_party.GetTitledFirstNameNoTooltip] has been waging war upon me and your good, loyal subjects in [petition_vassal.GetPrimaryTitle.GetName]!",
+    "RUS": "[petition_vassal.GetPrimaryTitle.GetName] в страхе: [second_party.GetTitledFirstNameNoTooltip] [Select_CString(second_party.IsFemale, 'пошла', 'пошел' )] войной на меня и ваших верных подданных!»\\n\\n«Эта междоусобная грызня только ослабит нас! Не стоит ли подавить ее в зародыше?»",
+    "POL": "[second_party.GetTitledFirstNameNoTooltip] prowadzi wojnę przeciwko mnie oraz twoim lojalnym poddanym z ziem [petition_vassal.GetPrimaryTitle.GetAdjective]!\\n\\n– Ten wewnętrzny spór tylko nas osłabia! Czyż nie należy zdusić go w zarodku?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I am beset by [second_party.GetTitledFirstName] and [second_party.GetHerHis] [vassal_faction.GetNameNoTooltip|l]! \\n\\n",
+    "RUS": "мне не дают покоя [second_party.GetTitledFirstName] и [second_party.GetHerHis] [vassal_faction.GetNameNoTooltip|l]!»\\n\\n«Прошу вас, поставьте их на место, ради блага державы!»",
+    "POL": "[second_party.GetTitledFirstName] i [second_party.GetHerHis] [vassal_faction.GetNameNoTooltip|l] stale mnie osaczają!”\\n\\n „Proszę, dla dobra państwa musisz pokazać tym bezczelnym młokosom, gdzie jest ich miejsce!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the [petition_county_example.GetNameNoTooltip] is beset by dissenters who make collecting the taxes impossible!",
+    "RUS": "владение [petition_county_example.GetNameNoTooltip] полно иноверцев, которые препятствуют сбору налогов!»\\n\\n«Прошу вас, [petition_liege.GetLadyLord], помогите мне привести их к покорности, ради блага державы».",
+    "POL": "ziemie znane jako [petition_county_example.GetNameNoTierNoTooltip] zmagają się z oblężeniem dysydentów, którzy uniemożliwiają ściąganie podatków!\\n\\n– Proszę, [petition_liege.GetLadyLord] raczy pomóc mi w ujarzmieniu tych żmij dla dobra całego państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the [petition_county_example.GetNameNoTooltip] is beset by the virulent and godless [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip]!",
+    "RUS": "владение [petition_county_example.GetNameNoTooltip] заполонили опасные безбожники [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip|l]!»\\n\\n«Мои священники стараются как могут, но, боюсь, им потребуется помощь в очищении державы от зла».",
+    "POL": "bezbożni i plugawi [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] ciągle nękają ziemie znane jako [petition_county_example.GetNameNoTierNoTooltip]!\\n\\n– Moi kapłani robią, co mogą, lecz obawiam się, że potrzebna będzie pomoc państwa, aby wyplenić to zło.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "a malady of discontent prevails in my lands.",
+    "RUS": "беспорядки, словно зараза, ширятся по моим землям».\\n\\n«[petition_liege.GetLadyLord|U], наверняка люди успокоятся и вернутся к прежним делам, если их посетит [petition_liege.Custom('GetRoyalCourtRank')]».",
+    "POL": "moje ziemie zalewa fala niezadowolenia.\\n\\n– [petition_liege.GetLadyLord|U] raczy wysłuchać, mam pewność, że wizyta [petition_liege.Custom('GetRoyalCourtRank')] zmieniłaby nastawienie ludu i przywróciła je na właściwy poziom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "my lands stand between [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] and your enemies!",
+    "RUS": "мои земли являются пограничьем, с одной стороны которого [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], а с другой ваши враги!»\\n\\n«Владение [petition_county_example.GetNameNoTooltip] является одной из марок, и мы с вами в равной степени несем ответственность за его оборону».",
+    "POL": "[petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] oraz twoi wrogowie znajdują się po obu stronach mych ziem!\\n\\n– [petition_county_example.GetNameNoTooltip] to jedna z marchii państwa, której obrona jest obowiązkiem zarówno moim, jak i twoim.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "with respect your majesty, the [petition_claim.GetName] is rightfully mine!",
+    "RUS": "при всем уважении к вашему величеству, [petition_claim.GetName] по праву принадлежит мне!»\\n\\n«Вам принадлежит [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], [petition_liege.GetLadyLord], так почему бы не передать мне скромный титул — [petition_claim.GetTierAsNameNoTooltip|l] — на который у меня есть законные претензии?»",
+    "POL": "Z szacunkiem dla waszej wysokości, [petition_claim.GetName] to ziemie, które prawowicie należą się mnie!\\n\\n– [petition_liege.GetLadyLord|U] raczy zrozumieć, [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip] to potężne ziemie, więc co stoi na przeszkodzie, aby przekazać mi zaledwie ten jeden tytuł, do którego mam uzasadnione roszczenie? [petition_claim.GetTierAsNameNoTooltip] to moja własność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_party.GetTitledFirstNamePossessive] [petition_claim.GetName] is rightfully mine!",
+    "RUS": "[petition_claim.GetName], где сейчас правит [second_party.GetTitledFirstName], по праву принадлежит мне!»\\n\\n«[petition_liege.GetLadyLord|U], вы должны понимать, сколь важны претензии на земли, которыми мы владеем, а потому я прошу вас, пусть [second_party.GetTitleAsNameNoTooltip|l] откажется от того, что не принадлежит [second_party.GetHerHim]».",
+    "POL": "[petition_claim.GetName] to ziemie, którymi obecnie włada [second_party.GetTitledFirstName], choć prawowicie należą się one mnie!\\n\\n– [petition_liege.GetLadyLord|U] musi zrozumieć, jak ważne są roszczenia do należących do nas ziem. Proszę, [second_party.GetTitleAsNameNoTooltip|l] musi zrzec się tego, co stanowi naszą własność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the [petition_construct_county.GetName] has great potential but lacks needed infrastructure.",
+    "RUS": "[petition_construct_county.GetName] обладает большим потенциалом, но в этом владении не хватает инфраструктуры».\\n\\n«[petition_liege.GetLadyLord|U], если вы поддержите строительство нового города во владении [petition_construct.GetName], от одной только торговли выиграет вся держава».",
+    "POL": "[petition_construct_county.GetName] to ziemie o wielkim potencjale, choć brakuje tam niezbędnej infrastruktury.\\n\\nJeśli [petition_liege.GetLadyLord] raczy objąć patronat w zakresie założenia nowej miejscowości na terenie znanym jako [petition_construct.GetNameNoTier], zaowocuje to korzyściami dla całego państwa, a to biorąc pod uwagę jeno handel.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the [petition_construct_county.GetNamePossessiveNoTooltip] faithful are in need of a place of worship.",
+    "RUS": "верующим из владения [petition_construct_county.GetNameNoTooltip] негде молиться».\\n\\n«Для меня станет великой честью, если с вашей помощью во владении [petition_construct.GetName] появится [petition_liege.GetFaith.HouseOfWorship] для [petition_liege.GetFaith.GetNameNoTooltip|l]их верующих».",
+    "POL": "wierni z ziem znanych jako [petition_construct_county.GetNameNoTierNoTooltip] potrzebują miejsca, w którym mogliby oddawać cześć zgodnie z zasadami swojej religii.\\n\\n– Jeśli wspomożesz założenie ośrodka kultu, takiego jak [petition_liege.GetFaith.HouseOfWorship], na ziemiach znanych jako [petition_construct.GetName], gdzie praktykowana mogłaby być wiara [petition_liege.GetFaith.GetAdjectiveNoTooltip|l], zyskasz moje uniżone uznanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "my lands pale in comparison to your mighty capital.",
+    "RUS": "мои земли меркнут в сравнении с вашей величественной столицей».\\n\\n«Пожалуйста, поделитесь богатствами со скромными владением [petition_county_example.GetName], и от этого выиграет вся держава».",
+    "POL": "Moje skromne ziemie bledną w porównaniu z okazałością twojej potężnej stolicy”.\\n\\n„Proszę, niech część bogactw, które posiada [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], trafią do [petition_county_example.GetAdjective], a skorzysta na tym całe państwo”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "grant me hereditary rights and the opportunity to rule my own fief, so that the realm at large can prosper.",
+    "RUS": "даруйте мне наследственные права и возможность управлять собственным владением, дабы вся держава могла процветать».",
+    "POL": "Przyznaj mi prawo dziedziczenia i możliwość rządzenia własnym lennem, by całe państwo mogło na tym skorzystać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.council_first_councillor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nSo, [petition_vassal.GetSheHe] thinks [petition_vassal.GetSheHe] can do a better than job than [second_party.GetTitledFirstName]...",
+    "RUS": "\\n\\nЗначит, [petition_vassal.GetSheHe] думает, что справится лучше, чем [second_party.GetTitledFirstName]...",
+    "POL": "\\n\\nA więc myśli, że poradzi sobie lepiej niż [second_party.GetTitledFirstName]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.council_second_councillor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Perhaps I should replace [second_councillor.GetTitledFirstName] instead.",
+    "RUS": "Возможно, это [second_councillor.GetTitledFirstName] [Select_CString(second_councillor.IsFemale, 'должна', 'должен' )] уйти на покой.",
+    "POL": "Może to [second_councillor.GetTitledFirstName] [Select_CString( second_councillor.IsFemale, 'powinna', 'powinien' )] ustąpić miejsca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can spare some coin.",
+    "RUS": "Что ж, деньги у меня есть.",
+    "POL": "Mogę wyłuskać kilka monet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well, you will have your seat.",
+    "RUS": "Хорошо, вы получите свое место.",
+    "POL": "Zgoda, dostaniesz swoje miejsce w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.council_seat_occupied",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You will replace [second_party.GetTitledFirstNameNoTooltip] as my [second_party.GetCouncilTitle].",
+    "RUS": "Теперь [second_party.GetCouncilTitle] не [second_party.GetTitledFirstNameNoTooltip], а вы.",
+    "POL": "[second_party.GetCouncilTitle|U] [second_party.GetTitledFirstNameNoTooltip] utraci swoją pozycję na twoją rzecz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well, your debts are paid.",
+    "RUS": "Хорошо, ваши долги уплачены.",
+    "POL": "Bardzo dobrze, twoje długi zostały spłacone.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can spare some soldiers.",
+    "RUS": "Я могу отправить несколько солдат.",
+    "POL": "Mogę poświęcić kilku żołnierzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I see your point. Very well, I will force an end to your wars.",
+    "RUS": "Я понимаю, о чем ты. Хорошо, я силой прекращу ваши войны.",
+    "POL": "Rozumiem cię. Zgoda, wymuszę zakończenie waszych wojen.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "These traitors will have to answer to me.",
+    "RUS": "Эти предатели ответят передо мной.",
+    "POL": "Ci zdrajcy będą musieli odpowiedzieć przede mną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Order will be restored.",
+    "RUS": "Порядок будет восстановлен.",
+    "POL": "Porządek zostanie przywrócony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.DevilNamePossessive] children must be driven out.",
+    "RUS": "Все, кому покровительствует [ROOT.Char.GetFaith.DevilName], должны быть изгнаны с наших земель.",
+    "POL": "Pomioty [ROOT.Char.GetFaith.DevilNamePossessive] muszą zostać usunięte.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The masses shall see their [petition_liege.GetTitleAsNameNoTooltip].",
+    "RUS": "[petition_liege.GetTitleAsNameNoTooltip|U] предстанет перед народом.",
+    "POL": "[petition_liege.GetTitleAsNameNoTooltip|U] [Select_CString( petition_liege.IsFemale, 'powinna', 'powinien' )] wychodzić do swoich mas.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your borders are my borders.",
+    "RUS": "Ваши границы — мои границы.",
+    "POL": "Twoje granice są moimi granicami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well, the [petition_claim.GetTierAsNameNoTooltip|l] is yours.",
+    "RUS": "Хорошо, [petition_claim.GetTierAsNameNoTooltip|l] теперь принадлежит вам.",
+    "POL": "Dobrze, zatem [petition_claim.GetTierAsNameNoTooltip|l] należy do ciebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will support your claim.",
+    "RUS": "Я поддержу вашу претензию.",
+    "POL": "Poprę twoje roszczenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Why not? [petition_construct_county.GetDeJureLiege.GetNameNoTierNoTooltip] could use a new town.",
+    "RUS": "Почему бы и нет? [petition_construct_county.GetDeJureLiege.GetNameNoTierNoTooltip] только выиграет от нового города.",
+    "POL": "Czemu nie, [petition_construct_county.GetDeJureLiege.GetNameNoTierNoTooltip] tylko na tym skorzysta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_construct_county.GetNameNoTierNoTooltip] has been bereft a [petition_liege.GetFaith.BishopNeuter] far too long.",
+    "RUS": "Да, [petition_liege.GetFaith.BishopNeuter] уже давно не посещает владение [petition_construct_county.GetNameNoTierNoTooltip].",
+    "POL": "[petition_liege.GetFaith.BishopNeuterPlural|U] zbyt długo byli nieobecni na ziemiach [petition_construct_county.GetAdjectiveNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Yes, [petition_liege.GetCapitalLocation.GetNameNoTooltip] is far too busy.",
+    "RUS": "Да, во владении [petition_liege.GetCapitalLocation.GetNameNoTooltip] слишком многолюдно.",
+    "POL": "Tak, w miejscu znanym jako [petition_liege.GetCapitalLocation.GetNameNoTooltip] panuje za duży tłok.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your way to rule will no longer be considered a crime.",
+    "RUS": "Твоя манера править больше не будет считаться преступлением.",
+    "POL": "Twój sposób rządzenia nie będzie już uznawany za przestępstwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My inner circle must prove themselves to be financially sound...",
+    "RUS": "Мои приближенные должны доказать свою финансовую состоятельность...",
+    "POL": "Moje wąskie grono musi udowodnić swoją stabilność finansową…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "There is training, equipment, and none of it cheap.",
+    "RUS": "Вы знаете, во сколько обходится обучение и снаряжение?",
+    "POL": "Potrzebny jest trening, rynsztunek, a nic z tego nie jest tanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can arrange a peace, but you will need to pay certain #EMP reparations#!...",
+    "RUS": "Я могу добиться мира, но тебе придется выплатить определенные #EMP репарации#!...",
+    "POL": "Mogę zaaranżować pokój, jednakże będzie się to wiązało z koniecznością zapłaty #EMP reparacji#!…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Peace has its own price.",
+    "RUS": "Мир имеет свою цену.",
+    "POL": "Pokój ma swoją cenę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "This work is hard, and expensive.",
+    "RUS": "Это тяжкий и дорогой труд.",
+    "POL": "To będzie drogie, i kosztowne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.WealthGodName] shows us that such work is not without cost.",
+    "RUS": "[ROOT.Char.GetFaith.WealthGodName] учит нас, что за любую работу полагается плата.",
+    "POL": "[ROOT.Char.GetFaith.WealthGodName|U] uczy nas, że nic nie jest za darmo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "These visits incur many costs.",
+    "RUS": "Эти визиты такие дорогостоящие.",
+    "POL": "Takie wizyty wiążą się z wieloma kosztami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Come, you know such measures are expensive.",
+    "RUS": "Ну же, вы знаете, как дорого это обходится.",
+    "POL": "Tego rodzaju środki wymagają dużych nakładów finansowych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "How much is your claim worth to you?",
+    "RUS": "И насколько же вам дорога ваша претензия?",
+    "POL": "Ile warte jest dla ciebie twoje roszczenie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "What is it worth to you, [petition_vassal.GetFirstNameNoTooltip]?",
+    "RUS": "А сколько вы готовы за это заплатить, [petition_vassal.GetFirstNameNoTooltip]?",
+    "POL": "Ile to jest dla ciebie warte, [petition_vassal.GetFirstNameNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You surely know how expensive such things are...",
+    "RUS": "Наверняка вы понимаете, что подобное строительство стоит дорого...",
+    "POL": "Na pewno wiesz, jak drogie są takie rzeczy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Surely you will sponsor an annex?",
+    "RUS": "Вы же оплатите строительство одного крыла?",
+    "POL": "Opłacisz budowę jednego skrzydła, prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Of course, but a minor compensation will be necessary.",
+    "RUS": "Разумеется, но потребуется небольшое возмещение убытков.",
+    "POL": "Oczywiście, ale niezbędna będzie drobna rekompensata.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_gold.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Only if you are willing to pay the price.",
+    "RUS": "Только если ты согласишься заплатить подобающую цену.",
+    "POL": "Tylko jeśli zechcesz za to zapłacić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Such gestures of favor must be repaid.",
+    "RUS": "На подобные одолжения следует отвечать взаимностью.",
+    "POL": "Za takie gesty przychylności trzeba się odwdzięczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will call on you one day, to repay me.",
+    "RUS": "Однажды я попрошу вас отплатить мне за это.",
+    "POL": "Pewnego dnia poproszę cię, żebyś mi się [Select_CString( petition_vassal.IsFemale, 'odwdzięczyła', 'odwdzięczył' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I expect your help when I am in need.",
+    "RUS": "Я ожидаю, что и вы поможете мне в час нужды.",
+    "POL": "Oczekuję, że mi pomożesz, gdy będę w potrzebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_party.GetFirstNameNoTooltip] won't like that. You will owe me...",
+    "RUS": "[second_party.GetFirstNameNoTooltip] будет не в восторге. Вы в долгу передо мной...",
+    "POL": "[second_party.GetFirstNameNoTooltip] nie będzie [Select_CString( second_party.IsFemale, 'zadowolona', 'zadowolony' )]. Jesteś mi [Select_CString( petition_vassal.IsFemale, 'dłużna', 'dłużny' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My favors are best not forgotten.",
+    "RUS": "Лучше бы вам не забывать о моем одолжении.",
+    "POL": "Moich przysług najlepiej nie zapominać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will help you, but you must help me.",
+    "RUS": "Я помогу вам, но и вы должны помочь мне.",
+    "POL": "Pomogę ci, ale ty musisz też pomóc mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If you remember this day, and the help I provided.",
+    "RUS": "Только если вы не забудете об этом дне и о моей помощи.",
+    "POL": "Lepiej zapamiętaj ten dzień, i pomoc, którą [Select_CString( petition_liege.IsFemale, 'udzieliłam', 'udzieliłem' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "A favor for a favor.",
+    "RUS": "Услуга за услугу.",
+    "POL": "Przysługa za przysługę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If I do this, you must heed my call.",
+    "RUS": "Я сделаю это, но вы должны откликнуться на мою просьбу.",
+    "POL": "Zrobię to, ale musisz przystać kiedyś na moją prośbę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I would not soon forget the debt owed to me.",
+    "RUS": "Я нескоро забуду о вашем долге передо мной.",
+    "POL": "Szybko nie zapomnę o twoim długu wobec mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "This favor must be repaid in full.",
+    "RUS": "Это одолжение должно быть отплачено сполна.",
+    "POL": "Ta przysługa będzie musiała być spłacona w całości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well, but you will owe me in turn.",
+    "RUS": "Хорошо, но вы будете в долгу передо мной.",
+    "POL": "Zgoda, ale będziesz mieć u mnie dług wdzięczności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_liege.GetFaith.HighGodName] will bear witness to your dues.",
+    "RUS": "[petition_liege.GetFaith.HighGodName] свидетель вашим обязательствам.",
+    "POL": "[petition_liege.GetFaith.HighGodName] będzie świadkiem twojego zobowiązania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_vassal.GetCapitalLocation.GetNameNoTooltip] will grow, but #EMP you#! will owe.",
+    "RUS": "[petition_vassal.GetCapitalLocation.GetNameNoTooltip] будет расти, но #EMP вы#! в долгу передо мной.",
+    "POL": "[petition_vassal.GetCapitalLocation.GetNameNoTooltip|U] rozkwitnie, ale #EMP ty#! będziesz mi [Select_CString( petition_vassal.IsFemale, 'dłużna', 'dłużny' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_favor.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "An exchange for a favor.",
+    "RUS": "Обмен — за услугу.",
+    "POL": "Wymiana za przysługę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.repay_favor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My debt to you will end here.",
+    "RUS": "На этом мой долг перед вами считается оплаченным.",
+    "POL": "Mój dług wobec ciebie zakończy się właśnie tutaj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My councilors must be irreproachable.",
+    "RUS": "Мои советники должны обладать безукоризненной репутацией.",
+    "POL": "Moi radni muszą być nieskazitelni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You are in my debt, and must act accordingly.",
+    "RUS": "Вы в долгах, вот и поступайте соответственно.",
+    "POL": "Jesteś [Select_CString( petition_vassal.IsFemale, 'moją dłużniczką', 'moim dłużnikiem' )], i tak się zachowuj.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Swear your loyalty, and you will have my men.",
+    "RUS": "Поклянитесь в верности, и мои воины в вашем распоряжении.",
+    "POL": "Przysięgnij lojalność, a dostaniesz moich ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I cannot tolerate #EMP any#! internal discord. #EMP Period#!.",
+    "RUS": "Твоя правда. #EMP Любые#! междоусобицы недопустимы. #EMP Точка#!.",
+    "POL": "Nie toleruję #EMP żadnej#! wewnętrznej niezgody. #EMP Koniec kropka.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Watch now, for I expect the same of you.",
+    "RUS": "Осторожнее со своими желаниями, потому что теперь я ожидаю того же от вас.",
+    "POL": "Ale się składa, tego samego oczekuję również od ciebie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "In return, I trust I will be able to rely on you?",
+    "RUS": "Полагаю, взамен я могу рассчитывать на вашу верность?",
+    "POL": "Przypuszczam, że w zamian mogę liczyć na twoją lojalność?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Prove your loyalty and I will dispatch the [ROOT.Char.GetFaith.AltPriestTermPlural].",
+    "RUS": "Докажите свою верность, и [ROOT.Char.GetFaith.AltPriestTermPlural] отправятся к вам.",
+    "POL": "Udowodnij swą lojalność, a [ROOT.Char.GetFaith.AltPriestTermPlural|l] wyruszą na miejsce.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can appear, but you must desist from politics.",
+    "RUS": "Я могу появиться там, но вы должны отказаться от политических игр.",
+    "POL": "Mogę się tam zjawić, o ile odstąpisz od polityki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your loyalty, for your peace of mind.",
+    "RUS": "Ваша верность в обмен на спокойствие.",
+    "POL": "Twoja lojalność w zamian za twój spokój ducha.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I could part with it, but I expect your loyalty.",
+    "RUS": "Я могу расстаться с этим титулом, но ожидаю верности от вас.",
+    "POL": "Mogę na to przystać, ale oczekuję od ciebie lojalności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "For this title, I want your unending loyalty.",
+    "RUS": "В обмен на титул я ожидаю получить вашу безграничную преданность.",
+    "POL": "W zamian za ten tytuł oczekuję twojej niezachwianej lojalności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "This town will mark your loyalty to me.",
+    "RUS": "Этот город станет символом вашей верности мне.",
+    "POL": "To miasto będzie znakiem twojej lojalności wobec mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Desist from fraction, and you will have your [petition_liege.GetFaith.HouseOfWorship].",
+    "RUS": "Покиньте фракцию, и будет вам [petition_liege.GetFaith.HouseOfWorship].",
+    "POL": "Opuść frakcję, a [petition_liege.GetFaith.HouseOfWorship|l] powstanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your loyalty is a fair price for this kindness.",
+    "RUS": "Ваша верность — достойная цена за подобное проявление доброты.",
+    "POL": "Twoja lojalność będzie odpowiednią ceną za tę życzliwość.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_factions.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Be loyal, and your new way to rule will become accepted.",
+    "RUS": "Храни верность, и твоя новая манера править станет общепринятой.",
+    "POL": "Okaż lojalność, a twój nowy sposób rządzenia zostanie zaakceptowany.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Generous contribution will secure you a seat.",
+    "RUS": "Щедрое пожертвование обеспечит вам место в совете.",
+    "POL": "Hojny wkład zapewni ci miejsce w radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will increase your dues by way of repayment.",
+    "RUS": "В качестве уплаты я увеличу ваши обязательства.",
+    "POL": "Jako zapłatę, zwiększę twoje zobowiązania wasalne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Gifts must go both ways.",
+    "RUS": "Обе стороны должны преподнести что-то в дар.",
+    "POL": "Przysługi działają w obie strony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.vassal_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "What are you willing to give me for peace?",
+    "RUS": "И что вы готовы дать мне в обмен на мир?",
+    "POL": "A co jesteś [Select_CString( petition_vassal.IsFemale, 'gotowa', 'gotów' )] dać mi w zamian za pokój?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Demonstrate your gratitude, and I will help.",
+    "RUS": "Покажите свою благодарность, и я помогу.",
+    "POL": "Okaż wdzięczność, a ci pomogę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Order has its price, and it must be repaid.",
+    "RUS": "Порядок имеет свою цену, и вы должны ее заплатить.",
+    "POL": "Porządek ma swoją cenę, i trzeba ją zapłacić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Greater responsibility will offset this aid.",
+    "RUS": "Уплатой за помощь станет увеличение обязательств.",
+    "POL": "Zapłatą za pomoc będzie wzrost zobowiązań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I trust the fruits of contentment will be shared?",
+    "RUS": "Полагаю, вы поделитесь со мной плодами умиротворения?",
+    "POL": "Zakładam, że podzielisz się owocami zadowolenia?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your dues will increase to cover my outlays.",
+    "RUS": "В уплату за мои издержки ваши обязательства по отношению ко мне вырастут.",
+    "POL": "Wzrost moich wydatków zrekompensujesz mi większym wkładem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "These lands come with greater dues.",
+    "RUS": "К этим землям прилагается рост обязательств.",
+    "POL": "Większe ziemie to większe zobowiązania wasalne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If you will contribute more than [second_party.GetSheHe] has.",
+    "RUS": "Если вы готовы платить больше, чем [second_party.GetSheHe].",
+    "POL": "Jeśli będziesz w stanie wnieść wkład większy niż [second_party.GetSheHe|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Greater dues will offset the expense.",
+    "RUS": "Рост обязательств компенсирует мои расходы.",
+    "POL": "Wzrost zobowiązań zrekompensuje moje wydatki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will share your burdens if you share mine.",
+    "RUS": "Я разделю ваше бремя, если вы разделите мое.",
+    "POL": "Wezmę część twojego brzemienia, jeśli ty weźmiesz moją.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I expect a fraction of your gains.",
+    "RUS": "Я ожидаю получить долю с ваших доходов.",
+    "POL": "Oczekuję cząstki twoich korzyści.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_contract.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Such a request requires some sacrifices.",
+    "RUS": "Такая просьба потребует некоторых жертв.",
+    "POL": "Taka prośba wymaga pewnego poświęcenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "There are other considerations at play.",
+    "RUS": "У меня есть свои мысли на этот счет.",
+    "POL": "Mam na ten temat własne przemyślenia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My vassal's accounts are their concern alone.",
+    "RUS": "Финансовые дела моих вассалов меня не касаются.",
+    "POL": "Sprawy finansowe moich wasali to nie moja sprawa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You must look to your own victory.",
+    "RUS": "Вы должны победить самостоятельно.",
+    "POL": "Musisz sam wywalczyć swoje zwycięstwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If you are too weak to rule, then perhaps you shouldn't.",
+    "RUS": "Нужны ли нам слабаки на троне?",
+    "POL": "Jeżeli jesteś [Select_CString( petition_vassal.IsFemale, 'słaba, by rządzić, to może nie powinnaś', 'słaby, by rządzić, to może nie powinieneś' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I will not fight your battles for you.",
+    "RUS": "Я не стану сражаться за вас.",
+    "POL": "Nie będę za ciebie walczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your lands come with responsibilities, [petition_vassal.GetTitleAsNameNoTooltip].",
+    "RUS": "Ваши земли — ваша ответственность, [petition_vassal.GetTitleAsNameNoTooltip|l].",
+    "POL": "[petition_vassal.GetTitleAsNameNoTooltip|U] musi umieć sprostać obowiązkom wobec własnych ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "These souls are your subjects, and thus #EMP your#! problem.",
+    "RUS": "Это души ваших подданных, а потому это #EMP ваша#! проблема.",
+    "POL": "To są dusze twoich poddanych i dlatego jest to #EMP twój#! problem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Alas, I am too busy for such frivolities.",
+    "RUS": "Увы, у меня слишком много дел, чтобы тратить время на подобные пустяки.",
+    "POL": "Niestety, mam zbyt mało czasu, aby zajmować się takimi błahostkami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I have my own castles to maintain.",
+    "RUS": "Мне нужно содержать свои замки.",
+    "POL": "Mam własne zamki do utrzymania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I, too, lay claim to [petition_claim.GetNameNoTierNoTooltip].",
+    "RUS": "Я тоже претендую на владение [petition_claim.GetNameNoTierNoTooltip].",
+    "POL": "Ja, również, mam prawo do [petition_claim.GetAdjectiveNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your claim is only as strong as your sword-arm.",
+    "RUS": "Сила вашей претензии зависит от того, насколько сильны вы.",
+    "POL": "Siła twojego roszczenia zależy od siły ręki, w której dzierżysz broń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your lands are your own responsibility.",
+    "RUS": "Вы сами отвечаете за свои земли.",
+    "POL": "Twoje ziemie to twoja odpowiedzialność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The pious generally sponsor churches themselves.",
+    "RUS": "Обычно верующие сами платят за церкви.",
+    "POL": "Bogobojni zazwyczaj sami sobie budują świątynie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Alas, some lands are more blessed that others.",
+    "RUS": "Увы, некоторым землям везет больше.",
+    "POL": "Niestety, niektóre ziemie są bardziej pobłogosławione niż inne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.refusal.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You ask too much, this #EMP must#! remain a crime.",
+    "RUS": "Ты просишь слишком многого — это #EMP должно#! остаться преступлением.",
+    "POL": "Prosisz o zbyt wiele. To #EMP musi#! pozostać przestępstwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.council_second_occupied",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_councillor.GetTitledFirstNameNoTooltip] will step aside as [second_councillor.GetCouncilTitle].",
+    "RUS": "[second_councillor.GetTitledFirstNameNoTooltip] больше не [second_councillor.GetCouncilTitle].",
+    "POL": "[second_councillor.GetCouncilTitle|U] [second_councillor.GetFirstNameNoTooltip] ustąpi ze swojego stanowiska.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.council_second",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I have something in mind.",
+    "RUS": "Есть у меня одна идея...",
+    "POL": "Mam pomysł.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.war_aid_join",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "We will bring [second_party.GetFirstNameNoTooltip] down.",
+    "RUS": "[second_party.GetFirstNameNoTooltip] падет под нашим натиском.",
+    "POL": "[second_party.GetFirstNameNoTooltip] padnie pod naszą nawałnicą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.additional_effects",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Modifies acceptance in the following ways:",
+    "RUS": "Оказывает следующие эффекты на принятие:",
+    "POL": "Na akceptację wpływ mają czynniki:",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_given",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If [petition_vassal.GetSheHe] accepts your counter-offer",
+    "RUS": "Если [petition_vassal.GetSheHe] примет ваше встречное предложение",
+    "POL": "Jeśli zaakceptuje twoją kontrpropozycję",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.bribe_refused",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "If [petition_vassal.GetSheHe] rejects your counter-offer",
+    "RUS": "Если [petition_vassal.GetSheHe] отклонит ваше встречное предложение",
+    "POL": "Jeśli odrzuci twoją kontrpropozycję",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Accepted",
+    "RUS": "$petition_liege_header$ Приемлемо",
+    "POL": "$petition_liege_header$ zaakceptowano",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I am escorted in to [petition_liege.GetTitledFirstNamePossessive] throne room, where [petition_liege.GetSheHe] beckons for me to approach and address [petition_liege.GetHerHim].",
+    "RUS": "[petition_liege.GetTitledFirstNamePossessive] принимает меня в тронном зале. [petition_liege.GetSheHe|U] подзывает меня и разрешает говорить.",
+    "POL": "Zostaję wprowadzon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] do sali tronowej, w której siedzi [petition_liege.GetTitledFirstName]. Skinieniem przywołuje mnie do siebie i pozwala mi mówić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI elucidate the abilities, proven and otherwise, that make me a suitable candidate to be the [petition_liege.GetTitleAsNamePossessiveNoTooltip] [petition_vassal.Custom('GetCouncilPositionRequest')], requesting the position as [petition_liege.GetHerHis] advisor.",
+    "RUS": "\\n\\nЯ разъясняю, какими способностями, явными и скрытыми, должен обладать [petition_vassal.Custom('GetCouncilPositionRequest')], чтобы заседать в совете.",
+    "POL": "\\n\\nWymieniam umiejętności, mające zastosowanie i dodatkowe, które sprawiają, że idealnie sprawdzę się jako potencjalny [petition_vassal.Custom('GetCouncilPositionRequest')|l] w [petition_liege.GetHerHis] radzie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI beseech my [petition_liege.GetLadyLord] to lend their might to my rightful cause, however [petition_liege.GetSheHe] can, lest a loyal vassal of the realm be defeated.",
+    "RUS": "\\n\\nЯ умоляю, чтобы [petition_liege.GetLadyLord] [Select_CString(petition_liege.IsFemale, 'одолжила', 'одолжил' )] мне свои войска во имя справедливой цели, а не то верного вассала державы ждет поражение.",
+    "POL": "\\n\\nBłagam m[Select_CString( petition_liege.IsFemale, 'oją panią, aby użyczyła', 'ojego pana, aby użyczył' )] swych sił w mojej słusznej sprawie, inaczej wierny wasal twojego państwa poniesie klęskę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI implore the [petition_liege.GetTitleAsNameNoTooltip] to understand the great challenges my fiefdom has faced, and which have left my coffers empty, beseeching [petition_liege.GetHerHim] to settle my debts...",
+    "RUS": "\\n\\nЯ молю, чтобы [petition_liege.GetTitleAsNameNoTooltip|l] [Select_CString(petition_liege.IsFemale, 'поняла', 'понял' )], с какими трудностями столкнулся мой лен и почему мои сундуки пусты, и прошу оплатить мои долги...",
+    "POL": "\\n\\nBłagam, aby [petition_liege.GetTitleAsNameNoTooltip|l] zrozumiał[Select_CString( petition_liege.IsFemale, 'a', '' )], jak wielkie wyzwania stanęły przed moim lennem, przez co mój skarbiec sieje teraz pustką, i usilnie proszę [Select_CString( petition_liege.IsFemale, 'ją', 'go' )] o spłatę moich długów…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.vassal_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI delineate the causes and events of my ongoing conflict with [second_party.GetTitledFirstName], and request the [petition_liege.GetTitleAsNameNoTooltip] enforce a peace to end the bloodshed within [petition_liege.GetHerHis] realm.",
+    "RUS": "\\n\\nЯ расписываю причины и ход конфликта, в который втянуты я и [second_party.GetTitledFirstName], и прошу, чтобы [petition_liege.GetTitleAsNameNoTooltip|l] [Select_CString(petition_liege.IsFemale, 'установила', 'установил' )] мир, покончив с кровопролитием в своей державе.",
+    "POL": "\\n\\nPrzedstawiam najważniejsze przyczyny i wydarzenia, które doprowadziły do tego, że ja i [second_party.GetTitledFirstName] zmagamy się w konflikcie. Proszę, aby [petition_liege.GetTitleAsNameNoTooltip|l] wymusił[Select_CString( petition_liege.IsFemale, 'a', '' )] zawarcie pokoju, który położy kres rozlewowi krwi w [petition_liege.GetHerHis] państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI summarize the events which have led to the open treachery of [second_party.GetTitledFirstName], and [second_party.GetHerHis] [vassal_faction.GetName|l], and request their forced surrender by the [petition_liege.GetTitleAsNameNoTooltip].",
+    "RUS": "\\n\\nЯ пересказываю события, после которых [second_party.GetTitledFirstName] и [second_party.GetHerHis] [vassal_faction.GetName|l] обратились против меня, и прошу, чтобы [petition_liege.GetTitleAsNameNoTooltip|l] [Select_CString(petition_liege.IsFemale, 'принудила', 'принудил' )] их к сдаче.",
+    "POL": "\\n\\nOpisuję wydarzenia, z powodu których [second_party.GetTitledFirstName] i [second_party.GetHerHis] [vassal_faction.GetName|l] zwrócili się przeciwko mnie i proszę, aby [petition_liege.GetTitleAsNameNoTooltip|l] [Select_CString( petition_liege.IsFemale, 'położyła temu kres i wymusiła', 'położył temu kres i wymusił' )] złożenie broni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI carefully describe the problems my fiefdom faces, resistant to my authority and beset by vagabonds, and request assistance in restoring order.",
+    "RUS": "\\n\\nЯ тщательно описываю проблемы моего лена, противодействие власти и засилье разбойников и прошу помощи в восстановлении порядка.",
+    "POL": "\\n\\nDokładnie opisuję problemy, z jakimi boryka się moje lenno, oporne na moją władzę i nękane przez włóczęgów, i proszę o pomoc w przywróceniu porządku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI fervently explain the situation in my fiefdom, and the need for support in order to bring the sinful multitudes the light of [petition_liege.GetFaith.GetNameNoTooltip].",
+    "RUS": "\\n\\nЯ страстно описываю ситуацию в моем лене и потребность в поддержании порядка, чтобы грешники вновь увидели свет истинной веры, что излучает [petition_liege.GetFaith.GetAdjectiveNoTooltip|l].",
+    "POL": "\\n\\nGorliwie wyjaśniam sytuację zaistniałą w moim lennie i potrzebę wsparcia w celu przyniesienia grzesznej tłuszczy światła, jakie niesie w sobie [petition_liege.GetFaith.GetNameNoTooltip|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI explain the discontent in my realm, and the great buoyancy a simple visit from the [petition_liege.GetTitleAsNameNoTooltip] would give to the spirits of the common people.",
+    "RUS": "\\n\\nЯ описываю беспорядки в своих владениях и то, как отреагирует народ, если их посетит [petition_liege.GetTitleAsNameNoTooltip|l] собственной персоной.",
+    "POL": "\\n\\nWyjaśniam niezadowolenie panujące w moim państwie, a także przedstawiam potencjalne korzyści, gdyby tylko [petition_liege.GetTitleAsNameNoTooltip] udał[Select_CString( petition_liege.IsFemale, 'a', '' )] się z wizytą do zwykłych ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI coolly outline the threat posed by the realm's neighbors, drawing attention to [second_party.GetPrimaryTitle.GetName] and the risk posed to my lands.",
+    "RUS": "\\n\\nЯ спокойно описываю угрозу, исходящую от соседей, заостряя внимание на том, какую опасность для моих владений представляет [second_party.GetPrimaryTitle.GetName].",
+    "POL": "\\n\\nW chłodny sposób przedstawiam zagrożenie płynące ze strony sąsiadów naszego państwa, zwracając uwagę na tereny [second_party.GetPrimaryTitle.GetAdjective] i na ryzyko, jakie stanowią one dla moich ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI respectfully assert my legitimate claim to [petition_liege.GetHerHis] [petition_claim.GetName], providing the lengthy documents which assert it, and await the [petition_liege.GetTitleAsNamePossessiveNoTooltip] reply.",
+    "RUS": "\\n\\nЯ со всем уважением объясняю, что [petition_liege.GetHerHis] [petition_claim.GetName] — мое законное владение, предоставляю множество документов, подтверждающих это, и жду, что мне ответит [petition_liege.GetTitleAsNameNoTooltip|l].",
+    "POL": "\\n\\nZ całym szacunkiem przypominam, że [petition_liege.Custom('PL_jego_jej')] ziemie znane jako [petition_claim.GetNameNoTier] prawowicie należą się mnie. Jako dowód dostarczam mnóstwo dokumentów potwierdzających moje roszczenie. Będę czekał na to, co [petition_liege.GetTitleAsNameNoTooltip|l] orzeknie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI deftly present the evidence of my claim to the [petition_claim.GetName], and highlight its strength over that of [second_party.GetTitledFirstName].",
+    "RUS": "\\n\\nЯ искусно предоставляю доказательства законности моих притязаний на владение [petition_claim.GetName], отдельно подчеркивая, что [second_party.GetTitledFirstName] мне в этом уступает.",
+    "POL": "\\n\\nWprawnie przedstawiam dowody na to, że ziemie znane jako [petition_claim.GetNameNoTier] należą się mnie, uwydatniając, że [second_party.GetTitledFirstName] nie ma do nich tak silnego roszczenia co ja.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI lay out my arguments for the development of the settlement of [petition_construct.GetName] in the [petition_construct_county.GetName], listing the benefits just as rehearsed.",
+    "RUS": "\\n\\nЯ излагаю аргументы в пользу развития поселения [petition_construct.GetName] во владении [petition_construct_county.GetNameNoTier], перечисляя заученный перечень выгод.",
+    "POL": "\\n\\nWykładam swoje racje za rozwojem osady o nazwie [petition_construct.GetName] w miejscu znanym jako [petition_construct_county.GetName], wymieniając po kolei korzyści.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI humbly present the case for a new [petition_liege.GetFaith.HouseOfWorship] in the [petition_construct_county.GetName], to be built at the settlement of [petition_construct.GetName].",
+    "RUS": "\\n\\nЯ скромно предлагаю, что [petition_liege.GetFaith.HouseOfWorship] будет к месту во владении [petition_construct_county.GetNameNoTier] и поможет развитию поселения [petition_construct.GetName].",
+    "POL": "\\n\\nPokornie przedstawiam sprawę wzniesienia nowej budowli ([petition_liege.GetFaith.HouseOfWorship]) na ziemiach [petition_construct_county.GetAdjective], która ma powstać w miejscowości o nazwie [petition_construct.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI carefully explain the disparate situations of the [petition_county_example.GetName] and [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier], and what could be done to redress the balance.",
+    "RUS": "\\n\\nЯ подробно описываю, насколько [petition_county_example.GetName] и [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] отличаются друг от друга и что можно сделать, чтобы исправить это.",
+    "POL": "\\n\\nOstrożnie wyjaśniam różnice pomiędzy obszarem o nazwie [petition_county_example.GetNameNoTier] a ziemiami znanymi jako [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] i proponuję metodę na przywrócenie równowagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI argue for my case that granting me hereditary rights would become beneficial for the region.",
+    "RUS": "\\n\\nЯ доказываю, что предоставление мне наследственных прав пойдет на благо региона.",
+    "POL": "\\n\\nArgumentuję, że przyznanie mi praw dziedziczenia będzie korzystne dla regionu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.bridge",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nAfter listening to my speech, [petition_liege.GetSheHe] gives a curt nod and states, ",
+    "RUS": "\\n\\nВыслушав мою подготовленную речь, [petition_liege.GetSheHe] коротко кивает и говорит: «Я немедленно отправлю людей разобраться с этим делом».",
+    "POL": "\\n\\nWysłuchawszy mojego przemówienia, kiwa głową i stwierdza:\\n\\n– Natychmiast wyślę moich wspólników, aby zajęli się tą sprawą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.desc.council_second_party",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I certainly can't do any worse than [second_party.GetFullName]...",
+    "RUS": "Я явно не хуже, чем [second_party.GetFullName]...",
+    "POL": "Na pewno nie mogę zrobić nic gorszego niż [second_party.GetFullName]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Thank you my liege!",
+    "RUS": "Спасибо, мой сюзерен!",
+    "POL": "Dziękuję ci, [Select_CString( petition_liege.IsFemale, 'moja seniorko', 'mój seniorze' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_accept_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your Petition is accepted",
+    "RUS": "Ваше прошение принято",
+    "POL": "Twoja prośba zostaje zaakceptowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Counter-Offer",
+    "RUS": "$petition_liege_header$ Встречное предложение",
+    "POL": "$petition_liege_header$ kontrpropozycja",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0201.desc.intro$",
+    "RUS": "$petition_liege.0201.desc.intro$",
+    "POL": "$petition_liege.0201.desc.intro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.desc.bridge",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\n[petition_liege.GetSheHe|U] sits in silence for several moments as [petition_liege.GetSheHe] mulls my petition over. \\n\\nEventually [petition_liege.GetSheHe] addresses me, ",
+    "RUS": "\\n\\n[petition_liege.GetSheHe|U] некоторое время хранит молчание, обдумывая услышанное.\\n\\nВ конце концов [petition_liege.GetSheHe] начинает говорить: «Ты неплохо излагаешь свою точку зрения, но если я соглашусь, мне потребуется кое-что взамен. У тебя есть идеи, как сделать соглашение выгодным для нас обоих?»",
+    "POL": "\\n\\n[petition_liege.GetName] przez kilka chwil siedzi w milczeniu i rozważa moją prośbę. W końcu zwraca się do mnie:\\n\\n– Dobrze przemawiasz, lecz jeśli mam przystać na twoją prośbę, będę potrzebować czegoś w zamian. Z pewnością widzisz, że dojście do porozumienia będzie korzystne dla obu stron.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.counter",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My [petition_liege.GetTitleAsNameNoTooltip], perhaps I explained it poorly...",
+    "RUS": "[Select_CString(petition_liege.IsFemale, 'Моя', 'Мой' )] [petition_liege.GetTitleAsNameNoTooltip|l], возможно, мое объяснение было неполным...",
+    "POL": "[Select_CString(petition_liege.IsFemale, 'Moja pani', 'Mój panie' )], może niedostatecznie to wytłumaczył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "A fair offer — I accept.",
+    "RUS": "Это честное предложение, я принимаю его.",
+    "POL": "To uczciwa oferta, przyjmuję ją.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0205.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Are you kidding? I'm pushed to my limits as it is!",
+    "RUS": "Да вы шутите? Я и так едва справляюсь!",
+    "POL": "Żartujesz sobie? [Select_CString( ROOT.Char.IsFemale, 'Sama', 'Sam' )] ledwo daję sobie radę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_skillcheck_counter_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Attempt to convince your liege by other means",
+    "RUS": "Попытаться убедить сюзерена другими методами",
+    "POL": "Spróbuj przekonać swojego seniora za pomocą innych metod",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Rejected",
+    "RUS": "$petition_liege_header$ Отказ",
+    "POL": "$petition_liege_header$ odrzucono",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0201.desc.intro$",
+    "RUS": "$petition_liege.0201.desc.intro$",
+    "POL": "$petition_liege.0201.desc.intro$",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.desc.bridge",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nAfter listening to the speech, [petition_liege.GetSheHe] frowns and rebuffs me.",
+    "RUS": "\\n\\nВыслушав мою речь, [petition_liege.GetSheHe] хмурится и отвечает отказом.",
+    "POL": "\\n\\nPo wysłuchaniu mojego przemówienia marszczy brwi i odrzuca propozycję.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.desc.bridge.apologetic",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0209.desc.bridge$ ",
+    "RUS": "\\n\\n «Прошу прощения, но [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] от этого только пострадает. Я не могу на это пойти».",
+    "POL": "$petition_liege.0209.desc.bridge$\\n\\n– Przykro mi, ale ze względu na dobro ziem znanych nam wszystkim jako [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] muszę odrzucić twoją prośbę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.desc.bridge.unapologetic",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0209.desc.bridge$ ",
+    "RUS": "\\n\\n «И #EMP это#!, по-твоему, срочно?! Нет. Ни в коем случае. А теперь прошу прощения, но меня ждут по-настоящему #EMP важные#! дела».",
+    "POL": "$petition_liege.0209.desc.bridge$ „#EMP To#! jest ta pilna sprawa, którą chciał[Select_CString( petition_vassal.IsFemale, 'a', 'e' )]ś ze mną omówić? Nie. Absolutnie nie. A teraz proszę mi wybaczyć, mam faktycznie #EMP ważne#! sprawy do załatwienia”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.desc.bridge.favor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0209.desc.bridge$ ",
+    "RUS": "$petition_liege.0209.desc.bridge$ «Мне искренне жаль, но я не могу выполнить вашу просьбу. Я [Select_CString(petition_liege.IsFemale, 'дала', 'дал' )] бы вам желаемое, будь у меня такая возможность, но, быть может, вас удовлетворит обещание будущей услуги?»",
+    "POL": "$petition_liege.0209.desc.bridge$ „Bardzo mi przykro, ale nie mogę spełnić tej prośby. Gdybym m[Select_CString( ROOT.Char.IsFemale, 'ogła, dałabym', 'ógł, dałbym' )] ci to, czego chcesz, ale może zadowolisz się obietnicą przyszłej przysługi?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.counter",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Wait, my [petition_liege.GetLadyLord]! Hear me out!",
+    "RUS": "Подождите, [petition_liege.GetLadyLord]! Выслушайте меня!",
+    "POL": "Zaczekaj, m[Select_CString( petition_liege.IsFemale, 'oja pani', 'ój panie' )]! Wysłuchaj mnie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Alas.",
+    "RUS": "Увы.",
+    "POL": "Niestety.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0209.favor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well.",
+    "RUS": "Хорошо.",
+    "POL": "Bardzo dobrze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Counter-offer Accepted",
+    "RUS": "Встречное предложение принято",
+    "POL": "Kontrpropozycja zaakceptowana",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0309.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Counter-offer Rejected",
+    "RUS": "Встречное предложение отклонено",
+    "POL": "Kontrpropozycja odrzucona",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Second Opinion",
+    "RUS": "$petition_liege_header$ Другое мнение",
+    "POL": "$petition_liege_header$ dodatkowa opinia",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_liege.GetTitledFirstName] thinks for a moment, then cries, ",
+    "RUS": "[petition_liege.GetTitledFirstName] недолго раздумывает, а затем объявляет: «[first_portrait.GetFirstName], мне нужен ваш совет!» [first_portrait.Custom('GetNotableCharacteristic')|U] [first_portrait.Custom('GetPetitionLiegeTitle')] охотно выходит вперед, [first_portrait.Custom('councillor_flavor_prop')] у н[first_portrait.GetHerHis] в руках. «Да, это деликатный вопрос, [Select_CString(petition_liege.IsFemale, 'моя', 'мой')] [petition_liege.GetLadyLord]...»\\n\\n",
+    "POL": "[petition_liege.GetTitledFirstName] myśli przez chwilę, po czym woła: „[first_portrait.GetFirstName], żądam twojej rady w tej sprawie!”. [first_portrait.Custom('GetNotableCharacteristic')|U] [first_portrait.Custom('GetPetitionLiegeTitle')|l] występuje ochoczo do przodu, ściskając w dłoni [first_portrait.Custom('councillor_flavor_prop')]. „Tak, to jak najbardziej delikatna sprawa, [Select_CString(petition_liege.IsFemale, 'moja pani', 'mój panie' )]…”\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_portrait.GetTitledFirstName], the [petition_liege.GetTitleAsNamePossessiveNoTooltip] [second_portrait.Custom('GetPetitionLiegeTitle')], watches quietly from the sidelines",
+    "RUS": "[second_portrait.GetTitledFirstName], [second_portrait.Custom('GetPetitionLiegeTitle')] сюзерена, молча наблюдает из толпы",
+    "POL": "[second_portrait.Custom('GetPetitionLiegeTitle')|U] [second_portrait.GetTitledFirstName] przygląda się cicho z boku",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second_diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.desc.second$ — perhaps I could appeal to [second_portrait.GetHerHis] diplomatic nature?\\n\\n",
+    "RUS": "$petition_liege.0401.desc.second$ — возможно, я могу воззвать к [second_portrait.GetHerHis] природе дипломата?\\n\\n",
+    "POL": "$petition_liege.0401.desc.second$… może [Select_CString(ROOT.Char.IsFemale, 'mogłabym', 'mógłbym' )] odwołać się do [second_portrait.GetHerHis] dyplomatycznej natury?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second_martial",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.desc.second$ — a practical argument might secure [second_portrait.GetHerHis] support?\\n\\n",
+    "RUS": "$petition_liege.0401.desc.second$ — весомый аргумент может обеспечить [second_portrait.GetHerHis] поддержку?\\n\\n",
+    "POL": "$petition_liege.0401.desc.second$… może jakiś praktyczny argument mógłby zapewnić [second_portrait.GetHerHis] poparcie?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.desc.second$ — the right numbers would persuade [second_portrait.GetHerHim] of my need?\\n\\n",
+    "RUS": "$petition_liege.0401.desc.second$ — подходящие числа помогут [second_portrait.GetHerHim] увидеть мою проблему?\\n\\n",
+    "POL": "$petition_liege.0401.desc.second$… może odpowiednie liczby przekonają [Select_CString( second_portrait.IsFemale, 'ją', 'go' )] do mojej racji?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second_intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.desc.second$ — if I were to outmaneuver [second_portrait.GetHerHim] publicly?\\n\\n",
+    "RUS": "$petition_liege.0401.desc.second$ — что если открыто переиграть [second_portrait.GetHerHis]?\\n\\n",
+    "POL": "$petition_liege.0401.desc.second$… A może by tak przechytrzyć [Select_CString( second_portrait.IsFemale, 'ją', 'go' )] publicznie?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.second_learning",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.desc.second$ — no one could question an argument left unrefuted by #EMP [second_portrait.GetHerHim]#!.\\n\\n",
+    "RUS": "$petition_liege.0401.desc.second$ — никто не сможет оспорить аргумент, который не удастся опровергнуть #EMP [second_portrait.GetHerHim]#!.\\n\\n",
+    "POL": "$petition_liege.0401.desc.second$… nikt nie podważyłby #EMP [second_portrait.GetHerHis]#! niemożliwego do obalenia rozumowania.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third_soulmate",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Then again, my beloved [third_portrait.GetTitledFirstName] is not far off",
+    "RUS": "И потом, [Select_CString(third_portrait.IsFemale, 'моя обожаемая', 'мой обожаемый' )] [third_portrait.GetTitledFirstName] стоит неподалеку",
+    "POL": "Z drugiej strony, [Select_CString( third_portrait.IsFemale, 'moja ukochana', 'mój ukochany' )] [third_portrait.GetTitledFirstName] jest w pobliżu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third_lover",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[third_portrait.GetTitledFirstName] winks at me discretely",
+    "RUS": "[third_portrait.GetTitledFirstName] незаметно подмигивает мне",
+    "POL": "[third_portrait.GetTitledFirstName] mruga do mnie dyskretnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third_best_friend",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My closest confidant, [third_portrait.GetTitledFirstName], is present",
+    "RUS": "[Select_CString(third_portrait.IsFemale, 'Моя наперсница', 'Мой наперсник' )] [third_portrait.GetTitledFirstName] тоже здесь",
+    "POL": "Mój najbliższ[Select_CString(third_portrait.IsFemale, 'a powiernica', 'powiernik' )], [third_portrait.GetTitledFirstName], jest obecn[Select_CString(third_portrait.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third_friend",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Although... my good friend [third_portrait.GetTitledFirstName] may also hold some sway",
+    "RUS": "Хотя... [Select_CString(third_portrait.IsFemale, 'моя подруга', 'мой друг' )] [third_portrait.GetTitledFirstName] тоже может обладать влиянием",
+    "POL": "Chociaż… [Select_CString(third_portrait.IsFemale, 'moja dobra przyjaciółka', 'mój dobry przyjaciel' )] [third_portrait.GetTitledFirstName] też może mieć pewien wpływ",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third_fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Having said that, [third_portrait.GetTitledFirstName] has always liked me",
+    "RUS": "Но при этом [third_portrait.GetTitledFirstName] всегда [Select_CString(third_portrait.IsFemale, 'была ко мне неравнодушна', 'был ко мне неравнодушен' )]",
+    "POL": "Powiedziawszy to, [third_portrait.GetTitledFirstName] zawsze mnie lubił[Select_CString(third_portrait.IsFemale, 'a', '' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.third",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": " — perhaps [third_portrait.GetSheHe] would make my case? \\n\\n",
+    "RUS": "— возможно, [third_portrait.GetSheHe] выступит от моего имени? \\n\\n",
+    "POL": "…może [Select_CString( third_portrait.IsFemale, 'ona dałaby', 'on dałby' )] radę udowodnić słuszność mojej sprawy?\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.desc.outro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The [petition_liege.GetTitleAsNameNoTooltip] turns back to me, [petition_liege.GetHerHis] attention already moving elsewhere. I need to #EMP do#! something!",
+    "RUS": "[petition_liege.GetTitleAsNameNoTooltip|U] переключает свое внимание с меня на другие вопросы. Нужно что-то #EMP сделать#!!",
+    "POL": "[petition_liege.GetTitleAsNameNoTooltip] odwraca się z powrotem do mnie, a [petition_liege.GetHerHis] uwaga przenosi się już gdzie indziej. Muszę coś #EMP zrobić#!!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.first",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I know just the thing to trip [first_portrait.GetFirstNameNoTooltip] up...",
+    "RUS": "Я знаю, на чем может споткнуться [first_portrait.GetFirstNameNoTooltip]...",
+    "POL": "Wiem, że [first_portrait.GetFirstNameNoTooltip] będzie mieć kłopoty…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[second_portrait.GetFirstNameNoTooltip]!",
+    "POL": "„[second_portrait.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second_diplomacy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.second$ There is surely room for compromise here?",
+    "RUS": "$petition_liege.0401.second$ Мы наверняка можем найти компромисс?»",
+    "POL": "$petition_liege.0401.second$ Z pewnością jest tu miejsce na kompromis?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second_martial",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.second$ Surely #EMP you#! see my point?",
+    "RUS": "$petition_liege.0401.second$ Наверняка #EMP вы#! понимаете мою точку зрения?»",
+    "POL": "$petition_liege.0401.second$ Na pewno #EMP ty#! rozumiesz mój punkt widzenia, prawda?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second_stewardship",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.second$ The logic here must be clear to #EMP you#!?",
+    "RUS": "$petition_liege.0401.second$ Наверняка #EMP вам#! ясна логика происходящего?»",
+    "POL": "$petition_liege.0401.second$ Musi być to dla #EMP ciebie#! wyraźnie logiczne, prawda?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second_intrigue",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.second$ Surely #EMP you#! can see the sense?",
+    "RUS": "$petition_liege.0401.second$ Наверняка #EMP вы#! видите в этом смысл?»",
+    "POL": "$petition_liege.0401.second$ Z pewnością #EMP ty#! dostrzegasz w tym sens, prawda?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.second_learning",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0401.second$ #EMP You#! must see the wisdom here?",
+    "RUS": "$petition_liege.0401.second$ #EMP Вы#! наверняка понимаете мудрость сказанного?»",
+    "POL": "$petition_liege.0401.second$ #EMP Ty#! pewnie zauważyłeś w tym mądrość, prawda?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.wildcard",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[third_portrait.GetTitledFirstNameNoTooltip] will tell them!",
+    "RUS": "[third_portrait.GetTitledFirstNameNoTooltip] скажет им!",
+    "POL": "[third_portrait.GetTitledFirstNameNoTooltip] wszystko wytłumaczy!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.success",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_liege.GetTitledFirstNameNoTooltip] comes around",
+    "RUS": "[petition_liege.GetTitledFirstNameNoTooltip] соглашается",
+    "POL": "[petition_liege.GetTitledFirstNameNoTooltip] przekonuje się do twojej propozycji",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0401.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_liege.GetTitledFirstNameNoTooltip] is unconvinced",
+    "RUS": "[petition_liege.GetTitledFirstNameNoTooltip] не слушает доводов",
+    "POL": "[petition_liege.GetTitledFirstNameNoTooltip] jest nieprzekonan[Select_CString(petition_liege.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0501.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_party.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "RUS": "[second_party.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "POL": "[second_party.Custom2('AppropriateGreeting', ROOT.Char )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0501.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Loyal [second_party.GetTitledFirstName], it is deeply regretful to need to put you in this position. \\n\\nI must ask that you relinquish the [petition_claim.GetName] in favor of [petition_vassal.GetTitledFirstName], who also lays claim to the title. I trust you will respect my wishes in this matter.",
+    "RUS": "[Select_CString(second_party.IsFemale, 'Моя верная', 'Мой верный' )] [second_party.GetTitledFirstName], жаль, что мне приходится ставить вас в такое положение.\\n\\nЯ прошу вас уступить владение [petition_claim.GetName]. Пусть им правит [petition_vassal.GetTitledFirstName], у [Select_CString(petition_vassal.IsFemale, 'которой', 'которого' )] есть права на этот титул. Надеюсь, вы исполните мое пожелание.",
+    "POL": "Jest mi niezmiernie przykro, że [Select_CString( second_party.IsFemale, 'Moja Lojalna', 'Mój Lojalny' )] [second_party.GetTitledFirstName] [Select_CString( second_party.IsFemale, 'została przeze mnie postawiona', 'został przeze mnie postawiony' )] w tej sytuacji.\\n\\nMuszę Cię prosić, abyś [Select_CString( second_party.IsFemale, 'zrzekła', 'zrzekł' )] się tytułu [petition_claim.GetAdjective]. Władać nim [Select_CString( petition_vassal.IsFemale, 'powinna', 'powinien' )] [petition_vassal.GetTitledFirstName], [Select_CString( petition_vassal.IsFemale, 'która', 'który' )] również sobie prawo do tych ziem. Wierzę, że uszanujesz moje życzenie w tej kwestii.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0501.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "What choice do I have...?",
+    "RUS": "Как будто у меня есть выбор...",
+    "POL": "Jaki mam wybór…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0501.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I cannot accept this!",
+    "RUS": "Я не могу это принять!",
+    "POL": "Nie mogę tego zaakceptować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0501.refuse_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[second_party.GetTitledFirstName] refused to give up the [petition_claim.GetName]",
+    "RUS": "[second_party.GetTitledFirstName] не желает уступать владение [petition_claim.GetName]",
+    "POL": "[second_party.GetTitledFirstName] odmawia zrzeczenia się tytułu do ziem [petition_claim.GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Invalidated",
+    "RUS": "$petition_liege_header$ — недействительно",
+    "POL": "$petition_liege_header$ unieważniono",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.court",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "With my coronation as [ROOT.Char.GetTitleAsNameNoTooltip] complete, my petition is no longer necessary...",
+    "RUS": "Теперь я [ROOT.Char.GetTitleAsNameNoTooltip|l], а это значит, что в моем прошении больше нет необходимости...",
+    "POL": "Moja koronacja została już przeprowadzona. Jako [ROOT.Char.GetTitleAsNameNoTooltip|l], nie muszę już dłużej prosić o audiencję…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] threw me into jail.",
+    "RUS": "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] бросает меня в темницу.",
+    "POL": "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] wtrącił[Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'a', 'y' )] mnie do więzienia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ I was captured by [ROOT.Char.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$petition_liege.0601_shared_intro$ Меня держит в плену [ROOT.Char.GetImprisonedBy.GetTitledFirstName].",
+    "POL": "$petition_liege.0601_shared_intro$ [ROOT.Char.GetImprisonedBy.GetTitledFirstName] mnie schwytał[Select_CString( ROOT.Char.GetImprisonedBy.IsFemale, 'a', '' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.liege_dead_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ I ended up killing [petition_liege.GetTitledFirstName]... \\n\\n",
+    "RUS": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [Select_CString(homage_liege.IsFemale, 'пала', 'пал' )] от моей руки... \\n\\n",
+    "POL": "$petition_liege.0601_shared_intro$ to skończyło się na tym, że [petition_liege.GetTitledFirstName] [Select_CString( petition_liege.IsFemale, 'została przeze mnie zabita', 'został przeze mnie zabity' )]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.liege_dead",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [petition_liege.GetDeathReasonHideKiller]... \\n\\n",
+    "RUS": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [petition_liege.GetDeathReasonHideKiller]... \\n\\n",
+    "POL": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [petition_liege.GetDeathReasonHideKiller]…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.liege_imprisoned_me",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ I ended up capturing [petition_liege.GetTitledFirstName]!",
+    "RUS": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] теперь у меня в плену!",
+    "POL": "$petition_liege.0601_shared_intro$ to skończyło się na tym, że [petition_liege.GetTitledFirstName] [Select_CString( petition_liege.IsFemale, 'została przeze mnie schwytana', 'został przeze mnie schwytany' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.liege_imprisoned",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] was captured by [petition_liege.GetImprisonedBy.GetTitledFirstName].",
+    "RUS": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] находится в плену у персонажа [petition_liege.GetImprisonedBy.GetTitledFirstName].",
+    "POL": "$petition_liege.0601_shared_intro$ [petition_liege.GetTitledFirstName] [Select_CString( petition_liege.IsFemale, 'została schwytana', 'został schwytany' )] przez osobę imieniem [petition_liege.GetImprisonedBy.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc.new_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My request will now need to be directed to my new liege, [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "RUS": "Теперь рассмотрением моей просьбы может заняться [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "POL": "Moja prośba będzie musiała zostać teraz skierowana do [Select_CString( ROOT.Char.GetLiege.IsFemale, 'mojej nowej seniorki, którą', 'mojego nowego seniora, którym' )] jest [ROOT.Char.GetLiege.GetTitledFirstNameRegnal].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601_shared_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Just as my petition had been set in motion and was about to bear fruit,",
+    "RUS": "Мое прошение было принято и уже почти принесло плоды, как вдруг",
+    "POL": "Właśnie wtedy, gdy moja prośba została uznana i miała przynieść owoce,",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nThis certainly changes the situation.",
+    "RUS": "\\n\\nЭто определенно все меняет.",
+    "POL": "\\n\\nTo z pewnością zmienia sytuację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.a_court",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Onward, to greater things.",
+    "RUS": "Вперед к славе.",
+    "POL": "Naprzód ku chwale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.a_prison",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Drat.",
+    "RUS": "Тьфу ты.",
+    "POL": "A niech to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.a_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Why I oughta...",
+    "RUS": "Почему мне...",
+    "POL": "Dlaczego muszę…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0601.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Time to rethink things...",
+    "RUS": "Пора все обдумать...",
+    "POL": "Czas przemyśleć pewne sprawy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Conclusion",
+    "RUS": "$petition_liege_header$ — завершение",
+    "POL": "$petition_liege_header$ podsumowanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "As the last petitioner departs, various courtiers follow them out of the room, having business to attend elsewhere. Others remain, talking amongst themselves about the recent proceedings.\\n\\nSoon the ceremonial formality of the proceedings has dropped away entirely, with the hum and bustle of normal courtly life taking its place.",
+    "RUS": "Уходит последний проситель, следом вереницей, возвращаясь к оставленным делам, тянутся придворные. Некоторые остаются, чтобы обсудить прием.\\n\\nВскоре от формальностей не остается и следа, и тишину сменяет привычный гомон придворной жизни.",
+    "POL": "Kiedy ostatni petent opuszcza salę, za nim podążają dworzanie mający do załatwienia swoje sprawy w innym miejscu. Część pozostaje i żywo dyskutuje na temat ostatniej audiencji.\\n\\nWkrótce uroczysta formalność audiencji całkowicie zanika, a w jej miejsce pojawia się szum i gwar normalnego dworskiego życia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My business here is done.",
+    "RUS": "Мои дела здесь закончены.",
+    "POL": "Załatwił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )] swoje sprawy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.arrogant",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "It is good to let my subjects bask in awe of of my presence.",
+    "RUS": "Приятно позволять подданным купаться в лучах моей славы.",
+    "POL": "Niech moi poddani pławią się w zachwycie z powodu mojej obecności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.shy",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can't wait to get back to my chambers...",
+    "RUS": "Скорее бы вернуться в покои...",
+    "POL": "Nie mogę się doczekać, kiedy wrócę do swoich komnat…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.gregarious",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "This seems like a good opportunity to mingle with my court.",
+    "RUS": "Вот неплохая возможность ближе пообщаться с придворными.",
+    "POL": "To dobra okazja, aby wmieszać się w tłum na moim dworze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9999.every_guest_and_courtier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Every Guest and Courtier:",
+    "RUS": "Каждый гость и придворный:",
+    "POL": "Każdy gość i dworzanin:",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_header$ Switching Tactics",
+    "RUS": "$petition_liege_header$ смена тактики",
+    "POL": "$petition_liege_header$ zmiana taktyki",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I can no longer petition [petition_liege.GetTitledFirstName] to [ROOT.Char.Custom( 'GetPetitionType' )|l] Nevertheless, I have traveled all the way here to [petition_liege.GetCapitalLocation.GetName] to gain [petition_liege.GetHerHis] ear and I will not pass up such an opportunity. I could ask that [petition_liege.GetSheHe]...",
+    "RUS": "[petition_liege.GetTitledFirstName] уже не примет мою петицию ([ROOT.Char.Custom( 'GetPetitionType' )|l]). Так или иначе, передо мной сейчас [petition_liege.GetCapitalLocation.GetName] и позади долгий путь, проделанный лишь ради того, чтобы меня услышали. Я не стану упускать такую возможность. Я попрошу [petition_liege.GetHerHim]...",
+    "POL": "[petition_liege.GetTitledFirstName] nie będzie już akceptować mojej petycji o [ROOT.Char.Custom( 'GetPetitionType' )|l] Niemniej jednak przebył[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] całą drogę do miejsca znanego jako [petition_liege.GetCapitalLocation.GetName], aby zyskać [petition_liege.GetHerHis] posłuch i nie przepuszczę takiej okazji. [Select_CString(ROOT.Char.IsFemale, 'Mogłabym', 'Mógłbym' )] poprosić o…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_gold$.",
+    "RUS": "$petition_liege_gold$.",
+    "POL": "$petition_liege_gold$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.council_seat",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Appoint me to their council.",
+    "RUS": "Назначить меня в свой совет.",
+    "POL": "Mianowanie mnie do swojej rady.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.council_seat_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_council_seat_family$.",
+    "RUS": "$petition_liege_council_seat_family$.",
+    "POL": "$petition_liege_council_seat_family$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.court_position",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_court_position$.",
+    "RUS": "$petition_liege_court_position$.",
+    "POL": "$petition_liege_court_position$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.court_position_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_court_position_family$.",
+    "RUS": "$petition_liege_court_position_family$.",
+    "POL": "$petition_liege_court_position_family$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.governorship_family",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_governorship_family$.",
+    "RUS": "$petition_liege_governorship_family$.",
+    "POL": "$petition_liege_governorship_family$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.house_governorship_rights",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_house_governorship_rights$.",
+    "RUS": "$petition_liege_house_governorship_rights$.",
+    "POL": "$petition_liege_house_governorship_rights$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.pay_debt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Settle my debts.",
+    "RUS": "Выплатить мои долги.",
+    "POL": "Uregulowanie moich długów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.war_aid",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Provide war assistance.",
+    "RUS": "Оказать мне военную помощь.",
+    "POL": "Zapewnienie pomocy w czasie wojny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.vassal_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Enforce peace with my fellow vassals.",
+    "RUS": "Принудить моих собратьев-вассалов к миру.",
+    "POL": "Wyegzekwowanie pokoju z moimi współwasalami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.faction_war",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Dismantle a powerful faction.",
+    "RUS": "Распустить могущественную фракцию.",
+    "POL": "Zlikwidowanie potężnej frakcji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.county_control",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Send bailiffs to help restore control over unruly counties.",
+    "RUS": "Отправить бейлифов, чтобы помочь восстановить контроль над непослушными графствами.",
+    "POL": "Wysłanie włodarzy, aby pomogli przywrócić kontrolę nad zbuntowanymi hrabstwami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.county_convert",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Sponsor priests to help convert counties in my realm.",
+    "RUS": "Заплатить священникам, чтобы те помогли обратить в другую религию графства в моей державе.",
+    "POL": "Ufundowanie działalności kapłanów, aby pomagali nawracać hrabstwa w moim państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.county_opinion",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Pay a royal visit to increase popular opinion in my realm.",
+    "RUS": "Нанести монарший визит, чтобы улучшить народное мнение о моей державе.",
+    "POL": "Złożenie monarszej wizyty, aby zwiększyć powszechną opinię w moim państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.fortify_border",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Fortify my borders.",
+    "RUS": "Укрепить мои границы.",
+    "POL": "Umocnienie moich granic.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.title_liege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Grant one of my claims.",
+    "RUS": "Передать одну из моих претензий",
+    "POL": "Spełnienie jednego z moich roszczeń.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.title_vassal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Transfer Claim",
+    "RUS": "Передача претензии",
+    "POL": "Przekazanie roszczenia",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.construct_city",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Fund a new city in my realm.",
+    "RUS": "Воздвигнуть новый город в моей державе.",
+    "POL": "Zbudowanie nowego miasta w moim państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.construct_temple",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Fund a new temple in my realm.",
+    "RUS": "Воздвигнуть новый храм в моей державе.",
+    "POL": "Zbudowanie nowej świątyni w moim państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.development",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Resettle some of their subjects in my realm.",
+    "RUS": "Переселить часть своих подданных в мою державу.",
+    "POL": "Przesiedlenie części swoich poddanych do mojego państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.house_fief",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "It is no longer a crime to establish new ways to rule.",
+    "RUS": "Разрабатывать новые способы управления государством больше не запрещено.",
+    "POL": "Ustanowienie nowego sposobu rządzenia nie jest już przestępstwem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9001.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Simply fill my coffers.",
+    "RUS": "Просто наполнить мою казну.",
+    "POL": "Po prostu napełnienie mojego skarbca.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.accept.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Very well, your coffers shall be filled.",
+    "RUS": "Хорошо, твоя казна будет наполнена.",
+    "POL": "Bardzo dobrze, twój skarbiec zostanie napełniony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_block_firing_councillor_effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Cannot be removed from the [council|E] for 5 years",
+    "RUS": "Нельзя уволить из [Concept( 'council', 'совета' )|E] в течение 5 лет",
+    "POL": "Nie można usunąć z [Concept('council', 'rady')|E] przez kolejne 5 lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_0101_county_control_effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "All held Counties with less than 66 [control|E]",
+    "RUS": "Все принадлежащие графства, [Concept( 'control', 'контроль' )|E] в которых ниже 66",
+    "POL": "Każde posiadane hrabstwo z [Concept('control', 'kontrolą')|E] poniżej 66",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_control_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Royal Bailiffs",
+    "RUS": "Монаршие бейлифы",
+    "POL": "Monarszy włodarze",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_control_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The holder of this county has requested their liege's bailiffs' aid in restoring order.",
+    "RUS": "Владелец этого графства попросил бейлифов сюзерена оказать помощь в наведении порядка.",
+    "POL": "Właściciel tego hrabstwa zwrócił się do włodarzy swojego seniora o pomoc w przywróceniu porządku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_control_modifier_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[increase_control|E] will progress faster in Counties with this modifier",
+    "RUS": "Задание «[increase_control|E]» будет выполняться быстрее в графствах с этим модификатором",
+    "POL": "[increase_control|E] będzie postępowało szybciej w hrabstwach z tym modyfikatorem",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_0101_county_convert_effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "All [petition_vassal.GetShortUINamePossessive] [holdings|E] of another [faith|E]",
+    "RUS": "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName], где распространена другая [Concept( 'faith', 'конфессия' )|E]",
+    "POL": "Każda [Select_CString( petition_vassal.IsLocalPlayer, 'twoja ', '' )][holding|El][Select_CString( petition_vassal.IsLocalPlayer, '', Concatenate(' postaci ', petition_vassal.GetShortUINameNotMe))] z inną [Concept( 'faith', 'wiarą' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_convert_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Sponsored Proselytizers",
+    "RUS": "Поддержка обращения",
+    "POL": "Ufundowani misjonarze",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_convert_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The holder of this county has requested their liege sponsor its conversion to the true faith.",
+    "RUS": "Владелец этого графства попросил сюзерена поддержать обращение в истинную веру.",
+    "POL": "Właściciel tego hrabstwa zwrócił się do swojego seniora z prośbą o wsparcie w nawróceniu tych ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_convert_modifier_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[convert_county|E] will progress faster in Counties with this modifier",
+    "RUS": "Задание «[convert_county|E]» будет выполняться быстрее в графствах с этим модификатором",
+    "POL": "[Concept( 'convert_county', 'Nawracanie' )|E] będzie postępować szybciej w hrabstwach z tym modyfikatorem",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_0101_county_opinion_effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "All [petition_vassal.GetShortUINamePossessive] [holdings|E] with [county_opinion|E] of #negative_value [SCOPE.ScriptValue('petition_county_opinion_value')]#! or below",
+    "RUS": "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName] с [Concept( 'county_opinion', 'мнением' )|E] не выше #negative_value [SCOPE.ScriptValue('petition_county_opinion_value')]#!",
+    "POL": "Każda [Select_CString( petition_vassal.IsLocalPlayer, 'twoja ', '' )][holding|El][Select_CString( petition_vassal.IsLocalPlayer, '', Concatenate(' postaci ', petition_vassal.GetShortUINameNotMe))] z [Concept( 'county_opinion', 'opinią powszechną' )|E] wynoszącą #negative_value [SCOPE.ScriptValue('petition_county_opinion_value')]#! lub mniej",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_opinion_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Royal Visit",
+    "RUS": "Монарший визит",
+    "POL": "Wizyta monarsza",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_county_opinion_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The holder of this county has requested their liege visit and make a show for the people.",
+    "RUS": "Владелец этого графства попросил сюзерена нанести визит и показать себя народу.",
+    "POL": "Właściciel tego hrabstwa poprosił swojego seniora o wizytę i przygotowanie przedstawienia dla ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_0101_fortify_border_effect_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "All [petition_vassal.GetShortUINamePossessive] [holdings|E] bordering other realms",
+    "RUS": "Все [Concept( 'holdings', 'владения' )|E] вассала [petition_vassal.GetShortUIName], граничащие с другими державами",
+    "POL": "Każda [Select_CString( petition_vassal.IsLocalPlayer, 'twoja ', '' )][holdings|El][Select_CString( petition_vassal.IsLocalPlayer, '', Concatenate(' postaci ', petition_vassal.GetShortUINameNotMe))], która graniczy z innymi państwami",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_fortify_border_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Marcher Fortifications",
+    "RUS": "Укрепление марки",
+    "POL": "Wzmocnienie marchii",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_fortify_border_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The holder of this county has requested their liege fortify the realm's marches.",
+    "RUS": "Владелец этого графства попросил сюзерена укрепить марки своей державы.",
+    "POL": "Właściciel tego hrabstwa zażądał od swojego seniora ufortyfikowania marchii państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_development_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Settlement Influx",
+    "RUS": "Приток поселенцев",
+    "POL": "Napływ osadników",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_development_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The holder of this county has requested the transfer of people from their liege's holdings.",
+    "RUS": "Владелец этого графства попросил сюзерена переселить сюда людей из своих владений.",
+    "POL": "Właściciel tego hrabstwa poprosił swojego seniora o przeniesienie ludności z jego posiadłości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_title_councillor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCouncilTitle]",
+    "RUS": "[ROOT.Char.GetCouncilTitle]",
+    "POL": "[ROOT.Char.GetCouncilTitle]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_title_position",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]",
+    "RUS": "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]",
+    "POL": "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_title_landed",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "RUS": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "POL": "[ROOT.Char.GetTitleAsNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_title_courtier",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "courtier",
+    "RUS": "придворный",
+    "POL": "dworzanin",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_second_if_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "#bold If [TARGET_CHARACTER.GetTitledFirstNameRegnal] accepts:#!",
+    "RUS": "#bold Если [TARGET_CHARACTER.GetTitledFirstNameRegnal] согласится:#!",
+    "POL": "#bold Jeżeli [TARGET_CHARACTER.GetTitledFirstNameRegnal] zaakceptuje:#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_costs_refunded",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_liege_decision$ costs refunded",
+    "RUS": "$petition_liege_decision$ — затраты возмещены",
+    "POL": "Zwrot kosztów za decyzję „$petition_liege_decision$”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_ceremonial_liege_costs_refunded",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "$petition_ceremonial_liege_decision$ costs refunded",
+    "RUS": "$petition_ceremonial_liege_decision$ — затраты возмещены",
+    "POL": "Zwrócono koszty decyzji „$petition_ceremonial_liege_decision$”",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0001.a.tt_non_royal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You receive [petition_vassal.GetTitledFirstName] in the [royal_court|E] of your [liege|E]",
+    "RUS": "[petition_vassal.GetTitledFirstName] прибывает на прием ко [Concept('royal_court', 'двору')|E] вашего [Concept('liege', 'сюзерена')|E]",
+    "POL": "[petition_vassal.GetTitledFirstName] jest gościem [Concept('royal_court', 'dworu monarszego')|E] twojego [Concept('liege', 'seniora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc_non_royal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_vassal.GetTitledFirstName] is at last shown into my [liege_possessive|E] great hall, and wastes no time before walking up to the throne and bowing deeply. \\n\\n",
+    "RUS": "[petition_vassal.GetTitledFirstName] наконец-то появляется в зале моего [Concept('liege_possessive', 'сюзерена')|E] и без промедления подходит к трону, отвешивая глубокий поклон. \\n\\n«Спасибо, что приняли меня, [petition_liege.GetTitledFirstNamePossessive]. Я [Select_CString(petition_vassal.IsFemale, 'пришла', 'пришел' )] к вам с очень важной просьбой —",
+    "POL": "[petition_vassal.GetTitledFirstName] trafia wreszcie do wielkiej sali mojego [liege_possessive|El]. Nie tracąc czasu, podchodzi do tronu i składa głęboki ukłon.\\n\\n– Dziękuję, że [petition_liege.GetTitledFirstName] znajduje dla mnie czas. Przychodzę dziś z niecierpiącą zwłoki prośbą…",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0101.desc.title_liege_non_royal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "with respect my [petition_liege.GetTitleAsNameNoTooltip], the [petition_claim.GetName] is rightfully mine!",
+    "RUS": "при всем уважении, [Select_CString(petition_liege.IsFemale, 'моя', 'мой')] [petition_liege.GetTitleAsNameNoTooltip], [petition_claim.GetName] по праву принадлежит мне!»\\n\\n«Вам подчиняется [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], [petition_liege.GetLadyLord], так почему бы не передать мне скромный титул — [petition_claim.GetTierAsNameNoTooltip|l] — на который у меня есть законные претензии?»",
+    "POL": "Z całym szacunkiem, [petition_claim.GetNameNoTier] to ziemie, które prawowicie należą się mnie! – oznajmia.\\n\\n– [petition_liege.GetLadyLord|U] raczy zrozumieć, [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] to rozległe ziemie, więc co stoi na przeszkodzie, aby przekazać mi zaledwie ten jeden tytuł, do którego mam uzasadnione roszczenie? [petition_claim.GetTierAsNameNoTooltip] to moja własność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0201.a_non_royal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Thank you my [petition_liege.GetLadyLord]!",
+    "RUS": "Спасибо, [Select_CString(petition_liege.IsFemale, 'моя', 'мой')] [petition_liege.GetLadyLord]!",
+    "POL": "Dziękuję, wasza czcigodność!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.a",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My eternal gratitude, great [petition_liege.GetTitleAsNameNoTooltip]!",
+    "RUS": "Примите мою вечную благодарность, [Select_CString(petition_liege.IsFemale, 'великая', 'великий' )] [petition_liege.GetTitleAsNameNoTooltip]!",
+    "POL": "– Niech [petition_liege.GetTitleAsNameNoTooltip] raczy przyjąć moją wieczną wdzięczność.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege_skillcheck_counter_tt_non_royal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Attempt to convince [petition_liege.GetHerHim] by other means",
+    "RUS": "Попытаться убедить [Select_CString(petition_liege.IsFemale, 'ее', 'его')] другими методами",
+    "POL": "Spróbuj przekonać [petition_liege.Custom('PL_go_ja')] za pomocą innych metod",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0021.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Salutations, good [petition_liege.GetTitleAsNameNoTooltip],",
+    "RUS": "Приветствую тебя, [Select_CString(petition_liege.IsFemale, 'добрая', 'добрый' )] [petition_liege.GetTitleAsNameNoTooltip],",
+    "POL": "Niech [petition_liege.GetTitleAsNameNoTooltip] raczy przyjąć moje pozdrowienia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0021.desc.no_travel",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I would be most honored to have my audience received, and my humble and earnest presentation of a matter dear to my heart heard.\\n\\nI patiently await the palace's call at your majesty's earliest convenience.",
+    "RUS": "Почту за величайшую честь, если вы даруете мне аудиенцию и соизволите выслушать мое скромное, но искреннее обращение.\\n\\nЯ буду терпеливо ждать послания из дворца, когда бы вашему величеству ни было угодно ответить.",
+    "POL": "Będzie to dla mnie ogromny zaszczyt, jeśli moja osoba zostanie przyjęta na audiencji, a skromna, szczera prośba dotycząca sprawy bliskiej memu sercu, zostanie wysłuchana.\\n\\nCierpliwie oczekuję wezwania do pałacu w dogodnym dla waszej czcigodności czasie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0029.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "My humblest greetings, great [petition_liege.GetTitleAsNameNoTooltip],",
+    "RUS": "Примите мой нижайший поклон, [Select_CString(petition_liege.IsFemale, 'великая', 'великий' )] [petition_liege.GetTitleAsNameNoTooltip],",
+    "POL": "Niech [petition_liege.GetTitleAsNameNoTooltip] zechce przyjąć moje pozdrowienie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.t.regent",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Office Endorsement",
+    "RUS": "Поддержка канцелярии",
+    "POL": "Poparcie nominacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.t.appointment",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "House Advancement",
+    "RUS": "Развитие дома",
+    "POL": "Awans rodu",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.t.wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Royal Marriage",
+    "RUS": "Королевский брак",
+    "POL": "Królewskie małżeństwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.t.privilege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Dignity Acknowledged",
+    "RUS": "Признанное достоинство",
+    "POL": "Uznanie godności",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "[petition_vassal.GetTitledFirstName] is at last shown into my great hall, and wastes no time before walking up to my throne and bowing deeply. \\n\\n",
+    "RUS": "[petition_vassal.GetTitledFirstName] наконец-то появляется в моем зале и без промедления подходит к трону, отвешивая глубокий поклон. \\n\\n«Спасибо, что приняли меня, [Select_CString(petition_liege.IsFemale, 'великая', 'великий' )] [petition_liege.GetTitleAsNameNoTooltip]. Я [Select_CString(petition_vassal.IsFemale, 'пришла', 'пришел' )] к вам с очень важной просьбой —",
+    "POL": "Osoba znana jako [petition_vassal.GetTitledFirstName] zostaje wreszcie wprowadzona do mojej wielkiej sali i natychmiast zbliża się do mojego tronu, by złożyć głęboki ukłon.\\n\\n– Dziękuję, że wasza czcigodność zgodziła się mnie przyjąć. Przybywam tu dzisiaj, by omówić pewną istotną kwestię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.desc.regent",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the question of who shall be [petition_vassal.GetTopLiege.GetTitledFirstNamePossessive] successor as the steward of your realm remains to be settled.",
+    "RUS": "вопрос, кому [petition_vassal.GetTopLiege.GetTitledFirstName] передаст пост управляющего вашей державой, еще не решен.\\n\\nНадеюсь, вы согласитесь, что вряд ли найдется более достойная кандидатура для служения трону, чем моя скромная персона».",
+    "POL": "Trzeba ustalić, kto będzie następcą osoby, którą jest [petition_vassal.GetTopLiege.GetTitledFirstName], na stanowisku zarządcy twojego państwa.\\n\\n– Moja skromna kandydatura z pewnością dobrze przysłuży się tronowi – mam nadzieję, że zgodzisz się z moją oceną.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.desc.appointment",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "my house, like many of the noblest families in [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], seeks the honors of the throne's service, serving as governors and bureaucrats.",
+    "RUS": "мой дом, как и многие другие благородные семейства, почитает за честь служение трону на постах губернаторов и чиновников.\\n\\nМы доказали державе свою верность и компетентность, поэтому очень рассчитываем на вашу поддержку при выборе подручных».",
+    "POL": "Członkowie mojego rodu, podobnie jak inne rodziny szlacheckie w miejscu o nazwie [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], pragną objąć zaszczyt służenia tronowi w roli gubernatorów i urzędników.\\n\\n– Dowiedliśmy, że jesteśmy lojalnymi i sprawnymi sługami państwa. Twoje poparcie podczas obsadzania tych stanowisk wiele by dla nas znaczyło.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.desc.wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "only the noblest of families could ever hope to match an ounce of the grace of your royal line.",
+    "RUS": "лишь благороднейшие из домов могут надеяться обрести хотя бы малую толику великолепия вашего монаршего рода.\\n\\nПри всем моем величайшем смирении осмелюсь причислить мой дом к их числу. И посему прошу вашей поддержки в вопросе королевского брака».",
+    "POL": "Jedynie najszlachetniejsze rody mogą liczyć na dorównanie – choćby w najmniejszym stopniu – linii królewskiej.\\n\\n– Uniżenie proszę o zaliczenie w ich poczet także mojego rodu i poparcie dla królewskiego małżeństwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.desc.privilege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "the many bickering families of the realm forget the grace and dignity those in their position once knew. Few houses remain, though I place mine among them, that retain true quality.",
+    "RUS": "многие дома державы погрязли в склоках, позабыв о достоинстве и величии своих же предков. Осталось лишь немного домов — и я смею причислять к ним свой род, — которые сумели по-настоящему сохранить лица.\\nПри всем подобающем смирении надеюсь, что ваше величество признает наши заслуги и право называться представителями высшей знати державы».",
+    "POL": "Wiele wadzących się ze sobą rodów naszego królestwa zapomina, jaką łaską i godnością cechowały się niegdyś osoby zajmujące zaszczytne stanowiska. Niewiele zostało rodów – choć zaliczam do nich także i mój – które wciąż odznaczają się odpowiednimi cechami.\\n– Uniżenie proszę waszą czcigodność o uznanie naszych zasług i zaliczenie nas do grona najprzedniejszych rodów w państwie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.accept.regent",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Long have I hoped you rise to this responsibility.",
+    "RUS": "Я давно уже жду, что ты осмелишься взять на себя эту ответственность.",
+    "POL": "Od dawna towarzyszyła mi nadzieja, że dorośniesz do tej odpowiedzialności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.accept.appointment",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Few houses serve as diligently or loyally.",
+    "RUS": "Мало найдется столь же добропорядочных и верных домов.",
+    "POL": "Niewiele jest rodów, które służą z taką sumiennością i lojalnością.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.accept.wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "You have proven the stature of your house.",
+    "RUS": "Теперь престиж твоего дома не подлежит сомнению.",
+    "POL": "Udało ci się dowieść renomy twego rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.accept.privilege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The reputation of your house is beyond doubt.",
+    "RUS": "Репутация твоего дома безукоризненна.",
+    "POL": "Nie ma żadnych wątpliwości co do reputacji twojego rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.bribe_gold",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The throne is generous to those generous to the throne.",
+    "RUS": "Трон щедр к тем, кто щедр к трону.",
+    "POL": "Tron jest łaskawy dla tych, którzy są łaskawi wobec tronu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.bribe_bloc",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The throne rewards those who prove their support.",
+    "RUS": "Трон благоволит тем, кто подкрепляет свою поддержку.",
+    "POL": "Tron nagradza tych, którzy dają dowód swego wsparcia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.bribe_favor",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The throne's grace should not soon be forgotten.",
+    "RUS": "Благосклонность трона не должна забываться.",
+    "POL": "Lepiej nie zapominać o łasce udzielonej przez tron.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.bribe_vows",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The throne's grace goes to those who prove their piety.",
+    "RUS": "Трон милостив к тем, кто доказывает свое благочестие.",
+    "POL": "Tron obdarza łaską tych, którzy dają dowód swej pobożności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.bribe_knight",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "The throne's grace goes to its most loyal servants.",
+    "RUS": "Трон благоволит своим самым верным слугам.",
+    "POL": "Tron obdarza łaską najbardziej lojalne sługi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0121.refusal",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "This request is beneath the dignity of the crown.",
+    "RUS": "Эта просьба ниже достоинства короны.",
+    "POL": "Ta prośba jest poniżej godności korony.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.desc.regent",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI humbly request [petition_liege.GetHerHis] support for my bid for the highest office, listing my prior achievements and each example of my unswerving loyalty.",
+    "RUS": "\\n\\nЯ нижайше прошу [Select_CString(petition_liege.IsFemale, 'ее', 'его' )] о поддержке моего выдвижения на высокую должность, перечисляю все мои прежние достижения и привожу примеры своей непоколебимой верности.",
+    "POL": "\\n\\nPrzedstawiwszy moje dotychczasowe dokonania i przykłady niezachwianej lojalności, uniżenie proszę o [petition_liege.Custom('PL_jego_jej')] poparcie dla mojej kandydatury na najwyższe stanowisko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.desc.appointment",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI beseech my [petition_liege.GetLadyLord] to acknowledge my qualities as a servant, and support my advancement in [petition_liege.GetHerHis] and the realm's service.",
+    "RUS": "\\n\\nЯ прошу, чтобы [Select_CString(petition_liege.IsFemale, 'моя', 'мой' )] [petition_liege.GetLadyLord] [Select_CString(petition_liege.IsFemale, 'признала', 'признал' )] мои достижения на службе и [Select_CString(petition_liege.IsFemale, 'поддержала', 'поддержал' )] мое повышение — во благо державы.",
+    "POL": "\\n\\nNiechaj [petition_liege.GetLadyLord] zechce uznać moje przymioty jako sługi i udzieli swojego wsparcia dla mojego awansu w służbie [petition_liege.Custom('PL_jego_jej')] i państwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.desc.wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nI express the honor my family would receive to be joined in matrimony with the imperial house, clarifying the dignity of the [ROOT.Char.GetHouse.GetNameNoTooltip] bloodline and the suitability of our maidens and bachelors.",
+    "RUS": "\\n\\nДля нашего рода будет величайшей честью связать себя узами брака с монаршим двором. Я привожу доказательства чистоты наследия рода [ROOT.Char.GetHouse.GetNameNoTooltip] и достоинств наших дев и неженатых мужчин.",
+    "POL": "\\n\\nOznajmiam, że wielkim zaszczytem dla mojego rodu byłoby połączenie węzłem małżeńskim z rodziną cesarską. Akt ten potwierdziłby godność linii [ROOT.Char.GetHouse.GetNameNoToolptip] oraz przymioty naszych panien i kawalerów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.desc.privilege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I urge the [petition_liege.GetTitleAsNameNoTooltip] to formally assent to acknowledgements of my house's noble pedigree among the aristocracy of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].",
+    "RUS": "Я молю лишь об одном: чтобы [petition_liege.GetTitleAsNameNoTooltip] официально [Select_CString(petition_liege.IsFemale, 'признала', 'признал' )] благородство моей родословной и таким образом [Select_CString(petition_liege.IsFemale, 'позволила', 'позволил' )] нам занять подобающее место среди высшей знати.",
+    "POL": "Proszę, by osoba znana jako [petition_liege.GetTitleAsNameNoTooltip] formalnie potwierdziła szlachetny rodowód mojej familii i jej przynależność do arystokracji miejsca o nazwie [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0225.b",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "I am afraid this is not possible.",
+    "RUS": "Боюсь, это невозможно.",
+    "POL": "Obawiam się, że to niemożliwe.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0229.counter",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Your majesty, please, just a moment!",
+    "RUS": "Прошу, ваше величество, всего лишь мгновение вашего внимания!",
+    "POL": "Wasza dostojność, proszę o zaledwie chwilę waszego czasu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.0221.desc.bridge",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "\\n\\nAfter listening to the speech, [petition_liege.GetSheHe] waits a moment, before [petition_liege.GetSheHe] smiles warmly and says, ",
+    "RUS": "\\n\\nВыслушав речь, [Select_CString(petition_liege.IsFemale, 'она', 'он' )] выжидает небольшую паузу, а затем тепло улыбается: «Весьма убедительные доводы! Хорошо, я немедленно займусь этим вопросом».",
+    "POL": "\\n\\nWysłuchawszy mowy, milczy przez chwilę, po czym uśmiecha się ciepło i mówi:\\n\\n– Przedstawiasz mądre argumenty! Dobrze więc, natychmiast zajmę się tą kwestią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9021.regent",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Endorse my bid for the highest office.",
+    "RUS": "Поддержать мою кандидатуру в высшей канцелярии.",
+    "POL": "Wesprzyj moją kandydaturę na najwyższe stanowisko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9021.appointment",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Support the careers of my house.",
+    "RUS": "Поддержать карьеры моих родственников.",
+    "POL": "Wspieraj karierę członków mojego rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9021.wedding",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Assent to a royal marriage.",
+    "RUS": "Согласиться на королевский брак.",
+    "POL": "Wyraź zgodę na królewskie małżeństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_liege.9021.privilege",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Acknowledge my house's dignity.",
+    "RUS": "Признать благородство моего дома.",
+    "POL": "Potwierdź godność mojego rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "petition_ceremonial_liege_skillcheck_counter_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/activities/petition_liege_events_l_belarusian.json",
+    "ENG": "Attempt to convince the [petition_liege.GetTitleAsNameNoTooltip] by other means",
+    "RUS": "Возможно, [petition_liege.GetTitleAsNameNoTooltip] согласится на иные увещевания",
+    "POL": "Spróbuj przekonać osobę znaną jako [petition_liege.GetTitleAsNameNoTooltip] za pomocą innych metod",
+    "BEL": ""
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_battles",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#T The Battle of $BattlePoiProvince$#!\\n$BattlePoiInfo$\\n$BattlePoiDescription$\\n\\n",
+    "RUS": "#T Битва во владении $BattlePoiProvince$#!\\n$BattlePoiInfo$\\n$BattlePoiDescription$\\n\\n",
+    "POL": "#T Bitwa o miejsce znane jako $BattlePoiProvince$#!\\n$BattlePoiInfo$\\n$BattlePoiDescription$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiInfo",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp $BattlePoiVictoriousSide$\\n$BattlePoiLosingSide$\\n$BattlePoiDate$#!",
+    "RUS": "#emp $BattlePoiVictoriousSide$\\n$BattlePoiLosingSide$\\n$BattlePoiDate$#!",
+    "POL": "#emp $BattlePoiVictoriousSide$\\n$BattlePoiLosingSide$\\n$BattlePoiDate$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiVictoriousSide",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Victor: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]",
+    "RUS": "Победитель: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]",
+    "POL": "Zwycięzca: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiLosingSide",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Defeated: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]",
+    "RUS": "Проигравший: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]",
+    "POL": "Pokonany: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDate",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Date: [Province.Custom('OrdinalIndicatorPoI')] of [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] AD",
+    "RUS": "Дата: [Province.Custom('OrdinalIndicatorPoI')] [Province.Custom('MonthBattlePoI')] [Province.MakeScope.Var('battle_poi_date_year').GetValue] г.",
+    "POL": "Data: [Province.Custom('OrdinalIndicatorPoI')] [Province.Custom('MonthBattlePoI')] [Province.MakeScope.Var('battle_poi_date_year').GetValue] n.e.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescription",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!",
+    "RUS": "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!",
+    "POL": "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "poi_battles.visit",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Visited Battle of [province.GetNameNoTooltip] Site",
+    "RUS": "Посещено место битвы в провинции [province.GetNameNoTooltip]",
+    "POL": "Odwiedzono miejsce bitwy o miejsce znane jako [province.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "poi_battles.learn",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Learned from Battle of [province.GetNameNoTooltip]",
+    "RUS": "Усвоены уроки битвы в провинции [province.GetNameNoTooltip]",
+    "POL": "Wyciągnięto naukę z bitwy o miejsce znane jako [province.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OrdinalIndicatorPoIST",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]st",
+    "RUS": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "POL": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OrdinalIndicatorPoIND",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]nd",
+    "RUS": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "POL": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OrdinalIndicatorPoIRD",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]rd",
+    "RUS": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "POL": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "BEL": ""
+  },
+  {
+    "KEY": "OrdinalIndicatorPoIFallback",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]th",
+    "RUS": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "POL": "[Province.MakeScope.Var('battle_poi_date_day').GetValue]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiProvince",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.GetNameNoTooltip]",
+    "RUS": "[Province.GetNameNoTooltip]",
+    "POL": "[Province.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiCommander",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_winner').Char.GetTitledFirstNameNoTooltip]",
+    "RUS": "[Province.MakeScope.Var('battle_poi_winner').Char.GetTitledFirstNameNoTooltip]",
+    "POL": "[Province.MakeScope.Var('battle_poi_winner').Char.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiCommanderHisHer",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_winner').Char.GetHerHis]",
+    "RUS": "[Select_CString(Province.MakeScope.Var('battle_poi_winner').Char.IsFemale, 'ее', 'его' )]",
+    "POL": "[Province.MakeScope.Var('battle_poi_winner').Char.Custom('PL_jego_jej')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiCommanderCulture",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_winner').Char.GetCulture.GetNameNoTooltip]",
+    "RUS": "[Province.MakeScope.Var('battle_poi_winner').Char.GetCulture.GetCollectiveNounNoTooltip|l]",
+    "POL": "[Province.MakeScope.Var('battle_poi_winner').Char.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiEnemyCommander",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_loser').Char.GetTitledFirstNameNoTooltip]",
+    "RUS": "[Province.MakeScope.Var('battle_poi_loser').Char.GetTitledFirstNameNoTooltip]",
+    "POL": "[Province.MakeScope.Var('battle_poi_loser').Char.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiEnemyCommanderSheHe",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_loser').Char.GetSheHe]",
+    "RUS": "[Select_CString(Province.MakeScope.Var('battle_poi_loser').Char.IsFemale, 'она', 'он' )]",
+    "POL": "[Province.MakeScope.Var('battle_poi_loser').Char.GetSheHe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiEnemyCommanderHisHer",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_loser').Char.GetHerHis]",
+    "RUS": "[Select_CString(Province.MakeScope.Var('battle_poi_loser').Char.IsFemale, 'ее', 'его' )]",
+    "POL": "[Province.MakeScope.Var('battle_poi_loser').Char.Custom('PL_jego_jej')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiEnemyCommanderCulture",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_loser').Char.GetCulture.GetNameNoTooltip]",
+    "RUS": "[Province.MakeScope.Var('battle_poi_loser').Char.GetCulture.GetCollectiveNounNoTooltip|l]",
+    "POL": "[Province.MakeScope.Var('battle_poi_loser').Char.GetCulture.GetNameNoTooltip|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiBraveKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.MakeScope.Var('battle_poi_brave_knight').Char.GetName]",
+    "RUS": "[Province.MakeScope.Var('battle_poi_brave_knight').Char.GetName]",
+    "POL": "[Province.MakeScope.Var('battle_poi_brave_knight').Char.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionIntro1",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The two sides clashed in $BattlePoiProvince$, one led by $BattlePoiCommander$ and the other by $BattlePoiEnemyCommander$.",
+    "RUS": "Две стороны столкнулись в провинции $BattlePoiProvince$. Во главе противостоящих войск стояли $BattlePoiCommander$ и $BattlePoiEnemyCommander$.",
+    "POL": "Obie strony starły się w miejscu znanym jako $BattlePoiProvince$. Jednej przewodziła osoba znana jako $BattlePoiCommander$, natomiast drugiej – $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionIntroAttacker2",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "$BattlePoiCommander$ launched a daunting offense on the army of $BattlePoiEnemyCommander$.",
+    "RUS": "$BattlePoiCommander$ со своей армией обрушили ошеломляющий натиск на врага.",
+    "POL": "$BattlePoiCommander$ przeprowadza przytłaczający atak na armię, na czele której stoi $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionIntroDefender2",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "$BattlePoiCommander$ mounted an expert defense against the incoming army of $BattlePoiEnemyCommander$.",
+    "RUS": "$BattlePoiCommander$ со своими войсками выстроили великолепную оборону, на которую наткнулись $BattlePoiEnemyCommander$ со своей армией.",
+    "POL": "$BattlePoiCommander$ organizuje doskonałą obronę przed nadciągającą armią, na czele której stoi $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionIntroAttackerFallback",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "$BattlePoiCommander$ led $BattlePoiCommanderHisHer$ troops bravely in a charge against the $BattlePoiEnemyCommanderCulture$ army of $BattlePoiEnemyCommander$.",
+    "RUS": "$BattlePoiCommander$ со своими войсками отважно атаковали $BattlePoiEnemyCommanderCulture$ую армию.",
+    "POL": "$BattlePoiCommander$ dzielnie prowadzi swoje oddziały w szarży, której celem jest $BattlePoiEnemyCommanderCulture$ armia osoby znanej jako $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionIntroDefenderFallback",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "$BattlePoiCommander$ led $BattlePoiCommanderHisHer$ troops bravely in a defense against the $BattlePoiEnemyCommanderCulture$ army of $BattlePoiEnemyCommander$.",
+    "RUS": "$BattlePoiCommander$ со своими войсками отважно отражали натиск $BattlePoiEnemyCommanderCulture$ой армии.",
+    "POL": "$BattlePoiCommander$ dzielnie prowadzi swoje oddziały w działaniach obronnych przeciwko najeźdźcy, którym jest $BattlePoiEnemyCommanderCulture$ armia osoby znanej jako $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocArchers",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The key moment of the battle was when the $BattlePoiCommanderCulture$ archers managed to navigate around the enemy, ",
+    "RUS": "Переломный момент в битве случился тогда, когда $BattlePoiCommanderCulture$ие лучники сумели обойти врага,",
+    "POL": "Kluczowym wydarzeniem bitwy był moment, gdy $BattlePoiCommanderCulture$ grupa łuczników zdołała obejść siły wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocHeavyInfantry",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle was decided when a regiment of $BattlePoiCommanderCulture$ heavy infantry pushed through enemy lines,",
+    "RUS": "Исход битвы был решен в тот момент, когда полк $BattlePoiCommanderCulture$их тяжелых пехотинцев прорвался сквозь вражеский строй,",
+    "POL": "Losy bitwy zostały rozstrzygnięte, gdy $BattlePoiCommanderCulture$ grupa piechoty ciężkiej przebiła się przez linie wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocLightCavalry",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The outcome was decided when the $BattlePoiCommanderCulture$ cavalry managed to navigate behind enemy troops,",
+    "RUS": "Исход битвы был решен в тот момент, когда $BattlePoiCommanderCulture$ие всадники сумели зайти в тыл вражеского войска,",
+    "POL": "Wynik bitwy został rozstrzygnięty, gdy $BattlePoiCommanderCulture$ grupa kawalerii zdołała przedostać się na tyły wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocHeavyCavalry",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle came to an end when the $BattlePoiCommanderCulture$ cavalry tore through the battle lines and into the heart of the enemy formation,",
+    "RUS": "Битва подошла к концу, когда $BattlePoiCommanderCulture$ие всадники прорвали вражеский строй и пробились в самый центр вражеского войска,",
+    "POL": "Bitwa dobiegła końca, gdy $BattlePoiCommanderCulture$ grupa kawalerii przebiła się przez linię frontu i wdarła się w samo serce formacji wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocPikemen",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Their victory was ensured when the $BattlePoiCommanderCulture$ pikemen pushed back the enemy charge,",
+    "RUS": "Победа была предрешена в тот момент, когда $BattlePoiCommanderCulture$ие пикинеры сдержали вражеский натиск,",
+    "POL": "Ich zwycięstwo zostało przypieczętowane, gdy $BattlePoiCommanderCulture$ grupa pikinierów odparła szarżę wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocArchersKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The key moment of the battle was when the $BattlePoiCommanderCulture$ archers led by $BattlePoiBraveKnight$ managed to navigate around the enemy, ",
+    "RUS": "Переломный момент в битве случился тогда, когда $BattlePoiBraveKnight$ и $BattlePoiCommanderCulture$ие лучники сумели обойти врага,",
+    "POL": "Kluczowym wydarzeniem bitwy był moment, gdy $BattlePoiCommanderCulture$ grupa łuczników, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, zdołała obejść siły wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocHeavyInfantryKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle was decided when a regiment of $BattlePoiCommanderCulture$ heavy infantry led by $BattlePoiBraveKnight$ pushed through enemy lines,",
+    "RUS": "Исход битвы был решен в тот момент, когда $BattlePoiBraveKnight$ и полк $BattlePoiCommanderCulture$их тяжелых пехотинцев прорвались сквозь вражеский строй,",
+    "POL": "Losy bitwy zostały rozstrzygnięte, gdy $BattlePoiCommanderCulture$ grupa piechoty ciężkiej, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, przebiła się przez linie wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocLightCavalryKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The outcome was decided when the $BattlePoiCommanderCulture$ cavalry led by $BattlePoiBraveKnight$ managed to navigate behind enemy troops,",
+    "RUS": "Исход битвы был решен в тот момент, когда $BattlePoiBraveKnight$ и $BattlePoiCommanderCulture$ие всадники сумели зайти в тыл вражеского войска,",
+    "POL": "Wynik bitwy został rozstrzygnięty, gdy $BattlePoiCommanderCulture$ grupa kawalerii, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, zdołała przedostać się na tyły wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocHeavyCavalryKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle came to an end when the $BattlePoiCommanderCulture$ cavalry led by $BattlePoiBraveKnight$ tore through the battle lines and into the heart of the enemy formation,",
+    "RUS": "Битва подошла к концу, когда $BattlePoiBraveKnight$ и $BattlePoiCommanderCulture$ие всадники прорвали вражеский строй и пробились в самый центр вражеского войска,",
+    "POL": "Bitwa dobiegła końca, gdy $BattlePoiCommanderCulture$ grupa kawalerii, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, przebiła się przez linię frontu i wdarła się w samo serce formacji wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocPikemenKnight",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Their victory was ensured when the $BattlePoiCommanderCulture$ pikemen led by $BattlePoiBraveKnight$ pushed back the enemy charge,",
+    "RUS": "Победа была предрешена в тот момент, когда $BattlePoiBraveKnight$ и $BattlePoiCommanderCulture$ие пикинеры сдержали вражеский натиск,",
+    "POL": "Ich zwycięstwo zostało przypieczętowane, gdy $BattlePoiCommanderCulture$ grupa pikinierów, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, odparła szarżę wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocVarangian",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle came to an end when a group of varangians led by $BattlePoiBraveKnight$ pushed through the battle lines and deep into the enemy formation,",
+    "RUS": "Битва подошла к концу, когда $BattlePoiBraveKnight$ с отрядом варягов прорвали вражеский строй и пробились в самый центр вражеского войска,",
+    "POL": "Bitwa dobiegła końca, gdy grupa Waregów, dowodzona przez osobę znaną jako $BattlePoiBraveKnight$, przebiła się przez linię frontu i wdarła się do wnętrza formacji wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocBerserker",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The battle took an unexpected turn when $BattlePoiBraveKnight$ ran through the $BattlePoiEnemyCommanderCulture$ lines,",
+    "RUS": "Битва приняла неожиданный поворот, когда $BattlePoiBraveKnight$ со свитой прорвались сквозь $BattlePoiEnemyCommanderCulture$ий строй,",
+    "POL": "Bitwa przybrała nieoczekiwany obrót, gdy osoba znana jako $BattlePoiBraveKnight$ pokonała zaporę, którą była $BattlePoiEnemyCommanderCulture$ linia obrony,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocMidFallback",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "They tired each other out, and in the end the $BattlePoiCommanderCulture$ enveloped the enemy",
+    "RUS": "Стороны истощили друг друга, но под конец $BattlePoiCommanderCulture$ое войско окружило врага",
+    "POL": "Obie strony doprowadziły się nawzajem na skraj wyczerpania, lecz $BattlePoiCommanderCulture$ armia w końcu otoczyła wroga,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeBerserker",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "single-handedly shattered enemy morale by killing several dozens of the enemy warriors,",
+    "RUS": "лично сокрушив боевой дух врага, сразив несколько дюжин воинов,",
+    "POL": "zabijając tuziny wojowników przeciwnika i niszcząc jego morale,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeBerserkerFled",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and single-handedly shattered enemy morale by killing several dozens of the enemy warriors.",
+    "RUS": "лично сокрушив боевой дух врага и сразив несколько дюжин воинов.",
+    "POL": "zabijając tuziny wojowników przeciwnika i niszcząc jego morale.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeDevastation",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "destroyed their foes,",
+    "RUS": "уничтожив врагов",
+    "POL": "niszcząc swojego przeciwnika,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeDevastationFled",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and destroyed the opposing army.",
+    "RUS": "и разгромив вражескую армию.",
+    "POL": "niszcząc swojego przeciwnika.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeChaos",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "inflicted significant losses amongst their adversaries,",
+    "RUS": "нанеся значительный урон противнику",
+    "POL": "zadając znaczne straty swoim przeciwnikom,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeChaosFled",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and inflicted significant losses amongst their adversaries.",
+    "RUS": "и нанеся значительный урон противнику.",
+    "POL": "zadając znaczne straty swoim przeciwnikom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeLoss",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "shattered the morale of their opponents,",
+    "RUS": "сокрушив боевой дух противника",
+    "POL": "niszcząc morale swoich przeciwników,",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutcomeLossFled",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and shattered the morale of their opponents.",
+    "RUS": "и сокрушив боевой дух противника.",
+    "POL": "niszcząc morale swoich przeciwników.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutroImprisoned",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and captured $BattlePoiEnemyCommander$.",
+    "RUS": "и захватив в плен вражеского командира.",
+    "POL": "pojmując osobę znaną jako $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutroSlain",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "and slayed $BattlePoiEnemyCommander$.",
+    "RUS": "и сразив вражеского командира.",
+    "POL": "zabijając osobę znaną jako $BattlePoiEnemyCommander$.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutroFledChaos",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Amidst the chaos $BattlePoiEnemyCommander$ managed to flee together with $BattlePoiCommanderHisHer$ closest retainers.",
+    "RUS": "В неразберихе боя $BattlePoiEnemyCommander$ со своими приближенными сумели сбежать.",
+    "POL": "W całym tym zgiełku osobie znanej jako $BattlePoiEnemyCommander$ udało się zbiec w towarzystwie najbliższej świty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoiDescriptionLocOutroFledOrganized",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Despite significant losses $BattlePoiEnemyCommander$ managed to organize a strategic retreat.",
+    "RUS": "Несмотря на существенные потери $BattlePoiEnemyCommander$ с выжившими сумели организовать стратегическое отступление.",
+    "POL": "Pomimo znacznych strat osobie znanej jako $BattlePoiEnemyCommander$ udało się zorganizować strategiczny odwrót.",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIJanuary",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "January",
+    "RUS": "января",
+    "POL": "stycznia",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIFebruary",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "February",
+    "RUS": "февраля",
+    "POL": "lutego",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIMarch",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "March",
+    "RUS": "марта",
+    "POL": "marca",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIApril",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "April",
+    "RUS": "апреля",
+    "POL": "kwietnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIMay",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "May",
+    "RUS": "мая",
+    "POL": "maja",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIJune",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "June",
+    "RUS": "июня",
+    "POL": "czerwca",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIJuly",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "July",
+    "RUS": "июля",
+    "POL": "lipca",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIAugust",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "August",
+    "RUS": "августа",
+    "POL": "sierpnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoISeptember",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "September",
+    "RUS": "сентября",
+    "POL": "września",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIOctober",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "October",
+    "RUS": "октября",
+    "POL": "października",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoINovember",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "November",
+    "RUS": "ноября",
+    "POL": "listopada",
+    "BEL": ""
+  },
+  {
+    "KEY": "MonthBattlePoIDecember",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "December",
+    "RUS": "декабря",
+    "POL": "grudnia",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#T $TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name$#!\\n$TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc$\\n\\n",
+    "RUS": "#T $TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name$#!\\n$TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc$\\n\\n",
+    "POL": "#T $TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name$#!\\n$TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc$\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.Custom('BattlePoiNameHistorical')]",
+    "RUS": "[Province.Custom('BattlePoiNameHistorical')]",
+    "POL": "[Province.Custom('BattlePoiNameHistorical')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[Province.Custom('BattlePoIDescriptionHistorical')]",
+    "RUS": "[Province.Custom('BattlePoIDescriptionHistorical')]",
+    "POL": "[Province.Custom('BattlePoIDescriptionHistorical')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "travel_point_historical_name_visit_message",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetCurrentLocation.Custom('BattlePoiNameHistorical')]",
+    "RUS": "[ROOT.Char.GetCurrentLocation.Custom('BattlePoiNameHistorical')]",
+    "POL": "[ROOT.Char.GetCurrentLocation.Custom('BattlePoiNameHistorical')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameTours",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Tours",
+    "RUS": "Битва при Пуатье",
+    "POL": "Bitwa pod Tours",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescTours",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '131721' ).GetFirstNameNicknamed]\\nDefeated: Abd al-Rahman al-Ghafiqi\\nDate: 10th of October, 732 AD#!\\n#weak The battle where Karl the Hammer pushed back the Umayyad invasion of France, at the rivers Clain and Vienne. It is said Karl's men were as immovable as a wall, cutting down the charging Umayyad heavy cavalry. After they tracked down the enemy commander and cut him down, their opponents fled the field.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '131721' ).GetFirstNameNicknamed]\\nПроигравший: Абд аль-Рахман аль-Гафики\\nДата: 10 октября 732 г.#!\\n#weak Битва на реках Клен и Вьенна, в ходе которой Карл Мартелл отразил вторжение Омейядов во Францию. Говорят, войска Карла стояли стеной, разя атакующую тяжелую конницу Омейядов. Когда им удалось выследить и сразить вражеского командующего, противник бежал с поля боя.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '131721' ).GetFirstNameNicknamed]\\nPokonany: Abd ar-Rahman Ghafiki\\nData: 10 października 732 n.e.#!\\n#weak Bitwa, w której Karol Młot odparł inwazję Umajjadzich na Francję nad rzekami Clain i Vienne. Mówi się, że ludzie Karola byli niewzruszeni niczym mur, ścinając szarżującą ciężką kawalerię przeciwnika. Gdy wytropili i zabili dowódcę Umajjadzich, ci uciekli z pola bitwy.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameLechfeld",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Lechfeld",
+    "RUS": "Битва на реке Лех",
+    "POL": "Bitwa na Lechowym Polu",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescLechfeld",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '1282' ).GetTitledFirstName]\\nDefeated: [GetScriptedCharacterByHistoryID( '460' ).GetFirstName] [GetScriptedCharacterByHistoryID( '460' ).GetDynastyName]\\nDate: 10th of August, 955 AD#!\\n#weak A brutal battle between the forces of the Saxon King Otto and the forces of Hungary. After devastating losses on both sides, the Hungarians fled as they were about to be enveloped and saw the flow of battle turn against them.\\n\\nAfter the battle had ended, many of the Hungarian commanders were captured and executed, and the ongoing Magyar threat to western Europe had finally been ended.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '1282' ).GetTitledFirstName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '460' ).GetFirstName] [GetScriptedCharacterByHistoryID( '460' ).GetDynastyName]\\nДата: 10 августа 955 г.#!\\n#weak Жестокое сражение между войсками саксонского короля Отто и армией Венгрии. После того, как обе стороны понесли огромные потери, венгры бежали, опасаясь окружения и понимая, что битва проиграна.\\n\\nПосле окончания сражения многие венгерские командиры были схвачены и казнены, что положило конец угрозе мадьярских вторжений в Западную Европу.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '1282' ).GetTitledFirstName]\\nPokonany: [GetScriptedCharacterByHistoryID( '460' ).GetFirstName] z rodu [GetScriptedCharacterByHistoryID( '460' ).GetDynastyName]\\nData: 10 sierpnia 955 n.e.#!\\n#weak Brutalna bitwa pomiędzy siłami saskiego króla Ottona a siłami węgierskimi. Po odniesieniu druzgocących strat przez obie strony Węgrzy uciekli, gdy mieli zostać otoczeni i zobaczyli, że przebieg bitwy obraca się przeciwko nim.\\n\\nPo zakończeniu bitwy schwytano i stracono wielu węgierskich dowódców oraz ostatecznie wyeliminowano zagrożenie ze strony Madziarów dla zachodniej Europy.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameHastings",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Hastings",
+    "RUS": "Битва при Гастингсе",
+    "POL": "Bitwa pod Hastings",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescHastings",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '140' ).GetFirstName] [GetScriptedCharacterByHistoryID( '140' ).GetDynastyName]\\nDefeated: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nDate: 14th of October, 1066 AD#!\\n#weak The Battle for Hastings was one of the key battles in William's rise to power over England. Forced to fight uphill, the Norman army was struggling to make headway, and even started retreating at one point, but William manage to reorganize a counter-attack on the English troops.\\n\\nOverwhelmed by enemy forces, Harold died together with his two brothers [GetScriptedCharacterByHistoryID( '132' ).GetFirstNameNoTooltip] and [GetScriptedCharacterByHistoryID( '130' ).GetFirstNameNoTooltip], leaving the English throne empty.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '140' ).GetFirstName] [GetScriptedCharacterByHistoryID( '140' ).GetDynastyName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nДата: 14 октября 1066 г.#!\\n#weak Битва при Гастингсе стала одним из ключевых сражений, позволивших Вильгельму покорить Англию. Вынужденная наступать вверх по склону нормандская армия не могла достичь успеха и даже начала было отступать, но Вильгельм сумел организовать контратаку на войска англичан.\\n\\nГарольд погиб под натиском войска, а с ним и двое его братьев, [GetScriptedCharacterByHistoryID( '132' ).GetFirstNameNoTooltip] и [GetScriptedCharacterByHistoryID( '130' ).GetFirstNameNoTooltip], оставив Англию без короля.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '140' ).GetFirstName] z rodu [GetScriptedCharacterByHistoryID( '140' ).GetDynastyName]\\nPokonany: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nData: 14 października 1066 n.e.#!\\n#weak Bitwa pod Hastings była jedną z kluczowych bitew w drodze Wilhelma do władzy nad Anglią. Zmuszona do walki pod górę, armia normańska z trudem robiła postępy, a nawet w pewnym momencie zaczęła się wycofywać, lecz Wilhelmowi udało się zreorganizować kontratak na wojska angielskie.\\n\\nPrzytłoczony przez siły wroga, Harold zginął wraz ze swoimi dwoma braćmi o imionach [GetScriptedCharacterByHistoryID( '132' ).GetFirstNameNoTooltip] i [GetScriptedCharacterByHistoryID( '130' ).GetFirstNameNoTooltip], pozostawiając angielski tron bez władcy.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameStamfordBridge",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Stamford Bridge",
+    "RUS": "Битва при Стамфорд-Бридже",
+    "POL": "Bitwa pod Stamford Bridge",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescStamfordBridge",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( '102531' ).GetNameNicknamed]\\nDate: 25th of September, 1066 AD#!\\n#weak The Battle of Stamford Bridge was one of the key battles between the three contenders for the English throne, William of Normandy, Harald of Norway, and Harold of England. Rushing northwards with his men, Harold managed to surprise the Norwegian troops and force them into a battle they were not prepared for.\\n\\nHarald was killed by an arrow through his windpipe, and his English ally [GetScriptedCharacterByHistoryID( '124' ).GetFirstNameNoTooltip], brother of Harold, was slain as well. The Norwegian army, without their commanders, was annihilated in the aftermath of the battle.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '102531' ).GetNameNicknamed]\\nДата: 25 сентября 1066 г.#!\\n#weak Битва при Стамфорд-Бридже была одним из ключевых сражений между тремя претендентами на английский престол: Вильгельмом Нормандским, Харальдом Норвежским и Гарольдом Английским. Устремившись на север во главе войска, Гарольд сумел застать норвежцев врасплох и вынудил их вступить в сражение, к которому они не были готовы.\\n\\nХаральд погиб от попавшей в трахею стрелы, погиб и его английский союзник [GetScriptedCharacterByHistoryID( '124' ).GetFirstNameNoTooltip], брат Гарольда. Лишенная командования норвежская армия была уничтожена.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( '102531' ).GetNameNicknamed]\\nData: 25 września 1066 n.e.#!\\n#weak Bitwa pod Stamford Bridge była jednym z kluczowych starć pomiędzy trzema pretendentami do angielskiego tronu: Wilhelmem z Normandii, Haraldem z Norwegii i Haroldem z Anglii. Pędząc na północ ze swoimi ludźmi, Harold zdołał zaskoczyć wojska norweskie i zmusić je do bitwy, na którą nie były przygotowane.\\n\\nHarald zginął, trafiony strzałą w tchawicę, a na polu walki poległ też jego angielski sojusznik – [GetScriptedCharacterByHistoryID( '124' ).GetFirstNameNoTooltip], brat Harolda. Pozbawiona dowódców armia norweska została po bitwie unicestwiona.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameManzikert",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Manzikert",
+    "RUS": "Битва при Манцикерте",
+    "POL": "Bitwa pod Manzikertem",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescManzikert",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '3040' ).GetFirstName] [GetScriptedCharacterByHistoryID( '3040' ).GetDynastyName]\\nDefeated: [GetScriptedCharacterByHistoryID( '1734' ).GetFullName]\\nDate: 26th of August, 1071 AD#!\\n#weak Crowned as Emperor of the Byzantine Empire in 1068, Romanos led a campaign against the Turkish incursions into Anatolia. After limited success, he tried to push for a decisive victory in a battle against Arp Arslan of the Seljuk Empire close to Manzikert.\\n\\nBetrayed by one of his commanders, who retreated with a large section of his army, Romanos ended up captured by the Muslim troops. Later on, though released by his enemy, he was deposed, blinded, exiled, and died from his wounds.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '3040' ).GetFirstName] [GetScriptedCharacterByHistoryID( '3040' ).GetDynastyName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '1734' ).GetFullName]\\nДата: 26 августа 1071 г.#!\\n#weak Роман, коронованный император Византийской империи с 1068 г., начал кампанию против тюркского вторжения в Анатолию. После некоторых успехов он решил дать решающий бой правителю Сельджукской империи Арп Арслану близ Манцикерта.\\n\\nПосле предательства одного из командиров, дезертировавшего вместе со значительной частью армии, Роман был схвачен войсками мусульман. Но затем враг отпустил его на свободу, после чего он был свергнут, ослеплен, изгнан и умер от полученных ран.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '3040' ).GetFirstName] z rodu [GetScriptedCharacterByHistoryID( '3040' ).GetDynastyName]\\nPokonany: [GetScriptedCharacterByHistoryID( '1734' ).GetFullName]\\nData: 26 sierpnia 1071 n.e.#!\\n#weak Roman, koronowany na cesarza Imperium Bizantyjskiego w 1068 r., poprowadził kampanię przeciwko tureckim najazdom na Anatolię. Po umiarkowanych sukcesach próbował odnieść decydujące zwycięstwo w bitwie z Arp Arslanem z Imperium Seldżuków w pobliżu Manzikert.\\n\\nRomanos został zdradzony przez jednego ze swoich dowódców, który wycofał się z dużą częścią swojej armii, a następnie schwytany przez wojska muzułmańskie. Później, choć uwolniony przez wroga, został zdetronizowany, oślepiony i wygnany, a po wszystkim zmarł z powodu odniesionych ran.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameYarmuk",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Yarmuk",
+    "RUS": "Битва при Ярмуке",
+    "POL": "Bitwa nad rzeką Jarmuk",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescYarmuk",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\\nDate: 20th of August, 636 AD#!\\n#weak The Battle of Yarmuk is one of the most important battles in Byzantine history. A decisive defeat led to their losses in Syria and Egypt, and the great expansion of the Arabian empire.\\n\\nLasting for 6 days, the flow of battle originally turned against the Muslim invaders, but as the fifth day dawned upon Yarmuk, they changed from a defensive to an offensive strategy. On day 6, they committed their cavalry to a bold charge which broke the Byzantine army.\\n\\nTheir morale shattered, the Byzantine soldiers fell into ravines, drowned, or were crushed by enemy soldiers as they fled the field of battle.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\\nДата: 20 августа 636 г.#!\\n#weak Битва при Ярмуке была одной из важнейших в византийской истории. Разгромное поражение привело к потере Сирии и Египта и стремительному расширению Арабской империи.\\n\\nБитва длилась 6 дней и изначально шла не в пользу мусульманских захватчиков, но на пятый день те перешли от оборонительной стратегии к наступательной. На шестой день их всадники совершили дерзкий прорыв, надломивший дух византийской армии.\\n\\nПотеряв волю к сражению, византийские солдаты бежали с поля боя. Они падали в ущелье, тонули в реке и погибали под ударами вражеского войска.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\\nData: 20 sierpnia 636 n.e.#!\\n#weak Bitwa nad rzeką Jarmuk jest jedną z najważniejszych bitew w historii Bizancjum. Zdecydowana porażka doprowadziła do odniesienia przez to imperium strat w Syrii i Egipcie oraz wielkiej ekspansji imperium arabskiego.\\n\\nTrwająca sześć dni bitwa początkowo toczyła się na niekorzyść muzułmańskich najeźdźców, lecz gdy nad rzeką Jarmuk wzeszedł piąty dzień, zmienili oni strategię z defensywnej na ofensywną, a szóstego dnia zaangażowali swoją kawalerię do śmiałej szarży, która rozbiła bizantyjską armię.\\n\\nMorale bizantyjskich żołnierzy upadły, a ci wpadali do wąwozów, tonęli lub ginęli, miażdżeni przez żołnierzy wroga, gdy uciekali z pola bitwy.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameDandanaqan",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Dandanaqan",
+    "RUS": "Битва при Данданакане",
+    "POL": "Bitwa pod Dandankanem",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescDandanaqan",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\\nDate: 23rd of May, 1040 AD#!\\n#weak An important battle between the growing Seljuk power of northern Persia and the Ghaznavid Empire. After beating back the Seljuk forces in their initial battles, the Ghaznavid forces started squabbling about the spoils left behind.\\n\\nDisorganized and unprepared for battle, they were taken unaware with the return of Seljuk forces. Harassed, starved, and demoralized, the Ghaznavid forces were crushed by their opponents.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\\nДата: 23 мая 1040 г.#!\\n#weak Важное сражение между растущей державой Сельджуков в северной Персии и Газневидской империей. Отразив нападение Сельджуков в первом бою, войска Газневидов начали спорить о дележе оставшихся трофеев.\\n\\nВернувшиеся сельджукские войска застали их врасплох, неорганизованными и не готовыми к бою. Изможденное, голодное и деморализованное войско Газневидов было уничтожено.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\\nData: 23 maja 1040 n.e.#!\\n#weak Ważna bitwa między rosnącą potęgą Seldżuków w północnej Persji a imperium Ghaznawidów. Po pokonaniu sił Seldżuków w pierwszych bitwach wojska Ghaznawidów zaczęły kłócić się o pozostawione łupy.\\n\\nZdezorganizowane i nieprzygotowane do bitwy oddziały zostały zaskoczone powrotem sił Seldżuków. Nękane, wygłodzone i zdemoralizowane wojska Ghaznawidów upadły, zmiażdżone przez swoich przeciwników.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameAror",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Aror",
+    "RUS": "Битва при Ароре",
+    "POL": "Bitwa pod Aror",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescAror",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Muhammad ibn al-Qasim\\nDefeated: Raja Dahir\\nDate: 711 AD#!\\n#weak A battle in the Umayyad invasion of India, between the Raja of Sindh and the Umayyad Empire.\\n\\nThough his opponents were originally a more numerous force, the Umayyad commander had managed to get the better position for his army before committing to a battle. Throughout the conflict, this imbalance led to the Muslim forces slowly taking control of the flow of battle, and with the death of Raja Dahir their victory was secured.#!",
+    "RUS": "#emp Победитель: Мухаммад ибн аль-Касим\\nПроигравший: раджа Дахир\\nДата: 711 г.#!\\n#weak Сражение между раджой Синда и Империей Омейядов, ставшее частью омейядского вторжения в Индию.\\n\\nХотя поначалу противник превосходил его числом, омейядский командующий сумел занять лучшую позицию до начала боя. Это преимущество позволило мусульманам постепенно переломить ход сражения в свою пользу, а после гибели раджи Дахира победа стала очевидной.#!",
+    "POL": "#emp Zwycięzca: Muhammad ibn al-Kasim\\nPokonany: radża Dahir\\nData: 711 n.e.#!\\n#weak Bitwa mająca miejsce podczas inwazji Umajjadzich na Indie, stoczona pomiędzy radżą Sindhów a cesarstwem Umajjadzich.\\n\\nChociaż jego przeciwnicy byli początkowo liczniejsi, dowódca Umajjadów zdołał uzyskać lepszą pozycję dla swojej armii przed przystąpieniem do bitwy. W trakcie konfliktu ta nierównowaga doprowadziła do powolnego przejmowania kontroli nad przebiegiem bitwy przez siły muzułmańskie, a ich zwycięstwo zostało zapewnione w momencie śmierci radży Dahira.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameSvolder",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Svolder",
+    "RUS": "Битва у Свольдера",
+    "POL": "Bitwa pod Svold",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescSvolder",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '101505' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( '144004' ).GetFullName]\\nDate: 9th of September, 999 AD#!\\n#weak A battle between the Norwegian forces of Olafr Tryggvason on one side, against a coalition of Danish and Swedish forces led by King Sveinn of Denmark on the other.\\n\\nEven though massively outnumbered, the Norwegian king refused to flee from the hostile coalition, and engaged the Swedes and the Danes in battle, calling them 'horse-eaters' and 'forest goats' as he did.\\n\\nIn the end, though dealing a heavy blow to their enemy, the Norwegian army was crushed. Olafr disappeared in the battle, and most likely passed away.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '101505' ).GetFullName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '144004' ).GetFullName]\\nДата: 9 сентября 999 г.#!\\n#weak Сражение между норвежцами Олафа Трюггвасона с одной стороны и коалицией датских и шведских войск под командованием датского короля Свена с другой.\\n\\nНесмотря на численный перевес противника, норвежский король отказался отступать перед лицом вражеской коалиции и атаковал шведов и датчан в бою, называя их «поедателями коней» и «лесными козлами».\\n\\nВ конечном счете норвежская армия была разгромлена, хоть и нанесла серьезный ущерб врагу. Олаф пропал без вести в ходе сражения и, скорее всего, погиб.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '101505' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( '144004' ).GetFullName]\\nData: 9 września 999 n.e.#!\\n#weak Bitwa między siłami norweskimi Olafra Tryggvasona a koalicją sił duńskich i szwedzkich dowodzonych przez króla Danii Sveinna.\\n\\nMimo ogromnej przewagi liczebnej przeciwnika norweski król odmówił ucieczki przed wrogą koalicją i zaangażował Szwedów i Duńczyków w bitwę, nazywając ich „pożeraczami koni” i „leśnymi kozami”.\\n\\nOstatecznie armia norweska, choć zadała ciężki cios wrogowi, została zmiażdżona. Olafr zaginął w bitwie i najprawdopodobniej zmarł.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameCivitate",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Civitate",
+    "RUS": "Битва при Чивитате",
+    "POL": "Bitwa pod Civitate",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescCivitate",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '1126' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( '1338' ).GetFullName]\\nDate: 18th of June, 1053 AD#!\\n#weak A battle between the Normans on one side, and a coalition led by the Pope on the other, including Germans and local Italians.\\n\\nDespite their numerical advantage, the Papal coalition were unable to break through the Norman infantry in the center of the battle, and their cavalry flanks lost the battle against the Norman cavalry.\\n\\nA short while after the battle, the Pope himself was captured by the Normans, leading to an end to the conflict.#!",
+    "RUS": "#emp Победитель: [GetScriptedCharacterByHistoryID( '1126' ).GetFullName]\\nПроигравший: [GetScriptedCharacterByHistoryID( '1338' ).GetFullName]\\nДата: 18 июня 1053 г.#!\\n#weak Сражение между норманнами с одной стороны и коалицией во главе с Папой, куда также вошли германцы и местные итальянцы, с другой.\\n\\nНесмотря на численное превосходство, папская коалиция не сумела прорвать строй норманнской пехоты в центре сражения, а на флангах их всадники проиграли норманнским.\\n\\nВскоре после битвы сам Папа оказался в плену у норманнов, что и положило конец конфликту.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '1126' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( '1338' ).GetFullName]\\nData: 18 czerwca 1053 n.e.#!\\n#weak Bitwa między Normanami a koalicją dowodzoną przez papieża, w tym Niemcami i miejscowymi Włochami.\\n\\nPomimo przewagi liczebnej koalicja papieska nie była w stanie przebić się przez normańską piechotę w centrum bitwy, a jej kawaleria przegrała bitwę z kawalerią normańską.\\n\\nNiedługo po bitwie sam papież został pojmany przez Normanów, co doprowadziło do zakończenia konfliktu.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameTalas",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Talas",
+    "RUS": "Таласская битва",
+    "POL": "Bitwa nad rzeką Tałas",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescTalas",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Abbasid Caliphate\\nDefeated: Tang Dynasty\\nDate: 751 AD#!\\n#weak A prolonged conflict between the Abbasid Caliphate expanding into Transoxiana from the south-west, and the Tang Dynasty expanding into it from the east.\\n\\nOriginally the heavy infantry of the Tang dynasty and their Turkic mercenaries played an important role in pushing back the Abbasid forces, but with the mercenaries changing sides and many of their allies betraying them, the Tang were forced back.\\n\\nThis conflict saw the end of the Tang's westward expansion, and Transoxiana being in Muslim hands for the foreseeable future.#!",
+    "RUS": "#emp Победитель: Аббасидский халифат\\nПроигравший: династия Тан\\nДата: 751 г.#!\\n#weak Затяжной конфликт между Аббасидским халифатом, двигавшимся в Трансоксиану с юго-запада, и династией Тан, продвигавшейся с востока.\\n\\nИзначально тяжелая пехота Тан и их тюркские наемники играли важную роль в отражении натиска Аббасидов, но после того, как наемники переметнулись к врагу, а многие союзники предали их, Тан были вынуждены отступить.\\n\\nЭтот конфликт положил конец танской экспансии на запад, а Трансоксиана оказалась в руках мусульман.#!",
+    "POL": "#emp Zwycięzca: kalifat Abbasydów\\nPokonany: dynastia Tangów\\nData: 751 n.e.#!\\n#weak Przedłużający się konflikt między kalifatem Abbasydów, rozszerzającym się na Transoksanię od południowego zachodu, a dynastią Tangów rozszerzającą się na kalifat od wschodu.\\n\\nPoczątkowo ciężka piechota dynastii Tangów i jej tureccy najemnicy odgrywali ważną rolę w odpieraniu sił Abbasydów, ale gdy najemnicy zmienili strony, a wielu sojuszników ich zdradziło, Tangowie zostali zmuszeni do odwrotu.\\n\\nKonflikt ten oznaczał koniec ekspansji Tangów na zachód, a Transoksania na jakiś czas znalazła się w rękach muzułmanów.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameSufuku",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "The Battle of Subushi",
+    "RUS": "Битва при Субуси",
+    "POL": "Bitwa pod Subushi",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescSufuku",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: The Emishi of Isawa\\nDefeated: [GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\\nDate: 789 AD#!\\n#weak An important battle as part of the Japanese subjugation of the Emishi.\\n\\nThe Japanese forces initially split into two, advancing along both sides of the river Kitakami after the retreating Emishi. Emishi skirmishers prevented the Japanese from crossing the river, cornering a large portion of them between the river and the mountains.\\n\\nThe ensuing Japanese collapse was a major embarrassment, with many soldiers swimming naked across the river to escape death. The army was disbanded and [GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName] strongly reprimanded his commanders.#!",
+    "RUS": "#emp Победа: эмиси Исавы\\nПоражение: [GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\\nДата: 789 н. э.#!\\n#weak Крупное сражение, состоявшееся в ходе японского покорения эмиси.\\n\\nЯпонская армия разделилась надвое, преследуя отступающих эмиси по обоим берегам реки Китаками. Застрельщики эмиси помешали японцам пересечь реку и прижали значительную часть армии к горам.\\n\\nПоследовавший разгром стал серьезным унижением Японии. Многие солдаты, спасая свои жизни, снимали доспехи и пытались переплыть реку нагишом. Побежденная армия была распущена, а [GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName] строго [Select_CString(GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).IsFemale, 'отчитала', 'отчитал' )] своих военачальников.#!",
+    "POL": "#emp Zwycięzca: Emishi z Isawy\\nPokonany: [GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\\nData: 789 n.e.#!\\n#weak Ważna bitwa w ramach japońskiego podboju Emishi.\\n\\nSiły japońskie zostały początkowo podzielone na dwie grupy, posuwając się naprzód po obu stronach rzeki Kitakami w ślad za wycofującymi się Emishi. Strzelcy Emishi uniemożliwili Japończykom przekroczenie wody, osaczając znaczną część z nich między rzeką a górami.\\n\\nZałamanie się ofensywy Japonii było wielką kompromitacją, a wielu żołnierzy, chcąc umknąć śmierci, przepłynęło rzekę nago. Armia została rozwiązana, a [GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName] surowo skarcił swoich dowódców.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameBaekgang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Baekgang",
+    "RUS": "Битва на реке Пэккан",
+    "POL": "Bitwa pod Baekgang",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescBaekgang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Kingdom of Silla & Tang China\\nDefeated: [GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\\nDate: 663 AD#!\\n#weak An decisive naval battle were the Tang and Silla clashed with the forces of the Baekje Restoration Movement and their Japanese allies.\\n\\nThe battle was largely fought on Baengma river. While the Japanese forces were superior in numbers the Tang navy held firm and eventually counterattacked, enveloping and defeating the Japanese Fleet.\\n\\nThis battle marked the end of the Baekje and Japanese influence in the Korean peninsula.#!",
+    "RUS": "#emp Победа: королевство Силла и Китай династии Тан\\nПоражение: [GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\\nДата: 663 н. э.#!\\n#weak Решающее речное сражение, в котором танский флот вместе с союзниками из государства Силла дал бой объединенным силам Японии и движения за освобождение Пэкче.\\n\\nБитва состоялась на реке Кымган. Японский флот значительно превосходил неприятеля числом, однако танские корабли выстояли под их натиском, а затем контратаковали, окружили и уничтожили противника.\\n\\nЭто сражение положило конец государству Пэкче и японскому влиянию на Корейском полуострове.#!",
+    "POL": "#emp Zwycięzca: królestwo Silla i Chiny dynastii Tangów\\nPokonany: [GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\\nData: 663 n.e.#!\\n#weak Decydującą bitwą morską była potyczka między Chinami dynastii Tangów i królestwem Silla a siłami ruchu odrodzenia królestwa Baekje i ich japońskimi sojusznikami.\\n\\nBitwa toczyła się głównie na rzece Baengma. Choć siły japońskie miały przewagę liczebną, flota Tangów utrzymała pozycję i przeprowadziła kontratak, otaczając i ostatecznie pokonując flotę japońską.\\n\\nBitwa ta oznaczała koniec wpływów królestwa Baekje i Japonii na Półwyspie Koreańskim.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNamePalembang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Chola attack on Palembang",
+    "RUS": "Нападение Чолы на Палембанг",
+    "POL": "Atak Ćolów na Palembang",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescPalembang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\\nDate: 1025 AD#!\\n#weak A sudden attack by Chola forces on the Srivijaya capital at Palembang.\\n\\nChola forces arrived overseas and quickly subdued the Srivijaya capital, looting and destroying it in the process.\\n\\nThe fall of Palembang resulted in a total collapse of the Srivijaya Empire and Chola influence over the region lasted for decades after.#!",
+    "RUS": "#emp Победа: [GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\\nПоражение: [GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\\nДата: 1025 н. э.#!\\n#weak Внезапное нападение Чолы на столицу Шривиджаи Палембанг.\\n\\nПрибыв по морю, войска Чолы стремительным ударом захватили столицу Шривиджаи и разграбили город.\\n\\nПадение Палембанга привело к крушению империи Шривиджая. Весь регион на несколько десятилетий оказался под влиянием Чолы.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\\nData: 1025 n.e.#!\\n#weak Nagły atak wojsk Ćolów na stolicę królestwa Śriwidżaja w Palembang.\\n\\nSiły Ćolów dotarły za morze i szybko podbiły stolicę, plądrując ją i niszcząc.\\n\\nUpadek Palembang spowodował całkowite załamanie się cesarstwa Śriwidżaja, a wpływy Ćolów w regionie utrzymywały się jeszcze przez dziesięciolecia.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameAngkor",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Siege of Angkor",
+    "RUS": "Осада Ангкора",
+    "POL": "Oblężenie Angkoru",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescAngkor",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( 'cham_panduranga_04' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( 'khmer_tribhuvanaditya_01' ).GetFullName]\\nDate: 1177 AD#!\\n#weak A period of civil strife and coups in the Kambuja realm resulted in Tribhuvanaditya, a non-royal, rising to power. While contending with royal rebels supporting other claimants the kingdom of Champa invaded Kambuja.\\n\\nChampa forces advanced up the Mekong and Tonle Sap, sacking the capital city of Angkor itself and killing Tribhuvanaditya.\\n\\nFollowing the siege the Kambuja realm collapsed, with loot dispersed in the area or carried home by the Cham.#!",
+    "RUS": "#emp Победа: [GetScriptedCharacterByHistoryID( 'cham_panduranga_04' ).GetFullName]\\nПоражение: [GetScriptedCharacterByHistoryID( 'khmer_tribhuvanaditya_01' ).GetFullName]\\nДата: 1177 н. э.#!\\n#weak В результате периода смуты и череды переворотов к власти в Камбудже пришел некий Трибхуванадитья, не принадлежавший к царской династии. Пока узурпатор был занят борьбой со сторонниками других претендентов, в Камбуджу вторглось царство Чампа.\\n\\nВойско Чампы поднялось по Меконгу к озеру Тонлесап и разграбило столицу Камбуджи Ангкор. Трибхуванадитья погиб в бою.\\n\\nПосле осады в Камбудже началась анархия. Часть сокровищ Ангкора была унесена чамскими воинами домой, остальное растащили местные жители.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( 'cham_panduranga_04' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( 'khmer_tribhuvanaditya_01' ).GetFullName]\\nData: 1177 n.e.#!\\n#weak Okres walk wewnętrznych i zamachów stanu w królestwie Kambudży skutkował dojściem do władzy Tribhuwanaditjego, osoby niebędącej członkiem rodziny królewskiej. Podczas walk z buntownikami popierającymi innych pretendentów do tronu królestwo Czampy najechało Kambudżę.\\n\\nSiły Czampy posuwały się naprzód wzdłuż rzeki Mekongu i jeziora Tonle Sap, plądrując stolicę Angkoru i zabijając Tribhuwanaditjego.\\n\\nPo oblężeniu królestwo Kambudży upadło, a Czamowie zabrali łupy ze sobą lub rozdali je w okolicy.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameSongping",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Siege of Songping",
+    "RUS": "Осада Сунпина",
+    "POL": "Oblężenie Songping",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescSongping",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Yang Sijin\\nDefeated: Cai Xi\\nDate: 863 AD#!\\n#weak Turmoil in the Tang protectorate of Annan had the neighboring kingdom of Nanzhao ally with local tribes and invade the region with an overwhelming force.\\n\\nThe Nanzhao army and its allies laid siege to the city for some time before eventually penetrating the inner city, the defenders made a last stand at the eastern gate, ambushing enemy cavalry and killing many of them before being defeated.\\n\\nThough initially welcomed by the Viet population the Nanzhao forces plundered the region and a Tang counterattack in 864 eventually reclaimed the entire area.#!",
+    "RUS": "#emp Победа: Ян Сыцзинь\\nПоражение: Цай Си\\nДата: 863 н. э.#!\\n#weak Воспользовавшись беспорядками в танском протекторате Аннан, соседнее царство Наньчжао заключило союз с местными племенами и напало на область, собрав огромные силы.\\n\\nАрмия Наньчжао и их союзники долгое время осаждали город, а затем взяли его штурмом. Защитники Сунпина героически сражались и перебили множество вражеских всадников, устроив засаду у восточных ворот, но в итоге потерпели поражение.\\n\\nПоначалу вьетское население приветствовало приход Наньчжао, однако захватчики тут же принялись грабить страну. В итоге танские силы контратаковали и в 864 г. вернули себе контроль над регионом.#!",
+    "POL": "#emp Zwycięzca: Yang Sijin\\nPokonany: Cai Xi\\nData: 863 n.e.#!\\n#weak Zamieszki w protektoracie dynastii Tangów w Annan sprawiły, że sąsiednie królestwo Nanzhao sprzymierzyło się z miejscowymi plemionami i zaatakowało region przytłaczającą siłą.\\n\\nArmia Nanzhao i jej sojusznicy oblegali miasto przez pewien czas, zanim ostatecznie przedarli się do wewnętrznej części miasta. Obrońcy stawili ostatni opór przy wschodniej bramie, gdzie przed upadkiem zasadzili się jeszcze na konnych wroga, zabijając wielu z nich.\\n\\nChoć początkowo siły Nanzhao zostały przyjęte z zadowoleniem przez ludność wietnamską, splądrowały one region, a kontratak wojsk Tangów w 864 r. ostatecznie pozwolił odzyskać cały obszar.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameMuye",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Muye",
+    "RUS": "Битва при Муе",
+    "POL": "Bitwa pod Muye",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescMuye",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: King Wu\\nDefeated: Emperor Zhou of Shang\\nDate: 1046 BCE#!\\n#weak The battle of Muye was fought between the rebel King Wu, and the Shang emperor Zhou.\\n\\nWu's forces were initially outnumbered but the Shang forces, largely military slaves, turned out to be unreliable and fled the battlefield. The end result was a very bloody victory for the rebel forces under King Wu.\\n\\nThe battle resulted in the fall of the Shang dynasty and the claiming of the Mandate of Heaven by King Wu, who founded the new Zhou dynasty.#!",
+    "RUS": "#emp Победа: У-ван\\nПоражение: император Чжоу из династии Шан\\nДата: 1046 до н. э.#!\\n#weak В битве при Муе мятежный У-ван сражался с шанским императором Чжоу.\\n\\nПоначалу силы У-вана сражались в меньшинстве, однако шанская армия, состоявшая в основном из солдат-рабов, не отличалась высоким боевым духом и скоро обратилась в бегство. Кровопролитное сражение завершилось победой мятежников под руководством У-вана.\\n\\nБитва привела к падению династии Шан и возвышению У-вана, который принял небесный мандат и основал новую династию Чжоу.#!",
+    "POL": "#emp Zwycięzca: król Wu\\nPokonany: cesarz Zhou z dynastii Shangów\\nData: 1046 p.n.e.#!\\n#weak Bitwa pod Muye została stoczona między zbuntowanym królem Wu a cesarzem Zhou z dynastii Shangów.\\n\\nSiły Wu były początkowo w mniejszości, ale wojska Shangów, składające się głównie z niewolników wojskowych, okazały się niegodne zaufania i uciekły z pola bitwy. Ostatecznie siły rebeliantów pod wodzą króla Wu odniosły bardzo krwawe zwycięstwo.\\n\\nBitwa doprowadziła do upadku dynastii Shangów i przejęcia mandatu niebios przez króla Wu, który założył nową dynastię Zhou.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameRedCliffs",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Red Cliffs",
+    "RUS": "Битва при Чиби",
+    "POL": "Bitwa o Czerwone Klify",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescRedCliffs",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Sun Quan\\nDefeated: Cao Cao\\nDate: 208 AD#!\\n#weak The Battle of Red Cliffs was a river battle fought between a coalitions of warlords and the northern warlord Cao Cao during the period around the end of the Han dynasty. Cao Cao was trying to establish a bridgehead across the Yangtze river into southern China.\\n\\nFeigning surrender the allied forces were able to lure Cao Cao's ships into a trap, setting them ablaze and burning many soldiers and horses alive. The northern Army was then thrown into confusion and defeated.\\n\\nThe defeat prevented Cao Cao from advancing beyond the Yangtze river and set the scene for the future years of the Three Kingdoms period.#!",
+    "RUS": "#emp Победа: Сунь Цюань\\nПоражение: Цао Цао\\nДата: 208 н. э.#!\\n#weak Битва при Чиби была речным сражением между соперничающими князьями в самом конце правления династии Хань. Военачальник Цао Цао, господствовавший на севере Китая, попытался захватить плацдарм на южном берегу реки Янцзы. Против него выступила коалиция южных военачальников.\\n\\nПрислушавшись к совету притворных перебежчиков, Цао Цао завел свой флот в западню союзников. Скованные цепями корабли были подожжены, множество солдат и коней погибло в огне. Северная армия впала в панику и была полностью разгромлена.\\n\\nЭто поражение поставило крест на планах Цао Цао по завоеванию земель к югу от Янцзы, создав предпосылки для начала периода Троецарствия.#!",
+    "POL": "#emp Zwycięzca: Sun Quan\\nPokonany: Cao Cao\\nData: 208 n.e.#!\\n#weak Bitwa o Czerwone Klify była batalią rzeczną stoczoną między koalicją watażków a północnym watażką Cao Cao w okresie schyłkowym panowania dynastii Hanów. Cao Cao próbował ustanowić przyczółek na rzece Jangcy, aby przedostać się do południowych Chin.\\n\\nUdając kapitulację, siły sprzymierzone zdołały zwabić statki Cao Cao w pułapkę; podpaliły je, przez co w płomieniach zginęło wielu żołnierzy wraz ze swoimi końmi. Armia północna pogrążyła się w chaosie i poniosła klęskę.\\n\\nPorażka ta uniemożliwiła Cao Cao przekroczenie rzeki Jangcy i zapoczątkowała okres Trzech Królestw.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameGuandu",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Guandu",
+    "RUS": "Битва при Гуаньду",
+    "POL": "Bitwa pod Guandu",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescGuandu",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Cao Cao\\nDefeated: Yuan Shao\\nDate: 200 AD#!\\n#weak The batle of Guandu was fought between the warlords Cao Cao and Yuan Shao during the late Eastern Han Dynasty, both warlords had achieved considerable power and stood as each other's main obstacle for controlling China.\\n\\nCao Cao's forces were outnumbered in the battle but used tactics such as a surprise raid of the supply depot of Yuan Shao to cripple the opposing army.\\n\\nThe battle was a turning point of the period with Cao Cao emerging victorious and paved the way for the future state of Cao Wei in the Three Kingdoms period.#!",
+    "RUS": "#emp Победа: Цао Цао\\nПоражение: Юань Шао\\nДата: 200 н. э.#!\\n#weak В битве при Гуаньду сошлись армии Цао Цао и Юань Шао, могущественных военачальников времен конца династии Восточная Хань. Оба князя контролировали обширные территории и стремились завладеть всем Китаем.\\n\\nСилы Цао Цао были вынуждены сражаться в меньшинстве, однако внезапный налет на обоз Юань Шао позволил им сокрушить неприятеля.\\n\\nПобеда обеспечила Цао Цао многолетнее доминирование над северным Китаем и в конечном счете привела к возникновению в период Троецарствия царства Цао Вэй.#!",
+    "POL": "#emp Zwycięzca: Cao Cao\\nPokonany: Yuan Shao\\nData: 200 n.e.#!\\n#weak Bitwa pod Guandu została stoczona między watażkami Cao Cao i Yuan Shao pod koniec okresu panowania wschodniej dynastii Hanów. Obaj zdobyli wówczas znaczną władzę i stanowili dla siebie główne przeszkody w przejęciu kontroli nad Chinami.\\n\\nSiły Cao Cao ustępowały wrogowi podczas starcia liczebnością, jednak dzięki przemyślanej taktyce – w tym niespodziewanemu najazdowi na magazyn zaopatrzeniowy Yuan Shao – zdołały osłabić armię przeciwnika.\\n\\nBitwa ta była punktem zwrotnym epoki; Cao Cao odniósł zwycięstwo i utorował drogę do powstania przyszłego państwa Cao Wei w okresie Trzech Królestw.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameYiling",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Yiling",
+    "RUS": "Битва при Илине",
+    "POL": "Bitwa pod Yiling",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescYiling",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Lu Xun - Eastern Wu\\nDefeated: Liu Bei - Shu Han\\nDate: 221 AD#!\\n#weak Attempting to retake lost territories in the Jing province, Liu Bei personally lead his armies to attack the Eastern Wu, achieving initial success.\\n\\nDuring the battle Liu Bei's forces were lured into a trap by general Lu Xun, who set fire to the Shu Han camp, causing Liu Bei to retreat. Eventually Liu Bei was personally able to leave the battlefield by ordering his men to set their armor aflame, creating a firewall against the attackers.\\n\\nThe battle was a decisive defeat for Liu Bei and resulted in the end of his campaign followed by his own death.#!",
+    "RUS": "#emp Победа: Лу Сюнь (Восточная У)\\nПоражение: Лю Бэй (Шу Хань)\\nДата: 221 н. э.#!\\n#weak Желая вернуть утраченные владения в провинции Цзин, Лю Бэй лично возглавил армию и вторгся на территорию Восточной У. Поначалу ему способствовал успех.\\n\\nВ ходе сражения полководец Лу Сюнь заманил армию Лю Бэя в западню и сжег лагерь Шу Хань, вынудив неприятеля отступить. Чтобы спастись с поля боя, Лю Бэй приказал своим воинам поджечь собственные доспехи и встать живой огненной стеной на пути противника.\\n\\nРазгром вынудил Лю Бэя прекратить кампанию, а вскоре после этого он скончался.#!",
+    "POL": "#emp Zwycięzca: Lu Xun – Sun Wu\\nPokonany: Liu Bei – Shu Han\\nData: 221 n.e.#!\\n#weak Próbując odzyskać utracone terytoria w prowincji Jing, Liu Bei osobiście poprowadził swoje armie do ataku na Sun Wu, odnosząc początkowy sukces.\\n\\nPodczas bitwy siły Liu Beiego zostały zwabione w pułapkę przez generała Lu Xuna, który podpalił obóz Shu Han, zmuszając wroga do odwrotu. Ostatecznie Liu Bei zdołał opuścić pole bitwy i nakazał swoim żołnierzom podpalenie pancerzy, tworząc w ten sposób zaporę ogniową przed atakującymi.\\n\\nBitwa zakończyła się zdecydowaną porażką Liu Beiego i doprowadziła do zakończenia jego kampanii, a następnie – jego śmierci.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameFeiRiver",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Fei River",
+    "RUS": "Битва на реке Фэйшуй",
+    "POL": "Bitwa nad rzeką Fei",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescFeiRiver",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Xie An - Jin\\nDefeated: Fu Jian - Former State of Qin\\nDate: 383 AD#!\\n#weak The battle was a culmination of a longer campaign where the former state of Qin, having unified a number of different foreign tribes took control over significant parts of Jin lands. The Qin armies were numerically far superior to the Jin, who made a stand at Fei River.\\n\\nDuring the battle the disciplined and well-trained troops of the Jin routed the much more numerous but unorganized and unmotivated troops of the late Qin.\\n\\nThe Jin's defeat of the Qin forces with only minimal casualties shifted the balance of power greatly and ensured southern China remained independent for over 100 more years.#!",
+    "RUS": "#emp Победа: Се Ань (Цзинь)\\nПоражение: Фу Цзянь (Ранняя Цинь)\\nДата: 383 н. э.#!\\n#weak Это сражение стало итогом продолжительной кампании, в ходе которой Ранняя Цинь, объединив ряд варварских племен, захватила значительные территории империи Цзинь. Цзиньские военачальники решили встретить обладавшую большим численным перевесом циньскую армию на берегу реки Фэйшуй.\\n\\nВ ходе боя дисциплинированные и хорошо обученные цзиньские солдаты обратили в бегство огромное, но слабо организованное и недисциплинированное циньское войско.\\n\\nРешительная победа над Цинь резко изменила баланс сил в пользу империи Цзинь и на сто лет вперед обеспечила независимость южного Китая.#!",
+    "POL": "#emp Zwycięzca: Xie An – Jin\\nPokonany: Fu Jian – Wcześniejsze Qin\\nData: 383 n.e.#!\\n#weak Bitwa stanowiła zwieńczenie dłuższej kampanii, w której Wcześniejsze Qin, po zjednoczeniu wielu różnych plemion obcych, przejęło kontrolę nad znacznymi częściami ziem Jin. Armie Qin miały znaczną przewagę liczebną nad wojskami Jin, które stanęły do walki nad rzeką Fei.\\n\\nPodczas bitwy zdyscyplinowane i dobrze wyszkolone oddziały Jin rozgromiły znacznie liczniejsze, ale niezorganizowane i pozbawione motywacji wojska Qin.\\n\\nPokonanie sił Qin przez Jin przy minimalnych stratach znacząco zmieniło układ sił i zapewniło południowym Chinom niezależność na ponad 100 lat.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameCanheSlope",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Canhe Slope",
+    "RUS": "Битва при Цаньхэ",
+    "POL": "Bitwa na zboczu Canhe",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescCanheSlope",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: Touba Gui - Northern Wei\\nDefeated: Murong Bao - Later Yan\\nDate: 395 AD#!\\n#weak The battle was a result of a conflict where the Later Yan Dynasty went on a punitive campaign against the Northern Wei dynasty.\\n\\nAs the Later Yan forces reached the slope of Canhae the army was struck by a storm in which they were attacked by their enemies. The Later Yan army was caught by surprise and many fled into the Yellow River itself.\\n\\nThe battle ended up reversing the power dynamics of the region, with the Northern Wei taking over most of the territory of the Later Yan.#!",
+    "RUS": "#emp Победа: Тоба Гуй (Северная Вэй)\\nПоражение: Мужун Бао (Поздняя Янь)\\nДата: 395 н. э.#!\\n#weak Это сражение было итогом карательного похода, предпринятого Поздней Янь против Северной Вэй.\\n\\nКогда армия Поздней Янь достигла склонов Цаньхэ, началась сильная буря. Под покровом непогоды неприятель застал их врасплох и сбросил войска Мужун Бао в Желтую реку.\\n\\nИсход битвы изменил соотношение сил в регионе, позволив Северной Вэй захватить значительные территории Поздней Янь.#!",
+    "POL": "#emp Zwycięzca: Touba Gui – Północne Wei\\nPokonany: Murong Bao – Późniejsze Yan\\nData: 395 n.e.#!\\n#weak Bitwa była wynikiem konfliktu, w którym dynastia Późniejszego Yan przeprowadziła kampanię odwetową przeciwko dynastii Północnego Wei.\\n\\nGdy wojska Późniejszego Yan dotarły do zbocza Canhe, zaskoczyła je tam nagła burza, a w niej – zasadzka wroga. W szeregach armii Późniejszego Yan zapanował chaos, a wielu żołnierzy rzuciło się w wody rzeki Huang He.\\n\\nBitwa ostatecznie odwróciła dynamikę władzy w regionie, a Północne Wei przejęło większość terytorium Późniejszego Yan.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameXiangji",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Xiangji Temple",
+    "RUS": "Битва при храме Сянцзи",
+    "POL": "Bitwa w pobliżu świątyni Xiangji",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescXiangji",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( 'han_1528' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( 'an_qingxu' ).GetFullName]\\nDate: 757 AD#!\\n#weak This battle was culmination of a Tang counterattack on the rebel forces which had take control over most of northern China and was one of the bloodiest battles of the An Lushan rebellion. The two enormous armies clashed north of Chang'an by Xiangji Temple.\\n\\nBy mid day the Tang army had seized the high ground while the Yan army was position in front of Chang'an itself. After several maneuvers the battle devolved into a drawn out stalemate, with disciplined troops fighting each other without yielding before the Yan front eventually collapsed due to having taken extreme casualties.\\n\\nThe brutality of the battle left both armies decimated but broke the back of the rebellion. Tang forces were able to retake Chang'an the following day.#!",
+    "RUS": "#emp Победа: [GetScriptedCharacterByHistoryID( 'han_1528' ).GetFullName]\\nПоражение: [GetScriptedCharacterByHistoryID( 'an_qingxu' ).GetFullName]\\nДата: 757 н. э.#!\\n#weak Одно из самых кровопролитных сражений восстания Ань Лушаня, битва при храме Сянцзи была кульминацией танского контрнаступления на позиции мятежников, захвативших большую часть северного Китая. Две огромные армии сошлись у храма Сянцзи к северу от Чанъаня.\\n\\nК полудню танская армия заняла высоты, в то время как армия Янь расположилась под стенами Чанъаня. После череды маневров сражение зашло в тупик, дисциплинированные воины с обеих сторон упорно продолжали сражаться, не отступая ни на шаг. В конце концов центр армии повстанцев рухнул, понеся тяжелые потери.\\n\\nПо итогам битвы обе армии были совершенно обескровлены, но силы повстанцев оказались сломлены. На следующий день танские войска вошли в Чанъань.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( 'han_1528' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( 'an_qingxu' ).GetFullName]\\nData: 757 n.e.#!\\n#weak Bitwa ta była kulminacją kontrataku wojsk dynastii Tangów na siły rebeliantów, które przejęły kontrolę nad większością północnych Chin, i jedną z najkrwawszych bitew powstania An Lushan. Dwie ogromne armie starły się na północ od Chang’an, w pobliżu świątyni Xiangji.\\n\\nDo południa armia Tangów zajęła wzniesienie, podczas gdy armia Yan utrzymywała pozycje przed samym Chang’an. Po kilku manewrach starcie przerodziło się w długotrwały impas, w którym zdyscyplinowane oddziały walczyły zaciekle, aż front Yan ostatecznie załamał się z powodu ogromnych strat.\\n\\nBrutalność bitwy zdziesiątkowała obie armie, ale złamała opór rebelii. Siły Tangów zdołały odbić Chang’an następnego dnia.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalNameGaoliang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "Battle of Gaoliang River",
+    "RUS": "Битва на реке Гаолян",
+    "POL": "Bitwa nad rzeką Gaoliang",
+    "BEL": ""
+  },
+  {
+    "KEY": "BattlePoIHistoricalDescGaoliang",
+    "FILE_PATH": "localization/belarusian/travel/battle_points_of_interest_l_belarusian.json",
+    "ENG": "#emp Victor: [GetScriptedCharacterByHistoryID( '194330' ).GetFullName]\\nDefeated: [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullName]\\nDate: 979 AD#!\\n#weak The battle followed on an attempt by the Song to reclaim the 16 prefectures that the Liao dynasty had conquered in 960, and was personally lead by the emperor's own brother (the future Emperor [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip]).\\n\\nThe city of Youzhou was under siege for 3 months before Liao reinforcements arrived to relieve the defenders, while initially victorious the Song army was caught off-guard during nighttime by an attack from 3 directions.\\n\\nThe battle ended with [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip] fleeing the scene in a donkey cart. This was the first major defeat of the Song after their rise to power.#!",
+    "RUS": "#emp Победа: [GetScriptedCharacterByHistoryID( '194330' ).GetFullName]\\nПоражение: [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullName]\\nДата: 979 н. э.#!\\n#weak Сражение стало результатом попытки империи Сун вернуть шестнадцать префектур, захваченных династией Ляо в 960 г. Сунскую армию возглавлял брат императора, будущий император [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip].\\n\\nГород Ючжоу выдержал трехмесячную осаду, пока на помощь обороняющимся не прибыли подкрепления Ляо. Поначалу армии Сун способствовал успех, однако ночью неприятель атаковал ее с трех сторон.\\n\\nБитва стала первым серьезным поражением империи Сун. [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip] [Select_CString(GetScriptedCharacterByHistoryID( 'han_4801' ).IsFemale, 'была вынуждена', 'был вынужден' )] бежать с поля боя в повозке, запряженной ослами.#!",
+    "POL": "#emp Zwycięzca: [GetScriptedCharacterByHistoryID( '194330' ).GetFullName]\\nPokonany: [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullName]\\nData: 979 n.e.#!\\n#weak Bitwa była następstwem próby odzyskania przez dynastię Songów 16 prefektur podbitych w 960 n.e. przez dynastię Liao. Bitwie osobiście przewodził brat cesarza (przyszły cesarz [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip]).\\n\\nMiasto Youzhou było oblegane przez trzy miesiące, zanim przybyły posiłki z rodu Liao, aby odciążyć obrońców. Początkowo zwycięska armia Songów została zaskoczona nocnym atakiem nadciągającym z trzech kierunków.\\n\\nPo zakończeniu bitwy [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip] uciekł z pola walki na wozie zaprzęgniętym w osła. Była to pierwsza poważna porażka dynastii Songów po dojściu do władzy.#!",
+    "BEL": ""
+  }
+]

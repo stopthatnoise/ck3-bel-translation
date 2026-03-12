@@ -1,0 +1,282 @@
+[
+  {
+    "KEY": "RP_RAISE",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise Local Army",
+    "RUS": "Собрать местную армию",
+    "POL": "Wystaw lokalną armię",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_RAID",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise Local Raiders",
+    "RUS": "Собрать налетчиков",
+    "POL": "Wystaw lok. najeźdźców",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_MEN_AT_ARMS",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise All Men-at-Arms Here",
+    "RUS": "Собрать сюда всех профессионалов",
+    "POL": "Wystaw wszystkich zbrojnych tutaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_ALL",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise All Here",
+    "RUS": "Собрать всех сюда",
+    "POL": "Wystaw wszystko tutaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_PROMPT",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Raise Army and all Soldiers assigned to this Rally Point here#!",
+    "RUS": "#T Собрать армию и всех солдат, приписанных к этой точке сбора#!",
+    "POL": "#T Wystawione armie oraz wszyscy żołnierze zostaną przydzieleni do tego punktu zbornego#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_ALL_PROMPT",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Raise all Armies and all Soldiers here#!",
+    "RUS": "#T Собрать здесь все армии и всех солдат#!",
+    "POL": "#T Wystaw tutaj wszystkie armie i żołnierzy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $NAME$#!",
+    "RUS": "#T $NAME$#!",
+    "POL": "#T $NAME$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_RAID_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Raise Raider Army#!\\n[GetPlayer.GetStartRaidBlockers]\\n[raid|E] armies cost [GetDefine('NArmy', 'RAID_ARMY_COST_MULT')|%P0] of normal armies' cost to maintain.\\nRaid armies cannot reinforce.",
+    "RUS": "#T Собрать армию налетчиков#!\\n[GetPlayer.GetStartRaidBlockers]\\n\\nСтоимость содержания армии [Concept( 'raid', 'налетчиков')|E] составляет [GetDefine('NArmy', 'RAID_ARMY_COST_MULT')|%P0] расходов на содержание обычной армии.\\nАрмии налетчиков не пополняются.",
+    "POL": "#T Wystaw armię najeźdźców#!\\n[GetPlayer.GetStartRaidBlockers]\\nKoszt armii [Concept('raid', 'najeźdźców')|E] to [GetDefine('NArmy', 'RAID_ARMY_COST_MULT')|%P0] kosztów utrzymania normalnych armii.\\nNajeźdźcy nie mogą się wzmacniać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_NO_RAISABLE_TROOPS_ASSIGNED",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#X No unraised Soldiers assigned to this [rally_point|E]#!",
+    "RUS": "#X Нет непризванных солдат, приписанных к этой [Concept( 'rally_point', 'точке сбора' )|E]#!",
+    "POL": "#X Brak wystawionych żołnierzy przydzielonych do tego [Concept( 'rally_point', 'punktu zbornego' )|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_NO_RAISABLE_TROOPS_ALL",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#X No unraised Soldiers available#!",
+    "RUS": "#X Непризванных солдат нет#!",
+    "POL": "#X Brak niepowołanych żołnierzy#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_NO_RAISABLE_TROOPS_MEN_AT_ARMS",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#X No unraised Men-at-Arms available#!",
+    "RUS": "#X Непризванных профессионалов нет#!",
+    "POL": "#X Brak niepowołanych zbrojnych#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_LOCAL_LEVIES_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Local [levies|E]",
+    "RUS": "Местное [levies|El]",
+    "POL": "Lokalne [Concept( 'levies', 'pospolite ruszenie' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_LOCAL_LEVIES_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Local [levies|E]#!\\nUnraised: [RallyPointWindow.GetUnraisedLocalLevies|V]\\nAlive: [RallyPointWindow.GetAliveLocalLevies|V]\\nTotal: [RallyPointWindow.GetTotalLocalLevies|V]",
+    "RUS": "#T Местное [levies|El]#!\\nНе собрано: [RallyPointWindow.GetUnraisedLocalLevies|V]\\nЖивых: [RallyPointWindow.GetAliveLocalLevies|V]\\nВсего: [RallyPointWindow.GetTotalLocalLevies|V]",
+    "POL": "#T Lokalne [levies|El]#!\\nNiepowołani: [RallyPointWindow.GetUnraisedLocalLevies|V]\\nŻywi: [RallyPointWindow.GetAliveLocalLevies|V]\\nWszyscy: [RallyPointWindow.GetTotalLocalLevies|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_ALL_SOLDIERS_LABEL",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "All [soldiers|E]",
+    "RUS": "Все [soldiers|El]",
+    "POL": "Wszyscy [Concept( 'soldiers', 'żołnierze' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_KNIGHTS_ENTRY",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "[knight_i]$knight_culture_player_plural$: [GetPlayer.GetKnightCount|V]",
+    "RUS": "[knight_i]$knight_culture_player_plural$: [GetPlayer.GetKnightCount|V]",
+    "POL": "[knight_i] $knight_culture_player_plural$: [GetPlayer.GetKnightCount|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_KNIGHTS_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $knight_culture_player_plural$: [knight_i][GetPlayer.GetKnightCount|V]#!\\n[GetPlayer.GetUnraisedKnightBreakdown]",
+    "RUS": "#T $knight_culture_player_plural$: [knight_i][GetPlayer.GetKnightCount|V]#!\\n[GetPlayer.GetUnraisedKnightBreakdown]",
+    "POL": "#T $knight_culture_player_plural$: [knight_i] [GetPlayer.GetKnightCount|V]#!\\n[GetPlayer.GetUnraisedKnightBreakdown]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_LEVIES_ENTRY",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "[levies|E]: [ArmyComposition.GetMaxNumberOfLevies|V]",
+    "RUS": "[levies|E]: [ArmyComposition.GetMaxNumberOfLevies|V]",
+    "POL": "[levies|E]: [ArmyComposition.GetMaxNumberOfLevies|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_MAA_ENTRY",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "[men_at_arms|E]: [ArmyComposition.GetMaxNumberOfMAA|V]",
+    "RUS": "[men_at_arms|E]: [ArmyComposition.GetMaxNumberOfMAA|V]",
+    "POL": "[men_at_arms|E]: [ArmyComposition.GetMaxNumberOfMAA|V]",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_TIME_TO_RAISE",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Time to raise: $VALUE|V$",
+    "RUS": "Время на сбор: $VALUE|V$",
+    "POL": "Czas mobilizacji: $VALUE|V$",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_TIME_TO_RAISE_DELAY",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "The time to raise includes a delay of $VALUE$ due to [soldiers|E] returning home from recently disbanding",
+    "RUS": "Время на сбор включает задержку на $VALUE$, пока [soldiers|El] возвращаются домой после недавнего роспуска",
+    "POL": "Czas do zebrania obejmuje opóźnienie $VALUE$ z powodu powrotu [Concept('soldiers', 'żołnierzy')|E] do domu po niedawnym rozwiązaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $RP_RAISE$#!",
+    "RUS": "#T $RP_RAISE$#!",
+    "POL": "#T $RP_RAISE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_TOOLTIP_DESC",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise all [armies|E] that are the closest to this particular [rally_point|E].\\n#weak If you only have one Rally Point, all Armies will be raised here.#!",
+    "RUS": "Собрать все [Concept('armies', 'армии')|E], наиболее близкие к этой [Concept('rally_point', 'точке сбора')|E].\\n#weak Если у вас только одна точка сбора, здесь будут собраны все армии.#!",
+    "POL": "Wystaw wszystkie [armies|El], które znajdują się najbliżej tego [Concept('rally_point', 'punktu zbornego')|E].\\n#weak Jeżeli posiadasz tylko jeden punkt zborny, wszystkie armie zostaną wystawione w tym miejscu.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_MEN_AT_ARMS_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $RP_RAISE$#!",
+    "RUS": "#T $RP_RAISE$#!",
+    "POL": "#T $RP_RAISE$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_MEN_AT_ARMS_TOOLTIP_DESC",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise all [men_at_arms|E] here",
+    "RUS": "Собрать всех [Concept('men_at_arms', 'профессионалов')|E] здесь",
+    "POL": "Wystaw wszystkich [Concept('men_at_arms', 'zbrojnych')|E] tutaj",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_RAID_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $RP_RAISE_RAID$#!",
+    "RUS": "#T $RP_RAISE_RAID$#!",
+    "POL": "#T $RP_RAISE_RAID$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_RAID_TOOLTIP_DESC",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise all [armies|E] that are the closest to this particular [rally_point|E] as [raiders|E].\\n#weak If you only have one Rally Point, all Armies will be raised here.#!",
+    "RUS": "Собрать все [Concept('armies', 'армии')|E], наиболее близкие к этой [Concept( 'rally_point', 'точке сбора' )|E], в качестве [Concept('raiders', 'налетчиков')|E].\\n#weak Если у вас только одна точка сбора, здесь будут собраны все армии.#!",
+    "POL": "Wystaw wszystkie [armies|El] jako [Concept('raiders', 'najeźdźców')|E], które znajdują się najbliżej tego [Concept('rally_point', 'punktu zbornego')|E].\\n#weak Jeżeli posiadasz tylko jeden punkt zborny, wszystkie armie zostaną wystawione w tym miejscu.#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_ALL_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $RP_RAISE_ALL$#!",
+    "RUS": "#T $RP_RAISE_ALL$#!",
+    "POL": "#T $RP_RAISE_ALL$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_ALL_TOOLTIP_DESC",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise #emphasis all#! your [armies|E] here, regardless of which [rally_point|E] is the closest",
+    "RUS": "Собрать #emphasis все#! ваши [Concept('armies', 'армии')|E] в этой точке — независимо от близости остальных [Concept( 'rally_point', 'точек сбора' )|E].",
+    "POL": "Wystaw tutaj #emphasis wszystkie#! swoje [armies|El], niezależnie od tego, który [rally_point|El] znajduje się najbliżej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_MOVE_RALLY_POINT",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Move Rally Point\\n#! #I Alternatively, right-click on the map directly#!",
+    "RUS": "#T Переместить точку сбора\\n#! #I Альтернативный способ: щелкните ПКМ в нужной точке карты#!",
+    "POL": "#T Przenieś punkt zborny\\n#! #I Alternatywnie, kliknij bezpośrednio PPM na mapie#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_CANNOT_MOVE_RALLY_POINT",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#X Landless characters cannot move their [rally_point|E]#!",
+    "RUS": "#X Безземельные персонажи не могут перемещать свою [Concept( 'rally_point', 'точку сбора' )|E]#!",
+    "POL": "#X Postacie bez ziemi nie mogą przenieść swojego [Concept('rally_point', 'punktu zbornego')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_BLOCK_AT_WAR",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "@warning_icon! #X You cannot raise [raiders|E] while at [war|E]#!",
+    "RUS": "@warning_icon! #X Вы не можете собрать [Concept( 'raiders', 'налетчиков' )|E] во время [Concept( 'war', 'войны' )|E]#!",
+    "POL": "@warning_icon! #X Nie możesz wystawić [Concept( 'raiders', 'najeźdźców' )|E] podczas [wars|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_BARTER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise Local Barterers",
+    "RUS": "Собрать местных торговцев",
+    "POL": "Wystaw lokalnych handlarzy wymiennych",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_BARTER_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T Raise Barterer Army#!\\n[GetPlayer.GetStartBarterBlockers]\\n[barter|E] armies cost [GetDefine('NArmy', 'BARTER_ARMY_COST_MULT')|%P0] of normal armies' cost to maintain.\\nBarter armies cannot reinforce.",
+    "RUS": "#T Собрать армию торговцев#!\\n[GetPlayer.GetStartBarterBlockers]\\nСтоимость содержания армии [Concept('barter', 'торговцев')|E] составляет [GetDefine('NArmy', 'BARTER_ARMY_COST_MULT')|%P0] от расходов на содержание обычной армии.\\nАрмии торговцев не пополняются.",
+    "POL": "#T Wystaw armię handlarzy wymiennych#!\\n[GetPlayer.GetStartBarterBlockers]\\nKoszt armii [barter|E] to [GetDefine('NArmy', 'BARTER_ARMY_COST_MULT')|%P0] kosztów utrzymania normalnych armii.\\nArmie handlu wymiennego nie mogą się wzmacniać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_BARTER_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "#T $RP_RAISE_BARTER$#!",
+    "RUS": "#T $RP_RAISE_BARTER$#!",
+    "POL": "#T $RP_RAISE_BARTER$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "RP_RAISE_BARTER_TOOLTIP_DESC",
+    "FILE_PATH": "localization/belarusian/gui/rally_point_window_l_belarusian.json",
+    "ENG": "Raise all [armies|E] that are the closest to this particular [rally_point|E] as [barterers|E].\\n#weak If you only have one Rally Point, all Armies will be raised here.#!",
+    "RUS": "Собрать все [Concept('armies', 'армии')|E], наиболее близкие к этой [Concept( 'rally_point', 'точке сбора' )|E], в качестве [Concept('barterers', 'торговцев')|E].\\n#weak Если у вас только одна точка сбора, здесь будут собраны все армии.#!",
+    "POL": "Wystaw jako [Concept('barterers', 'handlarzy wymiennych')|E] wszystkie [armies|El], które znajdują się najbliżej tego [Concept('rally_point', 'punktu zbornego')|E].\\n#weak Jeżeli masz tylko jeden punkt zborny, wszystkie armie zostaną wystawione w tym miejscu.#!",
+    "BEL": ""
+  }
+]

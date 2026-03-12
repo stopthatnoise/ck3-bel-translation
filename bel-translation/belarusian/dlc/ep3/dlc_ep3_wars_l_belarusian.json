@@ -1,0 +1,690 @@
+[
+  {
+    "KEY": "ep3_laamp_adventurer_empire_invasion",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "POL": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_adventurer_kingdom_invasion",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "POL": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_adventurer_duchy_invasion",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "POL": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_adventurer_county_invasion",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "POL": "$EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetFirstNamePossessive] $EP3_LAAMP_INVASION_CB_NAME$ of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] [ATTACKER.GetFirstName] вторгнется в лагерь державы [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]$EP3_LAAMP_INVASION_CB_NAME$ (strona atakująca: [ATTACKER.GetFirstName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetFirstName][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "[ATTACKER.GetFirstName]-[DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetFirstName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer Invasion",
+    "RUS": "Вторжение авантюристов",
+    "POL": "Inwazja poszukiwacza przygód",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_CB_COUNTY_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer [county|E] Invasion",
+    "RUS": "Вторжение авантюристов в [Concept('county', 'графство')|E]",
+    "POL": "Inwazja poszukiwacza przygód na [county|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_CB_DUCHY_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer [duchy|E] Invasion",
+    "RUS": "Вторжение авантюристов в [Concept( 'duchy', 'герцогство' )|E]",
+    "POL": "Inwazja poszukiwacza przygód na [duchy|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_CB_KINGDOM_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer [kingdom|E] Invasion",
+    "RUS": "Вторжение авантюристов в [Concept('kingdom', 'королевство')|E]",
+    "POL": "Inwazja poszukiwacza przygód na [kingdom|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_INVASION_CB_EMPIRE_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer [empire|E] Invasion",
+    "RUS": "Вторжение авантюристов в [Concept('empire', 'империю')|E]",
+    "POL": "Inwazja poszukiwacza przygód na [empire|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_target_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[defender.GetTitledFirstName] was not the agreed target #weak ([attacker.MakeScope.Var('adventurer_invasion_target').Char.GetTitledFirstName])#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[defender.GetTitledFirstName] — не согласованная цель #weak ([attacker.MakeScope.Var('adventurer_invasion_target').Char.GetTitledFirstName])#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ [defender.GetTitledFirstName] to nie uzgodniony wcześniej cel #weak ([attacker.MakeScope.Var('adventurer_invasion_target').Char.GetTitledFirstName])#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_defender_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is in the target [realm|E]\\n$ep3_laamp_sponsor_end_tt$#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] в выбранной [Concept( 'realm', 'державе' )|E]\\n$ep3_laamp_sponsor_end_tt$#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ Znajduje się [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe] w [Concept('realm', 'państwie')|E], które jest celem\\n$ep3_laamp_sponsor_end_tt$#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_ally_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is [allied|E] to [defender.GetTitledFirstName]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] — [Concept( 'allied', 'в союзе' )|E] с персонажем [defender.GetTitledFirstName]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ Jest [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe] [allied|El] z osobą znaną jako [defender.GetTitledFirstName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_spouse_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is [married|E] to [defender.GetTitledFirstName]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] состоит [Concept( 'married', 'в браке' )|E] с персонажем [defender.GetTitledFirstName]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] i [defender.GetTitledFirstName] są postaciami ze sobą [Concept('married', 'poślubionymi')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_family_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is [close_family|E] of [defender.GetTitledFirstName], with too high an [opinion|E] of [defender.GetHerHim]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] состоит в [Concept( 'close_family', 'близком родстве' )|E] с персонажем [defender.GetTitledFirstName] и слишком высокого [Concept( 'opinion', 'мнения' )|E] о [Select_CString(defender.IsFemale, 'ней', 'нем' )]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ Jest [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe] [Concept('close_family', 'bliską rodziną')|E] osoby znanej jako [defender.GetTitledFirstName], ze zbyt wysoką [Concept('opinion', 'opinią')|E] na jej temat#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_relation_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] has a close [relation|E] to [defender.GetTitledFirstName]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] состоит в [Concept( 'relation', 'особых отношениях' )|E] с персонажем [defender.GetTitledFirstName]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] i [defender.GetTitledFirstName] tworzą bliską [Concept('relation', 'szczególną relację')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_attacking_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is already attacking [defender.GetTitledFirstName]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] уже атакует персонажа [defender.GetTitledFirstName]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ Atakuje [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe] już osobę, którą jest [defender.GetTitledFirstName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_range_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] is not in [diplomatic_range|E] of [defender.GetTitledFirstName]#!",
+    "RUS": "\\n#X $BULLET_WITH_TAB$[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe|U] находится вне [Concept( 'diplomatic_range', 'дипломатического радиуса' )|E] персонажа [defender.GetTitledFirstName]#!",
+    "POL": "\\n#X $BULLET_WITH_TAB$ Nie jest [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetSheHe] w [Concept('diplomatic_range', 'zasięgu dyplomatycznym')|E] osoby znanej jako [defender.GetTitledFirstName]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_no_support_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n#X [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will not support you:#!",
+    "RUS": "\\n#X [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] вас не поддержит:#!",
+    "POL": "\\n#X [attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] cię nie wesprze:#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_support_soldiers_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will support you with [soldiers|E]",
+    "RUS": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] поддержит вас и пришлет [Concept( 'soldiers', 'солдат' )|E]",
+    "POL": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] wesprze cię swoimi [Concept('soldiers', 'żołnierzami')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_support_join_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will support you by joining the [war|E]",
+    "RUS": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] поддержит вас и вступит в [Concept( 'war', 'войну' )|E]",
+    "POL": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] wesprze cię, dołączając do [Concept('war', 'wojny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_support_both_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will support you with [soldiers|E] and join the [war|E]",
+    "RUS": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] поддержит вас: пришлет [Concept( 'soldiers', 'солдат' )|E] и вступит в [Concept( 'war', 'войну' )|E]",
+    "POL": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] wesprze cię swoimi [Concept('soldiers', 'żołnierzami')|E] i dołączając do [Concept('war', 'wojny')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_support_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will support you",
+    "RUS": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] поддержит вас",
+    "POL": "\\n[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] cię wesprze",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_end_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] will no longer support you",
+    "RUS": "[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] прекратит вас поддерживать",
+    "POL": "[attacker.MakeScope.Var('adventurer_invasion_supporter').Char.GetTitledFirstName] nie będzie cię dłużej wspierać",
+    "BEL": ""
+  },
+  {
+    "KEY": "sponsored_laamp_invasion_against_me_opinion",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Sponsored Invasion Against Me",
+    "RUS": "Оплачено вторжение на мои территории",
+    "POL": "Zasponsorowana inwazja przeciwko mnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_troops_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[supporter.GetTitledFirstNameNoTooltip] Supports Invasion",
+    "RUS": "[supporter.GetTitledFirstNameNoTooltip] поддерживает вторжение",
+    "POL": "[supporter.GetTitledFirstNameNoTooltip] wspiera inwazję",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_invasion_event_army",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[supporter.GetTitledFirstNamePossessiveNoTooltip] Host",
+    "RUS": "[supporter.GetTitledFirstNameNoTooltip] со своим войском",
+    "POL": "Gospodarz osoby znanej jako [supporter.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_invalidated_title",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Invasion Support Withdrawn",
+    "RUS": "Прекращена поддержка вторжения",
+    "POL": "Wycofane wsparcie dla inwazji",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_invalidated_supporter",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You will no longer support [attacker.GetTitledFirstNameNoTooltip] in a $EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "Вы прекратите поддерживать персонажа [attacker.GetTitledFirstNameNoTooltip] во вторжении авантюристов",
+    "POL": "Nie będziesz dłużej wspierać osoby, którą jest [attacker.GetTitledFirstNameNoTooltip], w przedsięwzięciu: $EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_sponsor_invalidated_adventurer",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[supporter.GetTitledFirstNamePossessiveNoTooltip] will no longer support you in a $EP3_LAAMP_INVASION_CB_NAME$",
+    "RUS": "[supporter.GetTitledFirstNamePossessiveNoTooltip] прекратит поддерживать вас во вторжении авантюристов",
+    "POL": "[supporter.GetTitledFirstNameNoTooltip] nie będzie cię dłużej wspierać w przedsięwzięciu: $EP3_LAAMP_INVASION_CB_NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADVENTURER_STATE_TITLE_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Adventurer [target_duchy.GetNameNoTierNoTooltip]",
+    "RUS": "[target_duchy.GetNameNoTierNoTooltip] авантюристов",
+    "POL": "Poszukiwacz przygód na ziemiach znanych jako [target_duchy.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_RAID_CONTRACT_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Raid for [DEFENDER.GetPrimaryTitle.GetAdjective] Captives",
+    "RUS": "Набег за #L [DEFENDER.GetPrimaryTitle.GetAdjective]ими#! пленными",
+    "POL": "Najazd na miejsce znane jako [DEFENDER.GetPrimaryTitle.GetName] w celu zdobycia jeńców",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_RAID_CONTRACT_CB_SPECIFIC_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Raid for Captives against the [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]",
+    "RUS": "[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] подвергается нападению охотников за пленными",
+    "POL": "Najazd w celu zdobycia jeńców, w którym strona przeciwna to [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_RAID_CONTRACT_CB_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Raid for Captives against [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! набег за пленными во владении [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]najazd w celu zdobycia jeńców (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [DEFENDER.GetPrimaryTitle.GetNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_RAID_CONTRACT_CB_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Raid for Captives Contract",
+    "RUS": "Договор: набег за пленными",
+    "POL": "Kontrakt dotyczący najazdu w celu zdobycia jeńców",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You imprison more characters and gain gold from captured prisoners",
+    "RUS": "Вы заключаете в тюрьму больше персонажей и получаете больше золота от захваченных пленных",
+    "POL": "Wtrącasz do więzienia większą liczbę postaci i zyskujesz złoto od osadzonych więźniów",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "No additional gains for neither side",
+    "RUS": "Никаких дополнительных выгод для сторон",
+    "POL": "Nie ma żadnych dodatkowych korzyści dla żadnej ze stron",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Your reputation as a capable adventurer suffers",
+    "RUS": "Пострадала ваша репутация искусного путешественника",
+    "POL": "Twoja reputacja jako zdolnego poszukiwacza przygód ucierpiała",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb_prisoners.tt_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Between #V 3#! and #V 5#! of [defender.GetShortUINamePossessive] [courtiers|E] will be taken [prisoners|E], depending on [defender.GetHerHis] tier, and handed over to [task_contract_employer.GetShortUIName].",
+    "RUS": "От трех до пяти [Concept( 'courtiers', 'придворных' )|E] [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )][defender.GetNamePossessiveOrMy][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )] будут [Concept( 'prisoners', 'взяты в плен' )|E] — в зависимости от уровня защитника — и переданы [Select_CString(task_contract_employer.IsLocalPlayer, '', 'персонажу ' )][task_contract_employer.GetNamePossessiveOrMy][Select_CString(task_contract_employer.IsLocalPlayer, 'ему персонажу', '' )].",
+    "POL": "Od #V 3#! do #V 5#! [Concept('courtiers', 'dworzan')|E] osoby znanej jako [defender.GetShortUINameNotMe], w zależności od jej poziomu, zostanie [Concept('prisoners', 'więźniami')|E] i trafi w ręce postaci, którą jest [task_contract_employer.GetShortUINameNotMe].",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_raid_contract_cb_prisoners.tt_gold",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] will earn [gold_i] [gold|E] equivalent to the prisoners ransom costs.",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'получите', 'получит')] [gold_i] [Concept( 'gold', 'золото' )|E], равное цене выкупа пленных.",
+    "POL": "[attacker.GetShortUINameNotMe] zarobi ilość [gold_i] [Concept('gold', 'złota')|E] równą wartości okupu za więźniów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "CRUSADING_CLAIM_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Crusader War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]",
+    "RUS": "Крестовый поход по претензии [Select_CString(CLAIMANT.IsLocalPlayer, '', 'персонажа ' )][CLAIMANT.GetShortUINamePossessive][Select_CString(CLAIMANT.IsLocalPlayer, 'его персонажа', '' )] на титул «[TITLE.GetBaseName]»",
+    "POL": "Wojna krzyżowców o roszczenia, które przedstawia [CLAIMANT.GetShortUINameNotMe] względem miejsca znanego jako [TITLE.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "crusading_claim_cb",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Crusader War for Imperial Claim",
+    "RUS": "Война крестоносцев по имперской претензии",
+    "POL": "Wojna krzyżowców o roszczenia imperialne",
+    "BEL": ""
+  },
+  {
+    "KEY": "CRUSADING_CLAIM_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Crusader War for Imperial Claim",
+    "RUS": "Война крестоносцев по имперской претензии",
+    "POL": "Wojna krzyżowców o roszczenia imperialne",
+    "BEL": ""
+  },
+  {
+    "KEY": "CRUSADING_CLAIM_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Crusader[CLAIMANT.GetShortUINameNotMe][TITLE.GetName]",
+    "RUS": "[CLAIMANT.GetShortUINameNotMe] — крестоносец, [TITLE.GetName]",
+    "POL": "Krzyżowiec [CLAIMANT.GetShortUINameNotMe] – [TITLE.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CRUSADING_CLAIM_WAR_NAME_MY",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Crusader-Supported Claim on the [TITLE.GetBaseName]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] Поддержанная крестоносцами претензия на титул [TITLE.GetBaseName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wspierane przez krzyżowców roszczenie dotyczące miejsca znanego jako [TITLE.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[imperial_expedition_cb|E]",
+    "RUS": "[Concept('imperial_expedition_cb', 'Имперская экспедиция')|E]",
+    "POL": "[imperial_expedition_cb|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb.tt.requires_expedition_charge",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You must obtain permission from your [liege|E] via the $diarch_request_imperial_expedition_interaction$ [diarch_power|E]",
+    "RUS": "Вам нужно разрешение [Concept( 'liege', 'сюзерена' )|E]. Чтобы получить его, воспользуйтесь [Concept( 'diarch_power', 'действием диарха' )|E] «$diarch_request_imperial_expedition_interaction$»",
+    "POL": "Musisz uzyskać pozwolenie swojego [Concept('liege', 'seniora')|E], prosząc o wyprawę cesarską na mocy [Concept('diarch_power', 'powierzonej władzy')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_victory_desc_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You gain the contested [titles|E], and must then decide whether to turn them over to your [liege|E] for [influence|E] or keep them for yourself",
+    "RUS": "Вы получили оспариваемые [Concept( 'titles', 'титулы' )|E]. Теперь вы должны решить, оставить их себе или отдать [Concept( 'liege', 'сюзерену' )|E] ради [Concept( 'influence', 'влияния' )|E]",
+    "POL": "Zdobywasz sporne [titles|El] i musisz zdecydować, czy oddasz je swojemu [Concept('liege', 'seniorowi')|E] w zamian za [influence|El], czy zatrzymasz je dla siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName] gains the contested [titles|E], and must then decide whether to turn them over to [attacker.GetHerHis] [liege|E] for [influence|E] or keep them for [attacker.GetHerselfHimself]",
+    "RUS": "[attacker.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'получили', Select_CString(CHARACTER.IsFemale, 'получила', 'получил' ))] оспариваемые [Concept( 'titles', 'титулы' )|E]. Теперь надо решить, оставить титулы себе или отдать их [Concept( 'liege', 'сюзерену' )|E] ради [Concept( 'influence', 'влияния' )|E]",
+    "POL": "[attacker.GetShortUINameNotMe] zdobywa sporne [titles|El] i musi zdecydować, czy odda je swojemu [Concept('liege', 'seniorowi')|E] w zamian za [influence|El], czy zatrzyma je dla siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_white_peace_desc_defender",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You keep the contested [title|E].",
+    "RUS": "Вы сохранили оспариваемый [Concept( 'title', 'титул' )|E].",
+    "POL": "Zatrzymujesz sporny [title|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] keeps the contested [title|E].",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохранили', Select_CString(defender.IsFemale, 'сохранила', 'сохранил' ))] оспариваемый [Concept( 'title', 'титул' )|E].",
+    "POL": "[defender.GetShortUINameNotMe] zatrzymuje sporny [title|El].",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_defeat_desc_defender",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "You keep the contested [titles|E], and [attacker.GetShortUIName] must pay you war reparations.",
+    "RUS": "Вы сохранили оспариваемые [Concept( 'titles', 'титулы' )|E]. [attacker.GetShortUIName] обязуется выплатить вам репарации.",
+    "POL": "Zachowujesz sporne [titles|El], a [attacker.GetShortUINameNotMe] musi wypłacić ci reparacje wojenne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_defeat_desc_attacker",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] keeps the contested [county|E], and you must pay [defender.GetHerHim] war reparations.",
+    "RUS": "[defender.GetShortUIName|U] сохраняет оспариваемое [Concept( 'county', 'графство' )|E]. Вы обязаны выплатить [Select_CString(defender.IsFemale, 'ей', 'ему' )] репарации.",
+    "POL": "[defender.GetShortUINameNotMe] zachowuje sporne [county|El], a ty musisz [defender.Custom('PL_mu_jej')] wypłacić reparacje wojenne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "imperial_expedition_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] keeps the contested [titles|E], and [attacker.GetShortUIName] must pay [defender.GetHerHim] war reparations.",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'сохраняете', 'сохраняет' )] оспариваемые [Concept( 'titles', 'титулы' )|E], а [attacker.GetShortUIName] [Select_CString(attacker.IsLocalPlayer, 'обязуетесь', 'обязуется' )] выплатить [Select_CString(defender.IsFemale, 'ей', 'ему' )] репарации.",
+    "POL": "[defender.GetShortUINameNotMe] zachowuje sporne [titles|El], a [attacker.GetShortUINameNotMe] musi [defender.Custom('PL_mu_jej')] wypłacić reparacje wojenne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPERIAL_EXPEDITION_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetLiege.GetPrimaryTitle.GetAdjective] $IMPERIAL_EXPEDITION_CB_NAME$ for [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetLiege.GetPrimaryTitle.GetAdjective]ая#! экспедиция «$IMPERIAL_EXPEDITION_CB_NAME$» во владение [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]$IMPERIAL_EXPEDITION_CB_NAME$ (strona atakująca: [ATTACKER.GetLiege.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPERIAL_EXPEDITION_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetFirstName][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "[ATTACKER.GetFirstName]-[DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetFirstName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "IMPERIAL_EXPEDITION_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[imperial_expedition_cb|E]",
+    "RUS": "[Concept('imperial_expedition_cb', 'Имперская экспедиция')|E]",
+    "POL": "[imperial_expedition_cb|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_PILLAGING_FORAY_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Pillaging Foray against [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "RUS": "Хищение припасов. Цель — [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "POL": "Wyprawa grabieżcza przeciwko stronie znanej jako [DEFENDER.GetPrimaryTitle.GetNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_PILLAGING_FORAY_CB_SPECIFIC_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Pillaging Foray of [TITLE.GetBaseNameNoTier]",
+    "RUS": "Хищение припасов. Цель — [TITLE.GetBaseNameNoTier]",
+    "POL": "Wyprawa grabieżcza na miejsce znane jako [TITLE.GetBaseNameNoTier]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_PILLAGING_FORAY_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Pillaging Foray of [TITLE.GetBaseNameNoTier]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] #L [ATTACKER.GetPrimaryTitle.GetAdjective]ое#! хищение припасов. Цель — [TITLE.GetBaseNameNoTier]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]wyprawa grabieżcza (strona atakująca: [ATTACKER.GetPrimaryTitle.GetName]; cel: [TITLE.GetBaseNameNoTier])",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_PILLAGING_FORAY_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "[ATTACKER.GetPrimaryTitle.GetAdjective]ое владение [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_pillaging_foray",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Pillaging Foray",
+    "RUS": "Хищение припасов",
+    "POL": "Wyprawa na grabież",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_war_modifier_improve_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "#weak [modifier|E] will improve with each use of this [casus_belli|E]#!",
+    "RUS": "#weak [Concept( 'modifier', 'Модификатор' )|E] повышается с каждым использованием этого [Concept( 'casus_belli', 'казус белли' )|E]#!",
+    "POL": "#weak [modifier|E] będzie się ulepszać z każdym użyciem tego [casus_belli|El]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_roman_empire_border_war",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Border Raid against the Roman Empire",
+    "RUS": "Вылазка против Римской империи",
+    "POL": "Najazd graniczny na Imperium Rzymskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_BORDER_RAID_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Border Raid against [TITLE.GetBaseName]",
+    "RUS": "Вылазка против державы [TITLE.GetBaseName]",
+    "POL": "Najazd graniczny na miejsce znane jako [TITLE.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_BORDER_RAID_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Border Raid",
+    "RUS": "Вылазка",
+    "POL": "Najazd graniczny",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_BORDER_RAID_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Border Raid against the Roman Empire",
+    "RUS": "Вылазка против Римской империи",
+    "POL": "Najazd graniczny na Imperium Rzymskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_APPREHEND_ADVENTURER_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Resist [DEFENDER.GetTitledFirstName]",
+    "RUS": "[DEFENDER.GetTitledFirstName] не пройдет",
+    "POL": "Staw opór osobie, którą jest [DEFENDER.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_APPREHEND_ADVENTURER_CB_SPECIFIC_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Resist [DEFENDER.GetTitledFirstName]",
+    "RUS": "[DEFENDER.GetTitledFirstName] не пройдет",
+    "POL": "Staw opór osobie, którą jest [DEFENDER.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_APPREHEND_ADVENTURER_CB_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTitledFirstNamePossessive] Resistance against [DEFENDER.GetTitledFirstName]",
+    "RUS": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')] [ATTACKER.GetTitledFirstName] сопротивляется наступлению, которое ведет [DEFENDER.GetTitledFirstName]",
+    "POL": "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]opór postaci znanej jako [ATTACKER.GetTitledFirstName] stawiany osobie, którą jest [DEFENDER.GetTitledFirstName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "EP3_LAAMP_APPREHEND_ADVENTURER_CB_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_apprehend_adventurer_cb",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Resist Capture",
+    "RUS": "Сопротивляться пленению",
+    "POL": "Oprzyj się pojmaniu",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_apprehend_adventurer_cb_victory_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] will depose [defender.GetShortUIName]",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'свергнете', 'свергнет')] [Select_CString(defender.IsLocalPlayer, '', 'персонажа ' )|l][defender.GetShortUINamePossessive][Select_CString(defender.IsLocalPlayer, 'его персонажа', '' )]",
+    "POL": "[attacker.GetShortUINameNotMe] zdetronizuje osobę, którą jest [defender.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_apprehend_adventurer_cb_white_peace_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[attacker.GetShortUIName|U] will gain a [truce|E] with [defender.GetShortUIName]",
+    "RUS": "[attacker.GetShortUIName|U] [Select_CString(attacker.IsLocalPlayer, 'получите', 'получит')] [Concept('truce', 'перемирие')|E] с [Select_CString(defender.IsLocalPlayer, '', 'персонажем ' )|l][defender.GetShortUINamePossessive|l][Select_CString(defender.IsLocalPlayer, 'им персонажем', '' )]",
+    "POL": "[attacker.GetShortUINameNotMe] osiągnie [truce|El] z osobą, którą jest [defender.GetShortUINameNotMe]",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_apprehend_adventurer_cb_defeat_desc",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[defender.GetShortUIName|U] will imprison [attacker.GetShortUIName], seizing all possessions, and disbanding the [camp|E]",
+    "RUS": "[defender.GetShortUIName|U] [Select_CString(defender.IsLocalPlayer, 'арестуете', 'арестует')] [Select_CString(attacker.IsLocalPlayer, '', 'персонажа ' )|l][attacker.GetShortUINamePossessive][Select_CString(attacker.IsLocalPlayer, 'его персонажа', '' )], захватив все имущество и распустив [Concept('camp', 'лагерь')|E]",
+    "POL": "[defender.GetShortUINameNotMe] uwięzi osobę, którą jest [attacker.GetShortUINameNotMe], konfiskując całe jej mienie i rozwiązując [camp|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIMED_TITLES_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[claimed|E] [titles|E]",
+    "RUS": "[Concept('claimed', 'Оспариваемые')|E] [Concept('titles', 'титулы')|E]",
+    "POL": "[claimed|E] [titles|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CLAIMED_DE_JURE_TITLES_DESC",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[claimed|E] [de_jure|E] [titles|E]",
+    "RUS": "[Concept('claimed', 'Оспариваемые')|E] [Concept('de_jure', 'де-юре')|E] [Concept('titles', 'титулы')|E]",
+    "POL": "[claimed|E] [titles|El] [de_jure|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GREEK_ANARCHY_WAR_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective] Seizure of the Imperial [TITLE.GetBaseName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! захват имперского титула [TITLE.GetBaseName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] przejmuje należące do imperium miejsce znane jako [TITLE.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GREEK_ANARCHY_WAR_NAME_BASE",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]",
+    "RUS": "#L [ATTACKER.GetPrimaryTitle.GetAdjective]ий#! домен [DEFENDER.GetPrimaryTitle.GetName]",
+    "POL": "[ATTACKER.GetPrimaryTitle.GetName] – [DEFENDER.GetPrimaryTitle.GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "GREEK_ANARCHY_CB_NAME",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Seize Imperial Duchy",
+    "RUS": "Захватить имперское герцогство",
+    "POL": "Przejmij imperialne księstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_peasant_war",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Peasant Uprising",
+    "RUS": "Крестьянский бунт",
+    "POL": "Powstanie chłopskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_laamp_peasant_war.peasant_army",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Peasants in every county will raise as [levies|E] and join your side",
+    "RUS": "Крестьяне во всех графствах восстанут в качестве [Concept('levies', 'ополчения')|E] и примкнут к вашей стороне",
+    "POL": "Chłopi w każdym hrabstwie zostaną [Concept('levies', 'pospolitym ruszeniem')|E] i dołączą do ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_join_war_payment_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Due to [GetTaskContractType('laamp_join_war_contract').GetName] [task_contract|E]:",
+    "RUS": "Из-за [Concept('task_contract', 'контракта')|E] «[GetTaskContractType('laamp_join_war_contract').GetName]»:",
+    "POL": "Ze względu na [task_contract|El] „[GetTaskContractType('laamp_join_war_contract').GetName]”:",
+    "BEL": ""
+  },
+  {
+    "KEY": "ep3_hire_laamp_mercs_payment_tt",
+    "FILE_PATH": "localization/belarusian/dlc/ep3/dlc_ep3_wars_l_belarusian.json",
+    "ENG": "Due to [mercenary|E] work:",
+    "RUS": "Из-за работы [Concept('mercenary', 'наемником')|E]:",
+    "POL": "Ze względu na pracę [Concept('mercenary', 'najemnika')|E]:",
+    "BEL": ""
+  }
+]

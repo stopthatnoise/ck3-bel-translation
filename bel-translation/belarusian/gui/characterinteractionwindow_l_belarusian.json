@@ -1,0 +1,394 @@
+[
+  {
+    "KEY": "GOTO_CHARACTER",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Go to [Character.GetShortUINamePossessiveNoTooltip] location#!\\n[Character.GetLocationDesc]",
+    "RUS": "#T Перейти к местоположению персонажа [Character.GetShortUINameNoTooltip]#!\\n[Character.GetLocationDesc]",
+    "POL": "#T Idź do lokalizacji [Select_CString( Character.IsLocalPlayer, 'twojej postaci', Concatenate('postaci ', Character.GetShortUINameNotMeNoTooltip))]#!\\n[Character.GetLocationDesc]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_INTERACTION_ITEM_TOOLTIP_HEADER",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "$NAME|T$",
+    "RUS": "$NAME|T$",
+    "POL": "$NAME|T$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_ODDS",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[predicted_difficulty|E]:$NAME$",
+    "RUS": "[Concept('predicted_difficulty', 'Ожидаемая сложность')|E]: $NAME$",
+    "POL": "[predicted_difficulty|E]: $NAME$",
+    "BEL": ""
+  },
+  {
+    "KEY": "CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#S $NAME$ Scheme#!",
+    "RUS": "#S Происки: $NAME$#!",
+    "POL": "#S Spisek „$NAME$”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "SHOW_MORE_INTERACTIONS_TT",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show more [CharacterInteractionCategory.GetDescription]#!",
+    "RUS": "#T [CharacterInteractionCategory.GetDescription] — показать больше#!",
+    "POL": "#T Pokaż więcej [CharacterInteractionCategory.GetDescription]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PIN_TT",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T [Select_CString( Character.IsPinned, 'Unpin', 'Pin' )]\\n#!Keep track of this Character by pinning [Character.GetHerHim] in the Outliner on the right side of the screen",
+    "RUS": "#T [Select_CString( Character.IsPinned, 'Открепить', 'Закрепить' )]\\n#!Отслеживайте этого персонажа, закрепив [Character.GetHerHis] в планировщике в правой части экрана",
+    "POL": "#T [Select_CString( Character.IsPinned, 'Odepnij', 'Przypnij' )]\\n#!Śledź tę postać, przypinając ją do przybornika po prawej stronie ekranu",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_favorites",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Favorites",
+    "RUS": "Избранное",
+    "POL": "Ulubione",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_diplomacy",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Diplomacy",
+    "RUS": "Дипломатия",
+    "POL": "Dyplomacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_friendly",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Personal",
+    "RUS": "Личные",
+    "POL": "Osobiste działania",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_friendly_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Personal Interactions",
+    "RUS": "Личные взаимодействия",
+    "POL": "Osobiste interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_laamp",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Landless Adventurer",
+    "RUS": "Безземельный авантюрист",
+    "POL": "Poszukiwacz przygód bez ziemi",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_hostile",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Hostile",
+    "RUS": "Вражда",
+    "POL": "Wrogie działania",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]",
+    "RUS": "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]",
+    "POL": "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_governor",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[second.Custom('GetGovernorConceptNoTooltip')]",
+    "RUS": "[second.Custom('GetGovernorConceptNoTooltip')]",
+    "POL": "[second.Custom('GetGovernorConceptNoTooltip')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_vassal",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Vassal",
+    "RUS": "Вассал",
+    "POL": "Wasal",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_tributary",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Tributary",
+    "RUS": "Данник",
+    "POL": "Trybutariusz",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_liege",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Liege",
+    "RUS": "Сюзерен",
+    "POL": "Senior",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_suzerain",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Suzerain",
+    "RUS": "Повелитель",
+    "POL": "Suzeren",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_fellow_vassal",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Fellow Vassal",
+    "RUS": "Другой вассал",
+    "POL": "Współwasal",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_fellow_governor",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Fellow [second.Custom('GetGovernorConceptNoTooltip')]",
+    "RUS": "Другой [second.Custom('GetGovernorConceptNoTooltip')|l]",
+    "POL": "Współ[second.Custom('GetGovernorConceptNoTooltip')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_courtier",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Courtier",
+    "RUS": "Придворный",
+    "POL": "Dworzanin",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_vassal_fallback",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Realm & Court",
+    "RUS": "Двор и держава",
+    "POL": "Państwo i dwór",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_religion",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Religion",
+    "RUS": "Религия",
+    "POL": "Religia",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_house_head",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "House Head",
+    "RUS": "Глава дома",
+    "POL": "Głowa rodu",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_prison",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Prison",
+    "RUS": "Тюрьма",
+    "POL": "Więzienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_diarch",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[GetPlayer.Custom2('CharacterInteractionCategoryPowerSharing', CHARACTER.Self )]",
+    "RUS": "[GetPlayer.Custom2('CharacterInteractionCategoryPowerSharing', CHARACTER.Self )]",
+    "POL": "[GetPlayer.Custom2('CharacterInteractionCategoryPowerSharing', CHARACTER.Self )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_diarch_diarch",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[GetPlayer.GetDiarchTitle]",
+    "RUS": "[GetPlayer.GetDiarchTitle]",
+    "POL": "[GetPlayer.GetDiarchTitle]",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_diarch_fallback",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Power Sharing",
+    "RUS": "Разделение полномочий",
+    "POL": "Dzielenie władzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_succession",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Candidacy",
+    "RUS": "Кандидатура",
+    "POL": "Kandydatura",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_uncategorized",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Uncategorized #D (DEBUG)#!",
+    "RUS": "Без категории #D (DEBUG)#!",
+    "POL": "Nieskategoryzowane #D (DEBUG)#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "PRISON_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show all [prison|E] Interactions#!",
+    "RUS": "#T Показать все взаимодействия, связанные с [Concept('prison', 'тюрьмой')|E]#!",
+    "POL": "#T [prison|E] – wyświetl wszystkie interakcje#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_prison_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[prison|E] Interactions",
+    "RUS": "Взаимодействия, связанные с [Concept('prison', 'тюрьмой')|E]",
+    "POL": "[prison|E] – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "HOF_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show [head_of_faith|E] Interactions#!",
+    "RUS": "#T Показать взаимодействия, связанные с [Concept('head_of_faith', 'главой конфессии')|E]#!",
+    "POL": "#T [head_of_faith|E] – wyświetl interakcje#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "interaction_category_religion_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[head_of_faith|E] Interactions",
+    "RUS": "Взаимодействия, связанные с [Concept('head_of_faith', 'главой конфессии')|E]",
+    "POL": "[head_of_faith|E] – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADMIN_GOVERNMENT_LIEGE_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show [administrative_government|E] Interactions with your [liege|E]#!",
+    "RUS": "#T Показать [Concept('administrative_government', 'бюрократические')|E] взаимодействия с вашим [Concept('liege', 'сюзереном')|E]#!",
+    "POL": "#T Wyświetl interakcje [Concept('administrative_government', 'rządu administracyjnego')|E] z twoim [Concept('liege', 'seniorem')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADMIN_GOVERNMENT_HOUSE_HEAD_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show [administrative_government|E] Interactions with [house_heads|E]#!",
+    "RUS": "#T Показать [Concept('administrative_government', 'бюрократические')|E] взаимодействия с [Concept('house_heads', 'главами дома')|E]#!",
+    "POL": "#T Wyświetl interakcje [Concept('administrative_government', 'rządu administracyjnego')|E] z [Concept('house_heads', 'głowami rodów')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADMIN_GOVERNMENT_CEREMONIAL_LIEGE_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show [administrative_government|E] Interactions with your [ceremonial_liege|E]#!",
+    "RUS": "#T Показать [Concept('administrative_government', 'бюрократические')|E] взаимодействия с вашим [Concept('ceremonial_liege', 'церемониальным сюзереном')|E]#!",
+    "POL": "#T Wyświetl interakcje [Concept('administrative_government', 'rządu administracyjnego')|E] z twoim [Concept('ceremonial_liege', 'monarchą ceremonialnym')|E]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "ADMIN_GOVERNMENT_GOVERNOR_INTERACTIONS_BUTTON_TOOLTIP",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "#T Show [Character.Custom('GetGovernorConceptNoTooltip')] Interactions#!",
+    "RUS": "#T Показать взаимодействия ([Character.Custom('GetGovernorConceptNoTooltip')])#!",
+    "POL": "#T [Character.Custom('GetGovernorConceptNoTooltip')] – wyświetl interakcje#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "admin_liege_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Administrative Government Interactions",
+    "RUS": "Взаимодействия, связанные с бюрократическим правительством",
+    "POL": "Rząd administracyjny – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "admin_house_head_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[house_head|E] Interactions",
+    "RUS": "Взаимодействия, связанные с [Concept('house_head', 'главой дома')|E]",
+    "POL": "[house_head|E] – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "admin_governor_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[CHARACTER.Custom('GetGovernorConceptNoTooltip')] Interactions",
+    "RUS": "Взаимодействия ([CHARACTER.Custom('GetGovernorConceptNoTooltip')])",
+    "POL": "[CHARACTER.Custom('GetGovernorConceptNoTooltip')] – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "ceremonial_liege_filter_tag_desc",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "[ceremonial_liege|E] Interactions",
+    "RUS": "Взаимодействия, связанные с [Concept('ceremonial_liege', 'церемониальным сюзереном')|E]",
+    "POL": "[ceremonial_liege|E] – interakcje",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_SENDER",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Sender",
+    "RUS": "Отправитель",
+    "POL": "Nadawca",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_RECIPIENT",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Recipient",
+    "RUS": "Получатель",
+    "POL": "Odbiorca",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_SPOUSE",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Spouse",
+    "RUS": "Супруг",
+    "POL": "[Select_CString( Character.IsValid, Select_CString( Character.IsFemale, 'Małżonka', 'Małżonek' ), 'Małżonek' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_CONCUBINE",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "Concubine",
+    "RUS": "Наложница",
+    "POL": "Konkubina",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_SHOW_ACCEPT_EFFECTS",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "On Accept",
+    "RUS": "При согласии",
+    "POL": "Przy akceptacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "On Veto",
+    "RUS": "При вето",
+    "POL": "Przy wecie",
+    "BEL": ""
+  },
+  {
+    "KEY": "INTERACTION_SHOW_DECLINE_EFFECTS",
+    "FILE_PATH": "localization/belarusian/gui/characterinteractionwindow_l_belarusian.json",
+    "ENG": "On Decline",
+    "RUS": "При отказе",
+    "POL": "Przy odrzuceniu",
+    "BEL": ""
+  }
+]

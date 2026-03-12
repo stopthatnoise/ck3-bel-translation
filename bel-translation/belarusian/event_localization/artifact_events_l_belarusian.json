@@ -1,0 +1,1594 @@
+[
+  {
+    "KEY": "test_artifact_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] Artifact",
+    "RUS": "Артефакт, которым владеет [ROOT.Char.GetTitledFirstNameNoTooltip]",
+    "POL": "[Select_CString( ROOT.Char.IsLocalPlayer, 'Twój artefakt', Concatenate('Artefakt postaci ', ROOT.Char.GetTitledFirstNameNoTooltip))]",
+    "BEL": ""
+  },
+  {
+    "KEY": "test_artifact_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "This artifact is inscribed with the [ROOT.Char.GetDynasty.GetName] heraldic crest.",
+    "RUS": "Этот артефакт отмечен гербом династии [ROOT.Char.GetDynasty.GetName].",
+    "POL": "Na tym artefakcie znajduje się herb dynastii [ROOT.Char.GetDynasty.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "debug_test_artifact_cloth_option",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "So soft! So smooth!",
+    "RUS": "Какая мягкость! Какая гладкость!",
+    "POL": "Takie delikatne! Takie gładkie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_lost_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Lost",
+    "RUS": "Артефакт утрачен",
+    "POL": "Utracono artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_lost_in_siege",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[SAISE_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in the siege of [SAISE_location.GetNameNoTooltip]",
+    "RUS": "Воспользовавшись осадой города [SAISE_location.GetNameNoTooltip], [SAISE_attacker.GetShortUINameNoTooltip] [Select_CString(SAISE_attacker.IsFemale, 'украла', 'украл' )] ценный артефакт: [SAISE_artifact.GetName]",
+    "POL": "[SAISE_attacker.GetShortUINameNotMeNoTooltip] ukradł[Select_CString( SAISE_attacker.IsFemale, 'a', '' )] artefakt [SAISE_artifact.GetName] podczas oblężenia miejsca znanego jako [SAISE_location.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_lost_in_raid",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[SAISE_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in [SAISE_attacker.GetHerHis] raid on [SAISE_location.GetNameNoTooltip]",
+    "RUS": "Во время набега на город [SAISE_location.GetNameNoTooltip], [SAISE_attacker.GetShortUINameNoTooltip] [Select_CString(SAISE_attacker.IsFemale, 'украла', 'украл' )] ценный артефакт: [SAISE_artifact.GetName]",
+    "POL": "[SAISE_attacker.GetShortUINameNotMeNoTooltip] ukradł[Select_CString( SAISE_attacker.IsFemale, 'a', '' )] artefakt [SAISE_artifact.GetName] podczas prowadzonego najazdu na ziemie miejsca znanego jako [SAISE_location.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_seized_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Seized",
+    "RUS": "Артефакт захвачен",
+    "POL": "Zdobyto artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_seized_in_siege",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I seized [SAISE_artifact.GetName] after the siege of [SAISE_location.GetNameNoTooltip]",
+    "RUS": "После осады города [SAISE_location.GetNameNoTooltip] мне удалось захватить ценный артефакт: [SAISE_artifact.GetName]",
+    "POL": "Zdobył[Select_CString( GetPlayer.IsFemale, 'am', 'em' )] artefakt [SAISE_artifact.GetName] po oblężeniu miejsca znanego jako [SAISE_location.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_seized_in_raid",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I seized [SAISE_artifact.GetName] in my raid on [SAISE_location.GetNameNoTooltip]",
+    "RUS": "Во время набега на город [SAISE_location.GetNameNoTooltip] мне удалось захватить ценный артефакт: [SAISE_artifact.GetName]",
+    "POL": "Zdobył[Select_CString( GetPlayer.IsFemale, 'am', 'em' )] artefakt [SAISE_artifact.GetName] w następstwie prowadzonego najazdu na miejsce znane jako [SAISE_location.GetTitle.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_damaged_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Damaged",
+    "RUS": "Артефакт поврежден",
+    "POL": "Uszkodzono artefakt",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_damaged_in_siege",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My [DAIBE_artifact.GetName] took [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] damage in the siege of [DAIBE_location.GetNameNoTooltip]",
+    "RUS": "Во время осады города [DAIBE_location.GetNameNoTooltip] мой артефакт [DAIBE_artifact.GetName] получил [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] ед. урона",
+    "POL": "Mój artefakt [DAIBE_artifact.GetName] otrzymał [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] obrażeń podczas oblężenia miejsca znanego jako [DAIBE_location.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_damaged_in_duel",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My [DAIBE_artifact.GetName] took [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] damage in my duel with [DAIBE_opponent.GetShortUINameNoTooltip]",
+    "RUS": "Я и [DAIBE_opponent.GetShortUINameNoTooltip] дрались на дуэли, и мой артефакт [DAIBE_artifact.GetName] получил [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] ед. урона",
+    "POL": "Mój artefakt [DAIBE_artifact.GetName] otrzymał [DAIBE_artifact.MakeScope.Var('DAIBE_damage').GetValue|V0] obrażeń, podczas gdy ja i [DAIBE_opponent.GetShortUINameNotMeNoTooltip] ścieraliśmy się w pojedynku",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_claim_gained_notification",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Gained Artifact Claim",
+    "RUS": "Получена претензия на артефакт",
+    "POL": "Zyskano roszczenie do artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_claim_lost_notification",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Lost Artifact Claim",
+    "RUS": "Потеряна претензия на артефакт",
+    "POL": "Utracono roszczenie do artefaktu",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('InventoryCourtArtifact')] Lost!",
+    "RUS": "Потерян артефакт: [this_artifact.Custom('InventoryCourtArtifact')]!",
+    "POL": "Utracono [this_artifact.Custom('InventoryCourtArtifact')|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0011.tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You lost [this_artifact.GetName] to [owner.GetTitledFirstNameNoTooltip]",
+    "RUS": "Вы утратили артефакт [this_artifact.GetName], и он достался персонажу [owner.GetTitledFirstNameNoTooltip]",
+    "POL": "Utracił[Select_CString( GetPlayer.IsFemale, 'aś', 'eś' )] artefakt [this_artifact.GetName] na rzecz [owner.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0012.t_1",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Gained!",
+    "RUS": "Получен артефакт!",
+    "POL": "Zdobyto artefakt!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0012.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifacts Gained!",
+    "RUS": "Получены артефакты!",
+    "POL": "Zdobyto artefakty!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0012.tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You acquired [this_artifact.GetName] from [old_owner.GetTitledFirstNameNoTooltip]",
+    "RUS": "Вы получили артефакт [this_artifact.GetName] от персонажа [old_owner.GetTitledFirstNameNoTooltip]",
+    "POL": "[Select_CString( GetPlayer.IsFemale, 'Otrzymałaś', 'Otrzymałeś' )] artefakt [this_artifact.GetName] od postaci [old_owner.GetTitledFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_artifact_gained_acquired_desc_1",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You acquired [PlayerMessageItem.GetRightArtifact.GetName]",
+    "RUS": "Вы получили артефакт: [PlayerMessageItem.GetRightArtifact.GetName]",
+    "POL": "Zyskujesz artefakt: [PlayerMessageItem.GetRightArtifact.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_artifact_gained_acquired_desc_2",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You acquired [PlayerMessageItem.GetRightArtifact.GetName] and [PlayerMessageItem.GetLeftArtifact.GetName]",
+    "RUS": "Вы получили артефакты: [PlayerMessageItem.GetRightArtifact.GetName] и [PlayerMessageItem.GetLeftArtifact.GetName]",
+    "POL": "Zyskujesz artefakty: [PlayerMessageItem.GetRightArtifact.GetName|l] i [PlayerMessageItem.GetLeftArtifact.GetName|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_artifact_gained_acquired_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You acquired [PlayerMessageItem.GetRightArtifact.GetName], [PlayerMessageItem.GetLeftArtifact.GetName], and $msg_artifact_gained_desc_others$",
+    "RUS": "Вы получили артефакты: [PlayerMessageItem.GetRightArtifact.GetName], [PlayerMessageItem.GetLeftArtifact.GetName] и $msg_artifact_gained_desc_others$",
+    "POL": "Zyskujesz artefakty: [PlayerMessageItem.GetRightArtifact.GetName|l], [PlayerMessageItem.GetLeftArtifact.GetName|l] i $msg_artifact_gained_desc_others$",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_artifact_gained_desc_others",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "#tooltip:message_consolidation_names #L more#!#!",
+    "RUS": "#tooltip:message_consolidation_names #L еще#!#!",
+    "POL": "#tooltip:message_consolidation_names #L więcej#!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.0021.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('InventoryCourtArtifact')] Destroyed!",
+    "RUS": "Артефакт [this_artifact.Custom('InventoryCourtArtifact')] уничтожен!",
+    "POL": "[this_artifact.Custom('InventoryCourtArtifact')] został zniszczony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Ashes to Ashes, Rust to...?",
+    "RUS": "Прах праху, а ржавчина?..",
+    "POL": "Z prochu powstałeś, w rdzę…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My antiquarian [antiquarian.GetTitledFirstName] approaches me, holding my [this_artifact.GetName] in [antiquarian.GetHerHis] hands.",
+    "RUS": "Ко мне приближается мой антиквар [antiquarian.GetTitledFirstName], и в руках у н[antiquarian.GetHerHis] [this_artifact.GetName].",
+    "POL": "M[Select_CString( antiquarian.IsFemale, 'oja antykwariuszka', 'ój antykwariusz' )] [antiquarian.GetTitledFirstName] podchodzi do mnie, trzymając w swoich dłoniach mój artefakt ([this_artifact.GetName]).",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.servant",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "One of my servants approaches me, holding my [this_artifact.GetName] in [dummy_servant_gender.GetHerHis] hands.",
+    "RUS": "Слуга приносит мне артефакт. Это [this_artifact.GetName].",
+    "POL": "Jed[Select_CString( dummy_servant_gender.IsFemale, 'na', 'en' )] z moich służących podchodzi do mnie, trzymając w swoich dłoniach mój artefakt ([this_artifact.GetName]).",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.weapon",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Ваша милость, мы убирались в оружейной и обнаружили кучу ржавчины. Кажется, это [SCOPE.Custom('ThisArtifactType')], но в ужасном состоянии. Что прикажете делать?»\\n\\nЯ размышляю. Конечно, [SCOPE.Custom('ThisArtifactType')] уже вряд ли послужит мне в бою. И все же артефакт можно очистить и выставить на почетном месте. Придется уплатить лишь его себестоимость.",
+    "POL": "\\n\\n– Wasza wysokość, podczas czyszczenia zbrojowni rzuciło mi się w oczy, że [SCOPE.Custom('ThisArtifactType')] doszczętnie rdzewieje. Co powinniśmy z tym zrobić?\\n\\nPrzyglądam się dokładnie temu przedmiotowi. Przekucie go nie sprawi, że będzie znów nadawać się do walki. Mimo to artefakt można niewielkim kosztem oczyścić i wystawić na widok w jakimś ładnym miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.other",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Ваша милость, мы убирались в кладовой и обнаружили, что [SCOPE.Custom('ThisArtifactType')] вот-вот развалится. Что прикажете делать?»\\n\\nЯ размышляю. Конечно, [SCOPE.Custom('ThisArtifactType')] у меня так давно, что залатать артефакт вряд ли получится. И все же его можно почистить и выставить на почетном месте. Придется уплатить лишь его себестоимость.",
+    "POL": "\\n\\n– Wasza wysokość, podczas porządkowania magazynu rzuciło mi się w oczy, że [SCOPE.Custom('ThisArtifactType')] ma już swoje lata i praktycznie się rozpada! Co powinniśmy z tym zrobić?\\n\\nPrzyglądam się dokładnie temu przedmiotowi. Przekucie go nie sprawi, że będzie znów nadawać się do noszenia. Mimo to artefakt można niewielkim kosztem oczyścić i wystawić na widok w jakimś ładnym miejscu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A worthwhile endeavor.",
+    "RUS": "Стоящее предприятие.",
+    "POL": "Opłacalne przedsięwzięcie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.a.tt.free",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "#instruction This [artifact|E] can be converted for free!#!",
+    "RUS": "#instruction Этот [artifact|El] можно изменить бесплатно!#!",
+    "POL": "#instruction Ten [artifact|El] może być przekształcony za darmo!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetName] is converted into a [court_artifact|E] giving only [grandeur|E] and [prestige|E]",
+    "RUS": "[this_artifact.GetName] становится [Concept( 'court_artifact', 'придворным артефактом' )|E] и предоставляет только [Concept( 'grandeur', 'величие' )|E] и [Concept( 'prestige', 'престиж' )|E]",
+    "POL": "Artefakt [this_artifact.GetName] zostaje przekształcony w [court_artifact|El] zapewniający tylko [grandeur|El] i [prestige|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "No, it's too expensive.",
+    "RUS": "Нет, слишком дорого.",
+    "POL": "Nie, to zbyt drogie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "manhunter",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "#EMP ",
+    "RUS": "#EMP «Преследователь»#!",
+    "POL": "#EMP „Łowca”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "heartseeker",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "#EMP ",
+    "RUS": "#EMP «Сердцеед»#!",
+    "POL": "#EMP „Pożeracz serc”#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.kills_none",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving never been used in combat, this weapon only serves as an ornament to hang on some lordling's wall.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nЭто оружие никогда не было в бою и служит лишь украшением стены мелкого дворянина.",
+    "POL": "[this_artifact.GetDesc]\\n\\nBroń ta, nigdy nie użyta w walce, służy jedynie jako ozdoba, którą można powiesić na ścianie jakiegoś lorda.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.kills_one",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving once been used to slay a foe in battle, this weapon has proven its worth enough to display in a ruler's hall.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nЭто оружие отведало вражеской крови и доказало, что достойно украшать чертог правителя.",
+    "POL": "[this_artifact.GetDesc]\\n\\nUżyta niegdyś do zabicia przeciwnika w bitwie, broń ta udowodniła swoją wartość na tyle, by wystawić ją w sali władcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.kills_some",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving slain [ROOT.Var('num_kills').GetValue|V0] foes in battle, this weapon has earned its place in the hall of a great warrior or other ruler.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nЭто оружие побывало в боях, и отнятых жизней на его счету — [ROOT.Var('num_kills').GetValue|V0]. Оно заслужило свое место в чертоге великого воина или другого правителя.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPo zabiciu [ROOT.Var('num_kills').GetValue|V0] wrogów, ta broń zasłużyła na miejsce w sali wielkiego wojownika lub innego władcy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.kills_many",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nWhile no longer battle-worthy, the [ROOT.Var('num_kills').GetValue|V0] lives this weapon has claimed have made it a symbol of martial prowess, fit to display in the hall of a great warrior.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nКонечно, время сражений для этого оружия давно прошло, но отнятых жизней на его счету — [ROOT.Var('num_kills').GetValue|V0]. Оно превратилось в символ боевой мощи и ныне выставлено в чертоге великого воина.",
+    "POL": "[this_artifact.GetDesc]\\n\\nChoć nie jest już zdolna do walki, [ROOT.Var('num_kills').GetValue|V0] życia, które pochłonęła ta broń, sprawiło, że stała się symbolem sprawności bojowej, nadającym się do wystawienia w sali wielkiego wojownika.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.1001.desc.kills_tons",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nWhile no longer battle-worthy, the [ROOT.Var('num_kills').GetValue|V0] lives this weapon has claimed make it a legendary symbol of martial prowess, striking awe or fear into all who gaze upon it.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nКонечно, время сражений для этого оружия давно прошло, но отнятых жизней на его счету — [ROOT.Var('num_kills').GetValue|V0]. Оно превратилось в легенду, воплощение боевой мощи, вселяющее трепет или страх одним своим видом.",
+    "POL": "[this_artifact.GetDesc]\\n\\nChoć nie jest już zdolna do walki, [ROOT.Var('num_kills').GetValue|V0] życia, które pochłonęła ta broń, czynią z niej legendarny symbol sprawności bojowej, wzbudzający respekt lub strach u wszystkich, którzy na nią spojrzą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact: Reuse",
+    "RUS": "Испорченный артефакт: Новая жизнь",
+    "POL": "Rozpadający się artefakt: ponowne wykorzystanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.desc.armorer_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My $armorer_camp_officer$, [antiquarian.GetTitledFirstName], approaches me with a worried expression on [antiquarian.GetHerHis] face.\\n\\n",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя', 'Мой' )] $armorer_camp_officer$ [antiquarian.GetTitledFirstName] подходит ко мне с выражением озабоченности на лице.\\n\\n«[ROOT.GetCharacter.GetLadyLord|U], меня все больше волнует то, в каком состоянии находится [this_artifact.GetName]. Там все держится на честном слове!»",
+    "POL": "Mój zbrojmistrz, [antiquarian.GetTitledFirstName], podchodzi do mnie z zatroskanym wyrazem twarzy.\\n\\n– Wasza czcigodność, coraz bardziej martwię się o należący do waszej czcigodności artefakt. [this_artifact.GetName|U] to obecnie obraz nędzy i rozpaczy i obawiam się, że ten skarb lada moment może się rozpaść.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My $antiquarian_court_position$, [antiquarian.GetTitledFirstName], approaches me with a worried expression on [antiquarian.GetHerHis] face.\\n\\n",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя', 'Мой' )] $antiquarian_court_position$ [antiquarian.GetTitledFirstName] подходит ко мне с выражением озабоченности на лице.\\n\\n«[ROOT.GetCharacter.GetLadyLord|U], меня все больше волнует то, в каком состоянии находится [this_artifact.GetName]. Там все держится на честном слове!»",
+    "POL": "Mój antykwariusz, [antiquarian.GetTitledFirstName], podchodzi do mnie z zatroskanym wyrazem twarzy.\\n\\n– Wasza czcigodność, coraz bardziej martwię się o należący do waszej czcigodności artefakt. [this_artifact.GetName|U] to obecnie obraz nędzy i rozpaczy i obawiam się, że ten skarb lada moment może się rozpaść.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.desc.antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Для восстановления уже слишком поздно, но, возможно, еще не все потеряно. Если позволите, я могу разобрать артефакт на части, которые затем можно будет использовать при создании нового артефакта!»",
+    "POL": "\\n\\n„Obawiam się, że może być za późno na renowację, ale nie wszystko jest stracone. Jeśli pozwolisz, mogę go rozłożyć na przydatne części, które będzie można wykorzystać przy tworzeniu przyszłego artefaktu!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A servant approaches me with a guilty expression on [dummy_servant_gender.GetHerHis] face and something hidden behind [dummy_servant_gender.GetHerHis] back.\\n\\n",
+    "RUS": "Ко мне с виноватым видом подходит слуга, пряча что-то у себя за спиной.\\n\\n«[ROOT.GetCharacter.GetLadyLord|U], во время чистки ваших артефактов мне бросилось в глаза то, в насколько плачевном состоянии находится [this_artifact.GetName]».",
+    "POL": "Podchodzi do mnie sługa z poczuciem winy na twarzy i czymś ukrytym za plecami.\\n\\n„[Select_CString(ROOT.GetCharacter.IsFemale, 'Moja pani', 'Mój panie')], jak zawsze czyścił[Select_CString(dummy_servant_gender.IsFemale, 'am', 'em')] twoją kolekcję i zauważył[Select_CString(dummy_servant_gender.IsFemale, 'am', 'em')], że jeden z twoich artefaktów – [this_artifact.GetName] – jest w stanie kompletnej ruiny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.desc.servant",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Вряд ли получится вернуть артефакту былую славу без специалиста, но можно сохранить его остатки и потом использовать для создания нового артефакта...»",
+    "POL": "„Bez fachowca na dworze przywrócenie mu dawnej świetności może okazać się niemożliwe, nie mniej jednak równie dobrze możemy zachować jego fragmenty do ponownego wykorzystania w nowym artefakcie…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It pains me, but do proceed.",
+    "RUS": "Прискорбно, но приступайте.",
+    "POL": "Jest to dla mnie bolesne, ale zrób to. ",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It can still be saved!",
+    "RUS": "Все еще можно исправить!",
+    "POL": "Można go jeszcze uratować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3000.c",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I bet it was #EMP you#! who broke it!",
+    "RUS": "Наверняка это #EMP вы#! сломали артефакт!",
+    "POL": "Założę się, że to przez #EMP ciebie#! jest teraz zniszczony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Inspiration: Reuse",
+    "RUS": "Вдохновение: Повторное использование",
+    "POL": "Inspiracja: ponowne wykorzystanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It is with a spring in [inspiration_owner.GetHerHis] step that [inspiration_owner.GetFirstName] approaches me today.\\n\\n",
+    "RUS": "Ко мне подходит [inspiration_owner.GetFirstName], всем своим видом излучая вдохновение.\\n\\n«[ROOT.GetCharacter.GetLadyLord|U]! В поисках вдохновения я [Select_CString(inspiration_owner.IsFemale, 'копалась', 'копался' )] в ненужных вещах и сломанных безделушках, запрятанных в чулан, и вдруг мне попалось настоящее сокровище. Похоже, вы сохранили части сломанного артефакта на будущее... и это будущее наступило сегодня!\\n\\nС помощью этих запасных частей я смогу вернуть вам часть золота, отложенного на покупку материалов для проекта, без потери качества!»",
+    "POL": "[inspiration_owner.GetFirstName] z zapałem podchodzi dziś do mnie.\\n\\n„[Select_CString(ROOT.GetCharacter.IsFemale, 'Moja pani', 'Mój panie')]! Grzebał[Select_CString(inspiration_owner.IsFemale, 'am', 'em')] wśród porzuconych przedmiotów i zepsutych drobiazgów w waszych składnicach w poszukiwaniu inspiracji, kiedy natrafiłem na nieoczekiwany skarb. Wygląda na to, że zostawił[Select_CString(ROOT.GetCharacter.IsFemale, 'aś', 'eś')] w magazynie trochę zapasowych materiałów z rozebranego artefaktu do wykorzystania w przyszłości… Cóż, ta przyszłość nadeszła właśnie dziś!\\n\\nJeśli użył[Select_CString(inspiration_owner.IsFemale, 'a', '')]bym tych elementów do realizacji mojego projektu, nie ucierpiałaby na tym jakość, a ja mógł[Select_CString(inspiration_owner.IsFemale, 'a', '')]bym zwrócić ci część złota, które przeznaczył[Select_CString(ROOT.GetCharacter.IsFemale, 'aś', 'eś')] na zakup materiałów!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "This is excellent news!",
+    "RUS": "Отличные новости!",
+    "POL": "To wspaniała wiadomość!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact: Sell",
+    "RUS": "Испорченный артефакт: Продажа",
+    "POL": "Rozpadający się artefakt: sprzedaż",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.desc.antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Возможно, барахольщику будет интересно купить части артефакта за приемлемую цену...»",
+    "POL": "\\n\\n„Być może jakiś handlarz złomem byłby zainteresowany kupnem części za adekwatną cenę…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.desc.servant",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Артефакт бесполезен, его почти не узнать! С тем же успехом его можно продать барахольщику и выручить на этом несколько золотых...»",
+    "POL": "\\n\\n„Jest teraz całkowicie bezużyteczny i nierozpoznawalny! Równie dobrze możesz go sprzedać kolekcjonerowi złomu i zarobić na nim kilka złotych monet…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Fine, I didn't need it anyway.",
+    "RUS": "Хорошо, все равно эта вещь мне не нужна.",
+    "POL": "Dobrze, i tak nie było mi to potrzebne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip|U] is sold to the merchant and lost forever.",
+    "RUS": "Артефакт [this_artifact.GetNameNoTooltip|U] продан торговцу и потерян навеки.",
+    "POL": "Artefakt [this_artifact.GetNameNoTooltip|U] zostanie sprzedany kupcowi i stracony na zawsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3010.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "That artifact is #EMP MINE!#!",
+    "RUS": "Это #EMP МОЙ#! артефакт!",
+    "POL": "Ten artefakt należy do #EMP MNIE!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact: Adapt",
+    "RUS": "Испорченный артефакт: Приспособление",
+    "POL": "Rozpadający się artefakt: adaptacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Нам никогда не удастся вернуть артефакт в его прежнее состояние, но, если позволите, я могу спасти хотя бы часть его былой славы! Все же этот артефакт долгое время был символом вашего могущества...»",
+    "POL": "\\n\\n„Być może nigdy nie odzyska swojego pierwotnego zastosowania, ale jeśli pozwolisz, mogę przynajmniej ocalić jego część jako pamiątkę minionej chwały! W końcu przez pewien czas ten artefakt był potężnym symbolem twojej władzy…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "At least it's still good for something...",
+    "RUS": "По крайней мере, он до сих пор на что-то годится...",
+    "POL": "Przynajmniej do czegoś się jeszcze nadaje…",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3020.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Just do your job and repair it!",
+    "RUS": "Просто делайте свою работу и почините его!",
+    "POL": "Po prostu rób swoje i napraw to!",
+    "BEL": ""
+  },
+  {
+    "KEY": "keepsake_trinket_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Keepsake of [this_artifact.GetNameNoTooltip]",
+    "RUS": "Сувенир от артефакта [this_artifact.GetNameNoTooltip]",
+    "POL": "Pamiątka po artefakcie ([this_artifact.GetNameNoTooltip])",
+    "BEL": ""
+  },
+  {
+    "KEY": "keepsake_trinket_description",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A fragment of the lost [this_artifact.GetNameNoTooltip], salvaged for [owner.GetTitledFirstNameNoTooltip] by [owner.GetHerHis] $antiquarian_court_position$ as a keepsake.",
+    "RUS": "Фрагмент разрушенного артефакта [this_artifact.GetNameNoTooltip], который [owner.GetTitledFirstNameNoTooltip] может хранить как память, благодаря стараниям, что проявил [owner.GetHerHis] $antiquarian_court_position$.",
+    "POL": "Fragment utraconego artefaktu ([this_artifact.GetNameNoTooltip]), który [owner.GetTitledFirstNameNoTooltip] może zachować na pamiątkę, dzięki pracy [owner.GetHerHis] antykwariusza.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact: Preserve",
+    "RUS": "Испорченный артефакт: Сохранение",
+    "POL": "Rozpadający się artefakt: konserwacja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«У меня есть мысль, как спасти артефакт. Недавно мне повезло выиграть в кости старинный свиток у одного подозрительного типа на ярмарке. Это большая удача, поскольку содержимое свитка подстегнуло мой зарождающийся интерес к алхимии! В нем описывается тайное зелье, с помощью которого #EMP любой артефакт#! можно сделать лучше прежнего. Прошу вас, давайте опробуем его!»",
+    "POL": "\\n\\n„Aby go uratować, mam pewną propozycję. Niedawno pogrywał[Select_CString( antiquarian.IsFemale, 'a', 'e' )]m w kości i wygrał[Select_CString( antiquarian.IsFemale, 'a', 'e' )]m zakurzony zwój od szemranej postaci na objazdowym jarmarku – bardzo szczęśliwy interes, gdyż jego treść dobrze wpasowała się w moje pączkujące zainteresowania alchemią! Stary zwój opisuje sekretną miksturę, która z pewnością uczyni #EMP dowolny artefakt#! jeszcze lepszym niż nowy. Proszę, pozwól mi go wypróbować!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Sure, it can't get any worse than this...",
+    "RUS": "Вряд ли от этого станет хуже...",
+    "POL": "Jasne, gorzej już być nie może…",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "You are #EMP not#! touching it with that concoction!",
+    "RUS": "Вы #EMP не#! коснетесь артефакта своим зельем!",
+    "POL": "#EMP Nie#! próbuj nawet stosować na mój artefakt tej mikstury!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.bigsuccess",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The artifact is cleaner and stronger than ever",
+    "RUS": "Артефакт стал чище и прочнее, чем когда-либо",
+    "POL": "Artefakt jest czystszy i solidniejszy niż kiedykolwiek",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.bigsuccess.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Restored and Improved",
+    "RUS": "Артефакт восстановлен и улучшен",
+    "POL": "Artefakt odnowiony i ulepszony",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The artifact is repaired",
+    "RUS": "Артефакт восстановлен",
+    "POL": "Artefakt zostaje naprawiony",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.success.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Repaired",
+    "RUS": "Артефакт восстановлен",
+    "POL": "Artefakt naprawiony",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The treatment is unsuccessful",
+    "RUS": "Лечение было неуспешным",
+    "POL": "Naprawa zakończona niepowodzeniem",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.failure.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Useless Treatment",
+    "RUS": "Бесполезная работа",
+    "POL": "Nieudana naprawa",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.bigfailure",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The artifact is destroyed",
+    "RUS": "Артефакт разрушен",
+    "POL": "Artefakt został zniszczony",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3030.a.bigfailure.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Artifact Destroyed!",
+    "RUS": "Артефакт уничтожен!",
+    "POL": "Artefakt zniszczony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact: An Offer",
+    "RUS": "Испорченный артефакт: Предложение",
+    "POL": "Rozpadający się artefakt: oferta",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.desc.antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "Ко мне подходят $antiquarian_court_position$ [antiquarian.GetTitledFirstName] и [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)].\\n\\n«[ROOT.GetCharacter.GetLadyLord|U], мне стало известно, что ваш артефакт, [this_artifact.GetName], находится в плачевном состоянии... Несмотря на все мои старания, я не могу сохранить его без соответствующих расходов!\\n\\nТем не менее мне удалось найти способ обойтись без них. [vassal.GetTitledFirstNameNoTooltip|U] предлагает помочь с расходами в обмен на символическую благодарность».",
+    "POL": "M[Select_CString( antiquarian.IsFemale, 'oja antykwariusza', 'ój antykwariusz' )] [antiquarian.GetTitledFirstName] oraz [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] podchodzą do mnie.\\n\\n„M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], zwrócono mi uwagę, że twój artefakt – [this_artifact.GetName] – jest w fatalnym stanie… Pomimo moich najlepszych starań, bez odpowiednich funduszy nie mogę zrobić nic więcej, aby go należycie zabezpieczyć przed dalszym rozpadem!”\\n\\n„Niemniej jednak znalazł[Select_CString( antiquarian.IsFemale, 'a', 'e' )]m możliwe rozwiązanie, które nieco odciąży twój budżet. [vassal.GetTitledFirstNameNoTooltip|U] zaoferował[Select_CString( vassal.IsFemale, 'a', '' )] się wziąć na swoje barki te wydatki w zamian za zwykły dowód twojej wdzięczności”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.desc.no_antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with such a falsely contrite expression that I already fear [vassal.GetHerHis] next words.\\n\\n",
+    "RUS": "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] подходит ко мне с настолько фальшивым сочувствием, что я начинаю заранее опасаться [vassal.GetHerHis] слов.\\n\\n«[ROOT.GetCharacter.GetLadyLord|U], как же #EMP прискорбно#!, что такое сокровище, как [this_artifact.GetName], лежит всеми забытое и покрывается пылью! Позвольте мне оплатить его восстановление... в обмен на небольшое одолжение».",
+    "POL": "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] podchodzi do mnie z tak fałszywie skruszonym wyrazem twarzy, że już obawiam się [vassal.GetHerHis] kolejnych słów.\\n\\n„M[Select_CString( ROOT.Char.IsFemale, 'oja pani', 'ój panie' )], to absolutna #EMP szkoda#!, że tak cenne skarby jak twój artefakt ([this_artifact.GetName]) leżą zapomniane i porzucone na pastwę losu! Proszę, pozwól mi zapłacić za jego renowację – w zamian za drobną przysługę”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I knew there was a catch... But fine!",
+    "RUS": "Не зря мне мерещился подвох... Но так и быть!",
+    "POL": "Wiedział[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m, że jest jakiś haczyk… Ale w porządku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "We'll call it even then.",
+    "RUS": "Будем считать, что мы в расчете.",
+    "POL": "Załóżmy, że jesteśmy kwita.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3040.c",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I have no need for your help.",
+    "RUS": "Мне не нужна ваша помощь.",
+    "POL": "Nie potrzebuję twojej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3050.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Degraded Artifact!",
+    "RUS": "Испорченный артефакт!",
+    "POL": "Rozpadający się artefakt!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.3050.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A high-quality artifact in your possession – [this_artifact.GetName] – is approaching #N 0#! [durability|E] and might get destroyed!",
+    "RUS": "Принадлежащий вам высококачественный артефакт — [this_artifact.GetName] — приближается к #N нулевой#! [Concept( 'durability', 'прочности' )|E] и может разрушиться!",
+    "POL": "[durability|E] znajdującego się w twoim posiadaniu artefaktu wysokiej jakości ([this_artifact.GetName]) zbliża się do #N 0#!. Przedmiot może ulec zniszczeniu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Cursed Rumors",
+    "RUS": "Проклятые слухи",
+    "POL": "Przeklęte plotki",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My $antiquarian_court_position$ [antiquarian.GetTitledFirstName] has been looking concerned for some days when [antiquarian.GetSheHe] finally approaches me.\\n\\n",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя', 'Мой' )] $antiquarian_court_position$ [antiquarian.GetTitledFirstName] уже давно проявляет беспокойство и сегодня наконец решает обратиться ко мне.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], у меня тревожные известия об одном из ваших ценных артефактов. По залам распространяются слухи, как среди гостей, так и среди свиты, и в центре слухов находится [this_artifact.GetName]… Похоже, многие считают, что артефакт #EMP проклят!#! В слухах говорится, что",
+    "POL": "[antiquarian.GetTitledFirstName], czyli antykwariusz na moich usługach, od kilku dni zdaje się czymś martwić. W końcu decyduje się do mnie podejść.\\n\\n– Wasza czcigodność, mam niepokojące wieści na temat jednego z twoich cennych artefaktów. [this_artifact.GetName|U] to obecnie temat wielu dyskusji. Krążą plotki dotyczące tego przedmiotu, a goście i świta patrzą na niego ze strachem i podejrzliwością… Uważają, że jest on #EMP przeklęty!#! Jak głoszą plotki,",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "In the past few days, I couldn't help but notice that my household has been more abuzz with rumors than usual, although all voices quieten when I enter the room.\\n\\nWhen I finally manage to catch a servant to ask for an explanation, [dummy_servant_gender.GetHerHis] reply is: ",
+    "RUS": "От меня не укрылось, что в последние дни в моей резиденции бродит больше слухов, чем обычно. Но стоит мне войти в помещение, как все тут же умолкают.\\n\\nКогда мне наконец-то удалось изловить слугу и потребовать объяснений, [dummy_servant_gender.GetHerHis] ответ звучал так: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], разве вы не знали? Это всё [this_artifact.GetName]! Все знают, что артефакт #EMP проклят!#! И что",
+    "POL": "W ciągu ostatnich kilku dni nie uszło mojej uwadze, że moje domostwo bardziej niż zwykle huczy od plotek, choć wszystkie głosy cichną, gdy wchodzę do pomieszczenia.\\n\\nKiedy w końcu udaje mi się złapać jednego ze służących, by domagać się wyjaśnienia, jego odpowiedź brzmi:\\n\\n– To [ROOT.Char.Custom('FormOfAddressForLiege')] nie wie? [this_artifact.GetName|U] – o to całe zamieszanie! Wszyscy wiedzą, że to przedmiot #EMP przeklęty!#! To jasne, że",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.stolen",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "no one can really own it, for it's fated to be stolen and cause perpetual strife!",
+    "RUS": "никто не может владеть им, потому что по воле судьбы артефакт всегда будут красть и он будет сеять распри!",
+    "POL": "nikt nie może go posiąść na własność, albowiem jest skazany na kradzież i wieczne spory!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.assassinated",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "it brings great misfortune and a violent death to whoever owns it!",
+    "RUS": "он приносит несчастье и жестокую смерть своим владельцам!",
+    "POL": "przynosi on wielkie nieszczęście i gwałtowną śmierć temu, kto go posiada!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.ghost",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "it is inhabited by the angry spirit of the dead!",
+    "RUS": "в нем живет злобный дух покойника!",
+    "POL": "zamieszkuje go złowrogo nastawiony duch zmarłego!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.fallback",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "it is infused with the insidious power of [ROOT.Char.GetFaith.DevilName]!",
+    "RUS": "в нем скрыты темные силы, источником которых является [ROOT.Char.GetFaith.DevilName]!",
+    "POL": "jest przesiąknięty podstępną mocą [ROOT.Char.GetFaith.DevilNamePossessive]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.desc.end",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Возможно, вмешательство святого или святой поможет всех успокоить...»",
+    "POL": "\\n\\n„Być może interwencja świętego mężczyzny lub kobiety mogłaby uspokoić wszystkich…”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.cursed_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Cursed [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] с проклятьем",
+    "POL": "Przeklęty artefakt ([this_artifact.GetNameNoTooltip])",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.cursed_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nNobles and peasants alike fall silent or call on divine protection in the presence of this item, which is famed to be cursed.",
+    "RUS": "[this_artifact.GetDesc]\\n\\n И знать, и простой люд замолкают или начинают молить высшие силы о защите, едва завидев этот артефакт, который считается проклятым.",
+    "POL": "[this_artifact.GetDesc]\\n\\nZarówno szlachta jak i chłopi milkną lub wzywają boskiej ochrony w obecności tego przedmiotu, który jest znany jako przeklęty.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Send for this person immediately!",
+    "RUS": "Немедленно отыщите такого человека!",
+    "POL": "Natychmiast znajdźcie taką osobę!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Let everyone cower in fear at its sight!",
+    "RUS": "Пусть все прячутся в страхе!",
+    "POL": "Niech wszyscy skulą się ze strachu na jego widok!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Cursed Rumors: Holy Intervention",
+    "RUS": "Проклятые слухи: святое вмешательство",
+    "POL": "Przeklęte plotki: boska interwencja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "[ROOT.Char.Custom('FormOfAddressForLiege')|U], — обращается ко мне [Select_CString(antiquarian.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName], —",
+    "POL": "– Wasza czcigodność – woła do mnie mój [ROOT.Char.Custom('GetAntiquarianOrArmorer')|l], [antiquarian.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], — ко мне подходит слуга в сопровождении важно выглядящей фигуры, —",
+    "POL": "– Wasza czcigodność – śpiesznym krokiem podchodzi do mnie sługa, któremu towarzyszy uroczyście wyglądająca postać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "по вашей просьбе мы нашли [Select_CString(holy_man.IsFemale, 'эту святую женщину', 'этого святого человека' )], чтобы благословить артефакт „[this_artifact.GetName]“». \\n\\nПозвольте представить, [holy_man.GetFirstName]. Наверняка [holy_man.GetHerHis] вмешательство снимет проклятье и успокоит всех».",
+    "POL": "– Zgodnie z twoją prośbą znaleziono świętą personę, która pobłogosławi twój artefakt znany jako [this_artifact.GetName].\\n\\n– Pozwól, że ci [holy_man.Custom('PL_go_ja')] przedstawię. Jestem pewien, że [holy_man.GetFirstName] będzie w stanie zdjąć klątwę i wszystkich uspokoić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Try your best, [holy_man.GetFirstNameNoTooltip]...",
+    "RUS": "Сделайте все возможное, [holy_man.GetFirstNameNoTooltip]...",
+    "POL": "Zrób wszystko, co w twojej mocy [holy_man.GetFirstNameNoTooltip]… ",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.a.success",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Curse Lifted",
+    "RUS": "Проклятье снято",
+    "POL": "Złamanie klątwy",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.a.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The Curse Remains",
+    "RUS": "Проклятье осталось",
+    "POL": "Utrzymanie klątwy",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.a.success.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The curse is lifted",
+    "RUS": "Проклятье снято",
+    "POL": "Klątwa zostaje złamana",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4001.a.failure.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The curse remains",
+    "RUS": "Проклятье осталось",
+    "POL": "Klątwa dalej się utrzymuje",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Cursed Rumors: A Dark Fame",
+    "RUS": "Проклятые слухи: Мрачная слава",
+    "POL": "Przeklęte plotki: mroczna sława",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4002.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] addresses me with a me thoughtful expression on [antiquarian.GetHerHis] face.",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] подходит ко мне с задумчивым выражением лица.",
+    "POL": "Mój [ROOT.Char.Custom('GetAntiquarianOrArmorer')|l], [antiquarian.GetTitledFirstName], zwraca się do mnie z zamyślonym wyrazem twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4002.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A group of scared servants stops me on my way to my chambers. One of them speaks up:",
+    "RUS": "По пути в мои покои мне встречается группа слуг. Один из них решается обратиться ко мне:",
+    "POL": "W drodze do moich komnat zatrzymuje mnie grupa przestraszonych służących. Jeden z nich mówi:",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вам стоит знать, что ваш артефакт — „[this_artifact.GetName]“ — пользуется дурной славой из-за лежащего на нем проклятья… Ваши приближенные, слуги и даже гости в ужасе от него!\\n\\nНе согласитесь ли вы пригласить святого человека, который благословил бы этот предмет и подарил покой вашим напуганным подданным?",
+    "POL": "\\n\\n– Musi [ROOT.Char.Custom('FormOfAddressForLiege')] zdawać sobie sprawę, że [this_artifact.GetName] to artefakt uważany za przeklęty, a jego zła reputacja stale się zwiększa przez te wszystkie lata… Twoja świta, służba, a nawet goście są nim przerażeni!\\n\\n– Czy zgodzi się [ROOT.Char.Custom('FormOfAddressForLiege')] wezwać jakąś świętą osobę, aby pobłogosławiła ten przedmiot i wreszcie przyniosła spokój przerażonym poddanym?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Killing Weapon of Fame",
+    "RUS": "Прославленное орудие убийства",
+    "POL": "Zabójcza broń sławy",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4010.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы слышали новость?» — обращается ко мне [Select_CString(antiquarian.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName].",
+    "POL": "– Czy do uszu waszej czcigodności dotarły już najnowsze wieści? – pyta mój [ROOT.Char.Custom('GetAntiquarianOrArmorer')|l], [antiquarian.GetTitledFirstName], zbliżając się do mnie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4010.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I can't help but listen to the excited voices coming from a small crowd of servants in the hall.",
+    "RUS": "Небольшая группа слуг взахлеб что-то обсуждает посреди зала, и я невольно слышу их слова.",
+    "POL": "Nie mogę nie słuchać podekscytowanych głosów dochodzących z małego tłumu służących znajdującego się w sali.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Репутация, которой обладает [this_artifact.GetName], известна всему миру! Все с восхищением обсуждают, как [SCOPE.Custom('ThisArtifactType')] косит врагов, словно траву в поле, и прославляют обладателя сего оружия!»",
+    "POL": "\\n\\n„Sława artefaktu [this_artifact.GetName], który posiada [ROOT.Char.GetTitledFirstNameNoTooltip], roznosi się po całym świecie i ciągle rośnie! Wszyscy z podziwem dyskutują o tym, jak [SCOPE.Custom('ThisArtifactType')] ścina wrogów tak łatwo jak kwiaty na polu, i wychwalają posiadacza tej niezwyciężonej broni!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4010.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Excellent news!",
+    "RUS": "Отличные новости!",
+    "POL": "Wspaniałe wieści!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_1_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle1')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle1')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle1')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_2_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomWeaponTitle2')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle2')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle2')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_3_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle3')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle3')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle3')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_4_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomWeaponTitle4')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle4')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomWeaponTitle4')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_1_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving been used in at least 15 victories on the battlefield, this weapon is renowned for showing the true valor of its owners.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле по меньшей мере 15 побед на поле боя это оружие наглядно показывает доблесть своих владельцев.",
+    "POL": "[this_artifact.GetDesc]\\n\\nBroń ta, wykorzystana w co najmniej 15 zwycięskich bitwach, jest znana z tego, że pokazuje prawdziwe męstwo swoich właścicieli.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_2_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving been used in at least 30 victories on the battlefield, this weapon is renowned for bringing pain to its enemies.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле по меньшей мере 30 побед на поле боя это оружие славится тем, что причиняет боль врагам.",
+    "POL": "[this_artifact.GetDesc]\\n\\nBroń ta, wykorzystana w co najmniej 30 zwycięskich bitwach, słynie z zadawania bólu wrogom jej właściciela.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_3_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving been used in at least 50 victories on the battlefield, this weapon is renowned for always bringing victory to its owner.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле по меньшей мере 50 побед на поле боя это оружие известно тем, что его обладатель всегда одерживает победу.",
+    "POL": "[this_artifact.GetDesc]\\n\\nBroń ta, wykorzystana w co najmniej 50 zwycięskich bitwach, znana jest z tego, że zawsze przynosi triumf swojemu właścicielowi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_killer_4_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving been used in at least 100 victories on the battlefield, this weapon is spoken of in legends.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле по меньшей мере 100 побед на поле боя об этом оружии слагают легенды.",
+    "POL": "[this_artifact.GetDesc]\\n\\nBroń ta, wykorzystana w co najmniej 100 zwycięskich bitwach, owiana jest wieloma legendami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4020.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Renowned Armor",
+    "RUS": "Прославленный доспех",
+    "POL": "Rozsławiona zbroja",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4020.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«Все признают, что [this_artifact.GetName] сияет на поле боя как ничто иное и дает понять друзьям и врагам, что среди них бессмертный герой!»",
+    "POL": "\\n\\n„Wszyscy rozpoznają ten artefakt ([this_artifact.GetName]), który dzierży [ROOT.Char.GetTitledFirstNameNoTooltip]. Jak żaden inny, błyszczy na polu bitwy i daje znać zarówno przyjaciołom, jak i wrogom, że nieśmiertelny bohater kroczy wśród nich!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4020.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Excellent news!",
+    "RUS": "Отличные новости!",
+    "POL": "Wspaniałe wieści!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_1_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomArmorTitle1')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle1')]",
+    "POL": "[this_artifact.GetNameNoTooltip|U] [this_artifact.Custom('RandomArmorTitle1')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_2_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle2')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle2')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle2')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_3_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomArmorTitle3')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle3')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle3')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_4_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle4')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle4')]",
+    "POL": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomArmorTitle4')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_1_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving kept its owner safe for at least 15 battles, this armor has started getting recognized on the battlefield.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле того, как этот доспех оберегал своих владельцев в сражениях в течение 15 лет, его начали узнавать на полях сражений.",
+    "POL": "[this_artifact.GetDesc]\\n\\nZapewniając bezpieczeństwo swojemu właścicielowi przez co najmniej 15 bitew, zbroja ta zaczęła zdobywać uznanie na polu bitwy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_2_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving kept its owner safe for at least 30 battles, this armor is making itself a name on the battlefield.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле того, как этот доспех оберегал своих владельцев в сражениях в течение 30 лет, он заслужил славу на полях сражений.",
+    "POL": "[this_artifact.GetDesc]\\n\\nChroniąc swojego właściciela przez co najmniej 30 bitew, zbroja ta zapewniła sobie sławę na polu bitwy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_3_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving kept its owner safe for at least 50 battles, this armor is recognized and feared by both friends and foes.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле того, как этот доспех оберегал своих владельцев в сражениях в течение 50 лет, его стали узнавать и бояться и друзья, и враги.",
+    "POL": "[this_artifact.GetDesc]\\n\\nZbroja ta, która zapewniała bezpieczeństwo swojemu właścicielowi przez co najmniej 50 bitew, jest powszechnie znana i wzbudza lęk zarówno wśród przyjaciół, jak i wrogów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_armor_4_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving kept its owner safe for at least 100 battles, this armor is considered a legendary item.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле того, как этот доспех оберегал своих владельцев в сражениях в течение 100 лет, он обрел статус легендарного.",
+    "POL": "[this_artifact.GetDesc]\\n\\nZbroja ta, która zapewniała bezpieczeństwo swojemu właścicielowi przez co najmniej 100 bitew, jest uważana za przedmiot legendarny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4030.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The Crown of Our People",
+    "RUS": "Корона нашего народа",
+    "POL": "Korona naszego ludu",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4030.desc.antiquarian_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] подходит ко мне с улыбкой на губах. В [Select_CString(antiquarian.IsFemale, 'ее', 'его' )] руках лежит [this_artifact.GetName].",
+    "POL": "Mój [ROOT.Char.Custom('GetAntiquarianOrArmorer')|l], [antiquarian.GetTitledFirstName], podchodzi do mnie z szerokim uśmiechem na twarzy i z moim artefaktem w rękach. To [this_artifact.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4030.desc.servant_intro",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The servant that is usually tasked with cleaning my most prized possessions comes to me with my [this_artifact.GetName] in [dummy_servant_gender.GetHerHis] hands.",
+    "RUS": "Слуга, отвечающий за чистку моих самых ценных вещей, подходит ко мне. В [dummy_servant_gender.GetHerHis] руках покоится [this_artifact.GetName].",
+    "POL": "Sługa, którego zadaniem jest zazwyczaj czyszczenie moich najcenniejszych rzeczy, przychodzi do mnie, trzymając w swoich rękach mój artefakt ([this_artifact.GetName]).",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4030.desc_emperor",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы знали, что после многих поколений, в течение которых эту корону носит [ROOT.Char.GetTitleTierName|l], в ней стали видеть символ имперской власти?»",
+    "POL": "\\n\\n– Czy wie [ROOT.Char.Custom('FormOfAddressForLiege')], że tę koronę władcy przekazywali sobie z pokolenia na pokolenie, przez co stała się powszechnie znana jako symbol władzy cesarskiej?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4030.desc_kingdom",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], вы знали, что после многих поколений, в течение которых эту корону носит [ROOT.Char.GetTitleAsNameNoTooltip|l], в ней стали видеть символ, с которым отождествляется [primary_title_scope.GetBaseNameNoTierNoTooltip]?»",
+    "POL": "\\n\\n– Czy wie [ROOT.Char.Custom('FormOfAddressForLiege')], że tę koronę władcy przekazywali sobie z pokolenia na pokolenie, przez co stała się integralną częścią tożsamości miejsca znanego jako [primary_title_scope.GetBaseNameNoTierNoTooltip]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_emperors_crown_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Imperial [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] Империи",
+    "POL": "Cesarski artefakt ([this_artifact.GetNameNoTooltip])",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_emperors_crown_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nFor many generations this crown has belonged to Emperors, thus gaining extra authority.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nВ течение многих поколений эта корона принадлежала императорам, что придает ей больший авторитет.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPrzez wiele pokoleń korona ta należała do cesarzy, zyskując w ten sposób dodatkowy autorytet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_crown_special_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] of [primary_title_scope.GetNameNoTierNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] державы [primary_title_scope.GetNameNoTierNoTooltip]",
+    "POL": "[this_artifact.GetNameNoTooltip] z ziem znanych jako [primary_title_scope.GetNameNoTierNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_crown_special_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nThis crown has been passed down through several generations of rulers of the same title, thus becoming a symbol of their power.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nЭта корона в течение нескольких поколений принадлежала правителям одного титула, став символом их власти.",
+    "POL": "[this_artifact.GetDesc]\\n\\nTa korona była przekazywana przez kilka pokoleń władców o tym samym tytule, stając się tym samym symbolem ich siły.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4040.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The Eye of the Expert",
+    "RUS": "Глаз специалиста",
+    "POL": "Oko specjalisty",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4040.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It is with a glint in [helpful.GetHerHis] eyes that [helpful.Custom2('MyCharacterIntroduction', ROOT.Char)] approaches me.\\n\\n",
+    "RUS": "С блестящими глазами [helpful.Custom2('MyCharacterIntroduction', ROOT.Char)] подходит ко мне.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], я не могу не отметить, с каким искусством выполнен ваш артефакт — [this_artifact.GetName]... Однако только военный специалист вроде меня может указать на небольшие изменения, которые превратят его в еще более эффективный инструмент войны!»\\n\\nЯ теряю нить разговора, когда [helpful.GetSheHe] начинает что-то бормотать о #EMP симметрии#!, #EMP балансе#! и #EMP использовании режущей кромки#!, но в целом мне ясно, что [helpful.GetFirstNameNoTooltip] может улучшить артефакт в обмен на #EMP символический знак моей признательности#!.",
+    "POL": "Z błyskiem w oku podchodzi do mnie [helpful.Custom2('MyCharacterIntroduction', ROOT.Char)].\\n\\n– Nie uszło mojej uwadze, że [this_artifact.GetName] waszej czcigodności to artefakt wykonany bardzo dobrze… Jednak tylko prawdziwy znawca pola bitwy, taki jak ja, jest w stanie dostrzec drobne niedociągnięcia, których usunięcie mogłoby uczynić ten przedmiot jeszcze bardziej skutecznym narzędziem wojny!\\n\\nIgnoruję [helpful.Custom('PL_go_ja')], gdy zaczyna paplać o #EMP symetrii#!, #EMP równowadze#! i #EMP stępieniu krawędzi#!, ale dociera do mnie, że [helpful.GetFirstNameNoTooltip] może ulepszyć mój artefakt w zamian za #EMP symboliczny dowód mojej wdzięczności#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4040.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Fine, do your thing.",
+    "RUS": "Хорошо, приступайте.",
+    "POL": "W porządku, rób swoje.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4040.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetName|U] is improved!",
+    "RUS": "[this_artifact.GetName|U] получает улучшение!",
+    "POL": "Artefakt [this_artifact.GetName|U] został udoskonalony!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4040.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I don't need your help.",
+    "RUS": "Мне не нужна ваша помощь.",
+    "POL": "Nie potrzebuję twojej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4050.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Anger Burst",
+    "RUS": "Вспышка гнева",
+    "POL": "Wybuch złości",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4050.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Stress has been piling on me like a mound of bricks for a while. I feel like my temper has been building up to its boiling point, only looking for an excuse to explode spectacularly.\\n\\nIt all comes crashing down on me when I step into the hall, and the servants are gossiping, my attendants are blabbering, my advisors are vying for my attention all together, and everything is just too much for me to bear.\\n\\n",
+    "RUS": "Уже довольно давно во мне копится напряжение, давящее на меня, словно груда камней. Я чувствую, как во мне всё кипит, и нужен лишь малейший повод для взрыва.\\n\\nИ этот момент наступает сегодня, когда я вхожу в зал и слышу сплетничающих слуг, болтовню приближенных и попытки моих советников разом привлечь мое внимание. Для меня это уже слишком.\\n\\n«#EMP ДОВОЛЬНО!#!» — кричу я, хватая первое, что попалось под руку, и швыряя им в стену.\\n\\nВ комнате воцаряется тишина, и я вижу, что [this_artifact.GetName] лежит на полу с вмятинами и царапинами, и на место стремительно испаряющемуся гневу приходит чувство ужаса…",
+    "POL": "Od jakiegoś czasu stres wzbiera we mnie niczym wielka fala. Czuję coraz większą złość i wiem, że lada moment wybuchnę spektakularnie pod byle pretekstem.\\n\\nGdy wchodzę do mojej sali, w której służba plotkuje, członkowie świty paplają nieznośnie, a moi radni przekrzykują się jeden przez drugiego, domagając się mojej uwagi, przelewa się czara goryczy.\\n\\n– #EMP DOŚĆ TEGO!#! – ryczę i łapię pierwszą lepszą rzecz w zasięgu wzroku, a następnie ciskam nią w najbliższą ścianę.\\n\\nW sali zapada cisza, a ja w końcu zwracam uwagę na przedmiot, który został przeze mnie rzucony. To [this_artifact.GetName]. Mój skarb leży teraz zniszczony na podłodze, a moja wściekłość natychmiast ustępuje miejsca trwodze…",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4050.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Damn it!",
+    "RUS": "Проклятье!",
+    "POL": "Cholera!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4060.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The Blessed [SCOPE.Custom('ThisArtifactType')|U] of [ROOT.Char.GetFaith.HighGodName]",
+    "RUS": "[SCOPE.Custom('ThisArtifactType')|U] [ROOT.Char.GetFaith.HighGodNamePossessive]",
+    "POL": "[SCOPE.Custom('ThisArtifactType')|U] z błogosławieństwem [ROOT.Char.GetFaith.HighGodNamePossessive]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4060.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Позвольте представить, [holy_man.GetFirstName], [holy_man.GetWomanMan], чья святость известна во всех окрестных землях».\\n\\n«[holy_man.GetSheHe|U] [Select_CString(holy_man.IsFemale, 'впечатлилась', 'впечатлился' )], узнав о вашей славе благочестивого и справедливого правителя, и хочет поделиться божественным покровительством с одним из ваших сокровищ».\\n\\n«Вы позволите?»",
+    "POL": "– Pozwól, że przedstawię cię osobie imieniem [holy_man.GetFirstName], słynącej na twoich ziemiach z wielkiej świętości.\\n\\n– Personę tę głęboko poruszyła twoja reputacja władcy pobożnego i sprawiedliwego, i pragnie objąć boską ochroną jeden z twoich skarbów.\\n\\n– Zezwolisz na to?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4060.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I humbly accept your offer, [holy_man.GetFirstNameNoTooltip].",
+    "RUS": "Я покорно принимаю ваше предложение, [holy_man.GetFirstNameNoTooltip].",
+    "POL": "Z pokorą przyjmuję twoją ofertę, [holy_man.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4060.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "This won't be necessary.",
+    "RUS": "В этом нет необходимости.",
+    "POL": "To nie będzie konieczne.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_4060_blessed_artifact_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Blessed [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] с благословением",
+    "POL": "Błogosławiony artefakt ([this_artifact.GetNameNoTooltip])",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_4060_blessed_artifact_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nAccording to the traditional story, this item has been blessed by a holy man or woman, thus receiving divine protection. The wise do not mess with the supernatural, whether they believe in it or not.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nКак гласит предание, этот предмет был благословлен святым или святой и получил божественное покровительство. Мудрые правители не лезут в вопросы сверхъестественных сил независимо от того, верят ли в них.",
+    "POL": "[this_artifact.GetDesc]\\n\\nZgodnie z tradycyjną opowieścią, przedmiot ten został pobłogosławiony przez świętego mężczyznę lub kobietę, dzięki czemu otrzymał boską ochronę. Mądrzy ludzie nie zadzierają z tym, co nadprzyrodzone, niezależnie od tego, czy w to wierzą, czy nie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4070.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Relic Desecrated",
+    "RUS": "Реликвия осквернена",
+    "POL": "Zbezczeszczona relikwia",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4070.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Wrestling control of our treasured [this_artifact.GetName] from the [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')] must have certainly put me in a better position in the eyes of [ROOT.Char.GetFaith.HighGodName]. Nevertheless, a sense of uneasiness remains within me, fed by several voices at my court.\\n\\n#EMP ",
+    "RUS": "То, что [this_artifact.GetName] теперь в моих руках, наверняка принесло мне благорасположение [ROOT.Char.GetFaith.HighGodNamePossessive]. Но несмотря на то, что [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')] лишились этой святыни, я продолжаю чувствовать беспокойство — да и постоянное ворчание придворных не дает мне почивать на лаврах.\\n\\n#EMP «[ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')|U] осквернили нашу реликвию!», «Они ее прокляли!», «Кто знает, что за извращенные ритуалы над ней проводились!»#!\\n\\nСкорее всего, они преувеличивают, но полагаю, что пышная религиозная процессия с целью «очищения» не повредит?",
+    "POL": "[this_artifact.GetName] to dla nas cenny artefakt. Przejęcie od pogan kontroli nad nim z pewnością musiało postawić mnie w lepszej pozycji w oczach [ROOT.Char.GetFaith.HighGodNamePossessive]. Mimo to pozostaje we mnie poczucie niepokoju, podsycane przez kilka osób obecnych na moim dworze.\\n\\n#EMP „Poganie zanieczyścili naszą relikwię!”. „Rzucili na nią klątwę!”. „Kto wie, do jakich ohydnych rytuałów jej używali!”.#!\\n\\nPewnie nieco przesadzają, ale chyba wymyślna religijna procesja w celu „oczyszczenia” relikwii nie zaszkodzi?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4070.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Let's organize it right away!",
+    "RUS": "Давайте немедленно ее организуем!",
+    "POL": "Zorganizujmy ją od razu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4070.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "No, they are just being superstitious.",
+    "RUS": "Нет, это просто суеверия.",
+    "POL": "Nie, oni są po prostu zbyt przesądni.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4080.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Master Dueler's Weapon",
+    "RUS": "Оружие опытного бойца",
+    "POL": "Broń doświadczonego pojedynkowicza",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4080.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n«У всех на слуху [this_artifact.GetName]! Похоже, владелец этого оружия выиграет любой поединок! А еще говорят, что оно выбирает себе в хозяева только достойных! А вчера мне довелось пообщаться со странствующим торговцем, и оказалось, что слава о непобедимом оружии достигла даже его родных земель!»",
+    "POL": "\\n\\n[this_artifact.GetName] jest na językach wszystkich! Widocznie [ROOT.Char.GetTitledFirstNameNoTooltip] jak i każdy inny używca tejże broni wygra każdy pojedynek! Doszły mnie też słuchy, że tylko najwartościowsi są godni, by ją dzierżyć! Co więcej, niedawno pewien wędrowny kupiec powiedział mi, że sława owej niezwyciężonej broni dotarła nawet do jego ojczystych ziem!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_1_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomDuelTitle1')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle1')]",
+    "POL": "[this_artifact.GetNameNoTooltip|U] [this_artifact.Custom('RandomDuelTitle1')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_2_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle2')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle2')]",
+    "POL": "[this_artifact.GetNameNoTooltip|U] [this_artifact.Custom('RandomDuelTitle2')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_3_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.Custom('RandomDuelTitle3')] [this_artifact.GetNameNoTooltip]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle3')]",
+    "POL": "[this_artifact.GetNameNoTooltip|U] [this_artifact.Custom('RandomDuelTitle3')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_4_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle4')]",
+    "RUS": "[this_artifact.GetNameNoTooltip] [this_artifact.Custom('RandomDuelTitle4')]",
+    "POL": "[this_artifact.GetNameNoTooltip|U] [this_artifact.Custom('RandomDuelTitle4')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_1_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving defeated at least 5 enemies in a duel, this weapon has proved itself as reliable and lucky.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле победы над врагами в 5 поединках это оружие доказало надежность и удачливость.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPo pokonaniu co najmniej 5 wrogów w pojedynku broń ta okazała się niezawodna i przynosząca szczęście.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_2_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving defeated at least 10 enemies in a duel, this weapon is getting some renown.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле победы над врагами в 10 поединках это оружие обрело некоторую известность.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPo pokonaniu co najmniej 10 wrogów w pojedynku broń ta zyskuje pewną renomę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_3_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving defeated at least 20 enemies in a duel, this weapon has gained a fearsome reputation.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле победы над врагами в 20 поединках это оружие обрело устрашающую репутацию.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPo pokonaniu co najmniej 20 wrogów w pojedynku broń ta zyskała przerażającą reputację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_duel_weapon_4_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nHaving defeated at least 30 enemies in a duel, this weapon has left a legendary legacy.",
+    "RUS": "[this_artifact.GetDesc]\\n\\nПосле победы над врагами в 30 поединках это оружие оставило наследие, достойное легенды.",
+    "POL": "[this_artifact.GetDesc]\\n\\nPo pokonaniu co najmniej 30 wrogów w pojedynku broń ta pozostawiła po sobie legendarne dziedzictwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The Enemy Banner",
+    "RUS": "Вражеское знамя",
+    "POL": "Wrogi sztandar",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.desc.commander",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I survey the battlefield, contemplating how this battle will be remembered, and gaze towards the dead that remain. I notice a group of my soldiers approach and they politely bow before me.\\n\\n",
+    "RUS": "Я прогуливаюсь по полю боя, размышляя, как эта битва останется в веках, и обвожу взглядом тела павших воинов. Ко мне подходит отряд моих солдат, приветствующих меня вежливым поклоном.\\n\\n",
+    "POL": "Rozglądam się po polu bitwy, zastanawiając się, jak ta bitwa zostanie zapamiętana, a następnie spoglądam na pozostałych poległych. Zauważam, że zbliża się grupa moich żołnierzy, którzy grzecznie się przede mną kłaniają.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The battle of [combat_location.GetName] ended in an astounding victory! I eagerly listen to the messenger as he reads the report from my commander, [friendly_commander.GetTitledFirstName], and then turn to the soldiers before me.\\n\\n",
+    "RUS": "Сражение в области [combat_location.GetName] увенчалось грандиозной победой! Я с удовольствием выслушиваю доклад, который [Select_CString(friendly_commander.IsFemale, 'прислала', 'прислал' )] [friendly_commander.GetTitledFirstName], [Select_CString(friendly_commander.IsFemale, 'командующая', 'командующий' )] армией, и перевожу взгляд на стоящего передо мной солдата.\\n\\n",
+    "POL": "Bitwa pod miejscowością znaną jako [combat_location.GetName] zakończyła się oszałamiającym zwycięstwem! Z zapałem słucham posłańca czytającego raport, który napisał[Select_CString( friendly_commander.IsFemale, 'a moja dowódczyni', ' mój dowódca' )] [friendly_commander.GetTitledFirstName], a następnie zwracam się do żołnierzy stojących przede mną.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.desc.looting",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Мы наткнулись на вражеское знамя, когда... „прибирались“ на поле боя! Было бы жаль просто бросить его. Возможно, вы хотели бы сохранить его как трофей?»",
+    "POL": "– Wasza czcigodność! Natrafiliśmy na sztandar wroga, gdy… „sprzątaliśmy” pole bitwy! Pomyśleliśmy, że szkoda byłoby go zostawić, może chce [ROOT.Char.Custom('FormOfAddressForLiege')] go zatrzymać jako trofeum?",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.desc.killed_defender",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Мы загнали в угол остатки вражеского войска, и они до последнего доблестно сражались, защищая это знамя».",
+    "POL": "– Wasza czcigodność! Dopadliśmy pozostałych wrogów, którzy podjęli odważną walkę. Oddali swoje życie w obronie tego sztandaru.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It will make a fine addition to my collection!",
+    "RUS": "Оно станет отличным дополнением к моей коллекции!",
+    "POL": "Będzie wspaniałym dodatkiem do mojej kolekcji!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Put it on the celebration pyre. We don't need this useless token.",
+    "RUS": "Сожгите его на погребальном костре. Нам не нужна эта безделица.",
+    "POL": "Połóżcie go na stosie pogrzebowym. Nie potrzebujemy tego bezużytecznego symbolu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.6001.toast",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Standard Lost at [combat_location.GetNameNoTooltip]",
+    "RUS": "Штандарт потерян в битве «[combat_location.GetNameNoTooltip]»",
+    "POL": "Utracono sztandar w miejscu znanym jako [combat_location.GetNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.7000.a.boil_skull",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[skull_boiler.GetFirstName] boils [skull_to_boil.GetFirstNamePossessive] skull, turning it into a [court_artifact|E]",
+    "RUS": "[skull_boiler.GetFirstName] вываривает череп персонажа [skull_to_boil.GetFirstName], превращая его в [Concept( 'court_artifact', 'артефакт' )|E]",
+    "POL": "[skull_boiler.GetFirstName] gotuje czaszkę postaci [skull_to_boil.GetFirstName], zamieniając ją w [court_artifact|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_rival_skull",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "The skull of [skull_to_boil.GetTitledFirstName], the executed rival of [ROOT.Char.GetTitledFirstName]. Boiled and cleaned by [skull_boiler.GetFirstName]. On its forehead are etched the words: ",
+    "RUS": "Череп персонажа [skull_to_boil.GetTitledFirstName], [Select_CString(skull_to_boil.IsFemale, 'соперницы, которую', 'соперника, которого' )] [Select_CString(ROOT.Char.IsFemale, 'казнила', 'казнил' )] [ROOT.Char.GetTitledFirstName]. Затем череп [Select_CString(skull_boiler.IsFemale, 'выварила и вычистила', 'выварил и вычистил' )] [skull_boiler.GetFirstName]. На лбу вырезаны слова: «[skull_to_boil.Custom2('InsultAdjective', ROOT.Char)|U] [skull_to_boil.Custom2('InsultNoun', ROOT.Char)]».",
+    "POL": "Czaszka osoby znanej jako [skull_to_boil.GetTitledFirstName] – straconego rywala osoby, którą jest [ROOT.Char.GetTitledFirstName]. Za wygotowanie i oczyszczenie czaszki odpowiada [skull_boiler.GetFirstName], a na jej czole wyryte są następujące słowa: „[skull_to_boil.Custom2('InsultNoun', ROOT.Char)|U] ze mnie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.7000.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Rival is Forever",
+    "RUS": "Соперники навсегда",
+    "POL": "Rywal na zawsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.7000.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Ah, thank [ROOT.Char.GetFaith.HighGodName] that [skull_to_boil.GetFirstName] is dead, and executed by #EMP my#! orders no less!\\n\\nI must admit that I will miss listening to [skull_to_boil.GetHerHis] pathetic whimpering in my dungeon... Perhaps I should keep a part of [skull_to_boil.GetHerHim], so I have something to hurl insults at while I rest on my throne?\\n\\nIt's not like [skull_boiler.GetFirstName] is doing anything important, any way...",
+    "RUS": "О [ROOT.Char.GetFaith.HighGodName], свершилось, [skull_to_boil.GetFirstName] [Select_CString(skull_to_boil.IsFemale, 'мертва, казнена', 'мертв, казнен' )] по #EMP моему#! приказу!\\n\\nПризнаюсь, мне будет не хватать [skull_to_boil.GetHerHis] жалких стонов в моем подземелье... Возможно, стоит оставить кусочек на память, чтобы можно было оскорблять его, восседая на троне?\\n\\nВсе равно [skull_boiler.GetFirstName] не занимается ничем важным...",
+    "POL": "Ach, niech [ROOT.Char.GetFaith.HighGodName] ma mnie w swojej opiece. [skull_to_boil.GetFirstName] nie żyje i to jeszcze wskutek #EMP mojego#! rozkazu!\\n\\nMuszę przyznać, że będzie mi brakować [skull_to_boil.Custom('PL_jego_jej')] żałosnych skomleń w moich lochach… Może trzeba było zachować jakąś [skull_to_boil.Custom('PL_jego_jej')] część, by móc rzucać w nią obelgami, gdy będę odpoczywać na swoim tronie?\\n\\nZresztą [skull_boiler.GetFirstName] i tak pewnie nie robi teraz nic ważnego, więc…",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.7000.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[skull_boiler.GetFirstNameNoTooltip], cook and clean [skull_to_boil.GetFirstNamePossessiveNoTooltip] skull for me. Now.",
+    "RUS": "[skull_boiler.GetFirstNameNoTooltip], вывари и вычисти этот череп для меня. Сейчас же.",
+    "POL": "[skull_boiler.GetFirstNameNoTooltip], wygotuj i oczyść dla mnie tę czaszkę. Teraz.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.7000.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "No, I #EMP can't wait#! to forget all about [skull_to_boil.GetFirstNamePossessiveNoTooltip] existence!",
+    "RUS": "Нет, я #EMP только и жду#! возможности забыть, что [skull_to_boil.GetFirstNameNoTooltip] вообще [Select_CString(skull_to_boil.IsFemale, 'жила', 'жил' )] на этом свете!",
+    "POL": "Nie, niech [skull_to_boil.GetFirstNameNoTooltip] #EMP jak najszybciej#! zniknie z mojego umysłu!",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.t",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "A Relic In Hand...",
+    "RUS": "Реликвия в руке...",
+    "POL": "Relikwia w ręku…",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.desc.antiquarian",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "My Antiquarian [antiquarian.GetTitledFirstName] has approached me with an idea. By sealing my [that_artifact.GetName] inside the handle of my [this_artifact.GetName], I would always be closer to [ROOT.Char.GetFaith.HighGodName] when I wielded it.\\n\\n",
+    "RUS": "[Select_CString(antiquarian.IsFemale, 'Моя хранительница древностей', 'Мой хранитель древностей' )] [antiquarian.GetTitledFirstName] [Select_CString(antiquarian.IsFemale, 'обратилась', 'обратился' )] ко мне с предложением. Если [that_artifact.GetName] окажется в рукояти моего артефакта [this_artifact.GetName], [ROOT.Char.GetFaith.HighGodName] всегда будет со мной.\\n\\n«[ROOT.Char.GetFaith.PositiveAfterLife] в буквальном смысле будет у вас в руке», — [Select_CString(antiquarian.IsFemale, 'сказала', 'сказал' )] [antiquarian.GetTitledFirstNameNoTooltip] с фанатичным блеском в глазах.",
+    "POL": "[antiquarian.GetTitledFirstName], osoba zajmująca się na moim dworze historią, zwraca się do mnie z pewnym pomysłem. Jeśli [that_artifact.GetName] znajdzie się w rękojeści mojej broni, [this_artifact.GetName] będzie bliżej siły wyższej znanej jako [ROOT.Char.GetFaith.HighGodName], gdy przyjdzie mi dzierżyć mój oręż.\\n\\n– Gdy [this_artifact.GetType|l] trafi do twojej ręki, namacalnie będziesz dotykać miejsca, które wszyscy znamy jako [ROOT.Char.GetFaith.PositiveAfterLife] – mówi [antiquarian.GetTitledFirstNameNoTooltip] z fanatyzmem religijnym w oczach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "While gazing upon my [that_artifact.GetName] one day I am struck by inspiration. If I embed the relic inside the handle of my [this_artifact.GetName] I would always be closer to [ROOT.Char.GetFaith.HighGodName] when I wielded it.",
+    "RUS": "В моих руках лежит [that_artifact.GetName], я рассматриваю артефакт, и вдруг на меня накатывает вдохновение. Если я размещу в рукояти реликвию, [ROOT.Char.GetFaith.HighGodName] всегда будет со мной, пока [this_artifact.GetName] в моей руке.",
+    "POL": "Pewnego dnia moją uwagę przykuwa [that_artifact.GetName]. Badam przedmiot w ręku i nagle nachodzi mnie pomysł. Jeżeli umieszczę tę relikwię w rękojeści mojej broni – [this_artifact.GetName] – będę bliżej [ROOT.Char.GetFaith.HighGodNamePossessive], gdy przyjdzie mi ją dzierżyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.a",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "I would always be close to [ROOT.Char.GetFaith.HighGodName].",
+    "RUS": "[ROOT.Char.GetFaith.HighGodName] всегда будет со мной.",
+    "POL": "Zawsze chcę być bliżej [ROOT.Char.GetFaith.HighGodNamePossessive].",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.b",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "It would not be proper.",
+    "RUS": "Это будет неправильно.",
+    "POL": "To nieodpowiednie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact.4090.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "Relic and Weapon Combined",
+    "RUS": "Реликвия и оружие совмещены",
+    "POL": "Umieszczono relikwię w broni",
+    "BEL": ""
+  },
+  {
+    "KEY": "artifact_weapon_relic_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetDesc]\\n\\nThe [that_artifact.GetNameNoTooltip] a [ROOT.Char.GetFaith.GetName] relic is embedded inside the handle.",
+    "RUS": "[this_artifact.GetDesc]\\n\\n#L [ROOT.Char.GetFaith.GetName]ая#! реликвия [that_artifact.GetNameNoTooltip] размещена в рукояти.",
+    "POL": "[this_artifact.GetDesc]\\n\\nW rękojeści została umieszczona relikwia [ROOT.Char.GetFaith.GetAdjective|l] – [that_artifact.GetNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_weapon_name",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[this_artifact.GetType|U] of [ROOT.Char.Custom('artifact_relic_desc')]",
+    "RUS": "[this_artifact.GetType|U]-[ROOT.Char.Custom('artifact_relic_desc')]",
+    "POL": "[this_artifact.GetType|U] [ROOT.Char.Custom('artifact_relic_desc')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "embedded_not_destroyed_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[that_artifact.GetName] is embedded inside my [this_artifact.GetName] ",
+    "RUS": "[that_artifact.GetName] находится в артефакте [this_artifact.GetName] ",
+    "POL": "Relikwia, [that_artifact.GetName], zostaje umieszczona w mojej broni, [this_artifact.GetName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_afterlife",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.PositiveAfterLife|U]",
+    "RUS": "[ROOT.Char.GetFaith.PositiveAfterLife|U]",
+    "POL": "[ROOT.Char.GetFaith.PositiveAfterLife|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_highgod",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.HighGodName]",
+    "RUS": "[ROOT.Char.GetFaith.HighGodName]",
+    "POL": "[ROOT.Char.GetFaith.HighGodNamePossessive]",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_highgod_alternate",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.HighGodNameAlternate]",
+    "RUS": "[ROOT.Char.GetFaith.HighGodNameAlternate]",
+    "POL": "[ROOT.Char.GetFaith.HighGodNameAlternatePossessive]",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_health",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFaith.HealthGodName]",
+    "RUS": "[ROOT.Char.GetFaith.HealthGodName]",
+    "POL": "[ROOT.Char.GetFaith.HealthGodNamePossessive]",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_symbol",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "the [ROOT.Char.GetFaith.ReligiousSymbol|U]",
+    "RUS": "[ROOT.Char.GetFaith.ReligiousSymbol|U]",
+    "POL": "[ROOT.Char.GetFaith.ReligiousSymbol|U]",
+    "BEL": ""
+  },
+  {
+    "KEY": "relic_name_text",
+    "FILE_PATH": "localization/belarusian/event_localization/artifact_events_l_belarusian.json",
+    "ENG": "the [ROOT.Char.GetFaith.ReligiousText|U]",
+    "RUS": "[ROOT.Char.GetFaith.ReligiousText|U]",
+    "POL": "[ROOT.Char.GetFaith.ReligiousText|U]",
+    "BEL": ""
+  }
+]

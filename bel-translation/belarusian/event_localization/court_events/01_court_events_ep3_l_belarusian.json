@@ -1,0 +1,1986 @@
+[
+  {
+    "KEY": "employer_booner_invalidated_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "#weak Modifier will be removed if [position_holder.GetShortUIName|V] loses this [court_position|E] or is not in the same [court|E] as [THIS.Char.GetShortUIName|V]#!",
+    "RUS": "#weak Модификатор будет удален, если [position_holder.GetShortUIName|V] [Select_CString(position_holder.IsLocalPlayer, 'лишитесь', 'лишится')] этой [Concept( 'court_position', 'придворной должности' )|E] или [Select_CString(position_holder.IsLocalPlayer, 'окажетесь', 'окажется')] при разных [Concept( 'court', 'дворах' )|E] с [Select_CString(THIS.Char.IsLocalPlayer, '', 'персонажем ' )][THIS.Char.GetNamePossessiveOrMy|V][Select_CString(THIS.Char.IsLocalPlayer, 'им персонажем', '' )|V]#!",
+    "POL": "#weak Modyfikator zostanie usunięty, jeśli [position_holder.GetShortUINameNotMe|V] utraci ten [court_position|El] lub przestanie należeć do tego samego [Concept('court', 'dworu')|E], co [THIS.Char.GetShortUINameNotMe|V]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_boon_target_invalidated_title",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Courtier Loses Boon",
+    "RUS": "Потеря преимущества при дворе",
+    "POL": "Dworzanin traci dobrodziejstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_invalidated_title",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Court Position Boon Lost",
+    "RUS": "Преимущество при дворе потеряно",
+    "POL": "Dobrodziejstwo związane z pozycją na dworze utracone",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Good Doctor [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "Добрый доктор [position_holder.GetFirstNameNoTooltip]",
+    "POL": "[position_holder.GetFirstNameNoTooltip] na straży zdrowia",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_physician_court_position').GetName()], [position_holder.GetTitledFirstName], is a true healer, always ready with some suitable remedy or poultice at the first murmurings of a courtier's mildest malady.\\n\\n[position_holder.GetHerHis|U] talents seem almost wasted, stretched as [position_holder.GetSheHe] is in treating the demanding denizens of the entire [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] court.",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_physician_court_position').GetName()], [position_holder.GetTitledFirstName] — просто чудо! Стоит кому-то из придворных пожаловаться на малейшее недомогание, и у [Select_CString(position_holder.IsFemale, 'нее', 'него' )] тут же найдутся какие-нибудь пилюли или мазь как раз для такого случая.\\n\\nИногда я думаю, что необходимость врачевать болячки всего [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ого двора — пустая трата [Select_CString(position_holder.IsFemale, 'ее', 'его' )] поразительного таланта.",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('court_physician_court_position').GetName()|l] na moich usługach, nie ma sobie równych, jeśli chodzi o ochronę zdrowia. Gdy tylko któryś z dworzan zaczyna przejawiać choćby najmniejsze objawy choroby, [position_holder.GetTitledFirstName] zawsze ma pod ręką odpowiednie lekarstwa czy okłady.\\n\\nMam wrażenie, że zdolności tej osoby są niemal zmarnowane przez fakt, że musi ona spełniać niekończące się potrzeby mieszkańców dworu miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetNameNoTier].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I could do with some closer attention.",
+    "RUS": "Мне не помешает персональный уход...",
+    "POL": "Przydałaby mi się bardziej prywatna opieka medyczna.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You will look to my heir, [heir.GetFirstNameNoTooltip].",
+    "RUS": "Я хочу, чтобы вашим основным пациентом [Select_CString(position_holder.IsFemale, 'стала моя наследница', 'стал мой наследник' )] [heir.GetFirstNameNoTooltip].",
+    "POL": "Zajmiesz się moim dziedzicem, osobą, którą jest [heir.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Focus your efforts on my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], [child.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstNameNoTooltip] — ваш первейший пациент.",
+    "POL": "[child.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], będzie wymagać twojej uwagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('spouse'))], [spouse.GetFirstNameNoTooltip], could use your talents.",
+    "RUS": "[Select_CString(spouse.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('spouse'))] [spouse.GetFirstNameNoTooltip] особенно нуждается в вашей помощи.",
+    "POL": "[spouse.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('spouse'))], chętnie skorzysta z twoich umiejętności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Tend to [relation.GetFirstNameNoTooltip], for now.",
+    "RUS": "Теперь ваш основной пациент — [relation.GetFirstNameNoTooltip].",
+    "POL": "Na razie zajmij się osobą, którą jest [relation.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))], [family.GetFirstNameNoTooltip], is your priority patient.",
+    "RUS": "[Select_CString(family.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))] [family.GetFirstNameNoTooltip] [Select_CString(family.IsFemale, 'должна', 'должен' )] получать вашу помощь в первую очередь.",
+    "POL": "Niech [family.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family'))], będzie twoim priorytetem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8190.g",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "See to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))], [house.GetFirstNamePossessiveNoTooltip], complaints.",
+    "RUS": "В ваших услугах нуждается [Select_CString(house.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))] [house.GetFirstNameNoTooltip].",
+    "POL": "[house.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house'))], może potrzebować pomocy. Zajmij się tym.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_court_physician_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Close Attention",
+    "RUS": "Особое внимание",
+    "POL": "Bliska uwaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_court_physician_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled $court_physician_court_position$'s energies.",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелого врача.",
+    "POL": "Utalentowany osobisty medyk nieustannie poświęca swoją uwagę tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Special Tutelage",
+    "RUS": "Отдельные занятия",
+    "POL": "Wyjątkowe nauki",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()], [position_holder.GetTitledFirstName], is a talented teacher, deftly keeping the unruly tykes in line as [position_holder.GetSheHe] governs their education.\\n\\n[position_holder.GetHerHis|U] attention is stretched across the children of the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] court, but there is room for one of them to receive some closer tutoring under [position_holder.GetHerHis] trusty watch.",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()], [position_holder.GetTitledFirstName], — исключительно [Select_CString(position_holder.IsFemale, 'одаренная учительница', 'одаренный учитель' )]. Даже не представляю, как [position_holder.GetSheHe] справляется с непослушной детворой, которую пытается чему-то научить.\\n\\nХотя [position_holder.GetFirstNameNoTooltip] занимается со всеми детьми при [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ом дворе, я могу попросить [Select_CString(position_holder.IsFemale, 'ее', 'его' )] выделить время для отдельных уроков с кем-то из них.",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('court_tutor_court_position').GetName()|l] na moich usługach, nie ma sobie równych, jeśli chodzi o przekazywanie wiedzy. Jak nikt inny jest w stanie utrzymać w ryzach urwisów, których edukacją się zajmuje.\\n\\nUwaga tej osoby jest podzielona pomiędzy wszystkie dzieci żyjące na dworze miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ale istnieje możliwość, by jedno z nich otrzymało dodatkowe wsparcie w nauce pod jej czujnym okiem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "#EMP I#! want to learn more!",
+    "RUS": "#EMP Я#! хочу учиться!",
+    "POL": "To #EMP ja#! chcę nauczyć się czegoś nowego!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], is in line to inherit, and must be wise.",
+    "RUS": "[Select_CString(heir.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], получит титул после меня. [Select_CString(heir.IsFemale, 'Ей', 'Ему' )] не помешает лишняя толика знаний.",
+    "POL": "[heir.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], odziedziczy tytuł i dlatego musi być osobą światłą.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I think my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], [struggling.GetFirstNameNoTooltip], needs some help.",
+    "RUS": "Похоже, [Select_CString(struggling.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))] [struggling.GetFirstNameNoTooltip] не справляется с учебой. [Select_CString(struggling.IsFemale, 'Ей', 'Ему' )] нужна помощь.",
+    "POL": "[struggling.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], z pewnością skorzysta na dodatkowej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Why not focus on my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNameNoTooltip]?",
+    "RUS": "[Select_CString(hostage.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNameNoTooltip], — вот кому нужны дополнительные занятия.",
+    "POL": "Niech [hostage.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], otrzyma od ciebie więcej uwagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], could use your talents.",
+    "RUS": "[Select_CString(interesting.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], нуждается в дополнительных уроках.",
+    "POL": "[interesting.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], chętnie skorzysta z twoich umiejętności.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Look to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], [oldest.GetFirstNamePossessiveNoTooltip], education.",
+    "RUS": "[Select_CString(oldest.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], [oldest.GetFirstNameNoTooltip], [Select_CString(oldest.IsFemale, 'должна', 'должен' )] получить лучшее образование.",
+    "POL": "[oldest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], musi otrzymać lepszą edukację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.g",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "It's time my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))], [youngest.GetFirstNameNoTooltip], sharpened [youngest.GetHerHis] quill.",
+    "RUS": "Пусть [Select_CString(youngest.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))] [youngest.GetFirstNameNoTooltip] как следует овладеет пером.",
+    "POL": "Najwyższa pora, by osoba, którą jest [youngest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))], zgłębiła kilka nowych zagadnień.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.h",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Focus on my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(extra.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip], больше других нуждается в ваших услугах.",
+    "POL": "[extra.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], ma priorytet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8191.i",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], [bonus.GetFirstNameNoTooltip], would benefit most.",
+    "RUS": "[Select_CString(bonus.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], [bonus.GetFirstNameNoTooltip], — [Select_CString(bonus.IsFemale, 'ей', 'ему' )] нужно больше знаний.",
+    "POL": "[bonus.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], najbardziej na tym skorzysta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_court_tutor_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Special Tutelage",
+    "RUS": "Отдельные занятия",
+    "POL": "Wyjątkowe nauki",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_court_tutor_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled Court Tutor's energies.\\nImproves this [child_possessive|E] [education|E] outcomes",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелого придворного наставника.\\nЭто улучшает результаты [Concept( 'education', 'учебы' )|E] [Concept( 'child_possessive', 'ребенка' )|E]",
+    "POL": "Utalentowany nadworny ochmistrz nieustannie poświęca swoją uwagę tej postaci.\\nRezultaty [Concept('education', 'edukacji')|E] tego [child_possessive|El] są lepsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "A Tight Ship",
+    "RUS": "Эффективное управление",
+    "POL": "Ręka na pulsie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Since [position_holder.GetHerHis] appointment as my [GetCourtPositionType('seneschal_court_position').GetName()], [position_holder.GetTitledFirstName] has been an ever-[position_holder.Custom('ComplimentAdjective')] presence, ensuring the smooth running of my court and household.\\n\\nAs I dwell on my good appointment, I hear [position_holder.GetHerHis] voice behind me: ",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#! [GetCourtPositionType('seneschal_court_position').GetName()|l], упорно трудится на благо моего имения и двора.\\n\\nРазмышляя об этом удачном выборе, я слышу за спиной [Select_CString(position_holder.IsFemale,'ее', 'его')] голос: «[position_holder.Custom2('RelationToMeShort', ROOT.Char)|U], я [Select_CString(position_holder.IsFemale,'обнаружила', 'обнаружил')], что в вашем [ROOT.Char.Custom('ResidenceBuilding_RU_Prep')] можно сократить многие расходы, но мне интересно ваше мнение. На чем, по-вашему, стоит сэкономить?»\\n\\n[Select_CString(position_holder.IsFemale,'Она', 'Он')] показывает мне учетную книгу, с любопытством поднимая бровь.",
+    "POL": "Osoba znana jako [position_holder.GetTitledFirstName] okazała się nieocenioną pomocą i odkąd zajmuje na moim dworze stanowisko, którym jest [GetCourtPositionType('seneschal_court_position').GetName()|l], wszystkie aspekty mojego dworu i domostwa działają bez zarzutów.\\n\\nGdy rozmyślam nad swoją świetną decyzją, słyszę za sobą głos:\\n\\n– [position_holder.Custom2('RelationToMeShortVocative', ROOT.Char)|U], udało mi się ustalić, że jestem w stanie dla ciebie pozyskać dodatkowe środki, ale zastanawiam się, gdzie w pierwszej kolejności powinniśmy szukać oszczędności – zwraca się do mnie [position_holder.GetTitledFirstName].\\n\\nPo chwili wyciąga księgę rachunkową i spogląda na mnie pytającym wzrokiem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I think we can spare on the furnishings.",
+    "RUS": "Думаю, можно урезать траты на убранство.",
+    "POL": "Myślę, że możemy zaoszczędzić na meblach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Make sure you get the most of the servants.",
+    "RUS": "Убедись, что у нас не больше слуг, чем нужно.",
+    "POL": "Dopilnuj, abyśmy jak najlepiej wykorzystali służących.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Why compromise?",
+    "RUS": "Зачем искать компромиссы?",
+    "POL": "Po co iść na kompromisy?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8192.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Lodging Economies",
+    "RUS": "Экономия на домашнем хозяйстве",
+    "POL": "Oszczędności w zakresie zakwaterowania",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's vassals are looked to by a skilled Seneschal.",
+    "RUS": "За вассалами этого персонажа следит умелый сенешаль.",
+    "POL": "Wasalami tej postaci zajmuje się utalentowany seneszal.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Taskmaster",
+    "RUS": "Управляющий",
+    "POL": "Nadzorca",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's court is under the reins of a skilled Seneschal.\\nLodging [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "Двором этого персонажа управляет умелый сенешаль. \\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E]: #P -25%#!",
+    "POL": "Dworem tej postaci zarządza utalentowany seneszal.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących kwater: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Taskmaster's Economies",
+    "RUS": "Экономия управляющего",
+    "POL": "Oszczędności nadzorcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_seneschal_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's court and servants are under the reins of a skilled Seneschal.\\nLodging [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "Двором и слугами этого персонажа управляет умелый сенешаль. \\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E]: #P -25%#!",
+    "POL": "Dworem i służącymi tej postaci zarządza utalentowany seneszal.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących kwater: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Well Looked After",
+    "RUS": "Под присмотром",
+    "POL": "Dobra opieka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('wet_nurse_court_position').GetName()], [position_holder.GetTitledFirstName], is a natural with the children, looking after the scamps as though they were [position_holder.GetHerHis] own babes.\\n\\nI am somewhat taken aback when [position_holder.GetSheHe] asks me, between scolding one of the bairns: ",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('wet_nurse_court_position').GetName()], [position_holder.GetTitledFirstName], так заботится о наших карапузах, словно это [Select_CString(position_holder.IsFemale, 'ее', 'его' )] родные дети. У [Select_CString(position_holder.IsFemale, 'нее', 'него' )] настоящий дар!\\n\\nОтчитывая очередного ребенка, [position_holder.GetSheHe] внезапно поворачивается ко мне: «[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], может, кто-то из малышей [ROOT.Char.Custom('GetCourt_RU_WhereTo')] нуждается в моем особом внимании?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('wet_nurse_court_position').GetName()|l] na moich usługach, ma naturalny talent do zajmowania się dziećmi. Opiekuje się nimi jak własnymi pociechami.\\n\\nPewnego razu, w przerwie od strofowania nicponi, zwraca się do mnie z pytaniem, które zbija mnie z tropu.\\n\\n– Niech mi [ROOT.Char.GetTitleAsNameNoTooltip] powie: czy któreś z dzieci wymaga mojej szczególnej uwagi?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "#EMP I#! should have all [position_holder.GetHerHis] time!",
+    "RUS": "#EMP Я#! нуждаюсь в [Select_CString(position_holder.IsFemale, 'ее', 'его' )] особом внимании!",
+    "POL": "To #EMP mnie#! powinno się poświęcać cały czas!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My young heir, [heir.GetFirstNameNoTooltip], comes first.",
+    "RUS": "[Select_CString(heir.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], стоит на первом месте.",
+    "POL": "Najważniejszy jest mój młody dziedzic, [heir.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Look to my newborn [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('baby'))], [baby.GetFirstNameNoTooltip].",
+    "RUS": "В вас особенно нуждается [Select_CString(baby.IsFemale, 'моя новорожденная', 'мой новорожденный' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('baby'))] [baby.GetFirstNameNoTooltip].",
+    "POL": "[baby.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('baby'))], to maleńkie dziecko, które wymaga twojej opieki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNameNoTooltip], will be well looked after.",
+    "RUS": "[Select_CString(hostage.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNameNoTooltip]. Проследите, чтобы [hostage.GetSheHe] ни в чем не [Select_CString(hostage.IsFemale, 'нуждалась', 'нуждался' )].",
+    "POL": "[hostage.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], otrzyma dobrą opiekę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Focus on my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(interesting.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], больше других нуждается в вашей заботе.",
+    "POL": "[interesting.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], ma priorytet.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Little [sickest.GetFirstNameNoTooltip], my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sickest'))], is your priority.",
+    "RUS": "[Select_CString(sickest.IsFemale, 'Малышка', 'Малыш' )] [sickest.GetFirstNameNoTooltip], [Select_CString(sickest.IsFemale, 'моя дорогая', 'мой дорогой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sickest'))], отчаянно нуждается в помощи.",
+    "POL": "Niech [sickest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sickest'))], to maleństwo, będzie twoim priorytetem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.g",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Spend more time with my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second_sickest'))], [second_sickest.GetFirstNameNoTooltip].",
+    "RUS": "Проследите, чтобы [Select_CString(second_sickest.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second_sickest'))] [second_sickest.GetFirstNameNoTooltip] [Select_CString(second_sickest.IsFemale, 'получила', 'получил' )] побольше любви.",
+    "POL": "[second_sickest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('second_sickest'))], potrzebuje, by spędzano z [second_sickest.Custom('PL_nim_nia')] więcej czasu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.h",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Make a special effort for my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(extra.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip]. Вы нужны [Select_CString(extra.IsFemale, 'ей', 'ему' )].",
+    "POL": "[extra.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], potrzebuje dodatkowej uwagi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8193.i",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I want my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], [bonus.GetFirstNameNoTooltip] to grow up strong.",
+    "RUS": "Я хочу, чтобы [Select_CString(bonus.IsFemale, 'моя', 'мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))] [bonus.GetFirstNameNoTooltip] [Select_CString(bonus.IsFemale, 'росла', 'рос' )] здоровым и сильным ребенком.",
+    "POL": "[bonus.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], ma wyrosnąć na silną osobę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_wet_nurse_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Nurse's Pet",
+    "RUS": "Любимчик кормилицы",
+    "POL": "Pupilek mamki",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_wet_nurse_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled Wet Nurse's energies.",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелой кормилицы.",
+    "POL": "Utalentowana mamka nieustannie poświęca swoją uwagę tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Objects of Charity",
+    "RUS": "Цели благотворительности",
+    "POL": "Dylematy dobroczyńcy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('high_almoner_court_position').GetName()], [position_holder.GetTitledFirstName], handles [position_holder.GetHerHis] responsibilities with great care, and [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] charity gains wider repute.\\n\\nI am somewhat surprised, therefore, when [position_holder.GetSheHe] asks me, a bag of coin jangling in [position_holder.GetHerHis] palm: ",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')] [GetCourtPositionType('high_almoner_court_position').GetName()|l], прекрасно справляется со своими обязанностями. [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ие благодеяния известны многим.\\n\\nПоэтому меня удивило, когда [Select_CString(position_holder.IsFemale,'она спросила', 'он спросил')] меня, позванивая кошелем с монетами: «Мне приходится выбирать между благочестивыми дамами и господами владения [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] и нуждающимся народом. Прошу вашего совета, [ROOT.Char.Custom('FormOfAddressForLiege')]...»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('high_almoner_court_position').GetName()|l] na moich usługach, podchodzi do swoich obowiązków bardzo sumiennie, dzięki czemu miłosierdzie [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] zyskuje coraz większą sławę.\\n\\nDziwię się zatem, gdy pewnego razu, trzymając w dłoni sakiewkę pełną monet, zwraca się do mnie tymi słowami:\\n\\n– Muszę dzielić czas między tych, którzy są w prawdziwej potrzebie, a pobożnymi lordami i damami z miejsca znanego jako [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]. Niech mi [ROOT.Char.Custom('FormOfAddressForLiege')] pomoże…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Bestow [ROOT.Char.GetFaith.WealthGodNamePossessive] grace on the poor.",
+    "RUS": "Пусть [ROOT.Char.GetFaith.WealthGodName] одарит бедных.",
+    "POL": "Niech łaska [ROOT.Char.GetFaith.WealthGodNamePossessive] spadnie na biednych.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Ensure these alms end up in the right places...",
+    "RUS": "Убедись, что пожертвования попадут в нужные руки...",
+    "POL": "Niech ta jałmużna trafi w odpowiednie ręce…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I see a way that benefits all.",
+    "RUS": "Я знаю, как угодить всем.",
+    "POL": "Widzę pewne rozwiązanie, na którym skorzystają wszyscy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8194.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Directed Relief",
+    "RUS": "Направленная помощь",
+    "POL": "Nakierowana pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's needy subjects are the focus of an attentive High Almoner.",
+    "RUS": "Внимательный главный альмонарий заботится о нуждающихся подданных этого персонажа.",
+    "POL": "Uważny wielki jałmużnik troszczy się o potrzebujących poddanych tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Performative Charity",
+    "RUS": "Показательная милость",
+    "POL": "Miłosierdzie na pokaz",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's pious vassal's consciences are the focus of an attentive High Almoner.",
+    "RUS": "Внимательный главный альмонарий заботится о благочестивых вассалах этого персонажа.",
+    "POL": "Uważny wielki jałmużnik troszczy się o sumienie pobożnych wasali tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Performative Relief",
+    "RUS": "Показательная помощь",
+    "POL": "Pomoc na pokaz",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_high_almoner_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's needy subjects and pious vassal's consciences are the focus of an attentive High Almoner.",
+    "RUS": "Внимательный главный альмонарий заботится о нуждающихся подданных и благочестивых вассалах этого персонажа.",
+    "POL": "Uważny wielki jałmużnik troszczy się o potrzebujących poddanych i sumienie pobożnych wasali tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Handling Oneself",
+    "RUS": "Умение постоять за себя",
+    "POL": "Zajmowanie się sobą",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('bodyguard_court_position').GetName()], [position_holder.GetTitledFirstName], is an inspiring fighter to behold in the practice yard, and a greatly reassuring presence about the [ROOT.Char.Custom('ResidenceBuilding')|l].\\n\\nOne day [position_holder.GetSheHe] approaches me, practice sword in hand, with [portrait.GetFirstName] in tow, and asks: ",
+    "RUS": "[Select_CString(position_holder.IsFemale,'Моя', 'Мой')] [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')] [GetCourtPositionType('bodyguard_court_position').GetName()|l], [position_holder.GetTitledFirstName], великолепно сражается на тренировочном поле и обеспечивает спокойствие [ROOT.Char.Custom('ResidenceBuilding_RU_Gen')].\\n\\nВ один прекрасный день [Select_CString(position_holder.IsFemale,'она', 'он')] и [portrait.GetFirstName] являются ко мне. Держа учебный меч, [position_holder.GetTitledFirstName] спрашивает: «Люди просят меня научить их искусству боя. [ROOT.Char.Custom('FormOfAddressForLiege')|U], с вашего позволения я буду давать уроки, но кого мне следует обучить?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('bodyguard_court_position').GetName()|l] na moich usługach, dysponuje wspaniałymi umiejętnościami walki. Wspaniale jest podziwiać [position_holder.Custom('PL_go_ja')] na placu ćwiczebnym, a [ROOT.Char.Custom('ResidenceBuilding')|l] korzysta na [position_holder.GetHerHis] obecności, która dodaje wszystkim otuchy.\\n\\nPewnego dnia [position_holder.GetFirstNameNoTooltip] podchodzi do mnie, dzierżąc w dłoni miecz ćwiczebny, w towarzystwie jeszcze jednej osoby, którą jest [portrait.GetFirstName].\\n\\n– Otrzymuję wiele próśb o szkolenie i chętnie je wszystkie spełnię, o ile mi [ROOT.Char.Custom('FormOfAddressForLiege')] pozwoli. Czy mam wziąć kogoś konkretnego pod swoje skrzydła?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You will spar with #EMP me#!!",
+    "RUS": "Будуешь тренироваться со #EMP мной#!!",
+    "POL": "#EMP Ja#! będę z tobą ćwiczyć!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))] and heir, [heir.GetFirstNameNoTooltip], must be strong.",
+    "RUS": "[heir.GetFirstNameNoTooltip], [Select_CString(heir.IsFemale,'моя', 'мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))] и [Select_CString(heir.IsFemale,'наследница', 'наследник')], [Select_CString(heir.IsFemale,'должна', 'должен')] быть [Select_CString(heir.IsFemale,'сильной', 'сильным')].",
+    "POL": "[heir.GetFirstNameNoTooltip], mój dziedzic i jednocześnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], musi urosnąć w siłę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I think my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], [struggling.GetFirstNameNoTooltip], could use your guidance.",
+    "RUS": "Кажется, [Select_CString(struggling.IsFemale,'моя', 'мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))] [struggling.GetFirstNameNoTooltip] не справляется с обучением. [Select_CString(struggling.IsFemale, 'Ей', 'Ему' )] пригодится твоя помощь.",
+    "POL": "[struggling.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], skorzysta na twojej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Focus on my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNamePossessiveNoTooltip] training.",
+    "RUS": "[Select_CString(hostage.IsFemale,'Моя', 'Мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstNamePossessiveNoTooltip], — вот кому нужны дополнительные занятия.",
+    "POL": "[hostage.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], musi się podszkolić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], could use your attention.",
+    "RUS": "[Select_CString(interesting.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], нуждается в твоем внимании.",
+    "POL": "[interesting.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], skorzysta na twojej uwadze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Train my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], [oldest.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(oldest.IsFemale,'Моя', 'Мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], [oldest.GetFirstNameNoTooltip], [Select_CString(oldest.IsFemale,'должна', 'должен' )] тренироваться с тобой.",
+    "POL": "Niech [oldest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('oldest'))], z tobą ćwiczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.g",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "It's time my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))], [oldest.GetFirstNameNoTooltip], learned to fight.",
+    "RUS": "Пусть [Select_CString(youngest.IsFemale,'моя', 'мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))] [youngest.GetFirstNameNoTooltip] как следует овладеет мечом.",
+    "POL": "[oldest.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngest'))], musi wreszcie nauczyć się walczyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.h",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Look to my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip].",
+    "RUS": "[Select_CString(extra.IsFemale,'Моя', 'Мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], [extra.GetFirstNameNoTooltip], нуждается в тренировках.",
+    "POL": "[extra.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extra'))], potrzebuje twojego nadzoru.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8195.i",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], [bonus.GetFirstNameNoTooltip], would benefit most.",
+    "RUS": "[Select_CString(bonus.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], [bonus.GetFirstNameNoTooltip], [Select_CString(bonus.IsFemale,'должна', 'должен')] обучаться у тебя.",
+    "POL": "[bonus.GetFirstNameNoTooltip], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bonus'))], najbardziej na tym skorzysta.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_bodyguard_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Sparring Practice",
+    "RUS": "Учебные поединки",
+    "POL": "Sparingi",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_bodyguard_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is receiving personal training from a skilled Bodyguard.",
+    "RUS": "Этого персонажа тренирует опытный телохранитель.",
+    "POL": "Ta postać ćwiczy pod czujnym okiem utalentowanego osobistego strażnika.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "In the Saddle",
+    "RUS": "В седле",
+    "POL": "W siodle",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "The talents of my [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('master_of_horse_court_position').GetName()], [position_holder.GetTitledFirstName], are widely agreed to be invaluable.\\n\\nThe training and precision of the horses has come on leaps and bounds, and [position_holder.GetSheHe] has a natural ability to keep both the animals and their captains in-check.\\n\\nToday [position_holder.GetSheHe] approaches me in the throne room and asks me directly: ",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#!  [GetCourtPositionType('master_of_horse_court_position').GetName()|l], обладает поистине бесценным талантом.\\n\\nВыучка и верность лошадей растет не по дням, а почасам. У [Select_CString(position_holder.IsFemale,'нее', 'него')] природный дар держать в узде как коней, так и наездников.\\n\\nСегодня [Select_CString(position_holder.IsFemale,'она явилась', 'он явился')] в тронный зал и прямо [Select_CString(position_holder.IsFemale,'спросила', 'спросил')]: «[Select_CString(ROOT.Char.IsFemale,'Моя', 'Мой')] [ROOT.Char.GetTitleAsNameNoTooltip], стоит ли мне подготовить руководство по содержанию конюшен или сосредоточиться на обучении?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('master_of_horse_court_position').GetName()|l] na moich usługach, jest osobą o bezcennych talentach.\\n\\nNiezwykle szybko tresuje konie i uczy je precyzji, a do tego potrafi trzymać w ryzach zarówno te zwierzęta, jak i ich kapitanów.\\n\\nDzisiaj podchodzi do mnie w sali tronowej i mówi wprost:\\n\\n– Niech mi [ROOT.Char.GetTitleAsNameNoTooltip] powie: czy mam sporządzić porządne wytyczne dotyczące trzymania koni w stajni, czy lepiej skupić się na szkoleniu?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Scrimp all you can on the horses.",
+    "RUS": "Брось все силы на лошадей.",
+    "POL": "Przyoszczędź na koniach, ile się da.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "An empty saddle is useless.",
+    "RUS": "В пустом седле нет пользы.",
+    "POL": "Z pustego siodła nie ma żadnego pożytku.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Can't you do both?",
+    "RUS": "А можешь сделать и то, и другое?",
+    "POL": "Nie możesz zrobić i jednego, i drugiego?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8196.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Lean Stabling",
+    "RUS": "Достойные конюшни",
+    "POL": "Sprawnie zarządzane stajnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's stables are the constant focus of a skilled Master of the Horse's energies.",
+    "RUS": "За конюшнями этого персонажа присматривает умелый главный конюший.",
+    "POL": "Utalentowany koniuszy nieustannie poświęca swoją uwagę stajniom tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Captain Promotion",
+    "RUS": "Повышение капитана",
+    "POL": "Awans na kapitana",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's cavalry officers are the constant focus of a skilled Master of the Horse's energies.\\nTrain Commanders [councillor_task|E] is more effective",
+    "RUS": "Кавалерийские офицеры этого персонажа находятся под пристальным контролем умелого главного конюшего.\\n[Concept('councillor_task', 'Задание совета')|E] «Обучить командиров» выполняется эффективнее",
+    "POL": "Utalentowany koniuszy nieustannie poświęca swoją uwagę oficerom kawalerii tej postaci.\\n[councillor_task|E] „Szkól dowódców” jest skuteczniejsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Lean Promotion",
+    "RUS": "Достойное повышение",
+    "POL": "Sprawny awans",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_horse_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's stables and cavalry officers are the constant focus of a skilled Master of the Horse's energies.\\nTrain Commanders [councillor_task|E] is more effective",
+    "RUS": "Кавалерийские офицеры и конюшни этого персонажа находятся под пристальным контролем умелого главного конюшего.\\n[Concept('councillor_task', 'Задание совета')|E] «Обучить командиров» выполняется эффективнее",
+    "POL": "Utalentowany koniuszy nieustannie poświęca swoją uwagę stajniom i oficerom kawalerii tej postaci.\\n[councillor_task|E] „Szkól dowódców” jest skuteczniejsze",
+    "BEL": ""
+  },
+  {
+    "KEY": "task_train_commanders_master_of_horse_2_bonus_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "\\n$TAB$$employer_booner_master_of_horse_2_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "RUS": "\\n$TAB$$employer_booner_master_of_horse_2_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "POL": "\\n$TAB$$employer_booner_master_of_horse_2_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "task_train_commanders_master_of_horse_3_bonus_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "\\n$TAB$$employer_booner_master_of_horse_3_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "RUS": "\\n$TAB$$employer_booner_master_of_horse_3_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "POL": "\\n$TAB$$employer_booner_master_of_horse_3_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.Custom('QueenKing')] of the Road",
+    "RUS": "[position_holder.Custom('QueenKing')] дорог",
+    "POL": "[position_holder.Custom('QueenKing')] szlaku",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('travel_leader_court_position').GetName()], [position_holder.GetTitledFirstName], is a masterful organizer: since hiring [position_holder.GetHerHim], even the slightest sojourn seems a vision of hasty ease!\\n\\n[position_holder.GetSheHe|U] busies [position_holder.GetHerselfHimself] day and night, replenishing supplies and updating [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] itineraries. For a moment, I am taken aback, when [position_holder.GetSheHe] earnestly asks me: ",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('travel_leader_court_position').GetName()], [position_holder.GetTitledFirstName], обладает прирожденным талантом к организации путешествий. С тех пор, как я [Select_CString(ROOT.Char.IsFemale, 'наняла', 'нанял' )] [Select_CString(position_holder.IsFemale, 'ее', 'его' )] на службу, все наши поездки проходят как по маслу!\\n\\n[position_holder.GetSheHe|U] работает не покладая рук, пополняя наши припасы и составляя карты [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]их дорог. И тут [position_holder.GetSheHe] задает мне неожиданный вопрос: «[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.GetTitleAsNameNoTooltip|l], что вы цените больше, время или здоровье?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('travel_leader_court_position').GetName()|l] na moich usługach, zna się na organizacji jak mało kto. Odkąd dla mnie pracuje, każda przerwa w podróży mija w mgnieniu oka.\\n\\n[position_holder.GetFirstNameNoTooltip] przygotowuje się do wypraw dniami i nocami, uzupełniając zapasy i aktualizując mapy [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]. Pewnego razu zaskakuje mnie więc, pytając mnie wprost:\\n\\n– Niech mi [ROOT.Char.GetTitleAsNameNoTooltip] powie, co jest dla [ROOT.Char.Custom('PL_niego_niej')] ważniejsze: czas czy zdrowie?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I just want to get where I'm going in one piece!",
+    "RUS": "Я лишь хочу добраться до нужного места в целости и сохранности!",
+    "POL": "Ja chcę po prostu dotrzeć do celu w jednym kawałku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "We must never dawdle, I have too much to do.",
+    "RUS": "Мы не можем медлить, ведь у меня всегда столько дел.",
+    "POL": "Nie możemy się obijać. Mam za dużo pracy na głowie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My safety and time are equally valuable!",
+    "RUS": "Скорость и безопасность для меня одинаково важны!",
+    "POL": "Moje bezpieczeństwo i mój czas są równie ważne!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8197.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Safe Travels",
+    "RUS": "Безопасность в дороге",
+    "POL": "Bezpieczne podróże",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled Caravan Master's energies.",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелого караванщика.",
+    "POL": "Utalentowany mistrz karawany nieustannie poświęca swoją uwagę tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Making Time",
+    "RUS": "Быстрые путешествия",
+    "POL": "Czas na pierwszym miejscu",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled Caravan Master's energies.",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелого караванщика.",
+    "POL": "Utalentowany mistrz karawany nieustannie poświęca swoją uwagę tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Making Safe Time",
+    "RUS": "Быстрые и безопасные путешествия",
+    "POL": "Czas i bezpieczeństwo na pierwszym miejscu",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_travel_leader_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character is the constant focus of a skilled Caravan Master's energies.",
+    "RUS": "Этот персонаж находится под постоянным присмотром умелого караванщика.",
+    "POL": "Utalentowany mistrz karawany nieustannie poświęca swoją uwagę tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Attentive Curator",
+    "RUS": "Внимательный хранитель",
+    "POL": "Uważny kustosz",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('antiquarian_court_position').GetName()], [position_holder.GetTitledFirstName], looks after my treasury well: the items are kept well cleaned and dusted, and [position_holder.GetSheHe] is always ready with a tidbit to proffer to any curious, or not so curious, guest.\\n\\nWith responsibility for all the treasures of [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] court, [position_holder.GetHerHis] time is understandably stretched, and [position_holder.GetSheHe] asks me, after I hail [position_holder.GetHerHis] good work, whether: ",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Моя', 'Мой' )] [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('antiquarian_court_position').GetName()], [position_holder.GetTitledFirstName], превосходно присматривает за сокровищницей. Там царит чистота, на предметах нет ни пылинки, и у [Select_CString(position_holder.IsFemale, 'нее', 'него' )] всегда наготове какая-нибудь увлекательная история о каждом из моих бесценных артефактов.\\n\\nСвободного времени у [Select_CString(position_holder.IsFemale, 'нее', 'него' )] немного, ведь [Select_CString(position_holder.IsFemale, 'ей', 'ему' )] приходится следить за всеми сокровищами [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]ого двора. Тем не менее, когда я в очередной раз благодарю [Select_CString(position_holder.IsFemale, 'ее', 'его' )] за отличную работу, [position_holder.GetFirstNameNoTooltip] спрашивает: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], быть может, какие-то предметы нуждаются в особом внимании?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('antiquarian_court_position').GetName()|l] na moich usługach, dobrze zajmuje się moim skarbcem. Przechowywane w nim obiekty nigdy nie są brudne ani zakurzone, a [position_holder.GetSheHe] jest zawsze w gotowości, aby opowiedzieć jakąś ciekawostkę każdemu wykazującemu większe lub mniejsze zainteresowanie gościowi.\\n\\nDoglądanie wszystkich skarbów dworu [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] to odpowiedzialne i czasochłonne zadanie. Gdy chwalę [position_holder.Custom('PL_go_ja')] za dobrą pracę, zadaje mi następujące pytanie:\\n\\n– Czy któreś z przedmiotów wymagają mojej szczególnej uwagi?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Could you look at this [weak_1.Custom('ArtifactType')]?",
+    "RUS": "Вы не могли бы взглянуть на артефакт «[weak_1.Custom('ArtifactType')]»?",
+    "POL": "Mam coś, na co możesz rzucić okiem – to [weak_1.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "There #EMP is#! a lackluster [weak_2.Custom('ArtifactType')].",
+    "RUS": "Честно говоря, артефакт «[weak_2.Custom('ArtifactType')]» выглядит #EMP не очень#!.",
+    "POL": "#EMP Owszem#!, mam coś pozbawionego wyrazu – to [weak_2.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Take a gander at this [weak_3.Custom('ArtifactType')] for me.",
+    "RUS": "Посмотрите на артефакт «[weak_3.Custom('ArtifactType')]».",
+    "POL": "Spójrz na tę rzecz, jeśli łaska – to [weak_3.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.d",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This [broken_1.Custom('ArtifactType')] could use some repairs.",
+    "RUS": "Артефакт «[broken_1.Custom('ArtifactType')]» сломан, не мешало бы починить его.",
+    "POL": "Mam coś, co przydałoby się naprawić – to [broken_1.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.e",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [broken_2.Custom('ArtifactType')] is falling to bits.",
+    "RUS": "Артефакт «[broken_2.Custom('ArtifactType')]» разваливается в руках.",
+    "POL": "Jedna rzecz już mi się rozpada – to [broken_2.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.f",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Look after this [broken_3.Custom('ArtifactType')].",
+    "RUS": "Позаботьтесь об артефакте «[broken_3.Custom('ArtifactType')]».",
+    "POL": "Zajmij się tym – to [broken_3.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.g",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "What about my [weak_4.Custom('ArtifactType')]?",
+    "RUS": "Как насчет артефакта «[weak_4.Custom('ArtifactType')]»?",
+    "POL": "Ta rzecz wymaga nieco uwagi – to [weak_4.Custom('ArtifactType')|l].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.h",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Repair the [broken_4.Custom('ArtifactType')], would you?",
+    "RUS": "Отремонтируйте артефакт «[broken_4.Custom('ArtifactType')]», хорошо?",
+    "POL": "Mam coś, co wymaga naprawy – to [broken_4.Custom('ArtifactType')|l]. Zajmiesz się tym?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8198.i",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "No, just keep up the good work!",
+    "RUS": "Нет, просто продолжай в том же духе!",
+    "POL": "Nie, wykonujesz świetną pracę. Tak trzymaj!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_antiquarian_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Attentive Curator",
+    "RUS": "Внимательный хранитель",
+    "POL": "Uważny kustosz",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_antiquarian_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's reliquary is the constant focus of a skilled Antiquarian's energies.",
+    "RUS": "Реликварий этого персонажа находится под постоянным присмотром умелого хранителя древностей.",
+    "POL": "Utalentowany antykwariusz nieustannie poświęca swoją uwagę relikwiarzowi tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8198_artifact_prowess_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[THIS.Artifact.GetName] gains [prowess|E]: #P +2#!",
+    "RUS": "[THIS.Artifact.GetName] получит: #P +2#! к [Concept( 'prowess', 'доблести' )|E]",
+    "POL": "[THIS.Artifact.GetName] – ten przedmiot zyskuje [prowess|El]: #P +2#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8198_artifact_court_grandeur_baseline_add_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[THIS.Artifact.GetName] gains [court_grandeur|E] Bonus: #P +2#!",
+    "RUS": "[THIS.Artifact.GetName] получит: #P +2#! к бонусу [Concept( 'court_grandeur', 'величия двора' )|E]",
+    "POL": "[THIS.Artifact.GetName] – ten przedmiot zyskuje premię do [Concept('court_grandeur', 'majestatu dworu')|E]: #P +2#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8198_artifact_monthly_prestige_add_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[THIS.Artifact.GetName] gains Monthly [prestige|E]: #P +0.02#!",
+    "RUS": "[THIS.Artifact.GetName] получит: #P +0,02#! к [Concept( 'prestige', 'престижу' )|E] в месяц",
+    "POL": "[THIS.Artifact.GetName] – ten przedmiot zyskuje miesięczny [prestige|El]: #P +0,02#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8198_artifact_monthly_dynasty_prestige_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[THIS.Artifact.GetName] gains Monthly [dynasty_prestige|E]: #P +0.01#!",
+    "RUS": "[THIS.Artifact.GetName] получит: #P +0,01#! к [Concept( 'dynasty_prestige', 'признанию' )|E] в месяц",
+    "POL": "[THIS.Artifact.GetName] – ten przedmiot zyskuje miesięczną [Concept('dynasty_prestige', 'renomę')|E]: #P +0,01#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_8198_artifact_dynasty_opinion_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[THIS.Artifact.GetName] gains [dynasty|E] [opinion|E]: #P +3#!",
+    "RUS": "[THIS.Artifact.GetName] дает [Concept('opinion', 'мнение')|E] [Concept('dynasty', 'династии')|E]: #P +3#!",
+    "POL": "[THIS.Artifact.GetName] – ten przedmiot zyskuje [Concept('opinion', 'opinię')|E] na temat [Concept('dynasty', 'dynastii')|E]: #P +3#! pkt",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Master of the Game",
+    "RUS": "Главный по дичи",
+    "POL": "Mistrz zwierzyny",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('master_of_hunt_court_position').GetName()], [position_holder.GetTitledFirstName], has been making a great showing of [position_holder.GetHerselfHimself], and all are agreed the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] game has never been so rich.\\n\\nI am pleased to see [position_holder.GetHerHim] poke [position_holder.GetHerHis] head into my throne-room, fresh from the wilds with a pressing question: ",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#! [GetCourtPositionType('master_of_hunt_court_position').GetName()|l], проявляет себя наилучшим образом, и все соглашаются, что никогда не видели столько дичи на #L [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]их#! землях.\\n\\nЯ радостно встречаю [Select_CString(position_holder.IsFemale,'ее', 'его')] в тронном зале, когда [Select_CString(position_holder.IsFemale,'она', 'он')] ненадолго возвращается ко двору: «[ROOT.Char.GetTitleAsNameNoTooltip], некоторые из ваших вассалов просят меня помочь им с дичью, но я как раз [Select_CString(position_holder.IsFemale,'намеревалась', 'намеревался')] улучшить ваши охотничьи угодья. Чем мне стоит заняться?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('master_of_hunt_court_position').GetName()|l] na moich usługach, świetnie się spisuje i wszyscy są zgodni co do tego, że na ziemiach [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] jeszcze nigdy nie było tak różnorodnej zwierzyny łownej.\\n\\nCieszę się, gdy [position_holder.GetFirstNameNoTooltip] zagląda do mojej sali tronowej. Przychodzi prosto z dziczy, aby poruszyć pewną ważną kwestię.\\n\\n– Musi [ROOT.Char.GetTitleAsNameNoTooltip] wiedzieć, że niektórzy wasale waszej mości proszą mnie o pomoc z ich zwierzyną, lecz mam też plan wprowadzić pewne usprawnienia na terenach łowieckich waszej czcigodności. Co mam począć?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Keep my subjects happy.",
+    "RUS": "Пусть мои подданные будут довольны.",
+    "POL": "Moi poddani muszą być szczęśliwi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Improvements, you say?",
+    "RUS": "Улучшить, говоришь?",
+    "POL": "Usprawnienia, powiadasz?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Why not both?",
+    "RUS": "Почему бы не сделать и то, и другое?",
+    "POL": "A może i to, i to?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8199.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Hunting Advise",
+    "RUS": "Охотничьи советы",
+    "POL": "Doradztwo w kwestii polowań",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's vassal's game grounds are the constant focus of a skilled Master of the Hunt's energies.",
+    "RUS": "За охотничьими угодьями этого персонажа присматривает умелый главный охотник.",
+    "POL": "Utalentowany łowczy nieustannie poświęca swoją uwagę terenom łowieckim należącym do wasala tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Novel Game-keeping",
+    "RUS": "Охотничьи нововведения",
+    "POL": "Nowatorska hodowla zwierzyny łownej",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's game grounds are the constant focus of a skilled Master of the Hunt's energies.\\n[prestige_i|E][prestige|E] from [GetActivityType( 'activity_hunt' ).GetName] [activity|E]: #P +20%#!",
+    "RUS": "За охотничьими угодьями вассалов этого персонажа присматривает умелый главный охотник.\\n[prestige_i|E][Concept('prestige', 'Престиж')|E] от [Concept('activity', 'занятия')|E] «[GetActivityType( 'activity_hunt' ).GetName]»: #P +20%#!",
+    "POL": "Utalentowany łowczy nieustannie poświęca swoją uwagę terenom łowieckim należącym do tej postaci.\\n[prestige_i|E] [prestige|E] za [activity|El] taką jak [GetActivityType( 'activity_hunt' ).GetName|l]: #P +20%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Novel Advise",
+    "RUS": "Новые рекомендации",
+    "POL": "Nowatorskie doradztwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_master_of_hunt_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character and their vassal's game grounds are the constant focus of a skilled Master of the Hunt's energies.\\n[prestige_i|E][prestige|E] from [GetActivityType( 'activity_hunt' ).GetName] [activity|E]: #P +20%#!",
+    "RUS": "За охотничьими угодьями этого персонажа и его вассалов присматривает умелый главный охотник.\\n[prestige_i|E][Concept('prestige', 'Престиж')|E] от [Concept('activity', 'занятия')|E] «[GetActivityType( 'activity_hunt' ).GetName]»: #P +20%#!",
+    "POL": "Utalentowany łowczy nieustannie poświęca swoją uwagę terenom łowieckim należącym do tej postaci oraz jej wasala.\\n[prestige_i|E] [prestige|E] za [activity|El] taką jak [GetActivityType( 'activity_hunt' ).GetName|l]: #P +20%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Solid Foundations",
+    "RUS": "Крепкое основание",
+    "POL": "Solidne fundamenty",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('royal_architect_court_position').GetName()], [position_holder.GetTitledFirstNamePossessive], skills find much praise at court — even the simplest repair works are handled with a care and precision rare to find in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] — or anywhere else for that matter.\\n\\n[position_holder.GetSheHe|U] has been deep in thought this past week, and at last shares [position_holder.GetHerHis] quandry: [ROOT.Char.Custom('FormOfAddressForLiege')|U], in my work I have noticed ways to streamline your building projects, but my efforts might be better spent aiding in the expansion of the villages?",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')] [GetCourtPositionType('royal_architect_court_position').GetName()|l], высоко ценится при дворе. Даже простейший ремонт [Select_CString(position_holder.IsFemale,'она', 'он')] выполняет с удивительной точностью и вниманием. Ни [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ни другие земли еще не знали такого таланта.\\n\\nВ последние дни [position_holder.GetTitledFirstName] [Select_CString(position_holder.IsFemale,'погружена', 'погружен')] в размышления. Наконец [Select_CString(position_holder.IsFemale,'она', 'он')] делится своими сомнениями: «[ROOT.Char.Custom('FormOfAddressForLiege')|U], я [Select_CString(position_holder.IsFemale,'заметила', 'заметил')], что процесс строительства можно улучшить. Но может, лучше направить усилия на расширение деревень?»",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('royal_architect_court_position').GetName()|l] na moich usługach, dysponuje umiejętnościami, które chwalą wszyscy dworzanie. Nawet najdrobniejsze prace naprawcze wykonywane są z dbałością i precyzją, o które ciężko nie tylko w miejscu takim jak [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ale też gdziekolwiek indziej.\\n\\n[position_holder.GetFirstNameNoTooltip] spędza cały ostatni tydzień na rozmyślaniu i w końcu dzieli się ze mną pewną zagwozdką.\\n\\n– Mam pomysł, jak poprawić projekty budowlane waszej czcigodności, lecz z drugiej strony zastanawiam się, czy nie lepiej, aby mój wysiłek pomógł w rozbudowie wiosek.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You are #EMP my#! architect.",
+    "RUS": "Ты #EMP мой#! архитектор.",
+    "POL": "Jesteś #EMP moim#! architektem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "See to the needs of the people.",
+    "RUS": "Позаботься о нуждах народа.",
+    "POL": "Zadbaj o potrzeby ludzi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "A talented [position_holder.GetWomanMan] could do both.",
+    "RUS": "[Select_CString(position_holder.IsFemale,'Женщина', 'Человек')] твоих талантов может достичь обеих целей.",
+    "POL": "Ktoś prawdziwie utalentowany dałby radę zrobić jedno i drugie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8200.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Efficient Assembly",
+    "RUS": "Эффективное строительство",
+    "POL": "Sprawny montaż",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's construction is the constant focus of a skilled Royal Architect's energies.",
+    "RUS": "Строительство во владениях этого персонажа находится под постоянным контролем умелого придворного архитектора.",
+    "POL": "Utalentowany dworski architekt nieustannie poświęca swoją uwagę pracom budowlanym tej postaci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Civil Oversight",
+    "RUS": "Контроль за гражданским строительством",
+    "POL": "Nadzór nad mieszkańcami",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's villages are the constant focus of a skilled Royal Architect's energies.\\nIncrease Development in County [councillor_task|E] Progress: #P +10%#!",
+    "RUS": "Деревни этого персонажа находится под постоянным контролем умелого придворного архитектора.\\nВыполнение [Concept('councillor_task', 'задания совета')|E] «Усилить развитие в графстве»: #P +10%#!",
+    "POL": "Utalentowany dworski architekt nieustannie poświęca swoją uwagę wioskom tej postaci.\\nPostęp [Concept('councillor_task', 'zadania radnego')|E] „Zwiększaj poziom rozwoju hrabstwa”: #P +10%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Efficient Oversight",
+    "RUS": "Эффективный контроль",
+    "POL": "Sprawny nadzór",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_royal_architect_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's construction and villages are the constant focus of a skilled Royal Architect's energies.\\nIncrease Development in County [councillor_task|E] Progress: #P +10%#!",
+    "RUS": "Деревни этого персонажа находится под постоянным контролем умелого придворного архитектора.\\nВыполнение [Concept('councillor_task', 'задания совета')|E] «Усилить развитие в графстве»: #P +10%#!",
+    "POL": "Utalentowany dworski architekt nieustannie poświęca swoją uwagę pracom budowlanym i wioskom tej postaci.\\nPostęp [Concept('councillor_task', 'zadania radnego')|E] „Zwiększaj poziom rozwoju hrabstwa”: #P +10%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Goblet Master",
+    "RUS": "Мастер над кубками",
+    "POL": "Mistrz kielichów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('cupbearer_court_position').GetName()], [position_holder.GetTitledFirstName], is a dependable [position_holder.GetWomanMan], bearing [position_holder.GetHerHis] responsibilities with considerable aplomb.\\n\\nNot only does [position_holder.GetSheHe] ensure my cup overfloweth, but those too of my guests and court, and always with a smile.\\n\\nSuch enthusiasm and deftness is rare, [position_holder.GetSheHe] be very useful...",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#! [GetCourtPositionType('cupbearer_court_position').GetName()|l], уверенно и с достоинством выполняет свои обязанности.\\n\\n[Select_CString(position_holder.IsFemale,'Она', 'Он')] наполняет не только мой кубок, но и чаши моих гостей и првдворных — с неизменной улыбкой.\\n\\nТакая ловкость и усердие — редкие качества. [Select_CString(position_holder.IsFemale,'Она', 'Он')] может принести большую пользу...",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('cupbearer_court_position').GetName()|l] na moich usługach, to osoba, na której można polegać i która wykonuje swoje obowiązki z należytą starannością.\\n\\nZawsze z uśmiechem na ustach dba o to, aby mój kielich nigdy nie był suchy – to samo dotyczy kielichów gości i dworzan.\\n\\nTaki entuzjazm i taka wprawa to rzadkość – bardzo dobrze mieć kogoś takiego jak [position_holder.GetFirstNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Treat my visitors well, [position_holder.GetFirstNameNoTooltip].",
+    "RUS": "Не разочаруй моих гостей, [position_holder.GetFirstNameNoTooltip].",
+    "POL": "[position_holder.GetFirstNameNoTooltip], dbaj o moich gości.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Keep my servants up to scratch.",
+    "RUS": "Следи за выучкой моих слуг.",
+    "POL": "Dbaj o moich służących.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I expect the highest standards of service.",
+    "RUS": "Мне нужно обслуживание высочайшего уровня.",
+    "POL": "Oczekuję służby najwyższych standardów.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8201.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Brimming Goblets",
+    "RUS": "Полные чаши",
+    "POL": "Pełne kielichy",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's vassals are under the close care of a skilled Cupbearer.",
+    "RUS": "Вассалы этого персонажа окружены вниманием умелого виночерпия.",
+    "POL": "Wasale tej postaci znajdują się pod ścisłą opieką utalentowanego podczaszego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Special Attention",
+    "RUS": "Особое внимание",
+    "POL": "Szczególna uwaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's servants are under the close watch of a skilled Cupbearer.\\nServants [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "За слугами этого персонажа присматривает умелый виночерпий. \\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E] для слуг: #P -25%#!",
+    "POL": "Służący tej postaci znajdują się pod ścisłą opieką utalentowanego podczaszego.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących służących: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Brimming Attention",
+    "RUS": "Полное внимание",
+    "POL": "Pełna uwaga",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_cupbearer_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's vassals and servants are under the close care of a skilled Cupbearer.\\nServants [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "Вассалы и слуги этого персонажа окружены вниманием умелого виночерпия. \\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E] для слуг: #P -25%#!",
+    "POL": "Wasale i służący tej postaci znajdują się pod ścisłą opieką utalentowanego podczaszego.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących służących: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Eyes Everywhere",
+    "RUS": "Глаза повсюду",
+    "POL": "Wszechwidzące oczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('lady_in_waiting_court_position').GetName()], [position_holder.GetTitledFirstName], has settled into [position_holder.GetHerHis] role admirably, seemingly able to anticipate my every whim.\\n\\nWhat's more, [position_holder.GetSheHe] lets nothing escape [position_holder.GetHerHis] attention at court, from the most trifling gossip to the gravest news.\\n\\n[position_holder.GetSheHe|U] could be a great asset, if these talents were given some direction...",
+    "RUS": "[Select_CString(position_holder.IsFemale,'Моя', 'Мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#! [GetCourtPositionType('lady_in_waiting_court_position').GetName()|l], [position_holder.GetTitledFirstName], прекрасно выполняет свою работу. Кажется, что [Select_CString(position_holder.IsFemale,'ей', 'ему')] заранее известны все мои желания.\\n\\nБолее того, ни одно событие пр дворе не ускользает от [Select_CString(position_holder.IsFemale,'ее', 'его')] глаз и ушей: от пустяковых сплетен до важнейших новостей.\\n\\n[Select_CString(position_holder.IsFemale,'Она могла', 'Он мог')] бы сослужить мне хорошую службу, если применить [Select_CString(position_holder.IsFemale,'ее', 'его')] таланты в нужном месте...",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('lady_in_waiting_court_position').GetName()|l] na moich usługach, odgrywa swoją rolę w sposób godny podziwu i jest w stanie przewidzieć każdy mój kaprys.\\n\\nCo więcej, nic na dworze nie ucieknie [position_holder.Custom('PL_jego_jej')] uwadze – ani najbardziej błahe plotki, ani najpoważniejsze wieści.\\n\\nOsoba ta mogłaby stanowić wspaniały atut, gdyby odpowiednio ukształtować jej talenty…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip], I need your help...",
+    "RUS": "[position_holder.GetFirstNameNoTooltip], мне нужна твоя помощь...",
+    "POL": "[position_holder.GetFirstNameNoTooltip], potrzebuję twojej pomocy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Not even the quietest whispers must be missed.",
+    "RUS": "Даже самый тихий шепот не должен ускользнуть от тебя.",
+    "POL": "Masz słyszeć wszystko, nawet najcichszy szept.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Secrets and charm, make these your weapons.",
+    "RUS": "Пусть твое обаяние и знание тайн станут твоим оружием.",
+    "POL": "Niech sekrety i urok będą twoją bronią.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8203.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Moral Support",
+    "RUS": "Моральная поддержка",
+    "POL": "Wsparcie moralne",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's social strategies are advised by a skilled Lady-in-waiting.",
+    "RUS": "О навыках общения этого персонажа заботится умелая придворная дама.",
+    "POL": "Utalentowana dama dworu udziela tej postaci rad w kwestii strategii dotyczących życia społecznego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Court Whisperer",
+    "RUS": "Шпион при дворе",
+    "POL": "Szepty na dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's gossip gathering is advised by a skilled Lady-in-waiting.\\nFind Secrets [councillor_task|E] Progress within Realm: #P +10#!",
+    "RUS": "Слухи при дворе этого персонажа находятся под вниманием умелой придворной дамы.\\nВыполнение [Concept('councillor_task', 'задания совета')|E] «Поиск секретов» в державе: #P +10#!",
+    "POL": "Utalentowana dama dworu udziela tej postaci rad w kwestii pozyskiwania informacji z plotek.\\nPostęp [Concept('councillor_task', 'zadania radnego')|E] „Szukaj sekretów” w granicach państwa: #P +10#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Court Support",
+    "RUS": "Поддержка двора",
+    "POL": "Wsparcie na dworze",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_lady_in_waiting_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's social strategies and gossip-gathering are advised by a skilled Lady-in-waiting.\\nFind Secrets [councillor_task|E] Progress within Realm: #P +10#!",
+    "RUS": "Навыки общения этого персонажа и слухи при его дворе находятся под вниманием умелой придворной дамы.\\nВыполнение [Concept('councillor_task', 'задания совета')|E] «Поиск секретов» в державе: #P +10#!",
+    "POL": "Utalentowana dama dworu udziela tej postaci rad w kwestii strategii dotyczących życia społecznego oraz pozyskiwania informacji z plotek.\\nPostęp [Concept('councillor_task', 'zadania radnego')|E] „Szukaj sekretów” w granicach państwa: #P +10#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Measure of the Court",
+    "RUS": "Мерило двора",
+    "POL": "Miara dworu",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Judging by the growth of [position_holder.GetHerHis] smile and stomach, my [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('food_taster_court_position').GetName()], [position_holder.GetTitledFirstName], was nothing if not born to suppers of a [ROOT.Char.GetTitleAsNameNoTooltip].\\n\\n[position_holder.GetSheHe|U] spends more and more time in the kitchens, sampling the offerings and giving the cooks notes.\\n\\nI should make use not to squander [position_holder.GetHerHis] rare enthusiasm for a relatively unrewarding role...",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] #L [position_holder.Custom('ComplimentAdjective')][Select_CString(position_holder.IsFemale,'ая', 'ый')]#! [GetCourtPositionType('food_taster_court_position').GetName()|l], будто [Select_CString(position_holder.IsFemale,'рождена', 'рожден')] для яств. [Select_CString(position_holder.IsFemale,'Ее', 'Его')] улыбка становится всё шире, как и [Select_CString(position_holder.IsFemale,'ее', 'его')] талия.\\n\\n[Select_CString(position_holder.IsFemale,'Она', 'Он')] проводит на кухнях всё больше времени, пробуя новые блюда и раздавая советы поварам.\\n\\nНаверное, не стоит растрачивать [Select_CString(position_holder.IsFemale,'ее', 'его')] талант и усердие на столь непримечательной должности...",
+    "POL": "[position_holder.GetTitledFirstName], czyli [GetCourtPositionType('food_taster_court_position').GetName()|l] na moich usługach, ma coraz szerszy uśmiech na twarzy i coraz większy brzuch, przez co śmiem sądzić, że jest osobą wprost urodzoną do testowania posiłków, które ma spożyć [ROOT.Char.GetTitleAsNameNoTooltip].\\n\\nSpędza coraz więcej czasu w kuchniach, smakując dania i przekazując uwagi kucharzom.\\n\\nFunkcja, którą pełni, zwykle nie daje satysfakcji, ale [position_holder.GetFirstNameNoTooltip] wykazuje rzadko spotykany entuzjazm. Nie mogę tego zmarnować…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Let nothing slip past your gaze, [position_holder.GetFirstNameNoTooltip].",
+    "RUS": "Следи, чтобы ничего не ускользнуло от твоего взгляда, [position_holder.GetFirstNameNoTooltip].",
+    "POL": "Niech nic nie umknie twojemu wzrokowi, [position_holder.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "The kitchens are yours to command!",
+    "RUS": "Будешь управлять кухнями!",
+    "POL": "Kuchnie są twoje!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I want eyes on the food, #EMP and#! the staff.",
+    "RUS": "Следи не только за едой, #EMP но и#! за прислугой.",
+    "POL": "Przyglądaj się nie tylko jedzeniu, ale też #EMP służbie#!.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.c.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "You help [position_holder.GetFirstNameNoTooltip]",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] [Select_CString(position_holder.IsFemale, 'благодарна', 'благодарен' )] вам за помощь",
+    "POL": "[position_holder.GetFirstNameNoTooltip] otrzymuje od ciebie pomoc",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8204.c.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetFirstNameNoTooltip] is too stretched",
+    "RUS": "[position_holder.GetFirstNameNoTooltip] не в силах справиться с нагрузкой",
+    "POL": "[position_holder.GetFirstNameNoTooltip] ma na głowie zbyt wiele obowiązków",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_1_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Servant Screening",
+    "RUS": "Наблюдение за слугами",
+    "POL": "Kontrolowanie służących",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_1_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's servants are under the close watch of a skilled Food Taster.",
+    "RUS": "За слугами этого персонажа пристально следит умелый дегустатор блюд.",
+    "POL": "Służący tej postaci znajdują się pod ścisłą obserwacją utalentowanego degustatora potraw.",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_2_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Approved Menu",
+    "RUS": "Одобренное меню",
+    "POL": "Zatwierdzony jadłospis",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_2_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's kitchen is under the close watch of a skilled Food Taster.\\nFood [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "За кухнями этого персонажа пристально следит умелый дегустатор блюд.\\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E], связанных с едой: #P -25%#!",
+    "POL": "Kuchnia tej postaci znajduje się pod ścisłą obserwacją utalentowanego degustatora potraw.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących jedzenia: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_3_modifier",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Screened Menu",
+    "RUS": "Проверенное меню",
+    "POL": "Skontrolowany jadłospis",
+    "BEL": ""
+  },
+  {
+    "KEY": "employer_booner_food_taster_3_modifier_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "This character's servants and kitchen are under the close watch of a skilled Food Taster.\\nFood [court_amenity|E] Upkeep: #P -25%#!",
+    "RUS": "За кухнями и слугами этого персонажа пристально следит умелый дегустатор блюд.\\nЭкономия на [Concept('court_amenity', 'увеселениях при дворе')|E], связанных с едой: #P -25%#!",
+    "POL": "Służący i kuchnia tej postaci znajdują się pod ścisłą obserwacją utalentowanego degustatora potraw.\\nKoszt utrzymania [Concept('court_amenity', 'udogodnień dworskich')|E] dotyczących jedzenia: #P -25%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Unmet Expectations",
+    "RUS": "Неоправданные ожидания",
+    "POL": "Niespełnione oczekiwania",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.intro",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "The topic of my bumbling [position_holder.GetHeldCourtPositionsString], [position_holder.GetFirstNamePossessive], breadth of expertise, or lack-thereof, has been a growing subject of ribaldry. On reflection, [position_holder.GetHerHis] talents do leave quite a bit to be desired...\\n\\n",
+    "RUS": "[position_holder.GetFirstName], [Select_CString(position_holder.IsFemale,'моя нерасторопная', 'мой нерасторопный')] [position_holder.GetHeldCourtPositionsString|l], всё чаще становится объектом грубых шуток. Всему виной [Select_CString(position_holder.IsFemale,'ее', 'его')] навыки — или скорее отсутствие оных. Признаться, [Select_CString(position_holder.IsFemale,'ее', 'его')] талант действительно оставляет желать лучшего...\\n\\n",
+    "POL": "Wśród kręgów grubian coraz bardziej popularny jest temat doświadczenia, czy raczej jego braku, nieudolnej osoby, którą jest [position_holder.GetFirstNameNoTooltip], czyli [position_holder.GetHeldCourtPositionsString|l] na moim dworze. Gdy się zastanowić, to [position_holder.GetHerHis] umiejętności faktycznie pozostawiają nieco do życzenia…\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.detractor",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Chief among [position_holder.GetHerHis] detractors is my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('detractor'))], [detractor.GetTitledFirstName], who makes no effort to hide [detractor.GetHerHis] contempt.\\n\\n",
+    "RUS": "Больше других над [Select_CString(position_holder.IsFemale,'ней', 'ним')] подтрунивает [Select_CString(detractor.IsFemale,'моя', 'мой')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('detractor'))] [detractor.GetTitledFirstName], [Select_CString(detractor.IsFemale,'которая', 'который')] даже не пытается скрыть презрение.\\n\\n",
+    "POL": "Prym wśród [position_holder.GetHerHis] krytyków wiedzie [detractor.GetTitledFirstName], a dla mnie [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('detractor'))], wcale nie kryjąc swojej pogardy.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«За что они так со мной, — смущенно бормочет [position_holder.GetFirstName], [Select_CString(position_holder.IsFemale,'окруженная', 'окруженный')] насмешками придворных после своей очередной оплошности. — Я #EMP хорошо#! служу вам... р-разве нет?»",
+    "POL": "– Wasza czcigodność pozwoli na moment – bełkocze [position_holder.GetFirstName] wśród dworskiego gwaru. Chyba nie do końca orientuje się w temacie [position_holder.Custom('GetCourtPositionSubject')], przez co znów jest obiektem drwin.\\n\\n– Chyba #EMP dobrze#! wykonuję swoją pracę… p-prawda?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Let's talk about your renumeration, [position_holder.GetFirstNameNoTooltip]...",
+    "RUS": "Обсудим твое жалование, [position_holder.GetFirstNameNoTooltip]...",
+    "POL": "[position_holder.GetFirstNameNoTooltip], musimy porozmawiać o twoim wynagrodzeniu…",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "I think it's time you stepped aside.",
+    "RUS": "Думаю, пора тебе оставить службу.",
+    "POL": "Chyba już czas odsunąć cię od służby.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8301.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "#weak *sigh*#! #EMP Yes...#! Uh, yes! You're great!",
+    "RUS": "#weak *вздыхает*#! #EMP Да...#! Да! Ваша воля — закон!",
+    "POL": "#weak Ech#!… #EMP Tak…#! Tak, świetnie ci idzie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "halved_position_salary_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[court_position|E] Salary will be #P decreased -50%#! for #V 10#! years",
+    "RUS": "Жалование для этой [Concept('court_position', 'придворной должности')|E] #P уменьшается: -50%#! на #V 10#! лет",
+    "POL": "Wynagrodzenie z tytułu piastowania [Concept('court_position', 'urzędu dworskiego')|E] zostanie #P zmniejszone o 50%#! na #V 10#! lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_halved_salary",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Halved [court_position|E] Salary",
+    "RUS": "Жалование для [Concept('court_position', 'придворной должности')|E] уменьшено вдвое",
+    "POL": "Wynagrodzenie z tytułu piastowania [Concept('court_position', 'urzędu dworskiego')|E] mniejsze o połowę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_swords",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "swords",
+    "RUS": "мечи",
+    "POL": "mieczy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_honor",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "honor",
+    "RUS": "честь",
+    "POL": "honoru",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_patrols",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "patrols",
+    "RUS": "патрулирование",
+    "POL": "patroli",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_raiding",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "raiding",
+    "RUS": "налеты",
+    "POL": "najazdów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_daggers",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "daggers",
+    "RUS": "кинжалы",
+    "POL": "sztyletów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_flowers",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "flowers",
+    "RUS": "цветы",
+    "POL": "kwiatów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_poultices",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "poultices",
+    "RUS": "припарки",
+    "POL": "okładów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_anvils",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "anvils",
+    "RUS": "наковальни",
+    "POL": "kowadeł",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_relics",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "relics",
+    "RUS": "реликвии",
+    "POL": "reliktów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_rhyming",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "rhyming",
+    "RUS": "стихосложение",
+    "POL": "rymów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_astrology",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "astrology",
+    "RUS": "астрология",
+    "POL": "astrologii",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_metaphors",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "metaphors",
+    "RUS": "метафоры",
+    "POL": "metafor",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_delegations",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "delegations",
+    "RUS": "представители",
+    "POL": "delegacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_axes",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "axes",
+    "RUS": "топоры",
+    "POL": "toporów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_waterfowl",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "waterfowl",
+    "RUS": "водоплавающая дичь",
+    "POL": "ptactwa wodnego",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_caravans",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "caravans",
+    "RUS": "караваны",
+    "POL": "karawan",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_cribs",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "cribs",
+    "RUS": "колыбели",
+    "POL": "kołysek",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_teaching",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "teaching",
+    "RUS": "образование",
+    "POL": "nauczania",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_poisons",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "poisons",
+    "RUS": "яды",
+    "POL": "trucizn",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_archery",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "archery",
+    "RUS": "стрельба из лука",
+    "POL": "łucznictwa",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_archways",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "archways",
+    "RUS": "арочные своды",
+    "POL": "łuków architektonicznych",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_poor_houses",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "poor-houses",
+    "RUS": "богадельни",
+    "POL": "przytułków dla ubogich",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_sculleries",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "sculleries",
+    "RUS": "судомойки",
+    "POL": "pomywania",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_goblets",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "goblets",
+    "RUS": "кубки",
+    "POL": "kielichów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_discretion",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "discretion",
+    "RUS": "осторожность",
+    "POL": "dyskrecji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_jokes",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "jokes",
+    "RUS": "шутки",
+    "POL": "żartów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_melody",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "melodies",
+    "RUS": "мелодии",
+    "POL": "melodii",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_isolation",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "isolation",
+    "RUS": "одиночество",
+    "POL": "izolacji",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_saddles",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "saddles",
+    "RUS": "седла",
+    "POL": "siodeł",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_etiquette",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "etiquette",
+    "RUS": "этикет",
+    "POL": "etykiety",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_statutes",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "statutes",
+    "RUS": "статуи",
+    "POL": "statutów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_race_horses",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "race-horses",
+    "RUS": "скаковые лошади",
+    "POL": "koni wyścigowych",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_betting_odds",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "betting-odds",
+    "RUS": "коэффициенты по ставкам",
+    "POL": "obstawiania zakładów",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_subject_work",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "work",
+    "RUS": "работа",
+    "POL": "pracy",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8311.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Learning the Ropes",
+    "RUS": "Обучение основам",
+    "POL": "Nauka podstaw",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8311.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Despite an, at first, rather questionable grasp of even the most basic mechanics of [position_holder.Custom('GetCourtPositionSubject')], my [position_holder.GetHeldCourtPositionsString], [position_holder.GetTitledFirstName] seems at last to be growing into [position_holder.GetHerHis] role.\\n\\nMany at court have noted [position_holder.GetHerHis] burgeoning, albeit still somewhat limited, abilities. At the very least it seems [position_holder.GetSheHe] is genuinely trying to earn [position_holder.GetHerHis] keep.",
+    "RUS": "[position_holder.GetTitledFirstName] постепенно постигает тонкости своей должности, хотя поначалу казалось, что [position_holder.Custom('GetCourtPositionSubject')] — совершенно не [Select_CString(position_holder.IsFemale,'ее', 'его')] стихия.\\n\\nМногие при дворе заметили, что [position_holder.GetTitledFirstName] справляется всё лучше, пусть и не безупречно. По меньшей мере, [Select_CString(position_holder.IsFemale,'она', 'он')] не зря ест свой хлеб.",
+    "POL": "Choć na początku można było odnieść wrażenie, że [position_holder.GetTitledFirstName], czyli [position_holder.GetHeldCourtPositionsString|l] na moich usługach, nie ma nawet podstawowej wiedzy na temat [position_holder.Custom('GetCourtPositionSubject')], w końcu zdaje się nabierać doświadczenia w swoim fachu.\\n\\nWielu dworzan zauważyło, że rozwija swoje umiejętności, mimo że nadal są one dość ograniczone. Ale przynajmniej widać, że [position_holder.GetFirstNameNoTooltip] stara się udowodnić, że zasługuje na to, by piastować swój urząd.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8311.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "One adores to perceive it, [position_holder.GetFirstNameNoTooltip]!",
+    "RUS": "Ты растешь над собой, [position_holder.GetFirstNameNoTooltip]!",
+    "POL": "Wspaniale się na to patrzy, [position_holder.GetFirstNameNoTooltip]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "bonus_aptitude_role_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.Custom('GetTargetCourtPosition')] [aptitude|E]: #P +[SCOPE.ScriptValue('cp_bonus_aptitude_value')]#!",
+    "RUS": "[position_holder.Custom('GetTargetCourtPosition')] повышает свою [Concept('aptitude', 'пригодность')|E]: #P +[SCOPE.ScriptValue('cp_bonus_aptitude_value')]#!",
+    "POL": "[aptitude|E] osoby, którą jest [position_holder.Custom('GetTargetCourtPosition')|l]: #P +[SCOPE.ScriptValue('cp_bonus_aptitude_value')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "cp_bonus_aptitude",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Learning the Ropes",
+    "RUS": "Обучение основам",
+    "POL": "Nauka podstaw",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.t",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "The Carrot Approach",
+    "RUS": "Пряник лучше кнута",
+    "POL": "Kij i marchewka",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "My [position_holder.GetHeldCourtPositionsString], [position_holder.GetTitledFirstName] has somewhat settled into [position_holder.GetHerHis] role, though not without some teething trouble.\\n\\n[position_holder.GetSheHe|U] has made no bones about the fact [position_holder.GetSheHe] thinks [position_holder.GetSheHe] should be better rewarded if [position_holder.GetSheHe] is to truly throw [position_holder.GetHerselfHimself] into [position_holder.GetHerHis] work.\\n\\n",
+    "RUS": "[position_holder.GetTitledFirstName], [Select_CString(position_holder.IsFemale,'моя', 'мой')] [position_holder.GetHeldCourtPositionsString|l], наконец [Select_CString(position_holder.IsFemale,'освоилась', 'освоился')] в своей должности, хотя и не без труда.\\n\\n[Select_CString(position_holder.IsFemale,'Она', 'Он')] прямо [Select_CString(position_holder.IsFemale,'заявила', 'заявил')], что [Select_CString(position_holder.IsFemale,'ее', 'его')] усилия должны быть вознаграждены по достоинству.\\n\\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], моими услугами пользуется [ROOT.Char.GetTitleAsNameNoTooltip], а значит, и [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]! Разве за упорный труд на ваше благо мне не положено больше, чем жалкие крохи?»",
+    "POL": "Osoba znana jako [position_holder.GetTitledFirstName], czyli [position_holder.GetHeldCourtPositionsString|l] na moim dworze, oswoiła się już ze swoją rolą, choć nie obyło się bez problemów.\\n\\n[position_holder.GetFirstNameNoTooltip] otwarcie mówi o tym, iż uważa, że skoro ma całkowicie oddać się pracy, należy [position_holder.Custom('PL_mu_jej')] się większe wynagrodzenie.\\n\\n– Czy może [ROOT.Char.Custom('FormOfAddressForLiege')] poświęcić mi chwilę? Służę pod kimś takim jak [ROOT.Char.GetTitleAsNameNoTooltip] miejsca znanego jako [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]! A zatem czy nie należy mi się coś więcej niż tylko resztki ze stołu, skoro mam w imieniu waszej czcigodności zgłębiać temat [position_holder.Custom('GetCourtPositionSubject')]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.a",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Very well, but you had better earn it.",
+    "RUS": "Хорошо, но прибавку нужно заслужить.",
+    "POL": "Dobrze, ale musisz na to zasłużyć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.b",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "How about a small bonus, instead?",
+    "RUS": "Как насчет небольшой премии?",
+    "POL": "A co powiesz na małą premię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.b.success",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetSheHe|U] takes the offer",
+    "RUS": "[Select_CString(position_holder.IsFemale,'Она', 'Он')] принимает предложение",
+    "POL": "[position_holder.GetTitledFirstName] przyjmuje ofertę",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.b.failure",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[position_holder.GetSheHe|U] is insulted",
+    "RUS": "[Select_CString(position_holder.IsFemale, 'Она оскорблена', 'Он оскорблен' )]",
+    "POL": "[position_holder.GetTitledFirstName] obraża się na ciebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "court.8321.c",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "There are no funds to spare right now...",
+    "RUS": "Сейчас у меня нет лишних средств...",
+    "POL": "W tej chwili nie mogę przeznaczyć na to żadnych funduszy…",
+    "BEL": ""
+  },
+  {
+    "KEY": "increased_position_salary_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[court_position|E] Salary will be #N increased +50%#! for #V 10#! years",
+    "RUS": "Жалование для этой [Concept('court_position', 'придворной должности')|E] #N увеличивается: +50%#! на #V 10#! лет",
+    "POL": "Wynagrodzenie z tytułu piastowania [Concept('court_position', 'urzędu dworskiego')|E] zostanie #N zwiększone o 50%#! na #V 10#! lat",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_increased_salary",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "Increased [court_position|E] Salary",
+    "RUS": "Жалование для [Concept('court_position', 'придворной должности')|E] увеличено",
+    "POL": "Wynagrodzenie z tytułu piastowania [Concept('court_position', 'urzędu dworskiego')|E] zwiększone",
+    "BEL": ""
+  },
+  {
+    "KEY": "court_position_laamps_free",
+    "FILE_PATH": "localization/belarusian/event_localization/court_events/01_court_events_ep3_l_belarusian.json",
+    "ENG": "[officers|E] do not cost",
+    "RUS": "[Concept('officers', 'Подручные')|E] не требуют жалования",
+    "POL": "[officers|E] nie pociągają za sobą kosztów",
+    "BEL": ""
+  }
+]

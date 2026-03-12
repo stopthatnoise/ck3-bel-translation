@@ -1,0 +1,1650 @@
+[
+  {
+    "KEY": "birth.father_is_former_consort_toast",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Birth",
+    "RUS": "Рождение",
+    "POL": "Narodziny",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.father_is_former_consort_toast_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.GetTitledFirstName] has given birth to our [child.Custom('GetDaughterSon')]",
+    "RUS": "[mother.GetTitledFirstName] родила — у нас [child.Custom('GetDaughterSon')]",
+    "POL": "[mother.GetTitledFirstName] urodziła nasze dziecko. To [child.Custom('GetDaughterSon')].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.father_is_former_consort_toast_tt_twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.GetTitledFirstName] has given birth to twins",
+    "RUS": "[mother.GetTitledFirstName] родила близнецов",
+    "POL": "[mother.GetTitledFirstName] urodziła bliźnięta",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_grandchild_born_toast_title",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Grandchild Born",
+    "RUS": "Рождение внука",
+    "POL": "Narodziny wnuka",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_grandchild_born_toast_desc_twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.GetTitledFirstName] has given birth to your twin grandchildren",
+    "RUS": "[mother.GetTitledFirstName|U] родила вам внуков-близнецов",
+    "POL": "[mother.GetTitledFirstName] wydaje na świat twoje bliźniacze wnuki",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_grandchild_born_toast_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.GetTitledFirstName] has given birth to your grand[child.Custom('GetDaughterSon')]",
+    "RUS": "[mother.GetTitledFirstName|U] родила вам [Select_CString(child.IsFemale, 'внучку', 'внука' )]",
+    "POL": "[mother.GetTitledFirstName] wydaje na świat twojego wnuka",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_royal_child_born_toast_title",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Royal Offspring",
+    "RUS": "Царственное потомство",
+    "POL": "Królewskie potomstwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_royal_child_born_toast_desc_twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[non_royal_parent.GetTitledFirstName] has given birth to twins of the [ceremonial_house|E] ([child.GetHouse.GetBaseName])",
+    "RUS": "[non_royal_parent.GetTitledFirstName|U] родила близнецов, принадлежащих к [Concept('ceremonial_house', 'церемониальной династии')|E] ([child.GetHouse.GetBaseName])",
+    "POL": "[non_royal_parent.GetTitledFirstName] wydaje na świat bliźniaki z [Concept('ceremonial_house', 'ceremonialnego rodu')|E] (ród [child.GetHouse.GetBaseName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_royal_child_born_toast_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[non_royal_parent.GetTitledFirstName] has given birth to a [child.Custom('GetDaughterSon')] of the [ceremonial_house|E] ([child.GetHouse.GetBaseName])",
+    "RUS": "[non_royal_parent.GetTitledFirstName|U] родила [Select_CString(child.IsFemale, 'дочь', 'сына' )], [Select_CString(child.IsFemale, 'принадлежащую', 'принадлежащего' )] к [Concept('ceremonial_house', 'церемониальной династии')|E] ([child.GetHouse.GetBaseName])",
+    "POL": "[non_royal_parent.GetTitledFirstName] wydaje na świat dziecko z [Concept('ceremonial_house', 'ceremonialnego rodu')|E] (ród [child.GetHouse.GetBaseName]) – to [child.Custom('GetDaughterSon')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_royal_child_born_toast_desc_twins_father",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[non_royal_parent.GetTitledFirstName] has fathered twins of the [ceremonial_house|E] ([child.GetHouse.GetBaseName])",
+    "RUS": "[non_royal_parent.GetTitledFirstName|U] породил близнецов, принадлежащих к [Concept('ceremonial_house', 'церемониальной династии')|E] ([child.GetHouse.GetBaseName])",
+    "POL": "[non_royal_parent.GetTitledFirstName] płodzi bliźnięta z [Concept('ceremonial_house', 'ceremonialnego rodu')|E] (ród [child.GetHouse.GetBaseName])",
+    "BEL": ""
+  },
+  {
+    "KEY": "msg_royal_child_born_toast_desc_father",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[non_royal_parent.GetTitledFirstName] has fathered a [child.Custom('GetDaughterSon')] of the [ceremonial_house|E] ([child.GetHouse.GetBaseName])",
+    "RUS": "[non_royal_parent.GetTitledFirstName|U] породил [Select_CString(child.IsFemale, 'дочь', 'сына' )], [Select_CString(child.IsFemale, 'принадлежащую', 'принадлежащего' )] к [Concept('ceremonial_house', 'церемониальной династии')|E] ([child.GetHouse.GetBaseName])",
+    "POL": "[non_royal_parent.GetTitledFirstName] płodzi dziecko z [Concept('ceremonial_house', 'ceremonialnego rodu')|E] (ród [child.GetHouse.GetBaseName]) – to [child.Custom('GetDaughterSon')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "All My Children",
+    "RUS": "Все мои дети",
+    "POL": "Wszystkie moje dzieci",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "For every birth the cordiality shown me grows; as I hold my newborn babe in my arms I am greeted by more warmth and kindness than ever before. I guess I do have quite the impressive gathering of children...",
+    "RUS": "С каждыми моими родами окружающие относятся ко мне все лучше. Думаю, детей у меня и правда довольно много...",
+    "POL": "Z każdymi narodzinami rośnie serdeczność, którą mi okazano; kiedy trzymam w ramionach noworodka, wita mnie więcej ciepła i dobroci niż kiedykolwiek wcześniej. Myślę, że mam dość imponującą gromadkę dzieci…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Kindness borne from birth!",
+    "RUS": "Доброта, рожденная родами",
+    "POL": "Dobroć zrodzona z poczęcia!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [child.Custom('GetDaughterSon')|U]",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя дочь', 'Мой сын' )]",
+    "POL": "[Select_CString( child.IsFemale, 'Moja', 'Mój' )] [child.Custom('GetDaughterSon')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.heir.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [child.Custom('GetDaughterSon')|U] and Heir",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя дочь и наследница', 'Мой сын и наследник' )]",
+    "POL": "[Select_CString( child.IsFemale, 'Moja', 'Mój' )] [child.Custom('GetDaughterSon')|l] i [Select_CString( child.IsFemale, 'dziedziczka', 'dziedzic' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.daughters.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My Daughters",
+    "RUS": "Мои дочери",
+    "POL": "Moje córki",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.sons.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My Sons",
+    "RUS": "Мои сыновья",
+    "POL": "Moi synowie",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.children.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My Babies",
+    "RUS": "Мои деточки",
+    "POL": "Moje dzieci",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.first_birth_good.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "When the first contraction started, a great calm came over me. There was no room for my worries from before — I was about to perform one of life's greatest miracles. After a long but glorious struggle, I brought forth",
+    "RUS": "С началом схваток меня охватил невероятный покой. Ушли все волнения: меня ждало величайшее из чудес. После долгой, но славной борьбы я родила",
+    "POL": "Kiedy przyszedł pierwszy skurcz, ogarnął mnie wielki spokój. Nie było już miejsca na wcześniejsze obawy – za chwilę miałam doświadczyć jednego z najwspanialszych cudów życia. Po długiej, lecz chwalebnej walce, wydałam na świat",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.first_birth_scary.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have talked to countless mothers and midwives, taken their advice to heart. Yet, when my time arrived, I realized that no amount of preparation could ever be enough.\\n\\nThe pains were all-consuming and I feared for my life. But I made it through, and now I have",
+    "RUS": "Я говорила с бесчисленным множеством матерей и повитух, принимая их советы близко к сердцу. И все же, когда пришло мое время, я поняла, что к этому невозможно подготовиться.\\n\\nМне было невероятно больно, в какой-то момент мне показалось даже, что я умираю. Но я выдержала и родила",
+    "POL": "Rozmawiałam z niezliczonymi matkami i położnymi, wzięłam sobie do serca ich rady. Jednak gdy nadszedł mój czas, zdałam sobie sprawę, że żadne przygotowanie nie wystarczy.\\n\\nBóle były nie do zniesienia, a ja bałam się o swoje życie. Ale udało mi się i teraz mam",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.many_births.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "For every birth, it gets a little easier — yet I never cease to be amazed by the intensity of the experience, and my own strength. Once more, I have brought forth new life to this world, in the shape of",
+    "RUS": "С каждыми следующими родами все становится чуть проще, и все равно я не перестаю восхищаться яркостью ощущений и собственной силе. Я вновь принесла на землю новую жизнь! В этот раз я родила",
+    "POL": "Z każdym porodem jest to trochę łatwiejsze – jednak nigdy nie przestaje mnie zadziwiać intensywność tego doświadczenia i moja wytrzymałość. Sprowadziłam na ziemię nowe życie rodząc",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.not_first_birth.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My relief is great, and my joy even greater! I have given birth to",
+    "RUS": "Сколь бы ни было велико мое облегчение, радость моя несравненно больше! Я родила",
+    "POL": "Moja ulga jest wielka, a radość jeszcze większa! Urodziłam",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.sondaughter.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "a perfect little [child.Custom('GetDaughterSon')]!\\n\\n",
+    "RUS": "[Select_CString(child.IsFemale, 'чудесную дочку', 'чудесного мальчика' )]!\\n\\n",
+    "POL": "[Select_CString( child.IsFemale, 'cudowną malutką', 'cudownego malutkiego' )] [Select_CString( child.IsFemale, 'córeczkę', 'synka' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.daughters.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "two perfect little girls!\\n\\n",
+    "RUS": "двух очаровательных девочек!\\n\\n",
+    "POL": "dwie cudowne malutkie dziewczynki\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.sons.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "two perfect little boys!\\n\\n",
+    "RUS": "двух очаровательных мальчиков!\\n\\n",
+    "POL": "dwóch cudownych malutkich chłopców!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.children.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "two perfect little children!\\n\\n",
+    "RUS": "двух очаровательных малышей!\\n\\n",
+    "POL": "dwójkę cudownych malutkich dzieci!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.same_gender_heir.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "One day, child, you will carry on my legacy. What name would befit a [ROOT.Char.GetTitleAsNameNoTooltip]?",
+    "RUS": "Однажды, дитя, ты примешь мое наследие. Какое имя подойдет тебе, [Select_CString(child.IsFemale, 'будущая', 'будущий' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]?",
+    "POL": "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię będzie ci pasować jako przyszł[Select_CString( child.IsFemale, 'a', 'y' )] [ROOT.Char.GetTitleAsNameNoTooltip|l]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.other_gender_heir.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "One day, child, you will carry on my legacy. What name would befit such a mighty [child.GetLadyLord]?",
+    "RUS": "Однажды, дитя, ты примешь мое наследие. Какое имя подойдет тебе, [Select_CString(child.IsFemale, 'могучая', 'могучий' )] [child.GetLadyLord|l]?",
+    "POL": "Pewnego dnia, dziecko, będziesz kontynuować moje dziedzictwo. Jakie imię pasowałoby dla tak [Select_CString( child.IsFemale, 'potężnej pani', 'potężnemu panu' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.end_fallback.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Who will you become, my child, and what shall I call you?",
+    "RUS": "Кем ты станешь, дитя мое, и как я назову тебя?",
+    "POL": "Kim się staniesz, me dziecię i jak mam cię nazwać?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.twins_heir.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My sweet children. One of you will grow up to carry on my legacy, and the other will always remain in [ROOT.Char.GetPlayerHeir.GetHerHis] shadow. I hope you will love each other, come what may.",
+    "RUS": "Мои милые дети. Один из вас вырастет, чтобы принять мое наследие, другому же суждено вечно пребывать в тени. Надеюсь, вы будете любить друг друга не смотря ни на что.",
+    "POL": "Moje słodkie dzieci. Jedno z was dorośnie i będzie kontynuowało moje dziedzictwo, a drugie zaś na zawsze pozostanie w [ROOT.Char.GetPlayerHeir.GetHerHis] cieniu. Mam nadzieję, że będziecie się kochać, jak tylko możecie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.twins.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Who will you become, my dears, and what shall I call you?",
+    "RUS": "Кем вы станете, мои дорогие, и как я назову вас?",
+    "POL": "Kim się staniecie, me najdroższe dzieci i jak mam was nazwać?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.taltos.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The [child.Custom('GetBirthOmen')] my [child.Custom('GetDaughterSon')] bears clearly marks [child.GetHerHim] as a [child.Custom('GetTaltosTerm')], chosen by [child.GetFaith.PantheonTerm] to serve a specific calling. While I do not yet know what that calling is, I must still bestow a suitable name upon my child.",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя дочь', 'Мой сын' )] несет на себе [child.Custom('GetBirthOmen')]. Это свидетельство того, что [Select_CString(child.IsFemale, 'она', 'он' )] — [child.Custom('GetTaltosTerm')] и [child.GetFaith.PantheonTerm] имеют особые планы на [Select_CString(child.IsFemale, 'нее', 'него' )]. Хотя пока что эти планы никому неведомы, мне стоит дать моему ребенку подходящее имя.",
+    "POL": "[child.Custom('GetBirthOmen')|U] mojego dziecka oznacza, że zawsze będzie już rozpoznawane jako [child.Custom('GetTaltosTerm')] i sługa siły wyższej znanej jako [child.GetFaith.PantheonTerm]. To znak służby powołaniu. Chociaż nie wiem jeszcze, jakie będzie to powołanie, to i tak muszę nadać mojemu dziecku odpowiednie imię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.taltos_unfaithful.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [child.Custom('GetDaughterSon')] has a [child.Custom('GetBirthOmen')], which the [child.GetFaith.GetAdjective] [child.Custom('DefaultPriestTitlePlural')] claim marks [child.GetHerHim] for something special. I do not understand, but I must still decide on a name for my [child.Custom('GetDaughterSon')]...",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя дочь', 'Мой сын' )] несет на себе [child.Custom('GetBirthOmen')]. #L [child.GetFaith.GetName]ие#! [child.Custom('DefaultPriestTitlePlural')] уверяют, что [child.GetHerHim] уготована особая судьба. Я не понимаю, что они имеют в виду, но мне все равно нужно выбрать имя для [Select_CString(child.IsFemale, 'моей дочери', 'моего сына' )]...",
+    "POL": "[Select_CString( child.IsFemale, 'Moja córka', 'Mój syn' )] ma [child.Custom('GetBirthOmen')], co oznacza, że [child.Custom('DefaultPriestTitlePlural')] – [child.GetFaith.GetAdherentNamePlural], ogłosili [Select_CString( child.IsFemale, 'ją', 'go' )] wybrańcem. Nic nie rozumiem, ale nadal muszę zdecydować się, jakie imię mam nadać [Select_CString( child.IsFemale, 'mojej córce', 'mojemu synowi' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to a beautiful [child.Custom('GetDaughterSon')]!",
+    "RUS": "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]!",
+    "POL": "Wydałam na świat [Select_CString( child.IsFemale, 'cudowną córeczkę', 'cudownego synka' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to beautiful [child.Custom('TwinDaughtersSonsChildren')]!",
+    "RUS": "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]!",
+    "POL": "Wydałam na świat dwójkę pięknych [child.Custom('TwinDaughtersSonsChildrenPossessive')]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.desc.twin_dead_father",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to beautiful [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] would have adored them...",
+    "RUS": "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]! [father.GetFirstName] бы пришел в восторг при виде них...",
+    "POL": "Wydałam na świat dwójkę pięknych [child.Custom('TwinDaughtersSonsChildrenPossessive')]! [father.GetFirstName] zakochał[Select_CString( father.IsFemale, 'a', '' )]by się…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.desc_dead_father",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to a beautiful [child.Custom('GetDaughterSon')]! [father.GetFirstName] would have adored him...",
+    "RUS": "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]! [father.GetFirstName] пришел бы в восторг при виде [Select_CString(child.IsFemale, 'нее', 'него' )]...",
+    "POL": "Wydałam na świat [Select_CString( child.IsFemale, 'cudowną córeczkę', 'cudownego synka' )]! [father.GetFirstName] z pewnością by [Select_CString( child.IsFemale, 'ją', 'go' )] uwielbiał[Select_CString( father.IsFemale, 'a', '' )]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "May you grow to be strong and wise, my [child.Custom('GetDaughterSon')].",
+    "RUS": "Надеюсь, ты станешь [Select_CString(child.IsFemale, 'сильной и мудрой, моя', 'сильным и мудрым, мой' )] [child.Custom('GetDaughterSon')].",
+    "POL": "Obyś wyr[Select_CString( child.IsFemale, 'osła', 'ósł' )] na siln[Select_CString( child.IsFemale, 'ą', 'ego' )] i mądr[Select_CString( child.IsFemale, 'ą', 'ego' )] [Select_CString( child.IsFemale, 'osobę', 'człowieka' )], m[Select_CString( child.IsFemale, 'oja', 'ój' )] [Select_CString( child.IsFemale, 'córko', 'synu' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1001.b",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "May you grow to be strong and wise, my [child.Custom('TwinDaughtersSonsChildren')].",
+    "RUS": "Надеюсь, вы станете сильными и мудрыми, мои [child.Custom('TwinDaughtersSonsChildren')].",
+    "POL": "Wyrośnijcie na silnych i mądrych ludzi, moje dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to a beautiful little [child.Custom('GetDaughterSon')]. [child.GetSheHe|U] comes into this world blissfully unaware of the secret I must keep.",
+    "RUS": "У меня [Select_CString(child.IsFemale, 'родилась очаровательная', 'родился очаровательный' )] [child.Custom('GetDaughterSon')]! [Select_CString(child.IsFemale, 'Она', 'Он' )] приходит в этот мир в блаженном неведении относительно секрета, который я храню.",
+    "POL": "Urodził[Select_CString( ROOT.Char.IsFemale, 'a', 'e' )]m piękn[Select_CString( child.IsFemale, 'ą', 'ego' )] mał[Select_CString( child.IsFemale, 'ą', 'ego' )] [Select_CString( child.IsFemale, 'córeczkę', 'synka' )]. Przychodzi na świat w błogiej nieświadomości sekretu, który zmuszon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] jestem zachować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.opening.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have given birth to two beautiful [child.Custom('TwinDaughtersSonsChildren')]. They come into this world blissfully unaware of the secret I must keep.",
+    "RUS": "У меня родились очаровательные [child.Custom('TwinDaughtersSonsChildren')]. Они приходят в этот мир в блаженном неведении относительно секрета, который я храню.",
+    "POL": "Urodziłam dwójkę pięknych dzieci. Przychodzą na ten świat w błogiej nieświadomości tajemnicy, którą muszę zachować.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.true_father",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I fear what would happen if someone found out [real_father.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] is the true father.",
+    "RUS": "Я боюсь того, что может случиться, если кто-то узнает, что настоящий отец — [real_father.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].",
+    "POL": "Bardzo się boję na samą myśl, co by się stało, gdyby ktokolwiek dowiedział się, że [real_father.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] jest prawdziwym ojcem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.unmarried",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "that [child.GetHerHis] father is in fact [real_father.GetFullName].",
+    "RUS": "что [child.GetHerHis] настоящим отцом является [real_father.GetFullName].",
+    "POL": "że [child.GetHerHis] ojcem w rzeczywistości jest [real_father.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.unmarried.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "that their father is in fact [real_father.GetFullName].",
+    "RUS": "что их настоящим отцом является [real_father.GetFullName].",
+    "POL": "że ich ojcem w rzeczywistości jest [real_father.GetFullName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.girl_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nOh little child, what shall be your name?",
+    "RUS": "\\n\\nО дитя, каким будет твое имя?",
+    "POL": "\\n\\nOch, małe dziecko, jak cię nazwać?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.boy_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nA part of me wants to name my son after [real_father.GetFirstNameNoTooltip], but I fear that would not be wise...",
+    "RUS": "\\n\\nЧасть меня хочет дать сыну то же имя, что носит [real_father.GetFirstNameNoTooltip], но, боюсь, это будет неразумно...",
+    "POL": "\\n\\nJakaś część mnie podpowiada mi, aby nadać mojemu synowi imię po jego ojcu [real_father.GetFirstNameNoTooltip], jednakże obawiam się, że to nie będzie rozsądny wybór…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.twin_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nOh, my children, what shall I name you?",
+    "RUS": "\\n\\nО, дети мои, как я назову вас?",
+    "POL": "\\n\\nOch, moje dzieci, jak dać wam na imię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Hush now, my [child.Custom('GetDaughterSon')].",
+    "RUS": "Тише, [child.Custom('GetDaughterSon')] [Select_CString(child.IsFemale, 'моя', 'мой' )].",
+    "POL": "Już cichutko, m[Select_CString(child.IsFemale, 'oja córeczko', 'ój synku' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.b",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Hush now, my [child.Custom('TwinDaughtersSonsChildren')].",
+    "RUS": "Тише, [child.Custom('TwinDaughtersSonsChildren')] мои.",
+    "POL": "Już cichutko, moje maluszki.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The world at large is none the wiser to [child.GetFirstNamePossessiveNoTooltip] true parentage",
+    "RUS": "Немногие знают, кто настоящий отец моего ребенка.",
+    "POL": "Świat nie będzie mądrzejszy, gdy dowie się jakie [child.GetFirstNameNoTooltip] ma pochodzenie",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The world at large is none the wiser to their true parentage.",
+    "RUS": "Немногие знают, кто настоящий отец моих детей.",
+    "POL": "Świat nie będzie mądrzejszy, gdy dowie się o ich prawdziwym pochodzeniu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1002.c",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I wonder where [real_father.GetFirstNameNoTooltip] is right now...",
+    "RUS": "Интересно, где сейчас [real_father.GetFirstNameNoTooltip]...",
+    "POL": "Zastanawiam się, gdzie jest teraz [real_father.GetFirstNameNoTooltip]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.loves_mother.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Oh, [mother.GetFirstName], you have been so brave! So strong! Words cannot describe my love for you, and now we have",
+    "RUS": "О, [mother.GetFirstName], ты была такой храброй! Такой сильной! Словами не описать, как я люблю тебя и теперь ты родила нам",
+    "POL": "Och, [mother.GetFirstName], byłaś taka odważna! Taka silna! Słowami nie można opisać mojej miłości do ciebie, a teraz mamy",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.likes_mother.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "With a tired yet blissful smile, [mother.GetFirstName] presents me with",
+    "RUS": "С усталой, но довольной улыбкой [mother.GetFirstName] показывает мне",
+    "POL": "Ze zmęczonym, ale błogim uśmiechem, [mother.GetFirstName] przedstawia mi",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.dislikes_mother.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Praise [ROOT.Char.GetFaith.FertilityGodName], [mother.GetFirstNameNoTooltip] has given birth to",
+    "RUS": "[ROOT.Char.GetFaith.FertilityGodName], восславься, [mother.GetFirstNameNoTooltip] родила",
+    "POL": "C[ROOT.Char.GetFaith.FertilityGodName] tak chce! [mother.GetFirstNameNoTooltip] wydaje na świat",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.sondaughter.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "perfect little [child.Custom('GetDaughterSon')]!\\n\\n",
+    "RUS": "[Select_CString(child.IsFemale, 'чудесную дочку', 'чудесного сына' )]!\\n\\n",
+    "POL": "cudown[Select_CString( child.IsFemale, 'ej', 'ego' )] [Select_CString( child.IsFemale, 'malutkiej', 'malutkiego' )] [Select_CString( child.IsFemale, 'córeczki', 'synka' )]\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.daughters.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "perfect little girls!\\n\\n",
+    "RUS": "очаровательных девочек!\\n\\n",
+    "POL": "cudownych malutkich dziewczynek!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.sons.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "perfect little boys!\\n\\n",
+    "RUS": "очаровательных мальчиков!\\n\\n",
+    "POL": "cudownych malutkich chłopców!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.children.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "perfect little children!\\n\\n",
+    "RUS": "очаровательных маленьких детей!\\n\\n",
+    "POL": "cudownych malutkich dzieci!\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "May you grow to be strong and wise, my [child.Custom('GetDaughterSon')].",
+    "RUS": "Надеюсь, ты станешь [Select_CString(child.IsFemale, 'сильной и мудрой, моя', 'сильным и мудрым, мой' )] [child.Custom('GetDaughterSon')].",
+    "POL": "Obyś [Select_CString( child.IsFemale, 'wyrosła na silną i mądrą osobę, moja córko', 'wyrósł na silnego i mądrego człowieka, mój synu' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1003.b",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "May you grow strong and wise!",
+    "RUS": "Расти, набирайся силы и мудрости!",
+    "POL": "Wyrośnijcie na silnych i mądrych, moje dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Fatherless",
+    "RUS": "Без отца",
+    "POL": "Bez ojca",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1005.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My beautiful children are resting, unaware of the challenging life they have been born into. The world does not know who their father is, and they might never know themselves.",
+    "RUS": "Мои чудесные дети спят, не зная о том, какие испытания ждут их в этой жизни. Мир не знает, кто их отец, и они сами тоже могут никогда этого не узнать.",
+    "POL": "Moje wspaniałe dzieci odpoczywają, nie zdając sobie sprawy z trudnego otoczenia, w którym się urodziły. Świat nie wie, kim jest ich ojciec, a one same również mogą się tego nigdy nie dowiedzieć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My beautiful [child.Custom('GetDaughterSon')] is resting, unaware of the challenging life [child.GetSheHe] has been born into. The world does not know who [child.GetHerHis] father is, and [child.GetSheHe] might never know [child.GetHerselfHimself].",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя чудесная дочка', 'Мой чудесный сынок' )] спит, не зная о том, какие испытания ждут [child.GetHerHis] в этой жизни. Мир не знает, кто [child.GetHerHis] отец, и, возможно, мое дитя тоже этого не узнает.",
+    "POL": "M[Select_CString( child.IsFemale, 'oja piękna córka', 'ój urodziwy syn' )] odpoczywa, nie będąc świadom[Select_CString(child.IsFemale, 'ą', 'ym' )] trudnego życia, z którym przyjdzie [Select_CString(child.IsFemale, 'jej', 'mu' )] się zmierzyć. Świat nie wie, kto jest je[Select_CString(child.IsFemale, 'j', 'go' )] ojcem, a on[Select_CString(child.IsFemale, 'a sama', ' sam' )] też może się tego nigdy nie dowiedzieć.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "It is the burden we must bear.",
+    "RUS": "Мы должны нести это бремя.",
+    "POL": "To ciężar, który musimy wziąć na swoje ramiona.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Bastard Born",
+    "RUS": "Рождение бастарда",
+    "POL": "Narodziny bękarta",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.opening",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "There is no longer the slightest doubt in my mind. [mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to",
+    "RUS": "У меня не осталось сомнений, — [mother.Custom2('MyCharacterIntroduction', ROOT.Char)] родила",
+    "POL": "Nie mam już najmniejszych wątpliwości. [mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] urodziła",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "twins, and we both know that I am their father.",
+    "RUS": "близнецов, и мы оба знаем, что я их настоящий отец.",
+    "POL": "bliźniaki i oboje wiemy, że ja jestem ich ojcem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "a [child.Custom('GetDaughterSon')], and we both know that I am [child.GetHerHis] father.",
+    "RUS": "[Select_CString(child.IsFemale, 'дочь', 'сына' )] и знает, что я [child.GetHerHis] настоящий отец.",
+    "POL": "[Select_CString( child.IsFemale, 'córkę', 'syna' )] i oboje wiemy, że ja jestem [child.GetHerHis] ojcem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.not_known",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nThankfully, [spouse_of_mother.Custom2('HerHisCharacterIntroduction', SCOPE.sC('mother'))] believes it to be [spouse_of_mother.GetHerHis].",
+    "RUS": "\\n\\nК счастью, [spouse_of_mother.Custom2('HerHisCharacterIntroduction', SCOPE.sC('mother'))] считает, что это [spouse_of_mother.GetHerHis].",
+    "POL": "\\n\\nNa szczęście [spouse_of_mother.Custom2('HerHisCharacterIntroduction', SCOPE.sC('mother'))] wierzy, że jest [spouse_of_mother.GetHerHis].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.unmarried",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nThankfully, [mother.GetFirstNameNoTooltip] has kept quiet about me, and no one else knows the truth, at least for now...",
+    "RUS": "\\n\\nК счастью, [mother.GetFirstNameNoTooltip] помалкивала обо мне, и никто кроме нас не знает об этом, по крайней мере до поры...",
+    "POL": "\\n\\nNa szczęście, [mother.GetFirstNameNoTooltip] nic o mnie nie powiedział[Select_CString(mother.IsFemale, 'a', '' )] i nikt inny nie zna prawdy, przynajmniej na razie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I must be very careful about this.",
+    "RUS": "Мне нужно быть осторожнее с этим.",
+    "POL": "Muszę bardzo uważać.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "You keep the Secret to yourself",
+    "RUS": "Вы решаете ни с кем не делиться этим секретом",
+    "POL": "Tajemnicę zachowujesz dla siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.a.message_desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Real Father Knows",
+    "RUS": "Настоящий отец знает",
+    "POL": "Prawdziwy ojciec wie",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.a.mother_message",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[real_father.GetTitledFirstName] has learned that [real_father.GetSheHe] is the true father",
+    "RUS": "[real_father.GetTitledFirstName] узнал, что является настоящим отцом",
+    "POL": "[real_father.GetTitledFirstName] dowiedział się, że jest [real_father.GetSheHe|l] prawdziwym ojcem",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.b",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The world will know of my child!",
+    "RUS": "Мир узнает о моем ребенке!",
+    "POL": "Świat dowie się o moim dziecku!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1006.bastard_explanation",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "You learned of [child.GetFirstName]'s birth, the mother, [mother.GetShortUIName] gains the [secret.GetName] Secret",
+    "RUS": "Вы узнали, что родился ребенок: [child.GetFirstName]. Мать, [mother.GetShortUIName], получает секрет: [secret.GetName]",
+    "POL": "[Select_CString( THIS.Char.IsFemale, 'Dowiedziałaś', 'Dowiedziałeś' )] się, że urodził[Select_CString( child.IsFemale, 'a', '' )] się [child.GetFirstName], a [child.GetHerHis] matka, [mother.GetShortUINameNotMe], skrywa sekret „[secret.GetName]”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1010.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Child of My Blood",
+    "RUS": "Дитя моей крови",
+    "POL": "Dziecię mojej krwi",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1010.t_twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Children of My Blood",
+    "RUS": "Дети моей крови",
+    "POL": "Dzieci mojej krwi",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1010.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to two [child.Custom('TwinDaughtersSonsChildren')]!\\n\\nSince the little ones are part of the [ROOT.Char.GetDynasty.GetName] dynasty they should be bestowed with names worthy of their heritage.",
+    "RUS": "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] родила двойню!\\n\\nПоскольку дети принадлежат к династии [ROOT.Char.GetDynasty.GetName], они должны получить имена, достойные их наследия.",
+    "POL": "[mother.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], wydaje na świat bliźnięta!\\n\\nJako że maluchy są częścią dynastii [ROOT.Char.GetDynasty.GetName], powinny zostać obdarzone imionami godnymi ich spuścizny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1010.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has given birth to a [child.Custom('GetDaughterSon')]!\\n\\nSince the little one is a fruit of the [ROOT.Char.GetDynasty.GetName] tree, [child.GetSheHe] should be bestowed a name worthy of [child.GetHerHis] heritage.",
+    "RUS": "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] родила ребенка, и это [child.Custom('GetDaughterSon')]!\\n\\nПоскольку ребенок — плод династического древа [ROOT.Char.GetDynasty.GetName], [Select_CString(child.IsFemale, 'она должна', 'он должен' )] получить имя, достойное [Select_CString(child.IsFemale, 'ее', 'его')] наследия.",
+    "POL": "[mother.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], urodziła!\\n\\nSkoro maleństwo jest częścią dynastii [ROOT.Char.GetDynasty.GetName], powinno otrzymać imię godne swego dziedzictwa.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1100.title",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.Custom('GetTaltosTerm')] Born",
+    "RUS": "[child.Custom('GetTaltosTerm')] [Select_CString(child.IsFemale, 'родилась', 'родился' )]",
+    "POL": "Narodziny [child.Custom('GetTaltosTerm')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.1100.message",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The [child.Custom('DefaultPriestTitlePlural')] have identified [child.Custom2('MyCharacterIntroduction', ROOT.Char)] as a [child.Custom('GetTaltosTerm')].\\n\\nChosen by the [child.GetFaith.PantheonTerm] for a mysterious purpose, what does this child's future hold?",
+    "RUS": "[child.Custom('DefaultPriestTitlePlural')|U] определили, что [child.Custom2('MyCharacterIntroduction', ROOT.Char)] — [child.Custom('GetTaltosTerm')].\\n\\n[child.GetFaith.PantheonTerm|U] готовят загадочную судьбу для этого ребенка... Кто знает, что ждет [Select_CString(child.IsFemale, 'её', 'его' )] в будущем?",
+    "POL": "[child.Custom('DefaultPriestTitlePlural')|U] twierdzą, że [child.Custom2('MyCharacterIntroduction', ROOT.Char)] to [child.Custom('GetTaltosTerm')].\\n\\nSiła wyższa, którą znamy jako [child.GetFaith.PantheonTerm], wybrała to dziecko do realizacji tajemniczego celu. Co kryje jego przyszłość?",
+    "BEL": ""
+  },
+  {
+    "KEY": "known_bastard_birth_event_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.GetFirstNameNoTooltip] will be a [bastard|E] of House [child.GetHouse.GetBaseName]",
+    "RUS": "[child.GetFirstNameNoTooltip] станет [Concept( 'bastard', 'бастардом' )|E] дома [child.GetHouse.GetBaseName]",
+    "POL": "[child.GetFirstNameNoTooltip] będzie [Concept( 'bastard', 'bękartem' )|E] rodu [child.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "legitimized_known_bastard_birth_event_tooltip",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.GetFirstNameNoTooltip] will be a [legitimized_bastard|E] of House [child.GetHouse.GetBaseName]",
+    "RUS": "[child.GetFirstNameNoTooltip] теперь [legitimized_bastard|El] дома [child.GetHouse.GetBaseName]",
+    "POL": "[child.GetFirstNameNoTooltip] będzie [Concept( 'legitimized_bastard', 'legitymowanym bękartem' )|E] rodu [child.GetHouse.GetBaseName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The Blessing of Ignorance",
+    "RUS": "Благословенное неведение",
+    "POL": "Dobrodziejstwo niewiedzy",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.desc.mother.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My newborn [child.Custom('GetDaughterSon')] sleeps so sweetly, blessedly unaware of the curse which will follow [child.GetHerHim] for the rest of [child.GetHerHis] life. To be a bastard is not an easy thing in this world, nor is it to be the mother of one.\\n\\nEven as my babe slumbers, I am kept awake by the choice I must make.",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя новорожденная дочь', 'Мой новорожденный сын' )] спит так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать [child.GetHerHis] до конца жизни. Нелегко быть бастардом в этом мире, нелегко быть матерью бастарда.\\n\\nМой младенец уснул, но мне не спится: я все думаю о решении, которое мне предстоит принять.",
+    "POL": "M[Select_CString( child.IsFemale, 'oja nowo narodzona córeczka', 'ój nowo narodzony synek' )] śpi tak słodko, będąc całkowicie nieświadom[Select_CString( child.IsFemale, 'ą', 'ym' )] przekleństwa, z którym będzie zmagać się do końca swojego życia. Bycie bękartem nie jest łatwą rzeczą na tym świecie, podobnie jak bycie matką takiego dziecka.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.desc.mother.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My newborns sleep so sweetly, blessedly unaware of the curse which will follow them for the rest of their lives. To be a bastard is not an easy thing in this world, nor is it to be the mother of bastards.\\n\\nEven as my babes slumber, I am kept awake by the choice I must make.",
+    "RUS": "Мои новорожденные дети спят так сладко, пребывая в блаженном неведении о проклятии, которое будет преследовать их до конца жизни. Нелегко быть бастардами в этом мире, нелегко быть матерью бастардов.\\n\\nМои младенцы уснули, но мне не спится: я все думаю о решении, которое мне предстоит принять.",
+    "POL": "Moje nowo narodzone dzieci śpią tak słodko, będąc całkowicie nieświadome klątwy, z którą będą musiały się zmagać do końca swojego życia. Bycie bękartem nie jest łatwą rzeczą na tym świecie, podobnie jak bycie matką takich dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.desc.father.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Out of wedlock, [mother.GetTitledFirstName] has given birth to our [child.Custom('GetDaughterSon')]. Though I ought to be joyful, my heart is heavy with doubt and fear.\\n\\nSo it will stay until I have made my decision.",
+    "RUS": "[mother.GetTitledFirstName] родила [Select_CString(child.IsFemale, 'нашу дочь', 'нашего сына' )] вне брака. И хотя мне полагается радоваться, сердце мое снедают сомнения и страхи.\\n\\nИ это продолжится, пока я не приму решения.",
+    "POL": "[mother.GetTitledFirstName] urodziła nasz[Select_CString( child.IsFemale, 'ą córkę, która została poczęta', 'ego syna, który został poczęty' )] poza związkiem małżeńskim. Choć powin[Select_CString( ROOT.Char.IsFemale, 'nam', 'ienem' )] być radosn[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )], moje serce jest ciężkie od wątpliwości i strachu.\\n\\nI tak już zostanie, dopóki nie podejmę decyzji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.desc.father.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Out of wedlock, [mother.GetTitledFirstName] has given birth to our children. Though I ought to be joyful, my heart is heavy with doubt and fear.\\n\\nSo it will stay until I have made my decision.",
+    "RUS": "[mother.GetTitledFirstName] родила наших детей вне брака. И хотя мне полагается радоваться, сердце мое снедают сомнения и страхи.\\n\\nИ я не узнаю покоя, пока не приму решения.",
+    "POL": "[mother.GetTitledFirstName] urodziła nasze dzieci, które zostały poczęte poza związkiem małżeńskim. Choć powinienem być radosny, moje serce jest ciężkie od wątpliwości i strachu.\\n\\nI tak pozostanie, dopóki nie podejmę decyzji.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.a.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I will legitimize [child.GetHerHim] as my own!",
+    "RUS": "Я признаю [SCOPE.sC('child').GetHerHis]!",
+    "POL": "Uznam [Select_CString( child.IsFemale, 'ją jako swoją córkę', 'go jako swojego syna' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.a.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I will legitimize them as my own!",
+    "RUS": "Я признаю их!",
+    "POL": "Uznam je jako swoje dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.b.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I cannot dishonor my family by legitimizing a bastard...",
+    "RUS": "Я не могу опозорить семью, признав бастарда...",
+    "POL": "Nie mogę zhańbić honoru mojej rodziny, legitymizując bękarta…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2001.b.no_legitimization_in_faith",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Doomed to a bastard life...",
+    "RUS": "Незавидна участь бастарда...",
+    "POL": "Skazan[Select_CString( child.IsFemale, 'a', 'y' )] na bękarcie życie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "bastard_remains_bastard_tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.GetShortUIName|U] remains an unlegitimized [bastard|E]",
+    "RUS": "[child.GetShortUIName|U] остается непризнанным [Concept( 'bastard', 'бастардом' )|E]",
+    "POL": "[child.GetShortUINameNotMe|U] zostaje nielegitymizowanym [Concept( 'bastard', 'bękartem' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Twice Blessed",
+    "RUS": "Двойное благословение",
+    "POL": "Podwójne błogosławieństwo",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.start",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "This is truly a day worthy of celebration!",
+    "RUS": "Поистине, этот день достоин праздника!",
+    "POL": "To jest naprawdę dzień godny świętowania!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.desc.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Not only have I been blessed with a newborn [child.Custom('GetDaughterSon')] – [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], has chosen to legitimize [child.GetHerHim]!",
+    "RUS": "Мне не просто ниспослана радость рождения [Select_CString(child.IsFemale, 'дочери', 'сына' )], — [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], хочет признать [SCOPE.sC('child').GetHerHis]!",
+    "POL": "Nie tylko został[Select_CString( ROOT.Char.IsFemale, 'am pobłogosławiona', 'em pobłogosławiony' )] nowo narodzon[Select_CString( child.IsFemale, 'ą córką', 'ym synem' )], ale również [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], zdecydował[Select_CString( legitimizer.IsFemale, 'a', '' )] się [Select_CString( child.IsFemale, 'ją', 'go' )] legitymizować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.desc.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Not only have I been blessed with newborn twins — their [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], has chosen to legitimize them!",
+    "RUS": "Мне не просто ниспослана радость рождения близнецов, — их [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], хочет признать их!",
+    "POL": "Nie tylko został[Select_CString( ROOT.Char.IsFemale, 'am pobłogosławiona', 'em pobłogosławiony' )] nowo narodzonymi bliźniakami, ale również ich [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], zdecydował[Select_CString( legitimizer.IsFemale, 'a', '' )] je legitymizować!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.end",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nThe last few months have been lined with doubts and fear, but today my heart feels light as a feather.",
+    "RUS": "\\n\\nПрошедшие месяцы были полны сомнений и страха, но сегодня мое сердце легче перышка.",
+    "POL": "\\n\\nOstatnie miesiące były pełne wątpliwości i strachu, ale dziś moje serce jest lekkie jak piórko.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The future holds hope yet.",
+    "RUS": "Надежда еще теплится в будущем.",
+    "POL": "Przyszłość jest pełna nadziei.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "A Rough Start",
+    "RUS": "Непростое начало",
+    "POL": "Trudny początek",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.desc.standard_start",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I wish I could celebrate the birth of our [child.Custom('GetDaughterSon')], but [legitimizer.GetTitledFirstName] has made it clear that the babe will not be considered a true member of [legitimizer.GetHerHis] house.",
+    "RUS": "Хотелось бы мне отпраздновать рождение [Select_CString(child.IsFemale, 'нашей дочери', 'нашего сына' )], но [legitimizer.GetTitledFirstName] ясно [Select_CString(legitimizer.IsFemale, 'дала', 'дал' )] понять, что ребенок не будет считаться истинным членом [legitimizer.GetHerHis] дома.",
+    "POL": "Chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] móc świętować narodziny nasze[Select_CString( ROOT.Char.IsFemale, 'ej córki', 'go syna' )], jednakże [legitimizer.GetTitledFirstName] dał[Select_CString( legitimizer.IsFemale, 'a', '' )] jasno do zrozumienia, że niemowlę nie będzie traktowane jako prawowity członek je[Select_CString( legitimizer.IsFemale, 'j', 'go' )] rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.desc.twin_start",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I wish I could celebrate the birth of our children, but [legitimizer.GetTitledFirstName] has made it clear the babes are not to be true members of [legitimizer.GetHerHis] house.",
+    "RUS": "Хотелось бы мне отпраздновать рождение наших детей, но [legitimizer.GetTitledFirstName] ясно [Select_CString(legitimizer.IsFemale, 'дала', 'дал' )] понять, что дети не будут считаться истинными членами [legitimizer.GetHerHis] дома.",
+    "POL": "Chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )] móc świętować narodziny naszych dzieci, jednakże [legitimizer.GetTitledFirstName] dał[Select_CString( legitimizer.IsFemale, 'a', '' )] jasno do zrozumienia, że nie będą one traktowane jako prawowici członkowie je[Select_CString( legitimizer.IsFemale, 'j', 'go' )] rodu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.desc.landed_end",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nThe brand of bastard-hood never washes off completely, though the acknowledgment of a [legitimizer.GetTitleTierName] surely would have helped...",
+    "RUS": "\\n\\nКлеймо бастарда никогда не стереть полностью, хотя, если бы [legitimizer.GetTitleTierName|l] [Select_CString(legitimizer.IsFemale, 'признала', 'признал' )] ребенка, это бы многое изменило...",
+    "POL": "\\n\\nPrzekleństwa bycia bękartem nigdy nie można zmyć, jednakże [legitimizer.GetTitleTierName] m[Select_CString( legitimizer.IsFemale, 'ogłaby', 'ógłby' )] ułatwić nieco życie, gdy tylko zdecydował[Select_CString( legitimizer.IsFemale, 'a', '' )]by się na prawomocne uznanie…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.desc.unlanded_end",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\nThe brand of bastard-hood never washes off completely, though the acknowledgment of a [legitimizer.GetLadyLord] surely would have helped...",
+    "RUS": "\\n\\nКлеймо бастарда никогда не стереть полностью, хотя, если бы [legitimizer.GetLadyLord] [Select_CString(legitimizer.IsFemale, 'признала', 'признал' )] ребенка, это бы многое изменило...",
+    "POL": "\\n\\nPrzekleństwa bycia bękartem nigdy nie można zmyć, jednakże przyznanie się do [Select_CString( legitimizer.IsFemale, 'pani', 'pana' )] z pewnością by pomogło…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I wish things were otherwise, little [child.GetFirstNameNoTooltip]!",
+    "RUS": "Хотелось бы мне, чтобы все было иначе, [Select_CString(child.IsFemale, 'юная', 'юный' )] [child.GetFirstNameNoTooltip]!",
+    "POL": "Chciał[Select_CString( ROOT.Char.IsFemale, 'abym', 'bym' )], aby było inaczej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "A [secondary_legitimizer.GetMotherFather|U]'s Mercy",
+    "RUS": "Милосердие [Select_CString(secondary_legitimizer.IsFemale, 'матери', 'отца' )]",
+    "POL": "Miłosierdzie [Select_CString( secondary_legitimizer.IsFemale, 'matki', 'ojca' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2004.desc.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As it turns out, my newborn [child.Custom('GetDaughterSon')] might have a fine future awaiting [child.GetHerHim], after all. [child.GetHerHis|U] [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], has welcomed [child.GetHerHim] into house [secondary_legitimizer.GetDynastyName].",
+    "RUS": "Похоже, у [Select_CString(child.IsFemale, 'моей новорожденной дочери', 'моего новорожденного сына' )] все же есть надежда на светлое будущее: [SCOPE.sC('child').GetHerHis] [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], [Select_CString(secondary_legitimizer.IsFemale, 'приняла', 'принял' )] свое дитя в доме [secondary_legitimizer.GetDynastyName].",
+    "POL": "Jak się okazuje, moj[Select_CString( child.IsFemale, 'ą nowo narodzoną córkę', 'ego nowo narodzonego syna' )] może, mimo wszystko, czekać świetlana przyszłość. [child.GetHerHis|U] [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], przyj[Select_CString( secondary_legitimizer.IsFemale, 'ęła', 'ął' )] [Select_CString( child.IsFemale, 'ją', 'go' )] do rodu [secondary_legitimizer.GetDynastyName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2004.desc.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As it turns out, my newborns might have fine futures awaiting them, after all. Their [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], has welcomed them into house [secondary_legitimizer.GetDynastyName].",
+    "RUS": "Похоже, у моих новорожденных детей все же есть надежда на светлое будущее: их [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], [Select_CString(secondary_legitimizer.IsFemale, 'приняла', 'принял' )] свих детей в доме [secondary_legitimizer.GetDynastyName].",
+    "POL": "Jak się okazuje, mimo wszystko moje noworodki mogą mieć przed sobą wspaniałą przyszłość. Ich [secondary_legitimizer.GetMotherFather], [secondary_legitimizer.GetTitledFirstName], przyj[Select_CString( secondary_legitimizer.IsFemale, 'ęła', 'ął' )] je do rodu [secondary_legitimizer.GetDynastyName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2004.a.standard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Make them proud, my [child.Custom('GetDaughterSon')].",
+    "RUS": "Пусть они гордятся тобой, [Select_CString(child.IsFemale, 'дочь моя', 'сын мой' )].",
+    "POL": "Bądź z nich dumn[Select_CString( child.IsFemale, 'a, moja córko', 'y mój synu' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2004.a.twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Make them proud, my children.",
+    "RUS": "Пусть они гордятся вами, дети мои.",
+    "POL": "Bądźcie z nich dumni, moje dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2011.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [child.Custom('GetDaughterSon')]",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя', 'Мой' )] [child.Custom('GetDaughterSon')]",
+    "POL": "M[Select_CString( child.IsFemale, 'oja', 'ój' )] [child.Custom('GetDaughterSon')|l]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Though conceived outside the bonds of marriage, my newborn [child.Custom('GetDaughterSon')] has safely made it into this world.\\n\\n[child.GetSheHe|U] is born into the house of [legitimizer.GetHouse.GetBaseName], and that is how [child.GetSheHe] will be raised.",
+    "RUS": "Хоть и [Select_CString(child.IsFemale, 'зачатая', 'зачатый' )] вне брака, [Select_CString(child.IsFemale, 'моя новорожденная', 'мой новорожденный' )] [child.Custom('GetDaughterSon')] успешно [Select_CString(child.IsFemale, 'появилась', 'появился' )] на свет.\\n\\n[child.GetSheHe|U] [Select_CString(child.IsFemale, 'родилась', 'родился' )] в доме [legitimizer.GetHouse.GetBaseName], и именно так [child.GetSheHe] будет воспитываться.",
+    "POL": "Choć został[Select_CString( child.IsFemale, 'a', '' )] poczęt[Select_CString( child.IsFemale, 'a', 'y' )] poza więzami małżeństwa, m[Select_CString( child.IsFemale, 'oja', 'ój' )] nowo narodzon[Select_CString( child.IsFemale, 'a', 'y' )] [child.Custom('GetDaughterSon')|l] bezpiecznie przysz[Select_CString( child.IsFemale, 'ła', 'edł' )] na ten świat.\\n\\nUrodziłt[Select_CString( child.IsFemale, 'a', '' )] się jako człon[Select_CString( child.IsFemale, 'kini', 'ek' )] rodu [legitimizer.GetHouse.GetBaseName] i tak też będzie wychowywant[Select_CString( child.IsFemale, 'a', 'y' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2102.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[real_father.GetTitledFirstNamePossessiveNoTooltip|U] Spawn",
+    "RUS": "[real_father.GetTitledFirstNameNoTooltip] плодит новых ублюдков",
+    "POL": "[real_father.GetTitledFirstNameNoTooltip|U] i je[Select_CString( real_father.IsFemale, 'j', 'go' )] pomiot",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2102.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], has given birth to a child sired by another man. Now [mother.GetSheHe] is nursing [real_father.GetTitledFirstNamePossessive] [child.Custom('GetDaughterSon')]. They call [child.GetHerHim] [child.GetFirstName].",
+    "RUS": "Моя [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], родила ребенка, отцом которого является [SCOPE.sC('real_father').GetTitledFirstName], и теперь нянчится с ним. Дитя назвали [child.GetFirstName].",
+    "POL": "M[Select_CString( SCOPE.sC('mother').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], urodziła dziecko, spłodzone przez innego mężczyznę. Teraz karmi piersią [Select_CString( child.IsFemale, 'swoją córkę, której', ' swojego syna, którego' )] ojcem jest [real_father.GetTitledFirstName]. Dali [Select_CString( child.IsFemale, 'jej', 'mu' )] na imię [child.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2102.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], has given birth to [real_father.GetTitledFirstNamePossessive] [child.Custom('TwinDaughtersSonsChildren')]. They call them [child.GetFirstName] and [child_2.GetFirstName].",
+    "RUS": "Моя [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], родила близнецов, отец которых — [real_father.GetTitledFirstName]. Детей назвали [child.GetFirstName] и [child_2.GetFirstName].",
+    "POL": "M[Select_CString( mother.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], wydał[Select_CString( mother.IsFemale, 'a', '' )] na świat dzieci, których ojcem jest [real_father.GetTitledFirstName]. Dali im na imię [child.GetFirstName] oraz [child_2.GetFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2102.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What am I to do with this?",
+    "RUS": "И что мне с этим делать?",
+    "POL": "Co mam z tym zrobić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2104.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "A Strange Child",
+    "RUS": "Чужой ребенок",
+    "POL": "Obce dziecko",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2104.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], sired a child with [mother.GetTitledFirstName]. Now [mother.GetFirstName] is nursing the spawn of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))].",
+    "RUS": "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали ребенка. Теперь [mother.GetFirstName] нянчится с выродком, отец которого — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))].",
+    "POL": "M[Select_CString( real_father.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName] i [mother.GetTitledFirstName] spłodzili dziecko. Teraz [mother.GetFirstName] sprawuje opiekę nad potomkiem moje[Select_CString( real_father.IsFemale, 'j', 'go' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('real_father'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2104.desc.twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], sired children with [mother.GetTitledFirstName]. Now [mother.GetFirstName] is nursing the spawn of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))].",
+    "RUS": "Мой [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName], и [mother.GetTitledFirstName] зачали детей. Теперь [mother.GetFirstName] нянчится с выродками, отец которых — [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))].",
+    "POL": "M[Select_CString( real_father.IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstName] i [mother.GetTitledFirstName] spłodzili dzieci. Teraz [mother.GetFirstName] sprawuje opiekę nad potomstwem moje[Select_CString( real_father.IsFemale, 'j', 'go' )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('real_father'))].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.2104.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What am I to do with this?",
+    "RUS": "И что мне с этим делать?",
+    "POL": "Co mam z tym zrobić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "every_child_adult_non_bastard",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "All of my non-bastard, adult children",
+    "RUS": "Все мои законные взрослые дети",
+    "POL": "Każde twoje dorosłe dziecko, które nie jest bękartem",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Cradled by Death",
+    "RUS": "Колыбель смерти",
+    "POL": "Ukołysanie przez śmierć",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3001.desc_other_child",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Еще немного, моя [ROOT.Char.Custom('FormOfAddressForLiege')]! Ребенок почти вышел!» Крик срывается с моих губ, и я тужусь в последний раз. Боль повсюду, ее слишком много, она поглощает меня, но вдруг все заканчивается. Я... я сделала это.\\n\\n«[Select_CString(dummy_gender.IsFemale, 'Она', 'Он' )] в порядке? — я едва узнаю свой голос. — Это [dummy_gender.Custom('GirlBoy')]?..»\\n\\nПовитуха не отвечает мне, даже не смотрит на меня. Нет, ее взгляд устремлен лишь на неподвижного младенца в ее руках.",
+    "POL": "– Jeszcze tylko jedno parcie, wasza czcigodność! Dziecko jest już prawie na świecie!\\n\\nKrzyk wydostaje się z moich ust, gdy prę po raz ostatni. Ból jest wszechogarniający, zbyt duży, przytłaczający – i wtedy wszystko się kończy. Ja… Udało się.\\n\\n– Czy z dzieckiem wszystko w porządku? – Ledwo rozpoznaję swój własny głos. – Czy to… Czy to chłopiec, czy dziewczynka?\\n\\nAkuszerka nie odpowiada i nawet nie patrzy w moją stronę. Jest zapatrzona w nieruchome niemowlę, które trzyma w swoich ramionach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Isn't... Why isn't [dummy_gender.GetSheHe] breathing?! #EMP Do something!#!",
+    "RUS": "Почему... Почему [dummy_gender.GetSheHe] не дышит?! #EMP Сделайте что-нибудь!#!",
+    "POL": "Czy… Dlaczego [dummy_gender.GetSheHe] nie oddycha?! #EMP Zrób coś!#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "@death_icon! Your [dummy_gender.Custom('DaughterSon')] was stillborn",
+    "RUS": "@death_icon! [Select_CString(dummy_gender.IsFemale, 'Ваша', 'Ваш' )] [dummy_gender.Custom('DaughterSon')] [Select_CString(dummy_gender.IsFemale, 'родилась мертвой', 'родился мертвым' )]",
+    "POL": "@death_icon! Twoje dziecko urodziło się martwe",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As the [ROOT.Char.Custom('GetDoor')] to the birthing [ROOT.Char.Custom('GetChamber')] opens, I am greeted not by smiling midwives and a crying babe, but [mother.GetTitledFirstNamePossessive] heart-wrenching wails.\\n\\n",
+    "RUS": "[ROOT.Char.Custom('GetDoor')|U] в комнаты роженицы открывается, но меня не встречают улыбающиеся повитухи и плачущий младенец, я слышу лишь, как жутко воет [mother.GetTitledFirstName].\\n\\n«Мне очень жаль? [ROOT.Char.Custom('FormOfAddressForLiege')], — повитуха не смотрит мне в глаза. Ее руки сжимают крошечный закрытый сверток. — [Select_CString(dummy_gender.IsFemale, 'Ваша', 'Ваш' )] [dummy_gender.Custom('DaughterSon')]... [Select_CString(dummy_gender.IsFemale, 'Она', 'Он' )] теперь в лучшем мире».",
+    "POL": "Gdy otwiera się wejście do miejsca, w którym odbywał się poród, nie witają mnie uśmiechnięte akuszerki i płaczące niemowlę. Słyszę tylko, jak [mother.GetTitledFirstName] straszliwie rozpacza.\\n\\n– Tak mi przykro… – Akuszerka nie patrzy mi w oczy. W jej ramionach znajduje się malutkie, okryte zawiniątko. – To [dummy_gender.Custom('DaughterSon')] waszej czcigodności, ale… [ROOT.Char.GetFaith.PositiveAfterLife|U] to miejsce, w którym znajdzie [dummy_gender.GetSheHe] swoją kołyskę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [dummy_gender.Custom('DaughterSon')]? In... in [ROOT.Char.GetFaith.PositiveAfterLife]?",
+    "RUS": "[Select_CString(dummy_gender.IsFemale, 'Моя', 'Мой' )] [dummy_gender.Custom('DaughterSon')]? [ROOT.Char.GetFaith.PositiveAfterLife|U], [dummy_gender.GetSheHe] теперь там?",
+    "POL": "[ROOT.Char.GetFaith.PositiveAfterLife]? Moje dziecko…?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.desc_twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The twins are perfect. Their little faces, the way they smell... I want to stay in this moment forever, but the midwife only lets me hold them for a few breaths. I try to protest when she takes them from me, but my arms are weak and I struggle to find the words.\\n\\n",
+    "RUS": "Близнецы совершенны. Их маленькие лица, их запах... Я хочу навсегда остаться в этом мгновении, но повитуха дает мне подержать их лишь краткий миг. Я пытаюсь протестовать, когда она забирает их у меня, но мои руки слабы, и я с трудом подбираю слова.\\n\\n«Не волнуйтесь, [ROOT.Char.GetTitleAsNameNoTooltip]. Ваши [child.Custom('TwinDaughtersSonsChildren')] сильны и здоровы. Теперь мы позаботимся о вас».\\n\\n",
+    "POL": "Te dzieci są idealne. Ich małe buzie, ich zapach… Chcę, by ta chwila trwała na zawsze, ale akuszerka pozwala mi trzymać je tylko przez kilka oddechów. Próbuję protestować, gdy mi je zabiera, ale brak mi siły w rękach i z trudem znajduję słowa.\\n\\n– Niech [ROOT.Char.GetTitleAsNameNoTooltip] się nie martwi, dzieci są silne i zdrowe. Powinniśmy zająć się teraz waszą czcigodnością.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My [child.Custom('DaughterSon')] is perfect. [child.GetHerHis|U] little face, the way [child.GetSheHe] smells... I want to stay in this moment forever, but the midwife only lets me hold [child.GetHerHim] for a few breaths. I try to protest when she takes [child.GetHerHim] from me, but my arms are weak and I struggle to find the words.\\n\\n",
+    "RUS": "[Select_CString(child.IsFemale, 'Моя', 'Мой' )] [child.Custom('DaughterSon')] [Select_CString(child.IsFemale, 'совершенна', 'совершенен' )]. [Select_CString(child.IsFemale, 'Ее', 'Его' )] маленькое лицо, этот запах... Я хочу навсегда остановить мгновение, но повитуха дает мне подержать [Select_CString(child.IsFemale, 'ее', 'его' )] лишь краткий миг между несколькими вздохами. Я пытаюсь протестовать, когда она забирает [Select_CString(child.IsFemale, 'ее', 'его' )], но мои руки слабы, и я с трудом подбираю слова.\\n\\n«Не волнуйтесь, [ROOT.Char.GetTitleAsNameNoTooltip]. [Select_CString(child.IsFemale, 'У вас крепкая и здоровая дочь', 'У вас крепкий и здоровый сын' )]. Теперь мы позаботимся о вас».\\n\\n",
+    "POL": "Moje dziecko jest idealne. Jego mała buzia, jego zapach… Chcę, by ta chwila trwała na zawsze, ale akuszerka pozwala mi trzymać je tylko przez kilka oddechów. Próbuję protestować, gdy mi je zabiera, ale brak mi siły w rękach i z trudem znajduję słowa.\\n\\n– Niech [ROOT.Char.GetTitleAsNameNoTooltip] się nie martwi, dziecko jest silne i zdrowe. Powinniśmy zająć się teraz waszą czcigodnością.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.adventurer",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As I fall back onto my bed, the world grows darker...",
+    "RUS": "Я без сил опускаюсь на кровать, и мир вокруг меня погружается во тьму...",
+    "POL": "Gdy opadam na łóżko, świat niknie w ciemnościach…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.landed",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As my handmaidens scurry frantically back and forth, the world grows darker...",
+    "RUS": "Мои служанки начинают сновать туда-сюда, и мир вокруг меня погружается во тьму...",
+    "POL": "Gdy moje służebnice gorączkowo biegają tam i z powrotem, świat niknie w ciemnościach…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.twin.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Please... Their names...",
+    "RUS": "Пожалуйста... Их имена...»",
+    "POL": "Proszę… Ich imiona…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3011.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Please... [child.GetHerHis|U] name...",
+    "RUS": "Пожалуйста... [Select_CString(child.IsFemale, 'Ее', 'Его' )] имя...",
+    "POL": "Proszę… [child.GetHerHis|U] imię…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3012.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "When the midwife finally exits the birth [ROOT.Char.Custom('GetChamber')] with a softly crying bundle in her arms, relief washes over me.\\n\\nThen I see the look on her face.\\n\\n",
+    "RUS": "Когда повитуха наконец покидает [ROOT.Char.Custom('GetChamber')] роженицы, держа в руках плачущий сверток, я испытываю облегчение.\\n\\nНо затем я вижу выражение ее лица.\\n\\n«Простите, [ROOT.Char.Custom('FormOfAddressForLiege')], [mother.GetFirstNameNoTooltip]...» — голос подводит ее, но это говорит само за себя.\\n\\nОдна жизнь прервалась, но",
+    "POL": "Kiedy akuszerka w końcu wychodzi z cicho płaczącym zawiniątkiem w ramionach z miejsca, w którym odbył się poród, ogarnia mnie ulga.\\n\\nPotem jednak dostrzegam wyraz jej twarzy.\\n\\n– Przykro mi, wasza czcigodność. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]… – Słowa ją zawodzą, ale ton głosu mówi wszystko.\\n\\nJedno życie zgasło,",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3012.desc_twin",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "two new lives have just begun. I must stay strong for my [child.Custom('TwinDaughtersSonsChildren')].",
+    "RUS": "две новые только что начались. Мне нужно держать себя в руках — ради моих детей.",
+    "POL": "lecz dwa nowe dopiero się zaczęły. Muszę pozostać siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dla swoich dzieci.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3012.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "a new one has just begun. I must stay strong for my [child.Custom('DaughterSon')].",
+    "RUS": "две новые только что начались. Мне нужно держать себя в руках — ради [Select_CString(child.IsFemale, 'моей дочери', 'моего сына' )].",
+    "POL": "lecz drugie właśnie się zaczęło. Muszę pozostać siln[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] dla swoje[Select_CString( child.IsFemale, 'j córki', 'go syna' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3012.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Such tragic beginnings...",
+    "RUS": "Такое трагическое начало...",
+    "POL": "Takie tragiczne początki…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3021.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "My labored breathing is the only sound cutting through the silence in the birthing [ROOT.Char.Custom('GetChamber')]. I search the [ROOT.Char.Custom('GetRoom')] for encouraging smiles, anything to pull me through the pain. All I see is my own fear mirrored back at me.\\n\\nWhen the child finally arrives, the long awaited cry is absent. ",
+    "RUS": "Мое тяжелое дыхание — единственный звук, нарушающий тишину. Я оглядываюсь в поисках ободряющих улыбок, чего угодно, что могло бы поддержать меня в этой боли.\\n\\nКогда ребенок наконец появляется на свет, я не слышу долгожданного плача. «Почему [dummy_gender.GetSheHe] не плачет?» Слова с трудом покидают мой рот. Все такое тяжелое...\\n\\nЯ с трудом шевелю губами.",
+    "POL": "Mój ciężki oddech jest jedynym dźwiękiem przebijającym się przez ciszę panującą w miejscu, w którym odbywa się poród. Ogarniam wzrokiem [ROOT.Char.Custom('GetRoom')] w poszukiwaniu zachęcających uśmiechów, czegokolwiek, co pomogłoby mi przetrwać ból. Jedyne, co widzę, to ten sam strach, który i ja odczuwam.\\n\\nKiedy dziecko w końcu przychodzi na świat, długo oczekiwany płacz nie nastaje.\\n\\n– Dlaczego nie płacze? – pytam z wielkim trudem. Wszystko przychodzi mi teraz z wielkim trudem.\\n\\nZbieram się w sobie, by ponowić pytanie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3021.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Why... is... [dummy_gender.GetSheHe]...",
+    "RUS": "Где... [dummy_gender.GetSheHe]...",
+    "POL": "Czy… [dummy_gender.GetSheHe]…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3022.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "As I wait outside the birthing [ROOT.Char.Custom('GetChamber')], each minute feels like a lifetime. [mother.GetFirstNamePossessive] screams have ceased, with no infant's cries replacing them. Something is wrong; I can feel it in my bones.\\n\\nThe [ROOT.Char.Custom('GetDoor')] opens. The midwife's wretched expression confirms all my fears.\\n\\n",
+    "RUS": "Я жду снаружи, и каждая минута тянется как вечность. [mother.GetFirstNameNoTooltip] перестала кричать, но и детского плача что-то не слышно. Что-то не так, я чувствую это всем своим естеством.\\n\\nОтчаяние на лице повитухи подтверждает все мои страхи.\\n\\n«Мне очень жаль, [ROOT.Char.Custom('FormOfAddressForLiege')]. [Select_CString(mother.IsFemale, 'Госпожа', 'Господин' )] [mother.GetFirstNameNoTooltip]... [Select_CString(dummy_gender.IsFemale, 'Ваша', 'Ваш' )] [dummy_gender.Custom('DaughterSon')]... Теперь их примет [ROOT.Char.GetFaith.PositiveAfterLife]».",
+    "POL": "Kiedy czekam na zewnątrz miejsca, w którym odbywa się poród, każda minuta wydaje się być wiecznością. [mother.GetFirstName] milczy, nie słyszę już ani [mother.Custom('PL_jego_jej')] krzyków, ani płaczu niemowlęcia. Coś jest nie tak, czuję to w kościach.\\n\\nPrzerażony wyraz twarzy wychodzącej do mnie akuszerki potwierdza wszystkie moje obawy.\\n\\n– Bardzo mi przykro. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]… Twoje dziecko… [ROOT.Char.GetFaith.PositiveAfterLife|U] to teraz ich dom.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3022.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Why?! [ROOT.Char.GetFaith.FertilityGodName|U], what have I done to deserve this?",
+    "RUS": "Почему, [ROOT.Char.GetFaith.HighGodName]? За что мне это?",
+    "POL": "Dlaczego [ROOT.Char.GetFaith.FertilityGodName|U]!? Co takiego zrobił[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że na to zasłużył[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )]?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3022.a.buddhism",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What have we done to deserve this?!",
+    "RUS": "За что мне это?",
+    "POL": "Co takiego zrobiliśmy, że na to zasłużyliśmy?!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Cradled by Sickness",
+    "RUS": "Колыбель болезни",
+    "POL": "Ukołysan[Select_CString( child.IsFemale, 'a', 'y' )] przez chorobę",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "All babies cry, but with little [child.GetFirstName] there is no end to the tears. I desperately want the midwife to ease my worries, but her furrowed brow makes everything worse.\\n\\n",
+    "RUS": "Все дети плачут, но [child.GetFirstName] никак не может остановиться. Я отчаянно хочу, чтобы повитуха успокоила мои страхи, но ее угрюмое лицо лишь еще больше пугает меня.\\n\\n",
+    "POL": "Wszystkie dzieci płaczą, jednakże mał[Select_CString( child.IsFemale, 'a', 'y' )] [child.GetFirstName] roni swoje łzy bez końca. Desperacko pragnę, aby akuszerka złagodziła moje obawy, ale jej zmarszczone brwi nie pozostawiają żadnych złudzeń.\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.princessprince.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(child.IsFemale, 'Маленькая', 'Маленький' )] [child.GetLadyLord]",
+    "POL": "„Malutk[Select_CString(child.IsFemale, 'a', 'i' )] [child.GetLadyLord]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.daughterson.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Ваш [child.Custom('DaughterSon')]",
+    "POL": "„[Select_CString(child.IsFemale, 'Twoja córka', 'Twój syn' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.end.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "is not gaining weight as [child.GetSheHe] should. We will take good care of [child.GetHerHim], [ROOT.Char.Custom('FormOfAddressForLiege')], but in the end, [child.GetHerHis] life is in [ROOT.Char.GetFaith.FateGodNamePossessive] hands.",
+    "RUS": "не набирает вес, как положено. Мы сделаем для н[child.GetHerHis] все возможное, [ROOT.Char.Custom('FormOfAddressForLiege')], но в конечном счете, [child.GetHerHis] жизнь в руках [ROOT.Char.GetFaith.FateGodNamePossessive]».",
+    "POL": "nie przybiera na wadze tak, jak powinno się to dziać. Będziemy się [child.Custom('PL_nim_nia')] dobrze opiekować, wasza czcigodność, jednakże [child.GetHerHis] życie jest w rękach [ROOT.Char.GetFaith.FateGodNamePossessive]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3031.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Hush now, [child.GetFirstNameNoTooltip]! Please don't cry!",
+    "RUS": "Тише, [child.GetFirstNameNoTooltip]! Пожалуйста, не плачь!",
+    "POL": "Już cichutko, [child.GetFirstNameNoTooltip]! Proszę cię, przestań płakać!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3034.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Growing Strong",
+    "RUS": "Набираясь сил",
+    "POL": "Rosnąc w siłę",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3034.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Most of the other children are stronger than me. When we play, I have to sit down and rest a lot. But today, when we were racing to the stables, I won!",
+    "RUS": "Большинство детей сильнее меня. Когда мы играем, я часто присаживаюсь, чтобы отдохнуть. Но сегодня, когда мы наперегонки бежали к конюшне, победа досталась мне!",
+    "POL": "Większość innych dzieci jest ode mnie silniejsza. Kiedy się bawimy, muszę często siadać i odpoczywać. Ale dzisiaj, kiedy ścigaliśmy się do stajni, wygrał[Select_CString( child.IsFemale, 'am', 'em' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3034.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Where is my [ROOT.Char.Custom('child_favorite_toy')]? Let's play!",
+    "RUS": "Где [ROOT.Char.Custom('child_favorite_toy')]? Давайте играть!",
+    "POL": "Gdzie jest moja ulubiona zabawka? Bawmy się!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3035.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "The weakness that has plagued my [child.Custom('GetDaughterSon')] since [child.GetHerHis] birth has finally released its hold on [child.GetHerHim]! Relief washes over me as I see [child.GetFirstName] running around with all the other children.",
+    "RUS": "Слабость, от которой [Select_CString(child.IsFemale, 'страдала моя', 'страдал мой' )] [child.Custom('GetDaughterSon')] с самого рождения, наконец-то оставила [child.GetHerHis]! Я испытываю невероятное облегчение, когда вижу, как [child.GetFirstName] бегает с другими детьми.",
+    "POL": "Choroba, która dręczyła [Select_CString( child.IsFemale, 'moją córkę', 'mojego syna' )] od samych narodzin w końcu odeszła w niepamięć! Raduję się szczęściem, gdy widzę, jak [child.GetFirstName] biega i bawi się z razem innymi dziećmi.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3035.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "May you grow strong, [child.GetFirstNameNoTooltip].",
+    "RUS": "Расти [Select_CString(child.IsFemale, 'сильной', 'сильным' )], [child.GetFirstNameNoTooltip].",
+    "POL": "Obyś [Select_CString( child.IsFemale, 'rosła', 'rósł' )] w siłę, [child.GetFirstNameNoTooltip].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Weary",
+    "RUS": "Усталость",
+    "POL": "Zmęczon[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "It has been a few weeks since I gave birth to my",
+    "RUS": "Прошло несколько недель с того дня, когда у меня",
+    "POL": "Minęło już kilka tygodni odkąd",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.desc_twins",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.Custom('TwinDaughtersSonsChildren')],",
+    "RUS": "[child.Custom('TwinDaughtersSonsChildren')],",
+    "POL": "[Select_CString(EqualTo_string( child.Custom('TwinDaughtersSonsChildren'), '$relation_sons|q$'), 'moi', 'moje' )] [child.Custom('TwinDaughtersSonsChildren')] opuści[Select_CString(EqualTo_string( child.Custom('TwinDaughtersSonsChildren'), '$relation_sons|q$'), 'ły', 'li' )] me łono,",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.one_child.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "little [child.GetFirstNameNoTooltip],",
+    "RUS": "[Select_CString(child.IsFemale, 'родилась маленькая', 'родился маленький' )] [child.GetFirstNameNoTooltip],",
+    "POL": "[Select_CString( child.IsFemale, 'moja mała', 'mój mały' )] [child.GetFirstNameNoTooltip] opuścił[Select_CString( child.IsFemale, 'a', '' )] me łono,",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.end",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "yet I am still bound to bed. As days go by without much improvement, my joy is consumed by a terrible weariness.",
+    "RUS": "и я все еще прикована к постели. Каждый следующий день не приносит изменений, и мою радость поглощает страшная усталость.",
+    "POL": "a mimo to wciąż jestem przykut[Select_CString( ROOT.Char.IsFemale, 'a', 'y' )] do łóżka. Z upływem dni bez znacznej poprawy, moją radość pochłania okropne zmęczenie.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.3041.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Shouldn't my strength be returning by now?",
+    "RUS": "Разве мои силы не должны были вернуться?",
+    "POL": "Czy moje siły nie powinny już powrócić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What's In A Name?",
+    "RUS": "Что в имени тебе моем?",
+    "POL": "Co to za imię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.start.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "With the babe cradled in [suggester.GetHerHis] arms,",
+    "RUS": "Покачивая в руках ребенка,",
+    "POL": "Z niemowlęciem wtulonym w swoje ramiona,",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.worrying.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] looks up at me with a worrying gleam in [suggester.GetHerHis] eyes.",
+    "RUS": "[suggester.GetTitledFirstName] тревожно смотрит на меня.",
+    "POL": "[suggester.GetTitledFirstName] spogląda na mnie z niepokojącym błyskiem oczach.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.tears.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] wipes tears from [suggester.GetHerHis] cheeks and addresses me without taking [suggester.GetHerHis] eyes off our [child.Custom('GetDaughterSon')].",
+    "RUS": "[suggester.GetTitledFirstName] смахивает слезы и обращается ко мне, не отрывая глаз от [Select_CString(child.IsFemale, 'нашей дочери', 'нашего сына' )].",
+    "POL": "[suggester.GetTitledFirstName] wyciera łzy ze swoich policzków i zwraca się do mnie nie odrywając oczu od [Select_CString( child.IsFemale, 'naszej córeczki', 'naszego synka' )].",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.pride.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] looks up at me, head held high and eyes glowing with pride.",
+    "RUS": "[suggester.GetTitledFirstName] смотрит на меня спокойно и гордо.",
+    "POL": "[suggester.GetTitledFirstName] spogląda na mnie z głową podniesioną do góry i oczami pełnymi dumy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.conviction.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] looks up at me, [suggester.GetHerHis] eyes gleaming with burning conviction.",
+    "RUS": "[suggester.GetTitledFirstName] смотрит на меня — [suggester.GetHerHis] глаза полностью выдают [SCOPE.sC('suggester').GetHerHis].",
+    "POL": "[suggester.GetTitledFirstName] spogląda na mnie, a [suggester.GetHerHis] oczy błyszczą palącym przekonaniem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.surprisingly_calm.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] looks up at me, [suggester.GetHerHis] face surprisingly serene.",
+    "RUS": "[suggester.GetTitledFirstName] смотрит на меня, [suggester.GetHerHis] лицо на удивление спокойно.",
+    "POL": "[suggester.GetTitledFirstName] spogląda na mnie, zachowując spokojny wyraz twarzy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.calm.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstName] looks up at me, [suggester.GetHerHis] face the picture of serenity.",
+    "RUS": "[suggester.GetTitledFirstName] смотрит на меня, на [suggester.GetHerHis] лице написана безмятежность.",
+    "POL": "[suggester.GetTitledFirstName] spogląda na mnie, a [suggester.GetHerHis] twarz jest oazą spokoju.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.devotion.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[suggester.GetTitledFirstNamePossessive] gaze meets mine. [suggester.GetHerHis|U] eyes are full of loving devotion.",
+    "RUS": "[suggester.GetTitledFirstNamePossessive] смотрит прямо на меня. В [SCOPE.sC('suggester').GetHerHis] глазах горит огонь любви.",
+    "POL": "spojrzenie [suggester.GetTitledFirstName] spotyka się z moim. [suggester.GetHerHis|U] oczy są pełne kochającego oddania.",
+    "BEL": ""
+  },
+  {
+    "KEY": "newline.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "\\n\\n",
+    "RUS": "\\n\\n",
+    "POL": "\\n\\n",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.love.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«Любовь моя!",
+    "POL": "„Moja miłości,",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.dear_spouse.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[Select_CString(ROOT.Char.IsFemale, 'Дражайшая моя', 'Дражайший мой' )] [ROOT.Char.GetWifeHusband]!",
+    "POL": "„[Select_CString(ROOT.Char.IsFemale, 'Najdroższa żono', 'Najdroższy mężu' )],",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.spouse.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "",
+    "RUS": "«[ROOT.Char.GetWifeHusband|U] [Select_CString(ROOT.Char.IsFemale, 'мой', 'моя' )]!",
+    "POL": "„[Select_CString(ROOT.Char.IsFemale, 'Żono', 'Mężu' )],",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.suggester_relative.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "could we name [child.GetHerHim] [namesake.GetFirstNameNoTooltip], after my [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?",
+    "RUS": "Давай назовем [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Это имя носит [Select_CString(namesake.IsFemale, 'моя', 'мой' )] [namesake.Custom('ComplimentAdjective')][Select_CString(namesake.IsFemale, 'ая', 'ый' )] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]».",
+    "POL": "czy możemy dać [child.GetHerHim] na imię [namesake.GetFirstNameNoTooltip]? Tak, jak [Select_CString(namesake.IsFemale, 'moja', 'mój' )] [namesake.Custom('ComplimentAdjective')] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.namer_relative.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "perhaps we should name [child.GetHerHim] [namesake.GetFirstNameNoTooltip]? After your [namesake.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?",
+    "RUS": "Пожалуй, мы могли бы назвать [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Это имя носит [Select_CString(namesake.IsFemale, 'твоя', 'твой' )] [namesake.Custom('ComplimentAdjective')][Select_CString(namesake.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]».",
+    "POL": "może powinniśmy dać [child.GetHerHim] na imię [namesake.GetFirstNameNoTooltip]? Tak, jak [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.suggesters_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I think we should name [child.GetHerHim] [suggester.GetFirstNameNoTooltip], after me. What do you say?",
+    "RUS": "Думаю, мы могли бы назвать [child.GetHerHis] [suggester.GetFirstNameNoTooltip], в мою честь. Что скажешь?»",
+    "POL": "myślę, że powinniśmy nadać [child.GetHerHim] imię – [suggester.GetFirstNameNoTooltip], po mnie. Co o tym sądzisz?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.namers_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "let us name [child.GetHerHim] [ROOT.Char.GetFirstNameNoTooltip], after you.",
+    "RUS": "Давай назовем [child.GetHerHis] [ROOT.Char.GetFirstNameNoTooltip], в честь тебя».",
+    "POL": "dajmy [child.GetHerHim] na imię [ROOT.Char.GetFirstNameNoTooltip], po tobie”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.nice_name.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have been thinking. I want us to name [child.GetHerHim] [namesake.GetFirstNameNoTooltip]. I always loved that name.",
+    "RUS": "Я все думаю... Хотелось бы назвать [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Мне всегда нравилось это имя».",
+    "POL": "długo się nad tym zastanawiał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )]. Chcę, abyśmy nadali [child.GetHerHim] imię [namesake.GetFirstNameNoTooltip]. Zawsze miał[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] słabość do tego imienia”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.religious_god.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "we should name [child.GetHerHim] [SCOPE.GetFlagName('name_suggestion')], in honor of the great god!",
+    "RUS": "Нам стоит назвать [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], в честь великого божества!»",
+    "POL": "powinniśmy dać [child.GetHerHim] na imię [SCOPE.GetFlagName('name_suggestion')], na cześć naszego potężnego boga!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.religious_godess.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "we should name [child.GetHerHim] [SCOPE.GetFlagName('name_suggestion')], in honor of the great goddess!",
+    "RUS": "Нам стоит назвать [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], в честь великой богини!»",
+    "POL": "powinniśmy dać [child.GetHerHim] na imię [SCOPE.GetFlagName('name_suggestion')], na cześć naszej potężnej bogini!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.religious_apostle.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "we should name [child.GetHerHim] [SCOPE.GetFlagName('name_suggestion')], in honor of the pious apostle.",
+    "RUS": "Нам стоит назвать [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], в честь благочестивого апостола!»",
+    "POL": "może powinniśmy dać [child.GetHerHim] na imię [SCOPE.GetFlagName('name_suggestion')], na cześć pobożnego apostoła”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.religious_holy_virgin.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "we should name [child.GetHerHim] [SCOPE.GetFlagName('name_suggestion')], in honor of the holy virgin.",
+    "RUS": "Нам стоит назвать [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], в честь святой девы!»",
+    "POL": "może powinniśmy dać [child.GetHerHim] na imię [SCOPE.GetFlagName('name_suggestion')], na cześć świętej dziewicy”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.religious_fallback.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "we should name [child.GetHerHim] after the glorious [SCOPE.GetFlagName('name_suggestion')]!",
+    "RUS": "Нам стоит дать [child.GetHerHim] то же имя, что [Select_CString(child.IsFemale, 'носила великая', 'носил великий' )] [SCOPE.GetFlagName('name_suggestion')]!»",
+    "POL": "powin[Select_CString(child.IsFemale, 'na', 'ien' )] nazwać się, tak jak chwalen[Select_CString(child.IsFemale, 'a', 'y' )] [SCOPE.GetFlagName('name_suggestion')]!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.lunatic.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have the greatest idea! We should name [child.GetHerHim] [SCOPE.GetFlagName('name_suggestion')]! Does [child.GetSheHe] not look like a little [SCOPE.GetFlagName('name_suggestion')]?",
+    "RUS": "У меня отличная идея! Мы должны назвать [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')]! Они уже так похожи!»",
+    "POL": "Mam wspaniały pomysł! Powinniśmy nazwać [Select_CString(child.IsFemale, 'ją', 'go' )] [SCOPE.GetFlagName('name_suggestion')]! Czy nie wygląda jak mał[Select_CString(child.IsFemale, 'a', 'y' )] [SCOPE.GetFlagName('name_suggestion')]?”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.creator.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "let us name our babe [SCOPE.GetFlagName('name_suggestion')], in honor of our Creator!",
+    "RUS": "Давай назовем ребенка [SCOPE.GetFlagName('name_suggestion')], в честь нашего создателя!»",
+    "POL": "nadajmy naszemu niemowlęciu imię [SCOPE.GetFlagName('name_suggestion')], na cześć naszego Stwórcy!”",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.possessed.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I have sensed [child.GetHerHis|U] presence. [child.GetSheHe|U] demands that we name our [child.Custom('DaughterSon')] [SCOPE.GetFlagName('name_suggestion')].",
+    "RUS": "Я чувствую [child.GetHerHis] присутствие, [child.GetSheHe] требует, чтобы мы назвали [Select_CString(child.IsFemale, 'дочь', 'сына' )] [SCOPE.GetFlagName('name_suggestion')]».",
+    "POL": "Wyczuł[Select_CString(ROOT.Char.IsFemale, 'am', 'em' )] [child.GetHerHis] obecność. Żąda, abyśmy nazwali [Select_CString(child.IsFemale, 'naszą córkę', 'naszego syna' )] [SCOPE.GetFlagName('name_suggestion')]”.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.a1",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "A lovely idea. [namesake.GetFirstNameNoTooltip] it is.",
+    "RUS": "Чудесная идея. [namesake.GetFirstNameNoTooltip], да.",
+    "POL": "Wspaniały pomysł. [namesake.GetFirstNameNoTooltip], to jest właśnie to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.a2",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "A lovely idea. [SCOPE.GetFlagName('name_suggestion')] it is.",
+    "RUS": "Чудесная идея. [SCOPE.GetFlagName('name_suggestion')], да.",
+    "POL": "Wspaniały pomysł. [SCOPE.GetFlagName('name_suggestion')], to jest właśnie to.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.a.tt.1",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "We name our child [namesake.GetFirstNameNoTooltip]",
+    "RUS": "Мы назовем ребенка [namesake.GetFirstNameNoTooltip]",
+    "POL": "Nadamy naszemu dziecku imię [namesake.GetFirstNameNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.a.tt.2",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "We name our child [SCOPE.GetFlagName('name_suggestion')]",
+    "RUS": "Мы назовем ребенка [SCOPE.GetFlagName('name_suggestion')]",
+    "POL": "Nadamy naszemu dziecku imię [SCOPE.GetFlagName('name_suggestion')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.a.rename",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[SCOPE.GetFlagName('name_suggestion')]",
+    "RUS": "[SCOPE.GetFlagName('name_suggestion')]",
+    "POL": "[SCOPE.GetFlagName('name_suggestion')]",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.b1",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Actually, I had something else in mind...",
+    "RUS": "Вообще-то у меня была другая мысль...",
+    "POL": "Właściwie to myślał[Select_CString(ROOT.GetCharacter.IsFemale, 'am', 'em' )] o czymś innym…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.b2",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What?! That is a terrible idea!",
+    "RUS": "Что?! Не лучшая идея!",
+    "POL": "Co?! To okropny pomysł!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9002.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "You will name [child.GetHerHim] something more suitable",
+    "RUS": "Вы дадите [child.GetHerHim] более подходящее имя",
+    "POL": "Nazwiesz [Select_CString( child.IsFemale, 'ją', 'go' )] nieco bardziej subtelnie",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9003.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "I gently pick up the babe from [suggester.GetTitledFirstNamePossessive] arms and look into [child.GetHerHis] perfect little eyes. Who will you become?",
+    "RUS": "[suggester.GetTitledFirstName] осторожно передает мне ребенка, и я смотрю в [child.GetHerHis] очаровательные глазки. Кем ты станешь в будущем?",
+    "POL": "[suggester.GetTitledFirstName] trzyma w swoich ramionach małe dziecko. Podnoszę je delikatnie i spoglądam w [child.GetHerHis] idealne, małe oczka. Kim się staniesz?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9003.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Much better.",
+    "RUS": "Гораздо лучше.",
+    "POL": "Znacznie lepiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "What's in a Name?",
+    "RUS": "Что в имени тебе моем?",
+    "POL": "Co to za imię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.desc.me",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetFirstNameNoTooltip].\\n\\nSuch a drab name, I sometimes think, pondering how it will read to future historians.\\n\\nYet I am a [ROOT.Char.GetTitleAsNameNoTooltip], and if I wish to be called differently, surely I need only let the world know?",
+    "RUS": "[ROOT.Char.GetFirstNameNoTooltip].\\n\\nТакое скучное имя. Порой я думаю, что оно будет означать для историков будущего.\\n\\nИ все же я [ROOT.Char.GetTitleAsNameNoTooltip|l], и если я хочу, чтобы меня звали иначе, то достаточно лишь заявить об этом миру, не так ли?",
+    "POL": "[ROOT.Char.GetFirstNameNoTooltip].\\n\\nAleż nudne imię. Czasem zastanawiam się, w jaki sposób będą je czytać przyszli historycy.\\n\\nJednak jako [ROOT.Char.GetTitleAsNameNoTooltip|l], wystarczy, że ogłoszę światu, aby się do mnie inaczej zwracali, nieprawdaż?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.GetFirstNameNoTooltip].\\n\\nInitially I was fond of the name, but now it seems strange to my ears. What will [child.GetSheHe] think of [child.GetHerHis] name once grown up?\\n\\nMaybe I should change it to something better?",
+    "RUS": "[child.GetFirstNameNoTooltip].\\n\\nСперва имя мне нравилось, но теперь мне кажется, оно звучит странно. Что будет, когда [child.GetSheHe] вырастет?\\n\\nМожет, стоит поменять, пока не поздно?",
+    "POL": "[child.GetFirstNameNoTooltip].\\n\\nPoczątkowo podobało mi się to imię, ale teraz wydaje mi się dziwne. Co [child.GetSheHe] pomyśli o swoim imieniu, gdy dorośnie?\\n\\nMoże powin[Select_CString(ROOT.Char.IsFemale, 'nam', 'ienem' )] zmienić je na coś lepszego?",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Ah, a #EMP much#! better name!",
+    "RUS": "Да, это имя #EMP намного#! лучше!",
+    "POL": "Ach, o #EMP wiele#! lepsze imię!",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.b",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "On second thoughts, I think [ROOT.Char.GetFirstNameNoTooltip] is fine...",
+    "RUS": "Но если подумать, [ROOT.Char.GetFirstNameNoTooltip] тоже звучит неплохо...",
+    "POL": "Z drugiej strony myślę, że [ROOT.Char.GetFirstNameNoTooltip] jest nawet w porządku…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.b.other",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "Actually [child.GetFirstNameNoTooltip] is pretty good, after all...",
+    "RUS": "А вообще-то «[child.GetFirstNameNoTooltip]» и неплохо звучит...",
+    "POL": "Właściwie imię [child.GetFirstNameNoTooltip] jest całkiem niezłe…",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.b.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "You keep your old name",
+    "RUS": "Вы оставляете свое старое имя",
+    "POL": "Zachowujesz obecne imię",
+    "BEL": ""
+  },
+  {
+    "KEY": "birth.9004.b.tt.other",
+    "FILE_PATH": "localization/belarusian/event_localization/birth_events_l_belarusian.json",
+    "ENG": "[child.GetFirstNameNoTooltip] keeps [child.GetHerHis] old name",
+    "RUS": "[child.GetFirstNameNoTooltip] сохраняет свое старое имя",
+    "POL": "[child.GetFirstNameNoTooltip] zachowuje swoje stare imię",
+    "BEL": ""
+  }
+]

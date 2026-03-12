@@ -1,0 +1,178 @@
+[
+  {
+    "KEY": "prison_notification.0001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Imprisoned!",
+    "RUS": "В заточении!",
+    "POL": "Uwięzienie!",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "I have been captured and detained against my will by [imprisoner.GetTitledFirstName]!\\n\\nI am no longer free to return to my [ROOT.Char.Custom('GetCourt')], or travel as I wish.",
+    "RUS": "[imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'захватила', 'захватил' )] меня и удерживает против моей воли.\\n\\nЯ больше не могу вернуться к своему [ROOT.Char.Custom('GetCourt_RU_Dat')] или идти, куда захочу.",
+    "POL": "[imprisoner.GetTitledFirstName] chwyta mnie i więzi wbrew mojej woli!\\n\\nNie mogę już swobodnie wrócić na swój [ROOT.Char.Custom('GetCourt')] ani podróżować tak, jak miało to miejsce do tej pory.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "I hope this does not last.",
+    "RUS": "Надеюсь, это ненадолго.",
+    "POL": "Mam nadzieję, że to nie potrwa długo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Imprisoned!",
+    "RUS": "В заточении!",
+    "POL": "Uwięzion[Select_CString( prisoner.IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[prisoner.GetTitledFirstName], my [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], is now held against [prisoner.GetHerHis] will by [imprisoner.GetTitledFirstName].",
+    "RUS": "[Select_CString(prisoner.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] [prisoner.GetTitledFirstName] удерживается против воли. [imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'пленила', 'пленил' )] [prisoner.GetHerHis].",
+    "POL": "[prisoner.GetTitledFirstName], m[Select_CString( SCOPE.sC('prisoner').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], jest teraz przetrzymywan[Select_CString( prisoner.IsFemale, 'a', 'y' )] wbrew swojej woli przez [imprisoner.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "What can be done for [prisoner.GetHerHim]?",
+    "RUS": "Что можно сделать для н[SCOPE.sC('prisoner').GetHerHis]?",
+    "POL": "Co mogę teraz dla nie[Select_CString( prisoner.IsFemale, 'j', 'go' )] zrobić?",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.0003.message",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] Imprisoned!",
+    "RUS": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] в заточении!",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] uwięzion[Select_CString( SCOPE.sC('prisoner').IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Out of the Light",
+    "RUS": "Во тьме",
+    "POL": "Z dala od światła",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName] has had me thrown into the dungeons! Will I rot here, in the dank tunnels of [actor.GetHerHis] [actor.Custom('FortifiedBuilding')]?",
+    "RUS": "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'бросила', 'бросил' )] меня в подземелье! Я буду гнить здесь, в темных туннелях, над которыми высится [actor.GetHerHis] [actor.Custom('FortifiedBuilding')]?",
+    "POL": "[actor.GetTitledFirstName|U] wtrąca mnie do lochów! Czy zgniję tutaj, w tych wilgotnych tunelach? Czy [actor.Custom('PL_jego_jej')] [actor.Custom('FortifiedBuilding')] okaże się moim grobem?",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[actor.GetSheHe|U] is worse than the rats scurrying down here!",
+    "RUS": "Да [SCOPE.sC('actor').GetSheHe] хуже снующих здесь крыс!",
+    "POL": "[actor.GetSheHe|U] jest gorsz[Select_CString( actor.IsFemale, 'a', 'y' )] od tych szczurów, które się tutaj szwendają.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1001.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "While in the dungeons, I will slowly accrue [stress|E], up to dangerous levels!",
+    "RUS": "Пока я в подземелье, мой [stress|El] будет постепенно расти — вплоть до опасных уровней!",
+    "POL": "Będąc w lochach, mój [stress|El] będzie stopniowo rosnąć, aż do niebezpiecznych poziomów!",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Fresher Air",
+    "RUS": "Свежий воздух",
+    "POL": "Powiew świeżego powietrza",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[actor.GetTitledFirstName] has seen fit to release me from my imprisonment in [actor.GetHerHis] dungeon, but only so far as to keep me in house arrest.",
+    "RUS": "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'решила', 'решил' )] выпустить меня из подземелья — только затем, чтобы поместить под домашний арест.",
+    "POL": "[actor.GetTitledFirstName] uznał[Select_CString( actor.IsFemale, 'a', '' )] za stosowne uwolnić mnie ze swoich lochów, ale tylko po to, aby przenieść mnie do aresztu domowego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "I take what mercies I can find.",
+    "RUS": "Я приму любое милосердие.",
+    "POL": "Skorzystam z każdego okazanego mi miłosierdzia.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.1002.a.tt",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "House Arrest does not increase [stress|E] gain.",
+    "RUS": "Под домашним арестом [stress|El] не увеличивается.",
+    "POL": "Areszt domowy nie skutkuje zwiększeniem przyrostu [Concept( 'stress', 'stresu' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2001.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Free Once More",
+    "RUS": "Снова на свободе",
+    "POL": "Ponownie uwolnion[Select_CString( prisoner.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2001.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "I am no longer held by [imprisoner.GetTitledFirstName] against my will, and I am free to return home, or wherever else I wish.",
+    "RUS": "[imprisoner.GetTitledFirstName] больше не удерживает меня против воли: я могу вернуться домой или направиться, куда захочу.",
+    "POL": "[imprisoner.GetTitledFirstName] nie przetrzymuje mnie już dłużej wbrew mojej woli i mogę wrócić do domu lub gdziekolwiek indziej, gdzie tylko zechcę.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "I thought I would never see my lands again.",
+    "RUS": "Мне казалось, что я никогда больше не увижу свои земли.",
+    "POL": "Myślał[Select_CString( ROOT.Char.IsFemale, 'am', 'em' )], że już nigdy więcej nie zobaczę swoich ziem.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2002.t",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Free Once More",
+    "RUS": "Снова на свободе",
+    "POL": "Ponownie uwolnion[Select_CString( prisoner.IsFemale, 'a', 'y' )]",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName], has been released from [prisoner.GetHerHis] imprisonment at the hands of [imprisoner.GetTitledFirstName], and is once again free!",
+    "RUS": "[Select_CString(prisoner.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))|l] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|l] [prisoner.GetTitledFirstName] [Select_CString(prisoner.IsFemale, 'была выпущена', 'был выпущен' )] из заточения и вновь [Select_CString(prisoner.IsFemale, 'свободна', 'свободен' )]. [imprisoner.GetTitledFirstName] больше не удерживает [prisoner.GetHerHis].",
+    "POL": "M[Select_CString( SCOPE.sC('prisoner').IsFemale, 'oja', 'ój' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], [prisoner.GetTitledFirstName], został[Select_CString( prisoner.IsFemale, 'a', '' )] zwolnion[Select_CString( prisoner.IsFemale, 'a', 'y' )] z więzienia, którym zarządza [imprisoner.GetTitledFirstName], i znów może cieszyć się wolnością!",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "Imprisonment is a cruelty.",
+    "RUS": "Держать кого-либо в плену — жестокость.",
+    "POL": "Więzienie to okrucieństwo.",
+    "BEL": ""
+  },
+  {
+    "KEY": "prison_notification.2003.message",
+    "FILE_PATH": "localization/belarusian/event_localization/prison_events/prison_notification_events_l_belarusian.json",
+    "ENG": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] Released!",
+    "RUS": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] на свободе!",
+    "POL": "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] uwolnion[Select_CString( SCOPE.sC('prisoner').IsFemale, 'a', 'y' )]!",
+    "BEL": ""
+  }
+]

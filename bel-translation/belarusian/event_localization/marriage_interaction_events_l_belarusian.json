@@ -1,0 +1,194 @@
+[
+  {
+    "KEY": "marriage_interaction.0001.desc.start",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "To [ROOT.Char.GetFullName],\\n\\nAfter careful consideration, I have decided to break ",
+    "RUS": "[ROOT.Char.GetFullName],\\n\\nТщательно все обдумав, я считаю необходимым объявить, что ",
+    "POL": "Do [ROOT.Char.GetFullName],\\n\\nPo dokładnym namyśle zdecydowałem się na zerwanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.desc.liegetoliege",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "the betrothal between my [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName], and your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName].",
+    "RUS": "[Select_CString(rejecting_betrothed.IsFemale, 'моя', 'мой' )] [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] [rejecting_betrothed.GetTitledFirstName] и [Select_CString(rejected_betrothed.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))] [rejected_betrothed.GetTitledFirstName] больше не помолвлены.",
+    "POL": "zaręczyn między [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName], a [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.desc.betrothedtobetrothed",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "our betrothal.",
+    "RUS": "наша помолвка расторгнута.",
+    "POL": "nasze zaręczyny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.desc.betrothedtoliege",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "my betrothal with your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName].",
+    "RUS": "[Select_CString(rejected_betrothed.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))] [rejected_betrothed.GetTitledFirstName] и я больше не помолвлены.",
+    "POL": "moje zaręczyny z [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed'))], [rejected_betrothed.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.desc.liegetobetrothed",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "your betrothal with my [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName].",
+    "RUS": "[Select_CString(rejecting_betrothed.IsFemale, 'моя', 'мой' )] [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName] и вы больше не помолвлены.",
+    "POL": "twoje zaręczyny z [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))], [rejecting_betrothed.GetTitledFirstName].",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.desc.end",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "I apologize for any inconveniences my decision will cause and sincerely hope it will not damage the relations between our families.",
+    "RUS": "Я понимаю, что такое решение может привести к ряду сложностей, но искренне надеюсь, что это не повредит отношениям между нашими семьями.",
+    "POL": "Przepraszam za wszelkie niedogodności, jakie spowoduje moja decyzja i mam nadzieję, że nie zaszkodzi to relacjom między naszymi rodzinami.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0001.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "A dire insult...",
+    "RUS": "Страшное оскорбление...",
+    "POL": "Okropna zniewaga…",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0002.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "To my [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] [rejecting_betrothed.GetFullName],\\n\\nI have reached the conclusion that your pending marriage to [rejected_betrothed.GetTitledFirstName] is not in the best interest of yourself or our family. Thus, I have decided to break the betrothal.",
+    "RUS": "[actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] [Select_CString(rejecting_betrothed.IsFemale, 'моя', 'мой' )] [rejecting_betrothed.GetFullName]!\\n\\nСим сообщаю, что [rejected_betrothed.GetTitledFirstName] и вы не вступите в брак, поскольку это противоречит вашим интересам и интересам нашей династии. Таким образом, я расторгаю вашу помолвку.",
+    "POL": "[rejecting_betrothed.GetFullName], [actor.Custom2('RelationToMeVocative', SCOPE.sC('rejecting_betrothed'))]!\\n\\nDochodzę w końcu do wniosku, że twoje zbliżające się małżeństwo z osobą znaną jako [rejected_betrothed.GetTitledFirstName] nie leży w najlepszym interesie twoim ani naszej rodziny. Dlatego postanawiam zerwać twoje zaręczyny.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0002.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Alas.",
+    "RUS": "Увы.",
+    "POL": "Niestety.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0004.t",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "A Betrothal Left to Wither",
+    "RUS": "Увядшая помолвка",
+    "POL": "Zaręczyny odeszły w zapomnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0004.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "The agreements had been made, and everything was in order, until it came time to conclude the marriage. With both parts seemingly content to pretend the arrangement was never made, it seems unlikely that [betrothed_1.GetTitledFirstName] and [betrothed_2.GetTitledFirstName] will ever married.",
+    "RUS": "Были достигнуты все необходимые соглашения, все было готово, пока не пришло время заключить брак. Учитывая, что обе стороны спокойно делают вид, что никакого соглашения не было, вряд ли [betrothed_1.GetTitledFirstName] и [betrothed_2.GetTitledFirstName] когда-либо вступят в брак.",
+    "POL": "Umowy zostały zawarte i wszystko było w porządku, aż do momentu gdy przyszedł czas zawarcia małżeństwa. Ponieważ obie strony wydają się zadowolone z udawania, że ​​umowa nigdy nie została zawarta, wydaje się mało prawdopodobne, aby [betrothed_1.GetTitledFirstName] i [betrothed_2.GetTitledFirstName] kiedykolwiek się pobrali.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0004.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "This is for the best.",
+    "RUS": "Так будет лучше.",
+    "POL": "Tak będzie najlepiej.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0005.t",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "A Betrothal Left to Wither",
+    "RUS": "Увядшая помолвка",
+    "POL": "Zaręczyny odeszły w zapomnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0005.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Despite the negotiation and careful planning, it seems that I will never be married to my betrothed, [other_betrothed.GetTitledFirstName]. Despite the fact that the time has come to fulfill the promised marriage, neither party has taken the step to conclude the agreement.",
+    "RUS": "Несмотря на переговоры и приготовления, похоже, я и [Select_CString(other_betrothed.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор.",
+    "POL": "Pomimo negocjacji i starannego planowania, wydaje się, że nigdy nie poślubię mojej narzeczone[Select_CString( CHARACTER.IsFemale, 'j', 'go' )], [other_betrothed.GetTitledFirstName]. Pomimo tego, że nadszedł czas na zawarcie przyrzeczonego małżeństwa, żadna ze stron nie podjęła kroków w celu zawarcia umowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0005.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Who knows who I will be married to now.",
+    "RUS": "Какая партия ждет меня теперь?..",
+    "POL": "Kto wie, z kim wezmę teraz ślub.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0006.t",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "A Betrothal Left to Wither",
+    "RUS": "Увядшая помолвка",
+    "POL": "Zaręczyny odeszły w zapomnienie",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0006.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Despite the negotiation and careful planning, it seems that I will never marry my betrothed, [other_betrothed.GetTitledFirstName]. Despite the fact that the time has come to fulfill the promised marriage, neither party has taken the step to conclude the agreement.",
+    "RUS": "Несмотря на переговоры и приготовления, похоже, что я и [Select_CString(other_betrothed.IsFemale, 'моя невеста', 'мой жених' )] [other_betrothed.GetTitledFirstName] никогда не поженимся. И хотя пришло время заключить условленный брак, ни одна из сторон не делает ничего, чтобы исполнить договор.",
+    "POL": "Pomimo negocjacji i starannego planowania, wydaje się, że nigdy nie poślubię mojej narzeczone[Select_CString( CHARACTER.IsFemale, 'j', 'go' )], [other_betrothed.GetTitledFirstName]. Pomimo tego, że nadszedł czas na zawarcie przyrzeczonego małżeństwa, żadna ze stron nie podjęła kroków w celu zawarcia umowy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0006.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Who will I marry, in the end?",
+    "RUS": "И с кем я тогда вступлю в брак?",
+    "POL": "Kogo w końcu poślubię?",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0008.t",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Betrothal Broken by Faith",
+    "RUS": "Конфессия препятствует помолвке",
+    "POL": "Zaręczyny zerwane z powodu wiary",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0008.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "[betrothed_clergy.GetTitledFirstName] has devoted [betrothed_clergy.GetHerHis] life to [betrothed_clergy.GetFaith.HighGodName] – despite the negotiation and careful planning, it seems that [betrothed_clergy.GetSheHe] will never marry [betrothed_2.GetTitledFirstName]. ",
+    "RUS": "[betrothed_clergy.GetTitledFirstName] [Select_CString(betrothed_clergy.IsFemale, 'вручила', 'вручил' )] свою жизнь в руки [betrothed_clergy.GetFaith.HighGodNamePossessive]. Несмотря на переговоры и все прежние планы, похоже, [betrothed_clergy.GetSheHe] и [betrothed_2.GetTitledFirstName] никогда не поженятся. ",
+    "POL": "Całe życie osoby znanej jako [betrothed_clergy.GetTitledFirstName] poświęcone zostało religii, a [betrothed_clergy.GetFaith.HighGodName] to sens [betrothed_clergy.Custom('PL_jego_jej')] istnienia. Pomimo negocjacji i starannego planowania wygląda na to, że [betrothed_clergy.GetSheHe] i [betrothed_2.GetTitledFirstName] nigdy nie wezmą ze sobą ślubu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0008.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Alas.",
+    "RUS": "Увы.",
+    "POL": "Niestety.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0009.desc_clergy",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Now that I have devoted my life to [betrothed_clergy.GetFaith.HighGodName] I am forbidden to marry and must leave my betrothed [betrothed_2.GetTitledFirstName] behind. I hope [betrothed_2.GetSheHe] will forgive me.",
+    "RUS": "Теперь моя жизнь в руках [betrothed_clergy.GetFaith.HighGodNamePossessive], мне нельзя вступать в брак, а потому [betrothed_2.GetTitledFirstName] [Select_CString(betrothed_2.IsFemale, 'должна', 'должен' )] остаться в прошлом. Надеюсь, [betrothed_2.GetSheHe] простит меня.",
+    "POL": "Teraz gdy poświęciłem swoje życie [betrothed_clergy.GetFaith.HighGodName] nie wolno mi się ożenić i muszę zostawić moją narzeczoną [betrothed_2.GetTitledFirstName] behind. Mam nadzieję, że [betrothed_2.GetSheHe] mi wybaczy.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0009.desc",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "[betrothed_clergy.GetTitledFirstName] has devoted [betrothed_clergy.GetHerHis] life to [betrothed_clergy.GetFaith.HighGodName] – despite the negotiation and careful planning, it seems that I will never marry my betrothed.",
+    "RUS": "[betrothed_clergy.GetTitledFirstName] [Select_CString(betrothed_clergy.IsFemale, 'вручила', 'вручил' )] свою жизнь в руки [betrothed_clergy.GetFaith.HighGodNamePossessive]: и несмотря на договоренности и прежние планы, мы, как кажется, никогда не поженимся.",
+    "POL": "[betrothed_clergy.GetTitledFirstName] poświęcił [betrothed_clergy.GetHerHis] życie [betrothed_clergy.GetFaith.HighGodName] – pomimo negocjacji i starannego planowania, wygląda na to, że nigdy nie poślubię mojego narzeczonego.",
+    "BEL": ""
+  },
+  {
+    "KEY": "marriage_interaction.0009.a",
+    "FILE_PATH": "localization/belarusian/event_localization/marriage_interaction_events_l_belarusian.json",
+    "ENG": "Alas.",
+    "RUS": "Увы.",
+    "POL": "Niestety.",
+    "BEL": ""
+  }
+]

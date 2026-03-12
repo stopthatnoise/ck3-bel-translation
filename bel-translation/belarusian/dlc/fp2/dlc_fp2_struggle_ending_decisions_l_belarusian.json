@@ -1,0 +1,634 @@
+[
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] Dominance",
+    "RUS": "[ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]ое господство",
+    "POL": "Dominacja [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "It is time for a strong leader to finally drag this peninsula from the mire of war and division. Iberia will be united under a [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] flying the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] banner!",
+    "RUS": "Пришла пора сильному лидеру наконец-то вытащить этот полуостров из трясины бесконечных войн и разладов. Иберией будет править [ROOT.Char.GetFaith.GetNameNoTooltip|l][Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.Custom('GetQueenKing')|l] под [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip|l]им знаменем!",
+    "POL": "Nadszedł czas na silnego przywódcę, który wyciągnie ten półwysep z bagna niekończących się wojen i sporów. Pod chorągwią [Select_CString( ROOT.Char.IsFemale, 'królowej', 'króla' )] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], Iberią będą rządzić [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l]!",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "End the Iberian [struggle|E]",
+    "RUS": "Покончить с [Concept( 'struggle', 'иберийской борьбой' )|E]",
+    "POL": "Zakończ [Concept('struggle', 'zmagania')|E] iberyjskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "End the Iberian Struggle",
+    "RUS": "Покончить с иберийской борьбой",
+    "POL": "Zakończ zmagania iberyjskie",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_kingdom_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You [hold|E] and [completely_control|E] at least 2 [de_jure|E] [kingdoms|E] of [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])",
+    "RUS": "Вы [Concept( 'hold', 'удерживаете' )|E] и [Concept( 'completely_control', 'полностью контролируете' )|E] не менее 2 [de_jure|El] [Concept( 'kingdoms', 'королевств' )|E] в империи [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])",
+    "POL": "[Concept('hold', 'Posiadasz')|E] i [Concept('completely_control', 'w pełni kontrolujesz')|E] co najmniej 2 [kingdoms|El] [de_jure|El] podległe państwu o nazwie [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_united_spanish_throne_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You united the Spanish Thrones under your [primary_title|E]",
+    "RUS": "Вы объединили испанские престолы в своем [Concept( 'primary_title', 'первом титуле' )|E]",
+    "POL": "Zjednoczył[Select_CString( THIS.Char.IsFemale, 'a', 'e' )]ś trony hiszpańskie pod swoim [Concept( 'primary_title', 'tytułem głównym' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_county_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Every [de_jure|E] [county|E] of your [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) must be [THIS.Char.GetCulture.GetName] and [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])",
+    "RUS": "Каждое [de_jure|El] [Concept('county', 'графство')|E] вашего [Concept('capital', 'столичного')|E] [Concept( 'kingdoms', 'королевства' )|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должно быть #L [THIS.Char.GetFaith.GetName|l]им#! и #L [THIS.Char.GetCulture.GetCollectiveNoun|l]им#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])",
+    "POL": "W każdym [de_jure|El] [Concept( 'county', 'hrabstwie' )|E] twojej [Concept( 'capital', 'stolicy' )|E] [kingdoms|El] musi być kultura [THIS.Char.GetCulture.GetName|l] oraz wiara [THIS.Char.GetFaith.GetAdjective|l] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_county_light_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "75% of the [de_jure|E] [counties|E] of your [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) must be [THIS.Char.GetCulture.GetName] and [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])",
+    "RUS": "75% [de_jure|El] [Concept( 'counties', 'графств' )|E] вашего [Concept( 'capital', 'столичного' )|E] [Concept( 'kingdom', 'королевства' )|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) должны быть #L [THIS.Char.GetCulture.GetCollectiveNoun|l]ими#! и #L [THIS.Char.GetFaith.GetName|l]ими#! ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])",
+    "POL": "W 75% [Concept( 'counties', 'hrabstw' )|E] [de_jure|El] twojej [Concept( 'capital', 'stolicy' )|E] [kingdoms|El] musi być kultura [THIS.Char.GetCulture.GetName|l] oraz wiara [THIS.Char.GetFaith.GetAdjective|l] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_region_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "No other [independent|E] [struggle_involved|E] [ruler|E] controls more than [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% of [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "RUS": "Никакой другой [Concept( 'independent', 'независимый' )|E] [Concept( 'struggle_involved', 'участвующий в борьбе' )|E] [Concept( 'ruler', 'правитель' )|E] не контролирует более [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% региона [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "POL": "Żaden inny [independent|El] [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] nie kontroluje więcej niż [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% obszaru o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_opinion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "[characters|E] of same [faith|E] and/or [culture|E] [opinion|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!",
+    "RUS": "[opinion|E] [Concept( 'characters', 'персонажей' )|E] той же [Concept( 'faith', 'конфессии' )|E] и/или [Concept( 'culture', 'культуры' )|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!",
+    "POL": "[opinion|E] [Concept( 'characters', 'postaci' )|E] tej samej [faiths|El] i/lub [cultures|El]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_opinion_negative_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "[characters|E] of other [struggle_involved|E] [faiths|E] and/or [cultures|E] [opinion|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!",
+    "RUS": "[opinion|E] [Concept( 'characters', 'персонажей' )|E] других [Concept( 'faiths', 'конфессий' )|E] и/или [Concept( 'cultures', 'культур' )|E], [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!",
+    "POL": "[opinion|E] [Concept( 'characters', 'postaci' )|E] innych [Concept( 'struggle_involved', 'zaangażowanych' )|E] [Concept( 'faiths', 'wiar' )|E] lub/i [Concept( 'cultures', 'kultur' )|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_conversion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$task_conversion$ and/or $task_promote_culture$ [councillor_tasks|E] speed in [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E]: #P +50%#!",
+    "RUS": "Скорость [Concept( 'councillor_tasks', 'заданий' )|E] $task_conversion$ и $task_promote_culture$ в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "POL": "Szybkość realizowania [Concept( 'councillor_tasks', 'zadań radnych' )|E] „$task_conversion$” i/lub „$task_promote_culture$” w [Concept( 'region', 'regionie')|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_conversion_holy_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$task_conversion$ [councillor_task|E] speed in [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E]: #P +50%#!",
+    "RUS": "Скорость [Concept( 'councillor_tasks', 'задания' )|E] $task_conversion$ в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "POL": "Szybkość realizowania [Concept( 'councillor_task', 'zadania radnego' )|E] „$task_conversion$” w [Concept( 'region', 'regionie')|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_conversion_culture_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E]: #P +50%#!",
+    "RUS": "Скорость [Concept( 'councillor_tasks', 'задания' )|E] $task_promote_culture$ в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "POL": "Szybkość realizowania [Concept( 'councillor_task', 'zadania radnego' )|E] „$task_promote_culture$” w [Concept( 'region', 'regionie')|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]: #P +50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_list_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Select one of the following modifiers for your [house|E]:\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. In addition, some [holy_wars|E] will be easier to wage.\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. In addition, some Conquest [wars|E] will be easier to wage.\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. In addition, some [holy_war|E] and Conquest [wars|E] will be easier to wage.",
+    "RUS": "Выберите один из модификаторов для вашего [Concept('house', 'дома')|E]:\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых [Concept('holy_wars', 'священных войн')|E].\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых завоевательских [Concept('wars', 'войн')|E].\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. Кроме того, это упростит ведение некоторых [Concept('holy_wars', 'священных войн')|E] и завоевательских [Concept('wars', 'войн')|E]",
+    "POL": "Wybierz jeden z poniższych modyfikatorów dla swojego [Concept('house', 'rodu')|E]:\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_faith_modifier').GetNameWithTooltip|L]. Dodatkowo prowadzenie niektórych [Concept('holy_wars', 'świętych wojen')|E] stanie się łatwiejsze.\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L]. Dodatkowo prowadzenie niektórych [Concept('wars', 'wojen')|E] o podbój stanie się łatwiejsze.\\n$EFFECT_LIST_BULLET$[GetModifier('fp2_struggle_hostility_house_combined_modifier').GetNameWithTooltip|L]. Dodatkowo prowadzenie niektórych [Concept('holy_wars', 'świętych wojen')|E] oraz [Concept('wars', 'wojen')|E] o podbój stanie się łatwiejsze.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_holy_cb_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] against other [struggle_involved|E] [faiths|E]: #positive_value -50%#!",
+    "RUS": "[casus_bellis|E] «$HOLY_WAR_DUCHY_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'faiths', 'конфессий' )|E]: #positive_value -50%#!",
+    "POL": "[casus_bellis|E] #V $HOLY_WAR_DUCHY_NAME$#! przeciwko innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'faiths', 'wiarom' )|E]: #positive_value -50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_holy_cb_joint_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$HOLY_WAR_DUCHY_NAME$ [casus_bellis|E] against other [struggle_involved|E] [faiths|E]: #positive_value -50%#!\\n$culture_parameter_cb_lower_piety_level_requirement$",
+    "RUS": "[casus_bellis|E] «$HOLY_WAR_DUCHY_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'faiths', 'конфессий' )|E]: #positive_value -50%#!\\n$culture_parameter_cb_lower_piety_level_requirement$",
+    "POL": "[casus_bellis|E] #V $HOLY_WAR_DUCHY_NAME$#! przeciwko innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'faiths', 'wiarom' )|E]: #positive_value -50%#!$culture_parameter_cb_lower_piety_level_requirement$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_culture_cb_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] against other [struggle_involved|E] [cultures|E]: #positive_value -50%#!",
+    "RUS": "[casus_bellis|E] «$CONQUEST_DUCHY_CB_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E]: #positive_value -50%#!",
+    "POL": "[casus_bellis|E] #V $CONQUEST_DUCHY_CB_NAME$#! przeciwko innym [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'cultures', 'kulturom' )|E]: #positive_value -50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_culture_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All [struggle_involved|E] [cultures|E] lose #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')]%#! [cultural_acceptance|E] of each other",
+    "RUS": "У всех [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] [Concept( 'cultural_acceptance', 'терпимость' )|E] друг к другу снижается на #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')]%#!",
+    "POL": "Każda [Concept( 'struggle_involved', 'zaangażowana' )|E] [culture|El] traci #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')]%#! [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E] wobec siebie nawzajem",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_culture_large_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All [struggle_involved|E] [cultures|E] lose #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_large_value')]%#! [cultural_acceptance|E] of each other",
+    "RUS": "У всех [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] [Concept( 'cultural_acceptance', 'терпимость' )|E] друг к другу снижается на #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_large_value')]%#!",
+    "POL": "Każda [Concept( 'struggle_involved', 'zaangażowana' )|E] [culture|El] traci #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_large_value')]%#! [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E] wobec siebie nawzajem",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_acceptance_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Hostility in Iberia",
+    "RUS": "Вражда в Иберии",
+    "POL": "Wrogość w Iberii",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_faith_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Faith Hostility",
+    "RUS": "Враждебность конфессии",
+    "POL": "Wrogość wyznaniowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_faith_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This house has conquered most of Iberia in the name of their faith.",
+    "RUS": "Этот дом завоевал большую часть Иберии во имя своей веры.",
+    "POL": "Ten ród podbił większą część Iberii w imię swojej wiary.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_culture_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Cultural Hostility",
+    "RUS": "Культурная вражда",
+    "POL": "Wrogość kulturowa",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_culture_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This house has conquered most of Iberia in the name of their people.",
+    "RUS": "Этот дом завоевал большую часть Иберии во имя своего народа.",
+    "POL": "Ten ród podbił większą część Iberii w imię swojego ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_combined_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Domination Hostility",
+    "RUS": "Вражда за господство",
+    "POL": "Walka o dominację",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_house_combined_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This house has conquered most of Iberia in the name of their faith and people.",
+    "RUS": "Этот дом завоевал большую часть Иберии во имя своей веры и народа.",
+    "POL": "Ten ród podbił większą część Iberii w imię swojej wiary i ludu.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_faith_conversion_task_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$fp2_struggle_hostility_house_faith_modifier$",
+    "RUS": "$fp2_struggle_hostility_house_faith_modifier$",
+    "POL": "$fp2_struggle_hostility_house_faith_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_hostility_culture_conversion_task_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$fp2_struggle_hostility_house_culture_modifier$",
+    "RUS": "$fp2_struggle_hostility_house_culture_modifier$",
+    "POL": "$fp2_struggle_hostility_house_culture_modifier$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Status Quo",
+    "RUS": "Статус-кво",
+    "POL": "Status quo",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "These endless conflicts over the peninsula only weaken us all. It is time to accept that Iberia was never meant to be united, and instead be content with [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "RUS": "Эти бесконечные конфликты из-за полуострова лишь ослабляют нас всех. Пришло время признать, что Иберию объединить не получится. Нас устроит и [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].",
+    "POL": "Te niekończące się konflikty o półwysep tylko nas wszystkich osłabiają. Czas pogodzić się z tym, że Iberia nigdy nie miała być zjednoczona. [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] musi nas zadowolić.",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "RUS": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "POL": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "RUS": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "POL": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_kingdom_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You [hold|E] and [completely_control|E] any [de_jure|E] [kingdom|E] of [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])",
+    "RUS": "Вы [Concept( 'hold', 'удерживаете' )|E] и [Concept( 'completely_control', 'полностью контролируете' )|E] любое из [de_jure|El] [Concept( 'kingdom', 'королевств' )|E] в империи [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])",
+    "POL": "[Concept('hold', 'Posiadasz')|E] i [Concept('completely_control', 'w pełni kontrolujesz')|E] dowolne [kingdom|El] [de_jure|El] podległe państwu o nazwie [GetTitleByKey('e_spain').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_region_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You control less than [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% of the [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)",
+    "RUS": "Вы контролируете менее [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% [Concept( 'region', 'региона' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] (Сейчас: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)",
+    "POL": "Kontrolujesz mniej niż [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% [Concept( 'region', 'regionu' )|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName] (obecnie: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_other_region_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "No other [independent|E] [struggle_involved|E] [ruler|E] controls [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% or more of the [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E]",
+    "RUS": "Никакой другой [Concept( 'independent', 'независимый' )|E] [Concept( 'struggle_involved', 'участвующий в борьбе' )|E] [Concept( 'ruler', 'правитель' )|E] не контролирует [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% или более [Concept( 'region', 'региона' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName].",
+    "POL": "Żaden inny [independent|El] [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] nie kontroluje [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% lub więcej [Concept( 'region', 'regionu' )|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_opinion_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All other [independent|E] [struggle_involved|E] [rulers|E] have at least [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_value')|0] [opinion|E] of you or are the target of a [strong_hook|E] ([SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "RUS": "У всех других [Concept( 'independent', 'независимых' )|E] [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'ruler', 'правителей' )|E] [Concept( 'opinion', 'мнение' )|E] о вас не ниже [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_value')|0] или вы имеете на них [Concept( 'strong_hook', 'сильное влияние' )|E] ([SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "POL": "Każdy pozostały [Concept( 'independent', 'niezależny' )|E] [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] ma co najmniej [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_value')|0] [Concept( 'opinion', 'opinii' )|E] o tobie lub ma na ciebie [Concept( 'strong_hook', 'mocnego haka' )|E] ([SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_independent_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "No other [independent|E] [struggle_involved|E] [rulers|E] are [king|E] or [emperor|E] [rank|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])",
+    "RUS": "Ни у какого другого [Concept( 'independent', 'независимого' )|E] [Concept( 'struggle_involved', 'участвующего в борьбе' )|E] [Concept( 'ruler', 'правителя' )|E] нет [Concept('rank', 'ранга')|E] [Concept( 'king', 'короля' )|E] или [Concept( 'emperor', 'императора' )|E] (Сейчас: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])",
+    "POL": "Żaden [independent|El], [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] nie ma [Concept( 'rank', 'rangi' )|E] [Concept( 'king', 'króla' )|E] lub [Concept( 'emperor', 'cesarza' )|E] (Obecnie: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_interloper_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "More than [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% of the [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E] is held by [struggle_interloper|E] or [struggle_uninvolved|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)",
+    "RUS": "Более [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% [Concept( 'region', 'региона' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] удерживают [Concept( 'struggle_interloper', 'вмешавшиеся' )|E] или [Concept( 'struggle_uninvolved', 'не участвующие в борьбе' )|E] [Concept( 'rulers', 'правители' )|E] (Сейчас: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)",
+    "POL": "Więcej niż [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% [Concept( 'region', 'regionu' )|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName] jest w posiadaniu [Concept( 'struggle_interloper', 'interweniującego' )|E] lub [Concept( 'struggle_uninvolved', 'niezaangażowanego' )|E] [rulers|El] (obecnie: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_truce_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "No [wars|E] between [struggle_involved|E] [independent|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_war_counter_value')|0])",
+    "RUS": "Между [Concept( 'independent', 'независимыми' )|E] [Concept( 'struggle_involved', 'участвующими в борьбе' )|E] [Concept( 'ruler', 'правителями' )|E] не ведется [Concept( 'wars', 'войн' )|E] (Сейчас: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_war_counter_value')|0])",
+    "POL": "Brak [Concept( 'wars', 'wojen' )|E] pomiędzy [Concept( 'struggle_involved', 'zaangażowanymi')|E], [Concept( 'independent', 'niezależnymi' )|E] [Concept( 'rulers', 'władcami' )|E] (Obecnie: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_war_counter_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_create_new_kingdoms_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Every [independent|E] or separated [duchy|E] in the [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E] becomes a [de_jure|E] [kingdom|E]",
+    "RUS": "Каждое [Concept( 'independent', 'независимое' )|E] или отдельное [Concept( 'duchy', 'герцогство' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName] становится [de_jure|El] [Concept( 'kingdom', 'королевством' )|E]",
+    "POL": "Każde [Concept( 'independent', 'niezależne' )|E] lub oddzielone [duchy|El] w [Concept('region', 'regionie' )|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName] staje się [Concept( 'kingdom', 'królestwem' )|E] [de_jure|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_create_new_empires_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Every [de_jure|E] [kingdom|E] in the [GetGeographicalRegion('world_europe_west_iberia').GetName] [region|E] with more than [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [counties|E] becomes a [de_jure|E] [empire|E]. The remaining [kingdoms|E] will fall under the [de_jure|E] of a neighboring [empire|E].",
+    "RUS": "Каждое [de_jure|El] [Concept( 'kingdom', 'королевство' )|E] в [Concept( 'region', 'регионе' )|E] [GetGeographicalRegion('world_europe_west_iberia').GetName], имеющее более [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [Concept( 'counties', 'графств' )|E], становится [de_jure|El] [Concept( 'empire', 'империей' )|E]. Остальные королевства [de_jure|El] войдут в состав соседней [Concept( 'empire', 'империи' )|E].",
+    "POL": "Każde [kingdom|El] [de_jure|El] w [Concept('region', 'regionie')|E] o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName] z więcej niż [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [Concept( 'counties', 'hrabstwami' )|E] staje się [Concept( 'empire', 'imperium' )|E] [de_jure|El]. Pozostałe [kingdoms|El] będą należeć [de_jure|E] do sąsiedniego [Concept( 'empire', 'imperium' )|E].",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_house_rewards_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Your and [independent|E] [struggle_involved|E] [rulerpossessive|E] [houses|E]",
+    "RUS": "Ваш [house|El] и [house|El] [Concept( 'independent', 'независимого' )|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Twój i [Concept( 'independent', 'niezależnego' )|E], [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulerpossessive|El] [house|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_house_enforce_truce_rewards_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Unlocks the [enforce_truce|E] [interaction|E] towards the other [houses|E]",
+    "RUS": "Открывает [interaction|El] «[enforce_truce|E]» в отношении других [Concept( 'houses', 'домов' )|E].",
+    "POL": "Odblokowuje [Concept( 'interaction', 'interakcję' )|E] „[enforce_truce|El]” względem innych [Concept( 'houses', 'rodów' )|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_defensive_rewards_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Your and [independent|E] [struggle_involved|E] [rulerpossessive|E] [capital|E] [counties|E]",
+    "RUS": "Ваше [Concept( 'capital', 'столичное' )|E] [county|El] и [Concept( 'capital', 'столичное' )|E] [county|El] [Concept( 'independent', 'независимого' )|E] [Concept( 'struggle_involved', 'вовлеченного в борьбу' )|E] [Concept( 'ruler', 'правителя' )|E]",
+    "POL": "Twoja i [Concept( 'independent', 'niezależnego' )|E], [Concept( 'struggle_involved', 'zaangażowanego' )|E] [rulerpossessive|El] [capital|El] [counties|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_truce_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Every [independent|E] [struggle_involved|E] [ruler|E] gains a #V 10 year#! [truce|E] with all others",
+    "RUS": "Каждый [Concept( 'independent', 'независимый' )|E] [Concept( 'struggle_involved', 'участвующий в борьбе' )|E] [Concept( 'ruler', 'правитель' )|E] заключает [truce|El] на #V 10 лет#! со всеми другими участниками",
+    "POL": "Wszyscy [Concept( 'independent', 'niezależni' )|E] [Concept( 'struggle_involved', 'zaangażowani' )|E] [rulers|El] zyskują #V 10 lat#! [Concept( 'truce', 'pokoju' )|E] ze sobą nawzajem",
+    "BEL": ""
+  },
+  {
+    "KEY": "TRUCE_FP2_COMPROMISE",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Compromise in Iberia",
+    "RUS": "Компромисс в Иберии",
+    "POL": "Kompromis w Iberii",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_house_reward_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Compromise",
+    "RUS": "Компромисс",
+    "POL": "Kompromis",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_house_reward_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This house led their realm out of the struggle for Iberia.",
+    "RUS": "Держава под началом этого дома вышла из с иберийской борьбы.",
+    "POL": "Ten ród uwolnił swoje państwo od zmagań o Iberię.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_defensive_reward_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Regional Stronghold",
+    "RUS": "Местная крепость",
+    "POL": "Regionalna twierdza",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_defensive_reward_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This county is the historic capital of one of the Iberian princedoms that survived the centuries of struggle.",
+    "RUS": "Это графство — историческая столица одного из иберийских государств, пережившая столетия борьбы.",
+    "POL": "To hrabstwo jest historyczną stolicą jednego z iberyjskich księstw, które przetrwało wieki zmagań.",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Détente",
+    "RUS": "Разрядка",
+    "POL": "Détente",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "The wounds of the past centuries will not be easily healed, but we must try if the peninsula is to find a lasting peace. Truly, Iberia belongs to all of us.",
+    "RUS": "Залечить многовековые раны будет непросто, но нам нужно это сделать, если мы хотим наконец принести на полуостров долгий мир. Воистину, Иберия принадлежит нам всем.",
+    "POL": "Rany zadane przez minione stulecia nie zostaną łatwo zaleczone, ale musimy spróbować, jeśli na półwyspie ma zapanować trwały pokój. Iberia naprawdę należy do nas wszystkich.",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision_tooltip",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "RUS": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "POL": "$struggle_iberia_ending_hostility_decision_tooltip$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision_confirm",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "RUS": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "POL": "$struggle_iberia_ending_hostility_decision_confirm$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision_alliance_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All other [independent|E] [struggle_involved|E] [rulers|E] have an [alliance|E] with you ([SCOPE.ScriptValue('struggle_iberia_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "RUS": "Все другие [Concept( 'independent', 'независимые' )|E] [Concept( 'struggle_involved', 'участвующие в борьбе' )|E] [Concept( 'ruler', 'правители' )|E] заключили с вами [Concept( 'alliance', 'союз' )|E] ([SCOPE.ScriptValue('struggle_iberia_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "POL": "Każdy pozostały [Concept( 'independent', 'niezależny' )|E] [Concept( 'struggle_involved', 'zaangażowany' )|E] [ruler|El] jest z tobą w [Concept( 'alliance', 'sojuszu' )|E] ([SCOPE.ScriptValue('struggle_iberia_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_iberia_ending_ending_decision_foreign_realm_total_value')|0])",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_marriage_unlocked_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Permanently #positive_value allow#! interfaith [marriage|E] between all [struggle_involved|E] [cultures|E]",
+    "RUS": "Навсегда #positive_value разрешает#! межрелигиозные [Concept( 'marriage', 'браки' )|E] между всеми [Concept( 'struggle_involved', 'участвующими в борьбе' )|E] [Concept( 'cultures', 'культурами' )|E]",
+    "POL": "Zawieranie [Concept( 'marriage', 'małżeństw' )|E] pomiędzy wszystkimi [Concept( 'struggle_involved', 'zaangażowanymi' )|E] [Concept( 'cultures', 'kulturami' )|E] jest trwale #positive_value dopuszczalne#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_holy_war_disabled_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Permanently #negative_value disable#! offensive [holy_wars|E] between all [struggle_involved|E] [cultures|E]",
+    "RUS": "Навсегда #negative_value запрещает#! наступательные [Concept( 'holy_wars', 'священные войны' )|E] между всеми [Concept( 'struggle_involved', 'участвующими в борьбе' )|E] [Concept( 'cultures', 'культурами' )|E]",
+    "POL": "Prowadzenie ofensywnych [Concept( 'holy_wars', 'świętych wojen' )|E] pomiędzy wszystkimi [Concept( 'struggle_involved', 'zaangażowanymi' )|E] [Concept( 'cultures', 'kulturami' )|E] zostaje trwale #negative_value wyłączone#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_acceptance_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Conciliation in Iberia",
+    "RUS": "Примирение в Иберии",
+    "POL": "Pojednanie w Iberii",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_culture_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All [struggle_involved|E] [cultures|E] gain #positive_value +[SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#! [cultural_acceptance|E] of each other",
+    "RUS": "У всех [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] [Concept( 'cultural_acceptance', 'терпимость' )|E] друг к другу повышается на #positive_value [SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#!",
+    "POL": "Każda [struggle_involved|El] [culture|El] zyskuje #positive_value +[SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#! [Concept( 'cultural_acceptance', 'tolerancji kulturowej' )|E] względem siebie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_join_war_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Permanently allows [struggle_involved|E] [culture|E] and [faith|E] [rulers|E] to join each other's defensive [wars|E] against outside invaders of [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "RUS": "Навсегда разрешает [Concept( 'rulers', 'правителям' )|E] [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'culture', 'культур' )|E] и [Concept( 'faith', 'конфессий' )|E] присоединяться друг к другу в оборонительных [Concept( 'wars', 'войнах' )|E] против захватчиков из-за пределов региона [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "POL": "Trwale pozwala [Concept( 'rulers', 'władcom' )|E] [Concept( 'struggle_involved', 'zaangażowanych' )|E] [Concept( 'culture', 'kultur' )|E] i [Concept( 'faith', 'wiar' )|E] dołączać do [Concept( 'wars', 'wojen' )|E] obronnych przeciwko najeźdźcom spoza regionu o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_house_reward_modifier",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Conciliation",
+    "RUS": "Примирение",
+    "POL": "Pojednanie",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_house_reward_modifier_desc",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "This house accepted that the way to a lasting peace in Iberia lies in peace and tolerance.",
+    "RUS": "Этот дом признал, что путь к долгосрочному миру в Иберии лежит через терпимость и дружбу.",
+    "POL": "Ten ród uznał, że droga do trwałego pokoju w Iberii wiedzie przez pokój i wzajemną akceptację.",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_can_create_empire_of_hispania_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Unlocks creation of the [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier]",
+    "RUS": "Открывает создание [Concept( 'empire', 'империи' )|E] [GetTitleByKey('e_spain').GetNameNoTier]",
+    "POL": "Odblokowuje możliwość utworzenia [empire|E] [GetTitleByKey('e_spain').GetAdjective]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_destroy_hispania_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "The [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier] is permanently #negative_value destroyed#!",
+    "RUS": "[Concept( 'empire', 'Империя' )|E] [GetTitleByKey('e_spain').GetNameNoTier] окончательно #negative_value уничтожается#!",
+    "POL": "[empire|E] [GetTitleByKey('e_spain').GetAdjective] zostaje permanentnie #negative_value zniszczone#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_conciliation_caravanserai_unlock_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Permanently allows the construction of the #V $building_type_caravanserai_01$#! line of [buildings|E] in [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "RUS": "Навсегда позволяет строить цепочку [Concept( 'buildings', 'зданий' )|E] #V «$building_type_caravanserai_01$»#! в регионе [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "POL": "Trwale pozwala na wznoszenie linii [Concept( 'buildings', 'budowli' )|E] #V $building_type_caravanserai_01$#! w regionie o nazwie [GetGeographicalRegion('world_europe_west_iberia').GetName]",
+    "BEL": ""
+  },
+  {
+    "KEY": "CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Iberian Hostility",
+    "RUS": "Иберийская вражда",
+    "POL": "Iberyjska wrogość",
+    "BEL": ""
+  },
+  {
+    "KEY": "CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$",
+    "RUS": "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$",
+    "POL": "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_hostility_decision_correct_phase_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "The current [struggle_phase|E] is the [struggle_phase_iberia_hostility|E]",
+    "RUS": "Текущая [struggle_phase|El] — [struggle_phase_iberia_hostility|El]",
+    "POL": "Obecna [struggle_phase|El] to [struggle_phase_iberia_hostility|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_compromise_decision_correct_phase_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "The current [struggle_phase|E] is the [struggle_phase_iberia_compromise|E]",
+    "RUS": "Текущая [struggle_phase|El] — [struggle_phase_iberia_compromise|El]",
+    "POL": "Obecna [struggle_phase|El] to [struggle_phase_iberia_compromise|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_iberia_ending_conciliation_decision_correct_phase_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "The current [struggle_phase|E] is the [struggle_phase_iberia_conciliation|E]",
+    "RUS": "Текущая [struggle_phase|El] — [struggle_phase_iberia_conciliation|El]",
+    "POL": "Obecna [struggle_phase|El] to [struggle_phase_iberia_conciliation|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_house_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "All [house|E] members:",
+    "RUS": "Все члены [Concept( 'house', 'дома' )|E]:",
+    "POL": "Każdy członek [Concept( 'house', 'rodu' )|E]:",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_compromise_war_cost_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "$HOLY_WAR_DUCHY_NAME$ and $CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] against other [struggle_involved|E] [cultures|E] [faiths|E]: #negative_value +50%#!",
+    "RUS": "[casus_bellis|E] «$HOLY_WAR_DUCHY_NAME$» и «$CONQUEST_DUCHY_CB_NAME$» против других [Concept( 'struggle_involved', 'участвующих в борьбе' )|E] [Concept( 'cultures', 'культур' )|E] и [Concept( 'faiths', 'конфессий' )|E]: #negative_value +50%#!",
+    "POL": "[casus_bellis|E] $HOLY_WAR_DUCHY_NAME$ oraz $CONQUEST_DUCHY_CB_NAME$ przeciwko [Concept( 'struggle_involved', 'zaangażowanym' )|E] [Concept( 'cultures', 'kulturom' )|E] i [Concept( 'faiths', 'wiarom' )|E]: #negative_value +50%#!",
+    "BEL": ""
+  },
+  {
+    "KEY": "CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Compromise",
+    "RUS": "Компромисс",
+    "POL": "Kompromis",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_compromise_duchy_transfer_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "Connected and [completely_controlled|E] [duchies|E] transfer [de_jure|E] to the primary [kingdom|E] of their [top_liege|E]",
+    "RUS": "Примыкающие и [Concept( 'completely_controlled', 'полностью контролируемые' )|E] [duchies|El] [de_jure|El] переходят в состав основного [Concept( 'kingdom', 'королевства' )|E] [Concept( 'top_liege', 'верховного сюзерена' )|E]",
+    "POL": "Sąsiadujące i [completely_controlled|El] [duchies|El] [de_jure|El] przechodzą do głównego [Concept('kingdom', 'królestwa')|E] ich [Concept('top_liege', 'najwyższego seniora')|E]",
+    "BEL": ""
+  },
+  {
+    "KEY": "fp2_struggle_can_keep_using_struggle_clash_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "[struggle_conquest|E] remains available",
+    "RUS": "[struggle_conquest|E] останется доступным",
+    "POL": "[struggle_conquest_conquests|E] nadal będą dostępne",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_ending_decision_correct_involvement_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You are [struggle_involved|E] in [persian_struggle|E]",
+    "RUS": "Вы [Concept( 'struggle_involved', 'участвуете в' )|E] [Concept( 'persian_struggle', 'борьбе за Персию' )|E]",
+    "POL": "Jesteś postacią [Concept('struggle_involved', 'zaangażowaną')|E] w [persian_struggle|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "struggle_ending_decision_correct_involvement_spain_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You are [struggle_involved|E] in [iberian_struggle|E]",
+    "RUS": "Вы [Concept( 'struggle_involved', 'участвуете' )|E] в [Concept('iberian_struggle', 'иберийской борьбе')|E]",
+    "POL": "Jesteś [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [iberian_struggle|El]",
+    "BEL": ""
+  },
+  {
+    "KEY": "must_not_be_persia_involved_tt",
+    "FILE_PATH": "localization/belarusian/dlc/fp2/dlc_fp2_struggle_ending_decisions_l_belarusian.json",
+    "ENG": "You must not be [struggle_involved|E] in [persian_struggle|E]",
+    "RUS": "Вы не должны [Concept( 'struggle_involved', 'участвовать в' )|E] [Concept( 'persian_struggle', 'борьбе за Персию' )|E]",
+    "POL": "Musisz być [Concept( 'struggle_involved', 'zaangażowaną')|E] postacią w [persian_struggle|El]",
+    "BEL": ""
+  }
+]
