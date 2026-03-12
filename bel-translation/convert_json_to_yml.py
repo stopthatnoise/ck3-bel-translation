@@ -142,24 +142,23 @@ def main():
             # Вызначаем FILE_PATH з першага запісу
             file_path_str = first.get('FILE_PATH', '')
             # FILE_PATH выглядае як: "localization/belarusian/subfolder/filename_l_belarusian.json"
-            # Нам трэба вызначыць імя выніковага YML файла
-
             # Атрымліваем адносны шлях JSON файла адносна bel_path
             rel_json = json_file.relative_to(bel_path)
-            # Замяняем суффікс і мову ў назве файла
+
+            # Замяняем суффікс на l_russian, бо мы падмяняем рускую лакалізацыю
             yml_name = json_file.name
-            yml_name = re.sub(r'_l_belarusian\.json$', '_l_belarusian.yml', yml_name)
+            yml_name = re.sub(r'_l_belarusian\.json$', '_l_russian.yml', yml_name)
             if yml_name == json_file.name:
                 yml_name = json_file.stem + '.yml'
 
-            # Шлях для захавання
-            out_file = out_path / rel_json.parent / yml_name
+            # Шлях для захавання: у папку replace/russian каб перазапісаць арыгінал
+            out_file = out_path / 'replace' / 'russian' / rel_json.parent / yml_name
             out_file.parent.mkdir(parents=True, exist_ok=True)
 
             # Шукаем адпаведны англійскі YML файл для нумароў версій
             eng_versions = {}
             if eng_localization_dir:
-                eng_yml_name = yml_name.replace('_l_belarusian.yml', '_l_english.yml')
+                eng_yml_name = yml_name.replace('_l_russian.yml', '_l_english.yml')
                 # Шукаем у адпаведнай падпапцы
                 eng_yml_path = eng_localization_dir / rel_json.parent / eng_yml_name
                 if eng_yml_path.exists():
@@ -174,8 +173,8 @@ def main():
             # CK3 патрабуе BOM (UTF-8 з BOM) і кадоўка UTF-8
             try:
                 with open(out_file, 'w', encoding='utf-8-sig', newline='\n') as f:
-                    # Першы радок — аб'ява мовы
-                    f.write('l_belarusian:\n')
+                    # Першы радок — аб'ява мовы рускай (бо мы яе падмяняем)
+                    f.write('l_russian:\n')
 
                     for entry in entries:
                         key = entry.get('KEY', '')
